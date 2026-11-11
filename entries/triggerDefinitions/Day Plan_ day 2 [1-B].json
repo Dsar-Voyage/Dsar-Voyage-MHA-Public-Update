@@ -1,0 +1,30 @@
+{
+  "Day Plan: day 2 [1-B]": {
+    "name": "Day Plan: day 2 [1-B]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the first morning: Class 1-B attends the entrance ceremony in the auditorium with Vlad King (Class 1-A's seats are empty: Aizawa took them to the athletics field). After lunch Vlad King takes the class, in gym uniforms, to Gym Gamma for his orientation drills: conditioning and teamwork, not a hero lesson, no costumes. Regular lessons begin tomorrow."
+      }
+    ]
+  }
+}

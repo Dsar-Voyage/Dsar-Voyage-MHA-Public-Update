@@ -1,0 +1,24 @@
+{
+  "Six-Point Circuit": {
+    "name": "Six-Point Circuit",
+    "description": "For the rest of the scene the user holds six anchors instead of three and snaps to any of them once each turn without losing their action, carrying one touched person along if they choose. They drop into a fight from a rooftop anchor, pull an injured ally out to a safe one and are back before the enemy turns. When the scene ends, every anchor fades at once and the user cannot plant new ones until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

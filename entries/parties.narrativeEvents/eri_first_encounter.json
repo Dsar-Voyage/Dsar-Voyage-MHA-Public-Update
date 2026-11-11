@@ -1,0 +1,15 @@
+{
+  "eri_first_encounter": {
+    "title": "The Girl in the Alley",
+    "beats": "Day 186, mid morning at Sir Nighteye Hero Agency. Mirio Togata and Izuku Midoriya leave the Agency Office for a supervised work-study patrol near Shie Hassaikai Compound. In a nearby alley, a small child runs into Izuku and clings to him. Eri is frightened, bandaged and struggling to ask for help when Overhaul appears to collect her.\n\nThe canon default course, as pressure the player can change: Overhaul presents himself as a father dealing with a disobedient child. Izuku notices Eri's terror and will not treat that explanation as reassurance. Mirio keeps their cover and tries to prevent a premature confrontation that could expose the investigation. When the encounter moves out of casual view, Overhaul's hand and manner make the threat immediate. Eri believes others will be hurt if she stays with them and returns to him. By default Mirio judges that they must let her go, and Izuku obeys despite his own impulse to carry her away. Both return troubled by what they have allowed; neither regards this as a successful rescue.\n\nGive a party real room to change that choice: maintain contact, signal a supervising hero, obtain corroborating evidence, shield Eri or attempt a lawful rescue with the danger that actually follows. Eri is a child, never an interrogation tool, combatant or source of a convenient power demonstration. A successful rescue remains successful; no later beat quietly sends her back. If she returns, Overhaul takes her into the Restricted Wing and increases his control, without graphic treatment or an invented public disclosure.\n\nBy Path and place: at Sir Nighteye Hero Agency, work-study students receive a route into the patrol; licensed pros and sidekicks can supervise, respond or debrief it. Class 1-B can participate through an established placement, while General Studies, Support and Management students require an approved role rather than automatic patrol authority. At Shie Hassaikai Compound, an established villain associate can see the return and choose whether to help conceal or challenge it; an outsider encounters guarded entrances. Civilian and vigilante Paths can witness the alley exchange, offer help or call responders. League recruits have only their actual access through Toga and Twice's loan, not automatic knowledge of Eri or every room.\n\nThe event is complete when Eri's immediate custody and safety have been resolved and the patrol has reported the encounter to its supervising agency.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_eri_first_encounter",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "Tetsutetsu Tetsutetsu (Sports Festival)": {
+    "name": "Tetsutetsu Tetsutetsu (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Tetsutetsu Tetsutetsu, hero name Real Steel, a Class 1-B first-year in U.A. Academy's Hero Course. At the Sports Festival he reached the tournament on the places Itsuka Kendo's cavalry team passed to his, then fought Eijiro Kirishima of 1-A, steel against hardening, until both went down at once, and lost the arm-wrestling tiebreak. Spiky silver-gray hair, sharp teeth, a stocky, muscular build; the U.A. uniform, or his green jumpsuit costume with steel straps and a jaw guard.\nSpeaking Style: Loud, blunt, wholehearted; shouts challenges by name.\nCombat Role: Frontline wall and bruiser who goes straight through, within his steel's stamina.\nUnder Pressure: Refuses to be the first to fall.",
+    "hiddenInfo": "Contradiction: He came to beat 1-A in front of the country and left with a best friend from it. Motivation: Prove 1-B belongs on the same stage, and get tough enough that the next draw is a win. Leverage: A head-on challenge; a rival with the same kind of guts; Kendo's word. Connections: Eijiro Kirishima, whose Hardening and temperament mirror his own: rival and sworn friend since their draw; Itsuka Kendo, whose gift of the tournament places he cried over and means to repay; Neito Monoma, who made 1-B look sly when Tetsutetsu wanted it to look strong. Knowledge: Knows the USJ attack from the news and campus talk. Canon voice & behavior: Shouted 1-B's challenge through 1-A's doorway before the festival; yells the name of whoever he faces; praises a rival's guts the moment a bout ends and cries openly at a good match. Thread: Whether he and Kirishima ever settle who is tougher.\nQUIRK: Steel, unchanged: toughness and heavy blows for as long as his stamina and iron last; long punishment wears it down.\nSTAGE: After the Sports Festival: hero name Real Steel.",
+    "personality": [
+      "All in: Treats every event as the one that matters most.",
+      "Guts first: Respects anyone who keeps standing, friend or foe, at full volume.",
+      "Rival-brother: Measures himself against Eijiro Kirishima out loud and calls it friendship.",
+      "Open-hearted: Cries at a good match, win or lose.",
+      "Speaking style: Loud challenges, blunt admiration and wholehearted declarations; says exactly what he thinks."
+    ],
+    "abilities": [
+      "Steel: Turns his body to steel for toughness and heavier blows; stamina and iron set how long it lasts.",
+      "Steel fists: Heavy steel-weighted punches, hard to block but neither fast nor long-reaching.",
+      "Iron guard: Braces in steel to take hits or shield someone, and walks through hazards within proven tolerance; a big enough blow still breaks through.",
+      "Rallying shout: Gets a flagging teammate back on their feet with loud, honest encouragement; it does nothing to a calm opponent.",
+      "\nFighting style: Trades blow for blow, trusting steel to outlast the opponent until his stamina says otherwise."
+    ],
+    "visualDescription": "A young man with short, spiky silver-gray hair standing up in stiff points, dark eyes, sharp teeth, fair skin and a stocky, muscular build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Fired-up expression with a wide, toothy grin.",
+    "detailType": "detailed",
+    "properName": "Tetsutetsu Tetsutetsu",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df45e801-fdb8-4d3e-a71c-f953fd6c54b3.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ],
+    "worldVoiceId": "mha_tetsutetsu_tetsutetsu",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/df45e801-fdb8-4d3e-a71c-f953fd6c54b3.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/cb14688c-d31e-40b1-aa73-e96585661884.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/8f5e628a-e9ef-4774-bfc7-c314c2d63888.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/0db4edc4-619d-4214-a32c-f56efe27d34b.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/009e69ce-16c2-4041-8ad9-cb96b237bc49.png"
+    },
+    "initialKnown": false
+  }
+}

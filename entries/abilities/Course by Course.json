@@ -1,0 +1,29 @@
+{
+  "Course by Course": {
+    "name": "Course by Course",
+    "description": "For the rest of the scene the user reshapes any part of their body into any feature from that day's meals in a breath, and each limb can carry a different one: a claw holding a villain's wrist, tentacles anchoring a falling worker, wings slowing the user's own drop, gills from eaten fish for breathing underwater. Switching never costs an action, and a cracked shell or torn tentacle is shed and regrown from another meal at once. Afterward every meal is burned and the user cannot manifest until they eat and rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

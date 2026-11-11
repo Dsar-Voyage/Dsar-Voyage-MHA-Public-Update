@@ -1,0 +1,29 @@
+{
+  "Send Elsewhere": {
+    "name": "Send Elsewhere",
+    "description": "For the rest of the scene the user can snap objects without going along. When a thrown grenade, a falling girder, a speeding car or any non-living thing up to the size of a car comes within their reach, they touch it and it vanishes to one of their anchors planted in an empty lot or a dry riverbed, arriving at rest. They can do this once each turn, even in the middle of an enemy's action. A bomb sent this way still goes off where it lands, so the user must keep that anchor in an empty place and warn rescuers away from it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

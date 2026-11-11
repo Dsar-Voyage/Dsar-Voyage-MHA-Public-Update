@@ -1,0 +1,32 @@
+{
+  "Hide: Nomu Warehouse": {
+    "name": "Hide: Nomu Warehouse",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "party-location",
+        "operator": "notEquals",
+        "value": "Nomu Warehouse"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "Nomu Warehouse",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Phantom Feint": {
+    "name": "Phantom Feint",
+    "description": "An image of the user lunges at a target within a few strides from one side while the real user strikes from the other. The target guards against the image, and the real blow lands unblocked for bludgeoning damage and knocks them off balance; held back, it only shoves them down. A target who has already seen this feint during the scene is not fooled by it again. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

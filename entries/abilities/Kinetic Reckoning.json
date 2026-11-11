@@ -1,0 +1,25 @@
+{
+  "Kinetic Reckoning": {
+    "name": "Kinetic Reckoning",
+    "description": "The user's signature move: every bit of force soaked up during the scene leaves through a single strike. It deals massive bludgeoning damage that passes through worn armor, shields and hardened skin and hurls the target through whatever stands behind them; afterward the user's body is spent and cannot soften or absorb until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

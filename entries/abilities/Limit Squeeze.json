@@ -1,0 +1,20 @@
+{
+  "Limit Squeeze": {
+    "name": "Limit Squeeze",
+    "description": "Using a limit the user already knows, they hold the fight at the range, pace or angle where that Quirk works worst, so the target must push it harder for less. The target's own Quirk drawback (recoil, heat, nausea, fatigue or whatever it has) sets in now and stays for the rest of the fight. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirkless",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

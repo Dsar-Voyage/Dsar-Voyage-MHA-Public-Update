@@ -1,0 +1,29 @@
+{
+  "Seamless Weld": {
+    "name": "Seamless Weld",
+    "description": "Through their glass, the user now feels the strain in any material it touches, steel, concrete, cable or stone, and fuses glass seams that make a broken thing whole and strong. For the rest of the scene they can weld a snapped crane cable, seal a cracked dam or rejoin a split bridge span, and a single glass bead pressed onto an enemy's armor, shield or support gear finds its weak point and splits it open, leaving it useless. Each weld holds only while the user keeps it in mind, and holding more than three at once makes the oldest fail. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

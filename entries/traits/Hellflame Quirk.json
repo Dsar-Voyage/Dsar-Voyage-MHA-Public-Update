@@ -1,0 +1,48 @@
+{
+  "Hellflame Quirk": {
+    "name": "Hellflame Quirk",
+    "description": "🔥 You make orange flames from your body and shape your own fire.\n\n🌱 At the start you send palm jets about four meters, burn a door-sized area and make several short bursts before pausing.\n📈 With training: cutting streams, flame propulsion, aerial rescues, concentrated bursts that overwhelm tough opponents.\n⚠️ You accumulate heat until reactions slow or you collapse; you cannot absorb heat or control unrelated fires, and your flames can burn allies and consume oxygen.\n🔗 Canon Drawback, built in: Overheating, as stronger and longer burns build body heat.\n🎬 Canon Quirk: Enji Todoroki / Endeavor's Hellflame. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Cooling vest\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Control +10, Combat Tactics +5\n⚡ Starting techniques: Open Palm Kindling, Burning Boundary Strip\n🛡️ Resists: fire",
+    "traitNarrativeEffects": "Scale: orange body flames; normal output spares the skin but heats the body. Start: palm jet about 4 m, door-sized burn, several short bursts before a pause. Fine streams, flight, extreme heat need training.\nLimits: heat builds: repeated or focused bursts slow, exhaust, can collapse the user; rest, cooling help; heat worsens it. No ice, heat absorption, dousing all fires or commanding other flames. Fire burns fuel, eats oxygen, makes smoke; allies, passengers unprotected.\nQuirk Strain: light: short palm jet, ground strip; moderate: latch burn, thrust, focused stream; heavy: penetrating blast, sustained flight; severe: max output, precision with propulsion.\nDrawback: built in, the canon Overheating.\nCanon: Enji Todoroki / Endeavor's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: fire near people or property needs self-defense or licensed duty; user owns burns, smoke, spread.\nLook: skin flames.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Open Palm Kindling",
+      "Burning Boundary Strip"
+    ],
+    "startingItems": [
+      {
+        "item": "Cooling vest",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "fire"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Tartarus Transfer Port": {
+    "name": "Tartarus Transfer Port",
+    "basicInfo": "A walled harbor on a headland at the Izu Peninsula's southern tip, 50 km south of Musutafu Station, under two hours by road or rail, where prisoners bound for Tartarus board armored transfer boats. The Tartarus guard force runs it, with prefectural police on the gate. Inside the fence are a helipad, two piers, holding cells, a guardhouse, a fuel depot and a low operations building with a radio mast. One gated road leads in, open only to staff, escorts and approved visitors; everyone else is turned back at the outer barrier, and even cleared visitors are searched and logged before they reach the piers. Transfers run at set hours, usually at night, and stop in rough seas. Tartarus lies 55 km south-southeast: about two hours by boat, twenty minutes by helicopter. Prisoners arrive in armored vans under police escort, are checked against the manifest, held if the boat is not ready, then walked to the pier in full restraints. By day the port is quiet: crews maintain the boats, guards drill on the piers, and supply crates go out on the morning boat. A player can escort a prisoner, wait for a transfer, check a manifest, or report for a guard rotation on the island. Floodlights stay on all night over idling boat engines, the wind off the open sea never stops, and the fishing harbor's lights twinkle on the far side of the bay.",
+    "hiddenInfo": "Spring storms have delayed several transfers this month, and prisoners are waiting in the port's holding cells longer than intended; the cells were built for a night, not a week, with no proper restraint rigs for long stays and only the guardhouse crew to watch them. The night crew has started skipping the second manifest check to keep the backlog moving, so a prisoner's identity is now confirmed once at the van and not again at the pier. A fishing boat has been seen idling offshore during transfers more than once; the crew suspects a reporter with a long lens, but nobody has checked, and the patrol boats are kept busy escorting the transfers themselves. The boat is local, and someone in the nearest fishing town rented it out for cash. Two prisoners currently waiting in the holding cells are scheduled for the next calm night, and the duty officer has asked the police for an extra escort that has not yet arrived. The port's staff are tired, proud of a record of no escapes, and quietly convinced that the backlog will be fine as long as the weather turns soon.",
+    "x": -3.47,
+    "y": 18.843,
+    "radius": 1,
+    "region": "Tartarus Coast",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Port Security Gate": {
+        "description": "The only way into the port: the single gated road ends here at an outer barrier of striped steel arms, concrete blocks and a tall fence topped with wire, with a guardhouse beside it and watchtowers on the headland behind. Prefectural police officers in body armor run the gate around the clock, checking every vehicle against the day's list; anyone not on it is turned back, and cleared visitors are searched, scanned and logged by name and time before they go any farther. A mirror on a pole is run under every car, and phones and bags go into numbered trays while the officers phone the operations building to confirm. Armored prisoner vans come down the coast road under escort, usually after dark, and the arms rise for them without a stop; on quiet days the gate sees supply trucks in the morning, staff cars at shift change and almost nothing else. A sign in plain letters warns that Quirk use anywhere inside the fence is grounds for immediate detention. The wind off the open sea never stops, and the floodlights hum above the barrier all night. Past the gate, the road leads to the Transfer Waiting Hall and down to the Transfer Pier.",
+        "paths": [
+          "Transfer Waiting Hall",
+          "Transfer Pier"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb054e58-c1c5-4a3d-9a03-c565b7c36087.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Transfer Waiting Hall": {
+        "description": "A long, low room in the operations building, under the radio mast, where everyone bound for the island waits for a boat: rows of bolted plastic seats, a duty desk behind thick glass, a wall clock beside a board that lists the next transfer time and, more often than not, a handwritten note that it is delayed by weather. Escort officers, Tartarus guards reporting for a rotation, lawyers and approved visitors sit here with their papers on their knees, under the eye of a guard by the door. Manifests are checked at the duty desk, names read aloud and matched to faces, and nobody walks to the pier without an escort. A heavy steel door at the far end leads to the holding cells, where prisoners wait when the boat is not ready; it stays shut, and only the duty officer's keycard opens it. A vending machine sells canned coffee for 130 yen, and a television bolted high on the wall shows the marine forecast on a loop. The room smells of floor polish, diesel and wet coats, and the windows rattle when the wind swings onshore. Doors lead back out to the Port Security Gate and, through the escort corridor, down to the Transfer Pier.",
+        "paths": [
+          "Port Security Gate",
+          "Transfer Pier"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/25bdabc6-fc61-4190-9b56-e34b94408ee3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Transfer Pier": {
+        "description": "Two concrete piers reaching out into a walled basin, under floodlight towers that stay on all night. The armored transfer boats tie up here, squat gray hulls with sealed cabins and barred ports, their engines idling and the exhaust drifting over the water; police patrol boats lie alongside, and a helipad sits on the headland just above. Prisoners are walked down the pier in full restraints, a guard on each side and more ahead and behind, checked against the manifest and taken aboard; the crossing to Tartarus, 55 km to the south-southeast, takes about two hours, or twenty minutes by helicopter. Transfers run at set hours, usually at night, and stop entirely in rough seas, when the boats strain at their lines and the spray comes over the outer wall. By day crews maintain the boats, guards drill on the piers, and supply crates go out on the morning boat. Yellow lines mark where visitors may stand, and nobody crosses them without an escort. The air smells of salt, diesel and rust, and across the bay the fishing harbor's lights twinkle. The pier leads back to the Transfer Waiting Hall and up the road to the Port Security Gate.",
+        "paths": [
+          "Transfer Waiting Hall",
+          "Port Security Gate"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/05f94e95-b389-4d1a-9e79-65f7530ca0e5.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/77886291-a6f2-4399-87cf-df14c2ae0455.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Gifted: Explosion": {
+    "name": "Gifted: Explosion",
+    "description": "🧬 Explosion, as an extra Quirk put into your body.\n\n🌱 At the start each blast reaches a few meters, cracks concrete and throws an adult off their feet, and a blast aimed behind you hurls you clear of danger.\n📈 With training: focused shots down a street, flashes that blind and deafen without injury, flight on chained blasts, wall-breaching rescues, barrages, a diving sky strike.\n⚠️ It is loud and bright every time, so you cannot hide it.\n🔗 Common drawback pairing: Recoil, as every blast jolts your wrists and arms.\n🎬 Similar canon Quirks: Katsuki Bakugo (Explosion).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Explosion family): Scale: the user detonates blasts from the palms (or soles, by player choice). A new adult user's blast reaches a few meters, cracks concrete and throws an adult off their feet; aimed behind or below, it hurls the user a few meters at a time. Bigger feats need techniques. Limits: each blast hits everything in its cone, so crowds, hostages and fuel are real risks; bound or covered palms cannot fire; every blast is deafening and bright, so no stealth. At the start it cannot hover in place or make a quiet blast. Quirk Strain: light: a blast or hop; moderate: focused shot, flash, blast flight; heavy: breach, barrage; severe: signature dive, weaving through a whole scene. Type: Emitter. Law: an unlicensed public blast brings property and injury charges at once; police treat an unlicensed user as armed. Look: in use, palms glow and crackle; each blast throws an orange flash and gray smoke with a bang heard blocks away.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Striking",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "explosive"
+    ]
+  }
+}

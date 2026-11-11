@@ -1,0 +1,37 @@
+{
+  "Mount Lady": {
+    "name": "Mount Lady",
+    "type": "Pro Hero",
+    "currentLocation": "Hero Agency Row",
+    "currentArea": "Ready Room",
+    "gender": "female",
+    "faction": "",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "female melodic bright",
+    "basicInfo": "Mount Lady (Yu Takeyama, Mt. Lady for short), a rookie pro who grows into a giant, famous since her debut the spring before the entrance exam, when she kicked down a rampaging villain on camera and introduced herself. Long wavy blonde hair, violet eyes, an average build; a purple-and-cream costume and a horned purple domino mask.\nSpeaking Style: Bright, breezy, self-promoting; poses for any camera and needles Kamui Woods; short urgent orders in a crisis.\nCombat Role: Giant-form capture: kicks, grabs and pins; narrow streets and crowds keep her small.\nUnder Pressure: Takes the rescue over the shot, then hopes someone filmed it.",
+    "hiddenInfo": "Contradiction: She steals captures on camera, yet in a disaster she stands between it and the crowd without checking the angle. Motivation: A top ranking, sponsors and her face everywhere; underneath, the wish to deserve them. Concealment: Fear of being a novelty act; at the sludge villain attack the spring before the entrance exam the street was too narrow for her to grow. Connections: Kamui Woods, whose capture she took at her debut; they share an agency block and trade jabs in public. Knowledge: Endorsements, rankings, and which streets are wide enough for her. Canon voice & behavior: Arrives with a giant kick and a pose; under real threat she says little and holds on. Thread: Whether chasing the spotlight costs someone before she earns it.\nQUIRK: Gigantification. Ordinary height or one giant size, about twenty meters, nothing between; her costume grows too. Giant, she is clumsy and the biggest target around.",
+    "personality": [
+      "Camera-ready: Finds the press angle at any incident and poses for it, even mid-capture.",
+      "Scene-stealer: Grabs captures other heroes set up and calls it teamwork.",
+      "Brave underneath: Shields civilians without hesitating, then looks for the photographer.",
+      "Speaking style: Bright, breezy self-promotion and teasing; short, direct orders in a rescue."
+    ],
+    "abilities": [
+      "Gigantification: Grows to her one giant size in moments; she needs open ground and cannot pick a smaller size.",
+      "Canyon Cannon: Her debut move, a running start that grows into a giant flying kick; it needs a long runway.",
+      "Big rescue: Catches debris, blocks a road or lifts a vehicle clear; fine work at that size is clumsy.",
+      "Media sense: Knows where every camera is and gives the line that airs; she overplays it.",
+      "\nFighting style: Kicks first, then pins the target for capture; at ordinary size she has only a rookie's training."
+    ],
+    "visualDescription": "A young woman with long, wavy blonde hair, violet eyes, fair skin and an average build. She wears her hero costume: a purple outfit with cream panels, pale gloves and boots, and a purple domino mask with two pale, pointed horn-like tips rising above the eyes. Bright, confident expression with a showy, camera-ready smile.",
+    "detailType": "detailed",
+    "properName": "Mount Lady",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed547eee-0e1a-4af8-b878-855e616d9da5.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mount_lady",
+    "initialKnown": true
+  }
+}

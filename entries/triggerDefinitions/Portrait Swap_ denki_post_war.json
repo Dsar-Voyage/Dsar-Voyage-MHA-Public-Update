@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: denki_post_war": {
+    "name": "Portrait Swap: denki_post_war",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/418a9430-497b-472d-a227-b6a21d48b089.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/418a9430-497b-472d-a227-b6a21d48b089.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/418a9430-497b-472d-a227-b6a21d48b089.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/418a9430-497b-472d-a227-b6a21d48b089.png"
+      }
+    ]
+  }
+}

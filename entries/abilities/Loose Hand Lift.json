@@ -1,0 +1,20 @@
+{
+  "Loose Hand Lift": {
+    "name": "Loose Hand Lift",
+    "description": "The user sends a detached hand over a short wall, through an open window or around a corner to catch a ledge or lift a latch. It can open a route for the user or a nearby ally until the end of the user's next turn. The hand must physically fit through the opening and can be caught or struck while separated. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

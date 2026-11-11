@@ -1,0 +1,30 @@
+{
+  "Toyooka": {
+    "name": "Toyooka",
+    "basicInfo": "The Tajima highlands of northern Hyogo, inland from the Sea of Japan: the lower Maruyama River valley around Toyooka, the Yabu and Asago valleys to the south, and the high, snowy Hyonosen range in the west. The cell is almost all land. Toyooka sits on a flat, flood-prone basin where the Maruyama runs slowly north toward the sea; rice paddies there are farmed without pesticide so that reintroduced Oriental white storks, once extinct in the wild, can feed in them, and the great white birds are a common sight on rooftops and poles. Kinosaki's hot springs lie just over the northern edge. South of Toyooka, Izushi is a small castle town of stone walls, a wooden clock tower and dozens of shops serving buckwheat noodles on small plates. Farther south, Yabu and Yoka line the river's upper valley, and at Asago the ruins of Takeda Castle crown a ridge that rises above an autumn sea of clouds, earning it the name castle in the sky. The old Ikuno silver mine lies at the southern edge, its tunnels open for tours. The western mountains are cattle country, home of the Tajima black cattle from which Kobe beef descends, with ski slopes at Hachi-Kita and Hyonosen and the hot-spring village of Yumura, where people boil eggs in the scalding springs. Summers are hot in the basins, winters gray and deeply snowy. Toyooka also makes a large share of Japan's bags and cases. The JR Sanin line runs up the Maruyama valley and the Bantan line south to Himeji, the Kitakinki Toyooka Expressway links to the Bantan road, and a small airport at Toyooka has flights to Osaka. Shin-Osaka is about two and a half hours by the Konotori limited express, Musutafu about four and a half. Toyooka has a small hero agency, and licensed heroes cover the valleys from there and from Yoka; a cattle farmer whose Quirk calms livestock is the kind of thing everyone in a village knows about.",
+    "hiddenInfo": "The worries are aging villages, winter isolation and the cattle trade: Tajima breeding stock is valuable, and theft of calves or bloodlines is a known rural crime. Hikers and skiers go missing on Hyonosen. Small villainy is copper theft, shoplifting at roadside stations and onsen-town drunkenness. Major hero help is two hours away in Kobe or Osaka; local heroes handle almost everything alone.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -8,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/842286d8-803a-481c-a0cc-83d302b9a048.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

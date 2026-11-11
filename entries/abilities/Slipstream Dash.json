@@ -1,0 +1,20 @@
+{
+  "Slipstream Dash": {
+    "name": "Slipstream Dash",
+    "description": "The user drives through the water with fins, webbed limbs or a tail and crosses a river, a flooded street or a stretch of harbor in moments. They can reach a swimmer and pull them along, launch out onto a pier or a boat deck at the end, or ram a target in the water, dealing bludgeoning damage and leaving them too winded to swim or strike until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Courtyard Rain Release": {
+    "name": "Courtyard Rain Release",
+    "description": "The user touches and floats rubble totaling nearly three tonnes, pushes it over a courtyard up to twenty meters wide and releases it this turn. It deals heavy bludgeoning damage; held back, it falls across an empty route to block vehicles. Everyone needs warning before release, and the user vomits afterward and cannot activate the Quirk until their following turn ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

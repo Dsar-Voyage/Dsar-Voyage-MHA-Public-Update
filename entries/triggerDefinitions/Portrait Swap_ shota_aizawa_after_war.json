@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: shota_aizawa_after_war": {
+    "name": "Portrait Swap: shota_aizawa_after_war",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Shota Aizawa",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4bc72cf-8ce9-4d1b-9daa-4d0d8aa1cf80.png"
+      }
+    ]
+  }
+}

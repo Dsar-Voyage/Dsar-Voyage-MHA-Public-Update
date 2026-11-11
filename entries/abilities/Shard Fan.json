@@ -1,0 +1,24 @@
+{
+  "Shard Fan": {
+    "name": "Shard Fan",
+    "description": "The user throws both arms forward and a fan of glass shards bursts over everyone in a cone a few strides wide. Each takes heavy slashing and piercing damage and is driven back; held back, the user grows the shards blunt and they only batter for bludgeoning damage and knock people down. Sharp shards stay on the ground and cut anyone who crosses them, so the user must warn rescuers and clear them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

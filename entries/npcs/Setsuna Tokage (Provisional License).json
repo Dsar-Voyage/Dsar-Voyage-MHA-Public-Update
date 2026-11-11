@@ -1,0 +1,44 @@
+{
+  "Setsuna Tokage (Provisional License)": {
+    "name": "Setsuna Tokage (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Setsuna Tokage, hero name Lizardy, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and may now act as a hero in an emergency. Loose moss-green hair, a sharp-toothed grin; the U.A. uniform.\nSpeaking Style: Fast, chatty, teasing; candid opinions nobody asked for.\nCombat Role: Scout and harrier: wide scatters for search, distraction and capture.\nUnder Pressure: Improvises aloud and keeps a scout piece on the exit.",
+    "hiddenInfo": "Contradiction: The summer showed her real danger, and she answers it with chatter over sharper planning. Motivation: Prove her Quirk is a search-and-rescue tool, not a party trick. Concealment: Worry kept behind jokes. Canon voice & behavior: Teases an opponent while she circles them; narrates a search out loud for her teammates. Thread: What a licensed scout does when nobody is giving the orders.\nQUIRK: Lizard Tail Splitter; wide, long-held scatters.\nSTAGE: After the provisional license exam: passed, with all of 1-B.",
+    "personality": [
+      "Chatterbox: Keeps the 1-B dorm lively and talks classmates through their nerves.",
+      "Playful: Turns a drill into a game with a running score.",
+      "Careful underneath: Scouts her riskiest assumption before she commits.",
+      "Speaking style: Lively, direct banter and quick instructions; talks fast, laughs easily, thinks out loud."
+    ],
+    "abilities": [
+      "Body division: Splits into as many as fifty floating pieces; a piece caught or hit is her caught or hit.",
+      "Search sweep: Spreads pieces through rubble or a crowd to find the missing; each piece sees only what is in front of it.",
+      "Multiple angles: Pieces distract, surround or pin a target; more distraction than damage.",
+      "Provisional license: May act as a hero in an emergency; not yet a full license.",
+      "\nFighting style: Scatters early, scouts while she talks and strikes from the unwatched angle, setting up teammates' captures."
+    ],
+    "visualDescription": "A young woman with loose moss-green hair parted at the center, bright green eyes, fair skin and a medium build. Her wide grin shows a row of small, sharp pointed teeth. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Confident, easy grin.",
+    "detailType": "detailed",
+    "properName": "Setsuna Tokage",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c7cb2f82-b3a0-4923-916c-191136247196.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_setsuna_tokage",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/c7cb2f82-b3a0-4923-916c-191136247196.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/6a4764a2-1751-4d32-be0b-2990f66f751f.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/1448649a-4222-4ef3-aad3-0b02a369af32.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/02373de6-0140-49e7-aac5-36813533044b.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/2c865756-332f-4c62-95ff-c929b41da738.png"
+    },
+    "initialKnown": false
+  }
+}

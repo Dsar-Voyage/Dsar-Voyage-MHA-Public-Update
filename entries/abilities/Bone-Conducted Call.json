@@ -1,0 +1,20 @@
+{
+  "Bone-Conducted Call": {
+    "name": "Bone-Conducted Call",
+    "description": "The user pitches their voice so its vibration carries through rubble, doors and smoke to people within half a block, who feel the words in their ribs and jaw even over sirens or ringing ears. Frightened or buried survivors can follow the user's directions to a safe exit and tap back on pipes or stone to mark their spot. It reaches half the distance of a pure sound user's call and leaves the user's throat raw. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

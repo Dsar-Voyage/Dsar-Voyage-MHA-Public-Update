@@ -1,0 +1,49 @@
+{
+  "Manifest Quirk": {
+    "name": "Manifest Quirk",
+    "description": "🐙 You turn your body parts into features from your recent meals.\n\n🌱 At the start you make one tentacle after eating octopus, or cover one arm in shell after eating shellfish.\n📈 With training: chosen body parts changed, several food traits combined, extra limbs, rapid form changes, sustained full-body combinations.\n⚠️ You need suitable recent food and traits fade with digestion; large forms cost food and stamina, changed parts can be injured, and allergies still matter.\n🔗 Canon Drawback, built in: Finite Fuel, as your forms depend on food still in your body.\n🎬 Canon Quirk: Tamaki Amajiki's Manifest. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Quirk fuel pack x5, Fuel belt\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Analysis +10, Cooking +5\n⚡ Starting techniques: Shell Hand Block, Tentacle Hold",
+    "traitNarrativeEffects": "Scale: recently eaten food becomes usable animal or plant features where the user chooses. Start: octopus gives one tentacle; shellfish an arm shell. Combining foods, many limbs, rapid changes need training.\nLimits: traits fade with digestion; empty stomach, nothing. Only the food's own traits: octopus tentacles, shellfish shell, poultry wings or feathers. Manifested parts take space and can be hurt. Large forms or several traits need more food and stamina. Allergies, chewing, digestion still matter.\nQuirk Strain: light: one small trait; moderate: protective shell, reach, brief movement; heavy: several traits, large form; severe: sustained full-body combination.\nDrawback: built in, the canon Finite Fuel.\nCanon: Tamaki Amajiki's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Transformation.\nLaw: user answers for manifested limbs' damage; cooking excuses no unsafe use.\nLook: real food features.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Cooking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Shell Hand Block",
+      "Tentacle Hold"
+    ],
+    "startingItems": [
+      {
+        "item": "Quirk fuel pack",
+        "quantity": 5
+      },
+      {
+        "item": "Fuel belt",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

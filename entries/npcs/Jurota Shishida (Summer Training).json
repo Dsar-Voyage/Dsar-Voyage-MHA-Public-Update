@@ -1,0 +1,44 @@
+{
+  "Jurota Shishida (Summer Training)": {
+    "name": "Jurota Shishida (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 16,
+    "tier": "elite",
+    "voiceTag": "male baritone warm",
+    "basicInfo": "Jurota Shishida, hero name Gevaudan, a Class 1-B first-year in U.A. Academy's Hero Course. Since the festival he has interned for a week, sat the final exams and trained at the forest camp beside 1-A, where he lived through the League of Villains' attack. Shaggy brown hair and fur, upward fangs, small angular goggles, a big frame; the U.A. uniform or his white-collared hero costume.\nSpeaking Style: Formal and courteous; loud once transformed, then an apology.\nCombat Role: Tracker and grappler, clearer-headed in beast form after camp.\nUnder Pressure: Steadies others and calls a teacher when a situation outgrows training.",
+    "hiddenInfo": "Contradiction: Camp pushed him to drive the beast harder where he most wants it polite. Motivation: Close the gap with 1-A and command the form fully. Concealment: Long drills in beast form shorten his temper. Knowledge: Knows the attack from inside the forest; Katsuki Bakugo's kidnapping, Kamino and All Might's retirement from the news. Thread: Whether practice makes the beast his tool.\nQUIRK: Beast: held longer, with a clearer head.\nSTAGE: After the summer camp and Kamino; U.A. locked down.",
+    "personality": [
+      "Courteous: Holds doors and addresses even rivals formally.",
+      "Disciplined: Drills the change until he keeps form and manners at once.",
+      "Excitable: Transformed, he grins, growls and charges, then is embarrassed by it.",
+      "Speaking style: Formal, complete sentences; still polite but loud and eager once transformed."
+    ],
+    "abilities": [
+      "Beast: A larger, stronger form he now holds longer; clumsy in confined spaces.",
+      "Scent and hearing: Finds hidden people by smell and catches movement in the dark; wind or strong odors confuse him.",
+      "Heavy lifting: In beast form shifts rubble or carries the injured; tight spaces defeat him.",
+      "Gentleman's manner: His courtesy calms people his size alarms.",
+      "\nFighting style: Tracks by scent and sound, transforms to close, then grapples inside the team's plan."
+    ],
+    "visualDescription": "A tall young man with a big frame, a mane of shaggy brown hair and fur framing his face, two short fangs jutting upward from his lower jaw and dark eyes behind small angular goggles. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Composed, more serious expression.",
+    "detailType": "detailed",
+    "properName": "Jurota Shishida",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b432d36d-0faf-40e9-88d2-774dfed4dbe0.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_jurota_shishida",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/b432d36d-0faf-40e9-88d2-774dfed4dbe0.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/82748984-dc2e-44eb-b09f-8cd06c59e410.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/cae0d794-8dc0-4a3d-8d3e-3029d61e64a3.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/ecbf1e90-1bca-422b-9601-3fb456fdcec1.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5485f4ec-0988-4a39-8a9b-35a68b2e0918.png"
+    },
+    "initialKnown": false
+  }
+}

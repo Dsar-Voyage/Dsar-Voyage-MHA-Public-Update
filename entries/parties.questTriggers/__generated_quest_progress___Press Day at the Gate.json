@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Press Day at the Gate": {
+    "name": "__generated_quest_progress__/Press Day at the Gate",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has fielded reporters at the Main Gate during Present Mic's practicum, kept student, staff and security details private, and filed a press summary."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Press Day at the Gate"
+      }
+    ]
+  }
+}

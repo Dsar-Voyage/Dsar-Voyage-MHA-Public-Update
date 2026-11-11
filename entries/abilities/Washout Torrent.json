@@ -1,0 +1,20 @@
+{
+  "Washout Torrent": {
+    "name": "Washout Torrent",
+    "description": "The user drives a waist-high wave down a hallway or along a street. Everyone in its path takes bludgeoning damage, is swept off their feet and carried several strides before it drains away, and loose weapons and debris wash out of reach. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

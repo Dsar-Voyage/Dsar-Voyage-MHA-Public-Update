@@ -1,0 +1,24 @@
+{
+  "Lifeblood Muster": {
+    "name": "Lifeblood Muster",
+    "description": "The user calls on every drop of their own blood already spilled in the scene, even blood that has dried, soaked into cloth or been trodden into the ground, and it rises at once without a new cut. They harden it into cuffs on every enemy they choose, who cannot move their arms or legs until they break free with a hard effort, into seals on every bleeding person in sight, or both. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Sparking Snatch": {
+    "name": "Sparking Snatch",
+    "description": "The user crooks a hand at a steel weapon, tool or key ring within five meters and pulls it to their palm as a blue spark jumps across the metal. The jolt makes the holder's fingers twitch open before they can swing or fire, and the user catches the item or drops it at their feet. It cannot move objects heavier than a rifle, and plastic, wood or rubber-gripped gear ignores the pull. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

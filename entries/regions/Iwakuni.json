@@ -1,0 +1,30 @@
+{
+  "Iwakuni": {
+    "name": "Iwakuni",
+    "basicInfo": "Iwakuni is the western mouth of Hiroshima Bay and the island-strewn waters south of it, a cell that is mostly Inland Sea: the land is the Iwakuni coast and its hills in the northwest corner, the big island of Suo-Oshima in the west, the southern half of Etajima and the Kurahashi island group in the northeast, and the Kutsuna islands of Ehime in the southeast, with the Iyo-nada sea opening to the south and the Aki-nada to the east. Iwakuni, a city of over a hundred thousand on the Nishiki River delta, is known for the Kintaikyo, a wooden bridge of five steep arches over the river, with a reconstructed castle on the wooded hill above, cormorant fishing on summer nights, rare white snakes kept as a natural monument, pressed Iwakuni sushi and lotus fields along the shore; a small airport on the shore has flights to Haneda. Suo-Oshima, joined to the mainland by a bridge from Yanai, is an island of mikan orange terraces, quiet beaches and fishing ports with old family ties to Hawaii. Across the water, Etajima keeps the red-brick halls of the naval officer school, and Kurahashi and Shimokamagari, Kure's islands, are linked by bridges and known for shipbuilding history, beaches and citrus. Small inhabited islands such as Hashirajima, Okikamuro and Heigunjima dot the sea, and Nakajima in the Kutsuna group grows mikan within sight of Matsuyama. The climate is mild Setouchi, calm and sunny, with summer typhoons and winter sea fog. Shin-Iwakuni and Iwakuni stations are about four hours from Musutafu by shinkansen and Sanyo Main Line, and about an hour from Fukuoka; a small single-track line follows the Nishiki River up into the hills. The Akinada Tobishima Kaido bridges hop between Kure's islands, ferries and high-speed boats from Hiroshima and Kure to Matsuyama cross the eastern waters, and small ferries reach the outer islands. Visitors walk the bridge, swim at island beaches and pick oranges. Iwakuni has police stations and a small hero agency, island police boxes are few, and ferry crews and fishers with water Quirks often help with rescues under permit.",
+    "hiddenInfo": "The islands are aging fast and many run on a single ferry. Small-time trouble is citrus theft, Quirk-assisted poaching of octopus and shellfish, bike theft at the bridge, and fights in the bars near the station. Jet noise from the base is an old local complaint. Hero help comes from Iwakuni or Hiroshima, but on the islands a boat or a flying hero is the only fast way in, and the coast guard does most sea rescues.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -12,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df47fb3a-8809-46d6-974e-223f9b9d5749.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

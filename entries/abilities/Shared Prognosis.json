@@ -1,0 +1,29 @@
+{
+  "Shared Prognosis": {
+    "name": "Shared Prognosis",
+    "description": "For the rest of the scene the user can pass a reading on. After reading a person, the user grips an ally's hand and the ally sees the same coming stretch, every scene exactly as the user saw it, and acts on it as their own knowledge. Up to four allies can share each reading. Each ally who shares one suffers a splitting headache and cannot use their own Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

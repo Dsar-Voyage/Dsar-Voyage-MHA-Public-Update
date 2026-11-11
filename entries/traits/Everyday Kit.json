@@ -1,0 +1,36 @@
+{
+  "Everyday Kit": {
+    "name": "Everyday Kit",
+    "description": "🍙 You carry ordinary comforts for daily life.\n\n⚖️ All of it is legal and unremarkable.\n👕 Casual clothes let you leave a uniform or costume behind and blend into a crowd.\n🔄 Food and medicine are used up on use and restocked at any convenience store or pharmacy.\n\n🎒 Starts with: Casual clothes, Bento box ×2, Painkillers, Bandages ×2, Omamori charm",
+    "traitNarrativeEffects": "The character has a set of everyday clothes for off-duty hours, boxed lunches, over-the-counter pain tablets, some bandage and tape, and a shrine charm for safety tied to their bag. All of it is legal and unremarkable. Casual clothes let them leave a uniform or costume behind and blend into a crowd, which matters to anyone who wants a private life apart from school, work or a hero identity. Food and medicine are used up on use and restocked at any convenience store or pharmacy.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      },
+      {
+        "item": "Bento box",
+        "quantity": 2
+      },
+      {
+        "item": "Painkillers",
+        "quantity": 1
+      },
+      {
+        "item": "Bandages",
+        "quantity": 2
+      },
+      {
+        "item": "Omamori charm",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

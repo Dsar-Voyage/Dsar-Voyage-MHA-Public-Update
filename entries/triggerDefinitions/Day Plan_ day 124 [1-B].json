@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 124 [1-B]": {
+    "name": "Day Plan: day 124 [1-B]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 124
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_forest_camp_arrival",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the summer training camp begins: in the morning Classes 1-A and 1-B board buses with Aizawa and Vlad King for the Wild Wild Pussycats' lodge in the mountains; there are no classes on campus."
+      }
+    ]
+  }
+}

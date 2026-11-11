@@ -1,0 +1,39 @@
+{
+  "School Day: private session": {
+    "name": "School Day: private session",
+    "recurring": true,
+    "phase": "planning",
+    "effects": [],
+    "script": "(function(){const ALL=[\"Izuku Midoriya\", \"Katsuki Bakugo\", \"Shoto Todoroki\", \"Ochaco Uraraka\", \"Tenya Iida\", \"Eijiro Kirishima\", \"Momo Yaoyorozu\", \"Tsuyu Asui\", \"Denki Kaminari\", \"Kyoka Jiro\", \"Fumikage Tokoyami\", \"Mina Ashido\", \"Hanta Sero\", \"Mashirao Ojiro\", \"Mezo Shoji\", \"Rikido Sato\", \"Koji Koda\", \"Toru Hagakure\", \"Yuga Aoyama\", \"Minoru Mineta\", \"Itsuka Kendo\", \"Neito Monoma\", \"Tetsutetsu Tetsutetsu\", \"Ibara Shiozaki\", \"Juzo Honenuki\", \"Setsuna Tokage\", \"Togaru Kamakiri\", \"Hiryu Rin\", \"Pony Tsunotori\", \"Jurota Shishida\", \"Yosetsu Awase\", \"Sen Kaibara\", \"Shihai Kuroiro\", \"Kojiro Bondo\", \"Kinoko Komori\", \"Kosei Tsuburaba\", \"Nirengeki Shoda\", \"Yui Kodai\", \"Reiko Yanagi\", \"Manga Fukidashi\"],STG=['',' (Sports Festival)',' (Summer Training)',' (Provisional License)'];const pl=check({type:'party-location'})||'',pa=check({type:'party-area'})||'';const X=check({type:'action-text'})||[],ax=String(Array.isArray(X)?(X[X.length-1]||''):X);const on=/\\b(private(ly)?|in private|secret(ly)?|alone|just (us|me and|the (two|three|four|five|six) of us)|only (us|me and|the (two|three|four|five|six) of us)|nobody else|no one else|closed[- ]door|lock(s|ed)? the doors?|keep (it|this) (quiet|secret|between us))\\b/.test(ax.toLowerCase());let P=storage.privS;const d=check({type:'read-number',key:'currentDay'})||1;if(P&&(P.l!==pl||P.a!==pa)){for(const n of (P.aw||[]).slice(0,9))effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:P.l,area:P.a});storage.privL={a:P.a,w:P.l+' '+P.a,d:P.d||d,k:P.k};storage.privS=null;P=null;}if(on&&!P){P={l:pl,a:pa,d:d,k:ALL.filter(b=>b.split(' ').some(w=>w.length>2&&ax.indexOf(w)>=0))};storage.privS=P;}else if(on&&P){for(const b of ALL)if(P.k.indexOf(b)<0&&b.split(' ').some(w=>w.length>2&&ax.indexOf(w)>=0))P.k.push(b);storage.privS=P;}if(!P){const Q=storage.privL;if(Q&&d-Q.d<=14&&Q.w.toLowerCase().split(/[\\s'.]+/).some(w=>w.length>2&&w!=='the'&&ax.toLowerCase().indexOf(w)>=0)){effects.push({type:'story',instruction:'Narrator only: the session at '+Q.a+' on day '+Q.d+' was private: only the player'+(Q.k.length?', '+Q.k.join(', '):'')+' and any party members were there. Nobody else saw it or knows what happened unless one of them told them.'});return;}if(!effects.length)skip=true;return;}const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));for(const b of (on?P.k:[])){if(effects.length>=4)break;const n=b+STG[sg];if(check({type:'npc-area',npc:n})===pa&&check({type:'npc-location',npc:n})===pl)continue;const h=check({type:'npc-health',npc:n});if(typeof h==='number'&&h<=0)continue;effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:pl,area:pa});}for(const b of ALL){if(effects.length>=9)break;if(P.k.indexOf(b)>=0)continue;const n=b+STG[sg];if(check({type:'npc-area',npc:n})!==pa||check({type:'npc-location',npc:n})!==pl)continue;if(check({type:'npc-in-party',npc:n})===true)continue;effects.push({type:'npc-placement',npc:n,operation:'moveAway'});P.aw=P.aw||[];if(P.aw.indexOf(n)<0)P.aw.push(n);}storage.privS=P;effects.push({type:'story',instruction:'Narrator only: the player is in a private session at '+pa+'. '+'Only the party'+(P.k.length?' and '+P.k.join(', '):'')+' are here; no one else walks in, and nobody outside '+'learns what happens here unless the player or someone present tells them.'});})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "party-region",
+        "operator": "equals",
+        "value": "U.A. Campus"
+      },
+      {
+        "type": "read-boolean",
+        "key": "campusOff",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

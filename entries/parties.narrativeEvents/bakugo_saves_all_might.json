@@ -1,0 +1,15 @@
+{
+  "bakugo_saves_all_might": {
+    "title": "The Hand That Reaches Back",
+    "beats": "Immediately after the armored engagement on day 405, All Might faces execution in All For One's grasp. At U.A. Academy, Katsuki Bakugo's repair reaches a decisive moment while Best Jeanist protects him. Izuku Midoriya remains responsible for Shigaraki at the ground battle. If All Might was already freed or Bakugo's condition changed, use the rescue still needed rather than recreating the default injuries.\n\nThe canon default course, as pressure the player can change: Edgeshot's internal repair has restored the damaged structures, while Bakugo's evolving explosions supply the final stimulus that allows his heart to function again. Edgeshot survives in an extremely diminished state. Bakugo rises with severe injuries still present and recognizes the chance to reach All Might. Izuku understands his intention and uses Gearshift to accelerate the rescue. Bakugo crosses the remaining distance and tears All Might free before the execution can be completed.\n\nGive the player a concrete opening around the rescue: a clear launch path, protection for Edgeshot, a distraction at the captor's position, or a safe receiving point. Bakugo's renewed movement is not full recovery; his damaged heart and right arm remain serious liabilities. A player can secure another rescue if he cannot rise. Once All Might is free, assign an actual escort and treatment destination rather than leaving him standing beside the duel. Izuku cannot abandon Shigaraki without exposing everyone around the ground engagement.\n\nBy place: U.A. Academy stages Bakugo's return to consciousness and departure; Kamino Ward stages the interception of All Might's execution. Mount Fuji Battlefield provides Izuku's support only across the established line of action. Musutafu General Hospital prepares for All Might and Edgeshot. Okuto Island, Gunga Mountain Villa, Jaku City, and Takoba Municipal Stadium can answer local extraction or communication needs. A broadcast allows coordination, not physical intervention from an unconnected front.\n\nBy Path: Class 1-A and Class 1-B protect the rescue opening; General Studies prepares reception; Support identifies surviving equipment. Management relays extraction signals and Faculty coordinates cover. Licensed Sidekick receives All Might; Licensed Pro Hero obstructs All For One. League of Villains Recruit can prevent or allow the rescue; Independent Villain chooses an intervention. Vigilante assists extraction; Civilian Life opens a route for medics and shelters nearby casualties.\n\nThe event is complete when All Might is free or the rescue attempt has otherwise resolved, and his escort, Bakugo's actual condition, and Edgeshot's survival are established.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_bakugo_saves_all_might",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

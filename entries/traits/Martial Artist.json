@@ -1,0 +1,31 @@
+{
+  "Martial Artist": {
+    "name": "Martial Artist",
+    "description": "🥋 You control a fight with throws, joint locks, pins and precise strikes, redirecting force instead of overpowering it.\n\n🌱 Built on long practice in judo, aikido, karate, jujutsu or a family school. Works with any Quirk or none.\n🎯 You can end a fight without lasting harm, and agencies value clean, nonlethal captures.\n⚠️ Much larger or armored opponents, and Quirks that keep you at range, limit what leverage can do.\n📈 You learn more techniques as your Grappling and Striking improve.\n⚖️ Restraining someone is legal in self-defense or to stop a crime, then you hand them to the police. Injuring with a lock beyond that is assault.\n\n📈 Grants: Technique +1, Grappling +15, Striking +10\n⚡ Starting technique: Borrowed Force Throw",
+    "traitNarrativeEffects": "Formal unarmed martial art: balance, timing, leverage; throws people who rush them, locks joints, pins, lands exact strikes on nerves and soft targets. At start they subdue an untrained adult without injury and hold their own against a trained fighter of similar build; much larger or stronger foes, armored or hardened bodies, or Quirks that keep them at range limit leverage. Not covered: weapons, ranged attacks, binding a captive (Capture). Pure training: the same if Quirkless; techniques cost stamina, never Quirk Strain. Legal and social treatment: restraint is legal in self-defense or to stop a crime in progress, then the person goes to the police; injuring with a lock beyond that is assault. Martial arts are respected; many police and heroes train. Agencies value clean, nonlethal captures; a villain trained this way is rarer and more dangerous. How it looks: balanced stance, open hands, quiet footwork, a bow before bouts, worn training clothes or school belt.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Grappling",
+        "modifier": 15
+      },
+      {
+        "skill": "Striking",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Borrowed Force Throw"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

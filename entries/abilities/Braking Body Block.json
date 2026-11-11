@@ -1,0 +1,20 @@
+{
+  "Braking Body Block": {
+    "name": "Braking Body Block",
+    "description": "The user sprints up to fifteen meters to reach a person in danger this turn, brakes and guides them a few steps behind cover. This moves one person clear of an approaching attacker or falling object if the route is open. The user must see the threat early enough to stop, and taking the impact themselves gives no protection from its damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

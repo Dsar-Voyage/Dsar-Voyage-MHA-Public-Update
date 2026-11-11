@@ -1,0 +1,24 @@
+{
+  "Conduit Takeover": {
+    "name": "Conduit Takeover",
+    "description": "The user presses a palm to a wall's wiring and runs current and magnetic pull through one floor of a building for the rest of the scene. They can slam and lock steel doors, switch lights and alarms, and jolt any enemy touching metal on that floor for electric damage while pulling their hands fast to the fixture. It reaches only that single floor, fries the user's own devices, and ends if the user lifts their palm. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

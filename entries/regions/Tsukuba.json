@@ -1,0 +1,30 @@
+{
+  "Tsukuba": {
+    "name": "Tsukuba",
+    "basicInfo": "Southwestern Ibaraki and the mountain of Tsukuba, a cell of flat farmland, lotus ponds and research campuses on the eastern Kanto plain, with a corner of southern Tochigi in the north. Mount Tsukuba stands alone in the middle, its twin summits Nantai and Nyotai reached by cable car and ropeway, with a great shrine at its foot and old stone lanterns along the trails. South of it the planned Tsukuba Science City spreads its wide boulevards, national laboratories, a space agency center, a large student population and the terminus of the Tsukuba Express. Tsuchiura, on the western inlet of Lake Kasumigaura in the southeast, is an old castle and canal town ringed by lotus fields and famous for its October fireworks competition. Ishioka lies north of it under the Yasato fruit hills, Kasama with its potteries and great Inari shrine sits in the northeast, and along the Kinu and Kokai rivers in the west lie Shimotsuma, Chikusei's Shimodate, the silk weaving town of Yuki, the old Makabe merchant streets of Sakuragawa, and Moka in Tochigi. The northern edge touches the pottery town of Mashiko. The land is low and fertile: rice, lotus root, chestnuts, pears, grapes, strawberries and sweet potatoes, plus factories and logistics centers along the expressways. Summers are hot and humid, winters dry and windy with the occasional heavy snow. The Tsukuba Express reaches Tsukuba from Akihabara in about forty-five minutes; the Joban line runs through Tsuchiura and Ishioka; the Mito line crosses the north through Yuki and Kasama; the Kanto Railway, the Moka Railway with its weekend steam train, and the Joban, Ken-O and Kita-Kanto expressways fill in. From Musutafu, Tsukuba is about two hours. Visitors climb Mount Tsukuba and buy toad-oil salve from the street performers, tour science exhibitions, eat lotus root dishes in Tsuchiura and chestnut sweets in Kasama, and see the chrysanthemum festival at Kasama's Inari shrine in autumn. Tsukuba hosts a small hero agency that works closely with laboratory security, police boxes stand at every station, and sidekicks earn overtime at the fireworks, where a hero with a wind Quirk keeps the smoke off the crowd.",
+    "hiddenInfo": "Tsukuba's newcomers, researchers and students from across Japan and abroad, live a separate life from the old farm villages around them, and new housing estates on old paddies are a quiet sore point. The laboratories worry more about stolen data and prototypes than street crime. Hero help is quick in Tsukuba and Tsuchiura and twenty to thirty minutes out in the paddies. Small villainy: bicycle theft, burglary of empty farmhouses, unlicensed Quirk practice in empty lots, and phone scams that target elderly farmers.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 2,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/84466860-afc9-4eb3-8163-fbfa9d23eae7.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

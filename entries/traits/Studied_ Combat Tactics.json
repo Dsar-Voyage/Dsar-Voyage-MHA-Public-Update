@@ -1,0 +1,20 @@
+{
+  "Studied: Combat Tactics": {
+    "name": "Studied: Combat Tactics",
+    "description": "♟️ You studied fighting as a problem: a team's game plans, military history, strategy games or a coach who drilled you to read opponents.\n\n🌱 Positioning, terrain, cover, tempo and spotting a tell. In a fight you look first for the exit, the high ground and what the opponent wants.\n⚠️ Unfamiliar Quirks, many fighters or a surprise attack can wreck a plan, and knowing the right move does not give you the body to make it.\n⚖️ A plan for a fight is no permission to start one.\n🏫 It shows in questions about the ground, the timing and the other side before anything else.\n\n📈 Grants: Combat Tactics +15",
+    "traitNarrativeEffects": "The character has studied how fights are won: positioning, terrain, cover, tempo, baiting an attack, spotting a tell and planning an engagement before it starts. In a fight they look first for the exit, the high ground and what the opponent wants. Prior study, not mastery: unfamiliar Quirks, many fighters at once and a surprise attack can still wreck a plan, and knowing the right move does not give the body to make it. Not a license: a plan for a fight is no permission to start one. It shows in questions about the ground, the timing and the other side before anything else.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Combat Tactics",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

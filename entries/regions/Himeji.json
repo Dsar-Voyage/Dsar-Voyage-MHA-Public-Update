@@ -1,0 +1,30 @@
+{
+  "Himeji": {
+    "name": "Himeji",
+    "basicInfo": "The Harima plain of western Hyogo, from the Seto Inland Sea shore at Himeji, Aioi and Ako north into the folded hills and river valleys at the southern edge of the Chugoku Mountains. The southern fringe is coast and industry: the Harima industrial belt of steelworks, shipyards, power plants and tank farms lines the shore from Takasago west past Himeji's Shikama port, and ferries leave from there for Shodoshima and the small Ieshima islands just offshore. Himeji itself is a large, busy city laid out around Himeji Castle, the brilliant white keep on its hill, with a broad, straight avenue running north from the shinkansen station to the gate; the mountaintop temple of Engyo-ji sits in cedar woods on Mount Shosha to the northwest, reached by ropeway. Each October the Nada Fighting Festival sends portable shrines crashing into one another before a huge crowd. West along the coast, Aioi has a deep inlet with a shipyard and an oyster festival, and Ako is a quiet castle town of salt-making and the memory of its forty-seven retainers. Inland, Tatsuno is a small castle town of breweries making light Harima soy sauce and of hand-pulled somen noodles; Fukusaki, on the Ichikawa River, is a gentle farm town with statues of water imps along its stream; Shiso and Sayo are wooded mountain country of rivers, ayu fishing and small hot springs, and a giant ring-shaped research facility sits on a hilltop near Kamigori. Summers are hot and dry, winters mild. Food is Himeji oden with ginger soy, almond toast, conger eel and Ako salt. The Sanyo Shinkansen stops at Himeji and Aioi; the JR Kobe and Sanyo lines, the Sanyo Electric Railway and the Bantan and Kishin lines run out from Himeji, and the Sanyo and Chugoku expressways cross the cell. Shin-Osaka is half an hour away, Musutafu about two and a half hours. Himeji has several hero agencies and busy police; the hill towns each keep a police box and are covered by licensed heroes on patrol, and at the Nada festival sidekicks with strength Quirks stand ready to catch a toppling shrine.",
+    "hiddenInfo": "Himeji is a big working city with big-city problems on a modest scale: gang remnants in the nightlife streets near the station, theft and fencing around the industrial port, and festival brawls that get out of hand when Quirks come out. The castle draws pickpockets as well as tourists. The coastal industrial zone has strict security and occasional accidents that need heroes with fire or rescue Quirks. Kobe's larger agencies are thirty minutes away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -8,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ff80221e-93c5-4a62-bf98-149aff53a096.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

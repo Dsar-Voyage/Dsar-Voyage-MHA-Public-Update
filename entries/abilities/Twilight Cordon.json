@@ -1,0 +1,25 @@
+{
+  "Twilight Cordon": {
+    "name": "Twilight Cordon",
+    "description": "The user raises a high halo of white light over a whole building or city block for the rest of the scene, casting hard, aimed shadows across every street and floor below. The halo keeps shadows and smoke off allies and lights safe lanes for rescuers, while rings of cast darkness sweep the ground to bind every enemy in sight or lash them with searing light for heavy light damage; held back, the rings only pin enemies unhurt. Running both natures at this scale burns the user's stamina and drains their shadow flat, leaving spots in their vision until they rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

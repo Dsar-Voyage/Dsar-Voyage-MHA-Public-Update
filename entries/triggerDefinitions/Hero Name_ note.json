@@ -1,0 +1,16 @@
+{
+  "Hero Name: note": {
+    "name": "Hero Name: note",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-string",
+        "key": "heroName",
+        "operator": "notEquals",
+        "value": ""
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const n=storage.heroName||'';const d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;const st=n+'|'+d+'|'+b+'|'+(check({type:'party-location'})||'');if(!n||storage.heroNoteStamp===st){skip=true;return;}storage.heroNoteStamp=st;const tr=check({type:'player-traits'})||{};const pc=Object.keys(tr)[0]||'The player character';effects.push({type:'story',instruction:'HERO NAME (narrator only): '+pc+' is the hero \"'+n+'\", approved by Midnight on Hero Name Day. On duty, in costume, at agencies and in the press, people call '+pc+' \"'+n+'\".'});})();"
+  }
+}

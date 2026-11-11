@@ -1,0 +1,20 @@
+{
+  "Ward Rounds": {
+    "name": "Ward Rounds",
+    "description": "The user moves down a line of wounded people within a room, touching each in turn. Every person touched stops bleeding, keeps breathing steadily and holds on until medical care arrives, though their wounds stay open and each loses brief stamina. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

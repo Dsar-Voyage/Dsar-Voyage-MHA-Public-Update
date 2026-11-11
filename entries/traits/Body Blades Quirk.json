@@ -1,0 +1,43 @@
+{
+  "Body Blades Quirk": {
+    "name": "Body Blades Quirk",
+    "description": "🗡️ You grow blades from your own skin.\n\n🌱 At the start a curved edge about thirty centimeters long slides from your forearms, shins or knuckles in under a second, cutting rope, cloth, wood and plastic.\n✂️ It frees a tied-up person in a single stroke, and you strike with the flat when you hold back.\n📈 With training: caught weapons, people pinned by their clothes, blade-spur climbs, people cut from wrecks, cleaved armor, a bloom of edges, a room disarmed bloodlessly.\n🔗 Common drawback pairing: Bodily Toll, as every blade tears its way out through your skin.\n🎬 Similar canon Quirks: Togaru Kamakiri (Blades).\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Control +10, Melee Weapons +5\n⚡ Starting techniques: Crescent Draw, Freeing Cut\n🛡️ Resists: slashing",
+    "traitNarrativeEffects": "Scale: the user grows bone-hard blades through the skin of forearms, shins, knuckles and elbows. A new adult user extends an edge of about thirty centimeters in under a second and holds it at will; it cuts rope, cloth, plastic and wood but only scratches steel. More needs techniques. Limits: reach is arm's length plus the blade; blades cannot be thrown or stop bullets. A heavy blow or twisting grip snaps a blade, which bleeds and regrows in about a minute; a grapple on the arms shuts them down. Every edge cuts, so holding back means striking with the flat. Quirk Strain: light: a cut, freeing someone; moderate: block, pin, spur climb; heavy: carving a wreck, cleaving armor; severe: signature bloom, a room of precise cuts. Type: Transformation. Law: blades count as a drawn weapon: unlicensed public use brings police; a cut on a person is an armed attack. Look: curved blades, bone-white or the player's color, slide out with a dry scrape, tearing unslit sleeves.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Melee Weapons",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Crescent Draw",
+      "Freeing Cut"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "slashing"
+    ]
+  }
+}

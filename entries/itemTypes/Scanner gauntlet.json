@@ -1,0 +1,20 @@
+{
+  "Scanner gauntlet": {
+    "name": "Scanner gauntlet",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "value": 5
+      }
+    ],
+    "description": "A forearm sleeve of sensors with a small display that reads body heat, movement and energy output from a few meters away. It shows when someone's Quirk is building up and where it is aimed, but it does not name the Quirk: working that out is still the wearer's job. [ Support Gear | About ¥140,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6457c614-3fcf-4596-8c23-5808597d9bb7.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

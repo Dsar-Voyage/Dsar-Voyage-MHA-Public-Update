@@ -1,0 +1,28 @@
+{
+  "Pacific off Shirahama": {
+    "name": "Pacific off Shirahama",
+    "basicInfo": "Open Pacific southwest of the Kii Peninsula, off Shirahama, Susami and the coast toward Cape Shionomisaki. No land lies inside the cell; the Kii coast is a dark wooded line a few dozen kilometers to the north, with Shirahama's hotels and headland visible on clear days, and open ocean everywhere else. The water is deep and a strong cobalt blue. The Kuroshio, Japan's great warm current, runs fast along the south of the cell and swings close to land near Cape Shionomisaki to the east, often at several knots, carrying warm water, flying fish and the occasional sea turtle. Swell is constant; typhoons pass in late summer and autumn, and winter brings strong northwest winds off the land. Ships bound to and from the Kii Channel cross the area, and long-distance overnight ferries from Osaka and Kobe pass at night. Fishing boats from Susami troll for bonito, and boats from Tanabe and Shirahama go out for tuna, mackerel and deep-water fish. A party here is on a fishing or charter boat out of Shirahama or Susami, a coast guard patrol from Tanabe, or carried by a flying or swimming hero.",
+    "hiddenInfo": "Open water: weather and the Kuroshio's strong current are the danger, sweeping disabled boats and swimmers far offshore quickly. Coast guard boats from Tanabe and Kushimoto handle rescues, and only flying or maritime heroes from the Shirahama area can reach far out. Small trouble is illegal fishing and charter skippers cutting corners.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -7,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/19891e29-8e97-41eb-9199-99e3c8d57e7f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

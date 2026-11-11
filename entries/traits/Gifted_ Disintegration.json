@@ -1,0 +1,32 @@
+{
+  "Gifted: Disintegration": {
+    "name": "Gifted: Disintegration",
+    "description": "🧬 Disintegration, as an extra Quirk put into your body.\n\n🌱 At the start you crumble a weapon, a lock or a shield in a moment, and you can hold the decay to a thin line that cuts a trapped person free.\n📈 With training: swung weapons dusted, floors crumbled under a gang, walks through walls, collapses lifted off the trapped, structures dropped exactly where you choose.\n⚠️ On a living person it maims or kills, so every lawful use is on matter.\n🔗 Common drawback pairing: Loss of Control, as the decay creeps past where you meant it to stop.\n🎬 Similar canon Quirks: Tomura Shigaraki (Decay), Overhaul (Overhaul).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Disintegration family): Scale: the user breaks down nonliving matter under a full hand. A new adult user turns a pistol to grit in a moment, a door in seconds; decay spreads about a meter through joined matter. On a person it destroys gripped flesh; held past a moment it maims or kills; decay through ground or walls stops at living flesh. More needs techniques. Limits: bound or gloved hands, a broken grip or distance stop it; it cannot repair or undo; falling debris endangers those below. Quirk Strain: light: grip, narrow cut; moderate: dusting a weapon, crumbling a floor, walking through walls; heavy: clearing rubble, dropping part of a building; severe: signature, unmaking named things through a structure. Type: Emitter. Law: use on a person is charged as grievous assault or attempted murder, so licensed users work on matter only (breaching, demolition, rescue); police treat unlicensed users as armed.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Demolition",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

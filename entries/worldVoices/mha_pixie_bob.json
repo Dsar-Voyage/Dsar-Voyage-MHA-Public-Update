@@ -1,0 +1,15 @@
+{
+  "mha_pixie_bob": {
+    "label": "Pixie-Bob",
+    "voiceTag": "female warm friendly",
+    "instructions": "Loud, theatrical, mid-high woman's voice with a brassy, playful bite and cat-like flourishes: mock hisses, growly purrs, dramatic wails about being single. Fierce and energetic in action, shouting with gusto. Never demure.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

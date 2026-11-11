@@ -1,0 +1,21 @@
+{
+  "Items: gym uniform issued": {
+    "name": "Items: gym uniform issued",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-item",
+        "item": "U.A. gym uniform",
+        "operator": "lessThan",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){if(storage.gymIssued||[\"Men's Locker Room\",\"Women's Locker Room\",'Athletics Field'].indexOf(check({type:'party-area'})||'')<0||!/U\\.A\\. (Hero Course|General Studies|Support Course|Management Course)/.test(JSON.stringify(check({type:'player-traits'})||''))){skip=true;return;}storage.gymIssued=true;effects.push({type:'item-add',item:'U.A. gym uniform',quantity:1,target:'satisfyingPlayers'},{type:'story',instruction:'Narrator only: the character is issued a U.A. gym uniform here, free of charge. It is already in their inventory.'});})();"
+  }
+}

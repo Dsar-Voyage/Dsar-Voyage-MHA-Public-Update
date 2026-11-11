@@ -1,0 +1,15 @@
+{
+  "side_hero_league_baseball": {
+    "title": "Hero League Baseball",
+    "beats": "Late summer at Takoba Municipal Stadium, lent for a day as a municipal event: the Hero League, the pros' charity baseball circuit, holds an exhibition game for disaster relief. It is the first big hero event since the Symbol of Peace retired, and the stands are full of people who need a good afternoon. Commission crews have leveled a diamond across the Exam Arena. A team of Musutafu pros, Mount Lady, Kamui Woods and Death Arms among them, takes on a side from U.A. Academy's Class 1-A. Midnight is chief umpire, and the ground rules allow Quirks under baseball rules: a Quirk may act on the ball, never on a runner or a fielder, and giant form stays in the outfield.\n\nDefault course, as pressure the player can change: Class 1-A picks positions in a shouting match. Katsuki Bakugo claims the mound, still in the news since Kamino and pitching angrier for it; Eijiro Kirishima catches with hardened hands; Tenya Iida leads off and steals every base he can; Ochaco Uraraka's floating fly ball starts a long argument at home plate; Momo Yaoyorozu manages the bench and the signs; Izuku Midoriya bats cleanup, muttering through each pitcher's habits. Shoto Todoroki's ice on the base path draws a warning from Midnight. Shota Aizawa calls the whole thing irrational from the dugout, then starts moving fielders. Death Arms hits for power, Kamui Woods turns double plays, and Mount Lady plays to every camera. By default the pros win by a single run in the ninth and both sides line up to shake hands.\n\nBy path: a Hero Course party plays for the student side, and a 1-B party fills the bench with Vlad King's loud blessing. A licensed pro plays for the pros; a sidekick is a pinch runner, a base coach or the agency's face signing autographs in the stands. A party at U.A. Academy can catch the class bus from the Campus Bus Terminal or follow the broadcast from the dorms.\n\nThe event is complete when the last out is made, or the party leaves the stadium.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_hero_league_baseball",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

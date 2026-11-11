@@ -1,0 +1,20 @@
+{
+  "Open-Air Stair": {
+    "name": "Open-Air Stair",
+    "description": "The user sets panels under their own feet a step at a time and runs up them, climbing to a rooftop or crossing a street-wide gap in open air. A few people can follow them across while the stair stands, and it vanishes once the last of them steps off. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

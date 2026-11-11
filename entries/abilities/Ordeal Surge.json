@@ -1,0 +1,25 @@
+{
+  "Ordeal Surge": {
+    "name": "Ordeal Surge",
+    "description": "The user's signature move: their body answers every hazard taken this scene at once, layering armor hide, insulation and gill slits together. Until the end of their next turn those hazards deal no damage, and their rush deals massive bludgeoning damage in reach; held back, it bowls foes down unhurt. Afterward stiff overcorrection halves speed and blocks adaptations for one turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

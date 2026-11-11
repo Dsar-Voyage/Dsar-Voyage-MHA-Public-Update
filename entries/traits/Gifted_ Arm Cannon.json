@@ -1,0 +1,32 @@
+{
+  "Gifted: Arm Cannon": {
+    "name": "Gifted: Arm Cannon",
+    "description": "🧬 Arm Cannon, as an extra Quirk put into your body.\n\n🌱 At the start you fire quick calcium rounds, or hold a glowing, whining charge that knocks an adult down from across a street.\n📈 With training: door breaching, recoil jumps and fall braking, rescue ropes and grapple lines, blunt stun rounds, signal flares, a street-wide salvo.\n⚠️ The cannon is useless for fine work until it turns back into a hand.\n🔗 Common drawback pairing: Recoil, as stronger shots jar your shoulder and throw you backward.\n🎬 Similar canon Quirks: none close.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Arm Cannon family): Scale: one forearm (side fixed at creation) becomes a heavy bone-and-muscle cannon. A new adult user fires reserve-made calcium rounds about twenty meters, or a few-second charge that drops an adult across a street; special rounds and reach need training. Limits: no grip or fine work; reverting takes about three seconds. Straight shots can hit people beyond. Ropes, grapples, harnesses are carried gear. Quirk Strain: light: snap shot, flare; moderate: basic charge, rope launch, recoil jump, blunt round; heavy: breaching shot; severe: signature, sustained battery, awakened techniques. Type: Transformation (also fits Mutant). Law: outside self-defense or licensed duty, shooting people is assault, breaching property damage; strays are on the user.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

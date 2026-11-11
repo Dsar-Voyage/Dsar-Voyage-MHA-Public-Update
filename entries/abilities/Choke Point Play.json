@@ -1,0 +1,20 @@
+{
+  "Choke Point Play": {
+    "name": "Choke Point Play",
+    "description": "The user pulls the fight back into a doorway, stairwell, alley or bridge where only a narrow front can reach the user's side. While the fight stays there, opponents can come at the user's group only in single file, and anyone trying to slip around the side or behind is spotted before arriving. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Field Tactician",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

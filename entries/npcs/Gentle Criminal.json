@@ -1,0 +1,37 @@
+{
+  "Gentle Criminal": {
+    "name": "Gentle Criminal",
+    "type": "Villain",
+    "currentLocation": "Kiyashi Shopping Mall",
+    "currentArea": "Food Court",
+    "gender": "male",
+    "faction": "",
+    "level": 20,
+    "tier": "elite",
+    "voiceTag": "male british refined",
+    "basicInfo": "Danjuro Tobita, self-styled Gentle Criminal: a theatrical gentleman villain who stages and films small crimes for an online channel few watch, to put his name in history. His partner La Brava runs the camera. Swept-up white hair, a curled mustache and goatee; a black high-collared tailcoat, a purple scarf, purple gloves.\nSpeaking Style: Courtly flourishes and grand declarations pitched at the lens.\nCombat Role: Elasticity by touch: bounces off elastic air and rebounds attackers; weak once pinned.\nUnder Pressure: Doubles down on the show and exits with style; if La Brava is threatened, the manners drop.",
+    "hiddenInfo": "Contradiction: He plays the principled gentleman, but his stunts frighten ordinary people, and his legend barely exists outside his videos. Motivation: A name in history, after his dream of becoming a hero came to nothing. Concealment: That failure, and his fear of being forgotten. Leverage: La Brava's safety above all; an audience; a slight to his dignity. Connections: La Brava (Manami Aiba), partner, camera operator and hacker, the one person who believes in him; he would surrender to protect her. Knowledge: Heroes as their audience knows them; how long a stunt lasts before pros arrive. Canon voice & behavior: Bows before the trick; sips the tea La Brava pours while they plan in the Food Court; stays polite while fleeing. Thread: A cell, a legacy, or the redemption his care for La Brava keeps open.\nQUIRK: Elasticity. Makes what he touches elastic, air included, never his own body; every effect needs a touch, and a strong blow tears elastic air.",
+    "personality": [
+      "Theatrical: Stages each crime as a scene: entrance, speech, flourish, getaway.",
+      "Courteous: Apologizes to bystanders and keeps his manners mid-escape.",
+      "Devoted partner: Values La Brava and their shared dream above any score.",
+      "Speaking style: Polite flourishes, dramatic declarations, open emotion when the act falters."
+    ],
+    "abilities": [
+      "Elasticity: Makes a touched target elastic, a wall or the air itself; no touch, no effect.",
+      "Air trampoline: Elastic air for rebounds and midair turns; each patch needs a touch.",
+      "Elastic barrier: Elastic air that catches an attacker and flings them back; a strong blow tears through.",
+      "Showmanship: Holds a crowd with a bow and a speech; it buys seconds, not loyalty.",
+      "\nFighting style: Avoids a brawl; bounces, deflects and misdirects for the camera, and flees with style once the shot is lost."
+    ],
+    "visualDescription": "A tall, slender man with swept-up wavy white hair, a large curled white mustache and a pointed goatee, light skin and expressive dark eyes. He wears a black high-collared tailcoat over a white shirt and dark waistcoat, a purple scarf and purple gloves. Dignified, theatrical expression with a courteous smile.",
+    "detailType": "detailed",
+    "properName": "Gentle Criminal",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ab4150b7-2b5e-497e-bb91-f20a11c4e878.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_gentle_criminal",
+    "initialKnown": false
+  }
+}

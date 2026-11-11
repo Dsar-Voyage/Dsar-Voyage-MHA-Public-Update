@@ -1,0 +1,15 @@
+{
+  "side_festival_rehearsal": {
+    "title": "The Band",
+    "beats": "Late October to early November, evenings at U.A. Academy in the final week before the School Festival. In the Class 1-A Dorm Lounge, Tenya Iida and Momo Yaoyorozu lead a vote to choose Class 1-A's festival event—something that will lift the spirit of the whole campus, other courses included, after months of tension.\n\nDefault course as pressure: the class settles on a live concert with a dance performance and stage effects, and everyone looks straight at Kyoka Jiro. She turns red, twists her earlobe jacks, and tries to deflect, until Denki Kaminari and Eijiro Kirishima remind her how much her music means to her; she agrees to lead the band and sing. Auditions in the Music Room quickly sort the players: Katsuki Bakugo blasts the drum kit with explosive precision after refusing at first and swearing they will crush every listener in the hall, Momo takes the keyboard, Kaminari and Tokoyami take guitars, and Jiro takes bass and vocals. In the lounge, Mina Ashido drills the dancers—Izuku Midoriya, Ochaco Uraraka, Tenya Iida, and the rest—while Shoto Todoroki, Eijiro Kirishima, and Yuga Aoyama plan an ice-and-light disco ball for the gym ceiling. Meanwhile, training outside in the Heights Alliance Yard before dusk, Izuku works on long-range wind pressure and visits Mei Hatsume in the Development Studio, where she enthusiastically outfits him with her newest \"baby\": support gloves that focus twenty-percent finger flicks into clean Air Force blasts.\n\nBy path: a Class 1-A student takes a role in the band, the dance crew, or the stage-effects team across the Class 1-A Dorm Lounge and Music Room, or tests gear alongside Izuku and Hatsume in the Development Studio.\n\nThe event is complete when the band's arrangement locks in, the dance and stage cues are set, and Izuku tests his Air Force gloves.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_festival_rehearsal",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

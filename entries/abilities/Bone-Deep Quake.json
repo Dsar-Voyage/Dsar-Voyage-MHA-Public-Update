@@ -1,0 +1,24 @@
+{
+  "Bone-Deep Quake": {
+    "name": "Bone-Deep Quake",
+    "description": "The user plants a palm on a target and releases a deep quake that passes through armor, padding, shields and hardened skin into the body behind them. It deals heavy bludgeoning damage that no worn armor or block reduces, and the target cannot stand until the end of their next turn; held back, it only drops them dizzy to their knees. Afterward that arm is numb and the user cannot use it until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

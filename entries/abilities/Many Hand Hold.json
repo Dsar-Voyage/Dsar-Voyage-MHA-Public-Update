@@ -1,0 +1,20 @@
+{
+  "Many Hand Hold": {
+    "name": "Many Hand Hold",
+    "description": "The user forms hands on their extra arms and grips a person within reach from several sides, holding their arms and shoulders until the end of the user's next turn. An ally can apply restraints during that time. The user must keep enough arms committed to the hold, and a stronger target may break free or injure a limb. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

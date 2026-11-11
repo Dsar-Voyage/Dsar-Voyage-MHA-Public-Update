@@ -1,0 +1,29 @@
+{
+  "Untethered Shade": {
+    "name": "Untethered Shade",
+    "description": "The shadow leaves the user's body entirely and works on its own anywhere within a city block for the rest of the scene, at full strength in darkness. It carries out the user's orders out of sight, scouting, guarding a door, hauling survivors or striking for slashing damage, held back to a shove when the user says so, and whispers its reports back. While it is away the user cannot use any other technique of the Quirk, every blow and burn the shadow takes hurts the user too, and the shadow may still refuse any order it is given. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Gut Check Hook": {
+    "name": "Gut Check Hook",
+    "description": "The user slips inside the opponent's guard and drives a short hook under the ribs. Deals bludgeoning damage, and an opponent without armor or a hardened body is winded: they cannot sprint, shout or make a demanding effort on their next action. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Brawler",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Striking",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

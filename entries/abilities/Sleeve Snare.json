@@ -1,0 +1,20 @@
+{
+  "Sleeve Snare": {
+    "name": "Sleeve Snare",
+    "description": "The user throws two balls onto a target's sleeves or trouser legs within a classroom's length. When the target brushes a wall, floor or their own clothing, the caught limbs stick and their movement stops until they remove the clothing or break free. The user needs two clear hits, and bare skin gives the target fewer safe ways to pull away. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

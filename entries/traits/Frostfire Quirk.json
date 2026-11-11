@@ -1,0 +1,44 @@
+{
+  "Frostfire Quirk": {
+    "name": "Frostfire Quirk",
+    "description": "❄️ Fire and ice run through your whole body at once: pale-blue flames that leave frost behind.\n\n🧬 A Fusion Quirk of Fire and Ice: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you throw a frost-leaving flame jet about three meters and spread a steaming sheet of ice about five.\n📈 With training: flame-burst hops, warm-veined ice cuffs, a fog wall where heat meets cold, a temperature lock on an object or patch of ground, and thermal shock that cracks stone, locks and ice.\n⚠️ Each side checks the other: your fire thaws your own ice, and rain blunts the flame.\n🔗 Common drawback pairing: Overheating, as your body temperature swings between fever and deep chill.\n🎬 Similar canon Quirks: Shoto Todoroki (Half-Cold Half-Hot), but with no left-right split.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Hoarfrost Jet, Cinder Glaze\n🛡️ Resists: fire, cold",
+    "traitNarrativeEffects": "Scale: flame and frost together from any skin, no left-right split; at first a three-meter riming flame jet or a five-meter steaming ice sheet in a second or two. More needs learned techniques. Limits: their fire thaws their ice in moments unless held; rain or sealed rooms blunt the flame, heat thins the frost. Quirk Strain: light: jet, glaze; moderate: burst hop, steaming cuff, fog curtain; heavy: temperature lock, thermal fracture, close sear; severe: signature shockwave, warding a room. Fusion: Fire and Ice at about half single-nature range and force; lacks lances, fire flight, permanent ice walls, white heat; only it has thermal shock (cracks stone, locks, ice), fog walls and temperature locks (object or ground held at one extreme). Type: Emitter. Law: unlicensed public fire or ice, or cracking locks, doors or pavement, brings criminal, property and burglary charges. Look: pale-blue fire on frosted skin.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Hoarfrost Jet",
+      "Cinder Glaze"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "fire",
+      "cold"
+    ]
+  }
+}

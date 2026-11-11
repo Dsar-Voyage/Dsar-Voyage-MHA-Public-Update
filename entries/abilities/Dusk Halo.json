@@ -1,0 +1,20 @@
+{
+  "Dusk Halo": {
+    "name": "Dusk Halo",
+    "description": "The user grows a cloud of small smoked-glass shards that circle them and cast pools of shade for the rest of the scene. The shards serve both as blades that strike in reach for slashing damage, or bludgeoning if held back, and as stepping points: the user steps into the shade under one shard and out under another within ten meters. Running both natures parches the user and thins their shadow. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Event Wrap: side dispatcher 5": {
+    "name": "Event Wrap: side dispatcher 5",
+    "recurring": true,
+    "effects": [],
+    "script": "const E=[\"v_copycats\", \"gs_careers_day\", \"side_hero_league_baseball\", \"v_league_broke\", \"sup_costume_rush\", \"fac_license_plans\", \"pro_charity_gala\", \"v_toga_rehearsal\", \"b1_license_prep\", \"man_agency_placement\", \"side_big_three\", \"side_training_of_the_dead\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 140
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 285
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Feather-Gust Sweep": {
+    "name": "Feather-Gust Sweep",
+    "description": "The user hovers still in midair on wing-made updrafts outside a window or above a hazard and beats a feather-guided gust that sweeps up to two people out of the path of a fall, a vehicle or a collapse, carrying them a few strides onto safe ground. Running wing lift and directed wind at once drains breath fast and leaves the wings trembling, so the user cannot attack until their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

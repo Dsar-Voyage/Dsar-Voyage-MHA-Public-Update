@@ -1,0 +1,20 @@
+{
+  "Belly Beam": {
+    "name": "Belly Beam",
+    "description": "The user faces a target within a classroom's length and fires one brief laser burst from the navel. It deals moderate light damage and can knock a person back a step; held back, the user aims at the ground beside them to force them away without a direct hit. Cover blocks the straight beam, and another immediate shot brings a stomach cramp. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

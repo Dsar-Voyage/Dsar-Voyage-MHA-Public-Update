@@ -1,0 +1,15 @@
+{
+  "b1_day_after_usj": {
+    "title": "The Day After the USJ",
+    "beats": "The day after the attack on the USJ, at U.A. Academy. Classes are called off across campus while the faculty meet, and the Class 1-B Dorm Lounge fills early. Every channel runs the same aerial shot of the dome and the police tape across the road, and the anchors repeat what the school has confirmed: a group calling itself the League of Villains broke into Class 1-A's rescue lesson, two teachers are hurt, All Might drove the attackers off, police hold dozens of thugs, and the ringleaders got away. No student died. The Class 1-A side of the building is very quiet.\n\nItsuka Kendo has made tea for anyone who wants it and makes sure every worried family on the phone gets an answer. Tetsutetsu Tetsutetsu paces and wants to go next door and do something. Ibara Shiozaki prays for the injured. Pony Tsunotori asks what \"villain alliance\" means in the anchor's fast Japanese, and Setsuna Tokage explains it at speed.\n\nDefault course, as pressure the player can change: Neito Monoma watches with folded arms and announces that 1-A is now famous for being attacked, that the cameras will follow them all the way to the Sports Festival, and that 1-B will have to be twice as good to be seen at all. The room goes cold. Kendo chops him in the back of the neck before he finishes and apologizes to the room for him. Then Vlad King walks in from the faculty meeting, turns off the screen and says it plainly: the timetable could have put 1-B in that dome. Training gets harder from tomorrow, and anyone who wants to help 1-A can start by being ready.\n\nThe party can steady a shaken classmate, push back on Monoma or find the grain of sense in what he said, keep Tetsutetsu from storming next door, or ask Vlad King what the faculty knows; he shares only what the news has. If the scene opens the next morning instead, the same talk happens in the Class 1-B Homeroom before first period.\n\nThe event is complete when Vlad King has spoken and the class settles on getting ready, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_day_after_usj",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

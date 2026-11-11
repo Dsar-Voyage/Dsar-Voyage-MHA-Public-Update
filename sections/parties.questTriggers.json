@@ -1,0 +1,866 @@
+{
+  "__generated_quest_progress__/The First-Day Quirk Assessment": {
+    "name": "__generated_quest_progress__/The First-Day Quirk Assessment",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has completed all eight events of Shota Aizawa's Quirk assessment and learned where they placed in Class 1-A and what Aizawa decided about them."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The First-Day Quirk Assessment"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Vlad King's Orientation Drills": {
+    "name": "__generated_quest_progress__/Vlad King's Orientation Drills",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has finished Vlad King's Monday drills in Gym Gamma and heard his verdict on the role they play in Class 1-B's team."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Vlad King's Orientation Drills"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Battle Trial: Heroes and Villains": {
+    "name": "__generated_quest_progress__/Battle Trial: Heroes and Villains",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC's own Battle Trial round, with their own partner against their own opponents, has ended (the bomb touched, both villains taped or time run out) and the instructor has reviewed that round. Another pair's round ending, including Katsuki Bakugo's or Izuku Midoriya's, does not count."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Battle Trial: Heroes and Villains"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Class Representative": {
+    "name": "__generated_quest_progress__/Class Representative",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC's class has held its vote for class representative and deputy, and the PC has campaigned, backed a candidate or cast a deliberate vote."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Class Representative"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Choosing a Hero Name": {
+    "name": "__generated_quest_progress__/Choosing a Hero Name",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has presented a hero name to the class and Midnight has approved it, or the PC has deliberately kept their own name and Midnight has accepted that."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Choosing a Hero Name"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Internship Week": {
+    "name": "__generated_quest_progress__/Internship Week",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has chosen an agency, worked its internship week under a pro's supervision and returned to U.A. Academy with the agency's evaluation."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Internship Week"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Ultimate Move Development": {
+    "name": "__generated_quest_progress__/Ultimate Move Development",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has developed an ultimate move that fits their Quirk and demonstrated it reliably to Cementoss or Ectoplasm in Gym Gamma."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Ultimate Move Development"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Hero Work-Study": {
+    "name": "__generated_quest_progress__/Hero Work-Study",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has secured a work-study placement with a pro agency, cleared it with Shota Aizawa, and worked at least one case or patrol shift there."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Hero Work-Study"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Hero Course Night Patrol Lessons": {
+    "name": "__generated_quest_progress__/Hero Course Night Patrol Lessons",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has completed at least one supervised evening patrol through the Musutafu Station District with their team and reported what they found to Shota Aizawa."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Hero Course Night Patrol Lessons"
+      }
+    ]
+  },
+  "__generated_quest_progress__/A General Studies Gamble": {
+    "name": "__generated_quest_progress__/A General Studies Gamble",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has a concrete Sports Festival plan: a training routine kept for at least a week, a study of likely Hero Course rivals, and a strategy or allies for team events."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "A General Studies Gamble"
+      }
+    ]
+  },
+  "__generated_quest_progress__/The Transfer Question": {
+    "name": "__generated_quest_progress__/The Transfer Question",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has persuaded Shota Aizawa or another Hero Course teacher to supervise extra hero training and has kept up with it for several weeks, whatever the transfer decision."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The Transfer Question"
+      }
+    ]
+  },
+  "__generated_quest_progress__/General Studies Festival Stall": {
+    "name": "__generated_quest_progress__/General Studies Festival Stall",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC's General Studies class has a School Festival stall that Present Mic signed and the security check passed, built and staffed for festival day."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "General Studies Festival Stall"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Power Loader's First Assignment": {
+    "name": "__generated_quest_progress__/Power Loader's First Assignment",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has designed and built a support item to Power Loader's brief, and Power Loader has tested and graded it in the Development Studio."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Power Loader's First Assignment"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Hatsume's Babies": {
+    "name": "__generated_quest_progress__/Hatsume's Babies",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has tested several of Mei Hatsume's prototypes under Power Loader's approval and helped her produce at least one working revision."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Hatsume's Babies"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Gear for the Festival": {
+    "name": "__generated_quest_progress__/Gear for the Festival",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has built competition gear, passed Power Loader's inspection, trial-run it at U.A. Stadium and registered it for the Sports Festival."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Gear for the Festival"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Costume Request": {
+    "name": "__generated_quest_progress__/Costume Request",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has designed and delivered a costume upgrade for a Hero Course student, tested it with them, and Power Loader has signed it off."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Costume Request"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Press Day at the Gate": {
+    "name": "__generated_quest_progress__/Press Day at the Gate",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has fielded reporters at the Main Gate during Present Mic's practicum, kept student, staff and security details private, and filed a press summary."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Press Day at the Gate"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Scouting the Sports Festival": {
+    "name": "__generated_quest_progress__/Scouting the Sports Festival",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has researched the first-year field, written agency and sponsor briefing packs and delivered them to scouts or sponsors at U.A. Stadium."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Scouting the Sports Festival"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Image Report on a Rising Hero": {
+    "name": "__generated_quest_progress__/Image Report on a Rising Hero",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has interviewed the public and at least one person close to a pro hero in Tokyo, and delivered an image report on that hero to Principal Nezu."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Image Report on a Rising Hero"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Festival Promotion Campaign": {
+    "name": "__generated_quest_progress__/Festival Promotion Campaign",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has built a School Festival campaign, briefed the police or the public on its security plan, and Principal Nezu has approved it."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Festival Promotion Campaign"
+      }
+    ]
+  },
+  "__generated_quest_progress__/The First Lecture": {
+    "name": "__generated_quest_progress__/The First Lecture",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has taught a full first lesson to a U.A. Academy first-year class and heard Principal Nezu's verdict on it over tea."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The First Lecture"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Grading the Battle Trial": {
+    "name": "__generated_quest_progress__/Grading the Battle Trial",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has supervised Battle Trial rounds from the Ground Beta monitor room, judged when to stop a round, and delivered grades with reasons to the students."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Grading the Battle Trial"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Design the Final Exam": {
+    "name": "__generated_quest_progress__/Design the Final Exam",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has designed a pair-versus-teacher matchup for the final exam practical, with ground, rules and a safety plan, and Principal Nezu has approved it."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Design the Final Exam"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Faculty Security Council": {
+    "name": "__generated_quest_progress__/Faculty Security Council",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has drafted and put in place one part of U.A.'s new security plan, such as sign-out rules, a sensor route or a family visit, with the council's approval."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Faculty Security Council"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Chaperone the License Exam": {
+    "name": "__generated_quest_progress__/Chaperone the License Exam",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has briefed their students on the license exam, studied the rival academies with Shota Aizawa, and accompanied the class to Takoba Municipal Stadium on exam day."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Chaperone the License Exam"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Supervising the Joint Training": {
+    "name": "__generated_quest_progress__/Supervising the Joint Training",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has drawn up balanced team rosters, start points and jail sites for the Joint Training rounds and won sign-off from both Vlad King and Shota Aizawa."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Supervising the Joint Training"
+      }
+    ]
+  },
+  "__generated_quest_progress__/First Patrol Report": {
+    "name": "__generated_quest_progress__/First Patrol Report",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has filed the first week's patrol report with every Quirk use and capture accounted for, and the disputed capture is settled with Kamui Woods, honestly or not."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "First Patrol Report"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Trigger on the Streets": {
+    "name": "__generated_quest_progress__/Trigger on the Streets",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has identified the Trigger dealer working the station's Back Alleys and has put him and evidence of his sales in police hands, or has ended his sales another way."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Trigger on the Streets"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Backup in Hosu": {
+    "name": "__generated_quest_progress__/Backup in Hosu",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has worked at least one full night patrol with Manual in Hosu, and the roof-hatch break-ins are solved, stopped or handed to police with a solid lead."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Backup in Hosu"
+      }
+    ]
+  },
+  "__generated_quest_progress__/The Team-Up Contract": {
+    "name": "__generated_quest_progress__/The Team-Up Contract",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has finished a trial week at the Endeavor Hero Agency, and the team-up contract has been signed, refused or lost on the strength of the PC's work."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The Team-Up Contract"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Chart Season": {
+    "name": "__generated_quest_progress__/Chart Season",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has taken part in Uwabami's charity broadcast on air and off, and the public has formed a clear new impression of the PC and their agency, good or bad."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Chart Season"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Prove Yourself to the League": {
+    "name": "__generated_quest_progress__/Prove Yourself to the League",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has dealt with the bragging hired thug by threat, bribe, removal or betrayal, and has reported back to Kurogiri or Tomura Shigaraki, who judge the result."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Prove Yourself to the League"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Giran's Supply Run": {
+    "name": "__generated_quest_progress__/Giran's Supply Run",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has collected the crate from the Container Docks and delivered it where Giran asked, lost it or sold it out, and Giran knows which."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Giran's Supply Run"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Recruitment Drive": {
+    "name": "__generated_quest_progress__/Recruitment Drive",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has met the League's new candidates, judged what each one wants, and given Kurogiri or Tomura Shigaraki a recommendation, honest or not."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Recruitment Drive"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Scattered After Kamino": {
+    "name": "__generated_quest_progress__/Scattered After Kamino",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has located the League's new hiding place, through Giran or otherwise, and has rejoined it, been turned away, walked away or sold it out."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Scattered After Kamino"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Who Is Asking in Deika": {
+    "name": "__generated_quest_progress__/Who Is Asking in Deika",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has learned who in Deika City is gathering information on the League and has taken it to Giran, the League or the police, or kept it for their own use."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Who Is Asking in Deika"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Paying the Broker": {
+    "name": "__generated_quest_progress__/Paying the Broker",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has settled the debt to Giran with a payment, a job done for him or a favor promised, or has broken with him and faced what follows."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Paying the Broker"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Turf in the Back Alleys": {
+    "name": "__generated_quest_progress__/Turf in the Back Alleys",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The fight over the station's Back Alleys has ended because of the PC, with one crew in control, both broken up or their leaders in police hands."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Turf in the Back Alleys"
+      }
+    ]
+  },
+  "__generated_quest_progress__/The Collector": {
+    "name": "__generated_quest_progress__/The Collector",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has answered the Shie Hassaikai's offer and has worked for the house, paid it off, refused it or slipped its hold, and Overhaul has taken note of the answer."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The Collector"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Streets of Hosu": {
+    "name": "__generated_quest_progress__/Streets of Hosu",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The quiet-fee crew no longer collects in the Hosu Back Alleys because the PC broke it, exposed it or drove it out, and the PC is still unidentified or has faced the cost."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Streets of Hosu"
+      }
+    ]
+  },
+  "__generated_quest_progress__/The Hero Killer's Shadow": {
+    "name": "__generated_quest_progress__/The Hero Killer's Shadow",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The Stain copycat in Hosu has been identified and stopped through the PC's actions: captured, turned in or talked down."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The Hero Killer's Shadow"
+      }
+    ]
+  },
+  "__generated_quest_progress__/A Warning from the Police": {
+    "name": "__generated_quest_progress__/A Warning from the Police",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has met Naomasa Tsukauchi and left with a clear understanding: a warning heeded, a quiet deal struck, a path toward a license, or an open break with the police."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "A Warning from the Police"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Part-Time Shift": {
+    "name": "__generated_quest_progress__/Part-Time Shift",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has finished a shift at Kiyashi Shopping Mall that went wrong, has dealt with the trouble, and the manager has kept, warned or fired the PC."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Part-Time Shift"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Pickpocket Ring at the Mall": {
+    "name": "__generated_quest_progress__/Pickpocket Ring at the Mall",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The mall's pickpocket crew has been identified to the police with the PC's help, and its members are arrested, scattered or scared off."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Pickpocket Ring at the Mall"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Sports Festival Tickets": {
+    "name": "__generated_quest_progress__/Sports Festival Tickets",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC holds a valid ticket, staff pass or stadium job that gets them into U.A. Stadium for the first-year Sports Festival."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Sports Festival Tickets"
+      }
+    ]
+  },
+  "__generated_quest_progress__/When the Heroes Fight": {
+    "name": "__generated_quest_progress__/When the Heroes Fight",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has put in real volunteer time at Musutafu General Hospital and has helped at least one frightened person, Inko Midoriya or a neighbor, through the aftermath."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "When the Heroes Fight"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Evacuation Drill": {
+    "name": "__generated_quest_progress__/Evacuation Drill",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has served as a warden in the Station District drill and helped get people to safety when the real incident struck, and the incident is over."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Evacuation Drill"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Hiring a Sidekick": {
+    "name": "__generated_quest_progress__/Hiring a Sidekick",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has hired a sidekick for their agency, or has decided clearly not to hire anyone now, after meeting the applicants."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Hiring a Sidekick"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Scouting at the Festival": {
+    "name": "__generated_quest_progress__/Scouting at the Festival",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has watched the Sports Festival as a pro scout and has sent an internship offer to a student, or has clearly chosen to send none."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Scouting at the Festival"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Dagobah Beach Cleanup": {
+    "name": "__generated_quest_progress__/Dagobah Beach Cleanup",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The new junk is cleared from Dagobah's Shoreline and the night dumping has been stopped or reported, through the PC's work."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Dagobah Beach Cleanup"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Recovery Girl's Errand": {
+    "name": "__generated_quest_progress__/Recovery Girl's Errand",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has finished Recovery Girl's errands, kept the patient resting until she released them, and heard from her what her Quirk costs and cannot fix."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Recovery Girl's Errand"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Kiyashi Mall Weekend": {
+    "name": "__generated_quest_progress__/Kiyashi Mall Weekend",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has spent the day at Kiyashi Shopping Mall with Mina Ashido's group and made it back to Heights Alliance, on time or not, with the day's surprises settled."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Kiyashi Mall Weekend"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Rival from Shiketsu": {
+    "name": "__generated_quest_progress__/Rival from Shiketsu",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has met Inasa Yoarashi in Osaka and answered his challenge with a supervised match, a shared rescue or an honest talk, and he has decided what the PC is to him."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Rival from Shiketsu"
+      }
+    ]
+  },
+  "__generated_quest_progress__/Lunch Rush's Kitchen": {
+    "name": "__generated_quest_progress__/Lunch Rush's Kitchen",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has worked at least one lunch rush for Lunch Rush, and the pantry thefts are explained and stopped, the culprit caught, confessed or forgiven."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Lunch Rush's Kitchen"
+      }
+    ]
+  }
+}

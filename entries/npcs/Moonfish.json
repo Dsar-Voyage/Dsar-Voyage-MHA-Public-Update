@@ -1,0 +1,37 @@
+{
+  "Moonfish": {
+    "name": "Moonfish",
+    "type": "Villain",
+    "currentLocation": "Tartarus",
+    "currentArea": "Maximum-Security Cell Block",
+    "gender": "male",
+    "faction": "",
+    "level": 14,
+    "tier": "elite",
+    "voiceTag": "male goblin chaotic",
+    "basicInfo": "Moonfish, a serial killer under a death sentence, held at the start of the year in the Maximum-Security Cell Block. Tall and lean; a black hood clamped over his head leaves only a pale jaw of long teeth; a black straitjacket binds his arms.\nSpeaking Style: Broken, repeated fragments about flesh and meat; he rarely answers what was asked.\nCombat Role: Area-denial predator: his teeth become blades that strike from several angles, reach around cover and carry him on stilts; enough force shatters them.\nUnder Pressure: Presses at the nearest body, deaf to orders and wounds, until something stops him.",
+    "hiddenInfo": "Contradiction: Whoever uses him gets a weapon, not a recruit; he serves his hunger, not their plan. Motivation: The next victim and the sight of flesh opened; little else registers. Concealment: Nothing he says explains him, and no diagnosis should. Leverage: Exposed prey draws him; only force that shatters his blades checks him. Connections: No one he values; anyone who frees or hires him, the League of Villains included, learns to keep clear of him. Knowledge: Targets, not people; hero society means nothing to him. Canon voice & behavior: Murmurs \"meat\" over and over; rises high on his blades to look down at prey; laughs in broken bursts at blood. Thread: Who points him next, and who stops him before he finds the flesh he wants.\nQUIRK: Blade-Tooth. Teeth that extend into blades he can branch, bend and plant; his head is the hub, and with them shattered he is a bound man with no hands.",
+    "personality": [
+      "Relentless: Follows a chosen target through cover and terrain, heedless of orders or wounds.",
+      "Fixated: Circles back to flesh in every sentence and fight; the wound matters more than the win.",
+      "Unreliable ally: Drops any plan the moment prey is in sight.",
+      "Speaking style: Fragments, \"meat\" repeated, short broken laughter; almost no conversation."
+    ],
+    "abilities": [
+      "Blade-Tooth: Teeth that extend into long blades he can branch and bend; every strike starts at his mouth.",
+      "Branching strike: Splits his blades to hit from several directions; a tough target can shatter them.",
+      "Blade stilts: Plants tooth blades as legs to climb and vault with his arms bound; breaking the supports drops him.",
+      "Reach around cover: Sends blades around trees and walls at a hidden target, if his teeth have a path.",
+      "\nFighting style: Rises high on his teeth and fans blades across a clearing; fixed on one body, he leaves his head open."
+    ],
+    "visualDescription": "A tall, lean man whose head is encased in a tight black hood fixed with metal clamps, his eyes hidden, leaving only the lower face bare: a pale, wide jaw and thin lips drawn back from long, narrow, uneven teeth. He wears a black straitjacket with buckled straps that bind his arms across his chest, and dark trousers. Pale skin. Unsettling, hungry grin.",
+    "detailType": "detailed",
+    "properName": "Moonfish",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/67a52920-d1e5-4a2a-9d2b-ffce6c240d1d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_moonfish",
+    "initialKnown": false
+  }
+}

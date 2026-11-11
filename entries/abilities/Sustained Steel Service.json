@@ -1,0 +1,25 @@
+{
+  "Sustained Steel Service": {
+    "name": "Sustained Steel Service",
+    "description": "The user sustains the steel transformation for five minutes of rescue work across one building, carrying one adult at a time and shielding them with the user's body from small debris. Repeated heavy impacts can still exhaust the form early, and gas remains dangerous. The work spends the user's available iron reserves; afterward they cannot transform again until they have rested and eaten. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

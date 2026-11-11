@@ -1,0 +1,36 @@
+{
+  "Burnin": {
+    "name": "Burnin",
+    "type": "Pro Hero",
+    "currentLocation": "Endeavor Hero Agency",
+    "currentArea": "Operations Floor",
+    "gender": "female",
+    "faction": "Endeavor Hero Agency",
+    "level": 20,
+    "tier": "strong",
+    "voiceTag": "female harsh commanding",
+    "basicInfo": "Burnin (Moe Kamiji), one of Endeavor's Flaming Sidekickers and among the loudest: her hair is living flame that she throws and rides through the air. Long yellow-green flame hair, orange-red eyes, sharp teeth; a black eye mask on a red headband, a light-gray short hero dress.\nSpeaking Style: Loud and direct; pep talks, brisk calls, blunt opinions.\nCombat Role: Mobile fire striker who needs clear lines; her flame burns whatever it hits.\nUnder Pressure: Gets louder and faster and keeps the fire off bystanders.",
+    "hiddenInfo": "Contradiction: Showy and fired-up, yet disciplined: on a real job the fire goes where it saves people. Connections: Endeavor (Enji Todoroki), her boss, whose demands she meets with energy, not fear. Knowledge: Agency work; Endeavor's home life is not her business. Canon voice & behavior: Answers a cocky trainee with a race, not a lecture.\nQUIRK: Her hair is flame she controls, thrown or used as propulsion; it controls no other fire or heat.",
+    "personality": [
+      "Full volume: Drags everyone up to her tempo.",
+      "Camera-ready: Loves a burning entrance, never ahead of the rescue.",
+      "Impatient: Snaps at anyone who drags their feet.",
+      "Speaking style: Loud, direct, encouraging; says what she thinks."
+    ],
+    "abilities": [
+      "Flame shots: Throws fire from her hair; it burns what it hits, so she needs a clear line.",
+      "Flame flight: Rides her hair's flames through the air for fast pursuit.",
+      "Teamwork: Runs sidekick operations on Endeavor's calls.",
+      "\nFighting style: Strikes fast from the air and pins a target with flame until the team closes in."
+    ],
+    "visualDescription": "A woman with long, wild yellow-green hair made of living flame that flickers upward, orange-red eyes, sharp pointed teeth, fair skin and a medium build. She wears her hero costume: a black eye mask on a red headband, a light-gray double-breasted short dress edged in black and orange, a belt with a temperature gauge, wrist guards, black socks and boots. Fired-up, confident grin.",
+    "detailType": "detailed",
+    "properName": "Burnin",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e6645f68-d50a-44b8-a0ab-0651f0e0fc35.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_burnin",
+    "initialKnown": true
+  }
+}

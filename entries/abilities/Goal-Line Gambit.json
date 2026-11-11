@@ -1,0 +1,20 @@
+{
+  "Goal-Line Gambit": {
+    "name": "Goal-Line Gambit",
+    "description": "Facing an opponent the user cannot beat, the user stops trying to win and commits to one goal: getting a person through an exit, getting cuffs or capture tape around the opponent's wrists, or reaching an alarm. For that action, the opponent's greater strength or speed cannot keep the user from the goal, though the user takes any blows that land along the way. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Hero Course (Class 1-A)",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

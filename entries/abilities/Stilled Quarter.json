@@ -1,0 +1,25 @@
+{
+  "Stilled Quarter": {
+    "name": "Stilled Quarter",
+    "description": "The user climbs to a high vantage and drags the look once across a whole city block: every street, window and rooftop in sight. Every person the user saw in that sweep loses their Emitter and Transformation Quirks for the rest of the scene while they stay inside the block, even out of sight, so a gang hiding in the buildings fights on foot and by hand. Allies caught in the sweep lose theirs too unless the user skipped them, and Mutant features keep working. Afterward the user sees only blurs and cannot use the Quirk until they rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

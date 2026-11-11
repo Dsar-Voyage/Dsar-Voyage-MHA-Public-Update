@@ -1,0 +1,86 @@
+{
+  "Okuto Island": {
+    "name": "Okuto Island",
+    "basicInfo": "Okuto Island is a small, thinly settled island far out in the Pacific south of the Izu chain: a fishing harbor with a breakwater and a few dozen low houses, a coast road around rocky shores, and a steep green interior of scrub and old cedar climbing to a weather station on the summit. Ferries call twice a week when the sea allows; most residents fish, keep small gardens and know every visitor by sight. In bad weather the island is cut off for days.",
+    "hiddenInfo": "Its isolation makes it a place heroes could use to separate dangerous people from crowds: a warp route dropped onto its open ground would put a fight far from any city, with nobody to save but whoever is already there.",
+    "x": 0,
+    "y": 0,
+    "radius": 1,
+    "region": "Open Pacific south of Izu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [],
+    "areas": {
+      "Harbor and Breakwater": {
+        "description": "A small concrete harbor with a long breakwater, fishing boats tied two deep, net sheds, a fuel pump and a ferry ramp. Gulls, diesel, salt; the harbor office's radio is the island's only link when the cell tower fails.",
+        "paths": [
+          "Coast Road",
+          "Island Interior"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a63c33db-cd44-4e60-bbe7-a5a6709f6bb7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Coast Road": {
+        "description": "A narrow road around the island between black volcanic rocks and the sea, with a few houses, a shrine at a bend and long stretches of nothing but wind and surf.",
+        "paths": [
+          "Harbor and Breakwater",
+          "Island Interior"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d8d34e3c-b6c1-4119-8708-a07399705f34.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Island Interior": {
+        "description": "Steep ground of scrub, bamboo and old cedar rising from the coast to an open grassy summit with a weather station, cut by gullies and a single switchback track.",
+        "paths": [
+          "Harbor and Breakwater",
+          "Coast Road"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c9089b8-69da-4d0c-9d10-5c991c0ec3f3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/88dc7213-e3f4-41c3-8434-54062f62c14d.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Side Resume: 1-B Hot Pot Night": {
+    "name": "Side Resume: 1-B Hot Pot Night",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "b1_hot_pot",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_b1_hot_pot",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_b1_hot_pot",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "b1_hot_pot"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_b1_hot_pot",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"1-B Hot Pot Night\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: A cold evening in mid-December at U.A."
+      }
+    ]
+  }
+}

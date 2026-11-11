@@ -1,0 +1,24 @@
+{
+  "Trump Card": {
+    "name": "Trump Card",
+    "description": "The user reads a copied Quirk from the inside until they know it as well as its owner, then opens it all the way. For a single move it works at the full scale its owner can reach rather than a beginner's: an attack deals heavy damage of that Quirk's type, and a wall, a lift or a rescue effect reaches the owner's full size. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

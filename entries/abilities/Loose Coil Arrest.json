@@ -1,0 +1,20 @@
+{
+  "Loose Coil Arrest": {
+    "name": "Loose Coil Arrest",
+    "description": "The user wraps several vines around one adult's clothed arms and torso within ten meters, leaving the face and airway clear until the end of the user's next turn. The coils prevent ordinary arm movements without crushing. A blade or superior strength breaks them, and tightening carelessly can cut the target. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

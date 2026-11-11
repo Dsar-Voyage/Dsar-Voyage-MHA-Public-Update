@@ -1,0 +1,25 @@
+{
+  "Tremor Web": {
+    "name": "Tremor Web",
+    "description": "The user drives both palms into the street, and their sensing and their shake run through the ground across several city blocks for the rest of the scene. They feel every footstep and hollow there and know where each person is running, hiding or trapped. Once per turn they shake the ground under any group of enemies they feel for moderate bludgeoning damage; held back, it only throws them down. The user must keep both palms down and cannot move or defend, and loose facades crack, collateral they must call out to rescuers. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

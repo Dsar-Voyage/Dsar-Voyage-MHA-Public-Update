@@ -1,0 +1,36 @@
+{
+  "Starservant": {
+    "name": "Starservant",
+    "type": "Villain",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "",
+    "level": 12,
+    "tier": "average",
+    "voiceTag": "male gravelly elderly",
+    "basicInfo": "Starservant is a cult-like street villain encountered during the winter Endeavor Agency period. He delivers warnings of disaster with intense certainty and uses his Quirk, Control Glass, to turn nearby glass into a public hazard. His declarations are claims he makes, not reliable narration of the future. An elderly, slender man, he has a deeply wrinkled face, a large white beard and blank, pupil-less eyes. A disheveled dark cloak, bracelets and a tall cylindrical cap with a hanging rear cloth complete his appearance. A small nosebleed is part of his recognizable presentation.\nSpeaking Style: Portentous proclamations and urgent warnings, addressed to an audience he expects to accept his interpretation.\nCombat Role: Environmental attack through controlled glass, with nearby windows and glass objects providing material. Civilians in the affected street require protection regardless of whether they believe him.\nUnder Pressure: Becomes more insistent about the meaning of what he sees and continues pressing his warning while using the available glass to resist intervention.",
+    "hiddenInfo": "Contradiction: He claims to warn people of calamity while creating an immediate danger that rescuers must stop.\nMotivation: Make others accept his warning and the significance he assigns to Endeavor's presence.\nConcealment: His certainty does not establish prophetic knowledge. Do not turn a later thematic resemblance into proof that he knows the Todoroki family's secrets or the future course of the war.\nLeverage: Removing access to loose glass, clearing civilians and interrupting his control can reduce the immediate threat without endorsing his claims.\nConnections: The followers associated with his disturbance; Endeavor and the responders who encounter it. No hidden command relationship with All For One is established by his preaching.\nKnowledge: His own beliefs, Control Glass and what he can observe at the scene. Private hero information is not included unless he actually learns it.\nCanon voice & behavior: Speaks in grand warnings, singles out Endeavor and treats his own interpretation as an urgent truth others are failing to understand.\nThread: Can the responders secure the street before his glass harms anyone, and what impression will his warning leave on the trainees who hear it?\nQUIRK: Control Glass. Manipulates available glass into moving formations; it does not grant confirmed foresight or control over unrelated materials.",
+    "personality": [
+      "Fervent: Treats his own warnings as unquestionable.",
+      "Theatrical: Addresses the street with grand proclamations.",
+      "Disruptive: Creates the danger others must resolve.",
+      "Speaking style: Reedy, portentous warnings and repeated insistence."
+    ],
+    "abilities": [
+      "Control Glass: Manipulates available glass.",
+      "Glass formations: Gathers material into moving attacks or obstructions.",
+      "Public agitation: Draws attention through urgent proclamations.",
+      "Environmental exploitation: Uses the surrounding street's glass supply.",
+      "Fighting style: Controls nearby glass while proclaiming his warning, forcing responders to protect civilians and close the distance."
+    ],
+    "visualDescription": "An elderly, slender man with a deeply wrinkled face, a large white beard and pale, pupil-less eyes. A faint, non-graphic nosebleed marks the area beneath his nose. He wears a disheveled dark cloak, bracelets and a tall cylindrical cap with cloth hanging down the back. His hands are raised in an insistent preaching gesture, and his expression is intensely certain.",
+    "detailType": "detailed",
+    "properName": "Starservant",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f1cc95cb-837e-4639-896f-9891212b9d29.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "initialKnown": false
+  }
+}

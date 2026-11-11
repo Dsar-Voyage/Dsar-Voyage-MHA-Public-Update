@@ -1,0 +1,39 @@
+{
+  "Campus Schedule: faculty-2": {
+    "name": "Campus Schedule: faculty-2",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "party-region",
+        "operator": "equals",
+        "value": "U.A. Campus"
+      },
+      {
+        "type": "read-boolean",
+        "key": "campusOff",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const G=\"faculty-2\",T={\"Ectoplasm\": \"..........fffffff...ffaffff...fffffff...fffffff...ffbffff.............\", \"Snipe\": \"..........fffffff...fffffff...fffffff...ffbffff...ffaffff.............\", \"Hound Dog\": \"..........fffffff...fffffff...fffffff...fffffff...fffffff.............\", \"Power Loader\": \"...........ssssss....ssssss....ssssss....ssssss....ssssss.............\", \"Principal Nezu\": \"ppppppp...ppppppp...ppppppp...ppppppp...ppppppp...ppppppp...ppppppp...\"},P={\"a\": [\"U.A. Academy\", \"Class 1-A Homeroom\"], \"b\": [\"U.A. Academy\", \"Class 1-B Homeroom\"], \"f\": [\"U.A. Academy\", \"Faculty Office\"], \"c\": [\"U.A. Academy\", \"General Studies Classrooms\"], \"p\": [\"U.A. Academy\", \"Principal's Office\"], \"s\": [\"U.A. Academy\", \"Development Studio\"], \"d\": [\"U.A. Academy\", \"Lunch Rush's Cafeteria\"], \"A\": [\"U.A. Academy\", \"Class 1-A Dorm Lounge\"], \"B\": [\"U.A. Academy\", \"Class 1-B Dorm Lounge\"], \"r\": [\"U.A. Academy\", \"Dorm Rooms\"], \"o\": [\"U.A. Academy\", \"Other Course Dorm Halls\"], \"q\": [\"U.A. Academy\", \"Courtyard\"], \"L\": [\"U.A. Academy\", \"Library\"], \"F\": [\"U.A. Academy\", \"Athletics Field\"], \"g\": [\"Ground Beta\", \"Mock City Streets\"], \"y\": [\"Gym Gamma\", \"Gym Gamma Training Floor\"], \"t\": [\"Training Ground Gamma\", \"Pipe Maze\"], \"m\": [\"Kiyashi Shopping Mall\", \"Food Court\"], \"G\": [\"Ground Beta\", \"Training Building\"], \"J\": [\"Unforeseen Simulation Joint (USJ)\", \"Entrance Plaza\"]},AW=[],RM={},OV={\"27\": {\"Snipe\": {\"2\": \"f\"}}},DM={\"25\": 6, \"26\": 0};const STG=[\"\", \" (Sports Festival)\", \" (Summer Training)\", \" (Provisional License)\"],STU=[\"Denki Kaminari\", \"Eijiro Kirishima\", \"Fumikage Tokoyami\", \"Hanta Sero\", \"Hiryu Rin\", \"Ibara Shiozaki\", \"Itsuka Kendo\", \"Izuku Midoriya\", \"Jurota Shishida\", \"Juzo Honenuki\", \"Katsuki Bakugo\", \"Kinoko Komori\", \"Koji Koda\", \"Kojiro Bondo\", \"Kosei Tsuburaba\", \"Kyoka Jiro\", \"Manga Fukidashi\", \"Mashirao Ojiro\", \"Mezo Shoji\", \"Mina Ashido\", \"Minoru Mineta\", \"Momo Yaoyorozu\", \"Neito Monoma\", \"Nirengeki Shoda\", \"Ochaco Uraraka\", \"Pony Tsunotori\", \"Reiko Yanagi\", \"Rikido Sato\", \"Sen Kaibara\", \"Setsuna Tokage\", \"Shihai Kuroiro\", \"Shoto Todoroki\", \"Tenya Iida\", \"Tetsutetsu Tetsutetsu\", \"Togaru Kamakiri\", \"Toru Hagakure\", \"Tsuyu Asui\", \"Yosetsu Awase\", \"Yuga Aoyama\", \"Yui Kodai\"];const d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;for(const [lo,hi,req,end] of AW){if(d>=lo&&d<=hi&&(!req||check({type:'read-boolean',key:'done_'+req}))&&!(end&&check({type:'read-boolean',key:'done_'+end}))){skip=true;return;}}const OW=storage.castOwner||{};const pl=check({type:'party-location'})||'';const st=d+'|'+b+'|'+pl+'|'+Object.keys(OW).length;const SK='sched_'+G;const full=((check({type:'game-tick'})||0)%8)===5,CC=storage['schedC_'+G]||{};if(storage[SK]===st){skip=true;return;}storage[SK]=st;const lock=check({type:'read-boolean',key:'done_kamino_incident'});const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));const bb=Math.max(0,Math.min(9,b));const i=(DM[d]!==undefined?DM[d]:(Math.max(1,d)-1)%7)*10+bb;const OD=OV[d]||{};const GN=storage.castGone||{},DS=storage.deadStu||{};const WP=storage.withPC||{},tk=check({type:'game-tick'})||0,pa=check({type:'party-area'})||'';const RET=('All Might' in T)&&check({type:'read-boolean',key:'done_symbol_of_peace_retires'});for(const base in T){if(OW[base]!==undefined||GN[base]||DS[base]){CC[base]='';continue;}const ob=OD[base];let ch=(ob&&ob[bb]!==undefined)?ob[bb]:T[base][i];if(ch==='-')continue;if(ch==='m'&&lock)ch=T[base][i-1]==='m'?'r':T[base][i-1];const n=(base==='All Might'&&RET)?'All Might (Retired)':(STU.indexOf(base)>=0?base+STG[sg]:base);if(!full&&CC[base]===ch+n)continue;CC[base]=ch+n;const l=check({type:'npc-location',npc:n})||'';if(ch==='.'){if(!l)continue;}const a=check({type:'npc-area',npc:n})||'';const p=ch==='.'?null:((ch==='r'&&RM[base])?RM[base]:P[ch]);if(ch!=='.'&&(!p||(l===p[0]&&a===p[1])))continue;if(WP[base]!==undefined&&tk-WP[base]<=12&&l===pl&&a===pa)continue;if(storage.privS&&ch!=='.'&&p[0]===storage.privS.l&&p[1]===storage.privS.a)continue;if(check({type:'npc-in-party',npc:n})===true)continue;const h=check({type:'npc-health',npc:n});if(typeof h==='number'&&h<=0)continue;if(ch==='.'){effects.push({type:'npc-placement',npc:n,operation:'moveAway'});continue;}effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:p[0],area:p[1]});}storage['schedC_'+G]=CC;})();",
+    "phase": "planning"
+  }
+}

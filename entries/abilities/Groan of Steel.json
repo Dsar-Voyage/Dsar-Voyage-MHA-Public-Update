@@ -1,0 +1,29 @@
+{
+  "Groan of Steel": {
+    "name": "Groan of Steel",
+    "description": "The user tunes every sense to the materials around them: creaking steel, cracking concrete, hissing gas, the smell of hot wiring. For the rest of the scene they know which beam, floor or wall in the building will fail next, roughly when, and which spots will hold, so they can call allies and civilians away from every collapse, blast or flashover before it happens, and nobody who follows their calls is caught by one. The user must stay inside the building to keep reading it, and any loud blast deafens them until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

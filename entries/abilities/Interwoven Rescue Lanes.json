@@ -1,0 +1,29 @@
+{
+  "Interwoven Rescue Lanes": {
+    "name": "Interwoven Rescue Lanes",
+    "description": "The user divides their vines between three supported rescue slings within twenty meters, independently lowering one adult in each by up to five meters over two turns while keeping a clear path for rescuers. Clothing or blankets must cover skin against thorns. Every sling needs an intact anchored bundle, and the user stays braced and cannot attack; a severed support drops its load, and afterward neck strain prevents further lifting until rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

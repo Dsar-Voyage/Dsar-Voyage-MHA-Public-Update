@@ -1,0 +1,29 @@
+{
+  "Implant Whisper": {
+    "name": "Implant Whisper",
+    "description": "The user's reach extends to machines inside or worn on a living body: a pacemaker, an insulin pump, a ventilator, a prosthetic limb or a villain's implanted weapon. With a touch they keep a failing pacemaker or ventilator running steady until medics arrive, or lock a villain's prosthetic arm or implanted launcher dead for the rest of the scene. Flesh, organs and Quirks stay out of reach, the device can only do what it was built to do, and a wrong command to a medical device can kill, so heroes touch one only to keep someone alive. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

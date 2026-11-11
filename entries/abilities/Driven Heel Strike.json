@@ -1,0 +1,20 @@
+{
+  "Driven Heel Strike": {
+    "name": "Driven Heel Strike",
+    "description": "The user accelerates over a few strides and drives a heel into one opponent within five meters for moderate bludgeoning damage. Held back, the user reduces the throttle and uses the sole to push them off balance instead of striking the head. The kick needs firm footing, and missing leaves the user moving past the target until they brake. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

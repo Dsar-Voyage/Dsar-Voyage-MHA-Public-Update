@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: katsuki_bakugo_war_injury": {
+    "name": "Portrait Swap: katsuki_bakugo_war_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb970c39-bb97-4e31-8893-88254a2cf275.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb970c39-bb97-4e31-8893-88254a2cf275.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb970c39-bb97-4e31-8893-88254a2cf275.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb970c39-bb97-4e31-8893-88254a2cf275.png"
+      }
+    ]
+  }
+}

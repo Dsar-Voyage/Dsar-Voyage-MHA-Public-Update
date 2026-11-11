@@ -1,0 +1,20 @@
+{
+  "Gravel Carousel": {
+    "name": "Gravel Carousel",
+    "description": "The user scatters a handful of gravel, bolts or broken tile into a wide ring that circles them at chest height. Until the end of the user's next turn, every enemy who steps within a few strides of the user takes bludgeoning damage and is driven back; held back, the user drops the ring to ankle height and it only trips them. Allies close to the user must crouch or be struck too. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

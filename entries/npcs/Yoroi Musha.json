@@ -1,0 +1,37 @@
+{
+  "Yoroi Musha": {
+    "name": "Yoroi Musha",
+    "type": "Pro Hero",
+    "currentLocation": "Central Tokyo Streets",
+    "currentArea": "Department Stores",
+    "gender": "male",
+    "faction": "",
+    "level": 34,
+    "tier": "elite",
+    "voiceTag": "male gravelly elderly",
+    "basicInfo": "Yoroi Musha, one of the oldest pros still active and a high-ranked veteran of decades, who fights in full traditional armor. Visibly elderly, a long white beard, orange eyes with dark sclera; a horned kabuto helmet and a red cape.\nSpeaking Style: Restrained, formal, economical.\nCombat Role: Armored defender at close range; he has never shown his Quirk in public.\nUnder Pressure: Plants himself and holds the line beside the other heroes.",
+    "hiddenInfo": "Contradiction: The image is an unbending warrior; the man inside the armor is old, and knows it. Motivation: Do the job with a veteran's dignity and protect the people in front of him. Concealment: His Quirk and civilian name have never been made public. Knowledge: Decades of procedure, and the careers of the pros he has outlasted. Thread: How an old-guard hero holds up as the era changes.\nQUIRK: Unrevealed; never invent one. The armor is equipment.",
+    "personality": [
+      "Veteran: Unimpressed by flash or hype.",
+      "Traditional: A warrior's formal manners to match the armor.",
+      "Steady guard: Keeps civilians behind him instead of charging ahead.",
+      "Speaking style: Restrained, formal, economical; an elder's reserve."
+    ],
+    "abilities": [
+      "Armor: Fights and shields in full armor; it protects only as armor does.",
+      "Line holding: Holds a choke point or an evacuation route.",
+      "Hero experience: Reads a scene with decades of judgment.",
+      "Seniority: Lends a senior's authority to a joint operation.",
+      "\nFighting style: Plants himself in armor, guards the people behind him and fights beside allies."
+    ],
+    "visualDescription": "An elderly man with a long, flowing white beard, orange eyes with dark sclera and a weathered face, in full traditional Japanese armor: lacquered plates, broad shoulder guards and a kabuto helmet with a single tall horn rising from the front. A red cape is wrapped around his torso. Heavy, solid build. Calm, stern, dignified expression.",
+    "detailType": "detailed",
+    "properName": "Yoroi Musha",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7fc04213-164b-4e94-99fd-d88ad6c89f05.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yoroi_musha",
+    "initialKnown": true
+  }
+}

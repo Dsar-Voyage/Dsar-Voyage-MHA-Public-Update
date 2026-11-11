@@ -1,0 +1,20 @@
+{
+  "Empty-Hand Disarm": {
+    "name": "Empty-Hand Disarm",
+    "description": "The user traps the weapon arm against the user's body and turns the wrist against the joint. The opponent drops whatever they hold in that hand (a knife, baton, gun or handheld support device), and the user keeps it or kicks it away. A weapon strapped or fused to the body cannot be stripped this way. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Martial Artist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Grappling",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Trampoline Span": {
+    "name": "Trampoline Span",
+    "description": "The user stretches their body and limbs across a narrow street, stairwell or alley and locks their heels down with heavy weight for the rest of the scene. People jumping from upper floors land in the user's stretched frame and are set down unhurt, while charging enemies or a rolling car rebound to a full stop. The user cannot move while spanning the gap, and blades, bullets or fire hurt them in full. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

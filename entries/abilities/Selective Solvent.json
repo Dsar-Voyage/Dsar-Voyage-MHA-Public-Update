@@ -1,0 +1,24 @@
+{
+  "Selective Solvent": {
+    "name": "Selective Solvent",
+    "description": "The user tunes their acid to a single material they name, such as steel, concrete, glass, plastic or wood, and floods a room or a rubble field with it. Only that material dissolves while skin and everything else stay untouched: concrete melts away from buried survivors, or every enemy's steel weapons and armor run to sludge in their hands. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

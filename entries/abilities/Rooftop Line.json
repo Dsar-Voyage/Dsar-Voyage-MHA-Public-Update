@@ -1,0 +1,15 @@
+{
+  "Rooftop Line": {
+    "name": "Rooftop Line",
+    "description": "The user chains vaults, wall-runs and rail slides into an unbroken line across rooftops, railings and street clutter. The user crosses obstacles without slowing from a sprint, and pursuers on foot without a mobility Quirk lose sight of them for a moment. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Parkour",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

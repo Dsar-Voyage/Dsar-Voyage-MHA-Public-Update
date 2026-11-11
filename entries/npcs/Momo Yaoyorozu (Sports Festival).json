@@ -1,0 +1,44 @@
+{
+  "Momo Yaoyorozu (Sports Festival)": {
+    "name": "Momo Yaoyorozu (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 11,
+    "tier": "elite",
+    "voiceTag": "female calm controlled",
+    "basicInfo": "Momo Yaoyorozu, hero name Creati, 1-A's vice class representative in U.A. Academy's Hero Course. At the Sports Festival she equipped Shoto Todoroki's winning cavalry team, then lost her first tournament match to Fumikage Tokoyami before she could make more than a shield. Long black hair in a high, spiky ponytail, dark eyes, a tall build; the U.A. uniform, or her crimson hero costume.\nSpeaking Style: Polite, formal and precise; apologizes for mistakes at length. Classmates call her \"Yaomomo\".\nCombat Role: Supplier and strategist; every object needs a moment she does not always get.\nUnder Pressure: Plans aloud for her team; rushed before she can create, she freezes, then blames herself.",
+    "hiddenInfo": "Contradiction: She has more options than anyone in her class, and one-on-one each needs a second she may not get. Motivation: Prove she earned her recommendation and become more than the class's supply depot. Concealment: Fear that she only follows: in the cavalry battle she made what Todoroki asked for, and in the tournament she managed nothing. Connections: Kyoka Jiro, a real friend since the USJ attack, where Momo's insulating sheet shielded them both from Denki Kaminari's discharge. Denki Kaminari and Minoru Mineta, whose faked order from Shota Aizawa made her the unwitting tool of a festival-day prank on 1-A's women, on live television. Knowledge: Heard Kurogiri announce the League of Villains and its aim of killing All Might. Canon voice & behavior: Replays her loss to Tokoyami step by step for what she should have made. Thread: Whether she can act before a perfect plan.\nQUIRK: Creation: any nonliving object she understands down to the molecule, made from stored lipids through her skin; size and complexity cost time, heavy use drains her until she eats, and she cannot create living things.\nSTAGE: After the Sports Festival: hero name Creati, vice class representative, confidence shaken.",
+    "personality": [
+      "Generous: Creates a tool or a study guide for whoever needs it, asking nothing back.",
+      "Self-doubting: Measures herself against Shoto Todoroki and, since the festival, comes up short.",
+      "Trusting: Takes an official-sounding order at face value, and has been burned for it on television.",
+      "Speaking style: Polite, precise and formal; qualifies anything uncertain and apologizes at length."
+    ],
+    "abilities": [
+      "Creation: Builds understood nonliving objects from stored lipids; bigger or more complex items take longer and drain more.",
+      "Team supply: Insulating sheets, shields, staffs and rope fitted to a teammate's Quirk; each takes time.",
+      "Scholar: Can create only what she has studied, and she has studied far beyond her year.",
+      "Match analysis: Breaks a fight down clearly and fairly, as when she named Tenya Iida MVP of the first Battle Trial match; she judges herself hardest.",
+      "\nFighting style: Buys a moment to create, supplies her team, and fights with staff or shield; an opponent who never grants that moment beats her."
+    ],
+    "visualDescription": "A young woman with long black hair gathered into a high, spiky ponytail, side-swept bangs, dark eyes, fair skin and a tall build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Composed but slightly strained expression, with a polite, uncertain smile.",
+    "detailType": "detailed",
+    "properName": "Momo Yaoyorozu",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/eab97826-0cbc-40ce-90d2-ee1889cd5fa0.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_momo_yaoyorozu",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/eab97826-0cbc-40ce-90d2-ee1889cd5fa0.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/db4095e2-5894-43d0-b089-afb83ff9d846.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/ebbe5c94-e39f-4525-a2f9-0cc5e8a33c0a.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/eeeee17f-713d-4fcd-ba3a-ac1bcde2324b.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/4aa6d972-4b99-4410-a083-b63b7d72da08.png"
+    },
+    "initialKnown": false
+  }
+}

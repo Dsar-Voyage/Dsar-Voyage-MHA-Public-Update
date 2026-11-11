@@ -1,0 +1,21 @@
+{
+  "No Quirk Strength (Quirkless)": {
+    "name": "No Quirk Strength (Quirkless)",
+    "description": "➖ You have no Quirk to measure. This is the Strength pick for Quirkless characters.\n\n🧩 Choose it with the Quirkless Quirk Type.\n🌱 It gives nothing by itself.",
+    "traitNarrativeEffects": "The character has no Quirk, so there is no strength to rate: no Quirk scale, no Quirk Strain and none of the attention a powerful Quirk draws. This pick belongs with the Quirkless Quirk Type. Conflicts: if the character has a Quirk (a Quirk Type of Emitter, Transformation or Mutant with a real Quirk Family), this trait does not remove it. The Quirk works at its family's ordinary starting scale with the usual Quirk Strain per use, and its drawback shows at 60. If the character chose Quirkless, this trait applies as written.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Quirkless"
+    ],
+    "excludedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "requirements": []
+  }
+}

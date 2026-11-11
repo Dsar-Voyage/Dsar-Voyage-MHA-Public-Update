@@ -1,0 +1,20 @@
+{
+  "Frostwake Hop": {
+    "name": "Frostwake Hop",
+    "description": "Pale-blue flame bursts from the user's palms and soles and vaults them up a single story, across a narrow alley or clear of an incoming strike, leaving a harmless ring of frost where they push off and land. The burst is weaker than a pure fire user's thrust, so the user cannot stay aloft beyond the end of the turn or carry a passenger without scorching and chilling them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

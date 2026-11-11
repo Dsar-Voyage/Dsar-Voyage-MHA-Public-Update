@@ -1,0 +1,20 @@
+{
+  "Starve the Blaze": {
+    "name": "Starve the Blaze",
+    "description": "The user floods a burning room, stairwell or vehicle with a heavy, inert gas that sinks over the flames and starves them of air. Every fire in that space goes out and cannot relight while the gas lingers, and the user keeps it away from the faces of everyone inside, so trapped people breathe normally while they are carried out. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

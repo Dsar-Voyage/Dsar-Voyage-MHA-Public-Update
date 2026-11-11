@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: fumikage_tokoyami_war_injury": {
+    "name": "Portrait Swap: fumikage_tokoyami_war_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c851119b-ff24-47ba-93db-d7bb441263d7.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c851119b-ff24-47ba-93db-d7bb441263d7.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c851119b-ff24-47ba-93db-d7bb441263d7.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c851119b-ff24-47ba-93db-d7bb441263d7.png"
+      }
+    ]
+  }
+}

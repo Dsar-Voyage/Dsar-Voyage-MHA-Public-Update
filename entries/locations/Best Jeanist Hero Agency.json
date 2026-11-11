@@ -1,0 +1,65 @@
+{
+  "Best Jeanist Hero Agency": {
+    "name": "Best Jeanist Hero Agency",
+    "basicInfo": "The agency of Best Jeanist (Tsunagu Hakamata), the Fiber Hero and the Number Four hero at the start of the year, ranked just behind Hawks, who controls fibers with his Quirk and is as famous for fashion as for arrests; he has won the Best Jeanist award year after year. It fills the lower floors of a sleek building in a shopping district about 6 km south-southwest of Tokyo Station by subway, about 2.5 km from the Tokyo Broadcasting Center, where he is a regular guest, and about 3.5 km from the Commission Headquarters. Its showroom-style street lobby is open to the public in office hours; the floors above are staff-only, reached by a keycard elevator, and visitors go up only with an appointment and an escort. Best Jeanist runs it on discipline and image: sidekicks wear fitted denim uniforms, keep regulation posture and are judged on conduct as much as on results. The agency specializes in clean captures with no collateral damage, binding a villain and every bystander in its path in one motion, which keeps its approval high. Sidekicks patrol in pairs from 7 a.m. to midnight; the boss splits his days between patrol, sponsor meetings and photo shoots, and greets important visitors himself. Players can apply for a sidekick post (the interview includes a dress inspection), train capture technique, have a costume tailored in the agency's workshop, report an incident in its patrol area, or pitch sponsors and fashion media. The lobby is calm: soft light, folded denim on display, and staff who will straighten a visitor's collar without asking.",
+    "hiddenInfo": "Best Jeanist believes talent without discipline is a danger, and he watches every U.A. Sports Festival for gifted, unruly first-years he could straighten out through an internship; he has already told his staff to keep his schedule clear for this year's broadcast. His standards cost him: three sidekicks have resigned after conduct reviews this year, and the agency is short on night patrols, which keeps its incident count below those of the agencies ranked above it. His main jeans sponsor is renegotiating and wants more commercials and fewer patrols; so far he has refused, and the sponsor's people are due in the lobby again this week with a richer offer and a shooting schedule that would take him off the streets for a month. Junior sidekicks complain privately that the inspections never end, and one of them is quietly interviewing at other agencies, but the agency has the lowest rate of bystander injuries in Tokyo, and he knows it. The night gap is real: between midnight and 7 a.m. his district leans on neighboring agencies and the police, and small-time thieves have started to notice. He admits none of this in public. His Quirk needs fibers within reach, so a villain in bare skin or fiber-free gear gives him little to grip, and his sidekicks drill to cover that weakness.",
+    "x": 15.03,
+    "y": -16.1,
+    "radius": 1,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Agency Lobby": {
+        "description": "A bright street-level lobby fitted out as a boutique: pale wood, polished concrete, and glass cases of folded denim and past costumes on headless forms. A reception counter faces the door, with a pressing station behind it where staff steam uniforms before each shift. Sponsors, fashion editors and job applicants wait on a leather bench, and Best Jeanist greets important visitors himself, often with a remark about their posture. Tourists come in to photograph the costumes and buy the agency's licensed jeans at a small counter by the window. The air smells of new indigo cloth and hot steam, and nobody in a wrinkled shirt gets past the counter without a remark. A keycard elevator behind the counter rises to the Training Floor; staff ride it freely, visitors only with an escort. At closing a sidekick lowers the blinds, refolds the display pieces and checks every seam.",
+        "paths": [
+          "Training Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6da720f2-d745-409e-a9a2-674030559e02.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Training Floor": {
+        "description": "An upper floor lined with full-length mirrors, padded mats and training dummies wrapped in rope and cloth. Sidekicks run capture drills here every morning before patrol: restraining a struggling partner without bruising them, moving a crowd out of danger, holding posture through fatigue, and pinning a partner dressed in fiber-free gear, the drill everyone dreads. Best Jeanist supervises when he is in, correcting stance and angles in a level voice and reaching for thread metaphors. Bolts of fabric and coils of cable hang on wall racks for the drills, and the agency's tailoring workshop at the far end mends whatever tears. The room is quiet except for the creak of stiff denim and the snap of fabric pulled tight, and anyone caught slouching starts the drill again. The elevator back down to the Agency Lobby is the only way in or out, and a card beside it lists the day's patrol pairs.",
+        "paths": [
+          "Agency Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f8f969f7-6acb-4e53-8d6c-9c3f0d830d1e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ad468f92-c6d8-4868-9b3a-0bbf2cebe11d.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: katsuki_final_war": {
+    "name": "Portrait Swap: katsuki_final_war",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/17f99ac1-b1c3-42b2-bb7c-d99054e44b49.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/17f99ac1-b1c3-42b2-bb7c-d99054e44b49.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/17f99ac1-b1c3-42b2-bb7c-d99054e44b49.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/17f99ac1-b1c3-42b2-bb7c-d99054e44b49.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Tartarus Escapee": {
+    "name": "Tartarus Escapee",
+    "description": "⛓️ You broke out of Tartarus, or out of a prison like it, and now you fight on the side you never chose before.\n\n⚠️ You are wanted: your face is on file and a recapture team would love to find you.\n📈 Grants: Survival +5, Stealth +5",
+    "traitNarrativeEffects": "The character escaped from Tartarus or another prison and works as a vigilante while wanted: their photo is on police files and wanted lists, recapture is always one sighting away, and anyone who recognizes them must decide whether to call it in. Before the Tartarus breakout after the war they escaped alone; afterward, among hundreds. Doing good does not lift the warrant.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Survival",
+        "modifier": 5
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Vigilante"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

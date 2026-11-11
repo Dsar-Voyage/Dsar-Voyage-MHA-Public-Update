@@ -1,0 +1,20 @@
+{
+  "Handcuffs": {
+    "name": "Handcuffs",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "value": 3
+      }
+    ],
+    "description": "Steel police-pattern handcuffs with a key. Heroes and police use them to hold a detained villain until transport arrives, though a strong or shape-changing Quirk can break or slip them. Cuffing someone without legal authority is a crime. [ Tool | Police and licensed heroes ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/163b0c3b-8586-436a-b6d2-eea2320267be.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

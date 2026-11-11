@@ -1,0 +1,20 @@
+{
+  "Blow-for-Blow Counter": {
+    "name": "Blow-for-Blow Counter",
+    "description": "When an opponent's punch, kick or club lands, the user takes it on a braced forehead or shoulder and answers in the same instant. The user still takes the hit, but the answering blow deals bludgeoning damage and cannot be dodged or blocked, because the opponent's guard is still open from their own attack. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Brawler",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Striking",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

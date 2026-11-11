@@ -1,0 +1,25 @@
+{
+  "Unbroken March": {
+    "name": "Unbroken March",
+    "description": "The user's signature move: the body heals as fast as it is hurt, and the user walks straight at a single target in sight. Attacks still wound them, but nothing short of a solid wall stops or slows them, and on arrival they seize the target, who cannot move until they break free with a hard effort or the user lets go; afterward the user cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

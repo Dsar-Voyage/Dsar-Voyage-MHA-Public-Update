@@ -1,0 +1,15 @@
+{
+  "rain_patrols": {
+    "title": "The People Between Shelters",
+    "beats": "On April 14, rain empties Musutafu Station District while frightened residents mistake a tall heteromorphic woman for a threat. She is an unnamed civilian, not an enemy encounter. Izuku Midoriya hears the confrontation during patrol; All Might is nearby with transport and supplies. At U.A. Academy, shelter workers face reports of people still stranded outside. Follow-up patrols can carry this pressure through April 22 without replaying the same assault every day.\n\nThe canon default course, as pressure the player can change: Izuku stops the attackers, listens to the woman and helps arrange safe passage. All Might provides practical reassurance and transport toward refuge. Her appearance has made her vulnerable to suspicion and rejection; it does not justify an additional security burden beyond the ordinary shelter process. She later has a personal reason to recognize and defend Izuku. Preserve that relationship only if this rescue or an established alternative actually creates it.\n\nFurther patrols yield endangered people and exhausted responders but little reliable information about All For One. Meals, replacement gear and human contact become increasingly difficult for All Might to deliver. Izuku's costume gathers damage and dirt, his rest shortens and his habit of moving on before support arrives becomes visible. A participant can insist on a meal, arrange a check-in or share an escort duty. Such help can reduce exhaustion; the story must not silently discard it to recreate a predetermined collapse.\n\nBy Path: at Musutafu Station District, Vigilante can interrupt the assault, Civilian Life can challenge neighbors or offer shelter, and Licensed Sidekick or Licensed Pro Hero can escort refugees and redistribute coverage. League of Villains Recruit and Independent Villain may scout the patrol, manipulate fear or choose to protect the threatened woman. At U.A. Academy, Class 1-A and Class 1-B gather permitted accounts, General Studies assists displaced residents, Support maintains field equipment, Management corrects false alerts and Faculty negotiates protected admission. These roles can produce useful contact without revealing Izuku's live route publicly. A player at the shelter receives the escort request rather than appearing instantly beside the assault.\n\nThe event is complete when the threatened people reach an explicitly accepted refuge and the next patrol contact, rest arrangement or support obligation has been settled.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_rain_patrols",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 24 [Faculty]": {
+    "name": "Day Plan: day 24 [Faculty]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 24
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_sports_festival",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the U.A. Sports Festival: every first-year competes at the U.A. Stadium in gym uniforms from the morning, before a national broadcast; there are no classes."
+      }
+    ]
+  }
+}

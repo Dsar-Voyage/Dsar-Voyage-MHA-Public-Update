@@ -1,0 +1,20 @@
+{
+  "Agency radio": {
+    "name": "Agency radio",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "value": 3
+      }
+    ],
+    "description": "A rugged handheld radio set to the agency's channel and the shared police band. It keeps a hero in touch with dispatch and nearby officers when phone networks fail in a disaster. [ Tool | Agency-issue ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6f4067e9-3cbd-42a0-93b7-28358da2391a.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

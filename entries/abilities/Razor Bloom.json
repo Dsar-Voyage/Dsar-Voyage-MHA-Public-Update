@@ -1,0 +1,25 @@
+{
+  "Razor Bloom": {
+    "name": "Razor Bloom",
+    "description": "The user's signature move: blades burst from every surface of the body at once, and the user spins through the enemies around them. Every enemy within a room's width takes massive slashing damage, is knocked off their feet and has every weapon they hold cut apart; afterward the user's skin is torn raw and they cannot grow blades until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Return Point Strike": {
+    "name": "Return Point Strike",
+    "description": "The user repeatedly phases around one nearby opponent and becomes solid for a single controlled strike each turn for the rest of the scene. Each landed blow deals moderate bludgeoning damage; held back, it drives the opponent back without a grave injury. The user must breathe and take bearings between phases, and each solid fist or foot remains exposed to a prepared counter. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

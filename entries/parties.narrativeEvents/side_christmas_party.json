@@ -1,0 +1,15 @@
+{
+  "side_christmas_party": {
+    "title": "The Heights Alliance Christmas Party",
+    "beats": "Christmas week, evening, in the Class 1-A Dorm Lounge at Heights Alliance. Mina Ashido has strung lights over every window, a tree stands by the television, and everyone wears a Santa hat because she handed them out at the door. Rikido Sato has spent the afternoon in the Dorm Kitchen on a strawberry layer cake big enough for the whole class; Momo Yaoyorozu has arrived with far too much food from a caterer her family uses. Wrapped gifts wait under the tree for an exchange by drawing lots.\n\nThen the guests: if the raid freed her, Shota Aizawa brings Eri over from the teachers' quarters, with Mirio Togata at her side. She is small and shy in a room this loud, the youngest person there by many years, and the narration protects her. It is the first Christmas she has ever had.\n\nDefault course as pressure: the evening holds as long as nobody overwhelms Eri. Izuku Midoriya and Ochaco Uraraka kneel to talk to her at her height; Katsuki Bakugo tells everyone to stop crowding her, the closest he comes to warmth; Shoto Todoroki, asked to help, carves small ice figures for the table and gives her the best one. The gift draw pairs people at random, and someone ends up with a present that suits them terribly. Aizawa stands by the wall, refuses a Santa hat and watches Eri. The quiet stake of the night is whether she laughs out loud before bedtime. If the raid did not free her, it is the same warm, noisy evening without guests, and the class feels the empty chair.\n\nBy path: a Class 1-A student is a host and in the gift draw; a Class 1-B student hears the party through the wall from the Class 1-B Dorm Lounge, where Itsuka Kendo has organized a calmer one and Neito Monoma insists theirs is better, then goes next door to check.\n\nThe event is complete when the cake is gone, the gifts are opened and Aizawa takes Eri home to bed, or the party leaves the lounge.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_christmas_party",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

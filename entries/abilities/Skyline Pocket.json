@@ -1,0 +1,25 @@
+{
+  "Skyline Pocket": {
+    "name": "Skyline Pocket",
+    "description": "The user's signature move: they press both palms to a mass up to the size of a building, such as a collapsing tower, a runaway train, a landslide or a villain's armored truck, and compress it all at once. Anyone inside who does not fight the pull goes with it and comes out unharmed on release, and anyone who fights it is left in the open; afterward the user's hands shake and cannot compress until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

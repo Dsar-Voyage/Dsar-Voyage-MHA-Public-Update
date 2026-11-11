@@ -1,0 +1,24 @@
+{
+  "Open Book": {
+    "name": "Open Book",
+    "description": "The user pushes past the surface of a single mind in sight and reads what that person is thinking right now. Until the end of the scene the user hears their passing thoughts, including intentions and their next move, so that person cannot surprise or deceive the user; they feel a pressure behind the eyes and may guess what is happening. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

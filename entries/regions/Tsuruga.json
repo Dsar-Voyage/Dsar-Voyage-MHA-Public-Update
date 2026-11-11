@@ -1,0 +1,30 @@
+{
+  "Tsuruga": {
+    "name": "Tsuruga",
+    "basicInfo": "The southern Echizen country of Fukui Prefecture, from the deep harbor of Tsuruga Bay north across the Takefu basin and east into the Ono basin and the mountains toward Gifu. The western edge is coast: Tsuruga Bay, sheltered and deep, with the Tsuruga Peninsula on its west side, and farther north the steep Echizen coast, where Echizen harbor lands the famous yellow-tagged crab and terraced slopes bloom with wild narcissus in winter. Tsuruga is a working port city: car ferries leave for Niigata and Hokkaido, freighters load at the quays, and the long Kehi pine grove lines the beach east of the harbor. Kehi Shrine's great vermilion torii stands near the station, and the Hokuriku Shinkansen now begins here. North over the Kinome pass and the old Hokkoku road lie the craft towns of Echizen-Takefu and Sabae: knife forges, lacquerware, handmade washi paper in Imadate, and the workshops that make most of Japan's eyeglass frames. East across the mountains, the Ono basin holds a small castle town on a grid of spring-fed streets, its castle on a hilltop that floats above the morning fog in autumn. Beyond that the land climbs into the Kuzuryu valley and the steep, empty ranges of the Gifu border. Winters are snowy and gray, summers hot and green. Food is grated-radish soba, Echizen crab, grilled mackerel and, in Ono, taro and clear spring water. The shinkansen stops at Tsuruga and Echizen-Takefu; the Hapi-Line runs local trains up the corridor, the Obama line west, and the Hokuriku and Maizuru-Wakasa expressways meet near Tsuruga. Musutafu is about two hours away by way of Maibara, Shin-Osaka about an hour and a half on the Thunderbird limited express. Tsuruga and Takefu each have a small hero agency and police boxes; heroes cover the eastern mountains by car, and in the knife workshops more than one smith's Quirk helps at the forge.",
+    "hiddenInfo": "Ordinary trouble is port-side: undeclared cargo, fights between ferry crews, theft from parked trucks along the expressway. The eastern mountains empty out more every year. Fukui's agencies are half an hour north; bigger help comes from Osaka or Kanazawa by rail.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -5,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/68eb7e4f-bde3-4b3d-8799-38c526389d27.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

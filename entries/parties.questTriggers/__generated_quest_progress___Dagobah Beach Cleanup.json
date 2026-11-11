@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Dagobah Beach Cleanup": {
+    "name": "__generated_quest_progress__/Dagobah Beach Cleanup",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The new junk is cleared from Dagobah's Shoreline and the night dumping has been stopped or reported, through the PC's work."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Dagobah Beach Cleanup"
+      }
+    ]
+  }
+}

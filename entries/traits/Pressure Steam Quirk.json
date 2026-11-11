@@ -1,0 +1,43 @@
+{
+  "Pressure Steam Quirk": {
+    "name": "Pressure Steam Quirk",
+    "description": "♨️ Water heated inside your body vents as pressurized steam.\n\n🧬 A Fusion Quirk of Water and Fire: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you spray a short stream of hot water to douse flames and vent a scalding puff of vapor at close range.\n📈 With training: steam-piston strikes and jumps, a scalding fog held back to warm mist for cover, a pressure valve that bursts a door or lifts rubble, a boiling water slug and a hall filled with humid heat.\n⚠️ Steam must vent through your skin, so tight wraps block it, and dry air and cold rooms limit your output.\n🔗 Common drawback pairing: Overheating, as unvented steam cooks your own core.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Endurance +1, Quirk Control +10, Quirk Output +10, Conditioning +5\n⚡ Starting techniques: Warm Spray, Scald Puff\n🛡️ Resists: fire",
+    "traitNarrativeEffects": "Scale: the body makes and heats water, venting hot water, mist or steam from palms, forearms, calves. New adult user: a hot spray about 5 m (douses small fires, shoves adults back), a 2 m scalding puff, or a doorway of mist in seconds. Limits: heated water must be vented, and blocked pores or tight wraps stop it. Dry, cold air halves reach and condenses steam harmlessly within a stride or two. Quirk Strain: light: warm spray, short puff; moderate: floor flush, wet-heat sear, piston strike or jump, fog screen, pressure release; heavy: boiling slug; severe: signature blowout, heating a hall. Fusion: Water's water + Fire's heat; half a Water user's volume and range, no open flames (heat stays inside); only it makes high-pressure steam. Type: Emitter. Law: unlicensed scalding is assault; crowded high-pressure venting is public endangerment. Look: white plumes at wrists, elbows, ankles.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Conditioning",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Warm Spray",
+      "Scald Puff"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "fire"
+    ]
+  }
+}

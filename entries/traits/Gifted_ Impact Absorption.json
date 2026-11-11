@@ -1,0 +1,35 @@
+{
+  "Gifted: Impact Absorption": {
+    "name": "Gifted: Impact Absorption",
+    "description": "🧬 Impact Absorption, as an extra Quirk put into your body.\n\n🌱 At the start you go soft as a blow lands, taking a punch, a bat swing or a fall from a second-floor window unhurt, then send what you stored back out in one hard blow.\n📈 With training: people shielded, a swallowed arm, rooftop bounces, knives and bullets stopped, a room knocked flat, a fight's force returned, a truck stopped.\n🔗 Common drawback pairing: Stamina Drain, as holding the soft state burns through your body's reserves.\n🎬 Similar canon Quirks: Fat Gum (Fat Absorption).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Impact Absorption family): Scale: while active, the body turns soft and dense; a blow that sinks in is stored as force, not felt. A new adult user takes a strong adult's punch, a bat swing or a second-floor fall unhurt, holds it about a minute, releasing it in one contact blow. Bigger feats need techniques. Limits: only blunt force sinks in; blades and bullets still cut at the start; heat, cold, electricity, sound and gas pass through. Grabs, chokes and unseen blows get no help. Stored force cannot be split or thrown; no sprinting or dodging while soft. A growing flush and tremor warn sharp foes the user is loaded. Quirk Strain: light: soak or release a blow; moderate: shield people, hold an attacker, rebound; heavy: catch blades and bullets, shake the ground; severe: signature release, stopping a vehicle dead. Type: Transformation. Law: soaking blows is self-defense; unlicensed release of stored force into a person is assault.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "bludgeoning"
+    ]
+  }
+}

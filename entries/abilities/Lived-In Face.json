@@ -1,0 +1,24 @@
+{
+  "Lived-In Face": {
+    "name": "Lived-In Face",
+    "description": "The user settles into a borrowed form for the long haul. From any sample it holds for a full day and night through sleep, pain and shock, and the user picks up the person's walk, accent, handwriting and habits, so coworkers, neighbors and casual friends accept them; only a blood test, a tracking dog, a Quirk-suppressing effect or a question only the real person could answer exposes them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

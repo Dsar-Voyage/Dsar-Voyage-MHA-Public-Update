@@ -1,0 +1,24 @@
+{
+  "Debris Halo": {
+    "name": "Debris Halo",
+    "description": "The user sets dozens of pieces of rubble, glass and scrap circling in a dense ring around themselves and everyone within a few strides. For the rest of the scene, while the user moves no faster than a walk, gunfire, thrown objects and charging enemies are struck aside by the ring, and the user can let any piece fly as a sling shot for bludgeoning damage. Breaking into a run flings the whole ring outward. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

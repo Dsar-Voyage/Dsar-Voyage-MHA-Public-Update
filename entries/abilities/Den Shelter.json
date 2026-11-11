@@ -1,0 +1,20 @@
+{
+  "Den Shelter": {
+    "name": "Den Shelter",
+    "description": "The user curls their full beast form around the people beside them, or braces over them on all fours. Until the user moves, gunfire, blades, thrown debris and falling rubble aimed at those people strike the user's hide instead, and the people inside stay warm, out of reach and hidden from sight. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

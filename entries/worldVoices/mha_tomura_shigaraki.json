@@ -1,0 +1,15 @@
+{
+  "mha_tomura_shigaraki": {
+    "label": "Tomura Shigaraki",
+    "voiceTag": "male deep raspy",
+    "instructions": "A young man's dry, scratchy, breathy mid-low voice, often a sulky mutter. Bored and contemptuous, drawling game talk about bosses and cheats, then flaring into petulant, raspy rage and unsettling laughter. Never booming.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

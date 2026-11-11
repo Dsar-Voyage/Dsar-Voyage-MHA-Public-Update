@@ -1,0 +1,25 @@
+{
+  "Street Unmade": {
+    "name": "Street Unmade",
+    "description": "The user's signature move: a full hand slams down and the decay races out through the ground across a street-wide area, crumbling asphalt, cars, barricades and cover around every enemy but never touching living flesh. Each of them drops with the ground, takes massive bludgeoning damage and is half buried until they dig out; afterward the user's hands go numb and cannot decay anything until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

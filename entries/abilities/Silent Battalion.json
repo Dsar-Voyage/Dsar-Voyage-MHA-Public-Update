@@ -1,0 +1,24 @@
+{
+  "Silent Battalion": {
+    "name": "Silent Battalion",
+    "description": "The user projects every hero, police officer and patrol car they have seen that day, life-size and moving, around a building or a city block. Every enemy inside who sees them believes they are surrounded and surrenders unless they keep fighting with a hard effort of will, and the images hold for the rest of the scene. The images bring no sirens, voices or footsteps, so an enemy who notices the silence sees through them. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

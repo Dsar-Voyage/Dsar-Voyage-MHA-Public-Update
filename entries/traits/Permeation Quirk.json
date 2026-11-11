@@ -1,0 +1,40 @@
+{
+  "Permeation Quirk": {
+    "name": "Permeation Quirk",
+    "description": "👻 You turn your body intangible so solid matter passes through you.\n\n🌱 At the start you let one visible strike pass through you or cross a thin wall during a held breath, then return to solid ground.\n📈 With training: partial phasing, planned floor rebounds, protected approaches, precise counters as you turn solid.\n⚠️ You cannot see, hear, breathe or touch while fully phased; you fall through floors, solidifying ejects you, and ordinary clothes and other people cannot phase.\n🔗 Canon Drawback, built in: Bodily Toll, as blind passages and abrupt rebounds punish your body.\n🎬 Canon Quirk: Mirio Togata's Permeation. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Mobility +10, Dodging +5\n⚡ Starting techniques: Held Breath Slip, Wall Spring",
+    "traitNarrativeEffects": "Scale: phases the body, wholly or partly. Start: one seen strike passes, or a thin wall on held breath. Practice: timed solidity through dense matter, rebounds out of floors. Partial phasing, route memory, long combat chains need training.\nLimits: fully phased: blind, deaf, breathless. Phased parts cannot touch, strike, hold or push; phased feet fall through floors. Solidifying inside matter ejects the user toward open space, maybe into danger. Clothes and gear stay behind unless made of own hair. Cannot phase others.\nQuirk Strain: light: brief avoidance; moderate: wall passage, floor rebound, timed counter; heavy: repeated blind passes, rubble rescue route; severe: sustained high-speed sequence.\nDrawback: built in, the canon Bodily Toll.\nCanon: Mirio Togata's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Transformation.\nLaw: phasing grants no entry rights; unauthorized entry is trespass.\nLook: no glow.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Dodging",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Held Breath Slip",
+      "Wall Spring"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

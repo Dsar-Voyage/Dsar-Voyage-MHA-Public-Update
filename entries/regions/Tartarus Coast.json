@@ -1,0 +1,30 @@
+{
+  "Tartarus Coast": {
+    "name": "Tartarus Coast",
+    "basicInfo": "The southern tip of the Izu Peninsula, about 50 kilometers south of Musutafu and under two hours away by train or bus, where wooded hills drop to a rocky shore and fishing towns. A single coastal road winds south through tunnels and over headlands, with a local rail line and buses for the towns along it. The towns are small harbors of tiled roofs and concrete breakwaters: fishing families, inn and hot-spring keepers, retirees and a few surfers live here, and visitors come for the baths, the seafood, the cliffs and the lighthouses. Squid boats go out at dusk with strings of white lamps, morning auctions sell the night's catch on the quay, and laundry and drying fish hang side by side in the sea wind. On the point stands the Tartarus Transfer Port, a guarded harbor of concrete piers, fences, gates and watchtowers where prisoners board the armored ferry to Tartarus. Police patrol boats come and go, and only cleared staff pass the gate; the one gated road in is open only to staff, escorts and approved visitors, and anyone else is turned back at the barrier. Transfers run at set hours, usually at night: armored vans come down the coast road under police escort, traffic pulls over to let them pass, and the port's floodlights stay on until morning. Locals live beside it without much talk; the port brings jobs, guards' families rent rooms in town, and fishermen keep clear of the patrol boats. The water offshore is deep and rough, with long swells, fog in early summer and typhoons from late summer into autumn; in spring and autumn storms the boats stay tied up for days. Prefectural police keep a police box in each town and run the port's outer gate; in the towns, order is mostly a matter of neighbors who know each other. Public Quirk use is as illegal here as anywhere, and a stranger who uses one near the port draws the police in minutes. A player can soak in a hot spring, eat at a harbor diner, fish from a breakwater, hire on with a fishing crew, watch a night convoy go by, wait at the port for a transfer, or escort a prisoner to the boat with the right papers.",
+    "hiddenInfo": "The towns live beside the port without talking about it. Innkeepers rent rooms to guards' families and to lawyers waiting on transfers, and fishermen know the patrol boats' routines better than anyone; a few will take a cash fare out toward the exclusion line for a stranger who asks no questions and pays well. Spring storms have backed transfers up, and some nights two convoys come down the coast road at once. Locals mention strangers who watch the convoy road, and the police box notes them and does little more.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 20,
+      "max": 60
+    },
+    "x": 0,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/73df5d6b-688c-4bd8-8a12-723cb80c6837.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

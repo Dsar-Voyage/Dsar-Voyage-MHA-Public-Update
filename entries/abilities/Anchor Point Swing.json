@@ -1,0 +1,20 @@
+{
+  "Anchor Point Swing": {
+    "name": "Anchor Point Swing",
+    "description": "The user sticks a strip to a sound beam, railing or wall above them and swings across a street-wide gap. They may release at the far side and land on their feet before the end of their next turn. A weak anchor tears loose, and the user cannot change direction in midair without firing a second line to another surface. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

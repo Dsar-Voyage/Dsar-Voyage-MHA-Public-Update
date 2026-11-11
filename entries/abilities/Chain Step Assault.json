@@ -1,0 +1,20 @@
+{
+  "Chain Step Assault": {
+    "name": "Chain Step Assault",
+    "description": "The user fires the Quirk on every step through an exchange, each release carrying the user on to the next opponent. Every opponent along the path takes the Quirk's own damage type (bludgeoning from a strengthened body), and the user ends anywhere in the area, where none of them can strike back before the user's next action. A Quirk that cannot move the user is released at each opponent as the user sprints between them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirk-Centered Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

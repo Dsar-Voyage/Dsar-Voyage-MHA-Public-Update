@@ -1,0 +1,20 @@
+{
+  "Mindcast": {
+    "name": "Mindcast",
+    "description": "The user sends a few sentences into the minds of a handful of chosen people within range. Each hears the message at once in the user's voice through walls, smoke, noise or deafness, nobody else can overhear it, and allies who receive a plan this way can act on it together at the exact moment the user names, with no signal an enemy could catch. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

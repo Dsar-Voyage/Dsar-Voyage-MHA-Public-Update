@@ -1,0 +1,30 @@
+{
+  "Deep Reserves": {
+    "name": "Deep Reserves",
+    "description": "🏃 Hard daily training has built your stamina.\n\n🔋 You outlast fights, climbs and rescues that wear others out.\n📋 Requires level 8 and Conditioning 8.\n\n📈 Grants: Stamina +15",
+    "traitNarrativeEffects": "The character's body has adapted to hard daily training: stronger lungs and legs and faster recovery between efforts. Show it in steady breathing late in a fight and energy to spare after drills. Limits: it adds staying power, not strength or speed, and lost sleep, injury and hunger still drain them.",
+    "attributes": [],
+    "skills": [],
+    "resources": [
+      {
+        "resource": "stamina",
+        "modifier": 15
+      }
+    ],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "amount": 8
+      }
+    ]
+  }
+}

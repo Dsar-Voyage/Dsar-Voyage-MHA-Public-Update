@@ -1,0 +1,67 @@
+{
+  "Hero Billboard Chart Hall": {
+    "name": "Hero Billboard Chart Hall",
+    "basicInfo": "A concert hall owned by the Hero Public Safety Commission, about 4 km southeast of Tokyo Station by subway and about 3 km from the Tokyo Broadcasting Center, where the Hero Billboard Chart JP is announced live twice a year. The chart ranks licensed heroes by incidents resolved, social contribution and public approval, and the top ten are invited onstage. The chart in force at the start of the year puts All Might at Number One, Endeavor at Two, Hawks at Three and Best Jeanist at Four, with Edgeshot and Gang Orca among the others in the top ten. Commission staff run the building: the public enters only with event tickets, the press only with Commission credentials, and guards check both at the doors. Between charts the hall is rented for agency press conferences, hero debuts, award shows and Commission seminars, mostly on weekday afternoons; tickets for chart night are allotted by lottery and gone within minutes. Players can attend or staff events, cover them as press, hold a press conference for their own agency, or watch the next announcement from the gallery. The building is a curved glass front over a plaza where fans gather with banners on announcement days, with a box office and a small shop selling chart programs. Empty, the hall is cold and echoing; on chart night it seats four thousand guests and broadcasts live to the whole country.",
+    "hiddenInfo": "The tally for the next chart is already being compiled in a back office behind the stage, where Commission analysts work with the blinds down. They are auditing agencies that count joint arrests twice, and several agencies in the top thirty stand to drop when the corrections post. Approval scores come from surveys run by a contracted polling firm, and a freelance reporter is asking whether its samples favor the big cities; she has two former survey callers willing to talk and needs someone inside the hall to confirm when the raw numbers arrive. Agencies lobby the hall staff for seats near the stage and better camera angles, because a good shot on chart night can lift approval for months, and gifts arrive at the stage door every week. A stage manager is selling rehearsal schedules to tabloids, meeting a stringer in the plaza cafe after the Thursday sound checks. All Might's move to U.A. Academy has the analysts arguing over how to score a Number One who now spends his days teaching, and nobody has yet told the President which way the numbers lean.",
+    "x": 19.06,
+    "y": -13.68,
+    "radius": 0.8,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Stage": {
+        "description": "A wide stage under a lighting grid, backed by a screen three floors high that shows the rankings on chart night. Ten numbered marks are taped across the boards for the top ten, with Number One at the center. Most days the stage sits dark or is set for a weekday press event with a podium and a backdrop of sponsor logos, and stagehands test lights and sound in the mornings. By old superstition, no one stands on the Number One mark during rehearsals, and the crew walks around it. The wings hold cable runs, prop cases and a narrow green room where heroes wait to go on, watched by a Commission stage manager in a headset. On chart night each hero walks out as their number lights, and a hero who skips the ceremony leaves an empty mark the cameras linger on. The lights are hot enough to make costumes sweat, and steps at the front lead down into the Press Gallery.",
+        "paths": [
+          "Press Gallery"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/288a132d-07fd-4742-af85-3ad57fa51034.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Press Gallery": {
+        "description": "Tiered seating facing the stage, a long camera riser across the back and a fenced press pen at the front, with power outlets at every seat. Reporters, photographers, agency publicists and broadcast crews fill it for press conferences and pack it on chart night, when ticket holders fill the upper tiers behind them. Commission staff check credentials at the door and run the microphones; questions are taken only when the moderator points, and anyone who shouts out of turn loses the microphone for the rest of the event. During announcements the gallery is loud with camera shutters firing in bursts, and the coffee urns run dry within the hour. Between events the seats sit empty under work lights while cleaners collect forgotten lanyards and lens caps. The pen's gate opens on the steps up to the Stage, and a guard lets nobody through without a nod from the stage manager.",
+        "paths": [
+          "Stage"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/415d0f63-73ba-4ed4-8eeb-e10c699cb026.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Hero Public Safety Commission"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/38eb42bd-4f47-4e22-9552-b7602a04478f.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Like for Like": {
+    "name": "Like for Like",
+    "description": "The user holds a copy of an opponent's Quirk and waits for its owner to use it. If the owner attacks the user or someone next to them with that Quirk before the end of the user's next turn, the user answers with the same Quirk at the same instant: blast meets blast, ice meets ice, and both uses cancel out with no harm to anyone. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

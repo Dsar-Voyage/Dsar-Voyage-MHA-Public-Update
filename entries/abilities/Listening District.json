@@ -1,0 +1,25 @@
+{
+  "Listening District": {
+    "name": "Listening District",
+    "description": "The user opens their senses across a whole city district for the rest of the scene. Every scream, gunshot, breaking window, fire and gas leak in it reaches them as it happens, with its exact place and the number of people near it, and they can direct heroes, police and rescuers to each incident by radio before the first call comes in. The flood of input leaves the user unable to fight or move faster than a walk, and sonic damage dealt to them is doubled until the scene ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Gifted: Electricity": {
+    "name": "Gifted: Electricity",
+    "description": "🧬 Electricity, as an extra Quirk put into your body.\n\n🌱 At the start you discharge a crackling burst at everyone within arm's reach, lock a person's muscles with a touch, and run a phone or a dead car battery for a while.\n📈 With training and conductive tricks: one-target bolts, building blackouts and takeovers, a restarted heart, a nerve-driven blur, lightning chained through a crowd.\n⚠️ Aiming is the hard part: your early bursts hit friend and foe alike.\n🔗 Common drawback pairing: Cognitive Fade, as overuse scrambles your thinking.\n🎬 Similar canon Quirks: Denki Kaminari (Electrification).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Electricity family): Scale: the body stores charge and releases it through the skin. A new adult user discharges a burst about arm's length around, drops an adult with a touch shock, runs a phone or car battery some minutes. Untrained discharges spread every way; a bolt hits a chosen target only along a conductor (wire, thrown coin). Bigger feats need techniques. Limits: rubber, insulation and grounding blunt it; water carries it to everyone in it; nearby electronics can fry by accident. Cannot fly, block blows or move metal. Quirk Strain: light: burst, touch shock; moderate: guided bolt, blackout, restarting a heart; heavy: nerve-driven sprint, chained lightning; severe: signature discharge, seizing a building's power. Type: Emitter. Law: shocking a person unlicensed is assault; cutting power to traffic lights or hospitals is endangering the public.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Support Engineering",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "electric"
+    ]
+  }
+}

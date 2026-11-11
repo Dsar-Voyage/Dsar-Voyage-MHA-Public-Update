@@ -1,0 +1,20 @@
+{
+  "Playbook Call": {
+    "name": "Playbook Call",
+    "description": "The user calls a short plan that matches each ally's Quirk to the enemy's weakness and counts the timing out loud. Allies who follow the call act in the order given, no ally's attack or Quirk hits another ally this turn, and the ally whose Quirk best counters the target's gets one opening the target's Quirk cannot block. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirkless",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

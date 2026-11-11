@@ -1,0 +1,30 @@
+{
+  "Hold the Line": {
+    "name": "Hold the Line",
+    "description": "🛡️ You can stand between a blow and the people behind you, and stay standing.\n\n🎯 Good for defenders and anyone who shields civilians in a fight.\n📋 Requires level 16 and Blocking 15.\n\n📈 Grants: Blocking +10",
+    "traitNarrativeEffects": "The character has learned to take hits on purpose: they angle a guard, a shield, armor or their own toughened limbs to turn an impact, brace their stance and keep their feet to protect someone behind them. Show it in a planted stance and a refusal to give ground. Limits: it reduces and redirects impacts rather than stopping all harm; a strong enough blow still injures, and blocking blades, acid or flame with bare arms still costs them.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Blocking",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "skill",
+        "variable": "Blocking",
+        "amount": 15
+      }
+    ]
+  }
+}

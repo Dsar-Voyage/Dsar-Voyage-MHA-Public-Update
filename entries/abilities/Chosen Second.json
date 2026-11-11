@@ -1,0 +1,29 @@
+{
+  "Chosen Second": {
+    "name": "Chosen Second",
+    "description": "For the rest of the scene the user sees every branch of the next few seconds at once. Once each turn, when an attack, a fall or an accident is about to strike anyone in the user's sight, the user takes one quick action from among the branches they saw, a shove, a thrown chair, a word, and that harm misses its target entirely. The user must be able to act on the branch this turn; a danger no action of theirs could change still lands. Afterward the user is unable to stand without help until the end of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

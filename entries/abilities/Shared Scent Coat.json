@@ -1,0 +1,20 @@
+{
+  "Shared Scent Coat": {
+    "name": "Shared Scent Coat",
+    "description": "The user spreads their own mucus over up to two willing allies within arm's reach, making the three smell similar for the next ten minutes or until washed clean. A scent tracker has trouble telling their trails apart, but sight and sound still reveal each person. Applying the coating takes a turn, exposes the user and can cause mild itching on sensitive skin. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

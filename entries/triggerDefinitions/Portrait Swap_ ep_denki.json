@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_denki": {
+    "name": "Portrait Swap: ep_denki",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c1be092c-4dca-4d9f-838c-bd44ff2f3fc0.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c1be092c-4dca-4d9f-838c-bd44ff2f3fc0.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c1be092c-4dca-4d9f-838c-bd44ff2f3fc0.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Denki Kaminari (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c1be092c-4dca-4d9f-838c-bd44ff2f3fc0.png"
+      }
+    ]
+  }
+}

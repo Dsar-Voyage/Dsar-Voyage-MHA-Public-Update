@@ -1,0 +1,36 @@
+{
+  "Battle Trial: round 2 (Class 1-B)": {
+    "name": "Battle Trial: round 2 (Class 1-B)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Battle Trial round 2 of 5 is on now: Team A (Itsuka Kendo and Kinoko Komori) as heroes against Team B (Tetsutetsu Tetsutetsu and Ibara Shiozaki) as villains. Already fought, never again: Teams E, F. Announce and play only this matchup. When it ends, the next round is Team C (Neito Monoma and Sen Kaibara) against Team D (Yosetsu Awase and Kojiro Bondo); Teams E, F, A, B are then done and never drawn again. The exercise is NOT over after this round: 3 more rounds remain. When this round ends, close the turn with its result and a short review; announce the next round only on the following turn."
+      }
+    ]
+  }
+}

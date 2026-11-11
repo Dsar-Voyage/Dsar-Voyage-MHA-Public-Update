@@ -1,0 +1,15 @@
+{
+  "mha_katsuki_bakugo": {
+    "label": "Katsuki Bakugo",
+    "voiceTag": "male deep raspy",
+    "instructions": "Hoarse, raspy young man's voice in a mid register, harsh and scratchy, always on the edge of a shout. Clipped, snarling delivery; barks orders and insults, volume jumping into explosive yells; quiet moments a rough grumble. Never slow, soft or polite.",
+    "speed": 1.06,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

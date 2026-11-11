@@ -1,0 +1,28 @@
+{
+  "Kashima-nada": {
+    "name": "Kashima-nada",
+    "basicInfo": "The Kashima-nada, the open Pacific off the long straight beaches of central Ibaraki, here between about twenty-five and seventy-five kilometers from shore, east of Oarai, Hokota and Kashima. The coast is a low line of sand and pine with a few tall stacks at Kashima, often lost in haze. The water is green near shore and deep blue offshore, where the bottom falls off the shelf past two hundred meters into the slope. Nada means rough water, and the name is earned: warm Kuroshio and cold Oyashio water meet here, swells roll in unbroken from the open ocean, early summer brings fog, and winter brings hard northwest winds. Purse seiners from Hasaki, Oarai and Nakaminato chase sardines and mackerel, and smaller boats work flounder and whitebait nearer the beach. The overnight ferries between Oarai and Hokkaido run north through these waters, and cargo ships make for Kashima's industrial port. The coast guard patrols from the Ibaraki ports, and maritime heroes answer the rare distress calls. A party could be out here on the Hokkaido ferry, a fishing charter, or carried by a flying hero.",
+    "hiddenInfo": "Fishing crews here are aging and hard-pressed, and quarrel among themselves over the sardine grounds. Fog and swell sink small boats every few years. Real help is the coast guard, an hour or more from port. Petty villainy is catch and fuel theft, illegal dumping from ships, and the odd stowaway on the Hokkaido ferry.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 4,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/934af7b1-89e0-4e2d-894b-a58bd4f8099b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

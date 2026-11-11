@@ -1,0 +1,20 @@
+{
+  "Studied: Survival": {
+    "name": "Studied: Survival",
+    "description": "🏕️ You learned to live outdoors: a mountain club, scouting, a rural childhood or disaster preparedness training.\n\n🌱 Shelter, fire, water, foraging and weather signs. You know what to pack for an earthquake or a night on a mountain.\n⚠️ Winter mountains, injuries far from help and long stretches without supplies still threaten you.\n⚖️ Hunting, fishing and camping often need permits, and survival skills give no right to enter closed land or a disaster zone.\n🏫 It shows in a packed emergency bag, a habit of checking the sky and calm during a blackout.\n\n📈 Grants: Survival +15",
+    "traitNarrativeEffects": "The character has trained in outdoor survival: shelter, fire, water, foraging, weather signs and keeping calm when lost. They know what to pack for an earthquake or a night on a mountain. Prior study, not mastery: winter mountains, injuries far from help and long stretches without supplies still threaten them. Not a license: hunting, fishing and camping often need permits, and survival skills give no right to enter closed land or a disaster zone. It shows in a packed emergency bag, a habit of checking the sky and calm during a blackout.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Survival",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "Clock: Stated Time": {
+    "name": "Clock: Stated Time",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const tk=check({type:'game-tick'})||0;const N=k=>typeof storage[k]==='number'?storage[k]:(check({type:'read-number',key:k})||0);const b=N('currentBandIndex'),d=N('currentDay');if(storage.stB!==b||typeof storage.stT!=='number'){storage.stB=b;storage.stT=tk;}const P=nb=>{storage.currentBandIndex=storage.stB=nb;storage.stT=storage.cueTick=tk;effects.push({type:'write-number',key:'currentBandIndex',operator:'set',value:nb});};if([storage.cueTick,storage.sleepTick,storage.advTick,storage.skipTick].indexOf(tk)>=0||b>6){storage.stT=tk;skip=true;return;}const QC=check({type:'quests-completed'})||[],TR=JSON.stringify(check({type:'player-traits'})||{});if(d===2&&TR.indexOf('U.A. Hero Course (Class 1-A)')>=0&&QC.indexOf('The First-Day Quirk Assessment')<0||d===3&&check({type:'party-location'})==='Ground Beta'&&QC.indexOf('Battle Trial: Heroes and Villains')<0){storage.stT=tk;skip=true;return;}const tx=String(check({type:'story-text'})||'').replace(/[\"\\u201c][^\"\\u201d]{0,600}[\"\\u201d]/g,' ');const T='(1[0-2]|[1-9]):[0-5]\\\\d\\\\s*(a\\\\.?m|p\\\\.?m)?',R=[new RegExp('\\\\b(?:it is|it\\'s|it\\u2019s|nearly|almost|just (?:after|past|before)|a little (?:after|past)|shortly (?:after|before))\\\\s+'+T,'gi'),new RegExp('(?:^|[.!?]\\\\s+|\\\\n\\\\s*)at\\\\s+'+T,'gi'),new RegExp('\\\\bat\\\\s+'+T+'(?=\\\\s+(?:is|was|sharp)\\\\b)','gi'),new RegExp('\\\\bthe\\\\s+'+T+'\\\\s+(?:bell|chime|line|crowd|rush)(?=\\\\s+(?:is|was|has|\\\\w+s)\\\\b)','gi')];let h=-1,ap='',at=-1;for(const re of R){let m;while((m=re.exec(tx))){if(m.index>=at){at=m.index;h=+m[1];ap=(m[2]||'').toLowerCase();}}}if(h>=0&&b<=5){if(ap[0]==='p'&&h<12)h+=12;else if(!ap&&h<=6)h+=12;const v=h<5?9:h<8?0:h<10?1:h<12?2:h<14?3:h<16?4:h<18?5:h<20?6:h<22?7:8;if(v>b&&v<=8){P(Math.min(v,b+2));return;}}if(tk-storage.stT>=4){P(b+1);return;}skip=true;})();"
+  }
+}

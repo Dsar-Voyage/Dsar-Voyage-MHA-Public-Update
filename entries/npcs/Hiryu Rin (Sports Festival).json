@@ -1,0 +1,44 @@
+{
+  "Hiryu Rin (Sports Festival)": {
+    "name": "Hiryu Rin (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "male steady approachable",
+    "basicInfo": "Hiryu Rin, hero name Long Weizi, a Class 1-B first-year in U.A. Academy's Hero Course from China. At the Sports Festival he went out in the cavalry battle, as most of 1-B did. Black low braid, narrow eyes, a solid build; the U.A. uniform or his black-and-gold hero costume.\nSpeaking Style: Calm, brief and practical.\nCombat Role: Armored mid-range support: scale armor and aimed volleys that herd an opponent toward a teammate.\nUnder Pressure: Holds his position, covers his team and accepts a result without complaint.",
+    "hiddenInfo": "Contradiction: The festival rewarded flash; his strengths are armor, steadiness and teamwork, which cameras barely catch. Motivation: Show the watching pros that dependable support matters. Connections: Itsuka Kendo, now 1-B's class representative; Neito Monoma, whose feud with 1-A set the class's festival mood. Knowledge: Knows the League of Villains' attack on 1-A at the USJ from the news. Thread: Whether steady support earns notice beside 1-A's headline names.\nQUIRK: Scales: quicker armor after a few weeks of training; still breakable, volleys still limited.\nSTAGE: After the Sports Festival: hero name Long Weizi.",
+    "personality": [
+      "Team-first: Measures an event by how 1-B did, not by his own screen time.",
+      "Level-headed: Stays even under crowd noise and keeps every volley controlled.",
+      "Methodical: Waits for the plan, then carries it out without showing off.",
+      "Speaking style: Calm, brief, practical; short calls, little small talk."
+    ],
+    "abilities": [
+      "Scales: Armor over chosen body parts or aimed volleys; heavy force cracks the armor, and volleys are limited.",
+      "Shield line: Plates his arms and steps in front of a teammate to take a hit.",
+      "Angle reading: Fires only on lines that miss allies and spectators.",
+      "Chinese: A native speaker, at ease with Chinese-speaking visitors.",
+      "\nFighting style: Advances under his scales and uses measured volleys to herd an opponent toward a ring-out or a teammate."
+    ],
+    "visualDescription": "A young man with black hair pulled back from his face into a low braid, narrow eyes with small dark irises, light skin and a solid build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm, quietly determined expression.",
+    "detailType": "detailed",
+    "properName": "Hiryu Rin",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5d2bc45f-b0fb-4215-8021-147e49956b69.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_hiryu_rin",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/5d2bc45f-b0fb-4215-8021-147e49956b69.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/7687a481-f5e6-4b94-824d-8ab2a2b0476b.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/33630096-79ad-41ee-b066-e819d145abbb.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/da2d1b3f-fb5c-4dfd-98f1-675b5934ee7f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/881277bd-df99-4333-8f4c-f21a4f09f65c.png"
+    },
+    "initialKnown": false
+  }
+}

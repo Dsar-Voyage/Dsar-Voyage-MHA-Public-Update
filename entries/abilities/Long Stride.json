@@ -1,0 +1,20 @@
+{
+  "Long Stride": {
+    "name": "Long Stride",
+    "description": "The user grows their legs mid-run and crosses a city block in a few huge strides, stepping over traffic, fences and crowds or up onto a low rooftop. They can scoop a person into one arm along the way and set them down safely at the far end. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

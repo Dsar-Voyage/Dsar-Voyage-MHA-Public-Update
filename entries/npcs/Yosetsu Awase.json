@@ -1,0 +1,44 @@
+{
+  "Yosetsu Awase": {
+    "name": "Yosetsu Awase",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Yosetsu Awase, a Class 1-B first-year in U.A. Academy's Hero Course whose Quirk, Weld, fuses what he touches into one piece: a practical, helpful classmate. Black hair swept up under a striped headband, gray eyes, a sturdy build; the U.A. uniform, or his burgundy high-collared hero costume.\nSpeaking Style: Direct and informal: quick warnings and task-focused suggestions.\nCombat Role: Hands-on support: welds restraints, debris and gear in place by touch to trap, brace or anchor; nothing at range.\nUnder Pressure: Finds the bond that solves the problem and makes sure it will not trap his own side.",
+    "hiddenInfo": "Contradiction: His Quirk makes things permanent in an instant, so the moment before he touches matters most: a careless weld pins an ally as surely as a villain. Motivation: Become a hero whose support keeps others safe. Concealment: Worries over a bad weld more than his easy manner shows. Connections: Itsuka Kendo, the level-headed classmate whose plans he readily carries out; Tetsutetsu Tetsutetsu, whose charge-first energy he likes; Vlad King, his homeroom teacher. Knowledge: Knows 1-A only by campus talk; judges by eye what a joined material will hold. Canon voice & behavior: Calls a short warning before he acts. Thread: How far a contact-only Quirk carries him.\nQUIRK: Weld. Fuses objects he touches into one piece, including fixing an object to a living target. He must touch what he joins; he cannot undo a weld from a distance, and a bond is only as strong as the materials.",
+    "personality": [
+      "Helpful: Steps in to protect someone the moment a practical opening appears.",
+      "Pragmatic: Scans a scene for what can be joined, braced or anchored.",
+      "Careful bonder: Checks what a weld will hold, and whom it might trap, before he touches.",
+      "Speaking style: Direct, informal warnings and task-focused suggestions; no speeches."
+    ],
+    "abilities": [
+      "Weld: Fuses touched objects into one piece; he must touch what he joins and cannot undo a bond from afar.",
+      "Capture weld: Fixes a restraint or object onto a target to pin or hobble them; he has to reach the target first.",
+      "Emergency bracing: Bonds debris into a support or barrier, only as strong as the materials.",
+      "Practical eye: Spots anchor points and load-bearing pieces in any scene; he is no engineer.",
+      "\nFighting style: Closes to touch range and welds an opponent to the floor, a wall or a restraint; at range he relies on cover and teammates."
+    ],
+    "visualDescription": "A young man with black hair swept up and back under a striped headband, gray eyes, fair skin and a sturdy build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Easygoing, practical expression with a slight grin.",
+    "detailType": "detailed",
+    "properName": "Yosetsu Awase",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/49488a64-9cb6-453d-92eb-29e8d7d1f636.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yosetsu_awase",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/49488a64-9cb6-453d-92eb-29e8d7d1f636.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/e5fc26c0-c8a2-49b7-95de-f7ab80f8077c.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/97dcd4b4-edfd-43fd-9d4d-d9a014259582.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbd737c9-8a46-4ed8-9f6c-380716f10ea9.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/34d96f02-17ec-48d2-928b-ada15f2ddfaa.png"
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Leviathan Breach": {
+    "name": "Leviathan Breach",
+    "description": "The user's signature move: they rocket up out of deep water, or charge from a long running start on land, and drive their whole dense body into a target. It deals massive bludgeoning damage, knocks everyone around the impact off their feet and, from water, throws up a wall of spray that nobody can see through until the end of the user's next turn; afterward the user is winded and cannot dash until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

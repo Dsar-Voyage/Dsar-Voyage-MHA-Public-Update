@@ -1,0 +1,25 @@
+{
+  "Glazed Quarter": {
+    "name": "Glazed Quarter",
+    "description": "For the rest of the scene glass pours from the user by the tonne instead of the bucket. They raise walls of glass as high as a building across every street of a city block, lay a glass bridge between two towers, glaze shut every cracked facade in the block and fuse a shackle to the ground around every enemy within a street's width who stands still. Each piece still breaks at its weak point, and the user can keep only so many points turned from danger at once. When the scene ends the user's knuckles bleed and they cannot grow glass until they have drunk and rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

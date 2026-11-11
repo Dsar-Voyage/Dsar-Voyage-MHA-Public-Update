@@ -1,0 +1,65 @@
+{
+  "Manual Hero Agency": {
+    "name": "Manual Hero Agency",
+    "basicInfo": "Manual Hero Agency is a small local agency on the second floor of an office building about 3 km east-northeast of Hosu Station, above a dry cleaner and a dental clinic, its name on a modest sign in the window. The pro hero Manual runs it: a courteous, careful hero who does things by the book, explains everything step by step and expects his staff to do the same. His specialty is water-based rescue and support, dousing fires, knocking opponents off balance and screening civilians while flashier heroes take the spotlight. A front desk takes walk-in complaints and police requests from eight in the morning until ten at night; after that a buzzer by the street door reaches whoever is on the night shift. Behind the desk are a few desks, a wall map of patrol routes stuck with colored pins, a whiteboard of shifts, a small kitchen and a locker room. Manual and his small staff patrol downtown Hosu on fixed routes in day and night shifts, alongside Native on Main Street and Chief Tsuragamae's officers, and he accepts interns from hero academies. A player can report a crime, ask for help, apply for part-time agency work, or train here as an intern, which takes an academy's paperwork and Manual's signature; nobody goes out on patrol without him or a licensed sidekick. Downtown and the Station Plaza are about 3 km away by bus, Hosu General Hospital about 4 km. The police scanner on the front desk is never switched off, and the office smells of instant coffee and costumes drying on the radiator.",
+    "hiddenInfo": "Manual's agency covers more ground than it can handle. He has asked the large Tokyo agencies for patrol support and has had no answer, and the paperwork eats his evenings; most nights he is still at his desk at eleven, filing case reports so his staff get credit for their work. Right now his night shift is two people short while he hunts the rooftop burglar hitting offices on Main Street, so he would welcome a capable intern or part-time sidekick. On the wall map he has pinned every forced hatch, and the pins cluster near the elevated line: he believes the thief times each break-in to passing trains, whose noise covers a forced lock, and he plans to stake out the roofs by the overpass himself later this week with a single sidekick, which he knows is too few. What he has not pinned is the cut padlock on a roof door where nothing was stolen; it bothers him, and he cannot say why. Native drops in most evenings to compare notes over canned coffee. Manual gives every new hire the same warning: a hero who acts on personal feelings, outside orders, puts the whole agency in breach of the rules, and the supervising hero answers for anything an intern does. He says it kindly and enforces it without exception.",
+    "x": 8.25,
+    "y": 11.94,
+    "radius": 1,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Manual Agency Front Office": {
+        "description": "The second-floor office of Manual Hero Agency, up a narrow stairwell from a street door beside the dry cleaner: a front desk facing the door, a few staff desks behind it, a whiteboard of day and night shifts, a kitchen corner with an electric kettle and a jar of instant coffee, and a large wall map of downtown Hosu, about 3 km away, stuck with colored pins along the patrol routes. The front desk takes walk-in complaints and police requests from eight in the morning until ten at night, and after hours a buzzer by the street door reaches whoever is on the night shift. The police scanner on the desk is never switched off. Manual is usually at a desk behind a stack of case reports, or explaining a form step by step to a visitor; he greets everyone with an almost apologetic bow. Native drops by most evenings with canned coffee to compare notes. Nobody leaves on patrol without Manual or a licensed sidekick. A cluster of pins near the elevated rail line catches the eye of anyone who studies the map for long. The office smells of instant coffee and drying costumes, and the Manual Agency Locker Room is through a door at the back.",
+        "paths": [
+          "Manual Agency Locker Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a86d7f76-5350-4808-a046-e499dfbe073a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Manual Agency Locker Room": {
+        "description": "A narrow room behind the front office: a row of tall steel lockers with names on strips of tape, a bench down the middle, a small shower stall, and a radiator under the window where costumes and towels are always drying. Manual's spare blue-and-white costumes hang in a garment bag at the end, his white helmet on the shelf above, its fin crest polished; the staff lockers hold radios, flashlights and rain gear. Because Manual's water Quirk is useless without a supply nearby, a utility sink by the door has a hose fitting, and filled canteens and water packs stand on a shelf ready to grab before every patrol. The day shift changes here in the morning and the night shift in the evening, and the room is busiest at the handover, when two shifts crowd in and trade news about the rooftop break-ins downtown. Interns get a locker of their own with a laminated checklist taped inside the door in Manual's careful wording: radio checked, license or intern ID on, route confirmed, supervisor told. The air is warm and damp from the radiator and smells of wet fabric and soap. The only door leads back to the Manual Agency Front Office.",
+        "paths": [
+          "Manual Agency Front Office"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d5b7847-8a46-43c8-baea-13dcd21d36d7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a78cf4c-4068-436c-bc18-c27e55c429a7.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

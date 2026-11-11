@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_momo": {
+    "name": "Portrait Swap: ep_momo",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7b1591bd-e4bf-48b8-9d10-4b5825748b6a.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7b1591bd-e4bf-48b8-9d10-4b5825748b6a.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7b1591bd-e4bf-48b8-9d10-4b5825748b6a.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7b1591bd-e4bf-48b8-9d10-4b5825748b6a.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 5 [1-B]": {
+    "name": "Day Plan: day 5 [1-B]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 5
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_media_break_in",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): reporters crowd outside the Main Gate all morning hoping for a word with All Might and question students on their way in; the U.A. Barrier keeps every one of them off the grounds, and while it stands no reporter or camera is anywhere inside the campus or its buildings."
+      }
+    ]
+  }
+}

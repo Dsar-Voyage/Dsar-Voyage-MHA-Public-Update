@@ -1,0 +1,20 @@
+{
+  "Keen Read": {
+    "name": "Keen Read",
+    "description": "The user stops and reads the area with their animal's sharpest sense: a dog's nose, a cat's or rabbit's ears, a frog's eye for movement or a lizard's tongue tasting the air. They learn where everyone on that floor or stretch of street is, including anyone hiding, can tell fear, blood or a drawn weapon on a person, and pick up any trail left in the last hour. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

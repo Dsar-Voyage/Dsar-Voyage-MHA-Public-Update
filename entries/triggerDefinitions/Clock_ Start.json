@@ -1,0 +1,16 @@
+{
+  "Clock: Start": {
+    "name": "Clock: Start",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const BANDS=[\"Early Morning\", \"Mid Morning\", \"Late Morning\", \"Early Afternoon\", \"Mid Afternoon\", \"Late Afternoon\", \"Early Evening\", \"Late Evening\", \"Night\", \"Late Night\"];const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];const MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]];function dateOf(d){let r=(Math.max(1,d)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}return WD[(Math.max(1,d)-1)%7]+', '+MO[i][0]+' '+(r+1);}const M={\"U.A. Academy|Main Gate\": [2, 0], \"U.A. Academy|Main Building Lobby\": [2, 0], \"U.A. Academy|Class 1-A Homeroom\": [2, 0], \"U.A. Academy|Class 1-B Homeroom\": [2, 0], \"U.A. Academy|Main Building Hallway\": [2, 0], \"U.A. Academy|Heights Alliance Yard\": [1, 7], \"Musutafu Station District|Station Concourse\": [2, 0], \"Central Tokyo Streets|Scramble Crossing\": [2, 1], \"League Hideout Bar|Corner Booth\": [118, 6], \"League Hideout Bar|Alley Entrance\": [1, 8], \"Musutafu Station District|Back Alleys\": [1, 7], \"Hosu Back Alleys|Water Tank Rooftops\": [1, 8], \"Kiyashi Shopping Mall|Main Atrium\": [1, 7], \"Musutafu Station District|Hero Merch Arcade\": [1, 4], \"Hero Agency Row|Agency Offices\": [2, 0]};const k=(check({type:'party-location'})||'')+'|'+(check({type:'party-area'})||'');let v=M[k]||[1,6];if(k===\"League Hideout Bar|Corner Booth\"){for(const e of [\"media_break_in\", \"usj_attack\", \"sports_festival\", \"hero_names\", \"hosu_incident\", \"final_exams\"]){storage['done_'+e]=true;storage['ef_s_'+e]=true;storage['ef_n_'+e]=true;}for(const e of [\"v_stain_meets_league\", \"v_new_recruits\"])storage['done_'+e]=true;storage.studentStage=1;storage.lg_start=true;storage.done_pro_team_up_raid=true;for(const n of [\"Dabi\", \"Himiko Toga\", \"Twice\", \"Spinner\", \"Mr. Compress\", \"Magne\"])effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:\"League Hideout Bar\",area:\"Corner Booth\"});}storage.currentDay=v[0];storage.currentBandIndex=v[1];storage.sleepTick=-1;effects.push({type:'story',instruction:'Current time: '+dateOf(v[0])+', '+BANDS[v[1]]+'. Day 1 is move-in Sunday at U.A. Academy; classes begin Monday, April 1.'});})();"
+  }
+}

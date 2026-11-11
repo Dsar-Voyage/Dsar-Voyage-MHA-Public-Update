@@ -1,0 +1,20 @@
+{
+  "Handoff Opening": {
+    "name": "Handoff Opening",
+    "description": "The user feints, trips or crowds an opponent for the sole purpose of opening them up for a partner. The partner's next attack against that opponent this turn cannot be dodged or blocked. Needs an ally close enough to strike in the same moment. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Field Tactician",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

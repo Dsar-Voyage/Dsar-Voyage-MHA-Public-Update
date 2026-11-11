@@ -1,0 +1,20 @@
+{
+  "Press Line": {
+    "name": "Press Line",
+    "description": "The user takes charge of the reporters and phone-filming onlookers at an incident, gives them a spot with a clear view and promises a statement. Until the scene ends, the press stays behind the user's line and out of the rescuers' way, and broadcasts nothing that gives away a hero's position or a victim's face. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Management Course",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Media Presence",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

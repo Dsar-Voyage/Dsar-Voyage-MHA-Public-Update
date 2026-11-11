@@ -1,0 +1,20 @@
+{
+  "Load-Bearing Brace": {
+    "name": "Load-Bearing Brace",
+    "description": "The user wedges a beam, a door or the user's own back under a collapsing slab, wall or car and holds it up. The load does not fall on anyone beneath it until the user lets go or is struck, and everyone trapped under it can crawl out on their next action. A whole collapsing building is beyond this brace. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rescue Specialist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

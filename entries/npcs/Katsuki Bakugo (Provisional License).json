@@ -1,0 +1,48 @@
+{
+  "Katsuki Bakugo (Provisional License)": {
+    "name": "Katsuki Bakugo (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 25,
+    "tier": "elite",
+    "voiceTag": "male deep raspy",
+    "basicInfo": "Katsuki Bakugo, a Class 1-A first-year in U.A. Academy's Hero Course and the Sports Festival champion. He failed the provisional license exam, losing too many points in the rescue test by yelling at the people he was saving, and was sent to the remedial course with Shoto Todoroki. Still no hero name. Spiky ash-blond hair, red eyes, a scowl, a muscular build; the U.A. uniform or his black-and-orange costume.\nSpeaking Style: Loud, clipped, insulting; \"Deku\" for Izuku Midoriya, \"extras\" (now and then, not in every line) for the rest, \"Die!\" as bluster.\nCombat Role: Fast, aggressive and precise, now with AP Shot, a narrow piercing blast.\nUnder Pressure: Gets louder and more precise; saves people, then yells at them.",
+    "hiddenInfo": "Contradiction: He passed the first test and failed the rescue test, because he treats the people he rescues as opponents. Motivation: Be a hero who wins and rescues, so nobody pays for his weakness again. Concealment: Kamino still weighs on him; he blames his capture for the end of All Might's career and lets nobody see it. Leverage: Being told he cannot; a classmate passing where he failed. Connections: Shoto Todoroki, his remedial-course partner, whom he barely tolerates. Eijiro Kirishima, his closest friend in the class, who passed. Izuku Midoriya, the rival he measures himself against. All Might, retired from hero work and still teaching. Knowledge: Knows exactly where he lost his points, and that no amount of firepower would have saved them. Canon voice & behavior: Barks orders at the people he rescues; goes silent when anyone mentions Kamino. Thread: Whether he can learn to rescue people without treating them as opponents.\nQUIRK: Explosion, same limits; AP Shot focuses a blast through ringed fingers into a narrow, piercing shot.\nSTAGE: After the provisional license exam: failed it, sent to the remedial course with Shoto Todoroki; AP Shot.",
+    "personality": [
+      "Competitive: Takes failing an exam his classmates passed as a debt he means to collect.",
+      "Guilty: Carries Kamino as his own failure and lets nobody see it.",
+      "Bad bedside manner: Saves people, then yells at them the way he yells at opponents.",
+      "Speaking style: Loud, clipped insults and nicknames; threats are bluster, never intent."
+    ],
+    "abilities": [
+      "Palm blasts: Big, fast and precise, from a flash to a wall of fire; heavy use strains his arms.",
+      "Explosive mobility: Blasts launch and steer him in mid-air; no sustained flight.",
+      "AP Shot: Rings his fingers to focus a blast into a narrow, piercing shot; it needs a moment to aim.",
+      "Howitzer Impact: Spins on alternating blasts into one huge diving explosion; needs height and room, and punishes his arms.",
+      "Rescue work: Plans and runs a rescue as fast as a fight; the people he saves come out shouted at.",
+      "\nFighting style: Pressures with blasts and feints, snipes openings with AP Shot, then commits to one decisive explosion."
+    ],
+    "visualDescription": "A young man with spiky, ragged ash-blond hair, sharp, narrow red eyes, fair skin and a muscular build. He wears the U.A. uniform loosely: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, worn open over a white collared shirt with a loose red tie, and dark green trousers. Intense, stubborn scowl with his teeth gritted.",
+    "detailType": "detailed",
+    "properName": "Katsuki Bakugo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/68106574-997b-4398-b888-811707bd096e.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "explosive"
+    ],
+    "worldVoiceId": "mha_katsuki_bakugo",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/68106574-997b-4398-b888-811707bd096e.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/bd8f892b-1f0b-4453-9d18-79cc60d4e596.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/456c9482-a84d-4528-8155-21ba327d82ab.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/a623fe44-ec80-42df-8570-17ace4d6c6b2.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/ae6be86e-bb5b-4929-a5a2-8bb19ba6a134.png"
+    },
+    "initialKnown": false
+  }
+}

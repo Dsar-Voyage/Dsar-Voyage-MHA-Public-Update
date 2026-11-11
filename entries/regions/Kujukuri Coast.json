@@ -1,0 +1,30 @@
+{
+  "Kujukuri Coast": {
+    "name": "Kujukuri Coast",
+    "basicInfo": "The southern half of Kujukuri beach and the Isumi coast, a slim strip of dune, pine and fishing town along Chiba's Pacific shore, with nearly all of the cell open sea. The land is the edge of the Boso plain and its beach: from Katakai fishing harbor in Kujukuri town south past Shirako's tennis courts and hot springs, Chosei, and Ichinomiya's surfing beach at Tsurigasaki to the low cliffs of Cape Taito, then the rocky coves and harbor of Ohara in Isumi, where the beach finally gives way to the Boso hills. Behind the dunes lie rice paddies, onion fields and greenhouse rows, with the Sotobo line and its stations a few kilometers inland. Everything east is open Pacific, steel blue on a calm day, with long, even swells that make this one of the best surf coasts near Tokyo. Winters are mild and sunny, summers breezy, and typhoons hit hard in early autumn. People fish for sardines and clams, catch spiny lobster at Ohara, farm, run surf shops, beach houses and tennis camps, and commute to Chiba and Mobara. The Sotobo line brings limited expresses from Tokyo to Kazusa-Ichinomiya in about an hour, the Isumi Railway runs inland from Ohara through spring rape-blossom fields, and the Kujukuri toll road runs along the dunes. From Musutafu allow about two and a half hours. Visitors surf Ichinomiya, eat grilled clams and sardine dishes at Katakai, watch the September festivals where portable shrines are carried into the surf at Tsurigasaki and Ohara, and walk the long beach at dawn. A small hero agency in Mobara covers the coast; in summer, sidekicks and lifeguards with water and wind Quirks watch the beaches, and police boxes stand in each town.",
+    "hiddenInfo": "Surfers and weekend homeowners from Tokyo have pushed up rents in Ichinomiya, and older fishing families feel squeezed out. Rip currents and typhoon surf drown visitors most years. Hero help is fifteen to thirty minutes away in Mobara, and the sea belongs to the coast guard. Small villainy looks like thefts from beach cars and surf shops, night poaching of spiny lobster and clams, and drunken Quirk scuffles at summer beach bars.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 3,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e58bd2ad-223f-478e-a4fb-c45485053eb9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

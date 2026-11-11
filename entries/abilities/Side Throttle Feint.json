@@ -1,0 +1,20 @@
+{
+  "Side Throttle Feint": {
+    "name": "Side Throttle Feint",
+    "description": "The user changes output between their calf engines, steps across an opponent's approach within ten meters and accelerates away before the end of this turn. The change of angle opens a route around a raised guard or leaves an overcommitted attacker facing away. It needs planted steps between bursts; ice, loose gravel or a blocked exhaust spoils the turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

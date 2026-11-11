@@ -1,0 +1,20 @@
+{
+  "Sweeping Wave Guard": {
+    "name": "Sweeping Wave Guard",
+    "description": "The user spreads a spiral shockwave across a room's width to push loose debris and one approaching opponent away from nearby allies. The wave deals moderate bludgeoning damage to someone who stays in its path; held back, it only shoves. Allies caught in the same open lane are also pushed, and the broad release costs substantial stamina. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

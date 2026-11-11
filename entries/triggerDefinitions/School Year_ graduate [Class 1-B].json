@@ -1,0 +1,39 @@
+{
+  "School Year: graduate [Class 1-B]": {
+    "name": "School Year: graduate [Class 1-B]",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Second-Year at U.A.",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Third-Year at U.A.",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "U.A. Graduate",
+        "target": "satisfyingPlayers"
+      }
+    ]
+  }
+}

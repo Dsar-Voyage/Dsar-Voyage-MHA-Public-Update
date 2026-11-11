@@ -1,0 +1,30 @@
+{
+  "Matsumoto": {
+    "name": "Matsumoto",
+    "basicInfo": "Central Nagano from the Matsumoto basin and Azumino up to Kamikochi and the Hotaka peaks, and south to Shiojiri and the north shore of Lake Suwa. No coast. The west of the region is the Hida Mountains, the Japanese Alps proper: Yarigatake's spear point, the Hotaka ridge and Norikura's eastern slopes, with Kamikochi in a high valley below them on the Azusa River; the east is the broad flat Matsumoto basin, with rice, apple orchards and clear springs, rising to the Utsukushigahara plateau. Lake Suwa lies in the southeast corner. Winters are cold and dry with sharp blue skies and modest snow on the basin; summers are warm by day and cool at night; the Alps hold snow into early summer. Matsumoto, a city of about two hundred and forty thousand, is built around a black-walled castle that is a national treasure, with the old Nakamachi storehouse street, the frog-themed Nawate market lane, craft shops, and hot spring towns at Asama and Utsukushigahara. Azumino to the northwest is spring-fed farmland with huge wasabi fields, art museums and roadside shrines carved with paired deities; Shiojiri makes wine and lacquerware; Okaya and Suwa have a silk-mill and precision-manufacturing past, and Lake Suwa's August fireworks are among Japan's largest. The great Suwa shrine holds the Onbashira festival every six years, when crowds ride huge logs down steep slopes. Local food includes soba, horse sashimi, sanzokuyaki fried chicken, oyaki, wasabi and Shinshu miso. The Chuo Line's Azusa limited express runs from Shinjuku to Matsumoto in about two and three quarter hours, the Shinano limited express links Nagoya, Matsumoto and Nagano, and the Oito Line runs north to Hakuba. The Nagano and Chuo expressways cross the region, a small local airport sits south of the city, and Kamikochi is closed to private cars, reached by train and bus. From Musutafu it is about three and a half hours via Nagoya. Visitors tour the castle, hike Kamikochi and climb the Alps. A few hero agencies work Matsumoto and Suwa, mountain rescuers base at Kamikochi in season, and a farmer with a water-sense Quirk is a common figure in the wasabi beds.",
+    "hiddenInfo": "The Alps bring the most emergencies: fallen climbers on Yarigatake and the Hotaka ridge, lost hikers, bears and sudden storms; police and rescue heroes work from Kamikochi and helicopters. Matsumoto and Suwa have small agencies, and the nearest larger forces are in Nagano or Nagoya. Tensions: tourism pressure in Kamikochi, aging farmers, a manufacturing slowdown in Suwa. Villainy is petty: thefts from mountain huts and onsen inns, scams, fights in Matsumoto bars, and unlicensed Quirk use at festivals.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -2,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/003c6cd9-72ca-451f-ad3f-39023543dc80.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

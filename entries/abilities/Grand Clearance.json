@@ -1,0 +1,25 @@
+{
+  "Grand Clearance": {
+    "name": "Grand Clearance",
+    "description": "The user sets both palms on the ground and sends the compression through everything loose across a whole city block: every car, crate, rubble pile, barricade and dropped weapon folds into a sphere and rolls to the user's feet, leaving open roads for rescuers and no cover for enemies. Walls, floors and fixed doors stay put, and nobody is taken unless they choose. Until the user releases the spheres or sets them down somewhere safe, they cannot compress anything else, and a broken sphere unfolds full size where it lies. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

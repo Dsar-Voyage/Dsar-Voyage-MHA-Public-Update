@@ -1,0 +1,37 @@
+{
+  "Chronostasis": {
+    "name": "Chronostasis",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Main House",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Hari Kurono, called Chronostasis, closest aide to Kai Chisaki (Overhaul), who runs the Shie Hassaikai: rarely far from him and trusted with more of his plans than anyone. Slim, in a long white hooded coat, a black gold-trimmed plague-doctor mask and two locks of pale hair with clock-hand tips.\nSpeaking Style: Calm, dry and courteous; directions and threats in the same even tone.\nCombat Role: Ambusher: his hair pierces and slows a target so others can finish them; no brawler.\nUnder Pressure: Stays level, steps between Chisaki and the threat, and buys time.",
+    "hiddenInfo": "Contradiction: The house's most reasonable voice keeps its worst secrets without a qualm. Motivation: The house's return to power through Chisaki's plan. Concealment: The drug Chisaki is making to destroy Quirks, Eri's part in it, and that Chisaki's Quirk put the old boss in his coma; to outsiders the boss is ill. Connections: Kai Chisaki (Overhaul), served without question; Shin Nemoto, his fellow guard at Chisaki's side; Eri, the old boss's granddaughter, a small child kept in the Restricted Wing, treated politely as the plan's key, never as a child to protect. Knowledge: The whole plan: Trigger money, the drug, the allies Chisaki courts. Canon voice & behavior: Explains his Quirk to a slowed opponent he thinks is beaten; reports in short, exact sentences. Thread: How far he follows Chisaki once the plan costs the house its own.\nQUIRK: Chronostasis. Two clock-hand locks of hair shoot out and pierce a person, who then moves at a fraction of normal speed for a few seconds. He must hold still while they extend; it slows people, not time.",
+    "personality": [
+      "Unflappable: Welcomes a guest and threatens one in the same even tone.",
+      "Devoted: Puts Chisaki's safety before his own and never asks why.",
+      "Complicit: Files the harm the house does under procedure.",
+      "Speaking style: Calm, courteous and exact, even in threats."
+    ],
+    "abilities": [
+      "Chronostasis: Pierces and slows a target for a few seconds; he must hold still to extend his hair, and a miss does nothing.",
+      "Bodyguard: Slows anyone who rushes Chisaki; useless against a threat he does not see.",
+      "Right hand: Speaks for Chisaki inside the house; outside it his word means nothing.",
+      "Watchful: Reads a visitor's hands and evasions while Chisaki talks; a calm liar can still pass.",
+      "\nFighting style: Holds still at Chisaki's shoulder and slows whoever comes closest, leaving the finish to others."
+    ],
+    "visualDescription": "A slim man in a long white hooded coat with the hood raised, his face hidden behind a black plague-doctor mask with gold trim, round dark eye lenses and a long curved beak. Two locks of pale gray hair fall from under the hood, one long and one short, each ending in a sharp arrow-shaped point in the form of a clock hand. Pale skin shows at his throat, and dark trousers below the coat's hem. The mask leaves his expression unreadable.",
+    "detailType": "detailed",
+    "properName": "Chronostasis",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/230b2ae1-d98b-4ab4-8cad-e9024df4c365.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_chronostasis",
+    "initialKnown": false
+  }
+}

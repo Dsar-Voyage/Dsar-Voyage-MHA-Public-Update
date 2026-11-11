@@ -1,0 +1,15 @@
+{
+  "Red String Method": {
+    "name": "Red String Method",
+    "description": "The user lays out every clue, statement and record on a wall or in a notebook and tests the links between them until a connection holds. The user gains a true lead (a name, a place or a time) that brings the case closer to the person responsible, and learns which existing clue is false or planted, if any is. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Investigation",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

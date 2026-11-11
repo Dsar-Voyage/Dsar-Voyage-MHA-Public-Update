@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: dabi_final": {
+    "name": "Portrait Swap: dabi_final",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Dabi",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/92814300-b2e9-4911-8322-58b38d9feef1.png"
+      }
+    ]
+  }
+}

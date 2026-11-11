@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Class Representative": {
+    "name": "__generated_quest_progress__/Class Representative",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC's class has held its vote for class representative and deputy, and the PC has campaigned, backed a candidate or cast a deliberate vote."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Class Representative"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Kushimoto": {
+    "name": "Kushimoto",
+    "basicInfo": "The southern tip of the Kii Peninsula and the deep south of Kumano: the rocky coast from Susami east around Cape Shionomisaki, the southernmost point of Honshu, to Kushimoto, Taiji and Nachikatsuura, and the steep forested mountains rising behind them toward Nachi and the Ogumotori pass. Shingu lies just past the eastern edge and Hongu just past the northern one. About half the cell is land, the rest the Pacific and the Kumano-nada. Kushimoto is a fishing and resort town on a sandbar between the cape and Kii-Oshima, an island reached by a high bridge with a looping approach; the jagged line of the Hashiguiiwa rocks marches out toward the island, and the warm Kuroshio feeds coral reefs and a marine park with an underwater observatory. Oshima's Kashinozaki lighthouse overlooks the reef where an Ottoman frigate was wrecked in 1890, and the island keeps a museum and memorial to the friendship with Turkey that followed. The Kozagawa River runs down a gorge past a vast single rock face to the sea. Taiji is a small, old whaling town with a whale museum. Nachikatsuura is a hot-spring town and Japan's biggest port for fresh tuna, with dawn auctions; above it, Kumano Nachi Taisha and its vermilion pagoda stand beside Nachi Falls, a single drop of 133 meters, and the stone-paved Daimonzaka slope of the Kumano Kodo climbs through giant cedars. On July 14, the Nachi Fire Festival carries huge burning torches down the shrine steps. The climate is among the warmest on Honshu, with palms and subtropical plants on the coast and some of Japan's heaviest rain in the mountains. The JR Kisei Main Line follows the coast: the Kuroshio limited express from Shin-Osaka takes about three and a half hours to Kushimoto, and the Nanki from Nagoya a little longer to Kii-Katsuura. Route 42 hugs the shore, and the Kisei Expressway reaches Susami. From Musutafu, it is about five hours either way around the peninsula. Small hero offices in Kushimoto and Katsuura cover the coast, the coast guard and maritime heroes watch the cape, and sidekicks with heat resistance guard the fire festival.",
+    "hiddenInfo": "The far south of Kii is remote and aging; Route 42 runs long empty stretches between towns, and landslides in the Kumano mountains can cut off whole valleys after a typhoon. The nearest large hero agencies are in Wakayama city and Tsu, three or more hours away, so locals rely on the coast guard and their own small offices. Small crime is tuna and gear theft at the ports, fraud aimed at pilgrims, and coin thefts from shrines.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -6,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a840020e-c22a-4edc-8524-f40c1660dd86.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

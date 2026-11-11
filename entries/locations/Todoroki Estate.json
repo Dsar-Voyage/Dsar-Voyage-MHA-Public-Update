@@ -1,0 +1,86 @@
+{
+  "Todoroki Estate": {
+    "name": "Todoroki Estate",
+    "basicInfo": "A large traditional Japanese house behind a long wall in the hills on Musutafu's eastern edge, about 9 km east-northeast of the station and about 6.5 km east of U.A. Academy's main campus, at the end of a quiet residential road on the wooded rise. It belongs to Enji Todoroki, the pro hero Endeavor, Number Two on the Hero Billboard Chart at the start of the year; his agency is in Tokyo, about 85 km northeast, and he spends many nights there. His youngest son, Shoto, a U.A. first-year, lives in the academy's dorms and comes home some weekends. His daughter Fuyumi, an elementary school teacher, lives here and keeps the house running, and her brother Natsuo, a student who lives elsewhere, comes for family meals and leaves early. The estate has tatami rooms along wooden corridors, a private dojo and a walled garden with a pond. The wooden front gate stays shut and has an intercom; visitors come by invitation, and Fuyumi answers it far more often than anyone else. When Endeavor is in the news, reporters park along the wall outside and get nothing. A player can visit Fuyumi, find Shoto on a weekend home, train in the dojo with permission, or try to see Endeavor. Weekday mornings Fuyumi leaves early for school, and evenings are when the house has people in it. The house is very quiet: floorboards creak, and the garden water runs all day.",
+    "hiddenInfo": "The family is not well. Endeavor expects Shoto to outshine every rival at U.A. and says so whenever they are both home; Shoto comes back only when Fuyumi asks and spends those weekends alone in the dojo. Fuyumi keeps trying to arrange family dinners, and Natsuo will not stay in a room with his father for long. Rei Todoroki, Shoto's mother, has lived in a hospital for years, ever since she scalded the left side of young Shoto's face with boiling water; the scar remains, and Shoto has never visited her. He blames his father, who married Rei for her ice Quirk and drove him through brutal training in the dojo to make him an heir who could surpass All Might. Shoto has sworn to become a hero with his mother's ice alone and refuses to use his fire in a fight. Right now Fuyumi is planning the first family dinner since Shoto moved into Heights Alliance, for this coming Saturday: she has messaged Shoto twice and has no answer yet, Natsuo has said he will come only if their father is not there, and Endeavor's office has told her he may be home that night. In a back room a family altar holds the photograph of the eldest son, mourned as dead since Shoto was very small, and nobody speaks of him at the table.",
+    "x": 2.02,
+    "y": -17.848,
+    "radius": 1,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Main House": {
+        "description": "The main building: sliding paper doors, tatami rooms along a polished wooden corridor, a formal room for guests, a family dining room and a modern kitchen that Fuyumi runs. Shoto's room stays spare and neat between his weekend visits. Mornings and evenings are when the family crosses paths; when Endeavor is home, the house goes quieter still and meals are short. Fuyumi cooks for whoever comes, labels leftovers for her brothers and keeps the kitchen radio low. Endeavor's study at the end of the corridor stays shut when he is away, and nobody goes in. A covered walkway leads to the Dojo, and the veranda doors open onto the Garden. Shoes come off at the entrance, and Fuyumi expects guests to greet her before going anywhere else.",
+        "paths": [
+          "Dojo",
+          "Garden"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f61ce529-ace9-4221-ac80-6fe8932ac2d2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Dojo": {
+        "description": "A separate wooden training hall across a covered walkway from the Main House, with a polished floor, a weapons rack, a fire extinguisher at each door and faint scorch marks on the walls. Endeavor trained Shoto here hard from early childhood, and Shoto still trains here alone on the weekends he comes home. When Endeavor is home, he uses it late at night, and the heat from his sessions lingers in the boards until morning. A row of worn practice mats is stacked by the wall, and the deepest scorch marks date from Shoto's childhood. The rest of the family does not come in, and Fuyumi sweeps the walkway but not the floor. Guests train here only with the family's permission. The air is colder than in the rest of the house, and a thin frost sometimes covers the floor after Shoto's sessions.",
+        "paths": [
+          "Main House"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e542ff4f-cb0c-4616-8429-675a581751cc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Garden": {
+        "description": "A walled traditional garden of raked gravel, stone lanterns, maples, a pond and a small arched bridge, kept by a gardener who comes once a week. When they were small, Fuyumi and Natsuo played here while their father kept Shoto in the dojo, within sight of the window. Now family members come here to avoid each other, and Natsuo spends most of his visits on the bench by the pond, out of his father's way, with his phone and a canned coffee. In autumn the maples turn red and Fuyumi rakes the leaves off the gravel herself before the gardener can. The veranda leads back into the Main House. Koi rise for anyone who stands on the bridge long enough. The pond's inflow runs day and night, and in April the maples are just coming into leaf.",
+        "paths": [
+          "Main House"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7a86a411-830d-4de0-8906-f1622a94bbf8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Endeavor Hero Agency"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ce45b048-5f9b-4cb9-bd6a-85f1c48cc351.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

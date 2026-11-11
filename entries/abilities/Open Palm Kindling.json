@@ -1,0 +1,20 @@
+{
+  "Open Palm Kindling": {
+    "name": "Open Palm Kindling",
+    "description": "The user projects a brief palm jet at one target within four meters, dealing moderate fire damage. Held back, the user burns empty ground ahead of the target to interrupt an approach without touching them. The jet adds body heat, and nearby clothing or fuel can catch fire even after the burst ends. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

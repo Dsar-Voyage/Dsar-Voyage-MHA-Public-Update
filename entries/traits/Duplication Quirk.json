@@ -1,0 +1,40 @@
+{
+  "Duplication Quirk": {
+    "name": "Duplication Quirk",
+    "description": "👥 You make living doubles of yourself.\n\n🌱 At the start you split off up to two doubles in about a second; they think, talk and fight as you do, wear copies of your clothes, and burst harmlessly when hit hard.\n📈 With training: a guard double, a spare self working for hours, stacks over walls, hiding among yourselves, search crews, a pinned giant, a flooded street, doubled allies.\n🔗 Common drawback pairing: Stamina Drain, as every double is built from your own energy.\n🎬 Similar canon Quirks: Twice (Double).\n\n📈 Grants: Intelligence +1, Quirk Control +10, Quirk Stamina +10, Team Coordination +5\n⚡ Starting techniques: Splitting Image, Fall Guy",
+    "traitNarrativeEffects": "Scale: the user makes self-acting doubles. At first: up to two at a time, each appearing within arm's reach in about a second, wearing copied clothes and gear; they share the user's body, skills and memories up to their making and follow the user's lead for the scene, about ten minutes at most. More needs learned techniques. Limits: doubles burst into a harmless puff when cut, burned or hit hard, and cannot use the Quirk. Copied gear is a dead shell that vanishes with them (phones, keys, weapons, money do nothing). The user feels where each bursts. Doubling anyone else needs a learned technique. Quirk Strain: light: a double or two, a guard; moderate: lasting spare, boost, crowd to hide in; heavy: rescue crew, dogpile; severe: signature swarm, doubling a team. Type: Emitter. Law: a double's acts are the user's own Quirk use and crimes; doubles faking an alibi or sitting exams are fraud. Look: doubles peel off and burst in a shimmer of the player's chosen color.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Splitting Image",
+      "Fall Guy"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

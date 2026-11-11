@@ -1,0 +1,25 @@
+{
+  "Unbroken Tail Circuit": {
+    "name": "Unbroken Tail Circuit",
+    "description": "The user sustains coordinated tail braces, close blocks and footwork for five minutes while escorting people through a damaged building. Each turn they can steady one person within two meters against a stumble while keeping their own footing. The tail remains its normal length and cannot stop heavy rubble; afterward its base cramps and cannot bear weight until the user rests. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

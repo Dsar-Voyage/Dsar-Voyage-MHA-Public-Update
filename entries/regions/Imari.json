@@ -1,0 +1,30 @@
+{
+  "Imari": {
+    "name": "Imari",
+    "basicInfo": "The northwest of Kyushu where Saga meets Nagasaki: the porcelain towns of Imari, Arita and Hasami, the naval port city of Sasebo, the island-studded Kujukushima coast, the southern half of Hirado Island, and the northern arm of Omura Bay with its narrow Hario Strait. About half the square is sea and drowned coast. Arita is where Japanese porcelain began four centuries ago, and its long main street of kilns and shops holds a pottery fair every Golden Week that draws crowds by the hundred thousand; Imari's port shipped that porcelain to the world, and in the hills above it Okawachiyama is a misty village of chimneys where the lords' kilns were once kept secret. Hasami and Mikawachi make everyday and fine wares too. Sasebo is a city of about a quarter million around a deep natural harbor and naval base, with a long covered shopping arcade, big hamburgers sold since the base days, and the Kujukushima islands, more than two hundred green islets scattered across bright water, seen from hilltop lookouts and cruise boats. South of the city, Huis Ten Bosch, a resort built as a Dutch town of canals and windmills, glows with light shows at night, and the Saikai bridges cross Hario Strait above swirling tidal currents. The climate is warm and wet, rainy in June and July, with typhoons in late summer. Limited expresses on the JR Sasebo Line link Arita and Sasebo with Hakata in under two hours, another runs to the resort, the Matsuura Railway follows the coast through Imari, and the Nishi-Kyushu Expressway runs from Takeo to Sasebo. From Musutafu, allow most of a day. Sasebo has several hero agencies and harbor police, smaller towns have police boxes, licensed heroes help manage the crowds at Arita's fair, and kiln workers with heat-resistant Quirks fire the kilns under permit. Visitors buy porcelain, cruise the islands, eat Sasebo burgers and Imari beef and stay at the resort.",
+    "hiddenInfo": "Sasebo's nightlife near the naval port sees bar fights and the occasional sailor in trouble, handled by police and shore patrols. The porcelain trade has quiet problems with counterfeit antique ware and theft from kilns. The Hario Strait currents drown the careless. Small crime is pickpocketing at the pottery fair and the resort and scams aimed at tourists. Sasebo's agencies are the nearest real hero help; Fukuoka is two hours away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -17,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/06943a95-f08e-470f-b6bf-849a732b50be.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

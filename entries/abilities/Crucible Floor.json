@@ -1,0 +1,24 @@
+{
+  "Crucible Floor": {
+    "name": "Crucible Floor",
+    "description": "The user pours flameless heat into the stone and concrete across a single room or courtyard for the rest of the scene, half the reach of a pure Fire master. They can soften any wall or floor section to open a way for trapped people, or blister the ground under chosen enemies for heavy fire damage; held back, the warm floor only forces enemies to keep moving, and the user must cool a path before civilians cross. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

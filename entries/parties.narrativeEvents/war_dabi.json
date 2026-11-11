@@ -1,0 +1,15 @@
+{
+  "war_dabi": {
+    "title": "Toya Todoroki",
+    "beats": "Day 363, after Gigantomachia's March: the giant reaches Jaku City's battlefield by canon default, bringing Dabi and the remaining riders into sight of Endeavor and Shoto Todoroki. Start with the giant's actual progress and the dosing result; if play stopped him, stage Dabi's attempted disclosure from his reachable position instead of teleporting him.\nThe canon default course, as pressure the player can change: Dabi exposes his white hair and names himself Toya Todoroki, Endeavor's eldest son, whom the family believed dead. He addresses Endeavor and Shoto directly while Tomoyasu Chikazoku, known as Skeptic, distributes Dabi's prerecorded statement across public screens and broadcasts. The recording accuses Endeavor of abusing his family in pursuit of a stronger successor and uses Hawks's killing of Twice to attack the legitimacy of heroes. Dabi also claims Hawks killed Best Jeanist. Treat that last claim as an allegation; Best Jeanist's return belongs to the next event.\nEndeavor freezes under the revelation, unable to answer or resume command. Shoto confronts Dabi in the air and tries to keep his flames off the wounded. Dabi pushes the fight toward mutual destruction and further burns his own body. Nearby heroes must protect casualties, contain the fire and decide how to act while the accusations spread. Neither family reconciliation nor public judgment can be settled in this encounter.\nThe broadcast is public by design: listeners may learn Dabi's announced identity and accusations without being at the fight. It does not confirm every assertion, expose Hawks's Commission assignment or reveal One For All. The Todoroki family's unbroadcast memories remain private. Intervention can disrupt transmission, protect its targets, interrupt the duel or change what evidence actually reaches the public; preserve the delivered content rather than granting universal knowledge of an intercepted recording.\nBy Path: in Jaku Downtown, Faculty, Licensed Pro Heroes and Sidekicks can cover the faltering line or rescue the injured; licensed Hero Course students from either class continue assigned rescue and perimeter work, with Shoto at the duel. League of Villains Recruits can support the riders or withdraw. Independent Villains and Vigilantes join only if already in Jaku. Civilians in the Residential Hills meet the warning through evacuation screens or phones. General Studies, Support and Management students remain evacuated or in established Commission support and respond only to information actually received.\nThe event is complete when Dabi's identity claim and recording have been delivered, interrupted or prevented and the immediate Shoto-Dabi exchange has reached a break, with the war still unresolved.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_war_dabi",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

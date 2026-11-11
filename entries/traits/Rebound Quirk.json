@@ -1,0 +1,41 @@
+{
+  "Rebound Quirk": {
+    "name": "Rebound Quirk",
+    "description": "🏀 Your body stretches and changes its weight: feather-light bounds, heavy landings.\n\n🧬 A Fusion Quirk of Gravity and Elasticity: each side at about half a single Quirk's reach and force, plus moves only the fusion can do.\n🌱 At the start you lighten a person you touch and bounce punches off your torso.\n📈 With training: wall-to-wall bounces that land heavy, a stretched net that catches a falling person and sets them down softly, a slingshot launch, blows rebounded at their source, and foes dragged down.\n⚠️ Sharp edges and heat hurt your stretched body.\n🔗 Common drawback pairing: Bodily Toll, as rapid weight swings cause nausea.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Speed +1, Quirk Control +10, Quirk Mobility +10, Acrobatics +5\n⚡ Starting techniques: Buoyant Tap, Snapback Belly",
+    "traitNarrativeEffects": "Scale: the body stretches, rebounds and shifts own or touched weight. New adult user: limbs stretch about 5 m; self or up to half a car's weight turns feather-light or doubles; punches bounce off the torso; more needs techniques. Limits: sharp edges and bullets pierce the stretched body; heat burns stretched skin; touch shifts need bare skin, end if knocked out. Quirk Strain: light: buoyant tap, belly rebound; moderate: weighted grab, spring tether, wall-bounce drop, catching net; heavy: bracing a load; severe: signature slingshot, spanning a street, awakened uses. Fusion: gravity + elasticity, each about half a single-nature user's range and force: no multi-ton floats, street crush fields or elastic air panes; only it does wall-bounce drops, weightless nets, slingshots, blows rebounded to source. Type: Emitter (also fits Transformation). Law: heavy-weight slams are assault; unlicensed launches risk traffic crashes. Look: springy step.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Acrobatics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Buoyant Tap",
+      "Snapback Belly"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

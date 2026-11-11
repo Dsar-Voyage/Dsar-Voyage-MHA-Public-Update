@@ -1,0 +1,45 @@
+{
+  "Event Arrival: The Final Exams @ Training Ground Gamma": {
+    "name": "Event Arrival: The Final Exams @ Training Ground Gamma",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 100
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_final_exams",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_hosu_incident",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "lessThan",
+        "value": 1
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Training Ground Gamma"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "currentBandIndex",
+        "operator": "set",
+        "value": 1
+      }
+    ]
+  }
+}

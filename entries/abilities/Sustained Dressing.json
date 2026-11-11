@@ -1,0 +1,24 @@
+{
+  "Sustained Dressing": {
+    "name": "Sustained Dressing",
+    "description": "The user maintains fresh medicinal coats on four reachable patients for thirty minutes. Surface bleeding stays sealed and small wounds close faster, while deeper wounds remain protected for hospital care. The user stays within six meters and cannot attack; the treatment ends early if dehydration or exhaustion prevents further gel production. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

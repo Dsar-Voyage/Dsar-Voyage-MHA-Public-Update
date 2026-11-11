@@ -1,0 +1,25 @@
+{
+  "Full Throttle Heel": {
+    "name": "Full Throttle Heel",
+    "description": "The user commits to a twenty-meter overdrive run and delivers one engine-driven heel strike this turn for heavy bludgeoning damage. Held back, the user brakes before contact and sweeps the opponent's legs with reduced force. A clear approach is essential, and afterward both engines stall until the end of the user's following turn, leaving ordinary movement only. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

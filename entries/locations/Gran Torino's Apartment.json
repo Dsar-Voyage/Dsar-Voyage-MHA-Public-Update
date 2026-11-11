@@ -1,0 +1,65 @@
+{
+  "Gran Torino's Apartment": {
+    "name": "Gran Torino's Apartment",
+    "basicInfo": "Gran Torino's Apartment is a cramped, run-down building in an older neighborhood about 8 km southeast of Hosu Station, among low apartment blocks, a shuttered barbershop and a corner shop that sells taiyaki from a griddle in the window. The building has stained walls, a narrow concrete stairwell and a door that often stands unlocked. The retired hero Gran Torino (Sorahiko Torino) lives here alone: a very short old man with spiky swept-back white hair and a domino mask, a pale bodysuit, a high-collared yellow cape, oversized yellow gloves and a cane he barely needs. Almost nobody remembers his hero days. His Quirk, Jet, blasts air from his soles and sends him ricocheting off walls, floor and ceiling at high speed, and the dents in his walls show it. The main room holds a television, a low table, a microwave and a freezer full of taiyaki; the rest of the flat is a tiny kitchen and a futon. He trains whoever he decides to train, in that same room, and turns everyone else away. An unlocked door is not an invitation: he answers when he likes, plays the confused old man to anyone he does not know, and throws out anyone he finds dull. A player can visit, ask for training, bring taiyaki, or try to earn his interest. A local bus from Hosu Station stops a short walk away. The flat smells of sweet bean paste and old tatami, and the television is always on, usually to hero news.",
+    "hiddenInfo": "His forgetfulness is an act: he pretends not to know visitors' names, or even his own, to see how they react, and he is as fast and sharp as ever. A newcomer usually gets the doddering act, then a surprise attack in the confined room, then one cutting question about what they just did wrong. Long ago he taught at U.A. Academy for one year, and All Might was his student; All Might still goes pale at the mention of his name. Right now he reads every report on All Might's new teaching job and tells any visitor that a great hero is not necessarily a great teacher. He has not heard from All Might since the appointment was announced, complains about it loudly to the television, and keeps the phone within reach of the low table all the same; anything All Might asked with enough guilt in his voice would get a yes. His landlord has sent two warnings about the dented walls; he has ignored both, and the corner shop owner, who has known him for years, quietly suspects the next letter will be the last. In a real emergency he drops the act at once, gives two-word orders and puts himself between the young and the danger, though Jet runs on the air in his lungs, and a long fight tells on an old body.",
+    "x": 10.68,
+    "y": 7.08,
+    "radius": 1,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Gran Torino's Main Room": {
+        "description": "The one real room of Gran Torino's flat, behind a door at the top of a narrow concrete stairwell that often stands unlocked: worn tatami, a low table with a teapot and a cordless phone within reach, a television on a crate that is always on, usually to hero news, a folded futon in one corner, and a microwave and a freezer packed with taiyaki by the kitchenette doorway. The walls and ceiling are dented at odd heights, where something small and very fast has bounced off them many times. This is also where he trains whoever he decides to train, shoving the table aside and turning the cramped space into a test nobody passes on the first try. He answers the door when he feels like it, asks a newcomer who they are more than once, and has been known to forget his own name in front of strangers; visitors who stay long learn not to turn their backs. Mornings he watches the news shows; evenings he complains loudly to the screen about All Might's teaching. Taiyaki from the corner shop, about 150 yen apiece, is the surest way past the doorway. The room smells of sweet bean paste and old tatami. Gran Torino's Kitchenette opens off one side.",
+        "paths": [
+          "Gran Torino's Kitchenette"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5b14b57c-9373-49f8-8fbb-48ecfe239a32.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Gran Torino's Kitchenette": {
+        "description": "A kitchen barely wide enough for one person, opening off the main room: a stainless sink with a dripping tap, a two-burner gas ring, a dented kettle, and a counter stacked with flattened taiyaki boxes from the corner shop, tied with string for recycling day. A small refrigerator holds milk, pickles and little else, since the taiyaki live in the freezer in the main room, and he heats them in the microwave three at a time, insisting they taste better that way than fresh off the griddle. A teapot and two mismatched cups sit on the drying rack, the second kept for the rare guest he likes. Envelopes from the landlord are pinned to the refrigerator door with a magnet, still sealed. Mornings he drinks strong green tea standing at the window, watching the street; late at night the kettle whistles while hero news plays through the doorway. A visitor who offers to wash up is either thanked gruffly or told they are holding the sponge wrong. The window over the sink looks down the street to the taiyaki griddle in the corner shop's window, and the smell of batter drifts up all afternoon. The doorway leads back to Gran Torino's Main Room.",
+        "paths": [
+          "Gran Torino's Main Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d7b0ef74-c2d9-41ad-bae0-bb0b92edda84.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b258fd10-74eb-441a-bf81-3793a8ccd902.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

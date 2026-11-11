@@ -1,0 +1,30 @@
+{
+  "Takayama": {
+    "name": "Takayama",
+    "basicInfo": "The Hida highlands of northern Gifu: the old merchant town of Takayama, Hida-Furukawa and Kamioka to the north, the Okuhida hot springs under the Northern Alps to the east, and the upper Jinzu valley climbing out of Toyama. No coast. This is a high basin ringed by mountains, with the Miya River running north through Takayama and Furukawa toward the Sea of Japan, and in the east the Okuhida valleys rising to the Hotaka and Kasagatake ridges and the volcanic dome of Norikura on the eastern edge. Winters are cold and snowy, summers mild, and autumn turns the hills red and gold. Takayama is a castle town of dark-timbered merchant houses in the Sanmachi lanes, sake breweries with cedar balls over their doors, and two morning markets by the river; it hosts the Takayama Festival in April and October, when gilded yatai floats with mechanical puppets parade through town. Hida carpenters, yew carvers and lacquerers still work here, and the town is known for Hida beef, soy-glazed dango, hoba miso and its soy-broth ramen. Furukawa is a quieter canal town of white-walled storehouses and carp-filled waterways with a drum festival in April; Kamioka is an old mining town above which a giant neutrino detector sits deep inside a mountain. Okuhida's onsen villages, Hirayu, Fukuji and Shin-Hotaka, have riverside open-air baths, and a two-decker ropeway climbs to over two thousand meters facing the Hotaka peaks; buses climb to Norikura's highland. The JR Takayama Line runs from Toyama through Furukawa to Takayama and on south to Gero and Nagoya; the Hida limited express takes about two and a half hours from Nagoya and ninety minutes from Toyama. The Chubu-Jukan Expressway leads east toward Matsumoto, and buses run to Shirakawa-go, Kamikochi, Kanazawa and Tokyo. From Musutafu it is about four hours via Nagoya; from Shin-Osaka about three and a half. Visitors stroll the old town, ride the ropeway, soak in Okuhida and hike the Alps. A small hero agency in Takayama works with the police, and sidekicks patrol the festival crowds while float teams use careful strength Quirks on the steepest turns.",
+    "hiddenInfo": "Takayama's wooden old town lives in fear of fire, and tourist crowds strain the narrow lanes. Bears come down into orchards in lean years, and the Okuhida mountains produce steady rescues of hikers and skiers. Hero help: a small Takayama agency and Hida police; bigger responses come from Gifu or Toyama, an hour and a half off. Villainy: pickpockets at the morning markets and festivals, fake Hida beef and craft fraud, theft from onsen lodges, and drunk drivers on mountain roads.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -3,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7731e6a8-c830-4590-8619-df8b49c09a24.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

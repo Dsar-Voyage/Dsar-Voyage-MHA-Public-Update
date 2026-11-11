@@ -1,0 +1,20 @@
+{
+  "Wall Runner": {
+    "name": "Wall Runner",
+    "description": "The user goes straight up a sheer wall, a cliff face or the side of a building with their animal's grip, claws or spring, and runs across rooftops at full speed. They can carry a single person on their back while doing it, and that passenger cannot fall while the user holds them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

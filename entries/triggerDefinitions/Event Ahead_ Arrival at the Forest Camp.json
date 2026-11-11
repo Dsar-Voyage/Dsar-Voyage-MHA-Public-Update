@@ -1,0 +1,43 @@
+{
+  "Event Ahead: Arrival at the Forest Camp": {
+    "name": "Event Ahead: Arrival at the Forest Camp",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 120
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 124
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_forest_camp_arrival",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Arrival at the Forest Camp is on Thursday, August 1. Unless the player asks to skip, story time never moves past that date before it is played: no summary of days, recovery or waiting carries the story beyond it. If the player is hurt or away, the day still comes and they are brought into it, healed and cleared to take part fully."
+      }
+    ]
+  }
+}

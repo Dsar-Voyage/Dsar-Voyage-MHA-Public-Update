@@ -1,0 +1,24 @@
+{
+  "Threshold Watch": {
+    "name": "Threshold Watch",
+    "description": "The user takes a stand facing a doorway, a corridor, a breach or a stairwell and watches it. Until the end of their next turn, every person who enters that space loses their Emitter and Transformation Quirks while inside it, so attackers must come through on foot and by hand while the people behind the user get clear. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

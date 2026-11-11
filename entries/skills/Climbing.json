@@ -1,0 +1,9 @@
+{
+  "Climbing": {
+    "name": "Climbing",
+    "attribute": "power",
+    "type": "utility",
+    "description": "Covers: scaling walls, cliffs, rubble and structures by grip and strength, with or without rope. Not: free-running across obstacles at speed, which is Parkour. Primary attribute: Power.",
+    "startingItems": []
+  }
+}

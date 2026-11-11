@@ -1,0 +1,15 @@
+{
+  "b1_kendo_study": {
+    "title": "Kendo's Study Session",
+    "beats": "Evenings in the week before the final exams, in the Class 1-B Dorm Lounge at U.A. Academy. Itsuka Kendo has pushed the tables together, written a schedule on the whiteboard (hero law, then math, then modern literature, ten-minute breaks strictly enforced) and assigned tutors by subject: Juzo Honenuki on math, Nirengeki Shoda on hero law, and Kojiro Bondo, quietly the best essay writer in the class, on literature. Earlier the same group held a long table in the Library until the librarian's look sent them home.\n\nDefault course, as pressure the player can change: Tetsutetsu Tetsutetsu and Togaru Kamakiri need the most help and accept it the least. Tetsutetsu attacks every problem set at full volume and declares victory before checking the answer; Kamakiri glares at a word problem and dares it to make sense. Neito Monoma sits apart with a closed book, insists he does not need a study group, and corrects everyone's answers aloud from across the room. Setsuna Tokage sends a single floating piece to peek at his notes and reports that they are color-coded. Kendo has heard from an upperclassman that the practical will be robots again, the same as the entrance exam, and passes it on with a warning that it is only a rumor; the room relaxes about the practical and dreads the written test. Nobody here knows the real format.\n\nThe party can tutor or be tutored, broker a truce between Kamakiri and an equation, or draw Monoma into the group without letting him win the argument. Kendo will take the hardest student herself unless someone offers; noticing that she has not opened her own books all week, and doing something about it, is a quiet win.\n\nThe event is complete when the night's practice quiz is graded and Kendo sends everyone to bed, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_kendo_study",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

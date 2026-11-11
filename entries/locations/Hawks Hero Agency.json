@@ -1,0 +1,88 @@
+{
+  "Hawks Hero Agency": {
+    "name": "Hawks Hero Agency",
+    "basicInfo": "A small, modern office about 4 km northeast of downtown Fukuoka, north of Hakata Station, home to Hawks, the Number Three hero at the start of the year and the youngest ever to reach the top ten. He is fast, cheerful and casual, flies on large red wings whose feathers he controls one by one, fine enough to sense movement and strong enough to carry people, and is famous for finishing cases before anyone else arrives. His sidekicks take the calls, the paperwork, the press and the cleanup, because Hawks is almost never in the office; when he is, he is usually eating fried chicken. The agency is small and lean: a handful of sidekicks, a dispatch desk that tracks his calls across the city, and a press office answering questions about cases he closed an hour ago. The ground-floor lobby is open during office hours, with a reception desk, a rack of fan mail and a glass case of donated feather art; the dispatch room and the offices upstairs are staff only, and the roof has a landing pad that only Hawks uses. The agency rarely takes interns, and those it does take spend more time chasing the boss than learning from him. Fans wait outside on weekends hoping for a landing, and the staff keep a polite script for them. A player can apply, file a request, sell information, or wait in the lobby in case he drops in. Downtown Fukuoka is about 4 km to the southwest. The feeling is a well-run office built around an empty chair: efficient, friendly, a little tired, and always looking up when a shadow passes the window.",
+    "hiddenInfo": "The sidekicks barely see their boss: Hawks sends instructions by phone, lands only to sign forms and is gone before they can ask questions. They admire him and resent being left behind, and one senior sidekick is quietly interviewing with other agencies in Osaka and Tokyo, taking long lunches on the days he has calls. Sponsorship offers and interview requests are piling up unanswered, and the staff are running out of ways to say he is busy. Behind that lies something the staff do not know. Hawks was found and raised by the Hero Public Safety Commission from his early childhood, trained for hero work before he could choose it, and he still takes quiet assignments straight from the Commission that never appear in the agency's case log. The gaps in his day that dispatch cannot account for are often those jobs. He reports to a senior Commission official by secure phone, keeps his own counsel, and under the easy smile he is sharper, lonelier and more careful than anyone at the agency suspects. He is also a quiet admirer of Endeavor, whom he has followed since long before he could fly. Right now the dispatch chief has noticed that Hawks was logged on patrol for a whole afternoon last week with no call, no sighting and no stray feather to back it up, and she has started keeping her own notes. The press office has a feature interview booked for next month that Hawks agreed to on the phone and has almost certainly forgotten.",
+    "x": 15.22,
+    "y": 4.77,
+    "radius": 1,
+    "region": "Kyushu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Hawks Agency Lobby": {
+        "description": "A bright ground-floor lobby of glass, pale wood and red accents, open during office hours. A curved reception desk faces the door, staffed by a sidekick with a headset and a polite smile, and beside it stands a rack of fan mail sorted by date, some of it decorated with drawn wings. A glass case along one wall displays donated feather art, from framed paintings of red wings to a full-size model of a single feather made of glass beads. Visitors file requests, report incidents, apply to the agency or ask whether Hawks is in; the answer is almost always that he is out, and the staff have a script for saying it kindly. On weekends fans wait on the sidewalk outside hoping for a landing, and the receptionist hands out a printed card with the agency's address for letters. Everyone in the room, staff included, looks up when a shadow crosses the front windows. The lobby smells faintly of fried chicken whenever the boss has passed through, which is how the staff can tell he has been here without seeing him. A staff-only stairway leads up to the Hawks Agency Operations Room and on to the Hawks Agency Rooftop.",
+        "paths": [
+          "Hawks Agency Operations Room",
+          "Hawks Agency Rooftop"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/88c0b936-af24-4b11-b038-5af173472b04.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hawks Agency Operations Room": {
+        "description": "The staff-only floor upstairs: an open room of desks under a wall of screens, with a city map of Fukuoka marked with the morning's calls, traffic cameras, police radio feeds and a news channel muted in the corner. The dispatch desk tracks Hawks's calls across the city as they come in and, more often, as they are already closed; a sidekick reads out the incident, a second confirms it with the police, and a third starts the paperwork for a case that ended before anyone finished typing. Along the back wall the press office answers questions about those cases, and a whiteboard lists interview requests and sponsorship offers still waiting for the boss's answer. The room runs from early morning to late at night in shifts, with takeout boxes stacked beside every keyboard, and when Hawks does appear, usually through the roof door, he signs a stack of forms standing up and is gone before anyone can ask a question. One chair at the head of the room belongs to him; it is rarely used, and nobody else sits in it. The phones never stop for long. Doors lead down to the Hawks Agency Lobby and up to the Hawks Agency Rooftop.",
+        "paths": [
+          "Hawks Agency Lobby",
+          "Hawks Agency Rooftop"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0ca85af7-fb1a-43dc-b768-43b0a355ed95.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hawks Agency Rooftop": {
+        "description": "The flat roof of the agency building, ringed by a waist-high railing, with a painted landing pad in the middle that only Hawks uses: no helicopter has ever touched it, and the paint is scuffed only by boots. A windsock snaps on a short mast, a steel door leads down to the staff floor, and a couple of potted plants the staff once brought up have long since blown over and been left that way. The view runs over the rooftops around Hakata Station toward the harbor cranes of Hakata Bay, and downtown's towers stand about 4 km to the southwest. Stray red feathers turn up in the corners after a landing, and the staff collect them in a jar by the door rather than throw them out. When Hawks does stop here, he tends to perch on the railing rather than stand on the pad, often with a bag of fried chicken, watching the city while seeming to watch nothing; sidekicks come up to catch him with a form or a question and usually find only the wind. At night the roof is dark except for the pad's edge lights, and the city's noise comes up as one low hum. The steel door leads down to the Hawks Agency Operations Room and the Hawks Agency Lobby.",
+        "paths": [
+          "Hawks Agency Operations Room",
+          "Hawks Agency Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2de54f22-424d-4b16-8f12-9d2f3d8d7bb1.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Hawks Hero Agency"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e0918ef0-e033-4fa8-87f9-18ca060835be.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

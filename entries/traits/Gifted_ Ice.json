@@ -1,0 +1,35 @@
+{
+  "Gifted: Ice": {
+    "name": "Gifted: Ice",
+    "description": "🧬 Ice, as an extra Quirk put into your body.\n\n🌱 At the start it spreads from your hands and feet along the ground out to about ten meters: a surge that slows a foe, a slick sheet across a room, a head-high wall.\n📈 With training: restraints that hold without harm, bullet-stopping ice, slide ramps, shoring that holds up a collapse, armor-shattering frost, a frozen city block.\n🔗 Common drawback pairing: Overheating, which runs cold for an ice Quirk, so frost and numbness creep into your own limbs.\n🎬 Similar canon Quirks: Shoto Todoroki (Half-Cold Half-Hot, cold side).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Ice family): Scale: the user makes ice from the skin and spreads it along touched surfaces, or breathes frost (player's choice). A new adult user glazes a room's floor, raises a head-high wall or sends a frozen line about ten meters along the ground in a second or two; made ice is ordinary ice. Bigger feats need techniques. Limits: heat melts it, heavy blows crack it, allies slip too; it grows from surfaces, so fliers and leapers are hard to catch; ice left on a person too long causes frostbite. Quirk Strain: light: frost, slick floor, ground surge; moderate: restraint, wall, ramp; heavy: shoring a structure, shattering armor; severe: signature move, freezing a whole scene. Type: Emitter (also fits Mutant). Law: freezing a person without a license is assault; whoever ices a road answers for the crashes.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "cold"
+    ]
+  }
+}

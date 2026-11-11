@@ -1,0 +1,20 @@
+{
+  "Brave": {
+    "name": "Brave",
+    "description": "🦁 Fear is there, and you go forward anyway.\n\n⚔️ You step up when everyone else steps back, and that steadies the people behind you.\n⚠️ You take on fights you cannot win because backing down feels worse.\n⚠️ Villains learn that a dare or a hostage will pull you in.\n🔀 If you are also Anxious, you are terrified and you go anyway, which is the bravest kind.\n\n📈 Grants: Willpower +5",
+    "traitNarrativeEffects": "The character is brave: they feel fear and act anyway, stepping forward when others step back, and their courage steadies the people around them. Weakness: they take fights they cannot win because retreat feels worse, and clever enemies use dares, hostages and pride to pull them into traps. If the character is also Anxious, they are terrified and go anyway. The narrator makes the danger real; whether to face it is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Willpower",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

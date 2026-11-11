@@ -1,0 +1,25 @@
+{
+  "Highrise Hammer": {
+    "name": "Highrise Hammer",
+    "description": "The user's signature move: they leap, grow to their full giant height at the top of the leap and drive a heel down onto the target. It deals massive bludgeoning damage to the target and knocks everyone within a block off their feet, cracking the street around the impact; afterward the user drops back to normal size at once and cannot grow until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

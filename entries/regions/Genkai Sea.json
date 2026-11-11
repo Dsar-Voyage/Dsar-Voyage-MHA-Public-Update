@@ -1,0 +1,28 @@
+{
+  "Genkai Sea": {
+    "name": "Genkai Sea",
+    "basicInfo": "The Genkai-nada directly north of Fukuoka, the open water between Iki in the west and the Munakata coast in the east. The square is almost all sea; the only land is Oshima, Munakata's island of about seven square kilometers with a fishing harbor, hillside fields and a shrine where prayers are offered toward distant Okinoshima, and little Jinoshima near the eastern edge, known for wild camellias. Boats from Konominato on the Munakata coast reach Oshima in about twenty minutes. The water is a clear blue-green over sand and rock near the islands and a deeper blue offshore, mostly under a hundred meters deep, with the warm Tsushima Current setting northeast. Summers bring calm seas and squid boats at night; from November the northwest monsoon makes the Genkai-nada famous for rough, cold, gray water. This is the main approach to Hakata Port: ferries and jetfoils to Iki, Tsushima and Busan, fishing boats and cargo ships cross it every day, and Genkaijima and the hills of Itoshima show to the south. Boats from Oshima, Kanezaki and Fukuoka fish for sea bream, yellowtail, squid and Spanish mackerel. The coast guard and maritime heroes from Fukuoka are within half an hour. A party is out here aboard a ferry, a fishing or sightseeing boat, or with a flying hero.",
+    "hiddenInfo": "Traffic is heavy near Hakata, so small collisions, drunk pleasure-boaters and stolen personal watercraft keep the harbor police busy in summer. Small-time smuggling moves through fishing boats and the Busan routes. Oshima's worry is losing its young people. Hero help is close by island standards, with Fukuoka half an hour away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -16,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/23cb2637-c50e-4d6a-9da4-6962ab2e0329.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Echoing Quarter": {
+    "name": "Echoing Quarter",
+    "description": "The user sends a deep, vibrating vocal chord rolling through the air and walls across a whole city block for the rest of the scene. The returning echoes map every room, basement and smoke-filled floor through solid walls, locating every person inside, while the user can focus the hum on any window, lock or bolted barricade in the block to shatter the glass or shake its bolts loose from afar; directed at enemies, it deals heavy sonic damage or, held back, only stuns them to a knee. When it ends, the user's hearing drops to a muffled ring for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

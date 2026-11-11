@@ -1,0 +1,37 @@
+{
+  "Native": {
+    "name": "Native",
+    "type": "Pro Hero",
+    "currentLocation": "Hosu Downtown",
+    "currentArea": "Main Street",
+    "gender": "male",
+    "faction": "",
+    "level": 14,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Native, a working pro hero who patrols Main Street on foot: break-ins, bag snatchers, traffic accidents, lost commuters and fans wanting photos. Dependable rather than famous, one of too few local pros for a city this size. Dark brown hair, gray eyes, an average build; a brown jumpsuit, a feathered red-and-teal headband and shoulder cape.\nSpeaking Style: Plain, polite and professional: short reports, clear requests.\nCombat Role: Street pro: secures civilians, reports, and holds a threat with a pro's training until backup arrives.\nUnder Pressure: Gets civilians out, calls for backup, and orders anyone young or untrained to run.",
+    "hiddenInfo": "Contradiction: A striking feathered costume and the plainest working habits on the street: patrol, reports and crowd control, done carefully. Motivation: Keep his streets safe and get people home. Connections: Manual, who runs a small local agency and shares the downtown patrols; Chief Kenji Tsuragamae, whose officers take his reports; the avenue's shopkeepers and fans. Knowledge: Police procedure, the avenue's people, and shop owners' complaints that a call downtown can wait ten minutes for a pro. Canon voice & behavior: Reports before he acts; thanks whoever helped, whatever their rank or age. Thread: Who keeps breaking into the avenue's offices through roof hatches at night.\nQUIRK: Unrevealed; nothing he does on patrol shows it. Give him no invented power: training, procedure and teamwork.",
+    "personality": [
+      "Steady: Keeps his voice level and his reports exact while a scene falls apart around him.",
+      "Humble: Admits when a threat outclasses him and calls for help without wounded pride.",
+      "Protective of the young: Orders students and bystanders clear of danger before he thinks of himself.",
+      "Speaking style: Short reports, polite requests and a calm voice for frightened civilians."
+    ],
+    "abilities": [
+      "Hero procedure: Assesses, secures, reports, then acts, and keeps a scene orderly until help arrives.",
+      "Rescue assistance: Carries or guides a civilian clear of danger; he cannot shield a crowd alone.",
+      "Team coordination: Radios threats and positions to nearby heroes and police, then follows a shared plan.",
+      "Beat knowledge: Knows the avenue's alleys, rooftop gaps and regulars; off his streets that edge is gone.",
+      "\nFighting style: Keeps the civilian behind him, handles an ordinary thug with a pro's holds, and holds anything stronger until backup arrives."
+    ],
+    "visualDescription": "A man with short, dark brown hair, steady gray eyes, light skin and an average build. He wears his hero costume: a plain brown jumpsuit, a red-and-teal headband set with feathers, and a short red-and-teal shoulder cape trimmed with feathers. Calm, alert, dependable expression with a polite, reserved manner.",
+    "detailType": "detailed",
+    "properName": "Native",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4155f24e-baf2-4206-bf6c-07d168e74589.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_native",
+    "initialKnown": true
+  }
+}

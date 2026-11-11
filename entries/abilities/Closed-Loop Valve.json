@@ -1,0 +1,29 @@
+{
+  "Closed-Loop Valve": {
+    "name": "Closed-Loop Valve",
+    "description": "For the rest of the scene the user recycles their vented steam, drawing the moisture and heat back through their skin before it dissipates so even dry air or a freezing room cannot weaken the Quirk. Each turn they can fire a pinpoint pressure valve jet across a street that lifts a bus-sized slab of rubble, bursts a vault door, or deals heavy force and fire damage to one target; held back, it cools in flight and only pins them to a wall. Keeping the hot loop sealed builds core heat, so if the user takes a heavy hit the loop breaks and triggers their Drawback at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

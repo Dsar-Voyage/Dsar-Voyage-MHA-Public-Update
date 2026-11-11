@@ -1,0 +1,20 @@
+{
+  "U.A. gym uniform": {
+    "name": "U.A. gym uniform",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 5
+      }
+    ],
+    "description": "U.A.'s navy tracksuit with broad white stripes, worn with sneakers for physical training, Quirk assessments and drills. The stretch fabric survives scrapes and tumbles on the training grounds, which is all the protection it gives. [ Armor | Issued at enrollment (about ¥12,000) ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d429f2d1-1fec-41fd-a5b3-cc180d9c6a7b.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

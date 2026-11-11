@@ -1,0 +1,20 @@
+{
+  "Quenched Bind": {
+    "name": "Quenched Bind",
+    "description": "The user softens the ground under a target within three strides into a hot mud trap that sinks their feet, or pours softened stone over a downed foe's wrists and draws the heat back to cool the rock into solid cuffs or a chest-high barricade. Held limbs cannot move until a heavy blow breaks the stone or the user softens it, and quenching the heat into the user's palms leaves no burn on the captive. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

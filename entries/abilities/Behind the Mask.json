@@ -1,0 +1,24 @@
+{
+  "Behind the Mask": {
+    "name": "Behind the Mask",
+    "description": "The user reads a person or a room down to the faintest trace. Until the end of the scene, a disguised, transformed or impersonating person's own scent and pulse give them away even when face and voice match, and a concealed weapon or explosive, a drugged drink, a hidden compartment and a false wall all show themselves to the user. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Sea off Oki Dogo": {
+    "name": "Sea off Oki Dogo",
+    "basicInfo": "Open Sea of Japan north of Dogo, the largest of the Oki Islands, where the island's northern capes and the white islets of the Shirashima coast stand on the southern horizon. The water is deep and clear blue, dropping from the island shelf to well past a hundred meters, with the warm Tsushima Current running northeast. Summers are calm and bright, autumn brings typhoon swells, and winter brings the northwest monsoon, short steep seas and snow, with whole days when nothing small puts out from the island ports. Fishing boats from Saigo and Dogo's northern hamlets work here for squid, sea bream, yellowtail and flying fish, and on summer nights the squid boats light the water in long rows. There are no islands inside the cell. Ships bound for Saigo come in from the south, so traffic is light: a few fishing boats and the occasional cargo ship passing up the coast. The coast guard patrols from Saigo and Sakaiminato, and the small hero agency on Dogo answers calls at sea by boat. A party might be out here on a charter boat from Saigo, working a night on a squid boat, or crossing by air with a flying hero.",
+    "hiddenInfo": "The island fleets are aging and catches are thinner than they were, and anger at outside boats fishing the grounds runs high in the Dogo ports. Rescue in winter seas is slow and dangerous; the nearest help is the coast guard at Saigo, an hour or more away. Petty villainy is gear theft, poached catch and a boat taken from its mooring.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -10,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/53408535-5601-4bd0-b6b7-7f85a71d84d1.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

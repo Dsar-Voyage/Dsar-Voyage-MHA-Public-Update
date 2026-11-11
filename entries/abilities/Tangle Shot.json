@@ -1,0 +1,20 @@
+{
+  "Tangle Shot": {
+    "name": "Tangle Shot",
+    "description": "The user fires capture tape, a weighted cord or an adhesive round from a launcher or gauntlet, or throws a homemade bola, at an opponent's legs. The opponent's legs are bound: they cannot run, kick or climb until they spend an action tearing free or someone cuts them loose. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gear Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

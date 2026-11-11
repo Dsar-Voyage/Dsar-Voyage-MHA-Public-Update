@@ -1,0 +1,17 @@
+{
+  "Streets of Hosu": {
+    "name": "Streets of Hosu",
+    "questSource": "Native",
+    "questStatement": "Every week a crew of minor villains collects a quiet fee from the bars in Hosu's old quarter, and every week the owners pay, because a call for a pro takes ten minutes and the crew is gone in two. Native, the pro who walks Main Street, has filed reports and gets no backup; Hosu is short of heroes. Nobody is going to fix the quarter but you, and nobody is going to give you a license to do it.",
+    "mainObjective": "Break the quiet-fee crew's hold on Hosu's back-alley bars without being caught or unmasked.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The quiet-fee crew no longer collects in the Hosu Back Alleys because the PC broke it, exposed it or drove it out, and the PC is still unidentified or has faced the cost."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hosu Back Alleys",
+    "questDesignBrief": "Grounded vigilante work in a neighborhood that remembers. The crew, its lookouts on the water tanks and the bar owners are generated people; the crew may answer to someone bigger who stays only a name. Native is dependable and by the book: he thanks a helpful civilian and still reports an unlicensed Quirk user. Manual shares the downtown patrols; Chief Kenji Tsuragamae treats vigilantism as the crime it is. Himiko Toga may watch from another roof with her own interests, never as a plot device. Stain does not appear in this quest; if the Hosu incident begins, it runs as its own event. Failure: the crew retaliates against a bar owner, or a phone video of the PC reaches the news.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

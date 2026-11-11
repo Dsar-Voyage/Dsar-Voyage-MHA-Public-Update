@@ -1,0 +1,44 @@
+{
+  "Kosei Tsuburaba (Provisional License)": {
+    "name": "Kosei Tsuburaba (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 21,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Kosei Tsuburaba, hero name Tsuburaba, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and now holds a provisional license. Tousled auburn hair, large dark eyes; the U.A. uniform.\nSpeaking Style: Casual banter; hypes his moves in the dorm, then goes quiet once an exercise starts.\nCombat Role: Fast walls and capture barriers inside 1-B's team tactics.\nUnder Pressure: Covers whoever is beside him until his breath or the danger runs out.",
+    "hiddenInfo": "Contradiction: The license says he can be trusted in an emergency, and he still meets nerves with jokes. Motivation: Make a plain Quirk the one a rescue depends on. Connections: Neito Monoma, who will not let 1-A forget that all of 1-B passed and two of theirs did not. Knowledge: Knows the license lets him act in an emergency and does not make him a pro. Thread: Whether steady walls make him someone people remember.\nQUIRK: Solid Air. Quick and on cue; his lungs still cap it.\nSTAGE: After the provisional license exam: passed; holds a provisional license.",
+    "personality": [
+      "Hallmate: Brings the class jokes back to the 1-B dorm after every exercise.",
+      "Loud reactions: Groans or whistles when a rival does something good.",
+      "Overconfident: Boasts after one good moment, then has to eat the words.",
+      "Speaking style: Casual banter and audible reactions; talks bigger after a win than it deserves."
+    ],
+    "abilities": [
+      "Solid Air: Hardens his breath into a transparent solid, fast and on cue.",
+      "Transparent wall: Blocks a route, an attack or falling debris unseen; a heavy blow breaks it.",
+      "Capture barrier: Boxes a target in until a teammate makes the capture.",
+      "Provisional license: May use his Quirk in an emergency; it does not make him a pro.",
+      "\nFighting style: Cuts off an opponent or hazard with a wall and leaves the capture or rescue to a teammate."
+    ],
+    "visualDescription": "A young man with short, tousled auburn hair, large round dark eyes, an ordinary, friendly face, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Confident, easygoing grin.",
+    "detailType": "detailed",
+    "properName": "Kosei Tsuburaba",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2df8cf50-16e6-49a6-88b4-be5b10699905.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kosei_tsuburaba",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/2df8cf50-16e6-49a6-88b4-be5b10699905.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/655dabb4-2e90-4f54-930f-d2c0a42caf7d.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/b3efbdd5-4acc-4bb8-ab95-d71d583ad204.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/13cbb9e7-b90c-4f3e-b05a-d3b087e63b03.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/1f67c570-33c3-4b44-93aa-f48dfd9066fd.png"
+    },
+    "initialKnown": false
+  }
+}

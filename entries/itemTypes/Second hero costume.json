@@ -1,0 +1,20 @@
+{
+  "Second hero costume": {
+    "name": "Second hero costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 80
+      }
+    ],
+    "description": "A student's rebuilt costume, redesigned once real fights have shown where the first one failed. The support company adds reinforced panels, sturdier seams and gear tuned to how the student now fights in the field, close to the standard of a working pro's outfit. Like the first costume, it grants no legal rights; only a license does. [ Armor | School-funded upgrade after field experience or the license exam ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/48cc283f-f65d-46a1-82be-a8b9e2b6d7ee.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

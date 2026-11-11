@@ -1,0 +1,55 @@
+{
+  "Items: order Grappling line launcher": {
+    "name": "Items: order Grappling line launcher",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^(?!.*(\\w+n't|\\b[Nn]ot\\b|\\b[Nn]ever\\b)).*\\b([Oo]rder\\w*|[Bb]uys?|[Pp]urchas\\w*)\\b"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Gg]rappl\\w*( line)?( launcher)?|[Gg]rapple)\\b"
+      },
+      {
+        "type": "read-boolean",
+        "key": "gearLicensed",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-item",
+        "item": "Yen",
+        "operator": "greaterThanOrEqual",
+        "value": 95000
+      },
+      {
+        "type": "read-number",
+        "key": "order_grapple",
+        "operator": "equals",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "order_grapple",
+        "operator": "set",
+        "value": 1
+      },
+      {
+        "type": "write-boolean",
+        "key": "gearPending",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the character orders Grappling line launcher from a support company with their registration papers and pays ¥95,000. Delivery takes three days; it is not in hand yet."
+      }
+    ],
+    "recurring": true,
+    "script": "const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const y=N(check({type:'player-item',item:'Yen'})),h=N(check({type:'player-item',item:\"Grappling line launcher\"}));storage['od_grapple']=check({type:'read-number',key:'currentDay'})||1;storage['oc_grapple']=h;storage.shopP={y:y-95000,it:[[\"Grappling line launcher\",h]]};effects.push({type:'write-boolean',key:'shopSettle',operator:'set',value:true});"
+  }
+}

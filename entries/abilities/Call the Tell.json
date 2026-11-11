@@ -1,0 +1,20 @@
+{
+  "Call the Tell": {
+    "name": "Call the Tell",
+    "description": "The user watches an opponent for a moment and calls out their habit aloud or by signal: the hand they favor, the pause before their Quirk fires, the way they reload. The first time that opponent repeats the habit in this fight, the user or an ally who heard the call avoids that attack completely. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Field Tactician",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

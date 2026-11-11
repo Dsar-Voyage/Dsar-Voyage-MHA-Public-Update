@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/A General Studies Gamble": {
+    "name": "__generated_quest_progress__/A General Studies Gamble",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has a concrete Sports Festival plan: a training routine kept for at least a week, a study of likely Hero Course rivals, and a strategy or allies for team events."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "A General Studies Gamble"
+      }
+    ]
+  }
+}

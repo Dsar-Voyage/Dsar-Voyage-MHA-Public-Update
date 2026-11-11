@@ -1,0 +1,29 @@
+{
+  "Continuous Anchor Run": {
+    "name": "Continuous Anchor Run",
+    "description": "The user fires and reels alternating tape lines across a district's connected roofs and walls for the rest of the scene, carrying one person at a time to safety or wrapping opponents along the route. A wrapped opponent remains restrained until they cut or tear free. The user must see and reach each new anchor, and a failed attachment can cause a fall. Prolonged output dries the dispensers and ends the run. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

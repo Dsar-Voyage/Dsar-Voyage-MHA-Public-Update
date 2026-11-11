@@ -1,0 +1,29 @@
+{
+  "Settled Account": {
+    "name": "Settled Account",
+    "description": "The user keeps a separate count of the force each attacker drove into them during the scene. In one action they press into every enemy within reach and return to each one exactly the force that person dealt: each takes bludgeoning damage matching their own blows and is thrown down, and anyone who never struck the user is untouched. Held back, each is only knocked flat. Afterward the user's stores are empty and they cannot soften until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

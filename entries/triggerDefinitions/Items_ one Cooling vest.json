@@ -1,0 +1,22 @@
+{
+  "Items: one Cooling vest": {
+    "name": "Items: one Cooling vest",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Cooling vest",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Cooling vest",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

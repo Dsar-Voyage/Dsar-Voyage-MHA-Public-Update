@@ -1,0 +1,15 @@
+{
+  "v_mla_pamphlets": {
+    "title": "Destro's Book",
+    "beats": "An afternoon in mid-November, wherever the party is. Two polite, well-dressed recruiters stand near a station exit handing out a worn paperback: Self-Liberation, by Destro, the leader of a Quirk-rights army crushed generations ago. They speak gently: Quirks are part of the body, and every law against using one is a law against the self. They invite the party to a reading circle that evening in a rented hall nearby, with tea, free legal advice and no obligation.\n\nCanon default course, as pressure the player can change: the circle is larger and better funded than it should be. A speaker reads from the book; members nod along to passages they know by heart; a lawyer offers help to anyone ever charged for using a Quirk, and an envelope of cash for anyone who needs it tonight. Nobody names an army or a leader. At the back of the hall stands Geten, a cold white-haired young man in a long light-blue parka whom the recruiters defer to without explanation. He watches the party's Quirk rather than its face, and before the evening ends he asks for a demonstration, freezing the water in his own cup to show what he means. The circle ends with an invitation to a weekend retreat in the mountains for people serious about liberation.\n\nA League recruit hears the room speak of the League as amateurs; mentioning a tie to the League brings a cooler smile and Geten's full attention. An Independent Villain is offered quiet work and quiet money, more of both than the circle should have. A Vigilante is praised as someone already living liberation, and finds the talk of freedom both appealing and alarming.\n\nThe believers are ordinary people, and the money behind them is anything but. What the circle really is stays out of sight.\n\nThe event is complete when the party accepts or refuses the retreat invitation, or leaves the hall.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_mla_pamphlets",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

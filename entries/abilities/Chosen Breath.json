@@ -1,0 +1,29 @@
+{
+  "Chosen Breath": {
+    "name": "Chosen Breath",
+    "description": "The user fills a room, a bus or a train car with a thin trace gas, learns each person breathing it, then thickens a blend only around the people they pick. Hostage-takers breathe knockout gas and fall asleep until the end of the scene, or breathe irritant and take heavy toxic damage, while the hostages beside them breathe clean air; held back, the irritant deals only tears and coughing. The user must stay still and silent until the end of their next turn to hold the blends apart, and an open window, a fan or a sprinkler mixes them. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

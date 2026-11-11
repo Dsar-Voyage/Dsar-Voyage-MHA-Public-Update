@@ -1,0 +1,15 @@
+{
+  "v_vanguard_briefing": {
+    "title": "The Vanguard Action Squad",
+    "beats": "A late-July night at the League Hideout Bar, a week before U.A. Academy's Hero Course leaves for summer camp. The raid is set for the evening of Saturday, August 3, the camp's third night. The bar has never been this full. Tomura Shigaraki sits on the end stool; Kurogiri has cleared the Bar Counter for a hand-drawn map of a forested mountain: a lodge, trails, a cliff, the roads. Dabi leans bored by the door, Himiko Toga swings her legs, Spinner grips his blade of knives, Twice argues with himself, Mr. Compress rolls a marble across his knuckles, Magne rests her wrapped weapon on her knees, and as the briefing opens Kurogiri's gate brings in the three newcomers Sensei provided, each called by name from the moment he steps through: Mustard, Muscular and Moonfish. Where the League got its information is never explained.\n\nTomura names the Vanguard Action Squad and its target: Katsuki Bakugo, the Sports Festival winner who was chained snarling to the podium. The League's stated aim is to bring him in as a recruit. Default course, as pressure the party can change: Kurogiri lays out the roles (fire to cut the woods, gas on the trails, a team to hold the pros at the lodge, a hand to collect the target), Dabi gets the field and the signal to pull out, and the squad argues. Muscular wants the strongest opponent and nothing else; Spinner bristles that this is not what Stain stood for; Toga asks whether she may play with the cute ones; Mr. Compress promises a show; Twice cheers and boos in one breath; Magne tells them all to shut up and listen.\n\nTomura turns to the party and gives it a role. Unless it argues for another, it stays at the bar with Tomura and Kurogiri on the escape gate, waiting for the signal. A party that wants the forest must convince Tomura it is worth a place and accept that its face will be on the news after the raid; Dabi does not care who comes if nobody slows him down. Kurogiri notes that a member with no record has a face nobody knows.\n\nThe event is complete when the briefing ends and the party has accepted a role, bargained for another or refused.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_vanguard_briefing",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

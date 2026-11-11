@@ -1,0 +1,24 @@
+{
+  "From Overseas": {
+    "name": "From Overseas",
+    "description": "✈️ You are a foreign national living in Japan, or a Japanese returnee who grew up abroad.\n\n🗣️ You speak at least two languages.\n👁️ You learned to read people whose rules you did not grow up with.\n\n📈 Grants: Languages +5, Insight +5",
+    "traitNarrativeEffects": "A foreign national (player picks the country) or a Japanese returnee raised abroad (default: raised in an English-speaking country). How Japanese hero society reads them: only Japan's Hero Public Safety Commission licenses heroes; foreign licenses do not count. Foreign nationals carry a residence card (often checked) and can lose residence over a criminal conviction, so illegal Quirk use risks more. Agencies value bilingual heroes; reporters frame foreign students as exotic; some pros, officers and parents see an outsider. How Musutafu and Tokyo treat them: stares, praise for simple Japanese, 'where are you really from?'; some landlords refuse them; Tokyo is less surprised. Speech: foreign nationals have an accent and gaps in formal speech; returnees are casually fluent, weak on honorifics and kanji, with native English admired or called showing off. Both sometimes miss indirect refusals and hints. Who they know: family abroad, a few compatriots, a paperwork helper.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Languages",
+        "modifier": 5
+      },
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

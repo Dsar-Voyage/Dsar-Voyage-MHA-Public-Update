@@ -1,0 +1,24 @@
+{
+  "Full Breakdown": {
+    "name": "Full Breakdown",
+    "description": "Having watched a Quirk work during this fight, the user lays out its mechanism and hits its weak point in a single sequence: cutting its line of sight, emptying its fuel, running out its clock or blocking what it must touch. The target cannot use their Quirk until the end of their next action, and the user's closing strike deals bludgeoning damage. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirkless",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Hero Work-Study": {
+    "name": "__generated_quest_progress__/Hero Work-Study",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has secured a work-study placement with a pro agency, cleared it with Shota Aizawa, and worked at least one case or patrol shift there."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Hero Work-Study"
+      }
+    ]
+  }
+}

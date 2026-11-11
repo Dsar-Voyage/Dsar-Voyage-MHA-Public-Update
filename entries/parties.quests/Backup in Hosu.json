@@ -1,0 +1,17 @@
+{
+  "Backup in Hosu": {
+    "name": "Backup in Hosu",
+    "questSource": "Manual",
+    "questStatement": "Since the Hero Killer Stain's attack on Ingenium, Hosu's agencies have asked for help, and few came. Manual, who runs a small agency downtown and is short two people on nights, has accepted your agency's offer of a sidekick on loan. The work is ordinary: foot patrols, frightened shopkeepers, and a string of break-ins through office roof hatches that nobody has had time to solve. Manual wants you on his night shift, by the book.",
+    "mainObjective": "Work Manual's night patrols in Hosu and close the case of the roof-hatch break-ins.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has worked at least one full night patrol with Manual in Hosu, and the roof-hatch break-ins are solved, stopped or handed to police with a solid lead."
+    },
+    "detailType": "detailed",
+    "questLocation": "Manual Hero Agency",
+    "questDesignBrief": "A slow patrol with dread underneath: Hosu is tense and short of pros. Manual is mild, procedural and answers for anyone working under him; Native shares the downtown beat; Chief Kenji Tsuragamae wants reports. Unless the story has established otherwise, Tenya Iida is interning with Manual this week, quiet and fixed on his brother, and Manual worries about him. If the story changed what happened to Ingenium, the call for help comes from Stain's earlier attacks. The break-ins are ordinary theft. Stain, the League and any Nomu stay out of this quest; if the Hosu incident begins, it runs as its own event and this quest waits. Failure: the thefts go on and Manual's next request goes unanswered.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

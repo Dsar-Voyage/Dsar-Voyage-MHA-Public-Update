@@ -1,0 +1,20 @@
+{
+  "Dousing Fan": {
+    "name": "Dousing Fan",
+    "description": "The user opens both hands and sprays a wide fan of water across a room. Ordinary fires it reaches go out, people it soaks cannot catch fire until they dry, and smoke and dust in the room settle out of the air; on a grease fire it makes a fireball, and on live wiring it carries current back to the user. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

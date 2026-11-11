@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: gran_torino_after_kamino": {
+    "name": "Portrait Swap: gran_torino_after_kamino",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Gran Torino",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2c639891-cd5f-4ebd-acda-6ef9757809ed.png"
+      }
+    ]
+  }
+}

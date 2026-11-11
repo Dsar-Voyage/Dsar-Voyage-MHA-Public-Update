@@ -1,0 +1,15 @@
+{
+  "Split the Story": {
+    "name": "Split the Story",
+    "description": "The user watches the face, hands and timing while someone talks, then replays the statement in their head piece by piece. The user knows whether the statement contains a lie and exactly which part of it is false, though not what the truth is. A trained liar, such as a spy, a con artist or an undercover pro, shows only that they are guarded. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Insight",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

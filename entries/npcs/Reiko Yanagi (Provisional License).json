@@ -1,0 +1,44 @@
+{
+  "Reiko Yanagi (Provisional License)": {
+    "name": "Reiko Yanagi (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 21,
+    "tier": "elite",
+    "voiceTag": "female cynical monotone",
+    "basicInfo": "Reiko Yanagi, hero name Emily, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and now holds a provisional license. Very pale skin, silver hair over one eye; the U.A. uniform.\nSpeaking Style: Soft, sparse, flat, faintly eerie.\nCombat Role: Mid-range support drilled for blocking, distraction and clearing debris in rescues.\nUnder Pressure: Gets quieter and keeps to 1-B's roles.",
+    "hiddenInfo": "Contradiction: A hero is meant to reassure the public, and her manner unsettles people before her Quirk helps them. Motivation: Be a hero people are glad to see, ghost look and all. Connections: Yui Kodai, still the classmate whose Quirk fits hers best. Knowledge: Knows the license lets her act in an emergency and does not make her a pro. Thread: Whether the public learns to trust the ghost in the crowd.\nQUIRK: Poltergeist. Practiced and exact; same weight limit.\nSTAGE: After the provisional license exam: passed; holds a provisional license.",
+    "personality": [
+      "Ghostly manner: Drifts quietly through the dorm, unsettling without trying.",
+      "Attentive teammate: Drills her rescue and capture role until it is automatic.",
+      "Precise: Moves exactly the object that matters, faster than in spring.",
+      "Speaking style: Soft, sparse, flat, faintly eerie; her look is never played as real haunting."
+    ],
+    "abilities": [
+      "Poltergeist: Moves nearby objects without touch, up to about a person's weight.",
+      "Rescue support: Lifts debris off a casualty or out of a rescuer's path.",
+      "Distraction: Sends several objects on separate paths to split a rival's attention.",
+      "Provisional license: May use her Quirk in an emergency; it does not make her a pro.",
+      "\nFighting style: Stays at mid-range behind floating objects and sets up a teammate's capture."
+    ],
+    "visualDescription": "A young woman with very pale skin, short silver hair with a long fringe that hides one eye, half-lidded dark blue eyes and a slight build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Deadpan expression with the faintest smile.",
+    "detailType": "detailed",
+    "properName": "Reiko Yanagi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_reiko_yanagi",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0ab698fc-4b0b-4a37-92f3-1269432e8449.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/6acec2e1-84b9-4804-82e9-4c1a23a72c80.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/983f5144-0794-49bb-ada8-1adcbffdfe87.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/6bba9392-bad4-4f81-8e37-b5627001e810.png"
+    },
+    "initialKnown": false
+  }
+}

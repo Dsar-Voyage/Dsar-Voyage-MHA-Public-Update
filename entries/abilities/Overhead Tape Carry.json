@@ -1,0 +1,20 @@
+{
+  "Overhead Tape Carry": {
+    "name": "Overhead Tape Carry",
+    "description": "The user fires alternating strips into sound overhead anchors and swings while carrying one willing person across a blocked street or damaged floor. Both arrive beyond the hazard before the end of the user's next turn. The passenger must hold on, and a failed anchor drops both unless the user secures a replacement line. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

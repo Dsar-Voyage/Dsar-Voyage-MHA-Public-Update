@@ -1,0 +1,25 @@
+{
+  "Ricochet Cyclone": {
+    "name": "Ricochet Cyclone",
+    "description": "The user turns feather-light and ricochets from wall to wall and roof to roof across a whole city block in a blur, stretching arms out to scoop bystanders clear of danger or snapping heavy at the moment of each strike. Every enemy in the open across the block takes heavy bludgeoning damage and is knocked off their feet; held back, each glancing pass only disarms and topples them without lasting injury. Dozens of weight reversals in seconds leave the user retching and unable to stand or use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

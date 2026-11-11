@@ -1,0 +1,43 @@
+{
+  "Event Ahead: The Joint Training Battle": {
+    "name": "Event Ahead: The Joint Training Battle",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 244
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 248
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_joint_training",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: The Joint Training Battle is on Tuesday, December 3. Unless the player asks to skip, story time never moves past that date before it is played: no summary of days, recovery or waiting carries the story beyond it. If the player is hurt or away, the day still comes and they are brought into it, healed and cleared to take part fully."
+      }
+    ]
+  }
+}

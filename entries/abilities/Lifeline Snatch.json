@@ -1,0 +1,20 @@
+{
+  "Lifeline Snatch": {
+    "name": "Lifeline Snatch",
+    "description": "With a long tongue or a gripping tail, or with jaws or hooked claws after a quick lunge, the user snatches a person or object within a few meters. They can pull someone who is falling or drowning to safety, yank a weapon out of a hand, or wrap a target's arms so they cannot strike until they break free with a hard effort. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

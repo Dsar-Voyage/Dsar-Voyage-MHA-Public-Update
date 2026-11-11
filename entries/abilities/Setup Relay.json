@@ -1,0 +1,15 @@
+{
+  "Setup Relay": {
+    "name": "Setup Relay",
+    "description": "The user boosts a partner into the fight: cupped hands under a foot, a shoulder to spring from or a two-handed throw. The partner reaches a spot they could not reach alone in time, such as a rooftop, the far side of a gap or an opponent in the air, and attacks, grabs or rescues on arrival in the same action. Works only on a partner the user can lift or push. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "Kamino Ward": {
+    "name": "Kamino Ward",
+    "basicInfo": "Kamino Ward is an aging ward of Yokohama, about 11 km northwest of the harbor district and some 70 km northeast of U.A. Academy. Half the shops on its covered shopping street have closed, and the backstreets behind it are a tangle of old apartment blocks, two-story wooden houses, small bars, coin laundries, vending machines and empty lots; beyond them lie industrial lots of storage sheds, idle warehouses and yards gone to weeds. Most residents are older people who have lived here for decades, along with day laborers and young people who came for the cheap rent. The ward office runs on a shrinking budget; the prefectural police keep a police box at the shopping street's entrance, and hero patrols pass along the main roads without stopping. Rock Lock, a pro hero whose Quirk locks any nonliving thing he touches in place, is the one familiar hero face on the shopping street, walking it on his own rounds. Mornings belong to shoppers and retirees; at dusk the shutters come down and the backstreet bars stay open late. A player can rent a cheap room by the week, find day labor, drink where nobody asks questions, look for people who do not want to be found, or lend a hand to the old shopkeepers who are still holding on. The nearest station is a few minutes' walk from the shopping street, and its trains can be heard across most of the ward; express lines run from it to Tokyo Station and to the harbor. The ward feels forgotten more than dangerous: quiet, slow and watchful, a place where strangers are noticed and never mentioned.",
+    "hiddenInfo": "Small-time villains from other cities drift into the backstreet bars looking for work, because brokers here are known for jobs that pay cash up front, no questions asked. Most get a phone number and leave town. Right now several wanted people are among the drifters, each one alone: Dabi, a burn-scarred man with blue flames and no past, in the backstreet bars; Magne, loud and big-sisterly, with a huge cloth-wrapped weapon and a Magnetism Quirk, drinking in the same lanes; Twice, a frantic masked man who argues with himself mid-sentence; and Spinner, a gecko heteromorph with a blade of strapped-together knives, who loiters by the electronics shop's game displays. None of them belongs to a crew. This month the phone numbers lead to the same buyer, someone hiring muscle through a broker in Yokohama's Chinatown, paying well and saying nothing. On the ward's northeastern fringe, one bar keeps its lights on but never takes a walk-in customer, and locals have learned not to knock. Northwest of the ward, a sealed warehouse in the industrial lots draws power day and night though nobody is seen going in or out. Brokers rent rooms above the closed shops by the week, cash only, no names asked. The police box is staffed by two officers close to retirement who file as few reports as they can. Rock Lock has noticed the new faces and suspects the ward is turning into a hiring hall; he asked the police for a joint sweep and was told to put it in writing.",
+    "x": 3.19,
+    "y": 13.87,
+    "radius": 1.5,
+    "region": "Kamino and Yokohama",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Shopping Street": {
+        "description": "A covered shopping arcade three blocks long, its glass roof yellowed and leaking in places, with buckets set out under the worst drips on rainy days. Half the shutters stay down, some sprayed with old graffiti; the open shops are a tofu maker, a pharmacy, a hundred-yen store, a tailor, a pachinko parlor at the far end and an electronics shop whose speakers loop the same jingle all day. Retirees shop here in the morning and sit on the benches to talk; schoolchildren cut through in the afternoon, and the tofu maker sells out of fried tofu by noon. The police box stands at the entrance, its two officers rarely outside it, and the pro hero Rock Lock walks the arcade on his rounds, greeting the shopkeepers by name. After the shutters come down at dusk, the arcade lights flicker over an empty walkway. Gaps between the shuttered shops lead out into the Backstreets. The arcade smells of soy, damp concrete and the tailor's steam iron.",
+        "paths": [
+          "Backstreets",
+          "Late-Night Diner"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f4c4c081-4dee-4cfb-ae55-3caea21d8cf7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Backstreets": {
+        "description": "Lanes behind the shopping street, between two-story wooden houses, old apartment blocks and empty lots, strung overhead with power lines. Small bars with no signs, a coin laundry, a few vending machines and a shrine the size of a closet are the landmarks, and laundry hangs from balconies over lanes too narrow for a car. Day laborers, bar workers and people renting by the week live here; a labor van collects workers at a corner at 5 a.m., and the bars open at dusk. After dark the bars fill with drinkers who keep their voices low, and the local rule is simple: nobody asks a name, and nobody remembers a face. Newcomers who sit too long or ask too much find the bar suddenly closing for the night. Cats outnumber people on most corners, and an old woman feeds them at the shrine every evening. The lanes wind back to the Shopping Street. The air smells of frying oil, cigarettes and wet wood.",
+        "paths": [
+          "Shopping Street",
+          "Snack Bar Row",
+          "Late-Night Diner",
+          "Kamino Safehouse",
+          "Trigger Dealer's Stairwell"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a199a90a-0a69-46e5-816a-cc676e01cc13.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Snack Bar Row": {
+        "description": "A dead-end lane off the Backstreets where a dozen snack bars stack two stories high, each behind a padded door with a glowing name plate the size of a book, the upper ones up steep outside stairs. Inside, each is one counter of eight stools, a karaoke screen, a shelf of bottles tagged with regulars' names, and a mama behind the bar who has run it for decades. The table charge is 2,000 yen, a kept bottle of shochu 6,000, and the mama decides who stays: a stranger gets one drink and a polite word that the seats are reserved. The bars open at eight; day laborers sing old enka off-key after their shift, retirees come early and leave by ten, and after midnight the voices drop. At some counters a man at the far end never sings, and anyone who asks the mama about work gets a phone number written on the back of a coaster, cash up front, no names. Every door has a card asking customers to keep their Quirks to themselves, and one mama keeps a baseball bat behind the bottles anyway. Hero patrols never come down the lane. Air-conditioner units drip on the steps, muffled karaoke leaks from every door, and the lane leads back to the Backstreets.",
+        "paths": [
+          "Backstreets",
+          "Black Market Basement"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ad396173-c250-44cc-876d-18b541f9e57a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Late-Night Diner": {
+        "description": "A twenty-four-hour diner on the main road at the mouth of the Shopping Street, its long front window looking across at the police box: red vinyl booths patched with tape, a counter of swivel stools, laminated picture menus and a coffee machine that never cools. The night cook works the grill alone; a curry plate is 650 yen, the morning set of toast, a boiled egg and coffee 400, and refills are free until five. Taxi drivers and night-shift nurses eat here after midnight, laborers fill the counter at half past four before the 5 a.m. van, and retirees take the window booths with their newspapers by eight. In between, the back booths hold people who nurse one coffee for three hours, slide an envelope across the table and leave separately; the staff refill the cups and watch the television. It hangs in a corner playing hero news with the sound off, and the regulars bet coins on the next Hero Billboard Chart. A handwritten card by the register says no Quirks at the table, and a fist-sized dent in the steel counter shows why. The front door opens onto the Shopping Street; a kitchen door at the back lets out into the Backstreets.",
+        "paths": [
+          "Shopping Street",
+          "Backstreets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/84d12835-a51d-4c19-bf5a-1243b210a440.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Black Market Basement": {
+        "description": "A low basement under one of the snack bars on Snack Bar Row, reached by a steel stair behind the bar's tiny kitchen once the mama has locked the padded door for the night. From about two in the morning until the 5 a.m. labor van, folding tables fill the room under bare bulbs, one for each seller: unregistered support gear in foam-lined cases (grappling launchers, weighted gauntlets, stun batons), forged IDs and residence cards made to order with a week's wait, police-issue Quirk restraints such as heavy cuffs and full-hand mitts gone missing from a transport, phones with no history, and boxes of stolen watches, bags and electronics at a fraction of their price. Buyers come down one at a time on the word of someone the room already knows, and a broker's name at the top of the stair is the only ticket. The rules are taped to the wall and kept by a silent doorman wide enough to block the stair: cash only, no phones out, no names, no Quirks, no haggling above a murmur, no Trigger, and nothing comes back. Anyone who breaks one goes up the stair and is never let down again. A dehumidifier rattles in the corner, and the room smells of mildew, gun oil and the fryer upstairs. A player can buy, sell, fence stolen goods or hear who is buying what. The stair leads back up through the bar to Snack Bar Row.",
+        "paths": [
+          "Snack Bar Row"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bc799f1b-f33f-4905-bd98-7c01fabbcfdc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kamino Safehouse": {
+        "description": "A single six-mat room over a tobacco shop that closed years ago, its shutter rusted down on a backstreet lane, reached by an outside steel stair at the back. Brokers rent it by the week, cash only and no names asked, and the landlord sends no one up. Blackout curtains are taped at the edges over the one window; there is a futon on the tatami, a low table, an electric kettle, a hot plate, a mini fridge, a sink in the corner and a shared toilet on the landing. A go-bag waits packed by the door: a change of clothes, cash, a burner phone with the battery out, bandages, a cap and a spare mask. The people who sleep here are the ones who cannot sign a hotel register: villains with a warrant, drifters between jobs, people hiding from a debt or a former crew. They come and go after dark, keep the TV low and tuned to the news, and learn which stair treads creak. Through a slit in the curtain the lane below and the corner where the labor van stops are both in view. The walls are thin enough to carry a neighbor's radio and every train at the station, and the room smells of instant noodles, old tatami and stale smoke. A player can sleep, heal, hide, change a look or wait for a phone call. The stair leads down into the Backstreets.",
+        "paths": [
+          "Backstreets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f045d16d-7936-42f1-bbef-974337fcc278.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Trigger Dealer's Stairwell": {
+        "description": "A bare concrete stairwell at the back of an emptied apartment block on the Backstreets, five flights with a dead light on every second landing and a steel door propped open with a brick. Trigger changes hands on the third-floor landing: a seller in a hood sits on the steps with a few small glass ampoules in a cigarette tin and takes cash only, and a lookout at the lane mouth whistles if anyone in a uniform turns the corner. Buyers come after dark and do not stay long: day laborers who want one shift's strength, small-time villains before a job, people with weak Quirks who want a few minutes of feeling strong. The landings are scorched, cracked and dented where users tried their boosted Quirks on the walls, and one handrail is bent flat. A user can turn violent at a word and hurt anyone close, and the comedown leaves people slumped on the landings, exhausted and sometimes hurt by their own power. Two or three times a year the prefectural police sweep the block without warning, from both ends at once, and anyone caught holding an ampoule goes to a cell. Rock Lock walks past the lane mouth on his rounds and has started to slow down there. The stairwell smells of stale smoke, scorched concrete and wet cardboard, and every footstep echoes up all five flights. A player can buy, watch, inform, or step in when a user loses control. The door at the bottom opens onto the Backstreets.",
+        "paths": [
+          "Backstreets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dd58c379-c86b-4c03-bcc9-444c7754563a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Villain Brokers"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8fa306a1-d416-4cd0-8bad-c708cc65f54a.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

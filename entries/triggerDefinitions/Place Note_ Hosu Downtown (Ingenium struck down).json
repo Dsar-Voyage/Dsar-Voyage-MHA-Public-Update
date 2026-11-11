@@ -1,0 +1,27 @@
+{
+  "Place Note: Hosu Downtown (Ingenium struck down)": {
+    "name": "Place Note: Hosu Downtown (Ingenium struck down)",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Hosu Downtown"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_sports_festival",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_hosu_incident",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){/*storage_pack:v1:[true,[[670,1]]]*/const __pr=[[670,1]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"wrapped\",[[670,1,0,false]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(670)===undefined){skip=true;return;}const __HT0=__hc(__hv(670));const K=\"Hosu Downtown (Ingenium struck down)\",X=__HT0;const t=check({type:'game-tick'})||0,d=check({type:'read-number',key:'currentDay'})||1,a=check({type:'party-area'})||'';const S=storage.placeNote||{};const p=S[K];const st=d+'|'+a;if(p&&p[0]===st&&t-p[1]<10){skip=true;return;}S[K]=[st,t];storage.placeNote=S;effects.push({type:'story',instruction:X});})();"
+  }
+}

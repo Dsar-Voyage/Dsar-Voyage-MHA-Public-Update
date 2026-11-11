@@ -1,0 +1,28 @@
+{
+  "Single Quirk": {
+    "name": "Single Quirk",
+    "description": "🧬 One Quirk, the one you chose above.\n\n🌱 The usual case: most people inherit one Quirk, sometimes a mix of a parent's, sometimes something new.",
+    "traitNarrativeEffects": "The character has a single Quirk.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "League of Villains Recruit",
+      "Independent Villain",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

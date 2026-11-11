@@ -1,0 +1,39 @@
+{
+  "School Year: third [Support Course]": {
+    "name": "School Year: third [Support Course]",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 731
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Support Course"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Second-Year at U.A.",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Third-Year at U.A.",
+        "target": "satisfyingPlayers"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Nagoya": {
+    "name": "Nagoya",
+    "basicInfo": "Nagoya is the cell of the Nobi plain and the core of Japan's third great metropolitan area: Nagoya city at the southeast, Gifu and Ogaki to the northwest, the old towns of Inuyama, Seki and Mino along the northern hills, and between them a flat, crowded patchwork of suburbs, rice fields and factories cut by the Kiso, Nagara and Ibi rivers. The Yoro hills close the southwest, the Mino highlands rise to the north and east, and Ise Bay lies just beyond the southern edge. Summers are among the hottest and most humid in the country; winters are dry and bright, with a cold wind off Mount Ibuki that can push snow through the Sekigahara gap to the west. Nagoya is a big, broad-avenued industrial capital of more than two million people: the castle topped with golden dolphin-tigers, the department stores and underground malls of Sakae and the towers over the station, the bargain arcades and temple of Osu, and the TV tower in the Hisaya Odori park. Its economy runs on cars, aerospace and machine tools. Gifu sits under Mount Kinka, whose summit castle looks down on the Nagara River, where cormorant fishers work by torchlight from May to October. Inuyama keeps one of Japan's oldest original castles above the Kiso River, Seki makes knives and blades from a long smithing tradition, Mino makes handmade washi paper behind fire-wall rooftops, and Ogaki is a city of springs and moats. Nagoya food is its own cuisine: miso katsu, peppery tebasaki wings, hitsumabushi eel over rice, kishimen noodles and generous morning sets at coffee shops. The Nagoya Festival parades in October and Inuyama's floats in spring. The Tokaido Shinkansen stops at Nagoya and Gifu-Hashima; JR, Meitetsu and Kintetsu lines fan across the plain, the subway rings the city, and expressways and the Komaki airfield tie it together. Musutafu is about an hour and a quarter away by shinkansen; Shin-Osaka is under an hour. Nagoya hosts dozens of hero agencies, from large downtown offices to neighborhood ones, with sidekicks on every major street and a heavy police presence; the outer towns keep smaller agencies, and factory workers with strength or materials Quirks hold workplace licenses.",
+    "hiddenInfo": "Nagoya's undercurrents are industrial: subcontractor plants squeezed by the big makers, foreign laborers in cramped dormitories, parts theft and quarrels on the shop floor, and the Nishiki nightlife district where small gangs collect protection money. Purse snatching, car theft and Quirk-fueled street fights are ordinary city crime, and smuggling moves along the expressways between Tokyo and Osaka. Hero response inside Nagoya is fast, often minutes; in the river towns and the western rice country a call can take half an hour.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -4,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/460e8307-1fcf-4d0b-a6e6-55a1fd4ff98f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

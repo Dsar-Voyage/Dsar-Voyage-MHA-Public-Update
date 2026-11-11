@@ -1,0 +1,20 @@
+{
+  "Vanishing Shift": {
+    "name": "Vanishing Shift",
+    "description": "The user throws a feint, breaks line of sight behind a pillar, smoke or a crowd and moves somewhere else. Every opponent loses track of the user until the user attacks or makes a noise, and while unseen the user can move anywhere in the area, including behind an opponent. Sensing Quirks, heat vision and cameras can still find the user. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Striker",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

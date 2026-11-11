@@ -1,0 +1,25 @@
+{
+  "Vesper Crossfire": {
+    "name": "Vesper Crossfire",
+    "description": "The user's signature move: they fling smoked-glass shards out and step shard to shard across the battlefield in one breath, slashing each enemy before shattering the shards. Each enemy takes massive slashing damage, or bludgeoning if held back, and has their shadow pinned until the end of their next turn; afterward the user is parched, casts a faint shadow and cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: eri_smiling": {
+    "name": "Portrait Swap: eri_smiling",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_school_festival",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Eri",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/47f42d25-7210-4c81-8b0b-9a2369611fd0.png"
+      }
+    ]
+  }
+}

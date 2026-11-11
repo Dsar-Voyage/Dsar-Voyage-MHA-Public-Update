@@ -1,0 +1,25 @@
+{
+  "Gloaming Quarter": {
+    "name": "Gloaming Quarter",
+    "description": "The user releases hundreds of small smoked-glass shards across a whole city block for the rest of the scene, each casting a pool of real shade even under floodlights. On any turn the user can step between any two shards' shade on the block, pull a bystander through to safety, or shatter a planted shard so its fragments deal heavy piercing damage and pin the shadows of enemies within a few strides; held back, blunt fragments pin their shadows uncut. Sustaining the swarm parches the user and drains their shadow until they rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

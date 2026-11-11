@@ -1,0 +1,20 @@
+{
+  "Mire Glob": {
+    "name": "Mire Glob",
+    "description": "The user lobs a glob of thick, sticky gel across a room onto the ground under a target, or under a few people standing together. Their feet stick fast: they cannot walk, run or kick until they peel free with a hard effort or the user thins the gel, and the gel is too weak to burn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

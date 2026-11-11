@@ -1,0 +1,15 @@
+{
+  "side_intern_patrol": {
+    "title": "Internship Week: Night Patrol",
+    "beats": "A night in the middle of internship week, on supervised patrol with the mentor through the agency's city. The Hero Killer is in every news crawl: days ago he attacked Ingenium, Tensei Iida, the popular head of Team Idaten, and pros across the country now patrol in pairs after dark. The mentor raises it once, flatly: an intern stays at the mentor's side, and nobody chases a name from the news. The Hero Killer never appears in this scene, whatever city the agency works.\n\nCanon default course, as pressure the player can change: the first hours are quiet, a slow walk of the beat, a convenience-store clerk with a question, a mentor's story about the first year on the job. Then the radio calls something real, picked to fit the agency's city and work: a mugging in a covered arcade, a fire in a noodle shop with an apartment above it, a drunk whose Quirk has torn a vending machine off the wall. The mentor takes the dangerous part and gives the party a post: keep the street clear, guide residents down the back stairs, hold the crowd behind the tape, watch one exit.\n\nThen the post is tested. A resident appears at a window the mentor has not seen, a suspect bolts straight past the party's position, or a bystander with a phone pushes under the tape for a better shot. A life at stake justifies acting without the order, and the mentor says so afterward; leaving the post to chase a thief earns a sharp lecture, however well it turns out. Police take the scene, and the mentor walks the party through the incident report line by line, because an intern's account goes on the record.\n\nBy path: a 1-A or 1-B party works the same rules. Back at the agency the class chat is full of other people's patrols, and the mentor wants the report finished before anyone checks a phone.\n\nThe event is complete when the call is resolved and the incident report is signed, or the mentor ends the patrol early.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_intern_patrol",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

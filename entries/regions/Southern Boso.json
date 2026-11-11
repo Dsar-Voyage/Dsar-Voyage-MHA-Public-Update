@@ -1,0 +1,30 @@
+{
+  "Southern Boso": {
+    "name": "Southern Boso",
+    "basicInfo": "The southern tip of the Boso Peninsula, a ring of flower-growing hills and rocky coves where Chiba ends in the Pacific, with most of the cell open sea to the south. Tateyama sits on the calm bay of the same name on the western shore, with a reconstructed castle on its hill and the little island of Okinoshima tied to the shore by a sandbar; south of it, past the loquat orchards of Tomiura, the flower fields and diving coves of Minamiboso run to Nojimazaki lighthouse at Shirahama, the southernmost point of the Kanto mainland. The coast then turns northeast through Chikura and Wada, a small whaling port that still lands a few beaked whales each summer, to Kamogawa, a resort town with a marine park, the bay of Tainoura where wild sea bream gather, and the terraced rice paddies of Oyama Senmaida in the hills behind. Mount Atago, the highest point in Chiba at just over four hundred meters, rises in the middle. The Kuroshio runs close offshore and keeps the winters nearly frost-free; rape blossoms, stock and poppies bloom in the fields from January, summers are breezy, and typhoons strike hard. People grow flowers and loquats, dive for abalone and turban shells, fish, raise dairy cattle in the hills where Japanese dairying began, and run inns, beach houses and campsites. The Uchibo line reaches Tateyama and the Sotobo line Kamogawa, meeting at Awa-Kamogawa; highway buses from Tokyo come over the Aqua-Line to Tateyama in about two hours, and the Boso Flower Line road follows the southern shore. Musutafu is about three hours away, or less by car and the Kurihama ferry. Visitors pick flowers in winter, swim and dive at Tateyama and Shirahama, watch the women divers' festival in July, eat sanga-yaki fish patties, whale jerky and fresh sea bream, see the marine park, and look out across the sea to the volcano of Izu Oshima on the southwest horizon. A small hero agency in Tateyama and the police cover the peninsula's tip, and in summer sidekicks with water Quirks patrol the beaches alongside lifeguards.",
+    "hiddenInfo": "The tip of Boso is beautiful and emptying: its towns are among the oldest in Kanto, a few storm-damaged roofs still wear blue tarps, and summer crowds strain the roads and the patience of locals. Rescues often come by sea. Real hero help is twenty to forty minutes away by road and longer from Chiba. Small villainy: poaching of abalone and spiny lobster from protected beds, thefts from campsites and beach cars, and reckless tourists using unlicensed Quirks on the cliffs.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 2,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/33e0ea1e-9979-4341-84cb-bc8e77d27868.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

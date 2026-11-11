@@ -1,0 +1,20 @@
+{
+  "Steelfall Catch": {
+    "name": "Steelfall Catch",
+    "description": "The user throws both hands up and seizes every piece of steel falling or flying into a street-wide area: beams, rebar, signs, a dropping car, thrown blades. Each hangs in the air until the user sets it down somewhere safe, so nobody under it or in its path is hurt. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

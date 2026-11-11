@@ -1,0 +1,25 @@
+{
+  "Solstice Front": {
+    "name": "Solstice Front",
+    "description": "The user releases pale-blue fire and deep frost together across a whole city block, filling the streets with thick fog and putting barriers and cover through thermal shock for the rest of the scene. Enemies inside take heavy fire and cold damage as their weapons and armor crack, while allies move unseen through the mist; held back, the surge cracks only gear and locks foes to the ankles in steaming ice while sparing bystanders. Driving both natures across a block swings the user's core into fever and chills, triggering their Drawback at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

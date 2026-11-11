@@ -1,0 +1,25 @@
+{
+  "Throwing knives": {
+    "name": "Throwing knives",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 2
+      }
+    ],
+    "description": "A set of balanced steel knives in a strap holster, weighted to spin true and land point first. Skilled hands can pin a sleeve to a wall from across a room, and carrying them without a legitimate reason breaks the same blade law as any knife. [ Weapon | About ¥8,000 a set ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/85f075aa-7380-47d4-8fe3-0b390d9b8590.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Unburdening": {
+    "name": "Unburdening",
+    "description": "The user reaches into a single person within sight, finds the feeling driving them (the panic behind a Quirk running wild, a jumper's despair, a rampaging villain's rage) and lifts it out. That feeling is gone for the rest of the scene: a runaway Quirk settles, a jumper steps back from the edge, and a rampage stops long enough for someone to talk them down. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

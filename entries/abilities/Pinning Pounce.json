@@ -1,0 +1,20 @@
+{
+  "Pinning Pounce": {
+    "name": "Pinning Pounce",
+    "description": "The user springs at a target within a few strides and lands on them with the beast's full weight. It deals bludgeoning damage, or none if the user lands soft, and the target is knocked flat and cannot rise or use their arms until they break free with a hard effort or the user steps off. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

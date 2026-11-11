@@ -1,0 +1,15 @@
+{
+  "jaku_machia_custody": {
+    "title": "Acid Against the Past",
+    "beats": "On day 405, before any reinforcement from Gigantomachia reaches Gunga, villains attack his custody position in Jaku City's Residential Hills. Mina Ashido, Eijiro Kirishima, Hitoshi Shinso, Mount Lady, and the assigned defenders confront the attempted liberation. Among the attackers is the fighter responsible for Midnight's death. That association is learned through the confrontation, not supplied to every distant observer.\n\nThe canon default course, as pressure the player can change: Mina recognizes the fear bound to her earlier encounter with Gigantomachia and refuses to let it decide who she can save now. Her stronger acid protects allies and breaks the attackers' advantage, leaving her dangerously exhausted. Kirishima supports her rather than allowing the effort to become another solitary sacrifice. Shinso uses his voice equipment and Brainwashing to bring Gigantomachia under the heroes' direction. The group turns the attempted liberation into a route toward reinforcing Gunga.\n\nGive the player a threatened custody barrier, a chance to protect Shinso's equipment, or a casualty who needs removal while Mina acts. Gigantomachia is not an obedient vehicle merely because a hero wants to ride him; establish the successful exchange and control. His departure requires a chosen route and warnings to settlements along it. Mina's exhaustion needs actual treatment, with serious deterioration prompting extraction to Musutafu General Hospital. The defeated attackers remain a custody responsibility after the mobile team leaves.\n\nBy place: Jaku City stages the attack and departure. Gunga Mountain Villa receives the warning and arrival estimate, without receiving the reinforcement early. U.A. Academy, Okuto Island, and Kamino Ward exchange relevant deployment messages. Musutafu General Hospital receives casualties; Takoba Municipal Stadium maintains its own containment. Mount Fuji Battlefield can protect threatened approaches and relay route warnings. An off-site player can secure a reachable segment of the journey rather than instantly joining the riders.\n\nBy Path: Class 1-A supports Mina and Kirishima; Class 1-B protects custody; General Studies assists Shinso. Support safeguards voice equipment, Management coordinates route warnings, and Faculty authorizes the counterattack. Licensed Sidekick holds the perimeter; Licensed Pro Hero directs movement. League of Villains Recruit attempts liberation or changes sides; Independent Villain chooses control or escape. Vigilante protects nearby residents; Civilian Life evacuates the announced route.\n\nThe event is complete when Gigantomachia's actual control and destination, Mina's care, and the remaining defenders' and prisoners' disposition are established.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_jaku_machia_custody",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

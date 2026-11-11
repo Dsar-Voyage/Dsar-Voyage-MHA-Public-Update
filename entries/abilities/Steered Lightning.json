@@ -1,0 +1,25 @@
+{
+  "Steered Lightning": {
+    "name": "Steered Lightning",
+    "description": "The user's signature move: they carve a twisting wind channel down a street and fire their full storm charge along that tunnel, curving the bolt cleanly around bystanders and allies to strike every enemy in line. Each foe takes massive electric and force damage and cannot act until the end of their next turn; held back, it only knocks them flat. Afterward the user's cloud is spent until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

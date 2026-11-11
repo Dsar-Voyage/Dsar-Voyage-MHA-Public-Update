@@ -1,0 +1,20 @@
+{
+  "Updraft Bound": {
+    "name": "Updraft Bound",
+    "description": "The user slams air into the ground and rides the updraft up a story, onto a low roof or out of an attack's path, which misses them. Aimed beneath someone else who is falling, the same updraft slows them into a safe landing. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

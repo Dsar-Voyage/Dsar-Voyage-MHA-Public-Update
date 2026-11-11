@@ -1,0 +1,20 @@
+{
+  "Pinpoint Ray": {
+    "name": "Pinpoint Ray",
+    "description": "The user narrows the beam to a needle of light that reaches the length of a city block and lands the instant it fires, so the target cannot dodge it. It passes through glass and windshields at full strength and deals light damage, or it burns through a rope, a strap or a cable, or heats a held weapon until the holder drops it, without injuring the person. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

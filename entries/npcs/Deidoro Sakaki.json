@@ -1,0 +1,35 @@
+{
+  "Deidoro Sakaki": {
+    "name": "Deidoro Sakaki",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 18,
+    "tier": "strong",
+    "voiceTag": "male deep accent",
+    "basicInfo": "Deidoro Sakaki, one of the Shie Hassaikai's Eight Bullets, Kai Chisaki's sworn enforcers: a loud, quick-tempered drinker whose Quirk throws nearby opponents off balance. Bony and muscular, long black hair, a plain mask, a shaggy vest; a sake bottle in hand.\nSpeaking Style: Energetic and quick to anger; his speech slurs while he drinks.\nCombat Role: Disruptor: leaves nearby opponents dizzy, so he and his allies can hit people who cannot stand straight.\nUnder Pressure: Gets louder and angrier, and drinks more.",
+    "hiddenInfo": "Contradiction: Loud and unsteady himself, he is most dangerous when others cannot keep their feet. Connections: Kai Chisaki (Overhaul), the head he serves; the other Eight Bullets. Knowledge: The tunnels and his orders; the plan only in outline. Thread: Whether an opponent can stay upright long enough to reach him.\nQUIRK: Sloshed. Leaves opponents near him dizzy and off balance; it touches balance, not minds.",
+    "personality": [
+      "Hot-tempered: Flares up fast and stays angry.",
+      "Restless: Loud and on the move even mid-fight.",
+      "Drinker: Drinks through a confrontation and slurs more as it goes.",
+      "Speaking style: Energetic, angry, slurred while he drinks."
+    ],
+    "abilities": [
+      "Sloshed: Leaves nearby opponents dizzy and off balance; it affects balance, not minds, and needs them close.",
+      "Brawling: Hits reeling opponents hard; against someone who keeps their footing he is an ordinary thug.",
+      "\nFighting style: Closes in, staggers the opponents nearby with Sloshed, and strikes while they reel."
+    ],
+    "visualDescription": "A bony but muscular man with long, straight black hair, narrow eyes and a flushed face, a plain dark mask over his nose and mouth. He wears a shaggy fur vest over a dark shirt and dark trousers, and carries a large ceramic sake bottle in one hand. A loud, quarrelsome, half-drunk expression, his eyes bright and unfocused.",
+    "detailType": "detailed",
+    "properName": "Deidoro Sakaki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dedd0418-84c1-45e9-a23d-8175cb963bcd.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_deidoro_sakaki",
+    "initialKnown": false
+  }
+}

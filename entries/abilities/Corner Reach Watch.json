@@ -1,0 +1,20 @@
+{
+  "Corner Reach Watch": {
+    "name": "Corner Reach Watch",
+    "description": "The user extends the creature around a corner or through an open doorway to look for people and report what it sees in its own voice. It can check several rooms within its connected reach while the user stays behind cover. A closed wall stops it, and sending it into an unlit room makes it stronger but harder to recall. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

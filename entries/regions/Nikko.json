@@ -1,0 +1,30 @@
+{
+  "Nikko": {
+    "name": "Nikko",
+    "basicInfo": "Nikko and the mountains around it, a cell of volcanic peaks, lakes and gorges in western Tochigi rising from the northern edge of the Kanto plain, with a corner of eastern Gunma on its western side. At the eastern foot, the town of Nikko holds the lacquer, gold and carved gates of Toshogu shrine, Rinnoji temple and Futarasan shrine in a forest of giant cedars, reached past the red Shinkyo bridge over the Daiya river; a long avenue of Edo-era cedars leads in from Imaichi. West of town the Irohazaka hairpin roads climb to Lake Chuzenji under the cone of Mount Nantai, where the Kegon falls drop nearly a hundred meters out of the lake; beyond lie the Senjogahara moor, the Yudaki falls and the sulfur springs of Yumoto, with Nikko-Shirane, the highest peak north of Kanto, on the Gunma line. North of Imaichi the Kinu river carves a gorge through the hot spring towns of Kinugawa and Kawaji, with an Edo-period theme town and a miniature world park nearby. In the southwest the old copper town of Ashio sits in its narrow valley, and Kanuma spreads over the plain in the southeast. Summers are cool and wet with afternoon thunder, autumn color comes early and works down from the lake, and winters bring snow in the mountains and frozen waterfalls. People live on tourism, inns and crafts, on rice, strawberries and buckwheat, and in Kanuma on timber, the light soil used for bonsai, and azaleas. Tobu limited expresses run from Asakusa to Nikko and Kinugawa in about two hours; from Tokyo the shinkansen to Utsunomiya and the JR Nikko line take a little under two; from Musutafu allow about three. A steam train runs the Kinugawa line, and the Nikko-Utsunomiya road brings the cars. Visitors tour the shrines, ride the ropeway at Akechidaira, boat on Chuzenji, eat yuba and shaved ice made from natural pond ice, and catch the thousand-samurai procession in spring or Kanuma's carved festival floats in October. A small hero agency in Nikko and sidekicks loaned from Utsunomiya keep the crowds moving, and a park ranger whose Quirk follows scent trails finds lost hikers on Nantai.",
+    "hiddenInfo": "Nikko lives and dies by tourists: weekends jam the Irohazaka roads, inns compete hard, and some of the older hot spring hotels in Kinugawa stand empty and decaying. Monkeys raid snack stands, and bears and deer roam the lake district; winter storms close the high roads. Real help is close in town but slow in the mountains, and Utsunomiya is about forty minutes away. Small villainy: pickpockets and offering-box thieves at the shrines, night racing on the hairpin roads, and squatters and vandals in the abandoned hotels.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 1,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e46e0eec-060d-4df3-bcb8-4bef9d40140b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

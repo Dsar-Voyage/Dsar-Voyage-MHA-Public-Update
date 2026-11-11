@@ -1,0 +1,15 @@
+{
+  "star_and_stripe_last_order": {
+    "title": "The Rule That Fights Back",
+    "beats": "On May 3, Star and Stripe approaches Japan over the Pacific with Ethan Drive and her trusted fighter squadron. Tomura Shigaraki intercepts them before they can join the Japanese heroes. At Yokohama Harbor District, the coastal response receives urgent communications; U.A. Academy awaits international assistance. The aerial combatants remain offshore. A shore participant needs an established flight or extraction route to reach them physically.\n\nThe canon default course, as pressure the player can change: Star combines New Order's limited simultaneous rules with the pilots' coordinated attacks. She can strengthen herself and impose conditions on touched targets, but her attempt to name Shigaraki fails against his unstable identity. The battle escalates through a vast atmospheric construct, concentrated lasers and incoming military missiles. He survives by exploiting the blast and closes on the squadron. Star refuses to sacrifice a trusted pilot merely to secure a final strike.\n\nKeep Star reachable through the live battle, warning and possible extraction until her death is established. By default, Shigaraki touches her, steals New Order and kills her through Decay. Her prepared final rule makes New Order revolt against the other Quirks inside him. It destroys itself while damaging his stockpile, so the enemy does not retain it as a permanent asset. The surviving pilots preserve combat data and report the damage, buying the heroes additional preparation time. A player can change the interception, rescue Star or preserve different evidence; resolve the Quirk's actual fate and resulting delay rather than granting both sides incompatible victories.\n\nBy Path: at Yokohama Harbor District, Licensed Sidekick and Licensed Pro Hero organize coastal response, Vigilante protects exposed communities and Civilian Life follows alerts or assists reception. League of Villains Recruit can support the enemy's recovery through existing contacts; Independent Villain can exploit the protection gap or interfere. At U.A. Academy, Class 1-A and Class 1-B prepare under alert, General Studies assists communications, Support analyzes supplied data, Management handles liaison and Faculty revises readiness. Remote aid remains useful without becoming an instant journey offshore. The pilots' detailed findings reach authorized planners, while the public receives confirmed casualty and assistance announcements.\n\nThe event is complete when the aerial battle ends and Star's survival or death, New Order's fate, the pilots' condition and the resulting preparation interval reach the relevant sides.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_star_and_stripe_last_order",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

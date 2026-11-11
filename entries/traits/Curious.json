@@ -1,0 +1,20 @@
+{
+  "Curious": {
+    "name": "Curious",
+    "description": "❓ You need to know how things work and what is behind the next door, including the doors marked off-limits.\n\n🔍 You follow leads others ignore and remember strange details.\n⚠️ You cannot leave a mystery alone: you poke into dangerous things and lose track of time and safety.\n🚪 The story puts locked doors in front of you; whether you open them is your choice.\n\n📈 Grants: Investigation +5",
+    "traitNarrativeEffects": "The character asks questions, reads whatever is lying around, takes things apart and goes to see for themselves. They follow leads others ignore and remember strange details. Weakness: they cannot leave a mystery alone. They poke into dangerous things, open doors marked off-limits, ask questions people do not want asked and lose track of time and safety. The narrator surfaces odd details and unexplained events for them and lets curiosity lead them into trouble as well as answers. The narrator puts the locked door in front of them; the player decides whether the character opens it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Investigation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

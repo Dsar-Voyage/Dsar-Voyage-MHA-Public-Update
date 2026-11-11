@@ -1,0 +1,30 @@
+{
+  "Toyama": {
+    "name": "Toyama",
+    "basicInfo": "The Toyama Plain and the Tateyama range above it, from Shinminato in Imizu east along the bay coast to Kurobe, and south and east up the steep rivers into the Northern Alps. The north edge of the region is the shore of Toyama Bay; behind it a flat green plain of rice and towns rises abruptly into mountains that top three thousand meters within forty kilometers of the sea, so the Jinzu, Joganji and Kurobe rivers rank among the steepest in Japan. Winters bring heavy snow and gray skies; summers are hot on the plain and cool above the tree line. Toyama city, a prefectural capital of about four hundred thousand, is a tidy, rebuilt city of trams, canals and the Fugan canal park, known for its centuries-old tradition of traveling medicine peddlers and a pharmaceutical industry that still employs much of the city, for glass art, and for trout sushi pressed in round boxes, white shrimp and black ramen. Shinminato has fishing canals and a tall sailing ship moored in a park; Namerikawa is famous for spring firefly squid that glow blue in the nets at night; Uozu has spring mirages and an ancient buried forest; Kurobe has spring water bubbling up across its river fan. Yatsuo, on the southern edge, hosts the Owara Kaze no Bon in early September, when dancers move silently through lantern-lit streets to the sound of a bowed fiddle. Up the mountains, the Tateyama Kurobe Alpine Route climbs by cable car and bus past Shomyo Falls, the highest waterfall in Japan, to Murodo, where spring snow walls tower over the road; the rock spire of Tsurugi-dake and the shrine on Tateyama's summit stand on the eastern edge, and the Kurobe Gorge Railway rattles from Unazuki Onsen up a deep canyon. The Hokuriku Shinkansen stops at Toyama and Kurobe-Unazukionsen; Toyama city is about two hours from Tokyo, three and a half from Musutafu and two and a half from Shin-Osaka, and the Hida limited express reaches Takayama in about ninety minutes. Toyama Airport has flights to Haneda. Several hero agencies work the city, and in season mountain rescue heroes and police rescuers are stationed at Murodo.",
+    "hiddenInfo": "The mountains kill more people than villains do: climbers slipping on Tsurugi-dake's chains, spring backcountry skiers, avalanches, rockfall and sudden summer storms on the ridges. Police rescuers and rescue heroes work from Murodo and Kamiichi; a call from the high peaks can take hours when helicopters are grounded. On the plain, trouble is ordinary: supplement fraud trading on the old medicine name, theft of scrap metal, fights in the city's bar streets, and firefly squid poaching.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -3,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/95f52285-9c14-439a-8f3d-2789c5268c28.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

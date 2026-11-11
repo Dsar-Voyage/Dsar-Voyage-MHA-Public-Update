@@ -1,0 +1,20 @@
+{
+  "Deadweight Anchor": {
+    "name": "Deadweight Anchor",
+    "description": "The user touches a person, a door or a vehicle and roots the target in place with weight until the end of the user's next turn. An anchored ally cannot be knocked down, thrown, pushed back or carried off by a blast, a current or a grab; an anchored door or barricade cannot be forced; an anchored enemy cannot take a step. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

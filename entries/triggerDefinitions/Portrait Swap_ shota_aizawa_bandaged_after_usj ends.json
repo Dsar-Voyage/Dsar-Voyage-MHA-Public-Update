@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: shota_aizawa_bandaged_after_usj ends": {
+    "name": "Portrait Swap: shota_aizawa_bandaged_after_usj ends",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_sports_festival",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Shota Aizawa",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/41ef449e-62ae-4042-992f-e4055588136a.png"
+      }
+    ]
+  }
+}

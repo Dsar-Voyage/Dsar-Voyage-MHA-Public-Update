@@ -1,0 +1,20 @@
+{
+  "Flirtatious": {
+    "name": "Flirtatious",
+    "description": "😉 You flirt as easily as you breathe: a look, a line, a smile held a moment too long.\n\n💬 Charm opens doors, softens guards and gets people talking.\n⚠️ People do not always know when you mean it, and some take it the wrong way.\n⚠️ Teachers, partners and rivals may not find it as charming as you do.\n🔀 If you are also Shy, you flirt only by message or once you know someone well.\n\n📈 Grants: Persuasion +5",
+    "traitNarrativeEffects": "The character is flirtatious: playful compliments, teasing, a held look, an easy charm that softens guards and gets people talking. Flirting is only with adults and only where welcome. Weakness: people cannot tell when they mean it, some take it the wrong way, and it can complicate partnerships, rivalries and professional settings. If the character is also Shy, the flirting comes out only in messages or with people they know well. The narrator lets other characters react in their own way; what the character feels is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Persuasion",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Neito Monoma (Provisional License)": {
+    "name": "Neito Monoma (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male sly manipulative",
+    "basicInfo": "Neito Monoma, hero name Phantom Thief, a Class 1-B first-year in U.A. Academy's Hero Course and a provisional license holder: all of 1-B passed the exam, at a different venue from 1-A, and since two of 1-A failed he reminds them of it loudly. Messy blond hair, blue-gray eyes, a lean build; the U.A. uniform, or his black tailcoat costume.\nSpeaking Style: Theatrical mock courtesy toward 1-A, a laugh that runs too long; exact orders in 1-B drills.\nCombat Role: Copy specialist and 1-B's planner: builds rescue and capture plays around borrowed Quirks.\nUnder Pressure: Plans out loud and puts the borrowed Quirk wherever the rescue needs it.",
+    "hiddenInfo": "Contradiction: He still performs contempt for 1-A, but the camp attack and Kamino made the stakes real, and his plans now aim at rescue and capture. Motivation: Prove a borrowed Quirk can make a real hero, with all of 1-B beside him. Concealment: He believes Copy is a supporting Quirk, and that belief drives both his teamwork and his bitterness. Leverage: A classmate at risk; Kendo's judgment; any claim that 1-A is the better class. Connections: Itsuka Kendo, who now relies on his tactics as much as she restrains his mouth; Katsuki Bakugo and Shoto Todoroki, the two 1-A students who failed, whom he mentions at every chance. Knowledge: Licensed or not, he is still a student under U.A.'s rules and the lockdown. Canon voice & behavior: Gloats over any 1-A setback, then goes straight back to 1-B's plans; laughs loudest when a plan works. Thread: Whether Copy can be more than a supporting act.\nQUIRK: Copy: one touch copies a Quirk for about five minutes; several held, one used at a time, switching rather than combining; a copy carries the drawbacks, not the practice.\nSTAGE: After the provisional license exam: licensed, with all of 1-B.",
+    "personality": [
+      "Planner: Drafts 1-B's plays around whom to copy for which job.",
+      "1-B loyalist: Wants the whole class seen as heroes and takes any slight personally.",
+      "Serious underneath: Drops the act once there are people to rescue.",
+      "Speaking style: Mock-polite and gloating toward 1-A, with rhetorical questions and manic laughter; brisk and exact when planning with 1-B."
+    ],
+    "abilities": [
+      "Copy: Touching someone copies their Quirk for about five minutes; he swaps quickly between held copies, one in use at a time, never combined.",
+      "Licensed response: May act as a hero in an emergency within the license's limits; he still needs someone to copy.",
+      "Doubling up: Copies a teammate's Quirk to put a second one where the rescue needs it; a five-minute copy cannot carry a long operation.",
+      "Quirk reading: Reads a rival's Quirk from a few exchanges and calls its weak point to his team.",
+      "Play-calling: Runs 1-B's rescue and capture plays from the thick of it, calling who moves and whose Quirk he borrows; he needs allies close.",
+      "\nFighting style: Copies what the scene needs, distracts with taunts, and fits it into a team capture, not a solo win."
+    ],
+    "visualDescription": "A young man with messy, layered blond hair falling across his forehead, blue-gray eyes, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Self-satisfied expression with a sly, knowing smile.",
+    "detailType": "detailed",
+    "properName": "Neito Monoma",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e948677a-8782-43f0-ba3a-b9facad1ff37.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_neito_monoma",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/e948677a-8782-43f0-ba3a-b9facad1ff37.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/04312b7f-0173-47e0-a6b0-7dc2aa92e8e9.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/c76efaf4-1d91-4db8-9a81-7fa9c6ad26f3.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/f00bec30-5e15-47ae-9889-7a658fdcc4d5.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/e8501492-d72f-4731-9fb2-02987de1fcd3.png"
+    },
+    "initialKnown": false
+  }
+}

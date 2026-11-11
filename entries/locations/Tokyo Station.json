@@ -1,0 +1,86 @@
+{
+  "Tokyo Station": {
+    "name": "Tokyo Station",
+    "basicInfo": "Japan's main rail hub: a red-brick station over a maze of underground concourses at the center of Greater Tokyo, run by the rail companies, with IC transit cards opening the gates. Shinkansen run southwest through Musutafu, the stop for U.A. Academy (about 100 km, 45 minutes), and on to Shin-Osaka, about two and a half hours out, and Hakata, and northwest to Deika and Jaku, about an hour and a half; express lines reach Hosu, 30 km north and half an hour away, and Kamino Ward and Yokohama to the southwest. Fukuoka is also a short flight from Tokyo. Subways reach every Tokyo agency within forty minutes, and the Commission Headquarters is about 3 km away. Rush hours run 7-9 a.m. and 5-8 p.m., when the concourses move like rivers; station police and patrolling heroes watch the gates, and pros on their way to joint operations pass through all day, Ryukyu, the Dragoon Hero, among the familiar faces. Underground there are shopping streets of boxed-meal stands, hero goods shops, ramen counters and banks of coin lockers; above ground, the brick facade faces a plaza and the towers of the business district. The gates stay open through service hours, and the last trains leave a little after midnight. Players can travel, meet contacts, buy boxed meals and hero goods, work kiosk shifts, or look for someone in the crowd. Departure melodies play on every platform, announcements repeat in four languages, and the smell of grilled eel and rice drifts up from the food halls.",
+    "hiddenInfo": "Coin lockers on the lower concourse are a known dead drop: brokers rent them by the day and pass keys through a bento stand that asks no questions, and the stand's night clerk keeps a private ledger of who collects which key, which would be worth a great deal to the police. Luggage has been vanishing from the shinkansen platforms for weeks, taken by someone whose Quirk keeps small objects from being noticed, and the short-staffed station police have asked local agencies for help; nobody has taken the job yet, because the case pays little and the credit would be small. The thefts cluster on the Musutafu-bound platforms during the evening rush, and the stolen bags turn up emptied in lockers two levels down, so whoever does it knows the locker trade. Ryukyu passes through often enough that station staff know her by sight; she is polite to everyone, between engagements more often than not, and the kind of pro who would hear out a young hero with a real lead. Station security has quietly doubled its patrols near the shinkansen gates since the Hero Killer's attacks in other cities, and the guards on the overnight shift are tired and easy to slip past.",
+    "x": 16.64,
+    "y": -11.26,
+    "radius": 1,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Marunouchi Concourse": {
+        "description": "The Marunouchi side is the Tokyo Station of postcards: a long red-brick facade trimmed in white stone, with a great domed hall at each end where travelers stop to photograph the plaster eagles and zodiac reliefs high overhead. Between the domes run ticket gates and departure boards; outside, the brick faces a broad plaza, a taxi pool and the glass towers of the business district. From seven to nine in the morning office workers pour out of the gates toward the towers, and from five to eight they pour back; between the rushes come tour groups, couples posing for wedding photos on the plaza and pros on their way to joint operations, Ryukyu among the familiar faces, polite to every fan who stops her. Station police and patrolling heroes watch the gates all day. Departure melodies and announcements in four languages echo up into the domes, and after the last trains, a little after midnight, the brick glows gold under floodlights over an empty plaza. Through the gates, transfer escalators climb toward the Tokyo Shinkansen Platforms, and a long passage under the tracks runs east to the Yaesu Underground Mall.",
+        "paths": [
+          "Yaesu Underground Mall",
+          "Tokyo Shinkansen Platforms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/324aa2af-128e-4312-ac6d-5da7babe6924.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Yaesu Underground Mall": {
+        "description": "East of the tracks the station sinks into a maze of low-ceilinged underground streets: a long shopping arcade, a corridor of rival ramen counters, hero goods shops with All Might figures in every window, boxed-meal stands stacked with grilled eel on rice, drugstores and cafes, and on the lower concourse long banks of coin lockers in every size. Commuters cut through at rush hour without slowing; office workers from the Yaesu and Nihonbashi towers fill the ramen lines from eleven, and in the evening salarymen buy boxed meals for the train home. Most shops pull their shutters down around ten, and after that the lockers and a small bento stand beside them keep the place lit; the stand holds parcels and keys for customers who ask, and its night clerk writes something in a notebook under the counter whenever one is collected. Attendants who clear overdue lockers sometimes find suitcases inside, emptied and abandoned. The air smells of broth and soy. Stairs climb to the Yaesu gates and the Tokyo Shinkansen Platforms, and passages lead back west to the Marunouchi Concourse.",
+        "paths": [
+          "Marunouchi Concourse",
+          "Tokyo Shinkansen Platforms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3db8765e-16a3-4d89-a410-099cae1d9ddf.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Tokyo Shinkansen Platforms": {
+        "description": "On the Yaesu side, long island platforms under steel canopies hold the bullet trains: white Tokaido trains with a blue stripe leave every few minutes for Musutafu, 45 minutes away, Shin-Osaka and Hakata, and across the way the northern lines' green and red trains run toward Deika and Jaku. Painted marks on the floor show where each door will stop, and travelers line up behind them in tidy rows. When a train terminates, a uniformed cleaning crew bows it in, turns every seat around and sweeps the whole train in about seven minutes. The first trains leave around six with business travelers half asleep; daytime brings tourists and school trips; Sunday evenings bring U.A. students heading back to Musutafu. In the evening rush the queues for the Musutafu trains are so tight that bags set down beside them are easy to lose track of, and station staff have posted new signs asking everyone to keep their luggage in hand, while guards walk the gates in pairs. Departure melodies chime, and the wind of an arriving train lifts every coat. Escalators lead down to the Marunouchi Concourse and the Yaesu Underground Mall.",
+        "paths": [
+          "Marunouchi Concourse",
+          "Yaesu Underground Mall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cb7262f5-cc61-43d9-82fc-ebfafd51a263.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ce6692a1-e8df-46b4-bd7f-280b3b39c9a6.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

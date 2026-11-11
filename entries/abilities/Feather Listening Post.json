@@ -1,0 +1,20 @@
+{
+  "Feather Listening Post": {
+    "name": "Feather Listening Post",
+    "description": "The user settles three feathers beside a doorway within thirty meters and reads vibrations from footsteps and nearby speech until the end of the user's next turn. The user learns whether someone approaches and catches audible words, but gains no sight; loud machinery masks the signal and deployed feathers reduce lift. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

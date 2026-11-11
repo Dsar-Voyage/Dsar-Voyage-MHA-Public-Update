@@ -1,0 +1,15 @@
+{
+  "b1_joint_sparring": {
+    "title": "Joint Sparring Day",
+    "beats": "A weekday afternoon in late spring at U.A. Academy. Vlad King has talked Shota Aizawa into a combined sparring block in the Main Gymnasium: not a graded exercise, only pairs from Class 1-A and Class 1-B on taped squares, a whistle, and Vlad King's insistence that his class is ready. Aizawa agreed because fighting unfamiliar Quirks is rational, and his tone says nothing else about it pleases him. If the drills move outdoors, the second half runs in the Mock City Streets of Ground Beta.\n\nDefault course, as pressure the player can change: the teachers call the pairs. Tetsutetsu Tetsutetsu and Eijiro Kirishima get each other again and charge before the whistle ends, steel against hardened skin, until both are winded and grinning; the crowd wants a winner and gets none. Itsuka Kendo draws Momo Yaoyorozu, who creates a net, a staff and then a plan; Kendo reads the plan instead of the tools, and the bout turns into a slow, careful contest of who adapts first. Neito Monoma touches three people on the way to his square and narrates every copy. He asks Katsuki Bakugo for a bout, Bakugo's answer is loud, and Aizawa's eyes glow red before an explosion leaves a palm. Ibara Shiozaki prays before her match and binds her opponent with an apology.\n\nThe rules hold: a bout stops at a call or a tap, nobody strikes a downed partner, and Aizawa erases anyone who forgets. Vlad King keeps a running tally on a whiteboard he never mentioned to Aizawa.\n\nBy path: a 1-B party is paired with a 1-A student and can win, lose well or learn the other class's habits. A 1-A party gets a 1-B opponent whose Quirk it has seen only on the Sports Festival broadcast, and Monoma will try to touch it before the whistle. Either side can turn a grudge bout into respect, or into a scene the teachers end early.\n\nThe event is complete when the last pairs bow out and the two teachers compare notes, or the party leaves.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_joint_sparring",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

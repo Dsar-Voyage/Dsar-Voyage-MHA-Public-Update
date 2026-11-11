@@ -1,0 +1,15 @@
+{
+  "pro_rent_day": {
+    "title": "Rent Day",
+    "beats": "Mid-April, in the days after the League of Villains' attack on the USJ made national news. The scene reaches the party wherever it is: the agency phone rings with the office manager on the line, or three envelopes wait on the front desk. The landlord wants to discuss the month's rent and a clause about damage to the shared garage; the accountant needs signatures for payroll and warns that the liability insurer has raised its premium since the USJ attack; and a sponsor's representative, a local business paying for a logo on the costume, has booked the quarterly check-in and wants photos, patrol numbers and a word about any complaints.\n\nThe default course, as pressure the player can change: all three meetings land on the same afternoon, an hour apart, and dispatch calls a fight near the station between the second and the third. The party can hold each meeting, move one, send someone, bargain, or take the call and let the paperwork wait. Money moves only through what is agreed: a late payment brings a written notice and a fee, never an eviction this week; a sponsor who gets no photos cuts the next payment; an honest account of a complaint keeps a sponsor more often than a dodge does.\n\nAn agency head sits across the table from all three and decides who gets paid first. A sidekick works for someone: the boss is tied up and sends the sidekick to the sponsor in costume to smile and answer for the patrol numbers, or the sidekick's pay arrives a day late with an apology from the office manager, and the sidekick decides whether to raise it. On Hero Agency Row the Ready Room trades bills: Mount Lady calls her damage bills a marketing cost, and Gunhead, down the hall, quietly names an insurer who treats small agencies fairly. At a Tokyo agency the rent is higher and the sponsor wants the logo on camera under the giant screens.\n\nThe event is complete when the three meetings are held, moved or skipped and the agency's money for the month is settled one way or another.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_rent_day",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

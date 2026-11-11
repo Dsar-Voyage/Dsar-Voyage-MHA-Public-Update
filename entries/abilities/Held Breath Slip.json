@@ -1,0 +1,20 @@
+{
+  "Held Breath Slip": {
+    "name": "Held Breath Slip",
+    "description": "The user phases the part of their body a visible punch, blade or projectile would hit, allowing that single attack to pass through. The user turns solid again by the end of their next turn. They must see or anticipate the line of attack, and a phased hand cannot grab or counter until it becomes solid. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

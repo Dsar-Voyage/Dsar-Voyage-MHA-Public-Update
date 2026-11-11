@@ -1,0 +1,20 @@
+{
+  "Straight Through": {
+    "name": "Straight Through",
+    "description": "The user runs in a straight line with a hand out, and every wall, door, fence or floor in the way crumbles into a doorway-sized hole a moment before they reach it. They cross a building or a block of alleys without going around anything, or drop through floors to the level below, and others can follow through the holes; the decay never touches anyone on the other side. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Collapse Point": {
+    "name": "Collapse Point",
+    "description": "The user's signature move: they ring an area the size of a street corner with linked gates, fold the space inside, pass their allies out to its edge, then let every gate slam shut at once. The snapping space deals massive force damage to every enemy inside and throws them down, unable to act until the end of their next turn; afterward the user cannot open a gate until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

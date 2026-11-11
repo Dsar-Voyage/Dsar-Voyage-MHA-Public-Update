@@ -1,0 +1,15 @@
+{
+  "Crossfire Corridor": {
+    "name": "Crossfire Corridor",
+    "description": "The user times a crowd's movement to the fight around it, holding people behind cover and sending them through during each lull in the attacks. Bystanders cross or leave an active battle zone without any of them being hit by stray attacks or falling debris, as long as the user stays with them and does nothing else. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Evacuation",
+        "amount": 12
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 3
+  }
+}

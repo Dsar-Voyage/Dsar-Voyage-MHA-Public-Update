@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: izuku_midoriya_raid_injury": {
+    "name": "Portrait Swap: izuku_midoriya_raid_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_shie_hassaikai_raid",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4d2d250-22df-42b1-aff0-368d5569a588.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4d2d250-22df-42b1-aff0-368d5569a588.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4d2d250-22df-42b1-aff0-368d5569a588.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4d2d250-22df-42b1-aff0-368d5569a588.png"
+      }
+    ]
+  }
+}

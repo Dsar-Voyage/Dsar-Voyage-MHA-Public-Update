@@ -1,0 +1,32 @@
+{
+  "Gifted: Density": {
+    "name": "Gifted: Density",
+    "description": "🧬 Density, as an extra Quirk put into your body.\n\n🌱 Turn heavy in an instant so nothing can shove you, and put your full weight behind a blow.\n📈 Training adds drifting down from rooftops, pinning a target, walking a flooded street's bottom, anchoring a sliding car, dropping from the sky and facing a runaway truck.\n⚠️ Heavy, you are slow and sink through weak floors; light, a gust carries you off and your blows have no weight. Clothes and gear keep their own weight.\n🔗 Common drawback pairing: Bodily Toll, as heavy shifts grind your joints and light ones leave you dizzy.\n🎬 Similar canon Quirks: none close.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Density family): Scale: body density shifts in about a second, size and shape kept: at first heavy to about five times their weight (a large motorbike) or light to about a fifth (leaps to a second-floor window, falls several stories unhurt), for about a minute. Car weight, drifting, gliding: learned techniques. Limits: heavy or light, never both or uneven; clothes, gear and anyone carried keep their weight. Heavy: walking pace, no jumps or swims, sinks, breaks wood floors, car roofs; shoves, tackles, blasts and wind cannot budge them; blades, bullets, heat and electricity still hurt. Light: gusts carry them off, blows lack weight, solid hits fling them. Quirk Strain: light: brace, weighted blow; moderate: slow descent, pin, underwater walk; heavy: counterweight, sky drop; severe: signature blow, truck weight. Type: Transformation. Law: unlicensed pinning under their weight is assault; floors or roofs they break are their property damage.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Grappling",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

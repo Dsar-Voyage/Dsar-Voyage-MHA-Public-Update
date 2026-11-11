@@ -1,0 +1,22 @@
+{
+  "Quest Offer: dispatcher 4": {
+    "name": "Quest Offer: dispatcher 4",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){/*storage_pack:v1:[true,[[765,27],[792,3]]]*/const __pr=[[765,27],[792,3]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"wrapped\",[[765,30,1,true]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));const __HT0=[];for(let n=765;n<795;n++){const v=__hv(n);if(v!==undefined)__HT0.push(__hc(v));}if(!(__HT0.length)){skip=true;return;}const E=__HT0;const d=check({type:'read-number',key:'currentDay'})||1;let TR=null,PL=null,QC=null;function ok(c){const k=c[0];if(k==='n'){const v=c[1]==='currentDay'?d:(typeof storage[c[1]]==='number'?storage[c[1]]:0);return c[2]==='greaterThanOrEqual'?v>=c[3]:c[2]==='lessThanOrEqual'?v<=c[3]:c[2]==='greaterThan'?v>c[3]:c[2]==='lessThan'?v<c[3]:c[2]==='equals'?v===c[3]:v!==c[3];}if(k==='b')return (storage[c[1]]===true)===c[2];if(k==='t'){if(TR===null)TR=JSON.stringify(check({type:'player-traits'})||{});return TR.indexOf(JSON.stringify(c[1]))>=0;}if(k==='l'){if(PL===null)PL=check({type:'party-location'})||'';return PL===c[1];}if(k==='c'){if(QC===null)QC=check({type:'quests-completed'})||[];const has=QC.indexOf(c[2])>=0;return c[1]==='contains'?has:!has;}return check({type:'quest-status',questId:c[1],operator:'equals',value:c[2]})===true;}for(const [nm,re,C,ef] of E){if(effects.length>=8)break;if(!C.filter(c=>c[0]!=='q').every(ok)||!C.filter(c=>c[0]==='q').every(ok))continue;if(re){const K='reoffer_'+nm,R=storage[K];if(!R){storage[K]=[0,d];continue;}if(R[0]>=2||d<R[1]+3)continue;storage[K]=[R[0]+1,d];}effects.push({type:ef,operator:'set',value:nm});}if(!effects.length)skip=true;})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 368
+      }
+    ]
+  }
+}

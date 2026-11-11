@@ -1,0 +1,22 @@
+{
+  "Items: one Second hero costume": {
+    "name": "Items: one Second hero costume",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Second hero costume",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Second hero costume",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "When the Heroes Fight": {
+    "name": "When the Heroes Fight",
+    "questSource": "Inko Midoriya",
+    "questStatement": "Since the night at Kamino, the city has not slept well. Musutafu General Hospital is short of hands: blood drives, families waiting for news, donations piling up in the halls. Inko Midoriya, whose son is a U.A. student, has been helping out in the family waiting room because she cannot bear to sit at home with the news on, and she has asked everyone she knows to pitch in. The work is small. The fear is not.",
+    "mainObjective": "Volunteer at Musutafu General Hospital and help your neighbors through the weeks after Kamino.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has put in real volunteer time at Musutafu General Hospital and has helped at least one frightened person, Inko Midoriya or a neighbor, through the aftermath."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu General Hospital",
+    "questDesignBrief": "A quiet, human quest about fear after a national shock. Inko Midoriya is warm, anxious and quick to tears; she talks about her son Izuku, the U.A. lockdown and whether he should stay a hero student, and the PC can listen, comfort or argue. Staff, patients and neighbors are generated people: a nurse on her third double shift, a man who lost his shop at Kamino, a frightened child who needs a story. Unless the story has established otherwise, All Might is retired, U.A. is locked down, and people talk about little else. Failure: the PC burns out or says the wrong thing; no villain attack comes.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

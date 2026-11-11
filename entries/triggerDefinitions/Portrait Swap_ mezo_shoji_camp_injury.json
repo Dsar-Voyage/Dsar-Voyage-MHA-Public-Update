@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: mezo_shoji_camp_injury": {
+    "name": "Portrait Swap: mezo_shoji_camp_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_forest_camp_raid",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2c8fae4e-24a7-45c1-ad27-edc2b9aef6ef.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2c8fae4e-24a7-45c1-ad27-edc2b9aef6ef.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2c8fae4e-24a7-45c1-ad27-edc2b9aef6ef.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2c8fae4e-24a7-45c1-ad27-edc2b9aef6ef.png"
+      }
+    ]
+  }
+}

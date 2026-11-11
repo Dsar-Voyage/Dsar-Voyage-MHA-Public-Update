@@ -1,0 +1,28 @@
+{
+  "Mechanics: level floor stage 2": {
+    "name": "Mechanics: level floor stage 2",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      },
+      {
+        "type": "player-level",
+        "operator": "lessThan",
+        "value": 14
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 14,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Replay Study": {
+    "name": "Replay Study",
+    "description": "Before a match, an exam or a confrontation, the user studies footage, broadcasts and notes on a rival's past fights. The user knows every technique the rival has shown on camera, its reach and its tell, and the first time the rival starts one of them in their next clash, the user acts before it lands. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. General Studies",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Academics",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

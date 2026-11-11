@@ -1,0 +1,43 @@
+{
+  "Eclipse Quirk": {
+    "name": "Eclipse Quirk",
+    "description": "🌗 You make real light and shape real shadow, and each one feeds the other.\n\n🧬 A Fusion Quirk of Light and Shadow Manipulation: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you fire a ten-meter beam that stretches its target's shadow, and bind someone about five meters away in glow-edged shadow bands.\n📈 With training: shadow-edged cutting rays, five-meter steps between shadows, a flare that pins every foe's shadow, a strobe that blacks out a room, a total eclipse over a street.\n⚠️ Mirrors bounce your light, smoke scatters it and cover stops it.\n🔗 Common drawback pairing: Sensory Overload, as your own strobes leave spots in your vision.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Infiltration +5\n⚡ Starting techniques: Corona Ray, Sundial Snare\n🛡️ Resists: light",
+    "traitNarrativeEffects": "Scale: real light (hands or chest) and real cast shadow as material. New adult user: a searing beam about 10 m, a small-group dazzle; within 5 m, shadow raised into bands that bind unhurt and steps between shoulder-wide shadows. Limits: mirrors bounce light, smoke scatters it, cover stops it; floodlights thin shadows not from own light. Quirk Strain: light: beam, bind; moderate: cutting ray, shadow step, flare pin; heavy: strobe blackout, searing beam; severe: signature street eclipse, room sanctuary. Fusion: Light + Shadow Manipulation at half each's range and brightness; lacks district floods, block-long beams, block-wide shadow control; only it casts hard shadows in bright rooms, swallows glare, strobes both. Type: Emitter. Law: unlicensed eye-beams or shadow binds: assault or unlawful restraint. Look: own shadow shrinks.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Infiltration",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Corona Ray",
+      "Sundial Snare"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "light"
+    ]
+  }
+}

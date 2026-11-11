@@ -1,0 +1,35 @@
+{
+  "Rock Lock": {
+    "name": "Rock Lock",
+    "type": "Pro Hero",
+    "currentLocation": "Kamino Ward",
+    "currentArea": "Shopping Street",
+    "gender": "male",
+    "faction": "",
+    "level": 20,
+    "tier": "strong",
+    "voiceTag": "male deep accent",
+    "basicInfo": "Rock Lock (Ken Takagi), a pro hero whose Quirk locks any nonliving thing he touches in place. Short coiled afro, padlock earrings; a yellow eye mask, a dark-green and yellow keyhole-motif suit, a red cord with three keys.\nSpeaking Style: Blunt and grounded; asks aloud what happens when the plan fails.\nCombat Role: Control: seals routes and braces collapses; living bodies cannot be locked.\nUnder Pressure: Holds the structure and stays until others are clear.",
+    "hiddenInfo": "Contradiction: He sounds dismissive of green heroes, but the objection is protective: he would rather be called rude than carry someone out. Motivation: Bring everyone home, civilians first. Leverage: Proof that a student can handle the risk. Canon voice & behavior: Objects first and loudest in a briefing, then carries out the plan fully; admits briefly when proved wrong.\nQUIRK: Fixes a touched nonliving object in its current position; locked material can still break.",
+    "personality": [
+      "Protective: Gets between people and a collapsing structure.",
+      "Skeptical: Questions why students are near danger, even capable ones.",
+      "Fair: Admits it plainly when someone he doubted does well.",
+      "Speaking style: Blunt objections, real concern under them."
+    ],
+    "abilities": [
+      "Lock: Fixes a door, slab or car in place to seal a route or brace a collapse; locked material can still break.",
+      "Footing: Locks loose debris into steps so allies can cross unstable ground.",
+      "\nFighting style: Locks obstacles to cut off escape and shield allies, then holds his position."
+    ],
+    "visualDescription": "A man with a short, coiled black afro, a yellow eye mask, padlock-shaped earrings and a medium build; his fingertips end in small key shapes. He wears his hero costume: a dark-green and yellow short-sleeved suit with a keyhole motif, and a red cord strung with three keys across his chest. Blunt, skeptical expression.",
+    "detailType": "detailed",
+    "properName": "Rock Lock",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a8b26adf-3a8c-4bd8-8cf4-98155bcea590.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_rock_lock",
+    "initialKnown": true
+  }
+}

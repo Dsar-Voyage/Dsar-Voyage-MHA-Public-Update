@@ -1,0 +1,15 @@
+{
+  "No-Trace Pick": {
+    "name": "No-Trace Pick",
+    "description": "The user opens a mechanical lock, a padlock or a simple keycard reader with picks, a shim or a cloned card, and relocks it the same way on the way out. The door opens without damage or alarm, and nothing shows that anyone passed through unless someone takes the lock apart. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Infiltration",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

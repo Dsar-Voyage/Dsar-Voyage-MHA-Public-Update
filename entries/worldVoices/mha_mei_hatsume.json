@@ -1,0 +1,15 @@
+{
+  "mha_mei_hatsume": {
+    "label": "Mei Hatsume",
+    "voiceTag": "female melodic bright",
+    "instructions": "A young woman's loud, brassy, bright voice at full speed: rapid tech jargon, sales-pitch enthusiasm and constant exclamations, with a pleased, throaty \"Fufufu\". Self-assured and relentlessly upbeat. Never shy.",
+    "speed": 1.13,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

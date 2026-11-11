@@ -1,0 +1,15 @@
+{
+  "b1_festival_rivalry": {
+    "title": "The Cultural Festival Rivalry",
+    "beats": "The days before the School Festival at U.A. Academy. Class 1-B rehearses its stage play, \"Romeo and Juliet and the Prisoner of Azkaban: The Return of the King,\" in costume on the Main Gymnasium stage: a tragedy, a prison break and a coronation folded into one script, which Neito Monoma insists will crush Class 1-A's band.\n\nThe cast in costume: Monoma as Romeo, in a doublet and cape; Yui Kodai as Juliet, in a long gown, who also uses her Quirk to grow and shrink the props between scenes; Tetsutetsu Tetsutetsu as Count Paris, the hooded villain whose last-act secret is that he is Romeo's father; Nirengeki Shoda and Yosetsu Awase as Romeo's men, whom Romeo shields in the tower duel. Itsuka Kendo keeps the rehearsal on schedule from the wings in her uniform, and the rest of the class runs the lights, the sets and the effects.\n\nDefault course, as pressure the player can change: the rehearsal runs long. Monoma will not cut a line of Romeo's monologues, though the festival gives each class a strict time slot. Tetsutetsu keeps throwing back his hood before the reveal. Kodai's prop changes are perfect and silent, and nobody thanks her. Drums from Class 1-A's band practice carry across campus, and Monoma counts every missed beat aloud. Kendo wants one clean run before dark.\n\nThe party can take a small part, help backstage, cut the script, mend a costume, calm Monoma or fire him up, or help Kendo get a full run inside the time limit. A party at the Class 1-B Dorm Lounge finds the costume team sewing late into the evening.\n\nThe event is complete when the cast finishes one full run within the time slot, or the party leaves.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_festival_rivalry",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Rope Guided Crossing": {
+    "name": "Rope Guided Crossing",
+    "description": "The user touches their own body with all five pads and floats, then pulls along an already secured rope to cross a fifteen-meter gap this turn. The user releases only above a safe landing. This requires a rope and an anchor that holds their weight when gravity returns; self-floating causes nausea, and the Quirk supplies no thrust if the rope slips. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: all_might_armored ends": {
+    "name": "Portrait Swap: all_might_armored ends",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "All Might (Retired)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/6c7c63e1-19b1-4a65-beb4-862fa2dc2d3b.png"
+      }
+    ]
+  }
+}

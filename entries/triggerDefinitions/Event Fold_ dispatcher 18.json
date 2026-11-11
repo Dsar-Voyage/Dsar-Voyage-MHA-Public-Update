@@ -1,0 +1,23 @@
+{
+  "Event Fold: dispatcher 18": {
+    "name": "Event Fold: dispatcher 18",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 451
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_someone_takes_the_childs_hand",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "phase": "state",
+    "script": "(function(){const R=[[1,\"someone_takes_the_childs_hand\",\"This Time, Someone Stops\",451,\"ochaco_after_toga\",[1,null,0,[[\"b\",\"done_someone_takes_the_childs_hand\",true]],1,\"Off-screen, neighbors in Musutafu Station District stop to help an abused child instead of waiting for a hero to notice. Qualified care receives him through an escorted handover, and follow-up begins. Reports describe a civilian act of protection without publishing his name, address, medical details, or history. Narrator only, background the player does not know: the elderly woman's decision answers her memory of passing Tenko years earlier. Koki Terumoto remains a child needing stable care, not a newly defeated villain.\"],false,null]];const d=check({type:'read-number',key:'currentDay'}),b=check({type:'read-number',key:'currentBandIndex'});const yes=k=>check({type:'read-boolean',key:k})===true;let tr,loc,ua,tk;function tR(){if(tr===undefined)tr=JSON.stringify(check({type:'player-traits'})||'');return tr;}function lC(){if(loc===undefined)loc=check({type:'party-location'})||'';return loc;}function audience(a){if(ua===undefined)ua=!yes('offCampus')&&/\"U\\.A\\. /.test(tR());return (ua&&(a[0]===null||new RegExp(a[0]).test(tR())))||(!!a[1]&&new RegExp(a[1]).test(tR()));}function story(s){return {type:'story',instruction:s};}function unpack(E){return E.map(e=>e[0]==='s'?story(e[1]):e[0]==='e'?{type:'narrative-event-start',eventId:e[1]}:{type:e[0]==='b'?'write-boolean':'write-number',key:e[1],operator:'set',value:e[2]});}function lN(t){if(t.startsWith('The '))t='t'+t.slice(1);return 'Narrator only: '+t+' is over; the player was there. Continue from what the story showed, and let anything it left open resolve by canon default in the aftermath, never as a news report of events the player saw.';}function sN(t){return 'Narrator only: '+t+' happens today and the player is part of it as the event describes. Wherever they are (a hospital bed, home, across town), bring them into it this morning: a teacher calls them in, Recovery Girl or the doctors clear them, the class collects them. Never skip it or report it as news.';}for(const r of R){const [kind,id,title,day,pre,x]=r,k='ef_'+(kind?'n_':'s_')+id;if(!(d>=day)||yes(k)||yes('done_'+id)||(pre&&!yes('done_'+pre)))continue;let E;if(!kind){const [lo,hi,v,S,a,note,ef]=x;if(yes('live_'+id)||(lo!==null&&!(b>=lo))||(hi!==null&&!(b<=hi)))continue;let off=false;if(v){const l=lC();off=S.indexOf(l)<0;if(v===1&&off)continue;if(v===2){const aud=audience(a);if(ua&&!aud&&(off||l==='U.A. Academy'))continue;if(off&&!aud)continue;}if(v===3&&off&&!new RegExp(a).test(tR()))continue;}E=unpack(ef);E.push({type:'write-string',key:'ev_lazy_event',operator:'set',value:id});if(off&&note)E.unshift(story(note===1?sN(title):note));}else{const [grace,a,extra,ef,live,news]=x;if(check({type:'narrative-event-status',eventId:id})==='active')continue;const K='due_'+id,nd=d||1;if(storage[K]===undefined)storage[K]=Math.max(day,nd+grace);if(nd<storage[K])continue;const lv=yes('live_'+id);if(a!==null&&audience(a)&&!lv){if(tk===undefined)tk=check({type:'game-tick'})||0;const sa=(typeof storage.skipTick==='number'&&tk-storage.skipTick<=3)||(typeof storage.skipAsk==='number'&&tk-storage.skipAsk<=3);if(!sa&&nd<storage[K]+extra)continue;}E=unpack(ef);E.push(story(lv?(live===1?lN(title):live):news));}if(effects.length+E.length+1>10)break;effects.push(...E,{type:'write-boolean',key:k,operator:'set',value:true});}if(!effects.length)skip=true;})();"
+  }
+}

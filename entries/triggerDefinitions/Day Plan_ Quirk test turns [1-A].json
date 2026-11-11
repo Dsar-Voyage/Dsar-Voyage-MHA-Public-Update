@@ -1,0 +1,35 @@
+{
+  "Day Plan: Quirk test turns [1-A]": {
+    "name": "Day Plan: Quirk test turns [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Athletics Field"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): while Aizawa's Quirk assessment is still running, play it event by event, never all eight at once. Each turn covers at most the current event: Aizawa names it, a few classmates go first with their results, then the PC steps up and the turn ends there so the player decides how to attempt it. The PC's result comes only from what the player does and how it goes; never decide or announce the PC's time, score or distance in advance. After the eighth event Aizawa posts the ranking. The day then goes on in play: the class changes back and returns to Class 1-A for the afternoon's homeroom guidance, then free time and the evening at Heights Alliance; never close the day or jump to the next morning unless the player sleeps or skips."
+      }
+    ]
+  }
+}

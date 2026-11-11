@@ -1,0 +1,22 @@
+{
+  "Items: one Noise-filtering earpieces": {
+    "name": "Items: one Noise-filtering earpieces",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Noise-filtering earpieces",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Noise-filtering earpieces",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

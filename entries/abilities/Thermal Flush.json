@@ -1,0 +1,20 @@
+{
+  "Thermal Flush": {
+    "name": "Thermal Flush",
+    "description": "The user releases a shin-deep surge of steaming water across a room, half the volume of a Water Quirk wave. Everyone in its path takes bludgeoning damage and slips off their feet on the wet floor; held back, the warm water rolls out gently to thaw ice or wash spilled fuel aside without knocking anyone down. The user must vent a cloud of steam afterward or feel the heat linger in their chest. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

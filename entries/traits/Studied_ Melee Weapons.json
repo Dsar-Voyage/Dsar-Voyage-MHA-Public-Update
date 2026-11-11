@@ -1,0 +1,20 @@
+{
+  "Studied: Melee Weapons": {
+    "name": "Studied: Melee Weapons",
+    "description": "🎋 You trained with a hand weapon: kendo, the staff, stick fighting or a security guard's baton course.\n\n🌱 Distance, guards, strikes and disarms. You can pick up an improvised club and use it with control.\n⚠️ Live blades, chain weapons and close fights against armed opponents still put everyone at risk, you included.\n⚖️ Carrying a blade, baton or knife in public without good reason is illegal, and a real sword needs registration and stays at home.\n🏫 It shows in a hand that judges distance, a dojo's courtesy and an eye for what nearby could serve as a weapon.\n\n📈 Grants: Melee Weapons +15",
+    "traitNarrativeEffects": "The character has trained with hand weapons: the bamboo sword, the staff, sticks or a baton, with distance, guards, strikes and disarms. They can pick up an improvised club and use it with control. Prior study, not mastery: live blades, chain weapons and close fights against armed opponents still put everyone at risk, them included. Not a license: carrying a blade, baton or knife in public without a legitimate reason is illegal, and a real sword needs registration and stays at home. It shows in a hand that judges distance, a dojo's courtesy and an eye for what nearby could serve as a weapon.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Melee Weapons",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

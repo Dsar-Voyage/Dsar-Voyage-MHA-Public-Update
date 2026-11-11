@@ -1,0 +1,20 @@
+{
+  "Lightless Errand": {
+    "name": "Lightless Errand",
+    "description": "The shadow thins into a ribbon and slips under doors, through vents and along dark corners as far as a whole floor away while the user stays still. It sees in the dark, whispers back what it finds and can flip a latch or carry a phone to someone trapped; a light or a blow sends it snapping back to the user. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

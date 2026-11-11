@@ -1,0 +1,17 @@
+{
+  "Turf in the Back Alleys": {
+    "name": "Turf in the Back Alleys",
+    "questSource": "Sansa Tamakawa",
+    "questStatement": "Two crews are fighting over the Back Alleys behind Musutafu Station: an old protection outfit that has taxed the bars for years, and a new crew with flashier Quirks and more cash. Bottles have been thrown and a noodle counter burned. Officer Sansa Tamakawa has started asking questions at the Convenience Store Corner, and the police are watching both crews. Whoever settles this lane, by taking it, breaking it up or turning one side in, decides who is safe here.",
+    "mainObjective": "Settle the turf war in the station's Back Alleys on your own terms, before the police settle it for everyone.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The fight over the station's Back Alleys has ended because of the PC, with one crew in control, both broken up or their leaders in police hands."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Station District",
+    "questDesignBrief": "Street politics for two paths. An independent villain can join a side, play both or take the lane; a vigilante protects the bar owners and breaks up the crews, and never works for either. Both crews are generated people with simple wants: money, pride, a corner. Sansa Tamakawa is courteous and procedural and writes everything down; he calls in pros such as Death Arms or Kamui Woods if Quirks fly. Talk of an outside broker hiring muscle stays rumor and foreshadows no canon event. Failure: a bystander gets hurt, the police sweep the lane, and the PC's description goes into a file.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

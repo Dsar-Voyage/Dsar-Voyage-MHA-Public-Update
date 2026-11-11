@@ -1,0 +1,15 @@
+{
+  "Refuse to Fall": {
+    "name": "Refuse to Fall",
+    "description": "When an injury or exhaustion would drop the user, they lock their legs, grit through it and refuse to go down. The user stays conscious and able to act through the end of their next action, then collapses unless they have been healed or stabilized by then. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

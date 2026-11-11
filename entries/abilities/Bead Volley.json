@@ -1,0 +1,20 @@
+{
+  "Bead Volley": {
+    "name": "Bead Volley",
+    "description": "The user flicks a handful of hard glass beads at a target within a stone's throw. They deal bludgeoning damage and knock the target back a step; held back, they only sting, and the beads scattered underfoot make anyone running across that patch slip and fall until they are swept away. Beads thrown at a raised riot shield or worn armor do nothing. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

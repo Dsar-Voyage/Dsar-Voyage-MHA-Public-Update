@@ -1,0 +1,29 @@
+{
+  "Braced Passage Exchange": {
+    "name": "Braced Passage Exchange",
+    "description": "The user keeps a hand on a damaged concrete building and alternates precise reshaping between support columns and an adjacent evacuation passage within thirty meters for three turns. The user transfers weight onto new braces before moving the next slab, opening a route to survivors whose positions rescuers already confirm. The user cannot sense hidden people, move reinforcement or exceed available material, and a mistaken load estimate can still cause collapse. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

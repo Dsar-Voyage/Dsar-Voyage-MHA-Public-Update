@@ -1,0 +1,20 @@
+{
+  "Sundial Snare": {
+    "name": "Sundial Snare",
+    "description": "The user lifts the shadow under a target within about five meters, half a pure shadow user's reach, into flat black bands edged with a pale glow that wrap the ankles or wrists without hurting. The target cannot walk away or swing the held arm until they break free with a hard effort, a strong light hits the bands or the end of the user's next turn. In shadowless light the bands cannot form. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

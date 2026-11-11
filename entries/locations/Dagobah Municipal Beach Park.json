@@ -1,0 +1,86 @@
+{
+  "Dagobah Municipal Beach Park": {
+    "name": "Dagobah Municipal Beach Park",
+    "basicInfo": "A public beach and seawall park on Suruga Bay at Musutafu's southwest edge, about 5 km southwest of the station by local bus; Kiyashi Shopping Mall is about 3 km inland and Musutafu General Hospital about 3 km to the north. Mount Fuji rises to the north-northwest on clear days, and the Izu Peninsula's hills stand across the water to the south. For years it was an illegal dumping ground: the tide carried trash in, and people left broken appliances, scrap metal and even cars. Over ten months a young man cleared it by hand, running here every day, often before dawn, and hauling out the junk piece by piece until the sand showed again; the city has since reopened it. The parks department runs it with one part-time warden. The park is public and never closes, though the restrooms are locked at night and there is no lifeguard. Dawn brings joggers, dog walkers and anglers on the seawall; families and students come on weekends; evenings belong to couples and runners. Public Quirk use is banned here as anywhere else, and a sign by the steps says so in large letters. A player can train on the sand, fish, meet someone away from the city, or rest after a bad week. Waves slap against the concrete wave-breakers, gulls call overhead, and the air smells of salt and seaweed. Older residents still call it the dump out of habit, and then look at the clean sand and correct themselves.",
+    "hiddenInfo": "Regulars know the young man who cleared the beach was Izuku Midoriya, now a U.A. first-year, who ran here every day from his mother's apartment about 6.5 km east; he never told anyone why he did it, and the anglers who watched him drag a refrigerator across the sand still argue about whether he was training, punishing himself or just strange. Dumping has started again: a few nights a week, a small truck backs up to the west end and leaves bags of construction waste and old appliances. It comes after midnight on weeknights, lights off for the last stretch, and the driver works fast and alone. The warden suspects a renovation contractor avoiding disposal fees, because the dumped boards carry stamped lot numbers from a building supplier, but she has no camera and no authority beyond filing a report, and the parks office has not answered her last two. A few regulars are angry enough to stake it out themselves; a retired angler and two of the dawn joggers have talked about blocking the truck in, and one of the joggers has a strength Quirk he has never used in public. If they try it without a hero or the police, someone is likely to get hurt or arrested for unlicensed Quirk use. The city would like the story of the beach's cleanup told again, and a reporter from a local paper has been asking the regulars who the young man was.",
+    "x": -10.05,
+    "y": 15.662,
+    "radius": 1,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Shoreline": {
+        "description": "A long curve of sand between the seawall and the water, clean now except for what the tide brings in each night: driftwood, plastic bottles, tangled fishing line and the odd sandal. At low tide the wet sand stretches far out and joggers run along its firm edge; at high tide the waves reach the concrete wave-breakers stacked at each end, where crabs scuttle into the gaps. In the early morning a few people still walk the line with trash bags out of habit, and on weekends families set up umbrellas while little ones dig and squeal at the cold water. Away from the water the sand is soft and deep, which makes running or carrying anything across it hard work, and the dents of old dragging marks still show near the west end. At dusk the light turns gold over the bay and the Izu hills go dark across the water. Steps in the seawall lead up to the Seawall Promenade.",
+        "paths": [
+          "Seawall Promenade",
+          "Beach Snack Shack"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1f7d02da-7d35-4a97-a82a-982a692cc88f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Seawall Promenade": {
+        "description": "A broad concrete walk along the top of the seawall, with steps down to the sand, benches, vending machines, public restrooms, a small parking lot and the bus stop back to town. Anglers line the railing at dawn with rods and coolers and trade news of what is biting; office workers eat lunch here on warm days; at dusk, couples and runners take over, and someone always stops to photograph Fuji when the sky is clear. The warden's hut sits by the main steps, usually closed, with a notice board of park rules and a faded poster about illegal dumping. The sea wind never stops, so hats blow off and the benches stay salty to the touch. After dark the vending machines are the only light along the wall, and the west end of the parking lot, where the lights have failed, is pitch black. Steps lead down onto the Shoreline.",
+        "paths": [
+          "Shoreline",
+          "Beach Snack Shack"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d013eeae-f012-4e53-ada5-b99942cc55cc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Beach Snack Shack": {
+        "description": "A weathered wooden snack shack at the foot of the main steps, where the Seawall Promenade meets the sand, with a corrugated roof, a roll-up shutter, a hand-painted menu board and a few plastic tables under faded umbrellas. It sells grilled squid, yakisoba from a flat griddle, shaved ice and canned drinks, most of it 300 to 600 yen. An older couple reopened it the season the beach came back, after years with the shutter rusted shut; in spring it opens only on weekends and warm afternoons, and from July it runs every day from early morning to sunset. Anglers buy hot canned coffee and swap news of what is biting before sunrise; on weekends families crowd the tables with sandy feet and wet towels. The couple will tell anyone who asks how the beach used to look, and keep a photo of the old junk heaps taped inside the shutter beside a newer one of clean sand. A sign asks customers to carry their trash home, since this beach has had enough of it. The griddle hisses, gulls wait on the roof for dropped squid, and soy sauce and salt mix in the wind. The steps lead up to the Seawall Promenade, and the Shoreline begins at the tables.",
+        "paths": [
+          "Seawall Promenade",
+          "Shoreline"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d5769410-8e21-46e1-b170-fb571339d3e7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6caa7efc-2df8-4376-abe0-4aea7052f238.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Tsuwano": {
+    "name": "Tsuwano",
+    "basicInfo": "Tsuwano is the hill country of western Shimane where it meets northern Yamaguchi, a cell of forested ridges and clear river valleys that touches the Sea of Japan only in its northwest corner and along the north edge at Masuda. The Takatsu River, often called the clearest river in Japan, runs undammed from the Yoshika uplands in the east through gorges to the sea at Masuda, joined on the way by the Tsuwano River from the castle town of Tsuwano. Masuda, a small city near the north edge, has the stone gardens of a medieval painter-monk at Ikoen and Manpukuji, a large modern arts center, and Iwami Airport with flights to Haneda in about an hour and a half. In the narrow valley in the center, Tsuwano is called the Little Kyoto of San'in: white plaster walls and wooden samurai gates along Tonomachi street, canals full of fat carp, the tunnel of red torii climbing to Taikodani Inari Shrine, castle ruins reached by chairlift, and the heron dance at Yasaka Shrine in July. In the southeast the Chugoku Expressway passes the Yoshika towns of Muikaichi and Kakinoki, known for organic farming, and the south reaches into the hills north of Yamaguchi city. Winters are snowy inland and gray at the coast; summers are green and humid, and the rivers fill with ayu. People farm rice, raise beef, fish the rivers, make wasabi and sweets, and run inns for visitors. The Yamaguchi Line runs from Shin-Yamaguchi through Tsuwano to Masuda, served by the Super Oki limited express and on many weekends by a steam locomotive, and the San'in Main Line follows the coast from Masuda. From Fukuoka it is about two hours by shinkansen to Shin-Yamaguchi and the Super Oki; from Musutafu it is about five hours the same way, or a flight from Tokyo to Iwami. Visitors walk Tonomachi, climb to the shrine, ride the steam train, canoe the Takatsu and eat uzume-meshi, rice with the food hidden underneath. Police boxes sit in each town, a small hero office in Masuda covers the coast and the valleys, river guides with water Quirks help with rescues under permit, and sidekicks patrol the festival crowds.",
+    "hiddenInfo": "Masuda and the valleys are aging and losing people, and the tourist season is short. Small-time trouble is carp and ayu poaching, theft from unattended shrines and temples, drunk drivers on mountain roads, and Quirk-users poaching game or timber. Hero backup comes from Yamaguchi, Shin-Yamaguchi or Masuda's own small office; a serious incident needs heroes called in from Hiroshima or Fukuoka, an hour or more away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -13,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/81b1e62d-b159-45fa-93d9-d2df45dda493.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

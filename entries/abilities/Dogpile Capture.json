@@ -1,0 +1,20 @@
+{
+  "Dogpile Capture": {
+    "name": "Dogpile Capture",
+    "description": "The user calls the pile-on, and every ally within reach hits the same opponent at once: arms, legs, tape and body weight. That opponent, even one far stronger than any of them alone, is pinned to the ground and cannot move or attack until they break free with a Quirk or someone drags the group off. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Hero Course (Class 1-B)",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

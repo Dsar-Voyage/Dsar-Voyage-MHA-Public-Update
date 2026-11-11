@@ -1,0 +1,20 @@
+{
+  "Vengeful": {
+    "name": "Vengeful",
+    "description": "🌑 You remember every wrong done to you, and you do not forgive.\n\n🔎 You track people down patiently; a grudge keeps you going when nothing else would.\n⚠️ Revenge blinds you: you chase it into traps and past better chances.\n⚠️ Enemies know a slight will pull you off course.\n🔀 If you are also Calm, the grudge is quiet, patient and never goes away.\n\n📈 Grants: Investigation +5",
+    "traitNarrativeEffects": "The character is vengeful: they remember every wrong, do not forgive and will track a person down for as long as it takes; the grudge keeps them going. Weakness: revenge blinds them, pulling them into traps and past better chances, and enemies learn a slight will pull them off course. If the character is also Calm, the grudge is quiet and patient. The narrator lets old wrongs come back into reach; whether to take revenge is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Investigation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

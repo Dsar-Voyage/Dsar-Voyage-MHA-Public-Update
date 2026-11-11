@@ -1,0 +1,15 @@
+{
+  "Hard Weather Drill": {
+    "name": "Hard Weather Drill",
+    "description": "The user paces their breathing, covers their mouth and nose and keeps working through smoke, heat, freezing water or thin air. For the rest of the scene the user loses no extra stamina or health to those conditions, though direct flames, cold attacks and poison gas still hurt them. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

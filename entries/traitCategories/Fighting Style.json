@@ -1,0 +1,19 @@
+{
+  "Fighting Style": {
+    "name": "Fighting Style",
+    "maxSelections": 1,
+    "traits": [
+      "Brawler",
+      "Martial Artist",
+      "Blade and Baton",
+      "Marksman",
+      "Rescue Specialist",
+      "Gear Fighter",
+      "Shadow Striker",
+      "Field Tactician",
+      "Quirk-Centered Fighter",
+      "Non-Combatant"
+    ],
+    "description": "🥋 How you fight, or how you stay out of fights."
+  }
+}

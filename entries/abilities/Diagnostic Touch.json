@@ -1,0 +1,20 @@
+{
+  "Diagnostic Touch": {
+    "name": "Diagnostic Touch",
+    "description": "The user lays bare fingertips on a machine and feels its state: whether it is running, what it is doing, what is failing and how it is meant to work. They learn how to open, stop or start it, whether a bomb's circuit is live, how much charge or fuel it holds and whether a part is about to give out. They read one machine at a time, and anything with no motor, engine or circuit tells them nothing. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

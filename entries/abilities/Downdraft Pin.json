@@ -1,0 +1,20 @@
+{
+  "Downdraft Pin": {
+    "name": "Downdraft Pin",
+    "description": "The user drives their storm cloud overhead and drops a heavy, charged downdraft onto a target or small group within five meters. It deals force and electric damage, pins them to their knees and numbs their arms and legs so they cannot stand or attack until the end of their next turn; held back, it pins without burning. Running both natures drains the cloud, ending the user's updrafts next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

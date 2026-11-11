@@ -1,0 +1,25 @@
+{
+  "Coronal Eclipse": {
+    "name": "Coronal Eclipse",
+    "description": "The user's signature move: they hang a black sphere ringed with a white corona over a street, drowning it in total darkness while beams lash from the rim. Every enemy there takes massive light damage and is pinned by their own shadow until the end of their next turn; held back, it only dazzles and binds unhurt. It burns stamina and spends the user's shadow, so they cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

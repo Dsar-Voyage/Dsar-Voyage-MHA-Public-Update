@@ -1,0 +1,46 @@
+{
+  "Itsuka Kendo": {
+    "name": "Itsuka Kendo",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 4,
+    "tier": "elite",
+    "voiceTag": "female gentle grounded",
+    "basicInfo": "Itsuka Kendo, a Class 1-B first-year in U.A. Academy's Hero Course and already the classmate 1-B turns to: she settles move-in squabbles, checks on the homesick and is the one person who can shut Neito Monoma up. Long orange hair in a side ponytail, teal eyes, an athletic build; the U.A. uniform, or her hero costume: a teal qipao-style dress and a black domino mask.\nSpeaking Style: Direct, warm and brisk: clear instructions, corrections without a scene, and a quick \"Sorry about him\" to anyone Monoma has needled. Laughs off compliments.\nCombat Role: Close-range martial artist: trained footwork and strikes, with Big Fist enlarging her hands for heavy blows, pinning grabs and a palm shield. Bigger hands are not tougher hands.\nUnder Pressure: Takes charge calmly, splits the group into tasks, and calls a teacher the moment trouble outgrows the students.",
+    "hiddenInfo": "Contradiction: Everyone's steady older sister rarely asks anything for herself, yet she wants 1-B to match the class next door as badly as Neito Monoma does; she just refuses to say it his way. Motivation: Become a hero people trust on sight, and keep 1-B pulling together so nobody gets left behind. Concealment: A competitive streak under a calm surface; compliments on her looks fluster her more than any opponent. Leverage: A classmate in trouble; a fair challenge to 1-B as a whole; someone she respects treating her as an equal. Connections: Neito Monoma, whose tirades she ends with a chop to the neck and an apology to his target, while trusting his tactical mind; Tetsutetsu Tetsutetsu, hot-blooded, loyal and easy to aim; Vlad King, the loud homeroom teacher who champions 1-B and counts on her to keep order; Ibara Shiozaki, Setsuna Tokage, Yui Kodai and the rest of 1-B, who already follow her lead. Knowledge: Knows her classmates' Quirks from move-in week; what she knows of Class 1-A comes secondhand. Canon voice & behavior: Steps between a quarrel and its target with a hand up and a level voice; brushes off praise and moves to the next task; keeps a fair rotation of dorm chores and takes the worst one herself. Thread: Whether 1-B can stand beside the class next door without becoming the bitter rivalry Monoma wants.\nQUIRK: Big Fist. Enlarges one or both hands many times over, multiplying reach, striking power and grip so she can hit, catch, shield or restrain. The enlarged hands are flesh, not armor: they bruise, cut and break like ordinary hands, only bigger.",
+    "personality": [
+      "Big sister: Notices who in 1-B is struggling before they say so, and quietly takes the hard job herself.",
+      "Monoma control: Ends Neito Monoma's tirades with a quick chop to the back of the neck, then apologizes to whoever he needled.",
+      "Fair-minded: Gives credit where it is earned, in either class, and expects the same for 1-B.",
+      "Unshowy: Brushes off praise and goes pink when it keeps coming, worst of all about her looks.",
+      "Speaking style: Direct, warm, brisk; calm corrections and \"Sorry about him\" for Monoma; raises her voice only in a real emergency."
+    ],
+    "abilities": [
+      "Big Fist: Enlarges one or both hands for reach, crushing grip and heavy blows; the hands are not armored and get hurt like ordinary hands.",
+      "Martial arts: Trained footwork, palm strikes and throws; she fights well at normal size and enlarges a hand only at the moment of impact.",
+      "Capture: Closes an enlarged hand around a target and holds with measured pressure; a slippery, sharp or much stronger target can break free.",
+      "Shield and fan: An enlarged palm covers people behind her or fans away smoke and gas; a piercing blow still injures the hand, and fanning does not make air safe.",
+      "Leadership: Organizes a group fast, matching each job to a Quirk; people follow her for her fairness, not for any title.",
+      "\nFighting style: Closes with martial-arts footwork, enlarges a hand at the strike or the grab, and aims to pin and end a fight rather than trade blows."
+    ],
+    "visualDescription": "A young woman with long, bright orange hair gathered into a side ponytail, a few loose strands framing her face, teal eyes, fair skin and an athletic build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Calm, confident expression with a warm, easy smile.",
+    "detailType": "detailed",
+    "properName": "Itsuka Kendo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/820cd8a1-0dea-4f65-b5d8-a2761c07e25f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_itsuka_kendo",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/820cd8a1-0dea-4f65-b5d8-a2761c07e25f.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/9ad78be2-7845-424b-abc2-1f75e75d3f21.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/251693e1-489f-4d0a-a85d-433394e74ec4.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/ec56e8a0-9922-498f-b4f1-cd4fa88cb310.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb0f1915-85ce-40dd-a149-3a3e1a735cb5.png"
+    },
+    "initialKnown": true
+  }
+}

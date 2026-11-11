@@ -1,0 +1,15 @@
+{
+  "Cold Ultimatum": {
+    "name": "Cold Ultimatum",
+    "description": "The user closes the distance, lets the silence sit, then makes a specific threat they can back up. A minor thug, guard or bystander backs off, drops what they are holding or truthfully answers a single question, then avoids the user for the rest of the scene. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

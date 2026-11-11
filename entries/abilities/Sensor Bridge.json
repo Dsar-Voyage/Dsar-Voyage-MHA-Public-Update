@@ -1,0 +1,15 @@
+{
+  "Sensor Bridge": {
+    "name": "Sensor Bridge",
+    "description": "The user traces an alarm system's wiring and sensors, then bridges, blinds or delays each sensor on the route in. The user and anyone following their path move through a secured area with motion sensors, pressure plates and laser grids without setting off an alarm for the rest of the scene. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Infiltration",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

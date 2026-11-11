@@ -1,0 +1,15 @@
+{
+  "side_training_of_the_dead": {
+    "title": "Training of the Dead",
+    "beats": "Early autumn, a school morning. Ketsubutsu Academy's hero course has come to U.A. Academy for a joint drill: Ms. Joke leads her first-years off the bus, proposes to Shota Aizawa in front of everyone and gets the usual flat no. Yo Shindo shakes every hand in Class 1-A and memorizes every Quirk. The drill runs in Ground Beta's mock city, teams mixed across both schools, Aizawa and Ms. Joke judging from the street.\n\nDefault course as pressure: an hour in, a Ketsubutsu student falls from a collapsing facade and a Quirk never used in drills goes off. Anyone bitten slumps into a slow, groaning 'zombie' who wants only to bite the next person. It is harmless, it wears off within the hour and the zombies remember nothing, but every bite passes it on. The only early end is to find the student at the center and put Aizawa's Erasure on them, and unless the party prevents it, Aizawa is bitten first, shielding a student. Eijiro Kirishima hardens and still gets nipped on the ear; Minoru Mineta seals the Training Building door with his spheres and locks himself in with a zombie; Ms. Joke's Outburst leaves the horde too busy laughing to chase anyone. Momo Yaoyorozu wants a plan, Izuku Midoriya maps the bite pattern out loud, Katsuki Bakugo refuses to be herded, and Shoto Todoroki can wall off a street in ice, though a wall that traps zombies traps bitten friends in the cold too.\n\nAt Training Ground Gamma, Vlad King runs Class 1-B's half of the drill from the Control Tower; if the outbreak spreads, Itsuka Kendo turns the Pipe Maze into a holding pen and Neito Monoma swears 1-B will catch more zombies. From U.A. Academy, the party gets the call with one order: nothing shambles past the training grounds.\n\nBy path: a Class 1-A student is in the drill from the first whistle; a Class 1-B student starts at Gamma and may be sent across as backup.\n\nIt is a supervised drill: the teachers stop any blow that could seriously hurt someone, and anyone knocked down is only winded or bruised and is pulled out to the aid point; no student is badly hurt or killed.\n\nThe event is complete when the source is erased or the hour runs out, the last zombie wakes up confused, and Aizawa calls the drill.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_training_of_the_dead",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

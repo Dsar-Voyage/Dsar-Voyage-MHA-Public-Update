@@ -1,0 +1,15 @@
+{
+  "Heavy Hurl": {
+    "name": "Heavy Hurl",
+    "description": "The user hauls up something heavy, such as a manhole cover, a full trash bin or a steel road barrier, and hurls it at a target or into a path. The object deals bludgeoning damage to the target it hits and knocks them down, or it lands to block a doorway, an alley or a corridor. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Athletics",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Sleeper Cue": {
+    "name": "Sleeper Cue",
+    "description": "The user gives a person under their control a single order tied to a spoken cue, such as drop the weapon and kneel when they hear a chosen word. The order sleeps for up to a week, the person acts normally, and whenever anyone speaks the cue within the person's hearing, they obey it at once before coming back to themselves. An order to hurt themselves or anyone else breaks it, and so does a hard shock at the moment of the cue. The user can keep only one cue at a time, and while it stands they can hold only a single person with the Quirk. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

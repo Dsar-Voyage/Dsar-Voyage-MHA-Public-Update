@@ -1,0 +1,15 @@
+{
+  "media_break_in": {
+    "title": "The Media Break-In",
+    "beats": "Lunch hour at U.A. Academy on the day Class 1-A settles its class representative. By canon default Izuku Midoriya won the vote by a hair with Momo Yaoyorozu as deputy, unless the story's own vote went otherwise; Tenya Iida, who voted for someone other than himself, eats with Ochaco Uraraka in Lunch Rush's Cafeteria. Reporters have camped at the Main Gate all week for a word with All Might, and the U.A. Barrier keeps them out. Then the Barrier crumbles to dust, the press floods onto the grounds and the campus alarm sounds a level-three breach. The canon default course, as pressure the player can change: the cafeteria stampedes for one exit and students are crushed against the corridor windows until Tenya, lifted by Ochaco's Zero Gravity, fires his Engine over the crowd, lands above the exit and shouts that it is only the press. Shota Aizawa and Present Mic hold the reporters back until police arrive. That afternoon, by canon default, the winner hands the representative post to Tenya after seeing him lead. Under cover of the chaos, Tomura Shigaraki and Kurogiri slip in and take the timetable for Class 1-A's rescue training; nobody notices the missing pages today. Unless the player intervenes, Principal Nezu and Aizawa study the dust at the gate and decide no reporter did that.\n\nAt U.A. Academy, a student party lives the stampede and can calm it, pull out the crushed or follow the dust to the gate; a faculty or pro party holds the gate and the press; a civilian party can be one of the reporters. A villain party on campus risks Aizawa's stare, which shuts Quirks off. At the League Hideout Bar, a villain party sees the job from the other side: Kurogiri opens a gate for Tomura into the noon crowd, and the stolen pages land on the Bar Counter that evening while Shigaraki's Sensei approves from the dark monitor.\n\nThe event is complete when the press is off campus and the crowd is calm, or the party leaves the scene of the breach.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_media_break_in",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

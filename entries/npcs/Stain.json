@@ -1,0 +1,38 @@
+{
+  "Stain": {
+    "name": "Stain",
+    "type": "Villain",
+    "currentLocation": "Hosu Downtown",
+    "currentArea": "Downtown Rooftops",
+    "gender": "male",
+    "faction": "",
+    "level": 16,
+    "tier": "boss",
+    "voiceTag": "male deep raspy",
+    "basicInfo": "Stain, the Hero Killer: a lone serial killer who hunts pro heroes he judges fakes, heroes who work for money and fame, not to save people. He has killed or crippled dozens across several cities, watching each city's heroes from its rooftops before he strikes. Lean and wiry, unkempt black hair, red eyes with small pupils, a scarred face with no nose; a long tattered red scarf, a pale cloth bandana over his brow, bandaged forearms, knives at his belt and a sword at his back.\nSpeaking Style: Low, rasping and certain; a hissing \"Hah...\" before he speaks, and his creed comes out as a verdict. Calls a self-serving hero a \"fake\" to their face; All Might is the only true hero.\nCombat Role: Trained blade fighter with no physical Quirk: closes fast along walls and rooftops, opens one cut, tastes the blood to paralyze its owner, then kills. Several fighters at once, or one he cannot cut, blunt his method.\nUnder Pressure: Grows calmer and more focused; wounded and outnumbered, he presses toward the one he has judged, and lets a hero who proves genuine in front of him live.",
+    "hiddenInfo": "Contradiction: He murders heroes in the name of heroism, and his ideal is All Might, who saves everyone he can reach. Motivation: Purge the fakes until the word hero means self-sacrifice again and belongs only to those who earn it. Concealment: Never gives his real name, Chizome Akaguro, or speaks of his past: he trained at a hero school as a youth and quit in disgust at a system that taught heroism as a career; since then the blade has made his argument. Leverage: Real self-sacrifice earns his respect, even from a target; showboating, hypocrisy and any slight against All Might provoke him. Connections: All Might, the one hero he calls genuine and the only one with the right to kill him. Endeavor, the Flame Hero, who has spent his career chasing All Might's rank: to Stain the model fake. Villains who destroy for profit or fun, whom he despises as much as fakes; he joins no group and takes no orders. Knowledge: Rankings, agency territories and patrol routes; each target's record and habits, studied for days; All Might only as the public knows him. Canon voice & behavior: States his verdict before he strikes and lets no fake argue; licks the blood from his blade slowly, eyes on its owner; grins when a hero proves worthy. Thread: Whether any hero besides All Might meets his standard, and what he does when one does.\nQUIRK: Bloodcurdle. Ingesting a person's blood, even a lick from a blade, paralyzes that person for a span set by their blood type: longest for type B, shortest for type O. It works only on people whose blood he has taken, so each new target needs a fresh cut. It gives him no strength, speed or senses.",
+    "personality": [
+      "Zealot: Measures every hero against self-sacrifice and tells anyone who falls short that they are a fake.",
+      "Discerning: Spares a hero who risks everything for someone else in front of him, even one he came to kill.",
+      "Self-honed: Trained his body and blades alone for years; wounds that would stop most people barely slow him.",
+      "Speaking style: Low, rasping verdicts after a hissing \"Hah...\"; \"fake\" for any hero he condemns."
+    ],
+    "abilities": [
+      "Bloodcurdle: Tasting someone's blood paralyzes them for a span set by blood type; it works only on those whose blood he took, a fresh cut for each.",
+      "Blade mastery: Sword, knives and thrown blades with trained precision; one shallow cut is enough, but a target he cannot cut is safe from paralysis.",
+      "Rooftop movement: Runs walls, leaps between buildings and drops from above, all by training; on open ground a fast pro can outrun him.",
+      "Killing intent: His conviction can freeze seasoned heroes where they stand; it is presence, not a Quirk, and holds them only for a moment.",
+      "Hunter's study: Learns a hero's patrol, habits and conduct before striking and picks a moment they are alone; a broken routine throws him off.",
+      "\nFighting style: Isolates one target, closes from above or behind, opens a single cut and licks the blade; against several he splits them up and paralyzes one at a time."
+    ],
+    "visualDescription": "A lean, wiry man with unkempt, spiky black hair, narrow red eyes with small pupils, a scarred face with no nose and light, weathered skin. A long, tattered pale cloth bandana is tied over his brow, its tails trailing behind, and a long, ragged red scarf is wound around his neck. He wears a dark, close-fitting sleeveless top, bandages around his forearms, dark trousers and boots, belts hung with knives and a sword sheathed at his back. Intense, menacing glare.",
+    "detailType": "detailed",
+    "properName": "Stain",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b1217775-ae07-4c9d-8705-ce75ca1840c1.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_stain",
+    "initialKnown": true
+  }
+}

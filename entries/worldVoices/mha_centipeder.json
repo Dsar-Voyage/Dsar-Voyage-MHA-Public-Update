@@ -1,0 +1,15 @@
+{
+  "mha_centipeder": {
+    "label": "Centipeder",
+    "voiceTag": "male calm steady",
+    "instructions": "A polished, mid-low gentleman's voice, smooth and refined like a butler, neutral American accent. Polite, measured and formal with everyone, suspects included; precise phrasing at an unhurried pace. Firm but never raised when giving orders.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

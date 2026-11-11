@@ -1,0 +1,20 @@
+{
+  "Mending Touch": {
+    "name": "Mending Touch",
+    "description": "The user lays a hand on a wounded person and speeds their healing. Cuts close, bleeding stops and bruises and sprains ease within moments, restoring some health, and the user feels any hidden injury beneath, such as a cracked rib or internal bleeding. The patient pays with brief stamina and feels the tiredness at once. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

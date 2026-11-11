@@ -1,0 +1,20 @@
+{
+  "Fault Strike": {
+    "name": "Fault Strike",
+    "description": "The user spots the power cell, nozzle, hinge or cable that makes an opponent's support item work and hits it with a tool, a dart or a jammed wire. That item stops working until someone repairs it, and powered gear sparks as it dies, dealing electric damage to its wearer. Works on thrusters, gauntlets, launchers, respirators and armor joints. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gear Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

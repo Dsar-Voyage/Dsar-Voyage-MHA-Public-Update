@@ -1,0 +1,15 @@
+{
+  "pro_license_audit": {
+    "title": "The License Audit",
+    "beats": "A weekday morning in early November. The notice lands on the Commission's incident app at breakfast: an audit of the party's license and agency records, today, and an inspector already on the way. Since the Shie Hassaikai raid the Commission has been checking how agencies document joint work with the police, and with the first Billboard Chart since All Might retired still ahead, it wants every file clean. The inspector is a generated Commission official the narration names: polite, tireless, armed with a tablet and a checklist.\n\nCanon default course, as pressure the player can change: the inspector settles at the agency's front desk and works through the files. Two summer capture reports lack a police case number; a property-damage claim from the spring was settled without the form the Commission requires; and one closed case is reopened, a capture where a witness now says the suspect was already down when the party struck. The inspector wants the missing forms by end of day and a statement on the reopened case. A lie in the paperwork surfaces sooner or later.\n\nThe forms mean calls to a police front desk, an old witness and a sponsor's lawyer, or a trip to the Licensing Bureau at the Hero Public Safety Commission Headquarters, where clerks process sidekick contracts and Yokumiru Mera, buried in exam reports, may sign one off after a remark about how little he slept.\n\nA sidekick's own license file is on the table: a Quirk registration out of date, a report the boss signed without reading, and a boss who may cover for the party or let the party carry it. An agency head answers for everything: the books, the insurance, the sidekick contracts and the settled claim. A bad finding means a fine, a lower approval score before the chart or a suspended license.\n\nThe event is complete when the inspector files a finding: clean, a warning, or a referral to a review hearing.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_license_audit",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Hairline Second": {
+    "name": "Hairline Second",
+    "description": "The user speeds up their nerves along with their body until people around them seem to stand almost still. Until the end of their next turn they take several actions for each one anyone else takes, read every attack as it starts, step out of the path of gunfire, catch thrown objects and falling people, and stop dead from full speed in a single step. Afterward heat floods their body and their legs cramp: they cannot speed up until the end of their following turn and cannot run for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

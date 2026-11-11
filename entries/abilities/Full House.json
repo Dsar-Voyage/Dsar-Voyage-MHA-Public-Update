@@ -1,0 +1,25 @@
+{
+  "Full House": {
+    "name": "Full House",
+    "description": "The user's signature move: a sweep of the hands across everyone within reach copies each of their Quirks, enemies and allies alike, and the user fires them all in a single, precisely timed sequence. Each attack among them deals massive damage of its own type to a target the user picks, each defensive one shields the user as it fires, and every copy is spent afterward; the user cannot copy again until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

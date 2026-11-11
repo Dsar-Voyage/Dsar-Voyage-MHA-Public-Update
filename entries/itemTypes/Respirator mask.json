@@ -1,0 +1,20 @@
+{
+  "Respirator mask": {
+    "name": "Respirator mask",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "value": 5
+      }
+    ],
+    "description": "A half-face mask with twin replaceable filters against smoke, dust and many airborne toxins. It keeps a rescuer breathing in a burning or collapsed building, but it supplies no air of its own and cannot help where the oxygen has run out. [ Support Gear | About ¥15,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/752acc74-fd02-4272-9d9a-533ce7a66699.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

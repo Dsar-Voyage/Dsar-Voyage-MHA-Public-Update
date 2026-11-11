@@ -1,0 +1,30 @@
+{
+  "Iya Valley": {
+    "name": "Iya Valley",
+    "basicInfo": "Iya Valley is the mountain heart of Shikoku, from the Kagawa plain at Zentsuji and Kotohira in the north, over the Sanuki Mountains, down to the Yoshino River and Awa-Ikeda, and south into the steep gorges of Iya and up to Mount Tsurugi; it is all land, mountains and valleys. In the north, Kotohira is the shrine town of Konpira-san, the sea god's shrine reached by 785 stone steps lined with shops, with Japan's oldest kabuki theater at its foot; nearby Zentsuji is the birthplace temple of the pilgrimage's founder, and the Manno reservoir is Japan's largest irrigation pond. In the middle, the Yoshino River runs east past Awa-Ikeda, a crossroads town, and the white-walled merchant street of Wakimachi with its firewall gables. South of Ikeda, the Iya Valley cuts deep into the mountains: vine bridges of woven wisteria hang over green water, hamlets cling to slopes, and in Oku-Iya the scarecrow village of Nagoro and the double vine bridges sit beneath Mount Tsurugi, Shikoku's second-highest peak, with a chairlift and a shrine near the summit. The climate is cool in the mountains, with snow in winter, and the Iya is said to be where defeated Heike warriors hid. People grow buckwheat, potatoes and tea, raise cattle and run inns. The JR Dosan Line runs from Kotohira over the mountains to Awa-Ikeda and the Oboke gorge on the western edge, served by the Nanpu limited express from Okayama, and the Tokushima Line follows the Yoshino; the Tokushima Expressway follows the Yoshino past Ikeda. Takamatsu Airport in the north has flights to Haneda. From Musutafu it is about four and a half hours by shinkansen to Okayama and the Nanpu, then a bus into Iya. Visitors climb Konpira, cross vine bridges, hike Tsurugi, raft the Yoshino and eat Iya soba. Each town has police boxes and a licensed hero covers the mountains, pilgrims walk the roads, and rafting guides with water Quirks help with rescues.",
+    "hiddenInfo": "The Iya Valley is emptying, many hamlets are nearly abandoned, and roads close in landslides and snow. Small-time trouble is theft from shrines and pilgrims, illegal logging, and Quirk-users poaching game. Kotohira's crowds bring pickpockets. Hero help comes from Takamatsu or Tokushima, about an hour or more away, and deep in the valley it can take several hours.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -9,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f2b1c666-7de9-4edf-9fc9-db96ccf92a39.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

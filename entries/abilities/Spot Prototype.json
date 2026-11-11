@@ -1,0 +1,15 @@
+{
+  "Spot Prototype": {
+    "name": "Spot Prototype",
+    "description": "The user takes a machine already at hand and spends a few minutes rebuilding it for a job it was never made for: a phone turned into a signal jammer, a delivery drone into a searchlight, a hand truck into a stretcher. The rebuilt device does that one job reliably for the rest of the scene, then is ruined. It cannot be done in the middle of a fight. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

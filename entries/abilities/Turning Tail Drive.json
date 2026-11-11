@@ -1,0 +1,24 @@
+{
+  "Turning Tail Drive": {
+    "name": "Turning Tail Drive",
+    "description": "The user plants their feet and turns their hips through a full tail strike against one target within two meters, dealing heavy bludgeoning damage and driving them back several steps. Held back, it sweeps a guard aside for an ally. The tail needs an unobstructed arc, and a missed swing pulls the user off balance. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

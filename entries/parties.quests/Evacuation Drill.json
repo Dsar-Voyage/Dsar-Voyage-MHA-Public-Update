@@ -1,0 +1,17 @@
+{
+  "Evacuation Drill": {
+    "name": "Evacuation Drill",
+    "questSource": "Mount Lady",
+    "questStatement": "After a hard year, Musutafu is running citywide evacuation drills, and the Station District goes first. Mount Lady is the hero assigned to lead it, cameras and all, and the district needs civilian wardens: people who know the shops, the exits and the regulars. You have signed on. Halfway through the drill, something real goes wrong.",
+    "mainObjective": "Serve as a civilian warden in the Station District drill and get people out when it turns real.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has served as a warden in the Station District drill and helped get people to safety when the real incident struck, and the incident is over."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Station District",
+    "questDesignBrief": "Ordinary heroism under a rookie pro. Mount Lady is breezy for the cameras and serious once it turns real; the Station Concourse is too tight for her giant form, which frustrates her. The real incident is minor and generated: a gas leak, a panicked Quirk flare, a petty villain using the drill as cover. Wardens guide and count people; Quirk law still binds the PC, though a hero on scene may authorize help. Death Arms or Backdraft may arrive as backup. Nothing ties the incident to the League or to any canon event. Failure: someone is hurt in the crush, and the PC answers questions about it on the evening news.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

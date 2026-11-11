@@ -1,0 +1,20 @@
+{
+  "Cell Delivery": {
+    "name": "Cell Delivery",
+    "description": "The user grips a target within reach and snaps with them to an anchor planted beside a police van, a holding cell or a waiting team of heroes. The target arrives on their knees, dizzy and retching, and cannot attack or flee until the end of their next turn, with no lasting harm. Only one target travels per use, and the user arrives beside them too dizzy to strike until the end of their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

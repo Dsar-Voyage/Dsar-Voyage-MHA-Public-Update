@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: ep_all_might": {
+    "name": "Portrait Swap: ep_all_might",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "All Might (Retired)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/aacf4a3e-90b5-4c00-afa1-fe06bd406b39.png"
+      }
+    ]
+  }
+}

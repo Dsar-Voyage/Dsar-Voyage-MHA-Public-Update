@@ -1,0 +1,20 @@
+{
+  "Counterweight Hold": {
+    "name": "Counterweight Hold",
+    "description": "The user grabs a tow cable, a rescue line or the bumper of a car tipping off a ledge and turns heavy, anchoring it in place. Nothing they hold slides any further, and with a rope over a railing or a pulley they lift up to two people a floor at a time as a living counterweight. The user cannot move or attack while holding, and lets go at the end of the scene at the latest. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

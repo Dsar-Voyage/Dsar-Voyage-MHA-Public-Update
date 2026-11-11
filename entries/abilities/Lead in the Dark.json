@@ -1,0 +1,20 @@
+{
+  "Lead in the Dark": {
+    "name": "Lead in the Dark",
+    "description": "The user shuts out the noise and moves at a full run through total darkness, thick smoke, fog or a rubble maze, guided by sound, air currents and scent. A line of people holding on behind them keeps the same pace without stumbling or getting lost, and the user steers everyone around gas, fire and floors that will not hold. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

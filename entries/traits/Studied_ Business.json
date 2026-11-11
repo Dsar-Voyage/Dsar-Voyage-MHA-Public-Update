@@ -1,0 +1,20 @@
+{
+  "Studied: Business": {
+    "name": "Studied: Business",
+    "description": "💼 You studied business: commerce classes, keeping the books for a family shop or managing a store's accounts part-time.\n\n🌱 Budgets, contracts, marketing and how hero agencies make money. You can read a balance sheet and spot a bad deal.\n⚠️ Running a real agency, managing investors and surviving a scandal are beyond you.\n⚖️ No accounting certification and no capital, and only a licensed hero can found a hero agency.\n🏫 It shows in practical questions about cost, revenue and who pays.\n\n📈 Grants: Business +15",
+    "traitNarrativeEffects": "The character has studied business: budgets, accounting, marketing, staffing, contracts, brand strategy and how a hero agency or a company makes money. They can read a balance sheet and spot a bad deal. Prior study, not mastery: running a real agency, managing investors and surviving a scandal are beyond them. Not a license: it is no accounting certification and no capital, and only a licensed hero can found a hero agency. It shows in practical questions about cost, revenue and who pays.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Business",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

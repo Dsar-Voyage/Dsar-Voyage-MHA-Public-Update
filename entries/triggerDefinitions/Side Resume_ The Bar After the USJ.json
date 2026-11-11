@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Bar After the USJ": {
+    "name": "Side Resume: The Bar After the USJ",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "v_bar_after_usj",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_bar_after_usj",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_v_bar_after_usj",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "v_bar_after_usj"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_v_bar_after_usj",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Bar After the USJ\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: A night in the days after the USJ attack, at the League Hideout Bar in Kamino Ward."
+      }
+    ]
+  }
+}

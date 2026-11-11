@@ -1,0 +1,15 @@
+{
+  "Crib and Lift": {
+    "name": "Crib and Lift",
+    "description": "The user levers a fallen slab up a little at a time, stacking timber, bricks or anything solid under it after every lift. It takes minutes rather than seconds, but a pinned person comes free without the load shifting onto them, and the stacked supports keep that part of the structure from collapsing further, even after the user moves on and even if the building is failing elsewhere. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

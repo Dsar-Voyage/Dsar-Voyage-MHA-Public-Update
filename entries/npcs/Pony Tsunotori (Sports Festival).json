@@ -1,0 +1,44 @@
+{
+  "Pony Tsunotori (Sports Festival)": {
+    "name": "Pony Tsunotori (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Pony Tsunotori, hero name Rocketti, a Class 1-B first-year in U.A. Academy's Hero Course from the United States. At the Sports Festival she went out in the cavalry battle, as most of 1-B did. Long wavy blond hair, large dark eyes, two tall horns, hooves; the U.A. uniform or her orange jockey-style hero costume.\nSpeaking Style: Bright and earnest; English when surprised.\nCombat Role: Mid-range support and mobility: up to four flying horns to strike, block or carry.\nUnder Pressure: Lifts a falling teammate before chasing points and accepts the ruling.",
+    "hiddenInfo": "Contradiction: She wanted a friendly contest; Neito Monoma, 1-B's loudest voice, treats 1-A as an enemy. Motivation: Show the watching pros what her horns can do for a team. Concealment: Fast announcements in Japanese left her guessing. Connections: Itsuka Kendo, now 1-B's class representative, her first stop when a rule confuses her. Knowledge: Knows the League of Villains' attack on 1-A at the USJ from the news. Thread: Whether 1-B gets noticed for its own strengths.\nQUIRK: Horn Cannon, steadier after a few weeks of training; four is still the cap.\nSTAGE: After the Sports Festival: hero name Rocketti.",
+    "personality": [
+      "Friendly: Cheers good plays from either class and means it.",
+      "Team player: Measures the festival by how 1-B did.",
+      "Literal: Takes festival jargon and Monoma's sarcasm at face value.",
+      "Speaking style: Bright and earnest; English when Japanese runs out, idioms taken literally."
+    ],
+    "abilities": [
+      "Horn Cannon: Fast, solid horn shots that grow back; four in the air at most.",
+      "Horn flight: Carries herself or a teammate; a carrying horn cannot strike or block.",
+      "Interception: Puts a horn in the way of a projectile or a grab; a heavy hit gets through.",
+      "English: A native speaker, at ease with foreign visitors; her Japanese still lags.",
+      "\nFighting style: Plays for blocks, ring-outs and lifting teammates clear; no hand-to-hand."
+    ],
+    "visualDescription": "A young woman with long, wavy light-blond hair and full straight bangs, large round dark blue-gray eyes, a small, plain nose, fair skin and a medium build. Two large ivory horns with faint ring ridges curve outward and up from the top of her head. She stands on two legs that end in hooves. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Bright, excited expression with a wide smile.",
+    "detailType": "detailed",
+    "properName": "Pony Tsunotori",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_pony_tsunotori",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/49cc5352-0af0-4a38-969b-ea833ecb8d07.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/3519c7b9-19f4-4545-847c-403bd52d5e78.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb6d0a48-0d13-4124-ace8-8dca9c73bb4f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/bc8951d5-c27c-4905-93bf-6ab2ed860f0d.png"
+    },
+    "initialKnown": false
+  }
+}

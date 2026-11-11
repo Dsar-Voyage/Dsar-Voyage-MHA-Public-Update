@@ -1,0 +1,20 @@
+{
+  "Agency phone": {
+    "name": "Agency phone",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Hero Industry",
+        "value": 2
+      }
+    ],
+    "description": "The agency's work phone: dispatch alerts, the Hero Public Safety Commission's incident app, sponsor contacts and a camera roll of every arrest report. [ Tool | Agency-issue ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4d18bed4-5be7-43f6-ab45-1161e873aeb5.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

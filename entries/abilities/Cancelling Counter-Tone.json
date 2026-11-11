@@ -1,0 +1,20 @@
+{
+  "Cancelling Counter-Tone": {
+    "name": "Cancelling Counter-Tone",
+    "description": "The user listens to the noise in a room or corridor and holds an inverted, vibrating counter-tone that meets incoming sound waves and shakes them flat. Until the end of the user's next turn, the area falls silent, footsteps and forced doors make no noise, and any sonic attack or sound Quirk aimed into or through the space is blunted and deals no damage. Sustaining both wave and tremor leaves the user's ears ringing. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

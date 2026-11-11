@@ -1,0 +1,44 @@
+{
+  "Kojiro Bondo (Provisional License)": {
+    "name": "Kojiro Bondo (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 21,
+    "tier": "elite",
+    "voiceTag": "male gentle soothing",
+    "basicInfo": "Kojiro Bondo, hero name Plamo, a Class 1-B first-year in U.A. Academy's Hero Course and a provisional license holder; all of 1-B passed the exam, at a different venue from 1-A. Huge and broad-shouldered, a hairless, glue-bottle-shaped head with seven dark openings in his face; the U.A. uniform.\nSpeaking Style: Soft, hesitant and polite; quicker to name a problem than in spring.\nCombat Role: Area control and capture support, now also bracing debris for rescues.\nUnder Pressure: Follows Itsuka Kendo's calls and flags a plan's gap early.",
+    "hiddenInfo": "Contradiction: The summer's danger made him more willing to speak, though never loudly. Motivation: Prove 1-B are heroes, not just 1-A's rivals. Concealment: Nerves still hide behind his usual quiet. Canon voice & behavior: Speaks up in a briefing unasked; still apologizes for blocking the view. Thread: Whether the quiet one becomes someone 1-B plans around.\nQUIRK: Cemedine, practiced: glue from his face with surer placement and drying control; it can be torn or cut and never goes over an airway.\nSTAGE: After the provisional license exam: licensed, Plamo.",
+    "personality": [
+      "Gentle giant: Moves carefully through the crowded dorm.",
+      "Helpful: Volunteers his glue for rescue-drill jobs.",
+      "Speaking up: Names a plan's gap in the briefing now, not after it fails.",
+      "Speaking style: Soft, polite and brief; precise points, never a boast or a taunt."
+    ],
+    "abilities": [
+      "Cemedine spray: Glue from his face, set fast or slow; he must face the target.",
+      "Capture patch: Sticks hands, feet or gear down, never an airway; strength or a blade frees a target.",
+      "Rescue bracing: Glues unstable debris to hold a rescue route open; a heavy collapse can still break it.",
+      "Provisional license: May act as a hero in an emergency without waiting for a pro; he is still a student under U.A.'s rules.",
+      "\nFighting style: Glues footing and limbs from mid-range beside a frontline teammate, who finishes the capture."
+    ],
+    "visualDescription": "A very large, broad-shouldered young man with a smooth, hairless, glue-bottle-shaped head, pale yellow skin, seven small dark round openings across his face and oversized hands. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Gentle, bashful air.",
+    "detailType": "detailed",
+    "properName": "Kojiro Bondo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/69f02b6b-a451-49af-9cf4-07b2ee5619c6.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kojiro_bondo",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/69f02b6b-a451-49af-9cf4-07b2ee5619c6.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/25cbc4a3-29b7-44d7-826b-638cbf2262b5.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/79e5d2e6-131e-4cb1-82e7-64706b6bf1d7.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/7bf36630-caef-4700-8b5e-29b1e00a81c8.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/d6686e6c-933f-45af-ae62-c25cf4ad7884.png"
+    },
+    "initialKnown": false
+  }
+}

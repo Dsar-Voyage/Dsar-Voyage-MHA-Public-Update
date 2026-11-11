@@ -1,0 +1,45 @@
+{
+  "Glacier Hide Quirk": {
+    "name": "Glacier Hide Quirk",
+    "description": "🧊 Ice forms as plates over your skin and hardens to near stone.\n\n🧬 A Fusion Quirk of Ice and Hardening: each side at about half a single Quirk's reach and duration, plus moves only the fusion can do.\n🌱 At the start you send a ridge of stony frost five meters along the ground and strike with frost-hardened knuckles.\n📈 With training: slide tracks, your plated back as cover for allies, a cold bear-hug restraint, armored ice shields grown for others, armor-cracking blows and an anchored stance nothing pushes over.\n⚠️ Heat melts your plates.\n🔗 Common drawback pairing: Bodily Toll, as the cold of your own armor stiffens your joints.\n🎬 Similar canon Quirks: Eijiro Kirishima (Hardening), Shoto Todoroki (Half-Cold Half-Hot, cold side).\n\n📈 Grants: Endurance +1, Quirk Stamina +10, Quirk Output +10, Blocking +5\n⚡ Starting techniques: Rime Wedge, Frostplate Knuckle\n🛡️ Resists: cold, bludgeoning",
+    "traitNarrativeEffects": "Scale: near-stone ice plating and short frost ridges along touched surfaces; at first a limb or torso plates instantly and turns fists, knives, bats and pistol rounds about thirty seconds; knuckles dent a car door; a frozen line of about five meters. More needs learned techniques. Limits: fire and heat melt the plates; electricity and gas hurt; worn long, the cold slows sprint and reflexes; they sink in water. Quirk Strain: light: ridge, plated fist; moderate: slide track, shell guard, bear hug, shed shields; heavy: armor-cracking blow; severe: signature glacier stance, block-wide redoubt. Fusion: Ice and Hardening: about half pure Ice reach, half pure Hardening duration; no room-wide flash-freeze or unchilled armor; only it makes petrified plates to anchor down or detach as shields for others. Type: Emitter (also fits Transformation). Law: unlicensed plate strikes or pins are assault, anchored ice cracking pavement property damage. Look: grinding blue-gray ice.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rime Wedge",
+      "Frostplate Knuckle"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "cold",
+      "bludgeoning"
+    ]
+  }
+}

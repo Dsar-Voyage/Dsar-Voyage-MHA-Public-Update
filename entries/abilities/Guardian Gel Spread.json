@@ -1,0 +1,25 @@
+{
+  "Guardian Gel Spread": {
+    "name": "Guardian Gel Spread",
+    "description": "The user releases a signature gel spread across ten meters for two turns, cushioning falls of up to eight meters for six adults and gumming up the legs of four grounded opponents. A hard pull frees each captive; faces stay clear. The user cannot move while feeding the spread and cannot produce gel for two turns afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Diving Gale Strike": {
+    "name": "Diving Gale Strike",
+    "description": "The user's signature move: they climb on a wing-made updraft, fold their wings and dive in a roaring cone of compressed air that strikes a target and bursts across half a street. It deals massive slashing and force damage and hurls enemies off their feet; held back, the cone breaks early and only flattens them. Firing both natures at full force strips feathers and grounds the user until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

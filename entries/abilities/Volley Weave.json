@@ -1,0 +1,15 @@
+{
+  "Volley Weave": {
+    "name": "Volley Weave",
+    "description": "The user watches the hand, barrel or glow that starts a ranged attack and moves before it fires, weaving through the spread. The user avoids every projectile or beam in a single volley, including a scattered spray, as long as they can see where it comes from. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Dodging",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

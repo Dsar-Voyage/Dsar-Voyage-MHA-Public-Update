@@ -1,0 +1,20 @@
+{
+  "Quell Gaze": {
+    "name": "Quell Gaze",
+    "description": "The user fixes their eyes on a single person in clear sight and switches off that person's Quirk. Until the end of the user's next turn, or sooner if the user blinks or looks away, the target cannot use an Emitter or Transformation Quirk, an active transformation drops back to normal and anything the Quirk was holding up falls. Mutant features keep working. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

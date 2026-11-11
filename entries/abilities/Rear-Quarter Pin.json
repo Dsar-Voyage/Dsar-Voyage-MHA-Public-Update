@@ -1,0 +1,15 @@
+{
+  "Rear-Quarter Pin": {
+    "name": "Rear-Quarter Pin",
+    "description": "The user pulls alongside a fleeing vehicle, taps its rear corner at the right speed, then boxes it against a curb, a barrier or another car. The fleeing vehicle spins out or is pinned and stops, without anyone inside it or nearby being seriously hurt. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Driving",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

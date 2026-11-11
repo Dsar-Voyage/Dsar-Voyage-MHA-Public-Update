@@ -1,0 +1,20 @@
+{
+  "Static Updraft": {
+    "name": "Static Updraft",
+    "description": "The user pops a crackling updraft beneath their feet to hop onto a low roof, a balcony or clear of an incoming attack, which misses them, or places the puff under a falling person to cushion the last few meters of their drop with a harmless buzz of static. The updraft reaches only half a story high and cannot keep anyone aloft past the end of the turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

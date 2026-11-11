@@ -1,0 +1,20 @@
+{
+  "Defused by Touch": {
+    "name": "Defused by Touch",
+    "description": "The user lays a hand on a device or a weapon for a full breath, feels what changed in it during the last minute and returns it to that earlier state: a bomb armed in that span is unarmed again, a pistol loaded in that span is empty and a support gadget switched on in that span switches off. Anything changed earlier does not answer, and the user must stay within the holder's reach while touching it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

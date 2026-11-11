@@ -1,0 +1,20 @@
+{
+  "Smoked Bead Toss": {
+    "name": "Smoked Bead Toss",
+    "description": "The user grows a small handful of smoked black glass beads in the palm and flicks them at a target within five meters. They deal bludgeoning damage and knock the target back half a step; held back, they only sting, and the beads roll across the floor casting tiny pools of shade that make anyone running over them slip and fall. Worn armor stops the beads cold, and growing them dries the user's mouth. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

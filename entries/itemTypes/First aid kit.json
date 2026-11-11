@@ -1,0 +1,20 @@
+{
+  "First aid kit": {
+    "name": "First aid kit",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "First Aid",
+        "value": 5
+      }
+    ],
+    "description": "A zip pouch of bandages, gauze, tape, a tourniquet, burn dressings, antiseptic wipes and disposable gloves. It covers cuts, burns and heavy bleeding until paramedics or a healer take over. [ Tool | About ¥4,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f4ec7471-e238-4f30-aebc-89e580691925.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

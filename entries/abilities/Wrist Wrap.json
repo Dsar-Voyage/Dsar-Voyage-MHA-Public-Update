@@ -1,0 +1,15 @@
+{
+  "Wrist Wrap": {
+    "name": "Wrist Wrap",
+    "description": "The user pins a subdued or cornered target's arms and binds the wrists behind their back with capture tape, cuffs, zip ties or cloth in a single motion. The target cannot use their hands or arms, including any Quirk aimed or emitted through the palms, until someone cuts them free or they break the binding with a feat of strength or Quirk power. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

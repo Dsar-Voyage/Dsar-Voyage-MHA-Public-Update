@@ -1,0 +1,32 @@
+{
+  "Gifted: Enhanced Senses": {
+    "name": "Gifted: Enhanced Senses",
+    "description": "🧬 Enhanced Senses, as an extra Quirk put into your body.\n\n🌱 At the start you hear a whisper through a wall, follow a trail hours old or read a face half a kilometer away, and single out a person in a crowd.\n📈 With training: early warning of attacks, hidden enemies called out, blind runs through smoke, every buried survivor found, disguises seen through, district-wide tracking.\n⚠️ Loud noise always hurts you more.\n🔗 Common drawback pairing: Sensory Overload, as pushed senses flood the brain.\n🎬 Similar canon Quirks: Kyoka Jiro (Earphone Jack), Hound Dog (Dog).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Enhanced Senses family): Scale: superhuman hearing, smell and/or sight in player-chosen organs. A new adult user hears a whisper through a wall, follows a few-hours-old scent a few kilometers, or reads a face half a kilometer off and sees in near darkness. More needs techniques. Limits: no mind reading: a racing pulse shows stress, not a lie. Sirens, flashes, pepper, smoke and perfume swamp matching senses; rain and vehicles break a trail; soundproofing blocks hearing. Sound attacks always hurt them more; bystanders assume they're overheard. Quirk Strain: everyday sensing free; light: trail, singling someone out; moderate: sensing an attack, calling out hidden foes, blind run; heavy: disaster-site sweep, unmasking disguises; severe: signature read, district-wide hunt. Type: Mutant. Law: spying into homes is a privacy crime; courts treat what they sensed as testimony, not proof.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Perception",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

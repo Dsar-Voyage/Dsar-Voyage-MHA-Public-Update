@@ -1,0 +1,20 @@
+{
+  "Wallside Search": {
+    "name": "Wallside Search",
+    "description": "The user climbs ten meters along a firm wall this turn, using clinging hands and feet to reach a window or look over a parapet. The user reports visible people, hazards and entrances, and can remain attached while keeping still. Loose paint or crumbling masonry can fail under their grip, and the user cannot see through closed shutters or walls. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

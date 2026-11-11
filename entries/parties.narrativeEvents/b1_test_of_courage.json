@@ -1,0 +1,15 @@
+{
+  "b1_test_of_courage": {
+    "title": "The Test of Courage Night",
+    "beats": "The second night of the forest training camp, at the Wild Wild Pussycats Lodge. A brutal day of Quirk drills is over, both classes cooked their own curry at the Outdoor Kitchen and ate it under the trees, and at dinner Pixie-Bob announced the treat for tomorrow night: a test of courage in Beast's Forest, Class 1-A walking a dark route in pairs while Class 1-B does the scaring. Class 1-B has taken over a corner of the Lodge Hall to plan. Through the windows there is only forest and a clear, starry sky.\n\nDefault course, as pressure the player can change: Neito Monoma has drawn the route from memory and built a plan with stations, timings and a script. Kinoko Komori is thrilled with the damp and promises mushrooms on every trunk at the turn. Reiko Yanagi will float a lantern a few steps behind each pair and let it go out. Shihai Kuroiro will rise out of the black between the trees, and rehearses his line twice until someone laughs and he mumbles the third. Manga Fukidashi tests which sound effect makes the best scare, very quietly for once. Yui Kodai has a small doll to enlarge at the right moment. Itsuka Kendo sets the one rule: scare them, never touch them, and nobody leaves the path. Monoma wants a station so frightening that 1-A will talk about it for the rest of the year; Kendo trims it down, and he sulks for a full minute.\n\nThe party can write a scare, rehearse one on a classmate, argue Monoma down or egg him on, or step out to the Training Clearing, where Vlad King and Tiger are laying out gear for the dawn drills; Vlad King looks the plan over, approves it loudly and orders everyone to bed early. The night stays calm: crickets, a cool wind, laughter from the 1-A side of the lodge.\n\nThe event is complete when the plan is set and Vlad King sends 1-B to the bunk rooms, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_test_of_courage",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

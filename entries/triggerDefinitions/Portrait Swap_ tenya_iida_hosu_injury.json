@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: tenya_iida_hosu_injury": {
+    "name": "Portrait Swap: tenya_iida_hosu_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_hosu_incident",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/323fd7ee-0b05-4307-b252-601f9f926b92.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/323fd7ee-0b05-4307-b252-601f9f926b92.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/323fd7ee-0b05-4307-b252-601f9f926b92.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/323fd7ee-0b05-4307-b252-601f9f926b92.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Campus: off for the war": {
+    "name": "Campus: off for the war",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_leave_for_troy",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_hospital_after_victory",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "campusOff",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

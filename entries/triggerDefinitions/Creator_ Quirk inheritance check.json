@@ -1,0 +1,16 @@
+{
+  "Creator: Quirk inheritance check": {
+    "name": "Creator: Quirk inheritance check",
+    "recurring": false,
+    "effects": [],
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ],
+    "script": "const P=check({type:'player-traits'})||{};const L=[].concat(...Object.values(P));const has=n=>L.indexOf(n)>=0,out=[];const qless=has('Quirkless')||has('No Quirk');const F=L.filter(n=>n.slice(0,7)==='Fused: '),G=L.filter(n=>n.slice(0,8)==='Gifted: ');const HS=[\"U.A. Hero Course (Class 1-A)\", \"U.A. Hero Course (Class 1-B)\", \"U.A. General Studies\", \"U.A. Support Course\", \"U.A. Management Course\", \"U.A. Faculty\", \"Licensed Pro Hero\", \"Licensed Sidekick\"],GS=[\"League of Villains Recruit\", \"Independent Villain\", \"Vigilante\"];const fOk=false,gOk=has(\"All For One's Gift\")&&GS.some(has);if(has(\"Fusion Quirk\")&&(qless||!fOk))out.push(\"Fusion Quirk\");if(has(\"All For One's Gift\")&&(qless||!gOk))out.push(\"All For One's Gift\");if(qless||!fOk)out.push(...F);else if(F.length>1)out.push(...F.slice(1));if(qless||!gOk)out.push(...G);else if(G.length>2)out.push(...G.slice(2));for(const n of out)effects.push({type:'player-traits',operator:'remove',value:n});if(out.length)effects.push({type:'story',instruction:'Narrator only: the character has a single Quirk; ignore any second Quirk named at creation.'});"
+  }
+}

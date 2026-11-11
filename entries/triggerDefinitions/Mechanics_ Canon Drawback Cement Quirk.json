@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Cement Quirk": {
+    "name": "Mechanics: Canon Drawback Cement Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Cement Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Stamina Drain",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

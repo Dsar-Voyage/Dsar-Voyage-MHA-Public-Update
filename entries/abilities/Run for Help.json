@@ -1,0 +1,20 @@
+{
+  "Run for Help": {
+    "name": "Run for Help",
+    "description": "The user breaks away from the danger, weaving past attackers and debris, and reaches help: the nearest hero, police officer, teacher or a working phone line. Nothing stops the user on the way, the helper learns exactly where the danger is and who is caught in it, and help arrives before the scene ends. A sealed exit, such as a lockdown shutter or a barrier Quirk's wall, still has to be opened first. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Non-Combatant",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Dodging",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

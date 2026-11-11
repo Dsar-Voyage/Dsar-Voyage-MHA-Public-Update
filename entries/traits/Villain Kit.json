@@ -1,0 +1,35 @@
+{
+  "Villain Kit": {
+    "name": "Villain Kit",
+    "description": "🦹 You own black-market tools for crime.\n\n⚖️ Carrying this kit is illegal: the knife, the lockpicks and the smoke grenades all break the law in public.\n🚨 A police stop that finds it means confiscation, arrest and a record, and heroes treat you as a villain from then on.\n🤝 The broker who sold it knows your face.\n🔄 Smoke grenades are spent on use and can only be replaced through the underworld.\n\n🎒 Starts with: Balaclava, Combat knife, Lockpick set, Smoke grenade ×2",
+    "traitNarrativeEffects": "The character owns a criminal's working kit bought through a black-market broker: a knit face covering, a fixed-blade knife, picks with tension wrenches and a bump key, and two smoke canisters. Carrying it is illegal: the knife breaks weapons law in public, lockpicks without a trade reason are banned, and smoke grenades are restricted to heroes and police. A police stop that finds the kit means confiscation, arrest and a record, and heroes treat the carrier as a villain from that moment. The broker who sold it knows the character's face. Smoke grenades are spent on use and can only be replaced through the underworld.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Balaclava",
+        "quantity": 1
+      },
+      {
+        "item": "Combat knife",
+        "quantity": 1
+      },
+      {
+        "item": "Lockpick set",
+        "quantity": 1
+      },
+      {
+        "item": "Smoke grenade",
+        "quantity": 2
+      }
+    ],
+    "unlockedBy": [
+      "League of Villains Recruit",
+      "Independent Villain"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

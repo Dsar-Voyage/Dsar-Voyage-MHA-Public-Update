@@ -1,0 +1,29 @@
+{
+  "Circulating Cold Mantle": {
+    "name": "Circulating Cold Mantle",
+    "description": "The user maintains the circulation of both halves through their chest for three turns, carrying cooling flames around their body while closing through intense heat. Each turn the user can press a cooled hand against one opponent within reach to freeze clothing and restrain a limb until the ice breaks or melts. Held back, contact avoids bare skin. The cooling can be overwhelmed, needs uninterrupted concentration and leaves the user unable to continue it for the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

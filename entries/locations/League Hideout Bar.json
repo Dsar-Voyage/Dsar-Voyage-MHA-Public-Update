@@ -1,0 +1,105 @@
+{
+  "League Hideout Bar": {
+    "name": "League Hideout Bar",
+    "basicInfo": "The League Hideout Bar is a small, dim bar at the end of an alley on the northeastern fringe of Kamino Ward, about 4 km from the shopping street, that no longer serves the public. From the backstreet it is only a steel door with no sign at the end of a dead-end alley. It is the base of the League of Villains, which at the start of the year is two people and almost unknown. Its leader, Tomura Shigaraki, is a thin, pale young man who wears severed hands clasped to his face and body, scratches at his neck when irritated, and talks about villainy as a game; his Quirk turns whatever he touches with all five fingers to dust. Kurogiri, a polite man whose body is dark mist with glowing yellow eyes, tends the bar, does the League's hiring through brokers and opens warp gates with his Quirk. Hired thugs come and go for pay, and most visitors arrive through Kurogiri's gates rather than the door. Kurogiri keeps the glasses polished and the shelves stocked at all hours; Tomura sits at the counter or in the back room playing games. There is no walking in: the door opens only for someone a broker has sent or Kurogiri expects, and a stranger who knocks is turned away through the viewing slot, or worse if Tomura is in a mood. A player can come here to sign on as hired help through a broker's introduction, sell information, or spy on the League from the alley mouth. Inside it is as quiet as a closed shop: low lamps, rows of bottles, a dark monitor on the back wall, and the feeling of being weighed up by people who have already decided what a visitor is worth.",
+    "hiddenInfo": "Tomura Shigaraki's plans change with his mood and his Sensei's advice; the League pays hired villains in cash through brokers and tells them only what they need. A dark monitor behind the bar carries the voice of the man Shigaraki calls Sensei, who advises him with patience and pays for everything; Kurogiri answers to that voice as much as to Tomura and keeps Sensei's confidences, even from Tomura when Sensei wishes. Kurogiri's mist hides a solid body, and the metal collar at his throat protects it; someone who pins that body can hold him. Tomura's temper is short: when a plan goes wrong he destroys things, and hired help who annoy him do not always leave. Tomura talks about heroes as game bosses and the news as level updates. Kurogiri buys muscle through Giran, the broker in Yokohama's Chinatown, cash up front, and looks hired help over one at a time at the counter. Sensei also supplies the League with Nomu, mindless brutes that obey Tomura and travel by Kurogiri's gates; the hired help are never told what they are or where they are kept. In spring the League is two real members and a borrowed budget; after Hosu it grows to a full crew of recruits, but it stays led by a man learning to lead, and far more dangerous than its size suggests.",
+    "x": 5.61,
+    "y": 16.29,
+    "radius": 0.5,
+    "region": "Kamino and Yokohama",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Bar Counter": {
+        "description": "A short wooden counter with eight stools, shelves of bottles behind it under a few low lamps, and a dark monitor on the back wall. Kurogiri stands behind the counter polishing glasses at almost any hour, and Tomura Shigaraki sits on the end stool with a handheld game. The few hired villains Tomura wants to meet are brought here to be looked over and given orders, usually after Kurogiri has poured them a drink and asked their price. No music plays; the only sounds are cloth on glass, the click of game buttons and the hum of the refrigerator, and now and then a quiet voice from the monitor that makes Tomura put the game down. Visitors learn fast not to touch Tomura or sit beside him uninvited. A door behind the counter leads into the Back Room, and the steel front door opens on the Alley Entrance. The wood smells of polish and old whiskey.",
+        "paths": [
+          "Back Room",
+          "Alley Entrance",
+          "Corner Booth"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3d695691-7ced-4f48-8678-52d016d8badd.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Back Room": {
+        "description": "A windowless storeroom behind the bar: cases of liquor and soda, a worn sofa, a game console wired to an old television, a folding table buried in printouts, and a cot. Tomura Shigaraki sleeps and plays here when he is not at the counter, and it is where he and Kurogiri argue over plans away from hired ears, with the television paused on whatever stage Tomura was losing. Anything the League does not want its hired help to see is kept here, in folders Kurogiri keeps squared at the corner of the table and Tomura scatters. Snack wrappers pile up by the sofa until Kurogiri clears them without comment. The room smells of dust and stale snacks, and the fluorescent tube overhead flickers on and off. The only door opens back onto the Bar Counter, and hired help are never invited through it.",
+        "paths": [
+          "Bar Counter"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/37fdf1cf-3573-4fc5-80f0-0ced1787cd6d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Alley Entrance": {
+        "description": "A dead-end alley off a backstreet on the fringe of Kamino Ward, too narrow for a car, ending at a plain steel door with no sign and a small viewing slot. Rain gutters drip onto the pavement, a vending machine at the alley's mouth gives the only light, and the buildings on either side have stood empty for years, their windows boarded. Few people use the door: hired villains who were given directions, brokers bringing someone in, and the occasional lost drunk who is sent away. When someone knocks, the slot opens on a pair of glowing yellow eyes in dark mist, and a polite voice asks who sent them; a wrong answer closes the slot for good. For those who are let in, the door opens onto the Bar Counter. Even the neighborhood cats avoid the alley, and the vending machine hums all night with nobody to buy from it.",
+        "paths": [
+          "Bar Counter"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/395385d9-7098-4f9e-abb5-4a4168b5c629.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Corner Booth": {
+        "description": "A horseshoe booth of cracked red leather at the back of the bar, a few steps from the Bar Counter in the same low-lit room, under a dead neon beer sign. It is where the League's regulars sit between jobs: cigarette burns on the table, a deck of cards, Spinner's Stain clippings taped to the wall, Twice's spare masks in a shoebox, empty glasses Kurogiri collects without comment. From here everyone can see the counter, the dark monitor on the back wall and Tomura Shigaraki on his end stool.",
+        "paths": [
+          "Bar Counter"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3d695691-7ced-4f48-8678-52d016d8badd.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "League of Villains"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b09f5149-8916-4c0d-9071-226b94294cdf.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Graduated Palm Catch": {
+    "name": "Graduated Palm Catch",
+    "description": "The user catches one adult falling from a window up to one story above, enlarging both hands beneath them and lowering their arms while bending the knees to slow the fall. The user adjusts hand size and finger placement to support the head and torso without crushing. The catch requires firm footing and a visible fall; greater height can injure both, and afterward the hands cannot bear another passenger until rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

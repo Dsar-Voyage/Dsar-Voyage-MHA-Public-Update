@@ -1,0 +1,32 @@
+{
+  "Gifted: Animal Heteromorph": {
+    "name": "Gifted: Animal Heteromorph",
+    "description": "🧬 Animal Heteromorph, as an extra Quirk put into your body.\n\n🌱 From the start you have its way of moving, its sharpest sense and its natural weapons: claws, teeth, kicks or a tail.\n📈 With training: sheer walls climbed with someone on your back, ambushes felt early, people snatched from danger, a room bounced around and struck, every heartbeat nearby.\n⚠️ The features are permanent and visible.\n🔗 Common drawback pairing: Sensory Overload, as senses this sharp punish noise and stench.\n🎬 Similar canon Quirks: Tsuyu Asui (Frog), Mirko (Rabbit), Hound Dog (Dog).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Animal Heteromorph family): Scale: the user's body carries one player-chosen animal's senses, movement and natural weapons at human size. New adult users: rabbit or frog legs clear a story per bound; a cat lands on its feet from a second floor; gecko hands cling to walls; the keenest sense matches the animal (a dog's nose trails fresh scent a few blocks). Bigger feats need techniques. Limits: only what the animal's body could do; never flight, gills or venom. Weaknesses too: cold slows cold-blooded bodies, keen noses and ears suffer stench and noise, leapers wrestle poorly. Quirk Strain: none for living in the body; light: bound, sense reading; moderate: wall running, instinct, snatch; heavy: full-strength blow, rampage; severe: signature pounce, sensing a whole block. Type: Mutant. Law: features are legal; unlicensed clawing, biting or kicking a person is assault; the user meets open heteromorph prejudice.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Perception",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

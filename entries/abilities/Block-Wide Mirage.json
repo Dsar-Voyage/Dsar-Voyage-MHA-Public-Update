@@ -1,0 +1,25 @@
+{
+  "Block-Wide Mirage": {
+    "name": "Block-Wide Mirage",
+    "description": "From a high point, the user fills several city blocks they can see with hundreds of moving images for the rest of the scene. They can send an image of every hiding hostage running the wrong way, so villains hunting them chase light, set a line of heroes at every exit and lay lit arrows down every street to a shelter. The images still have no weight, sound or touch. The user must stay at that high point and keep the area in sight, and afterward their store is empty until they have slept. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

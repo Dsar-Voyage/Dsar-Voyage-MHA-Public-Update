@@ -1,0 +1,42 @@
+{
+  "Side Resume: A Smile for Eri": {
+    "name": "Side Resume: A Smile for Eri",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_eri_visit",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_eri_visit",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_eri_visit",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_eri_visit"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_eri_visit",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"A Smile for Eri\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Late October, daytime in the Patient Rooms of Musutafu General Hospital, a week after the Shie Hassaikai raid."
+      }
+    ]
+  }
+}

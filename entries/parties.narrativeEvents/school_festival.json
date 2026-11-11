@@ -1,0 +1,15 @@
+{
+  "school_festival": {
+    "title": "The U.A. School Festival",
+    "beats": "Festival morning at U.A. Academy. Screened guests enter through the Main Gate, police watch the perimeter and a security alarm will cancel the day. Stalls, cafes, haunted houses and Support Course exhibits fill campus; Mei Hatsume pitches her equipment. U.A. Stadium hosts Class 1-A's show and the beauty pageant. If the Hassaikai rescue succeeded, Eri attends safely with Mirio Togata; she remains a child throughout.\n\nThe canon default course, as pressure the player can change: before the show, Izuku Midoriya goes off campus for rope and encounters Gentle Criminal and La Brava on the wooded hill outside the barrier. Gentle once wanted to become a hero, but repeated failures and a failed rescue led him toward filmed crimes and a wish to be remembered. La Brava found purpose in his videos and became his devoted partner. Unless the player changes the encounter, their planned festival intrusion forces Izuku to fight on the wooded hill and the construction approach outside campus, keeping the threat away from the Main Gate and its alarm. Gentle uses Elasticity on the surroundings; Izuku answers with Air Force, directing compressed-air finger flicks through Hatsume's gloves. La Brava declares her love and activates Love to strengthen Gentle. By canon default Izuku defeats the boosted Gentle, and Gentle surrenders quietly while trying to shield La Brava from blame. Hound Dog and the security response take the pair in without triggering the campus alarm; their intrusion video never airs.\n\nUnless the player changes the festival's course, Izuku returns in time for Class 1-A's band and dance set. Kyoka Jiro leads vocals and bass, Katsuki Bakugo plays drums, Mina Ashido leads the dancing, Shoto Todoroki supplies ice effects and Ochaco Uraraka supplies Zero Gravity effects. The show wins over students frustrated by the Hero Course's security restrictions. Eri smiles during the performance by canon default, and Izuku later brings her a candy apple. Nejire Hado wins the beauty pageant. Any actual security emergency can still stop the festival.\n\nA student party performs, runs a stall or visits other courses' attractions; Support students demonstrate equipment and Management students help organize the day. Faculty run campus security, and pros and sidekicks serve as guards or invited guests. Villains can join Gentle's off-campus attempt or pursue an established infiltration. Civilians attend as screened guests. A party on the wooded hill can intervene directly; one at U.A. Stadium sees the show without automatically learning about the quiet arrest.\n\nThe event is complete when Class 1-A's show and the festival have ended, or officials announce a cancellation and clear the guests from campus.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_school_festival",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

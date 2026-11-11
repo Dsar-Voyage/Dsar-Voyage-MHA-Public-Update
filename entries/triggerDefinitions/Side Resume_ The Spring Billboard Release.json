@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Spring Billboard Release": {
+    "name": "Side Resume: The Spring Billboard Release",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "pro_spring_chart",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_pro_spring_chart",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_pro_spring_chart",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "pro_spring_chart"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_pro_spring_chart",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Spring Billboard Release\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The spring Hero Billboard Chart JP release, at the turn of May into June, late afternoon into night."
+      }
+    ]
+  }
+}

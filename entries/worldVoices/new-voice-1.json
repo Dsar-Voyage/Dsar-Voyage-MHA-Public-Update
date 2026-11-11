@@ -1,0 +1,66 @@
+{
+  "new-voice-1": {
+    "label": "",
+    "voiceTag": "Male Voice actor - Anime Dub",
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 0
+      },
+      "reverb": {
+        "enabled": false,
+        "space": "room",
+        "mix": 0.47
+      },
+      "echo": {
+        "enabled": false,
+        "delayMs": 260,
+        "feedback": 0.35,
+        "mix": 0.3
+      },
+      "eq": {
+        "enabled": false,
+        "highPass": {
+          "enabled": false,
+          "frequency": 80
+        },
+        "lowShelf": {
+          "enabled": false,
+          "frequency": 150,
+          "gainDb": 0
+        },
+        "bell1": {
+          "enabled": false,
+          "frequency": 500,
+          "gainDb": 0,
+          "q": 1
+        },
+        "bell2": {
+          "enabled": false,
+          "frequency": 3000,
+          "gainDb": 0,
+          "q": 1
+        },
+        "highShelf": {
+          "enabled": false,
+          "frequency": 8000,
+          "gainDb": 0
+        },
+        "lowPass": {
+          "enabled": false,
+          "frequency": 12000
+        }
+      },
+      "distortion": {
+        "enabled": false,
+        "drive": 0.4
+      },
+      "output": {
+        "enabled": false,
+        "gainDb": 0,
+        "compressor": true
+      }
+    },
+    "instructions": "Anime voice actor from MHA, English Dub anime"
+  }
+}

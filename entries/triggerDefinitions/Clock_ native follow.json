@@ -1,0 +1,15 @@
+{
+  "Clock: native follow": {
+    "name": "Clock: native follow",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const TOD=[\"morning\", \"morning\", \"morning\", \"noon\", \"afternoon\", \"afternoon\", \"evening\", \"evening\", \"night\", \"midnight\"];const N=(k)=>typeof storage[k]==='number'?storage[k]:(check({type:'read-number',key:k})||0);const d=N('currentDay');if(d<1){skip=true;return;}const b=Math.max(0,Math.min(9,N('currentBandIndex')));effects.push({type:'day',operator:'set',value:d},{type:'time-of-day',operator:'set',value:TOD[b]});storage.nsK=d+'|'+b;})();",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ]
+  }
+}

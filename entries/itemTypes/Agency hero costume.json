@@ -1,0 +1,20 @@
+{
+  "Agency hero costume": {
+    "name": "Agency hero costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 90
+      }
+    ],
+    "description": "A licensed pro's working costume, built to the hero's specifications and serviced by the agency's support contractor after every hard shift. Its look is part of the hero's brand: it appears on posters, merchandise and the evening news. [ Armor | Agency-funded; ¥800,000 and up ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/05a52b3c-85c5-46b3-9b0b-a36c8c9897d6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

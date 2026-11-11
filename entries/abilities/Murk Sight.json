@@ -1,0 +1,20 @@
+{
+  "Murk Sight": {
+    "name": "Murk Sight",
+    "description": "The user enters near-darkness, thick smoke, harsh glare or loud din, enduring brief blindness or ringing ears until wide pupils, clear eye films or damped inner ears form by the end of their next turn. While in that hazard they see and hear across a street or building floor to find hidden foes and trapped people; a sudden light or sonic burst dazzles them until their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

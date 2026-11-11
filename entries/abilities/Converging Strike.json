@@ -1,0 +1,20 @@
+{
+  "Converging Strike": {
+    "name": "Converging Strike",
+    "description": "The user times a combined attack with every ally in reach so that all strike the same opponent at the same instant from different sides. The opponent can dodge or block only the first blow; every other blow lands and deals its own damage type, Quirk attacks included. Needs an ally besides the user. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Field Tactician",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Out of Mind": {
+    "name": "Out of Mind",
+    "description": "The user goes still and silent where nobody's eyes rest, with nothing visible on them. Anyone not actively searching for the user loses track of them and speaks and acts freely, taking the user for gone, until the user moves quickly, makes a sound, touches someone or is found by a sense other than sight. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

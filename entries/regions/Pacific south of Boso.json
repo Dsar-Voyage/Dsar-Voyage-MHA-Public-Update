@@ -1,0 +1,28 @@
+{
+  "Pacific south of Boso": {
+    "name": "Pacific south of Boso",
+    "basicInfo": "The open Pacific south of the Boso Peninsula's tip, from about twenty-five to seventy-five kilometers off Nojimazaki, where the sea opens out between the peninsula and the northern Izu Islands. The water is deep, well over a kilometer in most of the cell, and a vivid blue where the Kuroshio runs east through it, warm and fast; when the current swings south, cooler, greener water takes its place. Weather turns quickly here: summer squalls, typhoons in autumn, and strong westerly winds in winter. Boats from Shirahama, Chikura and Tateyama fish bonito, mackerel and flying fish, and sportfishers come for marlin and yellowtail. Big ships bound for Tokyo Bay pass through on their way to the Uraga channel to the northwest. To the north lies the low green tip of Boso; westward, on clear days, the volcanic islands of Izu Oshima, Toshima and Niijima show on the horizon. The coast guard patrols out of Tateyama and the Izu Islands, and maritime heroes take shifts covering the shipping lanes. A party could be out here on a fishing boat, a charter, a passing ship, or carried by a flying hero.",
+    "hiddenInfo": "This is empty water between busy lanes. The danger is weather and collision, and sportfishing boats sometimes ignore warnings. Help is the coast guard, an hour or more out. Petty villainy: ship-to-ship smuggling at night, illegal dumping, and breaking fishing rules.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 2,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bca80e53-df87-4774-8d7c-87a6722eb75d.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

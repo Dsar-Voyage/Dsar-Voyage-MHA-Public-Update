@@ -1,0 +1,32 @@
+{
+  "Gifted: Invisibility": {
+    "name": "Gifted: Invisibility",
+    "description": "🧬 Invisibility, as an extra Quirk put into your body.\n\n🌱 At the start you bend light around a gloved fist for an unseen blow and slip out of people's notice by standing still.\n📈 With training: light flashed into a foe's eyes, every camera in a building mapped, unseen sprints, a person you hold hidden, bonds burned through, a whole group hidden.\n⚠️ Clothes and carried things still show, so you must shed them to vanish fully, and you still make noise, leave footprints and have a scent.\n🔗 Common drawback pairing: Visible Tell, as pushed light flickers your outline into view.\n🎬 Similar canon Quirks: Toru Hagakure (Invisibility).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Invisibility family): Scale: the whole body is permanently invisible (skin, hair, eyes, nails); they see normally and cast no shadow. Clothes and held things stay visible, so full stealth means nothing worn or carried. At first: bending light around a gloved hand for a few seconds. More needs learned techniques. Limits: footsteps, breath, scent and prints in dust or rain give them away; thermal cameras find them. Light tricks fail in darkness; erasure never reveals the body but stops light tricks. People forget the user is there. Quirk Strain: none to be invisible; light: unseen blow, fading from notice; moderate: dazzle, sight-line survey, vanishing sprint; heavy: hiding a held person, burning point; severe: signature burst, hiding a group. Type: Mutant. Law: sneaking into homes or changing rooms is trespass or voyeurism; an unlicensed strike from hiding is assault.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

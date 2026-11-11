@@ -1,0 +1,25 @@
+{
+  "Tranquilizer pistol": {
+    "name": "Tranquilizer pistol",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 3
+      }
+    ],
+    "description": "A compressed-gas pistol that fires darts loaded with a fast-acting sedative. A clean hit brings an average adult down within a minute; large bodies and unusual physiologies can take several darts. Police and licensed heroes carry it when a target has to be taken alive and unhurt. [ Weapon | Licensed heroes and police only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/536219cc-53cd-4416-8738-e3d06fa0a945.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

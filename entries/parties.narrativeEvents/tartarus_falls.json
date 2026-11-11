@@ -1,0 +1,15 @@
+{
+  "tartarus_falls": {
+    "title": "The Prison Opens",
+    "beats": "Before dawn on March 29, alarms interrupt Tartarus while its prisoners remain locked inside. Lady Nagant, Overhaul, Muscular and Stain are among those confined. Shigaraki's Sensei remains in the Maximum-Security Cell Block; Tomura Shigaraki approaches from outside with Near High-End Nomu. At Tartarus Transfer Port, staff receive broken communications. U.A. Academy receives an emergency warning while its injured students are still recovering.\n\nThe canon default course, as pressure the player can change: the consciousness controlling Tomura Shigaraki coordinates the exterior assault with the imprisoned original body. An electromagnetic attack and pressure from both sides defeat safeguards designed to withstand an ordinary breakout. Guards face lethal danger, doors open and prisoners make separate choices about escape. Lady Nagant helps the armless Overhaul leave. Muscular seeks renewed violence; Stain moves independently and obtains information from the prison. The original All For One escapes, and subsequent attacks on other prisons spread the crisis. Both enemy bodies remain distinct people in distinct places. Kurogiri is not released by this assault.\n\nMake a local objective concrete: keep a control station functioning, open an evacuation route, prevent a particular release or secure a departing vessel. A successful intervention can save guards or retain prisoners without automatically defeating every attacker. Prisoners remain reachable until they actually leave. Carry any prevented escape into later encounters rather than producing another copy of the escapee.\n\nBy Path: at Tartarus or Tartarus Transfer Port, Licensed Sidekick and Licensed Pro Hero defend extraction routes; League of Villains Recruit and Independent Villain can escape, recruit or resist the attackers. At U.A. Academy, Class 1-A and Class 1-B protect recovering people, General Studies handles notices, Support restores communications, Management verifies alerts and Faculty secures the shelter. Vigilante and Civilian Life can protect arrivals or seek missing relatives from their present site. Detained players receive a custody decision, not automatic freedom.\n\nThe event is complete when the assault and the player's local emergency have resolved, with specific survivors, captives and escapees identified directly or through a confirmed report.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_tartarus_falls",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

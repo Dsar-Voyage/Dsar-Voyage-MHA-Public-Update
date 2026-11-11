@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: best_jeanist_return": {
+    "name": "Portrait Swap: best_jeanist_return",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Best Jeanist",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/18759bf2-f37f-4fed-b92a-1a550596371e.png"
+      }
+    ]
+  }
+}

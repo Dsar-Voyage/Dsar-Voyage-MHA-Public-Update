@@ -1,0 +1,24 @@
+{
+  "Hinge Breaker": {
+    "name": "Hinge Breaker",
+    "description": "The user braces, charges for one turn and fires at a jammed door or gate within ten meters, breaking its hinges for heavy bludgeoning damage. The user checks that the far side is clear before firing; held back, the shot only bends a lock. Reinforced vault doors resist it, and the hot barrel cannot fire until the end of the user's next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

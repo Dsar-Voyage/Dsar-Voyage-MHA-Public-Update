@@ -1,0 +1,20 @@
+{
+  "Studied: Support Engineering": {
+    "name": "Studied: Support Engineering",
+    "description": "⚙️ You studied support design: an engineering program, a technical high school or nights spent rebuilding broken gear.\n\n🌱 How support items are designed, tested and fitted to a Quirk. You can diagnose a fault and suggest gear that covers a Quirk's weakness.\n⚠️ New inventions, high-power systems and miniaturized parts still fail more often than they work.\n⚖️ Hero gear needs approval from a school, an agency or a licensed support company, and building gear for criminals is a crime.\n🏫 It shows in notebooks of sketches and a habit of taking things apart.\n\n📈 Grants: Support Engineering +15",
+    "traitNarrativeEffects": "The character has studied support engineering: how support items and costume systems are designed, tested and fitted to a Quirk, from frames and power supplies to safety cutoffs. They can diagnose a fault, sketch a design and suggest gear that covers a Quirk's weakness. Prior study, not mastery: new inventions, high-power systems and miniaturized parts still fail more often than they work. Not a license: gear for hero work needs approval from a school, an agency or a licensed support company, and building gear for criminals is a crime. It shows in notebooks of sketches and a habit of taking things apart.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Support Engineering",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

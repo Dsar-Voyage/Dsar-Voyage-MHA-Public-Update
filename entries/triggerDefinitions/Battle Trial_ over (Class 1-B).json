@@ -1,0 +1,36 @@
+{
+  "Battle Trial: over (Class 1-B)": {
+    "name": "Battle Trial: over (Class 1-B)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "greaterThanOrEqual",
+        "value": 5
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: all five Battle Trial rounds are done and every student in Class 1-B has fought once. The exercise is over: no more draws or rounds today; Vlad King gives the review in the Monitoring Room and dismisses the class, who change and walk back to Ground Beta Gate for the campus bus."
+      }
+    ]
+  }
+}

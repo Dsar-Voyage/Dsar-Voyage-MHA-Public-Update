@@ -1,0 +1,29 @@
+{
+  "Whispering Pinion": {
+    "name": "Whispering Pinion",
+    "description": "The user stills the air around every feather on their wings, erasing all sound and wind trail from their flight for the rest of the scene while keeping a thin shell of compressed air along each wing edge. They fly unseen and unheard through smoke or darkness, slip between falling slabs by feeling air pressure on each quill, and strike one target per turn for heavy slashing and force damage that cuts steel cable; held back, the wing flat only stuns and disarms. Holding silent pressure prevents the user from speaking or sending gusts at range. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

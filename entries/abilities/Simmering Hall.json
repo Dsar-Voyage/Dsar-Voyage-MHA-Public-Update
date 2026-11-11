@@ -1,0 +1,24 @@
+{
+  "Simmering Hall": {
+    "name": "Simmering Hall",
+    "description": "The user radiates damp, flameless heat through a single room or corridor for the rest of the scene, narrower than a Fire master's reach, coating every surface in hot condensation. Enemies inside take fire damage and their visors, glasses and scopes fog over so they cannot aim at range; held back, the humid warmth only saps their stamina and forces them to a knee without burns, though dry or freezing air halves the area. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

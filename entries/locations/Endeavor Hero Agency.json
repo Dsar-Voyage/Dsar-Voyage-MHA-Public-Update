@@ -1,0 +1,105 @@
+{
+  "Endeavor Hero Agency": {
+    "name": "Endeavor Hero Agency",
+    "basicInfo": "The agency of Endeavor (Enji Todoroki), the Flame Hero and the Number Two hero at the start of the year, who has resolved more incidents than any hero in Japanese history. It fills a glass tower with his flame emblem on the roof, about 6 km west of Tokyo Station by subway and about 3.5 km from both the Commission Headquarters and the scramble crossing of Central Tokyo Streets. The agency runs on volume: dozens of sidekicks, Burnin, Kido and Onima among them, work shifts that hand over at 6 a.m. and 6 p.m., an operations floor tracks every incident in the city in real time, and teams roll out within minutes of a call. Endeavor patrols in person every day, first out and last back. He commutes from his family home, the walled Todoroki estate on the eastern rise above Musutafu, about 85 km southwest, and stays at the office when a case runs late. The street-level lobby is open to the public around the clock; every floor above it needs an agency ID or a visitor pass issued at reception, and Endeavor's own office needs an appointment with him. Hero students intern here only by Endeavor's personal invitation. Players can apply for a sidekick contract (his trial is short and few pass), bring in a tip or a client, coordinate a joint operation, give a statement on an agency case, or train in the gym on a staff pass. Fans wait on the sidewalk for a glimpse of him at shift change, and he does not stop for them; reporters get a sentence or nothing. Inside, staff walk fast, police radio traffic plays on every floor, and nobody lingers in the halls. It is the most effective agency in the country and one of the least loved, and everyone who works here knows both.",
+    "hiddenInfo": "Endeavor measures everything against All Might, and his staff know a slow week means a cold meeting. The pace burns people out: two sidekicks have quit since the new year, and the night shift is quietly short-handed; Burnin covers the gaps herself and would welcome any capable recruit willing to work nights. Endeavor expects his youngest son, Shoto Todoroki, now a first-year in U.A. Academy's Hero Course, to intern here and one day surpass All Might; senior sidekicks have been told to draft a training plan, though nobody here has heard Shoto agree to any of it, and nobody here asks about Endeavor's family. The news that All Might has joined U.A.'s faculty has made him harder to work for: he reads every report on it and says nothing. The analysts keep an unofficial file on the Hero Killer Stain, who at the start of the year has attacked heroes in several cities and vanished each time. While Stain is at large, Endeavor wants that arrest for this agency and has ordered every lead on Stain brought straight to him, which makes a player with real information very welcome and one who wastes his time very unwelcome. Right now the operations floor is also chasing a run of night-time thefts from delivery depots in the agency's district, done by someone who walks through locked shutters; the police want a joint operation, and the short night shift means Endeavor may lead it himself, which the dispatchers dread. Meanwhile a rival agency has complained to the Commission that Endeavor's teams claim credit for captures they joined late; the complaint sits on a Commission desk, and Endeavor does not know about it yet.",
+    "x": 11.8,
+    "y": -10.45,
+    "radius": 1,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Lobby": {
+        "description": "A double-height lobby of glass and black stone behind the tower's revolving doors, with a reception desk staffed around the clock and security gates behind it that open only to an agency ID or a visitor pass. A wall screen shows the agency's running count of incidents resolved this year, updated as reports come in, beside framed police commendations and the flame emblem cut into the stone. Clients, couriers and police liaisons come and go all day; at shift change, fans crowd the doors hoping to see Endeavor leave on patrol, and security moves them along with practiced politeness. Visitors sign in and wait on hard benches, a receptionist calls each name once, and a soft chime sounds each time the count climbs. Past the gates, an elevator bank and a stairwell lead up to the Operations Floor, where every visitor is escorted and nobody wanders. The air is cool and smells faintly of floor polish and the security desk's coffee.",
+        "paths": [
+          "Operations Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dd0ba8da-cfa8-400d-a504-b33363669e4f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Operations Floor": {
+        "description": "An open floor of dispatch desks facing a wall of screens: police radio feeds, traffic cameras and a city map with every sidekick team marked live in orange. Dispatchers and analysts work twelve-hour shifts that change at 6 a.m. and 6 p.m.; sidekicks report here before and after each patrol and file their incident reports before they go home. Burnin and the other senior sidekicks take their assignments at the map table, and the next team out waits by the elevators down to the Lobby. Phones are answered within three rings, idle talk is not allowed, and the radio traffic never stops. A door at the back opens on the stairs to the Training Gym; a private elevator rises to Endeavor's Office, and when it chimes the whole floor straightens. Whiteboards list open cases and the night shift's empty slots, the coffee machine is never off, and the air smells of toner and burnt grounds.",
+        "paths": [
+          "Lobby",
+          "Training Gym",
+          "Endeavor's Office"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fd1ee6ee-9696-4f31-821d-9178d755b3a6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Training Gym": {
+        "description": "A reinforced gym two floors high, lined with heat-resistant panels, with sprinklers in the ceiling and a fenced sparring ring scorched black at the center. Weight racks, a running track around the upper gallery and a row of cold-water showers fill the edges. Sidekicks train here between shifts: weights, sparring, endurance runs and supervised Quirk drills logged on a clipboard by the door, which every user signs. Endeavor trains alone before dawn and uses the ring for new hires' trials, which rarely last a minute; outsiders with a staff pass may train here once he has gone out on patrol. The ventilation roars whenever someone uses a fire Quirk, the air stays hot long after he leaves, and the mats smell of scorched rubber. A board by the door posts the fastest endurance times, and sidekicks who slip down it hear about it. The stairwell leads back up to the Operations Floor.",
+        "paths": [
+          "Operations Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/98f701d6-c211-49eb-8163-52dc97d2e5c7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Endeavor's Office": {
+        "description": "A top-floor corner office with floor-to-ceiling windows over the city, a steel desk, two hard chairs for visitors and almost nothing personal. The one thing on the walls is a framed print of the latest Hero Billboard Chart, hung where Endeavor sees the Number One name from his desk. He reads reports here late into the night and sees senior sidekicks, police commanders and partner agencies by appointment, booked in short blocks. Staff knock once and wait, and nobody sits until he tells them to. A cot folds out of a cabinet for nights when a case runs late, and the heat he gives off keeps the room warmer than the floors below, whatever the thermostat says. The only way in is the private elevator from the Operations Floor, which needs his clearance. Meetings here are short; he asks for results, not reasons, and a visitor who answers a question with an excuse is shown out.",
+        "paths": [
+          "Operations Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7495e2cd-64f1-4ebd-a41a-7372fb530be1.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Endeavor Hero Agency"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dd49fbf2-35ee-4857-a0d0-8d3edaeec5a8.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

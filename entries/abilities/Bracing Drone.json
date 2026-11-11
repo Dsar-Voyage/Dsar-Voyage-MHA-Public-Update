@@ -1,0 +1,24 @@
+{
+  "Bracing Drone": {
+    "name": "Bracing Drone",
+    "description": "The user presses a hand to a cracking wall or a shifting rubble pile and holds a low vocal drone whose vibration locks loose stone in place across a room-sized collapse. For the rest of the scene no slab there slides further while rescuers pull people out, and the returning hum tells the user if a beam starts to give. It steadies a single room rather than a whole building, and the user cannot move or speak while holding it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

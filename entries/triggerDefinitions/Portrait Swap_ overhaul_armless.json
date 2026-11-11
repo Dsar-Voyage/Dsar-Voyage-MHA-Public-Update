@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: overhaul_armless": {
+    "name": "Portrait Swap: overhaul_armless",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_convoy_ambush",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Overhaul",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/a879d8d9-daa1-4351-99cf-aab3ef99ddd9.png"
+      }
+    ]
+  }
+}

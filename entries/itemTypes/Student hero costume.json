@@ -1,0 +1,20 @@
+{
+  "Student hero costume": {
+    "name": "Student hero costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 40
+      }
+    ],
+    "description": "A Hero Course student's first costume, padded where the body takes hits and fitted with features that serve the Quirk it was built for. The first real exercises usually show what the design got wrong. Wearing it grants no legal rights; only a license does. [ Armor | School-funded; made by a contracted support company from the student's design request ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/456ec7ec-58bc-4040-b99d-2408c5e68e0d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

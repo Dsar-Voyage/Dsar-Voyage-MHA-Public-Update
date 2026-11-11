@@ -1,0 +1,28 @@
+{
+  "Southern Kii Channel": {
+    "name": "Southern Kii Channel",
+    "basicInfo": "Open Pacific between Cape Muroto and the Kii Peninsula, the southern approach to the Kii Channel and the sea lane into Osaka Bay. No land lies inside; on clear days the dark headland of Muroto shows to the northwest and the mountains of Wakayama's coast to the northeast, each tens of kilometers off. The water is deep, open and blue, the seafloor falling southward toward the Nankai Trough, and the warm Kuroshio runs along the south, setting ships eastward. Swell is near constant; fog forms in early summer and typhoons pass through in late summer and autumn. This is one of Japan's busiest shipping approaches: container ships, tankers, car carriers and bulk ships bound to and from Osaka, Kobe and Wakayama pass in long lines, and overnight long-distance ferries between the Osaka Bay ports and southern Kyushu cross it, lit up at night. Fishing boats from Muroto, Kaiyo and Tanabe come out after bonito and tuna. A party out here would be on a ferry deck or a fishing boat, aboard a coast guard patrol, or carried by a flying or swimming hero.",
+    "hiddenInfo": "Big-ship traffic is the main risk: collisions, fires and crew lost overboard far from shore. The coast guard handles nearly everything, and the nearest heroes able to reach the open channel are flyers or maritime specialists from Wakayama, Tokushima or Kochi. Small trouble is smuggling aboard freighters and illegal fishing.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -8,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0d2ecdb1-69d7-478f-a0d2-ec94fc3f44ba.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

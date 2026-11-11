@@ -1,0 +1,24 @@
+{
+  "Living Grove": {
+    "name": "Living Grove",
+    "description": "The user roots into the ground and spreads through every tree, hedge and patch of soil across a city block. For the rest of the scene those plants answer them: they can bind any enemy standing on soil, grass or broken pavement until the enemy tears free with a hard effort or is cut loose, raise a hedge across any street and catch anyone who falls in a net of branches, and the bindings cause no injury. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Plant Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

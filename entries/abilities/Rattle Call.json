@@ -1,0 +1,20 @@
+{
+  "Rattle Call": {
+    "name": "Rattle Call",
+    "description": "The user projects a sharp, low-pitched shout at a target within a few strides, and the sound carries a physical tremor that shakes what it hits. It deals sonic damage, rattles the target's grip so they cannot aim until the end of their next turn, and shakes dust from walls; held back, it only jolts them back a step. It reaches half the cone of a pure sound blast, and ear protection and padded clothing blunt it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mha_momo_yaoyorozu": {
+    "label": "Momo Yaoyorozu",
+    "voiceTag": "female calm controlled",
+    "instructions": "Refined young woman's voice, mid-low, smooth and articulate; polite, formal and precise, with a tutor's patient clarity. Composed pace, curious and wide-eyed about ordinary things, crisp and decisive under pressure. American accent, never British.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mha_endeavor": {
+    "label": "Endeavor",
+    "voiceTag": "male commanding intense",
+    "instructions": "A very deep, gravelly, intimidating voice, low and curt. Barks orders and never explains; terse and impatient with reporters, a bitter growl at All Might's name. Enraged, a roaring bellow; even rare softer moments stay rough and halting.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Standing Nightglass": {
+    "name": "Standing Nightglass",
+    "description": "The user hardens shadow so deeply that it no longer needs the dark. For the rest of the scene every pin, pane and bind they harden stays solid in noon sun, floodlights and fire: a dark glass bridge across a street, a sealed pane over a burning stairwell, or a cage around a target that holds until heavy blows shatter it. Each shape draws on the user's own shadow, so while any stands the user casts no shadow, cannot step between shadows and feels every blow the shapes take as a jolt through the hands. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

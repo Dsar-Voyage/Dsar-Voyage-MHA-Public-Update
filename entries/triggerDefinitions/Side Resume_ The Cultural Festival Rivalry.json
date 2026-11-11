@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Cultural Festival Rivalry": {
+    "name": "Side Resume: The Cultural Festival Rivalry",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "b1_festival_rivalry",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_b1_festival_rivalry",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_b1_festival_rivalry",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "b1_festival_rivalry"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_b1_festival_rivalry",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Cultural Festival Rivalry\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The days before the School Festival at U.A."
+      }
+    ]
+  }
+}

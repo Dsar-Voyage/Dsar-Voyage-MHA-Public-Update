@@ -1,0 +1,20 @@
+{
+  "Midair Pivot": {
+    "name": "Midair Pivot",
+    "description": "The user leaps and locks their own motion at the top of the jump, hanging in place for a moment before turning onto a new line at the same speed. Chaining leaps, they cross a street-wide gap, change course in the middle of a fall or climb a building face in zigzags. The user gains no speed from it, so a short hop turns only into a short hop, and a fall turned sideways is still a fall. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

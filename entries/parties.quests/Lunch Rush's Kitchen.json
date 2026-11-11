@@ -1,0 +1,17 @@
+{
+  "Lunch Rush's Kitchen": {
+    "name": "Lunch Rush's Kitchen",
+    "questSource": "Lunch Rush",
+    "questStatement": "Lunch Rush feeds all of U.A. Academy at student prices, and at noon his cafeteria is a storm. He is short-handed and has asked for help at rush hour: carrying trays, washing rice pots, keeping the line moving. He has one more problem, which he mentions in very few words: things are going missing from the pantry at night. Not money. Sugar, rice and an entire case of eggs.",
+    "mainObjective": "Work the lunch rush in Lunch Rush's Cafeteria and find out who is raiding the pantry.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has worked at least one lunch rush for Lunch Rush, and the pantry thefts are explained and stopped, the culprit caught, confessed or forgiven."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Cozy campus mystery. Lunch Rush speaks in few words from behind his mask and never removes it. The culprit is ordinary: a student whose Quirk burns food faster than meals cover, a Support Course team using eggs and sugar in a prototype, or a dorm throwing a secret party; the narrator picks one that fits the people the PC knows. Nobody from outside U.A. is involved. It stays a small kitchen mystery among U.A.'s own students and staff. A faculty PC can treat it as a lesson in student welfare. Failure: Lunch Rush padlocks the pantry and the culprit goes hungry.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

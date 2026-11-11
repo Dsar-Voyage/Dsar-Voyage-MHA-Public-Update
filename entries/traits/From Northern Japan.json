@@ -1,0 +1,24 @@
+{
+  "From Northern Japan": {
+    "name": "From Northern Japan",
+    "description": "❄️ You grew up in Tohoku or Hokkaido: long winters, deep snow, fishing ports and mountain towns.\n\n🥶 You can work through the cold.\n🆘 You know how to dig people out when the snow comes down.\n\n📈 Grants: Conditioning +5, Search and Rescue +5",
+    "traitNarrativeEffects": "Grew up in northern Japan, a Tohoku prefecture or Hokkaido as the player chooses (default: a snowy Tohoku town). How Musutafu and Tokyo treat them: the accent marks them as rural; some tease it, many assume patience, quiet and honesty, some mistake quiet for slow (exploitable). Other northerners treat them as kin. Cold barely registers; humid summers wear them down. Speech: slower and softer than Tokyo's, thicker on calls home; show a few words and rhythm, never phonetic spelling. Tohoku: 'nda' (yes), '-be' suggestions ('iku-be', let's go), 'shi' and 'su' blurred; Hokkaido: 'namara' (very), 'shibareru' (freezing), 'nageru' (throw out). Local knowledge: snow driving, clearing roofs, digging out neighbors, avalanche and tsunami drills, sea and mountain weather, fishing-port and farm work, how far the nearest hero agency is. Who they know: neighbors who dug each other out each winter, a volunteer firefighter or fisherman mentor, family sending rice, apples or seafood.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Conditioning",
+        "modifier": 5
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

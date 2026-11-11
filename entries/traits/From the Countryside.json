@@ -1,0 +1,24 @@
+{
+  "From the Countryside": {
+    "name": "From the Countryside",
+    "description": "🌾 You grew up in a farm village or a small mountain town where everyone knew your family.\n\n🐄 You can handle animals, read the weather and live off the land.\n⚠️ City crowds still take getting used to.\n\n📈 Grants: Animal Handling +5, Survival +5",
+    "traitNarrativeEffects": "Grew up in rural Japan (paddies, orchards, forest or a mountain valley; region player's choice). Back home neighbors quietly used Quirks for harvest or snow and nobody reported it; in the city the same habit in public brings a police warning or worse, which they may not see coming. Musutafu and Tokyo see a country person, naive or old-fashioned; train transfers, crowds and strangers who ignore greetings take adjusting to. Knows everyone back home, who know their business: an elder, a neighbor with a truck, a childhood friend running the family farm; the narrator may name one when the story reaches home. Speech: the region's country dialect with grandparents' older words; show a few words, not phonetic spelling. Local knowledge: farm work, livestock, boar, deer, monkeys, bears, foraging, mountain weather, shrine festivals, an hourly bus, a volunteer fire brigade that beats any hero to emergencies. Greets shopkeepers, leaves doors unlocked, winces at city food waste.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Animal Handling",
+        "modifier": 5
+      },
+      {
+        "skill": "Survival",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

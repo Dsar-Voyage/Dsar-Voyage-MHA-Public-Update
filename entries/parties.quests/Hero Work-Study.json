@@ -1,0 +1,17 @@
+{
+  "Hero Work-Study": {
+    "name": "Hero Work-Study",
+    "questSource": "Mirio Togata",
+    "questStatement": "Shota Aizawa brings in the Big Three to explain work-studies: Mirio Togata, Tamaki Amajiki and Nejire Hado, third-years who already work at pro agencies during term. A licensed student can join an agency for real cases between classes, at the agency's request and with the school's approval. Mirio demonstrates by taking on the whole class at once in the gym, then tells the room plainly what experience costs and what it buys.",
+    "mainObjective": "Win a work-study placement at a pro agency and work your first real shift there.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has secured a work-study placement with a pro agency, cleared it with Shota Aizawa, and worked at least one case or patrol shift there."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "The Big Three in full color: Mirio Togata sunny and unbeatable, Tamaki Amajiki talking to the wall, Nejire Hado firing questions at everyone. Mirio's demonstration bout is supervised and he holds back. Agencies want a reason to say yes: an internship host, a Big Three referral or a pro the PC impressed. Canon defaults as background: Eijiro Kirishima joins Fat Gum through Tamaki; Ochaco Uraraka and Tsuyu Asui join Ryukyu through Nejire; Izuku Midoriya seeks out Sir Nighteye through Mirio. Without a license, agencies refuse and the quest waits. Agency work stays ordinary unless the story leads elsewhere; this quest never stages or hints at the Shie Hassaikai raid.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

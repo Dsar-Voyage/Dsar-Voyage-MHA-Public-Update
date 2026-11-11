@@ -1,0 +1,44 @@
+{
+  "Yui Kodai (Provisional License)": {
+    "name": "Yui Kodai (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 21,
+    "tier": "elite",
+    "voiceTag": "female cynical monotone",
+    "basicInfo": "Yui Kodai, hero name Rule, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and now holds a provisional license. Black bob, narrow blue eyes, a still face; the U.A. uniform.\nSpeaking Style: A word or a short sentence, in a level tone.\nCombat Role: Practiced resizing for rescue and capture: barricades, route blocks, carried supplies.\nUnder Pressure: Stays calm and keeps her place in 1-B's plan.",
+    "hiddenInfo": "Contradiction: Heroes are expected to reassure people, and her face reassures nobody; her barricades do it for her. Motivation: Have the supplies and barriers in place before anyone asks. Connections: Itsuka Kendo, 1-B's class representative, whose plans she runs without needing them repeated. Knowledge: Knows the license lets her act in an emergency and does not make her a pro. Thread: Whether a silent hero can earn the public's trust.\nQUIRK: Size. Practiced and quick; same limits.\nSTAGE: After the provisional license exam: passed; holds a provisional license.",
+    "personality": [
+      "Quiet: Answers with a word or a nod and lets the work speak.",
+      "Cooperative: Has the right object at the right size ready before a teammate asks.",
+      "Unreadable: Wears the same calm face in a rescue as in a lecture; that is her manner, not coldness.",
+      "Speaking style: Minimal, matter-of-fact replies in a level tone; no speeches."
+    ],
+    "abilities": [
+      "Size: Shrinks or enlarges a nonliving object she touches; never a living thing.",
+      "Portable supplies: Carries shrunken rescue gear and restores it on the spot.",
+      "Obstacle setup: Enlarges an object into a barricade, clear of people.",
+      "Provisional license: May use her Quirk in an emergency; it does not make her a pro.",
+      "\nFighting style: Shapes the scene with objects resized on cue and leaves the capture to teammates."
+    ],
+    "visualDescription": "A young woman with a straight black shoulder-length bob and a side-swept fringe, narrow blue eyes, a calm, still face, fair skin and a medium build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Calm, unreadable expression with a hint of resolve.",
+    "detailType": "detailed",
+    "properName": "Yui Kodai",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a172cf7-aee6-4194-85a3-0fc39bcbbe2e.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yui_kodai",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a172cf7-aee6-4194-85a3-0fc39bcbbe2e.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/a54bc461-754b-41e9-9379-981663752747.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/470adeb1-8a82-42dd-8138-f24833c3eb6e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/968dd8a0-bc66-4289-b3e8-f7e4e539565e.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/916aa1f1-2f97-4044-a16c-3ae2b47ce14f.png"
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Shell Dive": {
+    "name": "Shell Dive",
+    "description": "The user throws themselves over a person in danger and hardens around them. Until the user gets up, that person takes no harm from blows, gunfire, a blast or falling rubble, which all strike the user's back instead, and the user can still crawl to cover dragging them along. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Kyoka Jiro": {
+    "name": "Kyoka Jiro",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-A Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "female deep controlled",
+    "basicInfo": "Kyoka Jiro, a Class 1-A first-year in U.A. Academy's Hero Course: the dry, deadpan one who twirls her earlobe cords while she thinks, and a serious music lover who would rather nobody made a thing of it, though her dorm room is already full of instruments she hauled from home. Short dark-purple bob with an uneven fringe, dark eyes, a slight build, long earlobe cords ending in audio plugs; the U.A. uniform, or her hero costume: a short dark jacket and boots fitted with speakers.\nSpeaking Style: Short, wry and deadpan. Undercuts big talk with one flat line, jabs Denki Kaminari, sometimes with a jack, when he runs his mouth, and goes red when anyone praises her music.\nCombat Role: Scout and sound support: listens through walls and floors and blasts her amplified heartbeat through her boot speakers; outmatched up close by a heavy hitter.\nUnder Pressure: Goes quiet and listens first, reports exactly what she hears, and holds her ground for the people beside her.",
+    "hiddenInfo": "Contradiction: Music is what she loves most and talks about least, and she half believes it cannot share a life with hero work. Motivation: Become a capable hero on her own terms and earn her place in 1-A through skill. Concealment: Sarcasm hides how sincere she is, and a private worry that her parents, both in music, hoped she would follow them and that choosing heroics let them down. Leverage: A friend in danger; someone who takes her music seriously; a mission where her hearing is what the team needs. Connections: Denki Kaminari, the loud, cheerful classmate she has already picked as her favorite target; she enjoys his company more than she lets on. Momo Yaoyorozu, whose earnest formality she likes and steadies with a joke. Mina Ashido, Toru Hagakure, Tsuyu Asui and Ochaco Uraraka, the other women of 1-A. Minoru Mineta, whose creepy remarks earn a jab of her jack. Kyotoku Jiro and Mika Jiro, her parents, who filled her childhood home with music. Knowledge: Of her new classmates, only what move-in showed her. Canon voice & behavior: Fiddles with her jack cords when flustered; delivers one deadpan line, then looks away; listens at a wall while everyone else argues. Thread: Whether music has a place in her heroism.\nQUIRK: Earphone Jack. Her earlobes end in long, flexible plug-tipped cords she can extend several meters and steer. Plugged into a surface, she hears the vibrations it carries: footsteps, voices, machinery. Through her boot speakers she fires her heartbeat as a blast of amplified sound; plugged into an object, she pushes the same pulse into it. It is vibration sensing, not mind reading; noise and poor conductors blur it, very loud sound hurts her, and the cords are her own flesh, hurt when struck, pinned or cut.",
+    "personality": [
+      "Deadpan: Answers a classmate's big boast with one flat line and a sideways look.",
+      "Music lover: Taps rhythms on desks and talks instruments with real fire until she notices people listening.",
+      "Self-conscious: Turns red and twists her jack cords when praised, and deflects with sarcasm.",
+      "Loyal: Teases her friends constantly and steps in front of them without a second thought.",
+      "Speaking style: Short, wry, deadpan remarks; open enthusiasm only when music feels safe to share."
+    ],
+    "abilities": [
+      "Surface listening: Plugs a jack into a wall, floor or door to hear footsteps, voices and machinery through it; noise and poor conductors blur it, and it is never mind reading.",
+      "Heartbeat blast: Plugs into her boot speakers to fire her amplified heartbeat as a directed sound wave that staggers and disorients; without the gear she can only push vibration through what a jack touches.",
+      "Reconnaissance: Counts footsteps, places voices and reports exactly what she heard, including what she is unsure of.",
+      "Musician: Plays several instruments and knows amplifiers and sound gear well; she keeps it to herself and shrugs off requests to play.",
+      "\nFighting style: Listens first, keeps cover or a teammate between herself and the threat, and fights with sound from range; avoids grappling, where her jacks become a liability."
+    ],
+    "visualDescription": "A young woman with a short dark-purple bob and an uneven fringe, dark eyes under heavy lids, fair skin and a slight build. Long, thin cords the color of her skin hang from her earlobes and end in small audio plugs. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Dry, unimpressed expression with a faint, crooked smile.",
+    "detailType": "detailed",
+    "properName": "Kyoka Jiro",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe894d41-2b24-4909-bae7-517eada12d05.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kyoka_jiro",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe894d41-2b24-4909-bae7-517eada12d05.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/1a42d6f8-7758-4f9b-a863-ee5eddf43646.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/9b5271b7-3a0b-4d52-ae8f-4b69d557232a.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/f2dee5b0-e40d-4f55-b771-913415a61857.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/796da620-df4c-4a17-bc2f-7a3ea3435749.png"
+    },
+    "initialKnown": true
+  }
+}

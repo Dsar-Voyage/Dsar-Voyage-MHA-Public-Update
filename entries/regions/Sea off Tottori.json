@@ -1,0 +1,28 @@
+{
+  "Sea off Tottori": {
+    "name": "Sea off Tottori",
+    "basicInfo": "Open Sea of Japan off the central Tottori coast, from the Tottori Dunes and Aoya in the east to the Yurihama and Kotoura shore in the west. The coast lies just beyond the cell's southern edge, so the dunes show as a pale strip on the southeastern horizon, with the green Chugoku Mountains behind and, on clear days, Mount Daisen far to the southwest. The water is clear blue near shore and deepens northward past a hundred meters, with the Tsushima Current flowing northeast. Summers are calm and hot, good for swimming and diving off the rocky stretches; winters bring northwest gales, high surf onto the dunes and snow squalls. Tottori port and the small harbors along the shore send out boats for squid, flying fish, sea bream and, in winter, snow crab, and divers take wild rock oysters in summer. Ships are few. The coast guard watches from its offices along the coast, and the hero agencies of Tottori city can reach the water within half an hour. A party could be out here on a fishing or charter boat from Tottori, a sea kayak along the coast, or a flight over the dunes.",
+    "hiddenInfo": "The shore here is quiet and the trouble is ordinary: poaching of oysters and abalone, unlicensed boats, and swimmers caught by rip currents off the dunes. Help is close by Sea of Japan standards, the coast guard and Tottori heroes within half an hour or so. Winter seas make rescue slow.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -9,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dd32502d-a0ab-4f3a-ac95-1e94f3728eb9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

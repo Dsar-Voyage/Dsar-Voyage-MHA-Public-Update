@@ -1,0 +1,24 @@
+{
+  "Crossed Vectors": {
+    "name": "Crossed Vectors",
+    "description": "The user locks up to four moving enemies within a street's width at a glance, runners, leapers or a charging heteromorph, and turns each onto a new line: into each other, into a wall or down into the ground. Each takes heavy bludgeoning damage from their own speed; held back, the user turns them into open ground where they only tumble and lose their footing. Enemies standing still are out of reach. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

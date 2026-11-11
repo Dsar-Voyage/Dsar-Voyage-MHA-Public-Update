@@ -1,0 +1,20 @@
+{
+  "Turnabout Throw": {
+    "name": "Turnabout Throw",
+    "description": "The user touches a lunging attacker or a thrown object in flight, locks its motion and turns it onto a new line at the same speed. A lunging attacker is turned into the ground and takes bludgeoning damage from their own momentum; held back, the user turns them aside and they only stumble past. A thrown object can be turned back toward its thrower, and a slow attack turns only into a slow fall. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

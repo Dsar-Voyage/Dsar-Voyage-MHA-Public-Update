@@ -1,0 +1,24 @@
+{
+  "Living Mural": {
+    "name": "Living Mural",
+    "description": "The user paints a mural across a street-facing wall during a full turn, and for the rest of the scene it keeps sending out constructs on its own: each turn a rope lowers someone from a window, a hound pins an enemy within a street's width, or a bird scouts and returns as a sketch. The mural follows the user's last orders even while they fight elsewhere, until rain or a hose washes it off the wall. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

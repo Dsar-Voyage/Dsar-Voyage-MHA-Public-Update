@@ -1,0 +1,20 @@
+{
+  "Drowse Fog": {
+    "name": "Drowse Fog",
+    "description": "The user releases a slow cloud of heavy knockout gas that fills a room. Anyone breathing it grows drowsy and cannot run, strike with full force or use fine skills while inside, and anyone still inside at the end of their next turn falls asleep until shaken awake, hurt or carried into fresh air. Sealed masks and held breath keep it out. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

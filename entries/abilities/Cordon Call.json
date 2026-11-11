@@ -1,0 +1,20 @@
+{
+  "Cordon Call": {
+    "name": "Cordon Call",
+    "description": "The user radios the agency and police with the location, the villain, their Quirk and the casualties, then directs the first officers into a perimeter. Until the scene ends, no bystander wanders into the danger zone, and anyone leaving it on foot or by vehicle is seen and reported. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Licensed Sidekick",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

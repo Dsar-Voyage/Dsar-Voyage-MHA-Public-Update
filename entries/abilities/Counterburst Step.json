@@ -1,0 +1,20 @@
+{
+  "Counterburst Step": {
+    "name": "Counterburst Step",
+    "description": "The user meets an incoming attack with a small, exact release of the Quirk at the instant of impact: a burst, a flare, a hardened patch or a surge of strength. The attack is knocked aside without harm, including a thrown object or a shot, and an attacker within reach takes the Quirk's own damage type from the same release (bludgeoning from a strengthened or hardened body). A blast that fills the area is too big to turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirk-Centered Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

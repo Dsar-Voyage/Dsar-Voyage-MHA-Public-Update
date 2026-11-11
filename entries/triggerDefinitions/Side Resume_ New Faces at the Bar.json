@@ -1,0 +1,42 @@
+{
+  "Side Resume: New Faces at the Bar": {
+    "name": "Side Resume: New Faces at the Bar",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "v_new_recruits",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_new_recruits",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_v_new_recruits",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "v_new_recruits"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_v_new_recruits",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"New Faces at the Bar\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: An evening at the League Hideout Bar, days after the Hosu incident."
+      }
+    ]
+  }
+}

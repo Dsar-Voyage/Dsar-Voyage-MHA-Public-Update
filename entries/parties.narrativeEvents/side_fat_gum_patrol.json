@@ -1,0 +1,15 @@
+{
+  "side_fat_gum_patrol": {
+    "title": "Unbreakable",
+    "beats": "Early October, daytime in Osaka Downtown and the Fat Gum Hero Agency. The BMI Hero Fat Gum walks a lively street patrol through the Covered Arcade and Dotonbori Canal with his third-year intern Tamaki Amajiki and his new Class 1-A work-study student Eijiro Kirishima, chatting with shopkeepers and sharing takoyaki between street checks.\n\nDefault course as pressure: a street gang fight breaks out in the Covered Arcade and spills into the Back Streets. Fat Gum sinks the fleeing thugs straight into his body, and Tamaki pins the rest with clam shells and octopus tentacles, until a panicked gunman in the crowd fires a strange dart from the shadows. The round hits Tamaki in the arm; when he tries to manifest his Quirk again, nothing happens—his power has been temporarily erased. Before the shooter can escape, a cornered confederate injects himself with the black-market drug Trigger, sprouting long blades from his body that slice through Eijiro's ordinary Hardening and threaten bystanders in the alley. Remembering how he froze in the past, Eijiro refuses to back down and pushes his Quirk beyond its normal limit, hardening every inch of his skin, teeth, and eyes into jagged armor: Red Riot Unbreakable. He shatters the Trigger-boosted blades, drives the villain back into Fat Gum's waiting belly, and secures the arrest. Afterward, at the Fat Gum Agency Front Office, Tamaki's Quirk begins to return after rest, and Fat Gum bags the crushed dart casing as hard evidence of a Quirk-destroying drug on the streets.\n\nBy path: a Class 1-A or Class 1-B student on work-study patrols beside Kirishima and Tamaki; a Licensed Pro Hero or Licensed Sidekick working the Osaka beat joins Fat Gum's pursuit in the Back Streets, helps shield civilians from the Trigger blades, or tracks the shooter who fired the dart.\n\nThe event is complete when the Trigger-boosted villain is in Fat Gum's custody, Tamaki is checked over, and the bullet evidence is secured.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_fat_gum_patrol",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

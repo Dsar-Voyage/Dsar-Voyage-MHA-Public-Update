@@ -1,0 +1,30 @@
+{
+  "Clean Technique": {
+    "name": "Clean Technique",
+    "description": "🖐️ Your movements are precise and practiced: cleaner strikes, steadier hands, finer work.\n\n🎯 Good for martial artists, builders and anyone who works with fine control.\n📋 Requires level 16 and Technique 13.\n\n📈 Grants: Technique +1",
+    "traitNarrativeEffects": "The character has refined their form through repetition: blows land where they aim, tools do what they intend, holds lock on the first attempt and fine work comes out right. Show it in efficient, unhurried motions with nothing wasted. Limits: precision adds no strength, and exhaustion and fear still shake the hands.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "attribute",
+        "variable": "technique",
+        "amount": 13
+      }
+    ]
+  }
+}

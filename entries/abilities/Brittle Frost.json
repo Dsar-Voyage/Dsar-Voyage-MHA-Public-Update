@@ -1,0 +1,24 @@
+{
+  "Brittle Frost": {
+    "name": "Brittle Frost",
+    "description": "The user flash-freezes a target's armor, weapon or hardened skin with a touch and strikes the brittle ice apart. It deals heavy cold damage that ignores worn armor and hardened skin, and any shield, blade or body armor it hits cracks and becomes useless. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

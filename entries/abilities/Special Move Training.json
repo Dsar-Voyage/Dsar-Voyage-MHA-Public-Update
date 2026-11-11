@@ -1,0 +1,9 @@
+{
+  "Special Move Training": {
+    "name": "Special Move Training",
+    "description": "The user tries to create a new Special Move: a use of their Quirk (or, with no Quirk, of their body, gear or fighting style) that they have drilled, had a teacher correct, or improvised under real pressure, aimed at one clear result. +10 on the attempt. On full success they learn it as a new Special Move; a failed or mixed attempt teaches nothing yet. Cost: as the move attempted.",
+    "requirements": [],
+    "bonus": 10,
+    "cooldown": 30
+  }
+}

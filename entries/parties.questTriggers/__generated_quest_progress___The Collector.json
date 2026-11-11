@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/The Collector": {
+    "name": "__generated_quest_progress__/The Collector",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has answered the Shie Hassaikai's offer and has worked for the house, paid it off, refused it or slipped its hold, and Overhaul has taken note of the answer."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The Collector"
+      }
+    ]
+  }
+}

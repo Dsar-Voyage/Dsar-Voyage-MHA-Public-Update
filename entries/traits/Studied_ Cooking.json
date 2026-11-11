@@ -1,0 +1,20 @@
+{
+  "Studied: Cooking": {
+    "name": "Studied: Cooking",
+    "description": "🍳 You learned to cook properly: a family restaurant kitchen, culinary school classes or years of feeding younger siblings.\n\n🌱 Knife work, rice and stock, frying, baking and food safety. You can feed a dorm floor or hold a station in a restaurant kitchen.\n⚠️ Fine dining, specialist cuisines and running a whole kitchen are beyond you.\n⚖️ Selling food needs a food hygiene permit.\n🏫 It shows in clean knife cuts, a tidy kitchen and a habit of feeding people who look tired.\n\n📈 Grants: Cooking +15",
+    "traitNarrativeEffects": "The character has trained in cooking: knife work, rice and stock, frying, baking, food safety, feeding a crowd on a budget and meals for bodies in hard training. They can feed a dorm floor or hold a station in a restaurant kitchen. Prior study, not mastery: fine dining, specialist cuisines and running a whole kitchen are beyond them. Not a license: selling food needs a food hygiene permit. It shows in clean knife cuts, a tidy kitchen and a habit of feeding people who look tired.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

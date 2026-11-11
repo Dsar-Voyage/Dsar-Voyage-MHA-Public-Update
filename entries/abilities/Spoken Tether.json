@@ -1,0 +1,20 @@
+{
+  "Spoken Tether": {
+    "name": "Spoken Tether",
+    "description": "The user speaks to a single target within earshot, and if the target answers aloud, the user's voice takes hold. The target's eyes glaze and they follow simple spoken commands (stop, drop it, sit, come here) until pain, a hard shake or a loud noise at close range snaps them out, the user releases them, the scene ends, or the user orders them to hurt anyone. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

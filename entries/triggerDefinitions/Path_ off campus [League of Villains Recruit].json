@@ -1,0 +1,27 @@
+{
+  "Path: off campus [League of Villains Recruit]": {
+    "name": "Path: off campus [League of Villains Recruit]",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "offCampus",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

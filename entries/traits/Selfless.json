@@ -1,0 +1,20 @@
+{
+  "Selfless": {
+    "name": "Selfless",
+    "description": "🫶 Other people's safety comes before yours, every time, without stopping to weigh it.\n\n🚑 You get to the person who needs help first, and you stay until they are safe.\n⚠️ You ignore your own injuries and limits until your body makes the decision for you.\n⚠️ People who care about you are tired of watching you get hurt.\n🔀 If you are also Cynical, you expect nothing from people and save them anyway.\n\n📈 Grants: Search and Rescue +5",
+    "traitNarrativeEffects": "The character is selfless: they put others' safety first without weighing it, reach the person in danger first and stay until they are safe. Weakness: they ignore their own injuries and limits until they collapse, refuse help for themselves, and friends, teachers and Recovery Girl are tired of watching them get hurt. If the character is also Cynical, they expect nothing from people and save them anyway. The narrator shows who needs help and what it would cost; whether the character pays it is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

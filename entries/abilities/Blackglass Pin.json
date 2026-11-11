@@ -1,0 +1,20 @@
+{
+  "Blackglass Pin": {
+    "name": "Blackglass Pin",
+    "description": "The user hardens a sliver of shadow into a pin of dark glass and drives it at a target within about ten meters. It deals piercing damage and pins a sleeve, a coat or a foot to the floor or wall behind them until they tear free with a hard effort; held back, the pin catches only clothing and draws no blood. In strong light the pin shatters before it lands. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

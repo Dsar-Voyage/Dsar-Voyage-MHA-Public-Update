@@ -1,0 +1,20 @@
+{
+  "Balaclava": {
+    "name": "Balaclava",
+    "category": "Accessory",
+    "slot": "Accessory",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Disguise",
+        "value": 3
+      }
+    ],
+    "description": "A knit balaclava that covers the head and neck and leaves a slit for the eyes, warm in winter and anonymous all year. Wearing one into a shop or a crowd puts police and heroes on alert. [ Accessory | About ¥1,200 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9c285da4-52be-40ea-a1ad-b1f7335e6c81.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

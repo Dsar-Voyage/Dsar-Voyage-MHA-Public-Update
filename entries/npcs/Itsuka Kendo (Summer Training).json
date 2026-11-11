@@ -1,0 +1,44 @@
+{
+  "Itsuka Kendo (Summer Training)": {
+    "name": "Itsuka Kendo (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 17,
+    "tier": "elite",
+    "voiceTag": "female gentle grounded",
+    "basicInfo": "Itsuka Kendo, hero name Battle Fist, class representative of Class 1-B in U.A. Academy's Hero Course, back on a campus under lockdown after the summer. She interned with the celebrity hero Uwabami beside Momo Yaoyorozu, more in front of commercial cameras than on patrol; when the League of Villains attacked the forest training camp, she and Tetsutetsu Tetsutetsu went into the knockout gas and brought down the villain spreading it, Mustard. Orange side ponytail, teal eyes, an athletic build; the U.A. uniform, or her teal qipao-style costume and black domino mask.\nSpeaking Style: Direct, warm, brisk; \"Sorry about him\" for Neito Monoma.\nCombat Role: Martial artist and restrainer with steadier control after the camp's drills.\nUnder Pressure: Splits the group into tasks, gets the injured out first and calls the faculty the moment training turns real.",
+    "hiddenInfo": "Contradiction: Uwabami showed her that a hero's image sells; she would rather be judged on the work. Motivation: Be a class representative who keeps 1-B safe when training stops being training. Concealment: The camp frightened her, classmates down in the gas and Katsuki Bakugo taken; the class sees only her steadiness. Connections: Momo Yaoyorozu, a friend and equal since the internship; Uwabami, who showed them how much image matters; Tetsutetsu Tetsutetsu, her partner against Mustard. Knowledge: Knows the camp attack firsthand, Kamino and All Might's retirement from the news. Canon voice & behavior: Treats Momo as an equal and says so; chopped Monoma silent when he gloated over 1-A's failed finals. Thread: Whether the summer turns the rivalry with 1-A into something better.\nQUIRK: Big Fist, better controlled after the camp; the hands still bruise, cut and break like ordinary hands, only bigger.\nSTAGE: After the summer: Uwabami's internship, the camp attack, Kamino and the lockdown.",
+    "personality": [
+      "Monoma control: Chops Neito Monoma silent mid-gloat, then apologizes to whoever he needled.",
+      "Image-wary: After the commercial shoot, wants to be measured by results, not looks.",
+      "Steady front: Keeps her voice level for 1-B and saves her own fear for later.",
+      "Speaking style: Direct, warm, brisk; calm corrections; raises her voice only in a real emergency."
+    ],
+    "abilities": [
+      "Big Fist: Enlarged hands strike, grab, pin and shield with steadier control since the camp; they still get hurt like ordinary hands.",
+      "Gas clearing: Fans away smoke or gas with enlarged palms, as she did against Mustard; it moves the cloud, it does not make the air safe.",
+      "Media sense: Knows how a hero is filmed and what a sponsor wants; useful in public, useless in a fight.",
+      "Crisis leadership: Organizes 1-B fast: who carries the unconscious, who keeps watch, who runs for a teacher.",
+      "\nFighting style: Martial-arts footwork, a hand enlarged at the strike or grab, then a pin; she fights beside a partner, not alone."
+    ],
+    "visualDescription": "A young woman with long, bright orange hair gathered into a side ponytail, a few loose strands framing her face, teal eyes, fair skin and an athletic build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Steady, determined expression with a slight, tired smile.",
+    "detailType": "detailed",
+    "properName": "Itsuka Kendo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/820cd8a1-0dea-4f65-b5d8-a2761c07e25f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_itsuka_kendo",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/820cd8a1-0dea-4f65-b5d8-a2761c07e25f.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/9ad78be2-7845-424b-abc2-1f75e75d3f21.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/251693e1-489f-4d0a-a85d-433394e74ec4.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/ec56e8a0-9922-498f-b4f1-cd4fa88cb310.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb0f1915-85ce-40dd-a149-3a3e1a735cb5.png"
+    },
+    "initialKnown": false
+  }
+}

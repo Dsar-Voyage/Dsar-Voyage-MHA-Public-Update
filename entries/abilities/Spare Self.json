@@ -1,0 +1,20 @@
+{
+  "Spare Self": {
+    "name": "Spare Self",
+    "description": "The user makes a single double built to last, who stays until the user next sleeps or until they burst. The spare can keep watch, wait in line, guard a door, carry on a shift's work or be seen in one place while the user is in another, and the user feels the moment the spare bursts and where. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

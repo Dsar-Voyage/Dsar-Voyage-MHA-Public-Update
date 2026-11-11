@@ -1,0 +1,20 @@
+{
+  "Piston Vault": {
+    "name": "Piston Vault",
+    "description": "The user boils water in their limbs and vents high-pressure steam from the elbows or heels to drive a steam-piston strike or jump. A jump launches the user to a second-story roof or across a street, while a piston punch deals bludgeoning and fire damage and knocks a target flat; held back, the steam vents behind the elbow so the fist lands with pure bludgeoning force and no burn, leaving a loud hiss. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

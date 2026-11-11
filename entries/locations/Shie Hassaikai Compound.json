@@ -1,0 +1,86 @@
+{
+  "Shie Hassaikai Compound": {
+    "name": "Shie Hassaikai Compound",
+    "basicInfo": "The compound is a traditional Japanese estate behind a high plaster wall in a quiet district about 11 km southeast of downtown Osaka: a tiled main house, outbuildings, a raked gravel courtyard and a heavy wooden gate. It is the seat of the Shie Hassaikai, one of the last yakuza houses, listed as a designated villain group since heroes broke up the old gangs; the police keep its members on file and drive past the gate several times a day. The neighbors are elderly householders who keep their curtains drawn and say the house has always been polite. The old boss, who took in outcasts nobody else would have, lies in a coma, and his second-in-command, Kai Chisaki, known as Overhaul, runs the house in his place. Chisaki is polite, cold and obsessively clean: he wears a beaked mask and gloves, cannot stand being touched and calls Quirks a sickness. Hari Kurono (Chronostasis) is always at his side. Members come and go at all hours in dark suits and masks, mostly by car; outsiders are received at the gate or not at all. Access is strict. The gate is guarded day and night, visitors state their business through it and wait, and only those invited are walked across the courtyard to the reception room; the gate closes to visitors at sunset. Nothing deeper than the reception room is open to anyone outside the house, and members never show guests the way below. A hero with no warrant can only watch from the street, and the house complains loudly about anyone who tries more. A player can come here as a recruit, a debtor, a business contact or a hero watching from the street. The feeling is a museum of an old world, swept and silent, where every bow is correct and nobody smiles.",
+    "hiddenInfo": "Under Chisaki the house has moved from old-style gambling and protection to dealing Trigger, the Quirk-boosting drug, through layers of street dealers in Osaka, and the money funds a plan to restore the yakuza's power that he shares only with his inner circle. The plan is this: in the Restricted Wing he keeps Eri, a small child, the old boss's granddaughter, whose Quirk can rewind a living body to an earlier state and which she cannot control. Chisaki takes her blood and cells and is trying to refine them into a drug that destroys a person's Quirk outright, and later a second drug to restore one, so that he can sell both and make the underworld depend on the house. The work is unfinished and slow. Eri is frightened, silent and convinced that her Quirk is a curse; she never leaves the wing, and fewer than a dozen members know she exists. The Eight Bullets, hand-picked enforcers sworn to Chisaki personally rather than to the house, carry out his orders, and many wear beaked masks of their own. The old boss's coma did not come from illness: the few who know say it followed an argument with Chisaki, and in truth Chisaki took him apart and put him back together with his own Quirk, Overhaul, which can disassemble and reassemble anything he touches. Tunnels run under the estate from hidden entrances in the main house, and Joi Irinaka (Mimic) can enter their concrete and reshape them at will. Right now Chisaki is sounding out other villain groups for allies and money through brokers, the house is ordering medical supplies by the crate from out of the prefecture, and the police know only that the house spends more than it earns.",
+    "x": -8.47,
+    "y": 12.25,
+    "radius": 1,
+    "region": "Osaka South",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Main House": {
+        "description": "A long tiled-roof house of dark wood and tatami: a formal reception room hung with the house crest, offices, a kitchen and members' quarters around an inner garden of raked gravel, moss and one old pine. Low-ranking members clean, cook and stand guard; visitors are seated in the reception room and served tea by men in suits and masks, and a guest who arrives with business waits in silence until Chisaki or Chronostasis decides to appear. The house wakes at dawn, eats in shifts and keeps the old ceremony: formal greetings, bows by rank and sake poured in strict order on the rare nights the house drinks together. The gate closes to visitors at sunset. Everything smells of disinfectant, the floors are wiped several times a day, the masked members change their gloves after every handshake they cannot avoid, and no one offers a hand to shake. Every corridor is lit and every door is watched. Members who know the house go down from here to the Underground Passages; visitors are never shown the way.",
+        "paths": [
+          "Underground Passages"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/26b329bb-ea29-4dad-bcb8-6d927060e91c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Underground Passages": {
+        "description": "Concrete corridors under the estate, lit by bare fluorescent tubes, running in a maze beneath the house and well beyond its wall, with storerooms and steel doors along the way. Some rooms hold crates of supplies, some hold cots for members on night duty, and one long room holds a training floor where the Eight Bullets spar out of sight. Only trusted members come down here, mostly at night, carrying crates between the house and exits nobody outside knows about. The layout does not stay put: Mimic can move into the walls and shift them, so a corridor that was open an hour ago may end in solid concrete, and members who get lost wait where they are until someone comes for them. The air is cold, the tubes buzz, a faint smell of bleach follows every crate, and footsteps echo a long way. Members speak in low voices and never run. Stairs lead back up to the Main House, and a guarded steel door at the deepest end opens on the Restricted Wing.",
+        "paths": [
+          "Main House",
+          "Restricted Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/339dfe01-91ab-4f8b-a3b9-45ed7f0c85a7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Restricted Wing": {
+        "description": "The deepest part of the tunnels, behind a guarded steel door: white walls, bright lights, scrubbed floors and the sharp smell of antiseptic. It holds Chisaki's private office and quarters, the sickroom where the old boss lies hooked to monitors, and further rooms that stay locked. Only Chisaki, Chronostasis and a few of the Eight Bullets come here; anyone else needs Chisaki's word, and must wash, glove and mask before entering at a steel sink beside the door, under a sign that lists the order in which to do it. Chisaki works here late into the night, and his office is as bare as an operating theater: a desk, a chair, files squared to the edge. A cart of sealed medical supplies stands in the corridor, restocked every few days. The only sound is the boss's machines, and the lights never dim. The guarded door leads back to the Underground Passages.",
+        "paths": [
+          "Underground Passages"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4e04c769-1b9b-4e32-8661-cc64ed723bb3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Shie Hassaikai"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c610e3b-63c2-49a4-873f-63486a69bb1f.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Longreach Arc": {
+    "name": "Longreach Arc",
+    "description": "The user grows a single blade from the forearm out to the length of a bus in under a second and sweeps it across a street. Every enemy in the arc takes massive slashing damage and is thrown down; held back, the flat strikes instead and deals heavy bludgeoning damage. Lampposts, car roofs and steel girders in the arc are cut through, so the user must keep bystanders and load-bearing walls out of its path. Afterward the blade snaps off at the root and the user cannot grow blades from that arm until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

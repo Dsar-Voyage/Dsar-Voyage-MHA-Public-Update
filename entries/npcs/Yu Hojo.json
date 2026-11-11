@@ -1,0 +1,35 @@
+{
+  "Yu Hojo": {
+    "name": "Yu Hojo",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 20,
+    "tier": "strong",
+    "voiceTag": "male steady approachable",
+    "basicInfo": "Yu Hojo, one of the Shie Hassaikai's Eight Bullets, Kai Chisaki's sworn enforcers, who works with his friends Toya Setsuno and Soramitsu Tabe. Tall, muscular and bald, with shadowed eyes and a plain medical mask.\nSpeaking Style: Blunt and plain; says little and means it.\nCombat Role: Armored striker: grows sharp crystals from his skin to hit with and hide behind.\nUnder Pressure: Plants himself in front of Setsuno and Tabe.",
+    "hiddenInfo": "Contradiction: He resents people who use others, and serves a house that uses everyone. Motivation: His friends; the house took the three of them in when nobody else would. Connections: Toya Setsuno and Soramitsu Tabe, his closest companions; Kai Chisaki (Overhaul), the boss they serve. Knowledge: The tunnels, the Trigger trade and his orders. Thread: The house or his friends, if it comes to a choice.\nQUIRK: Crystallize. Hard, sharp crystals grow from his skin for striking and protection; contact range only, and a heavy enough blow breaks them.",
+    "personality": [
+      "Blunt: Says plainly what he thinks, without polish.",
+      "Resents users: Bristles at anyone who treats people as tools.",
+      "Protective: Covers Setsuno and Tabe before himself.",
+      "Speaking style: Short, blunt and restrained."
+    ],
+    "abilities": [
+      "Crystallize: Grows sharp crystals from his skin to strike at close range; no reach beyond his body.",
+      "Crystal guard: Coats himself in crystal to take blows; protection, not invulnerability.",
+      "\nFighting style: Advances behind his crystals and strikes up close, covering Setsuno and Tabe."
+    ],
+    "visualDescription": "A tall, muscular bald man with a heavy brow, deep-set eyes in dark shadow and light skin, a plain white medical mask over his nose and mouth. He wears a plain dark shirt and dark trousers. Thick neck and broad shoulders. The mask sits snug over his lower face, leaving only the shadowed eyes and the bare scalp visible. A quiet, guarded, unsmiling expression.",
+    "detailType": "detailed",
+    "properName": "Yu Hojo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/75fa8c53-e13e-4794-b0ee-04933c83d279.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yu_hojo",
+    "initialKnown": false
+  }
+}

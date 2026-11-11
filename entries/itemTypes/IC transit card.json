@@ -1,0 +1,14 @@
+{
+  "IC transit card": {
+    "name": "IC transit card",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [],
+    "description": "A rechargeable contactless card tapped at ticket gates, bus readers, vending machines and convenience store registers. It holds a stored balance, topped up with cash at any station machine. [ Tool | ¥500 deposit ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d1eab49-d4c7-4e97-8d09-98a581f9a4d8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

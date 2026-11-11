@@ -1,0 +1,20 @@
+{
+  "Sidelong Reach": {
+    "name": "Sidelong Reach",
+    "description": "The user opens a pair of hand-sized gates, one at their side and one beside a target within a few strides, and reaches through. They can land a blow from behind or around a shield, dealing bludgeoning damage, or snatch a weapon, phone or key from the target's hand or belt; a target who did not see the gate open cannot block or dodge it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

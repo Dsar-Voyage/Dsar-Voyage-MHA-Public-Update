@@ -1,0 +1,30 @@
+{
+  "Nakatsugawa": {
+    "name": "Nakatsugawa",
+    "basicInfo": "Nakatsugawa is the cell of the Tono hills in southeastern Gifu and the northeastern edge of Aichi: rolling granite uplands and pottery towns between the Nobi plain and the Kiso valley, with Mount Ena standing at the northeast corner. In the west lie Tajimi, Toki and Mizunami, the heart of Mino ware, where kilns and ceramics works have fired bowls and tiles for centuries; Seto, the pottery city that gave Japan its everyday word for ceramics, sits at the southwest corner. The middle holds Ena and its dammed Kiso River gorge, Iwamura with its merchant street under the ruins of a high mountain castle, and Akechi, a village that keeps a Taisho-era townscape. In the northeast, Nakatsugawa spreads along the Kiso River below Mount Ena, and on the ridge above it the post towns of Magome and Tsumago keep the stone paths, wooden inns and water wheels of the old Nakasendo highway; walkers do the trail between them in a few hours. The southern hills of Toyota hold Obara, where cherry trees bloom in autumn among the maples, and Mount Sanage rises above the Aichi plain. Summers in the low basins are notoriously hot, with Tajimi often among the hottest towns in Japan; the uplands are cooler, autumn is long and bright, and winter brings frost and a little snow. People make ceramics, run small factories and quarries, grow chestnuts, rice and tea, and commute to Nagoya. Local foods are kuri kinton chestnut sweets, gohei-mochi grilled rice cakes in sesame-walnut miso and hebo wasp-larvae rice. The JR Chuo Main Line runs from Nagoya through Tajimi to Nakatsugawa with the limited express Shinano, the Chuo Expressway follows it, the Akechi Railway runs a single car to Akechi, and the Taita Line links Tajimi to Mino-Ota. A new maglev line is being dug through the hills near Nakatsugawa, with construction yards and tunnel portals in the valleys. Musutafu is about two and a half hours away by shinkansen to Nagoya and the Chuo Line. Visitors walk the Nakasendo and browse pottery fairs. Each town keeps police boxes and a small hero office; most hero work here is traffic and industrial accidents along the Chuo corridor, and potters with heat Quirks fire their kilns under licenses.",
+    "hiddenInfo": "Nakatsugawa's undercurrent is a slow drain of people toward Nagoya and a quarrel over the maglev works: tunnel spoil, failing wells and construction money split neighbors. The pottery trade is full of small shops struggling, and counterfeit wares and kiln-equipment theft turn up. Walkers on the Nakasendo get lost or hurt, and bears visit the chestnut orchards. Hero help is within half an hour along the Chuo corridor, much slower in the back hills.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -3,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b9ca44a5-fb5d-41b9-af37-d364b8cbbbf2.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Tosa Bay": {
+    "name": "Tosa Bay",
+    "basicInfo": "The open middle of Tosa Bay, the wide arc of the Pacific between Cape Muroto in the east and Cape Ashizuri in the west, south of Kochi city. The water is a deep, clear blue, the shelf dropping quickly to great depth toward the trough far offshore. The warm Kuroshio runs past to the south and keeps the bay mild all year; Pacific swell is near constant, and the bay is a regular path for typhoons in late summer and autumn. From here the Kochi coast is a low green line to the north with the mountains of Shikoku behind it, and the capes at either end are faint on clear days. There are no islands in view and no ferries cross the bay. Fishing boats from Kochi, Usa, Susaki, Kure and Saga work it for skipjack bonito by pole and line in spring and autumn, along with mackerel, whitebait close inshore, and deep-water fish, and whale-watching boats go out after the Bryde's whales that live in the bay year round. A party out here is on a fishing or whale-watching boat, a coast guard cutter from Kochi, or the back of a flying or swimming hero.",
+    "hiddenInfo": "Open water with little going on beneath it: the dangers are weather, swell and fishing traffic. Coast guard boats from Kochi handle most rescues, and the only heroes who reach the bay quickly are flyers or swimmers out of Kochi city. Small trouble is illegal fishing, boaters showing off with water Quirks, and the odd stolen boat.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -10,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8bdd06b0-e6ee-4fc9-b13d-ae20ec27b02e.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

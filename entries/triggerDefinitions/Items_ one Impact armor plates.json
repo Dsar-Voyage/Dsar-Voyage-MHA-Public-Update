@@ -1,0 +1,22 @@
+{
+  "Items: one Impact armor plates": {
+    "name": "Items: one Impact armor plates",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Impact armor plates",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Impact armor plates",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

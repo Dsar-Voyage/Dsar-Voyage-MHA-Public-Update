@@ -1,0 +1,25 @@
+{
+  "Glance Prognosis": {
+    "name": "Glance Prognosis",
+    "description": "For the rest of the scene the user no longer needs touch: meeting a person's eyes is enough, and with one sweep of the eyes across a room or a crowded platform they read everyone who looks back, seeing about an hour of each of their coming lives. A whole hostage room, a squad of villains or a panicking crowd is read in a breath, and the user knows who will run, who will fight and who will be hurt. When the scene ends the user cannot use the Quirk until they have slept. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

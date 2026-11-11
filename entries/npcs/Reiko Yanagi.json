@@ -1,0 +1,45 @@
+{
+  "Reiko Yanagi": {
+    "name": "Reiko Yanagi",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "female cynical monotone",
+    "basicInfo": "Reiko Yanagi, a Class 1-B first-year in U.A. Academy's Hero Course: the gloomy, pale classmate with a ghost-story air, whose Quirk, Poltergeist, moves objects without touch. Very pale skin, short silver hair hiding one eye, half-lidded dark eyes, a slight build; the U.A. uniform.\nSpeaking Style: Soft, sparse and flat, with a dry, faintly eerie edge; silence does the rest.\nCombat Role: Mid-range support: floats objects up to about a person's weight to block, distract or clear debris; not a brawler.\nUnder Pressure: Gets quieter and moves the one object that matters.",
+    "hiddenInfo": "Contradiction: She acts the part of a ghost story, yet she is one of 1-B's most practical support players. Motivation: Become a pro hero alongside 1-B; nothing more personal is established. Concealment: People read her manner as spirit powers she does not have, and she lets them wonder. Leverage: A plan that needs her Quirk; a good ghost story. Connections: Itsuka Kendo, the level-headed classmate whose plans she slots into; Yui Kodai, a quiet classmate whose Quirk fits hers (Kodai resizes, Yanagi moves); Vlad King, their homeroom teacher. Knowledge: Knows 1-A only as the class next door. Canon voice & behavior: Lets her hands hang limp at chest height in the old ghost pose; waits at the group's edge until a task needs her. Thread: How far a person-sized lift can carry her.\nQUIRK: Poltergeist. Moves nearby objects without touch, up to roughly a person's weight, or several lighter ones on separate paths. No spirit powers, aura or special senses.",
+    "personality": [
+      "Ghostly manner: Moves quietly and lets her pale, half-hidden face do the unsettling.",
+      "Gloomy: Greets good news and bad in the same low murmur.",
+      "Horror fan: Brings up spooky subjects with deadpan interest.",
+      "Precise: Moves the one object that matters, not everything in reach.",
+      "Speaking style: Soft, sparse, flat, faintly eerie; her look is never played as real haunting."
+    ],
+    "abilities": [
+      "Poltergeist: Moves nearby objects without touch, up to about a person's weight; nothing heavier.",
+      "Object positioning: Shifts debris or barriers to block a path, open one or free someone pinned.",
+      "Distraction: Sends several light objects on separate paths to split an opponent's attention.",
+      "Unsettling presence: Her still, ghostly look throws off strangers, never friends.",
+      "\nFighting style: Stays at mid-range behind floating objects and sets up a teammate's capture."
+    ],
+    "visualDescription": "A young woman with very pale skin, short silver hair with a long fringe that hides one eye, half-lidded dark blue eyes and a slight build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Gloomy, deadpan expression.",
+    "detailType": "detailed",
+    "properName": "Reiko Yanagi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_reiko_yanagi",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0ab698fc-4b0b-4a37-92f3-1269432e8449.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/6acec2e1-84b9-4804-82e9-4c1a23a72c80.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/983f5144-0794-49bb-ada8-1adcbffdfe87.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/6bba9392-bad4-4f81-8e37-b5627001e810.png"
+    },
+    "initialKnown": true
+  }
+}

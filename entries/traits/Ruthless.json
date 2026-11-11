@@ -1,0 +1,20 @@
+{
+  "Ruthless": {
+    "name": "Ruthless",
+    "description": "🗡️ You do what it takes. Mercy is a tool, and you rarely need it.\n\n🎯 You finish what you start and never leave an enemy a second chance.\n⚠️ People fear you, but few trust you, and allies keep their distance.\n⚠️ Heroes and police treat you as the most dangerous person in the room.\n🔀 If you are also Loyal, the ruthlessness stops at your own people.\n\n📈 Grants: Striking +5",
+    "traitNarrativeEffects": "The character is ruthless: they do what it takes, finish what they start and give enemies no second chance; mercy is a choice they rarely make. Weakness: people fear them but do not trust them, allies keep their distance, and heroes and police treat them as the most dangerous person present. If the character is also Loyal, the ruthlessness stops at their own people. The narrator shows what each choice costs others; how far the character goes is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Striking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

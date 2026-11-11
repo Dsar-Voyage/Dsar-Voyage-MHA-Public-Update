@@ -1,0 +1,20 @@
+{
+  "Combat knife": {
+    "name": "Combat knife",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      }
+    ],
+    "description": "A fixed-blade knife with a ridged grip and a belt sheath, built for fighting and for cutting rope, straps and seat belts. Under the Firearms and Swords Control Law, carrying a blade longer than six centimeters without a legitimate reason is a crime, and police confiscate the knife on sight. [ Weapon | About ¥6,000; carrying one in public is illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/46111a2f-d0f5-40ff-a92e-27157d1f2ff4.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

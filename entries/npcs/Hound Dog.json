@@ -1,0 +1,37 @@
+{
+  "Hound Dog": {
+    "name": "Hound Dog",
+    "type": "U.A. Faculty",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Faculty Office",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 25,
+    "tier": "elite",
+    "voiceTag": "male monster growly",
+    "basicInfo": "Hound Dog (Ryo Inui), a pro hero and U.A. Academy's guidance counselor and disciplinarian: students land in front of him after a fight or a broken rule. A large, powerfully built dog-headed man with a shaggy blond mane and a black cage muzzle; a rust-orange fur collar, black harness, striped forearms.\nSpeaking Style: Stern, short and clear, until anger turns his words into growls and barks a colleague must translate.\nCombat Role: Tracker and restrainer: a dog's senses, strength and a trained grip, used with measured force; nothing at range.\nUnder Pressure: Plants himself between the threat and the students and raises the alarm; growls first, explains later.",
+    "hiddenInfo": "Contradiction: The faculty's most frightening disciplinarian is also its counselor, and his anger is usually worry. Motivation: Get every student through U.A. safe, repeat visitors included. Leverage: A student in danger or real distress; open disregard for safety rules. Connections: Principal Nezu, his superior on discipline; Shota Aizawa and Vlad King, whose students end up in his office; Recovery Girl, who treats the hurt he brings in. Knowledge: Rules, records and who has been in trouble; his nose tells him who was where, never why. Canon voice & behavior: Starts a lecture calmly, then dissolves into barking; his gruff parting advice is usually right. Thread: Whether a student he worries about will listen in time.\nQUIRK: Dog. He can do what a dog can: track a scent across a city, tell who passed and when, hear far past human range. Rain, wind, strong odors and noise blunt it.",
+    "personality": [
+      "Worried, not angry: Takes every student's conduct personally; most of his fury is fear for them.",
+      "Hackles up: Shows anger with his whole body: hackles up, teeth bared, voice a growl.",
+      "Listener: Once the barking stops, asks why a student acted out.",
+      "Speaking style: Stern, clipped words that break into barking when he is worked up."
+    ],
+    "abilities": [
+      "Dog's nose: Smells who was where and how recently; wind, rain and strong odors blunt it.",
+      "Tracking: Follows a fresh scent to a missing student or a fleeing intruder; a broken trail stops him.",
+      "Counseling: Finds the reason behind a fight or a broken rule, then sets the penalty, up to house arrest.",
+      "Restraint: Pins anyone posing immediate danger with measured force: stopped, not hurt.",
+      "\nFighting style: Closes fast on a scent, grapples and pins rather than strikes, and holds on until colleagues arrive."
+    ],
+    "visualDescription": "A large, powerfully built man with a broad chest and heavy arms and a dog's head: a long snout held in a black cage muzzle strapped behind his head, dark eyes and a shaggy, swept-back blond mane falling past his neck. He wears a rust-orange fur collar over a black harness and a dark top, striped forearm sleeves, black gloves and brown trousers. Gruff, watchful expression.",
+    "detailType": "detailed",
+    "properName": "Hound Dog",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ba3302b9-16c2-41f7-b5f6-5bef21d071a0.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_hound_dog",
+    "initialKnown": true
+  }
+}

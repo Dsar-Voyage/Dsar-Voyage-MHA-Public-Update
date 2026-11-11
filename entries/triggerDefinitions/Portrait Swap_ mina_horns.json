@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: mina_horns": {
+    "name": "Portrait Swap: mina_horns",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c9b5f74f-ee46-40c7-bd51-fa0d24667009.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c9b5f74f-ee46-40c7-bd51-fa0d24667009.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c9b5f74f-ee46-40c7-bd51-fa0d24667009.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/c9b5f74f-ee46-40c7-bd51-fa0d24667009.png"
+      }
+    ]
+  }
+}

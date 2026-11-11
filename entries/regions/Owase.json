@@ -1,0 +1,30 @@
+{
+  "Owase": {
+    "name": "Owase",
+    "basicInfo": "The Higashi-Kishu coast of southern Mie and the mountains behind it: the ria coast around Owase, the long beach at Kumano, and the high Odaigahara plateau on the Nara border, with the open Kumano Sea filling the southeastern half of the cell. The coast is steep and deeply indented, with small harbors tucked into drowned valleys and cypress plantations climbing straight up from the water. Owase is a compact fishing and forestry town on its own deep bay, with a large fish market, yellowtail and tuna pens in the inlets, a plant drawing up deep-sea water and fine hinoki cypress timber; its shrine holds a rowdy Ya-Ya Festival each February, and the town gets some of the heaviest rain in Japan. North along the coast, Kihoku's hamlets and the stone-paved passes of the old Iseji pilgrim route, Magose among them, wind through the cedars. South, Kumano city faces Shichiri-mihama, a beach of rounded pebbles running more than twenty kilometers toward Shingu, beside the wave-carved rocks of Onigajo and Hana-no-Iwaya Shrine, a sacred cliff hung with a long rope from its summit. The Kumano fireworks each August are launched from boats and from the cliffs, and the Maruyama rice terraces climb a hillside inland. West and up, Odaigahara is a misty high plateau of moss, spruce and deer, with the sheer Daijagura cliff above the Osugi gorge, one of the rainiest places in the country. Summers are hot and stormy, winters mild on the coast and snowy on the heights. Food is bonito, saury pressed into sushi, yellowtail, mehari-zushi rice balls wrapped in pickled greens, and Kumano mikan. The JR Kisei line runs down the coast with the Nanki limited express from Nagoya, about three hours to Owase, and the Kisei Expressway now reaches Kumano; Musutafu is about four and a half hours away. Owase and Kumano have police boxes and a small hero agency, and a few licensed heroes cover the long coast; a pearl diver whose Quirk lets her hold her breath for an hour is the harbor's unofficial rescue swimmer.",
+    "hiddenInfo": "Owase and Kumano are shrinking, and the coast is a long way from anywhere. Typhoon storm surges, landslides on the coast road and floods are the real dangers. Small crime is theft of fish and timber and poaching on the plateau. The nearest larger hero agencies are in Tsu and Ise, an hour or two away; heroes from Nagoya take most of a morning.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -5,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7fe29c10-8eb2-45d9-8d3a-1b672251ad12.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

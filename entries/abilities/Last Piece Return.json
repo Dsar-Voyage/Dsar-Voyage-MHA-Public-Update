@@ -1,0 +1,29 @@
+{
+  "Last Piece Return": {
+    "name": "Last Piece Return",
+    "description": "The user scatters nearly the whole body before a crushing impact, steering the pieces clear and rejoining at a safe point within the same street by the end of the user's next turn. They may bring a small carried item held by a detached hand. The pieces must have a physical route to that point; broad flames, sealed spaces or captured pieces can still harm them, and replacing losses leaves the user exhausted. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

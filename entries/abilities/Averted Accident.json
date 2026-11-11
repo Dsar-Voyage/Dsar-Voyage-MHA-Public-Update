@@ -1,0 +1,20 @@
+{
+  "Averted Accident": {
+    "name": "Averted Accident",
+    "description": "After reading a person, the user sees a danger waiting in their coming stretch of time, a car at a crossing, a fall from a platform, a villain on their route home, and acts first. If the user or an ally the user warns can reach that person before the moment arrives, the person is moved out of harm and is unhurt. If nobody can get there in time, the danger plays out as the vision showed. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

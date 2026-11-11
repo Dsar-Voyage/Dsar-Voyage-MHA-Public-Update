@@ -1,0 +1,15 @@
+{
+  "spinner_hears_the_message": {
+    "title": "His Story Was Real",
+    "beats": "In a guarded patient room at Musutafu General Hospital, Spinner receives an authorized visit from Izuku Midoriya. Naomasa Tsukauchi supervises access without turning a medical conversation into a press event. Spinner remains affected by the extra Quirks imposed on him, and his condition limits the visit. Outside, coverage of Tomura Shigaraki offers a much simpler story than the one either visitor carries.\n\nThe canon default course, as pressure the player can change: Spinner rejects an account that reduces his friend to a monster whose disappearance resolves everything. Izuku delivers Tomura's final message: he fought to destroy until the end. Spinner remembers friendship, games, and a cause that gave his isolated life direction. His anger at Izuku does not disappear because the messenger listens. Izuku acknowledges the person he failed to preserve without denying the destruction Tomura caused.\n\nSpinner resolves to tell the League's story himself. Help him obtain a permitted means to write, challenge a misleading summary, or let him refuse further conversation. His intention is not an endorsement of the heroes, and publication is a future undertaking rather than a book already on sale. Izuku does not explain vestige encounters or the mechanics of One For All to spectators. If Tomura survived, this becomes a message about his actual condition and contact wishes; it cannot become a false final testament.\n\nBy Path at Musutafu General Hospital: Class 1-A and Class 1-B accompany Izuku only if invited or speak with him afterward; General Studies helps authorized correspondence; Support meets medical communication needs; Management preserves testimony with consent; Faculty supervises access. Licensed Sidekick provides an escort and Licensed Pro Hero considers practical rehabilitation. League of Villains Recruit can offer a remembered encounter; Independent Villain may dispute a claim with evidence; Vigilante confronts the limits of a victory narrative; Civilian Life asks how reporting treats the people involved. Detained parties receive a separate interview or permitted correspondence, never an unexplained release.\n\nThe event is complete when Spinner receives or expressly refuses the message, the visit closes safely, and the resulting disagreement or commitment to tell his story is clear.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_spinner_hears_the_message",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

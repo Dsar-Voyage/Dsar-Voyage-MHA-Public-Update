@@ -1,0 +1,15 @@
+{
+  "side_nighteye_stamp": {
+    "title": "Nighteye's Stamp Test",
+    "beats": "Late September, daytime at the Sir Nighteye Hero Agency. Mirio Togata brings Izuku Midoriya into the Agency Office to apply for a Hero Work-Study under All Might's former sidekick, Sir Nighteye. The office walls are lined with rare All Might posters and memorabilia, Centipeder works quietly in the Meeting Room, and Nighteye's doctrine that an agency must run on humor is enforced on the spot as Bubble Girl struggles through a flat joke.\n\nDefault course as pressure: Izuku tries to meet the humor rule by contorting his face into an All Might impression. It fails miserably; Nighteye stares at him through rectangular glasses with cold severity because the impression wrinkles a detail of All Might's brow wrong. Nighteye states bluntly that Mirio Togata should have been chosen as All Might's successor, not Izuku, and refuses to sign Izuku's work-study contract automatically. Instead, he holds up his official agency seal and gives a three-minute test: if Izuku wants the stamp on his form, he must take the seal from Nighteye's hand and stamp the paper himself while Mirio steps outside. With one use of Foresight, Nighteye slips every Full Cowl rush, hurling heavy five-kilogram seals to pin Izuku back while pressing him on why All Might chose him. Izuku still cannot touch Nighteye before the three minutes expire, but as he rebounds off the walls, he takes extra care never to step on a single All Might poster on the floor. Seeing that devotion—and wanting to show Izuku the realities of the street—Nighteye takes the form and stamps it himself.\n\nBy path: a Class 1-A or Class 1-B student who comes with Mirio and Izuku to apply at the Sir Nighteye Hero Agency must first attempt a joke to satisfy Nighteye's humor requirement, then either join the three-minute stamp test in the Agency Office or run an observation drill with Centipeder and Bubble Girl to earn Nighteye's signature.\n\nThe event is complete when the three-minute test ends and Sir Nighteye stamps the work-study paperwork.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_nighteye_stamp",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

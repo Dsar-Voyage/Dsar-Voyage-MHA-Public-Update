@@ -1,0 +1,20 @@
+{
+  "Octopus Reach": {
+    "name": "Octopus Reach",
+    "description": "After recently eating octopus, the user manifests several tentacles and reaches into an open gap to pull a child, a bag of supplies or loose debris toward them. The reach lasts until the end of their next turn. The tentacles need a clear path and can be caught or injured; they cannot pass through sealed walls. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "teacher_deku_and_dai": {
+    "title": "Can I Become a Hero?",
+    "beats": "Eight years after the Final War, Izuku Midoriya finishes teaching at U.A. Academy. His former classmates now work as adult professionals, and invitations must fit their schedules. Kota Izumi and Koki Terumoto may visit the Library through supervised outreach; they have aged naturally and are still too young for this Academy's postsecondary entrance. At Tokyo Bayside Mall, Dai hesitates near All Might Statue Plaza with a question about his own future.\n\nThe canon default course, as pressure the player can change: after his teaching day, Izuku encounters Dai. The boy worries that Saucer, his modest disc-producing Quirk, cannot lead anywhere heroic. His immediate instinct to help another child gives Izuku something concrete to recognize. Izuku encourages him to prepare, study, and pursue the wish to help rather than measure his worth by spectacle. The statue honors the living, retired All Might; visiting it is not attending a funeral.\n\nIzuku is Quirkless and finds meaning in teaching even while missing field work. Ochaco Uraraka expands Quirk counseling, Mezo Shoji opposes heteromorph discrimination, and Mirio Togata leads the professional rankings. Mei Hatsume develops support equipment, while Gentle Criminal and La Brava have built a technology enterprise. Their work shows a changed society with fewer emerging villains, not an end to rescue or disagreement. A difficult time-skip outcome for the party remains part of that society.\n\nAt U.A. Academy, play a lesson, supervised visit, or alumni conversation before an actual journey to the plaza. At Tokyo Bayside Mall, begin with Dai's hesitation and small helpful act. He remains a child: an educational route runs through secondary schooling before Academy admission, and encouragement grants no combat authority.\n\nBy Path: Class 1-A and Class 1-B return as alumni; General Studies demonstrates another career; Support discusses useful tools; Management offers guidance; Faculty teaches alongside Izuku. Licensed Sidekick and Licensed Pro Hero arrange safe observation. League of Villains Recruit and Independent Villain respond from their established legal situation; Vigilante shares responsible experience; Civilian Life encourages a young neighbor.\n\nThe event is complete when Dai has a safe next step toward his ambition and the party's own future occupation, obligations, and relationships are stated.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_teacher_deku_and_dai",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

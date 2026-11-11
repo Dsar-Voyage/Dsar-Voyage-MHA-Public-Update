@@ -1,0 +1,15 @@
+{
+  "troy_kunieda_bloom": {
+    "title": "Aoyama Holds His Ground",
+    "beats": "Late on day 405, the team left at Troy's ground deployment perimeter faces Kunieda's spreading plants. Yuga Aoyama and Toru Hagakure remain with Fat Gum and the trapped defenders while the Academy's airborne battle develops elsewhere. Keep the ground detachment distinct from the people maintaining the floating arena; sharing a command does not put everyone in the same fight.\n\nThe canon default course, as pressure the player can change: Kunieda's growth immobilizes Fat Gum and other heroes and feeds on their bodies. He mocks the trust that allowed Aoyama to stand with the heroes. Aoyama refuses to abandon that decision and fires despite the disadvantage. Hagakure refracts his laser into an attack that defeats Kunieda. Winning the exchange leaves living people entangled in dangerous plants, so the rescue continues after the villain stops fighting.\n\nGive the player a captive who can still be reached, a threatened line of fire, or an extraction tool that must be brought through the growth. Removing a visible vine does not necessarily remove the growth threatening someone internally. Aoyama's cooperation is now demonstrated by his actions; his earlier deal and its full circumstances do not become universal knowledge merely because he fights. Hagakure's momentary visibility is a situational effect of the light, not a permanent loss of invisibility. Keep any resulting embarrassment brief and allow clothing and privacy without sexualized attention.\n\nBy place: U.A. Academy's ground staging access provides the Troy detachment's fight and rescue. Musutafu General Hospital receives injured captives once they are genuinely released. Okuto Island, Kamino Ward, and Gunga Mountain Villa receive the request for extraction help. Jaku City and Takoba Municipal Stadium can relay supplies or medical information while retaining their own duties. Mount Fuji Battlefield receives only fighters who are actually freed and transported. Remote players can arrange a receiving team or missing-person check rather than firing the decisive attack from afar.\n\nBy Path: Class 1-A and Class 1-B clear plants or free allies; General Studies identifies missing teammates; Support supplies extraction tools. Management requests treatment and Faculty coordinates rescue. Licensed Sidekick removes accessible growth; Licensed Pro Hero contains Kunieda. League of Villains Recruit can support the remaining villains or surrender; Independent Villain bargains over escape. Vigilante reaches trapped defenders; Civilian Life supports the medical receiving point.\n\nThe event is complete when Kunieda cannot continue and every trapped person in the player's rescue area is freed or explicitly handed over for continuing extraction.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_troy_kunieda_bloom",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

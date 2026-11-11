@@ -1,0 +1,20 @@
+{
+  "Downbeat Leap": {
+    "name": "Downbeat Leap",
+    "description": "The user slams a beat of focused sound into the ground or a wall and rides the push onto a rooftop or across a street-wide gap. Fired down beneath someone falling, the user included, it slows the fall into a safe landing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

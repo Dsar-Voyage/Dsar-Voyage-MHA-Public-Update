@@ -1,0 +1,28 @@
+{
+  "Pacific off Boso": {
+    "name": "Pacific off Boso",
+    "basicInfo": "The open Pacific off the southeastern Boso coast, from just off Onjuku, Katsuura and Kamogawa out about fifty kilometers to sea. The shelf here is narrow and cut by deep submarine canyons, so the water drops quickly to a kilometer and more, dark blue and clear. The Kuroshio sweeps past close to the peninsula, warm and fast, carrying bonito, flying fish and sea turtles; the sea is mild in winter and rough under typhoons in late summer and autumn. Fishing boats from Katsuura, Ohara and Kamogawa work the current for bonito and the deep slopes for kinmedai, the red splendid alfonsino this coast is famous for, while divers and pots take spiny lobster near shore. Ships bound in and out of Tokyo Bay pass offshore, and the low green hills of the peninsula show to the north and west. The coast guard patrols from Tateyama and Choshi, and maritime heroes back it up in storms. A party could be out here on a fishing boat, a passing ship, or carried by a flying hero.",
+    "hiddenInfo": "The current is the danger here: swimmers and small boats get carried off, and fog rolls in fast. Fishers complain about outsiders working their kinmedai grounds. Help is the coast guard, half an hour to an hour from Tateyama or Choshi. Small villainy at sea: lobster poaching, catch fraud, and illegal dumping from passing ships.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 3,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/32e1decb-073f-4224-b3b5-4e93fffa5d04.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Villain coat and gear": {
+    "name": "Villain coat and gear",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 30
+      }
+    ],
+    "description": "Dark street clothes under a long coat, with padded layers, gloves and a hood or mask that keeps a face hidden from cameras. Underworld tailors sell it as a set and ask no questions. Nothing in it is illegal to own; the crimes it is worn for are. [ Armor | Black market, about ¥60,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/34a9aa0a-5ceb-4bb1-b7da-bcb01aeeacc6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

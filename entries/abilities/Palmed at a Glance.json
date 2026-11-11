@@ -1,0 +1,24 @@
+{
+  "Palmed at a Glance": {
+    "name": "Palmed at a Glance",
+    "description": "The user reads the shape of what they can see within a room's width and closes a hand on it from where they stand, compressing without a touch: every gun in the room, a bomb, a door, or a hostage who does not resist, plucked from a captor's grip. Every sphere drops into the user's hand, and anyone who fights the pull is not taken. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

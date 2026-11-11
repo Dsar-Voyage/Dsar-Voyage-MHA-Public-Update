@@ -1,0 +1,22 @@
+{
+  "Event Cast: dispatcher 10": {
+    "name": "Event Cast: dispatcher 10",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){/*storage_pack:v1:[true,[[445,7]]]*/const __pr=[[445,7]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"wrapped\",[[445,1,0,false],[446,6,0,true]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(445)===undefined){skip=true;return;}const __HT0=__hc(__hv(445));const __HT1=[];for(let n=446;n<452;n++){const v=__hv(n);if(v!==undefined)__HT1.push(__hc(v));}/*cast_pack:v1:0*/const __cpS=__HT0;const E=__HT1;function __cpR(R){for(const r of R)for(let i=0;i<3;i++)if(typeof r[i]==='number')r[i]=__cpS[r[i]];}for(const r of E)for(const c of r[2])__cpR(c[1]);const STG=[\"\", \" (Sports Festival)\", \" (Summer Training)\", \" (Provisional License)\"];const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));const RT=check({type:'read-boolean',key:'done_symbol_of_peace_retires'});function rcur(b,s){if(b==='All Might'&&RT)return 'All Might (Retired)';return s?b+STG[sg]:b;}const GN=storage.castGone||{},DS=storage.deadStu||{};function cur(b,s){return (GN[b]||DS[b])?null:rcur(b,s);}function ok(n){if(!n)return false;if(check({type:'npc-in-party',npc:n})===true)return false;const h=check({type:'npc-health',npc:n});return !(typeof h==='number'&&h<=0);}const OW=storage.castOwner||{};const mv=(n,lo,ar)=>lo===null?{type:'npc-placement',npc:n,operation:'moveAway'}:{type:'npc-placement',npc:n,operation:'moveTo',location:lo,area:ar};const PL=storage.castPlaced||{};let ch=false;for(const [ev,ix,CH] of E){if(effects.length>=10)break;if(storage['live_'+ev]!==true||storage['done_'+ev]===true)continue;if(CH.every(c=>PL[c[0]]))continue;if(check({type:'narrative-event-status',eventId:ev})!=='active')continue;for(const [k,R] of CH){if(PL[k])continue;if(effects.length&&effects.length+R.length>10)break;for(const [b,lo,ar,s] of R){const n=cur(b,s);if(!ok(n))continue;effects.push(mv(n,lo,ar));OW[b]=ix*2;}PL[k]=true;ch=true;storage['cp_'+ev]=true;}}if(ch){storage.castPlaced=PL;storage.castOwner=OW;}if(!effects.length)skip=true;})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1089
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 3385
+      }
+    ]
+  }
+}

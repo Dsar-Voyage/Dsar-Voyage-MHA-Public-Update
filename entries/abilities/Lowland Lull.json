@@ -1,0 +1,25 @@
+{
+  "Lowland Lull": {
+    "name": "Lowland Lull",
+    "description": "The user exhales for a full minute and a low, heavy knockout blend spreads street by street across several city blocks, holding the course the user sets even against wind. Everyone who breathes it without a sealed mask, allies and bystanders included, falls asleep until the scene ends or until shaken awake. It stays a sleep dose in open air, but it builds inside closed rooms, so the user must keep it out of homes and basements where it could stop someone's breathing. Afterward the user's throat is raw and they cannot release gas for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Grain by Grain": {
+    "name": "Grain by Grain",
+    "description": "The user lays both hands on a collapsed pile that is pinning people and unmakes it from the top down, layer by layer, so the weight comes off without anything shifting onto the people beneath. Within moments the pile is a spill of sand and the trapped are freed unhurt, while any beam or slab still holding up a ceiling is left standing. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

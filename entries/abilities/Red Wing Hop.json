@@ -1,0 +1,20 @@
+{
+  "Red Wing Hop": {
+    "name": "Red Wing Hop",
+    "description": "The user beats their red wings and flies up to twenty meters to a visible ledge or open landing, clearing a fence or a street. The user lands before the end of their turn and carries only normal clothing and light equipment; too many detached feathers leave insufficient lift for the crossing. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

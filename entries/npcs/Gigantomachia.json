@@ -1,0 +1,37 @@
+{
+  "Gigantomachia": {
+    "name": "Gigantomachia",
+    "type": "Villain",
+    "currentLocation": "Gunga Mountain Villa",
+    "currentArea": "Mountain Slopes",
+    "gender": "male",
+    "faction": "",
+    "level": 56,
+    "tier": "mythic",
+    "voiceTag": "male monster growly",
+    "basicInfo": "Gigantomachia, a colossal man who serves one master and keeps to the deep ravines of the Mountain Slopes, away from trails and towns; almost nobody has heard of him. Rock-textured tan-brown skin, spiky dark brown hair, small pale eyes, jutting lower canines; a ragged dark hooded cloak.\nSpeaking Style: Deep, slow and formal; few words, roars in battle, calls his master \"Master\".\nCombat Role: A living siege engine: tears through hillsides and buildings and shrugs off most attacks. One objective at a time; misdirection works better on him than force.\nUnder Pressure: Holds to his last order and removes whatever stands in its way.",
+    "hiddenInfo": "Contradiction: A walking catastrophe, careless of every life in his path, with a servant's simple devotion. Motivation: Serve his master and carry out his orders exactly. Leverage: His master's voice; strength proven before his eyes. Connections: His master, the only person he obeys without question, spoken of with reverence and never by name; he waits wherever he is told. Anyone his master sends must endure him in a fight before he takes their orders. Others are beneath notice until they block his path. Knowledge: His master's wishes and little else; others on the slopes are nothing to him. Canon voice & behavior: Sleeps deeply between orders; ignores insults and blows until his task is threatened. Thread: Whether anyone besides his master can command him.\nQUIRK: Endurance: resolve becomes stamina, vast but not endless, and shaken resolve weakens it. He also shows crushing strength, a tough hide, growth and long-range tracking.",
+    "personality": [
+      "Devoted: Puts the whole of his strength behind one master's word.",
+      "Single-minded: Pursues one objective at a time, straight through whatever is in the way.",
+      "Proud servant: Obeys no one else until they prove themselves to him in a fight.",
+      "Speaking style: Deep, slow, formal; few words, roars in battle, \"Master\" for his master."
+    ],
+    "abilities": [
+      "Colossal strength: Flattens buildings and hillsides by hand; no speed, no precision.",
+      "Endurance: Fights or marches for days and shrugs off most blows; shaken resolve weakens him.",
+      "Size change: Grows larger still to crush an obstacle, and makes a bigger target.",
+      "Tracking: Follows his master's or a target's trail over great distances; it finds, it does not plan.",
+      "\nFighting style: Charges straight at his objective and keeps coming; misdirection, restraint and shaken resolve are the openings."
+    ],
+    "visualDescription": "A colossal, heavily muscled man who towers over houses, with rough, rock-textured tan-brown skin, jagged ridges along his jaw and shoulders, a wild mane of spiky dark brown hair, small pale eyes under a heavy brow and lower canines jutting upward from a wide jaw. A ragged dark hooded cloak hangs from his shoulders. Grim, impassive expression.",
+    "detailType": "detailed",
+    "properName": "Gigantomachia",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b70003c3-10b6-4177-b826-b18e9a1cc00b.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_gigantomachia",
+    "initialKnown": false
+  }
+}

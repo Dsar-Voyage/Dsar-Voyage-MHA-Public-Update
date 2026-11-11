@@ -1,0 +1,20 @@
+{
+  "Gust Shove": {
+    "name": "Gust Shove",
+    "description": "The user thrusts both palms and drives a hard gust into a target across a room. It deals force damage and throws them off their feet along with anything loose around them; held back, it only shoves them several steps back without injury. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

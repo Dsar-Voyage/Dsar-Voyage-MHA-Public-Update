@@ -1,0 +1,20 @@
+{
+  "Dutiful": {
+    "name": "Dutiful",
+    "description": "📜 You do what you signed up for: rules, procedures and promises made in uniform.\n\n🏛️ Superiors trust you with responsibility, and you know the rules better than most.\n⚠️ You follow orders and procedure even when they are wrong, and freeze when duty conflicts with what is right.\n⚠️ Rule-breakers find you rigid.\n🔀 If you are also Rebellious, you obey the rules you believe in and fight the rest.\n\n📈 Grants: Hero Law +5",
+    "traitNarrativeEffects": "The character is dutiful: they take their obligations seriously, follow procedure, know the rules and keep promises made in uniform; superiors trust them with responsibility. Weakness: they follow orders and procedure even when they are wrong, struggle when duty and conscience pull apart and seem rigid to rule-breakers. If the character is also Rebellious, they keep the rules they believe in and fight the rest. The narrator shows what the rules require; when to bend them is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Hero Law",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Riverbed Walk": {
+    "name": "Riverbed Walk",
+    "description": "The user turns heavy and walks along the bottom of a flooded underpass, a river or a harbor, unmoved by the current, to reach a sunken car, pull a door open against the water or free a person snagged below. They work on a held breath of about a minute, and to rise they turn light and float up, slowly, because anyone they carry keeps their own weight. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

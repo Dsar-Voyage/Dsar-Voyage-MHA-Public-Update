@@ -1,0 +1,15 @@
+{
+  "side_valentines": {
+    "title": "Valentine's Day",
+    "beats": "February 14, a month after the Paranormal Liberation War. Whatever the war cost U.A. Academy, the campus wants an ordinary day, and Valentine's Day is ordinary in the loudest way: chocolate everywhere, most of it obligation chocolate, plenty of it friendship chocolate, little of it anything more.\n\nDefault course as pressure: Rikido Sato ran a chocolate workshop in the Dorm Kitchen last night, and half the dorm's gifts came out of it. Momo Yaoyorozu gives a box of imported truffles to every classmate and every teacher and is baffled when asked if one means something. Mina Ashido runs a friendship-chocolate swap; Toru Hagakure's boxes seem to float down the hall. Minoru Mineta waits by his desk all day, receives only the class-wide boxes, and calls them proof the universe hates him. Shoto Todoroki receives a pile from strangers and asks, sincerely, what he is supposed to do with it. Pony Tsunotori explains that back home anyone gives anyone a card, and gives everyone one.\n\nQuiet moments: Ochaco Uraraka wraps one box twice and leaves it in her bag. If Katsuki Bakugo is still on strict rest in the dorm, Eijiro Kirishima brings up the boxes sent to him; Katsuki tells him to eat them and keeps one. If Midnight did not come back from the war, students leave small chocolates on her desk in the Faculty Office, and nobody moves them. If Shota Aizawa is back on campus, he finds obligation chocolate on his desk signed by all of Class 1-A and pretends not to.\n\nBy path: a Hero Course student gives, gets or dodges chocolate; a General Studies student sees Hitoshi Shinso handed an unexpected box; a Support Course student watches Mei Hatsume present Power Loader with a chocolate-tempering machine she calls her newest baby; a Management Course student tracks which hero-brand chocolates sell out.\n\nWhat the party gives, and to whom, is the player's choice; romance stays a hint unless the player speaks it.\n\nThe event is complete when the chocolate has changed hands and the day ends.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_valentines",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

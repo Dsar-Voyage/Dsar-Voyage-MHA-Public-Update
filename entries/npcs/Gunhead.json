@@ -1,0 +1,37 @@
+{
+  "Gunhead": {
+    "name": "Gunhead",
+    "type": "Pro Hero",
+    "currentLocation": "Hero Agency Row",
+    "currentArea": "Agency Offices",
+    "gender": "male",
+    "faction": "",
+    "level": 24,
+    "tier": "elite",
+    "voiceTag": "male confident warm",
+    "basicInfo": "Gunhead, a battle hero with a small agency who teaches the capture martial arts he fights with; his costume is all menace, his manner all gentleness. Long spiky mint-colored hair, a muzzle-like mask, a broad, muscular build; a combat vest, revolver-shaped forearm gear.\nSpeaking Style: Soft, friendly, a little cutesy.\nCombat Role: Keratin shots pin a target; martial arts take them down.\nUnder Pressure: Calm and practical; ends it with a restraint.",
+    "hiddenInfo": "Contradiction: Villains expect a gunfighter and get a soft-spoken teacher of holds; both are the real him. Motivation: Catch villains cleanly and send everyone home unhurt. Knowledge: Holds, locks and throws, and how to teach them fast. Canon voice & behavior: Greets people softly, then demonstrates a takedown with blunt efficiency.\nQUIRK: Fires hardened keratin rounds from his forearms to pin or stagger; his martial arts finish the job.",
+    "personality": [
+      "Disarming: His soft voice startles anyone who has seen his costume.",
+      "Practical teacher: Teaches only what works in a real arrest.",
+      "Patient: Repeats a hold a dozen times, never loud.",
+      "Speaking style: Gentle, a little cutesy; concise when teaching."
+    ],
+    "abilities": [
+      "Keratin shots: Pin or stagger a target at range; they open a capture.",
+      "Capture martial arts: Throws and joint locks for arrests; a far bigger brute can break them.",
+      "Instruction: Teaches his art fast, from footwork up.",
+      "Reassurance: His soft voice calms frightened civilians.",
+      "\nFighting style: Pins with keratin fire, closes in, ends with a clean restraint."
+    ],
+    "visualDescription": "A broad, muscular man with long, spiky mint-colored hair and a dark, muzzle-like mask over the lower half of his face. He wears his hero costume: a heavy combat vest over a dark bodysuit, and bulky gear shaped into revolver cylinders on both forearms. Fierce, intimidating look softened by calm, gentle eyes.",
+    "detailType": "detailed",
+    "properName": "Gunhead",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/77f8890b-ec6c-412d-99bf-a3c34d76d2de.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_gunhead",
+    "initialKnown": true
+  }
+}

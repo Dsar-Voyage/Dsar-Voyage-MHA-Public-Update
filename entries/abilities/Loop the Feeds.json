@@ -1,0 +1,15 @@
+{
+  "Loop the Feeds": {
+    "name": "Loop the Feeds",
+    "description": "The user gets into a building's security network and feeds its cameras and door logs a recorded loop. For the rest of the scene the cameras show nothing out of place and the doors record no openings, so the user and allies move through unrecorded until someone checks the equipment in person. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Computing",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

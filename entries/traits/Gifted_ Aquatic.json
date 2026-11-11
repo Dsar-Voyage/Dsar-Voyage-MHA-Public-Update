@@ -1,0 +1,32 @@
+{
+  "Gifted: Aquatic": {
+    "name": "Gifted: Aquatic",
+    "description": "🧬 Aquatic, as an extra Quirk put into your body.\n\n🌱 At the start you breathe underwater, outswim any athlete, hold a breath through smoke and gas on land, and rush through water to a target or a drowning swimmer.\n📈 With training: sonar in murky water, groups towed from floods, any grip slipped, tail and body slams, boats stopped dead, breaches onto a target, rescues held underwater.\n⚠️ Dry air and heat wear on you.\n🔗 Common drawback pairing: Overheating, as exertion out of water heats and dries your body.\n🎬 Similar canon Quirks: Gang Orca (Orca), Tsuyu Asui (Frog).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Aquatic family): Scale: a body built for water: gills, fins, webbed hands and feet or slick skin (player's choice). New adult user: breathes underwater, swims several times faster than a human champion, dives to about thirty meters, sees in murky water and holds a breath on land for minutes. More needs techniques. Limits: ordinary pace on land; dry air and heat dry skin and gills: hours from water tire them until wet again; hot rooms exhaust them; they move through water, never move it; polluted water harms them as anyone. Quirk Strain: living in the body costs nothing; light: dash, held breath; moderate: sonar, towing, slipping a hold; heavy: body slam, ramming a vessel; severe: signature breach, whole-district rescue. Type: Mutant. Law: the features break no law, but holding a person under water is attempted murder, whatever the intent.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Swimming",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

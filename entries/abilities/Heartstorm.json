@@ -1,0 +1,25 @@
+{
+  "Heartstorm": {
+    "name": "Heartstorm",
+    "description": "The user's signature move: they open completely and flood every enemy within a city block with a single feeling at its peak (terror, despair or helpless laughter). Each takes massive psychic damage and cannot attack or use a Quirk until the end of their next turn, while allies and bystanders there shake off any fear or panic; afterward the user is wrung out and cannot push feelings until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

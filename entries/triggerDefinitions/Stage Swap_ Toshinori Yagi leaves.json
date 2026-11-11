@@ -1,0 +1,27 @@
+{
+  "Stage Swap: Toshinori Yagi leaves": {
+    "name": "Stage Swap: Toshinori Yagi leaves",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_symbol_of_peace_retires",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-in-party",
+        "npc": "Toshinori Yagi",
+        "operator": "set",
+        "value": false
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Toshinori Yagi",
+        "operation": "moveAway"
+      }
+    ]
+  }
+}

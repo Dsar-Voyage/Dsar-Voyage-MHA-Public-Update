@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: tensei_iida_after_stain": {
+    "name": "Portrait Swap: tensei_iida_after_stain",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_sports_festival",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tensei Iida",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/611ba7dc-2d81-4cea-95ce-7ffae263f95b.png"
+      }
+    ]
+  }
+}

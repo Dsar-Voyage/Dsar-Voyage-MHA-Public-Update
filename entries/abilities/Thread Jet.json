@@ -1,0 +1,29 @@
+{
+  "Thread Jet": {
+    "name": "Thread Jet",
+    "description": "The user narrows the water to a jet thinner than a pencil lead, at a pressure that cuts through steel plate, concrete and a car frame along any line they trace across a street. It frees anyone pinned without harming them, or deals heavy slashing damage to a single target; held back, it only cuts straps, a weapon or armor away from the skin. The user must plant both feet and brace against the kick, and anything behind the target along the line is cut too, so they must aim clear of people. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

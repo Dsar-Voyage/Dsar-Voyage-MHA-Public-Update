@@ -1,0 +1,37 @@
+{
+  "Gifted: Hardening": {
+    "name": "Gifted: Hardening",
+    "description": "🧬 Hardening, as an extra Quirk put into your body.\n\n🌱 At the start your whole body hardens in an instant: fists, knives, bats and falling debris stop at your skin, and your hardened fists dent a car door.\n📈 With training: diving over people in danger, breaking walls, dropping through floors to the trapped, holding up a ceiling, armor-cracking blows, a past-your-limit strike.\n⚠️ It stops cuts and blows, not heat, cold, electricity, gas or sound.\n🔗 Common drawback pairing: Time Limit, as the hardening softens sooner the harder you push.\n🎬 Similar canon Quirks: Eijiro Kirishima (Hardening), Tetsutetsu Tetsutetsu (Steel).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Hardening family): Scale: skin hardens rough and ridged, one limb or the whole body, instantly. A new adult user shrugs off fists, knives, bats and a fall of a story or two, and dents a car door; a pistol round only chips it and bruises. Bigger feats need techniques. Limits: stops cuts and blows, not heat, cold, electricity, gas or sound; a rifle round, a speeding car or a full-power strength Quirk cracks it. Hardened, the user is heavy, sinks and loses fine touch; ridges cut anyone they grab. Quirk Strain: light: one limb, quick full-body flash; moderate: charge, covering a person, hardened drop; heavy: bracing a collapse, armor-breaking flurry; severe: signature move, sheltering a crowd all scene. Type: Transformation. Law: hardening in self-defense is lawful, but a ridged fist outside licensed work is assault, its cuts hard to deny.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ]
+  }
+}

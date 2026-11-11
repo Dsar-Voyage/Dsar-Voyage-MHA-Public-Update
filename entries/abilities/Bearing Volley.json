@@ -1,0 +1,20 @@
+{
+  "Bearing Volley": {
+    "name": "Bearing Volley",
+    "description": "Current loops through the user's forearms as magnetic coils that accelerate coins, bolts or steel bearings down a street. At full force the shot deals piercing and electric damage; held back, the user fires flat-faced bearings as nonlethal stun shots that deal bludgeoning damage and knock the target down without breaking skin. Running both natures at once heats the user's forearms and burns through pocket metal. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

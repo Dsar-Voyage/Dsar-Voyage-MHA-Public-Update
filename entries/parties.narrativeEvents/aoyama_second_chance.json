@@ -1,0 +1,15 @@
+{
+  "aoyama_second_chance": {
+    "title": "You Can Still Be a Hero",
+    "beats": "Later on May 4, U.A. Academy's Faculty Office becomes a controlled interview space for Yuga Aoyama and his parents. Naomasa Tsukauchi separates testimony from assumptions while Principal Nezu and All Might consider the security consequences. Izuku Midoriya and classmates can speak only when admitted. At Musutafu General Hospital, Shota Aizawa joins through a protected consultation while continuing treatment for the loss of his right eye and lower leg.\n\nThe canon default course, as pressure the player can change: Yuga condemns himself as a villain and expects rejection. Izuku argues that the wrong he has done does not remove every chance to act heroically now. Classmates express anger, hurt and support without being required to forgive on command. Investigators assess the family's coercion, contact history and possible hidden enemy measures. Medical checks and communication restrictions matter because Nagant's punishment has demonstrated the danger of treating an apparent defection as safe.\n\nAizawa proposes that Yuga can help deceive All For One under supervision. Cooperation is a constrained role in an operation, not immunity, a public pardon or permission to resume unsupervised contact. Give a participating player a decision about evidence, willingness, safeguards or testimony; make clear which risks remain unresolved. Yuga and his parents can refuse or request limits. If the previous event established escape, a warning or compromised secrecy, this interview and any deception plan must respond to that reality rather than restoring an unsuspecting enemy.\n\nBy Path: at U.A. Academy, Class 1-A can address Yuga, Class 1-B covers disrupted duties, General Studies assists an authorized interview, Support examines equipment and Management restricts sensitive circulation. Faculty judges suitability and care, Licensed Sidekick escorts detainees and Licensed Pro Hero assesses tactical use. At Musutafu General Hospital, authorized participants can consult Aizawa and arrange medical safeguards without interrupting other patients. Vigilante and Civilian Life provide corroborating testimony through permitted contacts. League of Villains Recruit and Independent Villain decide whether to warn, cooperate or bargain only with information actually acquired. The operation's eventual details remain limited even among sympathetic students.\n\nThe event is complete when Yuga's willingness, the family's custody, the permitted cooperation and the recipients of the proposed deception have been decided.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_aoyama_second_chance",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

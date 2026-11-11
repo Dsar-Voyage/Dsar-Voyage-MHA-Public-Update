@@ -1,0 +1,40 @@
+{
+  "Precognition Quirk": {
+    "name": "Precognition Quirk",
+    "description": "⏩ You see a few seconds ahead: the punch before it is thrown, the sign before it falls.\n\n🌱 At the start you see about three seconds of whatever your own eyes would see, so you dodge, counter and shout warnings a beat early.\n📈 Training adds grabbing a runner where they are about to step, crossing a collapsing street untouched, knocking a weapon loose before it fires, a ten-second horizon and, at your peak, a minute ahead.\n⚠️ A blow from behind or through a wall never shows, a big brawl blurs into noise, and acting on a glimpse changes it.\n🔗 Common drawback pairing: Sensory Overload, as a crowded fight floods you with seconds that have not happened yet.\n🎬 Similar canon Quirks: none close; Sir Nighteye's Foresight reads hours of one person's life instead.\n\n📈 Grants: Speed +1, Quirk Analysis +10, Quirk Control +10, Dodging +5\n⚡ Starting techniques: Next-Beat Dodge, Answered Blow",
+    "traitNarrativeEffects": "Scale: awake and focused, a new adult user glimpses about three seconds ahead of all in their line of sight (punches, a runner's turn, a falling sign, a swerving car) as a motion overlay, so they move, counter and warn early. Longer windows, whole streets and others' safety need techniques. Limits: only what their own eyes would see; nothing behind, through walls or out of sight shows. It shows events' course if unchanged; acting on it branches events; they see anew. Motion and events only, never thoughts, plans or words; crowded fast brawls blur to noise. Asleep, blindfolded or in total darkness: nothing. Quirk Strain: light: dodge, counter, warning; moderate: pinned grab, run through danger, disarm; heavy: ten-second horizon over a block; severe: signature move, a minute ahead. Type: Emitter. Law: legal in self-defense and licensed duty; cheating at gambling or sports with it is fraud. Look: eyes track things a half beat early; they flinch or step aside first.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Dodging",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Next-Beat Dodge",
+      "Answered Blow"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

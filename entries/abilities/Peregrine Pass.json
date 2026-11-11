@@ -1,0 +1,25 @@
+{
+  "Peregrine Pass": {
+    "name": "Peregrine Pass",
+    "description": "The user's signature move: they climb out of sight, fold their wings and drop faster than any car, then snap them open at street level and tear down a whole street in one pass. Every enemy along it takes massive slashing damage and is thrown off their feet, and the wind of the pass shatters windows; afterward the user's wings are spent and they cannot fly until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

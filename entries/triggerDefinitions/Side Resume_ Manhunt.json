@@ -1,0 +1,42 @@
+{
+  "Side Resume: Manhunt": {
+    "name": "Side Resume: Manhunt",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "v_manhunt",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_manhunt",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_v_manhunt",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "v_manhunt"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_v_manhunt",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Manhunt\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The party is now Most Wanted, and a new manhunt opens with this scene (any chase before it does not count): a coordinated operation closes in, run by a police task force with a top-ranked pro of the narration's choosing, one active at this point in the year, and the local agencies under that pro."
+      }
+    ]
+  }
+}

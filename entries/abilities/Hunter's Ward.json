@@ -1,0 +1,25 @@
+{
+  "Hunter's Ward": {
+    "name": "Hunter's Ward",
+    "description": "In full beast form the user lifts their head and takes in the scents and sounds of a whole district at once. For the rest of the scene they know where every trapped or hurt person, every gas leak, every fire and every armed group in that district is, and they pick out any one person's scent among thousands and follow it anywhere inside the district. The user must hold the full form the whole time, and when it ends strong smells and noise overwhelm them until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

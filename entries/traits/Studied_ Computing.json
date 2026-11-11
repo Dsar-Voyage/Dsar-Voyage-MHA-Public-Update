@@ -1,0 +1,20 @@
+{
+  "Studied: Computing": {
+    "name": "Studied: Computing",
+    "description": "💻 You studied computers: programming classes, a networking certificate, hobby projects or an IT part-time job.\n\n🌱 You can write a script, recover deleted files and lock down a device, and you know the basics of intrusion.\n⚠️ Hardened systems, government databases and a skilled defender are beyond you.\n⚖️ Unauthorized access to any system is a crime, and police trace intrusions.\n🏫 It shows in a sticker-covered laptop, many open windows and a reflex to check a device's security.\n\n📈 Grants: Computing +15",
+    "traitNarrativeEffects": "The character has studied computing: programming, networks, data recovery, security systems and the basics of intrusion. They can write a script, recover deleted files and lock down a device. Prior study, not mastery: hardened systems, government databases and a skilled defender are beyond them. Not a license: unauthorized access to any system is a crime, and police trace intrusions. It shows in a laptop covered in stickers, several windows open at once and a reflex to check a device's security.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Computing",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

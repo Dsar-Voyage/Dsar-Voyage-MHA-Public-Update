@@ -1,0 +1,20 @@
+{
+  "Broadhand Guard": {
+    "name": "Broadhand Guard",
+    "description": "The user enlarges one hand about a meter across and raises its palm between their upper body and one visible close attack before their next turn ends. The broad hand catches a thrown object or softens a punch, but a blade can cut it and heavy force can push it back. The user's sides and legs remain exposed. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

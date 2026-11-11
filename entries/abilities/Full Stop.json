@@ -1,0 +1,24 @@
+{
+  "Full Stop": {
+    "name": "Full Stop",
+    "description": "The user runs down anything moving on the ground, from a getaway car or a runaway bus to a fleeing speedster, and matches speed alongside. They plant their heels and fire the engines against the motion: a vehicle halts without crashing or rolling, so nobody aboard is hurt, and a fleeing person is pinned until they break free with a hard effort or the user lets go. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Sea off Choshi": {
+    "name": "Sea off Choshi",
+    "basicInfo": "The open Pacific east of Cape Inubo, from just off Choshi's headland out about fifty kilometers, where the Kuroshio current leaves the coast of Japan and turns east into the ocean. Warm, deep-blue Kuroshio water meets the colder, greener Oyashio here, and the mixing makes one of the richest fishing grounds in Japan, with frequent fog in early summer and sharp chop where the currents collide. The shelf is narrow and the bottom falls quickly past several hundred meters. Boats from Choshi, Hasaki and Kashima fish sardines, mackerel, saury and squid in great numbers, and Choshi's port often leads the country in landings. Ships bound for Tokyo Bay and Kashima's industrial port round the cape in a steady line, and the lighthouse at Inubosaki and the cliffs of Byobugaura show to the west. The coast guard patrols these waters out of Choshi, and maritime heroes ride out with it in storms. A party could be out here on a fishing boat, a coast guard cutter, or carried by a flying hero.",
+    "hiddenInfo": "Competition for fish is fierce, with talk of boats under-reporting their catches. Heavy shipping means near-misses with fishing boats in fog. Help is the Choshi coast guard, under an hour from port. Small villainy: catch fraud, fuel theft, and the occasional night transfer of smuggled goods between ships.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 4,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bca94727-4add-4ce3-b1d9-ae30c5d59302.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Healing Quirk": {
+    "name": "Healing Quirk",
+    "description": "💗 Your touch speeds up another person's healing, and they pay with their own stamina.\n\n🌱 At the start you close cuts, stop bleeding and ease sprains in moments, and work down a line of wounded keeping each alive until help comes.\n📈 With training: knit bones, a strength-draining touch, poison burned out, the dying held back, grave wounds mended, a room healed at once, what a body cannot fix restored.\n⚠️ Healers are rare, and every agency, hospital and villain crew wants one.\n🔗 Common drawback pairing: Stamina Drain, as long shifts empty you too.\n🎬 Similar canon Quirks: Recovery Girl (Heal).\n\n📈 Grants: Cooperativeness +1, Quirk Control +10, Quirk Stamina +10, First Aid +5\n⚡ Starting techniques: Mending Touch, Ward Rounds",
+    "traitNarrativeEffects": "Scale: by touch (or a kiss, player's choice) the user speeds a patient's own healing, paid from the patient's stamina. A new adult user closes cuts in a minute or two, stops a gash bleeding, knits a cracked bone over about an hour of contact. Bigger feats need techniques. Limits: heals only as far as the patient can pay: the exhausted gain little and forcing more can kill, so each patient is judged first. At the start it cannot regrow limbs, cure illness or poison, or revive the dead. Needs skin contact; heals villain or hero alike; cannot heal the user. Quirk Strain: light: small wounds; moderate: steadying the wounded, knitting a bone, draining a target, purging a poison; heavy: holding the dying, grave wounds; severe: signature mass healing, restoring what the body cannot. Type: Emitter. Law: healing outside licensed hero work or a registered clinic is unlicensed Quirk use; police seldom charge a lifesaver. Look: a soft glow (player's color) at the touch.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "First Aid",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Mending Touch",
+      "Ward Rounds"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

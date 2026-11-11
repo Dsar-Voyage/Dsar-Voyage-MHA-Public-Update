@@ -1,0 +1,24 @@
+{
+  "Glass Skeleton": {
+    "name": "Glass Skeleton",
+    "description": "The user lays both hands on a failing building and threads glass up through its cracked columns, beams and stairwells. For the rest of the scene the building cannot collapse, every stairway stays passable, and the user feels the weight of every person on every floor, so they can point rescuers to each one. The user must keep a hand on the building and cannot move or attack while it holds. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

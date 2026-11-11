@@ -1,0 +1,15 @@
+{
+  "Practiced Alibi": {
+    "name": "Practiced Alibi",
+    "description": "The user delivers a lie backed by matched details (a name, a receipt, a believable errand) and keeps every detail straight under questioning. A stranger, guard or official accepts the user's stated identity or reason for being there for the rest of the scene, unless they find hard evidence against it. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Deception",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

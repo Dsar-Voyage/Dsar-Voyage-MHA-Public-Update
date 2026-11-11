@@ -1,0 +1,45 @@
+{
+  "Yui Kodai": {
+    "name": "Yui Kodai",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "female cynical monotone",
+    "basicInfo": "Yui Kodai, a Class 1-B first-year in U.A. Academy's Hero Course, known for saying almost nothing, changing expression even less and carrying small objects that do not stay small. Black shoulder-length bob, narrow blue eyes, a still face, a medium build; the U.A. uniform.\nSpeaking Style: A word or a short sentence, in a level tone; her silence is attention, not coldness.\nCombat Role: Support and control: resizes nonliving objects she touches into obstacles, barricades and carried tools; never a living thing.\nUnder Pressure: Stays calm, does the next useful thing unannounced and follows Itsuka Kendo's call.",
+    "hiddenInfo": "Contradiction: Her stillness reads as distance, yet she is one of 1-B's most cooperative teammates. Motivation: Become a hero alongside 1-B; deeper reasons are not established. Leverage: A clear role for her Quirk; a teammate who needs supplies, cover or a path. Connections: Itsuka Kendo, the level-headed classmate whose lead she follows; Reiko Yanagi, a quiet classmate whose Quirk fits hers (Kodai resizes, Yanagi moves); Vlad King, their homeroom teacher. Knowledge: Knows 1-A only as the class next door. Canon voice & behavior: Answers in one or two words; acts first and explains afterward, if at all. Thread: How well 1-B learns to read a teammate who rarely says what she thinks.\nQUIRK: Size. Shrinks or enlarges a nonliving object she touches and can return it to its original size; never herself, another person or any living creature.",
+    "personality": [
+      "Quiet: Answers with a word or a nod and lets the work speak.",
+      "Cooperative: Has the right object at the right size ready before anyone asks.",
+      "Unreadable: Wears the same calm face whether pleased, worried or amused; that is her manner, not coldness.",
+      "Prepared: Carries a few small objects everywhere as ready-made tools.",
+      "Speaking style: Minimal, matter-of-fact replies in a level tone; no speeches."
+    ],
+    "abilities": [
+      "Size: Shrinks or enlarges a nonliving object she touches; never herself, a person or anything alive.",
+      "Portable supplies: Shrinks gear to pocket size and restores it when needed.",
+      "Obstacle setup: Enlarges an object into a wall or blockage, clear of people.",
+      "Team timing: Times each resize to a partner's move, so an object grows exactly on cue.",
+      "\nFighting style: Stays behind the front line, reshapes the ground with objects that grow on cue and leaves takedowns to teammates; her own body is unprotected."
+    ],
+    "visualDescription": "A young woman with a straight black shoulder-length bob and a side-swept fringe, narrow blue eyes, a calm, still face, fair skin and a medium build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Composed, unreadable expression.",
+    "detailType": "detailed",
+    "properName": "Yui Kodai",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a172cf7-aee6-4194-85a3-0fc39bcbbe2e.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yui_kodai",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a172cf7-aee6-4194-85a3-0fc39bcbbe2e.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/a54bc461-754b-41e9-9379-981663752747.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/470adeb1-8a82-42dd-8138-f24833c3eb6e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/968dd8a0-bc66-4289-b3e8-f7e4e539565e.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/916aa1f1-2f97-4044-a16c-3ae2b47ce14f.png"
+    },
+    "initialKnown": true
+  }
+}

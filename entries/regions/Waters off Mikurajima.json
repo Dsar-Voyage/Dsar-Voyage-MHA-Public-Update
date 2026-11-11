@@ -1,0 +1,28 @@
+{
+  "Waters off Mikurajima": {
+    "name": "Waters off Mikurajima",
+    "basicInfo": "Open sea south of Mikurajima on the line of the Izu Islands, where the Kuroshio current pours through the gap between Mikurajima and Hachijojima in a fast, warm stream that old sailors called the Black Current River. The water is deep and a rich, clear blue, and crossing it in a small boat means fighting the current. The only land is Inambajima, a lone, steep rock tower in the western part of the region, uninhabited and white with seabirds, famous among divers and anglers for the big fish that gather around it. Mikurajima's cliffs show to the north and Hachijojima's twin peaks to the south on clear days. The night ferry from Tokyo passes through on its way to Hachijojima after calling at Miyakejima and Mikurajima, and small planes fly overhead. Fishing boats from Hachijojima and Miyakejima work the grounds for alfonsino, bonito, yellowtail and tuna. Winter winds and typhoon swell can stop the ferry for days. Coast guard patrols and maritime heroes come out mostly for rescues. A party could be out here on the ferry, a fishing or dive boat, or carried by a flying hero.",
+    "hiddenInfo": "The current here is strong enough to carry a stalled boat far off its course, and divers at Inambajima are sometimes swept away. Help is a coast guard cutter or a hero flying out from Hachijojima or Miyakejima, an hour or more away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 1,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/780784b0-faf1-428c-b511-778be33624cf.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

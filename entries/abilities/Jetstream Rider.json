@@ -1,0 +1,20 @@
+{
+  "Jetstream Rider": {
+    "name": "Jetstream Rider",
+    "description": "The user rides a rising column of wind into true flight for the rest of the scene, hovering in place, climbing past rooftops and crossing city blocks. People pressed close beside the user at liftoff can be carried up in the same column and set down wherever the user lands, but the user cannot attack while carrying anyone. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

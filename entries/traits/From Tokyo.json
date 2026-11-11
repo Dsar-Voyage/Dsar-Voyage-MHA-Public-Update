@@ -1,0 +1,24 @@
+{
+  "From Tokyo": {
+    "name": "From Tokyo",
+    "description": "🗼 You grew up in Tokyo: packed trains, late-night streets, TV studios and giant screens.\n\n🚦 You learned which corners to avoid.\n📸 You know how to act when a camera turns your way.\n\n📈 Grants: Streetwise +5, Media Presence +5",
+    "traitNarrativeEffects": "Grew up in Tokyo. How Tokyo treats them: as a local; they move fast, know places tourists never find and hear rumors before the news. How Musutafu treats them: as a city person, quicker and more guarded; some find them aloof or showy; Musutafu feels small and quiet at first. Who they know: school friends citywide, a former part-time employer, someone in media or advertising, night-street faces they'd rather not owe; the narrator may name one as an original character when a Tokyo contact helps. Local knowledge: rush-hour rail, which districts are safe at night, entertainment streets of scouts, barkers and brokers, hero-goods stores, TV studios, giant screens of hero rankings and villain news; they have seen pros fight villains live on air and a few in person. Speech: standard TV Japanese; from the old downtown wards, they may soften 'hi' to 'shi' when relaxed. Habits: bag in front on crowded trains, ignore street scouts, expect strangers to mind their own business.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      },
+      {
+        "skill": "Media Presence",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

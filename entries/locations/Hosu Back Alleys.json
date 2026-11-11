@@ -1,0 +1,84 @@
+{
+  "Hosu Back Alleys": {
+    "name": "Hosu Back Alleys",
+    "basicInfo": "Hosu Back Alleys is an older quarter about 4 km southwest of Hosu Station, where four- to six-story concrete buildings stand wall to wall around a maze of lanes. Most lanes are too narrow for a car and are lined with restaurant back doors, stairwells, gas meters, stacked crates and bicycles chained to drainpipes; overhead, cables and laundry lines cross from window to window, and the rooftops are crowded with rusted water tanks on steel legs. Ground floors hold ramen shops, standing bars, a coin laundry and repair stalls; upstairs are cheap rooms rented by the week, small offices and families who have lived here for generations. The city owns the lanes but barely maintains them, and police and hero patrols keep to the main roads and rarely turn in. Cooks, dishwashers and delivery riders use the lanes all day, and residents hang laundry on the roofs in the morning; after dark the lanes belong to drinkers from the small bars, homeless people and anyone who wants to stay out of sight. Nothing here is gated: anyone can walk in from the main road, though the regulars notice every stranger. A player can rent a cheap room, pick up kitchen work, find a quiet spot for unlicensed Quirk practice (illegal, and a neighbor may call it in), or meet someone with something to sell. A local station on a commuter line runs to downtown in about five minutes. The quarter smells of frying oil and wet concrete, and sound carries strangely between the walls: a shout two lanes over can seem to come from right behind you.",
+    "hiddenInfo": "A small crew of minor villains collects a weekly quiet fee from the quarter's bars. Their lookouts sit on the water tanks and flash phone lights down into the lanes when a patrol turns in, and the crew is gone before any hero arrives. Bar owners pay because the police take twenty minutes to come and leave again just as fast. In one stairwell, a dealer sells knockoff support gear and unlicensed costume parts to hero hopefuls and petty criminals alike, and takes orders for anything harder through a broker. The lanes have no cameras. Two of the dead ends connect through a ramen shop's kitchen, and the cooks let strangers through for a price. Right now the quarter has a guest nobody has placed: Himiko Toga, a fugitive wanted for a string of killings by blood loss, has been sleeping in a weekly room off the Narrow Alley, alone, with no crew and no plan beyond the next night. Her wanted photo is old and her cheer disarms people, so the landlady takes her for a runaway student. Last week a delivery rider was found in the Narrow Alley at dawn, dizzy and pale, with a shallow cut on his forearm; he remembers only a giggling young woman who asked his name and called him cute. The crew's lookouts have seen her walking the roofs at two in the morning and have decided, for now, to leave her alone.",
+    "x": 3.4,
+    "y": 9.51,
+    "radius": 0.8,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Narrow Alley": {
+        "description": "A lane two arms' widths across, running between six-story buildings to a dead end at a chain-link fence, with a ramen shop's back door, a rusting fire escape and the stairwell to a row of weekly rooms opening onto it. Air-conditioner units drip from above, garbage bins line one wall, and a single caged bulb lights the middle stretch. Cooks step out for smoke breaks between lunch and dinner service and trade gossip about who has paid the weekly fee; delivery riders cut through on foot with their bags. After midnight the alley is empty except for cats and the odd drunk looking for a shortcut, and the bulb throws long shadows past the bins. The walls throw every footstep back, so anyone at the far end hears a visitor coming long before seeing them. The fire escape is the way up: it climbs past the weekly rooms to the Water Tank Rooftops.",
+        "paths": [
+          "Water Tank Rooftops",
+          "Hole-in-the-Wall Bar"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b4e66399-228b-47bb-86d0-9de05683e42f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Water Tank Rooftops": {
+        "description": "The roofs of the quarter's old four- and five-story blocks, close enough in places to step from one to the next and elsewhere joined by planks someone laid down years ago, each topped with a rusted water tank on steel legs. Residents hang laundry and tend potted plants and foam boxes of herbs up here in the daytime; an old man keeps racing pigeons in a wire coop, and wild pigeons nest under the tanks. The tank platforms look straight down into most of the lanes and, far to the northeast, out to the lit towers of downtown. After dark, lookouts and loners use the tanks as perches, and a phone light blinking from a tank means a patrol has turned into the lanes below. The steel legs creak whenever the wind rises, and the tar paper underfoot goes soft in summer and slick after rain. The fire escape leads back down into the Narrow Alley.",
+        "paths": [
+          "Narrow Alley"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4dac1864-1fab-4108-a20d-36b328f484e0.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hole-in-the-Wall Bar": {
+        "description": "A bar so small it fits six stools, behind a sliding wooden door off the Narrow Alley under a hand-lettered sign that simply says bar. Inside is a counter of dark wood worn pale where elbows rest, shelves of shochu bottles with regulars' names on paper tags, a two-burner stove, a small TV on a bracket and a cat that sleeps on the end stool unless someone sits there. The owner, an older woman who has run it since before the rooms upstairs went weekly, pours drinks for about 600 yen, serves boiled peanuts and stewed offal, and takes cash only. Cooks from the ramen shops come after their shifts; laborers and delivery riders drink until two; strangers get a look, a menu and silence until they order a second drink. On Friday nights the owner counts cash into an envelope and puts it in a drawer, and the regulars talk louder while she does it. Nobody here calls the police unless someone is badly hurt, and she keeps a baseball bat behind the counter. A paper sign above the bottles says, in her neat hand, no Quirks, no fights, no questions. Smoke and soy cling to everything. The sliding door opens onto the Narrow Alley.",
+        "paths": [
+          "Narrow Alley"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0cbdae05-f563-47be-9d75-1e82f6fed50f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b0c38074-b564-4dc6-bb29-41fff1c779c9.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

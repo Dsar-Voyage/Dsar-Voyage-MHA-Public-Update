@@ -1,0 +1,24 @@
+{
+  "Colossus Cradle": {
+    "name": "Colossus Cradle",
+    "description": "The user grows to giant height in a crowded street and, for the rest of the scene, moves with such care that no step breaks a window, a car or a pipe. They catch a falling bus, a derailed train car or a collapsing facade in both hands and set it down without harming anyone inside or below, and carry whole groups to safety in cupped hands. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

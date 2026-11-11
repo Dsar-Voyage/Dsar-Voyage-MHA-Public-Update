@@ -1,0 +1,30 @@
+{
+  "Beppu": {
+    "name": "Beppu",
+    "basicInfo": "The volcanic heart of northern Kyushu: Beppu's steaming hot-spring city on Beppu Bay at the eastern edge, Yufuin in its basin under Mount Yufu, the high Kuju mountains, the castle town of Taketa, and the northern half of Aso's great caldera at the southwest corner, crossing from Oita into Kumamoto Prefecture. Beppu has more hot-spring vents than anywhere else in Japan; white steam rises from hundreds of chimneys across its hillsides, and its eight onsen districts offer sand baths, mud baths and old public bathhouses. The Hells, boiling ponds of cobalt blue and blood red, draw tour buses, and in Kannawa food is steamed over the vents. A ropeway climbs Mount Tsurumi behind the city. Over the pass, Yufuin is a quieter resort of small inns, galleries and a lake that steams on cold mornings under twin-peaked Mount Yufu. To the southwest the Kuju mountains, the highest on Kyushu's mainland at nearly eighteen hundred meters, rise above highland meadows, wetlands and pink azaleas in June; the Yamanami Highway crosses the grasslands toward Aso, past Japan's tallest pedestrian suspension bridge at Kokonoe and the riverside baths of Kurokawa. Aso's caldera is one of the largest in the world, a green bowl of farms and towns where red cattle graze and the grass is burned each spring; its active crater, Naka-dake, steams at the southern edge and closes to visitors when the gas is bad. Taketa has castle ruins on a cliff and fizzing carbonated springs at Nagayu. Summers are cool in the highlands, winters snowy on the passes. Limited expresses from Hakata reach Beppu by way of Kokura in about two hours, a sightseeing train reaches Yufuin by way of Kurume and Hita in a little over two, the Hohi Line and Route 57 cross through Aso to Kumamoto, and overnight ferries sail from Beppu to Osaka. From Musutafu, about five and a half hours. Beppu has several hero agencies; the highlands are covered by licensed heroes on long patrols alongside park rangers and volcano watchers. Visitors bathe, hike Kuju, ride horses on Aso's grasslands and eat steamed food and toriten.",
+    "hiddenInfo": "Aso and Kuju are live volcanic country; gas alerts, closed roads and hikers lost in fog on the Kuju ridges are routine work for rangers and heroes. Beppu's older entertainment streets keep a seedy edge, and illegal hot-spring drilling and fake spring water are local grievances. Yufuin worries about crowds. Small crime is bag snatching in tourist streets and unlicensed Quirk massage parlors. Beppu and Oita have the nearest agencies; the highlands are an hour from any.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -14,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8813b837-2907-43e4-8024-802ad837310a.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

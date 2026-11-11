@@ -1,0 +1,15 @@
+{
+  "mha_mustard": {
+    "label": "Mustard",
+    "voiceTag": "male confident casual",
+    "instructions": "A young man's mid-to-high, slightly nasal voice, a little muffled behind a gas mask. Bitter, sneering and bratty: spits \"elite\" like an insult, gloats smugly, snaps and whines when things go wrong.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

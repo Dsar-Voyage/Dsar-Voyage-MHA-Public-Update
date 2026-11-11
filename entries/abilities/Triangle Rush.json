@@ -1,0 +1,24 @@
+{
+  "Triangle Rush": {
+    "name": "Triangle Rush",
+    "description": "The user plants three anchors around a target in one quick circling step, then snaps between them faster than the eye can follow, striking from each side in turn. The target cannot block or dodge and takes heavy bludgeoning damage; held back, the blows only sweep them to the ground. All three anchors are spent, and the user cannot plant new ones until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

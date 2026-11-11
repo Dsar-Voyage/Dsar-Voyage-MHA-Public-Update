@@ -1,0 +1,20 @@
+{
+  "Studied: Parkour": {
+    "name": "Studied: Parkour",
+    "description": "🏙️ You spent years free-running: railings, stairwells, walls and rooftops, first with a park club and then across the city.\n\n🌱 Vaults, wall runs, precision jumps and rolls. You see a street as a set of routes and pick a line without slowing down.\n⚠️ Wet surfaces, unfamiliar roofs and long drops punish mistakes, and a chase across a whole district exhausts you.\n⚖️ Running across rooftops and private property is still trespass, and building staff and police treat it so.\n🏫 It shows in how you cross ordinary spaces: hopping rails, testing ledges with a hand, landing without a sound.\n\n📈 Grants: Parkour +15",
+    "traitNarrativeEffects": "The character has trained in free-running: vaults, wall runs, precision jumps, hanging grabs and rolls that turn a drop into forward motion. They see a street as a set of routes and pick a line without slowing down. Prior study, not mastery: wet surfaces, unfamiliar roofs and long drops still punish mistakes, and a chase across a whole district exhausts them. Not a license: running across rooftops and private property is still trespass, and building staff and police treat it so. It shows in how they cross ordinary spaces: hopping rails, testing ledges with a hand, landing without a sound.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Parkour",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Jolt Clasp": {
+    "name": "Jolt Clasp",
+    "description": "The user grips a target's wrist, neck or shoulder and sends a measured jolt through them. It deals minor electric damage and locks the target's muscles: they cannot attack, run or use their hands until the end of their next turn, and they drop whatever they were holding. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Field Profile": {
+    "name": "Field Profile",
+    "description": "The user studies a person before any Quirk is shown: hands, skin, costume, support gear, old burns or frost scars, what they keep their distance from. The user learns what kind of Quirk they most likely have (Emitter, Transformation or Mutant, and roughly what it acts on) and is not caught off guard by its first use. A Quirk that leaves no mark on the body, gear or habits shows nothing. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

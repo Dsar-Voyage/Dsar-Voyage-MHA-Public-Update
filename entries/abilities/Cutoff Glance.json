@@ -1,0 +1,20 @@
+{
+  "Cutoff Glance": {
+    "name": "Cutoff Glance",
+    "description": "The user watches a person for a moment and reads the tell their Quirk gives before it fires: a tensed hand, a held breath, a flicker on the skin. If that person tries to use their Quirk on the user or anyone near the user before the end of the user's next turn, the user's look lands on them first and the Quirk fails to fire, so the attack never leaves their body. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

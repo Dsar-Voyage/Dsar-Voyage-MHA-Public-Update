@@ -1,0 +1,15 @@
+{
+  "billboard_chart": {
+    "title": "The Hero Billboard Chart",
+    "beats": "Evening at the Hero Billboard Chart Hall. The Commission President presents the first Hero Billboard Chart JP since All Might's retirement. The Tokyo Broadcasting Center carries the live ceremony while crowds gather at screens over Central Tokyo Streets. Ranked heroes face cameras on the Stage, reporters crowd the Press Gallery and the vacant Symbol of Peace role hangs over every introduction.\n\nThe canon default course, as pressure the player can change: the ranks are announced from tenth upward. Number Ten is Ryukyu; Nine, Yoroi Musha; Eight, Wash; Seven, Kamui Woods; Six, Crust; Five, Mirko; Four, Edgeshot; Three, Best Jeanist; Two, Hawks; One, Endeavor. Wash and Mirko are present with the other attending ranked heroes. Best Jeanist is absent, still recovering from Kamino unless the player's changed story spared him. These are the default rankings rather than a restriction on changes the player has already earned.\n\nUnless the player changes the exchanges, the heroes give their remarks and Hawks breaks the ceremony's stiff mood with a casual challenge to the room. He needles the senior heroes over public approval and their inability to reassure the country, then turns attention toward Endeavor. The new Number One faces an audience that doubts he can fill All Might's place. By canon default Endeavor gives a short answer asking the country to watch him, rather than promising to imitate his predecessor. The broadcast ends with an unsettled public weighing his words. The ceremony establishes the new order, not proof that the country's confidence has recovered.\n\nA ranked pro party can speak on the Stage; other pros and sidekicks attend through invitations or agency work and can respond to the reporters afterward. Faculty and students from every U.A. course watch in Heights Alliance or on an approved outing. A Management party can study the broadcast and agency response; Support students can follow the equipment and presentation without gaining stage access. At the Tokyo Broadcasting Center, Uwabami waits for her booked studio segment while staff decide which shots air. Civilians and villain parties on Central Tokyo Streets hear the crowd's response around the big screens; reporters work the Press Gallery with credentials. A party that speaks can change the room's mood and the ensuing coverage through what it actually says.\n\nThe event is complete when the chart announcements and closing remarks have finished and the live ceremony broadcast ends.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_billboard_chart",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

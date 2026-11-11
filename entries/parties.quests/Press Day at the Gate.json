@@ -1,0 +1,17 @@
+{
+  "Press Day at the Gate": {
+    "name": "Press Day at the Gate",
+    "questSource": "Present Mic",
+    "questStatement": "Reporters have camped outside the Main Gate since move-in weekend, all chasing one story: All Might teaching at U.A. The Management Course gets its first practicum. Present Mic, who handles the press better than anyone on the faculty, wants a student team at the gate this week to field questions, keep the walkway clear and give the cameras something harmless. Be useful, be polite, and leak nothing about students, staff or security.",
+    "mainObjective": "Handle the press at the Main Gate for Present Mic without leaking anything about U.A.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has fielded reporters at the Main Gate during Present Mic's practicum, kept student, staff and security details private, and filed a press summary."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Satire of a media frenzy. Reporters push for All Might's schedule, a student quote or a photo of a first-year; one tries to slip in behind a delivery van. Present Mic coaches with radio patter and turns plain when someone crosses a line. The U.A. Barrier closes on anyone without a student ID; Shota Aizawa may brush past the cameras unrecognized. The PC can make friends or enemies in the press corps. The media break-in belongs to its own event and is never staged, predicted or hinted here. Failure: a leak earns a polite, chilling talk with Principal Nezu and a headline the faculty will quote back.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

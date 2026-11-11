@@ -1,0 +1,15 @@
+{
+  "aoyama_exposed": {
+    "title": "The Friend in the Woods",
+    "beats": "On May 4, Toru Hagakure notices Yuga Aoyama's distress and follows him toward the wooded edge of U.A. Academy's Athletics Field. Mr. Aoyama and Mrs. Aoyama meet him there, believing their conversation private. Izuku Midoriya can be brought to the discovery through Hagakure's warning. Other students continue preparation elsewhere until a witness or alarm gives them a reason to respond.\n\nThe canon default course, as pressure the player can change: Hagakure overhears the parents discussing All For One's demands. They obtained Navel Laser for their originally Quirkless son and have obeyed threats against the family. Their conversation and subsequent admissions expose Yuga's role in supplying information connected to the USJ and forest training-camp attacks. Coercion explains the pressure without erasing the people harmed. Hagakure is the discoverer, not the traitor; suspicion must follow actual evidence rather than her invisibility.\n\nYuga panics when confronted and fires his laser in despair. Izuku and Hagakure prevent his escape and further injury. Refraction briefly reveals Hagakure's appearance without making her permanently visible. Keep the confrontation nonsexualized and focused on protection, fear and betrayal. A participant can interrupt the shot, preserve a device, obtain an admission or calm a parent before restraint becomes necessary. The family remains alive and reachable. Staff and police take control through an actual response; neither a confession nor a classmate's sympathy constitutes a completed investigation.\n\nBy Path: Class 1-A can confront or support Yuga; Class 1-B secures adjacent grounds; General Studies reports suspicious contact; Support protects and examines devices; Management prevents unauthorized circulation of evidence. Faculty leads safeguarding and detention, Licensed Sidekick assists the transfer and Licensed Pro Hero assesses compromised operations. Vigilante can provide corroborating contact information, while Civilian Life can give testimony through an authorized channel. League of Villains Recruit and Independent Villain can attempt a warning or trade evidence only after actually learning of the exposure. Discovery within U.A. Academy does not immediately inform All For One or the public. Preserve that separation when deciding who may still be deceived.\n\nThe event is complete when the family is secured or its changed escape outcome is established, immediate injuries are addressed and the discovered evidence and its actual recipients are stated.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_aoyama_exposed",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

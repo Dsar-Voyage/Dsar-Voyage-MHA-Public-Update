@@ -1,0 +1,22 @@
+{
+  "Items: one Agency phone": {
+    "name": "Items: one Agency phone",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Agency phone",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Agency phone",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

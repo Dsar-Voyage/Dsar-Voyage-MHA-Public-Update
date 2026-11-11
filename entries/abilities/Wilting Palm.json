@@ -1,0 +1,20 @@
+{
+  "Wilting Palm": {
+    "name": "Wilting Palm",
+    "description": "The user grips a target's bare skin and pours healing into a body with nothing to mend. The target's strength drains into empty repair work: they lose heavy stamina and cannot run, strike hard or lift anything heavy until the end of their next turn. It leaves no wound, so heroes use it to end a fight without injuring anyone. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

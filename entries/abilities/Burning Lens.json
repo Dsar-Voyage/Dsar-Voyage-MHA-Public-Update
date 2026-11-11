@@ -1,0 +1,20 @@
+{
+  "Burning Lens": {
+    "name": "Burning Lens",
+    "description": "The user grows a fist-sized lens in their palm and focuses sunlight or a floodlight onto a target within a street's width. A flash into the eyes leaves them unable to see until the end of their next turn; held on skin or gear, the point deals fire damage and can light paper or burn through a rope. Indoors, at night or under heavy cloud the lens has nothing to focus and does nothing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

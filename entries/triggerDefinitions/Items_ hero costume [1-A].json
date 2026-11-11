@@ -1,0 +1,37 @@
+{
+  "Items: hero costume [1-A]": {
+    "name": "Items: hero costume [1-A]",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 4
+      },
+      {
+        "type": "player-item",
+        "item": "Student hero costume",
+        "operator": "lessThan",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Student hero costume",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the character's costume case from the support company is handed over in this scene: their Student hero costume. It is already in their inventory."
+      }
+    ],
+    "recurring": false
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Quirk-Centered Fighter": {
+    "name": "Quirk-Centered Fighter",
+    "description": "💥 Your whole fighting style is built around your own Quirk: footwork, timing and body mechanics trained to release it at the right moment.\n\n🌱 Works with any Quirk, from blasts to strengthened limbs to Mutant bodies. It adds aim and timing; your Quirk stays exactly as strong as it is.\n⚠️ Its techniques raise Quirk Strain instead of costing stamina, and they fail when your Quirk is erased, out of fuel or past its limit.\n🚫 Not for Quirkless characters: none of its techniques work and the Quirk Output and Quirk Control bonuses do nothing. Only the +1 power applies.\n📈 You learn more techniques as your Quirk Output and Quirk Control improve.\n\n📈 Grants: Power +1, Quirk Output +15, Quirk Control +10\n⚡ Starting technique: Step-In Burst",
+    "traitNarrativeEffects": "Quirk plus trained footwork: steps in as it fires, pivots to aim, feints. Techniques use the user's own Quirk: damaging Quirks deal their own type; body Quirks deal bludgeoning, slashing or piercing by form; others apply their usual effect. Adds aim and timing, never scale. Techniques raise Quirk Strain as tagged, not stamina. They fail if an Emitter or Transformation Quirk is erased or suppressed, or any Quirk is out of fuel or past its limit (user fights untrained); Erasure never removes Mutant features, so feature-only techniques work, but anything sent from the body stops. Quirkless or No Quirk: no technique (Step-In Burst included) works, no Strain, Quirk Output and Quirk Control bonuses ignored; only +1 power carries over. Law: every technique is Quirk use, illegal on a person without a hero license except self-defense or supervised training (U.A., teacher present); villains and vigilantes break the law with every move. Look: Quirk-led stance, scorch or wear.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 15
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Step-In Burst"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless",
+      "No Quirk"
+    ],
+    "requirements": []
+  }
+}

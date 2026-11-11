@@ -1,0 +1,20 @@
+{
+  "Whole-Board Read": {
+    "name": "Whole-Board Read",
+    "description": "The user takes in the whole engagement and gives a plan in a few words: who covers whom, where to fall back, which opponent goes down first. Until the scene changes, allies who follow the plan never hit one another with attacks or Quirks or cut across each other's line, and when the user calls the fallback, every ally breaks off at once with no opponent getting a free attack on them. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Field Tactician",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

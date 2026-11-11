@@ -1,0 +1,24 @@
+{
+  "Ricochet Rampage": {
+    "name": "Ricochet Rampage",
+    "description": "The user bounds from floor to wall to ceiling around a room, an alley or a train car, never still long enough to be aimed at. Every enemy in that space takes a hit from their natural weapons, dealing slashing or bludgeoning damage, and none of them can target the user until the end of their next turn; the user lands wherever they choose. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

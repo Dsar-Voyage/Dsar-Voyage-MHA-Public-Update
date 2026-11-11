@@ -1,0 +1,41 @@
+{
+  "Glass Quirk": {
+    "name": "Glass Quirk",
+    "description": "🪟 You grow clear glass from your skin and shape it as it sets; some users carry faintly glassy skin at the knuckles and neck.\n\n🌱 Raise a door-sized pane, flick blunt beads, grow lenses, shards and plates. Your glass stops fists and pistol rounds until a blow hits its weak point.\n📈 Training adds shackles fused to the floor, a lens that focuses sunlight, glazing shut a cracking wall, stairs up a building, shard fans and holding up a falling tower.\n⚠️ You always feel the weak point and can shift it, but sudden heat change cracks it.\n🔗 Common drawback pairing: Bodily Toll, as the skin at your knuckles cracks and bleeds when you push it.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Control +10, Blocking +5\n⚡ Starting techniques: Window Wall, Bead Volley",
+    "traitNarrativeEffects": "Scale: clear glass wells from palms and forearms and sets hard in a second or two as guided; at first about a bucket per scene, up to a door-sized pane. It stops fists, bats, knives and pistol rounds, but a blow on its weak point shatters it; the user feels that point and all strain and can shift it by touch. Bigger structures need learned techniques. Limits: only self-grown glass obeys, though they feel strain in any glass touched. It hides nothing; sudden heat change (fire, then water) cracks it; shards cut unless carefully grown to break blunt. Quirk Strain: light: pane, beads; moderate: shackle, lens, stair; heavy: glazing a failing structure, shard fan; severe: signature fist, holding up a building. Type: Emitter (also fits Mutant). Law: glass left on roads is the user's to clear; unlicensed shards count as weapons. Look: ringing as glass rises; as Mutant, glassy knuckles and neck.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Window Wall",
+      "Bead Volley"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

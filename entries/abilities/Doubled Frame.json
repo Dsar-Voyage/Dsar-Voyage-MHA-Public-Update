@@ -1,0 +1,20 @@
+{
+  "Doubled Frame": {
+    "name": "Doubled Frame",
+    "description": "The user grows to double their height and holds it. Until they shrink back or the scene ends, they reach second-floor windows, step over cars and barricades, carry a few adults at once, and nobody of ordinary size can wrestle or shove them; they no longer fit through doors or into vehicles. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

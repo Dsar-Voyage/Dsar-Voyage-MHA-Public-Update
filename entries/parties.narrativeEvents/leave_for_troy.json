@@ -1,0 +1,15 @@
+{
+  "leave_for_troy": {
+    "title": "One Last Night Before Deployment",
+    "beats": "On May 8, U.A. Academy's Campus Bus Terminal fills with checked equipment and quiet departures. Class 1-A prepares to leave the civilian shelter's daily life for temporary Troy accommodation and operational staging. Staff maintain refugee services while families say goodbye through permitted visits or messages. Heights Alliance has been the students' home since day one; this departure is neither their first dorm move nor a celebration of becoming residents.\n\nThe canon default course, as pressure the player can change: the students' departure frustrates infiltrators who hoped to turn refugee opposition into a means of driving Izuku Midoriya out on enemy terms. The heroes choose their own movement and protect its purpose. U.A. Academy's preparation as the floating fortress Troy continues under restricted access. Refugees remain in protected accommodation and evacuation arrangements; they are not carried into the coming battlefield merely because students are billeted for the operation.\n\nBefore departure, Izuku and Ochaco Uraraka find a quiet chance to speak about the suffering they perceived in Tomura Shigaraki and Himiko Toga. Wanting to understand or save an enemy does not excuse the harm that enemy has caused. Their conversation is private unless shared deliberately. Shoto Todoroki carries his intention to face Dabi without requiring his classmates to solve the family's history. Friends share food, check equipment and make concrete commitments for the next day. Keep warmth and uncertainty together; no one knows the eventual casualties in advance.\n\nBy Path: at U.A. Academy, Class 1-A and Class 1-B prepare personal and team commitments, General Studies helps relocation, Support issues final equipment, Management reconciles confidential lists and Faculty oversees departure and shelter continuity. Licensed Sidekick escorts transport, Licensed Pro Hero briefs assigned teams and Vigilante protects an agreed route without receiving unrestricted orders. Civilian Life can say goodbye, pack essentials or accept an ongoing shelter duty. League of Villains Recruit and Independent Villain may observe, conceal or expose the move only through established access. A detained player receives a relevant cooperation or visitation decision. Equipment issued here remains finite, and earlier injuries, leaks or altered assignments must travel with the people affected.\n\nThe event is complete when the departure and protected handover are finished and the player has accepted an explicit deployment, support or civilian duty for the coming operation.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_leave_for_troy",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

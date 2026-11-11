@@ -1,0 +1,24 @@
+{
+  "Building Concord": {
+    "name": "Building Concord",
+    "description": "The user lays a hand on a building's control panel or machine room and takes hold of every machine in the building for the rest of the scene. They know what every camera sees, run every elevator and fan, open or seal any electronic door, start the sprinklers and drop the fire shutters anywhere, trapping villains or opening a path for evacuees. The user must stay at that spot and cannot fight or defend while holding. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

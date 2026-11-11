@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Nemesis",
+    "minScore": -100,
+    "maxScore": -81
+  },
+  {
+    "name": "Enemy",
+    "minScore": -80,
+    "maxScore": -61
+  },
+  {
+    "name": "Hostile",
+    "minScore": -60,
+    "maxScore": -41
+  },
+  {
+    "name": "Distrustful",
+    "minScore": -40,
+    "maxScore": -21
+  },
+  {
+    "name": "Wary",
+    "minScore": -20,
+    "maxScore": -6
+  },
+  {
+    "name": "Neutral",
+    "minScore": -5,
+    "maxScore": 5
+  },
+  {
+    "name": "Acquainted",
+    "minScore": 6,
+    "maxScore": 20
+  },
+  {
+    "name": "Friendly",
+    "minScore": 21,
+    "maxScore": 40
+  },
+  {
+    "name": "Close",
+    "minScore": 41,
+    "maxScore": 60
+  },
+  {
+    "name": "Trusted",
+    "minScore": 61,
+    "maxScore": 80
+  },
+  {
+    "name": "Inseparable",
+    "minScore": 81,
+    "maxScore": 100
+  }
+]

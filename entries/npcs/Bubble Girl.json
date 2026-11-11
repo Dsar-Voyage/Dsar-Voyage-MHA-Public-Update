@@ -1,0 +1,35 @@
+{
+  "Bubble Girl": {
+    "name": "Bubble Girl",
+    "type": "Pro Hero",
+    "currentLocation": "Sir Nighteye Hero Agency",
+    "currentArea": "Meeting Room",
+    "gender": "female",
+    "faction": "",
+    "level": 12,
+    "tier": "strong",
+    "voiceTag": "female melodic bright",
+    "basicInfo": "Bubble Girl (Kaoruko Awata), a sidekick at Sir Nighteye's agency: upbeat, loud and quick to laugh. Her bubbles burst with any scent she has smelled before. Light-blue skin, a short wavy dark-blue bob, large yellow eyes; a clear visor, a navy cropped top.\nSpeaking Style: Bright, chatty, loud; laughs at herself first.\nCombat Role: Distraction: a foul smell breaks focus; her bubbles hold no one.\nUnder Pressure: Sticks to her part of the plan and gets civilians clear.",
+    "hiddenInfo": "Contradiction: Scent bubbles sound silly, yet in an exacting agency the right smell at the right moment is a real tool. Connections: Sir Nighteye (Mirai Sasaki), her boss, who demands humor and puts staff who disappoint him in his tickling machine; Centipeder (Juzo Moashi), her field partner; Mirio Togata, the U.A. third-year who trains there. Canon voice & behavior: Laughs loudest at office jokes, her own included.\nQUIRK: Bubble. Each bubble releases a smell she has smelled before; a mask or filter blocks it.",
+    "personality": [
+      "Upbeat: Keeps the office laughing, which her boss counts as work.",
+      "Diligent: Does a case's legwork without complaint.",
+      "Scent-minded: Picks foul smells to break focus, pleasant ones to calm.",
+      "Speaking style: Bright, chatty, loud; laughs at herself first."
+    ],
+    "abilities": [
+      "Scent bubbles: Bursts a remembered smell beside a target; a mask or a single-minded foe pushes through.",
+      "Casework: Records, canvassing and tailing for Nighteye's investigations.",
+      "\nFighting style: Breaks a target's focus with scent and leaves the restraint to Centipeder."
+    ],
+    "visualDescription": "A woman with light-blue skin, a short, wavy dark-blue bob, large yellow eyes and a medium build. She wears her hero costume: a clear face visor with small air filters at the sides, a high-collared navy cropped top with matching gloves, loose white shorts with yellow side marks, dark tights and white boots. A few iridescent bubbles float near her. Bright, cheerful expression with an open smile.",
+    "detailType": "detailed",
+    "properName": "Bubble Girl",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6c126fc2-8211-4a7e-9a7d-5d325411b288.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_bubble_girl",
+    "initialKnown": true
+  }
+}

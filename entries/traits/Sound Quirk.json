@@ -1,0 +1,43 @@
+{
+  "Sound Quirk": {
+    "name": "Sound Quirk",
+    "description": "🔊 You produce sound and shape it.\n\n🌱 At the start your voice (or claps and stomps) carries about a kilometer, a cone of sound staggers everyone in front of you, and echoes map a dark room.\n📈 With training: a balance-scrambling hum, evacuation calls over disaster noise, rides on sound to rooftops, shattered glass and concrete, street sweeps, a silent building.\n🔗 Common drawback pairing: Bodily Toll, as your throat and ears pay for the noise.\n🎬 Similar canon Quirks: Present Mic (Voice), Kyoka Jiro (Earphone Jack).\n\n📈 Grants: Cooperativeness +1, Quirk Output +10, Quirk Analysis +10, Perception +5\n⚡ Starting techniques: Bellow Wave, Echo Sounding\n🛡️ Resists: sonic",
+    "traitNarrativeEffects": "Scale: sound from the throat or, if the player chooses, claps and stomps, amplified and aimed. At first: heard clearly about a kilometer away, a shout staggers people within a few meters, and echoes map a room or rubble pile in darkness or smoke. More needs learned techniques. Limits: sound spreads, so anyone in front, allies and civilians included, is hit unless the user aims well; ear protection and thick walls blunt it, water muffles it; it cannot cut, burn or grip, and every use is heard. Quirk Strain: light: amplifying, shout, echo map; moderate: disorienting hum, carrying call, sound-driven leap; heavy: shattering note, sweep of sound; severe: signature beam, silencing a building. Type: Emitter. Law: a blast that ruptures eardrums or shatters windows over a crowd is assault and property damage; licensed users aim away from bystanders. Look: a strong voice at rest; in use, air ahead ripples, dust and paper jump, glass hums, throat, hands or feet vibrate.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Bellow Wave",
+      "Echo Sounding"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "sonic"
+    ]
+  }
+}

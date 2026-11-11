@@ -1,0 +1,30 @@
+{
+  "Onomichi": {
+    "name": "Onomichi",
+    "basicInfo": "Onomichi is the central Hiroshima coast and its islands, from the Saijo plateau in the west to the old port of Onomichi on the eastern edge, with the inland hills reaching north toward Akitakata and the Geiyo Islands of the Inland Sea filling the south. The land rises from a narrow coastal strip into rolling plateaus of rice fields and pine; south of the coast, the islands of Mukaishima, Innoshima, Ikuchijima and the northern half of Omishima are linked by the bridges of the Shimanami Kaido, and Osakikamijima and the rabbit island of Okunoshima sit to the southwest. Onomichi is a slope town of narrow lanes, temples, cats and views over a narrow channel full of shipyard cranes and small ferries; a ropeway climbs to Senkoji Park, and Onomichi ramen, soy broth with pork-fat flakes, is famous. Mihara, a castle port, is known for octopus and its summer Yassa dance festival; Takehara keeps an old merchant district of sake and salt; Higashihiroshima's Saijo is a sake town of brewery chimneys and white walls, with a big national campus nearby, and fills for its October sake festival. Inland, Akitakata dances Aki kagura and Sera grows flowers on its plateau. On the islands, lemons and mikan cover the slopes, Setoda has the colorful Kosanji temple, Innoshima holds a sea lords festival remembering the medieval pirate clans of these straits, and Omishima's Oyamazumi Shrine holds old armor and swords. The climate is sunny Setouchi, mild winters and hot summers, with calm seas and evening light over the islands. The Sanyo shinkansen stops at Higashi-Hiroshima, Mihara and Shin-Onomichi, the Sanyo Main Line and Kure Line follow the coast, the Onomichi Expressway runs north to Miyoshi, and Hiroshima Airport, near Mihara, has flights to Haneda. Cyclists ride the Shimanami Kaido south to Imabari, about seventy kilometers. From Musutafu it is about three and a half hours by shinkansen. Visitors cycle the islands, walk the temple path, tour breweries and eat octopus and ramen. Each town has police boxes and a small hero agency, and island shipyard workers with strength or heat-resistant Quirks work under licenses while sidekicks patrol festival nights.",
+    "hiddenInfo": "The islands are aging and the shipyards ride boom and bust. Small-time trouble is bicycle theft along the Shimanami Kaido, drunk brawls at the sake festival, citrus theft from groves, and Quirk-users stealing scrap from shipyards. Smuggling through busy shipping lanes is a quiet concern. Hiroshima's heroes are about an hour away; local agencies and the coast guard handle the islands, and ferries are the only way to some places.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -11,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5f2afb49-01e7-4846-a0a7-85778b439bc0.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

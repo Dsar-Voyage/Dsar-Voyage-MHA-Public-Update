@@ -1,0 +1,52 @@
+{
+  "Civilian Life": {
+    "name": "Civilian Life",
+    "description": "🏪 You live an ordinary working life near U.A.: a job, rent, regulars and neighbors, in a city where a hero battle can close your street for a day.\n\n⚖️ Quirk use in public is illegal except in self-defense. Stopping a villain yourself can still get you questioned or fined.\n🏫 Shifts most days at a store, cafe, ramen shop or delivery route, then errands, train rides and hero news on the shop TV.\n🤝 Coworkers, regulars, neighbors and U.A. students who stop in. Heroes and the press ignore you until you do something brave on camera.\n🔓 Learnable later: Neighborhood Favor, Bar the Door.\n\n📈 Grants: Endurance +1, Hospitality +10, Evacuation +10, Willpower +5\n⚡ Starting technique: Back-Door Shortcut\n🎒 Starts with: Work uniform, Casual clothes, ¥30,000, Backpack",
+    "traitNarrativeEffects": "Legal status: ordinary adult, registered Quirk or none. Quirk use in public or on people is illegal except in self-defense; stopping a villain with one can still mean questioning or a fine unless a licensed hero on scene supervised. Heroes and police expect civilians to evacuate.\nAccess: a job near U.A. (store, cafe, ramen shop, delivery route or counter, per the story start), apartment, back ways, transit; U.A. only as a Sports Festival spectator or on a delivery.\nObligations: shifts, rent, bills, family, boss, landlord, people relying on them.\nWho notices: coworkers, regulars, neighbors, U.A. students; patrolling heroes (Kamui Woods, Mount Lady) and the press ignore them until they do something brave on camera.\nStanding pressures: U.A.-gate reporters chasing All Might spill into nearby shops; the Sports Festival floods the city; villain attacks and hero battles close roads, empty shelves, send frightened people in.\nTypical week: shifts, errands, hero news on TV.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Hospitality",
+        "modifier": 10
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 10
+      },
+      {
+        "skill": "Willpower",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Back-Door Shortcut"
+    ],
+    "startingItems": [
+      {
+        "item": "Work uniform",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 30000
+      },
+      {
+        "item": "Backpack",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

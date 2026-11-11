@@ -1,0 +1,25 @@
+{
+  "Meridian Slam": {
+    "name": "Meridian Slam",
+    "description": "The user's signature move: a single pulse marks every enemy in sight and the ground beneath them with opposite poles and slams them all down at once. Each takes massive force damage and cannot rise until the end of their next turn, and every phone, camera and card reader nearby is wiped; afterward the user's field is spent and they cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

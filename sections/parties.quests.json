@@ -1,0 +1,812 @@
+{
+  "The First-Day Quirk Assessment": {
+    "name": "The First-Day Quirk Assessment",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Monday morning, the first day of classes. While the rest of the first year files into the entrance ceremony, Shota Aizawa orders Class 1-A into gym clothes and out to the athletics field beside the main building. Eight physical tests, Quirks allowed: a sprint, grip strength, a standing long jump, side steps, a ball throw, an endurance run, sit-ups and a seated toe-touch. Whoever finishes last, he says, goes home today. He does not look like he is joking.",
+    "mainObjective": "Complete all eight events of Aizawa's Quirk assessment and stay out of last place in Class 1-A.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has completed all eight events of Shota Aizawa's Quirk assessment and learned where they placed in Class 1-A and what Aizawa decided about them."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Dry, tense and funny. The class walks from the homeroom to the athletics field beside the main building in gym clothes (no bus, no costumes; costumes come with All Might's first class). Before the first event Shota Aizawa says aloud that whoever finishes last overall will be expelled. He runs it alone with a stopwatch and posts the ranking at the end. Class 1-A competes beside the PC by record name. Canon default as pressure: Momo Yaoyorozu tops the board, and Izuku Midoriya scores nothing remarkable until the ball throw, where Aizawa erases his Quirk mid-throw (hair lifting, eyes red), warns him quietly, and Izuku's second throw sends the ball 705 meters and breaks one fingertip. The PC's Quirk works exactly as their traits state; clever use earns marks, self-harm earns Aizawa's contempt. If the PC places last, Aizawa decides on the spot whether their potential justifies keeping them; he may call the threat a logical ruse afterward, never before. Recovery Girl treats injuries.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Vlad King's Orientation Drills": {
+    "name": "Vlad King's Orientation Drills",
+    "questSource": "Vlad King",
+    "questStatement": "Class 1-B sits through the entrance ceremony with every other class, and by lunch the rumor is everywhere: next door, Shota Aizawa skipped it to test Class 1-A on the spot. Vlad King has no intention of letting his class fall behind. He has booked Gym Gamma for Monday afternoon (Tuesday's lesson is the Battle Trial at Ground Beta) and announced conditioning and teamwork drills built around every Quirk in 1-B, with himself shouting surnames from the sideline. He wants to see who carries the class and who hides.",
+    "mainObjective": "Complete Vlad King's Monday drills in Gym Gamma and show him what you bring to Class 1-B.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has finished Vlad King's Monday drills in Gym Gamma and heard his verdict on the role they play in Class 1-B's team."
+    },
+    "detailType": "detailed",
+    "questLocation": "Gym Gamma",
+    "questDesignBrief": "Loud, warm and sweaty. Vlad King runs relay sprints, escape drills from loose Blood Control restraints that pairs must break together, and a team carry in which 1-B moves the whole class across Gym Gamma by Quirks alone. Cementoss raises obstacles on request. Itsuka Kendo organizes, Neito Monoma narrates 1-A's rumored test with theatrical scorn, and Tetsutetsu Tetsutetsu tries to win every drill. Nobody is expelled here: a weak showing earns extra evening drills and a partner assigned to fix the weak spot. Supervised and nonlethal; Recovery Girl treats injuries. Nothing in these drills stages any later canon event.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Battle Trial: Heroes and Villains": {
+    "name": "Battle Trial: Heroes and Villains",
+    "questSource": "All Might",
+    "questStatement": "All Might bursts into Foundational Hero Studies with his first combat class and sends everyone to change into costume. At Ground Beta, two-person teams play heroes and villains inside a training building: the villains guard a mock bomb, and the heroes have fifteen minutes to touch it or wrap both villains in capture tape. Teams and roles come out of a lottery box, drawn once at the start; each team fights one round, so a student whose round is done never comes out of the box again. Class 1-B runs the same exercise with Vlad King. Your partner is whoever the box gives you.",
+    "mainObjective": "Fight your Battle Trial round to the end with your partner, playing your assigned role as hero or villain.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC's own Battle Trial round, with their own partner against their own opponents, has ended (the bomb touched, both villains taped or time run out) and the instructor has reviewed that round. Another pair's round ending, including Katsuki Bakugo's or Izuku Midoriya's, does not count."
+    },
+    "detailType": "detailed",
+    "questLocation": "Ground Beta",
+    "questDesignBrief": "First real fight, inside rules. Canon default for 1-A as pressure: Izuku Midoriya and Ochaco Uraraka as heroes against Katsuki Bakugo and Tenya Iida; Katsuki abandons the objective to hunt Izuku, his gauntlet blast wrecks a floor, and Izuku breaks his own arm punching upward so Ochaco can reach the bomb; Shoto Todoroki freezes an entire building in another round. A 1-B PC gets the same format from Vlad King with Itsuka Kendo, Neito Monoma and the rest. The instructor stops any round heading toward serious harm, a stopped opponent is never struck again, and Recovery Girl treats the injured. In review, Momo Yaoyorozu gives the sharpest critique in the room.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Class Representative": {
+    "name": "Class Representative",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Homeroom business, and Shota Aizawa wants it settled fast: each Hero Course class must choose a class representative and a deputy. In Class 1-A nearly everyone wants the job, and Tenya Iida insists on a secret ballot. In Class 1-B, Vlad King calls for nominations and most of the room is already looking at Itsuka Kendo. The representative speaks for the class to the faculty, runs class meetings and takes the blame first. Run, back someone, or decide what you want this class to become.",
+    "mainObjective": "Campaign for class representative or back a candidate, and see your class's vote through.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC's class has held its vote for class representative and deputy, and the PC has campaigned, backed a candidate or cast a deliberate vote."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "A comedy of ambition with a real question underneath: who should lead. Canon default for 1-A as pressure, not a fixed result: almost everyone votes for themselves, Tenya Iida votes for Izuku Midoriya, and Izuku wins by a single vote with Momo Yaoyorozu as deputy; in 1-B, Itsuka Kendo. Run the PC's actual campaign and count the votes the story earns; the PC may win either post. The quest ends with the count. The press at the Main Gate and anything at lunch belong to the media break-in event and are never staged or hinted here; any later handover of the post happens only through that event or the characters' own choices.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Choosing a Hero Name": {
+    "name": "Choosing a Hero Name",
+    "questSource": "Midnight",
+    "questStatement": "The Sports Festival is over and the agencies have spoken: the internship offers are pinned to the homeroom board, some names stacked with offers and some with none. Before anyone chooses an agency, Midnight takes the class. Every Hero Course student writes a hero name on a board and presents it to the room, and she approves it or sends it back. The name goes on the internship paperwork, and perhaps on a whole career.",
+    "mainObjective": "Choose a hero name, present it to Midnight and the class, and get it approved.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has presented a hero name to the class and Midnight has approved it, or the PC has deliberately kept their own name and Midnight has accepted that."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Light, personal and loud. Midnight squeals at ambition and rejects a sloppy or troubling name in one crisp sentence; Shota Aizawa naps in a corner of the room. Canon defaults for NPCs as pressure: Katsuki Bakugo's furious names are rejected twice, Ochaco Uraraka becomes Uravity, Tenya Iida and Shoto Todoroki keep their own names, and Izuku Midoriya takes Deku and turns the insult around. Class 1-B runs the same lesson; Itsuka Kendo becomes Battle Fist. Offers on the board follow the Festival as it was actually played. A rejected name means a rewrite before the bell; a name the class laughs at can still be approved.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Internship Week": {
+    "name": "Internship Week",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Internship week starts in a few days. Shota Aizawa hands out the lists: the agencies that wrote in after the Sports Festival and, for anyone without an offer, a standing list of agencies that take first-year interns every year. Pick one, file the paperwork, pack your costume. For a week you will shadow a working pro: patrols, paperwork and whatever the city brings. Without a license you observe and assist; you do not fight unless a life is at stake.",
+    "mainObjective": "Choose an agency, work its internship week under a pro and bring back their evaluation.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has chosen an agency, worked its internship week under a pro's supervision and returned to U.A. Academy with the agency's evaluation."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "Real work under supervision. Canon placements as NPC defaults: Izuku Midoriya with Gran Torino, Shoto Todoroki with Endeavor, Katsuki Bakugo with Best Jeanist, Tenya Iida with Manual in Hosu, Ochaco Uraraka with Gunhead, Tsuyu Asui with Selkie, Momo Yaoyorozu and Itsuka Kendo with Uwabami, Eijiro Kirishima with Fourth Kind. The PC's host is any fitting pro by record name; Hero Agency Row stands in for agencies without their own map entry. If the week takes the PC to Hosu, the Hosu event plays on its own terms; this quest never stages, resolves or predicts it. Failure: a reckless intern is sent home early with a written warning.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Ultimate Move Development": {
+    "name": "Ultimate Move Development",
+    "questSource": "Cementoss",
+    "questStatement": "The provisional license exam is weeks away, and Shota Aizawa gives the Hero Course one order: by exam day, every student needs ultimate moves, techniques they can use under pressure without thinking. Classes move into Gym Gamma, the Training Dojo, where Cementoss raises terrain to order and Ectoplasm's clones come at you from every side. Power Loader is taking costume change requests in the Development Studio. A move that works once is not a move yet.",
+    "mainObjective": "Develop an ultimate move of your own and demonstrate it reliably before the license exam.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has developed an ultimate move that fits their Quirk and demonstrated it reliably to Cementoss or Ectoplasm in Gym Gamma."
+    },
+    "detailType": "detailed",
+    "questLocation": "Gym Gamma",
+    "questDesignBrief": "Training-montage pace with hard limits. Cementoss shapes terrain to each Quirk and ends a dangerous drill with a wall; Ectoplasm's clones apply pressure and grade in two sentences; Power Loader and Mei Hatsume rework costumes. Canon defaults as background: Izuku Midoriya shifts to a kicking style and new leg gear, Tsuyu Asui and Mina Ashido name their moves with flair, Katsuki Bakugo works alone and waves off advice. A move must respect the PC's Quirk exactly as their traits state, cost included. Failure: an unfinished move goes to the exam unfinished. Recovery Girl treats overuse injuries. Nothing here stages the license exam or assumes its result.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Hero Work-Study": {
+    "name": "Hero Work-Study",
+    "questSource": "Mirio Togata",
+    "questStatement": "Shota Aizawa brings in the Big Three to explain work-studies: Mirio Togata, Tamaki Amajiki and Nejire Hado, third-years who already work at pro agencies during term. A licensed student can join an agency for real cases between classes, at the agency's request and with the school's approval. Mirio demonstrates by taking on the whole class at once in the gym, then tells the room plainly what experience costs and what it buys.",
+    "mainObjective": "Win a work-study placement at a pro agency and work your first real shift there.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has secured a work-study placement with a pro agency, cleared it with Shota Aizawa, and worked at least one case or patrol shift there."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "The Big Three in full color: Mirio Togata sunny and unbeatable, Tamaki Amajiki talking to the wall, Nejire Hado firing questions at everyone. Mirio's demonstration bout is supervised and he holds back. Agencies want a reason to say yes: an internship host, a Big Three referral or a pro the PC impressed. Canon defaults as background: Eijiro Kirishima joins Fat Gum through Tamaki; Ochaco Uraraka and Tsuyu Asui join Ryukyu through Nejire; Izuku Midoriya seeks out Sir Nighteye through Mirio. Without a license, agencies refuse and the quest waits. Agency work stays ordinary unless the story leads elsewhere; this quest never stages or hints at the Shie Hassaikai raid.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Hero Course Night Patrol Lessons": {
+    "name": "Hero Course Night Patrol Lessons",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Late in the year, Shota Aizawa adds the lesson the Hero Course has been asking for: supervised evening patrols through the Musutafu Station District. Teams of three walk a set route with a teacher on the radio and Aizawa somewhere on the rooftops above. The rules are strict: licenses on you, radios on, no pursuit beyond the route, nobody alone. The streets are real, the people are real, and so is whatever turns up after dark.",
+    "mainObjective": "Walk a supervised patrol route with your team and handle what you meet within the rules.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has completed at least one supervised evening patrol through the Musutafu Station District with their team and reported what they found to Shota Aizawa."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Station District",
+    "questDesignBrief": "Street-level and grounded: a pickpocket in the Station Concourse, a drunk whose Quirk flares, a lost child looking for a parent, a heteromorph customer refused service at the convenience store, a fight brewing in the Back Alleys. Shota Aizawa watches from the rooftops and steps in only when a team breaks the rules or a life is at risk; chasing alone ends the PC's patrol with a lecture, not glory. Classmates by record name share teams. The country is uneasy and a copycat may test the PC, but nothing here stages a League attack or any canon event. A PC without a license patrols as an observer only. Children stay child-safe.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "A General Studies Gamble": {
+    "name": "A General Studies Gamble",
+    "questSource": "Hitoshi Shinso",
+    "questStatement": "Hitoshi Shinso of Class 1-C says it plainly in the General Studies hall: the Sports Festival is the one day the whole country, and the Hero Course teachers, will watch General Studies at all. Results there can move a student into the Hero Course, and move a weak one out. Most of the class treats the Festival as a day off. Shinso does not, and he wants to know whether you do. A plan needs more than nerve; it needs weeks.",
+    "mainObjective": "Build a real Sports Festival plan: training, rival scouting and allies for team events.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has a concrete Sports Festival plan: a training routine kept for at least a week, a study of likely Hero Course rivals, and a strategy or allies for team events."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Underdog energy. Hitoshi Shinso is dry and guarded, never says what his Quirk does, and watches whether the PC treats him as a villain; earn his respect and he trades notes. General Studies gets no combat training, so the PC trains in free hours under dorm curfew, maybe winning gym time or advice from a Hero Course student or a teacher such as Present Mic or Hound Dog. The Festival's events are announced only on the day, so plans stay general. Before the Festival, Shinso may confront the Hero Course at their homeroom door. Failure: a thin plan still lets the PC compete. Nothing here decides or predicts the Festival.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "The Transfer Question": {
+    "name": "The Transfer Question",
+    "questSource": "Shota Aizawa",
+    "questStatement": "The Sports Festival put General Studies on national television, and some Hero Course teachers took notes. Shota Aizawa gives out neither praise nor promises, but word has it that a General Studies student with the right results and the right attitude can train toward a transfer, outside class hours and on his terms. Nobody gets that chance by asking nicely. You will need to show him something worth his time, and then keep showing him.",
+    "mainObjective": "Convince Shota Aizawa to take you on for extra hero training, then keep up with it.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has persuaded Shota Aizawa or another Hero Course teacher to supervise extra hero training and has kept up with it for several weeks, whatever the transfer decision."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Earned, never given. Aizawa wants proof: Festival footage, a written plan, a demonstration of control and a reason he believes. He trains without kindness: capture-scarf drills, endurance runs, Quirk control at dawn, and he drops anyone who skips a session. Hitoshi Shinso wants the same chance and can become a partner or a rival. The transfer itself is decided by the teachers later, after the Joint Training and only through the story; this quest never promises or grants it. Failure: Aizawa says no and tells the PC exactly why, and the PC may return with better proof.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "General Studies Festival Stall": {
+    "name": "General Studies Festival Stall",
+    "questSource": "Present Mic",
+    "questStatement": "The School Festival is going ahead, barely. Under this year's tight campus security every class stall needs a written plan, a safety check and a teacher's signature, and General Studies has Present Mic. The class is split: half want to boycott a festival they blame the Hero Course for, half want a stall that draws the whole campus. You have to get something planned, approved, built and staffed in time.",
+    "mainObjective": "Get your class's School Festival stall planned, approved, built and staffed in time.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC's General Studies class has a School Festival stall that Present Mic signed and the security check passed, built and staffed for festival day."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Comedy of logistics over real resentment. Present Mic signs at full volume and turns plain over security: no open flames without approval, guest-flow plans, no hidden spaces. Hitoshi Shinso keeps his distance or helps quietly. Classmates fight over the boycott and the budget; Mei Hatsume offers lighting nobody should accept. The stall idea is the PC's. Failure: a refused plan goes back for a rewrite, and the stall can open smaller or not at all. Nothing here stages the festival day, Class 1-A's show or any break-in attempt.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Power Loader's First Assignment": {
+    "name": "Power Loader's First Assignment",
+    "questSource": "Power Loader",
+    "questStatement": "First day in the Support Course, and Power Loader skips the speeches. Each first-year draws a brief from a box: a real request pulled from a Hero Course costume file, a support item to design, build and test in the Development Studio before the month is out. It has to work, it has to meet the support-item rules, and it has to fail safely. He will test it himself before anyone wears it.",
+    "mainObjective": "Design and build a support item to Power Loader's brief and pass his safety test.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has designed and built a support item to Power Loader's brief, and Power Loader has tested and graded it in the Development Studio."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Workshop texture: welding sparks, burnt coffee and Mei Hatsume's explosions two benches over. Power Loader asks how the user's Quirk actually moves before he looks at a drawing, and he cuts the power the moment a test turns unsafe. The brief can come from any Class 1-A or 1-B costume file; the PC may need to measure a Hero Course student by record name, who may be busy or impatient. Support-item law limits weapons: nothing lethal, nothing that stands in for a Quirk license. Failure: a failed test means a redesign and a lower grade, never an injured tester. Keep the engineering grounded and the limits real.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Hatsume's Babies": {
+    "name": "Hatsume's Babies",
+    "questSource": "Mei Hatsume",
+    "questStatement": "Mei Hatsume of Class 1-H has decided you are perfect test data. She has a bench full of babies, hover soles, a grapple launcher and power-assist arm braces among them, and she needs someone to wear them, move in them and report exactly how they fail. Power Loader has approved the tests on one condition: somebody sensible must be present. She is not sure where that person is.",
+    "mainObjective": "Field-test Mei Hatsume's prototypes and help her fix what breaks.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has tested several of Mei Hatsume's prototypes under Power Loader's approval and helped her produce at least one working revision."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Slapstick with consequences. Mei talks nonstop, measures the PC mid-sentence and celebrates every crater as data. Each baby has its own power supply and failure point; tests run in the Development Studio or an approved yard, and Power Loader shouts her surname the moment smoke appears. Soot, bruises and small explosions are fine; serious injury never happens because Power Loader cuts the power first. The PC wins her respect by solving a real engineering problem, never by praising her. A seed for later: she already treats the Sports Festival as a showroom. Recovery Girl treats burns.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Gear for the Festival": {
+    "name": "Gear for the Festival",
+    "questSource": "Power Loader",
+    "questStatement": "The Sports Festival rules let Support Course students compete with gear they built themselves, and every support company in Japan watches the broadcast. Power Loader posts the entry rules: the gear must be your own work, inspected and registered at U.A. Stadium before the day, and it cannot be a weapon. A good showing is a sales pitch to the companies. A bad one happens on national television.",
+    "mainObjective": "Build, inspect and register the gear you will compete with at the Sports Festival.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has built competition gear, passed Power Loader's inspection, trial-run it at U.A. Stadium and registered it for the Sports Festival."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "Pressure and showmanship. Power Loader inspects every item and rejects anything that could hurt a rival or a spectator. Mei Hatsume plans to wear her whole catalog and may want the PC as a partner or treat them as a rival exhibitor. Trial runs happen in the empty arena while Cementoss and the staff prepare the venue. The Festival's events stay secret until the day. This quest only prepares the gear; it never stages or decides the Festival. Failure: a rejected item must be fixed or left behind, and gear that fails on the day becomes a story, not a disqualification.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Costume Request": {
+    "name": "Costume Request",
+    "questSource": "Power Loader",
+    "questStatement": "Every Hero Course student is reworking their costume before the provisional license exam, and the Development Studio is buried in change requests. Power Loader drops one on your bench: a Hero Course first-year needs an upgrade that fits a new technique, and the exam is weeks away. You will have to meet the student, watch how their Quirk actually moves, and build something they will trust with their body.",
+    "mainObjective": "Take a Hero Course student's costume request and deliver a tested upgrade before the license exam.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has designed and delivered a costume upgrade for a Hero Course student, tested it with them, and Power Loader has signed it off."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Client work. Choose the client by record name from Class 1-A or 1-B to suit the PC's skills; a canon default is Izuku Midoriya, who needs leg gear for a new kicking style. The client has opinions: Katsuki Bakugo, if chosen, rejects anything that slows him, and Mei Hatsume may try to steal the job. Fittings happen in the Development Studio, and trial runs in Gym Gamma while the client trains. Power Loader tests before he signs. Failure: a late or rejected upgrade sends the client to the exam in old gear, and they remember it. Nothing here stages or predicts the license exam.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Press Day at the Gate": {
+    "name": "Press Day at the Gate",
+    "questSource": "Present Mic",
+    "questStatement": "Reporters have camped outside the Main Gate since move-in weekend, all chasing one story: All Might teaching at U.A. The Management Course gets its first practicum. Present Mic, who handles the press better than anyone on the faculty, wants a student team at the gate this week to field questions, keep the walkway clear and give the cameras something harmless. Be useful, be polite, and leak nothing about students, staff or security.",
+    "mainObjective": "Handle the press at the Main Gate for Present Mic without leaking anything about U.A.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has fielded reporters at the Main Gate during Present Mic's practicum, kept student, staff and security details private, and filed a press summary."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Satire of a media frenzy. Reporters push for All Might's schedule, a student quote or a photo of a first-year; one tries to slip in behind a delivery van. Present Mic coaches with radio patter and turns plain when someone crosses a line. The U.A. Barrier closes on anyone without a student ID; Shota Aizawa may brush past the cameras unrecognized. The PC can make friends or enemies in the press corps. The media break-in belongs to its own event and is never staged, predicted or hinted here. Failure: a leak earns a polite, chilling talk with Principal Nezu and a headline the faculty will quote back.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Scouting the Sports Festival": {
+    "name": "Scouting the Sports Festival",
+    "questSource": "Principal Nezu",
+    "questStatement": "The Sports Festival is U.A.'s biggest public day and the agencies' biggest shopping trip. Principal Nezu has asked the Management Course to prepare briefing packs for the sponsors and agency scouts in the reserved stands at U.A. Stadium: who the first-years are, what their Quirks have shown in public and what the public will want from them. Do the research, write the packs, and put them in the right hands.",
+    "mainObjective": "Research the first-year field and deliver scouting briefs to the agencies and sponsors.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has researched the first-year field, written agency and sponsor briefing packs and delivered them to scouts or sponsors at U.A. Stadium."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "The business side of heroics. Research means watching training, reading press coverage and chasing interviews: Katsuki Bakugo refuses, Mei Hatsume pitches, Hitoshi Shinso gives nothing away. Agency and sponsor staff may be invented minor people, never stand-ins for canon pros. Ethics matter: Quirk registrations are confidential and off-limits, medical and family details stay out, and Recovery Girl keeps her files shut. Failure: a sloppy or invasive pack embarrasses U.A. and earns a question from Principal Nezu. Never predict who wins anything; the Festival plays as its own event.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Image Report on a Rising Hero": {
+    "name": "Image Report on a Rising Hero",
+    "questSource": "Principal Nezu",
+    "questStatement": "After Hosu, every channel argued about heroes: who got the credit, who earned it, and whether the Hero Killer had a point. Principal Nezu sets the Management Course a real assignment: choose one working pro, study how the public sees them now and write an image report their agency could use. That means interviews on the streets of central Tokyo, with the press, the fans and, if you can get near, the hero.",
+    "mainObjective": "Research a working pro's public image and deliver a report their agency could use.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has interviewed the public and at least one person close to a pro hero in Tokyo, and delivered an image report on that hero to Principal Nezu."
+    },
+    "detailType": "detailed",
+    "questLocation": "Central Tokyo Streets",
+    "questDesignBrief": "Investigative and talky. Good subjects by record name: Endeavor, credited for Hosu in the default and cold with the press; Mount Lady, hungry for fame; Kamui Woods; Best Jeanist, an image expert himself; Edgeshot. Agencies guard access, so a sidekick, a fan or a reporter may talk instead. Street interviews on Central Tokyo Streets show the year's mood: Stain's creed online, distrust of heroes, love for All Might. Report on what the story has actually established about Hosu. Failure: a shallow report earns one polite, devastating question from Nezu, and a leaked draft starts a public spat.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Festival Promotion Campaign": {
+    "name": "Festival Promotion Campaign",
+    "questSource": "Principal Nezu",
+    "questStatement": "Principal Nezu has decided the School Festival will go ahead, and half the country thinks he is wrong. The police want guarantees, parents want reassurance, neighbors want no villains on their streets, and students outside the Hero Course want a festival worth having. The Management Course gets the job of selling it: the public message, the guest screening plan and a police briefing, all approved by Nezu.",
+    "mainObjective": "Win public and police support for the School Festival with a campaign Principal Nezu approves.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has built a School Festival campaign, briefed the police or the public on its security plan, and Principal Nezu has approved it."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Politics over tea. Principal Nezu tests every claim with a question; Naomasa Tsukauchi speaks for the police and wants guest lists; Present Mic and Midnight can front the publicity. Students in the other courses resent the Hero Course and the tighter rules; Class 1-A's planned stage show is a selling point if the PC can get Kyoka Jiro's group on board. Never promise the festival will be safe. Any child guest is private and stays out of the campaign. Failure: a weak plan lets Nezu shrink the festival to students only, and a public gaffe makes the news. Nothing here stages the festival day, a break-in attempt or the show.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "The First Lecture": {
+    "name": "The First Lecture",
+    "questSource": "Principal Nezu",
+    "questStatement": "Your first class at U.A. Academy is this morning. Principal Nezu has put you in front of a room of Hero Course first-years who passed the hardest entrance exam in Japan and expect to be impressed. He will sit at the back with a teacup and take notes. You choose the subject, the tone and the first impression; the students will decide what to make of it.",
+    "mainObjective": "Plan and teach your first lesson to a Hero Course class while Principal Nezu observes.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has taught a full first lesson to a U.A. Academy first-year class and heard Principal Nezu's verdict on it over tea."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Teaching as a scene. The class is Class 1-A or 1-B by the PC's assignment, and students act as their records state: Katsuki Bakugo challenges, Tenya Iida asks procedural questions, Momo Yaoyorozu takes perfect notes, Neito Monoma sneers at the class next door. Shota Aizawa may have taken 1-A out for his own assessment that morning, so timing matters. Any practical demonstration is supervised and nonlethal, and Recovery Girl is down the hall. Nezu observes without interrupting and judges by what the students learned. All Might, also new, may compare notes nervously. Failure: a bad lesson costs respect, not the job, and Nezu suggests a second try.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Grading the Battle Trial": {
+    "name": "Grading the Battle Trial",
+    "questSource": "All Might",
+    "questStatement": "All Might is running his first combat class, the indoor Battle Trial at Ground Beta, and he has asked for a second pair of eyes in the monitor room. Two-person teams of heroes and villains fight over a mock bomb while you watch every camera feed, keep score and step in if a round turns dangerous. Afterward the class expects a grade and a reason for it.",
+    "mainObjective": "Supervise the Battle Trial rounds with All Might and give every student a fair grade.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has supervised Battle Trial rounds from the Ground Beta monitor room, judged when to stop a round, and delivered grades with reasons to the students."
+    },
+    "detailType": "detailed",
+    "questLocation": "Ground Beta",
+    "questDesignBrief": "A faculty seat at a famous lesson. All Might is enthusiastic, reads from a cue card and hesitates over hard calls; the PC's judgment can steady him or clash with his. Canon pressure: Katsuki Bakugo hunts Izuku Midoriya instead of the objective and a gauntlet blast wrecks a floor, Izuku breaks his own arm to win, and Shoto Todoroki freezes a whole building. Stopping a round early or letting it run is the PC's call to argue. Students dispute their grades, and Momo Yaoyorozu's critique may rival the PC's. Recovery Girl treats the injured and scolds whoever let it happen. Nothing here touches All Might's private life.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Design the Final Exam": {
+    "name": "Design the Final Exam",
+    "questSource": "Principal Nezu",
+    "questStatement": "The League of Villains has made the news, and Principal Nezu has decided the practical final exam can no longer be a fight against robots. This year each pair of first-years will face a teacher. He asks you to design one matchup: which two students, against which teacher, on which ground and with which win conditions, built to test exactly what those students avoid.",
+    "mainObjective": "Design one practical exam matchup and win Principal Nezu's approval for it.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has designed a pair-versus-teacher matchup for the final exam practical, with ground, rules and a safety plan, and Principal Nezu has approved it."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Faculty strategy. Nezu, Shota Aizawa and the others debate pairs that clash; canon defaults as pressure: Izuku Midoriya and Katsuki Bakugo against All Might, Momo Yaoyorozu and Shoto Todoroki against Aizawa. The PC's design needs the student files, a weighted handicap for the teacher, capture-cuff and escape-gate rules, and a stop condition Recovery Girl accepts. If the PC is the teacher in the matchup, they must test the pair without crushing it. The exam itself runs as the final exams event; this quest only designs and approves one matchup. Failure: Nezu sends a lazy or cruel design back with one question.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Faculty Security Council": {
+    "name": "Faculty Security Council",
+    "questSource": "Principal Nezu",
+    "questStatement": "After Kamino, Principal Nezu calls the faculty into a closed council. U.A. has to protect students who live on campus around the clock, convince their families to keep trusting the school, and do it with the whole country watching. He hands out pieces of the plan: curfew and sign-out rules, new walls and sensors, and visits to every student's family. One piece is yours.",
+    "mainObjective": "Take your piece of U.A.'s new security plan and get it working with the council's approval.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has drafted and put in place one part of U.A.'s new security plan, such as sign-out rules, a sensor route or a family visit, with the council's approval."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Serious, procedural and tired. Principal Nezu chairs over tea; Shota Aizawa wants fewer rules enforced harder; Vlad King wants families heard; Cementoss and Power Loader build the walls; Hound Dog handles discipline; Naomasa Tsukauchi may attend for the police. Assume nothing about Kamino beyond what the story has established, and let All Might's public standing follow the events; the council works behind closed doors, and announcing the lockdown or All Might's future belongs to the retirement event. Parents such as Inko Midoriya push back hard during a family visit. Failure: a poor plan leaves gaps, angry parents or students slipping out after curfew, and the council sees the cost.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Chaperone the License Exam": {
+    "name": "Chaperone the License Exam",
+    "questSource": "Shota Aizawa",
+    "questStatement": "The Hero Public Safety Commission's provisional license exam is coming, and Shota Aizawa needs another teacher on the trip to Takoba Municipal Stadium. Before then there is work: brief the students on the published rules, study the other academies' students and keep nerves from turning into mistakes. On the day you ride the bus, carry the paperwork and sit in the stands with the other schools' teachers.",
+    "mainObjective": "Prepare your students for the license exam and see them safely to Takoba on exam day.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has briefed their students on the license exam, studied the rival academies with Shota Aizawa, and accompanied the class to Takoba Municipal Stadium on exam day."
+    },
+    "detailType": "detailed",
+    "questLocation": "Takoba Municipal Stadium",
+    "questDesignBrief": "The faculty side of the exam. Aizawa is curt and quietly anxious. Rival schools: Shiketsu, with Inasa Yoarashi, Camie Utsushimi and Seiji Shishikura, and Ketsubutsu, with Yo Shindo and Ms. Joke, who teases Aizawa about marrying her. The Commission keeps the format secret until the day, and Yokumiru Mera briefs examinees, not teachers. Teachers cannot intervene once the exam starts. The exam runs as its own event; this quest completes on arrival and never decides results. Failure: a poor briefing leaves students rattled.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Supervising the Joint Training": {
+    "name": "Supervising the Joint Training",
+    "questSource": "Vlad King",
+    "questStatement": "Class 1-A and Class 1-B are about to meet in their first Joint Training, team matches in the pipes and factory floors of Training Ground Gamma, and Vlad King wants it fair, with 1-B winning. He and Shota Aizawa need help building the rounds: balanced teams, start positions, jail sites, and rules for the General Studies student joining as a transfer trial.",
+    "mainObjective": "Help Vlad King and Shota Aizawa build fair team matches for the Joint Training.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has drawn up balanced team rosters, start points and jail sites for the Joint Training rounds and won sign-off from both Vlad King and Shota Aizawa."
+    },
+    "detailType": "detailed",
+    "questLocation": "Training Ground Gamma",
+    "questDesignBrief": "Two proud teachers and one map. Vlad King argues for 1-B at full volume; Aizawa counters flatly; both drop the rivalry the moment safety comes up. The PC walks Training Ground Gamma, checks the Control Tower monitors and the Pipe Maze's blind spots with Cementoss or Power Loader. Unless the story has established otherwise, Hitoshi Shinso joins as a transfer trial; his slots and capture scarf need rules, by default one round on each side. Neito Monoma may try to wheedle team details out of the PC. The matches run as the Joint Training event; nothing is decided here. Failure: a lopsided design gets torn up the night before.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "First Patrol Report": {
+    "name": "First Patrol Report",
+    "questSource": "Kamui Woods",
+    "questStatement": "Your first week of patrols has to go on paper, and the paper has to be right: the agency logs every Quirk use, every capture and every yen of property damage, and the Commission audits the numbers. One capture you assisted near the station also appears in Kamui Woods' report, and his account and yours do not match. He has asked you to come to the Agency Offices on Hero Agency Row and settle it before either report goes in.",
+    "mainObjective": "File a complete, accurate first-week patrol report and settle the mismatch with Kamui Woods.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has filed the first week's patrol report with every Quirk use and capture accounted for, and the disputed capture is settled with Kamui Woods, honestly or not."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "Workplace realism with a quiet test of character. Kamui Woods is calm and exact; he cares less about credit than about a correct record, and he notices padding. The mismatch can be an honest error, a lead hero who told the PC to claim the capture, or a Quirk use the PC left out because it broke agency rules. Mount Lady may drift through the Ready Room and make the dispute louder; Sansa Tamakawa can confirm the police side. Failure is paperwork-sized: a reprimand, a docked bonus, and a reputation for sloppy reports that follows the PC along Hero Agency Row. No villain plot surfaces here, and no canon event is staged or foreshadowed.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Trigger on the Streets": {
+    "name": "Trigger on the Streets",
+    "questSource": "Naomasa Tsukauchi",
+    "questStatement": "Three people in a week have turned up around Musutafu Station with Quirks running far past their registrations, then collapsed shaking an hour later. The police lab calls it Trigger, a street drug that boosts a Quirk for minutes and wrecks the user afterward. Detective Naomasa Tsukauchi's team is tracing it, and the only lead is a dealer working the Back Alleys behind the arcade. Licensed or not, whoever brings Tsukauchi evidence he can use in court gets his attention.",
+    "mainObjective": "Find the Trigger dealer in the station's Back Alleys and get usable evidence to Detective Naomasa Tsukauchi.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has identified the Trigger dealer working the station's Back Alleys and has put him and evidence of his sales in police hands, or has ended his sales another way."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Police Headquarters",
+    "questDesignBrief": "Street investigation with medical stakes. A user on Trigger is stronger, erratic and in danger, and the crash can put them in the hospital. Naomasa Tsukauchi works by evidence and hears every lie told to him; Sansa Tamakawa takes statements. A sidekick works through the agency and the police; a vigilante risks arrest for every unlicensed act and leaves evidence where police will find it. The dealer and his buyers are generated people. The supply traces only as far as a courier who mentions buyers in Kansai; the quest never names the wholesaler or reaches Osaka. Tsukauchi's file on crooks flashing new cash foreshadows no canon event. Failure: the dealer moves on and a user gets hurt.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Backup in Hosu": {
+    "name": "Backup in Hosu",
+    "questSource": "Manual",
+    "questStatement": "Since the Hero Killer Stain's attack on Ingenium, Hosu's agencies have asked for help, and few came. Manual, who runs a small agency downtown and is short two people on nights, has accepted your agency's offer of a sidekick on loan. The work is ordinary: foot patrols, frightened shopkeepers, and a string of break-ins through office roof hatches that nobody has had time to solve. Manual wants you on his night shift, by the book.",
+    "mainObjective": "Work Manual's night patrols in Hosu and close the case of the roof-hatch break-ins.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has worked at least one full night patrol with Manual in Hosu, and the roof-hatch break-ins are solved, stopped or handed to police with a solid lead."
+    },
+    "detailType": "detailed",
+    "questLocation": "Manual Hero Agency",
+    "questDesignBrief": "A slow patrol with dread underneath: Hosu is tense and short of pros. Manual is mild, procedural and answers for anyone working under him; Native shares the downtown beat; Chief Kenji Tsuragamae wants reports. Unless the story has established otherwise, Tenya Iida is interning with Manual this week, quiet and fixed on his brother, and Manual worries about him. If the story changed what happened to Ingenium, the call for help comes from Stain's earlier attacks. The break-ins are ordinary theft. Stain, the League and any Nomu stay out of this quest; if the Hosu incident begins, it runs as its own event and this quest waits. Failure: the thefts go on and Manual's next request goes unanswered.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "The Team-Up Contract": {
+    "name": "The Team-Up Contract",
+    "questSource": "Endeavor",
+    "questStatement": "With All Might retired, the districts he used to cover are short of a hero, and agencies across the country are scrambling to fill the gap. The Endeavor Hero Agency is offering team-up contracts to smaller agencies willing to take patrol shifts under its command, and your agency wants one. First comes a trial: a week on the Operations Floor beside Endeavor's sidekicks, under a hero who forgives nothing.",
+    "mainObjective": "Earn your agency a team-up contract by passing a trial week at the Endeavor Hero Agency.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has finished a trial week at the Endeavor Hero Agency, and the team-up contract has been signed, refused or lost on the strength of the PC's work."
+    },
+    "detailType": "detailed",
+    "questLocation": "Endeavor Hero Agency",
+    "questDesignBrief": "High-pressure professional work after Kamino: crime is up, the public is frightened, and Endeavor, now the highest-ranked active hero, drives his people hard. Burnin runs the trial and answers cockiness with a race; Endeavor gives orders, not praise, and judges results. Endeavor shuts down any personal question, and nothing about the Todoroki family beyond public knowledge enters the quest. Unless the story has established otherwise, All Might is retired and Endeavor tops the active heroes; the quest never predicts or decides a Billboard Chart result. Failure: no contract, and Endeavor remembers the PC as a weak link.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Chart Season": {
+    "name": "Chart Season",
+    "questSource": "Uwabami",
+    "questStatement": "The Hero Billboard Chart is days away, and the rankings weigh public approval along with cases solved. Uwabami, a celebrity pro who runs her agency as a brand, has booked your agency into a charity broadcast at the Tokyo Broadcasting Center: a studio segment, a fan event and a live rescue demonstration. She wants you polished, quotable and on camera, with no mistakes in front of the nation.",
+    "mainObjective": "Get through Uwabami's charity broadcast and raise your agency's standing before the Billboard Chart.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has taken part in Uwabami's charity broadcast on air and off, and the public has formed a clear new impression of the PC and their agency, good or bad."
+    },
+    "detailType": "detailed",
+    "questLocation": "Tokyo Broadcasting Center",
+    "questDesignBrief": "Satire of hero celebrity with real work underneath. Uwabami is glossy on camera and clipped and competent off it; her snakes find people eyes miss. Give the broadcast one unscripted problem: a real emergency nearby, a fan who needs help, or a staged rescue that goes wrong. How the PC chooses between the shot and the person decides how the segment plays. Mount Lady may turn up for the cameras. The quest does not predict the chart; rankings are decided only when the Billboard Chart event runs. Failure: an embarrassing clip that follows the PC for weeks, or a person left waiting while the PC posed.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Prove Yourself to the League": {
+    "name": "Prove Yourself to the League",
+    "questSource": "Tomura Shigaraki",
+    "questStatement": "Tomura Shigaraki does not trust new hires; he tests them. One of the thugs the League paid in advance has been bragging in a bar behind Musutafu Station about the big money coming his way, and Kurogiri wants him quiet before the police hear more. Shigaraki wants to see how you handle it. Do it cleanly and the League has a use for you. Do it badly and you are a level he will not bother to replay.",
+    "mainObjective": "Silence the bragging hired thug for Kurogiri without bringing the police to the League's door.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has dealt with the bragging hired thug by threat, bribe, removal or betrayal, and has reported back to Kurogiri or Tomura Shigaraki, who judge the result."
+    },
+    "detailType": "detailed",
+    "questLocation": "League Hideout Bar",
+    "questDesignBrief": "A first villain job with moral weight. Kurogiri briefs politely and gives the thug's name and bar; Tomura Shigaraki judges the outcome, not the method, in game terms. The thug is a generated person who knows only that a job against heroes pays well: no target, date or plan. Patrol officers are listening for exactly this talk, and Naomasa Tsukauchi keeps a file on it. Killing is possible but never required and never glamorized; a body brings heavy police attention. The PC may instead warn the thug, tip the police or play both sides. The quest reveals none of the League's plans and stages no operation. Failure: the police hear the story, and Shigaraki loses interest in the PC.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Giran's Supply Run": {
+    "name": "Giran's Supply Run",
+    "questSource": "Giran",
+    "questStatement": "Giran, the broker who sells gear and introductions to anyone who pays, has a crate waiting in the Container Docks of Yokohama Harbor: support gear and forged papers off a freighter, bought by a client he will not name. He needs someone to collect it and carry it across the city without a customs check, a harbor patrol or a curious hero getting a look inside. The fee is good, and a favor from Giran is worth more.",
+    "mainObjective": "Collect Giran's crate at the Container Docks and deliver it without drawing police or heroes.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has collected the crate from the Container Docks and delivered it where Giran asked, lost it or sold it out, and Giran knows which."
+    },
+    "detailType": "detailed",
+    "questLocation": "Yokohama Harbor District",
+    "questDesignBrief": "A smuggling job that tests nerve and planning. Giran is smooth, pays on delivery and never names one client to another. Harbor police, customs officers and dock workers are generated people; a patrol hero may cross the route. Mr. Compress, who also takes jobs through Giran, may be on the Harbor Promenade with a professional's advice or an offer of his own; he owes the PC nothing. The crate holds support gear and forged documents, never Nomu or anything from the man Shigaraki calls Sensei. Pros outclass the PC in a straight fight; evasion and timing win. Failure: the crate is seized, Giran's goodwill drops and the police open a file.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Recruitment Drive": {
+    "name": "Recruitment Drive",
+    "questSource": "Kurogiri",
+    "questStatement": "Since Hosu, footage of the Hero Killer Stain demanding true heroes has spread everywhere, and villains who admire him want into the League of Villains that the news tied to that night. Giran is sending candidates to the bar, and Kurogiri wants someone to vet them before Tomura Shigaraki loses his temper and turns one to dust. Find out who each candidate is, what they want and whether they will take orders.",
+    "mainObjective": "Vet the League's new candidates for Kurogiri and report who is worth keeping.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has met the League's new candidates, judged what each one wants, and given Kurogiri or Tomura Shigaraki a recommendation, honest or not."
+    },
+    "detailType": "detailed",
+    "questLocation": "League Hideout Bar",
+    "questDesignBrief": "Character-driven villain politics. Unless the story has established otherwise, Giran brings Himiko Toga and Dabi to the bar first; Spinner, drawn by Stain's creed, and others such as Twice, Mr. Compress and Magne may follow later. Each wants something different: Toga to live as she pleases, Dabi to see Stain's will carried out, Spinner a cause. Tomura Shigaraki resents the comparison to Stain and may lash out. The PC's report shapes the mood, but who joins is decided in play, never forced either way. Dabi gives no history, and the quest supplies none. The quest plans no operation and stages no attack. Failure: a candidate turns on the PC, or Shigaraki blames the PC for a bad hire.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Scattered After Kamino": {
+    "name": "Scattered After Kamino",
+    "questSource": "Giran",
+    "questStatement": "The bar is gone. Heroes raided the League's hideout at Kamino, and whoever got away has gone to ground. Your burner phone has been silent since that night. The one person who might know where the League is hiding is Giran, the broker who sold it most of its help, and Giran is nervous: the police are hunting anyone tied to the League, and he does not sell information cheaply.",
+    "mainObjective": "Find the hidden League of Villains again through Giran without leading the police to them.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has located the League's new hiding place, through Giran or otherwise, and has rejoined it, been turned away, walked away or sold it out."
+    },
+    "detailType": "detailed",
+    "questLocation": "Yokohama Harbor District",
+    "questDesignBrief": "Paranoid aftermath: brokers are spooked, police raid known fences, and the news replays Kamino. Unless the story has established otherwise, Tomura Shigaraki and the members who escaped are hiding in Giran's safe rooms, and Shigaraki is quieter, colder and planning on his own for the first time. Giran wants payment or a favor, and proof the PC was not followed. Whoever of the League is still free decides how to receive the PC; a recruit who vanished during the raid is suspected. The quest stages no new operation and does not lead to Deika City; it ends when the PC finds the League or gives it up. Failure: the PC leads police to a safe room, or is cut off for good.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Who Is Asking in Deika": {
+    "name": "Who Is Asking in Deika",
+    "questSource": "Giran",
+    "questStatement": "Someone has been buying information on the League of Villains and paying better than anyone in the trade. Giran has noticed: questions about Tomura Shigaraki's people come with clean money, through middlemen who lead back to Deika City, a prosperous town with no business caring about villains. Giran wants to know who is asking before he decides whom to sell to, and anyone near the League has reason to want the answer.",
+    "mainObjective": "Go to Deika City and find out who is hunting the League of Villains before they move.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has learned who in Deika City is gathering information on the League and has taken it to Giran, the League or the police, or kept it for their own use."
+    },
+    "detailType": "detailed",
+    "questLocation": "Deika City",
+    "questDesignBrief": "A slow reveal in a city that seems too orderly. The hunters are the Meta Liberation Army, a movement thought long dead, led by Rikiya Yotsubashi as Re-Destro. The trail runs through Chitose Kizuki's interviews and Koku Hanabata's rallies on City Hall Plaza; each lieutenant tests whoever comes near. The PC can learn the Army exists, glimpse its size and even be offered a place in it, but the battle belongs to the Battle of Deika event: this quest never starts it, ends it or decides it. Giran may go quiet as the trail closes, taken as leverage, only if it fits the story. Failure: the PC is noticed, recruited against their will or silenced.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Paying the Broker": {
+    "name": "Paying the Broker",
+    "questSource": "Giran",
+    "questStatement": "Your forged ID, your safe room and the last job that went wrong all came through Giran, and the bill is due. He is waiting in the Chinatown Streets of Yokohama Harbor, polite as ever, with a number that is more than you have. He will take cash, a job or a favor to be named later. What he will not take is silence: a broker who lets one debt slide loses every client who hears about it.",
+    "mainObjective": "Settle your debt to Giran with cash, a job or a favor before he decides how to collect.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has settled the debt to Giran with a payment, a job done for him or a favor promised, or has broken with him and faced what follows."
+    },
+    "detailType": "detailed",
+    "questLocation": "Yokohama Harbor District",
+    "questDesignBrief": "Underworld economics. Giran is smooth and unhurried and never threatens directly; hired muscle and reputation do that for him. Offer choices with costs: a fast cash job with real risk, a favor that ties the PC to Giran's other clients, or a harder bargain. The size and origin of the debt come from the PC's Background; if it is silent, Giran fronted the forged ID and a safe room. Harbor police and patrol heroes are near, so any violence draws heat. Giran names no client to another and knows nothing of any client's plans. Failure: Giran's muscle collects, and the PC's name loses value with every broker in the port.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Turf in the Back Alleys": {
+    "name": "Turf in the Back Alleys",
+    "questSource": "Sansa Tamakawa",
+    "questStatement": "Two crews are fighting over the Back Alleys behind Musutafu Station: an old protection outfit that has taxed the bars for years, and a new crew with flashier Quirks and more cash. Bottles have been thrown and a noodle counter burned. Officer Sansa Tamakawa has started asking questions at the Convenience Store Corner, and the police are watching both crews. Whoever settles this lane, by taking it, breaking it up or turning one side in, decides who is safe here.",
+    "mainObjective": "Settle the turf war in the station's Back Alleys on your own terms, before the police settle it for everyone.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The fight over the station's Back Alleys has ended because of the PC, with one crew in control, both broken up or their leaders in police hands."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Station District",
+    "questDesignBrief": "Street politics for two paths. An independent villain can join a side, play both or take the lane; a vigilante protects the bar owners and breaks up the crews, and never works for either. Both crews are generated people with simple wants: money, pride, a corner. Sansa Tamakawa is courteous and procedural and writes everything down; he calls in pros such as Death Arms or Kamui Woods if Quirks fly. Talk of an outside broker hiring muscle stays rumor and foreshadows no canon event. Failure: a bystander gets hurt, the police sweep the lane, and the PC's description goes into a file.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "The Collector": {
+    "name": "The Collector",
+    "questSource": "Overhaul",
+    "questStatement": "Debts in the Osaka underworld have been changing hands. A yakuza house called the Shie Hassaikai is buying them up, small loans, gambling markers, broker bills, and calling them in through polite men in plague-doctor masks. Your name is on one of those lists. The house is also offering work to freelancers who do as they are told, and in the Back Streets off the Dotonbori Canal one of its men is waiting to make you an offer.",
+    "mainObjective": "Answer the Shie Hassaikai's offer, taking its work or refusing it, and keep your freedom either way.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has answered the Shie Hassaikai's offer and has worked for the house, paid it off, refused it or slipped its hold, and Overhaul has taken note of the answer."
+    },
+    "detailType": "detailed",
+    "questLocation": "Osaka Downtown",
+    "questDesignBrief": "Cold, controlled menace. Chronostasis speaks for the house in an even voice; Overhaul appears only if the PC proves useful or troublesome: gloved, exact and repelled by dirt. The work offered is debt collection or running Trigger in Osaka, never access to the compound. The house's inner business, its old boss and whatever the Restricted Wing holds stay hidden; the PC may notice only that the house spends money it should not have. Refusal is possible but costly: a warning, then pressure on people the PC cares about. Overhaul does not waste a useful freelancer lightly. The quest never stages or triggers the raid and never takes the PC inside the compound.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Streets of Hosu": {
+    "name": "Streets of Hosu",
+    "questSource": "Native",
+    "questStatement": "Every week a crew of minor villains collects a quiet fee from the bars in Hosu's old quarter, and every week the owners pay, because a call for a pro takes ten minutes and the crew is gone in two. Native, the pro who walks Main Street, has filed reports and gets no backup; Hosu is short of heroes. Nobody is going to fix the quarter but you, and nobody is going to give you a license to do it.",
+    "mainObjective": "Break the quiet-fee crew's hold on Hosu's back-alley bars without being caught or unmasked.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The quiet-fee crew no longer collects in the Hosu Back Alleys because the PC broke it, exposed it or drove it out, and the PC is still unidentified or has faced the cost."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hosu Back Alleys",
+    "questDesignBrief": "Grounded vigilante work in a neighborhood that remembers. The crew, its lookouts on the water tanks and the bar owners are generated people; the crew may answer to someone bigger who stays only a name. Native is dependable and by the book: he thanks a helpful civilian and still reports an unlicensed Quirk user. Manual shares the downtown patrols; Chief Kenji Tsuragamae treats vigilantism as the crime it is. Himiko Toga may watch from another roof with her own interests, never as a plot device. Stain does not appear in this quest; if the Hosu incident begins, it runs as its own event. Failure: the crew retaliates against a bar owner, or a phone video of the PC reaches the news.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "The Hero Killer's Shadow": {
+    "name": "The Hero Killer's Shadow",
+    "questSource": "Naomasa Tsukauchi",
+    "questStatement": "Since Hosu, footage of the Hero Killer Stain has made him a hero to the wrong people. Someone in Hosu has started attacking minor heroes at night and scratching Stain's words on the wall beside them. Nobody has died yet. Detective Naomasa Tsukauchi has come from Musutafu to work the case, and the copycat's next target is out there somewhere. Find them before the attacks become killings.",
+    "mainObjective": "Track down Hosu's Stain copycat and stop them before they kill someone.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The Stain copycat in Hosu has been identified and stopped through the PC's actions: captured, turned in or talked down."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hosu Downtown",
+    "questDesignBrief": "A dark investigation about ideals and imitation. The copycat is a generated person, bitter and sincere, with a minor Quirk and a homemade blade, who targets low-ranked heroes they call fake. A vigilante hunting the copycat must face the question asked back: what makes the PC's lawbreaking different. Naomasa Tsukauchi works by evidence and lie detection, may notice the vigilante on the same case, and does not look away from unlicensed Quirk use. Stain himself does not appear. Unless the story has established otherwise, Stain is in custody; if he is free, the copycat imitates a living man. Failure: a hero is badly hurt and the copycat's video spreads.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "A Warning from the Police": {
+    "name": "A Warning from the Police",
+    "questSource": "Naomasa Tsukauchi",
+    "questStatement": "The police have been logging sightings of your costume for weeks. Now a message has reached you, left where only you would find it: Detective Naomasa Tsukauchi wants a word at Musutafu Police Headquarters. It is not a summons, and it is not an arrest. He wants to talk about where the line is, and he will know if you lie to him.",
+    "mainObjective": "Meet Detective Naomasa Tsukauchi and come to terms with him about your vigilante work.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has met Naomasa Tsukauchi and left with a clear understanding: a warning heeded, a quiet deal struck, a path toward a license, or an open break with the police."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Police Headquarters",
+    "questDesignBrief": "A tense, quiet conversation scene. Tsukauchi is courteous and exact; his Lie Detector tells him when the PC says something they know is false, never what the truth is, so careful true answers give him nothing. He can offer a warning, an off-the-books arrangement as an informant, or advice on how a hero license is earned; he will not ignore serious harm. Sansa Tamakawa may sit in. Whether the police know the PC's real name depends on how the PC has worked, and Tsukauchi says plainly what he knows. Arrest is possible if the PC confesses to something serious or attacks him, never as an ambush. Failure: the police stop tolerating the PC and patrols start hunting the mask.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Part-Time Shift": {
+    "name": "Part-Time Shift",
+    "questSource": "Kiyashi Shopping Mall",
+    "questStatement": "Kiyashi Shopping Mall is hiring for the spring rush, and you have a shift: a food-court counter, a shoe-store stockroom or the information desk, whichever your life put you in. The manager is stretched, the regulars are particular, and half the customers have Quirks that do inconvenient things in public. Today's shift is going to go wrong in some small, very Quirk-filled way. Keep the job anyway.",
+    "mainObjective": "Get through a shift gone wrong at Kiyashi Shopping Mall and keep your job.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has finished a shift at Kiyashi Shopping Mall that went wrong, has dealt with the trouble, and the manager has kept, warned or fired the PC."
+    },
+    "detailType": "detailed",
+    "questLocation": "Kiyashi Shopping Mall",
+    "questDesignBrief": "Everyday Quirk-society comedy with small stakes that matter. Pick one or two problems: a customer whose sneeze sets off the sprinklers, a toddler who floats merchandise to the ceiling, a heteromorph customer a coworker refuses to serve, a delivery that does not match its invoice. Quirk law binds the PC: helping with a Quirk in public can still earn a reprimand. Gentle Criminal and La Brava may sit over tea in the Food Court, harmless today. No hero needs to appear; this is an ordinary life. Failure: lost wages, a warning or a firing, never danger beyond a scrape.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Pickpocket Ring at the Mall": {
+    "name": "Pickpocket Ring at the Mall",
+    "questSource": "Sansa Tamakawa",
+    "questStatement": "The pickpocket crew that works Kiyashi Shopping Mall's weekend crowds is still at it: one of them makes everyone near the fountain flinch for a second, and the others lift wallets and phones in that second. Mall security has descriptions and no power to act. Officer Sansa Tamakawa, who took the latest statements, says the police need someone who can recognize the crew and point them out. You have seen their faces. They may have seen yours.",
+    "mainObjective": "Help Officer Sansa Tamakawa identify the mall's pickpocket crew without becoming their target.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The mall's pickpocket crew has been identified to the police with the PC's help, and its members are arrested, scattered or scared off."
+    },
+    "detailType": "detailed",
+    "questLocation": "Kiyashi Shopping Mall",
+    "questDesignBrief": "Civilian courage at human scale. Sansa Tamakawa is courteous and procedural; he asks a civilian to watch and report, never to fight, and reminds the PC that public Quirk use outside self-defense is illegal. The crew are generated people; one may be someone the PC knows from their Background. The crew notices informants: a threatening note, a stolen bag, someone waiting near the PC's home. Mount Lady may answer a call to the atrium. Gentle Criminal and La Brava have nothing to do with the crew and disapprove of pickpockets. Failure: the PC is threatened, robbed or embarrassed, and the crew moves to another mall.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Sports Festival Tickets": {
+    "name": "Sports Festival Tickets",
+    "questSource": "Present Mic",
+    "questStatement": "Public seats for U.A. Academy's first-year Sports Festival sell out in minutes, and resale prices are criminal. Present Mic is giving away a pair of tickets on his late-night show, Put Your Hands Up Radio, to the listener with the best call-in, and there are other ways in: a vendor job at the stadium food stalls, a friend with a spare seat, a long night in the ticket line. You want to be in the stands on Festival day.",
+    "mainObjective": "Get a legitimate ticket, pass or job that puts you inside U.A. Stadium on Festival day.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC holds a valid ticket, staff pass or stadium job that gets them into U.A. Stadium for the first-year Sports Festival."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "Light, fan-centered fun. Present Mic is pure broadcast energy on air and kind off it; the call-in can be a talent bit, a trivia round or a story that moves him. Scalpers and fake tickets are the main hazards. If the USJ attack has happened, the line is full of rumors about it and security is heavy; the quest neither stages nor predicts it. The quest ends when the PC has a way in; the festival itself runs as its own event. The PC cannot enter the rest of the U.A. Academy campus. Failure: a fake ticket, a lost day's pay, or watching the festival on a screen in the Station District.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "When the Heroes Fight": {
+    "name": "When the Heroes Fight",
+    "questSource": "Inko Midoriya",
+    "questStatement": "Since the night at Kamino, the city has not slept well. Musutafu General Hospital is short of hands: blood drives, families waiting for news, donations piling up in the halls. Inko Midoriya, whose son is a U.A. student, has been helping out in the family waiting room because she cannot bear to sit at home with the news on, and she has asked everyone she knows to pitch in. The work is small. The fear is not.",
+    "mainObjective": "Volunteer at Musutafu General Hospital and help your neighbors through the weeks after Kamino.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has put in real volunteer time at Musutafu General Hospital and has helped at least one frightened person, Inko Midoriya or a neighbor, through the aftermath."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu General Hospital",
+    "questDesignBrief": "A quiet, human quest about fear after a national shock. Inko Midoriya is warm, anxious and quick to tears; she talks about her son Izuku, the U.A. lockdown and whether he should stay a hero student, and the PC can listen, comfort or argue. Staff, patients and neighbors are generated people: a nurse on her third double shift, a man who lost his shop at Kamino, a frightened child who needs a story. Unless the story has established otherwise, All Might is retired, U.A. is locked down, and people talk about little else. Failure: the PC burns out or says the wrong thing; no villain attack comes.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Evacuation Drill": {
+    "name": "Evacuation Drill",
+    "questSource": "Mount Lady",
+    "questStatement": "After a hard year, Musutafu is running citywide evacuation drills, and the Station District goes first. Mount Lady is the hero assigned to lead it, cameras and all, and the district needs civilian wardens: people who know the shops, the exits and the regulars. You have signed on. Halfway through the drill, something real goes wrong.",
+    "mainObjective": "Serve as a civilian warden in the Station District drill and get people out when it turns real.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has served as a warden in the Station District drill and helped get people to safety when the real incident struck, and the incident is over."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Station District",
+    "questDesignBrief": "Ordinary heroism under a rookie pro. Mount Lady is breezy for the cameras and serious once it turns real; the Station Concourse is too tight for her giant form, which frustrates her. The real incident is minor and generated: a gas leak, a panicked Quirk flare, a petty villain using the drill as cover. Wardens guide and count people; Quirk law still binds the PC, though a hero on scene may authorize help. Death Arms or Backdraft may arrive as backup. Nothing ties the incident to the League or to any canon event. Failure: someone is hurt in the crush, and the PC answers questions about it on the evening news.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Hiring a Sidekick": {
+    "name": "Hiring a Sidekick",
+    "questSource": "Hero Agency Row",
+    "questStatement": "The agency has a name on the door and more calls than one pro can answer. Three applicants are waiting on folding chairs in the hall of Hero Agency Row: a freshly licensed sidekick with top marks and no street time, a veteran let go by a bigger agency for reasons nobody will say, and a quiet local whose Quirk would cover exactly what yours cannot. The budget pays for one.",
+    "mainObjective": "Interview the applicants, check their licenses and references, and hire one sidekick the agency can afford.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has hired a sidekick for their agency, or has decided clearly not to hire anyone now, after meeting the applicants."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "Small-business heroics. Each applicant has a real strength and a real problem, and the reference checks turn up one surprise (a complaint on file, a debt, a rival agency's poaching offer). Death Arms or Gunhead may offer an opinion across the shared ready room. The hire should matter afterward: name them, give them a voice, and let them show up on later calls. Failure: a hire who quits within the week, or a budget that will not stretch to Friday.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Scouting at the Festival": {
+    "name": "Scouting at the Festival",
+    "questSource": "U.A. Stadium",
+    "questStatement": "The U.A. Sports Festival is where Japan's pros find their next interns, and every agency in the country has a seat in the stands. Yours can afford exactly one internship offer. The big agencies will bid on the obvious stars; somewhere in the first-year events is a student whose Quirk and nerve would fit a small agency like yours, if you can spot them before anyone else does.",
+    "mainObjective": "Watch the first-year Sports Festival from the pros' stands and send one internship offer to the student your agency should train.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has watched the Sports Festival as a pro scout and has sent an internship offer to a student, or has clearly chosen to send none."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "Hero industry seen from the stands. Pros talk shop around the PC: rankings, sponsors, which students the top agencies want. The canon events and results belong to the Sports Festival event; the quest is about what the PC notices and decides. The chosen student (canon or original) can arrive for Internship Week later. Failure: an offer to a student who turns it down for a bigger agency, or a missed talent the PC regrets.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Dagobah Beach Cleanup": {
+    "name": "Dagobah Beach Cleanup",
+    "questSource": "All Might",
+    "questStatement": "People walk the shore of Dagobah Municipal Beach Park every morning, and the ward means to keep it that way. Now trucks have started dumping there at night: broken appliances, tires, a moped with the plates filed off. The ward has posted a volunteer cleanup, and anyone who wants the beach back can pick up gloves on the Seawall Promenade. Some mornings, they say, All Might jogs past.",
+    "mainObjective": "Clear the new junk from Dagobah's shore and find out who is dumping it at night.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The new junk is cleared from Dagobah's Shoreline and the night dumping has been stopped or reported, through the PC's work."
+    },
+    "detailType": "detailed",
+    "questLocation": "Dagobah Municipal Beach Park",
+    "questDesignBrief": "A sunny, community-minded quest open to every path. The dumpers are generated people: a cut-rate disposal firm saving on fees. Volunteers range from retirees to students. All Might may jog past, greet the volunteers with a laugh and haul off something enormous on his way through; he talks about the beach, never about himself. A villain-path PC may help or exploit the scene; if one attacks All Might, he ends it at once and the police follow. School paths fit it around classes and curfew. Failure: the dumping goes on and the volunteers drift away.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Recovery Girl's Errand": {
+    "name": "Recovery Girl's Errand",
+    "questSource": "Recovery Girl",
+    "questStatement": "Recovery Girl's infirmary is busy after every hard week of training, and she has drafted you to help: carry a supply delivery in from the Main Gate, sort it the way she likes, and sit with a patient who has been told to rest and keeps trying to leave. She hands out gummies and orders in equal measure, and if you ask the right questions, she will tell you what her healing can and cannot do.",
+    "mainObjective": "Run Recovery Girl's errands, keep her patient in bed and learn the limits of her healing.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has finished Recovery Girl's errands, kept the patient resting until she released them, and heard from her what her Quirk costs and cannot fix."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "A warm, teaching quest. Recovery Girl is grandmotherly and blunt: her kiss speeds natural healing and spends the patient's stamina; she cannot regrow limbs, raise the dead or undo old damage, and bones broken again and again do not heal the same. The patient is whoever the story hurt most recently in training; if nobody, a Support Course student burned by a prototype in the Development Studio. She keeps every patient's records private and tells the PC nothing about another student's medical history. A teacher may drop in to be scolded. Failure: the patient slips out and gets worse, and Recovery Girl is disappointed in the PC.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Kiyashi Mall Weekend": {
+    "name": "Kiyashi Mall Weekend",
+    "questSource": "Mina Ashido",
+    "questStatement": "Exams are over, and Mina Ashido has decided that what everyone needs is a weekend trip to Kiyashi Shopping Mall: gear for the Hero Course's summer camp, new shoes, snacks and whatever else catches her eye. She has signed out half of Class 1-A already and is recruiting anyone else she finds in the halls. It is a day off, with curfew at the end of it. Go, shop, eat, and get everyone back to Heights Alliance on time.",
+    "mainObjective": "Join Mina Ashido's mall trip and get the group back to Heights Alliance before curfew.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has spent the day at Kiyashi Shopping Mall with Mina Ashido's group and made it back to Heights Alliance, on time or not, with the day's surprises settled."
+    },
+    "detailType": "detailed",
+    "questLocation": "Kiyashi Shopping Mall",
+    "questDesignBrief": "Slice of life with an edge. Mina is loud and drags in anyone who looks left out; Eijiro Kirishima, Ochaco Uraraka or Izuku Midoriya may come along, and students from other courses are welcome. Most of the day is shopping and teasing. Unless the story has established otherwise, a hooded stranger may be in the crowd: Tomura Shigaraki, off duty and curious, who sits beside a student and talks about heroes with his hand too close to their neck. That encounter is possible, never required, and never becomes an attack on the crowd; police arrive only after he leaves. Exam results stand as the story has established them. Failure: missed curfew and a scolding.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Rival from Shiketsu": {
+    "name": "Rival from Shiketsu",
+    "questSource": "Inasa Yoarashi",
+    "questStatement": "Inasa Yoarashi of Shiketsu Academy does nothing quietly, and since the provisional license exam he has decided you are worth his passion. Whether he saw you at Takoba or on the news, he has been sending loud messages: a match, a team-up, a chance to see what your heart is made of. He is in Osaka, by the Dotonbori Canal, and he will not stop asking until you answer in person. His schoolmates would like him to calm down.",
+    "mainObjective": "Meet Inasa Yoarashi in Osaka and answer his challenge, in a sanctioned match or side by side.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has met Inasa Yoarashi in Osaka and answered his challenge with a supervised match, a shared rescue or an honest talk, and he has decided what the PC is to him."
+    },
+    "detailType": "detailed",
+    "questLocation": "Osaka Downtown",
+    "questDesignBrief": "Big, sincere rivalry. Inasa bows too low, shouts about passion and means every word; Seiji Shishikura scolds him about decorum and looks down on U.A.; Camie Utsushimi treats everyone as an old friend. A fight in public is illegal outside a license, so a real match needs a training hall and a supervising teacher. Unless the story has established otherwise, Inasa failed the license exam and is in the Commission's remedial course until it ends, which stings; the quest does not decide that course. A sidekick PC meets him as a working pro he wants to learn from. Failure: a bruised ego, a reprimand from either academy, or a grudge that lasts.",
+    "conclusive": false,
+    "status": "hidden"
+  },
+  "Lunch Rush's Kitchen": {
+    "name": "Lunch Rush's Kitchen",
+    "questSource": "Lunch Rush",
+    "questStatement": "Lunch Rush feeds all of U.A. Academy at student prices, and at noon his cafeteria is a storm. He is short-handed and has asked for help at rush hour: carrying trays, washing rice pots, keeping the line moving. He has one more problem, which he mentions in very few words: things are going missing from the pantry at night. Not money. Sugar, rice and an entire case of eggs.",
+    "mainObjective": "Work the lunch rush in Lunch Rush's Cafeteria and find out who is raiding the pantry.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has worked at least one lunch rush for Lunch Rush, and the pantry thefts are explained and stopped, the culprit caught, confessed or forgiven."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Cozy campus mystery. Lunch Rush speaks in few words from behind his mask and never removes it. The culprit is ordinary: a student whose Quirk burns food faster than meals cover, a Support Course team using eggs and sugar in a prototype, or a dorm throwing a secret party; the narrator picks one that fits the people the PC knows. Nobody from outside U.A. is involved. It stays a small kitchen mystery among U.A.'s own students and staff. A faculty PC can treat it as a lesson in student welfare. Failure: Lunch Rush padlocks the pantry and the culprit goes hungry.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

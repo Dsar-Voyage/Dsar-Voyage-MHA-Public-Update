@@ -1,0 +1,29 @@
+{
+  "Analytical": {
+    "name": "Analytical",
+    "description": "📊 You take problems apart: you notice patterns, keep notes and want to know how a thing works before you act.\n\n🔍 You spot patterns, find the mechanism behind a problem and ask the precise question that cracks it.\n👁️ You read people's habits and tells, down to how an opponent shifts their weight.\n⚠️ You can think too long: with no time and missing information you hesitate, and a chance may pass.\n⚠️ You can come across as cold, treating people as problems to solve, and you distrust feelings you cannot explain.\n\n📈 Grants: Intelligence +1, Investigation +5, Insight +5",
+    "traitNarrativeEffects": "The character watches, compares and breaks things down: how an opponent shifts their weight, why a plan failed, where a Quirk's limits must be. They think aloud, take notes and ask precise questions, and in a crisis they look for the mechanism behind the obvious move. Weakness: they can think too long. When a decision must be made at once with missing information, they hesitate, and the narrator may let a chance pass while they are still working it out. They can come across as cold, treating people as problems to solve, and they distrust a feeling they cannot explain. The narrator may show the urge to keep analyzing; when to stop and act is the player's call.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Investigation",
+        "modifier": 5
+      },
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

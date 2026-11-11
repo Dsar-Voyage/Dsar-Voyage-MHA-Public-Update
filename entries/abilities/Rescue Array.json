@@ -1,0 +1,24 @@
+{
+  "Rescue Array": {
+    "name": "Rescue Array",
+    "description": "The user extends several arms through adjacent openings in a damaged building, forming eyes, ears and hands to locate survivors and guide them toward one safe exit. The array stays active for the rest of the scene while the user remains in place. Each arm must fit through a real opening, and too many simultaneous signals leave the user unable to track a fast fight. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

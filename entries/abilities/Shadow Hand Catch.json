@@ -1,0 +1,20 @@
+{
+  "Shadow Hand Catch": {
+    "name": "Shadow Hand Catch",
+    "description": "The user sends the creature to catch one falling object, thrown weapon or person within a few meters. It stops the impact and sets a person down safely before the end of the user's next turn. In bright light it is too small to catch an adult, and a blow heavier than a falling person can break its grip. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

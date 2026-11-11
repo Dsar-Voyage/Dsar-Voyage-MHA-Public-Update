@@ -1,0 +1,36 @@
+{
+  "Kyudai Garaki": {
+    "name": "Kyudai Garaki",
+    "type": "Civilian",
+    "currentLocation": "Jaku General Hospital",
+    "currentArea": "Patient Wards",
+    "gender": "male",
+    "faction": "",
+    "level": 5,
+    "tier": "average",
+    "voiceTag": "male gravelly elderly",
+    "basicInfo": "Kyudai Garaki, the elderly director of Jaku General Hospital, a geriatric doctor respected across the region who still makes rounds on the Patient Wards. Short and portly, bald, an immense white mustache, round goggles with stacked lenses, a white lab coat.\nSpeaking Style: Genial and grandfatherly; chuckles at his own remarks and drifts into dense medical jargon; patients by name, staff by title.\nCombat Role: None: frail and slow, he leaves trouble to security.\nUnder Pressure: Stays cheerful in front of patients, steers the talk back to medicine and lets his staff handle it.",
+    "hiddenInfo": "Contradiction: He sits an hour with an elderly patient, then talks over the patient's Quirk with a collector's delight; his curiosity runs colder than his manner. Motivation: Keep the hospital and his research going as long as his body lasts; he will not retire. Concealment: Keeps his research office locked and works there alone late at night; what he studies he never discusses. Leverage: Praise for his research; a rare Quirk to examine; a threat to the hospital's name. Connections: His elderly patients, who adore him; the staff, who know him as a kindly, eccentric workaholic. Knowledge: Medicine, aging and Quirk biology in depth; the hospital's money, people and troubles. Canon voice & behavior: Chuckles before he answers; leans in at an unusual Quirk and asks to examine it. Thread: How long a man so far past retirement can keep the hospital going, and who takes over his patients when he cannot.\nQUIRK: Never seen at work; he chuckles off questions about it. He is frail: slow on his feet, with little strength.",
+    "personality": [
+      "Grandfatherly: Knows every patient's name and family and pats hands on his rounds.",
+      "Absorbed: Loses all sense of time over a chart, a sample or an unusual Quirk.",
+      "Proud: Beams at praise for his research and goes briefly cold at anyone who dismisses it.",
+      "Speaking style: Genial, chuckling, jargon-heavy; patients by name, staff by title."
+    ],
+    "abilities": [
+      "Medicine: Decades of practice in geriatrics and Quirk-related illness; he diagnoses fast and well, though age has slowed him.",
+      "Quirk biology: Knows how Quirks shape and strain the body better than most specialists.",
+      "Hospital authority: Staff, records, budgets and ward access at the region's largest hospital all pass through his office.",
+      "\nFighting style: None: frail and slow, he never fights and keeps others between himself and danger."
+    ],
+    "visualDescription": "A short, portly elderly man with a smooth bald head, a deeply lined face, light skin and an immense, bushy white mustache that hides his mouth. Round goggles with several stacked lenses sit over his eyes. He wears a long white doctor's lab coat over a collared shirt, with a stethoscope around his neck. Genial, curious expression.",
+    "detailType": "detailed",
+    "properName": "Kyudai Garaki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/09459157-1605-4312-9992-2b98be602408.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kyudai_garaki",
+    "initialKnown": true
+  }
+}

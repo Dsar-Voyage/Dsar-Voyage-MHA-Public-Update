@@ -1,0 +1,28 @@
+{
+  "Sea west of Oki": {
+    "name": "Sea west of Oki",
+    "basicInfo": "Open Sea of Japan west of the Dozen islands of Oki, where the water runs empty from Nishinoshima's western cliffs to the horizon. On clear days the sheer red walls of the Kuniga coast and the Matengai cliff stand on the eastern horizon, and from the southern part of the cell the hills of the Shimane Peninsula are faint to the southeast. The water is deep blue and clear, mostly one to two hundred meters deep over the continental shelf, with the warm Tsushima Current pushing northeast. Weather swings with the season: calm, hazy summers, autumn typhoon swells, and winter monsoon gales from the northwest that build long heavy seas. Fishing boats from Nishinoshima and the Shimane coast work here for squid, sea bream, horse mackerel and flying fish, and trawlers out of Hamada and Sakaiminato pass through. No islands lie inside the cell and no ferry route crosses it. The coast guard watches the area from Sakaiminato and Hamada, and the licensed hero covering the Dozen islands is the nearest hero help. A party might be out here on a fishing charter from Nishinoshima, on a long sea-kayak crossing in fair weather, or flying across.",
+    "hiddenInfo": "This is the empty side of the islands, so trouble out here goes unseen: boats from outside fishing where they should not, drifting wreckage and derelict hulls carried in by the current, a boater lost in fog. Help is hours away by patrol boat. Villainy is rare and petty.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -12,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8e266655-fae6-4a3c-8b4e-286141984fa2.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

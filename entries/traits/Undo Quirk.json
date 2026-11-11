@@ -1,0 +1,40 @@
+{
+  "Undo Quirk": {
+    "name": "Undo Quirk",
+    "description": "⏪ You touch a non-living thing, feel whether it changed in the last minute, and return it to how it was.\n\n🌱 A shattered window stands whole, a bent bar straightens, a spilled bag repacks, and scattered pieces fly back, striking whatever stands in the way.\n📈 Training adds closing a breach around a villain, making an armed bomb safe, raising a fallen stair, undoing a crushed car around its riders, rebuilding part of a house.\n⚠️ Living bodies are out of reach: wounds, ages and Quirks never answer, and a body in the way stops the returning pieces.\n🔗 Common drawback pairing: Cognitive Fade, as holding the earlier shape of things in mind blurs your own last few minutes.\n🎬 Similar canon Quirks: Eri (Rewind), which works on living bodies; this one cannot.\n\n📈 Grants: Intelligence +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Minute Mend, Shard Recall",
+    "traitNarrativeEffects": "Scale: by touch the user restores a non-living object's shape, wholeness and contents from any moment in the last minute. A new adult user undoes up to door or motorbike size. The object stays put; its broken or fallen pieces from that span fly back, bruising anyone between. Touch also senses whether and how it changed. Longer spans, larger objects need techniques. Limits: no living bodies, the user's included (wounds, age, illness, Quirks); clothing only once removed. Returning pieces press around a living body without crushing. Used-up things never return (burned fuel, eaten food, fired shots); older changes are final. Quirk Strain: light: mend, recall; moderate: closed breach, defused device, raised stair; heavy: crushed vehicle, rubble recall; severe: signature reset, rebuilding a house. Type: Emitter. Law: undoing crime-scene evidence is tampering; police suspect a registered Undo user near a tidied scene until cleared. Look: pieces streak back rattling.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Minute Mend",
+      "Shard Recall"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

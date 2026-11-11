@@ -1,0 +1,29 @@
+{
+  "Heartbeat Ledger": {
+    "name": "Heartbeat Ledger",
+    "description": "The user sends a single pulse through a collapsed building or a buried street and hears every heartbeat, breath and shifting slab inside it at once. For the rest of the scene they know where each trapped person is and which slabs will fall next, and they send their voice to each survivor alone, telling them when to stay still and when to move; rescuers who follow the user's calls are never caught by a further collapse. The user must stand still while listening and hears nothing else around them, so an ally must guard them. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

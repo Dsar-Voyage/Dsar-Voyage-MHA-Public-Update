@@ -1,0 +1,20 @@
+{
+  "Unbroken Vigil": {
+    "name": "Unbroken Vigil",
+    "description": "The user keeps both hands on a dying person and does not let go. While contact holds, the user can do nothing but walk beside a stretcher, and the patient cannot die from their wounds or blood loss, holding on until a surgeon or a stronger technique can save them; they lose heavy stamina when the user lets go. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

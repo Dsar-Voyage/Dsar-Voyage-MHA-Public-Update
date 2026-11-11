@@ -1,0 +1,41 @@
+{
+  "Gale Wings Quirk": {
+    "name": "Gale Wings Quirk",
+    "description": "🪽 Your feathered wings make their own wind, so you fly with less flapping.\n\n🧬 A Fusion Quirk of Wings and Wind: smaller wings and about half a single Quirk's gust range, plus moves only the fusion can do.\n🌱 At the start you hop onto low roofs on an air pocket and shove foes back with a wing gust.\n📈 With training: glides over a block, air-edged feathers, hovering rescues while a feather-gust sweeps people clear, a wind dome that shelters a group under your wings, and a diving gale strike.\n⚠️ Wet or damaged feathers ground you, and strong crosswinds still win.\n🔗 Common drawback pairing: Stamina Drain, as making wind while aloft burns breath fast.\n🎬 Similar canon Quirks: Hawks (Fierce Wings), Inasa Yoarashi (Whirlwind).\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Control +10, Search and Rescue +5\n⚡ Starting techniques: Tailwind Takeoff, Pinion Push",
+    "traitNarrativeEffects": "Scale: user-height feathered wings stream currents from the quills for low-flap flight and hovering; at first a one-story roof, a narrow street in one gliding beat, a gust shoving an adult about five meters. More needs learned techniques. Limits: wet, muddied or damaged feathers ground them at once, shedding too many until regrown; strong crosswinds overpower them; indoors no diving speed. Quirk Strain: wings cost nothing; light: hop, gust; moderate: glide survey, edged feather, hover rescue; heavy: plumes, underwing dome; severe: signature dive strike, thermal corridor. Fusion: Wings and Wind at about half single-nature range and force; no wide feather telekinesis, thrown gales or free cyclones; only it hovers still on wing-wind, sweeps people clear, domes air underwing, dives in a gale. Type: Emitter (also fits Mutant). Law: wings are legal; unlicensed public flight or gusts are unlawful Quirk use, diving strikes assault. Look: wings in the player's chosen color.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Tailwind Takeoff",
+      "Pinion Push"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Paying the Broker": {
+    "name": "Paying the Broker",
+    "questSource": "Giran",
+    "questStatement": "Your forged ID, your safe room and the last job that went wrong all came through Giran, and the bill is due. He is waiting in the Chinatown Streets of Yokohama Harbor, polite as ever, with a number that is more than you have. He will take cash, a job or a favor to be named later. What he will not take is silence: a broker who lets one debt slide loses every client who hears about it.",
+    "mainObjective": "Settle your debt to Giran with cash, a job or a favor before he decides how to collect.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has settled the debt to Giran with a payment, a job done for him or a favor promised, or has broken with him and faced what follows."
+    },
+    "detailType": "detailed",
+    "questLocation": "Yokohama Harbor District",
+    "questDesignBrief": "Underworld economics. Giran is smooth and unhurried and never threatens directly; hired muscle and reputation do that for him. Offer choices with costs: a fast cash job with real risk, a favor that ties the PC to Giran's other clients, or a harder bargain. The size and origin of the debt come from the PC's Background; if it is silent, Giran fronted the forged ID and a safe room. Harbor police and patrol heroes are near, so any violence draws heat. Giran names no client to another and knows nothing of any client's plans. Failure: Giran's muscle collects, and the PC's name loses value with every broker in the port.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

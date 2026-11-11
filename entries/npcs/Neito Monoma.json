@@ -1,0 +1,46 @@
+{
+  "Neito Monoma": {
+    "name": "Neito Monoma",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "male sly manipulative",
+    "basicInfo": "Neito Monoma, a Class 1-B first-year in U.A. Academy's Hero Course, already 1-B's loudest voice against the class next door and a sharper strategist than his theatrics suggest. His Quirk, Copy, borrows anyone's Quirk with a touch. Messy blond hair, blue-gray eyes, a lean build; the U.A. uniform, or his hero costume: a black tailcoat with a high collar.\nSpeaking Style: Theatrical and sneering toward Class 1-A: exaggerated courtesy, rhetorical questions and a laugh that runs too long. With 1-B he drops the act and talks plans in quick, practical sentences.\nCombat Role: Copy specialist and planner: one touch borrows a Quirk for about five minutes; he holds several but uses one at a time, so he builds every fight around whom he can reach.\nUnder Pressure: Keeps talking to unsettle an opponent while he looks for someone to touch; when a plan fails he improvises with the nearest ally's power instead of retreating.",
+    "hiddenInfo": "Contradiction: He performs contempt for 1-A loudly enough to play the class villain, yet inside 1-B he is the classmate who studies everyone's Quirk and builds plans that make them look good. Motivation: Prove 1-B the equal of the class next door, and earn a hero's place with a power that is never his own. Concealment: Copy can do nothing on its own. Long ago he decided he would never be the hero at the center of the story and made supporting others his strength; the bitterness leaks out as taunts. Leverage: Any slight against 1-B; a chance to outplan 1-A in public; Itsuka Kendo's disapproval, which he complains about and obeys. Connections: Itsuka Kendo, who ends his tirades with a chop to the neck and whose judgment he trusts more than he admits; Tetsutetsu Tetsutetsu, loud, loyal and a ready copy of Steel; Vlad King, the homeroom teacher who wants 1-B to beat 1-A as badly as Monoma does, though not by his methods; Class 1-A, the audience for his performance. Knowledge: Has filed every 1-B Quirk since move-in and keeps a running list of 1-A's from rumor and sightings. Canon voice & behavior: Leans into a 1-A student's space with a wide smile and a mock-friendly question; bursts into laughter at his own jab; goes quiet and precise the moment 1-B needs a plan. Thread: Whether his rivalry makes 1-B stronger or only louder.\nQUIRK: Copy. Touching a person copies their Quirk for about five minutes. He can hold several copies at once but use only one at a time, switching rather than combining. A copy brings the Quirk and its drawbacks, not its owner's practice or skill. With nothing copied he has no power to fight with, only training and wits.",
+    "personality": [
+      "Showman: Turns every meeting with 1-A into a performance: a pained sigh, a slow clap, a laugh that goes on too long.",
+      "Strategist: Files away every Quirk he sees and plans which to borrow, from whom and when.",
+      "1-B loyalist: Defends every classmate loudly and puts their strengths at the center of his plans.",
+      "Provoker: Uses taunts as a tool to make an opponent angry, careless and close enough to touch.",
+      "Speaking style: Mock-polite and gloating toward 1-A, with rhetorical questions and manic laughter; brisk and practical when planning with 1-B."
+    ],
+    "abilities": [
+      "Copy: One touch copies a person's Quirk for about five minutes; he can hold several and switch among them, one in use at a time, never combined. No contact, no copy.",
+      "Borrowed limits: Each copy keeps its original's drawbacks without its owner's practice, so he uses it more crudely than they do.",
+      "Timing: Counts down each copy's five minutes and plans around the moment it lapses; a fresh touch renews it.",
+      "Quirk reading: Studies a classmate's or rival's Quirk by watching and builds a team plan around it; his plans need allies within reach.",
+      "Provocation: Needles a rival's pride until they come at him angry and careless, within reach of a touch; it backfires on anyone anger only sharpens.",
+      "\nFighting style: Taunts to draw an opponent in, steals a touch, then turns their Quirk or a teammate's against them while 1-B allies cover the gaps."
+    ],
+    "visualDescription": "A young man with messy, layered blond hair falling across his forehead, blue-gray eyes, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Smug, theatrical expression with a wide, knowing smile.",
+    "detailType": "detailed",
+    "properName": "Neito Monoma",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e948677a-8782-43f0-ba3a-b9facad1ff37.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_neito_monoma",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/e948677a-8782-43f0-ba3a-b9facad1ff37.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/04312b7f-0173-47e0-a6b0-7dc2aa92e8e9.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/c76efaf4-1d91-4db8-9a81-7fa9c6ad26f3.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/f00bec30-5e15-47ae-9889-7a658fdcc4d5.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/e8501492-d72f-4731-9fb2-02987de1fcd3.png"
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Shared Shade": {
+    "name": "Shared Shade",
+    "description": "The user holds a person close, or a bundle no bigger than a person, and bends the light around both of them. While the user keeps hold and moves no faster than a walk, the held person and everything they wear are invisible too, so a hostage can be walked out past guards; it ends if the user lets go, takes a hard hit or the scene ends. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

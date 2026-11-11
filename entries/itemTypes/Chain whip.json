@@ -1,0 +1,25 @@
+{
+  "Chain whip": {
+    "name": "Chain whip",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "value": 2
+      }
+    ],
+    "description": "A length of linked steel with a weighted tip and a wrapped handle. Swung, it strikes from beyond arm's reach and can wrap a wrist or a weapon; a careless swing comes back at its user. Carried hidden without a legitimate reason, it breaks the Minor Offenses Act like any concealed weapon. [ Weapon | About ¥4,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/69fca6ee-347c-4cdc-9851-494840463d65.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

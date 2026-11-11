@@ -1,0 +1,15 @@
+{
+  "Pose - Seated Relaxed": {
+    "name": "Pose - Seated Relaxed",
+    "skills": [],
+    "abilities": [],
+    "resources": [],
+    "attributes": [],
+    "excludedBy": [],
+    "unlockedBy": [],
+    "description": "🕴️ Pose: Seated Relaxed\nSitting in a comfortable position — leaning back or resting, suggesting a casual, off-duty moment.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
+    "startingItems": [],
+    "traitNarrativeEffects": "Portrait: Within the selected Portrait Framing, use relaxed seated body geometry only when a seat or ledge is supported by the selected scene; otherwise use a relaxed standing weight shift. Preserve the selected crop and show only frame-visible limbs and hands. Female: knees together or crossed, shoulders soft and low. Male: knees apart, shoulders open and level. Otherwise (a Mutant body plan): the character's own seated geometry.\n\nVisual selection only: keep the character's actual adult age, body plan and any Mutant features; never change anatomy to fit this choice. It adds no Quirk effect, injury, item, license or affiliation.",
+    "requirements": []
+  }
+}

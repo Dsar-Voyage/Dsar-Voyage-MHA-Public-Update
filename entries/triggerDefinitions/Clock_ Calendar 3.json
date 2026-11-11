@@ -1,0 +1,16 @@
+{
+  "Clock: Calendar 3": {
+    "name": "Clock: Calendar 3",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){if(storage.evyV3===1501){skip=true;return;}storage.EVY3=[[\"someone_takes_the_childs_hand\", 450, \"A recovering neighborhood protects a vulnerable child and connects him to care, showing how ordinary residents can prevent abandonment.\", 0, \"This Time, Someone Stops at Musutafu Station District\"], [\"embers_through_graduation\", 1090, \"The cohort graduates after its remaining Academy years, carrying reconstruction, hard-won qualifications, and lasting losses forward.\", 0, \"Finish What We Started at U.A. Academy\"], [\"teacher_deku_and_dai\", 3325, \"Eight years after the war, Izuku teaches at U.A. Academy while his peers serve a changing society through hero work and prevention.\", 0, \"Can I Become a Hero? at U.A. Academy\"], [\"deku_armor_return\", 3325, \"Izuku resumes field hero work with advanced support armor while continuing to teach, supported by his former classmates.\", 0, \"Reach Out Again at U.A. Academy\"], [\"more_quirk_counseling\", 3350, \"Ochaco's counseling initiative continues through practical outreach, supported activities, and reliable follow-up for children.\", 0, \"The Work After Rescue at U.A. Academy\"], [\"more_class_reunion\", 3355, \"Shoto reaches the number-two hero position, and former Class A friends gather to celebrate and renew their connections.\", 0, \"Make Time for Each Other at Musutafu Station District\"], [\"more_choose_a_personal_future\", 3355, \"After the reunion, teaching, counseling, field work, and ordinary life continue as former classmates make time for personal commitments.\", 0, \"More at Musutafu Station District\"]];storage.evyV3=1501;})();"
+  }
+}

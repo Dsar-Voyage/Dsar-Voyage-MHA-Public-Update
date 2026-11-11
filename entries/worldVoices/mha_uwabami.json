@@ -1,0 +1,15 @@
+{
+  "mha_uwabami": {
+    "label": "Uwabami",
+    "voiceTag": "female soft flirtatious",
+    "instructions": "Smooth, polished, sultry mid-low woman's voice with a glamorous, camera-ready purr. Elegant, self-assured and a little haughty, every line like a commercial take; a soft, knowing laugh. Plain American accent, never loud or flustered.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

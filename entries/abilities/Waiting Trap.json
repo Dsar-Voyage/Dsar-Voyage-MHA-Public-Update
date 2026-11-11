@@ -1,0 +1,20 @@
+{
+  "Waiting Trap": {
+    "name": "Waiting Trap",
+    "description": "The user reads a suspect, or anyone the suspect will meet, and sees where the suspect will go in the next stretch of time. Police or heroes the user sends wait at that place, and the suspect walks into them and can be restrained. If the suspect learns of the trap or changes plans, the future branches and the user knows only that the vision no longer holds. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

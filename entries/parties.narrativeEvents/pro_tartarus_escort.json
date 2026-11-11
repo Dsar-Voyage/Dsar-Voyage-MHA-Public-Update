@@ -1,0 +1,15 @@
+{
+  "pro_tartarus_escort": {
+    "title": "The Tartarus Transfer Escort",
+    "beats": "Early October, before dawn. The order reaches the party on the agency radio and the Commission's incident app: since All Might retired and petty crime rose, the police are short of escorts, and the agency is assigned to guard a convicted villain from a police holding center to the Tartarus Transfer Port, a drive of under two hours. The prisoner is a generated man the narration names once: his attacks crippled two pros, his Quirk is too dangerous for an ordinary prison, and he rides sealed in Quirk-blocking restraints. Port guards are on edge; the masked villain from Kamino sits on the island now.\n\nTwo armored police vans, a lead car and the party. The prisoner talks the whole way: offers money, names a stash, needles the youngest officer, asks what a world without All Might pays a hero. Canon default course, as pressure the player can change: on the coast road a staged crash blocks a tunnel, the prisoner's old crew waits to cut him out, stalled drivers film from their cars, and a warning light on his restraints starts to flicker. The escort can push through, reroute, call local pros or fight; anything that puts the trapped drivers at risk costs the agency dearly.\n\nAt the Port Security Gate, prefectural police check every name against the manifest and turn back anyone not on it. In the Transfer Waiting Hall the board says the boat is late in rough seas, and the prisoner tries one last deal. At the Transfer Pier guards walk him aboard in full restraints and the party signs him over; nobody from the escort goes to the island.\n\nA sidekick rides in the back of the van with the prisoner or drives the lead car, with the boss on the radio and the prisoner working on the weakest nerve in the van. An agency head plans the route and formation, signs the custody form and answers to the Commission for anything that goes wrong.\n\nThe event is complete when the prisoner is signed over at the pier, or escapes on the way.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_tartarus_escort",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

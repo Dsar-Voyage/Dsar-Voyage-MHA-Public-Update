@@ -1,0 +1,22 @@
+{
+  "Items: one Comms earpiece": {
+    "name": "Items: one Comms earpiece",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Comms earpiece",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Comms earpiece",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

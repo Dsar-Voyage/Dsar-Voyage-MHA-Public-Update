@@ -1,0 +1,113 @@
+{
+  "currencyName": "Yen",
+  "itemSlots": [
+    {
+      "slot": "Outfit",
+      "category": "Armor",
+      "quantity": 1
+    },
+    {
+      "slot": "Support Gear",
+      "category": "Support Gear",
+      "quantity": 2
+    },
+    {
+      "slot": "Weapon",
+      "category": "Weapon",
+      "quantity": 1
+    },
+    {
+      "slot": "Accessory",
+      "category": "Accessory",
+      "quantity": 2
+    },
+    {
+      "slot": "Carried",
+      "category": "Tool",
+      "quantity": 3
+    }
+  ],
+  "itemCategories": [
+    "Currency",
+    "Armor",
+    "Weapon",
+    "Support Gear",
+    "Tool",
+    "Consumable",
+    "Accessory"
+  ],
+  "startingItems": [
+    {
+      "item": "Smartphone",
+      "quantity": 1
+    },
+    {
+      "item": "IC transit card",
+      "quantity": 1
+    },
+    {
+      "item": "Yen",
+      "quantity": 5000
+    }
+  ],
+  "tierGenerationEnabled": true,
+  "imageGenerationEnabled": true,
+  "tiers": {
+    "mundane": {
+      "displayName": "Everyday",
+      "color": "#bcbcbc",
+      "description": "Ordinary goods from a convenience store, clothing floor or home.\n\nNew equippable items may have up to 1 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+      "rarityGuidance": "Common everyday goods, broadly available in hero society.",
+      "generationAllowed": true,
+      "valueRange": {
+        "min": 100,
+        "max": 20000
+      },
+      "bonusPolicy": {
+        "initialMaximumPicks": 1
+      }
+    },
+    "artisan": {
+      "displayName": "Quality",
+      "color": "#2fb6ff",
+      "description": "Well-made, specialist or issued gear: school kit, electronics, tools and common support items.\n\nNew equippable items may have up to 2 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+      "rarityGuidance": "Uncommon goods from specialist shops, schools and support companies.",
+      "generationAllowed": true,
+      "valueRange": {
+        "min": 1000,
+        "max": 150000
+      },
+      "bonusPolicy": {
+        "initialMaximumPicks": 2
+      }
+    },
+    "special": {
+      "displayName": "Pro Grade",
+      "color": "#ce85ff",
+      "description": "Licensed support gear, hero costumes, restricted weapons and other things most people cannot simply buy.\n\nNew equippable items may have up to 3 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+      "rarityGuidance": "Rare items that need a license, an agency, a school or the black market.",
+      "generationAllowed": true,
+      "valueRange": {
+        "min": 20000,
+        "max": 1000000
+      },
+      "bonusPolicy": {
+        "initialMaximumPicks": 3
+      }
+    },
+    "legendary": {
+      "displayName": "One of a Kind",
+      "color": "#ff7865",
+      "description": "Prototypes and items at the very top of hero society, unique in the world.\n\nNew equippable items may have up to 4 bonus picks. Prefer suitable bonuses; zero bonuses is valid. Never invent unsupported mechanics. Non-equippable items receive no equipment bonuses. Use low-to-mid world trait examples for the same type and target; explicit creator limits take priority.",
+      "rarityGuidance": "Unique items placed deliberately by the creator.",
+      "generationAllowed": false,
+      "valueRange": {
+        "min": 1000000,
+        "max": 100000000
+      },
+      "bonusPolicy": {
+        "initialMaximumPicks": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Rescue Clutch": {
+    "name": "Rescue Clutch",
+    "description": "The user pulls a rescued person in close (on the back, under one arm or behind them) and keeps hold while the fight goes on. The user can still dodge, block and strike one-handed, and the person they hold takes no harm from the user's movement or from any attack the user blocks. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Hero Course (Class 1-A)",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: izuku_midoriya_camp_injury": {
+    "name": "Portrait Swap: izuku_midoriya_camp_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_forest_camp_raid",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/452b4cfa-3f43-4ccc-98fa-f2e9cbcfaa49.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/452b4cfa-3f43-4ccc-98fa-f2e9cbcfaa49.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/452b4cfa-3f43-4ccc-98fa-f2e9cbcfaa49.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/452b4cfa-3f43-4ccc-98fa-f2e9cbcfaa49.png"
+      }
+    ]
+  }
+}

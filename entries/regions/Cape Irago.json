@@ -1,0 +1,30 @@
+{
+  "Cape Irago": {
+    "name": "Cape Irago",
+    "basicInfo": "The southern half of the Atsumi Peninsula in Aichi Prefecture, a long, low arm of land reaching west between Mikawa Bay and the open Pacific to end at Cape Irago, where the Irago Channel separates it from Toba and the Shima Peninsula. Most of the region is sea: the Pacific to the south and the busy shipping channel to the west. The peninsula is flat to gently rolling farmland on a low plateau. Its south shore, Omotehama, is a straight run of sand beach and low cliffs open to the ocean, where surfers ride the swell near Akabane and Hiroo and loggerhead turtles come ashore to nest in early summer. The region's northern edge touches the Mikawa Bay shore by Tahara, where a large car plant and wind turbines stand on reclaimed land. The climate is mild and sunny, with hard, dry northwest winds in winter. Tahara and its villages are rich farm country: greenhouses run in ranks across the fields, cabbage and broccoli fill the open ground in winter, melons and tomatoes grow under glass, and chrysanthemums are grown under electric lights so that at night whole valleys of greenhouses glow in rows across the dark land. In late winter the cape is covered in yellow rape blossoms, and in autumn hawks gather over it before crossing south. At the tip, Irago's white lighthouse stands on the rocks, the long sand beach of Koijigahama curves north, and a car ferry crosses to Toba in about 55 minutes. Fishing harbors at Akabane and Fukue land whitebait, octopus and the winter tiger puffer served in hot pot. The Atsumi Line commuter railway runs from Toyohashi to Mikawa-Tahara in about 35 minutes, and buses continue along Route 259 to the cape in about an hour. From Musutafu it is about an hour by shinkansen to Toyohashi, so most visitors reach the cape in under three hours. Visitors surf, cycle the flat coast roads, eat puffer and watch the hawks or the flower fields. Police boxes stand in Tahara and the larger villages, a small hero office in Tahara covers the whole peninsula, and at harvest a farmer whose Quirk reads ripeness by touch moves down the melon rows twice as fast as the crew.",
+    "hiddenInfo": "The peninsula is wealthy but thin on people: farmers are aging, field hands come and go on seasonal contracts, and the long roads between villages are dark and empty at night. Theft from greenhouses and packing sheds, melons and tools gone by morning, is the common crime, along with fights and drownings on the surf beaches. The single local hero office covers the whole peninsula; real backup comes from Toyohashi, forty minutes or more away by road.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -3,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4570cd70-b1fc-4a18-8bef-75c57effb468.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

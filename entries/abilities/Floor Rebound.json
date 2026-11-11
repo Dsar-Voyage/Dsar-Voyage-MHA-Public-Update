@@ -1,0 +1,20 @@
+{
+  "Floor Rebound": {
+    "name": "Floor Rebound",
+    "description": "The user drops through a floor and switches off Permeation inside the structure, allowing the expulsion to launch them into open space nearby. They can reach a higher ledge or escape a surrounding group by the end of their next turn. They cannot steer precisely while blind below the floor, and a ceiling or wall can make the landing hazardous. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

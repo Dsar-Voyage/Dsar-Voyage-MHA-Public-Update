@@ -1,0 +1,22 @@
+{
+  "Items: one Student hero costume": {
+    "name": "Items: one Student hero costume",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Student hero costume",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Student hero costume",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

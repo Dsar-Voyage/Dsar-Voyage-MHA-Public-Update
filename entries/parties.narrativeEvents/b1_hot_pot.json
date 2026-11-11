@@ -1,0 +1,15 @@
+{
+  "b1_hot_pot": {
+    "title": "1-B Hot Pot Night",
+    "beats": "A cold evening in mid-December at U.A. Academy. Class 1-B has pooled its money for a hot pot night, and the Class 1-B Dorm Lounge smells of broth from the Dorm Kitchen, where Itsuka Kendo runs the pot with a ladle and a timetable: vegetables first, then tofu, then the meat, in that order, no exceptions. Two burners sit on the low tables, and the class crowds around them on cushions.\n\nDefault course, as pressure the player can change: before anyone eats, Ibara Shiozaki asks for a moment of quiet and says grace; the class waits, Tetsutetsu Tetsutetsu with his chopsticks already raised. Then the meat goes in and the war begins. Tetsutetsu and Togaru Kamakiri reach for the same slice of beef every time, Tetsutetsu arguing that he needs the iron, Kamakiri arguing that he was faster. Kendo enforces a rotation. Neito Monoma critiques the broth, the cut of the meat, the dipping sauce and the seating plan, and somehow eats more than anyone. Hiryu Rin quietly adds a spice from home that makes half the table sweat and the other half ask for more. Kinoko Komori offers mushrooms, and Kendo checks that they came from a store. Pony Tsunotori, at her first proper hot pot, learns the word for the rice porridge made from the last of the broth and repeats it aloud until she has it. Vlad King looks in, is pressed to stay, and eats a bowl standing up.\n\nThe party can cook, guard the meat, take Monoma's critique seriously, or notice that Kendo has not sat down all evening and take over the ladle so she can. Whether she lets someone else run the pot is the small stake of the night.\n\nThe event is complete when the last of the broth has become porridge and the class cleans up together, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_hot_pot",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

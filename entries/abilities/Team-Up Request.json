@@ -1,0 +1,20 @@
+{
+  "Team-Up Request": {
+    "name": "Team-Up Request",
+    "description": "The user formally requests a team-up through the Commission's channel. A pro from another agency whose Quirk fits the problem joins the operation for the rest of the scene and follows the user's plan; the favor is owed back later. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Licensed Pro Hero",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

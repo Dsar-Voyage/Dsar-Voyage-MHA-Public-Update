@@ -1,0 +1,20 @@
+{
+  "Spot the Original": {
+    "name": "Spot the Original",
+    "description": "The user splits into a crowd of identical doubles, all moving, talking and dressed the same, and slips in among them. Until the end of the user's next turn nobody can tell which one is real: each attack aimed at the user strikes a double instead and bursts them, though an attack that covers the whole crowd still reaches the user, and the user can walk away through the crowd unnoticed. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

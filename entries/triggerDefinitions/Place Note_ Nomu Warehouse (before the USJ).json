@@ -1,0 +1,21 @@
+{
+  "Place Note: Nomu Warehouse (before the USJ)": {
+    "name": "Place Note: Nomu Warehouse (before the USJ)",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Nomu Warehouse"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_usj_attack",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const K=\"Nomu Warehouse (before the USJ)\",X=\"Narrator only, true until the USJ attack: Tomura keeps asking when Sensei will deliver the stronger Nomu promised for his attack on U.A. Academy.\";const t=check({type:'game-tick'})||0,d=check({type:'read-number',key:'currentDay'})||1,a=check({type:'party-area'})||'';const S=storage.placeNote||{};const p=S[K];const st=d+'|'+a;if(p&&p[0]===st&&t-p[1]<10){skip=true;return;}S[K]=[st,t];storage.placeNote=S;effects.push({type:'story',instruction:X});})();"
+  }
+}

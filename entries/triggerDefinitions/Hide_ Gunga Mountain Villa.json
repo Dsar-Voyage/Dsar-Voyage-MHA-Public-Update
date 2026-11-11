@@ -1,0 +1,27 @@
+{
+  "Hide: Gunga Mountain Villa": {
+    "name": "Hide: Gunga Mountain Villa",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "notEquals",
+        "value": "Gunga Mountain Villa"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "Gunga Mountain Villa",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

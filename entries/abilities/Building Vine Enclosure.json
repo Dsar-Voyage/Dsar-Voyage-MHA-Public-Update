@@ -1,0 +1,25 @@
+{
+  "Building Vine Enclosure": {
+    "name": "Building Vine Enclosure",
+    "description": "The user spreads healthy vine hair around the open corridors and exterior of one small building within fifty meters for three turns, screening exits and loosely binding up to eight visible opponents. One marked exit remains open for evacuation, and faces and airways stay clear. Solid walls block the spread unless a gap exists; fire or cutting can open routes, and afterward the spent growth needs water and sunlight to recover. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

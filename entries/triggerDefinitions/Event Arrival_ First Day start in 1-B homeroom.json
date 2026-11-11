@@ -1,0 +1,49 @@
+{
+  "Event Arrival: First Day start in 1-B homeroom": {
+    "name": "Event Arrival: First Day start in 1-B homeroom",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Class 1-A Homeroom"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 2
+      },
+      {
+        "type": "read-boolean",
+        "key": "fdStart1B",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Class 1-B Homeroom"
+      },
+      {
+        "type": "write-boolean",
+        "key": "fdStart1B",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-boolean",
+        "key": "fdRoom1B",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

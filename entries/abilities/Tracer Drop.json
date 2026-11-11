@@ -1,0 +1,20 @@
+{
+  "Tracer Drop": {
+    "name": "Tracer Drop",
+    "description": "The user flicks a single drop of blood onto a person, a vehicle or a bag, where it hardens into a speck too small to notice without a close search. Until it is scrubbed off or the day ends, the user feels the direction and rough distance to that speck from anywhere in the same city and knows when it stops moving. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

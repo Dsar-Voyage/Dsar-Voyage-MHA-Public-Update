@@ -1,0 +1,28 @@
+{
+  "Waters off Tsushima": {
+    "name": "Waters off Tsushima",
+    "basicInfo": "The open water just north of Tsushima, where the Korea Strait widens into the Sea of Japan. Only the very tip of Tsushima's northern shore brushes the southern edge; everything else is sea, a deep blue over a shelf that drops past a hundred meters, with the Korean coast just below the northwestern horizon and nothing but water to the north and east. The warm Tsushima Current runs steadily northeast through it and keeps the winters mild, but from December to February the northwest monsoon raises short, steep seas that cancel small-boat trips, and typhoons sweep through in late summer. High-speed ferries between Busan and Hitakatsu, the port at Tsushima's north end, cut across the southwest corner in a little over an hour, and cargo ships bound for the strait pass in steady lines. On summer nights the horizon glows with the lamps of squid boats out of Tsushima's northern harbors; squid, yellowtail and sea bream are the catch. Coast guard patrol boats from Tsushima watch these border waters closely, and a licensed hero who can fly or swim long distances is called out for ferry emergencies, since the nearest large agencies are in Fukuoka, more than two hours away by fast boat. A party is out here on a ferry, a chartered fishing boat, or carried by a flying hero.",
+    "hiddenInfo": "These are border waters, and most trouble here is quiet: foreign fishing boats straying over the line at night, small-time smugglers hiding contraband in fish holds, drift nets cut loose. The coast guard handles nearly all of it. Real hero help is far off; even a flying hero out of Fukuoka needs well over an hour, so crews in trouble rely on each other first.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -17,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/74f261df-56c3-4a9b-b801-fe7a820cbe3b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

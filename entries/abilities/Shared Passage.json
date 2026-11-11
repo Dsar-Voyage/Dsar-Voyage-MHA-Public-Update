@@ -1,0 +1,20 @@
+{
+  "Shared Passage": {
+    "name": "Shared Passage",
+    "description": "The user wraps their arms around a person and spreads the phase into them, then carries them through a wall, out of a crushed car or up out of rubble. For those few seconds the person cannot see, hear or breathe, nothing can hit either of them, and they come out the far side unharmed. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

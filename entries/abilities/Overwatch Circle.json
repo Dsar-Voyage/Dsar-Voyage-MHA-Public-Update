@@ -1,0 +1,20 @@
+{
+  "Overwatch Circle": {
+    "name": "Overwatch Circle",
+    "description": "The user climbs high and circles over the scene. They see every person in the open across several blocks, where a fire or flood is spreading, where enemies are moving and which routes out are clear, and allies who hear their calls cannot be surprised by anything the user can see from above. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Hero Course Night Patrol Lessons": {
+    "name": "__generated_quest_progress__/Hero Course Night Patrol Lessons",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has completed at least one supervised evening patrol through the Musutafu Station District with their team and reported what they found to Shota Aizawa."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Hero Course Night Patrol Lessons"
+      }
+    ]
+  }
+}

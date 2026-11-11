@@ -1,0 +1,30 @@
+{
+  "Jaku": {
+    "name": "Jaku",
+    "basicInfo": "Jaku is the hill and basin country northwest of Tokyo where the Kanto Plain meets the mountains, about 100 kilometers from the capital. Jaku City sits at the north of the region, a quieter regional city in a mountain basin with residential hills around a busy downtown, an old covered shopping arcade, a castle-park of moats and cherry trees, and a station where the local lines meet; its large general hospital, Jaku General Hospital, stands about 4 km northeast of the station, just over the line into the Deika valleys, and Deika itself lies about 14 km away by rail. South and east the land opens onto the northern edge of the plain: river towns along wide gravel riverbeds, silk-era warehouses turned into cafes, cabbage and konnyaku fields, wind-swept orchards and long straight roads lined with farm shops and chain stores, while to the west the ridges climb toward the high passes and the volcanoes. Winters bring the dry, cold karakaze wind off the mountains and bright clear days; summers are among the hottest in Japan, with fierce afternoon thunderstorms; spring comes in mid-April with the cherries on the castle moat. Residents are office and factory workers, farmers, shopkeepers and commuters into Tokyo, practical people who grumble about the wind and the trains. Jaku has two small hero agencies and the city police, and anything serious brings in heroes from Hosu, about an hour away by train. Trains link Jaku with Deika, with Hosu in about an hour, with Tokyo in about an hour and a half and with Musutafu in about two and a half hours; expressway buses run to the capital, and outside the towns a car or a bicycle is how people get around. A visitor can shop in the old arcade, recover at the hospital, work a farm or a factory shift, ride the local lines out to the hot springs in the hills, or follow the road northwest to Deika.",
+    "hiddenInfo": "Jaku is not the Meta Liberation Army's city yet, and their reach into it shows as money from Deika, purchase offers for shops and land, and polite visits to the city council and the hospital board. Its two small agencies are stretched thin and grateful for any sponsor, which makes them easy to court. Small-time villainy here is theft from farms and warehouses, and drunken Quirk fights after festival nights.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 15,
+      "max": 50
+    },
+    "x": 0,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a740feef-7ac4-4838-a412-f779e82a1ab1.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

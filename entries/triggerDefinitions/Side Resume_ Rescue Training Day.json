@@ -1,0 +1,42 @@
+{
+  "Side Resume: Rescue Training Day": {
+    "name": "Side Resume: Rescue Training Day",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_rescue_training",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_rescue_training",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_rescue_training",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_rescue_training"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_rescue_training",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Rescue Training Day\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: An afternoon block of Foundational Hero Studies in Ground Beta, U.A.'s mock city."
+      }
+    ]
+  }
+}

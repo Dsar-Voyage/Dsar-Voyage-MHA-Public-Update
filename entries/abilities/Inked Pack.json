@@ -1,0 +1,24 @@
+{
+  "Inked Pack": {
+    "name": "Inked Pack",
+    "description": "The user drags all ten fingertips across the ground and three hounds peel up at once, each running at a different target within a street's width. Each target takes heavy piercing damage and is dragged down; held back, the hounds only pin them until the end of their next turn. Drawn this fast, each hound breaks apart at a single solid blow, and the user cannot draw again until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

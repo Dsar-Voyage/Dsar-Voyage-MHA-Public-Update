@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: endeavor_lost_arm": {
+    "name": "Portrait Swap: endeavor_lost_arm",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Endeavor",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/f927eb76-674d-4421-b69a-b68a950f661f.png"
+      }
+    ]
+  }
+}

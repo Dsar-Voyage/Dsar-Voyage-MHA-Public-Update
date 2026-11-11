@@ -1,0 +1,27 @@
+{
+  "Path: off campus [Vigilante]": {
+    "name": "Path: off campus [Vigilante]",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "offCampus",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Vigilante"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

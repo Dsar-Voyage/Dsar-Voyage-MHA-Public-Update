@@ -1,0 +1,29 @@
+{
+  "Shared Carapace Forge": {
+    "name": "Shared Carapace Forge",
+    "description": "The user lays hands on up to four allies within reach and grows fitted, jointed suits of stone-hardened ice over their clothes for the rest of the scene. Each armored ally shrugs off blades, clubs, pistol rounds and falling debris, and their unarmed blows deal heavy bludgeoning and cold damage; held back, their strikes only knock targets down. Fire or intense heat melts a suit away, and pouring out both natures at once leaves the user shivering at half walking speed and unable to plate their own skin for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

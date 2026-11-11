@@ -1,0 +1,20 @@
+{
+  "Segment Snare": {
+    "name": "Segment Snare",
+    "description": "The user sends both hands and part of an arm around a person within several meters, grips their wrists or clothing and draws the pieces tight. The target is held until the end of the user's next turn unless they pull free or strike the detached parts. The user has no hands on the central body while maintaining the hold. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

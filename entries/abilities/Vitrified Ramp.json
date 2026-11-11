@@ -1,0 +1,20 @@
+{
+  "Vitrified Ramp": {
+    "name": "Vitrified Ramp",
+    "description": "The user sweeps both hands over loose rubble and broken concrete, fusing the pile with heat into a smooth, glassy rescue ramp up to a second-story window or across a street-wide gap, then quenches the surface as they run up it. The cooled glass holds the weight of a crowd so civilians can climb down bare-handed, though absorbing the heat of the whole ramp leaves the user's arms aching and hot. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

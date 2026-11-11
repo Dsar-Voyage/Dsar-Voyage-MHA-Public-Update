@@ -1,0 +1,24 @@
+{
+  "Suspended Stone Shower": {
+    "name": "Suspended Stone Shower",
+    "description": "The user touches up to twenty loose stones, floats them and pushes them above a ten-meter patch before releasing by the end of their next turn. The shower deals moderate bludgeoning damage; held back, stones land across an empty escape route to block pursuit. Preparation needs reachable rubble, and the user cannot redirect stones after releasing them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

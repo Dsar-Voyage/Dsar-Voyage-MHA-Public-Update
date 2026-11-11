@@ -1,0 +1,29 @@
+{
+  "Tuned Weight": {
+    "name": "Tuned Weight",
+    "description": "For the rest of the scene the user sets their weight to any amount between a few grams and a loaded truck and changes it smoothly within a heartbeat. They hang at any depth underwater to work on a sunken car, cross a roof about to give way or thin ice at the weight of a cat, match a falling person's weight on a rope over a pulley to lower them gently, and strike at the exact weight that knocks a target down without breaking bones. The focus leaves them unable to use any other technique, and a hard blow snaps them back to their normal weight wherever they are. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

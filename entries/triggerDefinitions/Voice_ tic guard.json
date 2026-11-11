@@ -1,0 +1,21 @@
+{
+  "Voice: tic guard": {
+    "name": "Voice: tic guard",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const TI=[[\"kiri\", \"Eijiro Kirishima\", \"manly/manliness\", \"\\\\b(un)?manl(y|iness)\\\\b|\\\\bmanly man\\\\b\"], [\"baku\", \"Katsuki Bakugo\", \"extra/extras\", \"\\\\b(extras|you extra|damn extra|some extra)\\\\b|, extras?\\\\s?[!?.,\\\\u2014-]\"], [\"tsuyu\", \"Tsuyu Asui\", \"ribbit/kero/I say what I think\", \"\\\\b(ribbit|kero)\\\\b|\\\\bi (always |just )?(say|speak) (what|whatever)(['’]s| is)? ?(i think|on my mind|comes to mind)|\\\\bspeak my mind\\\\b\"]];const tx=String(check({type:'story-text'})||'').toLowerCase();const d=check({type:'read-number',key:'currentDay'})||1;const out=[];for(const [k,who,w,re] of TI){const key='tic_'+k;if(new RegExp(re).test(tx))storage[key]=d;if(typeof storage[key]==='number'&&d-storage[key]<=1)out.push(who+' (\"'+w+'\")');}if(!out.length){skip=true;return;}effects.push({type:'story',instruction:'Narrator only: '+out.join(', ')+' used their signature word or line lately. Until the day after tomorrow they do not say it again, in speech or narration; they say what they mean in other words.'});})();"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Fallback Hideout": {
+    "name": "Fallback Hideout",
+    "description": "The user keeps rented rooms, coin lockers and back doors across the city under other names. When chased or exposed, the user reaches the nearest one: pursuers lose them at its door unless a sensing Quirk follows, and inside wait a change of clothes, a spare phone and a way out the back. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Independent Villain",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

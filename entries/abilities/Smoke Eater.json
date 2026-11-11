@@ -1,0 +1,20 @@
+{
+  "Smoke Eater": {
+    "name": "Smoke Eater",
+    "description": "The user walks into a burning room, a hall full of smoke or gas, or icy floodwater, reaches the people trapped there and brings them out. Until the end of the scene the user takes the hazard's damage but is never stopped by it: smoke does not knock them out, heat and cold do not drop them, and burns close as they work. The people they carry still need air. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

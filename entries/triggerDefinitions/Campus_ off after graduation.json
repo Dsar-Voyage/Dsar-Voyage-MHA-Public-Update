@@ -1,0 +1,22 @@
+{
+  "Campus: off after graduation": {
+    "name": "Campus: off after graduation",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "campusOff",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

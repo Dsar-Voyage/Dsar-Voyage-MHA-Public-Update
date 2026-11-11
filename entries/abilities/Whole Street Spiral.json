@@ -1,0 +1,25 @@
+{
+  "Whole Street Spiral": {
+    "name": "Whole Street Spiral",
+    "description": "The user releases a broad, controlled spiral down a clear street, pushing rubble aside and driving opponents away from an evacuation path for the rest of the user's next turn. Those directly struck take heavy bludgeoning damage; held back, the wave only forces them back. It cannot turn around buildings, and anyone left in its path can be hit, so the user must clear the route before release. The effort sharply drains their stamina. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

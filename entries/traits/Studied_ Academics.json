@@ -1,0 +1,20 @@
+{
+  "Studied: Academics": {
+    "name": "Studied: Academics",
+    "description": "📚 You were a strong student: entrance exam prep, cram school and top grades in math, literature and history.\n\n🌱 Lectures, papers and written exams come more easily to you than to most.\n⚠️ Specialist academy work still takes effort, and book learning says little about people.\n⚖️ Grades open doors but promise nothing, and a scholarship can be lost.\n🏫 It shows in neat notes, a study schedule and classmates asking to borrow your notes.\n\n📈 Grants: Academics +15",
+    "traitNarrativeEffects": "The character has studied hard: mathematics, modern and classical Japanese, history, the habits of a good student and the stamina for written exams. Lectures, papers and tests come more easily to them than to most. Prior study, not mastery: specialist academy work still takes effort, and book learning says little about people. Not a license: grades open doors but promise nothing, and a scholarship can be lost. It shows in neat notes, a study schedule and classmates who ask to borrow their notes.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Academics",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

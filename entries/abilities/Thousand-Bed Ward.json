@@ -1,0 +1,25 @@
+{
+  "Thousand-Bed Ward": {
+    "name": "Thousand-Bed Ward",
+    "description": "For several minutes the Quirk spreads from the user as a field of warm light across an evacuation ground, a stadium floor or a city block's street, reaching every injured person they choose within sight. Each one stops bleeding, cannot die from their wounds for the rest of the scene and regains some health at the price of heavy stamina, while anyone too weak to pay is only kept alive. The user must stay standing in the open the whole time, and afterward they collapse, cannot heal anyone for the rest of the scene and need a full day of rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

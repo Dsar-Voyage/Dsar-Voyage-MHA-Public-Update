@@ -1,0 +1,20 @@
+{
+  "Shade Catch": {
+    "name": "Shade Catch",
+    "description": "The shadow lunges out and catches a blow, a thrown object or a falling person within its reach. The caught attack deals no damage to the user or the ally it was aimed at, and a falling person is set down unhurt; in bright light the shadow can stop a punch or a thrown object but is too small to catch a person. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

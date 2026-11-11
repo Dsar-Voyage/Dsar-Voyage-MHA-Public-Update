@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: tomura_awakened": {
+    "name": "Portrait Swap: tomura_awakened",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_war_jaku",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tomura Shigaraki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/8de682b3-7f7b-49ac-8dad-29811389ee30.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Rime Wedge": {
+    "name": "Rime Wedge",
+    "description": "The user slaps a frost-plated palm to the floor and drives a low ridge of stone-hardened ice up to five meters into a target. It deals cold damage and locks around the target's ankles so they cannot run or dodge until the end of their next turn; held back, it only trips them without frostbite. Fire melts the ridge at once, and the slap stiffens the user's wrist with cold. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

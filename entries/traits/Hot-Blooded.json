@@ -1,0 +1,29 @@
+{
+  "Hot-Blooded": {
+    "name": "Hot-Blooded",
+    "description": "🔥 You run hot: loud, passionate and first into any fight or cause.\n\n💪 Your energy lifts the people around you, and teammates push harder beside you.\n😤 You come on strong: people feel your anger at injustice before you say a word.\n⚠️ Easy to provoke: taunts and insults to friends land hard, and hiding your anger is a hard Willpower check.\n⚠️ Waiting quietly on a stakeout or staying polite in a tense negotiation takes visible effort.\n🔀 If you are also Calm Under Fire, the heat shows in daily life and drops away in real danger.\n\n📈 Grants: Power +1, Intimidation +5, Leadership +5",
+    "traitNarrativeEffects": "The character feels everything at full volume: shouted encouragement, a fist on the table, a charge toward trouble, anger at injustice that shows on their face. Teammates feed off that energy and push harder beside them. Weakness: taunts, insults to friends and public humiliation land hard. When someone provokes them on purpose, hiding their anger is a hard Willpower check; on a failure it shows (a raised voice, a sharp reply, a step forward), and what they do next is still the player's choice. Villains, rivals and reporters learn to use this. Waiting quietly on a stakeout or staying polite in a tense negotiation takes visible effort. If the character is also Calm Under Fire, the heat shows in daily life and arguments and drops away in real danger.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Intimidation",
+        "modifier": 5
+      },
+      {
+        "skill": "Leadership",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "v_gentle_video": {
+    "title": "Gentle's Next Video",
+    "beats": "A day in late October or early November. Gentle Criminal finds the party through a message La Brava sent: a gentleman requests the honor of a collaboration. They meet at a mall food court, where La Brava pours tea from a thermos and Gentle explains, with gestures, that his channel's view counts insult history, and that the next video will be historic.\n\nThe plan: take over a downtown shopping street's giant screens for one minute and broadcast Gentle's address to the nation, then vanish with a bow. La Brava will hack the screens from a rooftop service room; Gentle's elastic air will bounce them up the outside of the building; the party is the lookout, the diversion, the muscle or the second camera. Gentle's rules are firm: nobody gets hurt, nothing is taken from anyone who cannot spare it, and a card of thanks is left behind.\n\nCanon default course, as pressure the player can change: the climb is beautiful and the hack works. Gentle starts his speech, a building guard trips over the cables, and a pro on patrol arrives far sooner than Gentle planned, a working hero of the narration's choosing. Gentle wants to finish the speech no matter what; La Brava cries his name and powers him up with a declaration of love; the street below fills with phones. Unless the party changes it, the pro catches the end of the speech, the trio escapes across the rooftops with a few bruises, and the clip gets a few hundred views and one mocking news segment.\n\nThe party chooses how much of the gentleman's code to keep: whether to hurt the guard, whether to show a face on camera, whether to leave Gentle behind when the pro closes in. A face in the video raises the party's Heat, and Gentle never forgets a partner who ran.\n\nThe event is complete when the broadcast ends or is cut off and the party has escaped, been caught, or parted ways with Gentle and La Brava.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_gentle_video",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

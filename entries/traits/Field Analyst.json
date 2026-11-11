@@ -1,0 +1,30 @@
+{
+  "Field Analyst": {
+    "name": "Field Analyst",
+    "description": "🔍 You read Quirks fast: what one does, where its limit is and how to beat it.\n\n🎯 Good for planners and anyone who faces stronger Quirks. Quirkless characters can take it too.\n📋 Requires level 8 and Quirk Analysis 10.\n\n📈 Grants: Quirk Analysis +10",
+    "traitNarrativeEffects": "The character has watched, logged and faced enough Quirks to analyze them on the move: from a few uses they work out a Quirk's type, range, trigger and likely weakness, and they adjust the plan as evidence comes in. Show it in sharp observations shared with allies and notes after a fight. Limits: conclusions can be wrong; hidden activation conditions, deliberate deception and Quirks never seen before still surprise them. Analysis gives answers, not the power to act on them.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 10
+      }
+    ]
+  }
+}

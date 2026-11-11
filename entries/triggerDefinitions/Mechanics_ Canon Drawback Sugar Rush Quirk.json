@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Sugar Rush Quirk": {
+    "name": "Mechanics: Canon Drawback Sugar Rush Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Sugar Rush Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Finite Fuel",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

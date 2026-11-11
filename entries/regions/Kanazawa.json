@@ -1,0 +1,30 @@
+{
+  "Kanazawa": {
+    "name": "Kanazawa",
+    "basicInfo": "The heart of the Hokuriku coast, spanning Kanazawa, the Kahoku sand coast, the Takaoka and Tonami plains of western Toyama, and Himi on the shore of Toyama Bay. The west side of the region faces the open Sea of Japan along a long straight run of beach and dunes from Kanazawa past Uchinada to the hard sands of Chirihama, where cars drive along the waterline; the east side touches Toyama Bay at Himi and the Amaharashi coast, from which the Tateyama range rises white across the water. Between them run the low Hodatsu hills and the Kurikara pass on the Ishikawa-Toyama border, and in the southeast the Iozen mountains climb toward Gokayama. Winters are gray, wet and snowy with thunder off the sea; summers are hot and humid. Kanazawa is the old castle town of the Kaga domain, an elegant city of about half a million that escaped wartime bombing: Kenrokuen garden, the castle park, the Higashi Chaya teahouse district, samurai lanes in Nagamachi, the Omicho fish market, and the huge wooden gate in front of the station. It makes nearly all of Japan's gold leaf, Kaga yuzen silk and Kutani porcelain, and eats crab, nodoguro, jibuni duck stew, oden and thick curry; the Hyakumangoku festival fills June. Takaoka is a bronze-casting city with a great Buddha and a Zen temple of national-treasure halls; Himi is famous for winter yellowtail; Tonami's plain is dotted with farmhouses in windbreak groves and blooms with tulips each spring; Inami's woodcarvers and Yuwaku's hot springs lie in the hills. The Hokuriku Shinkansen stops at Kanazawa and Shin-Takaoka; local railways, the Takaoka tram and the Himi and Johana lines fill in, and the Hokuriku, Noetsu and Tokai-Hokuriku expressways meet here. Komatsu Airport is just south. Kanazawa is about two hours from Shin-Osaka via Tsuruga, two and a half from Tokyo and about three and a half from Musutafu. Several hero agencies work Kanazawa, smaller offices cover Takaoka and Himi, and quieter Quirk work is everywhere, from gold-leaf beaters with steady hands to a fishmonger who chills crates with a touch.",
+    "hiddenInfo": "Kanazawa is prosperous and proud; the tensions are crowding in the old districts, rising rents, and old families who dislike outsiders. Kanazawa has solid hero and police coverage, Takaoka and Himi smaller offices, and Tonami's scattered farms rely on police boxes twenty minutes apart. Small-time villainy: pickpockets in Omicho and Higashi Chaya, gold-leaf and antique fraud, festival scuffles, street racing on the Chirihama beach road, and unlicensed Quirk use in the Katamachi nightlife.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -4,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2724b8cc-0f22-409d-8a1b-94ef08ccfddc.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

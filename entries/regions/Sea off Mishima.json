@@ -1,0 +1,28 @@
+{
+  "Sea off Mishima": {
+    "name": "Sea off Mishima",
+    "basicInfo": "Open Sea of Japan north of Hagi, holding one real island: Mishima, a small, steep-sided green island about forty-five kilometers offshore near the western edge. A few hundred people live there around one harbor village, fishing and raising Mishima cattle, a rare native breed protected as a natural monument, and a field of ancient stone burial mounds lies along its shore. A ferry from Hagi port reaches the island in a little over an hour and is canceled often in winter. The rest is open water, deep blue over the shelf and carried northeast by the warm Tsushima Current. Hagi's smaller islands and the long ridges of the Abu coast show to the south on clear days, and the Shimane shore lies beyond the eastern horizon. Summers are calm; winter northwesterlies raise gray seas for weeks. Boats from Hagi, Susa and Mishima fish for squid, sea bream and yellowtail, and squid boats light the dark on summer nights. The coast guard watches from Hagi and Senzaki; Mishima itself has a resident police post and depends on the mainland for anything more. A party is out here on the ferry, a fishing boat, or with a flying hero.",
+    "hiddenInfo": "Mishima's worry is the ordinary island one: fewer people each year, the ferry as the only lifeline, and a long wait for help in a storm. Petty trouble is rare and personal. Out on the water, night poachers and foreign boats on the squid grounds are the coast guard's business; a serious emergency means a helicopter or a flying hero from the mainland, an hour or more away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -14,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/02b90c27-2065-4c2f-b989-fafa4e8011af.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

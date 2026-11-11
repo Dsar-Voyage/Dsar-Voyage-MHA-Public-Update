@@ -1,0 +1,45 @@
+{
+  "Event Arrival: The Hero Billboard Chart @ Hero Billboard Chart Hall": {
+    "name": "Event Arrival: The Hero Billboard Chart @ Hero Billboard Chart Hall",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 240
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_billboard_chart",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_school_festival",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "lessThan",
+        "value": 5
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Hero Billboard Chart Hall"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "currentBandIndex",
+        "operator": "set",
+        "value": 5
+      }
+    ]
+  }
+}

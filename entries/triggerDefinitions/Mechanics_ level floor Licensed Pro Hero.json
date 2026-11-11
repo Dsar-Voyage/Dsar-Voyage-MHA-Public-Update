@@ -1,0 +1,33 @@
+{
+  "Mechanics: level floor Licensed Pro Hero": {
+    "name": "Mechanics: level floor Licensed Pro Hero",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "player-level",
+        "operator": "lessThan",
+        "value": 10
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 10,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  }
+}

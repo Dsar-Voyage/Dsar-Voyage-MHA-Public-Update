@@ -1,0 +1,15 @@
+{
+  "Break the Hold": {
+    "name": "Break the Hold",
+    "description": "Under a mind-affecting Quirk, the user forces a moment of clarity through sharp pain or a fixed memory and fights back to their own will. The user acts freely for their next action despite control, illusion, induced fear or forced sleep, and if they use that action to break line of sight or contact with the source, the effect ends. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

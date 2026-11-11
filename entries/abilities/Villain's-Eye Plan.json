@@ -1,0 +1,20 @@
+{
+  "Villain's-Eye Plan": {
+    "name": "Villain's-Eye Plan",
+    "description": "The user looks at an attack the way its planners did: who was hit first, which exits were cut, who is being kept alive. The user learns the attackers' true objective in this scene (a person, an object or a distraction) and the route they will take to reach it, so the user's side can get there first. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Hero Course (Class 1-A)",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

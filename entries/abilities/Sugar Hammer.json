@@ -1,0 +1,25 @@
+{
+  "Sugar Hammer": {
+    "name": "Sugar Hammer",
+    "description": "The user's signature move: during a fueled surge they deliver one full-strength blow to a close target, dealing massive bludgeoning damage or breaking a thick barrier. Held back, they strike the surface beside a person to block their advance without hitting them. The blow spends the surge at once, leaving the user weak and mentally foggy until they rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

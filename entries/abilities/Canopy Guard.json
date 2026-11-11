@@ -1,0 +1,24 @@
+{
+  "Canopy Guard": {
+    "name": "Canopy Guard",
+    "description": "The user drops over a group of people and wraps their wings around them in a tight canopy. Until the start of the user's next turn, falling rubble and glass, flames, thrown objects and the blast of an explosion strike the wings instead: the people under them take no damage, and the user takes it on the wings. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

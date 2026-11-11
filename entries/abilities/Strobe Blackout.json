@@ -1,0 +1,20 @@
+{
+  "Strobe Blackout": {
+    "name": "Strobe Blackout",
+    "description": "The user strobes white light and flat darkness across a room to disorient watchers, then swallows the glare to drown the room in total darkness for a few seconds, until the end of their next turn. Enemies inside are blinded and disoriented and cannot aim or run, while the user sees by a faint glow on their own skin and leads allies clear. Running both natures burns stamina and drains the user's own shadow. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Side Resume: License Exam Prep": {
+    "name": "Side Resume: License Exam Prep",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "b1_license_prep",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_b1_license_prep",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_b1_license_prep",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "b1_license_prep"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_b1_license_prep",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"License Exam Prep\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The last days before the provisional license exam, at U.A."
+      }
+    ]
+  }
+}

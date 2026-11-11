@@ -1,0 +1,30 @@
+{
+  "Mount Ishizuchi": {
+    "name": "Mount Ishizuchi",
+    "basicInfo": "The mountain spine of western Shikoku: from the summit ridge of Mount Ishizuchi near the northern edge, at 1,982 meters the highest peak in western Japan, south across the Kumakogen highlands and the Shikoku Karst to the upper Shimanto and Niyodo watersheds. Almost all of it is land, steep and forested, with cedar and cypress plantations below and beech, fir and dwarf bamboo on the ridges. Ishizuchi is a sacred mountain of mountain ascetics; its rock summit, Tengudake, is reached along a knife-edge ridge, and the old pilgrim route climbs long chains bolted into the cliffs, with easier detours for the less brave. The Ishizuchi Skyline road climbs from Omogo Gorge, a deep green canyon famous for autumn color, to the trailhead at Tsuchigoya, and the UFO Line, a ridge-top road, runs along the Kochi side above a sea of clouds. Kumakogen is a cool highland town of farms and two pilgrimage temples, one built against a sheer cliff, on Route 33 between Matsuyama and Kochi; Tobe, in the northern foothills, makes heavy white porcelain painted in indigo. South, the Shikoku Karst is a long limestone plateau with grazing cattle, white rock pinnacles and wind turbines along the prefectural line, with views to the Pacific on clear days. Below it, Tsuno town holds the source of the Shimanto River on Mount Irazu, and Yusuhara is a cloud-high town of terraced paddies and striking modern timber buildings. Niyodogawa town lines the clear, startlingly blue upper Niyodo River. Winters bring hard frost and real snow to the high roads, which close on Ishizuchi from December; summers are cool above 1,000 meters and wet everywhere. There is no railway. Local buses run Route 33 from Matsuyama to Kumakogen and on toward Kochi, and Routes 194, 197 and 439 thread the valleys. From Musutafu it is most of a day; Matsuyama is a little over an hour by bus or car from Kumakogen. Hikers file plans at police boxes, rural rescue heroes with flight or climbing Quirks are on call for the peaks, and the July mountain-opening festival brings crowds of white-clad pilgrims and extra patrols.",
+    "hiddenInfo": "This is the emptiest country in the corridor: villages of a few elderly households, schools long closed, and forest roads that wash out in every heavy rain. Search and rescue is the real hero work here, for lost hikers, pilgrims and drivers caught by landslides or snow, and the nearest real agencies are in Matsuyama and Kochi, one to two hours off by road. Small-time trouble means illegal logging, poaching, theft from unlocked farmhouses and shrines, and people who come up to the karst or the gorge to drop out of sight for a while.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -11,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e1b146f9-d594-40ab-9e3d-7b78cf026b1f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

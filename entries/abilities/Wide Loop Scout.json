@@ -1,0 +1,20 @@
+{
+  "Wide Loop Scout": {
+    "name": "Wide Loop Scout",
+    "description": "The user sets a phone recording video circling and widens the loop until it swings around a whole building or across a street and back to their hand. The footage shows every window, rooftop and alley the loop passed: who is there, where hostages are held and where an attacker waits. A phone that strikes a wall or is snatched out of the air falls and is lost. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

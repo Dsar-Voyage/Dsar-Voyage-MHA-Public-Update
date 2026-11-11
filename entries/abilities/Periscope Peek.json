@@ -1,0 +1,20 @@
+{
+  "Periscope Peek": {
+    "name": "Periscope Peek",
+    "description": "The user pushes their head through a wall, a door or a ceiling and turns only the head solid on the far side. They see and hear the room beyond: who is there, where each person stands and whether anyone is held captive; anyone there who looks their way sees a face in the wall. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

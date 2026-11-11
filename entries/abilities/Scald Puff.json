@@ -1,0 +1,20 @@
+{
+  "Scald Puff": {
+    "name": "Scald Puff",
+    "description": "The user vents a sharp puff of hot vapor from the palm at a target within two strides, shorter than a Fire user's jet and carrying no open flame. It deals fire damage and forces the target to flinch back; held back, the user vents it cooler so the damp gust only stings their skin and makes them drop what they hold. In a cold room or dry air, its reach drops to arm's length. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

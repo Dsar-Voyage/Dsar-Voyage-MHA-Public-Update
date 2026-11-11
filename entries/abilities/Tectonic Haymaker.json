@@ -1,0 +1,25 @@
+{
+  "Tectonic Haymaker": {
+    "name": "Tectonic Haymaker",
+    "description": "The user's signature move: every muscle swells to its limit and pours into a single swinging blow. It deals massive bludgeoning damage to the target and throws them through whatever stands behind them, and the shock knocks everyone near the impact off their feet; afterward the user's arm hangs limp and they cannot boost until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

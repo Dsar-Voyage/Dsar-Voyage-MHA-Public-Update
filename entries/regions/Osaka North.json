@@ -1,0 +1,30 @@
+{
+  "Osaka North": {
+    "name": "Osaka North",
+    "basicInfo": "Osaka North is the northern half of the Osaka metropolis and the corridor of cities around it, west of Musutafu: Shin-Osaka Station, the shinkansen terminal, the office towers and underground malls of the Umeda district, river-delta neighborhoods of canals and elevated highways, and inland the old capital of Kyoto and the shore of Lake Biwa at Otsu. Rivers and canals cut the flat city into islands of offices and markets, expressways ride on concrete pillars above them, and past the last apartment blocks the land climbs into wooded hills dotted with temples, commuter towns and rice fields, tied to Osaka by private railways that seem never to stop. Kyoto, about 40 km northeast, is a city of temples, shrines, wooden townhouses and tourists, with its own police and a few old, dignified agencies. Summers are hot and humid, with a rainy season at the start and typhoons near the end; winters are short and mild; spring fills every riverbank with cherry-blossom parties. Kansai people talk fast, joke hard, haggle by habit and speak their own dialect, and they expect a hero to be approachable: a pro who will not banter with a shopkeeper or stop for a photo gets heckled, and a slow one gets heckled louder. The economy runs on trade, food, offices and small business, and Osaka eats out more than anywhere in the country. Shin-Osaka Station lies about 8 km north of downtown Osaka, which sits just over the line in Osaka South. Fat Gum's cheerful agency sits in a low building about 5 km north-northeast of downtown, a short ride from Shin-Osaka, and Sir Nighteye's analysis-driven agency fills two floors of an office building about 7 km northwest of downtown, west of the station. Established local agencies, Fat Gum's among them, work the streets with the Osaka police: agencies split the patrol districts, police boxes stand at the big crossings, and the arcade shopkeepers' associations keep a close eye on who protects them. People get around by subway, by the local and private lines that fan out from the big terminals, by bicycle on every sidewalk and by taxi after the last train. The shinkansen from Shin-Osaka runs east to Musutafu in about 2 hours and Tokyo in about 2.5, and west to Fukuoka in about 2.5. Students of Shiketsu Academy, U.A.'s closest rival, are a common sight in their peaked caps. A visitor can shop Umeda's underground malls, visit Kyoto's temples, work an office or a kitchen, patrol with a local agency, or intern with Fat Gum or Sir Nighteye.",
+    "hiddenInfo": "Fat Gum's agency and the prefectural police drug squad both work the trickle of Trigger, the Quirk-boosting street drug, through the nightlife districts and share little; Sir Nighteye's agency is quietly watching an old yakuza house on the southeastern outskirts for its own reasons. Agencies compete for the shopkeepers' associations' consulting fees, and some cut corners to win them. Underworld brokers meet clients in back-street bars near the big terminals and pay well for quiet work.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -6,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1ac074fb-69ca-4b51-9ed7-feb031ccc201.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

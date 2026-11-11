@@ -1,0 +1,25 @@
+{
+  "Glacial Bastion Ward": {
+    "name": "Glacial Bastion Ward",
+    "description": "The user drives both frost-plated hands into the pavement and grows ribs of stone-hardened ice across every sagging wall, doorway and shelter line in a city block for the rest of the scene. Collapsing roofs lock still on the petrified ice, allies behind the plates take no harm from gunfire or blasts, and enemies who charge a rib take heavy bludgeoning and cold damage; held back, the ribs only shove them back. Open fire melts the nearest rib, and running both natures across a block roots the user in place until the scene ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

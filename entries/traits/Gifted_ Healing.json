@@ -1,0 +1,32 @@
+{
+  "Gifted: Healing": {
+    "name": "Gifted: Healing",
+    "description": "🧬 Healing, as an extra Quirk put into your body.\n\n🌱 At the start you close cuts, stop bleeding and ease sprains in moments, and work down a line of wounded keeping each alive until help comes.\n📈 With training: knit bones, a strength-draining touch, poison burned out, the dying held back, grave wounds mended, a room healed at once, what a body cannot fix restored.\n⚠️ Healers are rare, and every agency, hospital and villain crew wants one.\n🔗 Common drawback pairing: Stamina Drain, as long shifts empty you too.\n🎬 Similar canon Quirks: Recovery Girl (Heal).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Healing family): Scale: by touch (or a kiss, player's choice) the user speeds a patient's own healing, paid from the patient's stamina. A new adult user closes cuts in a minute or two, stops a gash bleeding, knits a cracked bone over about an hour of contact. Bigger feats need techniques. Limits: heals only as far as the patient can pay: the exhausted gain little and forcing more can kill, so each patient is judged first. At the start it cannot regrow limbs, cure illness or poison, or revive the dead. Needs skin contact; heals villain or hero alike; cannot heal the user. Quirk Strain: light: small wounds; moderate: steadying the wounded, knitting a bone, draining a target, purging a poison; heavy: holding the dying, grave wounds; severe: signature mass healing, restoring what the body cannot. Type: Emitter. Law: healing outside licensed hero work or a registered clinic is unlicensed Quirk use; police seldom charge a lifesaver.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "First Aid",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

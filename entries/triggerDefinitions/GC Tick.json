@@ -1,0 +1,21 @@
+{
+  "GC Tick": {
+    "name": "GC Tick",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "pack_gcTick",
+        "operator": "add",
+        "value": 1
+      }
+    ],
+    "recurring": true
+  }
+}

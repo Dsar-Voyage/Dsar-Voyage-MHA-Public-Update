@@ -1,0 +1,20 @@
+{
+  "Optimistic": {
+    "name": "Optimistic",
+    "description": "🌅 You believe things can get better, and you act like it.\n\n🤝 Your hope is contagious: teams keep going and strangers try one more time because of you.\n⚠️ You underestimate danger and bad intentions, and you trust people who have not earned it.\n⚠️ When hope breaks, it breaks hard.\n🔀 If you are also Cynical, you expect the worst of people and hope for the best of them.\n\n📈 Grants: Team Coordination +5",
+    "traitNarrativeEffects": "The character is optimistic: they believe things can get better and act on it, and their hope keeps teams going and makes strangers try once more. Weakness: they underestimate danger and bad intentions, trust people who have not earned it and take it hard when hope breaks. If the character is also Cynical, they expect the worst and hope for the best anyway. The narrator does not soften what happens; how the character carries it is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

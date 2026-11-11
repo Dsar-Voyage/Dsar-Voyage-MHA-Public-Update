@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Offer Board": {
+    "name": "Side Resume: The Offer Board",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "man_offer_board",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_man_offer_board",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_man_offer_board",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "man_offer_board"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_man_offer_board",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Offer Board\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: One of the two days off after the U.A."
+      }
+    ]
+  }
+}

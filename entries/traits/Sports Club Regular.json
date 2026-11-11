@@ -1,0 +1,24 @@
+{
+  "Sports Club Regular": {
+    "name": "Sports Club Regular",
+    "description": "⚽ You practiced every afternoon: track, soccer, volleyball or baseball.\n\n🌅 Early-morning runs and summer camps were part of the deal.\n🤝 You know how to play your part on a team.\n\n📈 Grants: Athletics +5, Team Coordination +5",
+    "traitNarrativeEffects": "The character spent high school in a sports club and still thinks in drills, warm-ups and teamwork. They recover fast, read a team's rhythm and talk easily with athletes; coaches and club captains recognize the type.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Athletics",
+        "modifier": 5
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

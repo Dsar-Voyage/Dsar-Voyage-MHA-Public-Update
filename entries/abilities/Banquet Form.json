@@ -1,0 +1,25 @@
+{
+  "Banquet Form": {
+    "name": "Banquet Form",
+    "description": "The user's signature move: every feature from that day's meals erupts into one hybrid form of claws, shell, tentacles and wings. Until the end of their next turn they strike with claws and tentacles in one action, dealing slashing and bludgeoning damage, glide on the wings, and take no damage from blades or blunt blows on the shell until a heavy blow cracks it; afterward they cannot manifest until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

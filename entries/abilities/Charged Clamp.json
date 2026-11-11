@@ -1,0 +1,20 @@
+{
+  "Charged Clamp": {
+    "name": "Charged Clamp",
+    "description": "The user marks a target within five meters and a wall, girder or car with opposite magnetic poles laced with live current. If the target wears metal armor, gear or cuffs, they slam against the surface and stick fast while a low hum numbs their arms: they cannot move from the spot until they wrench free with a hard effort or the user releases the field. Targets with no metal on them are not held. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

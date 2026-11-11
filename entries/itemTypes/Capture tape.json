@@ -1,0 +1,20 @@
+{
+  "Capture tape": {
+    "name": "Capture tape",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "value": 5
+      }
+    ],
+    "description": "A hand-sized roll of strong adhesive restraint tape. In U.A. training exercises, wrapping it around an opponent counts as a capture; in the field it binds wrists and ankles until police cuffs arrive. [ Tool | Hero supply, about ¥1,500 a roll ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4351c5d5-d858-4922-9c15-c8d92c51cc23.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

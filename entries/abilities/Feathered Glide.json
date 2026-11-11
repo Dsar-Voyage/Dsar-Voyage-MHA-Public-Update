@@ -1,0 +1,20 @@
+{
+  "Feathered Glide": {
+    "name": "Feathered Glide",
+    "description": "After recently eating poultry, the user grows wings and feathers that slow a fall or carry them across a short gap until the end of their next turn. They may hold one small child while descending, but a full adult is too much weight at this level. Narrow rooms and injured wings prevent a safe glide. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

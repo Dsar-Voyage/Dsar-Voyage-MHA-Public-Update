@@ -1,0 +1,24 @@
+{
+  "Unseen Approach": {
+    "name": "Unseen Approach",
+    "description": "The user chains brief phases through obstacles and incoming attacks for the rest of the scene, turning solid only to stand, breathe or act. They can reach a guarded doorway or cross a dangerous room without being stopped by ordinary blows. Each solid instant can be attacked, and losing track of the route while blind risks a fall through the floor. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

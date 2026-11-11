@@ -1,0 +1,20 @@
+{
+  "Borrowed Touch": {
+    "name": "Borrowed Touch",
+    "description": "The user touches a person's bare skin with a handshake, a grab or a slap and copies their Emitter or Transformation Quirk, replacing any copy they held. They know at once what it does and where its limits lie, and can use its basic effect right away and for the next few minutes. Mutant features and Quirkless people give nothing. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

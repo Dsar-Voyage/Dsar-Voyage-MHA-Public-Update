@@ -1,0 +1,15 @@
+{
+  "deku_armor_return": {
+    "title": "Reach Out Again",
+    "beats": "Later that day at U.A. Academy, All Might interrupts Izuku Midoriya's departure with a carefully prepared case. Katsuki Bakugo and the former classmates behind the project are ready to welcome him back into field work. At Hero Agency Row, a response crew receives a call that can become the armor's first practical assignment once Izuku has accepted and checked it.\n\nThe canon default course, as pressure the player can change: All Might presents an advanced support suit built through years of research and the collective contributions of Izuku's classmates, with Katsuki central to the effort. Its development draws on the lessons of All Might's armored battle and the work of Mei Hatsume and an overseas collaborator. Their contribution reaches Izuku through the finished equipment and All Might's explanation.\n\nIzuku accepts the gift and reaches for the chance to act beside his friends again. Give him time to ask what the suit can do, acknowledge the people who made it possible, and choose the first response. It supplies equipment, not One For All or a biological Quirk. His teaching remains a vocation rather than a consolation job discarded when something better appears. If the party has changed the project's funding, delivery, or acceptance, resolve those conditions honestly instead of declaring an unexplained finished suit.\n\nAt U.A. Academy, the party can join the handover, discuss maintenance, or arrange class coverage. At Hero Agency Row, prepare an actual departure and help with an ordinary rescue at the reported site; Izuku arrives only after the journey. Keep unfamiliar equipment within its demonstrated limits. No new national emergency is needed to make his return meaningful.\n\nBy Path: Class 1-A and Class 1-B welcome a former classmate; General Studies supports the mission; Support checks systems; Management coordinates resources; Faculty protects teaching obligations. Licensed Sidekick and Licensed Pro Hero join or direct the response. League of Villains Recruit and Independent Villain react according to their established rehabilitation or opposition; Vigilante cooperates in rescue; Civilian Life receives help or supports the effort.\n\nThe event is complete when Izuku accepts or declines the armor and the resulting first field assignment, postponement, or alternative is resolved.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_deku_armor_return",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

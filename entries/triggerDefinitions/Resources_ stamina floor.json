@@ -1,0 +1,22 @@
+{
+  "Resources: stamina floor": {
+    "name": "Resources: stamina floor",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "player-resource",
+        "resource": "stamina",
+        "operator": "lessThan",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-resource",
+        "resource": "stamina",
+        "operator": "set",
+        "value": 0
+      }
+    ]
+  }
+}

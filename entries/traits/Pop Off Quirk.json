@@ -1,0 +1,40 @@
+{
+  "Pop Off Quirk": {
+    "name": "Pop Off Quirk",
+    "description": "🟣 You have sticky scalp balls that trap others and bounce you away.\n\n🌱 At the start you pluck and throw a ball across a classroom, slow one person with a few placed balls or bounce off them for a short jump.\n📈 With training: capture patterns, safe routes over broken ground, repeated rescue jumps, broad barriers that keep crowds away from danger.\n⚠️ You bleed if you pluck too many; balls lose their hold over time, cannot release on command, and can trap allies until they fade or stuck material is removed.\n🔗 Canon Drawback, built in: Bodily Toll, as excessive plucking injures your scalp.\n🎬 Canon Quirk: Minoru Mineta's Pop Off. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Mobility +10, Capture +5\n⚡ Starting techniques: Sticky Toss, Scalp Spring",
+    "traitNarrativeEffects": "Scale: sticky scalp balls, plucked and thrown. Start: classroom-length throws onto clothing or solid surfaces; several impede a person or mark a route. Others stick; the user rebounds for short jumps, quick turns. Elaborate traps, longer routes need training.\nLimits: overplucking bleeds, then stops safe plucking. Strong but temporary hold, varying with condition. Targets can dodge, cut free or skirt traps. Balls cannot fly, chase, reshape or release on command; they block allies and rescuers until the hold fades or the material is removed.\nQuirk Strain: light: throw, rebound; moderate: capture cluster, crossing; heavy: broad trap, repeated rescue jumps; severe: signature field, block-scale placement.\nDrawback: built in, the canon Bodily Toll.\nCanon: Minoru Mineta's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: user answers for balls that trap bystanders or block rescuers.\nLook: scalp balls.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Sticky Toss",
+      "Scalp Spring"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

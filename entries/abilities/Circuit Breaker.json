@@ -1,0 +1,20 @@
+{
+  "Circuit Breaker": {
+    "name": "Circuit Breaker",
+    "description": "The user fixes the look on a person whose Quirk is running wild from panic, a boosting drug or a breakdown, and shuts it off. Until the user blinks or looks away, the runaway effect stops spreading, anyone it was holding, crushing or carrying is let go unharmed, and the person takes no harm from the sudden stop; when the look ends, their Quirk comes back under their own control. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

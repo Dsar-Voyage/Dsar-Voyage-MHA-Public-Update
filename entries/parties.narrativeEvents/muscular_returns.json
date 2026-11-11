@@ -1,0 +1,15 @@
+{
+  "muscular_returns": {
+    "title": "A Familiar Monster",
+    "beats": "On April 9, Yo Shindo and Tatami Nakagame attempt to move holdout residents away from Musutafu Highway Outlets. Muscular interrupts the appeal before the reluctant civilians have committed to evacuation. He is loose only if the Tartarus assault or another established escape freed him. U.A. Academy receives the rescue alert; Musutafu Police Headquarters prepares a secure handover rather than assuming the fugitive has already been recaptured.\n\nThe canon default course, as pressure the player can change: Shindo tries to stop Muscular and suffers serious injuries, but his vibrations weaken the villain's muscle defenses. Tatami works to protect him while the residents discover the immediate cost of remaining outside shelter. Izuku Midoriya arrives, recognizes the opponent and refuses to give him another victim. Using the inherited abilities available to him, he exploits Shindo's opening, defeats Muscular and delivers him into custody. Witnesses see unusual abilities and a masked rescuer; observation alone does not reveal One For All's transfer or its predecessors.\n\nKeep Shindo reachable for extraction and treatment throughout the confrontation. A player can exploit the weakened fibers, protect Tatami, evacuate residents or secure restraints; each contribution has a bounded effect. Muscular's desire for violence makes negotiation difficult without making the player's actions irrelevant. If he escapes or has never escaped Tartarus, resolve the actual danger and communicate the changed custody situation instead of manufacturing a duplicate battle. Residents may still refuse relocation, but a continuing protection arrangement must then be explicit.\n\nBy Path: at Musutafu Highway Outlets, Licensed Sidekick extracts Shindo, Licensed Pro Hero directs containment, Vigilante assists rescue and Civilian Life chooses evacuation or aids neighbors. League of Villains Recruit and Independent Villain can aid Muscular, obstruct him or abandon his pursuit. At U.A. Academy, Class 1-A and Class 1-B assist through approved rescue work, General Studies contacts holdouts, Support supplies extraction tools, Management communicates routes and Faculty authorizes assistance. At Musutafu Police Headquarters, authorized participants arrange custody and medical transfer. Remote participants stay at their assigned sites until a real journey is established.\n\nThe event is complete when Muscular's immediate threat has ended, Shindo's medical destination is known and the residents' evacuation or continuing protection has been decided.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_muscular_returns",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Side Resume: Agency Office Placement": {
+    "name": "Side Resume: Agency Office Placement",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "man_agency_placement",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_man_agency_placement",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_man_agency_placement",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "man_agency_placement"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_man_agency_placement",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Agency Office Placement\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: September, in the weeks after the provisional license exam."
+      }
+    ]
+  }
+}

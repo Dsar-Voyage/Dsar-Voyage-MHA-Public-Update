@@ -1,0 +1,25 @@
+{
+  "Closing Distance Fists": {
+    "name": "Closing Distance Fists",
+    "description": "The user throws two short punches at one target within two meters, enlarging each hand just before contact to deal heavy bludgeoning damage and drive them off balance. Held back, the second hand opens to catch the target upright. A missed first punch exposes the torso, and the user's hands shake until their next turn ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

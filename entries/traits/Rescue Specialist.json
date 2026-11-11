@@ -1,0 +1,31 @@
+{
+  "Rescue Specialist": {
+    "name": "Rescue Specialist",
+    "description": "🚑 You are trained to reach the injured, keep them alive and carry them out while the danger is still going on.\n\n🌱 Learned through hero rescue training, disaster volunteering, firefighting or emergency medicine. Works with any Quirk or none.\n⚠️ You cannot heal, only stop injuries getting worse, and you fight only well enough to reach the victim. Long rescues leave you exhausted.\n📈 You learn more techniques as your Search and Rescue and First Aid improve.\n⚖️ Anyone may give first aid in an emergency. Rescuing with a Quirk without a license is still technically illegal, though police often let it go with a warning.\n🎯 Suits heroes, volunteers and the medic of any crew. Rescue heroes earn deep public trust; villain crews value a medic who avoids hospitals.\n\n📈 Grants: Endurance +1, Search and Rescue +15, First Aid +10\n⚡ Starting technique: Cover Drag",
+    "traitNarrativeEffects": "Trained in rescue: find casualties in rubble, smoke or water, shore up collapses, stop bleeding, carry the injured out; victims first, by habit. At start they carry an adult from a burning building, briefly brace a fallen door or beam, and keep the badly hurt stable until medics arrive. No healing: first aid stops injuries worsening; lost health returns only with rest, hospital care or a healing Quirk. No combat beyond self-defense to reach victims. Pure training: the same if Quirkless; stamina, never Quirk Strain; carrying, bracing and digging are hardest; long rescues exhaust them. Legal and social treatment: anyone may give emergency first aid and pull people from danger, to praise; unlicensed Quirk rescue is technically illegal, though police usually, not always, let good faith off with a warning. Rescue heroes poll below fighters but earn deep trust; villain crews value a medic who keeps them out of reporting hospitals. How it looks: gloves, first aid pouch.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Search and Rescue",
+        "modifier": 15
+      },
+      {
+        "skill": "First Aid",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Cover Drag"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

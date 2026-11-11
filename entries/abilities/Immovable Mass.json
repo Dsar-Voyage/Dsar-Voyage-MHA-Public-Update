@@ -1,0 +1,24 @@
+{
+  "Immovable Mass": {
+    "name": "Immovable Mass",
+    "description": "The user plants themselves and turns heavier than ever before, the weight of a loaded truck, for the rest of the scene. A runaway truck, a charging heteromorph or a flood surge stops dead against them, a crane cable or a bridge span they hold stays in place, and any enemy they grip cannot pull free. The user can take only a slow step each turn, sinks through any floor weaker than concrete, and blades and bullets still hurt them. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Heat: floor": {
+    "name": "Heat: floor",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "heat",
+        "operator": "lessThan",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "set",
+        "value": 0
+      }
+    ]
+  }
+}

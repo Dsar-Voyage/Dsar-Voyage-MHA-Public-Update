@@ -1,0 +1,15 @@
+{
+  "deku_versus_class_a": {
+    "title": "Take Our Hands",
+    "beats": "Immediately after the ambush on May 1, Class 1-A faces Izuku Midoriya in Kamino Ward. He is still exhausted and tries to leave before his friends can become targets. Katsuki Bakugo, Tenya Iida and Ochaco Uraraka are among those trying to keep him within reach. U.A. Academy prepares for a possible return without announcing that the shelter has already agreed to admit him.\n\nThe canon default course, as pressure the player can change: Izuku attempts to escape using the abilities now available to him. His classmates coordinate pursuit, obstacles and restraint while recalling specific ways he helped them. Their purpose is contact and shared responsibility, not punishment for leaving. Several approaches fail before the class combines its strengths to launch Iida within reach. Iida catches Izuku's hand, turning their earlier rescue connection back toward him. Bakugo then acknowledges his bullying and apologizes directly rather than disguising it as another insult.\n\nGive a participating classmate or player a real place in the coordination: protect the landing, provide an opening, make a personal appeal or offer a workable escort plan. Izuku can listen before the final interception; successful support need not be defeated to reproduce the chase. Restraint must account for his injuries, and promises require actual people willing to share patrol, rest and danger. Bakugo's apology belongs to him and need not demand immediate forgiveness. The default is that Izuku accepts collective help and collapses into care, not that his physical exhaustion disappears.\n\nBy Path: at Kamino Ward, Class 1-A participates directly, Licensed Sidekick and Licensed Pro Hero protect the perimeter, Vigilante keeps the return route open and Civilian Life offers practical help. League of Villains Recruit and Independent Villain can report, suppress or exploit the reunion only if they have actually learned its location. At U.A. Academy, Class 1-B prepares reception, General Studies locates rest facilities, Support arranges medical equipment, Management clears arrival communications and Faculty supports the retrieval decision. The class's private discussion of One For All stays within its established listeners. Anyone elsewhere receives the team's report and must travel before taking a physical role.\n\nThe event is complete when Izuku accepts return with his friends or another explicit supported arrangement, with the escort, immediate care and any unresolved objections stated.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_deku_versus_class_a",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

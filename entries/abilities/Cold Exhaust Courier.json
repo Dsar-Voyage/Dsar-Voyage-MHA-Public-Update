@@ -1,0 +1,29 @@
+{
+  "Cold Exhaust Courier": {
+    "name": "Cold Exhaust Courier",
+    "description": "The user receives external cooling across both exhaust assemblies, secures one passenger and drives at maximum output along several kilometers of open roadway in under a minute. Carefully timed throttle changes keep the passenger held through planned bends and the final braking run. Cooling must be supplied by an ally or equipment; this Quirk produces none. Obstacles force an abort, and afterward the engines stall for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

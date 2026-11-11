@@ -1,0 +1,30 @@
+{
+  "Ashikaga": {
+    "name": "Ashikaga",
+    "basicInfo": "The northern edge of the Kanto plain where Tochigi, Gunma, Saitama and Ibaraki meet, a flat, crowded cell of rivers, rice fields and old textile cities just north of the Tokyo sprawl. The Tone river crosses the southern half from west to east, and the Watarase river comes down from the Ashio hills past Kiryu and Ashikaga to the huge reed marsh of the Watarase retarding basin near the four-prefecture border. North of the Tone lie Kiryu, a silk weaving city in the hills on the western edge; Ashikaga, site of Japan's oldest school and a flower park famous for its giant wisteria; Sano with its ramen and outlet malls; Tochigi city, with white-walled warehouses along a canal; Tatebayashi with its azalea hill and the temple of the shape-shifting tea kettle; Ota with its car plants; and Oyama in the east, a shinkansen town on the Omoi river. South of the Tone sit Gyoda, with its ancient burial mounds and rice paddy art, Kazo, Hanyu, Kuki, and Kumagaya near the Arakawa in the southwest. Summers are brutally hot, and Kumagaya has held the national heat record; winters are dry and windy, with the cold karakaze blowing off the mountains. People work in factories and warehouses, weave and dye, grow rice, wheat, lettuce and strawberries, and commute toward Tokyo. Kumagaya has Joetsu and Hokuriku Shinkansen stops and Oyama a Tohoku one, each well under an hour from Tokyo; the Ryomo line links Oyama to Kiryu, Tobu lines fan out from Asakusa, and the Tohoku, Kita-Kanto and Ken-O expressways cross the plain. From Musutafu, most towns here are about two hours away. Visitors see the wisteria in late April, eat Sano ramen, Kiryu's broad himokawa noodles and Gyoda's zeri fry croquettes, tour the burial mounds, and join the crowds at Kumagaya's July fan festival. Each city has a small hero agency, police boxes stand at every station, and on summer afternoons sidekicks with cooling Quirks are posted at outdoor festivals to treat heatstroke.",
+    "hiddenInfo": "The textile cities are past their best years: weaving sheds stand empty, downtown arcades are shuttered, and the plain is filling with logistics warehouses that bring trucks and night shifts. Heatstroke kills people here every summer. Hero help is never more than fifteen or twenty minutes away, but the agencies are small and busy. Small villainy looks like car and catalytic converter theft rings, illegal dumping on river banks, vandalism in empty mills, and Quirk-fueled fights in parking lots after dark.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 1,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d0e94138-8cca-4750-ac1a-89a9165295c2.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

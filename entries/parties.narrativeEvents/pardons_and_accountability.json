@@ -1,0 +1,15 @@
+{
+  "pardons_and_accountability": {
+    "title": "A Different Commission",
+    "beats": "At Musutafu Police Headquarters, Naomasa Tsukauchi meets Gentle Criminal and La Brava as their individual dispositions arrive. At Musutafu General Hospital, Hawks visits Lady Nagant under custody and medical supervision. Hero Public Safety Commission Headquarters begins receiving instructions for a different leadership. Overhaul remains separately detained; cooperation during the crisis has not erased his crimes.\n\nThe canon default course, as pressure the player can change: Gentle Criminal and La Brava receive pardons for their decisive help and reunite. Their relief belongs to two specific decisions, not a general amnesty. Lady Nagant declines immediate release, choosing to watch whether the promised reforms become real before stepping outside. Hawks, whose Quirk was stolen, takes leadership of the Commission and must answer with policy rather than restored wings.\n\nSeparately, Overhaul's recovered former boss confronts him about the harm done to Eri and insists that accountability reach beyond wanting his own forgiveness. The boss appears only through the account of that supervised encounter. Eri is not summoned, asked to comfort her abuser, or made the price of his rehabilitation. Overhaul remains armless and subject to custody. The party can pursue an individual review, challenge an unsupported condition, or help a survivor refuse contact; changed decisions require an actual hearing or agreement.\n\nAt Musutafu Police Headquarters, play the pardon notices or a custody interview. At Musutafu General Hospital, keep Nagant's decision private unless she authorizes its release. At Hero Public Safety Commission Headquarters, the party can seek a revised duty or a concrete answer about oversight. Travel and permission separate these encounters.\n\nBy Path: Class 1-A and Class 1-B support affected friends; General Studies assists reintegration; Support supplies recovery aids; Management asks about transparency; Faculty protects Eri's interests. Licensed Sidekick and Licensed Pro Hero clarify revised duties. League of Villains Recruit and Independent Villain seek individual terms or choose continued opposition; Vigilante explores lawful service; Civilian Life pursues victim support. A favorable decision for someone else never automatically changes the party's legal status.\n\nThe event is complete when the named people's legal positions and the party's own request, refusal, or response have definite answers.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pardons_and_accountability",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

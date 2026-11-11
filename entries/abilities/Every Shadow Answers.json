@@ -1,0 +1,24 @@
+{
+  "Every Shadow Answers": {
+    "name": "Every Shadow Answers",
+    "description": "At dusk, at night or indoors, the user takes hold of every shadow in a building or across a city block for the rest of the scene. They can bind any enemy they see standing in shadow there, step between any two shadows in the area and raise dark glass panes over any doorway or window; each bind holds until a hard effort or a strong light breaks it. Floodlights and fires cut the area into pieces the user cannot reach. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

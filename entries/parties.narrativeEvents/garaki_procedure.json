@@ -1,0 +1,15 @@
+{
+  "garaki_procedure": {
+    "title": "The Doctor's Procedure",
+    "beats": "Day 258, early evening at Yokohama Harbor District's Dockside Safehouse. Tomura Shigaraki prepares to leave the Paranormal Liberation Front's ordinary business to its officers. At Jaku General Hospital, Kyudai Garaki maintains a kindly public medical routine while the concealed Basement Service Levels are prepared for a very different patient. The journey between the refuge and hospital remains covert.\n\nThe canon default course, as pressure the player can change: after winning the giant's loyalty and the liberation forces' resources, Shigaraki accepts Garaki's proposed four-month procedure. Narrator only, restricted to Garaki, Shigaraki and genuinely admitted confidants: the treatment is intended to strengthen Shigaraki's body and transfer All For One's power into him. It is not an instant upgrade or an ability he can use tonight. Garaki explains the duration and danger to his patient, then begins the procedure in the hidden hospital facility. By default Shigaraki remains there, incapacitated for ordinary League activity, while the Front continues to organize without his daily presence.\n\nA party can question the bargain, expose the facility, delay the start, protect the patient or disrupt treatment through actions it can actually reach. Interruption produces the medical and organizational consequences established in play, not an automatic healthy Shigaraki with the completed power. The procedure's progress must carry into later months; this scene never advances four months or stages the coming war. Preserve a changed Deika result or an existing capture rather than manufacturing resources or a free patient.\n\nBy Path and place: a League of Villains Recruit in Yokohama Harbor District can receive limited orders, guard transport or notice the leader's absence. Independent Villains need Garaki's or the Front's actual trust to enter deeper business. At Jaku General Hospital, civilian patients and ordinary staff see wards and routine services; students, faculty, pros and sidekicks visiting publicly receive the same surface account. Support and Management Paths may examine legitimate equipment or records only within their assigned access. Heroes and vigilantes need evidence and a real route into the restricted basement to discover the operation. Being present in the hospital does not confer the doctor's identity as a villain, the hidden procedure's purpose or the source of Shigaraki's intended power. Keep uninvolved patients safe if the party intervenes.\n\nThe event is complete when Shigaraki has entered continuing treatment in the concealed facility, or the party's intervention has established a definite alternative and its immediate medical consequences.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_garaki_procedure",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

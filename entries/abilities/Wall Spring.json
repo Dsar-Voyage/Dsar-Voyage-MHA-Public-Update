@@ -1,0 +1,20 @@
+{
+  "Wall Spring": {
+    "name": "Wall Spring",
+    "description": "The user holds a breath, phases through a wall no thicker than a few steps and turns solid beyond it by the end of their next turn. The passage can bypass an obstacle or reach a trapped person. While inside the wall they cannot see, hear or breathe, and ordinary clothes or gear left outside the phase can snag or fall away. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

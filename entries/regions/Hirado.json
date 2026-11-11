@@ -1,0 +1,30 @@
+{
+  "Hirado": {
+    "name": "Hirado",
+    "basicInfo": "The far northwest of Kyushu and the islands off it: the southern half of Iki at the top of the square, the open channel south of it, the Higashi-Matsuura peninsula of Saga Prefecture on the east side, Takashima and the mouth of Imari Bay in the middle, and Hirado and Ikitsuki islands at the southwest corner, in Nagasaki Prefecture. More than three quarters of it is sea. Southern Iki is rolling farmland and small harbors around Gonoura, its main port, with the moated Yayoi-era village of Haranotsuji rebuilt on the plain, a small airport and long sandy beaches. On the peninsula, Yobuko is famous for squid served still translucent, a morning market and the bridge to Kabeshima; nearby are the stone ramparts of the castle from which the 1590s invasion of Korea was launched and the windy cape of Hadomisaki. Takashima, linked by bridge, is where a Mongol fleet sank in a typhoon in 1281, and archaeologists still map wrecks offshore. Hirado, joined to the mainland by a red suspension bridge, was one of Japan's first ports open to Europeans: a white stone warehouse rebuilt from the Dutch trading post stands by the harbor under the castle, and hidden Christian villages, terraced rice fields and small churches sit on the island's western slopes. Ikitsuki beyond, an old whaling island, is linked by another long bridge. The climate is mild, rainy in June and July and battered by northwesterlies in winter. People fish, farm rice and cattle, dive for abalone and sea urchin and run inns. Jetfoils from Hakata reach Gonoura in about an hour, ferries also sail from Karatsu, buses and the Chikuhi Line reach Karatsu and Yobuko from Fukuoka in about an hour and a half, and the Matsuura Railway's coastal diesel cars stop at Tabira-Hiradoguchi, the westernmost station on Japan's main-island railways. From Musutafu, allow most of a day. Licensed heroes cover these coasts by car and boat, police boxes stand in every harbor town, and sidekicks patrol summer festivals and squid markets. Visitors eat squid, drive the bridges, tour churches and take boats to the islets.",
+    "hiddenInfo": "Fishing towns worry about thinning squid and the price of fuel. Unlicensed divers go after Mongol relics off Takashima, a protected site, and abalone poaching is steady. Real hero help is spread thin: Karatsu and Sasebo have small agencies, and Fukuoka is an hour and a half away. Small crime is theft from boats and churches and drunken trouble at harbor festivals.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -17,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/13ea48bf-918e-463c-b144-3a7115e4cc2c.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Takahashi": {
+    "name": "Takahashi",
+    "basicInfo": "Takahashi is the hill country of western Okayama Prefecture, the Kibi Highlands, where the Takahashi River and the Asahi River cut long valleys south from the Chugoku Mountains toward the Inland Sea. It is entirely land, a plateau of low rounded hills, terraced paddies, vineyards and cedar forest that rises toward the northern ranges. In the south, the old castle town of Takahashi lines the river under Bitchu Matsuyama Castle, the highest mountaintop castle in Japan with an original keep, which on autumn mornings floats above a sea of clouds; the town keeps samurai houses, the dry garden of Raikyuji temple and a quiet river walk. Up on the plateau to the west, the hamlet of Fukiya is a street of red-ochre bengara houses from its copper and pigment days, and to the north the river town of Niimi sits among limestone hills riddled with caves such as Ikura and Makido. In the northeast lie the Maniwa towns of Katsuyama, with its street of hanging noren curtains and sake breweries, and Kuse and Ochiai along the Asahi River, a lumber and wood-processing district. Winters are cold with snow in the north, summers hot in the valleys, and autumn brings fog and red maples. People grow Pione and other grapes, peaches and rice, raise the Chiya black cattle of Niimi, work in sawmills and small factories, and dance Bitchu kagura at shrine festivals. The JR Hakubi Line runs up the Takahashi valley from Kurashiki through Takahashi and Niimi toward Yonago, and the Yakumo limited express reaches Takahashi from Okayama in about forty minutes and Niimi in about an hour; the Kishin Line heads east from Niimi toward Tsuyama, and the Geibi Line west into Hiroshima. The Chugoku Expressway crosses the north, meeting the Okayama and Yonago expressways at Hokubo and Ochiai. From Musutafu it is about three and a half hours by shinkansen to Okayama and the Yakumo; Osaka is about two hours. Visitors climb to the castle at dawn, tour caves, ride the valley lines and stay in small inns. Police boxes sit in each town, a licensed hero covers several valleys from Takahashi, and limestone quarry crews and vineyard workers use permitted Quirks on the job.",
+    "hiddenInfo": "Takahashi and Niimi are shrinking and aging, and the valley roads and rail lines were badly damaged by floods within living memory, so heavy rain makes people nervous. Small-time trouble is fruit theft from vineyards before harvest, burglary of empty houses, cave explorers getting lost or stuck, and Quirk-users doing unpermitted work for cash. Hero response from Okayama or Kurashiki takes the better part of an hour, longer in snow, so police and the local hero handle most things themselves.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -10,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fea2f881-8a71-4aa0-9aa3-5a41700b4c13.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

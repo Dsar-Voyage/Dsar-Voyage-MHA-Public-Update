@@ -1,0 +1,20 @@
+{
+  "Knitting Grip": {
+    "name": "Knitting Grip",
+    "description": "The user sets a broken bone, a torn ligament or a dislocated joint with both hands and drives the healing through it in moments. The limb bears weight and works normally from the patient's next turn and heals fully overnight, and the patient loses heavy stamina. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

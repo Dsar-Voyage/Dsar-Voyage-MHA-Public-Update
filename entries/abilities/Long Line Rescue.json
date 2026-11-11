@@ -1,0 +1,24 @@
+{
+  "Long Line Rescue": {
+    "name": "Long Line Rescue",
+    "description": "The user traces one continuous, controlled beam across the face of a collapsed structure, cutting several small openings for air and access without touching the people inside. Rescuers can reach those openings for the rest of the scene. The user needs a clear view of each cut line, and the extended firing leaves their abdomen painful for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

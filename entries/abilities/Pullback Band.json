@@ -1,0 +1,20 @@
+{
+  "Pullback Band": {
+    "name": "Pullback Band",
+    "description": "The user wraps a band of elastic air around a target's legs and pins its far end to the ground. Every step or lunge the target makes is pulled back to the spot: they cannot move away, run or reach anyone beyond arm's length until they tear free with a hard effort, the user lets go or the scene ends. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Prove Yourself to the League": {
+    "name": "Prove Yourself to the League",
+    "questSource": "Tomura Shigaraki",
+    "questStatement": "Tomura Shigaraki does not trust new hires; he tests them. One of the thugs the League paid in advance has been bragging in a bar behind Musutafu Station about the big money coming his way, and Kurogiri wants him quiet before the police hear more. Shigaraki wants to see how you handle it. Do it cleanly and the League has a use for you. Do it badly and you are a level he will not bother to replay.",
+    "mainObjective": "Silence the bragging hired thug for Kurogiri without bringing the police to the League's door.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has dealt with the bragging hired thug by threat, bribe, removal or betrayal, and has reported back to Kurogiri or Tomura Shigaraki, who judge the result."
+    },
+    "detailType": "detailed",
+    "questLocation": "League Hideout Bar",
+    "questDesignBrief": "A first villain job with moral weight. Kurogiri briefs politely and gives the thug's name and bar; Tomura Shigaraki judges the outcome, not the method, in game terms. The thug is a generated person who knows only that a job against heroes pays well: no target, date or plan. Patrol officers are listening for exactly this talk, and Naomasa Tsukauchi keeps a file on it. Killing is possible but never required and never glamorized; a body brings heavy police attention. The PC may instead warn the thug, tip the police or play both sides. The quest reveals none of the League's plans and stages no operation. Failure: the police hear the story, and Shigaraki loses interest in the PC.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Resonance Hum": {
+    "name": "Resonance Hum",
+    "description": "The user fixes on one object within a room's width, finds its natural pitch with a quiet sweep, and holds a vibrating hum that shakes that object alone. In moments it shatters a pane of glass, a visor or a brittle lock, or rattles the bolts and pins loose on a door hinge, a shackle or a weapon casing while leaving people beside it unharmed. Holding pitch and tremor dulls the user's hearing until their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

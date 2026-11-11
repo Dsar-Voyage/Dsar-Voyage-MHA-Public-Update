@@ -1,0 +1,15 @@
+{
+  "joint_training": {
+    "title": "The Joint Training Battle",
+    "beats": "Morning at U.A. Academy. Class 1-A and Class 1-B walk to Training Ground Gamma's pipes and factory floors. At the Control Tower, Shota Aizawa and Vlad King set five capture rounds, twenty minutes each, with prisoners put in team jails. Hitoshi Shinso of General Studies wears Aizawa's capture scarf and uses his voice changer in a Hero Course transfer trial; All Might observes.\n\nCanon default pressure: these teams and results stand unless the player changes them. Round one: Koji Koda, Denki Kaminari, Tsuyu Asui and Eijiro Kirishima, plus Shinso, face Jurota Shishida, Hiryu Rin, Kosei Tsuburaba and Ibara Shiozaki. Kaminari draws the enemy in, Shinso exploits their voices, and 1-A wins. Round two: Yuga Aoyama, Momo Yaoyorozu, Toru Hagakure and Fumikage Tokoyami face Itsuka Kendo, Manga Fukidashi, Kinoko Komori and Shihai Kuroiro. Tokoyami flies with Dark Shadow; Kendo counters Momo's planning and Komori's mushrooms stop Tokoyami, giving 1-B a 4-0 win. Round three: Tenya Iida, Shoto Todoroki, Mashirao Ojiro and Mezo Shoji face Juzo Honenuki, Tetsutetsu Tetsutetsu, Pony Tsunotori and Sen Kaibara. Tenya uses Recipro Turbo, Shoto's heat meets Tetsutetsu's endurance, and Honenuki's softening helps force a draw. Round four: Katsuki Bakugo, Hanta Sero, Kyoka Jiro and Rikido Sato face Togaru Kamakiri, Setsuna Tokage, Kojiro Bondo and Yosetsu Awase. Katsuki protects his teammates and accepts their help, producing a 4-0 win for 1-A.\n\nBy canon default round five pits Izuku Midoriya, Minoru Mineta, Mina Ashido and Ochaco Uraraka against Reiko Yanagi, Nirengeki Shoda, Neito Monoma and Yui Kodai, plus Shinso. Monoma's provocation precedes Blackwhip erupting out of Izuku's control; Ochaco reaches him and asks Shinso to use Brainwashing to stop it. Only Izuku experiences Daigoro Banjo's voice explaining the new power; One For All stays secret. Unless the player changes the recovery and resumed fight, Izuku briefly controls Blackwhip, 1-A wins the round and takes the exercise three wins to one with one draw. The teachers approve Shinso for a Hero Course transfer next year.\n\nA Hero Course student fights or watches from Gamma's monitors; General Studies, Support and Management parties observe with permission, with Shinso's trial the stated exception. Faculty referee from the Control Tower; invited pros and sidekicks observe. Villains and civilians outside U.A. Academy hear only later campus accounts and have no automatic access.\n\nThe event is complete when round five ends, the overall result is announced and the teachers give their verdict on Shinso.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_joint_training",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

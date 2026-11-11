@@ -1,0 +1,24 @@
+{
+  "Mending Bulwark": {
+    "name": "Mending Bulwark",
+    "description": "The user throws their body over the people beside them, or spreads their arms in front of a group, and takes everything meant for them. Until the start of the user's next turn, every attack, blast, bullet and piece of falling debris aimed at those people strikes the user instead; the sheltered people take no damage, and the user's wounds start closing at once. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

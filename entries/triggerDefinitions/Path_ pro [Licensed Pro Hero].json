@@ -1,0 +1,27 @@
+{
+  "Path: pro [Licensed Pro Hero]": {
+    "name": "Path: pro [Licensed Pro Hero]",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "proPath",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "read-boolean",
+        "key": "proPath",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Disappearing Prop": {
+    "name": "Disappearing Prop",
+    "description": "The user touches a weapon, a crate, a barricade or a motorcycle with an open palm and it folds into a marble-sized sphere in an instant. Someone whose weapon is taken this way is unarmed until the user releases it, and cover or a barricade in the way is gone; the user restores any sphere within reach with a snap. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Mind Census": {
+    "name": "Mind Census",
+    "description": "The user reaches out and feels every mind within a building's width, through walls, floors and rubble. They learn how many people are there, where each one is, and whether each is awake, unconscious, panicking or in pain, so nobody can hide from them by keeping still and silent, and no trapped survivor is missed. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

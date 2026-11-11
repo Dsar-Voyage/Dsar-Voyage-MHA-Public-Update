@@ -1,0 +1,107 @@
+{
+  "Hakata Canal Mall": {
+    "name": "Hakata Canal Mall",
+    "basicInfo": "A curving mall built around a man-made canal between Hakata and Nakasu, about a kilometer east of downtown Fukuoka's riverside, with Hakata Station about 3 km to the southeast and the Hawks Hero Agency about 3 km to the northeast. Its buildings bend along both banks of a canal about 180 meters long, joined by bridges and terraces painted in warm reds, ochres, plums and blues, with a hotel, a cinema, a theater and a whole floor of ramen under one roof. Its heart is the Fountain Stage, a round stage at the canal's widest point where jets leap in time to music every half hour and free shows play on weekends; the Canal Walk follows the water past shops and cafes; the Ramen Floor sits on top; and at the far end the Canal Theater Hall stages touring musicals and hero shows. Shops open at ten and close at nine, the restaurants and the Ramen Floor stay open until eleven, and the canal terraces are public ground until midnight. Mornings bring retirees walking laps and tourists off the airport subway; lunch brings office workers from Hakata; after classes come students, Ketsubutsu Academy's among them; weekends and holidays fill every terrace with families, tour groups and couples. Hawks goods outsell everything here, and people glance up whenever a shadow crosses the open sky above the canal. The mall's guards carry radios and have no authority to use Quirks; the prefectural police keep a box at the gate on the Hakata side, and a small local agency holds the mall's security contract and walks the terraces in pairs in the afternoons. Bridges and ramps are wide enough for heteromorph shoppers, the escalators have clearance for wings, and the restrooms include wide stalls. A player can shop, eat, watch a show, work a counter or a stage-crew shift, meet someone by the fountain or follow the canal to the theater. The water is the sound of the place, splashing under the music, and in the evening the whole curve glows.",
+    "hiddenInfo": "Right now the mall is a retail counter for the port's unregistered support gear. On Saturdays and Sundays a pop-up stall on the Canal Walk sells legal training goods, weighted vests, grip trainers and resistance bands, run by a wiry man with a sunburned neck and a cheerful patter about hero fitness. Customers who ask the right questions are shown a catalog on his phone of wrist grapples, compressed-air gauntlets and Quirk-amplifying gloves at 30,000 to 80,000 yen in cash, and told to collect from a car on the third level of the parking garage after eight. The gear comes through the forwarding company at the harbor that declares it machine parts, and none of it is registered or tested. His buyers are local students and would-be street heroes who cannot get licensed gear; one of them, a Ketsubutsu student, burned his palm last week when a gauntlet misfired on the river path, and he told the clinic it was a cooking accident. Clues: cardboard boxes stamped machine parts under the stall's table, a cook on the Ramen Floor who put ice on that burn and asked no questions, and a mall guard who has seen the same car on the third level every Saturday night. The small local agency that holds the mall's security contract has a sidekick who noticed the stall weeks ago and wants to make the arrest himself, for the credit his agency badly needs; he has told nobody, not even his boss, and he watches alone from the Fountain Stage terraces. If the seller spots him, the stall will simply move to another mall. Meanwhile the theater's stage crew is short two hands for the hero musical's run and hires anyone who can lift a flat and keep quiet backstage.",
+    "x": 13.62,
+    "y": 3.17,
+    "radius": 1.5,
+    "region": "Kyushu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9e518523-6ba1-4cb6-8cbf-fb9e7ebf1ef5.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Fountain Stage": {
+        "description": "A round stage at the widest point of the canal, half ringed by curving terraces that climb five floors like the tiers of an amphitheater, with shops and restaurants along every balcony. The water in front of the stage hides rows of jets that leap to music every half hour from ten in the morning to ten at night, in arcs, walls and columns; after dark the show adds lights and a mist screen that throws pictures onto the spray. Weekends bring free shows on the stage: street performers, school bands, idol groups, and now and then a local agency's safety demonstration that ends in photos. Families claim the lowest terrace steps early, and the front row gets wet on purpose. The police box at the Hakata-side gate is a minute's walk away, and mall guards stand at the railings during shows. Performers may not use Quirks on stage without a permit from the management office, which keeps the paperwork short and the answer usually no. Splashing water and a countdown from the speakers set the rhythm. The Canal Walk runs off along the water, escalators climb to the Ramen Floor, and a covered bridge crosses to the Canal Theater Hall.",
+        "paths": [
+          "Canal Walk",
+          "Ramen Floor",
+          "Canal Theater Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8452207f-5699-45ef-b546-da06056f389c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Canal Walk": {
+        "description": "A promenade about 180 meters long that follows the canal's curve between walls painted in reds, ochres, plums and sky blue, with shops and cafes on two levels and small bridges crossing the water every few dozen meters. The canal is shallow and clear over a tiled floor, and coins glint under the bridges. The shops run from fashion chains and sneaker stores to stationery, character goods and a hero goods shop whose window is mostly Hawks: feather keychains, wing hoodies and posters of him eating fried chicken. Retirees walk laps before the shops open at ten; office workers cut through at lunch; students drift along after classes, and weekends bring tourists photographing every bend. On Saturdays and Sundays pop-up stalls set up along the wider stretch, selling crafts, phone cases and training gear. A guard with a long-handled net fishes dropped phones out of the water and refuses every tip. The walk is wide enough for heteromorph shoppers. Water slaps softly against the stone edge, and music from the stage carries along the curve. The walk leads back to the Fountain Stage and ends at the doors of the Canal Theater Hall.",
+        "paths": [
+          "Fountain Stage",
+          "Canal Theater Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/022f11f0-a69c-4a84-a884-00deac7a299c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Ramen Floor": {
+        "description": "The top floor of the mall belongs to ramen: eight counters from different corners of Japan around a shared waiting hall, each with its own cloth curtain, meal-ticket machine and line. Hakata's own cloudy pork-bone broth gets two counters, and the others rotate every few months: Sapporo miso with butter and corn, Tokyo soy, dipping noodles, a spicy Kumamoto garlic bowl. A bowl runs 900 to 1,300 yen, and at the Hakata counters customers order their noodles by firmness and call for a second serving of noodles, 150 yen, before the broth goes cold. Office workers rush the floor at noon, tourists queue all afternoon with phones out, students come up after classes in groups, and the late crowd from Nakasu climbs up before the eleven o'clock close. Locals argue loudly with visitors about which counter is best and expect to be asked. Some stools are wider and bolted down for heavy heteromorph diners, and a sign at each counter asks customers not to use Quirks to cool their broth. Steam fogs the windows, pork fat and garlic hang in the air, and the cooks call orders in rhythm. Escalators lead down to the Fountain Stage.",
+        "paths": [
+          "Fountain Stage"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/207ac6d3-7194-4e79-8cdf-5e8f3b23c16b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Canal Theater Hall": {
+        "description": "A theater of about 1,100 seats at the far end of the canal, with a curved glass lobby over the water, a red-carpeted auditorium on three levels and a box office by the doors. It hosts touring musicals, comedy nights and concerts, and this spring a hero musical on tour from Tokyo, with an actor in gold and blue striking All Might's pose under a spotlight; on Sunday mornings a cheaper hero show for small children has costumed performers rescue volunteers from the audience. Tickets run from 3,000 yen in the upper balcony to 12,000 for the best seats; matinees start at half past one and evening shows at six, and same-day returns go on sale at noon. Retirees fill the matinees, office workers the evenings, and on Sundays the lobby is crowded with strollers. Flying and fire effects come from wires and machines, since the hall has never paid for a permit for Quirk effects. The ushers carry small flashlights, and wide seats at the end of each row take heteromorph patrons. The lobby smells of coffee and the lilies in the cast's bouquets. The lobby opens onto the Canal Walk, and a covered bridge crosses back to the Fountain Stage.",
+        "paths": [
+          "Fountain Stage",
+          "Canal Walk"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6fef41e7-163b-4f15-99e8-6e10f7f698fd.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Featherweight Haul": {
+    "name": "Featherweight Haul",
+    "description": "The user lays hands on whatever pins someone, a fallen slab, a steel beam or a car, and takes its weight away without letting it drift, so a single rescuer can lift it clear or swing it aside. Injured people the user touches float level and steady and can be guided out by hand without jostling a broken bone or an injured spine; all of it stays weightless until the user releases it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

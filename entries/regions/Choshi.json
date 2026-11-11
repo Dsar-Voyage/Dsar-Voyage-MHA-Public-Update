@@ -1,0 +1,30 @@
+{
+  "Choshi": {
+    "name": "Choshi",
+    "basicInfo": "The eastern tip of the Kanto plain where the Tone river meets the Pacific, a cell split by the river into Chiba's Choshi and Katori on the south bank and Ibaraki's Kashima shore on the north, with the eastern third open sea. Choshi sits at the very end, a fishing city on a blunt headland: the white lighthouse of Inubosaki stands on the cape, the Byobugaura cliffs run southwest from it, and the long Kujukuri beach begins past Iioka and runs out of the cell to the south. North of the river mouth, the sand coast of Hasaki and Kamisu is lined with wind turbines, then Kashima's deep-water industrial port, steelworks and petrochemical plants face the sea, and Kashima city, between the port and Lake Kitaura, holds one of Japan's oldest shrines in a deep forest along with a well-known soccer stadium. Upriver, Katori shrine faces Kashima's across the water, the canal town of Sawara keeps willows, old merchant houses and great festival floats, and Itako spreads its iris gardens and boat canals between the lakes. In the west, Narita Airport's runways and an aviation museum at Shibayama sit on the plateau, with Asahi, Yokoshiba and Tako farming the plain below. The climate is mild: cool summers for Kanto thanks to the sea, warm winters, sea fog in early summer, and strong winds on the cape. People fish, brew soy sauce in Choshi's big breweries, grow cabbage, vegetables and rice, make steel and chemicals at Kashima, and work at the airport. The Sobu main line and Narita line bring limited expresses from Tokyo to Choshi in about two hours; the Kashima line serves Kashima, the little Choshi Electric Railway runs out to Inubosaki and keeps itself going by selling wet rice crackers, and highway buses run often from Tokyo to Kashima and Choshi. Musutafu is about three hours away. Visitors watch the New Year's first sunrise at Inubosaki, eat sardines, mackerel and saury at the fishing port, see Sawara's summer and autumn float festivals, ride Itako's iris boats in June, surf Hasaki, and visit both great shrines. Choshi and Kashima each have a small hero agency, the coast guard handles the sea, and a fish market worker whose Quirk chills whatever it touches keeps the catch fresh.",
+    "hiddenInfo": "Choshi's boom days are over: the port still lands huge catches, but the town center is aging and quiet, and the little railway survives on goodwill. Across the river, Kashima's industrial port draws contract workers who come and go. Real hero help is local and thin, and larger backup from Chiba or Narita is about an hour away. Small villainy looks like catch fraud and theft at the fish market, fights among crews ashore, petty smuggling through the ports, and thieves working the airport parking lots.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 3,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/772ddc2a-e4d1-439b-83bd-c10f87235505.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

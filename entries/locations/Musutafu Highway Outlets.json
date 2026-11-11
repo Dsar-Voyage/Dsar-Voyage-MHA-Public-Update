@@ -1,0 +1,109 @@
+{
+  "Musutafu Highway Outlets": {
+    "name": "Musutafu Highway Outlets",
+    "basicInfo": "An open-air outlet mall on Musutafu's west side, about 3 km west-southwest of Musutafu Station, built beside the expressway interchange so drivers can pull straight in off the highway: about a hundred discount stores in low buildings along open-air lanes, with a big parking lot, a bus stop and a food terrace at the center. Dagobah Municipal Beach Park is about 3.5 km to the southwest, Musutafu General Hospital about 3.5 km to the west-northwest and Kiyashi Shopping Mall about 4.5 km to the south. Where Kiyashi is the city's everyday mall, the outlets are where people go for bargains: last season's clothes, sneakers, kitchenware, luggage and sporting goods at thirty to seventy percent off, and a block of sports and hero gear stores that sells training wear, shoes and licensed hero goods cheaper than anywhere else in town. It opens at ten and closes at eight, and the gates to the lanes are locked overnight. City buses run from the station's bus terminal every twenty minutes, and on Saturdays and Sundays a weekend shuttle starts at the stop outside U.A.'s Main Gate, calls at the station and runs straight here, so U.A. students signed out for the weekend can be shopping within half an hour. Weekday mornings belong to retirees and tour buses on their way to the Izu coast; weekday afternoons are quiet; weekends fill the lanes with families, couples, drivers off the highway and U.A. students hunting for cheap training shoes. The management company's guards carry radios and have no authority to use Quirks; a police box opens at the main gate on weekends, and one of the small agencies on Hero Agency Row sends a patrol across town on Saturday afternoons. Ramps run everywhere, the lanes are wide enough for heteromorphs of any size, and the restrooms include wide stalls. A player can shop, eat, take a weekend shift, ride the shuttle with classmates or watch the highway traffic from the terrace. Wind from the bay blows down the lanes, and the sale banners snap all day.",
+    "hiddenInfo": "Right now the outlets' far parking rows are being worked by a pair of car thieves who come every Saturday afternoon. They drive in off the highway in a small white van between one and three, park in a different row each week, and walk the rows along the expressway fence, where the cameras are oldest. One of them, a soft-spoken woman in a sun hat, has a Quirk that opens any lock she touches without leaving a mark, so the cars show no broken glass; her partner lifts shopping bags, sneaker boxes and laptops from back seats and carries them to the van in outlet bags of his own. They leave by the on-ramp before half past three. Because nothing is forced, the insurers and the police box both half suspect the owners, and nine reports in a month have been filed as possible losses. The attendant in the north lot, an older man in a reflective vest, has written down the van's plate twice and has nobody who will take him seriously. The goods are sold the following week through a pawn counter near the station's back alleys. The patrol from Hero Agency Row arrives around four, an hour after the van has gone, and nobody has thought to ask it to come earlier. Meanwhile, in the sports block, one store has begun selling blue tracksuits with the U.A. crest as factory seconds at 4,000 yen. U.A. never licensed them, the stitching on the crest is wrong, and the store's manager bought the stock from a man who would only take cash and did not leave a card. Students from up the hill have started to notice, and the academy would want to know where they come from.",
+    "x": -8.16,
+    "y": 17.58,
+    "radius": 1.5,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/71f9afe5-f934-4858-b585-58591b921ab6.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Outlet Gate and Bus Stop": {
+        "description": "The front of the outlets faces the parking lot and the expressway interchange: a broad timber arch hung with sale banners, a turnaround with three bus shelters, a taxi stand and a bank of coin lockers where shoppers stash their first bags. City buses from the station's bus terminal arrive every twenty minutes and take about fifteen; on Saturdays and Sundays the weekend shuttle, which starts outside U.A.'s Main Gate and calls at the station, pulls in at the first shelter every half hour, and groups of U.A. students signed out for the weekend spill off it already arguing about routes. An information booth hands out maps and coupon books and lends wheelchairs, including a wide one for heteromorph builds. Tour buses unload retirees on weekday mornings. A police box opens at the gate on weekends, and the guards under the arch carry radios but cannot use Quirks. The hum of the highway never stops, and on clear mornings Mount Fuji shows above the parking lot to the northwest. Through the arch run the Outlet Lanes, the Sports and Hero Gear Outlets stand beside the gate, and a path leads straight to the Outlet Food Terrace.",
+        "paths": [
+          "Outlet Lanes",
+          "Sports and Hero Gear Outlets",
+          "Outlet Food Terrace"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/66ec113f-2501-40af-a5c9-9465ac2972ea.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Outlet Lanes": {
+        "description": "Open-air lanes of low two-story buildings with pale clapboard fronts and covered walkways, laid out in a loop with benches and planters down the middle. About a hundred stores line them: fashion and denim, sneakers, luggage, kitchenware, clothes for small children and a factory store for heteromorph cuts, with tail-slit trousers, wing-back jackets and four-sleeved shirts at a third of department-store prices. Racks of marked-down stock stand outside the doors, and clerks call out time sales through handheld speakers. Weekdays are slow; weekends fill every lane by eleven with couples, families pushing strollers and U.A. students carrying more bags than they meant to. The stores close at eight, and the gates lock soon after. A guard on a bicycle circles the loop, and on Saturday afternoons a patrol from one of the small agencies on Hero Agency Row walks through, stopping for photos with anyone who asks. Wind off the bay snaps the banners and tugs at the bags. The lanes lead back to the Outlet Gate and Bus Stop, open onto the Sports and Hero Gear Outlets, and meet the Outlet Food Terrace at the center of the loop.",
+        "paths": [
+          "Outlet Gate and Bus Stop",
+          "Sports and Hero Gear Outlets",
+          "Outlet Food Terrace"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/63ca8488-c16c-4730-9b0d-908464a63c4c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Sports and Hero Gear Outlets": {
+        "description": "A block of larger stores at the gate end of the lanes, where Musutafu buys its training gear cheap: outlets for running shoes, team sports and outdoor gear, a training-wear store with whole walls of compression shirts, and a hero goods outlet selling last season's figures, replica capes and sealed trading-card boxes at half price, each with its license seal. The shoe store keeps a shelf of reinforced soles for Quirks that wear through footwear, and the training-wear store will hem, slit or reinforce for tails and wings while customers wait. A rubber test strip outside lets customers jog in new shoes, and a sign at its head says no Quirks on the strip. Weekday afternoons bring local students and club teams; weekends bring U.A. students, who come for cheap training shoes and stay to argue over the figures, and a rack of blue tracksuits with the U.A. crest, marked as factory seconds, draws long looks from them. Staff in team jerseys help with sizing, and the hero outlet's clerk can name every figure's release year. The block smells of new rubber. Doors open onto the Outlet Gate and Bus Stop and back into the Outlet Lanes.",
+        "paths": [
+          "Outlet Gate and Bus Stop",
+          "Outlet Lanes"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/50f84f35-4ad0-4b89-abe1-885aae56fb09.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Outlet Food Terrace": {
+        "description": "An open-air food terrace at the center of the loop, under white sail awnings, with long tables, a dozen food stalls around the edge and a small stage for weekend events. The menus lean local: Fujinomiya yakisoba from a flat griddle, black Shizuoka oden simmered in dark broth and dusted with fish powder, sakura shrimp fritters, curry, crepes and green-tea soft-serve that melts fast in the bay wind. A plate runs 500 to 1,000 yen and a soft-serve 400. Weekday lunch is drivers off the highway and store staff on their breaks; weekend lunch is chaos, with families circling for seats. Some tables are wide and low for heteromorph diners, and a sign on every pole asks guests not to use Quirks to cool their food or chase off the crows, which are bold and well organized. The terrace looks over the parking lot to the expressway and, on clear days, to Mount Fuji. On weekends the stage hosts a local band or a hero quiz with coupons for prizes, and the quizmaster's All Might impression gets worse every week. Oden broth and griddle smoke drift across the tables. Paths lead back to the Outlet Gate and Bus Stop and into the Outlet Lanes.",
+        "paths": [
+          "Outlet Gate and Bus Stop",
+          "Outlet Lanes"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/28ab6650-b838-4f75-b9eb-f06b5760bbf9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

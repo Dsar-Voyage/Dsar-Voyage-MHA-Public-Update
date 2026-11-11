@@ -1,0 +1,36 @@
+{
+  "Street Kit": {
+    "name": "Street Kit",
+    "description": "🌃 You carry what someone who walks the city at night carries.\n\n🎯 The kit of a night patroller, a would-be vigilante or someone who expects trouble on the way home.\n⚖️ The mask, ties and flashlight are legal. Carrying the baton without good reason is illegal, and police who find it can confiscate it and charge you.\n⚠️ A baton and a mask together near a crime read as vigilante or villain intent.\n🪢 Tying someone up is legal only to hold a person caught in the act until the police arrive.\n\n🎒 Starts with: Domino mask, Telescoping baton, Zip ties ×5, Flashlight",
+    "traitNarrativeEffects": "The character carries a simple eye mask, a collapsible steel baton, a bundle of heavy zip ties and a flashlight: the kit of a night patroller, a would-be vigilante or someone who expects trouble on the way home. The mask, ties and flashlight are legal. Carrying the baton without a legitimate reason is illegal: police who search the character confiscate it and can charge them, and a baton and a mask together near a crime read as vigilante or villain intent. Tying someone up is legal only when holding a person caught in the act until the police arrive.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Domino mask",
+        "quantity": 1
+      },
+      {
+        "item": "Telescoping baton",
+        "quantity": 1
+      },
+      {
+        "item": "Zip ties",
+        "quantity": 5
+      },
+      {
+        "item": "Flashlight",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Licensed Sidekick",
+      "Licensed Pro Hero",
+      "Vigilante"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

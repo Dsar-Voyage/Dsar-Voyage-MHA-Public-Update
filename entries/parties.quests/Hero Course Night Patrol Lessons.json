@@ -1,0 +1,17 @@
+{
+  "Hero Course Night Patrol Lessons": {
+    "name": "Hero Course Night Patrol Lessons",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Late in the year, Shota Aizawa adds the lesson the Hero Course has been asking for: supervised evening patrols through the Musutafu Station District. Teams of three walk a set route with a teacher on the radio and Aizawa somewhere on the rooftops above. The rules are strict: licenses on you, radios on, no pursuit beyond the route, nobody alone. The streets are real, the people are real, and so is whatever turns up after dark.",
+    "mainObjective": "Walk a supervised patrol route with your team and handle what you meet within the rules.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has completed at least one supervised evening patrol through the Musutafu Station District with their team and reported what they found to Shota Aizawa."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Station District",
+    "questDesignBrief": "Street-level and grounded: a pickpocket in the Station Concourse, a drunk whose Quirk flares, a lost child looking for a parent, a heteromorph customer refused service at the convenience store, a fight brewing in the Back Alleys. Shota Aizawa watches from the rooftops and steps in only when a team breaks the rules or a life is at risk; chasing alone ends the PC's patrol with a lecture, not glory. Classmates by record name share teams. The country is uneasy and a copycat may test the PC, but nothing here stages a League attack or any canon event. A PC without a license patrols as an observer only. Children stay child-safe.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

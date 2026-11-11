@@ -1,0 +1,20 @@
+{
+  "Kickback Leap": {
+    "name": "Kickback Leap",
+    "description": "The user fires a thick beam at the ground or a wall and lets its kick throw them: up a building face, across a street-wide gap, or down from a height in short bursts that end in a soft landing. Anyone watching the launch point is dazzled and loses sight of the user until the user next attacks or calls out. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

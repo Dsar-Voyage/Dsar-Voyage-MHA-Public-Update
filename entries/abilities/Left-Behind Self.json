@@ -1,0 +1,20 @@
+{
+  "Left-Behind Self": {
+    "name": "Left-Behind Self",
+    "description": "The user steps aside and leaves an image of themselves standing where they were, still moving and looking around. Attacks aimed at the image pass through it into whatever lies behind, and anyone tracking the user goes after the image until the end of their next turn. The image makes no sound and casts no shadow, so anyone who touches it, listens closely or checks the floor sees through it at once. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

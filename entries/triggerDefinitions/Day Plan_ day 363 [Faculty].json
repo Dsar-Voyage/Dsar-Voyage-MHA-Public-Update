@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 363 [Faculty]": {
+    "name": "Day Plan: day 363 [Faculty]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 363
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the Paranormal Liberation War: before dawn the faculty's pros join a nationwide raid: Shota Aizawa goes with Endeavor's team into Jaku General Hospital, Midnight leads the licensed students at the Gunga Mountain Villa perimeter, and the other teachers keep U.A. locked down and ready to shelter evacuees. There are no classes."
+      }
+    ]
+  }
+}

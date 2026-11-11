@@ -1,0 +1,20 @@
+{
+  "Slow Circle Catch": {
+    "name": "Slow Circle Catch",
+    "description": "The user touches a falling person within reach, or leaps to brush one passing, and lets go. Instead of hitting the ground the person swings into a wide, slow circle around the user, losing speed with every lap, and is set down on their feet unhurt by the end of the user's next turn. The user can catch up to two people at once and must keep the space around them clear of walls. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

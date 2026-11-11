@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Number Two": {
+    "name": "Side Resume: The Number Two",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "v_hawks_joins",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_hawks_joins",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_v_hawks_joins",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "v_hawks_joins"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_v_hawks_joins",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Number Two\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Mid-December, evening to late night in the Yokohama Harbor District, after the Paranormal Liberation Front's founding and the start of Tomura Shigaraki's four-month procedure."
+      }
+    ]
+  }
+}

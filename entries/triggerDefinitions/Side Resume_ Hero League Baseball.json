@@ -1,0 +1,42 @@
+{
+  "Side Resume: Hero League Baseball": {
+    "name": "Side Resume: Hero League Baseball",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_hero_league_baseball",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_hero_league_baseball",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_hero_league_baseball",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_hero_league_baseball"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_hero_league_baseball",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Hero League Baseball\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Late summer at Takoba Municipal Stadium, lent for a day as a municipal event: the Hero League, the pros' charity baseball circuit, holds an exhibition game for disaster relief."
+      }
+    ]
+  }
+}

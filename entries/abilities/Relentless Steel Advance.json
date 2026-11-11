@@ -1,0 +1,25 @@
+{
+  "Relentless Steel Advance": {
+    "name": "Relentless Steel Advance",
+    "description": "The user transforms and advances up to ten meters through ordinary strikes and handgun fire to deliver one heavy bludgeoning blow. Held back, the finish pins the target against a clear surface without crushing. Heavy attacks can halt the advance; afterward iron fatigue prevents transformation until the end of the user's next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

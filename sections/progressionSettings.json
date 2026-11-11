@@ -1,0 +1,73 @@
+{
+  "startingCharacterLevelUpRequirement": 600,
+  "extraRequiredXPPerCharacterLevel": 100,
+  "maxCharacterLevel": 60,
+  "abilityPointEveryLevels": 2,
+  "abilityPointsPerGrant": 1,
+  "attributePointEveryLevels": 4,
+  "attributePointsPerGrant": 1,
+  "maxAttributeValue": 30,
+  "traitPickEveryLevels": 8,
+  "traitPicksPerGrant": 1,
+  "locationDiscoveryXP": 25,
+  "levelUpTraitPool": [
+    "Quirk Breakthrough",
+    "Quirk Endurance",
+    "Battle Instinct",
+    "Rescue Instinct",
+    "Crowd Reader",
+    "Steady Nerves",
+    "Street Smarts",
+    "Field Analyst",
+    "In Sync",
+    "Deep Reserves",
+    "Pinpoint Control",
+    "Aerial Control",
+    "Command Presence",
+    "Hold the Line",
+    "Pain Tolerance",
+    "Media Savvy",
+    "Heavy Hitter",
+    "Quick Reflexes",
+    "Clean Technique",
+    "Raw Output",
+    "Sharp Mind",
+    "Trusted Partner",
+    "Iron Constitution",
+    "Quirk Awakening"
+  ],
+  "milestoneTitles": [
+    {
+      "levelGranted": 1,
+      "title": "Fresh Face"
+    },
+    {
+      "levelGranted": 5,
+      "title": "Rookie"
+    },
+    {
+      "levelGranted": 10,
+      "title": "Up-and-Comer"
+    },
+    {
+      "levelGranted": 20,
+      "title": "Known Name"
+    },
+    {
+      "levelGranted": 30,
+      "title": "Headliner"
+    },
+    {
+      "levelGranted": 40,
+      "title": "Top Contender"
+    },
+    {
+      "levelGranted": 50,
+      "title": "Household Name"
+    },
+    {
+      "levelGranted": 60,
+      "title": "Symbol"
+    }
+  ]
+}

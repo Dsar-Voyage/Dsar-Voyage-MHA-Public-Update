@@ -1,0 +1,27 @@
+{
+  "Reveal: Gunga Mountain Villa (League, after Deika)": {
+    "name": "Reveal: Gunga Mountain Villa (League, after Deika)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "Gunga Mountain Villa",
+        "operator": "set",
+        "value": false
+      }
+    ]
+  }
+}

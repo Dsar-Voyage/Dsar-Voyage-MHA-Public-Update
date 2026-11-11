@@ -1,0 +1,20 @@
+{
+  "Just Another Student": {
+    "name": "Just Another Student",
+    "description": "In a crowd, a campus building or a stadium stand, the user reads where everyone's attention is going and keeps out of it. Villains, heroes and fighters treat the user as one more bystander: they do not watch or target the user until the user acts against them or calls attention to themselves. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. General Studies",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Insight",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

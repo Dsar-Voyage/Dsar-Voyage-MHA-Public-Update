@@ -1,0 +1,15 @@
+{
+  "side_intern_day_one": {
+    "title": "Internship Week: Day One",
+    "beats": "The first morning of internship week, at the agency the party chose in the Internship Week quest. The party reports in hero costume, with the hero name from Hero Name Day on every form. The mentor is the pro the party picked, played as that pro's record describes; at an agency without a record, a working pro and a small staff of the narration's making. Classmates are at their own agencies, and the class group chat lights up by breakfast: Eijiro Kirishima posts a photo of Fourth Kind's Ready Room, and Ochaco Uraraka reports that Gunhead is far gentler than his mask.\n\nCanon default course, as pressure the player can change: the mentor sets the rules before anything else. An intern observes and assists, follows orders on duty, wears the costume in public and uses a Quirk in a fight only when a life is at stake; there is no license, and the mentor signs for every mistake. Then the tour: front desk, locker room, radio room, the wall map of the beat. Then paperwork, more than anyone at U.A. warned about: insurance, a Quirk-use declaration, a badge photo. After lunch the mentor walks the first patrol route and points out what matters: a station exit where pickpockets work, a bridge that jams at rush hour, a shopkeeper who always calls the agency first. On that walk something small happens (a lost tourist, a fender-bender, a fan who wants a photo with the new intern), and whether the party acts at once or waits for the word decides how the mentor reads the rest of the week.\n\nIf the party chose a classmate's canon host, that classmate is a fellow intern this week. By path: a 1-A party trades first-day stories in the 1-A chat. A 1-B party hears from its own: Itsuka Kendo is at Uwabami's beside Momo Yaoyorozu, Tetsutetsu Tetsutetsu at Fourth Kind's beside Kirishima, and the 1-B chat turns into a contest over whose agency is tougher.\n\nThe event is complete when the first patrol route has been walked and the mentor dismisses the party for the day, or sends it back to U.A.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_intern_day_one",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

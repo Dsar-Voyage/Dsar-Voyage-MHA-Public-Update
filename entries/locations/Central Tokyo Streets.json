@@ -1,0 +1,200 @@
+{
+  "Central Tokyo Streets": {
+    "name": "Central Tokyo Streets",
+    "basicInfo": "The capital's busiest shopping and entertainment district, about 7 km west-southwest of Tokyo Station by subway and about 3 km from both the Endeavor Hero Agency and the Commission Headquarters: a scramble crossing under giant screens, an avenue of hero billboards and a row of flagship department stores, with side streets of cafes, karaoke boxes, ramen counters, game centers and hero goods shops around them. It is public ground, patrolled by the Tokyo Metropolitan Police from a corner police box and by the agencies that work the area, and heroes treat it as a stage: an arrest here can reach the evening news within the hour. Top pros pass through often; Mirko lands on Billboard Avenue whenever a fight draws her, and Edgeshot and the armored veteran Yoroi Musha are regular sights along the department-store row. Office workers and shoppers fill it from morning until the last trains; tourists, students and hero fans come on weekends, and the side streets stay busy late into the night. The stores open at 10 a.m. and close at 8 p.m.; the bars and the screens run long after. Using a Quirk in public without a license is illegal here, as everywhere, and street cameras cover every corner. Players can shop, eat, meet contacts, take part-time work in shops and cafes, hand out flyers, patrol as a licensed hero, sell footage of heroes, or chase pickpockets through the crowd. The district's subway station opens straight onto the crossing. The noise never drops: crossing chimes, advertising jingles, shop announcements and thousands of footsteps.",
+    "hiddenInfo": "A fan account posts live sightings of famous heroes around the crossing, and a pickpocket crew uses it to work wherever the heroes are not: three or four of them, one with a Quirk that dulls the feel of a hand in a pocket, working the crowds whenever the account puts a hero at the far end of Billboard Avenue. Rookie heroes pay informants for early tips on incidents near the big screens, and at least one informant has started causing small incidents so they have something to sell: a car alarm here, a staged shoplifting there, and lately a trash-can fire that got closer to a crowd than intended. The ward office wants crowd-control rules after two agencies scuffled over who made an arrest in front of the cameras, and the police blame heroes who play to the crowd. Mirko ignores all of it and goes where the fight is; Edgeshot has noticed the staged incidents and is quietly noting who arrives first at each one. The news that All Might now teaches at U.A. Academy has set off a buying craze: vans selling unlicensed All Might teacher goods park near the crossing and move every hour to stay ahead of the police, and the department stores' licensed counters are losing sales to them. Yoroi Musha's event appearances draw an older crowd who have followed him for decades; the stores pay well for them, and he never takes the helmet off.",
+    "x": 11.8,
+    "y": -13.68,
+    "radius": 1.5,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Scramble Crossing": {
+        "description": "A huge intersection where every crosswalk opens at once when the lights change, about every two minutes, and thousands cross in all directions. Giant screens on four buildings show news, hero clips and ads, and the subway exits pour more people onto every corner. Commuters own it at rush hour, tourists and fans at midday, and night crowds after dark; police watch from a corner box, and licensed heroes stand on the corners to be seen and photographed. When an incident starts, the crowd turns and raises its phones before anyone runs. A chime sounds each time the signal changes, and street performers and flyer handers fight for the same patch of sidewalk until the police move them on. People meet under the biggest screen, and the line on the stairs of the coffee shop overlooking the crossing never ends. One side opens onto Billboard Avenue, lit by hero faces ten floors high; the other leads to the row of Department Stores.",
+        "paths": [
+          "Billboard Avenue",
+          "Department Stores",
+          "Rooftop Bar",
+          "Twenty-Four-Hour Manga Cafe",
+          "Ramen Alley"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e93920b0-9ecf-40e0-902a-631497cbf675.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Billboard Avenue": {
+        "description": "A wide avenue of high-rises covered in hero advertising: All Might's grin across the tallest tower, Endeavor's flames ten floors high, Best Jeanist in denim, Hawks with his crimson wings spread over a sports-drink ad, and newer faces such as Mount Lady and Kamui Woods on fresh boards. Agencies rent the boards by the month, and fans photograph each change. Hero goods shops fill the ground floors, selling figures, trading cards and replica capes, and are busiest on weekends and after classes let out. Mirko is a frequent sight here, dropping onto the median from a rooftop when a fight draws her and leaving the same way. The boards stay lit all night, so the avenue never gets dark, and people waiting at the lights argue about the rankings out loud. Street sweepers come through at dawn, the only hour the sidewalks are empty. The avenue runs back to the Scramble Crossing.",
+        "paths": [
+          "Scramble Crossing",
+          "Underground Nightclub",
+          "Hero Theme Cafe"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/641b05d4-8a20-4b8f-aa2e-5971b3c2822f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Department Stores": {
+        "description": "A row of flagship department stores, eight to ten floors each, with basement food halls, fashion floors and rooftop gardens. Hero collaboration counters sell licensed goods, and agencies hold signings and promotional events on the event floors on weekends; Edgeshot and the armored veteran Yoroi Musha are often seen here, on patrol along the row or as guests at events. Office workers buy lunch in the basements at noon, and families shop on Sundays. Staff bow to the first customers at 10 a.m., the basement halls mark down boxed meals in the last hour, and a closing melody plays fifteen minutes before the doors shut at 8 p.m. Guards in white gloves watch the jewelry floors, and store detectives work the crowds in plain clothes. The rooftop gardens are quiet, with benches and a small shrine. The basements smell of grilled eel, fresh bread and sweets, and the row's main doors open back onto the Scramble Crossing.",
+        "paths": [
+          "Scramble Crossing",
+          "Theater Row"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9bf1809b-e1c1-4c48-baac-358981d54b85.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Underground Nightclub": {
+        "description": "A basement club under an office building off Billboard Avenue, reached by a steep stairway papered with flyers, past a door where two broad bouncers check IDs and stamp hands. Below is one long black room: a bar of backlit bottles, a sunken dance floor, a DJ booth on a riser, curtained booths at the back and a sound system that pushes bass through the floor into the ribs. Entry is about 3,000 yen with a drink ticket on weekends, less on weeknights; it opens at ten and runs until five, so most people who come stay for the first trains. Office workers, students and tourists fill it on weekend nights, and the odd rookie pro comes in street clothes, hoping to be recognized. Touts on the street steer people toward it on commission, and closing time brings shoving matches on the stairs that the bouncers end fast. The house rule, printed above the door, is no Quirk effects on the floor however good they would look, and one bouncer has hands large enough to carry a grown man up the stairs by the collar. The air is sweet with fog fluid and spilled cocktails. The stairway climbs to Billboard Avenue, and a back exit opens into the Ramen Alley.",
+        "paths": [
+          "Billboard Avenue",
+          "Ramen Alley"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7f1398d4-2a5e-4516-ab75-372cec23e325.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Rooftop Bar": {
+        "description": "A bar on the roof of a hotel tower above the Scramble Crossing, reached by elevator from the hotel lobby, with a glass wind barrier, low sofas, heat lamps and a marble counter where bartenders in black vests shake cocktails. The giant screens on the surrounding buildings are close enough to light the tables in shifting colors, and from the rail the crossing turns into a river of heads, or umbrellas, every two minutes. Cocktails run about 1,800 yen with a seating charge after eight, and a dress code turns away sandals and tracksuits. Couples come at sunset; after work, agency staff, broadcast producers and executives talk business on the sofas, and weekend celebrations take the tables by the glass. Pros who want to be seen without being mobbed drink here, and the staff are trained not to stare or ask for photos; now and then a broker entertains a client in the far corner and pays in cash. A lit landing mark off the north edge is reserved for licensed heroes on a call, and everyone else, wings or not, takes the elevator. The crossing chime floats up thin and faint. The elevator returns to the hotel lobby on the Scramble Crossing.",
+        "paths": [
+          "Scramble Crossing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4d9fac5-f0cc-4bc5-b922-a442a67011d2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Theater Row": {
+        "description": "A pedestrian street behind the department-store row lined with theaters: a grand playhouse with a lantern-hung facade for kabuki, two mid-sized houses running musicals, a basement stage for comedy and a rakugo hall with a hand-lettered program board. Posters cover every wall, and this spring the biggest shows a hero musical, with a tall actor in a gold-and-blue costume striking All Might's pose. Matinees start at one and evening shows at half past six; tickets run from about 3,000 yen at the comedy house to 15,000 for the best seats at the kabuki, and a same-day booth on the corner sells returns at a discount and has a line by noon. Retirees fill the matinees; office workers hurry in still in suits; between shows, actors in half makeup buy rice balls at the corner convenience store. Flying scenes and fire effects come from wires, harnesses and machinery, since the theaters will not risk the permit process for Quirk effects on stage. Fans wait at the stage doors with bouquets, and a uniformed attendant keeps them in a neat line. The street smells of roasted chestnuts from a cart. At its end it opens back onto the Department Stores.",
+        "paths": [
+          "Department Stores"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c0072723-d54c-412e-ae7f-575ef35bcf7c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hero Theme Cafe": {
+        "description": "A themed cafe on the second floor above a hero goods shop on Billboard Avenue, decorated as an agency dispatch room: a big wall map of Tokyo with blinking pins, a mock dispatch radio, replica costumes in glass cases and staff in sidekick-style uniforms who greet each table as a new recruit. The menu is all puns: latte art of hero faces, a tall red-white-and-blue parfait for All Might with a gold wafer for his hair, a curry named for Endeavor that comes with a heat warning, a winged omelet for Hawks and a denim-blue soda for Best Jeanist, each with a random collectible coaster. A drink and dessert run about 1,800 yen, seatings last ninety minutes, and fans trade coasters by the door to finish their sets. Tourists, couples, collectors and student groups make up most of the crowd, and agencies pay for limited-time menus when their heroes climb the chart. Every hour the staff stage a mock emergency call, and the whole room shouts the response on cue. A rule card on each table asks guests not to use Quirks to snatch coasters or chill their drinks. It smells of syrup and espresso. A narrow stairway leads back down to Billboard Avenue.",
+        "paths": [
+          "Billboard Avenue"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/317db490-ef4e-4e57-8903-954f61b03be4.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Twenty-Four-Hour Manga Cafe": {
+        "description": "A manga cafe filling three floors of a narrow building just off the Scramble Crossing, open around the clock: a front desk where a clerk checks ID and hands out a booth number, floor-to-ceiling shelves holding tens of thousands of manga volumes, a free drink bar, a soft-serve machine and long rows of private cubicles with reclining chairs or flat mats, a computer and a thin door. Time is sold in packs, about 500 yen for the first hour and a night pack from ten to eight for under 2,000 yen, with showers and blankets for rent. Afternoons bring students and office workers killing time with a stack of hero manga; after the last train it fills with people who missed it and travelers saving on a hotel, plus a quieter set who live here week to week and keep everything they own in a bag under the desk. The cubicle floors stay dim, voices drop to whispers, and the house rule is no phone calls inside the booths. A hero-news ticker scrolls across the computer screens, and the night clerk knows which regulars to wake in time for their shifts. It smells of instant noodles, shampoo and paper. The front desk opens onto the Scramble Crossing.",
+        "paths": [
+          "Scramble Crossing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/06e22b93-aeeb-46e9-b5f4-1b62d0dc685c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Ramen Alley": {
+        "description": "A narrow passage under the elevated rail tracks a block from the Scramble Crossing, lined with about a dozen ramen counters packed shoulder to shoulder under the arches: a soy-broth shop with a forty-year line, a spicy miso counter, a dipping-noodle place and a counter whose pork broth simmers for two days. Meal-ticket machines stand by every door, bowls run about 900 to 1,400 yen, and some counters have only six stools. Office workers come at noon in waves; tourists photograph their bowls in the afternoon; after the bars close, clubbers, cab drivers and night-shift workers fill the stools until the last counters shut near dawn. Trains rumble overhead every few minutes and shake the steam above the pots. Cooks call out orders in rhythm, and the unwritten rule is to slurp, eat fast and give up the stool. A row of signed boards from pro heroes hangs in the oldest shop, Endeavor's among them, and the owner says he finished his bowl without a word and never smiled. Steam, pork fat and charred garlic hang in the air. One end opens onto the Scramble Crossing; at the other, a back door leads down into the Underground Nightclub.",
+        "paths": [
+          "Scramble Crossing",
+          "Underground Nightclub"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b7d6c90e-1693-430b-81f1-0e4996eb8ed0.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2e6f66e7-abfd-43f7-bc5f-4d5d18614ed7.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

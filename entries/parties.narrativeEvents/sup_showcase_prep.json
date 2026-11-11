@@ -1,0 +1,15 @@
+{
+  "sup_showcase_prep": {
+    "title": "Festival Showcase Prep",
+    "beats": "The last days before the Sports Festival, afternoons in the Development Studio at U.A. Academy. For the Hero Course the festival is a stage for agency scouts; for the Support Course it is a showroom. Support companies send scouts to the stands, the festival rules let Support students compete with gear they built themselves, and every second on the national broadcast is free advertising. Power Loader has posted a sign-off sheet: anything going into the stadium is tested here first, in the cage, with him watching.\n\nDefault course, as pressure the player can change: Mei Hatsume has a plan for every event and a baby for every plan, and she lays it out for anyone in range: hover soles for a race, a jet pack for whatever comes next, a grappling arm, a sensor visor, each tagged with the company she wants to notice it. Winning matters to her only as a way to be seen winning with her gear. She tries to recruit the party as a teammate, a test pilot or a walking display stand. Power Loader sends half her list back for missing cutoffs and unshielded batteries, then signs the rest with a sigh, because it is good work.\n\nA Support Course party decides what to bring and why. It can build one thing that works every time, chase a showpiece that might fail on live television, or design something for a Hero Course student who asked for help, though the rules on Hero Course students using others' gear are strict and Power Loader makes the party read them twice. It can fight Hatsume for the cage's test slots, team up with her, or keep its own design secret until the day. A failure in the cage is cheap; a failure in the stadium is national.\n\nNothing about the festival's events or results is decided in this scene.\n\nThe event is complete when the party's festival gear passes Power Loader's sign-off, or the party decides to go in without any.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_sup_showcase_prep",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

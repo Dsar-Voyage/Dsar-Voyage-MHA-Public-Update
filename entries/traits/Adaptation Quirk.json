@@ -1,0 +1,40 @@
+{
+  "Adaptation Quirk": {
+    "name": "Adaptation Quirk",
+    "description": "🦎 Your body changes itself to survive whatever is hurting it, and you don't get to choose how.\n\n🌱 At the start the first blow, burn or breath of gas lands normally; by your next turn your body grows one answer to it: a layered hide that halves those hits, or gill slits and filtering lungs that breathe water, smoke or gas.\n📈 With training: hold two adaptations (three at mastery), eyes and ears that adapt to dark, smoke and din, grip pads and webbing for walls, falls and floods, carrying people through fire or flood, clinches a foe can't break, and calling up a trained adaptation from memory.\n⏳ Adaptations fade about ten minutes after the danger ends, and a new threat replaces the oldest one. Training one many times makes it come faster and stronger, never permanent.\n⚠️ Fast attacks land before it forms, it never copies or resists Quirks themselves or heals wounds fast, and under heavy Strain your body overcorrects into the wrong change.\n🔗 Common drawback pairing: Loss of Control, because your body picks its own changes.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Endurance +1, Quirk Stamina +10, Quirk Analysis +10, Survival +5\n⚡ Starting techniques: Weathered Hide, Filter Lung",
+    "traitNarrativeEffects": "Scale: threats and hazards reshape the body unbidden: hide, gills, fire- or shock-proof skin, filter lungs, night pupils, cold fat, slow blood, grip pads. The first hit, burn or breath lands; the change forms by next turn's end. Holds one (trained two, master three), newest replacing oldest; fades ten minutes after danger; training: faster, stronger, never permanent. Limits: the body picks; fast attacks beat it; never on command unexposed; physical only: no Quirk copying or resisting, fast healing, chosen animal parts; aids others only indirectly (shield, carry, breathe for them). Quirk Strain: light: reactive hide, lung shift; moderate: adapted senses, self-exposure, terrain shifts; heavy: hazard rescue, clinch; severe: signature surge, memory recall; heavy Strain overcorrects (wrong trait, stiff growths). Type: Transformation. Law: involuntary adaptation is lawful; public provoking, or unlicensed striking or pinning with it, is assault. Look: plates, gills, pads.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Survival",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Weathered Hide",
+      "Filter Lung"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

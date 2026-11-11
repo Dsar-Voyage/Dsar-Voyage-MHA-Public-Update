@@ -1,0 +1,25 @@
+{
+  "Undertow Transit": {
+    "name": "Undertow Transit",
+    "description": "The user sinks fully into the ground, crosses phased under streets and through whole buildings, and lets the Quirk shove them back out of matter at any spot they choose within a city block, on a rooftop or inside a sealed room. If they rise beside a target, their blow lands before the target can turn and deals heavy bludgeoning damage; held back, it only knocks the target down. The user travels blind and deaf, working from a layout they know, and afterward cannot phase until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

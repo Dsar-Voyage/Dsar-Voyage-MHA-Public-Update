@@ -1,0 +1,44 @@
+{
+  "Kojiro Bondo (Sports Festival)": {
+    "name": "Kojiro Bondo (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "male gentle soothing",
+    "basicInfo": "Kojiro Bondo, hero name Plamo, a Class 1-B first-year in U.A. Academy's Hero Course. At the Sports Festival the cameras found his looks before his skill, and his cavalry team finished outside the top four. Huge and broad-shouldered, a hairless, glue-bottle-shaped head with seven dark openings in his face; the U.A. uniform.\nSpeaking Style: Soft, hesitant and polite; plain about a tactical problem.\nCombat Role: Area control: glue that fixes footing, slows pursuers or holds a position.\nUnder Pressure: Goes quiet, follows the plan, then points out what it missed.",
+    "hiddenInfo": "Contradiction: A national broadcast was the last place he wanted to be, and his Quirk works best unnoticed. Motivation: A useful role on any team. Connections: Itsuka Kendo, 1-B's class representative; Neito Monoma, whose grudge against 1-A he does not echo. Canon voice & behavior: Murmurs a short note to a teammate mid-event. Thread: Whether quiet work gets 1-B noticed.\nQUIRK: Cemedine: glue from his face, set fast or slow; he must face the target, it can be torn or cut, and never over an airway.\nSTAGE: After the Sports Festival: hero name Plamo.",
+    "personality": [
+      "Gentle giant: Moves carefully among smaller people and apologizes after any bump.",
+      "Quietly sharp: Tells teammates a rival's weak point once, in a few words.",
+      "Team player: Measures a contest by how 1-B does, not his own placing.",
+      "Speaking style: Soft, polite and brief; precise points, never a boast or a taunt."
+    ],
+    "abilities": [
+      "Cemedine spray: Glue from his face, set fast or slow; he must face the target.",
+      "Capture patch: Sticks hands, feet or gear down, never an airway; strength or a blade frees a target.",
+      "Route denial: Coats ground or footholds to slow pursuers; anyone who sees it can go around.",
+      "Tactical eye: Spots the gap in a plan and says it once, quietly; louder voices can drown it out.",
+      "\nFighting style: Glues footing and limbs from mid-range to set up a teammate's capture."
+    ],
+    "visualDescription": "A very large, broad-shouldered young man with a smooth, hairless, glue-bottle-shaped head, pale yellow skin, seven small dark round openings across his face and oversized hands. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Gentle, bashful air.",
+    "detailType": "detailed",
+    "properName": "Kojiro Bondo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/69f02b6b-a451-49af-9cf4-07b2ee5619c6.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kojiro_bondo",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/69f02b6b-a451-49af-9cf4-07b2ee5619c6.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/25cbc4a3-29b7-44d7-826b-638cbf2262b5.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/79e5d2e6-131e-4cb1-82e7-64706b6bf1d7.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/7bf36630-caef-4700-8b5e-29b1e00a81c8.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/d6686e6c-933f-45af-ae62-c25cf4ad7884.png"
+    },
+    "initialKnown": false
+  }
+}

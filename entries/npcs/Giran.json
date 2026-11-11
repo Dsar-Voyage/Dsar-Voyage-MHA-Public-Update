@@ -1,0 +1,35 @@
+{
+  "Giran": {
+    "name": "Giran",
+    "type": "Villain",
+    "currentLocation": "Yokohama Harbor District",
+    "currentArea": "Chinatown Streets",
+    "gender": "male",
+    "faction": "Villain Brokers",
+    "level": 6,
+    "tier": "average",
+    "voiceTag": "male sly manipulative",
+    "basicInfo": "Giran, the best-known broker in Japan's underworld, who sells introductions, muscle, hideouts and illegal gear to anyone and takes no side. A lean, sharp-dressed man; slicked-back dark hair, a short beard, a dark suit, a cigarette in hand.\nSpeaking Style: Smooth, unhurried patter about terms and prices; never names one client to another.\nCombat Role: Not a fighter; keeps hired muscle and an exit close.\nUnder Pressure: Smiles, offers a deal and slips out the back.",
+    "hiddenInfo": "Motivation: Money, and being too useful to remove. Concealment: Keeps his records far from the Chinatown restaurant where he meets buyers. Leverage: Debts owed to him; threats to his records. Connections: Kurogiri, buying for the League of Villains, a new client with money and big talk; small-time villains and smugglers across the port. Knowledge: Who is for hire and who owes whom; never who stands behind a client. Thread: Whether he can stay neutral if one client grows big enough to own the trade.\nQUIRK: Never shown; contacts are his power.",
+    "personality": [
+      "Cynical: Expects most clients to fail and prices the risk in.",
+      "Opportunist: Makes sure a rising villain owes him early.",
+      "Neutral: Stays out of every client's feuds.",
+      "Speaking style: Smooth patter about terms and prices."
+    ],
+    "abilities": [
+      "Introductions: Matches villains to clients; staffs a job in days if the money is right.",
+      "Black market: Hideouts, forged IDs and unregistered support gear; quality follows the price.",
+      "\nFighting style: Never fights; pays, talks or slips away."
+    ],
+    "visualDescription": "A lean, middle-aged man with slicked-back dark hair, a short dark beard along his jaw, heavy-lidded, calculating dark eyes and lightly tanned skin. He wears a sharp, well-cut dark suit over an open-collared dark shirt, with a lit cigarette between two fingers. Relaxed, knowing half-smile; the look of a businessman who is never in a hurry.",
+    "detailType": "detailed",
+    "properName": "Giran",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/907d678f-34fd-4c9c-b6cf-cc570ab78dbb.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_giran",
+    "initialKnown": false
+  }
+}

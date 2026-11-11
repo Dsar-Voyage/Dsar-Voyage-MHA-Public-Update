@@ -1,0 +1,30 @@
+{
+  "Tartarus Waters": {
+    "name": "Tartarus Waters",
+    "basicInfo": "Open Pacific water about 55 kilometers south of the Izu Peninsula's tip, among the scattered Izu Islands. The maximum-security prison Tartarus stands alone on a small volcanic island behind high sea walls: black rock cliffs rise straight out of the swell, the walls follow the shoreline, and above them show a radar mast, floodlight towers and a helipad, while the prison itself is built down into the rock. The island is reached only by the armored transfer boat from the Tartarus Transfer Port, a crossing of about two hours, or by helicopter from the same port. The crossing is a long gray run over open water: the peninsula's cliffs fall away behind, other Izu Islands with their own fishing villages and ferry harbors pass as dark shapes to either side, and for the last stretch the prison island is the only thing on the horizon, growing from a smudge into a wall of rock and concrete with a single floodlit landing cut into its northern side. Only staff and guards live on the island, on long rotations, and supplies come out on scheduled boats. Around it lies a police exclusion zone: patrol boats turn back fishing boats, yachts and anything else that strays inside, and no one lands without written authorization, an escort and repeated searches. There is nothing here for tourists and no way to visit casually. The sea is deep and rough, with strong currents, long swells, fog in early summer and typhoons from late summer into autumn; on bad days the transfer boat does not sail and the island waits. Seabirds nest on the cliffs, dolphins sometimes follow the boat, and the only lights at night are the prison's floodlights and the patrol boats' searchlights. A guard force under the National Police Agency runs the island and its waters, and the Hero Public Safety Commission vets everyone who works or visits there. To the public, Tartarus Waters is a blank space on the map where the worst villains in Japan go and do not come back. A player can come here only with a purpose and papers: escorting a prisoner on the transfer boat, working a guard rotation, crewing a patrol boat, or arriving for an approved interview.",
+    "hiddenInfo": "The exclusion zone is tighter on paper than at sea. In high seas the patrol boats stay in harbor and rely on radar, and small craft can sit just outside the line for hours before anyone hails them. The guard force is stretched by a full prison and longer rotations, supply boats run late in bad weather, and the island's crews have come to treat the sea itself as the strongest wall they have.",
+    "x": 0,
+    "y": -3,
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 20,
+      "max": 60
+    },
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/992eac2b-2b31-419b-aeeb-92c2339d8793.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

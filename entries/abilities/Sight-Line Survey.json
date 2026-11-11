@@ -1,0 +1,20 @@
+{
+  "Sight-Line Survey": {
+    "name": "Sight-Line Survey",
+    "description": "The user studies a room, a floor or a guarded lot and maps every camera angle, mirror, reflecting window and guard's line of sight, including hidden cameras and one-way glass. Until the end of the scene, the user can cross that space unseen by any of them, even in visible clothes, and can lead a single person along the same blind route. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

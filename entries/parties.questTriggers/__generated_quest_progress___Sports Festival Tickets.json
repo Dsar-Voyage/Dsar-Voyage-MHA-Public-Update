@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Sports Festival Tickets": {
+    "name": "__generated_quest_progress__/Sports Festival Tickets",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC holds a valid ticket, staff pass or stadium job that gets them into U.A. Stadium for the first-year Sports Festival."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Sports Festival Tickets"
+      }
+    ]
+  }
+}

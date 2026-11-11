@@ -1,0 +1,15 @@
+{
+  "Running Snare": {
+    "name": "Running Snare",
+    "description": "The user throws a weighted line, a capture cloth or a loop of tape around the legs of a target who is still running or fighting, yanks it tight and anchors the other end to a post, a railing or the user's own planted weight. The target falls and cannot use their legs, and pulling at the line does not free them: someone must cut them loose, or they must break it with a feat of strength or Quirk power. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

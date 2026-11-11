@@ -1,0 +1,28 @@
+{
+  "Sea off Echizen": {
+    "name": "Sea off Echizen",
+    "basicInfo": "Open Sea of Japan off the Echizen coast of Fukui Prefecture, west of Fukui city and north of the mouth of Wakasa Bay. No land falls inside it; the Echizen coast's dark cliffs lie just past the eastern edge, with Cape Echizen near the southeast corner and the columnar andesite cliffs of Tojinbo farther north. The water is shelf sea, a hundred to a few hundred meters deep, blue-green inshore and deep blue offshore, carried northeast by the Tsushima Warm Current. Summer is calm and clear; in some late summers and autumns, giant drifting jellyfish come in on the current and foul nets for weeks. Winter belongs to the northwest monsoon, with gray swells breaking white against the cliffs and wild narcissus blooming on the slopes above. This is the home water of Echizen crab, the prized male snow crab landed with a yellow tag at Echizen and Mikuni harbors from November to March, and of sweet shrimp, flatfish and squid. Long-distance car ferries from Tsuruga to Niigata and Hokkaido pass through. The coast guard works out of Tsuruga and Fukui, and Fukui's hero agencies cover the coast with a handful of members who can fly or swim long distances. A party could be on a ferry deck, a crab boat out of Echizen harbor, or in the air; Fukui is about two and a half hours from Musutafu.",
+    "hiddenInfo": "Crab season is serious money, and catches sometimes change hands quietly at sea to dodge quotas. Jellyfish years ruin nets and tempers, and crews blame each other. Beyond that the sea is quiet: weather and accidents are the real danger, and hero help from Fukui or Tsuruga takes an hour or so.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -6,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2e1dc9cc-5eec-41f6-bc51-04400d75de56.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

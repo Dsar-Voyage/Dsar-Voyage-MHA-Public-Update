@@ -1,0 +1,15 @@
+{
+  "more_choose_a_personal_future": {
+    "title": "More",
+    "beats": "Night in Musutafu Station District: the reunion breaks up outside the Family Restaurant, and friends begin their separate journeys. Izuku Midoriya lingers while Ochaco Uraraka walks toward the Convenience Store Corner. Years of work and genuine affection have still left things unsaid. There is time for one of them to turn back before the ordinary evening ends.\n\nThe canon default course, as pressure the player can change: Izuku recognizes that wanting to see everyone does not express everything he feels. He catches up with Ochaco and says plainly that he wants more time with her in particular. Ochaco acknowledges the same wish, and they reach for each other's hands. The movement is a mutual decision between adults, not a reward for winning the war or fulfilling an agency obligation.\n\nPrivately, what Toga meant to Ochaco helps her accept that her own happiness also deserves a place in her life. Any remembered encouragement belongs to Ochaco's experience, not a spirit speaking aloud to the street. Toga remains dead unless an earlier rescue changed that outcome. Neither party to this conversation gains automatic knowledge of the other's dreams or of private wartime encounters.\n\nLet the party give them space, offer a brief encouraging word if their friendship permits, or respond to a different choice produced by earlier play. A delay, refusal, or changed relationship is a real alternative; no outside character can consent for either of them. Their next days still include Izuku's teaching and armored work and Ochaco's counseling. This evening establishes mutual romantic intent by default, not a wedding, children, or an unwritten lifetime.\n\nBy Path at Musutafu Station District: Class 1-A and Class 1-B support old friends and make a personal commitment of their own; General Studies chooses a next ambition; Support and Management make time beyond work; Faculty chooses a life beyond institutional duty. Licensed Sidekick and Licensed Pro Hero balance service with a particular relationship. League of Villains Recruit and Independent Villain choose a future consistent with rehabilitation, custody, or continuing opposition; Vigilante chooses belonging and responsibility; Civilian Life defines the everyday life helped into being. A distant party makes its own commitment without overhearing this private exchange.\n\nThe event is complete when Izuku and Ochaco's mutual choice or earned alternative is clear and the party makes a concrete commitment for its own continuing life.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_more_choose_a_personal_future",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Blind-Side Cover": {
+    "name": "Blind-Side Cover",
+    "description": "The user calls a direction and shifts to guard a partner's blind side as the partner moves or attacks. Until the user's next action, the partner cannot be flanked, ambushed or hit from behind: any such attack has to get past the user first. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

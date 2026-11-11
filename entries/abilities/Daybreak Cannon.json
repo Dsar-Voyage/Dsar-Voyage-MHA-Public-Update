@@ -1,0 +1,25 @@
+{
+  "Daybreak Cannon": {
+    "name": "Daybreak Cannon",
+    "description": "The user's signature move: every bit of light in their body gathers at the emitting spot until it burns white, then leaves as a beam the width of a street. Everyone along its line takes massive light damage and cannot dodge it, and it bores through cars, walls and armor in its way; afterward the user goes dark and cannot make light until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

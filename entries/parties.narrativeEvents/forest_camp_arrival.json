@@ -1,0 +1,15 @@
+{
+  "forest_camp_arrival": {
+    "title": "Arrival at the Forest Camp",
+    "beats": "Early morning at U.A. Academy: the buses for Class 1-A and Class 1-B leave the main campus loaded with gear, Shota Aizawa riding with 1-A and Vlad King with 1-B. Hours later the 1-A bus stops at a mountain overlook. Mandalay and Pixie-Bob of the Wild Wild Pussycats strike a pose and give the team cry, \"Stingingly cute and catlike!\", with Kota Izumi, a small child, scowling beside them. Mandalay points across the valley to the Wild Wild Pussycats Lodge and says the class can reach it on foot in three hours. Pixie-Bob's Earth Flow then sweeps the whole class off the edge into Beast's Forest. The canon default course, as pressure the player can change: the forest is the Pussycats' private land, and Pixie-Bob's earth beasts hunt the class through it all day; the students fight and cooperate their way across and stagger into the lodge late in the afternoon, eight hours later, starving. At the lodge Ragdoll and Tiger serve dinner, Kota meets Izuku Midoriya with open contempt for anyone who wants to be a hero, and Mandalay quietly explains that his parents were heroes killed on duty. Aizawa announces that training starts at dawn.\n\nA student party is dropped into Beast's Forest and chooses routes, partners and how to beat the earth beasts. A faculty party rides the buses and watches from the overlook. A pro party can be with the Pussycats at the lodge. A villain party can only scout from far off; the camp's location was kept quiet. Kota is a child and is always shown as one.\n\nThe event is complete when the classes reach the lodge and sit down to dinner.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_forest_camp_arrival",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

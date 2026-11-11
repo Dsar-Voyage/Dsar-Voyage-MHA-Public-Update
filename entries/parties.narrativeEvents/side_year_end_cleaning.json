@@ -1,0 +1,15 @@
+{
+  "side_year_end_cleaning": {
+    "title": "Year-End Cleaning",
+    "beats": "The last days of the year, morning to afternoon at U.A. Academy: osoji, the year-end deep clean. Tenya Iida has posted a chore roster in the Class 1-A Dorm Lounge, color-coded by floor and countersigned by Momo Yaoyorozu, with a name beside every surface from the kitchen vents to the bath tiles. Next door, Itsuka Kendo has given Class 1-B a fair rotation and taken the laundry room drains herself.\n\nDefault course as pressure: the roster holds until the lost things start turning up. Katsuki Bakugo, whose room is already spotless, inspects the Dorm Kitchen and orders it done again properly. Under the lounge sofa: a missing remote, three of Denki Kaminari's phone chargers and a homework sheet from April. Minoru Mineta's room fails Iida's inspection twice, and a stack of idol magazines goes into a box for recycling over loud protest. The party finds something of its own from the year, a note, a broken gadget or a photo from the Sports Festival, and has to decide whether to keep it. Neito Monoma times 1-B's finish against 1-A's and announces the result through the wall.\n\nElsewhere on campus, the Development Studio is the worst job of all: Mei Hatsume refuses to throw away a single baby, and Power Loader negotiates with her one shelf at a time. In the Other Course Dorm Halls, General Studies, Support and Management students share mops and a rotation nobody wrote down; Hitoshi Shinso quietly finishes the stairwell nobody claimed. In the Faculty Office the teachers clear their own desks: Shota Aizawa's sleeping bag finally goes through the wash, Present Mic cleans to music played far too loud, and Principal Nezu inspects every shelf over a cup of tea.\n\nBy path: a Hero Course student takes a line on the roster; a student of another course cleans the shared halls or the studio; faculty clear the office and sign off the classrooms.\n\nThe event is complete when the roster is all ticked off and the campus sits clean for the New Year.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_year_end_cleaning",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

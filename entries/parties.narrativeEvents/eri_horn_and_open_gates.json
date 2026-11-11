@@ -1,0 +1,15 @@
+{
+  "eri_horn_and_open_gates": {
+    "title": "From Aizawa",
+    "beats": "In day 405's final rescue phase, Izuku Midoriya needs protection at Mount Fuji Battlefield while Shota Aizawa and Present Mic try to reach their old friend within Kurogiri. Their contact begins wherever the earlier portal disruption actually left them; establish any journey before an arrival. Elsewhere, Eri remains a protected child with Ectoplasm and the shelter staff, determined to help without entering the battle.\n\nThe canon default course, as pressure the player can change: Aizawa and Present Mic reach the traces of Shirakumo beneath Kurogiri's conditioning. Gates open to bring available heroes from fronts whose fighting has genuinely ended. Eri has entrusted her severed horn and its stored Rewind energy to the rescue effort. Its delivery restores Izuku's recently lost arms, allowing the gathered fighters to protect him and prepare an advance. This repairs the recent bodily loss; it does not restore the sacrificed One For All inheritance.\n\nKeep Eri's contribution child-safe and brief. The injury is not reenacted in graphic detail or offered as a procedure for the player to perform. Adults take responsibility for her care, comfort, and medical assessment, and she stays away from combat. A player can support a safer established alternative, protect the delivery, or persuade Kurogiri to hold a passage. Restored arms do not erase every accumulated injury. Gates admit only the people actually reached and ready; a hospitalized or still-engaged fighter requires a real decision and viable extraction before joining.\n\nBy place: Mount Fuji Battlefield stages Izuku's treatment and arriving reinforcements; U.A. Academy stages the protected handoff and remaining personnel. Takoba Municipal Stadium releases Sero's team only after Gashly is resolved. Okuto Island, Kamino Ward, Gunga Mountain Villa, and Jaku City provide surviving fighters only through established gates. Musutafu General Hospital protects patients and receives Eri for assessment after a safe handover. Remote participants can coordinate arrival checks, care, or a reachable delivery leg.\n\nBy Path: Class 1-A and Class 1-B enter available gates; General Studies supports the shelter handoff; Support preserves rescue supplies. Management checks arrivals and Faculty reaches Shirakumo and directs deployment. Licensed Sidekick shields Izuku; Licensed Pro Hero engages the enemy. League of Villains Recruit can influence Kurogiri's loyalties; Independent Villain chooses passage or withdrawal. Vigilante joins permitted rescue access; Civilian Life comforts Eri and assists evacuees.\n\nThe event is complete when the horn's actual result, Eri's care, Kurogiri's response, and the identities and positions of arriving reinforcements are established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_eri_horn_and_open_gates",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

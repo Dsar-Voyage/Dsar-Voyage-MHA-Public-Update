@@ -1,0 +1,40 @@
+{
+  "Copy Quirk": {
+    "name": "Copy Quirk",
+    "description": "🪞 You copy other people's Quirks by touch.\n\n🌱 At the start bare skin contact lends you a person's Emitter or Transformation Quirk for a few minutes at a beginner's level, enough to turn it on its owner's attacks.\n📈 With training: riding copied movement, tracking a Quirk to its owner, rescues beside the heroes you copy, several copies, a copy at full power, every copy fired in turn.\n⚠️ You hold one copy at a time, without its owner's practice or stored power; Mutant features and Quirkless people give you nothing.\n🔗 Common drawback pairing: Time Limit, as copies run out early.\n🎬 Similar canon Quirks: Neito Monoma (Copy).\n\n📈 Grants: Intelligence +1, Quirk Analysis +10, Quirk Control +10, Insight +5\n⚡ Starting techniques: Borrowed Touch, Like for Like",
+    "traitNarrativeEffects": "Scale: skin-to-skin touch copies a person's Quirk. New adult user: one copy at a time, about five minutes, at beginner level (basic effect, without the owner's practice or stored power); a new copy replaces the old; the owner keeps theirs. More needs techniques. Limits: no Mutant features or anything needing a body part the user lacks; Quirkless people give nothing; gloves and armor block the touch; copies lack the matching body (copied fire can burn the user's hands). Quirk Strain: light: taking a copy, answering its owner, plus the copy's usual cost; moderate: riding a copied movement, tracing an owner, shared rescue; heavy: several copies, opening one fully; severe: signature sequence, splicing two copies. Type: Emitter. Law: copying without consent is unlawful Quirk use; a copy used in a crime points police at its registered owner until they check for copiers. Look: a palm ring in the player's color flashes as a copy takes; then the Quirk shows as on its owner.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Borrowed Touch",
+      "Like for Like"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

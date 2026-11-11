@@ -1,0 +1,30 @@
+{
+  "U.A. Campus": {
+    "name": "U.A. Campus",
+    "basicInfo": "The forested hill country just north and northeast of Musutafu, rising from the edge of town toward the eastern foothills of Mount Fuji: cedar and oak woods, tea terraces on the lower slopes, farm hamlets, a reservoir lake and forest roads toward Hakone. Spring brings mist off the foothills every morning, June the rainy season, summer heavy heat and cicadas, autumn typhoons and red maples, winter clear cold days with Fuji white above the trees. Most of the hill belongs to U.A. Academy, Japan's national hero academy, and all of it is closed ground. Its Main Gate stands about 3 kilometers northeast of Musutafu Station, ten minutes by city bus, where a tree-lined boulevard climbs from the last town blocks to a gate plaza and bus terminal. A security wall runs through the forest around all of U.A.'s land, and the Main Gate is the only way in: sensors in the gateposts read every student ID, faculty ID and visitor pass, and anyone without one brings down the U.A. Barrier, thick steel panels that seal the opening. Visitors need an appointment, sign in at the gate's security office, wear a day pass and are met by the person they came to see. Behind the wall lie the main campus with the H-shaped glass main building, the Faculty Residence, the Heights Alliance dorms and Gym Gamma; U.A. Stadium in its own walled park beside it; and, spread up the hill, each behind its own wall and locked gate, Training Ground Gamma about 1 km west, Ground Beta about 1.5 km northwest and six more mock cities, and high in the forest about 3 km north-northeast the Unforeseen Simulation Joint (USJ). Campus buses leave the bay in the Courtyard and run the winding campus roads between the walled sites on class days. A training site opens only when a class or a teacher has booked it through the Faculty Office, and stands locked and empty otherwise. Quirk use on U.A. ground is allowed only in a supervised class or a booked, supervised session; anything else lands a student in front of Hound Dog, the disciplinarian. Every teacher is a working pro hero, those on call live in the Faculty Residence, and teachers walk rounds at Heights Alliance after dark. Every student lives in Heights Alliance: curfew falls each night, anyone caught out after it earns house arrest and cleaning duty, and leaving campus means signing out on the dorm's sheet, since the Main Gate passes only signed-out students and a missing sign-out reaches the homeroom teacher by morning. Signed-out students ride the city bus down to Musutafu Station or walk the boulevard in about forty minutes, and Sunday evening is the gate's busiest hour. Outside the wall the hill is ordinary country under the prefectural police: the Musutafu Police Headquarters on the city's northwestern edge, about 3.5 km northwest of the station, and the Todoroki family's walled estate on the wooded rise to the east, about 6.5 km east of the main campus, open to guests by invitation only. U.A. is the hill's great employer, and repair crews, drivers, cleaners and suppliers come up from town each morning. Mornings bring the chime carrying down to the town; weekday afternoons, campus buses run the forest roads between the training grounds.",
+    "hiddenInfo": "The wall runs for kilometers through the forest, and away from the Main Gate it is watched by cameras and sensors rather than people; the Barrier stops anyone who walks up to it, not a Quirk that flies, digs or opens a way through space. The farther training sites, the USJ above all, depend on phone and alarm lines back to the main campus and are at least ten minutes from help by road. Faculty are working heroes, so on nights when several are out on patrol or on cases, fewer teachers are on the hill than the public imagines. Since All Might joined the faculty the whole country watches U.A., and every gap in its routine is worth more to an outsider than it was a year ago.",
+    "realm": "Japan",
+    "factions": [
+      "U.A. Academy"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 40
+    },
+    "x": 0,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f845a7d4-e484-4737-8748-f5f813bebd80.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

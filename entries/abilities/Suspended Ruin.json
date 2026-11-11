@@ -1,0 +1,25 @@
+{
+  "Suspended Ruin": {
+    "name": "Suspended Ruin",
+    "description": "The user locks the motion of something enormous that is already falling or sliding, a collapsing building, a derailing train or a landslide across a street, and holds it in place for up to ten minutes instead of a heartbeat. Everyone beneath or inside it can be led or carried out while it hangs. The user cannot move, speak or use any other technique while holding it, and when they let go or are struck hard, everything resumes its fall at the speed it had, so the user must call the danger zone out to rescuers. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

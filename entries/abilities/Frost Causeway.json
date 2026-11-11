@@ -1,0 +1,20 @@
+{
+  "Frost Causeway": {
+    "name": "Frost Causeway",
+    "description": "The user lays a ramp of ice ahead and slides along it as it forms, climbing to a rooftop, crossing a street-wide gap or curving down safely from a height. The causeway stays behind until it melts, so others can cross it on foot or slide down it to safety. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

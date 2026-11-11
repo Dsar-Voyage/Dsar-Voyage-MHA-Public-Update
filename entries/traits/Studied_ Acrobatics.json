@@ -1,0 +1,20 @@
+{
+  "Studied: Acrobatics": {
+    "name": "Studied: Acrobatics",
+    "description": "🤸 You trained in gymnastics, trampoline, dance or a circus school, and you know how to tumble, balance and land.\n\n🌱 Flips, handsprings, balance on narrow surfaces and breakfalls. Knocked off a ledge, you turn and land instead of crashing.\n⚠️ Great heights, landing with a passenger and aerial moves in the middle of a fight are still dangerous.\n⚖️ It is no professional certification, and stunts on public structures still draw police warnings.\n🏫 It shows in your posture, your flexibility and the reflex to tuck and roll.\n\n📈 Grants: Acrobatics +15",
+    "traitNarrativeEffects": "The character has trained in acrobatics: flips, handsprings, balance on narrow surfaces, twists in midair and breakfalls that spread an impact across the body. Thrown or knocked off a ledge, they turn and land instead of crashing. Prior study, not mastery: falls from a great height, landing with a passenger and aerial work in the middle of a fight are still dangerous. Not a license: it is no professional certification, and stunts on public structures still draw police warnings. It shows in posture, flexibility and the reflex to tuck and roll.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Acrobatics",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

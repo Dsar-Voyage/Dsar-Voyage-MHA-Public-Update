@@ -1,0 +1,20 @@
+{
+  "Mind's-Eye Feed": {
+    "name": "Mind's-Eye Feed",
+    "description": "The user sends what they see, or what a single ally sees, into the minds of a handful of chosen people. Until the end of the user's next turn those people see through those eyes alongside their own, so they can run through smoke or darkness without losing the way and aim at a target only the seer can see. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

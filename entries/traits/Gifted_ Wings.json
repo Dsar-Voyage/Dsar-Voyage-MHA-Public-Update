@@ -1,0 +1,32 @@
+{
+  "Gifted: Wings": {
+    "name": "Gifted: Wings",
+    "description": "🧬 Wings, as an extra Quirk put into your body.\n\n🌱 At the start you take off onto rooftops and across rivers, glide down from any height, and beat a gust that pushes people back and clears smoke.\n📈 With training: people carried out, scenes read from above, diving strikes, steered feathers, a group sheltered, a street swept in one pass, a burning tower cleared.\n⚠️ Rain, wind and low ceilings ground you.\n🔗 Common drawback pairing: Bodily Toll, as hard flying tears at the muscles of your back.\n🎬 Similar canon Quirks: Hawks (Fierce Wings).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Wings family): Scale: wings about twice the user's height tip to tip, feathered unless the player chose leathery or insect. At first: a few blocks at a time at about a car's town speed, a rooftop in seconds, gliding down from any height; carrying an adult or long flight needs a learned technique. Limits: indoors, in alleys or under low ceilings, hops and glides only. Rain, wind and cold slow or ground them; a hurt, netted or grabbed wing downs them. Only feathered wings shed and steer feathers, by technique; a suppressing stare drops steered feathers, never the wings. Quirk Strain: wings themselves cost nothing; light: takeoff, gust; moderate: carry, overwatch, dive; heavy: steering feathers, sheltering people; severe: signature pass, clearing a burning tower. Type: Mutant. Law: wings break no law, but unlicensed public flight is unlawful Quirk use and diving on a person is assault.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

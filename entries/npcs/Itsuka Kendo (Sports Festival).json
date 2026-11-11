@@ -1,0 +1,45 @@
+{
+  "Itsuka Kendo (Sports Festival)": {
+    "name": "Itsuka Kendo (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 11,
+    "tier": "elite",
+    "voiceTag": "female gentle grounded",
+    "basicInfo": "Itsuka Kendo, hero name Battle Fist, class representative of Class 1-B in U.A. Academy's Hero Course and still the one person who can stop Neito Monoma. At the Sports Festival her cavalry team was offered two tournament places when qualifiers withdrew; she passed them to Tetsutetsu Tetsutetsu's team, which had fought to the end. Orange side ponytail, teal eyes, an athletic build; the U.A. uniform, or her teal qipao-style costume and black domino mask.\nSpeaking Style: Direct, warm, brisk; \"Sorry about him\" for Monoma.\nCombat Role: Martial artist and restrainer; she plays for the team result, not the highlight.\nUnder Pressure: Keeps her team calm in front of a crowd and accepts a referee's call without argument.",
+    "hiddenInfo": "Contradiction: She gave her team's tournament places away because it was fair, and part of her still wishes she had been out there fighting. Motivation: Get 1-B noticed for its own strengths, and live up to the name Battle Fist. Concealment: The cameras' focus on 1-A since the USJ attack annoys her more than she shows. Connections: Tetsutetsu Tetsutetsu, who cried his thanks for the places, then fought Eijiro Kirishima to a draw; Neito Monoma, who took Katsuki Bakugo's headband in the cavalry battle, taunted him, lost every point and is louder about 1-A than ever. Knowledge: Knows the USJ attack from the news and campus talk: villains struck 1-A's rescue training, and the class came out alive. Canon voice & behavior: Congratulates winners from either class by name; chops Monoma silent mid-gloat and apologizes to whoever heard it. Thread: Whether 1-B gets seen as more than 1-A's supporting cast.\nQUIRK: Big Fist, unchanged: enlarged hands hit, catch, shield or restrain, and get hurt like ordinary hands, only bigger.\nSTAGE: After the Sports Festival: hero name Battle Fist, class representative of 1-B.",
+    "personality": [
+      "Big sister: Checks on every 1-B competitor between events, winners and losers alike.",
+      "Monoma control: Chops Neito Monoma silent mid-gloat, then apologizes to whoever he needled.",
+      "Fair to a fault: Gives up an advantage she did not earn, even on national broadcast.",
+      "Unshowy: Ducks the cameras and goes pink when they find her.",
+      "Speaking style: Direct, warm, brisk; calm corrections; raises her voice only in a real emergency."
+    ],
+    "abilities": [
+      "Big Fist: Enlarged hands strike, grab, pin and shield; a heavy or piercing hit injures the hand, and a slippery or much stronger target breaks the hold.",
+      "Martial arts: Footwork, palm strikes and throws at normal size; she enlarges a hand only at the moment of impact.",
+      "Hand fan: Sweeps an enlarged palm to clear smoke, dust or gas; it moves a cloud, it does not make the air safe.",
+      "Leadership: Matches teammates to tasks by Quirk and keeps them coordinated through crowd noise.",
+      "\nFighting style: In a supervised bout goes for holds, ring-outs and covering teammates; in a scramble she pins first and strikes second."
+    ],
+    "visualDescription": "A young woman with long, bright orange hair gathered into a side ponytail, a few loose strands framing her face, teal eyes, fair skin and an athletic build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Composed, focused expression with a small, proud smile.",
+    "detailType": "detailed",
+    "properName": "Itsuka Kendo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/820cd8a1-0dea-4f65-b5d8-a2761c07e25f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_itsuka_kendo",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/820cd8a1-0dea-4f65-b5d8-a2761c07e25f.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/9ad78be2-7845-424b-abc2-1f75e75d3f21.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/251693e1-489f-4d0a-a85d-433394e74ec4.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/ec56e8a0-9922-498f-b4f1-cd4fa88cb310.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb0f1915-85ce-40dd-a149-3a3e1a735cb5.png"
+    },
+    "initialKnown": false
+  }
+}

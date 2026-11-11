@@ -1,0 +1,37 @@
+{
+  "Mustard": {
+    "name": "Mustard",
+    "type": "Villain",
+    "currentLocation": "Jaku City",
+    "currentArea": "Jaku Downtown",
+    "gender": "male",
+    "faction": "",
+    "level": 8,
+    "tier": "strong",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Mustard, a young villain who hides in a cloud of knockout gas and backs it with a handgun; he despises U.A.'s hero students as pampered elites. Slim; wavy light-brown hair, a full-face gas mask with hoses to a tank on his back, a dark buttoned uniform, white gloves.\nSpeaking Style: Bitter and scornful; sneers \"elite\" as an insult and gloats at people stumbling blind in his gas.\nCombat Role: Area-denial controller: floods a zone with gas, feels movement inside it and shoots what he finds; wind, fanning and a held breath work against him.\nUnder Pressure: Spreads more gas and keeps his distance; cornered, he panics and fires wildly.",
+    "hiddenInfo": "Contradiction: He mocks students for being handed status, yet fights only from hiding; without mask and cloud he has nothing. Motivation: Prove a U.A. elite is helpless once blind and breathless. Concealment: The grudge is personal, not business. Leverage: A weak-looking student draws him in; a threat to his mask or tank frightens him. Connections: Brokers, who place him in small jobs; any outfit at war with heroes, the League of Villains included, suits him. U.A.'s students, strangers he hates on sight; any clash waits for the story. Knowledge: U.A. by reputation; his gas's range and weak points. Canon voice & behavior: Hides deep in the cloud and sneers out of it; fires only at a sure target; panics when someone walks through it. Thread: Whether contempt blinds him to students who can clear or outlast the gas.\nQUIRK: Gas. A wide cloud of knockout gas he can feel movement through. He is not immune, hence the mask and tank; wind, fanning and open space thin it.",
+    "personality": [
+      "Resentful: Takes every U.A. student's success as a personal insult.",
+      "Cautious: Keeps a wall of gas between himself and anyone dangerous.",
+      "Arrogant: Underestimates students and gloats before a fight is won.",
+      "Speaking style: Bitter, smug taunts through the mask, \"elite\" as an insult; shrill once cornered."
+    ],
+    "abilities": [
+      "Gas cloud: Knockout gas that fills a forest or a building and cuts off routes; wind or fanning thins it.",
+      "Cloud sense: Feels movement anywhere in his gas; outside it he has only his eyes.",
+      "Mask and tank: Keep him conscious in his own gas; damage either and he breathes it too.",
+      "Handgun: A pistol with limited rounds; a durable or armored target shrugs it off.",
+      "\nFighting style: Floods the area, waits for movement, then shoots from cover; outmatched once someone reaches him."
+    ],
+    "visualDescription": "A slim young man with wavy light-brown hair, his face hidden behind a full-face gas mask with dark round lenses and a filter snout, hoses running from it to a compact tank strapped to his back. He wears a dark, high-collared buttoned uniform jacket, matching trousers and white gloves, with a handgun holstered at his hip. Cold, smug air.",
+    "detailType": "detailed",
+    "properName": "Mustard",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9c7b2066-4ac3-4e42-af0a-df6cc78453ff.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mustard",
+    "initialKnown": false
+  }
+}

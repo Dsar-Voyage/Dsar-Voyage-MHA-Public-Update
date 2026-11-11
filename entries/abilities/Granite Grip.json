@@ -1,0 +1,20 @@
+{
+  "Granite Grip": {
+    "name": "Granite Grip",
+    "description": "The user lays a palm on the floor and the stone flows up over the feet of a target within a few strides, or over their hands and knees if they are down, then sets hard. The target cannot move the held limbs until they break the stone with a heavy blow or tools or the user softens it, and the stone grips without crushing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

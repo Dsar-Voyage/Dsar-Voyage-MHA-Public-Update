@@ -1,0 +1,29 @@
+{
+  "Counterweight Web": {
+    "name": "Counterweight Web",
+    "description": "The user stretches their arms and fingers into a lattice across a street or courtyard and shifts weight through the strands on the fly for the rest of the scene. Every punch, thrown object or charging villain that strikes the lattice is robbed of weight and rebounded straight back at its source for heavy force damage; held back, the strands wrap and pin the attacker in a heavy fold without harm. Blades and fire still wound the user's stretched flesh, and the user cannot leave the spot until they pull their limbs back in. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

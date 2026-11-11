@@ -1,0 +1,30 @@
+{
+  "Musutafu": {
+    "name": "Musutafu",
+    "basicInfo": "Musutafu is a mid-sized Shizuoka city on Suruga Bay, about 30 kilometers southeast of Mount Fuji's summit, an ordinary working town that happens to sit beneath the country's most famous hero academy. Its center is Musutafu Station, a Tokaido shinkansen stop 45 minutes from Tokyo and two hours from Osaka, ringed by office blocks, two all-night convenience stores at the north exit, a covered hero-merchandise arcade off the south exit, alley bars and the main bus terminal. From the station the city spreads in low layers. Quiet residential blocks of apartments and family houses reach southeast, where Aldera High School and the Midoriya and Bakugo homes sit among ordinary schools and corner shops; the riverside blocks about 4 kilometers east hold Hero Agency Row and its small agencies; Musutafu General Hospital stands about 5 kilometers west; and homes and shops run southwest to the bay, where Kiyashi Shopping Mall sits about 5 kilometers south-southwest of the station and Dagobah Municipal Beach Park lines the shore about 5 kilometers southwest. Above the city to the north and northeast the forested hills climb toward Fuji, and U.A. Academy's walled campus fills them: its Main Gate is about 3 kilometers northeast of the station, ten minutes by city bus up the hill road, and U.A. controls everything inside its wall. Musutafu Police Headquarters stands on the city's northwest edge, about 3.5 kilometers from the station. To the south the Izu Peninsula begins in farms, hot-spring towns and wooded hills. The air is mild and humid, with afternoon sea wind, fog on the foothills and snow on Fuji into early summer; cherry blossoms line the river in April, the rainy season soaks June, summer is hot and sticky, typhoons come off the Pacific from late summer into autumn, and winters are dry and clear, with snow rare in town. Residents are families, office workers and shopkeepers, with anglers and harbor workers along the bay and small farms on the edges. Most get around by local train, city bus or bicycle, taxis wait at the station, and the shinkansen carries business travelers to Tokyo and Osaka. The economy is ordinary city work, offices, shops, the hospital and the bay, plus a steady trade in hero goods, fans and visitors that U.A. brings. Newer buildings have wide doors and reinforced seats for heteromorph bodies; older shopping streets do not. City police at neighborhood police boxes and the small hero agencies patrol the town and handle the everyday calls: bag snatchers, traffic accidents, Quirk scuffles, lost toddlers. Public Quirk use beyond what a body cannot help is illegal and frowned on. U.A. students live on campus and come down on weekends, signed out from their dorms, and a uniform in town still draws stares. A player can work a part-time shift, shop and eat, shadow a patrol, visit a ward or a family home, run the beach at dawn or follow a rumor into the station's back alleys.",
+    "hiddenInfo": "Since the news that All Might now teaches at U.A., Musutafu has more eyes on it than ever: reporters and fans at the station, sidekicks from bigger agencies taking calls the small local pros counted on, and a few small-time crooks drawn by a famous town. In the station's back alleys, brokers who never give their names have been hiring crooks with fighting Quirks for cash up front, and several have dropped out of sight; the police have only bar talk so far. Most residents believe nothing truly bad can happen this close to the Number One hero.",
+    "x": 0,
+    "y": -1,
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f43b51c0-25b7-46bb-a53b-e77aa7edb9ce.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

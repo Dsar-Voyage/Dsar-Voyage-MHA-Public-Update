@@ -1,0 +1,20 @@
+{
+  "Close Jack Jab": {
+    "name": "Close Jack Jab",
+    "description": "The user extends one jack to strike a target within several meters. The plug lands a sharp blow for light bludgeoning damage; held back, it taps a wrist or hand and interrupts what the target is holding. The jack stays exposed until it retracts, so the target can catch it and pull painfully on the user's ear. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

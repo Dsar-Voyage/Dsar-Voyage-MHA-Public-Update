@@ -1,0 +1,20 @@
+{
+  "Springload Leap": {
+    "name": "Springload Leap",
+    "description": "The user's legs swell and launch them onto a rooftop, across a street-wide gap or up a building's face in a single bound. They land hard enough to crack pavement but take no harm, and they can carry a person in their arms through the leap and set them down unhurt. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

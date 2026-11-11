@@ -1,0 +1,20 @@
+{
+  "Fracture Tap": {
+    "name": "Fracture Tap",
+    "description": "The user presses a palm to stone, concrete, brick or glass and shakes it apart: a door-sized section of wall or floor crumbles into rubble, opening a way through or a hole to the level below. Metal and wood only rattle. Breaking a load-bearing wall can bring down the floor above, so the user must take a moment to feel for the load first or risk the collapse. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

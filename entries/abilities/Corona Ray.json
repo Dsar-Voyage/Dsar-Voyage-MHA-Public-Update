@@ -1,0 +1,20 @@
+{
+  "Corona Ray": {
+    "name": "Corona Ray",
+    "description": "The user fires a thin beam of white light from the palm at a target within about ten meters, half a pure light user's reach, while a dark rim trails the beam and stretches the target's shadow behind them. It deals light damage and chars cloth; held back, it only stings a hand so the target drops what they hold. Opaque cover stops the shot, and the flash shows everyone watching where the user stands. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

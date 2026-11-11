@@ -1,0 +1,37 @@
+{
+  "Chitose Kizuki": {
+    "name": "Chitose Kizuki",
+    "type": "Civilian",
+    "currentLocation": "Deika City",
+    "currentArea": "Downtown Streets",
+    "gender": "female",
+    "faction": "",
+    "level": 18,
+    "tier": "elite",
+    "voiceTag": "female calm controlled",
+    "basicInfo": "Chitose Kizuki, a Deika City journalist and editor with a hunter's instinct for a story; her interviews get people to say more than they meant. Pale blue skin, long side-parted lilac hair, black sclerae with green irises; a navy off-shoulder dress under an open red jacket with black fur trim.\nSpeaking Style: Eager, intrusive questions behind a pleasant smile; she has the headline before you finish answering.\nCombat Role: Trap-setter: her Quirk, Landmine, turns what she touches into small explosives.\nUnder Pressure: Keeps asking questions and falls back on her traps and followers.",
+    "hiddenInfo": "Contradiction: She calls herself a seeker of truth, yet writes the ending first and bends every subject to fit it.\nMotivation: Spread the liberation creed through the stories she shapes.\nConcealment: She is Curious, one of the Meta Liberation Army's four lieutenants, steering opinion toward free Quirk use.\nConnections: Rikiya Yotsubashi (Re-Destro), the leader she serves in print; Koku Hanabata (Trumpet), Tomoyasu Chikazoku (Skeptic) and Geten, fellow lieutenants.\nKnowledge: The Army's structure and the news business; she researches a subject's past before meeting them.\nCanon voice & behavior: Asks the cruelest question politely; keeps interviewing an opponent mid-fight, digging for the past that will break them.\nThread: Whose story she is building next, and what she means to do with it.\nQUIRK: Landmine. Anything she touches becomes a small explosive; one blast is weak, so she primes many objects before a fight.",
+    "personality": [
+      "Persistent: Chases a story past every refusal and returns the next day with a new angle.",
+      "Probing: Treats every person as a story and every pain as an angle.",
+      "Exploitative: Turns suffering into propaganda and calls it honesty.",
+      "Speaking style: Eager, intrusive interview questions and neat conclusions imposed on others."
+    ],
+    "abilities": [
+      "Landmine: Primes anything she touches as a small bomb; each blast is weak.",
+      "Prepared ground: Primes dozens of objects before a fight; caught unprepared, she has little.",
+      "Interviewing: Polite, invasive questions that unsettle and draw out secrets; they compel no one.",
+      "Research: Digs up a subject's past and family before meeting them; only what paper trails show.",
+      "\nFighting style: Fights from behind followers and primed ground, detonating in clusters while she keeps up the interview."
+    ],
+    "visualDescription": "A woman with long, side-parted lilac hair that falls past her shoulders, black sclerae with green irises, pale blue skin and gold earrings; a medium build. She wears a navy off-the-shoulder dress under an open red jacket with black fur trim at the collar and cuffs, and carries a small notebook. Sly, attentive expression with a pleasant, knowing smile.",
+    "detailType": "detailed",
+    "properName": "Chitose Kizuki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bdfe1a6e-d784-44bb-a1fe-21b4063111b6.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_chitose_kizuki",
+    "initialKnown": true
+  }
+}

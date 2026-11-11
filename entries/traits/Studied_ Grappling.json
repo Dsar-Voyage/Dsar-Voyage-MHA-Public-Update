@@ -1,0 +1,20 @@
+{
+  "Studied: Grappling": {
+    "name": "Studied: Grappling",
+    "description": "🤼 You trained in judo, wrestling, jiu-jitsu or sambo, and you know throws, pins and escapes.\n\n🌱 Grips, breaking balance, takedowns, joint locks and safe falls. In a clinch you control posture and weight instead of pulling.\n⚠️ Much heavier opponents, slippery or armored bodies and several attackers at once are still hard.\n⚖️ A lock or choke can injure, and using one outside sport or self-defense is assault.\n🏫 It shows in a low, steady stance, a strong grip and the reflex to grab a sleeve or collar.\n\n📈 Grants: Grappling +15",
+    "traitNarrativeEffects": "The character has trained to grapple: grips, breaking balance, throws, takedowns, pins, joint locks, escapes from holds and how to fall safely. In a clinch they control posture and weight instead of pulling. Prior study, not mastery: much heavier opponents, slippery or armored bodies and fighting several people at once are still hard. Not a license: a lock or choke can injure, and using one outside sport or self-defense is assault. It shows in a low, steady stance, a strong grip and the reflex to grab a sleeve or collar.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Grappling",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

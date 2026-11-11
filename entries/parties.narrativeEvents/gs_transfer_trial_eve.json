@@ -1,0 +1,15 @@
+{
+  "gs_transfer_trial_eve": {
+    "title": "The Transfer Trial Eve",
+    "beats": "Evenings in the last days before the Joint Training. Word has reached the General Studies Classrooms at U.A. Academy: when Classes 1-A and 1-B meet at Training Ground Gamma, Hitoshi Shinso will fight a round on each side, with the teachers watching, as his transfer trial. Nobody told 1-C officially. Shinso has not confirmed it, which the class takes as confirmation.\n\nDefault course, as pressure the player can change: after the last class the room talks about little else. Some are proud and say so loudly once he is out of earshot; some are sour that the one classmate who got this far may leave the rest behind; one asks whether anyone will notice the empty desk, and nobody answers. On the Athletics Field after dark, Shinso trains under a single floodlight with the capture scarf he has worked at since spring: throws at the posts, falls, gets up, and rehearses lines meant for opponents who already know to stay silent. Shota Aizawa looks in once, says that rest is part of training, and leaves him to it.\n\nShinso accepts help on his own terms. He will take a partner who throws real attacks, times his drills or plays a Hero Course opponent who refuses to answer him, and he turns away pity and pep talks alike. Asked what happens to Class 1-C if he goes, he is quiet for a long moment, then says dryly that they will manage.\n\nIn the classroom, the party can steer the class toward a send-off, a card, a shared lunch or a plain good luck, or let the sourness stand. On the field, it can push him through one more round or tell him to sleep.\n\nThe trial's outcome belongs to the Joint Training itself; nothing in this scene settles it.\n\nThe event is complete when Shinso calls it a night, or the class settles how it will see him off.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_gs_transfer_trial_eve",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

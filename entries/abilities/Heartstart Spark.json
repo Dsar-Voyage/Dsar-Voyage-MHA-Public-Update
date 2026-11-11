@@ -1,0 +1,20 @@
+{
+  "Heartstart Spark": {
+    "name": "Heartstart Spark",
+    "description": "The user lays both palms on the chest of a person whose heart has stopped or is failing and sends a measured pulse through them. The heart restarts and the patient holds steady long enough to reach medical care, though no wounds close; on a healthy target it only knocks them down. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "Gelatinous Guardian Quirk": {
+    "name": "Gelatinous Guardian Quirk",
+    "description": "🫧 You produce living medicinal slime and have a partly gel body, combining your doctor father's healing with your mother's liquid manipulation.\n\n🌱 Start by softening blunt hits, squeezing gaps, cushioning short falls and sealing bleeding or cooling burns with gel. Healing is real and slow.\n📈 Training adds sticky capture, sealed doors, injured transport and larger fall cushions. Only your own noncorrosive gel answers you.\n⚠️ Heat, drying and sharp edges threaten gel; it cannot regrow limbs or replace blood. Common drawback pairing: Stamina Drain, from production and healing.\n⚖️ Seek patient consent where possible; restraint needs self-defense or licensed duty. Gel protects wounds and speeds recovery while hospital care remains necessary.\n🎬 Similar canon Quirks: Recovery Girl (Heal); Mina Ashido (Acid), for material feel only.\n\n📈 Grants: Endurance +1, Quirk Control +10, Quirk Stamina +10, First Aid +5\n⚡ Starting techniques: Medicinal Wrap, Yielding Guard",
+    "traitNarrativeEffects": "Scale: living medicinal gel in skin and tissue, oozed from the hands. New adult user: about a bucket of own gel within 3 m; pads a low fall, seals an arm wound, slips shoulder-width gaps. Limits: own gel only; organs in a weak torso core; no splitting or phasing; eases blunt hits, not blades or bullets; heat dries, cold stiffens; dirty gel cannot heal. Healing (sustained touch) seals bleeding, speeds repair in minutes-hours; never replaces blood, regrows limbs, cures all or revives. Loose gel stops beyond range, dries in an hour. Quirk Strain: light: wrap, guard; moderate: sticky capture, squeeze, cooling; heavy: patient carry, fall cushion; severe: rescue spread, long dressings, awakened uses. Fusion: father's healing + mother's liquid manipulation. Type: Mutant (also fits Emitter). Law: consent if possible; restraint beyond self-defense or duty: unlawful confinement. Tagline: \"I'm not a bad slime!\" Look: translucent gel.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "First Aid",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Medicinal Wrap",
+      "Yielding Guard"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Dead Air": {
+    "name": "Dead Air",
+    "description": "The user hears every sound in a building or across a city block and answers each with its mirror wave. For the rest of the scene the area falls silent except for what the user lets through: allies still hear each other, alarms and gunshots go unheard, and sonic attacks entering it deal no damage. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

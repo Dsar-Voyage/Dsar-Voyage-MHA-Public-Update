@@ -1,0 +1,15 @@
+{
+  "mha_kyoka_jiro": {
+    "label": "Kyoka Jiro",
+    "voiceTag": "female deep controlled",
+    "instructions": "Cool, low alto young woman's voice, slightly husky and dry. Deadpan, short, wry one-liners with a smirk; rises into a sharp, exasperated snap at fools; goes quick and mumbly when her music is praised. Never bubbly or sing-song.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

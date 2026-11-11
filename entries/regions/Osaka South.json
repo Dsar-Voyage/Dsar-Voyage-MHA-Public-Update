@@ -1,0 +1,31 @@
+{
+  "Osaka South": {
+    "name": "Osaka South",
+    "basicInfo": "Osaka South is downtown Osaka and the southern half of the metropolis, west of Musutafu: a sprawling river-delta city of canals, covered shopping arcades, neon signs and elevated highways, with port districts on the bay and older neighborhoods spreading south and east to the green hills of Nara. Downtown Osaka, at the north of the region, is the commercial heart, where Dotonbori's canal stays loud and bright past midnight, takoyaki stands line the arcades and Shin-Osaka Station lies about 8 km north, just over the line in Osaka North. The bay shore is a long line of container cranes, warehouses, factories and ferry piers; south along it run the industrial city of Sakai with its ancient keyhole tombs, and inland the old capital of Nara, its temples and its deer park about 30 km east. One old yakuza house still keeps a walled compound in a quiet district about 11 km southeast of downtown, on the southeastern outskirts. Summers are hot and humid, with a rainy season at the start and typhoons near the end; winters are short and mild; spring fills every riverbank with cherry-blossom parties. Kansai people talk fast, joke hard, haggle by habit and speak their own dialect, and they expect a hero to be approachable: a pro who will not banter with a shopkeeper or stop for a photo gets heckled, and a slow one gets heckled louder. The economy runs on trade, food and small business: wholesalers, bay-side factories, family shops in the arcades and a restaurant on every corner. Established local agencies work the streets with the Osaka police: agencies split the patrol districts, police boxes stand at the big crossings, and the arcade shopkeepers' associations keep a close eye on who protects them. People get around by subway, by the private lines that fan out south and east from the big terminals, by bicycle on every sidewalk and by taxi after the last train; the shinkansen from Shin-Osaka runs east to Musutafu in about 2 hours and Tokyo in about 2.5, and west to Fukuoka in about 2.5. Students of Shiketsu Academy, U.A.'s closest rival, are a common sight downtown in their peaked caps. A visitor can eat through the canal stalls, shop the arcades, work a kitchen or a market stall, walk with Nara's deer, patrol with a local agency, or go looking for trouble in the back streets.",
+    "hiddenInfo": "Trigger, the Quirk-boosting street drug, has been trickling back into Osaka's nightlife districts since winter, sold in small doses by dealers too frightened to name a supplier, and the money runs upward to the old yakuza house on the southeastern outskirts. Fat Gum's agency and the prefectural police drug squad both work the case and share little, and Sir Nighteye's agency is quietly watching the same house. Underworld brokers meet clients in back-street bars and bay-side warehouses and pay well for quiet work.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police",
+      "Shie Hassaikai"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -6,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/210672b3-c589-492a-8a06-4feb102b7da4.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

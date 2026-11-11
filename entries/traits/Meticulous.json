@@ -1,0 +1,25 @@
+{
+  "Meticulous": {
+    "name": "Meticulous",
+    "description": "📏 You do things carefully and completely: gear checked twice, technique clean, no loose ends.\n\n🌱 Your work holds up: you practice a movement until it is clean and catch the small errors others miss.\n⚠️ Precision takes time you do not always have, and accepting a rough solution under pressure is hard.\n⚠️ Mess and other people's carelessness bother you, and you can seem fussy or controlling.\n🔀 If you are also Reckless, you prepare with great care, then throw the plan away once things start.\n\n📈 Grants: Technique +1, Perception +5",
+    "traitNarrativeEffects": "The character works with precision: they check gear twice, keep equipment in order, practice a movement until it is clean and catch small errors others miss. Their work holds up, and teammates rely on them for details. Weakness: precision takes time. Under pressure they struggle to accept a rough solution, and the narrator may show the cost: a door still being checked, a train already gone. Mess, improvisation and other people's carelessness bother them, and they can come across as fussy or controlling. If the character is also Reckless, they prepare with great care and then throw the plan away once things start. The narrator shows what the extra checking costs; the player decides when the work is good enough.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

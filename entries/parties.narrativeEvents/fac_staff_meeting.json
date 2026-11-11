@@ -1,0 +1,15 @@
+{
+  "fac_staff_meeting": {
+    "title": "The First Staff Meeting",
+    "beats": "Evening in the Teachers' Lounge at U.A. Academy, the first week of classes. Principal Nezu pours tea for everyone before the first agenda item, which the veterans know is a bad sign. Around the table: Shota Aizawa half inside his sleeping bag, Present Mic narrating the agenda, Midnight with her boots on a spare chair, Cementoss, Ectoplasm, Hound Dog, Power Loader smelling of smoke, Recovery Girl with a bag of gummies, Thirteen over from the USJ, Vlad King, and the newest hire, All Might, too big for his chair and reading from a card headed How to Teach.\n\nThe agenda, by default: reporters have camped at the Main Gate all week asking for All Might; Thirteen books Class 1-A's first rescue lesson at the USJ with Aizawa and All Might; the Sports Festival committee needs volunteers. Then the real fight. Aizawa ran his Quirk Apprehension Test on the first day and told Class 1-A that last place would be expelled; he expelled an entire class last year. Vlad King calls it cruel at full volume. Midnight teases Aizawa for calling it a logical ruse afterward. Recovery Girl notes that she spent the afternoon mending a first-year's finger. All Might, nervous, asks whether failing a student is ever a kindness and gets a flat look.\n\nThe default course, as pressure the player can change: Nezu defends the free hand he gives every teacher and lets the room decide nothing. A new teacher at the table is introduced, receives a course load and one of the chores (the press at the gate, the festival committee, a club advisorship) and is asked to take a side on expulsions. A veteran can shift the debate with a story or a vote; Nezu enjoys any argument that surprises him, and Present Mic narrates every point scored.\n\nThe event is complete when Nezu closes the meeting and hands out the week's assignments, or the party leaves the lounge.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_fac_staff_meeting",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Blueflame Sear": {
+    "name": "Blueflame Sear",
+    "description": "The user presses a palm to a target or barrier and drives pale-blue fire into the contact point while frost rings the edges. It deals heavy fire damage that softens thin steel and chars through straps or doors without spreading flames beyond the frost ring; held back, it only welds a weapon's guard or stuns a foe with heat. It works only by touch and cannot melt thick armor plate or vault steel. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

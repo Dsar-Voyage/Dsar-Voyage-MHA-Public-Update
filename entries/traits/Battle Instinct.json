@@ -1,0 +1,34 @@
+{
+  "Battle Instinct": {
+    "name": "Battle Instinct",
+    "description": "⚔️ Fights have taught you to move before you finish thinking.\n\n👁️ You see the opening and the incoming blow a moment sooner.\n📋 Requires level 8 and Combat Tactics 10.\n\n📈 Grants: Dodging +5, Combat Tactics +5",
+    "traitNarrativeEffects": "The character has fought enough to read a fight's rhythm by instinct: they shift away from a blow as it starts, notice when an opponent overcommits and keep track of everyone in view. Show it in quick, economical reactions and a calm sense of timing. Limits: it works on what they can perceive; an unseen attacker, a hidden Quirk or an ambush from outside their senses still catches them. It is experience, not foresight or a Quirk.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Dodging",
+        "modifier": 5
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 10
+      }
+    ]
+  }
+}

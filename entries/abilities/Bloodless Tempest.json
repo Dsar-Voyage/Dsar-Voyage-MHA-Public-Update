@@ -1,0 +1,24 @@
+{
+  "Bloodless Tempest": {
+    "name": "Bloodless Tempest",
+    "description": "The user crosses a whole room or a stretch of street in a single pass of cuts so fine that no skin is touched. Every weapon, gun, strap, harness and restraint the user chooses falls apart: enemies are left disarmed with their belts hanging cut, and every hostage or captive in the scene is freed of their bindings. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

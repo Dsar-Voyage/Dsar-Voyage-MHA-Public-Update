@@ -1,0 +1,20 @@
+{
+  "Studied: Capture": {
+    "name": "Studied: Capture",
+    "description": "🪢 You trained in restraint: police arrest techniques from a relative, a security guard course or a hero-prep school's capture drills.\n\n🌱 You control an arm, apply cuffs, zip ties or capture tape, and keep a subdued person breathing and secured.\n⚠️ A struggling Quirk user, a heteromorph with unusual limbs or a Quirk that slips bindings can still break free.\n⚖️ Arrests belong to the police and licensed heroes. You may hold someone caught in the act only until the police arrive.\n🏫 It shows in quick hands and a reflex to check a restrained person's breathing.\n\n📈 Grants: Capture +15",
+    "traitNarrativeEffects": "The character has trained to restrain people safely: controlling an arm, applying cuffs and zip ties, wrapping capture tape, positioning a subdued person so they can breathe and keeping them secured. They know a careless restraint injures. Prior study, not mastery: a struggling Quirk user, a heteromorph with unusual limbs or someone whose Quirk slips bindings will still break free. Not a license: arrests belong to the police and licensed heroes; a private person may hold someone caught in the act only until the police arrive and must hand them over at once. It shows in quick hands and a reflex to check a restrained person's breathing.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Capture",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

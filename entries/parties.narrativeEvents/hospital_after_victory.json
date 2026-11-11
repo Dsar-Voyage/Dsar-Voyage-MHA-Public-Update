@@ -1,0 +1,15 @@
+{
+  "hospital_after_victory": {
+    "title": "What Did We Save?",
+    "beats": "Morning at Musutafu General Hospital: Izuku Midoriya, Katsuki Bakugo, and All Might remain under treatment, while Ryu Yoshida explains what recovery permits. Izuku has fresh scars, bandages, and a partly shaved head; Katsuki faces serious damage to his arm and heart. International assistance begins reaching Jaku City, where residents and relief crews clear routes before rebuilding homes.\n\nThe canon default course, as pressure the player can change: in a private bedside conversation, Izuku admits that reaching Tomura Shigaraki did not keep him alive. All Might recognizes the rescue Izuku attempted without pretending the loss disappears. Katsuki learns privately that Izuku surrendered his inherited power and has only its remaining embers; his grief breaks through his usual aggression. Offered alternatives for his damaged arm, he chooses difficult rehabilitation rather than abandoning its use. None of these conversations gives the public access to One For All. If Tomura survived an earlier intervention, their conversation instead faces his actual condition and accountability; a living person is not mourned as dead.\n\nAt Musutafu General Hospital, the party can visit with consent, ask about restrictions, or secure a rehabilitation appointment. At Jaku City, a relief delivery needs a safe unloading point and an identified household to receive it. Reports connect the two places; patients do not leave their beds to join a work crew. Existing deaths and injuries remain consequential.\n\nBy Path: Class 1-A and Class 1-B offer permitted company; General Studies handles relief intake; Support adapts recovery aids; Management assigns donations; Faculty arranges interrupted study; Licensed Sidekick and Licensed Pro Hero secure reconstruction routes. League of Villains Recruit and Independent Villain face an individual interview or a choice about exploiting the damage; Vigilante reaches overlooked residents; Civilian Life repairs a home or supports a patient. Custody and medical restrictions govern access.\n\nThe event is complete when the central survivors' conditions are confirmed and the party's treatment or relief assignment has a responsible contact and a concrete next step.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_hospital_after_victory",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

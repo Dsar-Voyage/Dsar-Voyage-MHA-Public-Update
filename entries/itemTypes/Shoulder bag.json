@@ -1,0 +1,20 @@
+{
+  "Shoulder bag": {
+    "name": "Shoulder bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Teaching",
+        "value": 1
+      }
+    ],
+    "description": "A leather shoulder bag of a working teacher: graded papers, lesson plans, a laptop sleeve, red pens and a faculty lanyard. [ Tool | About ¥25,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/feff0e91-7a1c-4979-a043-7307998a8432.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Linebreaker Charge": {
+    "name": "Linebreaker Charge",
+    "description": "The user lowers a shoulder and charges through whoever blocks the way: a lone opponent, a riot shield or a line of people. Each person in the path takes bludgeoning damage and is knocked to the ground, and the user ends on the far side. An opponent much larger or heavier than the user stops the charge instead. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Brawler",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Athletics",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

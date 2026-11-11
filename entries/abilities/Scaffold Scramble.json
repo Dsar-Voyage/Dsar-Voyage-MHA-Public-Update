@@ -1,0 +1,20 @@
+{
+  "Scaffold Scramble": {
+    "name": "Scaffold Scramble",
+    "description": "The user climbs with every limb at once, catching ledges, pipes, balconies and window frames, and sprints up a sheer building face or swings across a street from cable to sign to balcony. A spare limb can carry a single passenger, and the user can stop anywhere on the wall and hang there with their own hands free to work. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

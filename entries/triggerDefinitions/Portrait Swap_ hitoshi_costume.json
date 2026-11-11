@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: hitoshi_costume": {
+    "name": "Portrait Swap: hitoshi_costume",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Hitoshi Shinso",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/62b0aa55-6145-4e32-a495-de7c13497578.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "kamino_phosphor": {
+    "title": "Two Brothers' Fire",
+    "beats": "Early in the day 405 fighting, Kamino Ward's Shopping Street burns around Shoto Todoroki and Dabi. Tenya Iida supports their position with Burnin, Kido, and Onima. Dabi wanted Endeavor; facing his younger brother gives him another target for the family's history. Nearby responders still have people and damaged streets to protect while the brothers speak.\n\nThe canon default course, as pressure the player can change: Dabi describes surviving his childhood fire in a facility connected to All For One and returning to discover that Endeavor's destructive expectations had continued. This account reaches the people who can actually hear him, not every civilian watching the war. Shoto refuses to act merely as their father's substitute. He combines his own heat and cold through Phosphor, relying on the openings his allies create, and overwhelms Dabi's first offensive with a cooling attack.\n\nMake one opening depend on the player's intervention: moving an injured sidekick, holding a firebreak, interrupting Dabi's line of attack, or helping Shoto reach the necessary distance. A conversation may alter the confrontation, but nobody owes immediate forgiveness. The apparent victory leaves Shoto exhausted and Dabi immobilized rather than safely dead. If nobody secures him, his observation of Phosphor remains a danger. A player who establishes effective custody or medical extraction can prevent his later return; do not undo that success.\n\nBy place: Kamino Ward stages the fire zone directly. U.A. Academy receives the initial containment report, while Okuto Island and Gunga Mountain Villa continue their own threats. Musutafu General Hospital prepares burn treatment; Jaku City and Takoba Municipal Stadium can relay supply or casualty requests. Mount Fuji Battlefield maintains perimeter warnings. Off-site participation concerns a reachable casualty, relief decision, or communication rather than an unexplained arrival beside Shoto.\n\nBy Path: Class 1-A supports Shoto and Iida; Class 1-B contains surrounding threats; General Studies relays casualties. Support supplies heat protection, Management maintains communications, and Faculty arranges relief. Licensed Sidekick protects the agency team; Licensed Pro Hero secures containment. League of Villains Recruit can aid Dabi or challenge his obsession; Independent Villain chooses an intervention. Vigilante searches damaged streets; Civilian Life evacuates or helps someone unable to move.\n\nThe event is complete when Dabi's first offensive stops or breaks containment, and the brothers' condition, sidekick casualties, and actual custody are explicitly reported.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_kamino_phosphor",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

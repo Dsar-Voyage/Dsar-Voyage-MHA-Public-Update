@@ -1,0 +1,20 @@
+{
+  "Hollow Guard": {
+    "name": "Hollow Guard",
+    "description": "The user turns intangible for an instant as an attack arrives, and it passes straight through them. A blow, a blade, a bullet, a blast or a thrown object aimed at the user misses entirely and keeps going into whatever lies behind them, and the user is solid again before their next action. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

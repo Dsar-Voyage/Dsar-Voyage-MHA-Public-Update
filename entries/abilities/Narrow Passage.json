@@ -1,0 +1,20 @@
+{
+  "Narrow Passage": {
+    "name": "Narrow Passage",
+    "description": "The user compresses their gel tissues and crawls through a gap at least twenty centimeters wide, covering up to three meters this turn. The torso core stays intact and clothing must fit or be left behind. Sharp edges still cut, and the user cannot carry another adult through the passage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

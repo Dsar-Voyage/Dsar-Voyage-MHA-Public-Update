@@ -1,0 +1,30 @@
+{
+  "In Sync": {
+    "name": "In Sync",
+    "description": "🤝 You fight and work in step with others.\n\n🫱 You cover a partner, time your move to theirs and combine efforts without a word.\n📋 Requires level 8 and Team Coordination 8.\n\n📈 Grants: Team Coordination +10",
+    "traitNarrativeEffects": "The character has trained and fought beside others long enough to move in step: they read a partner's intent from posture, cover blind spots, time attacks and rescues to combine with an ally's Quirk and pass on information without being asked. Show it in wordless combinations and smooth handoffs. Limits: it works best with people they have practiced with; a stranger or a teammate who refuses to cooperate gives them little to work with.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Team Coordination",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 8
+      }
+    ]
+  }
+}

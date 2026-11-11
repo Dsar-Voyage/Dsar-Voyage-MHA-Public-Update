@@ -1,0 +1,25 @@
+{
+  "Thousand Seams": {
+    "name": "Thousand Seams",
+    "description": "The user presses both hands to a carpet, a flag or a coat and spreads their reach through it into every woven thing across a whole city block. They feel every clothed person in it, indoors or out, and lock the clothing of every enemy they find wherever that enemy hides, binding arms to bodies and legs together until the end of the user's next turn. Cloth is never pulled at the throat. The user must keep both hands on the fabric and cannot move, and afterward their fingers cramp and cannot move fibers until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

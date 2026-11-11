@@ -1,0 +1,30 @@
+{
+  "Fukui": {
+    "name": "Fukui",
+    "basicInfo": "The northern Fukui plain and the Kaga hot-spring country across the Ishikawa line, a broad rice basin between the Sea of Japan to the west and the snowy foothills of Mount Hakusan to the east. The western half of the cell is open sea; the shore runs north past Tojinbo's columnar andesite cliffs and the old port of Mikuni at the mouth of the Kuzuryu River, then along the sandy Kaga coast toward Komatsu. Inland, the Kuzuryu, Asuwa and Hino rivers water a flat patchwork of paddies, with Fukui city, the prefectural capital, in the middle: a tidy town around an old castle moat, with department stores, a small tram line and dinosaur statues outside the station. North of it lie Maruoka, with one of Japan's oldest surviving castle keeps; Awara's hot-spring inns; and, over the border, the Kaga spa towns of Yamashiro and Yamanaka, with Komatsu and its airport on the plain beyond. In the eastern hills the Zen head temple of Eiheiji sits among towering cedars, monks sweeping its corridors at dawn, and farther up the valley at Katsuyama a great dinosaur museum stands near real fossil beds. Summers are humid and hot, winters gray, wet and heavy with snow. People farm rice, weave synthetic textiles, make Kutani porcelain around Komatsu and Nomi, and run inns. Food is Echizen crab in winter, grated-radish soba, sauce katsudon and sweet shrimp. The Hokuriku Shinkansen runs north-south through Komatsu, Kaga-Onsen, Awara-Onsen and Fukui, with the Hokuriku Expressway beside it and the Echizen Railway fanning into the valleys. Musutafu is about two and a half hours away by way of Maibara and Tsuruga, Shin-Osaka under two. Fukui and Komatsu have small hero agencies and police boxes on the main streets; licensed heroes cover the mountain valleys by car in winter, and snow-clearing crews often include someone with a heat or strength Quirk working under permit.",
+    "hiddenInfo": "Fukui is quiet and comfortable, and its worries are depopulation and snow. In heavy winters roads close, elderly residents get cut off in the hills, and rooftop-shoveling accidents keep local heroes busy. Small-time crime is copper and crop theft, onsen-town pickpockets and drunken fights in the Katamachi bar district. Serious incidents pull hero help in by shinkansen from Kanazawa or Osaka, an hour or more away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -5,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/262649a6-7e72-4697-a914-e493a8ef915a.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

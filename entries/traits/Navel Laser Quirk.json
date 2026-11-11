@@ -1,0 +1,43 @@
+{
+  "Navel Laser Quirk": {
+    "name": "Navel Laser Quirk",
+    "description": "🔦 You make a bright laser beam from your navel.\n\n🌱 At the start you aim your abdomen across a classroom to fire a brief straight beam, knock one adult back or cut a thin obstacle.\n📈 With training: precise cuts, controlled bursts for flight, falling debris cleared, stronger shots that break heavy barriers.\n⚠️ You get stomach cramps from sustained fire; opaque cover blocks your beam, poor visibility spoils aim, and you cannot fire safely with someone against your navel.\n🔗 Canon Drawback, built in: Bodily Toll, as repeated firing brings abdominal pain.\n🎬 Canon Quirk: Yuga Aoyama's Navel Laser. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Control +10, Marksmanship +5\n⚡ Starting techniques: Belly Beam, Bright Guard\n🛡️ Resists: light",
+    "traitNarrativeEffects": "Scale: navel laser. Start: a classroom-length burst knocks a person back, scorches a small surface or, held steady, cuts a thin obstacle. Aim with the abdomen; straight beam, never around cover. Longer firing, stronger cuts, beam-driven movement need training.\nLimits: sustained firing soon brings aim-ruining stomach cramps. Not through own body or safe with someone pressed to it. Opaque cover blocks it; smoke hides aim, not beam. Burns bystanders, ignites materials. Optional focusing belt or lens shapes it, adds no power.\nQuirk Strain: light: short shot, guard; moderate: precise cut, brief lift, repeated burst; heavy: barrier break, beam held through a rescue; severe: signature shot, building-scale output.\nDrawback: built in, the canon Bodily Toll.\nCanon: Yuga Aoyama's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: public firing, offensive or rescue, needs lawful authority.\nLook: pale beam.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Belly Beam",
+      "Bright Guard"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "light"
+    ]
+  }
+}

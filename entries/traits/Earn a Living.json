@@ -1,0 +1,23 @@
+{
+  "Earn a Living": {
+    "name": "Earn a Living",
+    "description": "💴 You need money: rent, debts, family to support or a life of your own.\n\n⚖️ Every job, contract and offer gets weighed by what it pays.\n🧭 This motivation shapes the chances the story offers: part-time jobs, contracts, prize money and offers that cross a line.\n💸 Pay comes for work done, and rent day, broken gear and bills arrive on schedule.",
+    "traitNarrativeEffects": "The character needs income. The player may set the reason (debt, family, independence); if not, rent and tuition are enough. The narrator surfaces work and the price of things: part-time jobs at about 1,100 yen an hour, agency internships, sidekick contracts, prize money, sponsorship and merchandise deals, odd jobs, and brokers' illegal offers that pay more and cost more. Rent day, broken gear and medical bills arrive on schedule. Money is tracked honestly: pay comes for work done, never as a free windfall, and prices follow the world's yen scale. Pressures: a job that clashes with training or classes, an employer who exploits them, and offers that pay well but cross a line. The narrator never chooses the job for them.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "Licensed Sidekick",
+      "Licensed Pro Hero",
+      "Independent Villain",
+      "League of Villains Recruit",
+      "Civilian Life"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

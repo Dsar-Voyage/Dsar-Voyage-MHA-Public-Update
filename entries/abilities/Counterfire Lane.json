@@ -1,0 +1,20 @@
+{
+  "Counterfire Lane": {
+    "name": "Counterfire Lane",
+    "description": "The user burns a clean lane through rubble, furniture and other fuel in a single controlled sweep, leaving nothing on it that can catch. For the rest of the scene the spreading blaze cannot cross the lane, and people led along it take no fire damage from the flames on either side. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

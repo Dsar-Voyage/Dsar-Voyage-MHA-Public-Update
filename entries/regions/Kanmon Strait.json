@@ -1,0 +1,30 @@
+{
+  "Kanmon Strait": {
+    "name": "Kanmon Strait",
+    "basicInfo": "The narrow Kanmon Strait and the cities on both shores, where Honshu meets Kyushu: Shimonoseki on the northern and eastern bank, Kitakyushu on the southern, and the coast west toward Munakata. The strait joins the Sea of Japan, open to the northwest as the Hibiki-nada, with the Inland Sea's Suo-nada to the southeast; at its tightest point, between Mekari and Dan-no-ura, it is only about seven hundred meters wide, with tidal currents near ten knots and hundreds of ships a day. The Kanmon Bridge carries the expressway over it, rail and road tunnels run under it, and a pedestrian tunnel lets people walk beneath the sea across the prefectural line in about fifteen minutes. Shimonoseki is a fish-market port: Karato market sells fugu, called fuku here, and sea urchin, vermilion Akama Shrine faces the waters of a great medieval sea battle, and the islet of a famous swordsmen's duel sits in the channel. Kitakyushu, a city of nearly a million, grew from five old towns: Moji's harbor of brick Meiji buildings and baked curry, Kokura's castle, covered Tanga market, nightlife and yaki udon, Yahata's steelworks and the night view from Mount Sarakura, and Wakamatsu and Tobata joined by a red suspension bridge. Farther west, the Onga River meets the sea at Ashiya and Munakata Taisha's main shrine stands in farmland near the edge. Summers are hot and humid, winters cool and windy. Kokura and Shin-Shimonoseki are on the Sanyo shinkansen: Hakata is about fifteen minutes away, Shin-Osaka a little over two hours, Musutafu about four. A monorail, the Kagoshima and Nippo lines and Kitakyushu Airport on its offshore island link the area, and overnight ferries sail from Shin-Moji to Osaka and Kobe and from Shimonoseki to Busan. Several hero agencies work both cities, police from two prefectures meet in the strait, and heat-tolerant and mutant-type workers are common in the mills and docks. Visitors eat fugu, walk the tunnel and watch Kokura's Gion drum festival in July.",
+    "hiddenInfo": "The busiest stretch of this coast for crime and rescue alike: collisions in the strait, people swept off seawalls by the current, smuggling through the container ports and ferry terminals, and the remnants of old gang families, much reduced in the hero era, running small rackets around Kokura's nightlife. The prefectural line through the strait leaves jurisdiction gaps that small-time villains try to use. Hero help is never far; the agencies here are busy and well equipped.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -15,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe44f9b0-bcfe-4100-ba0a-48a07a5d5d8a.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

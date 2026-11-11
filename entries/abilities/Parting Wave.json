@@ -1,0 +1,20 @@
+{
+  "Parting Wave": {
+    "name": "Parting Wave",
+    "description": "The user pushes a wave of unease ahead of them, and everyone in a packed crowd, a jammed corridor or a riot steps aside without knowing why. The user and anyone close behind them, a stretcher team or a fire crew included, pass through at a run, and the crowd closes again behind them, blocking pursuit until the end of the user's next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

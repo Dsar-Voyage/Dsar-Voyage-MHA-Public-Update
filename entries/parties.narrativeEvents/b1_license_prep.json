@@ -1,0 +1,15 @@
+{
+  "b1_license_prep": {
+    "title": "License Exam Prep",
+    "beats": "The last days before the provisional license exam, at U.A. Academy under the lockdown that has held since the summer. Class 1-B will sit the exam on the same day as Class 1-A at a different venue, and nobody knows the format: only that the Hero Public Safety Commission runs it and that many examinees fail every year. Vlad King has booked the Main Gymnasium for 1-B's special-move drills, and at the end of each session he hands the floor to Itsuka Kendo.\n\nDefault course, as pressure the player can change: Kendo's point is simple. The whole country watched 1-B's Quirks on the Sports Festival broadcast, so other schools will have studied them; the class that stays together is the class that passes. On the whiteboard she builds pairs and trios and who covers whom: Yui Kodai's barriers behind Tetsutetsu Tetsutetsu's charge, Juzo Honenuki's mud in front of Setsuna Tokage's scouting pieces, Yosetsu Awase anchoring anything that moves. Neito Monoma wants the opposite, ambush teams that pick off the schools coming for them, and Tetsutetsu wants to charge whatever is closest. The argument gets loud, and Kendo lets it, then asks Monoma to plan inside her structure instead of around it. Vlad King roars approval at the end of every drill and pretends he is not nervous.\n\nThe party can run a drill, test a pairing, take Monoma's side or Kendo's, or find a third plan both will accept. Kendo will keep working until the lights go off unless someone sends her to bed. In the evening the scene moves to the Class 1-B Dorm Lounge, where the class quizzes each other on hero law and the rules for using a Quirk in an emergency.\n\nThe event is complete when the class agrees on how it will move on exam day and Kendo calls it a night, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_license_prep",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "Hero Public Safety Commission Headquarters": {
+    "name": "Hero Public Safety Commission Headquarters",
+    "basicInfo": "The headquarters of the Hero Public Safety Commission, the government body that licenses every hero in Japan, registers agencies and sidekick contracts, coordinates heroes with the police, runs the hero license exams and compiles the Hero Billboard Chart JP. It is a gray stone-and-glass tower in the government district, about 3 km west-southwest of Tokyo Station by subway and about 3.5 km from both the Endeavor and Best Jeanist agencies, among ministries and police offices with flags out front. The Commission also owns the Hero Billboard Chart Hall, about 4.5 km to the east, and leases Takoba Municipal Stadium on the Yokohama side for its Provisional Hero License Exam. The lobby and licensing counters are open to the public on weekdays from 9 a.m. to 5 p.m., through security gates and a bag scanner; the upper floors need a Commission badge or an appointment, and the top floor needs both. Quirk use is banned throughout the building, and the guards enforce it. On weekdays the building fills with licensed heroes, agency managers, school officials, police liaisons, lawyers and reporters; at night only security and the duty office stay, and the duty office calls agency heads in when a crisis needs a joint briefing. Players can renew or check a license, register an agency or a sidekick contract, file incident and property-damage reports, apply for support-gear permits, attend briefings when invited, appeal a reprimand, or apply for Commission jobs. The President of the Commission, known to the public only by her title, sees visitors by appointment, and the license exams are run from the bureau floor by the official Yokumiru Mera. Inside it is quiet and orderly: polished floors, low voices, ticket numbers called over the speakers, and the feeling that every word is being written down.",
+    "hiddenInfo": "The Commission's first loyalty is to public confidence in the hero system, and much of its work is never announced. A media office scores incidents for public risk and settles property-damage claims privately when a hero's name would hurt the system. The exam office, where Yokumiru Mera is buried in paperwork, designs each year's Provisional Hero License Exam, with a first round that lets only about a hundred examinees per venue advance; academies are filing their entries now, and Mera sleeps at his desk more nights than not. The Commission also keeps files on promising students at every hero academy, and the President reads the U.A. files herself. Right now three worries dominate its meetings: rising villain incidents, agencies padding their incident counts, and the Hero Killer Stain, whose crime-scene details it keeps out of the news to deter copycats. A fourth goes unspoken: the President counts All Might's weight in the system as its greatest risk, and his move into teaching at U.A. Academy has her putting questions to Principal Nezu, who handles U.A.'s dealings with the Commission himself and answers them politely and not at all. This week a mid-ranked hero faces a license review in the Briefing Room over a building collapse during a pursuit; the media office has already paid the owners on condition of silence, the outcome was settled before the hearing was scheduled, and a junior clerk in the Licensing Bureau who processed the settlement papers is uneasy enough to talk to the right person.",
+    "x": 14.62,
+    "y": -12.47,
+    "radius": 0.8,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Lobby": {
+        "description": "A tall, plain atrium of gray stone and glass under the Commission's crest, with security gates, a bag scanner and a long reception counter. Visitors take a numbered ticket and wait in rows of chairs; licensed heroes skip the line through a separate gate by scanning their license. Weekday mornings bring agency managers, lawyers and school officials; after 5 p.m. it empties except for the guards and the duty officer. A recorded voice calls ticket numbers in the same even tone all day, and every door carries a sign banning Quirk use. Ticket holders are sent through to the counters of the Licensing Bureau; badge holders and invited guests take the guarded corridor to the Briefing Room, and nobody else gets past the desk. Credentialed press wait in a roped corner for statements that rarely come. The floor is polished enough to show reflections, and voices drop on their own the moment people step inside.",
+        "paths": [
+          "Licensing Bureau",
+          "Briefing Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5f5dfa92-b876-4e05-8c08-88e5afec5cf0.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Licensing Bureau": {
+        "description": "A long floor of numbered counters behind glass, with filing rooms along the back wall. Clerks process hero license renewals, agency registrations, sidekick contracts, support-gear permits and the applications schools file for their students to take the Provisional Hero License Exam. Lines are longest on Monday mornings, and the forms change often enough that veterans bring a spare photo and their own pen. Yokumiru Mera, the official who runs the license exams, works at a cluttered desk in the back under stacks of venue plans and answers questions when he has to, usually after mentioning how little he has slept. Applicants who reach his desk get the hard rules stated plainly and a word of encouragement at the end. The noise is steady: printers, stamps, and clerks asking for one more form. The only way out is back to the Lobby, and a clerk checks every visitor's ticket at the glass door.",
+        "paths": [
+          "Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/28fa2c79-7a01-4f09-8097-815bd2265471.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Briefing Room": {
+        "description": "A windowless room with an oval table for thirty, wall screens and a secure line to the National Police Agency. The Commission uses it for joint briefings before large operations, for coordination between agencies and police, and for review hearings when a hero's license is in question; a hero under review sits at the narrow end of the table, facing the panel. Meetings run on the hour during the day and through the night during a crisis, when the duty office calls in agency heads and police commanders. Phones go into numbered lockers at the door, the air conditioning keeps the room cold, and nobody speaks until the chair opens the meeting. Minutes are taken on paper and leave the room in a locked case. A guarded corridor runs back to the Lobby; a second, locked door opens on the stairs up to the President's Office, and only those she has summoned use it.",
+        "paths": [
+          "Lobby",
+          "President's Office"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/83e59bd3-ef8b-4dbf-a294-0ed5d9aa3900.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "President's Office": {
+        "description": "A wide top-floor office with a view across the government district, a single long desk, a low table for guests and almost no decoration. The President of the Commission, a composed, pragmatic woman known to the public only by her title, meets top-ranked heroes, ministers, police chiefs and academy principals here by appointment only, usually early in the morning. Her secretary's desk guards the only door, at the head of the stairs from the Briefing Room. The room is very quiet; guests are served green tea and are expected to finish their business before it cools. She speaks in policy terms and approval figures, discloses exactly what she has decided to, and ends a meeting by standing. A cabinet behind the desk holds the files she reads personally, and it is locked whenever she is out. Even top heroes straighten up at the door, and no visitor leaves with any paper she has not handed them.",
+        "paths": [
+          "Briefing Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed235883-f000-4b5f-8d99-94e61d3041c9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Hero Public Safety Commission"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ad2c5b2c-e1ae-488a-846e-255b0e556797.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

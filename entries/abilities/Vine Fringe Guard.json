@@ -1,0 +1,20 @@
+{
+  "Vine Fringe Guard": {
+    "name": "Vine Fringe Guard",
+    "description": "The user bunches their vine hair across their upper body and catches one thrown object or close strike within two meters before their next turn ends. The layers slow an ordinary blow but do not shield the legs. A sharp blade can cut through the bundle, and fire damages the vines instead of being extinguished. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "Items: shop recheck": {
+    "name": "Items: shop recheck",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "shopRecheck",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": ".*"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const P=storage.shopP;if(!P||!P.it){skip=true;return;}const y=N(check({type:'player-item',item:'Yen'}));if(y<P.y)effects.push({type:'item-add',item:'Yen',quantity:P.y-y});for(const [it,t] of P.it){const h=N(check({type:'player-item',item:it}));if(h>t&&effects.length<9)effects.push({type:'item-remove',item:it,quantity:h-t});}effects.push({type:'write-boolean',key:'shopRecheck',operator:'set',value:false});})();"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Nakatsu": {
+    "name": "Nakatsu",
+    "basicInfo": "The Buzen coast of northern Oita Prefecture and the hills behind it: Nakatsu and Buzen on the shallow Suo-nada, Usa and its great shrine on the plain to the east, Bungo-Takada at the western foot of the Kunisaki peninsula, the Yabakei gorge country in the southwest, and the north shore of Beppu Bay at Hiji in the southeast corner. The northern part of the square is sea, wide tidal flats at low water where horseshoe crabs still breed and fishermen catch pike conger. Nakatsu is a castle town whose castle stands at the river mouth with seawater in its moat, and it calls itself the capital of karaage, with dozens of shops frying garlic-and-soy chicken; its summer Gion festival parades floats through the old streets, and a big car assembly plant nearby gives the town its factory shifts. Usa Jingu, head of all the Hachiman shrines in Japan, sits in a forest of camphor and cedar with vermilion halls and a lotus pond, and Usa's farms grow rice, barley for shochu and grapes for the Ajimu wineries in the hills, where farm stays are common. Bungo-Takada has a shopping street restored to look the way it did in the 1950s, and in the hills toward Kunisaki are great Buddhas carved into rock faces and Fukiji, the oldest wooden building in Kyushu. Yabakei is a land of strange volcanic rock pillars and gorges: a tunnel dug by hand through a cliff over decades, a temple of hundreds of stone arhats in a cave, and blazing color each November. The Innai valley has dozens of old stone arch bridges. Summers are hot, winters mild on the coast and cold in the gorges. Limited expresses on the JR Nippo Line run from Hakata via Kokura to Nakatsu in about an hour and a quarter and on through Usa toward Beppu, and the Higashi-Kyushu Expressway follows the coast. From Musutafu, about five hours. Each town has a police station; small hero agencies in Nakatsu and Usa cover the countryside, and sidekicks direct the New Year crowds at the shrine. Visitors eat karaage, pray at Usa, drive the gorges and taste local wine.",
+    "hiddenInfo": "The Buzen coast is a quiet, working region where factory jobs keep the towns alive while farm villages empty out. Small crime is theft of shrine offerings, car theft, joyriding on the gorge roads and the odd brawl at shift change. Flash floods and rockfalls in Yabakei are the bigger danger. Larger hero help comes from Kitakyushu, about an hour north, or from Oita.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -14,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d56137d2-3e80-4d04-9881-f3d17d3eb191.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

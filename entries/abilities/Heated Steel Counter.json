@@ -1,0 +1,29 @@
+{
+  "Heated Steel Counter": {
+    "name": "Heated Steel Counter",
+    "description": "The user lets an existing heat source heat their steel body until it glows, then times a punch within arm's reach to deal heavy bludgeoning and fire damage. Held back, the user strikes a weapon or shield and stops before touching skin. The user creates no heat, cannot spare allies from hot contact and must leave the heat this turn; afterward they need cooling and rest before transforming again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

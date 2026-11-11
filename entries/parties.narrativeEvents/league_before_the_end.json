@@ -1,0 +1,15 @@
+{
+  "league_before_the_end": {
+    "title": "The People They Mean to Destroy",
+    "beats": "On May 6, the villains prepare while the heroes complete their own assignments. Shigaraki's Sensei directs contacts from Nomu Warehouse; Spinner faces demands to become a public symbol. Kamino Ward offers a place to encounter recruitment and propaganda through existing contacts, while U.A. Academy receives only intelligence actually gathered. Himiko Toga's visit to her former home occurs elsewhere and is reached only through an established journey or a later account.\n\nThe canon default course, as pressure the player can change: Toga revisits the home associated with her rejection. Dabi meets her there, burns the abandoned house and gives her the blood he preserved from Twice. The supply is finite. Twice remains dead; using his blood later does not revive him or produce unlimited reserves. Toga's grief and her unresolved response to Ochaco shape her preparation. Dabi remains intent on destroying Endeavor and the Todoroki family rather than embracing All For One's preferred future.\n\nSpinner is elevated as a symbol for heteromorph anger and accepts additional Quirks. Their physical burden enlarges him and damages his ability to think and communicate. Preserve a chance to object, interrupt the process or offer a different role before those changes are established. Heteromorph grievances are real, but no community is automatically loyal to the League. Tomoyasu Chikazoku, acting as Skeptic, prepares technological infiltration. A player can preserve a warning, reject a recruitment demand or change a supply transfer without learning every hidden objective. The enemy's original body and Shigaraki remain separate.\n\nBy Path: at Nomu Warehouse, League of Villains Recruit can accompany preparations and choose loyalty, Independent Villain can negotiate participation and an authorized infiltrator can risk gathering evidence. At Kamino Ward, Vigilante investigates recruitment and Civilian Life can resist, join or protect someone being pressured. At U.A. Academy, Class 1-A and Class 1-B prepare against known opponents, General Studies documents threatened communities, Support analyzes verified capabilities, Management assesses propaganda and Faculty briefs teams. Licensed Sidekick and Licensed Pro Hero investigate or allocate interception resources from their actual site. Private villain conversations are not included in general briefings; capture, detention or broken contact changes which scenes can occur.\n\nThe event is complete when the player's allegiance or response is settled and the relevant blood supply, Spinner's condition, infiltration preparations and intended targets are established for their actual witnesses.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_league_before_the_end",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

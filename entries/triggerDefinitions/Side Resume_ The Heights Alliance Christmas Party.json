@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Heights Alliance Christmas Party": {
+    "name": "Side Resume: The Heights Alliance Christmas Party",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_christmas_party",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_christmas_party",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_christmas_party",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_christmas_party"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_christmas_party",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Heights Alliance Christmas Party\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Christmas week, evening, in the Class 1-A Dorm Lounge at Heights Alliance."
+      }
+    ]
+  }
+}

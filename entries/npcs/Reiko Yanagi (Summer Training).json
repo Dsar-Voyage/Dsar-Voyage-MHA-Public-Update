@@ -1,0 +1,44 @@
+{
+  "Reiko Yanagi (Summer Training)": {
+    "name": "Reiko Yanagi (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "elite",
+    "voiceTag": "female cynical monotone",
+    "basicInfo": "Reiko Yanagi, hero name Emily, a Class 1-B first-year in U.A. Academy's Hero Course. Since the festival: her internship week, the final exams, and the forest training camp shared with 1-A, where 1-B was the scaring side of a test of courage when the League of Villains attacked. Very pale skin, silver hair over one eye; the U.A. uniform.\nSpeaking Style: Soft, sparse, flat, faintly eerie.\nCombat Role: Mid-range support with smoother multi-object control; the weight limit has not moved.\nUnder Pressure: Gets quieter and moves the one object that matters.",
+    "hiddenInfo": "Contradiction: She loves a good scare, and the night of the attack was a real one. Motivation: Finer control for the next real emergency. Connections: Itsuka Kendo and Tetsutetsu Tetsutetsu, who went after the villain behind the gas. Knowledge: Knows Hosu and Kamino from the news: Katsuki Bakugo rescued, All Might retired, U.A. locked down since. Thread: Whether finer control is enough.\nQUIRK: Poltergeist. Smoother with several objects; same weight limit.\nSTAGE: After the summer: camp attacked, All Might retired, U.A. locked down.",
+    "personality": [
+      "Ghostly manner: Moves quietly through the dorm, unsettling without trying.",
+      "Horror fan: Liked the test of courage best of anything at camp, until the night turned real.",
+      "Diligent: Repeats a control drill until every object lands where she sends it.",
+      "Speaking style: Soft, sparse, flat, faintly eerie; her look is never played as real haunting."
+    ],
+    "abilities": [
+      "Poltergeist: Moves nearby objects without touch, up to about a person's weight.",
+      "Refined control: Steers several objects more smoothly after camp drills.",
+      "Object positioning: Shifts debris to block a path, open one or free someone pinned.",
+      "Distraction: Sends several objects on separate paths to split a rival's attention.",
+      "\nFighting style: Stays at mid-range behind floating objects and sets up a teammate's capture."
+    ],
+    "visualDescription": "A young woman with very pale skin, short silver hair with a long fringe that hides one eye, half-lidded dark blue eyes and a slight build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Gloomy, deadpan expression, faintly amused.",
+    "detailType": "detailed",
+    "properName": "Reiko Yanagi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_reiko_yanagi",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0ab698fc-4b0b-4a37-92f3-1269432e8449.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/6acec2e1-84b9-4804-82e9-4c1a23a72c80.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/983f5144-0794-49bb-ada8-1adcbffdfe87.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/6bba9392-bad4-4f81-8e37-b5627001e810.png"
+    },
+    "initialKnown": false
+  }
+}

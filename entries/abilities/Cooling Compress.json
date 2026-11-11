@@ -1,0 +1,20 @@
+{
+  "Cooling Compress": {
+    "name": "Cooling Compress",
+    "description": "The user covers a reachable burn with fresh cool gel for ten minutes, drawing off residual heat and protecting damaged skin while natural repair begins. The treatment eases pain but cannot undo deep tissue damage. The user must stay beside the patient, and flame or boiling surfaces overwhelm the gel. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

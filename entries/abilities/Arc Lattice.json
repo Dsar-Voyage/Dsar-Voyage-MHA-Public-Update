@@ -1,0 +1,29 @@
+{
+  "Arc Lattice": {
+    "name": "Arc Lattice",
+    "description": "The user charges the railings, lampposts, wires and fences along a street and strings standing arcs between them into a web that holds for the rest of the scene. Any enemy who crosses or touches a strand takes heavy electric damage and is locked in place until the end of their next turn; held back, a strand only jolts them and throws them clear. The user can open a gap for any ally or bystander they see, but must keep a hand on one of the charged anchors the whole time and cannot discharge anywhere else. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

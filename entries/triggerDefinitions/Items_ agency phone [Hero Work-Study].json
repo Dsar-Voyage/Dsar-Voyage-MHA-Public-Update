@@ -1,0 +1,32 @@
+{
+  "Items: agency phone [Hero Work-Study]": {
+    "name": "Items: agency phone [Hero Work-Study]",
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Hero Work-Study",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "player-item",
+        "item": "Agency phone",
+        "operator": "lessThan",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Agency phone",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: on the first day of the placement the host agency hands the character an Agency phone for dispatch alerts. It is already in their inventory."
+      }
+    ],
+    "recurring": false
+  }
+}

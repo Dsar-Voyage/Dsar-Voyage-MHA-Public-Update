@@ -1,0 +1,24 @@
+{
+  "Falling Team Catch": {
+    "name": "Falling Team Catch",
+    "description": "The user floats themself from a secured line and reaches up to five falling people within ten meters, touching each directly with all five pads this turn. The user uses the line and helpers to guide them toward safety before release. Each person must be reachable along the user's route; the Quirk supplies no steering, and repeated self-floating leaves severe nausea. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

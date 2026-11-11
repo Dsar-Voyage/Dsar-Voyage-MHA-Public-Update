@@ -1,0 +1,42 @@
+{
+  "Side Resume: Workshop Overnight": {
+    "name": "Side Resume: Workshop Overnight",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "sup_workshop_overnight",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_sup_workshop_overnight",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_sup_workshop_overnight",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "sup_workshop_overnight"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_sup_workshop_overnight",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Workshop Overnight\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: A winter night at U.A."
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "gs_shinso_training": {
+    "title": "Shinso's Night Training",
+    "beats": "An evening in late spring at U.A. Academy, some weeks after the Sports Festival. The Athletics Field should be empty once the clubs leave; tonight the floodlights at one end are on. Shota Aizawa stands on the turf with a spare capture scarf over one arm, and Hitoshi Shinso, in a gym uniform already torn at one knee, is trying to throw the other end around a practice post and keeps wrapping himself instead. Nobody announced this. Aizawa watched Shinso at the festival and saw a Quirk that can end a fight in one word and a body never trained to finish one, and he offered the hours after class. The training promises nothing.\n\nDefault course, as pressure the player can change: Aizawa runs drills in short, flat sentences: footwork, breakfalls, the weight of the scarf, reading a target's breathing before the throw. Shinso misses the same catch for an hour and does not ask to stop. If it rains or the night turns cold, they move into the Main Gymnasium, where the high roof gives the scarf room and the mats spare his elbows. Aizawa's only comment is \"Again.\"\n\nA General Studies party that stumbles on this decides what to do with what it saw. It can watch from the low concrete stand and keep the secret, spot Shinso on his falls, or ask to join. Aizawa answers fairly: this is not a club, he has no hours to teach all of 1-C, and anyone who wants more must first show they will come back tomorrow; he can hand out a few drills to practice alone and nothing more. Shinso dislikes an audience and hates pity, but he will take a partner who never mentions it in class. Asked why he keeps at it, he answers with a question, and maybe, late, with half an honest answer about being taken seriously.\n\nWhether any of this leads to a transfer is not decided tonight, and not by anyone here.\n\nThe event is complete when Aizawa calls the session, cuts the floodlights and sends both students back to the dorms before curfew.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_gs_shinso_training",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

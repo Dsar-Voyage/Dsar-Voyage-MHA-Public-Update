@@ -1,0 +1,25 @@
+{
+  "Tensile Quarter": {
+    "name": "Tensile Quarter",
+    "description": "The user presses both hands to the pavement and the Quirk spreads through every road, wall and rooftop across a whole city district for the rest of the scene. Falls and collapses there end in a soft rebound, so nobody inside is hurt by falling rubble or a fall from any height, and enemies who run, charge or strike a surface are flung back off it and take heavy force damage; held back, the rebound only throws them down. Allies lose their footing too unless the user warns them, and the user cannot move from the spot while it holds. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

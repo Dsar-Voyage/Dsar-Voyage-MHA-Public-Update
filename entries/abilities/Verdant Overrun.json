@@ -1,0 +1,25 @@
+{
+  "Verdant Overrun": {
+    "name": "Verdant Overrun",
+    "description": "The user drives roots deep into the soil and, for several minutes, trunks and vines burst through pavement across several city blocks at once. They lift trapped and fleeing people onto living platforms above floodwater, fire or rubble, and coil around every enemy on the ground, who takes heavy bludgeoning damage and is held aloft until cut loose; held back, the vines only grip. The roots crack foundations and water mains across the area, collateral the user must steer around, and afterward the user cannot grow anything for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Plant Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

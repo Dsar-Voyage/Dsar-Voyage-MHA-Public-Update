@@ -1,0 +1,29 @@
+{
+  "Lodestone Brand": {
+    "name": "Lodestone Brand",
+    "description": "The user touches a target and leaves a lasting pole on them for a full day. Wherever the target goes in the city, the user feels the direction and rough distance of the brand, and whenever the target comes within a street's width, the user can slam them to the nearest steel or to the ground: at full strength the target takes heavy force damage, and held back they are only pinned until they wrench free with a hard effort. The user holds one brand at a time, and while it lasts every other use of the Quirk reaches only half as far. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

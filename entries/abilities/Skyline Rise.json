@@ -1,0 +1,20 @@
+{
+  "Skyline Rise": {
+    "name": "Skyline Rise",
+    "description": "The user grows to the height of an apartment building for about a minute. While giant, their blows deal heavy bludgeoning damage, they can lift a bus, pin down a giant opponent or pluck people from upper floors, and nothing of ordinary size can push them back, but every step risks cars, pipes and windows. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

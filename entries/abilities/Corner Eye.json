@@ -1,0 +1,20 @@
+{
+  "Corner Eye": {
+    "name": "Corner Eye",
+    "description": "The user extends one extra arm around a nearby corner and forms an eye at its end. They see the room or passage beyond without exposing their head and can report visible hazards to allies. The eye needs light and an unobstructed view, and an attack on the extended arm hurts the user. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

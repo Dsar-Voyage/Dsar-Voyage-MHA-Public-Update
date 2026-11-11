@@ -1,0 +1,27 @@
+{
+  "Path: off campus [Licensed Pro Hero]": {
+    "name": "Path: off campus [Licensed Pro Hero]",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "offCampus",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

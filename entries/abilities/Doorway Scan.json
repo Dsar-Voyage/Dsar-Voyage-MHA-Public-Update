@@ -1,0 +1,15 @@
+{
+  "Doorway Scan": {
+    "name": "Doorway Scan",
+    "description": "Entering a place, the user stops at the threshold and sweeps it in a fixed order: exits, hands, high ground, shadows, anything out of place. The user spots anyone hiding, any trap and any concealed weapon that a careful look could find, and cannot be ambushed in that place for the rest of the scene. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

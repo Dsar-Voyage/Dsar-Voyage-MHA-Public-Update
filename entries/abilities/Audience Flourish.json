@@ -1,0 +1,24 @@
+{
+  "Audience Flourish": {
+    "name": "Audience Flourish",
+    "description": "The user spends three attention charges on a broad rhythmic gesture, sending pressure through an eight-meter stretch ahead. Hearing opponents take heavy force damage and slide two meters; held back, it only seats them without injury. Allies must clear the stretch, and the reserve empties even if the beat is interrupted. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

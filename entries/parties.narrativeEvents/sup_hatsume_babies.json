@@ -1,0 +1,15 @@
+{
+  "sup_hatsume_babies": {
+    "title": "Hatsume's Babies",
+    "beats": "The Support Course's first full week of real workshop time at U.A. Academy. Mornings run in the Support Course Classrooms, lectures on materials and drafting over the hum of the 3D printers; in the afternoons everyone files through the connecting door into Power Loader's Development Studio. Mei Hatsume of Class 1-H has been there since before homeroom.\n\nDefault course, as pressure the player can change: Hatsume's babies fail in ways the course will talk about all year. A pair of hover soles lifts her half a meter and pitches her into the parts shelf. A grapple launcher fires the grapple, the cable and most of the launcher. A wrist-mounted power pack runs hot, smokes and goes off with a bang that rattles the test cage, and Power Loader is shouting \"Hatsume!\" before the smoke clears. He hits the shutoff, clears the room, digs through the debris with his claws to fish out the pieces, and lectures the whole class on goggles, fire blankets and why every power supply needs a cutoff. Hatsume takes notes on the failure, beaming, and starts version two.\n\nA Support Course party lives in the blast radius. In the studio, it can borrow her lathe, get drafted as a test pilot, spot the flaw in the power pack before it blows, or keep its own project from becoming collateral damage. In the classroom, it can get ahead on the design theory everyone else is skimming, or sketch an idea its classmates laugh at until it works. Power Loader respects a student who can explain why a part failed, and takes tools away from anyone who skips the checklist twice. The other first-years of 1-F to 1-H are ordinary, nervous and competitive, and most have already learned to stand well back from Hatsume's bench.\n\nThe event is complete when the studio is swept, the party's first project has been tested once, and Power Loader signs the day's safety log.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_sup_hatsume_babies",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

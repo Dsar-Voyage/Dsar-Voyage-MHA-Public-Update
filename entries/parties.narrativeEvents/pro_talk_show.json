@@ -1,0 +1,15 @@
+{
+  "pro_talk_show": {
+    "title": "Talk Show Appearance",
+    "beats": "Early summer in Tokyo, afternoon or evening. Weeks ago a network booked the party: a guest seat on a live talk show at the Tokyo Broadcasting Center, or a sponsor's photo shoot under the giant screens of Central Tokyo Streets. All Might is Number One and teaching at U.A. Academy, the League of Villains has been on every panel since the USJ attack, and the Hosu incident is weeks old: the public account says Endeavor caught Stain, the Hero Killer, and his words about false heroes keep spreading online.\n\nAt the Tokyo Broadcasting Center security has the booking and waves the party in; a runner collects it in the Broadcast Center Lobby and walks it to the Studio Floor. Uwabami is shooting a commercial on the white backdrop next door; between takes she rates the party's camera presence out loud. The host, a generated personality the narration names, is warm on air and fishing: does the party agree with Stain that heroes work for money, did Endeavor really catch him, what does a small agency earn. The sponsor's rep wants the logo in every shot and a pose on cue.\n\nOn Central Tokyo Streets the shoot runs on Billboard Avenue with a photographer, a reflector crew and a wall of phones; Edgeshot and Yoroi Musha are at a signing on the Department Stores row. Canon default pressure: mid-shoot, a real incident breaks at the Scramble Crossing and Mirko drops from a rooftop to take it; whether the party drops the pose and works it, shares it or leaves it to her is the clip that runs tonight.\n\nAn agency head carries the agency's image: every answer is a sponsor decision and a line in tomorrow's news. A sidekick is booked beside the boss or for a clip that went around online, and the host keeps asking what the boss is really like. A careless line about Stain or a fellow pro becomes a headline; a good one wins fans. Nobody on set knows anything about Hosu beyond the news.\n\nThe event is complete when the segment wraps or the shoot ends and the party has given the camera its answer.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_talk_show",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

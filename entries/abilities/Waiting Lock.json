@@ -1,0 +1,29 @@
+{
+  "Waiting Lock": {
+    "name": "Waiting Lock",
+    "description": "The user touches up to five things during a scene, a door, a car wheel, a villain's wrist or a cracked ledge, and sets a lock in each that waits. The first time each one moves, it locks dead and turns the way the user chose: a fleeing car's wheel locks and the car slides to a stop, a punch from the marked wrist stops short of its target, a falling ledge hangs until the people below clear. While any set lock waits the user cannot lock at a glance, and each lock that fires jolts through the user's hands. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

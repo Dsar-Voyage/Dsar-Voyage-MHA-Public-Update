@@ -1,0 +1,25 @@
+{
+  "Shelter Gel Network": {
+    "name": "Shelter Gel Network",
+    "description": "The user feeds connected gel channels across thirty meters for three turns, forming six padded cradles that carry injured adults at walking pace and sealing up to four doors against pursuit. Faces and exits for rescuers stay clear. Cutting a channel stops its cradle or door seal, vehicle impacts tear the gel, and the user cannot produce more gel until an hour of rest afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

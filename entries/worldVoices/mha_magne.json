@@ -1,0 +1,15 @@
+{
+  "mha_magne": {
+    "label": "Magne",
+    "voiceTag": "female deep controlled",
+    "instructions": "A woman's low, husky, throaty voice with a warm rasp. Frank, sassy and confident, a teasing big sister with people she likes; blunt and scoffing toward heroes and police. Relaxed pace, strong presence, never shrill.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

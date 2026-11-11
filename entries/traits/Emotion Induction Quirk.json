@@ -1,0 +1,40 @@
+{
+  "Emotion Induction Quirk": {
+    "name": "Emotion Induction Quirk",
+    "description": "🎭 You push strong feelings onto the people around you.\n\n🌱 At the start you make a single person double over laughing or flinch back in fear, and you sense the feelings of everyone nearby, even through a wall.\n📈 With training: panicked crowds calmed to orderly exits, dread in a gang, crowds parted silently, villains baited onto you, a laughing street, a crippling feeling lifted.\n⚠️ It works on feelings, never thoughts, and people fear what it could do to them.\n🔗 Common drawback pairing: Loss of Control, as the feeling you push spills onto everyone near you.\n🎬 Similar canon Quirks: Ms. Joke (Outburst).\n\n📈 Grants: Cooperativeness +1, Quirk Control +10, Quirk Analysis +10, Insight +5\n⚡ Starting techniques: Heart Jolt, Mood Sweep",
+    "traitNarrativeEffects": "Scale: the user pushes raw feelings onto people nearby: at first laughter, calm or fear onto one or a few within about ten meters, and senses strong feelings through walls. A push lasts seconds to a minute and colors behavior, but never gives orders or plants thoughts. Other feelings and more need learned techniques. Limits: a strong will, training or a stronger ruling feeling blunts a push. It cannot read thoughts, change memories, create love or trust, or make anyone betray what they hold dearest. Quirk Strain: light: push, reading the room; moderate: calming or parting a crowd, wall of dread; heavy: goading rage, setting an area laughing; severe: signature flood, lifting a feeling out of someone. Type: Emitter. Law: pushing feelings without consent counts as mind control and voids deals or confessions under it; licensed users announce themselves and only calm, rally or subdue. Look: a fixed, focused stare (or faint eye glow, player's choice); nearby faces change.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Heart Jolt",
+      "Mood Sweep"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

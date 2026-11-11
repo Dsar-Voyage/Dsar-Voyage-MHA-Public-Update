@@ -1,0 +1,20 @@
+{
+  "Needlepoint Blast": {
+    "name": "Needlepoint Blast",
+    "description": "The user cups the blast between the fingers and fires it as a narrow, focused shot that crosses a street. It deals explosive damage to a single target at range without throwing blast or debris onto the people around them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

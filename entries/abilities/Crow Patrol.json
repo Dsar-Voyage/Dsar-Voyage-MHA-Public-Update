@@ -1,0 +1,20 @@
+{
+  "Crow Patrol": {
+    "name": "Crow Patrol",
+    "description": "The user sends the crows and pigeons nearby up over the surrounding blocks. Within a few minutes they come back and report where crowds are running, where smoke is rising, where someone lies hurt on a roof or in an alley, and where a person the user describes by look or smell has gone. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

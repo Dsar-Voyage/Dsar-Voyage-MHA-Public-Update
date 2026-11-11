@@ -1,0 +1,20 @@
+{
+  "Pin-Down Fire": {
+    "name": "Pin-Down Fire",
+    "description": "The user fires or throws at the edges of an opponent's cover, close enough to make them duck. Until the end of their next turn, the opponent cannot leave that cover or aim their own ranged attack without being hit for piercing damage (bludgeoning damage from rubber rounds or thrown stones). Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Marksman",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

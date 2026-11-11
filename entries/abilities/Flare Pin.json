@@ -1,0 +1,20 @@
+{
+  "Flare Pin": {
+    "name": "Flare Pin",
+    "description": "The user snaps a bright flare overhead that throws every foe's shadow within a room's width outward, then pins those cast shadows to the floor in a dark ring while a halo of light keeps shadows off nearby allies. Even in a bright room, each enemy is held by the ankles without injury until the end of their next turn or until they wrench free with a hard effort. It burns stamina and thins the user's shadow. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

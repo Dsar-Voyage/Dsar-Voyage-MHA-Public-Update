@@ -1,0 +1,15 @@
+{
+  "side_intern_evaluation": {
+    "title": "Internship Week: The Evaluation",
+    "beats": "The last day of internship week, from midday into the evening, at the agency the party chose. Hosu is in every headline: on the night of the attack, creatures of the kind seen at the USJ tore through the city center, fires burned on its main street, and the reports say Endeavor and local pros brought it under control while Stain, the Hero Killer, was taken into custody. Footage of Stain standing before the arriving pros, and the words he shouted about false heroes, are everywhere online, and commentators tie the creatures to the League of Villains. That is all the public knows, unless the party was in Hosu itself and saw more.\n\nCanon default course, as pressure the player can change: the mentor calls the party in with a written evaluation for U.A. and reads it aloud. It is honest and specific: the first day's choices, the night patrol, the report, one real strength and one real fault, each with the moment that showed it. A party can argue a point; a good argument changes a line, a sulky one goes into the margin. If the week went well, the mentor offers a place for a work-study once the party holds a license; if it went badly, the evaluation says why without cruelty. The staff say goodbye, the costume goes back in its case, and the envelope is sealed for the homeroom teacher.\n\nOn the train back to U.A., the screens over the doors show Hosu on a loop, and passengers argue over what Stain said. The class chat compares evaluations: Kirishima proud of a single word of praise from Fourth Kind, Uraraka full of the capture moves Gunhead taught her, the chat stunned by the news and asking who was anywhere near Hosu.\n\nBy path: a 1-A party carries its envelope to Shota Aizawa. A 1-B party carries it to Vlad King, and Itsuka Kendo and Tetsutetsu Tetsutetsu are on the same platform, comparing grades.\n\nThe event is complete when the evaluation is read and the party is on the train home, or the party leaves the agency without it.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_intern_evaluation",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

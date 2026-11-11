@@ -1,0 +1,45 @@
+{
+  "Event Arrival: The License Remedial Course @ Takoba Municipal Stadium": {
+    "name": "Event Arrival: The License Remedial Course @ Takoba Municipal Stadium",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 212
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_license_remedial_course",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_kurogiri_captured",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "lessThan",
+        "value": 1
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Takoba Municipal Stadium"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "currentBandIndex",
+        "operator": "set",
+        "value": 1
+      }
+    ]
+  }
+}

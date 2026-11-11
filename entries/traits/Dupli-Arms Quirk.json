@@ -1,0 +1,45 @@
+{
+  "Dupli-Arms Quirk": {
+    "name": "Dupli-Arms Quirk",
+    "description": "👐 You have six arms and grow copies of your own body parts on four.\n\n🌱 At the start you hold several objects, put an eye around a corner or bring an ear near a sound, with copied parts attached to your four extra arms.\n📈 With training: broader scouting, multi-arm restraints, shielding a group, building-wide rescue coordination.\n⚠️ Your parts cannot detach or cross walls; eyes need light and a clear view, injuries hurt you, and several views or loud sounds overwhelm your attention.\n🔗 Canon Drawback, built in: Sensory Overload, as extra eyes and ears compete for your attention.\n🎬 Canon Quirk: Mezo Shoji's Dupli-Arms. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Noise-filtering earpieces\n\n📈 Grants: Cooperativeness +1, Quirk Control +10, Quirk Analysis +10, Search and Rescue +5\n⚡ Starting techniques: Corner Eye, Many Hand Hold",
+    "traitNarrativeEffects": "Scale: four extra side limbs; their tips copy the user's hands, eyes, ears or mouths, linked to their senses. Start: carry several objects, offer hands, peek around corners, eavesdrop at range. More parts at once, hard rescue or combat need training.\nLimits: limbs reach around, never detach or pass walls. Copies are own organs only, no new powers. Eyes need light and sight lines; loud noise swamps ears. Hurt limbs or copies pain the user; several views or sounds split attention. Limbs heal; damage costs time and strength.\nQuirk Strain: light: one copy, extra grip; moderate: several senses, climb, restraint; heavy: many limbs, shielding a group; severe: signature effort, building-wide coordination.\nDrawback: built in, the canon Sensory Overload.\nCanon: Mezo Shoji's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: extra senses grant no right to intrude; user answers for every limb.\nLook: extra arms.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Corner Eye",
+      "Many Hand Hold"
+    ],
+    "startingItems": [
+      {
+        "item": "Noise-filtering earpieces",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Soothing Word": {
+    "name": "Soothing Word",
+    "description": "The user speaks low and steady to an animal that is panicking or attacking, from a frightened pet to a guard dog set on intruders or an animal loose from a zoo. It stops, backs away and lets people pass, and it attacks nobody for the rest of the scene unless it is hurt or cornered again. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

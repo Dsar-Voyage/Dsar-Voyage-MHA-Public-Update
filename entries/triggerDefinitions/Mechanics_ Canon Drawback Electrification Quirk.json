@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Electrification Quirk": {
+    "name": "Mechanics: Canon Drawback Electrification Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Electrification Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Cognitive Fade",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

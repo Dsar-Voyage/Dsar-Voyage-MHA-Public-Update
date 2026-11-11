@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: rei_scarred": {
+    "name": "Portrait Swap: rei_scarred",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_todoroki_family_stops_dabi",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Rei Todoroki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e835bd5d-ed62-49e2-af92-7b801af6e7b9.png"
+      }
+    ]
+  }
+}

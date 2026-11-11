@@ -1,0 +1,17 @@
+{
+  "Class Representative": {
+    "name": "Class Representative",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Homeroom business, and Shota Aizawa wants it settled fast: each Hero Course class must choose a class representative and a deputy. In Class 1-A nearly everyone wants the job, and Tenya Iida insists on a secret ballot. In Class 1-B, Vlad King calls for nominations and most of the room is already looking at Itsuka Kendo. The representative speaks for the class to the faculty, runs class meetings and takes the blame first. Run, back someone, or decide what you want this class to become.",
+    "mainObjective": "Campaign for class representative or back a candidate, and see your class's vote through.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC's class has held its vote for class representative and deputy, and the PC has campaigned, backed a candidate or cast a deliberate vote."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "A comedy of ambition with a real question underneath: who should lead. Canon default for 1-A as pressure, not a fixed result: almost everyone votes for themselves, Tenya Iida votes for Izuku Midoriya, and Izuku wins by a single vote with Momo Yaoyorozu as deputy; in 1-B, Itsuka Kendo. Run the PC's actual campaign and count the votes the story earns; the PC may win either post. The quest ends with the count. The press at the Main Gate and anything at lunch belong to the media break-in event and are never staged or hinted here; any later handover of the post happens only through that event or the characters' own choices.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Clamshell Cover": {
+    "name": "Clamshell Cover",
+    "description": "Shell from clams, oysters, scallops or crab they have eaten spreads over the user's back, chest and forearms, and they can close their arms around a person they hold. Until the start of the user's next turn, blades, clubs, thrown debris and falling rubble that hit the shell deal no damage to either of them; the first bullet is stopped but cracks it open, ending the cover. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

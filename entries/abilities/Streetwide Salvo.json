@@ -1,0 +1,25 @@
+{
+  "Streetwide Salvo": {
+    "name": "Streetwide Salvo",
+    "description": "The user braces against a solid structure and charges for two turns, broadcasting a rising whine and bright muzzle glow, then fires six dense rounds at separate visible targets within a hundred meters. Each deals heavy bludgeoning damage; held back, broad rounds only knock adults down. Every firing lane must be clear of bystanders. The recoil can break weak bracing, and afterward the burned forearm cannot fire until treated and rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

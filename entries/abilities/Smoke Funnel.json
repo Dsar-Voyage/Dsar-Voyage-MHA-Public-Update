@@ -1,0 +1,20 @@
+{
+  "Smoke Funnel": {
+    "name": "Smoke Funnel",
+    "description": "The user sprints tight circles around a burning room, a smoke-filled stairwell or a cloud of gas and drags the air along with them. The smoke or gas spins up and out, small fires gutter out, and everyone inside can see and breathe clearly until the end of the scene unless a fire keeps feeding new smoke. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

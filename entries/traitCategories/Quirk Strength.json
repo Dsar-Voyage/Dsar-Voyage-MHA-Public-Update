@@ -1,0 +1,13 @@
+{
+  "Quirk Strength": {
+    "name": "Quirk Strength",
+    "maxSelections": 1,
+    "traits": [
+      "Developing Quirk",
+      "Strong Quirk",
+      "Exceptional Quirk",
+      "No Quirk Strength (Quirkless)"
+    ],
+    "description": "📈 How strong your Quirk is right now. Stronger Quirks hit harder and strain faster."
+  }
+}

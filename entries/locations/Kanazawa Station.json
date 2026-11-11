@@ -1,0 +1,88 @@
+{
+  "Kanazawa Station": {
+    "name": "Kanazawa Station",
+    "basicInfo": "Kanazawa Station is the Hokuriku coast's front door, a JR West station on the Hokuriku shinkansen whose east exit is famous in its own right: a huge glass-and-aluminum canopy called the Motenashi Dome, built to hold an umbrella over arriving guests, and before it the Tsuzumi-mon, a towering gate of laminated wooden pillars twisted like the cords of a hand drum. Locals say that even if you forget your lunch you should never forget your umbrella, and the dome earns its keep from November to March, when gray rain, sleet and sea thunder roll in for days. The east exit faces the old city: the bus terminal under the dome sends loop buses and city buses to the Omicho fish market, Kenrokuen and the castle park, the Higashi Chaya teahouse district and the Katamachi nightlife streets, each ten to fifteen minutes away, and taxi ranks wait beside it. The west exit is plainer and more businesslike, with office blocks, hotels, a broad avenue running toward the port and the buses to Komatsu Airport. Inside, the shopping halls sell gold-leaf everything, from lacquer boxes to cakes, along with Kutani porcelain, wagashi sweets, sake, crab and nodoguro boxed meals and thick Kanazawa curry, and the coin lockers fill early on weekends. The Hokuriku shinkansen runs east to Tokyo in about 2 hours 30 minutes, so Musutafu is about 3 hours 30 minutes away via Tokyo, or about the same via Nagoya and Maibara by limited express and the shinkansen through Tsuruga; westward it runs to Tsuruga for the limited express to Osaka, about two hours in all. IR Ishikawa local trains and the Hokutetsu line from its underground platform fill in. Mornings bring commuters and students; daytime brings tour groups and rental-kimono strollers; evenings, office workers and diners head for Katamachi; the last trains leave before midnight. A police box stands at the east exit, and sidekicks from the local agencies patrol the plaza under the dome. It feels elegant, welcoming and a little formal: a craft city dressed for guests.",
+    "hiddenInfo": "Counterfeit Kutani porcelain is being sold to tour groups at the west exit right now, each weekday morning between about 9:30 and 11 a.m., while the chartered tour buses load. A smiling man in a dark blue happi coat, with a folding table and two rolling suitcases, offers hand-painted Kutani plates and gold-leaf sake cups at a fifth of shop prices, each with a printed certificate of authenticity; the plates are cheap blanks with transfer decals fired on, and the gold is brass foil. He sets up just off station property, on the sidewalk of the avenue, so the station guards have nothing to say, and he packs up the moment a uniform comes near, because his lookout, a woman pretending to study a bus timetable, has a Quirk that lets her hear the tread of patrol boots from the far side of the plaza. A clerk at a genuine Kutani shop inside the station hall bought one plate, looked at it under a lamp and scratched the glaze with her thumbnail; she has written down the certificate's phone number, which reaches only a voicemail, and she wants someone to take it seriously before the craft associations blame the station shops. How the place really runs: JR West owns the station, the city owns the dome and the plaza, and the shopping halls answer to a merchants' committee of old local houses who care about reputation above everything; two local agencies split the station patrol, reliable but stretched thin in tourist season and in the winter storms.",
+    "x": -11.09,
+    "y": -10.21,
+    "radius": 1,
+    "region": "Kanazawa",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d43374f-b1a3-4d57-ac5f-511060742f31.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Tsuzumi Gate Plaza": {
+        "description": "The east exit opens beneath the Motenashi Dome, a huge canopy of glass and aluminum lattice built to hold an umbrella over arriving guests, and beyond it stands the Tsuzumi-mon, a towering gate of laminated wooden pillars twisted like the cords of a hand drum. In front of the dome a fountain clock spells out the time in falling drops of water. The bus terminal under the dome sends loop and city buses to the Omicho fish market, Kenrokuen and the castle park, the Higashi Chaya teahouse district and Katamachi, each ten to fifteen minutes away, and taxis wait beside it. Mornings bring commuters and students; daytime brings tour groups and rental-kimono strollers posing between the pillars; evenings, diners head out for Katamachi. From November to March gray rain, sleet and sea thunder roll in for days, and the dome earns its keep. A police box stands at the east exit, and sidekicks from the local agencies patrol the plaza in pairs, their boots ringing loud on the stone under the dome. Glass doors lead into the Kanazawa Station Concourse, and a walk through the station brings you to the Kanazawa West Exit.",
+        "paths": [
+          "Kanazawa Station Concourse",
+          "Kanazawa West Exit"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ca12f331-f12a-4c7a-a78e-ab0aa99bffb6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kanazawa Station Concourse": {
+        "description": "Inside, the concourse runs from the dome to the west exit past the JR gates for the Hokuriku shinkansen and the IR Ishikawa local trains, with stairs down to the Hokutetsu line's underground platform. On both sides the shopping halls sell gold-leaf everything, from lacquer boxes to cakes and soft-serve ice cream wrapped in a sheet of gold, along with Kutani porcelain, wagashi sweets, sake, crab and nodoguro boxed meals and thick Kanazawa curry with shredded cabbage. The shops belong to old local houses, and their staff are polite, precise and proud of their goods. Commuters pass through in the morning, tour groups shop all day, and the curry counters fill at lunch; evenings are quieter, and the last trains leave before midnight. In one porcelain shop a clerk keeps a single cheap-looking plate behind the counter beside the real pieces and will show anyone who asks about Kutani how to tell the difference, scratching its glaze with a thumbnail. The halls smell of sweet bean paste and curry. Glass doors lead out to Tsuzumi Gate Plaza, and the other end of the concourse opens onto the Kanazawa West Exit.",
+        "paths": [
+          "Tsuzumi Gate Plaza",
+          "Kanazawa West Exit"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2fa980c6-c36e-4966-b21c-cc1f1b0bad83.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kanazawa West Exit": {
+        "description": "The west exit is plainer and more businesslike than the east: a broad plaza ringed by office blocks and business hotels, a taxi rank, the stops for the airport buses to Komatsu and a wide, straight avenue running toward the port. Station property ends at the plaza's edge, and the avenue sidewalk beyond belongs to the city. On weekday mornings chartered tour buses line the curb and load between about half past nine and eleven while tour groups mill about with shopping bags and guides count heads; street vendors sometimes set up folding tables on the avenue sidewalk just past the station's edge, selling to the waiting groups, and pack up quickly whenever a uniform comes near. A woman often stands by the bus timetable board, studying it far longer than anyone needs to. Office workers cross at rush hour, salarymen smoke in the marked corner, and in winter the wind off the Sea of Japan comes straight down the avenue carrying sleet. Evenings are quiet, taxis idling in the cold. The doors lead back into the Kanazawa Station Concourse, and a walk through the station brings you to Tsuzumi Gate Plaza.",
+        "paths": [
+          "Tsuzumi Gate Plaza",
+          "Kanazawa Station Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6da6e82d-e0f0-4194-9cfc-37a82bd2b839.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

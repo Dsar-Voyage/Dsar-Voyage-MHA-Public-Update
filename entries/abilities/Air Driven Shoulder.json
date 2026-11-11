@@ -1,0 +1,20 @@
+{
+  "Air Driven Shoulder": {
+    "name": "Air Driven Shoulder",
+    "description": "The user vents air through their soles and drives a shoulder into one target within five meters, dealing moderate bludgeoning damage. Held back, the user checks the acceleration and pushes the target one step off balance. The user needs a clear braking space beyond the target and spends stored breath on the approach. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

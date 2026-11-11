@@ -1,0 +1,30 @@
+{
+  "Shimanto": {
+    "name": "Shimanto",
+    "basicInfo": "The southwest of Kochi Prefecture: the middle and lower Shimanto River, the Kuroshio coast along the western edge of Tosa Bay, and the inland hills along the Ehime border, from Kubokawa and Kihoku in the north to Shimanto city near the river mouth and Sukumo on its bay in the southwest. Most of it is land, rolling forest and narrow river valleys; the southeast corner is Tosa Bay. The Shimanto is called the last clear river in Japan, barely dammed along its length: it loops west from its source in the mountains to the north, past Kubokawa and Toka toward the Ehime line, then south through deep green gorges to the sea below Nakamura. It is crossed by low concrete chinkabashi, sinking bridges without railings built to let floods pour over them. People fish it for ayu sweetfish, river shrimp and eel, gather green aonori laver at its mouth in winter, and paddle canoes and roofed river boats in summer. Kubokawa is a farming and rail junction town with a pilgrimage temple whose ceiling is painted in hundreds of panels. Nakamura, the old center of Shimanto city, is a quiet town laid out on a grid in imitation of Kyoto. In the Ehime hills, Matsuno has the cool stone gorge of Nametoko. On the coast, the Kuroshio town ports of Saga and Ogata catch bonito by pole and line, run whale-watching boats, and hold a beach art show of printed T-shirts strung over the sand each May. Sukumo, in the southwest corner, is a fishing and fish-farming port on a sheltered bay. Summers are among the hottest in Japan, and typhoons and flash floods are regular. The Tosa Kuroshio Railway runs from Kubokawa to Nakamura and Sukumo, with limited expresses from Kochi in under two hours, and the JR Yodo Line follows the river west to Uwajima; the Kochi Expressway reaches the Kubokawa area. From Musutafu, it is most of a day by train through Okayama and Kochi, or a flight to Kochi and two hours on the train; from Osaka, about five hours. Small hero offices in Shimanto city and Sukumo cover an enormous rural district, and river rescue in flood season is their real work.",
+    "hiddenInfo": "This is deep rural Japan: aging villages, empty schools, wild boar and deer in the fields, and long drives between anything. Floods are the real enemy, and the sinking bridges make a dangerous road in heavy rain. The nearest sizable hero agencies are in Kochi city, two hours away. Small crime is eel and ayu poaching, illegal gravel digging, theft from empty houses, and the occasional fugitive hiding in the hills on the bet that no one will come looking soon.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -11,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e2ec5348-4b05-4f7f-aa56-289008957782.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Studied: Deception": {
+    "name": "Studied: Deception",
+    "description": "🃏 You learned to lie well: improv theater, poker, a sales floor with quotas or a youth spent talking your way out of trouble.\n\n🌱 You keep a story consistent, control your face and voice, and say true things that lead to false conclusions.\n⚠️ Trained interrogators, people who know you, lie-detecting Quirks and paper evidence still catch you, and every lie needs upkeep.\n⚖️ Fraud, false statements to police and impersonating a hero are crimes, and trust lost to a lie returns slowly.\n🏫 It shows in an even voice, smooth answers and a memory for exactly what you told whom.\n\n📈 Grants: Deception +15",
+    "traitNarrativeEffects": "The character has practiced deception: keeping a story consistent, controlling face and voice, misdirecting attention and saying true things that lead to false conclusions. Prior study, not mastery: trained interrogators, people who know them well, lie-detecting Quirks and evidence on paper still catch them, and every lie needs upkeep. Not a license: fraud, false statements to police and impersonating a hero are crimes, and a lie found out costs trust that returns slowly. It shows in an even voice, smooth answers and a habit of remembering exactly what they told whom.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Deception",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

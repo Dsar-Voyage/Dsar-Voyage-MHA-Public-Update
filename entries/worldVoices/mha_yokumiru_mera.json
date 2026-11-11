@@ -1,0 +1,15 @@
+{
+  "mha_yokumiru_mera": {
+    "label": "Yokumiru Mera",
+    "voiceTag": "male laconic calm",
+    "instructions": "A drowsy, flat, droning mid-low man's voice, half asleep. Slow, monotone delivery with yawning pauses and mumbled asides about how little he slept; hard rules stated with zero emphasis, then a quiet, sincere word of encouragement. Never energetic.",
+    "speed": 0.87,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

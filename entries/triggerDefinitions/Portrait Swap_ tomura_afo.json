@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: tomura_afo": {
+    "name": "Portrait Swap: tomura_afo",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tomura Shigaraki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0249f41b-7f93-4d08-a6c0-8757c87d71ff.png"
+      }
+    ]
+  }
+}

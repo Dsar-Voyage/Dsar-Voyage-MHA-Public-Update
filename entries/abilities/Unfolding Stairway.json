@@ -1,0 +1,20 @@
+{
+  "Unfolding Stairway": {
+    "name": "Unfolding Stairway",
+    "description": "The user releases stored ladders, planks and scaffold sections against a wall or across a gap and climbs or runs over them, reaching a rooftop or crossing a street-wide gap, then pockets each piece again behind them. Released under someone falling, a stored mattress or awning catches them and sets them down unhurt. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

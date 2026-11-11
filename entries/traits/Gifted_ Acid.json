@@ -1,0 +1,35 @@
+{
+  "Gifted: Acid": {
+    "name": "Gifted: Acid",
+    "description": "🧬 Acid, as an extra Quirk put into your body.\n\n🌱 At the start you spray it a few meters, make an attacker drop their weapon with a sting and skate on a slick film faster than you can run.\n📈 With training: melted locks and car doors, glued feet, etched climbing routes, an unholdable coat, armor-ruining rain and, at the top, dissolving only what you name.\n🔗 Common drawback pairing: Bodily Toll, as overuse leaves your skin raw.\n🎬 Similar canon Quirks: Mina Ashido (Acid).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Acid family): Scale: the user secretes acid from the skin, mostly palms and soles, setting strength and thickness each time: stinging film, sticky gel, or acid that eats rope, plastic and wood in seconds. A new adult user sprays it a few meters, about a bucket's worth before running dry; their skin resists corrosives. Bigger feats need techniques. Limits: water dilutes it, baking soda neutralizes it, it pools where it runs; fumes in a closed room sting everyone's eyes and lungs, allies included. It eats thick steel or concrete only slowly; full strength scars skin for life, so restraint is the skill. Quirk Strain: light: spray, skating film; moderate: glob, melted lock, etched climb; heavy: full-body coat, acid rain; severe: signature move, tuned solvent. Type: Emitter. Law: acid thrown at a person is aggravated assault; melting locks or cars unlicensed is burglary or property damage.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Acrobatics",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "corrosive"
+    ]
+  }
+}

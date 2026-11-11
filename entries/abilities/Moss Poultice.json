@@ -1,0 +1,20 @@
+{
+  "Moss Poultice": {
+    "name": "Moss Poultice",
+    "description": "The user lays a hand on a wounded person and grows a living moss dressing that clings over the injury. Bleeding stops at once, and cuts, burns and sprains mend slowly over the next few minutes, restoring some health while the user feels any deeper fracture beneath. The healing draws brief stamina and water from the user's own reserves rather than the patient's, and cannot mend the user. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

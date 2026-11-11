@@ -1,0 +1,32 @@
+{
+  "Gifted: Creation": {
+    "name": "Gifted: Creation",
+    "description": "🧬 Creation, as an extra Quirk put into your body.\n\n🌱 At the start you pull simple things of one or two materials from your palms and arms: a staff, a baton, a rope, a shield you can crouch behind.\n📈 With training: tangling bolas, field medical supplies, a spring grapple, a steel dome, sleeping-gas canisters, a ring of cannons and, at the top, whole working machines.\n⚠️ You can only make what you have studied.\n🔗 Common drawback pairing: Finite Fuel, since every object costs what you have eaten.\n🎬 Similar canon Quirks: Momo Yaoyorozu (Creation).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Creation family): Scale: the user makes solid, nonliving objects that push out through the skin, built from stored body fat. A new adult user makes a simple one- or two-material object, baton to crouch-behind shield, in a second or two; a key or spring takes a quiet minute. Objects are real and stay. Bigger feats need techniques. Limits: only what the user has studied down to its materials; a guess comes out brittle or fails. At the start, nothing alive, at a distance or bigger than the user. A dozen batons leave a new user hungry and shaky; made food never repays its cost; enemies can take made things. Quirk Strain: light: handheld tool or weapon; moderate: shield, bolas, medical supplies, grapple; heavy: shelter dome, gas canister; severe: signature move, large machine. Type: Emitter. Law: a made blade or gun is still a weapon; a made ID or banknote is forgery.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Science",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Feral Strike": {
+    "name": "Feral Strike",
+    "description": "The user puts the full strength of their animal body behind a single blow with its strongest weapon: a rabbit's kick, a bear's claws, a crocodile's jaws or a lizard's tail. It deals heavy slashing or bludgeoning damage that cracks worn armor and throws the target across the room; held back, it drops them winded and unable to fight until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

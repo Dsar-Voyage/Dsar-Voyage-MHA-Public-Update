@@ -1,0 +1,20 @@
+{
+  "Cinder Lance": {
+    "name": "Cinder Lance",
+    "description": "The user narrows the flame into a white-hot spear from the fingertips that reaches across a street. It deals fire damage to a single target and burns straight through cover of wood, plastic, drywall or thin sheet metal, so a target behind such cover gains no protection from it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

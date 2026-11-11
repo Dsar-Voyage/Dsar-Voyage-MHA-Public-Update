@@ -1,0 +1,20 @@
+{
+  "Studied: Languages": {
+    "name": "Studied: Languages",
+    "description": "🌏 You studied foreign languages: extra English classes, a year abroad, a family that spoke another language or translation work.\n\n🌱 You speak at least one foreign language at a working level, English unless your background says otherwise, and know its culture's basics.\n⚠️ Slang, regional accents, technical vocabulary and fast speech still trip you.\n⚖️ It is no interpreter's certification.\n🏫 It shows in a dictionary app, borrowed phrases and confidence when a foreign visitor needs help.\n\n📈 Grants: Languages +15",
+    "traitNarrativeEffects": "The character has studied at least one foreign language to a working level, English unless their background says otherwise. They can hold conversations, read documents and help visitors from overseas, and they know enough of the culture to avoid obvious mistakes. Prior study, not mastery: slang, regional accents, technical vocabulary and fast speech still trip them. Not a license: it is no interpreter's certification. It shows in a dictionary app, borrowed phrases and confidence when a foreign visitor needs help.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Languages",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

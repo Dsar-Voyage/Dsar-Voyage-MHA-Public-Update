@@ -1,0 +1,84 @@
+{
+  "Hakata Station": {
+    "name": "Hakata Station",
+    "basicInfo": "Hakata Station is Kyushu's main rail hub: a huge station building with a department store, a shopping concourse, restaurant floors and a rooftop garden. The shinkansen line from Tokyo and Osaka ends here, and local lines, the subway and long-distance buses fan out across Kyushu; the subway also runs two stops to the airport and on to Tenjin. Railway staff run the gates and platforms, and a police box by the main exit takes lost-property and pickpocket reports. Commuter rush runs from seven to nine and five to seven, and the gates stay busy until the last trains near midnight; after that the bus terminal next door takes over with night buses to the rest of Kyushu and back east toward Osaka. The restaurant floors are packed at lunch and dinner with ramen counters, motsunabe pots and mentaiko set meals, and the rooftop garden is a quiet place to eat a bento above the traffic. Access is open: the concourse, shops and rooftop are public during business hours, and the platforms are reached only through the ticket gates. A player can arrive in or leave Kyushu here, work in the shops and ramen counters, or meet anyone passing through. Downtown Fukuoka is about 4 km to the west; the Hawks Hero Agency lies to the north. Osaka is 2.5 hours east, Musutafu about 4.5 hours and Tokyo about 5. Travelers look up when a shadow crosses the glass roof, and locals tell them it is only a crow, usually. The feeling is a gateway that never stops moving, with the smell of pork-bone broth drifting through every passage.",
+    "hiddenInfo": "The station police box has orders to watch for couriers carrying Trigger west from Osaka on the shinkansen. Officers check bags at random and have found nothing so far, because the couriers ride the night buses instead. Right now one courier arrives on the overnight bus from Osaka every other Saturday morning just before six, a quiet young woman in a nurse's cardigan with a small cool bag, and walks from the bus terminal through the empty concourse to the subway before the police box changes shift. Her doses go to a bar in Nakasu and from there into the port. The bus terminal's cleaners have seen her often enough to nod hello. A pickpocket crew works the concourse at rush hour; station staff know them by sight but have never caught them in the act. There are three of them: one bumps, one lifts, one walks off with the wallet within seconds, and they work the shinkansen exits on Friday evenings, when tired business travelers come off the trains from Osaka and Tokyo. The police box officers are good at lost umbrellas and slow at everything else, and they quietly expect Hawks to deal with anything serious. The station's lost-property office holds a growing box of items found on the night buses, among them an empty injector ampoule nobody has thought to report upward.",
+    "x": 15.22,
+    "y": 1.62,
+    "radius": 1,
+    "region": "Kyushu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Hakata Station Concourse": {
+        "description": "The main concourse runs straight through the station building from the Hakata exit on the city side to the Chikushi exit on the shinkansen side: a broad, bright hall under a glass roof, with JR gates in the middle, shinkansen gates toward the east end and subway stairs going down toward Tenjin and the airport. Shops sell boxed mentaiko, Hakata dolls and sweets, and pork-bone broth drifts down from the restaurant floors. The police box by the Hakata exit handles lost umbrellas, wallets and travelers. At rush hour commuters cross shoulder to shoulder; on Friday evenings tired business travelers stream off the trains from Osaka and Tokyo, and the police box has taped up a hand-lettered warning about pickpockets at the shinkansen exits. Near midnight the shops close and the hall empties, and in the first hour of the morning it is so quiet that a lone traveler crossing from the bus terminal to the subway echoes. Now and then a shadow slides across the glass roof and everyone looks up; locals say it is a crow, usually. Escalators climb to the Station Rooftop Garden, and the Hakata exit opens toward the Hakata Exit Bus Terminal.",
+        "paths": [
+          "Station Rooftop Garden",
+          "Hakata Exit Bus Terminal"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ee6f59b2-80b3-4bbb-8d92-15d400086550.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Station Rooftop Garden": {
+        "description": "On the station's roof, a lawn, trees and planters make a small park in the sky: a little railway shrine with a red torii, a miniature train that carries small passengers around a looped track, vegetable plots, benches and an observation deck along the railing. From the deck you can watch the shinkansen glide in from the east and stop at the end of the line, look west over Fukuoka's rooftops toward the bay and, on clear days, follow planes dropping in low over the city toward the airport. Office workers come up at lunch with bentos and canned tea; families ride the little train on weekends; trainspotters with long lenses stake out the railing; in the evening, couples and photographers come for the city lights, and staff close the garden late in the evening. Travelers ring the shrine bell and pray for safe journeys, the wind up here is always stronger than it looks, and the little train plays a jingle each time it passes. Now and then a winged shadow crosses overhead, heading north, and somebody always says it is only a crow. Elevators run back down to the Hakata Station Concourse.",
+        "paths": [
+          "Hakata Station Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1855c667-7199-48c3-9ece-8a8844d040b9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hakata Exit Bus Terminal": {
+        "description": "Beside the Hakata exit stands the bus terminal, its own building with gates stacked on several floors, joined to the station by a covered walk. Local buses leave from the ground floor for the city and the port, while the upper gates send highway buses across Kyushu, to Kumamoto, Nagasaki, Oita, Beppu and Kagoshima, and overnight coaches back east to Osaka. Ticket windows, plastic seats, a convenience store and departure screens fill the lobby, and upstairs counters serve ramen to drivers between runs. Mornings bring commuters off the suburban routes; after the last trains the terminal takes over, and the station's late crowd drifts in for the night buses. Every other Saturday morning the overnight bus from Osaka pulls in just before six, and the cleaners, who know some of its regulars by sight, nod hello as they walk off through the empty station toward the subway, a little before the police box changes shift. Things left behind on the night buses go to the station's lost-property office, where the box keeps growing. Diesel and coffee smells hang in the stairwells. The covered walk leads back to the Hakata Station Concourse.",
+        "paths": [
+          "Hakata Station Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c8a5a195-bbe4-4f75-8c0e-7d7032072935.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/609c8aa9-cc65-4aea-a2bc-0e5a3b556821.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

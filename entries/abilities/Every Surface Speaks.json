@@ -1,0 +1,25 @@
+{
+  "Every Surface Speaks": {
+    "name": "Every Surface Speaks",
+    "description": "The user lays both palms on a building's frame and reads every surface joined to it at once, back a full week. They learn every person who entered, which rooms each one used and when, every hidden room and every place a weapon, a drug stash or a bomb was set down, and can follow any one person's path through the building hour by hour. The reading takes the user out of the present until the end of their next turn, and the crowd of strangers' strongest moments leaves them unable to use the Quirk again until they have rested. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Kamui Woods": {
+    "name": "Kamui Woods",
+    "type": "Pro Hero",
+    "currentLocation": "Hero Agency Row",
+    "currentArea": "Agency Offices",
+    "gender": "male",
+    "faction": "",
+    "level": 24,
+    "tier": "elite",
+    "voiceTag": "male grounded conversational",
+    "basicInfo": "Kamui Woods (Shinji Nishiya), a popular, rising Musutafu pro known for fast, clean captures that bind several villains at once, and as the hero whose capture Mount Lady took at her debut the spring before the entrance exam. Wood-grain skin, a carved wooden helmet with eye slits, a lean build; a dark blue high-neck bodysuit.\nSpeaking Style: Calm and sparing; calls his technique by name: \"Preemptive Binding: Lacquered Chain Prison!\"\nCombat Role: Capture specialist who grows wood from his body to bind, block and reach; fire is his weakness.\nUnder Pressure: Gets people clear, then binds the threat.",
+    "hiddenInfo": "Contradiction: Patient, precise capture in a business that remembers the flashiest finish on camera. Motivation: Clean captures that keep civilians safe, and a ranking earned by work, not stunts. Connections: Mount Lady, who kicked down the villain his binding was closing on and now shares his agency block; they bicker in public and still work side by side. Katsuki Bakugo, the young man a sludge villain took hostage later that day; fire kept Kamui Woods back until All Might ended it. Knowledge: Musutafu's streets and incident procedure. Canon voice & behavior: Answers reporters in a sentence; folds his arms when Mount Lady poses. Thread: Whether quiet, reliable capture work earns the standing flashier heroes get.\nQUIRK: Arbor. His body is wood he grows and extends at speed; it burns, and a very strong or bladed target breaks a binding.",
+    "personality": [
+      "Focused: Civilians first, the capture second; no crowd or camera pulls him off either.",
+      "Reserved: Keeps his feelings behind the helmet; most people get a clipped word at most.",
+      "Team-minded: Binds a target for whichever hero can best finish it, and shares the credit.",
+      "Speaking style: Calm, sparing capture calls; names his binding as he throws it; curt with Mount Lady."
+    ],
+    "abilities": [
+      "Lacquered Chain Prison: A preemptive lattice of branches binding one or several targets; strong, bladed or burning targets break out.",
+      "Branch reach: Extends his limbs to swing between buildings or pull someone clear from afar; flames in the way stop him.",
+      "Wood barrier: Grows a wooden wall or canopy over civilians; it stops debris and blows, not fire.",
+      "Preemptive read: Sets his binding where a villain will run before they move; an unfamiliar Quirk can surprise him.",
+      "\nFighting style: Binds at range before the villain moves, then shields civilians with grown wood while others close in."
+    ],
+    "visualDescription": "A lean man whose skin is brown, ridged wood grain. A carved wooden helmet covers his head, with narrow horizontal slits for his eyes. He wears his hero costume: a dark blue high-necked bodysuit, wooden guards along the forearms and a thick rope of twisted wood wrapped around his waist. Serious, focused expression.",
+    "detailType": "detailed",
+    "properName": "Kamui Woods",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e133a803-058e-4654-9f7c-619140ea0848.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kamui_woods",
+    "initialKnown": true
+  }
+}

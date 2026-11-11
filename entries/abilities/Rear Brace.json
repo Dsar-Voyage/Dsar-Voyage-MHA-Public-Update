@@ -1,0 +1,20 @@
+{
+  "Rear Brace": {
+    "name": "Rear Brace",
+    "description": "The user plants their tail against solid ground behind them and braces against one shove or close blow before the end of their next turn. The extra contact keeps them standing against an ordinary adult's force, but a vehicle or stronger Quirk can still move them, and the tail takes the impact. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

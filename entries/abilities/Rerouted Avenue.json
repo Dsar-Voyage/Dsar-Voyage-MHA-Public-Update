@@ -1,0 +1,24 @@
+{
+  "Rerouted Avenue": {
+    "name": "Rerouted Avenue",
+    "description": "For the rest of the scene the user reads every moving thing across a city block and can lock or turn any of them at a glance: a runaway bus turned into an empty lot, a falling sign held overhead until people clear, a fleeing car eased to a stop. They can lock or turn a dozen things in a single turn, never adding speed, and a flash or a blow to the eyes ends the technique at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "Nagoya Station": {
+    "name": "Nagoya Station",
+    "basicInfo": "Nagoya Station, Meieki to locals, is the hub of central Japan and one of the busiest stations in the country: a long, broad JR building crowned by twin office towers, with more skyscrapers crowded around it and a maze of underground shopping streets beneath. JR Central's Tokaido shinkansen and its Chuo, Kansai and Tokaido lines share the main building; the Meitetsu and Kintetsu stations sit next door to the south, and the Higashiyama and Sakura-dori subway lines and the Aonami Line toward the port run underneath. The east side, the Sakura-dori exit, faces downtown and the big taxi and bus pools, and the Gold Clock in the central concourse is the city's standard meeting point; the west side, the Taiko-dori exit, holds the shinkansen gates, the Silver Clock, an underground mall of noodle and miso-katsu shops, and the stops for highway buses to Tokyo, Osaka and the Hokuriku coast. Outside the Meitetsu department store stands a giant mannequin, dressed anew for every season and every local cause. On the shinkansen platforms, standing counters sell bowls of flat kishimen noodles, and travelers argue over whether the platform bowl beats the one downstairs. Coin lockers line every passage, and boxed-meal shops sell hitsumabushi eel and tebasaki wings by the case. Weekday mornings bring a flood of office workers and factory commuters; lunchtime fills the underground cafes, many still serving generous morning sets; evenings fill the towers' restaurant floors and the bars around the station; the last trains leave a little after midnight. A police box stands at the Sakura-dori exit, railway police and station guards patrol the concourses, and sidekicks from the downtown agencies stand at the main crossings and wave the crowds through. The shinkansen reaches Musutafu in about 1 hour 15 minutes, Kyoto in about 30 minutes and Shin-Osaka in under an hour; Meitetsu's airport express reaches the Centrair airport on Ise Bay in about half an hour, and the subway reaches Sakae and the castle within ten minutes. It feels big, efficient and practical: a city that builds things and expects its trains to run like its machines.",
+    "hiddenInfo": "Stolen machine parts are leaving the city on the night highway buses from the Taiko-dori side, and it is happening right now. Three or four nights a week, around 11:30 p.m., a delivery rider with a heavy mutant build, gray scales on his forearms and an insulated courier backpack, meets the last overnight buses to Tokyo and Osaka and checks two hard suitcases into the luggage hold under a different passenger's name each time. The cases hold precision bearings and machine-tool heads lifted from subcontractor plants in the southern wards, and they are collected at the far end before the factories notice the gaps. One overnight driver has noticed that the cases are always too heavy for their size and that the ticketed passenger never boards; she mentioned it only to her dispatcher, who told her not to make trouble. A plant foreman whose shop lost a whole crate last week has started waiting in the Taiko-dori underground mall in the evenings, hoping to recognize something, and he is angry enough to try to stop the rider himself, which would end badly for him. How the place really runs: JR Central owns the main building and guards it closely, while the private railways and bus operators each patrol their own ground, so the seams between them, the passages, bus stops and loading docks, are where trouble lives. Downtown agencies split the station patrol by exit and shift, and the night rotation is the thinnest; the police box can call a sidekick in minutes, but nobody watches the bus holds.",
+    "x": 5.95,
+    "y": -16.98,
+    "radius": 1,
+    "region": "Nagoya",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/546a0e42-cd69-454a-a27b-34b93eabc9f0.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Nagoya Central Concourse": {
+        "description": "The central concourse runs straight through the JR building from the Sakura-dori exit on the downtown side to the Taiko-dori exit on the shinkansen side: a long, polished hall of ticket gates, kiosks and coin lockers under the twin towers. At the east end stands the Gold Clock, the city's standard meeting point, and at the west end its partner, the Silver Clock, near the shinkansen gates; people arrange to meet at one and wait at the other. On weekday mornings a flood of office workers and factory commuters crosses in both directions; in the evening business travelers queue at boxed-meal shops selling hitsumabushi eel and tebasaki wings by the case. Railway police and station guards patrol the hall, and sidekicks from the downtown agencies stand at the crossings outside the Sakura-dori exit, waving the crowds through. Announcements are calm and exact. The last trains leave a little after midnight, and the hall empties to cleaners and a few late travelers heading west for the night buses. Stairs go down to the Nagoya Underground Mall, and the Taiko-dori exit opens onto the Taiko-dori Night Bus Stops.",
+        "paths": [
+          "Nagoya Underground Mall",
+          "Taiko-dori Night Bus Stops"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d3e73878-1956-4e8c-a80a-e49af3412f5c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Nagoya Underground Mall": {
+        "description": "Beneath the station's west side runs a bright underground mall of low ceilings and narrow lanes, the start of a maze that ties the Meieki district together. On the Taiko-dori side the lanes are lined with noodle shops, miso-katsu counters pouring thick dark sauce over pork cutlets, kishimen stands, tebasaki bars, cafes and souvenir shops, and the cafes are famous for their morning sets: order a coffee before eleven and toast, a boiled egg and sometimes a salad come with it free. Office workers fill the lanes at lunch, travelers kill time before the shinkansen over a bowl of noodles, and in the evening the crowd turns to beer and fried wings. Lately a man in a factory work jacket sits in one of the cafes every evening over a single coffee until closing, watching every traveler's luggage roll past with a hard, unhappy look; the staff have stopped asking him to order more. The smell of miso and frying oil follows shoppers up the stairs,. Most shops close around nine or ten. Stairs climb back to the Nagoya Central Concourse, and an exit at the west end comes up beside the Taiko-dori Night Bus Stops.",
+        "paths": [
+          "Nagoya Central Concourse",
+          "Taiko-dori Night Bus Stops"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0dba77b3-0b2e-4042-bfb0-bac5a117199d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Taiko-dori Night Bus Stops": {
+        "description": "Along the curb outside the Taiko-dori exit, in the shadow of hotels and office towers, a row of highway-bus stops with numbered poles and a small ticket office sends coaches to Tokyo, Osaka, Kyoto, the Hokuriku coast and the mountain towns. Daytime buses carry budget travelers, shoppers and students; after dark the overnight coaches take over, and by eleven the sidewalk fills with backpackers and travelers clutching neck pillows. Drivers load the luggage holds themselves, check each case against a ticket and call passengers by name before the doors hiss shut. The last overnight buses to Tokyo and Osaka leave around 11:30 p.m.; delivery riders still come and go along the curb even then, and one veteran driver has a habit of hefting each case before she loads it, frowning at the heavy ones. Diesel engines idle and convenience-store coffee goes cold in people's hands. Station guards rarely walk this far after dark, and the police box is on the far side of the building. The Taiko-dori exit leads back into the Nagoya Central Concourse, and the stairs beside the stops go down to the Nagoya Underground Mall.",
+        "paths": [
+          "Nagoya Central Concourse",
+          "Nagoya Underground Mall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/486aa2da-f1f4-429c-9446-8750e6b1985c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Gloaming Lift": {
+    "name": "Gloaming Lift",
+    "description": "The shadow grips a ledge, railing or pipe above and hauls the user up a building face or across a street-wide gap, or lowers them from a height at a safe pace. It can carry a single other person in its free arm, lifting someone off a ledge or out of a flooded street along the way. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

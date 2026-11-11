@@ -1,0 +1,15 @@
+{
+  "Bedside Diagnosis": {
+    "name": "Bedside Diagnosis",
+    "description": "The user examines a patient's symptoms, history, vital signs and any test results at hand and works through the possible causes. The user learns exactly what is wrong, including poisoning, a hidden internal injury or an illness caused by a Quirk, and what treatment it needs. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

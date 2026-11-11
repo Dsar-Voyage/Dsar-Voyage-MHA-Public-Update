@@ -1,0 +1,29 @@
+{
+  "Bone Trellis": {
+    "name": "Bone Trellis",
+    "description": "The user drives both forearms into the walls of a collapsing room and grows long blades crosswise through it, each one biting into brick, concrete or wood and locking with the others into a rigid frame. For the rest of the scene a sagging ceiling, a buckled floor or a leaning wall falls no further, and people can climb through the gaps to safety. The user cannot move or attack while the frame stands, and when they draw it back their arms are torn raw and lose a large share of their health. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

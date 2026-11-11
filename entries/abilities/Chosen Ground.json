@@ -1,0 +1,15 @@
+{
+  "Chosen Ground": {
+    "name": "Chosen Ground",
+    "description": "The user draws the fight onto ground that works against an opponent's strength: a slick floor against a charger, a low ceiling against a flier, a cluttered room against a sniper, open ground against an ambusher. While the fight stays there, the opponents lose the one advantage the user chose to deny: speed, reach, range, flight or surprise. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Stay With Me": {
+    "name": "Stay With Me",
+    "description": "The user holds a steady link with every trapped, hurt or lost person they have sensed in a collapsed building or a disaster zone and talks each one through it. Until rescuers reach them, those people do not black out from shock or panic, they follow simple directions such as keep still or crawl left, and every rescuer the user links goes straight to them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

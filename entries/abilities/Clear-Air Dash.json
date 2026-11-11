@@ -1,0 +1,20 @@
+{
+  "Clear-Air Dash": {
+    "name": "Clear-Air Dash",
+    "description": "The user bends the light around everything they wear and carry and breaks into a sprint across a street, through a crowd or past a checkpoint. Attacks aimed at them as they go miss, and enemies who rely on sight lose track of them until the user attacks or speaks, or until the end of their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Kumano Sea": {
+    "name": "Kumano Sea",
+    "basicInfo": "The open Kumano Sea, the stretch of Pacific south of the Shima Peninsula, with the rocky southern shore of Minami-Ise just past the region's northern edge and the long ria coast of Kihoku and Owase to the west. Close to shore the water is green over reefs and kelp; farther out it turns deep blue and falls away toward the Nankai Trough, thousands of meters down. The warm Kuroshio runs offshore, and the coast behind it is one of the rainiest in Japan, with heavy summer downpours and typhoons that often come ashore here in late summer. Coastal freighters and tankers rounding the Kii Peninsula between the Tokyo and Osaka ports pass through in a steady line, their lights strung across the dark at night. Fishing boats from Nakiri, Gokasho, Nishiki and Owase work the grounds for bonito and tuna, mackerel and sardine, and spiny lobster nets are set near the rocks. There are no islands and no ferries; the open horizon is broken only by ships and, on clear days, the hills of the Shima coast. Coast guard boats from Toba and Owase patrol the area, and maritime heroes come out mostly for storms and sinkings. A party could be out here on a fishing boat, a coastal freighter, a yacht rounding the Kii Peninsula, or carried by a flying hero.",
+    "hiddenInfo": "Rough water and few witnesses: small boats sometimes meet freighters offshore to pass cargo that never shows on a manifest, and fishermen argue over grounds and nets. Help is a coast guard cutter or a hero flying out from Toba or Owase, most of an hour away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -4,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1a6a685b-10ec-4ba6-9dd4-5d293c876354.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

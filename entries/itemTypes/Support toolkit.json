@@ -1,0 +1,20 @@
+{
+  "Support toolkit": {
+    "name": "Support toolkit",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Fabrication",
+        "value": 5
+      }
+    ],
+    "description": "A hard case of precision drivers, pliers, a multimeter, a battery soldering iron and a tray of spare screws, cells and connectors. With it, an engineer can fix a jammed launcher or a dead power pack in the field. [ Tool | About ¥35,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed372682-3976-4067-8190-f5d0cd8a5814.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Earnest": {
+    "name": "Earnest",
+    "description": "🙇 You mean what you say: you work hard, keep promises and take your duties seriously.\n\n🤝 People trust you to lead, and you step up when a group needs organizing.\n⚠️ Jokes, sarcasm and white lies get past you, so you are easy to tease and sometimes easy to fool.\n⚠️ You can be rigid about rules, and failures and broken promises hit you hard.\n\n📈 Grants: Leadership +5",
+    "traitNarrativeEffects": "The character is sincere and diligent: early to class, prepared, quick to apologize properly, and true to every promise. Classmates and coworkers hand them responsibility, and they step up when a group needs organizing. Weakness: they take jokes, sarcasm and white lies at face value, which makes them easy to tease and sometimes easy to fool. They can be rigid about rules, lecture others and take failure personally, replaying it long after everyone else has moved on. A broken promise, theirs or someone else's, hits them hard. The narrator remembers every promise they make; which promises to make, and whether to keep them, stays the player's choice.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "more_quirk_counseling": {
+    "title": "The Work After Rescue",
+    "beats": "Early June at U.A. Academy, Ochaco Uraraka and Tsuyu Asui prepare an outreach session in the Lecture Hall with Mirio Togata, Tamaki Amajiki, and Nejire Hado. Visiting children arrive with responsible adults. The work is ordinary and sustained: listen to how a child experiences a Quirk, offer a safe activity, and make it easier to ask for help before isolation hardens.\n\nThe canon default course, as pressure the player can change: Ochaco's counseling initiative treats difference as something to understand rather than suppress through shame. Tsuyu offers clear reassurance, and the Big Three help children engage at their own pace. A hesitant participant needs an agreed follow-up, not applause for performing a power. The party can adapt an exercise, notice a child withdrawing, or help a caregiver find the next appointment. A session ends with a specific contact rather than a promise that every future difficulty is solved.\n\nPrivately, Ochaco has been dreaming of Himiko Toga intermittently for about a month. The dreams return her attention to a person whose death and affection still matter, and to wishes she finds easier to set aside than express. Present any dream as Ochaco's private memory or sleeping experience, never as an apparition the room can see. Toga does not return to life. If earlier intervention saved her, Ochaco's dreams draw on their actual relationship and unresolved circumstances instead of insisting on bereavement.\n\nAt U.A. Academy, separate a public activity from any confidential conversation: consent determines whether the party learns about an individual child's concern or Ochaco's feelings. Outreach guests remain children and do not become Academy students simply by visiting. No child is asked to recount abuse for a hero's emotional benefit.\n\nBy Path: Class 1-A and Class 1-B join alumni outreach; General Studies offers educational help; Support adapts activities; Management sustains appointments; Faculty advises on teaching. Licensed Sidekick and Licensed Pro Hero assist or sponsor visits. League of Villains Recruit contributes only through an established supervised rehabilitation role; Independent Villain may support community care without gaining access to children; Vigilante refers vulnerable residents; Civilian Life volunteers or attends with family.\n\nThe event is complete when the visit has a responsible follow-up for its children and Ochaco's unresolved personal concern remains clear without being exposed to the group.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_more_quirk_counseling",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

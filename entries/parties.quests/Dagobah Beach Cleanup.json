@@ -1,0 +1,17 @@
+{
+  "Dagobah Beach Cleanup": {
+    "name": "Dagobah Beach Cleanup",
+    "questSource": "All Might",
+    "questStatement": "People walk the shore of Dagobah Municipal Beach Park every morning, and the ward means to keep it that way. Now trucks have started dumping there at night: broken appliances, tires, a moped with the plates filed off. The ward has posted a volunteer cleanup, and anyone who wants the beach back can pick up gloves on the Seawall Promenade. Some mornings, they say, All Might jogs past.",
+    "mainObjective": "Clear the new junk from Dagobah's shore and find out who is dumping it at night.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The new junk is cleared from Dagobah's Shoreline and the night dumping has been stopped or reported, through the PC's work."
+    },
+    "detailType": "detailed",
+    "questLocation": "Dagobah Municipal Beach Park",
+    "questDesignBrief": "A sunny, community-minded quest open to every path. The dumpers are generated people: a cut-rate disposal firm saving on fees. Volunteers range from retirees to students. All Might may jog past, greet the volunteers with a laugh and haul off something enormous on his way through; he talks about the beach, never about himself. A villain-path PC may help or exploit the scene; if one attacks All Might, he ends it at once and the police follow. School paths fit it around classes and curfew. Failure: the dumping goes on and the volunteers drift away.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

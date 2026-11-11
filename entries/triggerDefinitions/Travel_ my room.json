@@ -1,0 +1,25 @@
+{
+  "Travel: my room": {
+    "name": "Travel: my room",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b[Mm]y (own |dorm )?room\\b"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Your Dorm Room"
+      }
+    ]
+  }
+}

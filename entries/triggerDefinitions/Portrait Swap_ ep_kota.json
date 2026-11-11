@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: ep_kota": {
+    "name": "Portrait Swap: ep_kota",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Kota Izumi",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/031844dc-63c3-49a7-a012-eb1a9d69224a.png"
+      }
+    ]
+  }
+}

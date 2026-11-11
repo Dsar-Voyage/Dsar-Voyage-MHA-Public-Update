@@ -1,0 +1,25 @@
+{
+  "Crowd Contact Lift": {
+    "name": "Crowd Contact Lift",
+    "description": "The user touches one person with all five fingertip pads and spreads weightlessness through people touching that target, continuing through a connected crowd across a city block. Dozens float for up to three turns, beyond the ordinary three-tonne limit, and attacks needing ground traction lose their footing. Disconnected people are unaffected; allies in the chain also float. The user cannot steer the crowd and is unable to activate the Quirk again for the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

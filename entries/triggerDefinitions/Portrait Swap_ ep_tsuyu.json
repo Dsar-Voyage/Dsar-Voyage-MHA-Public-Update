@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_tsuyu": {
+    "name": "Portrait Swap: ep_tsuyu",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tsuyu Asui (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fa23c110-2a82-4f0c-b1a6-458d29f4ff61.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tsuyu Asui",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fa23c110-2a82-4f0c-b1a6-458d29f4ff61.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tsuyu Asui (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fa23c110-2a82-4f0c-b1a6-458d29f4ff61.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tsuyu Asui (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fa23c110-2a82-4f0c-b1a6-458d29f4ff61.png"
+      }
+    ]
+  }
+}

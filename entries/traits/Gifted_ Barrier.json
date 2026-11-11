@@ -1,0 +1,32 @@
+{
+  "Gifted: Barrier": {
+    "name": "Gifted: Barrier",
+    "description": "🧬 Barrier, as an extra Quirk put into your body.\n\n🌱 At the start you snap a door-sized panel into an attack's path or slam it into an attacker, and hold a dome over yourself and the people beside you.\n📈 With training: villains boxed in, falls caught on slanted panes, panel stairs, walls against crowds, floods or collapses, blasts turned aside, a dome over a city block.\n⚠️ Every barrier shatters if it takes more than you can hold.\n🔗 Common drawback pairing: Stamina Drain, as holding a barrier burns your body's strength.\n🎬 Similar canon Quirks: Kosei Tsuburaba (Solid Air), Crust (Shield).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Barrier family): Scale: flat, clear force panels, or a curved dome, anywhere in sight within about five meters. A new adult user raises a door-sized panel in a blink, or a dome over themselves and two or three people, held while focused. It stops fists, blades, debris and handgun rounds; a speeding car or heavy Quirk blow shatters it. Bigger feats need techniques. Limits: a new user's barriers stay put and cannot form inside an object or body, so never cut; heat, light and sound pass through; all vanish if the user is knocked out or suppressed. Quirk Strain: light: a panel; moderate: dome over a few people, cage, catching slope, stair; heavy: street-wide wall, deflecting an attack; severe: signature dome, shells around a crowd. Type: Emitter. Law: unlicensed walling people in or blocking roads or exits is unlawful confinement; whoever traps people in danger answers for what happens.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

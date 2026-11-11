@@ -1,0 +1,30 @@
+{
+  "Nasu": {
+    "name": "Nasu",
+    "basicInfo": "The Nasu highlands and the old Shirakawa gateway, a cell of volcano, plateau and rolling farmland across the Tochigi-Fukushima border where the road to the north once passed the Shirakawa barrier. In the west the Nasu volcanoes, with smoking Chausudake at their head, rise above the resort town of Nasu and the hot spring village of Nasu-Yumoto, where the Sesshoseki, the legendary killing stone, lies in a sulfur-yellow gully. South of them the plain of Nasushiobara spreads around Kuroiso and its shinkansen station, and the Shiobara gorge hides a string of riverside inns on the Hoki river along the western edge. The Fukushima side holds Shirakawa, a castle town with the rebuilt keep of Komine castle and its own ramen, the site of the ancient barrier just south of it, the mountain village of Nishigo where the Abukuma river rises, Yabuki, and Hatori lake in Ten'ei to the north. In the northwest corner the thatched post town of Ouchi-juku lines one wide street in Shimogo, and the eroded cliffs of Tonohetsuri stand over the Okawa river. Winter is cold and dry on the plain and snowy in the hills; summers are cool enough that wealthy families have kept villas here for a century, and the imperial family keeps one too. Dairy is the heart of the economy, along with rice, resort tourism, ski slopes, and the factories of the Tohoku corridor. The Tohoku Shinkansen stops at Nasushiobara and Shin-Shirakawa, the Tohoku main line and the Tohoku Expressway run beside it, and buses climb from Kuroiso to the highlands. Tokyo is about seventy minutes away by shinkansen, Musutafu about two and a half hours. Visitors ride the ropeway up Chausudake, soak in sulfur baths, drink fresh milk and eat soft-serve at highland farms, visit animal parks, art museums and the outlet mall, and walk Ouchi-juku eating soba with a whole leek in place of chopsticks. A small hero agency in Nasushiobara covers the resort strip with the police, and in high summer its sidekicks spend most days on traffic, lost hikers and crowd control, while a rancher whose Quirk calms skittish cattle is in demand at every livestock show.",
+    "hiddenInfo": "Two worlds share the cell: weekend resort Nasu with its villas, galleries and traffic jams, and dairy and rice villages aging fast, where farmers resent land sold off for vacation homes and solar fields. Volcanic gas closes trails near Chausudake now and then, and bears range the highland woods. The local agency is small and stretched across a wide district; backup from Utsunomiya or Koriyama is the better part of an hour away. Small villainy means villa break-ins in the off season, shoplifting at the outlets, and drunk tourists picking fights at hot spring inns.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 2,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/28654204-3a03-4853-a323-26fe6608305f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

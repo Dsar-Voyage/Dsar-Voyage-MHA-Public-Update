@@ -1,0 +1,25 @@
+{
+  "Avenue Flame Discharge": {
+    "name": "Avenue Flame Discharge",
+    "description": "The user braces and drives a broad, concentrated flame discharge fifty meters along a clear street, dealing massive fire damage to exposed targets until the end of this turn. Held back, the user directs a shorter discharge across empty pavement ahead of opponents, leaving them a retreat. The user must clear civilians and fuel from the line first; dangerous overheating prevents further flame generation for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

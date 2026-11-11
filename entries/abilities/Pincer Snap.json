@@ -1,0 +1,20 @@
+{
+  "Pincer Snap": {
+    "name": "Pincer Snap",
+    "description": "The user's hand swells into the claw of a crab, lobster or shrimp they have eaten and snaps shut on a target within reach. It deals slashing damage; held back, the claw clamps a wrist or ankle without cutting, and the target cannot pull that limb free until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Evacuation": {
+    "name": "Evacuation",
+    "attribute": "cooperativeness",
+    "type": "utility",
+    "description": "Covers: getting crowds and bystanders out of danger: calming them, directing exits, keeping order and reassuring victims. Not: extracting one trapped person, which is Search and Rescue. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  }
+}

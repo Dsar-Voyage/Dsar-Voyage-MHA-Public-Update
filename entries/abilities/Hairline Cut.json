@@ -1,0 +1,20 @@
+{
+  "Hairline Cut": {
+    "name": "Hairline Cut",
+    "description": "The user lays a hand on a chain, a seatbelt, a lock's bolt, a pair of handcuffs or the bent frame pinning someone's leg, and holds the decay to a thin band under the edge of the palm. Only that band turns to dust, so the object parts cleanly and anyone caught by it is freed without a scratch. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

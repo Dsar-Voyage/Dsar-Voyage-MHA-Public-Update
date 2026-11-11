@@ -1,0 +1,24 @@
+{
+  "Lullaby Canister": {
+    "name": "Lullaby Canister",
+    "description": "The user builds a canister of fast-acting anesthetic gas in the palm, primes it and throws it into a room or across a street. Everyone in the cloud who breathes it, except anyone wearing a respirator or holding their breath, cannot run or fight until the end of their next turn, and anyone still inside after that falls asleep until woken or until the scene ends. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

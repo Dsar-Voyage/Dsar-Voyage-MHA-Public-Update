@@ -1,0 +1,30 @@
+{
+  "Kofu": {
+    "name": "Kofu",
+    "basicInfo": "Kofu is the cell of the Kofu basin in Yamanashi, a flat bowl of orchards and towns ringed by some of Japan's highest mountains: the Southern Alps rise on the west with Mount Kita, the country's second-highest peak, the Yatsugatake range closes the northwest, and the granite crags of Mount Kinpu and Mount Mizugaki stand to the north. The Fuefuki and Kamanashi rivers drain the basin south into the Fuji River; there is no coast, and Mount Fuji shows over the Misaka hills to the south. The basin is one of the sunniest places in Japan, broiling in summer and sharp and dry in winter, with wide swings between day and night that sweeten the fruit. Kofu, the prefectural capital, spreads around its castle ruins and station, with arcades, a gem-polishing and jewelry trade as old as the crystal diggings in the northern hills, and a shrine to the old Takeda lords; a spring festival parades armored samurai through the streets. Around it lie Kai, Fuefuki with its Isawa hot springs and peach orchards that turn the slopes pink in April, the vineyard terraces of the basin rim, Nirasaki and Minami-Alps at the foot of the western wall, and Hokuto, Kobuchizawa and Kiyosato on the cool Yatsugatake skirts, with dairy farms and summer cottages. People grow grapes, peaches, cherries and highland lettuce, make wine, polish stones, keep onsen inns and commute into Kofu. They eat hoto, thick flat noodles stewed with pumpkin in miso, sweet-glazed chicken giblets and fruit in every form. The Chuo Main Line carries the limited expresses Azusa and Kaiji from Shinjuku to Kofu in about an hour and a half, the Chuo Expressway runs beside it, the Minobu Line and Chubu-Odan Expressway descend the Fuji River valley to the Pacific coast, and the little Koumi Line climbs to Nobeyama, the highest station on JR. Musutafu is about two and a half hours away by train via Fuji, or about two hours by expressway bus around the mountain. Visitors pick fruit, taste wine, soak and climb. Kofu has the prefectural police headquarters and several hero agencies; licensed heroes cover the mountain districts by car and by air, and fruit growers with plant or weather-sensing Quirks work under agricultural permits.",
+    "hiddenInfo": "Kofu's undercurrent is a basin aging and thinning out: shuttered shops in the old center, abandoned orchards, and seasonal farmhands from abroad who are easy to cheat. Fruit theft just before harvest is a real crime here, along with burglaries of wineries and jewelry workshops and loan sharks circling the gem trade. Climbers get lost or hurt in the Southern Alps and Yatsugatake every season. Kofu's agencies answer quickly inside the basin; the mountain districts wait much longer, and anything large brings help from Tokyo, about an hour and a half away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -1,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0f8015dc-446c-4ca0-a585-17c0c3712d64.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

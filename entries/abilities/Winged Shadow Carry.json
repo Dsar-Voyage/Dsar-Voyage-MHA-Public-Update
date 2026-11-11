@@ -1,0 +1,24 @@
+{
+  "Winged Shadow Carry": {
+    "name": "Winged Shadow Carry",
+    "description": "The user has the creature wrap around their torso, spread its arms and carry them through the air across a street or up several stories. One passenger may cling to the user during the flight. It cannot carry a crowd, and bright light shrinks its lifting surface, forcing a quick landing before the end of the user's next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

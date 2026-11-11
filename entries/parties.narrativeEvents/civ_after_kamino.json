@@ -1,0 +1,15 @@
+{
+  "civ_after_kamino": {
+    "title": "After Kamino",
+    "beats": "Mid-August, the days after Kamino. Every screen still carries the footage: a block of Kamino Ward flattened, All Might's body giving out on live television, a thin, wounded man in the rubble, then one last blow and a finger pointed at the camera. Unless the story changed it, the kidnapped U.A. student Katsuki Bakugo is home, Best Jeanist is recovering from his injuries, the masked man the news calls Shigaraki's Sensei is in custody, and All Might has retired from hero work. Endeavor is now the highest-ranked active hero, and talk shows argue whether he can stand for anything. Obon has begun and the trains are packed.\n\nWho is there: the manager has set a Kamino relief box by the register; a coworker, Saki Nomura, has not slept since the broadcast and talks about moving home to the countryside; a neighbor has set All Might figures and incense on her balcony; at the station, Hiroshi Tanigawa, a volunteer coordinator in an armband, signs people up for a morning bus to Kamino to sweep, sort salvage and hand out water behind police tape; licensed crews do the heavy lifting.\n\nThe default course, as pressure the player can change: the day runs on short tempers and small fears. Customers buy water and batteries. In the afternoon a man with a speed Quirk grabs an armful of goods and bolts, and a sidekick from a small local agency catches him two blocks away, out of breath, saying the agency's calls have tripled since Kamino. A civilian who stops him with a Quirk risks a fine, unless it was self-defense. Saki asks the player to cover her shift so she can catch a train home.\n\nIn Musutafu, reporters crowd U.A. Academy's gate again, and new walls rise around the campus. In Tokyo the giant screens replay the retirement announcement while crowds stand still to watch.\n\nThe event is complete when the player has made one choice about the mood around them (to volunteer, give, comfort, cover a shift or keep their head down) and the day's shift or volunteer run ends.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_civ_after_kamino",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

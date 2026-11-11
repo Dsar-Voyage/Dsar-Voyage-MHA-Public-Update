@@ -1,0 +1,20 @@
+{
+  "Leadfall Pin": {
+    "name": "Leadfall Pin",
+    "description": "The user tackles or kneels on a target who is down and turns heavy. The target is pinned flat under several hundred kilograms and cannot rise or use their arms until the user shifts back, and the user sets the weight to hold them without cracking ribs. While pinning, the user cannot move or attack, and a floor weaker than concrete gives way under them both. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

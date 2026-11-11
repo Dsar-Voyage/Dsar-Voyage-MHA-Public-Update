@@ -1,0 +1,20 @@
+{
+  "Crag Knuckle": {
+    "name": "Crag Knuckle",
+    "description": "The user hardens a fist and forearm mid-swing and drives the ridged knuckles into a target within reach. It deals bludgeoning and slashing damage and knocks the target back; struck with a smoothed fist instead, it only staggers the target and leaves bruises. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

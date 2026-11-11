@@ -1,0 +1,25 @@
+{
+  "Deep Chorus": {
+    "name": "Deep Chorus",
+    "description": "The user's clicks carry through every connected body of water around them: a whole harbor, a river through a city district, or the storm drains and flooded subway beneath it. For the rest of the scene they know the layout of all of it, where every person and vessel in or under the water is, who is trapped in an air pocket and how much air is left, and where anyone hiding in it moves. Building the map takes full attention: the user must stay submerged and still, unable to swim or fight, until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

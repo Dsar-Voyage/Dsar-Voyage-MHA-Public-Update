@@ -1,0 +1,20 @@
+{
+  "Police tactical vest": {
+    "name": "Police tactical vest",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 60
+      }
+    ],
+    "description": "A riot officer's protective set: a stab-resistant vest, shoulder and shin guards and a visored helmet. Police issue it to officers only; a civilian who wears police-marked gear can be charged under the Minor Offenses Act for wearing an official uniform without the right to it. [ Armor | Police-issue only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/527be112-689a-4109-91d1-4861ebc4f29b.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

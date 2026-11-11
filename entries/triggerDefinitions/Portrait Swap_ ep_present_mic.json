@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: ep_present_mic": {
+    "name": "Portrait Swap: ep_present_mic",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Present Mic",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/f353aec3-eef7-4c38-984c-3a5c101ceb92.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Courtyard Concrete Dividers": {
+    "name": "Courtyard Concrete Dividers",
+    "description": "The user keeps both hands on a concrete courtyard and raises six connected walls within fifty meters over two turns, separating opponents and leaving a marked evacuation lane. The walls remain for the rest of the scene and can be broken; the user must see each placement, preserve material volume and stay in contact while shaping. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

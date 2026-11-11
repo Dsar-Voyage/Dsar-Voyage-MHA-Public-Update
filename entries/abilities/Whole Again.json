@@ -1,0 +1,24 @@
+{
+  "Whole Again": {
+    "name": "Whole Again",
+    "description": "The user rebuilds what a body cannot mend on its own: a severed limb or finger brought within a few hours reattaches with full feeling, a crushed organ is remade, or a fresh injury that would have left a lifelong disability heals clean. The patient loses extreme stamina and sleeps through the next day. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

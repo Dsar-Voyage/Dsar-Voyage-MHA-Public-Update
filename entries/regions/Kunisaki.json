@@ -1,0 +1,30 @@
+{
+  "Kunisaki": {
+    "name": "Kunisaki",
+    "basicInfo": "The Kunisaki Peninsula and the water around it: a round, knuckled thumb of old volcanic land pushing east from northern Oita into the western Seto Inland Sea, with the long, thin tip of Ehime's Sadamisaki Peninsula reaching toward it from the east. Most of this cell is open water. The Kunisaki side lies in the west and northwest; the Iyo-nada sea fills the middle; Sadamisaki's last few kilometers enter at the southeast corner, its tip facing Kyushu across the Hayasui Strait just south of the edge. Kunisaki is a wheel of steep ridges and narrow valleys running down from the extinct cone of Mount Futago at its center to a ring of small fishing and farming coasts. The valleys hold the Rokugo Manzan temples, a thousand-year-old mountain Buddhist culture of stone guardian statues, moss-grown steps, cave shrines and ridge-walking ascetic trails. Kitsuki, on the southwest shore facing Beppu Bay, is a compact castle town split between two hills of samurai lanes with a merchant street in the hollow between, where visitors rent kimono to walk the slopes. The town of Kunisaki and the villages of Aki and Musashi line the east coast; Oita Airport sits on reclaimed land on that shore, with a long airport bus run down to Beppu and Oita. Off the north coast, little Himeshima is reached by car ferry from Imi and is known for farmed kuruma prawns and its fox dance at Bon. Sadamisaki is a narrow ridge of a peninsula lined with wind turbines; its tip village of Misaki is a ferry port with a car ferry across the strait to Saganoseki in about seventy minutes, and the strait's fierce tides make its line-caught horse mackerel and mackerel some of the most prized fish in Japan. Winters are mild and dry, summers hot. The JR Nippo Main Line and the Higashi-Kyushu Expressway cross the peninsula's base at Kitsuki. From Musutafu, it is about four hours by shinkansen to Kokura and another hour on a limited express, or a flight from Haneda into Oita Airport; from Hakata, a limited express reaches Kitsuki in under two hours. Small hero offices in Kitsuki and Kunisaki cover the whole peninsula, police boxes sit at the ferry ports, and the summer festivals draw sidekicks on loan from Oita.",
+    "hiddenInfo": "Kunisaki is aging fast: many valley hamlets are down to a handful of households, empty temple lodgings need minding, and wild boar and deer raid the paddies. Hero coverage is thin; the nearest large agencies are in Oita and Beppu, about an hour away by road, so airport security and the coast guard often reach trouble first. Small-time crime is ordinary: poaching from the prawn farms, thefts from unattended temple halls and roadside stands, unlicensed Quirk use by fishermen working the strait's currents. Fog over the Iyo-nada can close the ferries.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -13,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6720715b-e4cc-4d0a-8251-f4b98a1d5400.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

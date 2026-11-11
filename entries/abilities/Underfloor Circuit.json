@@ -1,0 +1,25 @@
+{
+  "Underfloor Circuit": {
+    "name": "Underfloor Circuit",
+    "description": "The user dives through a floor, rebounds from solid matter and emerges beside one opponent within a short street to deliver a precisely timed blow. It deals heavy bludgeoning damage; held back, it knocks the target down. The user cannot see, hear or breathe below ground, and an incorrect route can eject them away from the target. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Sole Burst Brake": {
+    "name": "Sole Burst Brake",
+    "description": "The user swings both soles toward their direction of travel and expels air to slow a rush or a fall from one story, landing on a clear patch within ten meters this turn. The user needs stored breath and time to turn the legs; it cannot arrest a longer fall or prevent injury after the user already strikes an obstacle. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

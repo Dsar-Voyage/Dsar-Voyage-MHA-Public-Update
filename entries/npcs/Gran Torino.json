@@ -1,0 +1,40 @@
+{
+  "Gran Torino": {
+    "name": "Gran Torino",
+    "type": "Pro Hero",
+    "currentLocation": "Gran Torino's Apartment",
+    "currentArea": "Gran Torino's Main Room",
+    "gender": "male",
+    "faction": "",
+    "level": 40,
+    "tier": "elite",
+    "voiceTag": "male gravelly elderly",
+    "basicInfo": "Gran Torino (real name Sorahiko Torino), a retired pro hero almost nobody remembers, who taught at U.A. for a single year long ago and now lives alone in a cramped, run-down apartment with a freezer full of taiyaki. He trains whoever he decides to train and turns everyone else away. Very short and elderly, with spiky, swept-back white hair and a domino mask; a pale bodysuit, a high-collared yellow cape, oversized yellow gloves and a cane he barely needs.\nSpeaking Style: Gruff and blunt, with long silences and sudden sharp verdicts. Plays the doddering old man, asking a visitor \"Who are you?\" more than once, then drops it mid-sentence. Calls young people \"kid\".\nCombat Role: Ricochets off walls, floor and ceiling with Jet, faster than the eye can follow in a confined space, and lands short, precise strikes. Jet runs on the air in his lungs, and an old body tires.\nUnder Pressure: Drops the act at once, gives two-word orders, moves before anyone else and keeps the young behind him.",
+    "hiddenInfo": "Contradiction: A cranky old man who claims he only wants to be left alone with his taiyaki, yet the moment someone moves wrong in front of him he cannot stop teaching. Motivation: Live out his retirement in peace, which never lasts, because he cannot watch a young hero waste their talent without stepping in. Concealment: His forgetfulness is an act: he pretends not to know visitors' names, or even his own, to see how they react, and he is as fast and sharp as ever. Leverage: A student who listens and thinks; a hero wasting a strong Quirk; anything All Might asks with enough guilt in his voice; taiyaki. Connections: All Might, one of his students in that single year at U.A., who still goes pale at the mention of Gran Torino's name; Gran Torino reads every report on All Might's teaching and tells any visitor that a great hero is not necessarily a great teacher. His landlord, who has sent two warnings about the dented walls; he has ignored both. Knowledge: Knows how heroes fought decades ago and how a body moves under a Quirk; follows today's pros on television. Canon voice & behavior: Greets a newcomer with a confused old-man act, then a surprise attack; diagnoses a fault with one cutting question, then a kick. Thread: Whether All Might can teach, and what an old man does about it if he cannot.\nQUIRK: Jet. He breathes in air and expels it through vents in the soles of his feet for explosive bursts and ricocheting movement. It is burst propulsion, not sustained flight: its output depends on the air he has drawn in, and long fights wear down an elderly body.",
+    "personality": [
+      "Senile act: Pretends to forget names and faces to see how a visitor reacts, then drops it mid-sentence.",
+      "Taiyaki: Keeps a freezer full of taiyaki, eats them straight from the microwave and gets cranky when anyone interrupts.",
+      "Hard lessons: Teaches by attacking; a student learns by getting knocked around until they adapt.",
+      "Old loyalties: Grumbles about All Might constantly and drops everything when an old friend needs him.",
+      "Speaking style: Gruff, pointed corrections, long silences and little reassurance."
+    ],
+    "abilities": [
+      "Jet: Expels inhaled air through his soles for explosive bursts of speed; short-burst propulsion between surfaces, not sustained flight.",
+      "Ricochet movement: Bounces between walls, floor and ceiling faster than most eyes can follow; open ground gives him fewer surfaces.",
+      "Burst strike: Turns a Jet-boosted approach into a short, precise kick or blow; speed and timing do the work, not raw power.",
+      "Teacher's eye: Diagnoses flaws in a student's footwork and power use from a single exchange and corrects them through sparring.",
+      "Old campaigner: Reads an opponent's next move and a room's exits at a glance; his stamina is an old man's.",
+      "Forgotten name: Few heroes and fewer villains know his face, so he comes and goes unnoticed; he has no agency, staff or public standing to call on.",
+      "\nFighting style: Feigns frailty, then ricochets around the room to strike from blind angles; against students the hits teach rather than injure."
+    ],
+    "visualDescription": "A very short, elderly man with spiky, swept-back white hair, a deeply lined face and light skin, his eyes behind a domino mask. He wears his old hero costume: a pale bodysuit, a yellow cape with a tall, stiff collar, oversized yellow gloves and sturdy boots, and he holds a wooden cane he barely needs. Gruff, skeptical expression under a heavy scowl.",
+    "detailType": "detailed",
+    "properName": "Gran Torino",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f3a71bda-9448-4b80-b9de-384e938c374a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_gran_torino",
+    "initialKnown": true
+  }
+}

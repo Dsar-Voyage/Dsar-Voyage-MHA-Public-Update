@@ -1,0 +1,24 @@
+{
+  "Full Meal Array": {
+    "name": "Full Meal Array",
+    "description": "After a meal containing octopus, shellfish and poultry, the user manifests tentacles, a shell guard and wings at once for the rest of the scene. They can defend one ally, restrain one nearby opponent or cross a short gap, choosing one action each turn. The forms shrink as their sources are digested, and using all three rapidly drains stamina. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

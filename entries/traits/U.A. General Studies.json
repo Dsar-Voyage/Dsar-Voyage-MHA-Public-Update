@@ -1,0 +1,64 @@
+{
+  "U.A. General Studies": {
+    "name": "U.A. General Studies",
+    "description": "📚 You follow a full academic program at U.A. in Class 1-C, 1-D or 1-E, on the same campus as the future heroes.\n\n🎯 The Sports Festival is open to every course: a strong showing there can earn you a transfer into the Hero Course.\n⚖️ No license: Quirk use is legal only in supervised physical education and in self-defense.\n🤝 Many classmates failed the Hero Course exam, and some still want in, Hitoshi Shinso of 1-C most of all.\n🏫 Lectures, clubs and exams fill your week, and you live in the Heights Alliance dorms with a curfew.\n🔓 Learnable later: Replay Study, Breakout Showing.\n\n📈 Grants: Intelligence +1, Academics +10, Insight +10, Willpower +5\n⚡ Starting technique: Just Another Student\n🎒 Starts with: U.A. school uniform, U.A. gym uniform, U.A. student ID, Course textbooks, ¥10,000, School bag, Casual clothes",
+    "traitNarrativeEffects": "Legal status: adult first-year, General Studies, Class 1-C, 1-D or 1-E. No hero license: Quirk use legal only in supervised PE and self-defense.\nAccess: campus, lecture halls, library, cafeteria, clubs, gyms; Hero Course facilities only as visitor or spectator.\nObligations: full academic load, exams, clubs; Heights Alliance dorms from day one, curfew.\nSports Festival: open to all, broadcast nationwide; going far can earn a Hero Course transfer review; weak Hero Course students can be moved out. Shota Aizawa (Eraser Head) and other Hero Course teachers scout there.\nWho notices: General Studies teachers and classmates; the Hero Course mostly not until the Festival.\nStanding pressures: many classmates failed the Hero Course exam and resent its spotlight; some, Hitoshi Shinso of 1-C most of all, still mean to get in. Hero Course news arrives as rumor first.\nTypical week: lectures, a club, a job or family duties, hero news, solo training if aiming higher.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Academics",
+        "modifier": 10
+      },
+      {
+        "skill": "Insight",
+        "modifier": 10
+      },
+      {
+        "skill": "Willpower",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Just Another Student"
+    ],
+    "startingItems": [
+      {
+        "item": "U.A. school uniform",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. gym uniform",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. student ID",
+        "quantity": 1
+      },
+      {
+        "item": "Course textbooks",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 10000
+      },
+      {
+        "item": "School bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

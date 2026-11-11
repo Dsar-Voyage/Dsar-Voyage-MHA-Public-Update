@@ -1,0 +1,29 @@
+{
+  "Extreme Stillpoint": {
+    "name": "Extreme Stillpoint",
+    "description": "The user places a temperature lock on up to a dozen objects, walls or patches of ground across a street for the rest of the scene, holding each at steady heat or deep freeze regardless of surrounding fire or weather. They can keep a sagging floor frozen solid, hold rescue lanes warm, or flip any locked spot between heat and frost to crack stone, steel doors or enemy armor for heavy fire and cold damage; held back, the flip breaks only locks and weapons. Keeping the locks active drains the user's body heat, slowing them to a walk. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

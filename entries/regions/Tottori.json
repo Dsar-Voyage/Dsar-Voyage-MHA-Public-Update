@@ -1,0 +1,30 @@
+{
+  "Tottori": {
+    "name": "Tottori",
+    "basicInfo": "The heart of Tottori Prefecture: the city of Tottori and its famous sand dunes in the east, Kurayoshi in the west, and the forested Chugoku Mountains rising to the south. The coast runs east to west along the cell's northern edge, a line of beaches, dunes and small ports. The Tottori Dunes, just north of the city, stretch about sixteen kilometers along the shore, rising into tall ridges where visitors climb, sandboard and ride camels; a sand sculpture museum nearby changes its theme yearly. Tottori city, a quiet prefectural capital, sits on the Sendai River below the old castle hill of Mount Kyusho. West along the coast lie Hakuto Shrine and beach, home of the legend of the white hare of Inaba, and Lake Togo with the hot spring town of Hawai on its shore. Kurayoshi, inland, keeps an old merchant quarter of white-walled storehouses along a canal. South of it, Misasa Onsen has radon hot springs and riverside baths, and on Mount Mitoku a temple hall clings to a sheer cliff at the top of a steep, rooted climb. Farther south the mountains rise to the Okayama border, cedar valleys and quiet villages such as Chizu with its preserved thatched farmhouses. Winters bring deep snow and heavy seas, and August days are hot and clear. The region grows twentieth-century pears and rakkyo scallions on the sandy fields, and its ports bring in snow crab, squid and rock oysters. Tottori's Shan-shan Festival in August fills the streets with umbrella dancers. The limited express from Osaka to Tottori through Chizu takes about two and a half hours. The San'in Main Line links the coast towns, an expressway runs south over the mountains, and flights from Tokyo land at the airport just west of the city. From Musutafu the trip is about four and a half hours by shinkansen and limited express. Tottori city and Kurayoshi each have police stations and a few small hero agencies; sidekicks patrol the dunes and the August festival, and one licensed hero covers the mountain towns. Quirks show up in farm and fishing work, like a pear grower who senses ripeness. Visitors walk the dunes, soak at Misasa and Hawai, climb Mount Mitoku and eat crab in winter.",
+    "hiddenInfo": "Tottori is Japan's least populous prefecture and feels it: shuttered shops in the town centers, aging villages in the mountains, young adults leaving for Osaka. Tourists at the dunes and hot springs bring car break-ins and the odd scam. The local agencies are small; real numbers come from Osaka or Okayama, two to three hours away. In winter, heavy snow and closed roads isolate mountain villages, and the coast's sand and sea draw more rescues than crimes. Villainy is mostly petty: produce theft, poaching, a Quirk-fueled drunk at the festival.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -9,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ff5ca4e7-5b3b-4549-a7b4-5520823fc2bb.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "Gear Fighter": {
+    "name": "Gear Fighter",
+    "description": "🔧 You win with support gear you tune and repair yourself: capture-tape launchers, grappling lines, smoke and flash grenades, gauntlets and thrusters.\n\n🎯 You break enemy gear, build traps from scrap and push your own equipment past its safe limits.\n⚠️ Without gear, tools or scrap at hand you fight as an untrained person, and a prototype can fail at the worst moment.\n📈 You learn more techniques as your Support Engineering and Marksmanship improve.\n⚖️ Hero support items must be approved and registered. Weapon-grade gear without a license or company permit is illegal, and modified gear loses its approval.\n🤝 Support companies scout gear builders at the Sports Festival, and villains pay well for black-market engineers.\n\n📈 Grants: Intelligence +1, Support Engineering +15, Marksmanship +10\n⚡ Starting technique: Tangle Shot",
+    "traitNarrativeEffects": "Knows their gear inside out: accurate with snares and grenades, spots weak points in enemy support gear, field-patches gear, builds crude scrap devices. Starts with the items from their Gear Set and Path, kept working; prototypes fail at the worst moment when the scene calls for it. Devices use charges, rounds or parts; broken ones stay broken until repaired. Without gear, tools or scrap: untrained. Covers design, tuning, use; heavy metalwork and assembly is Fabrication. Pure training: same for Quirkless; techniques cost stamina, never Quirk Strain. Law: hero support items must be approved and registered (U.A.'s Support Course builds and tests them in the Development Studio, supervised); weapon-grade gear without hero license or company permit is illegal; modified gear loses approval. Support companies scout gear builders at the Sports Festival; villains pay well for black-market gear and engineers. Look: device belt, goggles up, greasy hands, pockets, cables.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Support Engineering",
+        "modifier": 15
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Tangle Shot"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

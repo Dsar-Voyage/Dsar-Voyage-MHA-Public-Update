@@ -1,0 +1,20 @@
+{
+  "Hired-Hand Command": {
+    "name": "Hired-Hand Command",
+    "description": "The user stares down the hired thugs and lesser villains on a job until they fear the user more than the heroes. For the rest of the scene they follow the user's orders without arguing, and they do not break and run while the user is still standing. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "League of Villains Recruit",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

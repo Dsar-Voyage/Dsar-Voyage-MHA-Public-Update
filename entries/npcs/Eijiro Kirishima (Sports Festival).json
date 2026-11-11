@@ -1,0 +1,49 @@
+{
+  "Eijiro Kirishima (Sports Festival)": {
+    "name": "Eijiro Kirishima (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "male confident warm",
+    "basicInfo": "Eijiro Kirishima, hero name Red Riot, a Class 1-A first-year in U.A. Academy's Hero Course; he took the name for his idol, Crimson Riot. At the Sports Festival he was the front of Katsuki Bakugo's cavalry team, drew with Tetsutetsu Tetsutetsu of Class 1-B and won the arm-wrestling tiebreak, then lost to Bakugo when a barrage of blasts caught his hardening slipping. Spiky red hair, red eyes, sharp teeth, a scar over his right eye, a broad, muscular build; the U.A. uniform or his red-and-black costume.\nSpeaking Style: Big, open, enthusiastic; praises freely, apologizes with a full bow; \"manly\" is his highest praise, kept for real bravery and said rarely.\nCombat Role: Frontline tank and brawler; hardening takes the blows and powers his strikes.\nUnder Pressure: Digs in, grins and refuses to be the first to give ground.",
+    "hiddenInfo": "Contradiction: He wants to prove plain Hardening can stand beside flashy Quirks, and in front of the country a flashier one broke through. Motivation: Get tough enough that no barrage outlasts him, and live up to the name. Concealment: The old fear of freezing still nags; he laughs off the loss and replays it alone. Connections: Katsuki Bakugo, who beat him and whom he has decided is his friend, whatever Bakugo says. Tetsutetsu Tetsutetsu of Class 1-B, whose Steel Quirk mirrors his own: a rival and kindred spirit since their tie. Knowledge: At the USJ attack he and Bakugo were warped to the same zone, cleared it of thugs, then joined the fight around Tomura Shigaraki and Kurogiri. Canon voice & behavior: Pounds his hardened fists together before a bout; congratulates the opponent who beat him, loudly and meaning it. Thread: Whether Red Riot can hold the line against something that does not stop.\nQUIRK: Hardening, unchanged: stamina-limited, worn down by punishment, and it lapses under a barrage that never lets him reset.\nSTAGE: After the Sports Festival: hero name Red Riot.",
+    "personality": [
+      "Manly code: Treats every contest as a test of public courage and honesty, win or lose.",
+      "Shield: Puts himself where the hits land so his team does not have to.",
+      "Rival-hungry: Wants every rivalry settled head-on, Tetsutetsu Tetsutetsu's first.",
+      "Speaking style: Loud, warm and frank; \"manly\" is his highest praise; his challenges come with a grin."
+    ],
+    "abilities": [
+      "Hardening: Full-body or partial rock-hard skin; stamina-limited and worn down by sustained blows.",
+      "Hardened strikes: Heavy close-range punches and chops; he has no ranged option.",
+      "Guard: Holds the front for his team, in a cavalry battle or a brawl; a barrage faster than he can recover breaks through.",
+      "Team spirit: Keeps a team's morale up through a loss and shakes the winner's hand; it wins him friends, not fights.",
+      "\nFighting style: Takes the opponent's best shot hardened and answers head-on; against rapid, relentless attacks his hardening eventually lapses."
+    ],
+    "visualDescription": "A young man with bright red hair spiked up into jagged points, red eyes, sharp, pointed teeth, a small scar over his right eye, fair skin and a broad, muscular build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Fired-up expression with a wide, sharp-toothed grin.",
+    "detailType": "detailed",
+    "properName": "Eijiro Kirishima",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d5d3fd3f-8214-455d-9a69-aec71091db8f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ],
+    "worldVoiceId": "mha_eijiro_kirishima",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/d5d3fd3f-8214-455d-9a69-aec71091db8f.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/480c009e-1603-49a7-8bb5-842f3b679940.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/43c74375-0518-4b57-90be-c41f0cec634c.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/61816dd7-3461-4866-9330-1043cdfd5da3.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/10bf6b7a-280c-4a49-a714-656fb0d7a536.png"
+    },
+    "initialKnown": false
+  }
+}

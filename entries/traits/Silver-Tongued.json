@@ -1,0 +1,24 @@
+{
+  "Silver-Tongued": {
+    "name": "Silver-Tongued",
+    "description": "🐍 You can talk your way into anything and out of most things.\n\n💼 Deals, alibis and second chances come your way because people want to believe you.\n⚠️ A reputation for smooth talk makes careful people check everything you say.\n⚠️ When words run out, you have less to fall back on.\n🔀 If you are also Honest, you talk people into things that are actually true.\n\n📈 Grants: Persuasion +5, Negotiation +5",
+    "traitNarrativeEffects": "The character is silver-tongued: smooth, charming and quick, able to talk into closed places and out of most trouble; people want to believe them, so deals, alibis and second chances come their way. Weakness: careful people learn their reputation and check everything, and when words run out they have less to fall back on. If the character is also Honest, they talk people into true things. The narrator lets listeners judge and push back; what the character says is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Persuasion",
+        "modifier": 5
+      },
+      {
+        "skill": "Negotiation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

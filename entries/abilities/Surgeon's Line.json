@@ -1,0 +1,20 @@
+{
+  "Surgeon's Line": {
+    "name": "Surgeon's Line",
+    "description": "The user narrows the beam to a hair-thin cutting line and traces it through steel, rebar, a crushed car door or a jammed shutter, freeing whoever is pinned without burning them. At low power the same line seals a bleeding wound shut, so the patient stops losing blood until a doctor can treat the burn it leaves. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

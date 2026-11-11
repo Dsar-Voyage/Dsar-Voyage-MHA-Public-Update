@@ -1,0 +1,24 @@
+{
+  "Empty Street": {
+    "name": "Empty Street",
+    "description": "The user bends the light around every person linked to them by touch, through joined hands, a hand on a shoulder or a rope held between them, and around everything those people wear and carry. While the chain holds and nobody runs, the whole group stays invisible for the rest of the scene, so civilians can be walked out past a villain or a team can cross open ground unseen. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

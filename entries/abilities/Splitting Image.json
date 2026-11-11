@@ -1,0 +1,20 @@
+{
+  "Splitting Image": {
+    "name": "Splitting Image",
+    "description": "In an instant the user splits off a pair of doubles, and the user and both doubles go at a single target from different sides. The target takes bludgeoning damage and can defend against only one of them this turn; afterward the doubles stay and act on their own until the end of the scene or until they burst. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

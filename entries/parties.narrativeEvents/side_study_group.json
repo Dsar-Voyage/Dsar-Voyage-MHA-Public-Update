@@ -1,0 +1,15 @@
+{
+  "side_study_group": {
+    "title": "Yaoyorozu's Study Group",
+    "beats": "Evenings in the week before the final exams. The midterms left Denki Kaminari and Mina Ashido at the bottom of Class 1-A, and both are in open panic. Momo Yaoyorozu offers to tutor anyone who asks and glows when five people do: Kaminari, Ashido, Kyoka Jiro, Hanta Sero and Mashirao Ojiro. Afternoons go to the Library; once it closes, the group takes over the Class 1-A Dorm Lounge, where Yaoyorozu sets out a porcelain tea set from home that costs more than the sofa beside it and asks, in total sincerity, which tea everyone prefers.\n\nDefault course, as pressure the player can change: the group works through hero law, math and modern literature with flashcards Yaoyorozu creates on the spot. Kaminari's brain shorts out on formulas, Ashido calls a snack break every twenty minutes, Sero trades jokes with Jiro, and Ojiro quietly does the most work. Across the lounge Katsuki Bakugo drills Eijiro Kirishima, shouting each answer louder than the last. A rumor passed down from upperclassmen says the practical will be against robots again, so the panickers relax about the practical and fear only the written test. By default the tea and Yaoyorozu's patience hold, and the practice scores climb by the end of the week.\n\nA 1-A party can join as a student, tutor a struggling classmate, keep Ashido on task, or notice Yaoyorozu worrying that she is less useful than people think; a word at the right moment steadies her. The robot rumor stays a rumor, and nobody in the room knows the real exam format.\n\nThe event is complete when the group breaks up for the night after a practice quiz, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_study_group",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

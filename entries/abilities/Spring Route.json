@@ -1,0 +1,24 @@
+{
+  "Spring Route": {
+    "name": "Spring Route",
+    "description": "The user lays a connected route of scalp balls across a building's broken floors and walls. For the rest of the scene the user can rebound along it to reach trapped rooms, return with one person at a time and avoid gaps in the floor. Everyone else still sticks to the route, so rescuers need clear markers; placing it leaves the user's scalp painfully raw. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

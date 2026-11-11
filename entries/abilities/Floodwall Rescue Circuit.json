@@ -1,0 +1,25 @@
+{
+  "Floodwall Rescue Circuit": {
+    "name": "Floodwall Rescue Circuit",
+    "description": "The user combines wall adhesion, swimming and loaded leaps for up to ten minutes across a flooded three-story building, retrieving one adult at a time with their twenty-meter tongue and delivering each to a reachable dry landing. Repeated trips let the user evacuate a whole small group without increasing tongue length or carrying capacity. Cold water can still trigger hibernation, and afterward the user's legs and tongue cramp until they rest for at least ten minutes. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

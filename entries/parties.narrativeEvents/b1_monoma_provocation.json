@@ -1,0 +1,15 @@
+{
+  "b1_monoma_provocation": {
+    "title": "Monoma's Provocation",
+    "beats": "Lunchtime in the days after Hero Name Day, at Lunch Rush's Cafeteria at U.A. Academy. The internship lists are posted and the Sports Festival replays are still everywhere; strangers recognize Class 1-A on the train, and Class 1-B has noticed. Neito Monoma, newly Phantom Thief, has opened a campaign. All morning he drifted past 1-A in the Main Building Hallway with a slow clap and a question about how fame feels, and now he carries his tray to the table where Katsuki Bakugo, Eijiro Kirishima and Momo Yaoyorozu are eating.\n\nDefault course, as pressure the player can change: Monoma sets the tray down without sitting, smiles wide and asks, with exquisite courtesy, whether the podium was comfortable, and whether a winner in restraints counts as a champion in 1-A. The laugh goes on too long. Kirishima tries to laugh it off; Yaoyorozu answers with cold, precise courtesy; Bakugo does not look up, then sets down his chopsticks, and his palms start to crackle. Monoma leans closer, one hand drifting toward Bakugo's sleeve. Before contact, Itsuka Kendo, 1-B's class representative, arrives behind him, chops him once in the back of the neck, catches him and tells the table, \"Sorry about him.\" Behind her, Tetsutetsu Tetsutetsu shouts across to Kirishima that their rematch is still on, and Sen Kaibara takes Monoma's tray away with a flat remark about lunch.\n\nBy path: a 1-B party is in Monoma's audience and can feed the act, rein him in before Kendo does, or turn the taunt into a fair challenge Bakugo will respect. A 1-A party sits at the target table: the bait is plain, and taking it means a cafeteria fight the faculty will hear about, while ignoring Monoma infuriates him more than any comeback. Either class can set up Tetsutetsu and Kirishima's rematch for another day. No real fight happens here: a Quirk used indoors brings a teacher at once.\n\nThe event is complete when Monoma has been chopped or talked down and both classes go back to lunch, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_monoma_provocation",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

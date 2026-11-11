@@ -1,0 +1,20 @@
+{
+  "Buzzing Grasp": {
+    "name": "Buzzing Grasp",
+    "description": "The user grabs an opponent's forearm or shoulder while humming a harsh note that drives a vocal tremor straight into the limb. It deals minor bludgeoning and sonic damage, numbs the arm so the target drops what they hold and cannot use that limb until the end of their next turn, and leaves no wound. Thick padding dulls the tremor, and the vibration rings back into the user's own ears and jaw. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

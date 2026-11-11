@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: dabi_plf": {
+    "name": "Portrait Swap: dabi_plf",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Dabi",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/55992495-7af2-41c5-9e34-268d061ca8ed.png"
+      }
+    ]
+  }
+}

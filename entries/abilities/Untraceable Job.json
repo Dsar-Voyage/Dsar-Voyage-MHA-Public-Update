@@ -1,0 +1,20 @@
+{
+  "Untraceable Job": {
+    "name": "Untraceable Job",
+    "description": "After a job, the user cleans up in the order brokers teach: prints, cameras, phone, witness, route. Investigators who work the job find no trace that names the user; only new evidence from outside the scene can put the user back in the frame. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Independent Villain",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Streetwise",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Contrail Drive": {
+    "name": "Contrail Drive",
+    "description": "The user chains blasts from both palms into sustained flight, crossing city blocks, climbing past rooftops and turning hard in the air. They can carry a single passenger under an arm while steering with the free hand, but cannot attack while carrying. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

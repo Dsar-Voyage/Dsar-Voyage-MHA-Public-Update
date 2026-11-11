@@ -1,0 +1,45 @@
+{
+  "Regeneration Quirk": {
+    "name": "Regeneration Quirk",
+    "description": "🩹 Your body heals itself fast: cuts close in minutes and a broken bone knits in hours.\n\n🌱 At the start you can also force fresh wounds shut mid-fight and take a blow on purpose to land your own.\n📈 With training: blades caught barehanded, poison purged, long falls landed, people pulled from fire, others shielded, marches through anything, a lost limb regrown.\n⚠️ You feel every wound, and lost limbs do not grow back yet.\n🔗 Common drawback pairing: Stamina Drain, as healing burns your reserves.\n🎬 Similar canon Quirks: Super Regeneration.\n\n📈 Grants: Endurance +1, Quirk Stamina +10, Quirk Control +10, Conditioning +5, Health +10\n⚡ Starting techniques: Accepted Blow, Knit Shut",
+    "traitNarrativeEffects": "Scale: fast self-repair. For a new adult user, cuts close in minutes, bruises fade in an hour, broken bones knit in a few hours, all scarless. Faster healing needs techniques. Limits: not instant: a heavy blow still drops the user, pain arrives in full, a fatal wound is still fatal. At the start lost limbs and eyes do not regrow; a blade left in a wound keeps it open; an unset bone knits crooked. Heals only the user. Quirk Strain: none at normal pace; light: taking a blow on purpose; moderate: closing wounds mid-fight, catching a blade, purging a poison, a long fall; heavy: walking through fire, shielding others; severe: signature advance, rebuilding the whole body. Type: Mutant. Law: attackers are still charged for wounds the user healed; unlicensed fighting is still illegal Quirk use. Look: runs warm, eats hugely; wounds close in threads of tissue, bones click into line, skin steams.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Conditioning",
+        "modifier": 5
+      }
+    ],
+    "resources": [
+      {
+        "resource": "health",
+        "modifier": 10
+      }
+    ],
+    "abilities": [
+      "Accepted Blow",
+      "Knit Shut"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

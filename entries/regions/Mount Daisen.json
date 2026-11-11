@@ -1,0 +1,30 @@
+{
+  "Mount Daisen": {
+    "name": "Mount Daisen",
+    "basicInfo": "Western Tottori and the mountain that rules it: Mount Daisen, the highest peak in the Chugoku region at about 1,730 meters, with the Yonago plain, the Yumigahama spit and Miho Bay at its feet and the Hiruzen highlands to the south. Seen from the west, Daisen is a near-perfect cone, so people call it Hoki Fuji; from the north and south it is a jagged wall of crumbling ridges. Its slopes carry a vast beech forest, the ski runs above Daisen town, and the long stone-paved approach to Daisenji temple and Ogamiyama Shrine, an old center of mountain worship. Snow lies deep in winter; summer brings hikers up the summit trail before dawn. Yonago, western Tottori's commercial hub, is a working city near the Hino River's mouth, with Kaike Onsen's seaside hotels just north. The Yumigahama spit runs northwest from Yonago, a long bow of white sand and black pines between Miho Bay and the Nakaumi lagoon, with the airport and the fishing port of Sakaiminato near its tip. Across a narrow channel to the north, the eastern tip of the Shimane Peninsula holds Mihonoseki, an old port of stone-paved lanes and Miho Shrine, head shrine of the god of fishers and trade, whose boat rites draw crowds. Yasugi, on the western edge, is known for its loach-scooping folk dance. South, the Hino valley climbs through rice villages to the Okayama border and the Hiruzen highlands, a broad plateau of Jersey dairy farms and campgrounds under three gentle peaks. East, Kotoura's coastal farmland runs toward Kurayoshi. Food: Sakaiminato tuna and crab, Daisen dairy, Hiruzen's sweet-sauce yakisoba. The limited express from Okayama reaches Yonago in about two hours, the Yonago Expressway runs south past Hiruzen, the San'in Line follows the coast, and flights from Tokyo take about an hour and a half. From Musutafu the trip is about five hours by train; from Osaka, about three and a half by highway bus. Yonago has police stations and a few small hero agencies; a licensed mountain rescue hero works Daisen's trails, and sidekicks watch the beaches in summer. Farmers and fishers put practical Quirks to work. Visitors climb, ski, soak at Kaike, cycle Hiruzen and walk Mihonoseki's lanes.",
+    "hiddenInfo": "Daisen's beauty hides real danger: the summit ridges crumble, winter whiteouts catch climbers, and rescue is a big part of local hero duty. Yonago is a modest city with a modest underside: small-time drug dealing, bar fights and Quirk scams aimed at the elderly. Sakaiminato's docks see catch fraud and labor disputes. Local agencies handle most of it; serious backup comes from Okayama, about two hours south, or from Matsue across the lagoon. In the Hiruzen highlands the worst crime is usually cattle or produce theft.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -10,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7beffc12-2f84-4f45-a3e4-eb0e5ba86857.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

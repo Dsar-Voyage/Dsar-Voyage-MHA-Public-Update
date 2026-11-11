@@ -1,0 +1,28 @@
+{
+  "Portrait Swap: tamaki_amajiki_raid_injury ends": {
+    "name": "Portrait Swap: tamaki_amajiki_raid_injury ends",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_shie_hassaikai_raid",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 218
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tamaki Amajiki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/321cf824-9071-4cb9-a037-f27da44af90f.png"
+      }
+    ]
+  }
+}

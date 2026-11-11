@@ -1,0 +1,61 @@
+{
+  "firstSuccessfulTierId": "mixed-results",
+  "tiers": [
+    {
+      "id": "critical-failure",
+      "name": "Wipeout",
+      "minScore": null,
+      "maxScore": -66,
+      "imageUrl": "",
+      "prompt": "[Note: {{characterName}}'s attempt collapses badly. If an opponent is present, their skill, Quirk or plan turns it; otherwise the situation does. A Quirk use may backfire through the character's Drawback. It is a hard setback, not the end of the scene.]"
+    },
+    {
+      "id": "failure",
+      "name": "Not Yet",
+      "minScore": -65,
+      "maxScore": -51,
+      "imageUrl": "",
+      "prompt": "[Note: {{characterName}}'s attempt fails. Credit an opponent's skill or the situation where one applies, and leave a way to try again.]"
+    },
+    {
+      "id": "mixed-results",
+      "name": "Pushed Through",
+      "minScore": -50,
+      "maxScore": -26,
+      "imageUrl": "",
+      "prompt": "[Note: {{characterName}} gets part of the goal and pays for it: more Strain, a minor injury, damaged gear, a witness or lost time. In a supervised test or drill that is not a fight (the Quirk Apprehension Test, fitness tests, races, exams), the cost is a lower score, more Strain, lost time or a minor strain the character does to their own body by pushing it (a pulled muscle, a Drawback flare); a classmate never injures them there.]"
+    },
+    {
+      "id": "basic-success",
+      "name": "Pulled It Off",
+      "minScore": -25,
+      "maxScore": -1,
+      "imageUrl": "",
+      "prompt": "[Note: {{characterName}}'s action works, plainly and without flourish.]"
+    },
+    {
+      "id": "success",
+      "name": "Clean Work",
+      "minScore": 0,
+      "maxScore": 24,
+      "imageUrl": "",
+      "prompt": "[Note: {{characterName}}'s action works well and cleanly.]"
+    },
+    {
+      "id": "great-success",
+      "name": "Go Beyond!",
+      "minScore": 25,
+      "maxScore": 49,
+      "imageUrl": "",
+      "prompt": "[Note: {{characterName}} goes beyond what anyone expected: faster, cleaner or with an extra benefit, and the people who see it take notice.]"
+    },
+    {
+      "id": "critical-success",
+      "name": "PLUS ULTRA!",
+      "minScore": 50,
+      "maxScore": null,
+      "imageUrl": "",
+      "prompt": "[Note: {{characterName}} goes beyond their limits: the action succeeds in the most striking way their Quirk, skill and gear allow, a moment people will remember. It never grants a power the character does not have and never skips a Drawback.]"
+    }
+  ]
+}

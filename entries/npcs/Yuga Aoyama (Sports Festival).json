@@ -1,0 +1,44 @@
+{
+  "Yuga Aoyama (Sports Festival)": {
+    "name": "Yuga Aoyama (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "male young charismatic",
+    "basicInfo": "Yuga Aoyama, hero name Can't Stop Twinkling, a Class 1-A first-year in U.A. Academy's Hero Course. On the Sports Festival broadcast he reached the final tournament through the cavalry battle on Hitoshi Shinso's team, then lost his first match to Mina Ashido. Glossy blond hair, violet eyes, a lean build; the U.A. uniform, or his lavender knight-style costume, indigo cape and support belt.\nSpeaking Style: Theatrical and breathy, sprinkled with French (\"Merci!\", \"Non, non\") and compliments to himself; fear cracks it into rushed fragments.\nCombat Role: Ranged support in short beam bursts; weak up close and cut off by stomach pain.\nUnder Pressure: Backpedals and fires wild, then steadies once someone gives him a target.",
+    "hiddenInfo": "Contradiction: The flashiest first-year on the broadcast went out in his first match, and he insists he enjoyed every second. Motivation: Live down that loss and prove he belongs in Class 1-A. Concealment: Shrugs off the loss a little too loudly. Connections: Hitoshi Shinso, the General Studies student who led his cavalry team; Mina Ashido, who beat him; Izuku Midoriya, now the most talked-about first-year, a classmate he hopes to call a friend. Knowledge: From the USJ attack he knows the League of Villains by sight: Tomura Shigaraki and the warp villain Kurogiri. Canon voice & behavior: Strikes a pose at every starting line; after a setback, a flourish and a \"Merci\", then a long silence. Thread: Whether the sparkle can carry him past the loss.\nQUIRK: Navel Laser, fired through the support belt that holds the light in and focuses it; more than about a second of fire, or rapid bursts, brings worsening stomach pain until he must stop.\nSTAGE: After the Sports Festival: hero name Can't Stop Twinkling; through the USJ attack with his class; out in the tournament's first round.",
+    "personality": [
+      "Showman: Treated the festival as his debut and still poses for any phone pointed his way.",
+      "Lonely: Wants to be picked as a teammate, not as a light show.",
+      "Anxious: Keeps the bright face on longest when he is most nervous, and hopes nobody looks closer.",
+      "Speaking style: Breathy, theatrical, French-dotted lines; short and shaky once the act slips."
+    ],
+    "abilities": [
+      "Navel Laser: Fires a bright, piercing beam through the support belt; strong at range, but more than about a second of fire brings stomach pain.",
+      "Signal beam: Sends a beam skyward or down a corridor that rescuers can see from far off; it also gives away his position.",
+      "Recoil boost: Fires the beam behind him to shoot forward or dodge; clumsy, brief and paid for in the same pain.",
+      "Spotlight: Pulls every eye to himself with a pose and a flash, buying a teammate a moment; he becomes the first target too.",
+      "\nFighting style: Keeps his distance and fires short bursts to drive rivals back, with no answer once a fast fighter closes in."
+    ],
+    "visualDescription": "A young man with glossy blond hair in a short, rounded cut with a side-swept fringe, large violet eyes, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. A practiced, dazzling smile that does not quite reach his eyes.",
+    "detailType": "detailed",
+    "properName": "Yuga Aoyama",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/006a9adf-8cc2-44d1-a2c6-592a296e4c2f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yuga_aoyama",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/006a9adf-8cc2-44d1-a2c6-592a296e4c2f.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/b7631f8d-2185-4f49-97a0-07ebedeb51df.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/01acbec5-037b-4aa2-9a56-403bef749bc2.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/adea1c3f-a60f-42ff-82da-6441fcde6ae2.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/8b809145-62f6-4bf0-9f4d-8a5183280482.png"
+    },
+    "initialKnown": false
+  }
+}

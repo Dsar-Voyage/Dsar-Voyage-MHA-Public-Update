@@ -1,0 +1,24 @@
+{
+  "Overload Command": {
+    "name": "Overload Command",
+    "description": "The user floods a person under their control with every command at once. The held person's mind whites out: they take psychic damage and drop unconscious until the scene ends, waking with a pounding headache and no memory of the fight, and the user's hold on them ends. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

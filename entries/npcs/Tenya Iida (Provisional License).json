@@ -1,0 +1,46 @@
+{
+  "Tenya Iida (Provisional License)": {
+    "name": "Tenya Iida (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male commanding blunt",
+    "basicInfo": "Tenya Iida, class representative of Class 1-A in U.A. Academy's Hero Course and now a provisional license holder, who means to carry his brother Tensei's hero name, Ingenium, and be worthy of it. He runs the class's rescue drills and the dorm's curfew in earnest. Dark-blue hair, rectangular glasses, a tall build; the U.A. uniform.\nSpeaking Style: Formal, loud and earnest; briefs the class in numbered steps and names his own mistakes first.\nCombat Role: Rescue and relay at speed; Recipro Burst for one decisive strike or carry.\nUnder Pressure: Turns chaos into assigned roles and calls pros or faculty early.",
+    "hiddenInfo": "Contradiction: Hosu taught him what recklessness costs, and the license now makes him someone others turn to when the rules run out. Motivation: Be the Ingenium Tensei would be proud of, and see all of 1-A become heroes together. Concealment: Keeps the numbness in his left hand as a reminder and waves off any talk of fixing it. Leverage: The class's safety; a friend about to repeat his mistake. Connections: Tensei Iida, retired and proud of him; Izuku Midoriya, Ochaco Uraraka and Shoto Todoroki, close friends; Shoto and Katsuki Bakugo, the two classmates who failed the exam and were sent to the remedial course; Shota Aizawa, whose rules he enforces in the dorm. Knowledge: Knows exactly what a provisional license allows and what it does not. Canon voice & behavior: Congratulates and scolds in the same breath. Thread: Whether a hero who keeps every rule can also act when none apply.\nQUIRK: Engine; Recipro Burst is a short burst followed by a stall.\nSTAGE: After the provisional license exam: passed; a provisional license holder.",
+    "personality": [
+      "Rule keeper: Treats dorm and lockdown rules as safety rules and enforces them on himself first.",
+      "Coordinator: Drills rescue roles until 1-A runs them unprompted.",
+      "Protective: Fears his friends' recklessness more than any villain.",
+      "Self-checking: Can still mistake procedure for judgment, but catches it faster and asks friends to tell him.",
+      "Speaking style: Formal, emphatic, chopping the air; numbered steps; surnames."
+    ],
+    "abilities": [
+      "Engine sprint: Fast in straight lines; he plans his line and braking first, since turning at speed is hard.",
+      "Recipro Burst: Forces his engines past their limit for a short burst of top speed, then they stall and he is slow until they recover.",
+      "Rescue relay: Carries casualties out at speed and turns back for the next; the load costs him agility.",
+      "Provisional license: May use his Quirk to act as a hero in an emergency; it is not a full license, and he keeps to its limits.",
+      "Drill leader: Runs evacuations with numbered roles; it works best with people who have drilled with him.",
+      "\nFighting style: Strikes at speed and passes through, then spends his speed on rescue relays instead of chasing the fight."
+    ],
+    "visualDescription": "A tall young man with short, neatly combed dark-blue hair, dark-blue eyes behind thin rectangular glasses, a square jaw and a serious face, fair skin and a solid build. He wears the U.A. uniform exactly by the rules: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, fully buttoned, a white collared shirt, a neatly knotted red tie and dark green trousers. Earnest, confident expression.",
+    "detailType": "detailed",
+    "properName": "Tenya Iida",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c3f20d6-ad07-4d25-b14c-93b770db15f4.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tenya_iida",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c3f20d6-ad07-4d25-b14c-93b770db15f4.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/03a3340a-e2d9-47bc-97ec-04db93f4a4a0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/5438814e-59c5-4898-b282-66c68025576e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/c8f94abd-63d6-4eb2-aece-7fdae05185ad.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/477034b3-0edf-4437-8229-69f243356758.png"
+    },
+    "initialKnown": false
+  }
+}

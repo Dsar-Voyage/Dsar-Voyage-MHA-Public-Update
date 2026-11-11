@@ -1,0 +1,30 @@
+{
+  "Tokushima": {
+    "name": "Tokushima",
+    "basicInfo": "The eastern lowland of Tokushima Prefecture in Shikoku: the Naruto coast at the mouth of the strait, the delta of the Yoshino River with Tokushima city, the Anan coast to the south and the steep forested Katsuura and Kamikatsu valleys inland. The eastern part of the cell is the Kii Channel, the open water between Shikoku and the Kii Peninsula. At the north edge, the Onaruto Bridge crosses to Awaji above the Naruto whirlpools, and Naruto is a mix of fishing harbors, sandy sweet-potato fields and a huge ceramic-tile art museum on a hill. The Yoshino River, broad and braided, runs east into a plain of lotus fields, old indigo-dyeing towns and Tokushima city, the capital, which sits around Mount Bizan, a green hill with a ropeway. Each August the city's streets fill for four nights with the Awa Odori, hundreds of dance troupes moving to shamisen and drum before more than a million visitors, with sidekicks and police working every block. North of the river, the Shikoku eighty-eight-temple pilgrimage begins at Ryozen-ji, and pilgrims in white walk the roads here year-round. South, Komatsushima and Anan are port and factory towns, and inland Kamikatsu is a mountain village known for zero-waste living and for selling decorative leaves to fine restaurants, while a ropeway climbs to the mountaintop temple of Tairyu-ji. The climate is warm and humid, with typhoons in late summer. Food is sudachi citrus squeezed on everything, Naruto wakame and sweet potatoes, Tokushima ramen with sweet pork and raw egg, and Awa beef. The JR Kotoku, Naruto, Tokushima and Mugi lines run from Tokushima station; expressway buses cross the bridges to Kobe in about two hours and to Osaka in about two and a half; a ferry crosses to Wakayama, and the airport has flights to Tokyo. Musutafu is about four and a half hours away. Tokushima has a small hero agency and police boxes; licensed heroes cover the valleys by car, and a lotus farmer whose Quirk lets her breathe mud-water digs roots faster than any machine.",
+    "hiddenInfo": "Tokushima is peaceful and proud. Trouble peaks at Awa Odori: crowd crushes, drunken fights and pickpockets, with every hero on eastern Shikoku on duty. Otherwise it is depopulating valleys, pilgrims who get lost or fall ill, and small smuggling through the ports. Big-city help comes from Kobe or Osaka across the bridges, about two hours away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -8,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b62fadac-238d-436f-a149-7457d9a1dc52.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

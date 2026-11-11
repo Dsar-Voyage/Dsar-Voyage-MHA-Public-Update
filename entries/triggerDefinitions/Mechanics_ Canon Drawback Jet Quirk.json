@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Jet Quirk": {
+    "name": "Mechanics: Canon Drawback Jet Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Jet Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Finite Fuel",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

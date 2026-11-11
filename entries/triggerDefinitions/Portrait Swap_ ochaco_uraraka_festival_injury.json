@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: ochaco_uraraka_festival_injury": {
+    "name": "Portrait Swap: ochaco_uraraka_festival_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_sports_festival",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_hero_names",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/bbd0a71d-af69-4c4e-8bb1-cab1060221be.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/bbd0a71d-af69-4c4e-8bb1-cab1060221be.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/bbd0a71d-af69-4c4e-8bb1-cab1060221be.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/bbd0a71d-af69-4c4e-8bb1-cab1060221be.png"
+      }
+    ]
+  }
+}

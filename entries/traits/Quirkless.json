@@ -1,0 +1,54 @@
+{
+  "Quirkless": {
+    "name": "Quirkless",
+    "description": "🧠 You have no Quirk. You make up for it with study, planning, gear and nerve, and you learn to read other people's Quirks closely.\n\n🧩 Also pick No Quirk, No Drawback (Quirkless) and No Quirk Strength (Quirkless) in the other Quirk categories.\n🎯 Good for planners and gear users who win on wits and nerve.\n\n📈 Grants: Intelligence +1, Cooperativeness +1, Quirk Analysis +10, Combat Tactics +5\n⚡ Starting techniques: First-Look Read, Bait-and-Slip, Special Move Training",
+    "traitNarrativeEffects": "No Quirk: the age-four registration found none (X-ray: the extra little-toe joint); records say Quirkless. No Quirk Strain or drawback; never develops a Quirk; no Quirk Breakthrough. Overrides other Quirk picks: any other Family, Drawback or Strength is void; no Quirk techniques. Quirk-targeting finds nothing: Aizawa's Erasure has nothing to stop, copiers get nothing by touch, boosters nothing to act on. Uses knowledge, prep, legal support gear, tactics and nerve: studies Quirks, spots limits and tells, plans routes and exits. Techniques cost stamina or nothing, never Strain. Law: being Quirkless is legal; weapons and gear follow ordinary law and permits. Society: about one in five is Quirkless; pity, low expectations, bullying (useless, steered from hero work, a family disappointment). Schools and agencies assume no hero work; a licensed Quirkless hero makes news. Foes underestimate them; villains see easy prey or disposable help.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      },
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "First-Look Read",
+      "Bait-and-Slip",
+      "Special Move Training"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "League of Villains Recruit",
+      "Independent Villain",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "excludedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "requirements": []
+  }
+}

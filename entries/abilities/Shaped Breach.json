@@ -1,0 +1,20 @@
+{
+  "Shaped Breach": {
+    "name": "Shaped Breach",
+    "description": "The user presses both palms to a wall, a door or a rubble pile and shapes the blast so the barrier breaks back toward the user and the debris drops at the user's feet instead of flying into the space beyond. It opens a passage a person can walk through, and anyone trapped on the far side takes no damage from the breach. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

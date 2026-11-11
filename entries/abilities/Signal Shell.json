@@ -1,0 +1,20 @@
+{
+  "Signal Shell": {
+    "name": "Signal Shell",
+    "description": "The user fires a light calcium shell skyward; stored energy makes it glow above a chosen point within fifty meters for three turns before it crumbles. Rescuers who can see the sky can locate that point. It deals no damage, cannot reveal anyone behind cover, and exposes the user's position; the user still spends bodily reserves. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

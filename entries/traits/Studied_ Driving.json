@@ -1,0 +1,20 @@
+{
+  "Studied: Driving": {
+    "name": "Studied: Driving",
+    "description": "🚗 You went through driving school and drive well: cars, vans and city traffic.\n\n🌱 You hold an ordinary license for cars and small vans and drive with control in traffic, in rain and on narrow streets.\n⚠️ High-speed pursuit, evasive driving and heavy trucks are beyond you.\n⚖️ No motorcycle, large-vehicle or emergency-vehicle license unless your background says so, and no exemption from traffic law in a chase.\n🏫 It shows in easy confidence behind the wheel and eyes that check the mirrors.\n\n📈 Grants: Driving +15",
+    "traitNarrativeEffects": "The character finished driving school and holds an ordinary driver's license for cars and small vans. They drive with control in traffic, in rain and on narrow streets, and know the basics of keeping a vehicle running. Prior study, not mastery: high-speed pursuit, evasive driving and heavy trucks are beyond them. Not a license beyond that one: no motorcycle, large-vehicle or emergency-vehicle license unless their background says so, and no exemption from traffic law in a chase. It shows in easy confidence behind the wheel and eyes that check the mirrors.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Driving",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

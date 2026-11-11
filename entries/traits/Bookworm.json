@@ -1,0 +1,24 @@
+{
+  "Bookworm": {
+    "name": "Bookworm",
+    "description": "📖 You spent lunch in the library and train rides in a novel.\n\n🏅 You had the highest marks in the year, more or less by accident.\n🔎 Digging through sources for an answer comes naturally.\n\n📈 Grants: Academics +5, Investigation +5",
+    "traitNarrativeEffects": "The character read everything in high school and remembers most of it: facts, references and footnotes come up in conversation. They are good at research and slow to trust a claim without a source.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Academics",
+        "modifier": 5
+      },
+      {
+        "skill": "Investigation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Handgun": {
+    "name": "Handgun",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 2
+      }
+    ],
+    "description": "A semi-automatic pistol that fires live rounds. Police officers carry them on duty and a few heroes hold special permits; under the Firearms and Swords Control Law, anyone else caught with one faces years in prison. [ Weapon | Police and specially licensed heroes only; illegal for anyone else ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/83dc4263-2f4a-4402-8130-a62b93fb3f44.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

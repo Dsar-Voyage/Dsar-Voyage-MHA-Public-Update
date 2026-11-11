@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: izuku_dark_hero": {
+    "name": "Portrait Swap: izuku_dark_hero",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_last_bearer_leaves_home",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_ua_gate_appeal",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/6287afa2-c649-473c-8244-5e365c5c8ee0.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/6287afa2-c649-473c-8244-5e365c5c8ee0.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/6287afa2-c649-473c-8244-5e365c5c8ee0.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/6287afa2-c649-473c-8244-5e365c5c8ee0.png"
+      }
+    ]
+  }
+}

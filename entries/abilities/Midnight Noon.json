@@ -1,0 +1,25 @@
+{
+  "Midnight Noon": {
+    "name": "Midnight Noon",
+    "description": "The user releases a sphere of light that rises over a whole city district and burns at full daylight for the rest of the scene. Nobody there can hide in shadow, and the user can bend a ray down from the sphere onto any enemy in the open below it, dealing heavy light damage that the target cannot dodge; held back, the ray only sears a hand so the enemy drops what they hold. While the sphere burns, the user's own body gives off no light, so they cannot fire beams or flare from their body until it goes out. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

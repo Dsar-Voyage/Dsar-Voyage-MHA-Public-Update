@@ -1,0 +1,40 @@
+{
+  "Mr. Compress": {
+    "name": "Mr. Compress",
+    "type": "Villain",
+    "currentLocation": "Yokohama Harbor District",
+    "currentArea": "Harbor Promenade",
+    "gender": "male",
+    "faction": "",
+    "level": 20,
+    "tier": "elite",
+    "voiceTag": "male british refined",
+    "basicInfo": "Mr. Compress, real name Atsuhiro Sako: a masked villain and stage magician who treats every crime as a performance. His signature trick makes people and objects vanish into marbles he carries off in his pockets. Tall and lean; a white theatrical mask with black geometric markings, a brown top hat, a long mustard-yellow coat, dark red gloves.\nSpeaking Style: Polished, courteous stage patter: addresses friend and foe alike as his audience, announces each trick, bows when it lands and saves the real reveal for last.\nCombat Role: Abductor and escape artist, not a brawler: slips into touch range under misdirection, compresses a target into a marble and leaves. Weak against anyone he cannot reach or who never takes their eyes off his hands.\nUnder Pressure: Stays in character, improvises a new trick, and gets the people he came with out before himself.",
+    "hiddenInfo": "Contradiction: An entertainer who lives for applause has chosen the side the audience boos, and insists that is the art of it. Motivation: Put on a show society cannot look away from, worthy of his ancestor, and find a cause grand enough to be its finale. Concealment: Never drops the act, so nobody can tell when he means anything; keeps his descent from the thief Oji Harima to himself, along with the fondness he forms for anyone who shares his stage. Leverage: An audience; a dramatic opportunity; a threat to anyone working beside him; a slight against Oji Harima's legacy. Connections: Oji Harima, his ancestor and model, a celebrated thief from the first generations of Quirks. Giran, the port broker who passes him jobs and knows which crews are hiring. If he joins the League of Villains or any crew, its members become the cast he covers and carries out in his pockets, and his loyalty to them runs deeper than the act. Knowledge: Brokers, fences and escape routes in the port underworld; heroes from the news and from watching their patrol hours; any crew's plans only as far as its leader shares them. Canon voice & behavior: Snaps his fingers to release a marble with a flourish; palms and swaps marbles mid-sentence and hides the real ones where nobody thinks to look. Thread: When the curtain comes down, whether the act or the loyalty under it decides what he does.\nQUIRK: Compress. Touching a person or object with his hand shrinks it into a small marble that fits in a pocket; a snap of his fingers restores it, unharmed, whenever he chooses. A compressed person cannot move or act until released. It needs contact, so a target who keeps out of reach is safe, and whoever holds a marble holds what is inside it.",
+    "personality": [
+      "Showman: Narrates his crimes as acts, names his tricks and bows to his audience, even mid-fight.",
+      "Misdirector: Draws every eye to one hand while the other makes the touch or the swap.",
+      "Quietly loyal: Covers a retreat and pockets a hurt companion to carry them out before he thinks of himself.",
+      "Vain: Lets the flourish come before candor and cannot resist an audience, even when silence would be safer.",
+      "Resourceful: Reads a room for props and exits, and improvises a new trick when the first one fails.",
+      "Speaking style: Courteous stage patter, dramatic flourishes and carefully timed reveals."
+    ],
+    "abilities": [
+      "Compress: Shrinks a touched person or object into a pocketable marble; it needs contact, and whoever holds a marble holds what is inside it.",
+      "Release: Restores a marble's contents with a snap of his fingers, unharmed, at the moment he chooses.",
+      "Sleight of hand: Palms, swaps and hides marbles with a stage magician's skill and keeps decoys ready for anyone who grabs at them.",
+      "Vanishing act: Clears a scene in seconds by pocketing people or loot and slipping off across rooftops; a marble knocked loose stays where it falls.",
+      "Stagecraft: Reads an audience, builds misdirection and times a reveal; it buys him the moment of contact, not a win in a stand-up fight.",
+      "\nFighting style: Opens with a flourish to draw the eye, slips in for one touch and pockets whatever matters, then leaves the stage before anyone can corner him."
+    ],
+    "visualDescription": "A tall, lean man whose face is hidden behind a white theatrical mask with black geometric markings, worn over a black balaclava, under a tall brown top hat with a red band and a pale feather. He wears a long mustard-yellow coat over a black vest, a dark orange high-collared shirt and a green striped tie with a blue brooch, and dark red gloves. A few small glass marbles rest in one gloved palm. Composed, mysterious, theatrical presence.",
+    "detailType": "detailed",
+    "properName": "Mr. Compress",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a8c9173b-a4eb-48c7-a10b-9f53b960e7e5.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mr_compress",
+    "initialKnown": false
+  }
+}

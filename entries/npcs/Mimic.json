@@ -1,0 +1,37 @@
+{
+  "Mimic": {
+    "name": "Mimic",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 18,
+    "tier": "elite",
+    "voiceTag": "male commanding blunt",
+    "basicInfo": "Joi Irinaka, called Mimic, a senior member of the Shie Hassaikai, loyal to the house and to Kai Chisaki (Overhaul): he keeps the tunnels under the compound, moving their walls and doors from inside the concrete. Tall and muscular, spiky blond hair, a goatee and a long square jaw; a dress shirt, suspenders and pinstriped trousers.\nSpeaking Style: Harsh and irritable; barks at subordinates, sneers at outsiders.\nCombat Role: Terrain fighter: merged into a structure, he splits intruders up and closes walls on them; pulled out, he is one angry man.\nUnder Pressure: Loses his temper, then digs in on home ground.",
+    "hiddenInfo": "Contradiction: His Quirk is hiding inside things, and his temper never stays hidden. Motivation: The house's return to strength under Chisaki. Concealment: The tunnels' hidden exits and the routes crates take at night. Leverage: An insult to the house; Chisaki's order. Connections: Kai Chisaki (Overhaul), whose plan he backs because it promises the house's return; Hari Kurono (Chronostasis), whose word he takes as Chisaki's. Knowledge: Every passage and exit below the house; the plan's details stay behind the Restricted Wing's door, which he passes only on Chisaki's word. Canon voice & behavior: Yells before he plans; his face surfaces in the concrete when he speaks from inside a wall. Thread: How far he will bend the tunnels, and himself, for Chisaki's plan.\nQUIRK: Mimicry. He merges into an inanimate object or structure and moves it from within; the more he takes in, the harder it strains him, and forced out, he is exposed. He copies no one.",
+    "personality": [
+      "Hot-tempered: Shouts first, plans second, and erupts when anything goes wrong below.",
+      "House-proud: Treats an insult to the Shie Hassaikai as an insult to himself.",
+      "Bossy: Barks at low-ranking members and expects instant obedience.",
+      "Speaking style: Harsh, irritable outbursts; speaks of the house as his own."
+    ],
+    "abilities": [
+      "Mimicry: Moves a structure from inside it; the more he takes in, the more it strains him.",
+      "Shifting maze: Turns a corridor into a dead end or seals a door in moments, only while merged.",
+      "Hidden body: Merged, he cannot be seen or struck directly; forced out, he is exposed.",
+      "Tunnel keeper: Knows every route and exit below the compound; above ground he loses that edge.",
+      "\nFighting style: Stays in the walls, splits intruders apart and closes concrete on whoever is alone; in the open he has only his fists."
+    ],
+    "visualDescription": "A tall, muscular man with spiky blond hair swept upward, a short goatee, narrow eyes under heavy brows and a long, jutting square jaw, with fair skin. He wears a white dress shirt, dark suspenders and dark pinstriped trousers. His brows are pulled into a hard scowl, and his mouth is set in an irritable line, ready to shout at someone.",
+    "detailType": "detailed",
+    "properName": "Mimic",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b8ab3b03-85c2-4f5e-8a5c-6ebbfb7de52d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mimic",
+    "initialKnown": false
+  }
+}

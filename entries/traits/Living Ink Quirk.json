@@ -1,0 +1,40 @@
+{
+  "Living Ink Quirk": {
+    "name": "Living Ink Quirk",
+    "description": "🖋️ Black ink flows from your fingertips, and simple drawings lift off the surface as ink constructs that move at your word.\n\n🌱 Sketch a rope that hauls a person up or a hound that knocks a target down. A quick sketch is flimsy; a careful one holds an adult or stops a punch.\n📈 Training adds drawn nets, scout birds that come back as a sketch of what they saw, ladders, shields, a whole pack at once and a mural that keeps working without you.\n⚠️ Constructs fade after a few minutes and dissolve in water, so rain, a hose or a sprinkler ends them.\n🔗 Common drawback pairing: Finite Fuel, as your body makes ink slowly and a long fight leaves your fingertips dry.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Visual Arts +5\n⚡ Starting techniques: Drawn Lifeline, Sketched Hound",
+    "traitNarrativeEffects": "Scale: the user's fingertips draw black ink on any dry surface; simple drawings lift off as solid constructs up to large-dog or door size, obeying spoken orders in sight. New adult user: up to three; a quick sketch (seconds) breaks under a solid blow; a careful one (a full turn) holds an adult's weight, pulls a person, stops a punch, bites hard. More, bigger or self-acting constructs need techniques. Limits: constructs fade in about five minutes and dissolve at once in any water, even a crossed puddle; simple orders only, no speech, no copied look or power. Needs a free hand and a surface; ink refills slowly, so long fights run dry. Quirk Strain: light: rope, hound; moderate: net, scout bird, ladder; heavy: shield, pack; severe: signature beast, working mural. Type: Emitter. Law: unpermitted drawing on public walls is vandalism even if the ink fades; a construct's bite is the user's own assault. Look: gray-stained fingertips; glossy black drawings peel up.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Visual Arts",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Drawn Lifeline",
+      "Sketched Hound"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

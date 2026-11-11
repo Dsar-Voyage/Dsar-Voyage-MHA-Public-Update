@@ -1,0 +1,20 @@
+{
+  "Trigger Finger Read": {
+    "name": "Trigger Finger Read",
+    "description": "The user sees the moment an opponent within reach will fire a gun, swing a blade or set off their Quirk, and strikes the wrist, arm or hand first. The weapon falls from their grip, or the Quirk activation is spoiled and does nothing this turn. The user must be within reach and gets one read per turn; an emitter who attacks without moving their body gives no tell to read. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Thermal Corridor": {
+    "name": "Thermal Corridor",
+    "description": "The user beats slow strokes at a building entrance or street corner, sending feather-seeded currents through half a block for the rest of the scene. The draft pulls smoke and gas out through upper windows and lifts up to a dozen fleeing people at a time in long, cushioned bounds over rubble to safety. It reaches half a pure wind user's lift, and the user must stay grounded and beating to hold the corridor open. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

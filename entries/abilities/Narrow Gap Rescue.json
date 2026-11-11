@@ -1,0 +1,20 @@
+{
+  "Narrow Gap Rescue": {
+    "name": "Narrow Gap Rescue",
+    "description": "The user phases alone through rubble or a blocked doorway to reach one trapped person within a room's length. On turning solid, they can clear loose debris, give aid or open an accessible exit until the end of their next turn. They cannot phase the person out with them, and they must hold their breath through the blind approach. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

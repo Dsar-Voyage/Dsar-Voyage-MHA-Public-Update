@@ -1,0 +1,20 @@
+{
+  "Mischievous": {
+    "name": "Mischievous",
+    "description": "😈 You love a prank, a harmless rule bent and the look on someone's face when it works.\n\n🃏 Quick hands and a straight face get you out of trouble you started.\n⚠️ Jokes go too far, and people learn to blame you first.\n⚠️ Teachers and officers keep an eye on you even when you did nothing.\n🔀 If you are also Earnest, you prank only after the work is done.\n\n📈 Grants: Sleight of Hand +5",
+    "traitNarrativeEffects": "The character is mischievous: pranks, harmless rule-bending, a straight face and quick hands. They delight in a joke that works and can talk or slip out of trouble they started. Weakness: jokes go too far, people blame them first, and teachers, officers and dorm staff watch them closely even when they are innocent. If the character is also Earnest, the mischief waits until the work is done. The narrator offers tempting targets; whether the character pulls the prank is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Sleight of Hand",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

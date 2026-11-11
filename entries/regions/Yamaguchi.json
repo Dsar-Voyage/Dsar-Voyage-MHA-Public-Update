@@ -1,0 +1,30 @@
+{
+  "Yamaguchi": {
+    "name": "Yamaguchi",
+    "basicInfo": "The southwest of Yamaguchi Prefecture between the Chugoku mountains and the Inland Sea: the prefectural capital Yamaguchi in its inland basin, the industrial port city of Ube, Hofu on the coast to the east, and the calm Suo-nada filling the southern part of the square. Northward the land climbs through rice valleys and forested hills toward the limestone country of Mine and the Akiyoshidai plateau. Yamaguchi is a quiet capital that once modeled itself on Kyoto: Rurikoji's five-story pagoda stands in a hillside park, old temples and a famous Zen dry garden sit on the city's edge, the Gion festival brings a heron dance in July, and the Tanabata lantern festival in August hangs thousands of red paper lanterns over the streets. Yuda Onsen, a hot-spring district inside the city, is said to have been found by a white fox. Shin-Yamaguchi, in the Ogori district, is the shinkansen stop and travel hub. Ube grew on coal and now runs cement and chemical plants along its waterfront, with a lakeside park full of outdoor sculpture and an airport with flights to Tokyo; Ube ramen is a rich pork and soy broth. Hofu has one of the three great Tenmangu shrines, old salt-farming flats and a naked festival in late autumn. Along the coast are tidal flats and small fishing ports; the sea beyond is shallow, sheltered and green-gray. The climate is the mild, sunny Inland Sea kind, with fog on winter mornings in the inland basin. The Sanyo shinkansen stops at Shin-Yamaguchi and Asa; Hakata is about thirty-five minutes away, Shin-Osaka about two hours, Musutafu about four. The Yamaguchi Line, which runs a steam train on some weekends, the Ube Line and Sanyo Line connect the towns, and the Sanyo and Chugoku expressways meet here. Police stations and small hero agencies cover each town, licensed heroes back up fire crews at Ube's plants, and workers with strength Quirks lift steel on construction sites under permit. Visitors soak at Yuda, see the pagoda, eat fugu and uiro sweets and ride the steam train north.",
+    "hiddenInfo": "Ube's aging chemical and cement plants are a background worry; a leak or fire there draws heroes from across the prefecture. The capital is calm and a little sleepy, with road contracts and land deals as local gossip. Small crime is theft along the bypass roads, phone scams aimed at elderly farmers and copper theft from idle plants. Larger hero agencies are in Kitakyushu, about an hour west.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -14,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/476955ed-de18-4f4b-a15d-3e1e61a02b1f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

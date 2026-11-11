@@ -1,0 +1,86 @@
+{
+  "Tokyo Broadcasting Center": {
+    "name": "Tokyo Broadcasting Center",
+    "basicInfo": "A national TV network's headquarters, about 6 km south of Tokyo Station by commuter rail and about 2.5 km from the Best Jeanist Hero Agency: a tower of studios, a 24-hour newsroom, a video archive and a rooftop helipad for news helicopters. It makes hero news, ranking-debate panels, talk shows, commercials and live incident coverage, and it carries the U.A. Sports Festival, now a bigger broadcast than the shrunken Olympics, along with the twice-yearly Hero Billboard Chart. Morning shows go live at 6 a.m. and the evening news at 7 p.m.; the helicopters lift off whenever the scanners report a big incident. Celebrity heroes are regular guests: Uwabami, as famous for her commercials and magazine covers as for her rescues, shoots here often and turns any visit into a photo session. Staff badges open every floor; guests and studio audiences sign in at the ground-floor security desk and are escorted, and the newsroom and archive are closed to anyone without a badge. Players can appear as guests, give interviews, join a studio audience, sell footage, work as runners or crew, or search the archive with a staff member's help. Fans wait outside the guest entrance in the evenings for autographs. Red on-air lights burn over the studio doors, police scanners chatter in the newsroom, and every hallway screen shows the network's own feed.",
+    "hiddenInfo": "Since word spread that All Might has joined U.A. Academy's faculty, a producer has been demanding an exclusive at any cost. U.A. refuses every interview request, so the producer has crews working Musutafu's station district instead, offering cash to anyone with footage or stories from inside the campus, and an intern has been told to find a first-year willing to talk on camera. The newsroom pays cash for incident footage, including clips filmed closer to fights than police allow, and the night desk does not ask how a shot was taken; two freelancers have already been hurt chasing better angles. A segment on heroes' collateral damage is in production and needs an insider willing to talk, ideally someone who has seen a Commission settlement; its producer suspects the Commission buries the worst cases and cannot prove it. Uwabami is negotiating a weekly segment of her own, which the news division resents, though her snakes have found more missing people on live broadcasts than the network likes to admit. The archive holds raw footage the network never aired, including unedited incident tapes from years back, and a staff badge with archive access is worth real money to the wrong buyer.",
+    "x": 17.45,
+    "y": -16.1,
+    "radius": 1,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Broadcast Center Lobby": {
+        "description": "The ground floor of the Tokyo Broadcasting Center: a tall glass atrium with a polished stone floor, the network's logo in brushed steel over a long security desk, and turnstiles that open only to staff badges. Giant screens on every wall run the network's own feed, hero news, ranking panels and commercials, Uwabami's among them. Guests and studio audiences sign in at the security desk, show ID, receive a numbered pass and wait on low benches until a runner comes down to escort them; nobody goes past the turnstiles alone. Mornings bring early guests and makeup crews before the 6 a.m. shows, afternoons bring audience lines and couriers with drives, and in the evening fans gather outside the guest entrance hoping for autographs as heroes leave. A small shop by the doors sells network goods, mugs with show logos and last year's Sports Festival highlights on disc for about 3,000 yen. The guards know every regular courier by face, and a lost pass means a fifteen-minute wait while they phone upstairs. Announcements for audience groups echo off the stone. Escorted guests go up to the Studio Floor, and badge holders to the Newsroom.",
+        "paths": [
+          "Studio Floor",
+          "Newsroom"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cf737686-3c0b-4535-90fa-00577a200bca.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Studio Floor": {
+        "description": "A long floor of soundproofed studios behind heavy double doors, each with a red on-air light above it that silences the corridor the moment it burns. In the biggest studio the set for the hero ranking panels takes up half the floor: a curved desk, a giant screen for the Hero Billboard Chart and tiers of seats for a studio audience; next door are a living-room set for talk shows and a white backdrop for commercials and magazine shoots. Cameras glide across taped marks under a dense grid of hot lights. Morning shows go live at six, talk shows tape in the afternoon in front of escorted audiences, and the evening news goes out at seven from its own set. Uwabami shoots here often and turns any visit into a photo session, posing a passing guest beside her before they know it while her three snakes turn to the lens. The floor director's rule is absolute: phones off, silence under the red light, and no Quirk use on set without a producer's sign-off. Cables snake across the floor, and the air smells of hot lamps and hairspray. The corridor leads back to the Broadcast Center Lobby and across to the Newsroom.",
+        "paths": [
+          "Broadcast Center Lobby",
+          "Newsroom"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9905b1fb-25ca-4c41-a7e9-791da136cceb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Newsroom": {
+        "description": "A wide open-plan floor that never closes: rows of desks under a wall of monitors showing every network's feed, police scanners chattering on the assignment desk, and a big screen that relays live pictures from the news helicopters whenever they lift off the rooftop helipad. Producers, writers and editors work in shifts around the clock: the morning team arrives in the dark, the evening news team takes over in the afternoon, and a thinner night desk keeps watch until dawn. When a big incident comes over the scanners, the whole room stands up at once and a crew is out the door within minutes. The night desk buys incident footage from freelancers and passersby, paying cash at a counter by the door and asking few questions about how a shot was taken. Whiteboards track segments in production, and one corner is buried in files and tapes for a feature on the damage hero fights leave behind. Staff badges open the doors, and visitors come in only with an escort. Cold coffee, warm printers and the constant murmur of scanners fill the air. The corridor leads back to the Broadcast Center Lobby and over to the Studio Floor.",
+        "paths": [
+          "Broadcast Center Lobby",
+          "Studio Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/54381bba-8572-4b61-8a4a-556478b2f683.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9117ba0f-28a1-49d0-9cb5-bc5b8ea7e747.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

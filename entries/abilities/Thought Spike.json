@@ -1,0 +1,20 @@
+{
+  "Thought Spike": {
+    "name": "Thought Spike",
+    "description": "The user drives a burst of mental static into a single person in sight. It deals psychic damage, and until the end of their next turn the target cannot aim a weapon or a Quirk or follow a plan; held back, it only startles them, and they drop whatever they were holding. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

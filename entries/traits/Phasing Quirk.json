@@ -1,0 +1,40 @@
+{
+  "Phasing Quirk": {
+    "name": "Phasing Quirk",
+    "description": "👻 You turn intangible, along with whatever you wear and carry.\n\n🌱 At the start you phase for as long as you can hold a breath: blows, blades and bullets pass through you, and you walk through about a meter of wall.\n📈 With training: peeks through walls, counters from inside a guard, rubble searched from within, people carried through walls, reeling foes, a runaway truck phased past.\n⚠️ While phased you cannot see, hear or breathe, and you sink through floors if you lose focus.\n🔗 Common drawback pairing: Sensory Overload, as sight and sound slam back when you turn solid.\n🎬 Similar canon Quirks: Mirio Togata (Permeation).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Mobility +10, Combat Tactics +5\n⚡ Starting techniques: Hollow Guard, Wallwalk",
+    "traitNarrativeEffects": "Scale: the user turns intangible with all they wear and carry. New adult user: phased for a held breath, through about a meter of wall; blows, blades, bullets and blasts pass through. Partial phasing and phasing others need techniques. Limits: fully phased, the user cannot see, hear or breathe and moves from memory; losing focus sinks them through the floor. They must turn solid to strike or grab, and enemies wait for that instant; the Quirk shoves them out of matter before they solidify; mind-affecting Quirks still reach them. Quirk Strain: light: letting an attack through; moderate: wall walk, peek, counter, rubble search; heavy: carrying someone, running through enemies; severe: signature strike, phasing a vehicle or slab. Type: Transformation. Law: phasing into a home or vault without a license or warrant is burglary; police suspect registered phasers first after locked-room break-ins. Look: skin ripples, outline faintly translucent.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Hollow Guard",
+      "Wallwalk"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

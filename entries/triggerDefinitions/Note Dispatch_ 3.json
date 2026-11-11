@@ -1,0 +1,21 @@
+{
+  "Note Dispatch: 3": {
+    "name": "Note Dispatch: 3",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const L=[[\"nf92\", \"Shota Aizawa\", 0, \"\", \"\"], [\"nf93\", \"All Might\", 0, \"\", \"\"], [\"nf94\", \"Tomura Shigaraki\", 0, \"\", \"\"], [\"nf95\", \"Naomasa Tsukauchi\", 0, \"\", \"\"], [\"nf96\", \"Inko Midoriya\", 0, \"\", \"\"], [\"nf97\", \"Rei Todoroki\", 0, \"\", \"\"], [\"nf98\", \"Fuyumi Todoroki\", 0, \"\", \"\"], [\"nf99\", \"Natsuo Todoroki\", 0, \"\", \"\"], [\"nf100\", \"Kurogiri\", 0, \"\", \"\"], [\"nf101\", \"Dabi\", 0, \"\", \"\"], [\"nf102\", \"Shigaraki's Sensei\", 0, \"\", \"\"], [\"nf103\", \"Ragdoll\", 0, \"\", \"\"], [\"nf104\", \"Commission President\", 0, \"\", \"\"], [\"nf105\", \"U.S.J. Nomu\", 0, \"\", \"\"], [\"nf106\", \"Hosu Winged Nomu\", 0, \"\", \"\"], [\"nf107\", \"Hood\", 0, \"\", \"\"], [\"nf108\", \"Endeavor\", 0, \"\", \"\"], [\"nf109\", \"Hawks\", 0, \"\", \"\"], [\"nf110\", \"Gran Torino\", 0, \"\", \"\"], [\"nf111\", \"Sir Nighteye\", 0, \"\", \"\"], [\"nf112\", \"Principal Nezu\", 0, \"\", \"\"], [\"nf113\", \"Present Mic\", 0, \"\", \"\"], [\"nf114\", \"Recovery Girl\", 0, \"\", \"\"], [\"nf115\", \"Mirio Togata\", 0, \"\", \"\"], [\"nf116\", \"Kyudai Garaki\", 0, \"\", \"\"], [\"nf117\", \"Gigantomachia\", 0, \"\", \"\"], [\"nf118\", \"All Might (Retired)\", 0, \"\", \"\"]];const SKS=['seenSecret','seenAfter'];const pl=check({type:'party-location'})||'',pa=check({type:'party-area'})||'';const t=check({type:'game-tick'})||0,d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;const st=pl+'|'+pa+'|'+d+'|'+b;if(storage.noteTick!==t){storage.noteTick=t;storage.noteCount=0;}let SC=null,PC=null;for(const [F,K,k,E,U] of L){if((storage.noteCount||0)>=3)break;if(storage[F])continue;if(E&&storage['done_'+E]!==true)continue;if(U&&storage['done_'+U]===true)continue;if(SC===null){const a=check({type:'npc-in-scene',npc:'anySceneNPC'}),c=check({type:'npc-in-party',npc:'anyPartyNPC'});SC=(a&&typeof a==='object')?a:{};PC=(c&&typeof c==='object')?c:{};}if(!SC[K]&&!PC[K])continue;const S=storage[SKS[k]]||{};const p=S[K];if(p&&p[0]===st&&t-p[1]<8)continue;S[K]=[st,t];storage[SKS[k]]=S;storage.noteCount=(storage.noteCount||0)+1;storage[F]=true;}"
+  }
+}

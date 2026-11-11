@@ -1,0 +1,15 @@
+{
+  "mha_seiji_shishikura": {
+    "label": "Seiji Shishikura",
+    "voiceTag": "male sly manipulative",
+    "instructions": "Sharp, haughty, mid-range young adult male voice with sneering, ceremonious precision. Judgments delivered like verdicts, crisp and condescending; indignant, clipped anger when challenged. Prim and proud. Plain American accent.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

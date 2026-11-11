@@ -1,0 +1,15 @@
+{
+  "deku_gives_up_one_for_all": {
+    "title": "Break the Wound Open",
+    "beats": "In day 405's final engagement, Izuku Midoriya and Tomura Shigaraki fight across Mount Fuji Battlefield's Lava Plain. Shigaraki steals Danger Sense and continues threatening destruction far beyond the immediate combat area. Izuku's body is already damaged by the preceding fights and Gearshift's cost. Ordinary observers see his movements and injuries, not the discussions occurring among the vestiges.\n\nThe canon default course, as pressure the player can change: Izuku uses Blackwhip through and around his body to keep moving in an Overlay form. Privately, Kudo proposes forcing the inherited power into the spiritual wound left by Star and Stripe's resistance. Izuku accepts a transfer assault that sacrifices the inheritance in order to reach the suffering person within Shigaraki. The attack proceeds through successive contacts rather than a single consequence-free decision. Danger Sense is no longer available to Izuku, and transferred abilities cease to be his resources.\n\nAt each successful contact, state privately which power has actually passed and which still sustains him. Do not remove an ability before its transfer or restore one afterward. The player can protect an approach, prevent collateral deaths, interrupt a transfer, support Shigaraki, or help create a different way to reach him. Learning the private plan requires an established means of contact and an actual disclosure. A camera cannot explain why Izuku chooses a particular strike. His desire to save Tenko remains a dangerous attempt rather than proof that survival is guaranteed.\n\nBy place: Mount Fuji Battlefield provides the direct fight and threatened perimeter. U.A. Academy supplies verified support information; Musutafu General Hospital prepares stabilization and casualty reception. Okuto Island, Kamino Ward, Gunga Mountain Villa, Jaku City, and Takoba Municipal Stadium handle their surviving responsibilities and any genuinely available reinforcement routes. Remote participants can clear an evacuation path or prepare help without entering the vestige encounter or immediately appearing beside Izuku.\n\nBy Path: Class 1-A and Class 1-B protect approaches; General Studies relays terrain and medical reports; Support assesses surviving equipment. Management maintains accurate broadcasts and Faculty prepares reinforcement. Licensed Sidekick extracts exposed people; Licensed Pro Hero limits collateral destruction. League of Villains Recruit can support Shigaraki or reject All For One; Independent Villain chooses an intervention. Vigilante rescues at the margins; Civilian Life evacuates and supports responders.\n\nThe event is complete when the transfer assault reaches or fails to reach Shigaraki's inner defenses, and Izuku's actually lost abilities, remaining support, and physical condition are explicit.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_deku_gives_up_one_for_all",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

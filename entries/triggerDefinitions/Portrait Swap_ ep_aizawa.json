@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: ep_aizawa": {
+    "name": "Portrait Swap: ep_aizawa",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Shota Aizawa",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/d3f7fa85-5339-4600-87fe-7000a2b16a54.png"
+      }
+    ]
+  }
+}

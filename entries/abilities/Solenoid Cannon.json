@@ -1,0 +1,25 @@
+{
+  "Solenoid Cannon": {
+    "name": "Solenoid Cannon",
+    "description": "The user's signature move: both arms align into a magnetic coil that fires a steel bar down a street in a sleeve of lightning, dealing massive force and electric damage along the line. Held back, it fires a metal-free induction wave that knocks enemies in the lane flat until the end of their next turn. Running both natures empties the user's charge and numbs both arms until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

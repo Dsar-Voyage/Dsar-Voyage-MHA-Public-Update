@@ -1,0 +1,40 @@
+{
+  "Beast Form Quirk": {
+    "name": "Beast Form Quirk",
+    "description": "🐻 You change into a great beast you choose: a bear, a big cat, a wolf, a boar or a dragon.\n\n🌱 At the start claws come in an instant and the full form in seconds: the size of a large bear, strong enough to push a car aside, with senses far past any person's.\n📈 With training: tracking by scent, pinning a villain under your weight, bounding up buildings with people, sheltering people under you, a freezing roar, house size.\n⚠️ Pain, fear and anger pull you toward instinct.\n🔗 Common drawback pairing: Loss of Control, as the beast pushes back under stress.\n🎬 Similar canon Quirks: Ryukyu (Dragon), Jurota Shishida (Beast).\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Stamina +10, Intimidation +5\n⚡ Starting techniques: Raking Paw, Full Shift",
+    "traitNarrativeEffects": "Scale: the user changes into one beast form picked at creation (bear, big cat, wolf, boar, dragon) and back. At first: claws at once, full form in seconds, about large-bear size, pushes a car aside, tracks a fresh scent across several blocks, held about ten minutes; wings only glide. More needs learned techniques. Limits: the hide turns fists and knives, not bullets. The form cannot use tools, fit through doors or say more than a few rough words; strong smells and loud noise overwhelm it. Pain, fear and rage pull the user toward instinct; clothes tear. Quirk Strain: light: claws, sharper senses; moderate: full form, tracking, a pounce, a climb; heavy: sheltering people, a roar, a long fight; severe: the rampage, the greater form. Type: Transformation. Law: the full form in public draws police at once; an unlicensed claw or bite wound counts as assault with a weapon. Look: the body swells under fur, scales or hide, face to muzzle; eye and hair colors carry over.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Intimidation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Raking Paw",
+      "Full Shift"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

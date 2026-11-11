@@ -1,0 +1,15 @@
+{
+  "central_hospital_uprising": {
+    "title": "Whose Anger Is This?",
+    "beats": "During day 405's concurrent middle fighting, a mass assault reaches Musutafu General Hospital. Spinner leads attackers seeking Kurogiri while police, staff, Mezo Shoji, Koji Koda, and Present Mic protect a functioning hospital. Patients cannot simply be abandoned because a detainee is the target. Distinguish people expressing anger over discrimination from those actively attacking the wards.\n\nThe canon default course, as pressure the player can change: Shoji confronts a crowd whose experiences of prejudice resemble his own. His exposed scars and account of his past challenge the claim that assaulting patients will protect heteromorphs. Koda's growing ability helps disrupt the attackers and their leadership. Many participants stop advancing when confronted with the hospital staff's defense of their patients. Spinner, physically enhanced and increasingly overwhelmed, nevertheless reaches Kurogiri. His connection to Tomura Shigaraki succeeds in awakening the warp-gate villain.\n\nStage one contested approach and one opportunity to turn people away from violence. The player can protect patients, challenge an organizer, help Spinner, or separate withdrawing participants from those still attacking. Stopping the crowd does not automatically stop Spinner inside. Kurogiri remains reachable while dormant, and securing or moving him earlier can prevent the default awakening. If awakened, establish that result without already resolving the later portal cascade. Spinner survives incapacitated and requires treatment under guard.\n\nBy place: Musutafu General Hospital provides the ward defense and secured patient room. U.A. Academy receives warnings about its vulnerable reliance on containment; Okuto Island, Kamino Ward, and Gunga Mountain Villa receive only verified developments. Jaku City and Takoba Municipal Stadium can help with reachable medical or communication duties. Mount Fuji Battlefield maintains evacuation access. Remote participants support a specific patient transfer, crowd message, or request rather than directing unseen people omnisciently.\n\nBy Path: Class 1-A supports Shoji and Koda; Class 1-B defends approaches; General Studies assists patient movement. Support preserves emergency systems, Management separates verified facts from inflammatory rumor, and Faculty protects students and patients. Licensed Sidekick guards wards; Licensed Pro Hero directs containment. League of Villains Recruit can assist Spinner or reject hospital violence; Independent Villain influences the attackers. Vigilante shields patients; Civilian Life challenges the crowd or helps evacuation.\n\nThe event is complete when the assault's outcome, Kurogiri's dormant or awakened state, and the safety and custody of patients and detainees are established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_central_hospital_uprising",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Soaring Survey": {
+    "name": "Soaring Survey",
+    "description": "The user rides a steady cushion of wing-generated air above the rooftops and glides over a single block without flapping. They spot everyone in the open below, trace where fire or floodwater is moving and feel shifting drafts that betray movement in alleys, calling clear routes to allies. It covers half the area of a high overwatch, and strong crosswinds or heavy rain force them down. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Touchstone Replica": {
+    "name": "Touchstone Replica",
+    "description": "The user lays a palm on a machine, a lock, a weapon or a piece of support gear and learns its makeup down to every material and part in moments, then makes a working duplicate or the exact part it needs from the skin: a key that fits the lock, a replacement valve for a failing pump, the missing piece of a hero's broken gear. The knowledge fades at the end of the scene unless the user studies the object properly afterward, and the user is left shaking with hunger and cannot make anything until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

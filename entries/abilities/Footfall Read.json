@@ -1,0 +1,20 @@
+{
+  "Footfall Read": {
+    "name": "Footfall Read",
+    "description": "The user lays a palm on a floor or wall and feels every footstep, dropped object and hollow space through about two rooms or one floor of the building. They learn how many people are moving there, where each one is, roughly how heavy they are, and where a hidden room or a buried air pocket lies. Someone standing perfectly still, a flier or the roar of running machinery escapes the reading. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

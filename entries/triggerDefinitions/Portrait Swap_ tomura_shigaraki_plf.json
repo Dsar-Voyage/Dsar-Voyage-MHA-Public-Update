@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: tomura_shigaraki_plf": {
+    "name": "Portrait Swap: tomura_shigaraki_plf",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tomura Shigaraki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/14ba6ea1-0195-4e5b-84d5-3a1967cb9b04.png"
+      }
+    ]
+  }
+}

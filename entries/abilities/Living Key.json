@@ -1,0 +1,20 @@
+{
+  "Living Key": {
+    "name": "Living Key",
+    "description": "The user reshapes only their fingertips, eyes or face to match a sampled person and leaves the rest of the body as it is. Until the sample runs out, fingerprint pads, face scanners, eye readers and ID photos accept the user as that person, and anyone comparing a badge to a face waves them through. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

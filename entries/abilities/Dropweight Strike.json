@@ -1,0 +1,20 @@
+{
+  "Dropweight Strike": {
+    "name": "Dropweight Strike",
+    "description": "The user turns heavy in the instant a punch, a kick or an elbow lands on a target within reach, putting their multiplied weight behind it. It deals bludgeoning damage and knocks the target flat; held back, the user turns heavy only after the blow lands and simply bears the target down to the ground. Mistiming the shift leaves the user slow and open until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

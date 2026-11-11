@@ -1,0 +1,43 @@
+{
+  "Enhanced Senses Quirk": {
+    "name": "Enhanced Senses Quirk",
+    "description": "👂 Your hearing, smell or sight works far past human range, with organs to match: big ears, a long nose, wide eyes, whiskers or antennae.\n\n🌱 At the start you hear a whisper through a wall, follow a trail hours old or read a face half a kilometer away, and single out a person in a crowd.\n📈 With training: early warning of attacks, hidden enemies called out, blind runs through smoke, every buried survivor found, disguises seen through, district-wide tracking.\n⚠️ Loud noise always hurts you more.\n🔗 Common drawback pairing: Sensory Overload, as pushed senses flood the brain.\n🎬 Similar canon Quirks: Kyoka Jiro (Earphone Jack), Hound Dog (Dog).\n\n📈 Grants: Intelligence +1, Quirk Analysis +10, Quirk Control +10, Perception +5\n⚡ Starting techniques: Trail Reader, Pulse in the Crowd\n💢 Weak to: sonic",
+    "traitNarrativeEffects": "Scale: superhuman hearing, smell and/or sight in player-chosen organs. A new adult user hears a whisper through a wall, follows a few-hours-old scent a few kilometers, or reads a face half a kilometer off and sees in near darkness. More needs techniques. Limits: no mind reading: a racing pulse shows stress, not a lie. Sirens, flashes, pepper, smoke and perfume swamp matching senses; rain and vehicles break a trail; soundproofing blocks hearing. Sound attacks always hurt them more; bystanders assume they're overheard. Quirk Strain: everyday sensing free; light: trail, singling someone out; moderate: sensing an attack, calling out hidden foes, blind run; heavy: disaster-site sweep, unmasking disguises; severe: signature read, district-wide hunt. Type: Mutant. Law: spying into homes is a privacy crime; courts treat what they sensed as testimony, not proof. Look: permanent big or animal ears, long nose, big or extra eyes, whiskers or antennae that swivel, flare, widen.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Trail Reader",
+      "Pulse in the Crowd"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "vulnerabilities": [
+      "sonic"
+    ]
+  }
+}

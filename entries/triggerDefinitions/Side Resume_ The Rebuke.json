@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Rebuke": {
+    "name": "Side Resume: The Rebuke",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_kamino_reckoning",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_kamino_reckoning",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_kamino_reckoning",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_kamino_reckoning"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_kamino_reckoning",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Rebuke\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Early August, evening, outside Heights Alliance in the Heights Alliance Yard at U.A."
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Gifted: Mimicry": {
+    "name": "Gifted: Mimicry",
+    "description": "🧬 Mimicry, as an extra Quirk put into your body.\n\n🌱 At the start you change in a few seconds, matching face, build and voice, and hold the form about ten minutes per hair or drop; your clothes stay your own.\n📈 With training: stand-ins for people in danger, fooled scanners, a trusted face for the scared, slipped cuffs, a day as someone else, face flickers, a gang boss replaced.\n⚖️ Wearing a face without its owner's consent is a crime.\n🔗 Common drawback pairing: Time Limit, as each form slips sooner the harder you push.\n🎬 Similar canon Quirks: Himiko Toga (Transform).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Mimicry family): Scale: from a hair or a few drops of blood, a new adult user takes the person's face, build, voice and height (within a head either way) in about three seconds. A hair or drop lasts about ten minutes, a vial of blood about an hour; one form at a time; samples spoil in a day unless chilled. Limits: clothes and gear never change. No copied Quirk, memories or skills; copied wings do not fly. Blood and scent stay the user's own, so a blood test, tracking dog or personal question exposes them; a hard hit briefly slips features back. Quirk Strain: light: quick change; moderate: form held under attack, partial change, ambush, leading people; heavy: smaller form, day-long cover; severe: signature carousel, a leader's place. Type: Transformation. Law: wearing someone's face without consent is impersonation and fraud; taking blood or hair by force is assault; heroes need consent or an authorized undercover operation.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Disguise",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

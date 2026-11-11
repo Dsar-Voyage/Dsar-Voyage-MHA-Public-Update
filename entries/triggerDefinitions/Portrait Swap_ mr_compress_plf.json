@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: mr_compress_plf": {
+    "name": "Portrait Swap: mr_compress_plf",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mr. Compress",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e462c600-fe3d-442d-8d6a-863558bbcb72.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Quill Weapon Clamp": {
+    "name": "Quill Weapon Clamp",
+    "description": "The user directs several feathers around a weapon hand within thirty meters and presses it against a wall until the end of the user's next turn. The user leaves fingers and circulation free; a strong wrench scatters the feathers, and holding the clamp commits feathers that otherwise provide flight or rescue lift. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Gifted: Trait Manifestation": {
+    "name": "Gifted: Trait Manifestation",
+    "description": "🧬 Trait Manifestation, as an extra Quirk put into your body.\n\n🌱 At the start you turn a hand into a crab's claw, stretch fingers into octopus tentacles, or grow another feature from recent meals, one limb in size, for a few minutes.\n📈 With training: a shell for you and someone you hold, wings, squid ink, horns through a wall, a steel-shearing claw, all meals in one form, a crowd caught on tentacles.\n🔗 Common drawback pairing: Finite Fuel, as each feature burns the meal it came from.\n🎬 Similar canon Quirks: Tamaki Amajiki (Manifest).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Trait Manifestation family): Scale: the user grows features of animals, fish, shellfish and plants eaten within about a day: claws, shells, tentacles, wings, horns, ink sacs. A new adult user grows one at a time, sized to one body part (forearm-sized claw, tentacles about two meters, wings that glide but cannot climb), holds it a few minutes and switches in a breath. Bigger feats need techniques. If meals were never stated, assume shrimp and squid. Limits: no meal, no feature; hard use burns a meal within the hour. Features keep their creature's weaknesses (shells crack, tentacles tear). It never copies a Quirk and draws nothing from people. Quirk Strain: light: one small feature; moderate: shell, wings, ink, whole limb; heavy: horns, giant claw; severe: every meal at once, dozens of tentacles. Type: Transformation. Law: a grown claw or horn is Quirk use; using one on a person unlicensed is assault.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Cooking",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Business cards": {
+    "name": "Business cards",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Negotiation",
+        "value": 2
+      }
+    ],
+    "description": "A box of printed cards with a name, title and contact details. In Japan they change hands with a bow and both hands at every first meeting, and having none marks a person as unprepared. [ Tool | About ¥3,000 a box ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f0351fae-06ea-40ac-aa4e-b41845860f1c.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

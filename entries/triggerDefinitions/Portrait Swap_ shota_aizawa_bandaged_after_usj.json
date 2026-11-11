@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: shota_aizawa_bandaged_after_usj": {
+    "name": "Portrait Swap: shota_aizawa_bandaged_after_usj",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_usj_attack",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Shota Aizawa",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0acffef6-0313-4729-bf15-74c269dd589f.png"
+      }
+    ]
+  }
+}

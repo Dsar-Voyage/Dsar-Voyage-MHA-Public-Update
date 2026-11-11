@@ -1,0 +1,24 @@
+{
+  "Cyclone Cage": {
+    "name": "Cyclone Cage",
+    "description": "The user spins the air into a tight cyclone over a group within a room's width. Everyone caught is lifted off their feet, takes force damage from the spin and the flying debris, and cannot move by their own power until the end of their next turn; then the user sets them down, or drops them from a story up. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

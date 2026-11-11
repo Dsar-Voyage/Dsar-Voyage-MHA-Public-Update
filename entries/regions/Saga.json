@@ -1,0 +1,30 @@
+{
+  "Saga": {
+    "name": "Saga",
+    "basicInfo": "The Saga plain and the head of the Ariake Sea: the prefectural capital Saga, the canal town of Yanagawa and the old coal city of Omuta across the Chikugo River on the eastern side, the hot-spring towns of Takeo and Ureshino in the west, and the Tara mountains and Ariake shore in the southwest. The Ariake Sea has the biggest tides in Japan, about six meters, and at low water the shore turns into kilometers of gleaming gray mud where mudskippers hop and fishermen slide out on boards; in winter it becomes a grid of poles and nets for nori, and Saga leads the country in seaweed. The plain behind is flat rice and barley land crossed by creeks and old reclaimed dikes. Saga is a calm, low-rise capital around its castle moat, and every autumn the Saga International Balloon Fiesta fills the sky over the Kase River with hundreds of hot-air balloons. Yoshinogari, a reconstructed Yayoi-era moated village, lies in the north. Yanagawa is laced with moats where boatmen pole flat boats under willows, and it serves eel steamed over rice; Okawa makes furniture, and Omuta has World Heritage coal pits and port works. Takeo has a vermilion gate over its baths and a giant camphor tree said to be three thousand years old; Ureshino grows green tea and simmers tofu in its spring water. Kashima's Yutoku Inari Shrine climbs a cliff in vermilion, and at Tara a torii stands in the sea, reachable on foot at low tide. Summers are hot and humid, winters mild. The Nagasaki Main Line and Nishi-Kyushu shinkansen serve the west, the Kagoshima Line, Kyushu shinkansen and Nishitetsu trains the east; Hakata to Saga takes about forty minutes and to Yanagawa a little under an hour. From Musutafu, about five and a half hours. Each town has police and small hero agencies; heroes are on duty at the balloon fiesta, where unlicensed flight is banned, and farmers use earth and water Quirks under permit at planting time. Visitors ride Yanagawa's canals, soak at Takeo and Ureshino and walk the mudflats.",
+    "hiddenInfo": "The Ariake shore carries an old quarrel between fishing cooperatives and farmers over the sea wall that closed off Isahaya Bay, blamed for poor nori harvests. The mudflats drown people who misjudge the tide. Omuta and the old coal towns have empty shopping streets and some rough edges. Small crime is nori and crop theft, scams on the elderly and drunken trouble at festivals. Fukuoka's agencies are about an hour away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -16,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/85f4cffe-9e68-4f2d-b9d4-ad8074dfacdf.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

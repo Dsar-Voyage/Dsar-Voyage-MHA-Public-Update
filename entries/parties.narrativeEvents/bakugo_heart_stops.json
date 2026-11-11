@@ -1,0 +1,15 @@
+{
+  "bakugo_heart_stops": {
+    "title": "A Victory That Has Not Come",
+    "beats": "By the middle fighting on day 405, the floating U.A. Academy arena is battered and Izuku Midoriya is still approaching unless earlier intervention brought him sooner. Katsuki Bakugo prepares a major attack while Best Jeanist, Mirko, Edgeshot, Mirio Togata, Tamaki Amajiki, and Nejire Hado struggle to hold Tomura Shigaraki. Use the enclosure's surviving systems and the injuries already established.\n\nThe canon default course, as pressure the player can change: Bakugo's attack fails to secure victory, and Shigaraki crushes his right arm. The Big Three combine their abilities to protect the defenders and attempt a decisive strike, but the enemy continues advancing. Bakugo's evolving Cluster produces extraordinary speed at a terrible bodily cost. Shigaraki catches him and strikes his chest, rupturing his heart and leaving him in cardiac arrest. Best Jeanist responds immediately, and Edgeshot commits his own body to internal repair while the others keep the attacker away.\n\nKeep Bakugo reachable before the chest strike. The player can alter its line, extract him, shield another defender, or protect the subsequent resuscitation. Cardiac arrest does not remove him as a confirmed death. If the strike lands, no conversation or ordinary healing casually returns him to combat. Mirko's continuing resistance costs further limbs and prosthetic damage unless prevented; describe the tactical consequences without dwelling on gore. Hospital evacuation requires a secured route, so stabilization and protection must happen here until such a route exists.\n\nBy place: U.A. Academy stages either the rescue pocket or its threatened maintenance access. Okuto Island, Kamino Ward, and Gunga Mountain Villa receive restricted casualty requests. Musutafu General Hospital prepares critical care; Jaku City and Takoba Municipal Stadium can provide a reachable supply or communication response. Mount Fuji Battlefield supports ground rescue and falling-debris precautions. A remote player cannot directly operate on Bakugo.\n\nBy Path: Class 1-A protects its classmate; Class 1-B reinforces the enclosure; General Studies moves medical supplies. Support replaces machinery, Management tracks shortages, and Faculty chooses rescue priorities. Licensed Sidekick shields Edgeshot; Licensed Pro Hero holds Shigaraki. League of Villains Recruit and Independent Villain can exploit or interrupt the rescue crisis. Vigilante handles ground casualties; Civilian Life assists emergency reception.\n\nThe event is complete when Bakugo's actual condition and the resuscitation attempt's protection, disruption, or unnecessary prevention are explicitly established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_bakugo_heart_stops",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

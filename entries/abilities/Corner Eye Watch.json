@@ -1,0 +1,20 @@
+{
+  "Corner Eye Watch": {
+    "name": "Corner Eye Watch",
+    "description": "The user sends one eye around a corner or above a nearby roofline and sees what it faces until the end of the user's next turn. They can report a person's position or a safe route to allies within hearing. The empty socket gives no sight, and an eye turned away, covered or trapped leaves the user with no view from that angle. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

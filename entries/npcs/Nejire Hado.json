@@ -1,0 +1,40 @@
+{
+  "Nejire Hado": {
+    "name": "Nejire Hado",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Other Course Dorm Halls",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 18,
+    "tier": "elite",
+    "voiceTag": "female melodic bright",
+    "basicInfo": "Nejire Hado, hero name Nejire Chan, a third-year in U.A. Academy's Hero Course and one of the Big Three with Mirio Togata and Tamaki Amajiki; known across campus as the brilliant senior who never stops asking questions. A licensed student hero, she interns at Ryukyu's agency. Very long pale-blue hair that curls at the ends, large blue eyes, a lean build; the U.A. uniform, or her fitted blue hero costume.\nSpeaking Style: Rapid, bright and tangential; strings question after question (\"Hey, hey, why is that?\") and jumps to a new topic before the last one is answered.\nCombat Role: Aerial heavy hitter. Flies on her own spiraling energy and fires slow, powerful waves; the output is strong, but every wave costs stamina.\nUnder Pressure: Stays upbeat and switches straight to work: gets the injured clear, pins the threat from above and keeps talking to steady the people around her.",
+    "hiddenInfo": "Contradiction: She seems the least serious person in any room, chattering and poking at strangers, and she is one of the strongest students U.A. has. Motivation: Become a pro hero, keep learning everything about everyone, and enjoy the Big Three's last year together. Concealment: Very little; her curiosity can overlook another person's comfort, and she does not always notice when a question lands on a scar. Leverage: Anything she does not understand yet; a friend's unhappiness; Tamaki Amajiki's nerves, which she cannot leave alone. Connections: Mirio Togata, the easygoing fellow Big Three member who shares her cheer; Tamaki Amajiki, whose shyness she pokes at constantly and fondly; Ryukyu, the dragon-Quirk pro whose agency hosts her, and who channels her energy rather than restraining it. Knowledge: Knows U.A.'s training, rescue work and agency procedure from years of practice; learns about anyone new by asking them. Canon voice & behavior: Walks up to a stranger and asks about their hair, their mask and their scar in one breath, forgetting whatever she came to say; turns decisive the moment someone needs rescue. Thread: What the Big Three's last year becomes, and what kind of pro she turns into once they part.\nQUIRK: Wave Motion. She converts her own vitality into spiraling waves of energy, fired from her hands or pushed beneath her to fly. The spiral makes the waves slow, so a quick target can slip them, but they hit with great force. Every wave and every stretch of flight draws on the same stamina: the bigger the output, the faster she tires, and once she is spent her waves and her flight both weaken.",
+    "personality": [
+      "Curious: Fires direct questions about anything unfamiliar, from hair to Quirks to scars, and wants every answer.",
+      "Enthusiastic: Takes loud, sincere interest in the people around her, total strangers included.",
+      "Tactless: Asks the question everyone else avoided and notices the wince only when someone points it out.",
+      "Restless: Fidgets, wanders and changes topic mid-sentence; a quiet moment rarely survives her.",
+      "Switch-flip: Drops the chatter the instant a rescue starts and gives clear, confident calls.",
+      "Speaking style: Rapid, candid questions and animated reactions, with a repeated \"hey, hey\" when something catches her interest."
+    ],
+    "abilities": [
+      "Wave Motion: Converts her vitality into spiraling waves that hit with great force; the spiral makes them slow, so a fast target can slip them.",
+      "Flight: Rides waves beneath her for sustained aerial movement; long flights drain the same stamina as attacks.",
+      "Aerial support: Covers teammates from above, spots trouble from height and reaches people on rooftops or across gaps, all on the same stamina.",
+      "Disarming chatter: Her stream of questions puts frightened people at ease or knocks a guarded one off balance; she cannot tell when to stop.",
+      "Agency experience: Rescue and patrol work at Ryukyu's agency under supervision, in Ryukyu's calm, protective style.",
+      "\nFighting style: Takes the high ground and pins a target with sustained wave pressure from range; she keeps her distance because her slow waves need it, and uses her height to rescue as much as to strike."
+    ],
+    "visualDescription": "A young woman with very long, pale-blue hair that falls past her waist and curls at the ends, large blue eyes, fair skin and a lean build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Bright, open expression with a curious, wide-eyed smile.",
+    "detailType": "detailed",
+    "properName": "Nejire Hado",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4373d7c-0e26-4bfd-8588-c61b5a7b5d56.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_nejire_hado",
+    "initialKnown": true
+  }
+}

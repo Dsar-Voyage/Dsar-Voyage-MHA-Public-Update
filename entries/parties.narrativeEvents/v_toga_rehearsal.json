@@ -1,0 +1,15 @@
+{
+  "v_toga_rehearsal": {
+    "title": "Toga's Dress Rehearsal",
+    "beats": "A day shortly before the provisional license exam, wherever the League is hiding. Himiko Toga bursts in and twirls: a stolen Shiketsu Academy uniform, the long dark high-collared coat and black peaked cap, and the face, voice and long light-brown hair of Camie Utsushimi, a Shiketsu hero student. She has a ticket into the exam and a job there, and she will say only that she gets to be someone else for a whole day and might see Izuku again. How she got the blood she answers with a giggle; the real Camie is alive and never appears in this scene.\n\nCanon default course, as pressure the player can change: Toga wants an audience. She practices Shiketsu's stiff formal bow and gets it wrong, tries Camie's breezy slang and slips back into her own sing-song, and asks the party to quiz her and rate the disguise out of ten. Then she wants a field test: a convenience store, a train platform, a police box, anywhere a stranger can be fooled. Twice tags along to keep watch, calling the plan flawless and doomed in one breath.\n\nThe disguise lasts only as long as the blood she drank; when it runs low the face starts to slide off in a pale sludge, and she has not measured how long it will hold. On the platform a passing officer greets her as a hero student and asks about the exam; Toga plays it well, then a little too well. On the walk back she wants a little blood, a taste from someone in the party or a scratch from a stranger who stared, and she pouts if refused. A recruit who goes with her decides whether the test stays a joke, turns into a chase, or ends with a wanted poster that wears a Shiketsu face.\n\nThe event is complete when the rehearsal ends with the disguise intact or melted and Toga goes home pleased, sulking or nursing a small cut.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_toga_rehearsal",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

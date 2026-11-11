@@ -1,0 +1,20 @@
+{
+  "Paired Arm Pin": {
+    "name": "Paired Arm Pin",
+    "description": "The user has the creature seize one human-sized target within reach and hold both arms against their sides until the end of the user's next turn. The user remains free to apply cuffs or guide an ally past them. The target can break free with a hard effort, and a bright light aimed at the creature loosens the hold at once. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

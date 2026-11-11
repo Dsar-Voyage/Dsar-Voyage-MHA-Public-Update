@@ -1,0 +1,29 @@
+{
+  "Narrow Sky": {
+    "name": "Narrow Sky",
+    "description": "The user's wings stop failing them in tight or rough air. For the rest of the scene they fly at full speed through hallways, stairwells, alleys and train tunnels, beat through rain, gusts and cold without slowing, and turn in a space barely wider than their folded wings. They can carry two people at once, and gunfire and thrown objects aimed at them in flight miss. When the scene ends the muscles of the user's back give out, and they cannot fly until they rest a full night. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

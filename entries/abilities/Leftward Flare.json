@@ -1,0 +1,20 @@
+{
+  "Leftward Flare": {
+    "name": "Leftward Flare",
+    "description": "The user sends a brief flame jet from their left hand at one target within five meters. It deals light fire damage and forces the target away from that hand; held back, it scorches empty ground to make them retreat without a direct burn. The flame can ignite nearby fabric, and repeated jets raise the user's body temperature. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Shoulder Breach": {
+    "name": "Shoulder Breach",
+    "description": "The user drives a shoulder or a planted kick into a locked or jammed door, gate or shutter right at the lock or hinge. It gives way in a single action, and anyone bracing it from the other side is knocked off their feet and takes bludgeoning damage. A reinforced security door or a vault holds. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Athletics",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

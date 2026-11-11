@@ -1,0 +1,38 @@
+{
+  "Day Plan: costume backstop [1-A]": {
+    "name": "Day Plan: costume backstop [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "costumeGiven",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){if(check({type:'read-boolean',key:'costumeDeclined'})===true){skip=true;return;}{const c=check({type:'player-item',item:'Student hero costume'});const n=typeof c==='number'?c:(c&&typeof c==='object'?Object.values(c).reduce((a,b)=>a+(+b||0),0):0);if(n>=1||(storage.costumeNotes||0)>=2){skip=true;return;}}if(Object.keys(storage).some(k=>k.slice(0,5)==='live_'&&storage[k]===true&&!storage['done_'+k.slice(5)]&&check({type:'narrative-event-status',eventId:k.slice(5)})==='active')){skip=true;return;}const AX=check({type:'action-text'})||[];if(/\\bskip|days? pass|weeks? pass|fast[- ]?forward/i.test(String(Array.isArray(AX)?(AX[AX.length-1]||''):AX))){skip=true;return;}storage.costumeNotes=(storage.costumeNotes||0)+1;effects.push({type:'story',instruction:\"Narrator only: the player character and the class have not yet received their hero costumes, and they must get them now. If the story has already made clear that the player character has no costume (no design request, turned down or given away), do nothing and never raise it. Otherwise, in this turn's scene, if the class is together with a teacher (homeroom, a lesson, a drill or a training ground), at the next pause between activities (never in the middle of an exercise, test or fight) the teacher announces that the costumes have arrived: the numbered cases slide out of the homeroom wall, or a support company's crate of numbered cases is wheeled in, and each student, the player character included, takes their own Student hero costume, made from the design request sent in with their application, and changes into it in the locker rooms. If the class is not together, it happens when they next gather in the story's own time; never skip time ahead for it.\"});})();"
+  }
+}

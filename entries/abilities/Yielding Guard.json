@@ -1,0 +1,20 @@
+{
+  "Yielding Guard": {
+    "name": "Yielding Guard",
+    "description": "The user loosens their gel tissues around the torso core until the end of their next turn. The next punch or club strike deals reduced bludgeoning damage as the tissue compresses, or a fall of up to two meters lands with bruises instead of a sprain. The core remains vulnerable, and blades and bullets still wound. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

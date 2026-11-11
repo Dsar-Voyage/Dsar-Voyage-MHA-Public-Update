@@ -1,0 +1,24 @@
+{
+  "Manipulative": {
+    "name": "Manipulative",
+    "description": "🕸️ People are pieces to you, and you know which strings move each of them.\n\n🎭 You read weaknesses and desires and turn them into leverage.\n⚠️ Once someone sees through you, they never trust you again, and they talk.\n⚠️ Real friendship is hard when everyone is a piece on a board.\n🔀 If you are also Honest, you never lie; you only choose which truths to tell.\n\n📈 Grants: Deception +5, Psychology +5",
+    "traitNarrativeEffects": "The character is manipulative: they read people's weaknesses and desires and use them as leverage, steering others while letting them think it was their own idea. Weakness: anyone who sees through them never trusts them again and warns others, and real friendship is hard when everyone is a piece on a board. If the character is also Honest, they never lie and only choose which truths to tell. The narrator lets the people they work on think and push back; who they manipulate is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Deception",
+        "modifier": 5
+      },
+      {
+        "skill": "Psychology",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

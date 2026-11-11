@@ -1,0 +1,20 @@
+{
+  "Quill Storm": {
+    "name": "Quill Storm",
+    "description": "The user sheds a cloud of stiffened feathers and steers each one by will out to a street's width. The feathers can slash a target for slashing damage, cut ropes, straps and cables, or pin a person's clothes to a wall or the ground so they cannot move until they tear free. Shed feathers take days to regrow, and only feathered wings can do this. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

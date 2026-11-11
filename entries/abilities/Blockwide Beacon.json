@@ -1,0 +1,25 @@
+{
+  "Blockwide Beacon": {
+    "name": "Blockwide Beacon",
+    "description": "The user fires a sustained navel laser across a city block, cutting a clear route through several barriers in one straight line. It deals massive light damage to anything left in that line; held back, the user aims above people to break empty upper sections for an evacuation route. The user must confirm the entire path is clear of civilians, and afterward stomach pain prevents further firing for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

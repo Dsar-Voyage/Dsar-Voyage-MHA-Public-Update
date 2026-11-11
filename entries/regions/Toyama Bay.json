@@ -1,0 +1,30 @@
+{
+  "Toyama Bay": {
+    "name": "Toyama Bay",
+    "basicInfo": "The northern reach of Toyama Bay, a deep, cold, U-shaped bite of the Sea of Japan between the east coast of the Noto Peninsula and the Toyama shore; nearly everything inside this region is water. The bay plunges past a thousand meters only a few kilometers from shore, and the meeting of cold deep water with the warm Tsushima Current near the surface makes it one of the richest fishing grounds in Japan, which locals call a natural fish tank. The water is dark blue and clear in summer, slate and wind-whipped in winter, when northwest gales pile up short steep seas. On clear winter and spring mornings the whole Tateyama range stands white across the bay to the southeast, three thousand meters straight up from the sea. The western edge is Noto's sheltered east coast: Tsukumo Bay with its ninety-nine little inlets, the harbor town of Ushitsu in Noto town, whose Abare festival in July hurls portable shrines into the river, the sea and roaring bonfires among towering kiriko lanterns, and Ogi, a squid port with a giant squid statue on its waterfront. Mitsuke Island, a sheer rock islet shaped like a warship, stands off the far Noto shore at the northern rim. The southeastern corner touches the Toyama coast at Nyuzen and Asahi: the green fan of the Kurobe River, fields of huge oval watermelons, and pebble beaches where people hunt jade washed down from the mountains. Set-net boats work the bay year-round for winter yellowtail, white shrimp, red snow crab and squid, and in spring the firefly squid run lights up the shore to the south. The Ainokaze Toyama Railway and the Hokuriku Expressway pass through Nyuzen and Tomari, about forty minutes from Toyama city; Ushitsu is reached by bus from Anamizu or Nanao. From Musutafu, Nyuzen is about four hours by shinkansen via Tokyo and Toyama, the Noto side closer to six. There are no regular passenger ferries; a party out here is on a fishing boat, a chartered sightseeing cruise, a coast guard patrol or a flying hero. The coast guard watches the bay from Fushiki, licensed maritime heroes based near Toyama cover the water, and deckhands with gills or webbed hands are a common sight on the boats.",
+    "hiddenInfo": "The bay is quiet but frayed at the edges: aging crews and a shrinking fleet, quarrels over set-net rights, poachers after white shrimp and crab, and summer drownings off pebble beaches that drop away steeply. Foreign boats out on the open Sea of Japan worry the coast guard more than anything here. Help on the water is slow; the coast guard at Fushiki and rescue heroes around Toyama city need half an hour or more, and Noto's east coast is farther still. Petty crime is smuggling, unlicensed Quirk fishing and theft from moored boats.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -3,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6894de6d-605b-4ae3-9c10-fe487a3d126a.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

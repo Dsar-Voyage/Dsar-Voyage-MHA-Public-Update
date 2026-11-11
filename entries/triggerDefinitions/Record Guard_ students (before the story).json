@@ -1,0 +1,27 @@
+{
+  "Record Guard: students (before the story)": {
+    "name": "Record Guard: students (before the story)",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "script": "(function(){/*hot_lite:v1*/const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));const S=[\"Izuku Midoriya\",\"Ochaco Uraraka\",\"Katsuki Bakugo\",\"Eijiro Kirishima\",\"Shoto Todoroki\",\"Tenya Iida\",\"Momo Yaoyorozu\",\"Kyoka Jiro\",\"Tsuyu Asui\",\"Fumikage Tokoyami\",\"Denki Kaminari\",\"Hanta Sero\",\"Mina Ashido\",\"Toru Hagakure\",\"Mezo Shoji\",\"Koji Koda\",\"Mashirao Ojiro\",\"Rikido Sato\",\"Yuga Aoyama\",\"Minoru Mineta\",\"Itsuka Kendo\",\"Neito Monoma\",\"Tetsutetsu Tetsutetsu\",\"Ibara Shiozaki\",\"Juzo Honenuki\",\"Setsuna Tokage\",\"Togaru Kamakiri\",\"Hiryu Rin\",\"Pony Tsunotori\",\"Jurota Shishida\",\"Yosetsu Awase\",\"Sen Kaibara\",\"Shihai Kuroiro\",\"Kojiro Bondo\",\"Kinoko Komori\",\"Kosei Tsuburaba\",\"Nirengeki Shoda\",\"Yui Kodai\",\"Reiko Yanagi\",\"Manga Fukidashi\"],G=[\"\",\" (Sports Festival)\",\" (Summer Training)\",\" (Provisional License)\"],SL=3;const tk=check({type:'game-tick'})||0,o=(tk%Math.ceil(S.length/SL))*SL,FS=S.slice(o,o+SL);const SC=check({type:'npc-in-scene',npc:'anySceneNPC'});const IN=(SC&&typeof SC==='object')?SC:{};const MQ={},QQ={};function nr(t,n){let q=QQ[t];if(!q)q=QQ[t]={type:t,npc:'anySceneNPC'};let m=MQ[t];if(m===undefined){q.npc='anySceneNPC';m=check(q);m=MQ[t]=m&&typeof m==='object'?m:null;}if(m&&Object.prototype.hasOwnProperty.call(m,n))return m[n];q.npc=n;return check(q);}const D=storage.deadStu||{};for(const b of S){if(D[b])continue;const full=FS.indexOf(b)>=0;const R=b+G[sg];let rp=null;for(let i=0;i<4;i++){if(i===sg||effects.length>=10)continue;const W=b+G[i];if(!full&&!IN[W])continue;const l=nr('npc-location',W);if(typeof l!=='string'||!l)continue;if(rp===null){const rl=nr('npc-location',R);rp=typeof rl==='string'&&!!rl;}const a=nr('npc-area',W)||'';const wp=nr('npc-in-party',W)===true;effects.push({type:'npc-placement',npc:W,operation:'moveAway'});if(wp)effects.push({type:'npc-in-party',npc:W,operator:'set',value:false});if(!rp){effects.push({type:'npc-placement',npc:R,operation:'moveTo',location:l,area:a});rp=true;if(wp)effects.push({type:'npc-in-party',npc:R,operator:'set',value:true});}}}for(const b of FS){if(D[b]||effects.length>=10)continue;const R=b+G[sg];if(check({type:'known-entity',entity:R})!==true)continue;for(let i=0;i<4;i++){if(i===sg||effects.length>=10)continue;const W=b+G[i];if(check({type:'known-entity',entity:W})===true)effects.push({type:'known-entity',entity:W,operator:'set',value:false});}}if(!effects.length)skip=true;})();"
+  }
+}

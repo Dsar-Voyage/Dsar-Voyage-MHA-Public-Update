@@ -1,0 +1,20 @@
+{
+  "Calf Motor Dash": {
+    "name": "Calf Motor Dash",
+    "description": "The user accelerates through their calf engines and crosses up to fifty meters of clear ground in a few seconds this turn. This reaches cover or closes a gap before an ordinary runner catches up. The user needs traction and a visible braking area; obstacles do not move aside, and a sudden turn at full speed risks a collision. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

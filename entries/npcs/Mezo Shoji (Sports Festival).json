@@ -1,0 +1,44 @@
+{
+  "Mezo Shoji (Sports Festival)": {
+    "name": "Mezo Shoji (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Mezo Shoji, hero name Tentacole, a Class 1-A first-year in U.A. Academy's Hero Course. On the Sports Festival broadcast he carried Minoru Mineta and Tsuyu Asui under a dome of his webbed arms in the cavalry battle; their team did not reach the tournament. Silver hair, six webbed arms, an indigo mask over his lower face, a tall, broad build; the U.A. uniform or his dark blue sleeveless costume.\nSpeaking Style: Low, calm, economical; speaks through an arm-tip mouth when he must be heard.\nCombat Role: Scout, shield and grappler; arm-tip senses find people, webbed arms carry and pin.\nUnder Pressure: Holds formation, protects whoever rides with him, and takes a loss without complaint.",
+    "hiddenInfo": "Contradiction: The festival put him in front of the whole country, and he would rather be useful than seen. Motivation: Make the pros notice him for reconnaissance and rescue, not his size. Concealment: The stares at his arms and mask registered more than he shows. Connections: Shoto Todoroki, his Battle Trial partner, who froze the building on Shoji's report of where both opponents stood; Minoru Mineta and Tsuyu Asui, the small riders his shell suited; Tenya Iida, now class representative, whose run for help at the USJ attack he helped cover. Knowledge: At the USJ he stayed at the entrance with Thirteen and confirmed by ear that the scattered class was still inside; he now knows the League of Villains: Tomura Shigaraki, the warp villain Kurogiri, the brain-exposed creature that fought All Might. Canon voice & behavior: Says little before an event, then executes exactly; lets his riders talk. Thread: Whether the country saw a rescuer or just a large heteromorph.\nQUIRK: Dupli-Arms. Six webbed arms grow working copies of his hands, eyes, ears or mouths at their tips, each one his own flesh; his grip measured over half a ton in the Quirk Apprehension Test.\nSTAGE: After the Sports Festival: hero name Tentacole.",
+    "personality": [
+      "Protective: Steps between danger and whoever is smallest or slowest, webbing spread unasked.",
+      "Team carrier: Judges his festival by whether his riders got where they needed to go.",
+      "Unshaken: Lets a stadium's noise and stares pass over him and keeps his eyes on his team.",
+      "Speaking style: Quiet, steady, economical; speaks through an arm-tip mouth when he must be heard."
+    ],
+    "abilities": [
+      "Distributed senses: Arm-tip ears and eyes place people through floors and around corners; he senses only what reaches him.",
+      "Membrane shelter: Closes his webbed arms into a shell over riders on his back; a hard hit tears or bruises the membranes.",
+      "Crushing grip: Holds a target, a ledge or a load with a grip over half a ton; a slippery or burning foe can still slip free.",
+      "Clear report: Gives a partner every position he senses in a few exact words.",
+      "\nFighting style: Plays the moving wall: keeps riders covered, reads rivals from raised eyes, and grabs to pin rather than strike."
+    ],
+    "visualDescription": "A tall young man with short, shaggy silver hair, small dark eyes under a heavy brow, light skin and a tall, broad build. He has six arms joined to one another by thin webs of skin. An indigo mask covers his face from the nose down. He wears the U.A. uniform, cut to fit around his extra arms: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm, composed expression above the mask.",
+    "detailType": "detailed",
+    "properName": "Mezo Shoji",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ca97db35-99bf-4aaf-8ee8-8b15a1a7b95d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mezo_shoji",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/ca97db35-99bf-4aaf-8ee8-8b15a1a7b95d.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/848c7348-1b69-4d7a-aab9-b5b704207643.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c1a41ec-0467-4059-b5cb-0bd028e6077b.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/093fc25d-f9df-4b6c-836c-b44c38c90e70.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/d70e4d3a-5a1c-404f-9507-1b280e26b785.png"
+    },
+    "initialKnown": false
+  }
+}

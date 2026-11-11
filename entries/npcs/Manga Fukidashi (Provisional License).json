@@ -1,0 +1,44 @@
+{
+  "Manga Fukidashi (Provisional License)": {
+    "name": "Manga Fukidashi (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 20,
+    "tier": "elite",
+    "voiceTag": "male commanding blunt",
+    "basicInfo": "Manga Fukidashi, hero name Comicman, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and now holds a provisional license. White balloon head with no face; the U.A. uniform.\nSpeaking Style: Onomatopoeia only, loud; big gestures carry his meaning.\nCombat Role: Lettering barriers and distractions for rescue and capture.\nUnder Pressure: Gets louder so teammates can work, easing off before his throat gives out.",
+    "hiddenInfo": "Contradiction: A Quirk made to entertain, now licensed for rescue and capture. Motivation: Keep making people smile, civilians included. Connections: Itsuka Kendo, 1-B's class representative, whose plans give him his cue. Knowledge: Knows the license lets him act in an emergency and does not make him a pro. Canon voice & behavior: Uses a cheerful sound word to calm a frightened civilian. Thread: Whether a performer's Quirk earns the public's trust.\nQUIRK: Comic. Practiced and paced; overuse still makes his throat sore.\nSTAGE: After the provisional license exam: passed; holds a provisional license.",
+    "personality": [
+      "Crowd-pleaser: Wants his Quirk to make people smile, civilians included.",
+      "Team-minded: Draws attention so classmates can rescue or capture behind it.",
+      "Voice-careful: Paces his shouts instead of burning out early.",
+      "Speaking style: Onomatopoeia only, loud, carried by big gestures; never played as a joke about comics."
+    ],
+    "abilities": [
+      "Comic: Shouts an onomatopoeia and gives it solid form; it needs his voice.",
+      "Lettering wall: Drops heavy letters to block a path or shield a group.",
+      "Team distraction: Becomes the loudest thing on the scene so allies can work.",
+      "Provisional license: May use his Quirk in an emergency; it does not make him a pro.",
+      "\nFighting style: Fights from behind his own lettering, blocking approaches rather than trading blows."
+    ],
+    "visualDescription": "A young man with a medium build whose head is a smooth, blank white speech balloon: round, with a short pointed tail at the bottom, and no eyes, nose, mouth or lettering. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. The balloon head is clean and empty.",
+    "detailType": "detailed",
+    "properName": "Manga Fukidashi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/731630e8-1f23-4c83-9529-615e4af1fef1.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_manga_fukidashi",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/731630e8-1f23-4c83-9529-615e4af1fef1.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/cca05609-c400-4d4c-965c-ebc30d47debb.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/dd048150-8ed0-4051-a033-f5060abd2194.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d32a2b4-f073-45ed-b49a-908927a582a8.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/151aa858-13e4-4998-a7bb-3ac22a880c7b.png"
+    },
+    "initialKnown": false
+  }
+}

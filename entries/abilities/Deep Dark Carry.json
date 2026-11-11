@@ -1,0 +1,29 @@
+{
+  "Deep Dark Carry": {
+    "name": "Deep Dark Carry",
+    "description": "The user has the creature lift them and several people above a collapsing street for the rest of the scene, using its enlarged body to shield the passengers from falling debris. It can set each person down within its connected reach and strike an attacker for heavy bludgeoning damage, held back to a shove. The user must keep giving orders, and a strong floodlight or a heavy blow can force everyone to land. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

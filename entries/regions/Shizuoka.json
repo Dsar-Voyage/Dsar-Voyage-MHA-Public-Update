@@ -1,0 +1,30 @@
+{
+  "Shizuoka": {
+    "name": "Shizuoka",
+    "basicInfo": "Shizuoka is the cell of central Shizuoka on the western shore of Suruga Bay: the prefectural capital at the center, the port of Shimizu and the Miho pine spit to its east, the fishing city of Yaizu and the tea towns of Fujieda and Shimada to the southwest, and the Makinohara tea plateau and Mount Fuji Shizuoka Airport in the far southwest. The eastern part of the cell is open water: Suruga Bay, the deepest bay in Japan, dark blue and dropping past 2,000 meters close offshore, with the hills of the Izu Peninsula's western coast in view across it and the mouth of the Fuji River at the northeast corner. Land lies west of the bay, water east. The climate is mild, sunny and seldom frosty, Mount Fuji standing to the northeast in clear winter air; summers are humid and typhoons strike in autumn. Shizuoka city keeps the moats and rebuilt turrets of Sunpu Castle, the Sengen shrines on Shizuhata hill, and the Kunozan shrine, reached by more than a thousand stone steps from the strawberry greenhouses on the coast; the Nihondaira plateau above it has a ropeway and one of the classic views of Fuji. The city is Japan's tea capital, a center of plastic-model making, and home of Shizuoka oden, simmered in black broth and dusted with fish powder. Shimizu is a tuna port with a waterfront market, Miho no Matsubara's pine beach looks across the water to Fuji, and Yui and Kambara on the northeast shore net and sun-dry pink sakura shrimp. Yaizu lands more skipjack and tuna than almost any port and smells of katsuobushi smoke. In early November, the Daidogei World Cup fills the city's streets and parks with street performers. The Tokaido Shinkansen stops at Shizuoka, the JR Tokaido Line and the Shizuoka Railway run along the coast, the Tomei and Shin-Tomei cross the region, and a car ferry crosses the bay from Shimizu to the Izu coast in about an hour. Musutafu, the neighbor to the east across the head of the bay, is about twenty minutes away by kodama and under an hour by local train. The city has a large hero presence and a prefectural police headquarters; the coast guard and maritime heroes patrol the bay, and fishing crews with water Quirks work under licenses.",
+    "hiddenInfo": "Shizuoka's undercurrents are quiet and coastal: a fishing fleet with fewer crews each year and foreign trainees worked hard on the tuna boats, smuggling worries at Shimizu's container berths, and steep tea farms left unharvested as their owners age. Typhoons and the long-feared Tokai earthquake shape daily life, from tsunami towers on the beaches to school evacuation drills. City hero response is fast; the tea hills and the upper Abe valley wait longer, and agencies from the cities to the east are close enough to help in a large incident.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -1,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/18f9c547-2d77-4c82-8aca-2b097c28c254.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

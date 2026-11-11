@@ -1,0 +1,20 @@
+{
+  "Upturned Slab": {
+    "name": "Upturned Slab",
+    "description": "The user stamps on the ground and tips up a chest-high slab of pavement or floor between the attackers and the people behind it. The slab is solid stone: shots and thrown objects from the front cannot pass it until a heavy blow breaks it, and it stays standing as cover after the user moves on. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

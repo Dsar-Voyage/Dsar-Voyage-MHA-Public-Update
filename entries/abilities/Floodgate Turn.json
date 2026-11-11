@@ -1,0 +1,20 @@
+{
+  "Floodgate Turn": {
+    "name": "Floodgate Turn",
+    "description": "The user plunges both hands into standing water, a flood or a burst main and turns its flow. For the rest of the scene they can hold rising water back from a doorway, open a dry lane through a flooded street or tunnel, or pull anyone caught in a current to the user's side. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

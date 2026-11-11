@@ -1,0 +1,25 @@
+{
+  "Every Branch Seen": {
+    "name": "Every Branch Seen",
+    "description": "The user's signature move: they see several next-few-seconds at once and choose the one where the fight goes their way. Until the end of the user's next turn, every attack the user makes against an opponent in sight hits, and every attack from an opponent in sight misses; the user's strike deals heavy bludgeoning damage, or, held back, drops the opponent unconscious. Afterward, afterimages blur the user's sight for the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Jet Quirk": {
+    "name": "Jet Quirk",
+    "description": "💨 You turn inhaled air into bursts of movement through vents in your soles.\n\n🌱 At the start you cross about ten meters in a burst, clear a waist-high obstacle, add momentum to a strike and land on clear ground.\n📈 With training: fast wall rebounds, sharp turns, passenger rescues, longer pursuit routes.\n⚠️ You spend stored breath; smoke and blocked vents stop safe bursts, weak or slippery surfaces spoil rebounds, and speed gives no protection from collisions.\n🔗 Canon Drawback, built in: Finite Fuel, as propulsion uses air you must breathe in again.\n🎬 Canon Quirk: Sorahiko Torino / Gran Torino's Jet. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Quirk fuel pack x5, Fuel belt\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Control +10, Acrobatics +5\n⚡ Starting techniques: Sole Vent Dash, Air Driven Shoulder",
+    "traitNarrativeEffects": "Scale: inhaled air blasts from sole vents; thrust follows the soles (turn legs, plant a foot or rebound to steer). Start: about 10 m bursts, waist-high hops, basic clear-ground landings. Rapid rebounds, passengers, long pursuit need training.\nLimits: bursts spend stored air; smoke or a blocked airway stops refills; sealed shoes or pinned feet block exhaust. Moves the body only, no blades or wind. No impact resistance; bad turns break bones; weak, slick or fragile surfaces fail rebounds.\nQuirk Strain: light: dash, checked shoulder hit; moderate: rebound, passenger carry, braking; heavy: rapid multi-opponent sequence; severe: max acceleration, sustained pursuit.\nDrawback: built in, the canon Finite Fuel.\nCanon: Sorahiko Torino / Gran Torino's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: avoid pedestrians; striking or carrying the unwilling needs self-defense or licensed duty.\nLook: sole vents.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Acrobatics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Sole Vent Dash",
+      "Air Driven Shoulder"
+    ],
+    "startingItems": [
+      {
+        "item": "Quirk fuel pack",
+        "quantity": 5
+      },
+      {
+        "item": "Fuel belt",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

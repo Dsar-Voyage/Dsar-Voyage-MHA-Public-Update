@@ -1,0 +1,22 @@
+{
+  "Reveal: Nomu Warehouse (Kamino)": {
+    "name": "Reveal: Nomu Warehouse (Kamino)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "kamino_incident",
+        "operator": "equals",
+        "value": "active"
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "Nomu Warehouse",
+        "operator": "set",
+        "value": false
+      }
+    ]
+  }
+}

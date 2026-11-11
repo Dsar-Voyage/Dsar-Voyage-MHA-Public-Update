@@ -1,0 +1,17 @@
+{
+  "Mechanics: player training safety net": {
+    "name": "Mechanics: player training safety net",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const V=[\"usj_attack\", \"hosu_incident\", \"forest_camp_raid\", \"kamino_incident\", \"shie_hassaikai_raid\", \"high_end_attack\", \"deika_liberation\", \"paranormal_liberation_war\"],SITES=[\"U.A. Academy\", \"Ground Beta\", \"Gym Gamma\", \"Training Ground Gamma\", \"U.A. Stadium\", \"Unforeseen Simulation Joint (USJ)\"];for(const e of V){if(storage['live_'+e]===true&&!storage['done_'+e]&&check({type:'narrative-event-status',eventId:e})==='active'){skip=true;return;}}let hp=check({type:'player-resource',resource:'health'});if(hp&&typeof hp==='object'){const xs=Object.values(hp).filter(x=>typeof x==='number');hp=xs.length?Math.min(...xs):null;}if(typeof hp!=='number'){skip=true;return;}const S=storage.pcHP||{max:0,last:null};S.max=Math.max(S.max||0,hp);let tgt=null;if(SITES.indexOf(check({type:'party-location'})||'')>=0){let st=check({type:'player-resource',resource:'Quirk Strain'});if(st&&typeof st==='object'){const ys=Object.values(st).filter(x=>typeof x==='number');st=ys.length?Math.max(...ys):0;}const floor=Math.ceil(S.max*0.25),cap=Math.ceil(S.max*0.15);const QC=check({type:'quests-completed'})||[];const d=check({type:'read-number',key:'currentDay'})||1;const QT=(d===2&&check({type:'read-boolean',key:'fdField1A'})===true&&QC.indexOf('The First-Day Quirk Assessment')<0)||(check({type:'party-area'})||'')==='Athletics Field';const own=typeof st==='number'&&st>=90;if(QT&&typeof S.last==='number'&&S.last>hp&&!own){tgt=S.last;S.qt=true;}else if(typeof S.last==='number'&&S.last-hp>cap&&!own)tgt=S.last-cap;if(hp<floor)tgt=Math.max(tgt||0,floor);}if(tgt!==null&&tgt>hp){effects.push({type:'player-resource',resource:'health',operator:'set',value:tgt});effects.push({type:'story',instruction:S.qt?'Nobody is hurt in this test: nothing a classmate does touches the player character, who is unharmed; every Quirk is aimed at the test itself, and the test goes on.':'The teacher running this exercise has already stepped in: whatever hit the player character was stopped or blunted before it could do more than a minor injury. They are hurt but on their feet; the exercise pauses for a quick check, and anyone careless gets a sharp warning.'});S.last=tgt;}else{S.last=hp;}delete S.qt;storage.pcHP=S;if(!effects.length)skip=true;})();",
+    "phase": "planning"
+  }
+}

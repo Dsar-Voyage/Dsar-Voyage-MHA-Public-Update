@@ -1,0 +1,30 @@
+{
+  "Kurume": {
+    "name": "Kurume",
+    "basicInfo": "The upper Chikugo country and northern Kumamoto: Kurume on the river at the northwest corner, the tea hills of Yame, the Tsue and Shaka mountains across the middle, the old timber town of Hita in its basin at the northern edge, and the Kikuchi and Yamaga plains of Kumamoto Prefecture in the south, reaching the rim of the Aso caldera in the southeast. Nearly all of it is land. Kurume is a solid working city known as the birthplace of pork-bone ramen, for indigo kasuri cloth, rubber footwear and azaleas, and its Suitengu shrine is the head of that faith. Yame grows some of Japan's finest green tea and shaded gyokuro on misty hillside terraces, especially around Hoshino village, known for its starry skies; Yame also has the largest burial mound in northern Kyushu and makes paper lanterns. In the mountains, cedar forests, dams and narrow gorges hide small hot springs. Hita, ringed by cedar plantations, keeps a merchant quarter of white-walled houses and soy sauce breweries, cormorant fishing on the Mikuma River in summer, and riverside inns at Amagase. In the south, Yamaga holds a lantern festival each August where dancers wear gilded paper lanterns on their heads, and its old wooden theater still stages plays; Kikuchi has a cool gorge of waterfalls and rich rice paddies, and the farms around Tamana grow watermelons and strawberries. Summers are hot and humid, with July downpours that flood mountain valleys; winters are cold in the hills. The Kyushu shinkansen stops at Kurume, Chikugo-Funagoya and Shin-Tamana; Hakata to Kurume is about twenty minutes, and Kumamoto lies just south. The Kyudai Line and the Oita Expressway climb east from Kurume to Hita in about an hour and on toward Yufuin, and the Kyushu Expressway runs north and south. From Musutafu, about five hours. Each town has police and small hero agencies; licensed heroes cover mountain districts and flood rescues, and tea farmers with plant Quirks work the harvest under permit. Visitors eat ramen, sip tea in Yame, stroll Hita's old quarter and soak in mountain springs.",
+    "hiddenInfo": "The July rains are the region's real fear; hill villages around Hita and Yame have been cut off before, and every hero and firefighter is called out when the rivers rise. Mountain villages are emptying, and the dams left old resentments. Small crime is theft of tea and fruit, scams targeting the elderly and street racing on mountain roads. Kurume and Kumamoto have the nearest sizable agencies.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -15,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d3db1b54-d31f-48e9-9486-4a26a66919c3.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

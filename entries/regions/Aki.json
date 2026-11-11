@@ -1,0 +1,30 @@
+{
+  "Aki": {
+    "name": "Aki",
+    "basicInfo": "The eastern Kochi coast and the mountains behind it: a long, nearly straight shore running southeast along Tosa Bay from Geisei through the small city of Aki, Tano and Nahari toward Cape Muroto, then around the peninsula's eastern side up the Pacific coast to Kannoura and Shishikui at the Tokushima border. The cape's tip lies just south of the edge. Inland, most of the cell is steep forest country cut by the Nahari, Yasuda and Monobe rivers, rising to ridges well over 1,000 meters. The coast is a narrow shelf of fields and greenhouses squeezed between the mountains and a pebble shore pounded by Pacific swell, with seawalls, tsunami towers and evacuation signs everywhere. Aki has samurai houses, eggplant greenhouses and boats that net baby sardines; Tano makes sea salt; Kiragawa in northern Muroto keeps a lane of old merchant houses with plaster walls set with rows of tiles against the storms, and binchotan charcoal is still burned in the hills behind it. Up the valleys, Umaji is a mountain village built almost entirely on yuzu citrus, Kitagawa has a large public garden modeled on a French painter's water-lily pond, and the old Yanase cedar logging railway survives in stone bridges and tunnels. Higher in the Monobe valley, hamlets keep an old folk religion of their own. On the eastern side, Toyo town's Kannoura and Ikumi beaches draw surfers all year. The Tosa Kuroshio Railway's elevated Gomen-Nahari Line runs along the coast from Gomen near Kochi to Nahari, its stations dressed with cartoon mascots; from there, Route 55 buses continue around the cape, and the road-rail bus from Tokushima's coast reaches Kannoura. Kochi Ryoma Airport is about forty minutes west. From Musutafu, it is most of a day by train through Okayama and Kochi; from Osaka, about four and a half hours. Two tiny hero offices, in Aki and Kannoura, cover the whole coast, and the November yuzu harvest brings pickers with handy Quirks into the hills.",
+    "hiddenInfo": "The Aki coast is losing people fast, and the expected Nankai earthquake hangs over every seaside hamlet; tsunami drills are a fact of life, and upland villages can be cut off for days when roads slide. The nearest serious hero support is in Kochi city, an hour or more away, so local police and volunteer fire crews do most of the work. Trouble is small: yuzu and greenhouse theft, illegal lobster and abalone diving, speeding on Route 55, and the odd drifter sleeping rough on the surf beaches.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -9,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d96b40c-ac4e-4645-82e0-a1f02b92d1a7.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

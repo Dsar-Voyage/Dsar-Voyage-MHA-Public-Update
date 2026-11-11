@@ -1,0 +1,25 @@
+{
+  "Greater Echo": {
+    "name": "Greater Echo",
+    "description": "The user opens a copied Quirk past anything its owner has ever reached and fires it across a whole city block: a copied barrier walls off the block, copied water floods its streets ankle deep, or a copied attack strikes every enemy the user picks there and deals massive damage of that Quirk's own type; held back, it only knocks them flat. The user's body is not built for the copy at that scale, so copied fire scorches their hands and copied cold numbs them. The copy burns out, and the user cannot copy again for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

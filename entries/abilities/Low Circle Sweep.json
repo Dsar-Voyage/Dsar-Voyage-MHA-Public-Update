@@ -1,0 +1,20 @@
+{
+  "Low Circle Sweep": {
+    "name": "Low Circle Sweep",
+    "description": "The user drops low and spins the staff, baton, chain or blade in a full circle at ankle height. Every opponent within weapon reach takes bludgeoning damage (slashing damage from a blade), is knocked off their feet and must spend their next action getting up. Flying and vehicle-sized opponents are not affected. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blade and Baton",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

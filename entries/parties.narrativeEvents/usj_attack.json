@@ -1,0 +1,15 @@
+{
+  "usj_attack": {
+    "title": "The USJ Attack",
+    "beats": "Early afternoon at the Unforeseen Simulation Joint (USJ), after lunch. Class 1-A's rescue lesson opens on the Entrance Plaza: Thirteen explains how easily a Quirk can kill, Shota Aizawa stands by, and All Might is delayed at U.A. Academy. Black mist opens over the Central Plaza, bringing Tomura Shigaraki, Kurogiri, hired thugs and the USJ Nomu to kill All Might.\n\nThe canon default course, as pressure the player can change: Kurogiri scatters the class into disaster zones. Izuku Midoriya, Tsuyu Asui and Minoru Mineta land in the Flood Zone; Katsuki Bakugo and Eijiro Kirishima in the Ruins Zone; Shoto Todoroki in the Landslide Zone; Momo Yaoyorozu, Kyoka Jiro and Denki Kaminari in the Mountain Zone. Unless the player changes the fighting, Aizawa holds the Central Plaza until the Nomu breaks both his arms and fractures his orbit; Kurogiri redirects Thirteen's Black Hole into her back, tearing it open. Tenya Iida escapes to summon help. Yuga Aoyama hides near the Central Plaza throughout the fight. By canon default All Might arrives and rescues Aizawa and the threatened students. Katsuki pins Kurogiri by his solid metal neck guard, Shoto freezes part of the Nomu, and Eijiro attacks Shigaraki. The Nomu regenerates; All Might drives it through the dome roof. His fighting time then runs out, leaving him bluffing as Shigaraki advances. Unless the player changes the climax, Izuku leaps in to protect him, the faculty arrive with Tenya, Snipe shoots Shigaraki, and Shigaraki and Kurogiri escape. Police arrest the remaining thugs. Aizawa and Thirteen go directly to the hospital; Recovery Girl treats the students.\n\nKurogiri's interference cuts the dome's communications; the main campus gets no breach alarm. A party in U.A. Academy's Faculty Office first hears the attack from Tenya and can help bring the response sooner. Class 1-A students fight where the mist drops them; other U.A. courses remain on campus unless the story gives them a route. Faculty, pros and sidekicks join the rescue. Villains can enter as hired muscle from the League Hideout Bar; Shigaraki and Kurogiri return there last, Shigaraki wounded and raging at his Sensei's monitor. Civilians meet police and ambulances on the road to the USJ. Injured parties keep their condition and receive aid.\n\nThe event is complete when the attackers have escaped or been captured, the faculty hold the dome, and the wounded are in medical care.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_usj_attack",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

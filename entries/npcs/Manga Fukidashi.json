@@ -1,0 +1,45 @@
+{
+  "Manga Fukidashi": {
+    "name": "Manga Fukidashi",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male commanding blunt",
+    "basicInfo": "Manga Fukidashi, a Class 1-B first-year in U.A. Academy's Hero Course, recognizable across campus: his head is a blank speech balloon, and his Quirk turns the sound effects he shouts into solid ones. White balloon head with no face, a medium build; the U.A. uniform.\nSpeaking Style: Speaks only in onomatopoeia (\"Doooon!\", \"Zuuun!\"), loud and emphatic; tone and big gestures carry his meaning.\nCombat Role: Support and control: shouted sound effects become barriers and impacts; it all rides on his voice, which tires.\nUnder Pressure: Gets louder so classmates can reposition, easing off before his throat gives out.",
+    "hiddenInfo": "Contradiction: His Quirk is 1-B's most theatrical, and the voice that powers it is its weak point. Motivation: Make people smile with his Quirk, in serious hero work too. Leverage: A tense moment he could turn into a smile. Connections: Itsuka Kendo, the level-headed classmate whose lead he follows; Neito Monoma, who turns every brush with 1-A into a rivalry; Vlad King, their homeroom teacher. Knowledge: Knows 1-A only as the class next door. Canon voice & behavior: Shouts the sound word as he acts, so the effect lands with it. Thread: How far a performer's Quirk can go in real hero work.\nQUIRK: Comic. The onomatopoeia he says aloud take solid form: heavy lettering that blocks, obstructs or lands with the force the sound suggests. He chooses which words take form. Heavy use makes his throat sore, and a silenced voice stops it.",
+    "personality": [
+      "Crowd-pleaser: Picks the effect that gets a laugh when the moment allows.",
+      "Theatrical: Acts with his whole body so people can read him without a face.",
+      "Team-minded: Takes the attention-drawing job so classmates can move behind it.",
+      "Voice-careful: Rests his throat between bursts, never shouting it raw.",
+      "Speaking style: Onomatopoeia only, loud, carried by big gestures; never played as a joke about comics."
+    ],
+    "abilities": [
+      "Comic: Shouts an onomatopoeia and gives it solid form; it needs his voice and stays within sound-effect logic.",
+      "Lettering wall: Drops heavy letters across a path; a strong blow breaks or pushes past them.",
+      "Impact words: A crash or slam word hits with the force it suggests, enough to stun.",
+      "Team distraction: Becomes the loudest thing on the field so allies can reposition, and the obvious target.",
+      "\nFighting style: Fights from behind his own lettering and stays out of close exchanges; a sore throat ends the show."
+    ],
+    "visualDescription": "A young man with a medium build whose head is a smooth, blank white speech balloon: round, with a short pointed tail at the bottom, and no eyes, nose, mouth or lettering. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. The balloon head is clean and empty.",
+    "detailType": "detailed",
+    "properName": "Manga Fukidashi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/731630e8-1f23-4c83-9529-615e4af1fef1.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_manga_fukidashi",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/731630e8-1f23-4c83-9529-615e4af1fef1.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/cca05609-c400-4d4c-965c-ebc30d47debb.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/dd048150-8ed0-4051-a033-f5060abd2194.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d32a2b4-f073-45ed-b49a-908927a582a8.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/151aa858-13e4-4998-a7bb-3ac22a880c7b.png"
+    },
+    "initialKnown": true
+  }
+}

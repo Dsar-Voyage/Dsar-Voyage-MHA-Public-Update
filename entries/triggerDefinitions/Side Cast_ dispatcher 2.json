@@ -1,0 +1,22 @@
+{
+  "Side Cast: dispatcher 2": {
+    "name": "Side Cast: dispatcher 2",
+    "recurring": true,
+    "effects": [],
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 48
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 140
+      }
+    ],
+    "script": "(function(){/*storage_pack:v1:[true,[[304,9]]]*/const __pr=[[304,9]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"wrapped\",[[304,1,0,false],[305,8,0,true]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(304)===undefined){skip=true;return;}const __HT0=__hc(__hv(304));const __HT1=[];for(let n=305;n<313;n++){const v=__hv(n);if(v!==undefined)__HT1.push(__hc(v));}/*cast_pack:v1:1*/const __cpS=__HT0;const E=__HT1;const __cpU=[45,18,76,48,41,26,22,11,42,51,13,77,78,53,79,47,80,49,81,46,82,19,24,52,16,38,39,83,40,54,84,14,15,25,50,75,17,85,86,43];function __cpR(R){for(const r of R)for(let i=0;i<5;i++)if(typeof r[i]==='number')r[i]=__cpS[r[i]];}for(const r of E)__cpR(r[1]);for(let i=0;i<__cpU.length;i++)if(typeof __cpU[i]==='number')__cpU[i]=__cpS[__cpU[i]];const STU=__cpU,STG=[\"\",\" (Sports Festival)\",\" (Summer Training)\",\" (Provisional License)\"];const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));const nm=x=>STU.indexOf(x)>=0?x+STG[sg]:x;function ok(n){if(check({type:'npc-in-party',npc:n})===true)return false;const h=check({type:'npc-health',npc:n});return !(typeof h==='number'&&h<=0);}const OWh=storage.castOwner||{};for(const [id,R] of E){if(effects.length>=10)break;const lv=storage['live_'+id]===true,dn=storage['done_'+id]===true;let ret=false;if(lv&&!dn&&!storage['sc_'+id]){}else if(dn&&storage['sc_'+id]&&!storage['sr_'+id])ret=true;else continue;const st=check({type:'narrative-event-status',eventId:id});if(ret?st==='active':st!=='active')continue;const CK=(ret?'srN_':'scN_')+id;let i=storage[CK]||0;for(;i<R.length&&effects.length<10;i++){const [b,lo,ar,hl,ha]=R[i];const n=nm(b);if(!ok(n))continue;if(ret){if(!hl||OWh[b]===900)continue;effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:hl,area:ha});}else effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:lo,area:ar});}storage[CK]=i;if(i>=R.length)storage[(ret?'sr_':'sc_')+id]=true;}if(!effects.length)skip=true;})();"
+  }
+}

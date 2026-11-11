@@ -1,0 +1,17 @@
+{
+  "The Team-Up Contract": {
+    "name": "The Team-Up Contract",
+    "questSource": "Endeavor",
+    "questStatement": "With All Might retired, the districts he used to cover are short of a hero, and agencies across the country are scrambling to fill the gap. The Endeavor Hero Agency is offering team-up contracts to smaller agencies willing to take patrol shifts under its command, and your agency wants one. First comes a trial: a week on the Operations Floor beside Endeavor's sidekicks, under a hero who forgives nothing.",
+    "mainObjective": "Earn your agency a team-up contract by passing a trial week at the Endeavor Hero Agency.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has finished a trial week at the Endeavor Hero Agency, and the team-up contract has been signed, refused or lost on the strength of the PC's work."
+    },
+    "detailType": "detailed",
+    "questLocation": "Endeavor Hero Agency",
+    "questDesignBrief": "High-pressure professional work after Kamino: crime is up, the public is frightened, and Endeavor, now the highest-ranked active hero, drives his people hard. Burnin runs the trial and answers cockiness with a race; Endeavor gives orders, not praise, and judges results. Endeavor shuts down any personal question, and nothing about the Todoroki family beyond public knowledge enters the quest. Unless the story has established otherwise, All Might is retired and Endeavor tops the active heroes; the quest never predicts or decides a Billboard Chart result. Failure: no contract, and Endeavor remembers the PC as a weak link.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

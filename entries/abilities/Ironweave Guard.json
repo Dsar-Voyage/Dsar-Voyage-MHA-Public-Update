@@ -1,0 +1,24 @@
+{
+  "Ironweave Guard": {
+    "name": "Ironweave Guard",
+    "description": "The user tightens and packs the weave of every garment worn by the people they choose in sight, a whole crowd at once, until each is stiff and dense enough to serve as body armor. For the rest of the scene that clothing stops blades, glass and thrown debris and takes the worst of blows, blasts and falls, so its wearers suffer only light harm from them, while it still moves freely. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

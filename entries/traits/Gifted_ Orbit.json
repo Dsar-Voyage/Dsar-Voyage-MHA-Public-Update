@@ -1,0 +1,32 @@
+{
+  "Gifted: Orbit": {
+    "name": "Gifted: Orbit",
+    "description": "🧬 Orbit, as an extra Quirk put into your body.\n\n🌱 Keep a few small objects circling within arm's reach to knock attacks aside, and fling one off its circle as a sling shot.\n📈 Training adds a circling cord, a gravel ring, a filming loop, catching falling people, a debris shield and, at the top, every thrown thing pulled into your ring.\n⚠️ Objects only circle you and never hang still, and a wall or a body in their path knocks them out of orbit.\n🔗 Common drawback pairing: Stamina Drain, as every object you keep circling draws on your breath.\n🎬 Similar canon Quirks: none close.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Orbit family): Scale: touched-and-released objects circle the user instead of dropping, returning to hand when called. A new adult user keeps up to about five brick-weight objects circling, arm's length to about three meters out, for about a minute; a released one flies straight on at circling speed. Heavier objects, wider rings, people and debris shields need techniques. Limits: orbits center only on the user and move with them; nothing hangs still. A wall, ceiling or body in the path knocks an object down: cramped in corridors, risky in crowds. If the user is knocked out, all fly off along their paths. Any material; weight unchanged. Quirk Strain: light: a few small objects, one sling shot; moderate: circling cord, gravel ring, scouting loop; heavy: catching a falling person, debris shield; severe: signature throw, gathering all thrown at the user. Type: Emitter. Law: a sling shot is a thrown weapon; a lost orbit in a crowd is the user's Quirk use.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

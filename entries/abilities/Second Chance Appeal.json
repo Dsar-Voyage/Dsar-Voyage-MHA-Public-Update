@@ -1,0 +1,15 @@
+{
+  "Second Chance Appeal": {
+    "name": "Second Chance Appeal",
+    "description": "The user lays out the person's real situation and offers them a real alternative: a lawyer, protection, a job, a clean start. The person agrees to a concrete, reasonable request, such as testifying, standing down, leaving a gang or handing over a key, and keeps to it after the user leaves unless they are threatened or deceived. A committed villain or anyone devoted to a cause is not moved. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Persuasion",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

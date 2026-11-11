@@ -1,0 +1,20 @@
+{
+  "Reckless": {
+    "name": "Reckless",
+    "description": "🪂 You jump first and think on the way down.\n\n🤸 You have fallen often enough to land well and roll out of a hard landing.\n🎲 Risky moves sometimes win the moment, with real odds and never a guaranteed success.\n⚠️ You get hurt more often, ignore plans and drag teammates into danger, and examiners take note.\n🔀 If you are also Meticulous, you plan with care and abandon the plan at the first surprise.\n\n📈 Grants: Acrobatics +5",
+    "traitNarrativeEffects": "The character takes risks others will not: leaping between roofs, charging a stronger enemy, ignoring a stop signal, pushing a technique to the edge of what they can handle. Sometimes it wins the moment, and years of falls taught them to roll out of a landing. Weakness: they get hurt more often, ignore plans and orders and drag teammates into danger. Teachers, supervisors and license examiners take note. The narrator gives risky moves real odds and real injuries, never guaranteed success. If the character is also Meticulous, they plan with care and abandon the plan at the first surprise. The narrator never makes the jump for them: the player decides when the character takes the risk.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Acrobatics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

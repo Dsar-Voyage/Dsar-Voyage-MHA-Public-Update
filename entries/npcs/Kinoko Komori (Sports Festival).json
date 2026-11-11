@@ -1,0 +1,44 @@
+{
+  "Kinoko Komori (Sports Festival)": {
+    "name": "Kinoko Komori (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "female melodic bright",
+    "basicInfo": "Kinoko Komori, hero name Shemage, a Class 1-B first-year in U.A. Academy's Hero Course. At the Sports Festival she was part of Itsuka Kendo's cavalry team with Yui Kodai and Reiko Yanagi, which finished outside the top four in a stadium too dry for her Quirk. Honey-brown mushroom bob, long bangs over brown eyes; the U.A. uniform.\nSpeaking Style: Bright, bubbly mushroom wordplay until a plan comes together; then short, focused tactics.\nCombat Role: Area controller, only as effective as the ground is damp.\nUnder Pressure: The puns stop and she gets precise.",
+    "hiddenInfo": "Contradiction: She wanted the stadium to see a serious Quirk and got almost nothing to grow on. Concealment: The cameras' focus on 1-A grated. Connections: Itsuka Kendo, class representative and her team's rider. Canon voice & behavior: Puns, then goes quiet and exact. Thread: Whether 1-B gets noticed for itself.\nQUIRK: Mushroom: spores sprout on surfaces, skin or inside a body that breathes them; humidity sets the pace, and she never lets airway growth go far.\nSTAGE: After the Sports Festival: hero name Shemage.",
+    "personality": [
+      "Observant: Scans every venue for water, shade and damp ground first.",
+      "Playful: Cheers her team on in mushroom puns.",
+      "Competitive: Turns unsettlingly gleeful when a winning tactic comes together.",
+      "Speaking style: Cheerful mushroom wordplay that gives way to short, focused tactical remarks."
+    ],
+    "abilities": [
+      "Spore release: Scatters spores over an area or a target; growth needs moisture and a few moments.",
+      "Surface growth: Sprouts mushrooms on floors, walls and gear to block, trip and distract.",
+      "Screening: Grows clusters that cut sight lines and hide teammates; dry air keeps them thin.",
+      "Safety stop: Calls a halt and the medical team at any breathing symptom.",
+      "\nFighting style: Seeds the ground to slow rivals and screen teammates, leaving grabs and holds to others."
+    ],
+    "visualDescription": "A young woman with a honey-brown bob cut in a rounded mushroom shape, long bangs falling over her brown eyes, fair skin and a medium build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Cheerful, playful smile.",
+    "detailType": "detailed",
+    "properName": "Kinoko Komori",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/984ae291-de65-4430-a775-281df6ade99a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kinoko_komori",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/984ae291-de65-4430-a775-281df6ade99a.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/94a11229-446f-4b5c-8e54-aff1dba27e10.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c42f768-f183-477e-b690-29f7e5c24547.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/6db82ea5-fcab-403c-ab48-9bed8779b8e9.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/881c2dec-8e6f-4503-849a-a48219cddc22.png"
+    },
+    "initialKnown": false
+  }
+}

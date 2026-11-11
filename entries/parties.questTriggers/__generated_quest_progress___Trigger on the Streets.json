@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Trigger on the Streets": {
+    "name": "__generated_quest_progress__/Trigger on the Streets",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has identified the Trigger dealer working the station's Back Alleys and has put him and evidence of his sales in police hands, or has ended his sales another way."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Trigger on the Streets"
+      }
+    ]
+  }
+}

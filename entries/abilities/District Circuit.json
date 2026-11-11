@@ -1,0 +1,25 @@
+{
+  "District Circuit": {
+    "name": "District Circuit",
+    "description": "The user runs every street, alley, lobby and stairwell of a whole district in under a minute. They learn where every injured or trapped person and every armed enemy in the open is, pluck every gun, blade and detonator from enemy hands as they pass, and carry anyone in the path of immediate harm to the nearest safe spot. The user must brake around crowds or risk collisions. Afterward their soles have burned through, their feet are blistered and they cannot speed up for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

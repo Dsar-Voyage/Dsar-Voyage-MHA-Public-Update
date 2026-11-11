@@ -1,0 +1,25 @@
+{
+  "Ashfall Block": {
+    "name": "Ashfall Block",
+    "description": "The user presses a full hand to the ground and lets the decay run through it across a whole city block: asphalt, cars, barricades and cover crumble to gray dust, and every enemy standing on it drops into loose grit, taking massive bludgeoning damage. The decay stops at living flesh, and the user must hold it out of every building with people inside, or those buildings come down. Held back to the surface, it levels cover and vehicles alone. Afterward the user's hands crack and go numb, and they cannot decay anything for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

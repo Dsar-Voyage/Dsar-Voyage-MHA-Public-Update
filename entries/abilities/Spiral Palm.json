@@ -1,0 +1,20 @@
+{
+  "Spiral Palm": {
+    "name": "Spiral Palm",
+    "description": "The user releases a small spiral shockwave from one palm toward a person or loose object within several meters. It deals light bludgeoning damage and pushes the target a step; held back, it moves the target without injury. The wave travels slowly enough for an alert person with room to move to dodge it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

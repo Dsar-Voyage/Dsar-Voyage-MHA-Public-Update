@@ -1,0 +1,15 @@
+{
+  "side_pool_day": {
+    "title": "Pool Day",
+    "beats": "A hot afternoon in the summer break, days before the forest training camp. Minoru Mineta and Denki Kaminari have a lazy, glamorous afternoon by U.A.'s Indoor Pool all planned, and talk the rest of the men of Class 1-A into coming along. Their plans fail at the door: Tenya Iida has a signed booking from Shota Aizawa for a proper training session, and the women of the class are already swimming laps with Tsuyu Asui coaching from the deep lane. Aizawa sits on the spectator bench with a whistle.\n\nDefault course, as pressure the player can change: the session runs on treading water in clothes, towing a limp partner and controlled Quirk use in the water. Ochaco Uraraka floats herself a rest above the lanes, Tsuyu stays under long enough to alarm newcomers, and Mineta's plans collapse into earnest laps once Iida starts timing him. By late afternoon the men turn it into a fifty-meter freestyle race with Quirks allowed: Iida's engines churn the lane white, Eijiro Kirishima mostly sinks, Shoto Todoroki skates across his own ice, and Katsuki Bakugo blasts down the pool above the water. The heats leave Bakugo, Izuku Midoriya and Todoroki for the final. As they take their marks, the clock hits five, Aizawa blows the whistle and the pool closes; the final never runs, and Bakugo's fury is the last splash of the day.\n\nA party can race in the heats, coach a weak swimmer, keep Mineta and Kaminari honest, or try to talk Aizawa into one last race; he almost never gives one, and a party has to have earned it.\n\nBy path: a 1-A party is part of the session. A 1-B party has the next lanes booked under the same rule, and Neito Monoma turns the race into a challenge between the two classes.\n\nThe event is complete when the whistle closes the pool, or the party leaves.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_pool_day",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

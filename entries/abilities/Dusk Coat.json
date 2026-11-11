@@ -1,0 +1,20 @@
+{
+  "Dusk Coat": {
+    "name": "Dusk Coat",
+    "description": "The user pulls the surrounding shadow around their body as a close-fitting coat of flat black. For the rest of the scene, while they keep to shadowed ground, watchers and cameras cannot pick them out beyond a few strides, so they can scout a dark warehouse or slip past guards to a hostage; a flashlight beam or a lit doorway strips the coat away at once. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

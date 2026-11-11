@@ -1,0 +1,20 @@
+{
+  "Pinning Thicket": {
+    "name": "Pinning Thicket",
+    "description": "The user drives a spray of thin blades from the forearm into the floor or wall around a target, through their sleeves, pant legs and coat but never their skin. The target is pinned where they stand: they cannot step away or raise their arms until they tear free with a hard effort, wriggle out of their clothes or the user draws the blades back. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

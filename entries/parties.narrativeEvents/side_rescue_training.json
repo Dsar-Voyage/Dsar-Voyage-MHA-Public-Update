@@ -1,0 +1,15 @@
+{
+  "side_rescue_training": {
+    "title": "Rescue Training Day",
+    "beats": "An afternoon block of Foundational Hero Studies in Ground Beta, U.A.'s mock city. Thirteen has rigged an earthquake scenario: cracked Mock City Streets full of debris, smoke pouring from the Training Building, and training dummies and tagged volunteer casualties under rubble and stranded on the Mock City Rooftops. Shota Aizawa watches from a roof with a clipboard and a stopwatch. The class rides out from the Campus Bus Terminal in teams of four, each scored on lives saved, time and clean handoffs at the aid point.\n\nThirteen opens with one plain rule: in a rescue, the first job is not to become another casualty. Default course, as pressure the player can change: Katsuki Bakugo tries to clear his district alone and his team scrambles after him; Izuku Midoriya, moving in quick bounds since the internships instead of breaking bones, finds a buried dummy nobody else saw; Tsuyu Asui and Ochaco Uraraka lift people out of a collapsed stairwell; Momo Yaoyorozu creates splints and stretchers faster than anyone can carry them; Eijiro Kirishima holds up a slab; Tenya Iida runs patients to the aid point; Shoto Todoroki freezes a flooding water main.\n\nMidway the twist hits: Ectoplasm and a crowd of his clones burst out of the Training Building as a surprise villain, and the drill becomes a rescue under threat. Beating him is not the task. Teams score for keeping casualties safe and warning each other fast; a team that chases the villain and leaves its patients behind loses the most points, and that lesson is the heart of the debrief. A sharp party can still pin a clone or two while the others evacuate, and Aizawa notes who thought of the patients first.\n\nBy site and path: a party at U.A. Academy joins at the Campus Bus Terminal. A 1-A party is one of the teams; a 1-B party runs the same drill under Vlad King in the next block, or joins a mixed team for the day.\n\nIt is a supervised drill: the teachers stop any blow that could seriously hurt someone, and anyone knocked down is only winded or bruised and is pulled out to the aid point; no student is badly hurt or killed.\n\nThe event is complete when Thirteen calls the end of the drill and reads the scores, or the party leaves Ground Beta.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_rescue_training",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

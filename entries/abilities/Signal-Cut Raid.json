@@ -1,0 +1,20 @@
+{
+  "Signal-Cut Raid": {
+    "name": "Signal-Cut Raid",
+    "description": "Before the attack, the user slips around the site and cuts it off: a jammer switched on, a phone line cut, a guard taken out quietly, an exit chained. When the attack starts, nobody inside can call for help or get word out until someone reaches a working line beyond the site. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "League of Villains Recruit",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

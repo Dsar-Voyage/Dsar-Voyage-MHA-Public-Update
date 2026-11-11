@@ -1,0 +1,36 @@
+{
+  "Aerial Control": {
+    "name": "Aerial Control",
+    "description": "🪂 You move through the air with control.\n\n🌀 Tighter turns, cleaner landings and the balance to act or carry someone while airborne.\n📋 Requires level 16 and Quirk Mobility 15.\n🚫 Not available to Quirkless characters.\n\n📈 Grants: Quirk Mobility +5, Acrobatics +5",
+    "traitNarrativeEffects": "The character has learned to control their body in the air while their Quirk moves them: they correct a spin, change direction mid-leap or mid-flight, land on a narrow ledge and keep their bearings in a fall. Show it in smooth arcs, sure landings and the confidence to act in midair. Limits: it improves handling, not the Quirk's range, speed or lift; a Quirk that cannot fly still cannot fly, and passengers, wind and high Strain still make air work dangerous. Moving through the city by Quirk is public Quirk use and needs a license or an emergency. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Acrobatics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 15
+      }
+    ]
+  }
+}

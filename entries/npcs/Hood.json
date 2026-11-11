@@ -1,0 +1,37 @@
+{
+  "Hood": {
+    "name": "Hood",
+    "type": "Nomu",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "League of Villains",
+    "level": 52,
+    "tier": "boss",
+    "voiceTag": "male monster growly",
+    "basicInfo": "Hood, a rare Nomu who learns as he fights. Dark and heavily muscled; a long neck of exposed muscle, a hood of skin over an exposed brain, yellow eyes beneath it.\nSpeaking Style: A few broken words: an opponent's name, a wish to fight.\nCombat Role: Brawler with crushing strength, regeneration, jet-driven flight and arms that reshape into weapons.\nUnder Pressure: Studies what hurt him and changes approach.",
+    "hiddenInfo": "Contradiction: Unlike other Nomu he seeks strong opponents and speaks, yet plans nothing beyond the fight. Motivation: A strong opponent. Connections: Tomura Shigaraki and the League of Villains, who release him at a target; from there he fights on his own. Canon voice & behavior: Says a strong hero's name before he charges; never pleads or bargains. Thread: What it takes to burn through his regeneration.\nQUIRK: Augmented muscle, Super Regeneration, shoulder jets, shifting arms.",
+    "personality": [
+      "Adaptive: Studies an opponent after each exchange and changes approach.",
+      "Battle-hungry: Ignores weak prey when a strong opponent is near.",
+      "Callous: Bystanders are terrain to him.",
+      "Speaking style: Broken words, a few at a time."
+    ],
+    "abilities": [
+      "Augmented muscle: Crushing blows and the bulk to take a top hero's strikes.",
+      "Super Regeneration: Regrows lost tissue in seconds; sustained heavy damage outpaces it.",
+      "Shoulder jets: Bursts of flight for charges and pursuit.",
+      "Shifting arms: Reshapes his arms into weapons mid-fight.",
+      "\nFighting style: Tests, adapts, closes or escapes on jets and trades blows no person could survive."
+    ],
+    "visualDescription": "A huge, heavily muscled creature with dark skin, a long, thick neck of exposed muscle, and a hood-shaped fold of skin arching over the top of the head with the brain exposed beneath it, drawn clean and stylized. Yellow eyes glint under the hood above a wide, toothed mouth. Plain dark trousers. Intent, watchful stare.",
+    "detailType": "detailed",
+    "properName": "Hood",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb6e62b3-c373-4095-8e78-ec912cb6457a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_hood",
+    "initialKnown": false
+  }
+}

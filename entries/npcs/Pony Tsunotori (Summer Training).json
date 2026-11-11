@@ -1,0 +1,44 @@
+{
+  "Pony Tsunotori (Summer Training)": {
+    "name": "Pony Tsunotori (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 16,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Pony Tsunotori, hero name Rocketti, a Class 1-B first-year in U.A. Academy's Hero Course from the United States. Since the festival she has interned for a week, sat the final exams and trained at the forest camp beside 1-A, where she lived through the League of Villains' attack. Long wavy blond hair, large dark eyes, two tall horns, hooves; the U.A. uniform or her orange jockey-style hero costume.\nSpeaking Style: Bright and earnest; more fluent now, English when words run out.\nCombat Role: Mid-range support and mobility with steadier four-horn control.\nUnder Pressure: Lifts people out of danger first.",
+    "hiddenInfo": "Contradiction: Camp threw 1-B together with 1-A, and she came away curious about the rivals, not resentful. Motivation: Sharper control, and friends on both sides of the class line. Connections: 1-A's students, met properly at camp. Knowledge: Knows the attack from inside the forest; Katsuki Bakugo's kidnapping, Kamino and All Might's retirement from the news. Thread: Whether the summer makes 1-B and 1-A less like rivals.\nQUIRK: Horn Cannon: four horns at most, steadier since camp.\nSTAGE: After the summer camp and Kamino; U.A. locked down.",
+    "personality": [
+      "Friendly: Makes friends across the class line.",
+      "Diligent: Drills until the horn paths come without thinking.",
+      "Trusting: Still misses the intent behind misleading wording.",
+      "Speaking style: Bright and earnest; English when Japanese runs out, idioms taken literally."
+    ],
+    "abilities": [
+      "Horn Cannon: Fast, solid horn shots that grow back; four in the air at most.",
+      "Four-horn control: Cleaner paths and quicker target changes since camp.",
+      "Horn flight: Carries herself or a teammate; a carrying horn cannot strike or block.",
+      "English: Talks easily with foreign visitors; her Japanese is catching up.",
+      "\nFighting style: Keeps her distance, splits her horns between striking, blocking and carrying, and turns all four to a rescue."
+    ],
+    "visualDescription": "A young woman with long, wavy light-blond hair and full straight bangs, large round dark blue-gray eyes, a small, plain nose, fair skin and a medium build. Two large ivory horns with faint ring ridges curve outward and up from the top of her head. She stands on two legs that end in hooves. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Cheerful, determined expression.",
+    "detailType": "detailed",
+    "properName": "Pony Tsunotori",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_pony_tsunotori",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/49cc5352-0af0-4a38-969b-ea833ecb8d07.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/3519c7b9-19f4-4545-847c-403bd52d5e78.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb6d0a48-0d13-4124-ace8-8dca9c73bb4f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/bc8951d5-c27c-4905-93bf-6ab2ed860f0d.png"
+    },
+    "initialKnown": false
+  }
+}

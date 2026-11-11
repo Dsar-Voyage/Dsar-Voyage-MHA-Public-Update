@@ -1,0 +1,25 @@
+{
+  "Wildfang Rampage": {
+    "name": "Wildfang Rampage",
+    "description": "The user's signature move: they let the beast loose for a single rampage across the whole scene that swerves around allies and bystanders. Every enemy within a street's length is struck once, taking massive slashing and bludgeoning damage and being thrown down, and barricades, vehicles and walls in the path are smashed aside; afterward the user is forced back to human form and cannot change until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

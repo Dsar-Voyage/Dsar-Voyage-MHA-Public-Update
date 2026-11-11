@@ -1,0 +1,99 @@
+{
+  "League: booth to the counter (any Path)": {
+    "name": "League: booth to the counter (any Path)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "lg_start",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-boolean",
+        "key": "live_v_vanguard_briefing",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_vanguard_briefing",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "League Hideout Bar"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Tomura Shigaraki",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Kurogiri",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Dabi",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Himiko Toga",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Twice",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Spinner",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Mr. Compress",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Magne",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      }
+    ]
+  }
+}

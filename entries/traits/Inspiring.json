@@ -1,0 +1,20 @@
+{
+  "Inspiring": {
+    "name": "Inspiring",
+    "description": "🌟 When you speak, people stand up straighter. When you act, they follow.\n\n📣 You rally frightened crowds and tired teammates, and morale rises around you.\n⚠️ People copy your risks, and you feel every one of them who gets hurt following you.\n⚠️ Being looked up to is heavy; you cannot afford to be seen failing.\n🔀 If you are also Shy, you inspire by example, never by speeches.\n\n📈 Grants: Leadership +5",
+    "traitNarrativeEffects": "The character is inspiring: their words and example rally frightened crowds and tired teammates, and morale rises around them. Weakness: people copy their risks, they feel responsible for everyone who follows them, and the weight of being looked up to makes failure in public hard to bear. If the character is also Shy, they inspire by example, never by speeches. The narrator shows who is watching them; what example they set is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

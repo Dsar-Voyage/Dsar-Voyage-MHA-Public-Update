@@ -1,0 +1,20 @@
+{
+  "Crossguard Catch": {
+    "name": "Crossguard Catch",
+    "description": "The user throws a forearm into the path of a strike aimed at them or at someone within arm's reach and grows a blade at the point of impact. The attack is stopped; a knife, bat, pipe or staff is cut through and useless, and an attacker striking barehanded takes slashing damage to the striking hand. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

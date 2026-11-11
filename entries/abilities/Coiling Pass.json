@@ -1,0 +1,20 @@
+{
+  "Coiling Pass": {
+    "name": "Coiling Pass",
+    "description": "The user sets a rope, a cable or a coat circling and widens the circle until it sweeps a target within a few strides, winding around them several times and binding their arms to their sides. The target cannot use their arms until they work free with a hard effort or are cut loose, and the bind never tightens past holding; the user needs a cord at least a few meters long. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

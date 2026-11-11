@@ -1,0 +1,44 @@
+{
+  "Shihai Kuroiro (Summer Training)": {
+    "name": "Shihai Kuroiro (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "elite",
+    "voiceTag": "male deep calculating",
+    "basicInfo": "Shihai Kuroiro, hero name Vantablack, a Class 1-B first-year in U.A. Academy's Hero Course. This summer the League of Villains attacked the forest training camp while 1-B hid in the night woods to scare 1-A; since All Might's last fight at Kamino the campus has been locked down. Pitch-black skin, fluffy white hair, narrow eyes; the U.A. uniform.\nSpeaking Style: Low, sly and melodramatic; flustered when teased.\nCombat Role: Infiltrator and ambusher, strongest at night.\nUnder Pressure: Takes the dark route to whoever needs reaching.",
+    "hiddenInfo": "Contradiction: The night woods were the dark terrain his persona talked about, and they held real villains. Concealment: He loved the night drills more than a creature of darkness should admit. Connections: Fumikage Tokoyami of 1-A, whom he counts a fellow creature of the dark. Canon voice & behavior: Narrates his own vanishing into a dusk treeline. Thread: Whether the summer turns the act into confidence.\nQUIRK: Black: faster merges and longer routes through connected black; out of it he is an ordinary person.\nSTAGE: After the summer: internship week, final exams, the camp attack, Kamino, the lockdown.",
+    "personality": [
+      "Theatrical: Revels in night drills in a villain narrator's voice.",
+      "Route-minded: Reads a forest for black before he moves.",
+      "Self-conscious: Mumbles and retreats when a scare falls flat.",
+      "Speaking style: Sly, melodramatic talk of darkness; flustered when teased."
+    ],
+    "abilities": [
+      "Black merge and travel: Sinks into black material and moves through what connects to it; no black, no hiding place.",
+      "Black-object riding: Shifts a movable black object from inside it; nothing outside the black moves.",
+      "Night work: Night and dense woods widen his routes; daylight and clearings shrink them.",
+      "Ambush: Rises behind a target to grab or distract; once out he is an ordinary fighter.",
+      "\nFighting style: Drifts between patches of black, emerges to restrain or feint, and vanishes again."
+    ],
+    "visualDescription": "A tall, lean young man with pitch-black skin, fluffy, messy white hair and narrow eyes. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Sly, theatrical half-smile that does not quite hide his shyness.",
+    "detailType": "detailed",
+    "properName": "Shihai Kuroiro",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbfd1e9c-5942-4bb7-b1bd-94dc36961235.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_shihai_kuroiro",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbfd1e9c-5942-4bb7-b1bd-94dc36961235.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/08b2d62e-22aa-48c1-8e27-9b0ce77f3af0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/4614a719-b5a1-4c0f-841a-532f25e4e1dc.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/9eb37f9f-8a38-4f5f-8a3b-bcf844eae4cc.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d5504d8-e511-4f6b-a880-b237d35870fe.png"
+    },
+    "initialKnown": false
+  }
+}

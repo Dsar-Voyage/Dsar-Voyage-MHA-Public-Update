@@ -1,0 +1,43 @@
+{
+  "Event Arrival: day-2 class onto the athletics field (action)": {
+    "name": "Event Arrival: day-2 class onto the athletics field (action)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "fdField1A",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Aa]thletic|[Ff]ield|[Tt]rack|[Qq]uirk [Aa]ssessment|[Qq]uirk [Tt]est"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Athletics Field"
+      },
+      {
+        "type": "write-boolean",
+        "key": "fdField1A",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

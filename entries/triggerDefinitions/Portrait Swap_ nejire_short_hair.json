@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: nejire_short_hair": {
+    "name": "Portrait Swap: nejire_short_hair",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_war_casualty_roll",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Nejire Hado",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e918829a-e8d1-4dee-b71f-900d4ace2d78.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Harbor Colossus": {
+    "name": "Harbor Colossus",
+    "description": "After a meal of crab, lobster or clams, the user grows a single feature to the size of a building: a claw that lifts a bus or tears the roof off a wreck, or a shell dome that covers a crowd filling a street. The claw deals massive bludgeoning damage to every enemy in a street-wide sweep, or held back, pins them under its weight; the dome takes every blade, blow and falling slab until the end of the user's next turn. Either form burns every meal eaten that day, and the user cannot manifest again until they eat. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

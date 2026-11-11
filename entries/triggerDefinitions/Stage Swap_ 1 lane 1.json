@@ -1,0 +1,33 @@
+{
+  "Stage Swap: 1 lane 1": {
+    "name": "Stage Swap: 1 lane 1",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const S=1,L=[[\"Denki Kaminari\", 0, \"U.A. Academy\", \"Class 1-A Homeroom\"], [\"Katsuki Bakugo\", 10, \"U.A. Academy\", \"Class 1-A Homeroom\"], [\"Mina Ashido\", 19, \"U.A. Academy\", \"Class 1-A Homeroom\"], [\"Shoto Todoroki\", 31, \"U.A. Academy\", \"Class 1-A Homeroom\"], [\"Hiryu Rin\", 4, \"U.A. Academy\", \"Class 1-B Homeroom\"], [\"Kinoko Komori\", 11, \"U.A. Academy\", \"Class 1-B Homeroom\"], [\"Nirengeki Shoda\", 23, \"U.A. Academy\", \"Class 1-B Homeroom\"], [\"Shihai Kuroiro\", 30, \"U.A. Academy\", \"Class 1-B Homeroom\"]],STG=[\"\", \" (Sports Festival)\", \" (Summer Training)\", \" (Provisional License)\"],LK=\"swl1_1\";const D=storage.deadStu||{};const B1=JSON.stringify(check({type:'player-traits'})||'').indexOf('Class 1-B')>=0;const LL=B1?L.filter(x=>x[3]!=='Class 1-A Homeroom').concat(L.filter(x=>x[3]==='Class 1-A Homeroom')):L;for(const [b,i,HL,HA] of LL){const K='sw'+S+'_'+i;if(storage[K]===true)continue;if(effects.length>8)break;const PS=[];for(let j=S-1;j>=0;j--)PS.push(b+STG[j]);const N=b+STG[S];let P=PS[0],F=false;for(const x of PS){const q=check({type:'npc-location',npc:x});if(typeof q==='string'&&q){P=x;F=true;break;}}if(!F){const q=check({type:'npc-location',npc:N});if(typeof q==='string'&&q){storage[K]=true;continue;}}const hp=check({type:'npc-health',npc:P});if(typeof hp==='number'&&hp<=0){D[b]=true;storage.deadStu=D;storage[K]=true;continue;}let l=check({type:'npc-location',npc:P}),a=check({type:'npc-area',npc:P});if(typeof l!=='string'||!l){l=HL;a=HA;}if((storage.castOwner||{})[P.replace(/ \\(.*\\)$/,'')]===900)l='';if(F){const nl=check({type:'npc-location',npc:N});if(typeof nl==='string'&&nl)l='';}const E=[{type:'npc-placement',npc:P,operation:'moveAway'}];if(l)E.push({type:'npc-placement',npc:N,operation:'moveTo',location:l,area:a||''});const r=check({type:'npc-relationship',npc:P});if(typeof r==='number'&&r!==0)E.push({type:'npc-relationship',npc:N,operator:'set',value:r});if(check({type:'npc-in-party',npc:P})===true){E.push({type:'npc-in-party',npc:P,operator:'set',value:false});E.push({type:'npc-in-party',npc:N,operator:'set',value:true});}if(check({type:'known-entity',entity:P})===true){E.push({type:'known-entity',entity:N,operator:'set',value:true});E.push({type:'known-entity',entity:P,operator:'set',value:false});}if(effects.length+E.length>10)break;storage[K]=true;for(const e of E)effects.push(e);}if(L.every(x=>storage['sw'+S+'_'+x[1]]===true))storage[LK]=true;if(!effects.length)skip=true;})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 1
+      },
+      {
+        "type": "read-boolean",
+        "key": "swl1_1",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

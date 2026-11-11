@@ -1,0 +1,20 @@
+{
+  "Fueled Strike": {
+    "name": "Fueled Strike",
+    "description": "After eating sugar, the user lands a powerful close-range punch that deals moderate bludgeoning damage and drives a target back. Held back, the user strikes the ground beside them or uses an open palm to knock them down without a crushing hit. The Quirk adds no reach, and the user's judgment grows duller during the surge. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

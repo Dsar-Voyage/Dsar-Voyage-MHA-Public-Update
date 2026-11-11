@@ -1,0 +1,84 @@
+{
+  "Midoriya Residence": {
+    "name": "Midoriya Residence",
+    "basicInfo": "A modest apartment in a mid-rise building in a quiet residential block about 3.5 km southeast of Musutafu Station and about 5 km south of U.A. Academy's main campus; the Bakugo house is 1.3 km east and Aldera High School under 2.5 km away. Inko Midoriya lives here. Her son Izuku, a U.A. first-year, lives in the academy's dorms and comes home on weekends; his father, Hisashi, works overseas and is rarely home. Inko is warm, anxious and a good cook, and katsudon is the family favorite, made for any big day. The apartment is small and tidy: a narrow entry with shoes lined up, a kitchen and dining table, a living room where the TV is usually on hero news, and Izuku's old bedroom, still crowded with All Might posters and figures and shelves of handwritten hero-analysis notebooks. Family photos cover one wall, most of them of Izuku in All Might shirts. It is a private home: visitors ring the intercom at the building's entrance and come up only if Inko lets them in, and she rarely turns away anyone who says they know her son. Weekday evenings she is home after errands and phones her son; on weekends, when Izuku comes back, the kitchen runs all day. A player can visit, share a meal, bring news from U.A., or find Izuku on a weekend home. The hallway smells of whatever Inko is cooking, and the neighbors' doors open a crack whenever she raises her voice in joy or worry.",
+    "hiddenInfo": "Inko calls Izuku in the dorms every evening, and he keeps the calls short. For ten months before the entrance exam he ran to Dagobah Municipal Beach Park, about 6.5 km west, every day, often before dawn, and came home exhausted and bruised, so she keeps a first-aid kit by the door and watches the news for incidents near the academy. She knows his Quirk came late and is strong, and she suspects he plays down every injury; she has started noting the days his voice sounds strained on the phone, and she is working up the nerve to call the academy herself and ask what his power does to his body. Under all of it is a regret she has never told anyone: years ago, when he was small and no Quirk had come, he asked whether he could be a hero like All Might, and she held him and said she was sorry instead of yes. She backs his dream now partly to make up for that day. His notebooks on pro heroes' Quirks, tactics and weak points still fill a shelf; anyone who read them would know more about local heroes than most villains do, and the apartment door has an ordinary lock. This weekend she has bought pork for katsudon without knowing whether he will come, and if a visitor seems to know how he is really doing, she will ask, and she will not let them leave without an answer.",
+    "x": -3.63,
+    "y": 16.462,
+    "radius": 1,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Midoriya Living Room": {
+        "description": "The main room of the Midoriya apartment, reached through a narrow entry where shoes stand in a tidy row and a first-aid kit waits on the shoe cabinet by the door. It is small and warm: a low sofa with crocheted cushions, a low table with a bowl of mandarins, a TV that is usually on hero news, and a window onto the quiet residential block below. Family photos cover one wall, most of them of Izuku in All Might shirts at every size, from a toddler in a towel cape to a first-year in his U.A. uniform. Visitors ring the intercom at the building's entrance and come up only when Inko lets them in, and she rarely turns away anyone who knows her son. On weekday evenings she sits here with the phone after her errands and calls the dorms; on weekends, when Izuku is home, the table fills with his notebooks and the TV stays on the rankings. Inko's Quirk draws small objects to her hand, so the remote, a teacup or a tissue box slides across the table whenever she reaches for it, startling first-time guests. The air smells of whatever she is cooking. The Midoriya Kitchen opens off one side and Izuku's Old Bedroom is down the short hall.",
+        "paths": [
+          "Izuku's Old Bedroom",
+          "Midoriya Kitchen"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3e8b2f75-056b-4427-a027-8dd213660581.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Izuku's Old Bedroom": {
+        "description": "A small bedroom at the end of the short hall, left as Izuku had it when he moved into U.A.'s dorms: an All Might shrine from floor to ceiling. Posters of All Might cover the walls and the ceiling above the bed, the bedspread and pillow carry his grin, an All Might clock ticks on the desk beside an All Might lamp, and shelves of figures in every pose and every era's costume line the room, with a few pale gaps where the favorites went with him to the dorm. The desk under the window holds an old computer, a cup of chewed pens and a row of handwritten hero-analysis notebooks, numbered on the spines and packed in small, cramped writing with sketches of pro heroes, their Quirks, tactics and weak points, a few of them singed or water-stained at the edges. Inko dusts the room once a week and moves nothing. On weekends home Izuku sleeps here and stays up muttering over fresh notebook pages; a guest let in on a weekday finds it very quiet, every poster smile turned toward the door. The room smells faintly of paper and the laundry soap on the sheets. The only way out is back down the hall to the Midoriya Living Room.",
+        "paths": [
+          "Midoriya Living Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b1443868-d2f7-4c9b-af42-d43ff1f2e4e2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Midoriya Kitchen": {
+        "description": "A narrow galley kitchen with a small dining table pushed against the wall at one end and four chairs, though only one is used on most weeknights. The counters are crowded but orderly: a rice cooker, a deep pan that comes out mainly for katsudon, a wooden rack of bowls, a cutting board worn pale in the middle, and a calendar on the refrigerator with U.A.'s weekends circled and a magnet holding a newspaper clipping about the academy's new faculty. Inko is a good cook, and this is where she shows it: miso soup and grilled fish on ordinary days, and katsudon, the family favorite, for any big day, the cutlets spitting in hot oil while onions simmer in sweet broth. On weekday evenings she cooks for one and puts half away; on weekends, when Izuku comes home, the stove runs from breakfast to dinner, and any visitor is sat down and fed before they can say no. A pack of pork waits in the refrigerator this week. The extractor fan rattles, and the smell of frying cutlets carries down the building's hallway, where the neighbors know exactly what it means. The kitchen opens back into the Midoriya Living Room.",
+        "paths": [
+          "Midoriya Living Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/00b5a20a-89e4-446f-b95a-a045be892273.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb604e42-0df4-44c1-9da7-311aa0dc4a14.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

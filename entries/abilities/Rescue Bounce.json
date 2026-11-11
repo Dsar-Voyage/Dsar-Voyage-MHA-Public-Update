@@ -1,0 +1,20 @@
+{
+  "Rescue Bounce": {
+    "name": "Rescue Bounce",
+    "description": "The user places a ball at the base of a wall and rebounds to a ledge one story above, reaches one stranded person, then guides them down by a clear route. The ball catches others who step on it, so the user marks its position for rescuers. Repeating the climb quickly makes the scalp sore and begins to draw blood. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

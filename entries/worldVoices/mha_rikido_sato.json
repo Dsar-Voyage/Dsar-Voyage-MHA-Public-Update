@@ -1,0 +1,15 @@
+{
+  "mha_rikido_sato": {
+    "label": "Rikido Sato",
+    "voiceTag": "male confident warm",
+    "instructions": "A big young man's warm, low-mid voice with a slight husk. Plain, friendly and unhurried, brightening with real enthusiasm about baking; short grunting effort in a fight, soft and sincere when worried. Never boastful.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

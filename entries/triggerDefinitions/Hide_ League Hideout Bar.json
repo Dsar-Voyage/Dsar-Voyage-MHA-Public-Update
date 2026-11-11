@@ -1,0 +1,37 @@
+{
+  "Hide: League Hideout Bar": {
+    "name": "Hide: League Hideout Bar",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "Independent Villain"
+      },
+      {
+        "type": "party-location",
+        "operator": "notEquals",
+        "value": "League Hideout Bar"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "League Hideout Bar",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

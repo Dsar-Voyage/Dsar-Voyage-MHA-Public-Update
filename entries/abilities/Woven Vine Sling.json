@@ -1,0 +1,20 @@
+{
+  "Woven Vine Sling": {
+    "name": "Woven Vine Sling",
+    "description": "The user forms a broad sling beneath one stranded adult within ten meters and draws them along a clear path onto stable ground by the end of the turn. Layers of clothing or a blanket must separate skin from thorns. The user braces before pulling; a pinned casualty needs debris removed first, and a heavy load strains the neck. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

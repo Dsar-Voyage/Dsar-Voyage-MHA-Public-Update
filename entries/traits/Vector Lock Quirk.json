@@ -1,0 +1,40 @@
+{
+  "Vector Lock Quirk": {
+    "name": "Vector Lock Quirk",
+    "description": "🛑 You lock the motion of moving things in place for a moment, then let them go or turn them onto a new line.\n\n🌱 Touch a punch, a swung bat or a thrown object and it stops dead, then goes on its way or turns onto a new line at the same speed.\n📈 Training adds locking a runner at a glance, midair pivots, easing falls and crashes to a gentle stop, turning gunfire into the floor and rerouting a whole city block.\n⚠️ You never add or store force: a locked thing keeps its own speed, and anything standing still is out of reach.\n🔗 Common drawback pairing: Sensory Overload, as reading every moving thing at once floods your eyes.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Intelligence +1, Quirk Control +10, Quirk Analysis +10, Dodging +5\n⚡ Starting techniques: Frozen Swing, Turnabout Throw",
+    "traitNarrativeEffects": "Scale: the user locks a moving thing's motion so it hangs a moment, then releases it on its old line or a new one, same speed. New adult user, by touch: a punch, swung weapon, thrown object or lunging person, up to motorbike weight at city-street car speed, for a heartbeat or two. Glance, easing and multiple locks need techniques. Limits: motion only (nothing still, parked or a wall); never adds speed or stores force. A locked person still breathes, sees and speaks. Over truck weight or highway speed slides through; unseen, unfelt attacks land. Quirk Strain: light: locking or turning one blow or throw; moderate: glance-locking a runner, midair pivot, easing a fall; heavy: turning gunfire or several chargers; severe: signature stillness, rerouting a block. Type: Emitter. Law: locking a person is use of force; anything turned into a bystander is the user's own Quirk use. Look: pinpoint pupils; locked things stop with a dull thump, dust hanging still.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Dodging",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Frozen Swing",
+      "Turnabout Throw"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "Sugar Rush Quirk": {
+    "name": "Sugar Rush Quirk",
+    "description": "🍬 You turn sugar you eat into a short surge of physical strength.\n\n🌱 At the start you eat about ten grams of sugar for roughly three minutes of strength to lift heavy debris, force a stuck door or overpower an ordinary adult.\n📈 With training: stronger lifts, controlled jumps, protective holds, blows against tougher obstacles.\n⚠️ You need to eat sugar and grow duller during the surge; extra sugar cannot remove that cost, and you gain no speed, armor or healing.\n🔗 Canon Drawback, built in: Finite Fuel, as each surge consumes sugar and eventually ends.\n🎬 Canon Quirk: Rikido Sato's Sugar Rush. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Quirk fuel pack x5, Fuel belt\n\n📈 Grants: Power +1, Quirk Stamina +10, Quirk Output +10, Athletics +5\n⚡ Starting techniques: Sweet Lift, Fueled Strike",
+    "traitNarrativeEffects": "Scale: eaten sugar briefly boosts strength. Start: about 10 g, roughly 3 minutes: heavy debris, jammed doors, blows beyond an ordinary adult. Harder lifts, controlled strength need training.\nLimits: must be eaten, not smelled, touched or carried. Strength only: no speed, intellect, durability or healing. Thinking dulls during the boost, hurting complex choices. More sugar: more or longer effort within trained limits, heavier aftermath. Then normal strength, maybe tired. Unsupported loads can collapse on release.\nQuirk Strain: light: brief lift or strike; moderate: forceful jump, grapple, held support; heavy: moving major debris, fighting the full surge; severe: signature effort, repeated high-power surges.\nDrawback: built in, the canon Finite Fuel.\nCanon: Rikido Sato's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Transformation.\nLaw: user answers for injuries and structural damage.\nLook: swelling muscles.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Athletics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Sweet Lift",
+      "Fueled Strike"
+    ],
+    "startingItems": [
+      {
+        "item": "Quirk fuel pack",
+        "quantity": 5
+      },
+      {
+        "item": "Fuel belt",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

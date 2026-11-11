@@ -1,0 +1,20 @@
+{
+  "Quiet Drop": {
+    "name": "Quiet Drop",
+    "description": "The user catches an unaware target from behind, covers their mouth and drops them with a choke or a strike to the back of the head. The target falls unconscious without a sound, and nobody nearby hears a thing. Works only on a target who has not noticed the user; an armored or hardened target, or a seasoned pro or villain, is only staggered and alerted. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Striker",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

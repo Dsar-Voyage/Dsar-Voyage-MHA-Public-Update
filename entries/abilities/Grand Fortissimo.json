@@ -1,0 +1,25 @@
+{
+  "Grand Fortissimo": {
+    "name": "Grand Fortissimo",
+    "description": "The user's signature move: all the sound the user can build leaves at once as a single beam that runs the length of a city block. It deals massive sonic damage to everything along its line, shatters every window it passes and deafens anyone it hits until the end of the scene; afterward the user cannot make sound with the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

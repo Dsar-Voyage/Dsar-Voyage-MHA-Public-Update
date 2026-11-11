@@ -1,0 +1,20 @@
+{
+  "Calm": {
+    "name": "Calm",
+    "description": "🍃 You are even-tempered every day: slow to anger, quick to forgive, steady in a bad mood.\n\n🕊️ Your steady voice cools arguments, and people come to you to talk things through.\n⚠️ You hide what you feel so well that friends cannot tell when you are hurting.\n⚠️ Hot-headed people take your calm as not caring, and some try hard to get a rise out of you.\n🔀 Calm Under Fire is the emergency version; with both, almost nothing shows on your face.\n\n📈 Grants: Negotiation +5",
+    "traitNarrativeEffects": "The character is calm in everyday life: even-tempered, patient, slow to anger and quick to let things go. Their level voice cools arguments, and friends bring them problems to talk through. Weakness: they keep their feelings so contained that friends miss when they are hurting, and hot-headed people read the calm as indifference and push to provoke them. If the character is also Calm Under Fire, almost nothing shows on their face in any situation. The narrator shows what would rattle other people; how the character feels inside is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Negotiation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

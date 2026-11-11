@@ -1,0 +1,20 @@
+{
+  "Long Watch": {
+    "name": "Long Watch",
+    "description": "The user takes a firing position over a doorway, street or rooftop and holds it. Until the user moves, is attacked or runs out of rounds, each opponent who enters that area, draws a weapon there or attacks an ally under the user's watch is shot before they can finish the action: the action fails and the opponent takes piercing damage (bludgeoning damage from rubber rounds). Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Marksman",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

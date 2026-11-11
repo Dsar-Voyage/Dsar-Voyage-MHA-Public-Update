@@ -1,0 +1,24 @@
+{
+  "Needle in the City": {
+    "name": "Needle in the City",
+    "description": "The user names a person they have smelled, heard or seen before and sifts a whole city district for them through traffic, crowds, rain and walls. They learn where that person is now and the way to reach them, even if the person is disguised, invisible or underground, or their trail is days old, and can lead others straight there. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

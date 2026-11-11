@@ -1,0 +1,52 @@
+{
+  "Transformation": {
+    "name": "Transformation",
+    "description": "🔄 Your Quirk changes your own body while active: hardened skin, a bigger frame, blades, a beast form, a borrowed face, a surge of strength or speed.\n\n🌱 When the Quirk ends, you return to normal.\n⚠️ Eraser Head's Erasure forces you back to normal while he looks at you.\n🎬 Similar canon Quirks: Eijiro Kirishima (Hardening), Mount Lady (Gigantification), Rikido Sato (Sugar Rush).\n\n📈 Grants: Power +1, Quirk Stamina +5, Quirk Mobility +5, Quirk Analysis +5\n⚡ Starting technique: Special Move Training",
+    "traitNarrativeEffects": "The user's own body changes while active (skin, size, shape, mass, limbs, face or physical capacity), returning to base when it ends. At rest they look ordinary unless the family says otherwise. A change held through a long fight is sustained use. Size or shape changes tear normal clothes.\nErasure: while Shota Aizawa (Eraser Head) looks at the user, Quirk active, no change can start and an active one drops to base at once. What it already did stays done (broken wall, torn clothes); the user can change again the instant the look breaks (blink, smoke, cover, looking away). Other Quirk suppression works the same while it lasts.\nSociety and law: sudden changes in crowds cause alarm; big or frightening forms bring police. Without a hero license, use in public or on a person is illegal except in self-defense or under supervision (school, licensed work). Big-form damage goes on the user's record and bill.\nConflicts: one Quirk Type only; Quirkless overrides it.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Special Move Training"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "League of Villains Recruit",
+      "Independent Villain",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "excludedBy": [
+      "Emitter",
+      "Mutant",
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

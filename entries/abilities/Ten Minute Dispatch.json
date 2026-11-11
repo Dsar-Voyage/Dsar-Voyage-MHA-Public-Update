@@ -1,0 +1,25 @@
+{
+  "Ten Minute Dispatch": {
+    "name": "Ten Minute Dispatch",
+    "description": "The user maintains overdrive through strengthened, previously regrown exhausts for up to ten minutes, covering several city districts while making controlled stops to collect or deliver one passenger at a time. Each stop needs room to brake and each passenger needs a secure hold; the user gains no protection from collisions. Fuel must be sufficient before starting, and the engines stall afterward until the user rests, refuels and cools them for at least ten minutes. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "Mutant": {
+    "name": "Mutant",
+    "description": "🦎 Your Quirk is your body: permanent heteromorph features such as animal traits, gills, wings, scales, horns, extra limbs or unusual senses.\n\n🌱 Your features never switch off, and Eraser Head's Erasure cannot touch them.\n⚠️ People always see them, and some judge you for them.\n🎬 Similar canon Quirks: Tsuyu Asui (Frog), Mezo Shoji (Dupli-Arms), Hound Dog (Dog).\n\n📈 Grants: Endurance +1, Perception +5, Quirk Mobility +5, Quirk Analysis +5, Health +10\n⚡ Starting technique: Special Move Training",
+    "traitNarrativeEffects": "Built into the body: permanent features (animal traits, gills, wings, scales, horns, extra limbs, odd skin or senses), never off; always shown unless clothing hides them. Living with them costs no Quirk Strain; techniques pushing them do. Erasure: Shota Aizawa (Eraser Head) cannot erase Mutant features; he uses his capture weapon and close combat. Natural function (gripping tail, gills, flight, tough hide) works while he looks; anything sent from the body (flame, venom, sound blast) is Emitter and stops while his look holds. Law: having the features is legal; public use as a weapon or tool follows normal Quirk rules. Society: open prejudice (stares, seat-changing, refused rentals and jobs, slurs), worse in rural towns that call heteromorphs cursed; gear and clothes need custom work; villain recruiters court outcasts; some heroes and fans welcome them. Conflicts: one Quirk Type; Quirkless wins; No Quirk family: no Quirk or features, just bonuses.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      }
+    ],
+    "resources": [
+      {
+        "resource": "health",
+        "modifier": 10
+      }
+    ],
+    "abilities": [
+      "Special Move Training"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "League of Villains Recruit",
+      "Independent Villain",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "excludedBy": [
+      "Emitter",
+      "Transformation",
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

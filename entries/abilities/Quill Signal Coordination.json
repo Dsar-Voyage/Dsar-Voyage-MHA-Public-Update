@@ -1,0 +1,29 @@
+{
+  "Quill Signal Coordination": {
+    "name": "Quill Signal Coordination",
+    "description": "The user stations small feathers throughout one building within a hundred meters and reads footfalls and voices while larger feathers carry two survivors along already checked routes for three turns. The user distinguishes urgent calls from movement without gaining remote sight or seeing through rubble. Dense noise masks speech, all deployed feathers reduce flight, and managing both tasks leaves the user unable to fight until the operation ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

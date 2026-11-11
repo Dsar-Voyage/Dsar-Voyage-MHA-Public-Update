@@ -1,0 +1,40 @@
+{
+  "Creation Quirk": {
+    "name": "Creation Quirk",
+    "description": "🧰 You make solid, nonliving objects out of your own skin, built from your body's stored reserves.\n\n🌱 At the start you pull simple things of one or two materials from your palms and arms: a staff, a baton, a rope, a shield you can crouch behind.\n📈 With training: tangling bolas, field medical supplies, a spring grapple, a steel dome, sleeping-gas canisters, a ring of cannons and, at the top, whole working machines.\n⚠️ You can only make what you have studied.\n🔗 Common drawback pairing: Finite Fuel, since every object costs what you have eaten.\n🎬 Similar canon Quirks: Momo Yaoyorozu (Creation).\n\n📈 Grants: Intelligence +1, Quirk Control +10, Quirk Stamina +10, Science +5\n⚡ Starting techniques: Palm Forge, Bulwark Shield",
+    "traitNarrativeEffects": "Scale: the user makes solid, nonliving objects that push out through the skin, built from stored body fat. A new adult user makes a simple one- or two-material object, baton to crouch-behind shield, in a second or two; a key or spring takes a quiet minute. Objects are real and stay. Bigger feats need techniques. Limits: only what the user has studied down to its materials; a guess comes out brittle or fails. At the start, nothing alive, at a distance or bigger than the user. A dozen batons leave a new user hungry and shaky; made food never repays its cost; enemies can take made things. Quirk Strain: light: handheld tool or weapon; moderate: shield, bolas, medical supplies, grapple; heavy: shelter dome, gas canister; severe: signature move, large machine. Type: Emitter. Law: a made blade or gun is still a weapon; a made ID or banknote is forgery. Look: in use, skin glows faintly (player's color) where objects emerge, so costumes bare the arms or back.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Science",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Palm Forge",
+      "Bulwark Shield"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

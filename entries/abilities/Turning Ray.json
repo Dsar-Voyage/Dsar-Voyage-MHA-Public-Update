@@ -1,0 +1,29 @@
+{
+  "Turning Ray": {
+    "name": "Turning Ray",
+    "description": "The user fires a beam that bends in midair along a path they trace, around corners, down stairwells and through gaps in rubble, to a target up to a city block away that the user has seen this scene. It deals heavy light damage to that target alone, or cuts a cable, a lock or a held weapon without touching the person; held back, it only sears the skin and makes them let go. The bent beam leaves a glowing trail back to the user for anyone to follow, and the user cannot fire another until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

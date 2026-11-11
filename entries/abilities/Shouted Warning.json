@@ -1,0 +1,20 @@
+{
+  "Shouted Warning": {
+    "name": "Shouted Warning",
+    "description": "The user sees a danger a few seconds before it reaches one person in their sight, a falling sign, a swerving car, a thrown knife, and calls one exact warning: down, left, stop. A person who reacts in time avoids that danger entirely and is unhurt. The warning works for one person per use and only if they can hear the user and choose to listen, so a panicking crowd may ignore it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

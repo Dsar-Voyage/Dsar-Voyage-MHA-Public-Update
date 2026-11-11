@@ -1,0 +1,30 @@
+{
+  "Abukuma Highlands": {
+    "name": "Abukuma Highlands",
+    "basicInfo": "The southern Abukuma Highlands and the inland half of Iwaki, a rolling upland of low granite hills, cedar plantations and small valley towns in southern Fukushima, running from the upper Abukuma river valley in the west to the edge of the Pacific coastal plain in the east. In the west lie the farm towns of Tanagura, Hanawa, Asakawa and Ishikawa along the Abukuma and its tributaries, with Fukushima Airport on its plateau near Tamakawa. The middle of the cell is quiet hill country: Samegawa, Furudono, Hirata and Ono, where the Natsui river runs through a gorge lined with a thousand cherry trees, and limestone caves open under the hills near the northern edge. In the east the land falls toward Iwaki, the biggest city on the Fukushima coast: its center, Taira, sits just inside the eastern edge, and Iwaki-Yumoto, an old coal-mining hot spring town, lies south of it beside a big indoor tropical spa resort famous for its hula dancers. Onahama's harbor sits on the southeastern corner. Winters are mild and dry by Tohoku standards, with little snow on the coast side and more in the hills; summers are humid and spring comes early. People farm rice, tobacco and vegetables, raise cattle, cut timber, quarry stone, and work in Iwaki's factories, port and offices. The Joban line and Joban Expressway reach Iwaki from Tokyo; the Ban'etsu East line and Ban'etsu Expressway cross the highlands west to Koriyama; the Suigun line runs north through Tanagura and Hanawa toward Koriyama and south toward Mito. Iwaki is about two and a half hours from Tokyo by limited express, so Musutafu is about three and a half. Visitors soak in Yumoto, eat Onahama fish and grilled mehikari, see the Natsui cherries and the caves, and watch the Jangara nembutsu dancers go house to house at Obon. Iwaki has a mid-sized hero agency and a full police headquarters; the hill towns rely on officers at residential posts and on patrols from Iwaki and Shirakawa, and a farmer whose Quirk reads the coming weather in the clouds sets the rice harvest dates for half the valley.",
+    "hiddenInfo": "Iwaki is a working city that feels far from Tokyo's attention, and the highland towns behind it are aging and quiet, with shuttered shops along the old main streets. Long night drives on empty hill roads mean a crash or a stranded traveler may wait a long time. Iwaki's agency is the nearest real hero help for most of the cell, half an hour to an hour from the western towns. Small-time villainy: copper and cable theft from idle quarries and solar farms, illegal dumping in the hills, drunken brawls in Taira's nightlife district, and Quirk-fueled street racing on the expressway.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 3,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/10e79fea-5bc2-4886-8d11-f5836cb7adb9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

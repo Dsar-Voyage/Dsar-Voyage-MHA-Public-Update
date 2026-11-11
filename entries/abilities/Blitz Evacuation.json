@@ -1,0 +1,24 @@
+{
+  "Blitz Evacuation": {
+    "name": "Blitz Evacuation",
+    "description": "In the moments before a building collapses, a fire spreads or a flood arrives, the user empties the danger zone. Every person who can be moved is carried out in turn and set down safely beyond its reach, the unconscious and injured included; only people pinned under something heavy stay behind. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: hawks_burned_wings": {
+    "name": "Portrait Swap: hawks_burned_wings",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_war_casualty_roll",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Hawks",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/a456b7f9-5dea-4b3b-bedc-751980ec3ced.png"
+      }
+    ]
+  }
+}

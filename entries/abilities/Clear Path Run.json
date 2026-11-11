@@ -1,0 +1,20 @@
+{
+  "Clear Path Run": {
+    "name": "Clear Path Run",
+    "description": "The user looks down a route within sight, a collapsing hallway, a road of speeding cars, a falling rubble field, and sees its next seconds as they run it. They cross the route untouched by falling debris, traffic or a surging crowd and may lead one person by the hand behind them. If the user stops, slows or loses sight of the route midway, the vision breaks and the danger reaches them normally. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

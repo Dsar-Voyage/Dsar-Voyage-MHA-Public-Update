@@ -1,0 +1,25 @@
+{
+  "Three Limb Finish": {
+    "name": "Three Limb Finish",
+    "description": "The user braces on their tail, kicks a nearby opponent's guard aside, then turns into a tail strike that deals heavy bludgeoning damage within two meters. Held back, the final strike stops at a controlled takedown. Missing the opening kick exposes the user, and the tail cannot support another vault until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

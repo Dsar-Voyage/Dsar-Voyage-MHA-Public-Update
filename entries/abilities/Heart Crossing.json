@@ -1,0 +1,29 @@
+{
+  "Heart Crossing": {
+    "name": "Heart Crossing",
+    "description": "The user draws a feeling out of one person in sight and pours it into another: a hostage's terror into the captor, a veteran hero's steadiness into a panicking trainee. The giver is free of that feeling for the rest of the scene and the receiver holds it in full; terror or despair received this way deals heavy psychic damage, or, held back, only shakes the receiver's grip. Love and trust cannot be moved. The feeling passes through the user on the way: they feel it in full and cannot push feelings until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Frost Rampart": {
+    "name": "Frost Rampart",
+    "description": "The user raises a thick wall of ice from the ground in front of themselves or in front of others. It stops bullets, blades, thrown debris and anyone charging into it, and it shields everyone behind it until a heavy blow shatters it or fire melts it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: ep_hitoshi": {
+    "name": "Portrait Swap: ep_hitoshi",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Hitoshi Shinso",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/04ef4b76-155b-4a0b-8c18-092c52912915.png"
+      }
+    ]
+  }
+}

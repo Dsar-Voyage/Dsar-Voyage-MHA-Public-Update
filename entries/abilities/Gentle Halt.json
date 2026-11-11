@@ -1,0 +1,20 @@
+{
+  "Gentle Halt": {
+    "name": "Gentle Halt",
+    "description": "The user grips the controls or frame of a failing machine, such as a falling elevator, a runaway train car or a tipping crane, and talks every working part into holding it steady. It comes to a gentle stop and stays there for the rest of the scene, so the people on it can climb out. If a cable has snapped, the machine holds only as much as its remaining parts allow, and the user cannot let go until everyone is clear. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

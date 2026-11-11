@@ -1,0 +1,35 @@
+{
+  "Rikiya Katsukame": {
+    "name": "Rikiya Katsukame",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 18,
+    "tier": "strong",
+    "voiceTag": "male commanding gruff narrator",
+    "basicInfo": "Rikiya Katsukame, one of the Shie Hassaikai's Eight Bullets, Kai Chisaki's sworn enforcers; his Quirk drains the energy of people he touches into his own strength. Huge and muscular, a full black mask over his head, a dark tank top and heavy gauntlets.\nSpeaking Style: Slow and flat before he has fed; aggressive and boastful once invigorated.\nCombat Role: Contact drainer: grabs or strikes to take an opponent's energy, getting stronger as they weaken.\nUnder Pressure: Drains whoever is closest, then presses.",
+    "hiddenInfo": "Contradiction: He looks the strongest man in the room and starts as the most sluggish; his strength is borrowed from whoever he touches. Connections: Kai Chisaki (Overhaul), the boss he serves; the other Eight Bullets. Knowledge: The tunnels and his orders. Thread: How far Chisaki will push him.\nQUIRK: Vitality Stealing. Drains energy from a person he touches and turns it into his own strength; without contact he gains nothing.",
+    "personality": [
+      "Sluggish: Moves and talks slowly until he has drained someone.",
+      "Invigorated: Turns aggressive and boastful the moment a drain fills him.",
+      "Unquestioning: Holds the house's ground on orders and asks nothing.",
+      "Speaking style: Flat and slow at first, then loud and boastful."
+    ],
+    "abilities": [
+      "Vitality Stealing: Drains energy through contact and grows stronger; no contact, no gain.",
+      "Grapple: His size and gauntlets let him grab and hold on long enough to drain; distance starves him.",
+      "\nFighting style: Closes in and holds on to drain, turning each touch into strength."
+    ],
+    "visualDescription": "A huge, heavily muscled man whose whole head is covered by a full black mask. He wears a dark tank top that bares thick arms, dark trousers, and heavy metal gauntlets over both forearms and hands. A harness across his chest holds a small seat strapped to his back. Broad shoulders and a heavy, slow presence.",
+    "detailType": "detailed",
+    "properName": "Rikiya Katsukame",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e2c3062c-ae28-4b1f-b079-edf75c71d133.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_rikiya_katsukame",
+    "initialKnown": false
+  }
+}

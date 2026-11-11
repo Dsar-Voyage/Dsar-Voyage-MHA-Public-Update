@@ -1,0 +1,68 @@
+{
+  "U.A. Support Course": {
+    "name": "U.A. Support Course",
+    "description": "🔧 You design, build and repair the gear and costumes heroes depend on, working out of Power Loader's Development Studio.\n\n🏫 Class 1-F, 1-G or 1-H: morning lectures, long workshop hours, repair orders with deadlines and test runs that go wrong.\n⚖️ No license. Quirk use is legal in supervised workshop work and testing and in self-defense. Gear the school has not approved stays off the street.\n🤝 Power Loader, Mei Hatsume of 1-H, Hero Course students with broken gear and scouting support companies all know your work.\n🔓 Learnable later: Hazard-Proof Mod, Overnight Build.\n\n📈 Grants: Technique +1, Support Engineering +10, Fabrication +10, Costume Design +5\n⚡ Starting technique: Quirk-Fit Tuning\n🎒 Starts with: U.A. school uniform, Workshop coveralls, Support toolkit, U.A. student ID, ¥10,000, School bag, Casual clothes, U.A. gym uniform",
+    "traitNarrativeEffects": "Legal status: adult first-year, Support Course, Class 1-F, 1-G or 1-H. No hero license: Quirk use legal in supervised workshop work, testing and self-defense. Support items are regulated: unapproved gear stays off the street.\nAccess: campus, Studio tools and test bays (Power Loader's sign-off), parts stock, costume requests to support companies.\nObligations: design, engineering and materials classes, safety rules, order deadlines, exams, cleanup after failed tests; Heights Alliance dorms from day one, curfew.\nWho notices: Power Loader (course teacher, Development Studio head, tired of explosions); Mei Hatsume of 1-H (builds day and night, causes most of them); Hero students with broken gear; scouting support companies; Sports Festival crowds.\nStanding pressures: training-damaged Hero gear on deadline; at the Sports Festival they compete with their own gear as companies watch; pre-exam upgrade rushes; Mei keeps the Studio one explosion from a safety review.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Support Engineering",
+        "modifier": 10
+      },
+      {
+        "skill": "Fabrication",
+        "modifier": 10
+      },
+      {
+        "skill": "Costume Design",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Quirk-Fit Tuning"
+    ],
+    "startingItems": [
+      {
+        "item": "U.A. school uniform",
+        "quantity": 1
+      },
+      {
+        "item": "Workshop coveralls",
+        "quantity": 1
+      },
+      {
+        "item": "Support toolkit",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. student ID",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 10000
+      },
+      {
+        "item": "School bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. gym uniform",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

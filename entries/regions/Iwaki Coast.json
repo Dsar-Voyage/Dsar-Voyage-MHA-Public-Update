@@ -1,0 +1,30 @@
+{
+  "Iwaki Coast": {
+    "name": "Iwaki Coast",
+    "basicInfo": "The northern Iwaki shore and the coast of Futaba district, a thin strip of beaches, low cliffs and river-mouth towns along the Pacific in Fukushima, with almost all of the cell open sea. The land is the narrow shelf of coast between the Abukuma hills to the west and the water: from Onahama's harbor mouth on the southwest edge, the shore runs north past the white tower of Shioyasaki lighthouse on its headland, the surf beaches of Usuiso and Toyoma, the fishing town of Yotsukura with its busy roadside fish market, then Hisanohama and Suetsugi, the town of Hirono with its tall power station stacks, Naraha with the national soccer training center at J-Village, and the cherry tunnel of Yonomori in Tomioka at the northern edge. Tall seawalls line much of the shore. Everything east of the beach is the Pacific, a shelf of green-gray water darkening to deep blue offshore. The climate is the mildest in Fukushima: little snow, cool misty days in early summer when the cold Oyashio sends sea fog ashore, and clear, windy winters. People fish from small ports for flounder, monkfish, whitebait and sea urchin, farm rice on the coastal flats, work at the power stations and in Iwaki, and run a few surf shops and inns. The Joban line runs up the coast through Yotsukura, Hisanohama, Hirono and Tatsuta; Route 6 and the Joban Expressway run parallel just inland. Iwaki station is a short ride south, Tokyo about two and a half to three hours, and Musutafu about four. Visitors surf Toyoma, climb the lighthouse at Shioyasaki, eat grilled fish and sea urchin baked in the shell at Yotsukura, walk under the Yonomori cherries in April, and watch national team training at J-Village. Heroes from the Iwaki agency patrol the beaches in summer and the Obon festivals in August, police stations sit in the larger towns, and a fisher whose Quirk lets them hear shoals moving under the hull is the most sought-after crew member in Yotsukura.",
+    "hiddenInfo": "The coast towns feel forgotten between Iwaki and the cities to the north: fishing crews are aging, prices are argued over with buyers in the city, and many young adults leave for Tokyo. Sea fog and winter wind make the small harbors dangerous. Real hero help comes from Iwaki, twenty to forty minutes south by road, or from the coast guard at Onahama. Small trouble looks like night poaching of sea urchin and abalone, fuel theft from moored boats, and tourists swept off the rocks.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 4,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/65a1c60a-f059-4ccf-9c55-a4d91be9b65b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

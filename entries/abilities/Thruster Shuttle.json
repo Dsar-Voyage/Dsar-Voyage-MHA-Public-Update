@@ -1,0 +1,20 @@
+{
+  "Thruster Shuttle": {
+    "name": "Thruster Shuttle",
+    "description": "The user runs a rescue shuttle at engine speed: into a burning building, a crash site or a flooded street and back out with an injured person, again and again. In the time others carry a single person to safety the user carries several, and nobody carried takes harm from the speed, the turns or the stops. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

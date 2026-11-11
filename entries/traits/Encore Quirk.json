@@ -1,0 +1,40 @@
+{
+  "Encore Quirk": {
+    "name": "Encore Quirk",
+    "description": "🎭 You turn a confrontation into a musical performance, guiding footwork with a beat while everyone keeps their own choices.\n\n🌱 Start within six meters: steady allies, upset an opponent's step, supply music and a soft spotlight, and physically repeat a simple move with \"Encore\".\n📈 Attention stores power. Training adds capture footwork, leaps, crowd evacuation and stronger audience flourishes; replays never reverse time or copy another Quirk.\n⚠️ Silence, being ignored and noise that buries your beat weaken you. Common drawback pairing: Stamina Drain, from performing and repeating moves.\n⚖️ Venues may require permission; forced movement needs self-defense or licensed duty. Nobody must sing, dance or follow orders.\n🎬 Similar canon Quirks: Present Mic (Voice), for vocal delivery only.\n\n📈 Grants: Cooperativeness +1, Quirk Control +10, Quirk Stamina +10, Media Presence +5\n⚡ Starting techniques: Opening Measure, Immediate Reprise",
+    "traitNarrativeEffects": "Scale: sound organs give rhythmic pressure, tones, a soft glow. New adult user, six meters: steadies two willing allies or unbalances a listener's step; \"Encore\" re-performs a simple move bodily; training widens it. Limits: bodies only, not minds or Quirk activation; nobody must sing or dance; no free sound or solid light. Earplugs, soundproofing, silence or louder noise stop it. Charges: +1 per turn with an attentive live observer (any side) in hearing, max 3; crowds, recordings, being ignored: none; a broken beat clears all; never replaces stamina. Replays undo, restore and copy nothing. Quirk Strain: light: opening beat; moderate: reprise, capture footwork, palm strike, leap; heavy: evacuation, audience flourish; severe: signature formation, company rhythm, awakened performances; reprises: double exertion. Type: Emitter. Law: venue permits where required; forced movement or restraint outside self-defense or licensed duty is assault. Look: melody, claps, gestures.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Media Presence",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Opening Measure",
+      "Immediate Reprise"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Medicinal Wrap": {
+    "name": "Medicinal Wrap",
+    "description": "The user presses fresh gel onto one reachable wound, forming a clean dressing that seals surface bleeding for the rest of the scene. Small cuts begin closing after ten minutes of contact. The gel cannot seal a severed major artery or replace lost blood, and producing a fresh wrap costs water and stamina. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

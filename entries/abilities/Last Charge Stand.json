@@ -1,0 +1,29 @@
+{
+  "Last Charge Stand": {
+    "name": "Last Charge Stand",
+    "description": "The user releases repeated broad electrical bursts from their body for the rest of the scene, stopping an advancing group across an open street. Each burst deals heavy electric damage and stuns uninsulated targets; held back, it stops after they fall. Allies must stay clear, and water or metal can spread the current beyond the intended space. When the release ends, the user's brain short-circuits and they cannot act coherently until they recover. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Snap Unfold": {
+    "name": "Snap Unfold",
+    "description": "The user flicks a stored sphere anywhere within a stone's throw and snaps it back to full size where it lands. A stored wall panel, dumpster or car set in an attack's path shields everyone behind it until it is smashed or moved; dropped onto a target instead, it deals bludgeoning damage and pins them until they shove it off or are dug out. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

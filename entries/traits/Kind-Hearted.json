@@ -1,0 +1,29 @@
+{
+  "Kind-Hearted": {
+    "name": "Kind-Hearted",
+    "description": "💗 You notice who is hurting and help without being asked.\n\n👀 You spot the person left out, the lost child, the classmate who skipped lunch.\n🤝 Strangers trust you quickly, and frightened people calm down near you.\n⚠️ Saying no is hard, so you take on too much, and some people take advantage.\n⚠️ Hurting anyone, even a villain, weighs on you, and you may hesitate when a fight demands force.\n\n📈 Grants: Cooperativeness +1, Insight +5, Persuasion +5",
+    "traitNarrativeEffects": "The character notices the person left out, the lost child, the classmate who skipped lunch. They help without being asked and remember small things about people. Strangers trust them, and frightened people calm down near them. Weakness: saying no is hard for them, so they take on too much, and people who notice will use it. A sad story, true or false, moves them. Hurting someone, even a villain, weighs on them afterward, and they may hesitate at the moment a fight demands force. The narrator shows the pull to help and the weight of hurting someone; when the character says no, or strikes anyway, is the player's choice.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 5
+      },
+      {
+        "skill": "Persuasion",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

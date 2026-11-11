@@ -1,0 +1,20 @@
+{
+  "Exit Procession": {
+    "name": "Exit Procession",
+    "description": "The user sings clear walking counts to up to twenty people within twelve meters for three turns. Those choosing to follow keep an even pace toward a visible exit without tripping over one another. The user must walk with them and keep the beat audible; blocked exits stay blocked and frightened people can refuse. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

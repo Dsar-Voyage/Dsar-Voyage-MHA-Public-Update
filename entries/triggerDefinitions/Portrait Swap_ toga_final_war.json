@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: toga_final_war": {
+    "name": "Portrait Swap: toga_final_war",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Himiko Toga",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/3d59bc51-2b31-4453-8e0e-7946d17cfb3e.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Waking Word": {
+    "name": "Waking Word",
+    "description": "The user studies a person's eyes and voice and knows whether a mind-affecting Quirk, a drug or panic has hold of them, and how firmly. A sharp word from the user then snaps them free: someone under another's control, a bystander frozen in terror or a teammate under an induced emotion acts normally again from their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

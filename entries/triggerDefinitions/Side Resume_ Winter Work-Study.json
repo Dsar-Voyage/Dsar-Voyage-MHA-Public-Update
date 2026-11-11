@@ -1,0 +1,42 @@
+{
+  "Side Resume: Winter Work-Study": {
+    "name": "Side Resume: Winter Work-Study",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_winter_work_study",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_winter_work_study",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_winter_work_study",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_winter_work_study"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_winter_work_study",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Winter Work-Study\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Mid-December, daytime, wherever the party is as winter Hero Work-Studies begin after the remedial provisional licenses and the Paranormal Liberation Front's hidden founding."
+      }
+    ]
+  }
+}

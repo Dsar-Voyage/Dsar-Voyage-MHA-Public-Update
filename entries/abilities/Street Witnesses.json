@@ -1,0 +1,20 @@
+{
+  "Street Witnesses": {
+    "name": "Street Witnesses",
+    "description": "The user asks the birds, cats and rats around a place what passed through it. They learn how many people came by in the last few hours, what each looked and smelled like, which way each one left and whether anyone is still hiding or trapped nearby, told in smells, sizes, colors and noise rather than names or faces. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

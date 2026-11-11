@@ -1,0 +1,15 @@
+{
+  "v_copycats": {
+    "title": "Copycats",
+    "beats": "Late-summer evenings, two or three weeks after Kamino. All Might has retired and the whole country saw how thin and hurt he was at the end; unless the story changed it, the masked man the news calls Shigaraki's Sensei is in custody, and part of Kamino Ward is still rubble. Crime is up, and so are imitators: thugs in severed-hand masks calling themselves the League, would-be Hero Killers in red scarves, masked amateurs on rooftops promising to be the next symbol. One of them has copied the party.\n\nDefault course, as pressure the party can change: the evening news, a neighbor or a broker shows the party a clip. Someone in its costume, its colors or its signature method (the way it ties a thief, a calling card, its Quirk faked with black-market gear) did a job last night, and a bystander got hurt: a night clerk in the hospital with a broken arm, a shop burned out. Police and pros believe the party did it, and attention swings its way. The copycat strikes again on a following night, a little worse each time.\n\nA vigilante's copycat is an amateur playing hero who keeps hurting the people around the crimes it stops; the copy makes the real mask look dangerous, and residents who trusted the party start calling the police on it. An independent villain's copycat is a small-time crook using the party's look to scare marks and shift the blame, or a rival crew framing it on purpose.\n\nThe party can track the copycat through the clip, broker gossip or the places it hits; confront it on a roof or in a backstreet; turn it in (a vigilante can leave it tied up for the next patrol); scare it off, recruit it, drive it out of the trade, or let it keep drawing fire. Proving it was someone else cools the attention on the party; letting the copycat run, or being seen at its scenes, draws more. The copycat is a generated adult, and the scene does not kill it by default.\n\nThe event is complete when the copycat is caught, exposed, recruited or gone, and the party knows who carries the blame.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_copycats",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

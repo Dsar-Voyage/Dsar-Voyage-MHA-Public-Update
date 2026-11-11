@@ -1,0 +1,20 @@
+{
+  "Gatecrasher": {
+    "name": "Gatecrasher",
+    "description": "The user's hands swell and sink into a locked steel door, a security shutter or a crushed car's frame, and they tear it open in moments, wide enough for people to walk through. A door or panel torn free can be raised as a shield: until the end of the user's next turn, bullets, blows and thrown objects from the front hit it instead of the user or anyone behind them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

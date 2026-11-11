@@ -1,0 +1,30 @@
+{
+  "Kinosaki Coast": {
+    "name": "Kinosaki Coast",
+    "basicInfo": "The northern coast of Hyogo's Tajima district on the Sea of Japan, a strip of rugged shore running east to west along the cell's southern edge, with open sea filling everything to the north. The coast is part of the San'in Kaigan UNESCO Global Geopark: headlands of volcanic rock, sea caves, pine-topped islets and small coves with fishing villages under steep hills. From east to west: Kinosaki Onsen near the mouth of the Maruyama River, with Genbudo's basalt columns just upstream; Takeno, with its long sandy beach and narrow streets of dark-boarded fishing houses; Shibayama and Kasumi, the two great crab ports of the coast; the tall Amarube Viaduct carrying the railway high above Amarube village; and Hamasaka toward the western edge, where the islets of the Uradome coast begin across the line in Tottori. Kinosaki is the heart of it: a willow-lined canal with stone bridges, old wooden inns, and seven public bathhouses that guests walk between in yukata and wooden geta, the clatter echoing down the street at night. Winters are snowy and gray with wild seas, and that is crab season, when matsuba crab comes in to Kasumi and Shibayama and the inns fill with crab dinners. Summer brings swimmers to the beaches at Takeno and Kasumi. Inland the hills climb quickly toward the Tajima highlands, home of the black cattle that Kobe and Matsusaka beef come from, and wild storks reintroduced in the Toyooka basin to the south are sometimes seen wading near the river mouth. The San'in Main Line links the coast; limited expresses reach Kinosaki from Kyoto in about two and a half hours and from Shin-Osaka in under three. From Musutafu, Kinosaki is about five hours by shinkansen and limited express. Local buses and the coast road reach the villages. Kinosaki has a police box by the canal and a small hero agency covering the onsen town and nearby coast, with extra sidekicks walking the bathhouse street on busy winter weekends. Quirks help in the crab sheds and on the boats, and an inn worker with a heat Quirk keeps the outdoor bath just right. Visitors bathe, eat crab, tour the sea caves by boat, walk the geopark trails and photograph the viaduct.",
+    "hiddenInfo": "The coast lives on two seasons, crab and summer, and the rest of the year is quiet and aging; inns compete hard and some are failing. Kinosaki's crowds draw pickpockets, bath-locker thieves and peepers with sight Quirks, and the crab trade has its share of mislabeled crab and poached catch. The small Kinosaki agency handles most of it; heavier help comes from Toyooka, and real numbers from Kobe or Osaka are about three hours away. Winter storms and snow on the line can cut the coast off for a day.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -8,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/707f8f45-e7cd-4feb-a08c-85a2c680cdd9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

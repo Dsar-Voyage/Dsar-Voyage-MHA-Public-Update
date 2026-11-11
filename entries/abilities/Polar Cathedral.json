@@ -1,0 +1,25 @@
+{
+  "Polar Cathedral": {
+    "name": "Polar Cathedral",
+    "description": "The user's signature move: both hands hit the ground and release a building-high wave of ice that swallows everything ahead. Every target in its path takes massive cold damage and is encased to the neck, unable to move until they break out with a hard effort or are thawed or chipped free, and fires and vehicles in the path freeze solid; afterward the user cannot make ice until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Measured Battery": {
+    "name": "Measured Battery",
+    "description": "The user plants their feet and fires one aimed round per turn for three turns at visible targets within forty meters. Each deals heavy bludgeoning damage; held back, a flattening round only knocks an adult down. The user cannot move while firing, each shot spends reserves, and afterward heat prevents firing for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

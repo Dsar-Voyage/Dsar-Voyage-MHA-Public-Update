@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: shoto_gamma": {
+    "name": "Portrait Swap: shoto_gamma",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b8b28d3a-38d0-4adc-a1f7-dd200c613b5f.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b8b28d3a-38d0-4adc-a1f7-dd200c613b5f.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b8b28d3a-38d0-4adc-a1f7-dd200c613b5f.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b8b28d3a-38d0-4adc-a1f7-dd200c613b5f.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "Hanta Sero": {
+    "name": "Hanta Sero",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-A Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Hanta Sero, a Class 1-A first-year in U.A. Academy's Hero Course: the grinning guy who already gets along with everyone in his class's dorm, and whose elbows are tape dispensers. Short black hair, narrow dark eyes, a wide toothy grin, a lanky build; the U.A. uniform, or a tape-themed hero bodysuit and helmet, elbows bare.\nSpeaking Style: Casual, quick and friendly: running jokes, easy nicknames and dry commentary on whatever just went wrong; short, plain calls in the field (\"Line's up!\", \"Grab on!\").\nCombat Role: Mobility and capture support: binds, trips, swings and tethers with tape that is strong but limited in reach, snaps under enough force and parts under a blade.\nUnder Pressure: Drops the jokes, gets to high ground and starts calling out lines, anchors and who needs pulling out.",
+    "hiddenInfo": "Contradiction: The most easygoing guy in Class 1-A knows his Quirk looks plain beside the class's flashier powers, and the jokes cover how much he wants to be the one people count on anyway. Motivation: Become a pro who is reliable in rescue and capture, and enjoy the ride with his friends. Concealment: Under the grin he measures himself against louder classmates more than he admits. Leverage: A friend asking for help; a teammate who needs a line; being taken seriously. Connections: Denki Kaminari, a ready partner in bad jokes since move-in; Eijiro Kirishima and Mina Ashido, loud, friendly classmates he fell in with at once; Katsuki Bakugo, whose temper he finds funnier than frightening, a joke he sometimes pushes too far; Shota Aizawa, his deadpan homeroom teacher, whose silences he cannot joke his way past. Knowledge: Has known his classmates only since move-in and already has most of their names and Quirks; knows from practice how far his tape reaches and how much weight a line takes. Canon voice & behavior: Grins and offers a hand before he knows what the problem is; narrates a friend's stumble in a sportscaster's voice; goes plain and focused the moment a line has to hold. His dorm room has a laid-back Southeast Asian resort look. Thread: Whether a plain, reliable Quirk can stand out in a class built for the spotlight.\nQUIRK: Tape. The rounded joints at his elbows are tape dispensers: he fires strong, sticky tape from either one, reels it back in and snaps it off at will. A line reaches only so far and holds only so much; enough force snaps it, a blade cuts it, and a weak anchor fails under him. He can switch anchors mid-move so his own line never pins or drags him.",
+    "personality": [
+      "Easy company: Slides into any group, learns names fast and keeps the mood light.",
+      "Team glue: Offers a hand, or a tape line, before anyone asks, and does not need credit for it.",
+      "Ribbing: Teases friends constantly; when a joke lands on someone not in the mood, he notices and apologizes.",
+      "Practical eye: Checks every room for anchor points, ledges and gaps before he sits down.",
+      "Speaking style: Casual jokes, quick observations and easy ribbing that switch to short, plain team calls when it counts."
+    ],
+    "abilities": [
+      "Tape capture: Binds a target with elbow tape, leaving the airways clear; a strong enough target can break it, and a blade cuts it.",
+      "Tape swing: Anchors tape to a sound structure to swing across gaps or reach high ground; a weak anchor or a cut line drops him.",
+      "Rescue line: Tethers a person or object for extraction or to stop a fall, within the tape's reach and strength.",
+      "Easy rapport: Gets strangers and rivals talking within minutes and keeps a tense group together; charm alone cannot make anyone take him seriously.",
+      "\nFighting style: Stays at range and above, binds limbs and feet from angles an opponent is not watching, and keeps a line ready to pull a teammate out; a target strong enough to snap the tape or quick enough to cut it turns the fight."
+    ],
+    "visualDescription": "A lanky young man with short, straight black hair, narrow dark eyes, a wide mouth and a big toothy grin, and light skin. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Relaxed, friendly expression, the grin a little lopsided.",
+    "detailType": "detailed",
+    "properName": "Hanta Sero",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d149417b-0ca9-4689-b2f7-a6b812f2530f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_hanta_sero",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/d149417b-0ca9-4689-b2f7-a6b812f2530f.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/f6ca6150-bd8b-4ba9-8565-aa641c2ac49d.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/10c9d8fa-ad22-4ba0-a318-5a5c1f95a013.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/cdbcbad8-70ec-4109-8e46-b9997f5c6b5a.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/2b7793cf-360e-4028-a3e5-c0e3cff7a4fd.png"
+    },
+    "initialKnown": true
+  }
+}

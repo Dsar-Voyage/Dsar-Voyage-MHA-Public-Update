@@ -1,0 +1,25 @@
+{
+  "Rewritten Hour": {
+    "name": "Rewritten Hour",
+    "description": "The user's signature move: after reading one opponent, they know every move that opponent will make for the rest of the scene a moment before it is made. The opponent's attacks against the user, and against any ally the user is calling out to, miss; the user's throws and strikes against that opponent hit and deal heavy bludgeoning damage, or, held back, knock them down. The user cannot use the Quirk on anyone for a full day afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

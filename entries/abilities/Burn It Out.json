@@ -1,0 +1,20 @@
+{
+  "Burn It Out": {
+    "name": "Burn It Out",
+    "description": "The user turns their healing on their own blood and burns through whatever is in it. Poison, venom, a sedative, sleeping gas, alcohol or a Quirk-boosting drug stops affecting them within moments, along with the dizziness, nausea or drowsiness it caused, and more of the same substance has no effect on them until the end of the scene. Any damage it already dealt remains. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

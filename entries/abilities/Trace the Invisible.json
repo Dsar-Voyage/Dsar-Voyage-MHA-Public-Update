@@ -1,0 +1,15 @@
+{
+  "Trace the Invisible": {
+    "name": "Trace the Invisible",
+    "description": "The user watches for what an unseen person cannot hide: rain or dust parting around empty space, breath fogging cold glass, a footprint pressing into mud. The user can track an invisible, camouflaged or Quirk-hidden person in the area and point allies to their exact position for the rest of the scene. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

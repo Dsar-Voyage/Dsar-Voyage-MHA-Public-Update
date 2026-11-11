@@ -1,0 +1,20 @@
+{
+  "Balm Tendril Snare": {
+    "name": "Balm Tendril Snare",
+    "description": "Leaf-padded vines shoot from the user's forearm out to five meters and coil around a target's legs or arms. The target cannot run or use the bound limbs until they break free with a hard effort, cut the vines or the user lets go, and soothing sap on the leaves cools scrapes without leaving a bruise. In darkness or dry air the vines reach only half as far and drain brief stamina from the user. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

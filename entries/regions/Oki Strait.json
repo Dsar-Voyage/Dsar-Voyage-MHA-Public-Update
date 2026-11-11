@@ -1,0 +1,28 @@
+{
+  "Oki Strait": {
+    "name": "Oki Strait",
+    "basicInfo": "The Oki Strait, the stretch of the Sea of Japan between the north coast of the Shimane Peninsula and the Dozen islands of Oki. The peninsula's green ridges and fishing coves line the southern horizon, a few of its headlands just reaching the cell's southern edge; small Chiburijima, southernmost of the Dozen, pokes just inside the northern edge, with Nishinoshima and Nakanoshima rising beyond it. The water is clear blue and mostly fifty to a hundred meters deep, with the Tsushima Current flowing northeast. Summers are calm; winters bring northwest gales and steep seas that cancel sailings. This is the islands' lifeline: car ferries and the jetfoil run from Shichirui on the peninsula and from Sakaiminato to the Oki ports, the ferry taking two to three hours and the jetfoil about an hour. Fishing boats from both sides work here for squid, sea bream, yellowtail and flying fish, and set nets lie off the peninsula's coves. The coast guard patrols from Sakaiminato, and heroes from the Shimane coast and the islands cross by boat or air when called. A party is most likely here aboard the ferry or the jetfoil, or on a fishing boat.",
+    "hiddenInfo": "Everything the islands need comes across this strait, so a canceled ferry is everyone's problem and the ferry line's finances are a constant worry. The boats see small trouble: theft, drunks, the odd fugitive heading for the islands. The coast guard and island heroes can respond within an hour in fair weather; in storms, help waits.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -11,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f40359e6-3e60-4b7f-bb1e-58c0dac57c90.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

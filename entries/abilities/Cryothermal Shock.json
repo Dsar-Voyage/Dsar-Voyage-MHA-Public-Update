@@ -1,0 +1,25 @@
+{
+  "Cryothermal Shock": {
+    "name": "Cryothermal Shock",
+    "description": "The user's signature move: pale-blue flame sweeps half a street ahead and turns to deep frost on impact, putting everything in its path through thermal shock. Stone cover, metal locks, ice and worn armor crack apart, and foes take massive fire and cold damage; held back, it shatters only gear and pins foes in steaming ice. Driving both natures leaves the user unable to use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

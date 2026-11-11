@@ -1,0 +1,30 @@
+{
+  "Hamada": {
+    "name": "Hamada",
+    "basicInfo": "Hamada is a stretch of the San'in coast in western Shimane where the Chugoku Mountains come almost straight down to the Sea of Japan. Most of this cell is open water: the sea fills the north and west, and the land is only the southeastern corner, a strip of shore and steep hills running northeast from the mouth of the Takatsu River near Masuda, through the small town of Misumi, to the port city of Hamada on the eastern edge. Behind narrow beaches and rocky capes, cedar ridges climb within a few kilometers, cut by short rivers, terraced paddies and hamlets roofed in the glossy red-brown Sekishu tiles of Iwami. Winters are gray and raw, with northwest monsoon winds, sleet and heavy surf; summers are humid and bright, and the water at beaches such as Kokubu turns clear blue. Hamada, a fishing city of a few tens of thousands, is one of the busiest ports on this coast, known for nodoguro blackthroat seaperch, squid, flatfish and horse mackerel split and dried on racks along the harbor. Above the harbor stand the stone walls of Hamada Castle, the Hamada Marine Bridge arches out to Setogashima island, and the AQUAS aquarium north of town has belugas that blow bubble rings. Misumi makes Sekishu washi, a UNESCO-listed mulberry paper. This is the home ground of Iwami kagura, the fast, drum-driven shrine dance whose climax is the eight-headed serpent Orochi, its coils pouring smoke; troupes perform at autumn shrine festivals and on weekend stages all year. The single-track San'in Main Line hugs the coast, its Super Oki limited express running to Shin-Yamaguchi and Izumo. The Hamada Expressway climbs south over the mountains, express buses reach Hiroshima in about two hours, and Iwami Airport near Masuda has flights to Haneda. From Musutafu it is most of a day, about six hours by shinkansen to Hiroshima and bus; from Fukuoka it is about three and a half hours by shinkansen and the Super Oki. One small hero agency in Hamada covers the coast from Masuda to Gotsu, police boxes sit by the stations, divers with cold-proof or gill-breathing Quirks work the cooperative's turban-shell grounds under license, and sidekicks walk the shrine grounds on kagura nights.",
+    "hiddenInfo": "The coast is aging and emptying: young people leave for Hiroshima, Osaka and Fukuoka, boats sit idle, and the fishing cooperative watches closely for poachers. Small-time trouble here is a Quirk-user stripping abalone and sea urchin from cooperative grounds at night, fuel and gear stolen from moored boats, fights in harbor bars, and the odd kagura performer who tries a real fire Quirk on stage and gets cited for it. The coast guard office in Hamada handles the sea; serious hero backup comes from Hiroshima, two hours over the mountains, so the local agency improvises and leans on the police.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -13,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d77cc294-67d6-4a92-858f-3d80761a26c6.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Calved Plate Shield": {
+    "name": "Calved Plate Shield",
+    "description": "The user grows thick plates of ice on their forearms, hardens them to stone density and detaches up to three as armored ice shields for allies to carry or as standing cover for bystanders. For the rest of the scene each shield stops blades, pistol rounds and falling debris until a heavy blow cracks it or fire melts it. Spending both natures at once leaves the user's arms numb and slow until their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

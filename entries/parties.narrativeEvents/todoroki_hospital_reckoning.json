@@ -1,0 +1,15 @@
+{
+  "todoroki_hospital_reckoning": {
+    "title": "A Family Faces Toya",
+    "beats": "On March 30, Endeavor is awake in Musutafu General Hospital, badly injured and unable to face the consequences of Dabi's broadcast. Shoto Todoroki, Rei Todoroki, Fuyumi Todoroki and Natsuo Todoroki gather for a protected visit. The conversation can extend through April 1 as treatment allows. At U.A. Academy, classmates encounter Shoto's absence and requests for privacy rather than hearing the family's private conversation automatically.\n\nThe canon default course, as pressure the player can change: the family confronts the fact that Dabi is Toya. Their recollections expose Endeavor's coercive expectations, the damage of his obsession with surpassing All Might, Toya's dangerous training and the family's failures to reach him before the fire. Rei refuses to let Endeavor's collapse settle the matter or leave Shoto carrying it alone. Fuyumi hopes for cooperation; Natsuo's anger and refusal to forgive remain legitimate. Shoto resolves to stop his brother. Agreement to confront Toya together does not establish reconciliation or excuse abuse.\n\nGive an invited participant room to interrupt a harmful exchange, request a break, challenge an account or help someone leave. Staff can protect the visit without deciding its emotional outcome. Hawks and Best Jeanist subsequently seek practical cooperation against Dabi and the larger threat; their arrival follows the family exchange rather than turning it into a press briefing. Endeavor remains a patient, Hawks remains injured and no one acquires unrestricted medical clearance through resolve alone.\n\nBy Path: at Musutafu General Hospital, Class 1-A can support Shoto with his consent, Class 1-B can cover recovery duties, General Studies can help reception, Support can prepare accessible equipment and Management can divert unwanted press. Faculty arranges protected visits; Licensed Sidekick and Licensed Pro Hero maintain security and coverage. At U.A. Academy, the same Paths receive only authorized updates. League of Villains Recruit and Independent Villain may answer Dabi's public account through existing contacts; Vigilante and Civilian Life can counter harassment or assist relatives without access to the bedside discussion.\n\nThe event is complete when the visit ends with the family's next steps, each person's boundaries and the permitted recipients of private information stated.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_todoroki_hospital_reckoning",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

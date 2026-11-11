@@ -1,0 +1,24 @@
+{
+  "Broad Landing Pad": {
+    "name": "Broad Landing Pad",
+    "description": "The user spreads a four-meter-wide gel pad within eight meters for three turns, cushioning a fall of up to six meters for two adults before flattening. The user can instead fold it into a shove dealing moderate bludgeoning damage; held back, it only seats a target. Greater falls and vehicle impacts overwhelm it, and either use leaves the user thirsty and shaky. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Prototype thruster pack": {
+    "name": "Prototype thruster pack",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "value": 5
+      }
+    ],
+    "description": "A compact backpack thruster from U.A.'s Development Studio, with two nozzles, a fuel cell and a trigger strapped to the wearer's palm. It turns a fall into a controlled drop and a jump into a short powered leap, and now and then it sputters out or overheats at the worst moment. [ Support Gear | Prototype, not for sale ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7efad7e6-1ba3-4ee8-9813-b9a02bcda460.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "legendary"
+  }
+}

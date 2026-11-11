@@ -1,0 +1,15 @@
+{
+  "Breakfall Roll": {
+    "name": "Breakfall Roll",
+    "description": "Thrown, knocked down or falling, the user tucks, slaps the ground and rolls through the landing. The user takes no injury from being thrown or knocked down or from a fall of a story or so, and comes up on their feet ready to act. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

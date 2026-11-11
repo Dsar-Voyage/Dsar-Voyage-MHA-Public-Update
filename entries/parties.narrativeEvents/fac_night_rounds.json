@@ -1,0 +1,15 @@
+{
+  "fac_night_rounds": {
+    "title": "Night Rounds",
+    "beats": "Late at night at Heights Alliance, U.A. Academy, in the weeks after Kamino. Since the lockdown began, the faculty walks the dorms every night in pairs: the Heights Alliance Yard, the doors, then each lounge. Tonight's round pairs the party with Hound Dog, who reads the yard by scent, while Vlad King takes Class 1-B's side and can be heard from the yard.\n\nThe default course, as pressure the player can change: Hound Dog's nose finds the first curfew breaker within a minute. Eijiro Kirishima is out in the yard in a T-shirt, hardening his arms and punching the dark because he cannot sleep, and he apologizes with a full bow before anyone asks. In the Class 1-A Dorm Lounge the television is on low; Toru Hagakure, a floating pair of pajamas and a blanket, says she is only counting heads, and her voice is too bright. Katsuki Bakugo comes down for water, sees a teacher, says nothing and does not go back up. In the Class 1-B Dorm Lounge, Itsuka Kendo is still up with a cup of tea, making sure nobody in her class is awake alone, which means she is.\n\nSomebody wants to talk, and which one depends on how the party carries itself. A teacher who hands out curfew slips gets compliance and silence; one who sits down gets a question with no good answer: about the camp, about Kamino, about whether the new walls will hold. Hound Dog growls at every broken rule and then, when a student finally talks, stays to listen. Nobody is in danger tonight; the stake is whether a student goes to bed lighter than they came down.\n\nA teacher answers from what is public and from what that teacher has seen; staff secrets stay secret.\n\nThe event is complete when the round is finished and every student is back in their room, or the party ends the round early.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_fac_night_rounds",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

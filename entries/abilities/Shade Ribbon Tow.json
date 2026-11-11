@@ -1,0 +1,20 @@
+{
+  "Shade Ribbon Tow": {
+    "name": "Shade Ribbon Tow",
+    "description": "The user draws the shadow under a ledge or inside a dark rubble gap within five meters into a firm black ribbon stiffened with a spine of smoked glass. It lowers one or two people from an upper floor at a safe pace or slides a trapped survivor out of collapsed debris without cutting them; strong light cracks the ribbon's glass spine and drops what it holds, so the user must keep it in shade. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

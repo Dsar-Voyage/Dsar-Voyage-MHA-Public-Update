@@ -1,0 +1,17 @@
+{
+  "Gear for the Festival": {
+    "name": "Gear for the Festival",
+    "questSource": "Power Loader",
+    "questStatement": "The Sports Festival rules let Support Course students compete with gear they built themselves, and every support company in Japan watches the broadcast. Power Loader posts the entry rules: the gear must be your own work, inspected and registered at U.A. Stadium before the day, and it cannot be a weapon. A good showing is a sales pitch to the companies. A bad one happens on national television.",
+    "mainObjective": "Build, inspect and register the gear you will compete with at the Sports Festival.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has built competition gear, passed Power Loader's inspection, trial-run it at U.A. Stadium and registered it for the Sports Festival."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "Pressure and showmanship. Power Loader inspects every item and rejects anything that could hurt a rival or a spectator. Mei Hatsume plans to wear her whole catalog and may want the PC as a partner or treat them as a rival exhibitor. Trial runs happen in the empty arena while Cementoss and the staff prepare the venue. The Festival's events stay secret until the day. This quest only prepares the gear; it never stages or decides the Festival. Failure: a rejected item must be fixed or left behind, and gear that fails on the day becomes a story, not a disqualification.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mha_kinoko_komori": {
+    "label": "Kinoko Komori",
+    "voiceTag": "female melodic bright",
+    "instructions": "Bright, cute, higher young woman's voice, bubbly and sing-song, with a playful lilt on her mushroom puns. Quick, cheerful and a little giggly; when a plan clicks she turns short, focused and quietly sly. Never deep or harsh.",
+    "speed": 1.06,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "gs_careers_day": {
+    "title": "Careers Day",
+    "beats": "A weekday in mid-August, a couple of weeks after Kamino. Under the new lockdown rules any trip off campus needs a teacher's signature and a fixed return time, so the General Studies careers outing to Musutafu Police Headquarters runs on a strict clock: one bus from U.A. Academy's Campus Bus Terminal, back before evening roll call. At the Front Desk, Sansa Tamakawa walks the class past the ticket machine, the wanted posters and the walk-in line; upstairs, under escort, Naomasa Tsukauchi gives the group twenty minutes in the Detectives' Office. A fire captain and a rescue paramedic from the city services came along to speak as well.\n\nDefault course, as pressure the player can change: the speakers show the hero world from the side the cameras skip. Police hold the cordons, take the statements and file the reports after every rescue; firefighters go where no Quirk helps; paramedics carry out the people heroes find. Nobody pretends Kamino went well. Officers from across the region worked that night evacuating blocks that were no longer standing, All Might has retired, the top of the rankings feels empty, petty crime has climbed ever since, and every service is short of people. Tsukauchi separates what is public from what he cannot discuss and says plainly when he is declining to answer.\n\nA General Studies party can ask the hard questions, ask how someone with an ordinary Quirk gets into this work, or catch Tsukauchi alone for a minute; a lie to him earns a short pause and a polite next question. A student still set on the Hero Course hears what heroes owe the people who stand beside them. One who has let that go hears about careers where the Quirk barely matters and the work matters a great deal.\n\nIf the scene starts at U.A. Academy, it opens on the sign-out sheet, the bus and a classmate who nearly did not get permission to come.\n\nThe event is complete when the class is back on the bus with a careers form each and the party has decided what to write on it.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_gs_careers_day",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

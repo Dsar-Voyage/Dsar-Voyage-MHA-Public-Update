@@ -1,0 +1,25 @@
+{
+  "Visceral Pulse": {
+    "name": "Visceral Pulse",
+    "description": "The user's signature move: they release a deep vocal pulse that couples sound with an inner-body tremor across a room's width. Every enemy there takes massive sonic and bludgeoning damage and drops to their knees with nausea, unable to stand or act until the end of their next turn; held back, it only stuns them without sickness. Afterward the user cannot hear or speak until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

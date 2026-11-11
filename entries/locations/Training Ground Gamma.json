@@ -1,0 +1,107 @@
+{
+  "Training Ground Gamma": {
+    "name": "Training Ground Gamma",
+    "basicInfo": "Training Ground Gamma is a factory-like training ground of pipes, tanks, catwalks and narrow lanes, packed so tightly that sightlines rarely run more than a few meters. It sits behind its own wall about 1 km west of the main building by campus road, at the foot of the slope below Ground Beta, with the main campus between it and the stadium. The faculty uses it for close-quarters exercises: ambushes, team battles, hostage scenarios and capture drills in which students must find an opponent before they can fight one. Hero Course classes come in afternoon blocks booked through the Faculty Office, and instructors run each exercise from the Control Tower; outside bookings it is closed, and its gate is locked. The campus bus drops classes at that gate, and the walk back to the main campus takes about fifteen minutes. Exercises start with teams at opposite ends of the maze and end with a capture, a surrender or the instructor's whistle. Staff reconfigure the maze between some sessions, so memorizing it only helps for so long. Students who are good in open ground often hate Gamma, and students with small, quiet or sensing Quirks often shine here. A player can hunt or be hunted, practice a capture, learn the maze or watch from the tower. Steam vents hiss, pipes knock when the system pressurizes, and the light stays dim even at noon.",
+    "hiddenInfo": "Most of the pipes are dummies, but some carry live water and low-pressure steam to make exercises real, and old valves leak where students have damaged them. The Control Tower can kill the lights, open steam vents and lock some gates, and instructors use those controls to change a fight mid-exercise without warning. Cameras do not cover every gap between the tanks, and older students pass the blind spots down to younger ones. Repairs come slowly: right now a catwalk at the east end of the maze sags where a student's Quirk bent it in March, and it is still in use, marked only with tape. Last weekend staff moved a whole row of tanks, so two of the blind spots the older students pass down no longer exist, and two new ones do, near the Factory Floor. Instructors know the maze is hard on students who panic in tight spaces, and they watch for it on the screens and pull a student out quietly rather than in front of the class. The steam system runs off a pressure board in the tower; if it is left on after a session, the pipes keep knocking through the night, and the groundskeepers have learned to check.",
+    "x": -5.32,
+    "y": -18.637,
+    "radius": 0.4,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Gamma Gate": {
+        "description": "The way into Training Ground Gamma: a heavy sliding gate in a plain concrete wall at the foot of the slope, about a kilometer west of the main building by campus road, with a bus turnaround, a roofed bus stop and a steel stair up the outside of the wall to the Control Tower for instructors. Pipes and tank tops show over the wall, and steam drifts out of the vents above it. Campus buses from the Campus Bus Terminal drop classes here for afternoon exercises, and the walk back to the main campus takes about fifteen minutes. Teams are split here before the gate opens, one sent in at each end, and the instructor reads out the rules from a clipboard while the pipes knock behind the wall. Outside bookings the gate is locked and the turnaround empty. A first-aid box and a fire extinguisher hang beside the gate, and a whistle on a cord hangs from the reader post. Through the gate a narrow lane runs into the Pipe Maze, past the open hall of the Factory Floor.",
+        "paths": [
+          "Pipe Maze",
+          "Factory Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2bc5fc89-b477-41b4-aa56-b3bf43dd01b3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Pipe Maze": {
+        "description": "The heart of the ground: lanes of tangled pipes at every height, with tanks, ladders and catwalks overhead, turns every few meters and shadows deep enough to hide in. During afternoon exercises, teams start at opposite ends and hunt each other through it while the Control Tower watches, and the instructor's voice comes over a speaker when a team breaks a rule. Some pipes are warm to the touch and some drip; a hiss from a vent is the only warning before a cloud of steam fills a lane. The maze opens onto the Factory Floor at one edge, and a ladder climbs to the Control Tower. Sound bounces off the metal, so footsteps seem to come from the wrong direction. Getting lost here is common, and getting found is the point of the exercise.",
+        "paths": [
+          "Factory Floor",
+          "Control Tower",
+          "Gamma Gate"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b58a000e-f973-426b-9d38-8184d727c26d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Factory Floor": {
+        "description": "An open hall at the maze's edge with a concrete floor, machinery mock-ups, overhead cranes and stacked crates: the one place in Gamma with room to swing a fist or a long weapon. Exercises use it for open fights, holdout scenarios and staging areas between rounds, and classes take water breaks and instructions here, sitting on the crates while the instructor goes over the last round. A whiteboard on wheels carries the day's teams and rules, and nobody erases it without asking. Its concrete floor is the only one in Gamma flat enough for Quirks that need footing, and the crates move between sessions to make new cover. The lanes of the Pipe Maze open off one long wall. Light from the high windows falls in bands across the floor, and the cranes creak overhead whenever the wind shifts.",
+        "paths": [
+          "Pipe Maze",
+          "Gamma Gate"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b6e15b00-b6d0-493d-94c1-d36992aa0def.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Control Tower": {
+        "description": "A tower above the maze with an enclosed observation deck: banks of monitors fed by cameras in the pipes, a console for lights, vents and gates, and windows on all sides. Instructors run exercises from here and speak to teams by radio, while waiting students and observers watch the screens and are expected to say what they would do next. Students come up only when invited, by the ladder down to the Pipe Maze. A rack of spare radios charges by the door, and the instructor hands one to each team leader before an exercise. A clipboard by the console logs every session, every vent opened and every gate locked. The deck is quiet and cool, and radio traffic from the maze is the only noise, apart from the occasional groan when a team walks into the same trap twice.",
+        "paths": [
+          "Pipe Maze"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e1b3d295-5c9a-4203-8005-a7f2790a98f8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "U.A. Academy"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/651eb94d-a1eb-4073-8184-d137188cf929.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

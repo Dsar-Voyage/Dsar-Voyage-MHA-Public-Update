@@ -1,0 +1,20 @@
+{
+  "Hammock Embrace": {
+    "name": "Hammock Embrace",
+    "description": "The user stretches their arms and torso into a wide elastic net beneath a falling person or dropped debris, goes feather-light on contact so the catch does not jar broken bones, and slowly restores weight to set them down softly on the ground. Nobody caught takes fall damage. Running stretch and weight shifts together leaves the user dizzy and vulnerable to sharp glass or hot metal in the fall. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

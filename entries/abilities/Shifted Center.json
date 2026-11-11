@@ -1,0 +1,29 @@
+{
+  "Shifted Center": {
+    "name": "Shifted Center",
+    "description": "The user touches a person, a vehicle or a pillar and makes it the center of an orbit in place of themselves for the rest of the scene. Around an ally, a ring of debris knocks aside attacks aimed at them; around an enemy, circling cords and scrap wind tighter each turn until the enemy is bound standing, unable to move their arms until cut loose; around a pillar, a ring of rubble walls off a street. Only one borrowed center holds at a time, the user's own orbits drop while it does, and if the center moves faster than a run the ring flies apart. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

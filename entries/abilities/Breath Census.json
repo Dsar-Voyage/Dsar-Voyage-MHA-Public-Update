@@ -1,0 +1,20 @@
+{
+  "Breath Census": {
+    "name": "Breath Census",
+    "description": "The user goes still and takes in a whole collapsed building, a flooded block or a smoke-filled site at once: breathing, heartbeats, tapping, blood and sweat. They learn where every living person in it is, whether each is conscious, breathing or bleeding, and who is in the worst danger, and can lead rescuers straight to each of them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

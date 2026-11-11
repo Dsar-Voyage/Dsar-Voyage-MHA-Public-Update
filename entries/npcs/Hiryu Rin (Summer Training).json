@@ -1,0 +1,44 @@
+{
+  "Hiryu Rin (Summer Training)": {
+    "name": "Hiryu Rin (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 16,
+    "tier": "elite",
+    "voiceTag": "male steady approachable",
+    "basicInfo": "Hiryu Rin, hero name Long Weizi, a Class 1-B first-year in U.A. Academy's Hero Course from China. Since the festival he has interned for a week, sat the final exams and trained at the forest camp beside 1-A, where he lived through the League of Villains' attack. Black low braid, narrow eyes, a solid build; the U.A. uniform or his black-and-gold hero costume.\nSpeaking Style: Calm, brief and practical.\nCombat Role: Armored mid-range support, sharper after camp: faster scale cover, truer volleys.\nUnder Pressure: Covers the exposed and calls a teacher when a drill stops being one.",
+    "hiddenInfo": "Contradiction: Camp showed him flashier Quirks daily; he answered by making his own more exact. Motivation: Be someone 1-B can count on when an exercise turns real. Connections: Itsuka Kendo and Tetsutetsu Tetsutetsu, who stopped the villain flooding the forest with gas. Knowledge: Knows the attack from inside the forest; Katsuki Bakugo's kidnapping, Kamino and All Might's retirement from the news. Thread: Whether precision keeps pace with power.\nQUIRK: Scales: faster armor, truer volleys; still breakable, still limited.\nSTAGE: After the summer camp and Kamino; U.A. locked down.",
+    "personality": [
+      "Methodical: Drills one technique until it is reliable before moving on.",
+      "Team-first: Covers classmates rather than racing them.",
+      "Watchful: Since the attack, tracks where everyone is before he commits.",
+      "Speaking style: Calm, brief, practical; short calls, little small talk."
+    ],
+    "abilities": [
+      "Scales: Faster armor and truer volleys since camp; heavy force still cracks the armor.",
+      "Shield line: Plates his arms to shield a classmate or bystander.",
+      "Angle reading: Fires only on lines that miss classmates, and checks every position first.",
+      "Chinese: A native speaker, at ease with Chinese-speaking visitors.",
+      "\nFighting style: Advances behind his scales, pins with measured volleys, then closes or hands off the capture."
+    ],
+    "visualDescription": "A young man with black hair pulled back from his face into a low braid, narrow eyes with small dark irises, light skin and a solid build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Composed, watchful expression.",
+    "detailType": "detailed",
+    "properName": "Hiryu Rin",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5d2bc45f-b0fb-4215-8021-147e49956b69.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_hiryu_rin",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/5d2bc45f-b0fb-4215-8021-147e49956b69.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/7687a481-f5e6-4b94-824d-8ab2a2b0476b.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/33630096-79ad-41ee-b066-e819d145abbb.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/da2d1b3f-fb5c-4dfd-98f1-675b5934ee7f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/881277bd-df99-4333-8f4c-f21a4f09f65c.png"
+    },
+    "initialKnown": false
+  }
+}

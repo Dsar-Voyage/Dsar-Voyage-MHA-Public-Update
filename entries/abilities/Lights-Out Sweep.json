@@ -1,0 +1,20 @@
+{
+  "Lights-Out Sweep": {
+    "name": "Lights-Out Sweep",
+    "description": "Moving from shadow to shadow, the user drops every unaware guard in a room, corridor or rooftop in turn before any of them can raise the alarm. Each target the user reaches falls unconscious; an armored or hardened target, or a seasoned pro or villain, is only knocked down, and the sweep stops the moment anyone sees the user. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Striker",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

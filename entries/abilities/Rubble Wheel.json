@@ -1,0 +1,25 @@
+{
+  "Rubble Wheel": {
+    "name": "Rubble Wheel",
+    "description": "The user sweeps their hands across a collapsed building or a wrecked street and sets every loose piece they touch, up to slabs the size of a car, circling them in a ring a city block across for the rest of the scene. Rubble lifts off everyone trapped beneath it, the ring blocks every vehicle and runner trying to cross it, and the user can let any piece fly for heavy bludgeoning damage; held back, it lands in front of the target as a wall. If the user steps from the center, the whole ring flies outward, so they must keep bystanders out of its path. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

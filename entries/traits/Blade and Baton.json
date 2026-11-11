@@ -1,0 +1,31 @@
+{
+  "Blade and Baton": {
+    "name": "Blade and Baton",
+    "description": "🗡️ You fight with a hand weapon (baton, staff, knife, sword or chain whip), backed by quick, evasive footwork.\n\n🎯 You keep opponents at weapon length, strip their weapons and find the gaps in their guard.\n⚠️ You need a weapon in hand or something to improvise with, such as a pipe or an umbrella.\n📈 You learn more techniques as your Melee Weapons and Dodging improve.\n⚖️ Carrying a knife or sword in public without good reason is a crime, an owned sword must be registered, and a carried baton draws police questions.\n🤝 Licensed heroes carry approved support weapons; students use them only in training. Bladed heroes face more press suspicion.\n\n📈 Grants: Technique +1, Melee Weapons +15, Dodging +10\n⚡ Starting technique: Reach Ward",
+    "traitNarrativeEffects": "Hand weapon (baton, staff, blade or chain) plus evasive footwork: reach keeps foes out of fist and grappling range; strikes hands and joints; slips attacks, never absorbs. At start: handles a small untrained group, matches a trained fighter with a similar weapon. Blunt deals bludgeoning; blades slashing or piercing. Unarmed: footwork and improvised objects (pipe, umbrella, chair leg); every technique needs something held. Thrown weapons are Marksmanship. Pure training: same for Quirkless; techniques cost stamina, never Quirk Strain. Law: a knife or sword carried in public without legitimate reason is a crime in Japan; owned swords must be registered; a baton or staff carried as a weapon draws police questions. Licensed heroes carry approved support weapons; students only in training or supervised hero work. Bladed heroes draw more press suspicion. Look: fast-draw weapon (baton on hip, staff on back, sword case), light shoes, side-on stance, scarred forearms.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Melee Weapons",
+        "modifier": 15
+      },
+      {
+        "skill": "Dodging",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Reach Ward"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

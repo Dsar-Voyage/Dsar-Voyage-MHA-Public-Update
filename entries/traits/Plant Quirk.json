@@ -1,0 +1,41 @@
+{
+  "Plant Quirk": {
+    "name": "Plant Quirk",
+    "description": "🌿 You grow living vines from your body and raise roots from the ground.\n\n🌱 At the start your vines reach about ten meters, hold an adult and bind limbs, a thorned vine whips anyone in reach, and crops you touch grow days' worth in minutes.\n📈 With training: thorn hedges across a street, buried people found through roots, vine swings, lifting rubble, a hardwood ram and, at the top, every plant in a city block.\n🔗 Common drawback pairing: Stamina Drain, since every vine grows from your body and needs water and sunlight to regrow.\n🎬 Similar canon Quirks: Ibara Shiozaki (Vines), Kamui Woods (Arbor).\n\n📈 Grants: Endurance +1, Quirk Control +10, Quirk Output +10, Survival +5\n⚡ Starting techniques: Tendril Bind, Thorn Lash",
+    "traitNarrativeEffects": "Scale: the user grows vines from the skin, usually forearms or scalp, and raises roots from touched soil. A new adult user sends wrist-thick vines about ten meters in a second or two, able to hold an adult, and grows touched crops days' worth in minutes. Bigger feats need techniques. Limits: fire burns vines, blades cut them; cut vines die, and regrowth needs water and sunlight, so long fights in dark, dry places starve it. Roots need soil or cracked ground; at the start the user cannot command plants they did not grow. Quirk Strain: light: tendril, lash; moderate: hedge, root listening, swing line; heavy: lifting rubble, hardwood ram; severe: signature move, a block's plants. Type: Emitter (also fits Mutant). Law: unlicensed binding is unlawful restraint; roots that crack a foundation are property damage. Look: thorned vines push from the skin, roots crack up through soil; as a Mutant Quirk, a permanent feature (vines in hair, bark on forearms).",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Survival",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Tendril Bind",
+      "Thorn Lash"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

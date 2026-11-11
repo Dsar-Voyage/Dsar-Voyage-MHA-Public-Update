@@ -1,0 +1,30 @@
+{
+  "Hiroshima": {
+    "name": "Hiroshima",
+    "basicInfo": "Hiroshima is the city and its bay at the western end of the Sanyo coast, where the Ota River spreads into a delta of six channels and the Inland Sea opens to the south. The city fills the delta in the middle of the cell, its suburbs climb the hills north and east, and Hiroshima Bay lies to the south, crowded with green islands and oyster rafts; the land rises into the forested Chugoku Mountains toward the north edge. Hiroshima is a big city of over a million, home to Hiroshima Castle, the Shukkeien garden, busy shopping arcades, streetcars and a red-clad pro baseball team adored across the region. Okonomiyaki layered with noodles and cabbage, oysters and momiji manju are everywhere. Southwest across a short ferry lies Miyajima, the sacred island of Itsukushima Shrine with its great vermilion torii standing in the sea at high tide, tame deer and a ropeway up Mount Misen. In the southeast corner, the naval port of Kure has shipyards, a big naval base and museums of ships and submarines. Fuchu, east of the city, is home to a major car plant, and Kumano in the hills makes most of Japan's calligraphy and makeup brushes. North and west lie Akiota and the Sandankyo gorge, the hot springs of Yuki and ski slopes in the snowy mountains. The climate is mild Setouchi: hot, humid summers, a rainy season in June, and calm winters with snow only in the hills. Hiroshima Station is a Nozomi stop on the Sanyo shinkansen, about three and a half hours from Musutafu and an hour from Fukuoka; the Sanyo Main Line, Kure Line, Geibi Line and Kabe Line radiate out, the Astram Line runs north, and the Sanyo and Chugoku expressways cross the region. From Ujina port ferries and high-speed boats go to Etajima, Kure and Matsuyama, and boats run to Miyajima from the city and Miyajimaguchi. Hiroshima has many hero agencies, police stations in every ward, Quirk-adapted streetcar crews and delivery riders, and sidekicks working the festivals and the baseball crowds, while maritime heroes and the coast guard watch the bay.",
+    "hiddenInfo": "A big city with big-city problems: purse snatchers and Quirk-using shoplifters in the arcades, nightlife brawls and touts in Nagarekawa, drug dealing, and bosozoku-style bike gangs on the bypasses. On the bay, oyster rafts get raided at night and smuggling slips through busy shipping lanes. Hero coverage is dense in the center and thin in the northern hills. Miyajima has its own pressures: crowds, overtourism and people feeding the deer.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -12,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a3eaa93-0273-47fb-927f-3013a6676f7b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

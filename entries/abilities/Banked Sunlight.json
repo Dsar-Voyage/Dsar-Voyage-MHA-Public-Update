@@ -1,0 +1,25 @@
+{
+  "Banked Sunlight": {
+    "name": "Banked Sunlight",
+    "description": "The user's signature move: they release every bright sight stored in their eyes in a single burst down a street. Every enemy within a street's length looking toward the user takes massive light damage and is blind until the end of their next turn; held back, the burst only blinds them with no lasting harm. Afterward the user's store is empty and they cannot project any image until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

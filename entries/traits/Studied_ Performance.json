@@ -1,0 +1,20 @@
+{
+  "Studied: Performance": {
+    "name": "Studied: Performance",
+    "description": "🎤 You trained to perform: music lessons, a dance studio, a theater troupe, idol training or street performing.\n\n🌱 Voice or instrument, dance, acting and stagecraft, with stage nerves under control. You can hold an audience and read its mood.\n⚠️ A professional stage, a hostile crowd or performing while hurt still test you.\n⚖️ Street performance may need a permit, and a Quirk used in a show follows the same public-use law as any other use.\n🏫 It shows in rhythm, posture and a habit of humming or rehearsing under your breath.\n\n📈 Grants: Performance +15",
+    "traitNarrativeEffects": "The character has trained as a performer: an instrument or voice, dance, acting or stagecraft, with rehearsal discipline and stage nerves under control. They can hold an audience and read its mood. Prior study, not mastery: a professional stage, a hostile crowd or performing while hurt still test them. Not a license: street performance may need a permit, and a Quirk used in a show follows the same public-use law as any other use. It shows in rhythm, posture and a habit of humming or rehearsing under their breath.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Performance",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

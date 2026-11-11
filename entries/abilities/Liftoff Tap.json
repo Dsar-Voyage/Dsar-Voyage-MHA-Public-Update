@@ -1,0 +1,20 @@
+{
+  "Liftoff Tap": {
+    "name": "Liftoff Tap",
+    "description": "With a touch, the user makes a person, or an object up to a small car's weight, weightless. The target drifts slowly upward and comes down only when the user makes a release gesture; a floating person cannot run, brace or put weight behind a blow until they catch hold of something solid. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

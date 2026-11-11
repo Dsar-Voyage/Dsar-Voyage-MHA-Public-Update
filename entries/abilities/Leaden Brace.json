@@ -1,0 +1,20 @@
+{
+  "Leaden Brace": {
+    "name": "Leaden Brace",
+    "description": "The user turns heavy in an instant as a shove, a tackle, a blast wave or a gust arrives. Until the end of their next turn nothing that pushes can move them a step: they cannot be knocked down, thrown or carried off, and a tackler rebounds and falls. Blades, bullets, heat and electricity hurt them as normal, and they cannot move faster than a walk while braced. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

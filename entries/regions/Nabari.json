@@ -1,0 +1,30 @@
+{
+  "Nabari": {
+    "name": "Nabari",
+    "basicInfo": "The forested upland on the border of Nara and Mie where the Kii Mountains begin: the Nabari and Uda highlands, the Murou and Soni plateaus, the upper valleys of the Kumozu, Kushida and Miya rivers, and, in the southwest, the source country of the Yoshino River in Higashiyoshino and Kawakami. About three quarters of the cell is steep wooded mountain, the rest small basins and valleys. Nabari, in the north, is a commuter town of hillside housing estates for Osaka workers, with the Akame Forty-Eight Waterfalls in a gorge just south, a trail of cascades once used, the story goes, for ninja training. West of it, Murou-ji is a mountain temple with a slender five-story pagoda among cedars, long known as the temple that welcomed women when Mount Koya did not. The Soni plateau's pampas grass turns the hills silver-gold in autumn, and the pointed peak of Mount Takami stands on the Nara-Mie line. East, in Mie, the Kintetsu line threads the Aoyama tunnels down to Sakakibara Onsen, a centuries-old spring, and the junction town of Ise-Nakagawa, while the slow JR Meisho line runs up the Kumozu valley from Matsusaka to Ise-Okutsu, an old pilgrim-road post town. Matsusaka's cattle farms, raising one of Japan's most famous beefs, spread up the valleys at the eastern edge. The south is deep cedar forest and dam lakes with few roads; Kawakami village keeps some of the oldest planted cedar forests in Japan. Summers are humid, winters cold and occasionally snowy. People commute, farm, grow tea, raise cattle and log cedar and cypress. The Kintetsu Osaka line connects Nabari to Osaka-Uehommachi in about an hour and Ise-Nakagawa to Nagoya in about an hour; Musutafu is two and a half to three hours away by way of Nagoya. Nabari has a small hero agency and police boxes; licensed heroes cover the vast mountain districts by car, and a forester's Quirk that senses unstable slopes is prized after heavy rain.",
+    "hiddenInfo": "The hills are emptying fast and the commuter estates are aging. Problems are illegal dumping on forest roads, theft of cattle and farm machinery, poaching, and hikers lost in the gorges. Landslides after typhoon rain are the real emergency. Hero help from Osaka, Nara or Tsu is one to two hours away by road; the local heroes cover the rest.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -5,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/77b68432-a72b-466b-983a-0b1ac7f6a095.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

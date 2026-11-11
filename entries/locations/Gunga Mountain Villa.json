@@ -1,0 +1,86 @@
+{
+  "Gunga Mountain Villa": {
+    "name": "Gunga Mountain Villa",
+    "basicInfo": "A large private villa high on Gunga Mountain, about 18 km north-northwest of Deika City, at the end of a private road that leaves the highway at a locked gate with cameras and an intercom. The main house is a modern lodge of concrete and timber with guest wings, a big dining hall and garages, set in cleared grounds with forest falling away on every side. The deeds name a holding company owned by a wealthy Deika family, and people in the valley say only that the owners keep to themselves. A caretaker crew lives on site all year, and a cold, white-haired young man called Geten lives here too and drills the weekend guests; the caretakers defer to him. Most weekends, cars and chartered buses come up the road with guests for what the caretakers call company retreats, and the place is empty again by Monday. Hikers who wander onto the slopes are turned back politely. There is no shop, inn or station; Deika Station is about an hour's drive, and the gate opens only for cars on the guest list or for staff. In April snow still lies on the upper slopes, and the road can close after a storm. Guests arrive Friday evening, drill on the slopes on Saturday and Sunday mornings, eat together in the dining hall and leave on Sunday night; during the week the caretakers do repairs, deliveries come up from Deika, and the house is nearly silent. A player can come here as hired staff, as an invited guest, or over the fence. The air is thin and cold, the silence is total, and from the terrace the lights of Deika look very far away.",
+    "hiddenInfo": "The villa belongs to the Meta Liberation Army, held through companies tied to Detnerat. Its leaders use it for meetings they cannot hold in the city, and members come up in groups for weekend training on the slopes, where they use their Quirks at full strength with no one to report them. Geten, one of the army's four lieutenants and its truest believer, runs those drills and answers only to Re-Destro. The caretakers are members; cameras at the gate feed a guard room, and anyone who gets past the gate is photographed and their name sent down to Deika. Right now the crew is expanding the cellars and dormitory wings to sleep far more people than any family retreat needs. Something else shares the mountain. In the deep ravines below the drill slopes lives Gigantomachia, a colossal man who serves one master, never named, and keeps away from trails and towns; almost nobody has heard of him. He sleeps for days between orders and ignores anyone who does not block his path. This spring a drill group came back from the lower tracks with stories of cedars torn out by the roots and a landslide rumble that went on and on, and Geten has put the deep ravines off-limits without explaining why. The private road is the only way in for vehicles, and a landslide or heavy snow can close it for days.",
+    "x": -10.42,
+    "y": -1.04,
+    "radius": 1,
+    "region": "Deika",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Villa Grounds": {
+        "description": "A gravel drive, garages and a paved forecourt in front of the main house, whose long terrace looks down the valley toward the lights of Deika. Caretakers sweep, repair and cook through the week; on weekends the forecourt fills with cars and the terrace with guests in casual clothes who all seem to know one another, and meals in the dining hall run in shifts. Geten, white-haired and wrapped in a long light-blue parka, walks the terrace before the morning drills and sizes up every new guest's Quirk before he looks at their face. A guard room by the garages watches the gate cameras day and night. The grounds are so quiet that every car on the gravel is heard in the guard room before it reaches the house. A path from the edge of the forecourt drops down to the Mountain Slopes.",
+        "paths": [
+          "Mountain Slopes",
+          "Villa Great Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c67e56bf-90c4-4a86-af86-667ef10851d9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mountain Slopes": {
+        "description": "Steep slopes of cedar and beech below the villa, cut by old logging tracks and ravines, with snow lingering in the shaded hollows into April. Some clearings are scorched, frozen solid or cratered where Quirks have been used at full strength. Groups come down from the villa early in the morning to drill and climb back before dark; caretakers walk the tracks in the afternoon. Below the drill clearings the ravines run deep and dark, and nobody from the villa goes down there now; from them, now and then, comes a long landslide rumble that never quite finishes. Sound carries a long way here: the thud of impacts and the crack of breaking ice echo across the valley, and the people below have stopped asking about it. The logging track climbs back to the Villa Grounds.",
+        "paths": [
+          "Villa Grounds"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e9c80acc-04f5-438a-ad48-7a4e455877ec.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Villa Great Hall": {
+        "description": "The largest room in the villa's main house, at the end of a long corridor past the dining hall: a high hall under timber beams, with a polished concrete floor, a wall of tall windows facing the valley and the far lights of Deika, and a great stone fireplace at the far end. Folding chairs for several hundred stand stacked along the walls between gatherings, and a low wooden dais before the fireplace holds a lectern and a single microphone, with a projector screen that rolls down from the beams. The villa's owners and their guests use the hall for meetings they would not hold in the city: speeches on Friday nights when the buses arrive, plans laid out on maps across trestle tables, and long sessions that end with the whole room on its feet. Guests talk openly here in a way they never would down in Deika, and a stranger who asks the wrong question is remembered. On weekdays the caretakers air it out, wax the floor and restack the chairs, and the sound of a single broom carries from end to end. The fire warms only the rows near the dais, so the back rows sit in their coats, and the hall smells of woodsmoke, floor wax and the cedar forest outside. A player who comes as staff, as a guest or over the fence can hear a speech, meet the people who run the villa or look over what was left on the tables. Double doors at the front open onto the terrace and the Villa Grounds.",
+        "paths": [
+          "Villa Grounds"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f0f863db-8847-4fea-941b-634ddcfe5013.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Meta Liberation Army"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/60287a8d-7d00-4d59-a9ca-b16249b12a68.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": false
+  }
+}

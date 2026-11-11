@@ -1,0 +1,15 @@
+{
+  "mha_minoru_mineta": {
+    "label": "Minoru Mineta",
+    "voiceTag": "male young charismatic",
+    "instructions": "A high, thin, nasal young man with a whiny, sniveling edge: quick, breathy and eager, his voice cracks upward when he gets excited or scared and drops into a sleazy, wheedling murmur when he schemes. Clear and smooth, never hoarse, gravelly or raspy, never deep.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 2
+      }
+    }
+  }
+}

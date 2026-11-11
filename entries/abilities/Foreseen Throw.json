@@ -1,0 +1,20 @@
+{
+  "Foreseen Throw": {
+    "name": "Foreseen Throw",
+    "description": "The user throws a small heavy object, a paperweight, a stone, a stapler, at the spot an opponent they have read today will be in a moment. It strikes them there before they can guard and deals bludgeoning damage; held back, it is a stinging knock that staggers them. It works only against a person the user read today, and the user needs a hand-sized object to throw. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

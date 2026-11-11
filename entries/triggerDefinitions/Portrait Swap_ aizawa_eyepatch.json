@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: aizawa_eyepatch": {
+    "name": "Portrait Swap: aizawa_eyepatch",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_war_casualty_roll",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Shota Aizawa",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/160b9f6f-3645-4e15-b84b-ac61dbeb4f90.png"
+      }
+    ]
+  }
+}

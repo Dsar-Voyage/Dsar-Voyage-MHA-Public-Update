@@ -1,0 +1,44 @@
+{
+  "Extra Limbs Quirk": {
+    "name": "Extra Limbs Quirk",
+    "description": "🐙 You were born with extra limbs: a second pair of arms, tentacles from your back or shoulders, or long prehensile limbs.\n\n🌱 Each starts about as strong as an ordinary arm: climb, carry and fight with all at once, strike from angles one guard cannot cover, and pin a person with your hands free.\n📈 With training: several injured carried, an eye or ear budded at a limb tip, sprints up walls, a falling ceiling held, a group seized, limbs split among separate tasks.\n🔗 Common drawback pairing: Bodily Toll, as muscle tears where the limbs join.\n🎬 Similar canon Quirks: Mezo Shoji (Dupli-Arms).\n\n📈 Grants: Power +1, Endurance +1, Quirk Output +10, Quirk Control +10, Grappling +5\n⚡ Starting techniques: Crossing Blows, Many-Handed Bind",
+    "traitNarrativeEffects": "Scale: born with extra limbs of the player's choice: a second pair of arms, up to about four back or shoulder tentacles, or long prehensile limbs. Each has an adult arm's strength; together they lift about two adults' weight, hands left free. Larger feats need techniques. Limits: blades cut and blows break them, and each is one more thing to grab or pin. They cannot stretch, detach or regrow; grips slip past a few holds at once. Always visible unless covered; strangers stare; clothes and costumes need custom work. Quirk Strain: none for daily use; light: multi-limb strike, bind; moderate: group carry, budded organ, fast climb; heavy: bracing a structure, seizing a group; severe: signature move, splitting limbs among tasks. Type: Mutant. Law: striking, pinning or carrying off a person with the limbs unlicensed is assault or unlawful restraint outside self-defense. Look: limbs move independently; trained users bud a working eye, ear or mouth at a limb tip.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      },
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Grappling",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Crossing Blows",
+      "Many-Handed Bind"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

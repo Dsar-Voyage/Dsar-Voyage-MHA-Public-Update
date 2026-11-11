@@ -1,0 +1,39 @@
+{
+  "Companions: nobody dies at the USJ": {
+    "name": "Companions: nobody dies at the USJ",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "live_usj_attack",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_usj_attack",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "npc-health",
+        "npc": "anySceneNPC",
+        "operator": "lessThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-health",
+        "npc": "satisfyingNPCs",
+        "operator": "set",
+        "value": 1
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: nobody dies at the USJ. Anyone who goes down is knocked out, not killed: heroes restrain downed attackers, and the police take them away."
+      }
+    ],
+    "recurring": true,
+    "phase": "planning"
+  }
+}

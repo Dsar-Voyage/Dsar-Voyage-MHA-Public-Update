@@ -1,0 +1,25 @@
+{
+  "Full Bore Release": {
+    "name": "Full Bore Release",
+    "description": "The user braces against solid cover and charges for two turns, with a rising whine and bright muzzle, then fires within sixty meters. The round deals massive bludgeoning damage and breaks vehicle armor; held back, it knocks one adult down with a broad blunt round. The recoil throws an unbraced user down, and the burned arm cannot fire for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

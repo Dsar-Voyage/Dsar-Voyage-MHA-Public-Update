@@ -1,0 +1,24 @@
+{
+  "Hollow Expanse": {
+    "name": "Hollow Expanse",
+    "description": "The user's phase spreads into anything they touch, up to the size of a bus or a falling section of ceiling. A runaway truck passes through the crowd in its path, a collapsing slab passes through the people beneath it, or a chain of people holding hands walks through a wall of fire; until the end of the user's next turn, nothing they phase harms anyone or is harmed. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

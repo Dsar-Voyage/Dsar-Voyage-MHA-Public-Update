@@ -1,0 +1,30 @@
+{
+  "Uwajima": {
+    "name": "Uwajima",
+    "basicInfo": "The southwest corner of Ehime and the Uwa Sea: a deeply indented ria coast of drowned valleys, narrow peninsulas and small islands running south from Yoshida through the castle city of Uwajima to the fishing towns of Ainan, with the Bungo Channel open to the west. Only about a third of the cell is land; the western half is water, the Uwa Sea grading into the channel, with Kyushu's coast low on the horizon on clear days. Behind the coast, the Onigajo mountains rise steeply, and rice and mandarin terraces climb wherever a slope faces the sun. Uwajima is a small castle city whose hilltop keep is one of the twelve original castle towers left in Japan, with a wisteria garden and a covered market street below. It is known for bull sumo, a traditional sport in which two huge bulls push horn to horn in a ring several times a year, and for its July festival, when giant demon-bull ushi-oni floats charge through town. The bays are covered with pearl rafts and the pens of farmed red sea bream; tai-meshi, raw bream over rice with egg and sauce, and fried jakoten fish cake are the local foods. Yoshida, to the north, is mandarin country. Along the coast south of Uwajima, the terraced potato fields of Yusumizugaura climb a whole headland in stone steps, the hamlet of Sotodomari is walled in high stone against typhoon winds, and Ainan has Kanjizai-ji, the pilgrimage temple farthest from the first. Winters are mild, summers hot, and typhoons strike in late summer. The JR Yosan Line limited express runs from Matsuyama in about an hour and a half, and the Yodo Line, a slow single-track line, runs east up the Shimanto River to Kubokawa; the Matsuyama Expressway reaches Uwajima's southern edge. From Musutafu, it is most of a day by shinkansen to Okayama and limited express through Matsuyama, or a flight to Matsuyama and a train south. Uwajima keeps a small hero agency and a police station, the coast guard and a few maritime sidekicks watch the pearl and fish farms, and farmhands with strength Quirks are hired at harvest.",
+    "hiddenInfo": "The pearl and fish farms are big money in a poor district, and quiet disputes over water rights, red tide losses and theft from the rafts run under the surface. Outlying hamlets and islands are aging and some are close to empty. Beyond Uwajima's one agency, the nearest real hero muscle is in Matsuyama, about ninety minutes away. Small crime is pearl and catch theft, illegal betting around bull sumo, and poachers working other people's rafts at night.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -12,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9c6794ba-8c69-4c39-b280-743268df86c3.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

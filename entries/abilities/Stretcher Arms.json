@@ -1,0 +1,20 @@
+{
+  "Stretcher Arms": {
+    "name": "Stretcher Arms",
+    "description": "The user gathers several injured or trapped people at once, one to each spare limb, bracing each person's neck, back and hips, and carries them out at a steady jog. Nobody carried takes further harm from being moved, a person with a neck or spine injury is held still, and the user keeps a hand free for doors, debris or guiding others. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

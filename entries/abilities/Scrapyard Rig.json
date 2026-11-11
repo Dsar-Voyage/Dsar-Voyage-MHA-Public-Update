@@ -1,0 +1,20 @@
+{
+  "Scrapyard Rig": {
+    "name": "Scrapyard Rig",
+    "description": "The user rips the power cell, motor or wiring out of wrecked gear, a vehicle or a vending machine and wires a single-use powered trap mid-fight: a shock plate that deals electric damage to the first opponent who steps on it and knocks them down, a shorted panel that blacks out a room's lights, or a salvaged motor that winches a shutter down and jams it. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gear Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

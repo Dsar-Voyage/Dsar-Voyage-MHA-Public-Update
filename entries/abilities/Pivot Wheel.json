@@ -1,0 +1,20 @@
+{
+  "Pivot Wheel": {
+    "name": "Pivot Wheel",
+    "description": "The user plants a foot, spins and releases the Quirk in a full circle around the user's body. Every opponent within arm's reach takes the Quirk's own damage type (bludgeoning damage from a strengthened body) and is pushed back out of reach; a Quirk with no attack applies its usual effect to each of them instead. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirk-Centered Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

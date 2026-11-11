@@ -1,0 +1,42 @@
+{
+  "Side Resume: Year-End Staff Party": {
+    "name": "Side Resume: Year-End Staff Party",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "fac_staff_party",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_fac_staff_party",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_fac_staff_party",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "fac_staff_party"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_fac_staff_party",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Year-End Staff Party\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Late December, evening, in the Teachers' Lounge at U.A."
+      }
+    ]
+  }
+}

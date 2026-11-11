@@ -1,0 +1,20 @@
+{
+  "Collar Haul": {
+    "name": "Collar Haul",
+    "description": "The user seizes the clothing of a person in danger within sight and hauls them clear by it: out of a car's path, back from a ledge, out from under falling debris or out of a villain's reach. They are pulled a few strides at once and set down on their feet, and any attack aimed at them that turn misses. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

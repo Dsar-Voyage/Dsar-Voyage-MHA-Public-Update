@@ -1,0 +1,17 @@
+{
+  "A Warning from the Police": {
+    "name": "A Warning from the Police",
+    "questSource": "Naomasa Tsukauchi",
+    "questStatement": "The police have been logging sightings of your costume for weeks. Now a message has reached you, left where only you would find it: Detective Naomasa Tsukauchi wants a word at Musutafu Police Headquarters. It is not a summons, and it is not an arrest. He wants to talk about where the line is, and he will know if you lie to him.",
+    "mainObjective": "Meet Detective Naomasa Tsukauchi and come to terms with him about your vigilante work.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has met Naomasa Tsukauchi and left with a clear understanding: a warning heeded, a quiet deal struck, a path toward a license, or an open break with the police."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Police Headquarters",
+    "questDesignBrief": "A tense, quiet conversation scene. Tsukauchi is courteous and exact; his Lie Detector tells him when the PC says something they know is false, never what the truth is, so careful true answers give him nothing. He can offer a warning, an off-the-books arrangement as an informant, or advice on how a hero license is earned; he will not ignore serious harm. Sansa Tamakawa may sit in. Whether the police know the PC's real name depends on how the PC has worked, and Tsukauchi says plainly what he knows. Arrest is possible if the PC confesses to something serious or attacks him, never as an ambush. Failure: the police stop tolerating the PC and patrols start hunting the mask.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Open Finger Capture": {
+    "name": "Open Finger Capture",
+    "description": "The user enlarges a hand around the clothed torso of one adult within two meters, leaving their head and airway clear. The loose grip holds until the end of the user's next turn unless the target forces the fingers apart. The user must keep checking pressure and cannot use that hand to attack while holding them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

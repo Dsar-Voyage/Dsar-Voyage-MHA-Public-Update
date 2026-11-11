@@ -1,0 +1,24 @@
+{
+  "Broad Spiral Burst": {
+    "name": "Broad Spiral Burst",
+    "description": "The user releases a powerful spiral shockwave down a clear street, striking several opponents in its path for heavy bludgeoning damage. Held back, it scatters them and leaves them able to recover. The wave is visible and slower than a straight blast, and the user must keep civilians out of its wide path. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

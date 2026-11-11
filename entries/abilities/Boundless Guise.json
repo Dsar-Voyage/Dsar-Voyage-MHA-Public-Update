@@ -1,0 +1,25 @@
+{
+  "Boundless Guise": {
+    "name": "Boundless Guise",
+    "description": "For the rest of the day the user can take the form of anyone whose sample they carry, whatever their size, from a small child to a heteromorph three meters tall, and switch between every carried form between one step and the next without breaking line of sight. Each form holds through blows, sleep and shock. Copied wings still do not fly, and the user gains none of anyone's Quirk, memories or skills. When the day ends the user's bones ache and they cannot change form until they have slept. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Gap Run": {
+    "name": "Gap Run",
+    "description": "The user runs up a wall, kicks off and catches a ledge, sign or railing across a gap too wide to clear with a flat jump. The user crosses gaps between buildings and climbs or drops a floor at a time without losing speed, and a chase on foot cannot follow without a mobility Quirk. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Parkour",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Studied: Marksmanship": {
+    "name": "Studied: Marksmanship",
+    "description": "🏹 You trained to aim: archery, kyudo, competitive air rifle or years of darts and knife throwing.\n\n🌱 Breath control, a steady sight picture, leading a moving target and accurate throws. You choose each shot with care.\n⚠️ Shooting under fire, at long range or past bystanders is still uncertain, and support-gear launchers take practice of their own.\n⚖️ Guns belong to the police and specially licensed heroes, and no sport permit lets you carry a weapon on the street.\n🏫 It shows in a still hand, a habit of checking where others stand and respect for anything that fires.\n\n📈 Grants: Marksmanship +15",
+    "traitNarrativeEffects": "The character has trained to aim: breath control, a steady sight picture, leading a moving target and throwing with accuracy. They choose shots with care because every miss lands somewhere. Prior study, not mastery: shooting under fire, at long range or past bystanders is still uncertain, and support-gear launchers take practice of their own. Not a license: firearms law is strict; guns belong to the police and specially licensed heroes, and no sport permit allows carrying a weapon on the street. It shows in a still hand, a habit of checking where others stand and respect for anything that fires.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Marksmanship",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

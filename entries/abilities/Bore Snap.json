@@ -1,0 +1,20 @@
+{
+  "Bore Snap": {
+    "name": "Bore Snap",
+    "description": "The user fires one dense calcium round at a visible target within twenty meters. The shot deals moderate bludgeoning damage and shoves a standing adult back one step; held back, a softer round only staggers them. Each shot consumes bodily reserves and jars the shoulder, and anything behind the target remains at risk. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

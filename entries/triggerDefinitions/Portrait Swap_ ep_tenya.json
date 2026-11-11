@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_tenya": {
+    "name": "Portrait Swap: ep_tenya",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/19680822-ac3c-4030-ac2a-c85ee4da26ea.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/19680822-ac3c-4030-ac2a-c85ee4da26ea.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/19680822-ac3c-4030-ac2a-c85ee4da26ea.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Tenya Iida (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/19680822-ac3c-4030-ac2a-c85ee4da26ea.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Floodtide Vigil": {
+    "name": "Floodtide Vigil",
+    "description": "For the rest of the scene the user works a flooded district, a capsized ferry or a storm-tossed harbor without leaving the water or surfacing for air. They find every person in the water or trapped beneath it and bring each of them to air and footing before they drown; nobody the user reaches is lost to the water. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

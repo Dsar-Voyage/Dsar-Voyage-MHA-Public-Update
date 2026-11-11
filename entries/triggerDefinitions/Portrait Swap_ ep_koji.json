@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_koji": {
+    "name": "Portrait Swap: ep_koji",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Koji Koda (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2dc6318c-7c6d-4c8e-abfe-41b20177b55b.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Koji Koda",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2dc6318c-7c6d-4c8e-abfe-41b20177b55b.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Koji Koda (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2dc6318c-7c6d-4c8e-abfe-41b20177b55b.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Koji Koda (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2dc6318c-7c6d-4c8e-abfe-41b20177b55b.png"
+      }
+    ]
+  }
+}

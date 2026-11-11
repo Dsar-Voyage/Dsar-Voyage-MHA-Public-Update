@@ -1,0 +1,28 @@
+{
+  "Sea off Mihonoseki": {
+    "name": "Sea off Mihonoseki",
+    "basicInfo": "Open Sea of Japan north of Mihonoseki, the eastern tip of the Shimane Peninsula, and the mouth of Miho Bay. Jizozaki cape and its white lighthouse stand on the southwestern horizon, the long sweep of the Yumigahama spit and the bulk of Mount Daisen rise to the south, and on clear days Dogo is a low gray shape to the north. The water is clear blue, mostly fifty to a hundred and fifty meters deep, with the Tsushima Current flowing northeast. Summers are calm; in winter the northwest monsoon brings heavy seas and snow squalls. The Oki ferries and jetfoil from Sakaiminato and Shichirui cross the western part, and boats from Sakaiminato, one of Japan's busiest fishing ports, are everywhere: purse seiners after mackerel and sardines, boats landing bluefin tuna in early summer, and crab trawlers in winter. Cargo ships come and go from Sakaiminato harbor. The coast guard office at Sakaiminato is close by, and the hero agencies of Sakaiminato and Yonago answer calls at sea. A party could be out here on the Oki ferry, a fishing or charter boat from Sakaiminato or Mihonoseki, or crossing by air.",
+    "hiddenInfo": "Busy port waters mean busy small crime: unlicensed fishing, catch fraud, worries about goods slipped off cargo ships, and labor tension on the boats. Help is close, with the coast guard and Sakaiminato heroes under an hour away, though winter storms still make rescue dangerous.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -10,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e30b2fc3-b8bd-46fe-a6c5-e000ef052b66.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

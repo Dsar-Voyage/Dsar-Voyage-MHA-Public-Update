@@ -1,0 +1,20 @@
+{
+  "Slip the Shape": {
+    "name": "Slip the Shape",
+    "description": "Caught in a grip, handcuffs or a tight spot, the user drops in an instant into a smaller, slimmer form from a sample they carry. Cuffs and bindings slide off, a grappler is left holding loose clothes, and the user squeezes through any gap a smaller adult could pass before changing back. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

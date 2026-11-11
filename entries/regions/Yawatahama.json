@@ -1,0 +1,30 @@
+{
+  "Yawatahama": {
+    "name": "Yawatahama",
+    "basicInfo": "The western shoulder of Ehime where the Sadamisaki Peninsula leaves Shikoku: the root of that long ridge, the port city of Yawatahama, the old castle town of Ozu on the Hiji River, the merchant town of Uchiko, and the hills of Seiyo around Unomachi. The western third of the cell is sea, the Iyo-nada north of the Sadamisaki ridge and the Uwa Sea and Bungo Channel south of it; the rest is steep, folded hill country running east into higher mountains. Terraced mandarin orchards on stone walls climb nearly every slope that faces the sea, and the coastal road from Iyo-Nagahama past Shimonada runs right along the water. Ikata, on the peninsula's north side, is a wind-swept fishing and orchard town. Yawatahama is a working fishing port with a big wholesale fish market, a market hall for visitors and its own champon noodle soup; car ferries leave here for Beppu in under three hours and for Usuki in a little over two. Ozu sits in a basin on the Hiji River with a rebuilt wooden castle keep above the water, a riverside villa and tea house on the bluffs, cormorant fishing by lantern light from June through September, and riverbank taro-stew gatherings in autumn. From late autumn to early spring, cold morning air drains down the Hiji and pours out its mouth at Nagahama as a fast river of fog under the red iron bascule bridge. Uchiko preserves a street of wax merchants' houses and a restored kabuki theater from the Taisho years. Unomachi in Seiyo has old merchant lanes and the terraced rice paddies of the Uwa hills. The JR Yosan Line limited express runs from Matsuyama to Uchiko, Ozu, Yawatahama and Unomachi on its way to Uwajima, and the Matsuyama Expressway follows the same inland line. From Musutafu, it is most of a day by train through Okayama and Matsuyama, or a flight to Matsuyama and under an hour on the train; from Osaka, about five hours. Small hero agencies in Ozu and Yawatahama cover the district, with patrols doubled in cormorant season and at the autumn festivals, and orchard workers with climbing or lifting Quirks are hired by the season.",
+    "hiddenInfo": "The orchard terraces depend on an aging workforce and seasonal hires, and labor disputes and pay theft among pickers simmer quietly at harvest. Fishermen and the Yawatahama market watch for poachers in the Uwa Sea and for theft of catch and gear from the piers. Real hero muscle comes from Matsuyama, about an hour away; at night, one small office often handles calls for the whole district.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -12,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d81ffc07-070a-400b-b8c6-03d480d96cd4.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

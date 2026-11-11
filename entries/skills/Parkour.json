@@ -1,0 +1,9 @@
+{
+  "Parkour": {
+    "name": "Parkour",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: free-running over rooftops, walls, railings and urban obstacles at speed, including safe landings. Not: slow vertical ascents, which is Climbing. Primary attribute: Speed.",
+    "startingItems": []
+  }
+}

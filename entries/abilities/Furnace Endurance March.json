@@ -1,0 +1,24 @@
+{
+  "Furnace Endurance March": {
+    "name": "Furnace Endurance March",
+    "description": "The user maintains steel through intense external heat for up to two turns, crossing ten meters per turn to reach an exit or opponent. The metal heats and may glow, making bare contact unsafe. The user produces no heat, still needs breathable air and must withdraw before collapse; further exposure can overwhelm the trained tolerance. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

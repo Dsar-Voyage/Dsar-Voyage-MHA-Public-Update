@@ -1,0 +1,20 @@
+{
+  "Passenger Steady Run": {
+    "name": "Passenger Steady Run",
+    "description": "The user secures one adult passenger against their back or in both arms and runs up to forty meters to safety this turn with measured acceleration and braking. The passenger arrives without being jolted by a maximum-speed start. The user needs a clear route and a secure hold; this cannot safely move someone whose injury requires a rigid stretcher. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

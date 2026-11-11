@@ -1,0 +1,15 @@
+{
+  "takoba_gashly_front": {
+    "title": "The Fight Beyond the Cameras",
+    "beats": "On day 405, the force at Takoba Municipal Stadium is still fighting while the better-publicized fronts dominate communications. Hanta Sero, Mashirao Ojiro, Rikido Sato, Ryukyu, and their associated defenders confront Gashly Eijiju across the Exam Arena and its damaged approaches. Open with a local position under pressure rather than assuming this team has been free to reinforce someone else.\n\nThe canon default course, as pressure the player can change: Gashly's manifested threats keep the team committed to a sustained containment battle. The defenders prevent him from overrunning their position and eventually stop his resistance, allowing survivors to become available for the later convergence. The immediate work is coordinated fighting, protecting casualties, and denying the escapee another opening. His small manifested figures are artificial puppets, not real children, and fighting them never authorizes harm to an actual child.\n\nBuild the playable encounter around a threatened lane, a trapped teammate, or a shortage that has gone unanswered. Use the defenders' established abilities for a concrete plan: Sero's tethers, Ojiro's controlled close fighting, Sato's limited strength bursts, and Ryukyu's protection. Do not supply an elaborate unseen canonical finishing technique for Gashly. The player's tactics can determine how the containment ends and who remains fit to travel. Success here does not require a claim that suffering gave the defenders' lives meaning; their ordinary bonds and effort already matter.\n\nBy place: Takoba Municipal Stadium stages the direct fight and relief. Musutafu General Hospital receives casualties once extraction is secured. U.A. Academy, Okuto Island, Kamino Ward, and Gunga Mountain Villa receive an accurate availability report instead of premature reinforcements. Jaku City can coordinate reachable supplies. Mount Fuji Battlefield receives this team only after its local threat ends and a route or gate is actually available. Off-site participation concerns relief, reception, or verified communication.\n\nBy Path: Class 1-A and Class 1-B reinforce containment; General Studies relays stalled requests; Support maintains equipment. Management finds neglected supplies and Faculty arranges relief. Licensed Sidekick extracts casualties; Licensed Pro Hero directs the containment. League of Villains Recruit can aid Gashly or abandon him; Independent Villain chooses resistance, surrender, or escape. Vigilante protects nearby approaches; Civilian Life sustains the medical station and helps people reach shelter.\n\nThe event is complete when Gashly's local threat is resolved, custody and injuries are established, and the surviving team's availability for its next assignment is explicit.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_takoba_gashly_front",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

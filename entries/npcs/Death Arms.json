@@ -1,0 +1,37 @@
+{
+  "Death Arms": {
+    "name": "Death Arms",
+    "type": "Pro Hero",
+    "currentLocation": "Hero Agency Row",
+    "currentArea": "Patrol Garage",
+    "gender": "male",
+    "faction": "",
+    "level": 20,
+    "tier": "elite",
+    "voiceTag": "male deep accent",
+    "basicInfo": "Death Arms, an established Musutafu street pro known for raw strength and for charging in first, shouting warnings. At the sludge villain attack the spring before the entrance exam, he could not grip the villain; only All Might's arrival freed the hostage. Very broad and heavily muscled, swept-back white hair; a caution-striped headband and wrist guards, an open cyan vest.\nSpeaking Style: Blunt: direct warnings, short orders, plain complaints.\nCombat Role: Frontline muscle: strikes, grapples, shifts debris; a villain he cannot grip leaves him only protecting people.\nUnder Pressure: Tries the direct answer, then clears civilians and backs whoever can do the job.",
+    "hiddenInfo": "Contradiction: All force and caution stripes: strength is the tool he trusts, and a sludge villain proved it is not enough. Motivation: Keep civilians on his streets safe; bluntness is just the fastest way. Connections: Backdraft, who shares the block's garage and many patrols; Death Arms takes the weight, Backdraft the water. Katsuki Bakugo, the hostage teen the pros praised afterward and offered a sidekick spot. Izuku Midoriya, the schoolboy who ran in ahead of them; he got a lecture, and nobody asked his name. Knowledge: Incident procedure and his beat's regulars. Canon voice & behavior: Barks at onlookers to get back; says plainly when an approach is not working. Thread: What a pro whose only answer is strength does when the next villain cannot be grabbed.\nQUIRK: Unnamed in public and never shown as more than great strength. Give him no other power.",
+    "personality": [
+      "Decisive: Moves on a visible threat at once instead of waiting for a plan.",
+      "Practical: Thinks in immediate jobs: lift this, hold that, get those people clear.",
+      "Protective: Puts his own bulk between civilians and danger before anything else.",
+      "Speaking style: Blunt working-hero talk, direct warnings and short orders; no speeches."
+    ],
+    "abilities": [
+      "Heavy strength: Punches and grapples that drop most brawlers; useless against a body he cannot grip or hit.",
+      "Debris clearing: Lifts wreckage to open a route or free someone trapped; a full collapse needs more than him.",
+      "Perimeter command: Clears and holds a crowd line with one shout; few onlookers argue.",
+      "Street sense: Knows his beat's alleys, regulars and where a fleeing thug will run; elsewhere that edge is gone.",
+      "\nFighting style: Closes fast, hits hard and grabs; when strength fails, he shields bystanders and backs a hero whose Quirk fits."
+    ],
+    "visualDescription": "A very broad, heavily muscled man with short, swept-back white hair, small dark eyes, a heavy brow and a square jaw. He wears his hero costume: a yellow-and-black caution-striped headband, matching striped wrist guards and belt, an open cyan vest with metal fasteners and dark blue trousers with white side stripes. Gruff, determined expression.",
+    "detailType": "detailed",
+    "properName": "Death Arms",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dddf692a-3369-461d-91c0-7ed2e39ea3ca.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_death_arms",
+    "initialKnown": true
+  }
+}

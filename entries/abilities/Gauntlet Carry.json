@@ -1,0 +1,20 @@
+{
+  "Gauntlet Carry": {
+    "name": "Gauntlet Carry",
+    "description": "The user, once adapted to fire, cold, floodwater or toxic gas, shields up to two people against their changed body and hauls them out of a burning room, flooded basement or gas-filled street. Blister-proof skin, frost-proof fat or gill-fed breaths take the hazard for those carried until they reach safety; overcorrection stiffens the user to a slow walk, unable to dodge blows. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

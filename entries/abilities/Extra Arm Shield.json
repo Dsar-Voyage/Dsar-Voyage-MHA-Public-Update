@@ -1,0 +1,20 @@
+{
+  "Extra Arm Shield": {
+    "name": "Extra Arm Shield",
+    "description": "The user spreads their extra arms around one nearby person, intercepting a falling object or a close strike until the end of the user's next turn. The protected person avoids that one hit, while the arms take its force. The user feels the impact and cannot fully cover someone from an attack arriving behind both of them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

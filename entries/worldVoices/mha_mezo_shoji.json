@@ -1,0 +1,15 @@
+{
+  "mha_mezo_shoji": {
+    "label": "Mezo Shoji",
+    "voiceTag": "male calm steady",
+    "instructions": "Deep, low young man's voice, calm and steady, slightly muffled as if behind a cloth mask. Short, plain, economical sentences, gentle and protective beneath the gravity; louder only to report or warn. Never jokey or rushed.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  }
+}

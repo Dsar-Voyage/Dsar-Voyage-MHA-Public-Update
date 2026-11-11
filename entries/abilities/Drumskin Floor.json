@@ -1,0 +1,20 @@
+{
+  "Drumskin Floor": {
+    "name": "Drumskin Floor",
+    "description": "The user slaps the floor and turns a whole room, a platform or a street-wide stretch of road into a heaving elastic surface for the rest of the scene. Enemies on it cannot run, charge or plant their feet for a heavy blow without being thrown off balance and knocked down, while the user and any allies they warn bounce across it at will. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

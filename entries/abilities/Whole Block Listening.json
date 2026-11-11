@@ -1,0 +1,24 @@
+{
+  "Whole Block Listening": {
+    "name": "Whole Block Listening",
+    "description": "The user alternates both jacks among connected walls, pipes and pavement for the rest of the scene, mapping movement through a building and its adjoining street. They can guide a team toward trapped people and away from approaching opponents. Gaps in the material leave blind spots, and sustained listening makes ordinary conversation painfully loud afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

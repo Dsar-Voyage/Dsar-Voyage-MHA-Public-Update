@@ -1,0 +1,29 @@
+{
+  "Null Resonance": {
+    "name": "Null Resonance",
+    "description": "The user hums a multi-layered counter-tone that wraps themselves and allies within half a street in a moving pocket of governed vibration for the rest of the scene. Inside it, sonic attacks, shockwaves and vibration Quirks cancel out harmlessly, collapsing rubble loses its shake before it can fall on survivors, and once per turn the user can flip the pitch on one target in sight to drop them to their knees with nausea and heavy sonic damage, or only stun them when held back. Keeping the weave leaves the user's throat raw and unable to speak above a whisper afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

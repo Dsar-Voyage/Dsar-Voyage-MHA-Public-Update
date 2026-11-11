@@ -1,0 +1,24 @@
+{
+  "Full Body Scatter": {
+    "name": "Full Body Scatter",
+    "description": "The user separates into as many as fifty controlled pieces and sends them throughout a building or nearby street for the rest of the scene. They can watch many entrances, carry small supplies and close around one target to restrain them. Each lost piece must be regenerated, and the user cannot maintain clear attention on every piece at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

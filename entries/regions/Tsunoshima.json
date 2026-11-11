@@ -1,0 +1,30 @@
+{
+  "Tsunoshima": {
+    "name": "Tsunoshima",
+    "basicInfo": "The northwestern corner of Yamaguchi Prefecture, where Honshu ends on the Sea of Japan: the rocky Hibiki-nada coast of northern Shimonoseki and western Nagato, the island of Tsunoshima, and a broad stretch of open sea to the west and north. Most of the square is water; the land is a strip along its southeast side. Tsunoshima is a low, grassy island ringed by white sand and water so clear it shows emerald and cobalt over the shallows, joined to the mainland at Hohoku by the Tsunoshima Bridge, nearly one point eight kilometers long and one of the most photographed drives in Japan. A stone lighthouse from the early Meiji years stands on the island's western tip and can be climbed. Along the mainland shore, small fishing villages and rice terraces sit between headlands, and JR San'in Main Line trains run in sight of the sea through Takibe and Kogushi toward Nagato. The climate is mild and sunny in summer, gray and windy in winter, when northwesterlies throw spray over the roads. Locals fish, dive for sea urchin and abalone, grow rice and run cafes and inns for the summer crowds; the food is fresh squid, sea urchin bowls and kawara soba, green tea noodles served sizzling on a hot roof tile, a Shimonoseki dish. There is no expressway here; people drive the coast road, Route 191, or ride the slow local trains. Shin-Shimonoseki on the Sanyo shinkansen is about an hour south by car; from Musutafu the trip takes around five hours, from Hakata about two. Licensed heroes from the Shimonoseki area cover the district on wide patrols, police boxes stand in the larger villages, and summer lifeguards with water or wind Quirks work the beaches under license. Visitors drive the bridge, swim and snorkel, rent bicycles on the island and watch the sun go down over open sea.",
+    "hiddenInfo": "Weekend and holiday traffic jams the bridge and the narrow coast road, and visitors who ignore weather warnings get stranded or swept off rocks. Sea urchin and abalone poaching is a quiet, steady problem that the fishing cooperatives take personally. Other small crime is car break-ins at scenic lots and unlicensed fliers buzzing the bridge for photos. Real hero help comes from Shimonoseki, about an hour away; the coast guard is closer for anything at sea.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -15,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d4693a25-2cf4-4b7e-872f-444e1cd717ff.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

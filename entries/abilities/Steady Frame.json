@@ -1,0 +1,24 @@
+{
+  "Steady Frame": {
+    "name": "Steady Frame",
+    "description": "The user lays both palms on a building's frame and meets every shake in it with an equal counter-shake. For the rest of the scene, as long as the user keeps contact, that building does not shake, crack further or collapse from an earthquake, a blast or a falling neighbor, and the user feels every person inside it and calls out where each one is. The user cannot move, attack or defend while holding. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

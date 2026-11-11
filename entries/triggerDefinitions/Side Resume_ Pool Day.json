@@ -1,0 +1,42 @@
+{
+  "Side Resume: Pool Day": {
+    "name": "Side Resume: Pool Day",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_pool_day",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_pool_day",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_pool_day",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_pool_day"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_pool_day",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Pool Day\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: A hot afternoon in the summer break, days before the forest training camp."
+      }
+    ]
+  }
+}

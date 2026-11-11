@@ -1,0 +1,15 @@
+{
+  "side_eri_visit": {
+    "title": "A Smile for Eri",
+    "beats": "Late October, daytime in the Patient Rooms of Musutafu General Hospital, a week after the Shie Hassaikai raid. The fever from Eri's horn has subsided, and Shota Aizawa stands near the door as her guardian so he can erase her Quirk if it stirs. Izuku Midoriya and Mirio Togata arrive with a basket of fruit to see her for the first time since the rescue.\n\nDefault course as pressure: Eri sits propped up in the hospital bed, small and quiet, apologizing before anyone asks a question. She thanks Izuku and Mirio for saving her and asks after everyone who was hurt, blaming herself because she still does not know what her power does or why people bled for her. Even when Mirio makes a goofy face and peels an apple into slices for her, her expression remains still; the shadow of Kai Chisaki lingers, and she does not know how to smile. Remembering that U.A. Academy is preparing its autumn School Festival, Izuku and Mirio ask Aizawa's permission and invite Eri to come see the festival—a day of music, dancing, and sweet stalls—promising that if she comes, they will help her find a real smile. Eri does not understand what a festival is, so she asks politely to hear more, and Aizawa agrees to arrange a brief, supervised preview walk of U.A. Academy before the crowds arrive so the child will not be overwhelmed on the day. The scene stays gentle and child-safe throughout.\n\nBy path: a Class 1-A student visiting the Patient Rooms with Izuku helps put Eri at ease at her level—talking quietly about campus life, peeling fruit, or promising what Class 1-A will build for the festival—without crowding or frightening her.\n\nThe event is complete when Eri accepts the invitation to the School Festival and Aizawa approves her supervised campus visit.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_eri_visit",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

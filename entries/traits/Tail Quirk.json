@@ -1,0 +1,40 @@
+{
+  "Tail Quirk": {
+    "name": "Tail Quirk",
+    "description": "🥋 You have a thick, muscular tail with a tufted tip.\n\n🌱 At the start you balance, brace, block or strike with your two-meter tail, briefly supporting your own weight.\n📈 With training: trips, holds, vaults, rescue catches, forceful turns that drive martial arts strikes.\n⚠️ Your tail needs room to swing, cannot stretch or detach, and feels pain; pinning it limits movement, and heavy loads strain your lower back.\n🔗 Canon Drawback, built in: Bodily Toll, as impacts and heavy lifts strain your tail and its base.\n🎬 Canon Quirk: Mashirao Ojiro's Tail. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Mobility +10, Acrobatics +5\n⚡ Starting techniques: Rear Brace, Tufted Strike",
+    "traitNarrativeEffects": "Scale: 2 m muscular tufted tail. Start: balance, brace against shoves, strike or block in reach, briefly bear their weight. Safe vaulting, lifting an adult, martial-arts combos need training. Conditioning adds strength, never length or number.\nLimits: flesh: normal pain and injury; trapped or hurt, it hampers movement; overloads strain the lower back. Needs swing room; cannot stretch, split, detach, see or act alone. No automatic martial arts or armor. Tight seats, doorways, trains need care.\nQuirk Strain: light: bracing, single strike; moderate: trip, hold, vault, rescue catch; heavy: repeated turning blows, loaded crossing; severe: signature combination, long fights or rescues.\nDrawback: built in, the canon Bodily Toll.\nCanon: Mashirao Ojiro's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: tail strikes and restraints are the user's own, needing a license or self-defense.\nLook: tufted tail.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Acrobatics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rear Brace",
+      "Tufted Strike"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

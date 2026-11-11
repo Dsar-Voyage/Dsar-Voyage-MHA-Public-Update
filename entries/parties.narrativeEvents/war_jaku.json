@@ -1,0 +1,15 @@
+{
+  "war_jaku": {
+    "title": "Jaku",
+    "beats": "Day 363, after The Villa, at Jaku General Hospital's ruptured pod: Tomura Shigaraki wakes by canon default as evacuation continues across Jaku City. If prior intervention prevented his awakening, resolve the attempted awakening and rescue threat from that actual state; do not undo his capture. Carry forward Mirko's treatment, Garaki's custody and all altered villa results. No one returns to an earlier phase of the raid.\nThe canon default course, as pressure the player can change: Decay tears through the Basement Service Levels and spreads into Jaku Downtown. Ryukyu and the others pull survivors clear. Crust throws a shield to save Shota Aizawa and dies in the spreading destruction by default unless intervention changes that instant. Keep him reachable during the last escape effort; establish death before removing him. Hospital patients and evacuation teams race beyond the advancing ground collapse.\nNarrator only, private to direct participants: Shigaraki uses Search to hunt One For All. Izuku Midoriya and Katsuki Bakugo draw him away from the evacuation without telling bystanders what he wants. Aizawa's Erasure suppresses Shigaraki's Quirks but cannot remove his modified body's strength; Manual keeps Aizawa's eyes wet while Rock Lock guards him. Endeavor, Ryukyu and Gran Torino fight to hold the line. Shigaraki gravely wounds Gran Torino. A Quirk-destroying bullet strikes Aizawa's right leg; he cuts it off before the drug spreads, then suffers an eye injury that breaks his sustained gaze. Rescue and treatment can alter these consequences.\nIzuku combines Float and Blackwhip to lift heroes clear of Decay. Katsuki shields Izuku from a piercing attack and is gravely wounded by default; retain him in play, supported and reachable, through the remaining battle. Shoto Todoroki reaches the fight and helps the injured. All For One reaches through Shigaraki for One For All; the vestige confrontation stays within the minds involved. Outsiders witness only the physical struggle.\nBy Path: licensed Hero Course students from both classes and their pros defend Jaku City's Residential Hills evacuation; Faculty, Licensed Pro Heroes and Sidekicks can reinforce the battle or extract casualties. Civilians can be trapped in Jaku General Hospital's Patient Wards or fleeing Jaku Downtown. Independent Villains and Vigilantes act only if already in Jaku. Villa recruits remain on their established front; General Studies, Support and Management students evacuate or continue established Commission support. No secret follows a general distress call.\nThe event is complete when the Decay escape and aerial clash are resolved, the immediate theft attempt has ended, and each endangered hero has a rescue status, while the wider battle remains active.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_war_jaku",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Street Vine Cordon": {
+    "name": "Street Vine Cordon",
+    "description": "The user spreads vine bundles along a thirty-meter stretch of street for three turns, keeping one marked walkway open while catching runners' clothing on either side. Captured people stop until they cut free, overpower the vines or are released. The user stays planted and cannot cover unseen exits; fire and repeated cuts steadily dismantle the cordon. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Wallwalk": {
+    "name": "Wallwalk",
+    "description": "The user takes a breath, turns intangible and walks through a wall, a door, a fence or a parked car to the open space beyond. They cannot see or hear while inside, so they move from memory; if the far side is not open, they come back out where they went in. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

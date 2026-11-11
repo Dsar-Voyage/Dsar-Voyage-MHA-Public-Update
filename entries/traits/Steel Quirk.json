@@ -1,0 +1,54 @@
+{
+  "Steel Quirk": {
+    "name": "Steel Quirk",
+    "description": "🔩 You turn your whole body into moving steel.\n\n🌱 At the start you hold steel form for a short exchange, resist punches, blades and handgun fire, and dent thin metal within arm's reach.\n📈 With training: forced entries, protected carries, sustained fighting, endurance under extreme temperatures.\n⚠️ You need dietary iron and air; impacts wear your steel down, extreme heat and poison gas still threaten you, and iron-rich food does not refill you instantly.\n🔗 Canon Drawback, built in: Finite Fuel, as low iron and sustained use weaken your steel.\n🎬 Canon Quirk: Tetsutetsu Tetsutetsu's Steel. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Quirk fuel pack x5, Fuel belt\n\n📈 Grants: Endurance +1, Quirk Stamina +10, Quirk Output +10, Blocking +5\n⚡ Starting techniques: Metallic Brace, Metal Knuckle Jab\n🛡️ Resists: bludgeoning, slashing, piercing",
+    "traitNarrativeEffects": "Scale: steel body; still moves, speaks. Start: a short exchange resisting ordinary punches, blades, handgun fire, denting thin metal; repeated hits shorten it. Long fights, temperature extremes need training.\nLimits: iron fuels it; iron fatigue weakens long use; iron-rich food aids recovery, not instantly. Must breathe: smoke, gas, low oxygen endanger. Overloads injure. Training adds duration, tolerance, not endless hardness. Outside heat heats it; no fire, metal control, weapon shapes.\nQuirk Strain: light: guard, jab; moderate: clinch, entry, carry, obstacle crossing; heavy: repeated blows, long protection; severe: signature assault, heat endurance, long transformation.\nDrawback: built in, the canon Finite Fuel.\nCanon: Tetsutetsu Tetsutetsu's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Transformation.\nLaw: steel blows, forced entries need a license or self-defense; user owns the damage.\nLook: steel body.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Metallic Brace",
+      "Metal Knuckle Jab"
+    ],
+    "startingItems": [
+      {
+        "item": "Quirk fuel pack",
+        "quantity": 5
+      },
+      {
+        "item": "Fuel belt",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ]
+  }
+}

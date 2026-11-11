@@ -1,0 +1,29 @@
+{
+  "Wary Flesh": {
+    "name": "Wary Flesh",
+    "description": "For the next three turns, the user's nerves sense the air push of a swing, radiant heat, ozone or trace gas a split second before contact, growing the counter-adaptation on the struck spot before the first hit lands. Blows, shots, fire, cold, electric shocks and gas they see or hear coming are halved even on first contact, and close counters deal heavy bludgeoning damage; held back, they only disarm or floor a foe. Unseen attacks still land in full, and afterward their Drawback strikes at once and blocks new shifts for a turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

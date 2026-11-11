@@ -1,0 +1,34 @@
+{
+  "Rescue Instinct": {
+    "name": "Rescue Instinct",
+    "description": "🚑 You see the people in danger first.\n\n👁️ You spot who is trapped, who is bleeding and who needs to move now.\n📋 Requires level 8 and Search and Rescue 10.\n\n📈 Grants: Search and Rescue +5, First Aid +5",
+    "traitNarrativeEffects": "The character's priorities in a crisis have become automatic: on arrival they find the people in danger, spot the trapped and the injured and pick the fastest safe way to reach them before thinking about the fight. Show it in quick triage, steady hands under rubble and calm words to victims. Limits: instinct does not lift a collapsed floor or replace a surgeon; it chooses well, it does not do the impossible. It also pulls them toward victims while the villain is still standing.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      },
+      {
+        "skill": "First Aid",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 10
+      }
+    ]
+  }
+}

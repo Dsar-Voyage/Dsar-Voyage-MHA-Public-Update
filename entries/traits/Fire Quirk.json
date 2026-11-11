@@ -1,0 +1,44 @@
+{
+  "Fire Quirk": {
+    "name": "Fire Quirk",
+    "description": "🔥 You make real fire from your body.\n\n🌱 At the start you throw flame jets and bursts out to about five meters, raise a fire screen between you and danger, and give light and heat on demand.\n📈 With training: flame lances, signal flares, thrust leaps, fire lanes that stop a spreading blaze, steel-melting white heat, and flame shaped to spare a hostage.\n⚠️ Holding back is the real skill: every burn you cause is yours to answer for.\n🔗 Common drawback pairing: Overheating, as heat builds inside your own body.\n🎬 Similar canon Quirks: Endeavor (Hellflame), Dabi (Cremation).\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Control +10, Conditioning +5\n⚡ Starting techniques: Ember Jet, Blaze Screen\n🛡️ Resists: fire",
+    "traitNarrativeEffects": "Scale: flame from the skin, usually palms and forearms. At first: a jet about five meters, a doorway-filling burst, flame a few seconds per push; it lights wood, cloth and fuel; dirty flame makes thick smoke. More needs learned techniques. Limits: water, foam, rain and sealed rooms smother it; fire spreads to what it touches, smoke chokes allies too, and clothes burn unless fireproof. The user resists heat, not smoke, and cannot call back a fire that has caught. Quirk Strain: light: hand flame, short jet; moderate: fire screen, lance, flare, thrust leap; heavy: clearing a fire lane, melting steel; severe: signature move, flame shaped around people. Type: Emitter (also fits Mutant). Law: unlicensed public flame is a crime, burning a person assault; even licensed heroes answer for every avoidable burn. Look: none at rest; flame in the player's chosen color rolls off hands and arms with heat shimmer; as Mutant, a permanent mark such as flame hair or ember-lit skin.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Conditioning",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Ember Jet",
+      "Blaze Screen"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "fire"
+    ]
+  }
+}

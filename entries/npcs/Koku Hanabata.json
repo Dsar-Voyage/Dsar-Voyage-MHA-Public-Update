@@ -1,0 +1,37 @@
+{
+  "Koku Hanabata": {
+    "name": "Koku Hanabata",
+    "type": "Civilian",
+    "currentLocation": "Deika City",
+    "currentArea": "City Hall Plaza",
+    "gender": "male",
+    "faction": "",
+    "level": 24,
+    "tier": "elite",
+    "voiceTag": "male commanding blunt",
+    "basicInfo": "Koku Hanabata, a politician with a devoted following; his civic talks on City Hall Plaza draw large, orderly crowds that answer him as one. Swept-back black hair with a loose forelock, a thin mustache, gold-framed purple-tinted glasses; a black suit and tie, a small microphone at hand.\nSpeaking Style: Polished, theatrical oratory that turns every grievance into a cause.\nCombat Role: Force multiplier: his Quirk, Incite, strengthens followers who hear him and accept him as leader; alone, he relies on them.\nUnder Pressure: Talks louder and lets his followers stand between him and danger.",
+    "hiddenInfo": "Contradiction: He preaches liberation, yet his power works only on people who submit to him as leader.\nMotivation: A society where Quirks are used freely, with himself at the head of the crowd that wins it.\nConcealment: He is Trumpet, one of the Meta Liberation Army's four lieutenants; many of his followers are members.\nConnections: Rikiya Yotsubashi (Re-Destro), the commander he serves; Chitose Kizuki (Curious), Tomoyasu Chikazoku (Skeptic) and Geten, fellow lieutenants.\nKnowledge: The Army's Deika City network, the politics of Quirk law, and which officials might bend.\nCanon voice & behavior: Speaks in rallying lines even in private; never stands in the front rank.\nThread: How far his audience will follow him, and what happens when it stops believing.\nQUIRK: Incite. Strengthens the minds and bodies of people who hear his voice and accept him as leader; a microphone extends his reach. Doubters are unaffected, and it controls no one.",
+    "personality": [
+      "Ideologue: Frames every conflict as Quirk users against the laws that cage them.",
+      "Collective voice: Speaks of \"we\" and \"our freedom\" while expecting to be obeyed.",
+      "Manipulative: Sends followers into danger and lets them carry the risk.",
+      "Speaking style: Rousing speeches and direct ideological appeals, public or private."
+    ],
+    "abilities": [
+      "Incite: Strengthens the body and nerve of listeners who accept him as leader; doubters gain nothing.",
+      "Amplified address: A microphone or sound system carries his voice to a whole crowd; without one, only earshot.",
+      "Oratory: Finds the line that moves a crowd; a skill, not a Quirk, and a heckler can break it.",
+      "Political machine: Runs the Army's public face in politics; it moves votes and officials, not soldiers.",
+      "\nFighting style: Stays behind empowered followers and keeps talking to keep them strong; silenced, he withdraws."
+    ],
+    "visualDescription": "A man with swept-back black hair and a loose forelock falling over his brow, a thin black mustache, gold-framed glasses with purple-tinted lenses and light skin; an average build. He wears a well-cut black suit, a white shirt and a black tie, with a small speaker's microphone clipped near his collar. Confident, theatrical expression with a statesman's practiced smile.",
+    "detailType": "detailed",
+    "properName": "Koku Hanabata",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/44f50fbf-1858-4f18-b8b9-9ed76d328334.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_koku_hanabata",
+    "initialKnown": true
+  }
+}

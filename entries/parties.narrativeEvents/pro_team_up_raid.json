@@ -1,0 +1,15 @@
+{
+  "pro_team_up_raid": {
+    "title": "The Team-Up Raid",
+    "beats": "A late-July evening. The request reaches the party on the agency radio or the Commission's incident app: police hold a warrant for a warehouse where a broker sells unlicensed support gear (modified gauntlets, fake agency costumes, police-band scanners) to bag snatchers and crews who want to fight heroes, and several agencies are asked to join tonight's raid. Since the USJ attack and the Nomu in Hosu, police want illegal gear off the streets. The broker, his staff and his buyers are generated people.\n\nThe briefing runs in a police station's back room: a floor plan, three doors, a loading bay on a canal, and an officer who wants the stock intact as evidence. Canon default course, as pressure the player can change: the breach goes to plan for about a minute. Then the night guard, whose Quirk swallows all sound in a wide circle, steps out and every radio goes dead; a buyer straps on a gauntlet he never tested and blows a row of shelving into the aisle; the broker runs for the loading bay with the ledger that would convict him.\n\nIf the party's agency works Musutafu, the partners are its Hero Agency Row neighbors: Death Arms first through the door shouting warnings, Backdraft counting heads and dousing the sparks, Gunhead with a quiet restraint, Fourth Kind giving one terse order, Kamui Woods binding buyers while Mount Lady, too big for the aisles, waits at the canal for whoever runs. Sansa Tamakawa holds the warrant and takes statements. Elsewhere the partners are generated working pros and local police.\n\nA sidekick takes the post the boss assigns (a rear door, the bay, the perimeter) and decides how far to go once the radios die. An agency head argues for a role at the briefing, commits the sidekick and signs the team-up form. Who made which arrest goes on the Commission's record and decides the pay, and the argument over credit starts at once.\n\nThe event is complete when the warehouse is secured and the credit is logged, or the broker gets away with the ledger.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_team_up_raid",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

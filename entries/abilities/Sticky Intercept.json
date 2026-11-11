@@ -1,0 +1,20 @@
+{
+  "Sticky Intercept": {
+    "name": "Sticky Intercept",
+    "description": "The user throws gel at one target within five meters, sticking a wrist or ankle to a nearby surface until the end of the user's next turn, with the face clear. A hard pull or cutting frees the limb. The user can instead glue a reachable door shut for three turns; a heavy blow tears it open. Loose dust prevents either seal. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

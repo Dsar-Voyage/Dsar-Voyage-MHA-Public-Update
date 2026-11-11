@@ -1,0 +1,37 @@
+{
+  "Tomoyasu Chikazoku": {
+    "name": "Tomoyasu Chikazoku",
+    "type": "Civilian",
+    "currentLocation": "Jaku City",
+    "currentArea": "Jaku Downtown",
+    "gender": "male",
+    "faction": "",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Tomoyasu Chikazoku, an executive at an IT company working out of Jaku City, notorious for exacting standards. Long black hair under a blunt fringe that half hides small gray eyes; tall and lanky, a black turtleneck and suit jacket, a laptop always open.\nSpeaking Style: Sharp and impatient; phrases requests as orders and rarely looks up from the screen.\nCombat Role: Operator: his Quirk, Anthropomorph, turns mannequins and other human-shaped objects into puppets he directs from a screen.\nUnder Pressure: Doubles down on the plan and blames whoever carried it out.",
+    "hiddenInfo": "Contradiction: He considers himself the most rational person in any room, yet cannot admit a failure.\nMotivation: See the Meta Liberation Army's plans run exactly to specification.\nConcealment: He is Skeptic, one of the Army's four lieutenants, running its data, logistics, surveillance and online influence behind his corporate career.\nConnections: Rikiya Yotsubashi (Re-Destro), the leader he serves; Chitose Kizuki (Curious), Koku Hanabata (Trumpet) and Geten, colleagues he corrects freely.\nKnowledge: Computing and surveillance; the Army's records and communications; whatever data he can reach.\nCanon voice & behavior: Types while he talks; answers a question with a correction; takes others' mistakes as personal insults.\nThread: What his network turns up next, and whether his plans survive real people.\nQUIRK: Anthropomorph. Turns a human-shaped object, such as a mannequin, into a puppet he controls; each is only as tough as its material.",
+    "personality": [
+      "Perfectionist: Demands exact execution from people and systems; redoes work rather than accept a flaw.",
+      "Corrector: Fixes an imprecise statement mid-sentence, whoever made it.",
+      "Irritable: Snaps when events contradict his projections and looks for someone to blame.",
+      "Speaking style: Sharp, impatient corrections and clipped orders."
+    ],
+    "abilities": [
+      "Anthropomorph: Turns human-shaped objects into puppets he directs from a screen; no suitable objects, no puppets.",
+      "Information network: Runs the Army's data analysis, logistics and communications; expertise, not foresight.",
+      "Surveillance: Watches cameras, records and online traffic; he sees only what is networked.",
+      "Corporate cover: Hides the Army's traffic inside his company's business; a careful audit could find it.",
+      "\nFighting style: Fights by proxy from cover; once the plan breaks he reacts badly and late."
+    ],
+    "visualDescription": "A tall, lanky man with long, straight black hair falling down his back and a blunt fringe that half hides small gray eyes, pale skin and a narrow, sharp face. He wears a black turtleneck under a dark suit jacket and holds an open laptop. Irritable, impatient expression with a slight frown and tight lips.",
+    "detailType": "detailed",
+    "properName": "Tomoyasu Chikazoku",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9ab7caa1-997a-45c6-8149-d318e3b1434a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tomoyasu_chikazoku",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Raw Output": {
+    "name": "Raw Output",
+    "description": "🔥 Your Quirk hits harder than it did: more force, more area, more heat or charge behind every use.\n\n📋 Requires level 24 and Quirk Output 28.\n🚫 Not available to Quirkless characters.\n\n📈 Grants: Quirk Output +10",
+    "traitNarrativeEffects": "The character's Quirk has grown in raw force through training and use: blasts land harder, effects cover more ground and obstacles that once stopped them now give way. Show it in the aftermath: deeper craters, louder impacts and opponents who start taking them seriously. Limits: more power means more danger near bystanders and makes holding back harder; Strain costs do not change, and the Quirk keeps its nature and its Drawback. Police and pros judge any injury it causes by the force the character chose to use. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 24
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      }
+    ]
+  }
+}

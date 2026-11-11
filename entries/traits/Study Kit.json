@@ -1,0 +1,38 @@
+{
+  "Study Kit": {
+    "name": "Study Kit",
+    "description": "✏️ You carry a student's desk in a bag.\n\n⚖️ All of it is legal and ordinary.\n📖 The textbooks match your course, or whatever you last studied.\n⚠️ Your Quirk notebook is private: if lost, it can embarrass you and help a villain.\n☕ The coffee is gone once drunk.\n\n🎒 Starts with: Course textbooks, Quirk analysis notebook, Omamori charm, Canned coffee ×3",
+    "traitNarrativeEffects": "The character owns the term's textbooks and lecture notes, a notebook for recording and sketching the Quirks they observe, a shrine charm bought for success in exams and a few cans of vending-machine coffee. All of it is legal and ordinary. For a student the textbooks match their course; for anyone else they are the books of whatever they last studied. The notebook is private and sensitive: notes on other people's Quirks can embarrass the writer and help a villain if it is lost. The coffee is gone once drunk.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Course textbooks",
+        "quantity": 1
+      },
+      {
+        "item": "Quirk analysis notebook",
+        "quantity": 1
+      },
+      {
+        "item": "Omamori charm",
+        "quantity": 1
+      },
+      {
+        "item": "Canned coffee",
+        "quantity": 3
+      }
+    ],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

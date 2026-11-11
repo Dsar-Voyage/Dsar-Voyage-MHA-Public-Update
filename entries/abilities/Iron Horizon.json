@@ -1,0 +1,25 @@
+{
+  "Iron Horizon": {
+    "name": "Iron Horizon",
+    "description": "The user seizes the steel of something enormous within sight, such as a derailed train, an elevated highway span or the frame of a collapsing high-rise, and holds it still or moves it at a walking pace for several minutes, setting it down where it harms no one. Every phone, card and unshielded electronic within several blocks is wiped, and anyone nearby with a pacemaker or metal implant must be moved clear before the user starts. Afterward the field is spent and the user cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

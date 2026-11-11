@@ -1,0 +1,20 @@
+{
+  "Ink Screen": {
+    "name": "Ink Screen",
+    "description": "The user's palms swell with the ink sacs of squid or cuttlefish they have eaten and blast out a black cloud that fills a room or a stretch of street. Until the end of the user's next turn nobody can see into or through it, and anyone hit in the face by the jet is blinded until they wipe their eyes clear; the ink does no harm and washes off. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

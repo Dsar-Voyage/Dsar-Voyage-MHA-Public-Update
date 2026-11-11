@@ -1,0 +1,29 @@
+{
+  "Dormant Etch": {
+    "name": "Dormant Etch",
+    "description": "The user paints a clear, inert film onto surfaces with a touch: a doorframe, a stair's supports, a rack of weapons, a vehicle's axles. It stays harmless for up to an hour until the user flicks a single drop of a second acid onto it from across a street, and then everything painted dissolves in moments. Painting takes the user's full attention for about a minute, the film never takes hold on skin, and any strong acid or cleaner can set it off early, so a careless spill or a chemical fire triggers it before the user means it to. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

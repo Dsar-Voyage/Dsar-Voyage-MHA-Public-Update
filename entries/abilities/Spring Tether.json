@@ -1,0 +1,20 @@
+{
+  "Spring Tether": {
+    "name": "Spring Tether",
+    "description": "The user plants heavy feet, stretches an arm up to five meters to catch a fleeing target or an ally slipping off a ledge, and snaps the limb back. An ally is pulled safely to the user's side, while an enemy is yanked off their feet and cannot move past arm's reach until they wrench free with a hard effort or the user lets go. Any blade or flame on the target slices or burns the stretched arm. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

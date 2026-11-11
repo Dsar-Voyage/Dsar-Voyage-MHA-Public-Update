@@ -1,0 +1,20 @@
+{
+  "Hissing Mantle": {
+    "name": "Hissing Mantle",
+    "description": "The user sweats a coat of strong acid over their whole body and holds it there. Until the scene ends or the user lets it dry, anyone who grabs, grapples or strikes them bare-handed takes corrosive damage and must let go, ropes, tape and cuffs on them dissolve, and wooden or plastic weapons that hit them pit and break; their own clothes dissolve too unless acid-proof. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

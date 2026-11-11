@@ -1,0 +1,28 @@
+{
+  "Open Pacific south of Izu": {
+    "name": "Open Pacific south of Izu",
+    "basicInfo": "Empty open ocean south of the northern Izu Islands, out of sight of land in most weather. The water is deep, over 1,000 m, and a clear, intense blue, and the Kuroshio current runs east through here as a warm, fast stream that can push a small boat miles off course in an afternoon. Long swells roll in from the south, winter westerlies raise steep seas, and typhoons cross from late summer into autumn. On clear days the peaks of Mikurajima and Miyakejima show to the northeast and Kozushima to the north. Coastal freighters bound between Tokyo and the southwestern ports pass to the north, and the night ferry to Hachijojima runs to the east. Tuna long-liners and sport fishing boats come out for tuna and marlin, and whales and dolphins travel the current. To the north, police boats patrol the restricted exclusion zone around the prison island, and boats heading that way are hailed and turned back. Coast guard cutters and the occasional maritime hero cover this water on long patrols. A party could be out here on a fishing boat, a yacht, a coast guard cutter, or carried by a flying hero.",
+    "hiddenInfo": "This is the emptiest water on the map; a disabled boat can drift for a day before anyone notices. Help is a coast guard helicopter or a flying hero from the islands, an hour or more away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 0,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7a5cd961-18f1-438f-be68-6e5f155ef9bf.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

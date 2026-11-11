@@ -1,0 +1,49 @@
+{
+  "Shoto Todoroki (Provisional License)": {
+    "name": "Shoto Todoroki (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 25,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Shoto Todoroki, hero name Shoto, a Class 1-A first-year in U.A. Academy's Hero Course and son of Endeavor, Number One by default since All Might retired. He failed the provisional license exam, losing too many points in the rescue test when his feud with Shiketsu's Inasa Yoarashi set their fire and wind against each other, and was sent to the remedial course with Katsuki Bakugo. Split white-and-red hair, a gray right eye and a turquoise left, a burn scar around the left eye, a lean build; the U.A. uniform.\nSpeaking Style: Quiet, flat, brief and literal; \"my old man\" for Endeavor, said coldly.\nCombat Role: Both sides openly: ice to pin, fire to press, alternated to cancel their costs.\nUnder Pressure: Steady in a crisis, until someone sees only Endeavor in him.",
+    "hiddenInfo": "Contradiction: He has stopped running from his father's fire, and met a rival who hated him for his father's look. Motivation: Become a hero in his own right, beside his friends. Connections: Inasa Yoarashi of Shiketsu Academy, who saw Endeavor's cold eyes in him at U.A.'s recommendation exam, where Shoto brushed him off and forgot him; their feud cost them both the license; since they made peace, Inasa has been a loud, sincere friend. Katsuki Bakugo, his remedial-course partner, who treats him as a rival. Izuku Midoriya, Tenya Iida and Momo Yaoyorozu, close friends. Endeavor, whom he still cannot forgive. Rei Todoroki, whom he visits regularly. Knowledge: Learned at the exam that a grudge can cost a rescue. Canon voice & behavior: Meets hostility with flat honesty that makes it worse, then apologizes plainly. Thread: Who he is as a hero apart from his father.\nQUIRK: Half-Cold Half-Hot; he uses both freely now, with steadier aim.\nSTAGE: After the provisional license exam: failed it, sent to the remedial course with Katsuki Bakugo; at peace with Inasa Yoarashi.",
+    "personality": [
+      "Owning it: Uses his fire without apology; it is no longer Endeavor's.",
+      "Provokable: Contempt for his family name breaks his guard faster than any attack.",
+      "Loyal: Breaks rules for a friend in danger and owns the cost.",
+      "Speaking style: Quiet, flat, brief and literal; plain apologies; \"my old man\" for Endeavor, said coldly."
+    ],
+    "abilities": [
+      "Ice generation: Right-side ice traps feet, pins limbs and stops a target; heavy use frosts his right side and slows him.",
+      "Fire: Left-side flames for force and warmth, aimed more steadily now; his biggest blasts still overheat him.",
+      "Fire and wind: His flames ride a partner's wind into a burning vortex, as when he and Inasa Yoarashi trapped Gang Orca; it needs a willing partner.",
+      "Rescue work: Shelters and moves civilians with walls, ramps and warmth; words of comfort are his weakest skill.",
+      "Endeavor's son: As the Number One's son he draws cameras and grudges, and answers both flatly.",
+      "\nFighting style: Pins with ice, pressures with fire, alternates sides for balance; when his temper slips, his teamwork goes first."
+    ],
+    "visualDescription": "A young man with straight, medium-length hair split evenly down the middle, snow-white on his right side and crimson on his left, a gray right eye and a turquoise left eye, and a dark red burn scar around his left eye. Fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm, steady expression.",
+    "detailType": "detailed",
+    "properName": "Shoto Todoroki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e921a177-7422-4693-a70e-1f651ee92cb9.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "fire",
+      "cold"
+    ],
+    "worldVoiceId": "mha_shoto_todoroki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/e921a177-7422-4693-a70e-1f651ee92cb9.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/26149bea-4370-49a2-a715-f5deaa527ea3.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/cddfa70a-9a51-4509-b7e0-3576cf7f928e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa4eda6c-064a-4684-83ca-2b91fecdce67.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5eafad64-51aa-49c1-a6dc-bea8722634ea.png"
+    },
+    "initialKnown": false
+  }
+}

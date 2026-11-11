@@ -1,0 +1,21 @@
+{
+  "Clock: Show Time": {
+    "name": "Clock: Show Time",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const BANDS=[\"Early Morning\", \"Mid Morning\", \"Late Morning\", \"Early Afternoon\", \"Mid Afternoon\", \"Late Afternoon\", \"Early Evening\", \"Late Evening\", \"Night\", \"Late Night\"];const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];const MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]];function dateOf(d){let r=(Math.max(1,d)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}return WD[(Math.max(1,d)-1)%7]+', '+MO[i][0]+' '+(r+1);}const tks=check({type:'game-tick'})||0;if(storage.skipTick===tks){skip=true;return;}const d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;effects.push({type:'story',instruction:'Current time: '+dateOf(d)+', '+BANDS[Math.max(0,Math.min(9,b))]+'. Weekdays hold classes and work; weekends are free time.'});})();"
+  }
+}

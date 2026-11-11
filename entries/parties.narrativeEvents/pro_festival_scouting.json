@@ -1,0 +1,15 @@
+{
+  "pro_festival_scouting": {
+    "title": "Scouting the Sports Festival",
+    "beats": "The two days off after the U.A. Sports Festival, afternoon into night. The scene reaches the party wherever it is: the agency inbox chimes with U.A.'s internship offer form, due back before Friday's Hero Name Day, while every channel replays the first-year events. By evening the agency's people crowd a screen with takeout and argue picks.\n\nThe replays show only what happened in public; by canon default, unless the story changed it: Katsuki Bakugo won the tournament over a Shoto Todoroki who held back his fire in the final; Izuku Midoriya won the obstacle race and wrecked his fingers against Todoroki; Ochaco Uraraka refused to quit against Bakugo; Hitoshi Shinso of General Studies nearly brainwashed his way past Izuku; Fumikage Tokoyami and Tenya Iida placed third, though Iida left the stadium after his semifinal when word came that his brother Ingenium had been attacked in Hosu. Commentators agree the famous names will drown in offers.\n\nThe default course, as pressure the player can change: the staff split between a famous name that will never say yes to a small agency and a student who lost early but did one thing well on camera, and the form takes one name, several, or none. An offer costs nothing to send; hosting costs a week of supervision, and the supervising pro answers for everything the intern does. Offers go to Hero Course first-years of Class 1-A and 1-B; support companies, not agencies, chase the Support Course's inventors.\n\nAn agency head hears the arguments and signs the form. A sidekick works for someone: the boss wants a written scouting note on one student by morning, and the sidekick's pick can win the argument or lose it. On Hero Agency Row, Fourth Kind has already sent his and will not say whom, and Mount Lady asks which student would look good beside her on camera. A Tokyo agency's scout sat in the stands and has opinions on everyone.\n\nThe event is complete when the agency's offers are sent, or it decides to send none, before Hero Name Day.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_festival_scouting",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

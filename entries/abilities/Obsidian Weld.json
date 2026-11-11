@@ -1,0 +1,29 @@
+{
+  "Obsidian Weld": {
+    "name": "Obsidian Weld",
+    "description": "The user melts and quenches stone in a single heartbeat, turning broken concrete, brick and bedrock along a street into seamless volcanic glass. In one turn they seal a collapsing tunnel, draw all lingering heat out of a burning building's masonry so rescuers can enter, and cast poured-stone cuffs onto every enemy on the street for heavy fire damage; held back, the cuffs quench cool in mid-flow and lock them harmlessly in place. Pulling that heat through their hands leaves the user unable to use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

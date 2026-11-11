@@ -1,0 +1,20 @@
+{
+  "Immediate Reprise": {
+    "name": "Immediate Reprise",
+    "description": "The user calls \"Encore\" on the beat and physically repeats their last punch, step or shove before their next turn ends. A punch deals light bludgeoning damage; held back, it only nudges. The user needs room, pays twice the original exertion and cannot repeat a technique, another Quirk or this reprise. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

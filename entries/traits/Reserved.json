@@ -1,0 +1,20 @@
+{
+  "Reserved": {
+    "name": "Reserved",
+    "description": "🤫 You keep to yourself, speak little and watch a lot.\n\n👁️ You notice what others talk over: a change in a room, a shift in tone, a hand moving toward a pocket.\n⚠️ People misread your silence as cold, arrogant or uninterested.\n⚠️ Interviews and speeches are hard Media Presence checks for you, and you rarely ask for help.\n🔀 If you are also Theatrical, you are quiet offstage and switch on only in costume or in front of a crowd.\n\n📈 Grants: Perception +5",
+    "traitNarrativeEffects": "The character is quiet and private: few words, a neutral face, no need to fill a silence. Because they listen and watch, they catch what others miss: a change in a room, a shift in tone, a hand moving toward a pocket. Weakness: people misread them as cold, arrogant or uninterested. Interviews and speeches are hard Media Presence checks for them, and making the first move in a friendship is harder still. They rarely ask for help or say how they feel, so problems grow before anyone knows. If the character is also Theatrical, they are quiet offstage and switch on only in costume or in front of a crowd. The narrator shows the silence and what it costs; the player decides when the character speaks up or asks for help.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

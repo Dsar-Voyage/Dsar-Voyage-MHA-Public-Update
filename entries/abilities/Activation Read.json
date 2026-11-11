@@ -1,0 +1,15 @@
+{
+  "Activation Read": {
+    "name": "Activation Read",
+    "description": "Seeing a Quirk activate more than once, the user pins down what it needs to work, such as eye contact, a spoken reply or a touch, and calls it out to allies. The user learns the Quirk's activation condition, and the Quirk cannot catch the user or any ally who heard the warning unless they meet that condition by choice or are forced into it. A Quirk that needs only aim gives nothing to read. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Koji Koda (Sports Festival)": {
+    "name": "Koji Koda (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 8,
+    "tier": "elite",
+    "voiceTag": "male gentle soothing",
+    "basicInfo": "Koji Koda, hero name Anima, a Class 1-A first-year in U.A. Academy's Hero Course and the quietest person on the Sports Festival broadcast: he got through the obstacle race and went out with his team in the cavalry battle. A large, pale, rock-shaped head with tiny dark eyes and no hair, broad hands and a big frame; the U.A. uniform or his yellow-and-red hero costume.\nSpeaking Style: Soft and very brief with people, often a nod or hand signs first; clear, kind and firm with animals.\nCombat Role: Support and scouting; a stadium holds few animals, so he carries, blocks and spots for a team.\nUnder Pressure: A packed stadium freezes him; a teammate's plain request gets him moving again.",
+    "hiddenInfo": "Contradiction: The festival rewarded being seen, and his best work is quiet and indirect. Motivation: Hold up his end for a team and show the pros that a support Quirk matters. Concealment: A national audience frightened him more than any opponent. Connections: Fumikage Tokoyami, warped with him into the downpour zone at the USJ attack, whose Dark Shadow fought off the villains there; Tenya Iida, now class representative, whose instructions he follows to the letter. Knowledge: Since the USJ attack he knows the League of Villains: Tomura Shigaraki, the warp villain Kurogiri and the brain-exposed creature that fought All Might. Canon voice & behavior: Nods once to accept a plan; signals rather than shouts across an arena; thanks every animal that helped him. Thread: Whether anyone in the stands noticed a hero who never raises his voice.\nQUIRK: Anivoice. Commands animals within earshot by voice; he cannot summon them or see through their eyes. Insects obey him too, but he still fears them and will not call on them.\nSTAGE: After the Sports Festival: hero name Anima.",
+    "personality": [
+      "Gentle giant: Moves carefully around smaller competitors and never shoves to get ahead.",
+      "Team player: Measures his festival by whether his team did well, not by his own placing.",
+      "Insect fear: Still flinches from bugs and will not call on them, even when they are the only animals near.",
+      "Speaking style: Soft, brief replies or a gesture; clear and kind with animals, firmer when a teammate needs help."
+    ],
+    "abilities": [
+      "Anivoice: Directs animals within earshot by voice; a stadium holds little more than birds, and a crowd's roar drowns him out.",
+      "Spotting: Sends birds to watch a rival team or a far corner and reports what they tell him when they return.",
+      "Animal rescue: Calms panicking animals and guides them out of danger; he cannot shield them from a fire or a collapse.",
+      "Team support: Carries, blocks and relays information for teammates in short words or hand signs.",
+      "\nFighting style: Plays for the team: covers teammates with his frame, uses any animals present as distraction, avoids trading blows."
+    ],
+    "visualDescription": "A big young man with a large, pale, rock-shaped head of angular planes, no hair, tiny dark eyes, pale skin, broad hands and a big frame. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. A small sparrow perches on his shoulder. Quiet, bashful expression.",
+    "detailType": "detailed",
+    "properName": "Koji Koda",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1dcdf9c8-54e6-480f-938b-c3f7665adc99.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_koji_koda",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/1dcdf9c8-54e6-480f-938b-c3f7665adc99.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/332382fe-af45-47bd-89cb-86afc5ddd0f0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/da4118b1-10b5-47d6-89c6-f7180ccb0a17.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/86164de8-ac2e-468b-9e58-6315566709fe.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/041b14dc-06b0-4b37-9464-a2bb629667d4.png"
+    },
+    "initialKnown": false
+  }
+}

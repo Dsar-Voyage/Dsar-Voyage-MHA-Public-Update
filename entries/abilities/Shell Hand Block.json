@@ -1,0 +1,20 @@
+{
+  "Shell Hand Block": {
+    "name": "Shell Hand Block",
+    "description": "After recently eating shellfish, the user covers one hand and forearm in a hard shell and catches one visible strike aimed at them or someone within arm's reach. The shell prevents ordinary bludgeoning damage from that strike until the end of the user's next turn. It cannot cover the whole body, and repeated heavy blows can crack it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

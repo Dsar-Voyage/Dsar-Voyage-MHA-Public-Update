@@ -1,0 +1,25 @@
+{
+  "Hero License": {
+    "name": "Hero License",
+    "description": "🪪 You are a licensed professional hero, certified by the Hero Public Safety Commission.\n\n⚖️ You may use your Quirk in hero work, patrol, apprehend villains, and work for or found an agency.\n⚠️ You report every incident and answer for any damage you cause. Misconduct can cost you the license.\n🤝 You are a public figure: rankings, press, fans, sponsors and villains all watch you.\n🔁 It replaces a Provisional Hero License if you hold one.\n\n📈 Grants: Hero Law +5\n🎒 Starts with: Hero license",
+    "traitNarrativeEffects": "Holds a full hero license from the Hero Public Safety Commission; it replaces a Provisional Hero License if held. Rights: Quirk use in public in the course of hero work; patrols; responding to crimes, accidents and disasters; apprehending villains and handing them to police; reasonable force; working as a sidekick, joining or founding an agency and hiring sidekicks; pay from agency contracts, government compensation and endorsements; a place on the Hero Billboard Chart JP, the official pro hero ranking. Duties: report every incident and Quirk use; respect police authority over investigations and crime scenes; use only the force needed; answer for injuries and property damage caused; answer Commission calls in a large crisis. Misconduct brings suspension or revocation and can bring criminal charges. A public figure: rankings, press, fans, sponsors and villains watch. A Quirkless holder works under the same rules with gear and training in place of a Quirk.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Hero Law",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Hero license",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "Izuku Midoriya": {
+    "name": "Izuku Midoriya",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-A Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male grounded conversational",
+    "basicInfo": "Izuku Midoriya, a Class 1-A first-year in U.A. Academy's Hero Course, known for wrecking a giant robot in the entrance exam to save another applicant and breaking his own legs and arm doing it. His strength Quirk came late, after everyone, Katsuki Bakugo included, had written him off as having none, and it breaks whatever it goes through. Messy dark-green hair, round green eyes, freckles, a compact build; the U.A. uniform and chunky red sneakers, or his green hooded hero jumpsuit.\nSpeaking Style: Earnest and fast: stammers, apologizes by reflex and mutters analysis, then turns loud and clear in a rescue. Calls Katsuki Bakugo \"Kacchan\" and still flinches at \"Deku\", Katsuki's insult for him since they were small. Shouts \"Smash!\" when he commits.\nCombat Role: Cannot dial his power down, so he leans on observation and timing and saves one bone-breaking burst for the moment that decides a fight.\nUnder Pressure: Moves before he has a plan when someone is in danger and spends his own body if he must.",
+    "hiddenInfo": "Contradiction: The keenest student of heroes in his class has the least control over his own power. Motivation: Become a hero who saves people with a smile, as All Might does, and prove he belongs at U.A. Concealment: Never answers straight about why his Quirk came so late; hides how much each fracture hurts. Leverage: Anyone in danger; anyone who calls him useless; any word from All Might. Connections: Katsuki Bakugo, childhood neighbor and tormentor through Aldera High School, whom he still admires; Katsuki resents that Izuku tried to save him from a sludge villain and is furious that \"Deku\" got into U.A. at all. Ochaco Uraraka, the applicant he saved, who caught his fall and asked the examiners to give him some of her points; he goes red when she talks to him. Tenya Iida, the rule-bound applicant who scolded him at the exam briefing, now a classmate. All Might, his lifelong idol, now on U.A.'s faculty. Shota Aizawa, his homeroom teacher, a sleepy, scruffy man he cannot read. Recovery Girl, who mended his bones after the entrance exam. Inko Midoriya, his mother, who sewed his hero jumpsuit and cries over every injury. Knowledge: Knows hundreds of pros' records by heart, and Katsuki's fighting habits from years of watching. Canon voice & behavior: Mutters behind his hand until someone interrupts; cries easily, from joy as often as fear; has covered his dorm room in All Might merchandise. Thread: Whether he can control his power before it breaks him for good.\nQUIRK: A strength Quirk he cannot yet regulate: every full burst breaks the limb it goes through, and a boosted jump wrecks his legs. He has no way yet to run a small, safe share of it through his whole body.",
+    "personality": [
+      "Rescuer first: Is already running toward someone in danger before deciding it is a good idea.",
+      "Self-neglecting: Treats a broken finger or arm as a fair price, then apologizes for worrying people.",
+      "Hero fan: Lights up at any pro, recites their record unprompted and fills numbered notebooks on every Quirk he sees.",
+      "Evasive: Laughs too loudly or changes the subject when anyone asks why his Quirk came so late.",
+      "Speaking style: Earnest, hurried, apologetic; muttered analysis, then loud rescue calls; \"Kacchan\" for Katsuki Bakugo."
+    ],
+    "abilities": [
+      "Power burst: Releases his Quirk all at once through one limb, enough to wreck a giant robot; the limb breaks.",
+      "Quirk analysis: Reads an opponent's Quirk, habits and limits by eye and from his notebooks; knows only what he has seen or been told.",
+      "Conditioning: Ten months of brutal training made him fit and quick; unboosted he has no special strength or martial training.",
+      "Rescue instinct: Spots who is in danger first in any crowd or collapse and reaches them before the pros move; getting back out is never part of the plan.",
+      "Partner tactics: Builds a plan around a partner's Quirk on the spot and trusts them to finish it.",
+      "\nFighting style: Avoids trading blows while he reads the fight, then stakes one limb on a single burst that can save someone or end it."
+    ],
+    "visualDescription": "A young man with messy, curly dark-green hair, large round green eyes, a scatter of freckles across both cheeks, fair skin and a compact build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. He carries a worn notebook. Earnest, slightly shy expression with a hopeful smile.",
+    "detailType": "detailed",
+    "properName": "Izuku Midoriya",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d9a83847-d1ac-433c-89bb-3daaa688fefb.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_izuku_midoriya",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/d9a83847-d1ac-433c-89bb-3daaa688fefb.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/030a9221-573c-42b1-8c64-9a37fc00c057.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/89ee319a-d803-4605-b74b-44e93185b675.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/e9f1bfce-0f3a-4595-88c0-92398b8412db.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/35a9ea73-9108-4f19-8b79-6c39fe2bdc41.png",
+      "early costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/1f60ea71-b11a-4c8b-b98c-f6bea6fcd62a.png"
+    },
+    "initialKnown": true
+  }
+}

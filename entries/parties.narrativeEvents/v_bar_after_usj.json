@@ -1,0 +1,15 @@
+{
+  "v_bar_after_usj": {
+    "title": "The Bar After the USJ",
+    "beats": "A night in the days after the USJ attack, at the League Hideout Bar in Kamino Ward. Tomura Shigaraki sits on the end stool at the Bar Counter with bandages around his arms and legs where Snipe's bullets went through, scratching at his neck until it bleeds, while Kurogiri changes the dressings. A phone face-down on the counter keeps playing the news: an attack on U.A. Academy's students, dozens of thugs in custody, the huge black-skinned creature hauled away by police, All Might unhurt. The League is two people again.\n\nDefault course, as pressure the party can change: Tomura rants in game terms about cheats, about a boss stronger than the intel promised, about hired help who folded at the first hero. Anyone within reach is a target; he flexes his fingers at whoever speaks out of turn, and Kurogiri moves between them before a hand closes. Then the dark monitor on the back wall clicks and Sensei's voice fills the room, deep and warm. He is not angry. He asks Tomura what he learned, calls the loss of the Nomu an acceptable price for a lesson, and says the next game needs better players: people who choose this road for their own reasons, not for a day's wage. Then he asks whether anyone in the room is such a person. A good answer, a bold one or a lie that rings false is noticed. Tomura hates being lectured in front of hired help, and he remembers who saw it.\n\nIf the party went through Kurogiri's gate at the USJ, Tomura lumps it in with the rest, and police now hold thugs who saw its face; detectives will be asking around, and staying off the streets for a while cools that. If it was hired after the attack, it is the first new face Kurogiri has brought in, and Tomura insults it to see whether it flinches. Kurogiri pays exactly what was promised and asks quietly whether the party will stay.\n\nThe event is complete when the monitor goes dark and Tomura has decided whether the party is trash to throw out or a player worth keeping.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_bar_after_usj",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

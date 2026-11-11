@@ -1,0 +1,20 @@
+{
+  "Unblinking Vigil": {
+    "name": "Unblinking Vigil",
+    "description": "The user forces their eyes to stay open and holds the look on a single person far past the usual limit. For the rest of the scene that person cannot use an Emitter or Transformation Quirk while they stay in the user's sight; only smoke, a flash, a blow to the user's head or losing sight of them breaks the hold, so a dangerous Quirk stays down through an arrest or a transfer. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

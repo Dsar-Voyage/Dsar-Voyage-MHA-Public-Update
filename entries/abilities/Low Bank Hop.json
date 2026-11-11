@@ -1,0 +1,20 @@
+{
+  "Low Bank Hop": {
+    "name": "Low Bank Hop",
+    "description": "The user springs up to six meters across a gap or three meters upward and grips a firm landing with their hands and feet this turn. This reaches a low balcony or clears an obstacle without a running start. The user needs a stable takeoff and a landing they can see; the leap cannot change direction in midair and adds no protection from a bad fall. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

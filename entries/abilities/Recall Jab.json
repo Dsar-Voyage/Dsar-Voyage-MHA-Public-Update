@@ -1,0 +1,20 @@
+{
+  "Recall Jab": {
+    "name": "Recall Jab",
+    "description": "The user presses an anchor into the ground a few strides behind them, steps in and strikes a target within reach, then snaps back to the anchor before the target can answer. The blow deals bludgeoning damage and staggers the target; held back, it is only a sharp shove that knocks them off balance. Any counterattack meets empty air, but the anchor must be set before the user closes in. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

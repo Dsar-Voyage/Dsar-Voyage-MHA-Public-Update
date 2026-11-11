@@ -1,0 +1,20 @@
+{
+  "Parcel Wrap": {
+    "name": "Parcel Wrap",
+    "description": "The user circles a target with a fast stream of tape and wraps them from shoulders to knees, then sticks the bundle to a wall or the floor if they choose. Until cut free or peeled loose by the user, the target cannot use their arms, run, climb or leave the spot, though they can still breathe and talk; the wrap leaves no injury. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

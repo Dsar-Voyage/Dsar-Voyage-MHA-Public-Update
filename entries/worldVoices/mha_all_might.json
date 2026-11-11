@@ -1,0 +1,15 @@
+{
+  "mha_all_might": {
+    "label": "All Might",
+    "voiceTag": "male commanding blunt",
+    "instructions": "A huge, deep, resonant heroic baritone at booming volume, warm and theatrical: triumphant declarations, a thundering \"HA HA HA!\" and punchy English catchphrases. Warm and fatherly with students; strained and breathy when hurt.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  }
+}

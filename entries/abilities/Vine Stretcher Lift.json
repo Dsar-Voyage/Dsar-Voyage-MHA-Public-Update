@@ -1,0 +1,20 @@
+{
+  "Vine Stretcher Lift": {
+    "name": "Vine Stretcher Lift",
+    "description": "The user casts two braided vines up to a second-story ledge or across a narrow gap to climb or swing across, and weaves broad leaves between them into a vine stretcher. The stretcher carries an injured person along beside the user or lowers them to the ground while mossy pads splint broken bones still and ease shock. Blades or fire cut the vines, and growing them drains water and stamina from the user. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

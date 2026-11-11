@@ -1,0 +1,20 @@
+{
+  "Items: funds note": {
+    "name": "Items: funds note",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^(?!.*(\\w+n't|\\b[Dd]o not|\\b[Nn]ot\\b|\\b[Nn]ever\\b|\\b[Oo]ut of\\b|\\b[Vv]ending)).*"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Bb](uy|ought)|[Pp]urch|[Gg](rab|et)|[Oo]rder|[Pp]ay)|^([Oo]ne|[Tt]wo|[Tt]hree|\\d+) "
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const y=N(check({type:'player-item',item:'Yen'}));effects.push({type:'story',instruction:'Narrator only: the character holds exactly \\u00a5'+y+' (an IC card, a phone or a bank card pays out of that same Yen). Hero costumes are never sold. Anything bought costs its usual price, named once and charged in full. If \\u00a5'+y+' does not cover the full price, the sale does not happen: the card is declined or the coins fall short, the clerk keeps the goods, and nothing is handed over. Hand over exactly the quantity asked for this turn; \"another\" or \"a second one\" means one more.'});"
+  }
+}

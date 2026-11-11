@@ -1,0 +1,20 @@
+{
+  "Noise-filtering earpieces": {
+    "name": "Noise-filtering earpieces",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "value": 3
+      }
+    ],
+    "description": "Small molded earpieces that let voices through but clamp down on sudden loud sounds such as blasts, sirens and screaming. Users whose senses overload wear them to stay focused when a fight, a crowd or an alarm gets loud. [ Support Gear | About ¥25,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4e47507e-fedd-4a8f-8d5e-f2e1d63a4af3.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

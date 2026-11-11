@@ -1,0 +1,40 @@
+{
+  "Mental Command Quirk": {
+    "name": "Mental Command Quirk",
+    "description": "🗣️ When someone answers you aloud, your voice takes hold of them.\n\n🌱 At the start you hold one person at a time with simple commands until pain or a shock snaps them free, and you know what to say to draw a reply from someone on guard.\n📈 With training: orders that outlast the hold, minds freed from panic or control, phone commands, several held at once, mind overload, a crowd, a person's skills and Quirk.\n⚠️ Many call it a villain's Quirk and go silent once they know.\n🔗 Common drawback pairing: Activation Condition, as Strain demands a longer, clearer answer.\n🎬 Similar canon Quirks: Hitoshi Shinso (Brainwashing).\n\n📈 Grants: Intelligence +1, Quirk Control +10, Quirk Analysis +10, Deception +5\n⚡ Starting techniques: Spoken Tether, Loaded Question",
+    "traitNarrativeEffects": "Scale: anyone who answers the user aloud blanks and obeys short spoken commands (stop, sit, drop it), doing nothing on their own. A new adult user holds one person in earshot at a time, up to several minutes. Bigger feats need techniques. Limits: only a spoken reply counts (no nod or wordless scream); those who know the Quirk stay silent or cover their ears. Pain, a hard shake, a close loud noise or an order to hurt anyone breaks it. Held people move stiffly, lose fine skills and their own Quirk, and later recall only a haze; it reads no thoughts. Quirk Strain: light: hold, baited question; moderate: standing order, waking someone, speaking by phone; heavy: holding several, overloading a mind; severe: commanding a crowd, directing another's skills and Quirk. Type: Emitter. Law: unlicensed commanding is assault; nothing gained by command holds up in court; the Commission watches licensed users closely. Look: nothing on the user; held eyes go flat, faces slack.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Deception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Spoken Tether",
+      "Loaded Question"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

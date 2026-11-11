@@ -1,0 +1,20 @@
+{
+  "Homing Snap": {
+    "name": "Homing Snap",
+    "description": "The user vanishes and stands on any of their anchors within the district, arriving at rest. A grip, a net or a closing crowd is left with nothing in it, and a user falling from a height or thrown through the air snaps to an anchor and lands on their feet, unhurt. The user arrives dizzy and cannot attack until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

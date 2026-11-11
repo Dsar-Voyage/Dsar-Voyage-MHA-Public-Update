@@ -1,0 +1,24 @@
+{
+  "Ten-Second Horizon": {
+    "name": "Ten-Second Horizon",
+    "description": "The user stretches their sight to about ten seconds ahead across everything they can see within a city block. Until the end of the user's next turn nobody in that area can surprise the user, and the user may shout orders that let up to three allies each avoid one attack, shot or falling hazard. Afterward a pounding headache blinds the Quirk, so the user cannot use it until the end of their following turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

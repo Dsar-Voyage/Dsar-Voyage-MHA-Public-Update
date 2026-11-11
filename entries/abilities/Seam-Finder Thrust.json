@@ -1,0 +1,20 @@
+{
+  "Seam-Finder Thrust": {
+    "name": "Seam-Finder Thrust",
+    "description": "The user reads the joints of an armored or hardened opponent and drives the weapon's point into a gap: elbow, armpit, knee or hip. The thrust ignores armor, shields and hardened skin, deals piercing damage with a blade or bludgeoning damage with a blunt weapon, and the struck arm or leg cannot grip or bear weight until the end of the target's next turn. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blade and Baton",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

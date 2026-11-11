@@ -1,0 +1,20 @@
+{
+  "Horned Charge": {
+    "name": "Horned Charge",
+    "description": "Horns and hooves from beef or goat they have eaten grow from the user's head and feet, and they charge in a straight line across a room. Every enemy in the line takes bludgeoning damage and is thrown aside, and doors, drywall and barricades in the way break open; held back, the charge only shoves people out of the path unhurt. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

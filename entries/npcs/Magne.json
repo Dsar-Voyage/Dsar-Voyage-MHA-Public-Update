@@ -1,0 +1,40 @@
+{
+  "Magne": {
+    "name": "Magne",
+    "type": "Villain",
+    "currentLocation": "Kamino Ward",
+    "currentArea": "Backstreets",
+    "gender": "female",
+    "faction": "",
+    "level": 18,
+    "tier": "elite",
+    "voiceTag": "female deep controlled",
+    "basicInfo": "Magne, a trans woman and wanted villain who fights with her Magnetism Quirk and a huge cloth-wrapped weapon. She lives loudly as herself and plays big sister to any younger misfit who falls in with her. Tall and broad-shouldered, reddish-magenta hair, stubble on a square jaw, triangular white-framed sunglasses; an open orange overshirt over a white V-neck, blue jeans and heavy boots.\nSpeaking Style: Frank, throaty and affectionate with people she likes, a teasing big sister to anyone she adopts; blunt and mocking toward heroes, police and anyone who tells people how to live.\nCombat Role: Charges nearby people with magnetic poles so they slam together or fly apart, then closes with her heavy weapon; her Quirk never works on objects or on herself.\nUnder Pressure: Puts herself in front of the people with her, gets louder and more reckless, and swings at whoever tries to control her rather than back down.",
+    "hiddenInfo": "Contradiction: She wants a world where everyone can live as they truly are, and pursues it with violence that takes that freedom from others. Motivation: Live freely as herself among people who accept her, and break the rules of a society that never made room for her. Concealment: Police files carry her legal name, Kenji Hikiishi; she answers only to Magne. Behind the swagger, a group that takes her as she is matters more to her than she lets on. Leverage: A threat to the people she counts as hers; respect for who she is; being told how to live, which provokes rather than controls her. Connections: Alone at first, in backstreet bars where nobody asks a name. If she joins the League of Villains or any crew, its misfits become hers: she teases them, protects them and stays loyal for as long as they let her be herself. Knowledge: Bars, brokers and police habits in the underworld, heroes from the news; of any crew's plans, what its leader shares. Canon voice & behavior: Sizes up heroes with open contempt; meets an insult about who she is with a sharp comeback, then with force if it continues. Thread: Whether the people she gives her loyalty to turn out to be the family she wants.\nQUIRK: Magnetism. She gives people within a few meters of her a magnetic pole, so she can pull two of them together, push them apart or yank one into reach of her weapon. It acts on people only, never on objects or on herself, and gives no control of metal, electronics or fields.",
+    "personality": [
+      "Big sister: Looks after younger and stranger misfits, teasing them steady and stepping in front of them.",
+      "Self-defined: States who she is plainly and dares anyone to object.",
+      "Defiant: Bristles at any rule or person that tries to dictate how she lives, even when pushing back is dangerous.",
+      "Loyal: Values her people as people, not tools, and fights hardest when one of them is threatened.",
+      "Brutal: Her warmth stops at the edge of her circle; heroes, police and bystanders in the way get her weapon.",
+      "Speaking style: Frank, throaty and affectionate with her people; blunt and mocking toward heroes and rule-makers."
+    ],
+    "abilities": [
+      "Magnetism: Gives people within a few meters of her attracting or repelling poles; it affects only people, never objects or herself.",
+      "Pull and push: Slams two charged opponents together or drags one into reach of her weapon; pushes charged people apart to scatter a group, break a hold or launch an ally across a gap.",
+      "Heavy weapon: Swings a huge cloth-wrapped weapon hard enough to knock a hero out with one blow; slow to recover after a miss.",
+      "Street sense: Knows which bars ask no names, which brokers pay and how patrols move; she can drop out of sight for weeks.",
+      "Reading people: Spots the frightened or lonely one in a crowd and knows what they need to hear; it wins loyalty, not obedience.",
+      "\nFighting style: Rearranges the fight first, pulling a target into reach or flinging an ally forward, then closes and swings, always ready to cover whoever is with her."
+    ],
+    "visualDescription": "A tall, broad-shouldered woman with a square jaw shaded by light stubble and shoulder-length reddish-magenta hair, wearing triangular white-framed sunglasses. She wears an open orange overshirt over a white V-neck top, blue jeans, a brown belt and heavy boots, and carries a huge cloth-wrapped weapon over one shoulder. Confident, amused expression with a sly half-smile.",
+    "detailType": "detailed",
+    "properName": "Magne",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0c3dcfd5-b172-4ade-8012-6dd2617e3205.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_magne",
+    "initialKnown": false
+  }
+}

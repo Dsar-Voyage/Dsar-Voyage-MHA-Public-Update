@@ -1,0 +1,30 @@
+{
+  "Kaiyo Coast": {
+    "name": "Kaiyo Coast",
+    "basicInfo": "The southernmost coast of Tokushima, where Shikoku's eastern shore bends south toward Cape Muroto, and the wide open water beyond it at the mouth of the Kii Channel. Only the northwest corner is land: a ria coast of small coves, headlands and river mouths from Hiwasa in Minami town through Mugi to the Kaiyo towns of Asakawa, Kainan and Kaifu. Everything east and south of that is sea, with the mountains of Wakayama's coast a faint line far to the east on clear days. Behind the coast, the Shikoku mountains crowd close, forested and wet. Hiwasa is a pilgrimage town grown up around Yakuo-ji, the temple where travelers in an unlucky year come to have their misfortune lifted, its steps scattered with offered coins; below it, Ohama beach is a loggerhead turtle nesting ground watched over from May to August, with a sea turtle museum beside it. In October, the town's shrine festival drives heavy drum floats into the sea. Mugi is a small fishing port of lobster pots and drying nets on a sheltered bay. Kaiyo, at the mouth of the Kaifu River, has some of the best surf in western Japan, and surfers drive down from Osaka and Kobe before dawn. The towns are small, quiet and old, and life follows the boats, the tides and the citrus harvest. The JR Mugi Line runs local trains, and a limited express as far as Mugi, down the coast from Tokushima; at Awa-Kainan, the Asa Kaigan Railway's road-rail bus climbs from the street onto the rails, runs the line to Kannoura and drives off onto Route 55 toward Muroto. Tokushima city is about two hours north by local train. From Osaka, it is about four and a half hours by expressway bus and train; from Musutafu, most of a day. Small coast guard patrol boats and the occasional sea-adapted hero work the water. One small hero office in Hiwasa covers the coast, with extra sidekicks sent down for turtle season and the summer surf crowds.",
+    "hiddenInfo": "Southern Tokushima is quiet and aging, and the expected Nankai earthquake shapes everything: tsunami towers, hilltop shelters, drills. Hero help is thin; the nearest real agency is in Tokushima city, around two hours off, and the coast guard covers the water. Ordinary trouble is poaching of lobster and abalone, surf-spot turf fights between locals and weekend visitors, vandalism of turtle nests, and theft of coin offerings from the temple steps.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -8,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4b7235dc-747f-4d64-a62b-27a56f402124.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

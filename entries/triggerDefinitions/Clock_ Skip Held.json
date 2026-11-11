@@ -1,0 +1,25 @@
+{
+  "Clock: Skip Held": {
+    "name": "Clock: Skip Held",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "skipBlock",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Ss]kip|[Ll]ater|[Pp]ass|[Gg]oe?s? by|[Ww]ent by|[Ff]ast|[Jj]ump|[Ss]pen[dt]|[Ff]l(y|ies) by"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player's last skip already moved the calendar; the date in this turn's time line is today. Open on that date and play it; time does not move again this turn."
+      }
+    ],
+    "recurring": true
+  }
+}

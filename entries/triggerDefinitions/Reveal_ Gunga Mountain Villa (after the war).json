@@ -1,0 +1,22 @@
+{
+  "Reveal: Gunga Mountain Villa (after the war)": {
+    "name": "Reveal: Gunga Mountain Villa (after the war)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "Gunga Mountain Villa",
+        "operator": "set",
+        "value": false
+      }
+    ]
+  }
+}

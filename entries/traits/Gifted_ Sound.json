@@ -1,0 +1,35 @@
+{
+  "Gifted: Sound": {
+    "name": "Gifted: Sound",
+    "description": "🧬 Sound, as an extra Quirk put into your body.\n\n🌱 At the start your voice (or claps and stomps) carries about a kilometer, a cone of sound staggers everyone in front of you, and echoes map a dark room.\n📈 With training: a balance-scrambling hum, evacuation calls over disaster noise, rides on sound to rooftops, shattered glass and concrete, street sweeps, a silent building.\n🔗 Common drawback pairing: Bodily Toll, as your throat and ears pay for the noise.\n🎬 Similar canon Quirks: Present Mic (Voice), Kyoka Jiro (Earphone Jack).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Sound family): Scale: sound from the throat or, if the player chooses, claps and stomps, amplified and aimed. At first: heard clearly about a kilometer away, a shout staggers people within a few meters, and echoes map a room or rubble pile in darkness or smoke. More needs learned techniques. Limits: sound spreads, so anyone in front, allies and civilians included, is hit unless the user aims well; ear protection and thick walls blunt it, water muffles it; it cannot cut, burn or grip, and every use is heard. Quirk Strain: light: amplifying, shout, echo map; moderate: disorienting hum, carrying call, sound-driven leap; heavy: shattering note, sweep of sound; severe: signature beam, silencing a building. Type: Emitter. Law: a blast that ruptures eardrums or shatters windows over a crowd is assault and property damage; licensed users aim away from bystanders.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Perception",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "sonic"
+    ]
+  }
+}

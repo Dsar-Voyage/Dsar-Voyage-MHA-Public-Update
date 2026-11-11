@@ -1,0 +1,27 @@
+{
+  "Items: gear license [Licensed Pro Hero]": {
+    "name": "Items: gear license [Licensed Pro Hero]",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "read-boolean",
+        "key": "gearLicensed",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "gearLicensed",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": false
+  }
+}

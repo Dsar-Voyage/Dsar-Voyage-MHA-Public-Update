@@ -1,0 +1,20 @@
+{
+  "Omamori charm": {
+    "name": "Omamori charm",
+    "category": "Accessory",
+    "slot": "Accessory",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "value": 2
+      }
+    ],
+    "description": "A small embroidered silk pouch from a shrine, holding a blessing for luck, safety or exam success. Tradition says never to open it, and keeping it close steadies a nervous owner. [ Accessory | About ¥800 at a shrine ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f0bcc114-ce5b-4bf6-ba60-9e3b7073b659.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

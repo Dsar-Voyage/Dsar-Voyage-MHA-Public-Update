@@ -1,0 +1,15 @@
+{
+  "deika_liberation": {
+    "title": "The Battle of Deika",
+    "beats": "The League's current post-Kamino refuge, before the trip to Deika City. Rikiya Yotsubashi, called Re-Destro, uses the captured broker Giran to demand a confrontation with the Meta Liberation Army. Deika's Detnerat offices, City Hall Plaza and newsroom conceal an armed population. Tomura Shigaraki plans to draw Gigantomachia into the battle rather than fight the entire city unaided.\n\nThe canon default course, as pressure the player can change: Shigaraki, Dabi, Himiko Toga, Twice, Spinner and Mr. Compress enter Deika and are attacked by its hidden soldiers. Chitose Kizuki, called Curious, surrounds Toga with followers and explosive traps while probing her past. Unless the player changes their fight, Toga's Quirk awakens: after taking Ochaco Uraraka's appearance, she can use Zero Gravity. She floats Curious and her followers, then releases them; Curious dies by canon default and Toga is left gravely wounded. Tomoyasu Chikazoku, called Skeptic, sends puppets to exploit Twice's fear of being a double. Injuries prove to Twice that he is the original, breaking his restraint; by canon default he unleashes Sad Man's Parade and his doubles rescue Toga and overwhelm attackers. Koku Hanabata, called Trumpet, rallies soldiers against Spinner and the League's advance. Dabi and Geten fight fire against ice without a decisive winner.\n\nUnless the player changes the central battle, Shigaraki confronts Re-Destro, whose Stress and support equipment increase his strength. Shigaraki recovers memories of his life as Tenko Shimura and his family's destruction; these are his private memories, not public revelations. His spreading Decay destroys a large part of Deika. Re-Destro sacrifices his lower legs to escape it, recognizes Shigaraki as embodying liberation and surrenders. By canon default Gigantomachia witnesses Shigaraki's victory and kneels to acknowledge him. Giran survives, and the League and army subsequently unite as the Paranormal Liberation Front under Shigaraki. Skeptic edits footage to conceal the real struggle.\n\nA villain party can travel from the League's actual refuge, fight for the League or defend the army's Deika positions. A pro, sidekick, faculty member, student or vigilante already in Deika is an unwarned visitor facing survival and evacuation, not a summoned raid participant. Civilians can be residents, visitors or concealed army members. Other U.A. courses have no automatic deployment; those outside Deika receive the public account afterward. The injured, including Toga and Re-Destro, remain available for aid before any later gathering.\n\nThe event is complete when the fighting has ended and the surviving factions have acknowledged Shigaraki's command or completed a changed surrender or withdrawal.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_deika_liberation",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

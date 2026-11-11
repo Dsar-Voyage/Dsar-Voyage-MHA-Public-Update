@@ -1,0 +1,21 @@
+{
+  "provisional_license_exam": {
+    "title": "The Provisional License Exam",
+    "beats": "Early morning at U.A. Academy's Main Gate. Class 1-A boards buses with Shota Aizawa for Takoba Municipal Stadium, costumes packed. Class 1-B takes the Hero Public Safety Commission's exam at another venue. In Takoba's Waiting Hall, Yokumiru Mera briefs 1,540 Hero Course examinees: the first 100 qualify for phase two. Each wears three targets and carries six balls; three target hits eliminate a wearer, and two eliminations qualify the thrower.\n\nThe canon default course, as pressure the player can change: other academies exploit U.A.'s televised Sports Festival techniques. Yo Shindo of Ketsubutsu fractures the Exam Arena beneath 1-A while Ms. Joke watches. Inasa Yoarashi eliminates dozens quickly; Seiji Shishikura turns Katsuki Bakugo and Eijiro Kirishima into helpless masses. Unless the player changes their encounter, Denki Kaminari uses his directed electricity to defeat Shishikura and free both classmates. Yuga Aoyama fires a conspicuous laser beacon, gathering scattered 1-A students so they can cooperate and clear phase one. By canon default the real Camie Utsushimi is absent: Himiko Toga impersonates her, approaches Izuku Midoriya and takes his blood before leaving. Her identity and the stolen blood stay with those who discover them, not the stadium's general audience.\n\nUnless the player changes phase two, Help Us Company actors play casualties in the Rescue Exercise Ruins; examinees start with 100 points and need 50. Gang Orca and his sidekicks attack as mock villains. Shoto Todoroki and Inasa let their feud disrupt fire, wind and rescue work. They finally cooperate against Gang Orca, but too late to recover their scores. Katsuki's hostile treatment of casualties also costs him a pass. By canon default everyone in 1-A except Katsuki and Shoto receives a license; Inasa also fails. At the separate venue, all of 1-B passes. The real Camie's absence leaves her untested rather than a failed participant in this exam.\n\nA Hero Course student party attends its assigned venue and keeps its actual injuries and eligibility. General Studies, Support and Management parties watch from permitted stands or volunteer in approved support roles. Faculty observe; pros and sidekicks examine, supervise or play mock villains. Civilians can work with Help Us Company. Villains operate outside security or through an established infiltration, without automatic entry. From U.A. Academy the opening can include departure and the ride; at either venue the party joins its proper stage rather than being moved into 1-A's roster.\n\nThe event is complete when both phases at the party's venue have ended, results are announced and the successful examinees receive their license cards, or officials formally cancel the exam.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_provisional_license_exam",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-number",
+        "key": "studentStage",
+        "operator": "set",
+        "value": 3
+      }
+    ]
+  }
+}

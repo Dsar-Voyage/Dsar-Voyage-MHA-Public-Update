@@ -1,0 +1,20 @@
+{
+  "Twin Spiral Bind": {
+    "name": "Twin Spiral Bind",
+    "description": "The user sends two spiraling waves from their hands to press one nearby opponent against a wall or the ground until the end of the user's next turn. The pressure can hold them for an ally to apply restraints. The target can escape by moving before the slow waves arrive, and the hold ends when the user stops feeding it stamina. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "Dodging": {
+    "name": "Dodging",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: evading attacks, projectiles and falling debris the character can see coming. Not: absorbing a hit on a guard or shield, which is Blocking. Primary attribute: Speed.",
+    "startingItems": []
+  }
+}

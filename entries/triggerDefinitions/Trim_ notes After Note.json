@@ -1,0 +1,10 @@
+{
+  "Trim: notes After Note": {
+    "name": "Trim: notes After Note",
+    "conditions": [],
+    "effects": [],
+    "recurring": true,
+    "phase": "state",
+    "script": "(function(){/*storage_pack:v1:[true,[[119,8],[127,8],[135,7],[142,8],[150,9],[159,10],[169,9],[178,9],[187,10],[197,10],[207,10],[217,10],[227,10],[237,10],[247,10],[257,4]]]*/const __pr=[[119,8],[127,8],[135,7],[142,8],[150,9],[159,10],[169,9],[178,9],[187,10],[197,10],[207,10],[217,10],[227,10],[237,10],[247,10],[257,4]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim_notes:v1:[\"After Note\",119,142]*/for(let n=119;n<261;n++){const k='L_h'+n,v=__pg(+k.slice(3));if(v===undefined)continue;const r=v[1];if(!r.conditions.every(c=>c.type==='read-boolean'?(check({type:c.type,key:c.key})===true)===c.value:c.operator==='greaterThanOrEqual'?check({type:c.type,key:c.key})>=c.value:check({type:c.type,key:c.key})<=c.value))continue;if(effects.length+r.effects.length>10)break;effects.push(...JSON.parse(JSON.stringify(r.effects)));}if(!effects.length)skip=true;})();"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: spinner_plf": {
+    "name": "Portrait Swap: spinner_plf",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Spinner",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/9005d079-d4d6-48d4-83b2-af81c2616afb.png"
+      }
+    ]
+  }
+}

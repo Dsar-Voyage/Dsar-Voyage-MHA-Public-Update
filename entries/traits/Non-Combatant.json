@@ -1,0 +1,36 @@
+{
+  "Non-Combatant": {
+    "name": "Non-Combatant",
+    "description": "🏃 You do not fight, and you have learned to survive anyway: spot danger early, get out of its way and get others to safety.\n\n🌱 You notice danger early, keep people calm and moving, hide when there is nowhere to run, and bring help.\n🎯 Suits civilians, Management and Support students, and anyone whose courage does not come from fists.\n⚠️ You throw clumsy blows, cannot win a fair fight against a trained opponent and never give chase. None of the techniques harm anyone.\n📈 You learn more techniques as your Dodging and Evacuation improve.\n🤝 Civilians who stay to help are thanked on the news, and agencies hire them for evacuation. In a crew you are the lookout or the driver.\n\n📈 Grants: Cooperativeness +1, Dodging +15, Evacuation +10\n⚡ Starting technique: Drop and Bolt",
+    "traitNarrativeEffects": "No fighting training, and wants none. Instincts: notice danger early, move people away, hide, run for heroes or police. At start: dodges what they see coming and calms a frightened crowd, but throws clumsy blows, cannot win a fair fight against a trained opponent and never gives chase. If the player fights anyway, allow an untrained effort. No technique harms an opponent; all escape, hide, get help or get others out. Not cowardice: staying to guide others out is courage too. Same if Quirkless; a Quirk helps escape only through its own techniques. Running, dodging and hauling people cost stamina per technique tags; calming or directing people is free. Legal and social treatment: getting people out of danger is legal and praised; helpers make the news and get heroes' thanks; agencies hire them for evacuation and support. In a villain crew or beside a vigilante: lookout, driver, the one who always gets away. How it looks: alert, checks exits, phone in hand, calm voice.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Dodging",
+        "modifier": 15
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Drop and Bolt"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "Civilian Life"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

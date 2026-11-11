@@ -1,0 +1,29 @@
+{
+  "Unbound Marrow": {
+    "name": "Unbound Marrow",
+    "description": "The user takes exact control of their own healing. In one action they dislocate or break their own bones to slip any grip, hold, cuffs or binding and set them again as they come free, push out every bullet, blade and shard lodged in them so the wounds close behind, and wake themselves from a knockout by healing the blow. Until the end of the scene, no restraint holds them past their next turn. Each break is felt in full, and afterward the user cannot use the Quirk until they eat a large meal. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

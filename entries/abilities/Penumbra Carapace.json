@@ -1,0 +1,20 @@
+{
+  "Penumbra Carapace": {
+    "name": "Penumbra Carapace",
+    "description": "The user lays plates of smoked glass over their body as close armor that drinks light and blurs their outline for the scene, stopping fists and blades. On command they shatter a planted shard so its fragments deal piercing damage and pin the shadows of everyone within a few strides until the end of their next turn, or pin them uncut if held back. Running both natures parches the user and fades their shadow. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

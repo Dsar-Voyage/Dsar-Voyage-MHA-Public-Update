@@ -1,0 +1,20 @@
+{
+  "Burning Boundary Strip": {
+    "name": "Burning Boundary Strip",
+    "description": "The user lays a three-meter strip of flame across bare pavement within four meters and maintains it until the end of the user's next turn. Crossing it deals light fire damage; the user leaves an open route for surrender or retreat. The flames do not stop projectiles, and maintaining them adds body heat. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

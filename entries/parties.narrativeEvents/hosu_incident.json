@@ -1,0 +1,15 @@
+{
+  "hosu_incident": {
+    "title": "The Hosu Incident",
+    "beats": "Internship week, evening in Hosu. Tenya Iida slips away from the Manual Hero Agency's patrol to hunt Stain, the Hero Killer who injured his brother. Izuku Midoriya travels with Gran Torino after training at Gran Torino's Apartment; he now uses Full Cowl to spread his power through his body. The League releases three Nomu into Hosu Downtown, drawing local pros and Endeavor, whose intern Shoto Todoroki accompanies him.\n\nThe canon default course, as pressure the player can change: a Nomu crashes into Izuku and Gran Torino's train, interrupting their journey. Izuku leaves Gran Torino fighting and searches the Hosu Back Alleys. There Stain has wounded Native and immobilized him by tasting his blood; Tenya confronts Stain and is also paralyzed. Unless the player changes their arrival, Izuku finds them, sends his location to his classmates and uses Full Cowl to keep Stain occupied. Shoto follows the message. By canon default the three students overcome Stain together, despite his Bloodcurdle and their injuries. The Hosu Winged Nomu then snatches Izuku; Stain frees himself enough to kill it and save him. Bound and bleeding, Stain denounces false heroes before the arriving pros, freezes even Endeavor with his conviction, and loses consciousness on his feet. Unless the player changes the aftermath, police take him into custody and the Nomu are defeated. At Hosu General Hospital, police chief Kenji Tsuragamae explains that the students' unlicensed use of force broke the law; Endeavor receives official credit. Doctors can repair the damage to Tenya's left hand with surgery, but he chooses to leave it as a reminder of his failure and vengeance.\n\nA student party at the Manual Hero Agency can notice Tenya missing; one at Gran Torino's Apartment can travel with Izuku and his mentor. Other students, including other U.A. courses, need an established reason to be in Hosu and do not gain a license by intervening. Pros and sidekicks fight Nomu on Main Street or reach the alleys; faculty coordinate with U.A. Academy and the hospital. A villain party can watch with Tomura Shigaraki and Kurogiri from a rooftop, seeing Stain reject the League's aims. Civilians shelter near Hosu Station or help people away from fires. Wounded characters remain reachable for rescue and hospital treatment.\n\nThe event is complete when Stain is in custody or has escaped, the Nomu threat has ended, and the wounded have reached medical care.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_hosu_incident",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

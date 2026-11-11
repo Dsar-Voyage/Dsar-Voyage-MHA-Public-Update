@@ -1,0 +1,49 @@
+{
+  "Vines Quirk": {
+    "name": "Vines Quirk",
+    "description": "🌿 You have thorny vines for hair that grow and move under your control.\n\n🌱 At the start you extend a few vine bundles about five meters, retrieve a small object, screen your upper body or loosely bind one adult away from face and airway.\n📈 With training: branching captures, climbing supports, rescue slings, dense screens across a street.\n⚠️ You control only your vine hair; blades and fire damage it, water and sunlight replace losses slowly, heavy loads strain your neck, and thorns scratch allies.\n🔗 Canon Drawback, built in: Finite Fuel, as drought and low sunlight limit replacement growth.\n🎬 Canon Quirk: Ibara Shiozaki's Vines. You are not related to her; people who know her Quirk notice the resemblance.\n🎒 Starts with: Quirk fuel pack x5, Fuel belt\n\n📈 Grants: Cooperativeness +1, Quirk Control +10, Quirk Stamina +10, Capture +5\n⚡ Starting techniques: Vine Fringe Guard, Bunched Vine Lash",
+    "traitNarrativeEffects": "Scale: thorned vine hair, moved at will. Start: a few bundles reach about 5 m to shield the upper body, fetch small items, loosely catch one adult. Street cover, multi-binding need training, healthy growth.\nLimits: regrows only with water and sun; stored growth serves indoors, not endlessly. Edges sever, fire burns. Own vines only; no plant control, flowers, pollen, healing, poison, remote sight. Must go around obstacles. Heavy pulls strain necks; thorns hit allies. Captures spare airways, faces.\nQuirk Strain: light: fringe guard, lash; moderate: bind, climb, disarm, rescue sling; heavy: dense screen, several captures; severe: signature spread, street control, building-wide.\nDrawback: built in, the canon Finite Fuel.\nCanon: Ibara Shiozaki's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: user answers for thorns, blocked routes; restraints, street vines need license or self-defense.\nLook: thorns.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Vine Fringe Guard",
+      "Bunched Vine Lash"
+    ],
+    "startingItems": [
+      {
+        "item": "Quirk fuel pack",
+        "quantity": 5
+      },
+      {
+        "item": "Fuel belt",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

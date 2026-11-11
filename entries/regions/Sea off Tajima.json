@@ -1,0 +1,28 @@
+{
+  "Sea off Tajima": {
+    "name": "Sea off Tajima",
+    "basicInfo": "Open Sea of Japan off the coast of Hyogo's Tajima district, with the coastal mountains above Kasumi, Shibayama and Kinosaki rising faintly on the southern horizon on clear days. The water is deep blue over the continental shelf and its outer slopes, cold below and warmed at the surface by the Tsushima Current flowing northeast. Summers are calm and hazy; winters bring northwest gales, snow and steep gray seas. These are some of the best snow crab grounds in Japan: from November to March the trawlers of Kasumi, Shibayama and Tsuiyama work the slopes for matsuba crab, and in spring the same boats haul firefly squid and flatfish. On summer nights squid boats hang lamps over the water. No islands lie inside the cell, and only fishing boats and a few coastal freighters cross it. The coast guard patrols from its offices along the Tajima and Tango shore, and a maritime hero covering that coast answers calls. A party might be out here on a crab trawler in season, a charter from Kasumi, or flying over.",
+    "hiddenInfo": "The crab is worth a great deal, so the tension is over quotas, poaching and mislabeled catch at market, and the ports compete fiercely for buyers. In winter storms rescue is slow and dangerous; the nearest help is the coast guard and a hero on the coast, an hour or more away. Villainy is poaching and small-scale smuggling.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -8,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c93d7dc0-e60c-4a45-91cd-dcf91730c02c.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

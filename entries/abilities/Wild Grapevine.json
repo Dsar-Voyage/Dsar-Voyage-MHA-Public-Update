@@ -1,0 +1,24 @@
+{
+  "Wild Grapevine": {
+    "name": "Wild Grapevine",
+    "description": "The user sets every animal in a district to watch for them until the end of the day. They learn at once when anyone they have described enters the district and where that person goes, hear of every fire, crash and person in danger there as it happens, and can have birds lead any ally in the district to them. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Side Resume: Holiday Rush": {
+    "name": "Side Resume: Holiday Rush",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "civ_holiday_rush",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_civ_holiday_rush",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_civ_holiday_rush",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "civ_holiday_rush"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_civ_holiday_rush",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Holiday Rush\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Mid to late December, the year-end rush, afternoon into closing."
+      }
+    ]
+  }
+}

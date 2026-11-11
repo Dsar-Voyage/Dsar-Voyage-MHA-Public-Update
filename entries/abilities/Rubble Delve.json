@@ -1,0 +1,20 @@
+{
+  "Rubble Delve": {
+    "name": "Rubble Delve",
+    "description": "The shadow pours into the dark gaps of a collapsed building, where it is at its strongest, finds every person trapped inside and braces the debris off them. Nothing it holds shifts or falls until the user calls it back, and it hauls each trapped person out to the user, carrying them clear of the jagged edges. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

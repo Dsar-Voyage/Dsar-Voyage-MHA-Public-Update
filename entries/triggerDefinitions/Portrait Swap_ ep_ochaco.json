@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_ochaco": {
+    "name": "Portrait Swap: ep_ochaco",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/89bda628-9dc7-4600-8498-7014adc6ccd4.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/89bda628-9dc7-4600-8498-7014adc6ccd4.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/89bda628-9dc7-4600-8498-7014adc6ccd4.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Ochaco Uraraka (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/89bda628-9dc7-4600-8498-7014adc6ccd4.png"
+      }
+    ]
+  }
+}

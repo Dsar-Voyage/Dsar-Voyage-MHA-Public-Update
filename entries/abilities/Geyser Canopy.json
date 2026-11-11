@@ -1,0 +1,25 @@
+{
+  "Geyser Canopy": {
+    "name": "Geyser Canopy",
+    "description": "The user vents all their stored water and heat skyward at once, blanketing a whole city block in a roiling bank of pressurized steam for the rest of the scene. Within the block the user senses every person by how the vapor parts around them, smothers every open fire, and can drive a steam-piston downdraft onto any enemy for heavy force and fire damage; held back, the bank stays a warm mist that only blinds enemies and cushions falls. When it ends, the user is parched and cannot use the Quirk for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

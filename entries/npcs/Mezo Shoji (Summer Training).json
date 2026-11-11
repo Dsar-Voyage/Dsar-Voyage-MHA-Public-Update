@@ -1,0 +1,44 @@
+{
+  "Mezo Shoji (Summer Training)": {
+    "name": "Mezo Shoji (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 16,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Mezo Shoji, hero name Tentacole, a Class 1-A first-year in U.A. Academy's Hero Course, back on a locked-down campus after the summer. When the League of Villains attacked the class's training camp, he took a villain's blade shielding Fumikage Tokoyami and kept sensing for the class through the pain. Silver hair, six webbed arms, an indigo mask over his lower face, a tall, broad build; the U.A. uniform or his dark blue sleeveless costume.\nSpeaking Style: Low, calm, economical; speaks through an arm-tip mouth when he must be heard.\nCombat Role: Scout, shield and grappler, steadier than in spring: more copies held longer and faster sweeps.\nUnder Pressure: Gets quieter, covers whoever is weakest and keeps reporting, hurt or not.",
+    "hiddenInfo": "Contradiction: The summer showed how badly a protector can be hurt, and his answer is to stand closer to danger. Motivation: Become a sensor and a shield nobody slips past again. Concealment: Keeps that night and his anger behind the mask; asked about the wound, he says it has healed. Connections: Fumikage Tokoyami, now a close friend, whose anguish at Shoji's wound drove Dark Shadow out of control; Tokoyami blames himself, and Shoji will not allow it. Toru Hagakure, his partner in passing the practical final exam against Snipe. Katsuki Bakugo, whom the League carried off from the camp as Shoji and his classmates gave chase; back since Kamino. Knowledge: Kamino ended All Might's career, and the campus has been locked down since. Canon voice & behavior: Spots for classmates unasked; answers praise with a nod. Thread: Whether his senses will catch the next danger in time.\nQUIRK: Dupli-Arms. Six webbed arms grow working copies of his hands, eyes, ears or mouths at their tips; every copy is his own flesh, and a blade through one wounds him.\nSTAGE: After the summer: final exam passed, wounded at the camp, a close friend to Tokoyami.",
+    "personality": [
+      "Protective: Steps between danger and whoever is smallest or slowest, webbing spread unasked.",
+      "Watchful: Keeps an ear or an eye up on one arm even while resting, a habit since the forest.",
+      "Loyal: Checks on Fumikage Tokoyami without fuss and changes the subject when Tokoyami apologizes.",
+      "Speaking style: Quiet, steady, economical; speaks through an arm-tip mouth when he must be heard."
+    ],
+    "abilities": [
+      "Distributed senses: Sweeps a forest or a building with many ears and eyes at once; range is real, and long sweeps tire him.",
+      "Shield and carry: Takes a blow meant for a partner on his arms, or carries a hurt classmate while still sensing; a blade cuts the arms.",
+      "Capture grapple: Many hands pin a target without crushing; a slippery, burning or much stronger foe can break free.",
+      "Clear report: Calls out every position he senses in a few exact words, so the team can move at once.",
+      "\nFighting style: Finds the threat first, covers the weakest teammate, then closes to wrap and pin with several arms."
+    ],
+    "visualDescription": "A tall young man with short, shaggy silver hair, small dark eyes under a heavy brow, light skin and a tall, broad build. He has six arms joined to one another by thin webs of skin. An indigo mask covers his face from the nose down. He wears the U.A. uniform, cut to fit around his extra arms: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Steady, alert expression above the mask.",
+    "detailType": "detailed",
+    "properName": "Mezo Shoji",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ca97db35-99bf-4aaf-8ee8-8b15a1a7b95d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mezo_shoji",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/ca97db35-99bf-4aaf-8ee8-8b15a1a7b95d.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/848c7348-1b69-4d7a-aab9-b5b704207643.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c1a41ec-0467-4059-b5cb-0bd028e6077b.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/093fc25d-f9df-4b6c-836c-b44c38c90e70.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/d70e4d3a-5a1c-404f-9507-1b280e26b785.png"
+    },
+    "initialKnown": false
+  }
+}

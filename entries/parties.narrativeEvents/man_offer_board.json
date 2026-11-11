@@ -1,0 +1,15 @@
+{
+  "man_offer_board": {
+    "title": "The Offer Board",
+    "beats": "One of the two days off after the U.A. Sports Festival, at U.A. Academy. Most of the campus sleeps in, but the Management Course Classrooms are open: the agencies' internship offers for the Hero Course are pouring in by mail, fax and courier, and the faculty has handed the count to the Management Course as a live case study, due before Friday's Hero Name Day. Shota Aizawa sets two crates of envelopes on a desk, says the tally should be correct and short, and leaves for a nap. Vlad King stays, arms folded, watching the Class 1-B column.\n\nThe default course, as pressure the player can change: the tally follows the Festival as it was actually played. By canon default Shoto Todoroki leads with 4,123 offers and Katsuki Bakugo, the champion who had to be chained to the podium, has 3,556; then Fumikage Tokoyami 360, Tenya Iida 301 although he left the stadium early for his brother, Denki Kaminari 272, Momo Yaoyorozu 108, Eijiro Kirishima 68, Ochaco Uraraka 20 and Hanta Sero 14. Izuku Midoriya, who won the obstacle race and broke himself against Todoroki, has none. Class 1-B's column is thin, and Vlad King blames a month of headlines about 1-A, loudly. The celebrity hero Uwabami's agency has sent offers to Momo Yaoyorozu and Itsuka Kendo with a line about commercial work.\n\nThe lecturer wants analysis, not a list: which agencies chased fame and which chased a skill, which offer is really an advertising contract, and why a famous father's name outweighs a broken arm. The class fights over method, a stack of late envelopes turns up under a desk, and one agency's letter asks bluntly about Bakugo's temper. A sharp player can write a case Aizawa actually reads to the end, or one Vlad King carries straight to Principal Nezu.\n\nThe event is complete when the tally and the analysis are handed in for Hero Name Day, or the party leaves the classroom.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_man_offer_board",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

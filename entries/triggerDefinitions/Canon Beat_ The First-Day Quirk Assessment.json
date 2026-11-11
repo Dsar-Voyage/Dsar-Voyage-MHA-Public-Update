@@ -1,0 +1,26 @@
+{
+  "Canon Beat: The First-Day Quirk Assessment": {
+    "name": "Canon Beat: The First-Day Quirk Assessment",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "The First-Day Quirk Assessment",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, canon beats of the Quirk test (pressure the player can change, never forced): before the first event Aizawa says aloud that whoever finishes last will be expelled. Eight events (sprint, grip, long jump, side steps, ball throw, endurance run, sit-ups, toe-touch). All twenty of Class 1-A take part by name with their own Quirks: Iida wins the sprint, Yaoyorozu tops the board, Uraraka's ball floats away for an infinite throw, Bakugo blasts his 705.2 m. Izuku Midoriya's first ball throw: Aizawa erases his Quirk mid-throw, the ball drops at 46 m, and Aizawa tells him quietly that a Quirk which breaks his body makes him useless. His second throw puts the power into one fingertip: 705.3 m, the fingertip swollen purple and broken, and he finishes the remaining events with it. Bakugo charges him and Aizawa binds him with the scarf. By canon default Izuku places last; Aizawa then calls the expulsion a logical ruse and sends him to Recovery Girl. Nobody else is hurt."
+      }
+    ]
+  }
+}

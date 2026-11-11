@@ -1,0 +1,32 @@
+{
+  "Gifted: Strength Boost": {
+    "name": "Gifted: Strength Boost",
+    "description": "🧬 Strength Boost, as an extra Quirk put into your body.\n\n🌱 At the start a boost lasts about a minute: lift about a ton, punch through a cinder-block wall, throw an adult several meters, hold a fallen beam off a trapped person.\n📈 With training: steel doors torn open, crushing holds, rooftop leaps, a collapsing ceiling held up, a speeding truck stopped and, at your peak, an overpass lifted.\n⚠️ Swollen hands fumble locks, triggers and injured people.\n🔗 Common drawback pairings: Stamina Drain or Finite Fuel, as each boost burns your energy or the fuel you carry.\n🎬 Similar canon Quirks: Rikido Sato (Sugar Rush), Muscular (Muscle Augmentation).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Strength Boost family): Scale: muscles swell on command for strength far past human. A new adult user bulks up in about a second and, for about a minute per boost, lifts about a ton, punches through a cinder-block wall and throws an adult several meters. Bigger feats need techniques. Limits: strength, not toughness: punching steel still breaks knuckles; blades and bullets cut as deep. No added speed; swollen hands fumble locks, triggers and injured people. Range and an early grapple counter it. Quirk Strain: light: boosted blow; moderate: lift, breach, hold, leap; heavy: holding up a structure, stopping a vehicle; severe: signature blow, lifting an overpass. Type: Transformation. Law: a boosted punch can kill, so police treat an unlicensed user who bulks up in a fight as armed; every injury is judged by the force chosen.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Athletics",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

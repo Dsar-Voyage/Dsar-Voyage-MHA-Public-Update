@@ -1,0 +1,39 @@
+{
+  "Companions: nobody dies at Hosu": {
+    "name": "Companions: nobody dies at Hosu",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "live_hosu_incident",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 34
+      },
+      {
+        "type": "npc-health",
+        "npc": "anySceneNPC",
+        "operator": "lessThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-health",
+        "npc": "satisfyingNPCs",
+        "operator": "set",
+        "value": 1
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: nobody dies at Hosu. Anyone who went down is badly hurt, not killed, and is taken to Hosu General Hospital."
+      }
+    ],
+    "recurring": true,
+    "phase": "planning"
+  }
+}

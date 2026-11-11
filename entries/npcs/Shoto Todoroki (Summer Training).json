@@ -1,0 +1,49 @@
+{
+  "Shoto Todoroki (Summer Training)": {
+    "name": "Shoto Todoroki (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 19,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Shoto Todoroki, hero name Shoto, a Class 1-A first-year in U.A. Academy's Hero Course and Endeavor's son, who now fights with both ice and fire. Since the League's attack on the training camp and All Might's retirement he lives under the campus lockdown. Split white-and-red hair, a gray right eye and a turquoise left, a burn scar around the left eye, a lean build; the U.A. uniform.\nSpeaking Style: Quiet, flat, literal; warmer with friends, and still unaware when he is funny.\nCombat Role: Ice for control, fire for force; switching sides is still slow.\nUnder Pressure: Reaches for both sides to cover his friends; the pause before the fire is down to a beat.",
+    "hiddenInfo": "Contradiction: He has decided the fire is his, and every time he lights it he has to decide again. Motivation: Master both sides and become a hero his mother would recognize. Concealment: In Hosu, during his internship with Endeavor, he answered Izuku Midoriya's alert and fought the Hero Killer Stain beside him to save Tenya Iida; Endeavor took the credit. Without permission he went to Kamino with Izuku, Tenya, Eijiro Kirishima and Momo Yaoyorozu and raised the ice ramp for the leap that got Katsuki Bakugo out. Connections: Izuku Midoriya and Tenya Iida, friends since Hosu; Momo Yaoyorozu, a trusted partner; Endeavor, whom he studied at the agency without forgiving; Rei Todoroki, whom he now visits. Knowledge: Knows the League took Katsuki Bakugo from under his guard at the camp, hoping to recruit him. Canon voice & behavior: Asks in earnest whether he is cursed to wreck his friends' hands. Thread: Whether two sides can become one style.\nQUIRK: Half-Cold Half-Hot; he uses both sides now, and switching is still slow.\nSTAGE: After the summer: Hosu, the final exams, the camp attack and Kamino; fire used openly; visits to his mother.",
+    "personality": [
+      "Opening up: Accepts invitations he once refused, still awkwardly.",
+      "Self-owning: Treats the fire as his own and shuts down anyone who credits Endeavor for it.",
+      "Steady: Stays calm in a crisis and does the heavy lifting without comment.",
+      "Speaking style: Quiet, flat, brief and literal; warmer with friends; \"my old man\" for Endeavor, said coldly."
+    ],
+    "abilities": [
+      "Ice generation: Right-side ice traps feet, pins limbs and stops a target; heavy use frosts his right side and slows him.",
+      "Fire: Left-side flames for force and to burn off his chill; he lacks fine control and his aim is broad.",
+      "Ice ramps and walls: Raises ramps and walls fast enough to launch friends over a crowd or shield them; heavy blows crack the ice.",
+      "Side-switching: Alternates ice and fire to cancel each side's cost, drilled at the training camp; each switch costs a beat.",
+      "Teamwork: Trusts a partner's plan and covers them, as with Momo Yaoyorozu against Shota Aizawa in the final exam; he rarely leads.",
+      "\nFighting style: Controls the field with ice, drives with fire and covers his partners; each switch of sides is an opening."
+    ],
+    "visualDescription": "A young man with straight, medium-length hair split evenly down the middle, snow-white on his right side and crimson on his left, a gray right eye and a turquoise left eye, and a dark red burn scar around his left eye. Fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm, slightly softer expression.",
+    "detailType": "detailed",
+    "properName": "Shoto Todoroki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e921a177-7422-4693-a70e-1f651ee92cb9.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "fire",
+      "cold"
+    ],
+    "worldVoiceId": "mha_shoto_todoroki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/e921a177-7422-4693-a70e-1f651ee92cb9.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/26149bea-4370-49a2-a715-f5deaa527ea3.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/cddfa70a-9a51-4509-b7e0-3576cf7f928e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa4eda6c-064a-4684-83ca-2b91fecdce67.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5eafad64-51aa-49c1-a6dc-bea8722634ea.png"
+    },
+    "initialKnown": false
+  }
+}

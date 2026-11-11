@@ -1,0 +1,20 @@
+{
+  "Gone Before the Cuffs": {
+    "name": "Gone Before the Cuffs",
+    "description": "As police or a hero close in, the user breaks away through a gap nobody covered: a fire escape, a drain, a roof, a crowd. The user leaves the scene unidentified and leaves no trail back to their civilian life; witnesses and cameras catch the costume, never the face. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vigilante",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

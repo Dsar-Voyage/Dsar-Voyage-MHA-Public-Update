@@ -1,0 +1,30 @@
+{
+  "Steady Nerves": {
+    "name": "Steady Nerves",
+    "description": "🧘 Fear still comes, but it no longer decides for you.\n\n🎯 Good for keeping your head when things go wrong.\n📋 Requires level 8 and Willpower 8.\n\n📈 Grants: Willpower +10",
+    "traitNarrativeEffects": "The character has faced enough danger to keep their head: they feel fear and act anyway. Show steady breathing, clear decisions under threat and a refusal to be rushed by intimidation or a killer's stare. Limits: they are brave, not fearless; trauma still leaves marks, and strong mind-affecting Quirks can still take hold, though the character fights them harder.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Willpower",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "amount": 8
+      }
+    ]
+  }
+}

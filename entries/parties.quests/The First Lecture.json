@@ -1,0 +1,17 @@
+{
+  "The First Lecture": {
+    "name": "The First Lecture",
+    "questSource": "Principal Nezu",
+    "questStatement": "Your first class at U.A. Academy is this morning. Principal Nezu has put you in front of a room of Hero Course first-years who passed the hardest entrance exam in Japan and expect to be impressed. He will sit at the back with a teacup and take notes. You choose the subject, the tone and the first impression; the students will decide what to make of it.",
+    "mainObjective": "Plan and teach your first lesson to a Hero Course class while Principal Nezu observes.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has taught a full first lesson to a U.A. Academy first-year class and heard Principal Nezu's verdict on it over tea."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Teaching as a scene. The class is Class 1-A or 1-B by the PC's assignment, and students act as their records state: Katsuki Bakugo challenges, Tenya Iida asks procedural questions, Momo Yaoyorozu takes perfect notes, Neito Monoma sneers at the class next door. Shota Aizawa may have taken 1-A out for his own assessment that morning, so timing matters. Any practical demonstration is supervised and nonlethal, and Recovery Girl is down the hall. Nezu observes without interrupting and judges by what the students learned. All Might, also new, may compare notes nervously. Failure: a bad lesson costs respect, not the job, and Nezu suggests a second try.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

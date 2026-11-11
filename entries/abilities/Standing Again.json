@@ -1,0 +1,24 @@
+{
+  "Standing Again": {
+    "name": "Standing Again",
+    "description": "The user lays both hands on a collapsed section of a building up to the size of a house and returns it to how it stood up to ten minutes ago. Floors rise back into place, burned walls stand whole and slabs lift off the people trapped beneath them, leaving them lying in the rebuilt rooms; flames still burning are not undone. The user cannot move, speak or defend themselves until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

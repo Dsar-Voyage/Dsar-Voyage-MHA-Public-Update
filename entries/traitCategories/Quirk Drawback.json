@@ -1,0 +1,22 @@
+{
+  "Quirk Drawback": {
+    "name": "Quirk Drawback",
+    "maxSelections": 1,
+    "traits": [
+      "Drawback: Recoil",
+      "Drawback: Overheating",
+      "Drawback: Stamina Drain",
+      "Drawback: Sensory Overload",
+      "Drawback: Finite Fuel",
+      "Drawback: Cooldown",
+      "Drawback: Bodily Toll",
+      "Drawback: Cognitive Fade",
+      "Drawback: Activation Condition",
+      "Drawback: Time Limit",
+      "Drawback: Loss of Control",
+      "Drawback: Visible Tell",
+      "No Drawback (Quirkless)"
+    ],
+    "description": "⚠️ What your Quirk costs you when you push it. Quirk Strain rises as you use your Quirk: the drawback shows at 60 (50 for an Exceptional Quirk), bites at 80 and stops your Quirk at 100.\n\n🎬 Canon Quirks come with their canon Drawback built in, so they skip this step."
+  }
+}

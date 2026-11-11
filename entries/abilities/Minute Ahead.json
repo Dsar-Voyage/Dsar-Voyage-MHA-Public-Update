@@ -1,0 +1,24 @@
+{
+  "Minute Ahead": {
+    "name": "Minute Ahead",
+    "description": "The user fixes their sight on a scene and sees about a minute ahead: where a collapse will fall, which way a villain will run, which hostage will be grabbed and when a fuse will blow. The user may brief their team before the minute starts, and the first thing each briefed ally acts against goes exactly as foreseen. Once anyone acts, events branch and the vision ends, and the user is spent for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

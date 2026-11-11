@@ -1,0 +1,20 @@
+{
+  "Minute Mend": {
+    "name": "Minute Mend",
+    "description": "The user touches a broken non-living object up to the size of a door and returns it to its state up to a minute ago: a shattered window whole, a jammed lock working, a snapped crutch or a smashed radio usable again. Nothing older than a minute can be undone, nothing alive answers, and pieces flying back to the object bump into anyone in the way. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

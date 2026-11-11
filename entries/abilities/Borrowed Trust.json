@@ -1,0 +1,20 @@
+{
+  "Borrowed Trust": {
+    "name": "Borrowed Trust",
+    "description": "Wearing the face of someone the target trusts, such as a teammate, a boss or a relative, the user walks right up to them. The target lets the user within reach, and the user's opening blow, grab or handcuffing lands before they can defend, dodge or shout a warning; a blow deals bludgeoning damage and knocks them down. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

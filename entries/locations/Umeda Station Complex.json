@@ -1,0 +1,105 @@
+{
+  "Umeda Station Complex": {
+    "name": "Umeda Station Complex",
+    "basicInfo": "A department-store and station tower over Osaka's northern rail terminals in the Umeda district, about 3.5 km south of Shin-Osaka Station: the loop line and the private railways meet beneath it, subway platforms run underneath, and underground shopping streets spread from its basements in every direction. Fat Gum's agency lies about 3 km to the northeast and Sir Nighteye's about 4.5 km to the northwest. The complex stacks everything in one building: the Grand Atrium, a glass hall over the tracks where half of Osaka arranges to meet; the depachika food floors in the basement; seven floors of fashion, cosmetics and homeware with a hero goods corner; restaurant floors near the top; and the Sky Garden Deck on the tower's roof, about 170 meters up. Trains run from about five in the morning until after midnight, the store opens at ten and closes at eight, the restaurant floors serve until eleven and the deck stays open until half past ten. Commuters pour through the atrium from seven to nine and five to eight; office workers fill the basement at lunch; shoppers, tourists and students take the afternoons, and weekends are shoulder to shoulder. Shiketsu Academy students in peaked caps are a common sight on their days off. Station staff run the gates, the store's guards in navy blazers walk the floors with radios and no authority to use Quirks, and a police box by the central gates takes reports; local agencies split the district's patrols with the police, and shopkeepers expect any hero who passes to stop for a photo and a joke. The building was made for every body: double-width gates, ramps, freight-sized lifts for wings and tails, and benches reinforced for heavy builds. A player can shop, eat through the basement, catch a train to anywhere in Kansai, work a counter or a stockroom shift, meet a contact under the atrium clock or ride up to the deck at sunset. Announcements chime, the crowd roars softly, and somebody is always haggling, even where the prices are fixed.",
+    "hiddenInfo": "Right now someone is using the Grand Atrium to shop for muscle. On weekend afternoons a folding booth appears under a banner for a Quirk aptitude survey, staffed by two young women in matching windbreakers who offer a 1,000-yen gift card to anyone who fills in a form: name, phone number, Quirk type, how strong it is, and whether it has ever hurt anyone. The permit taped to the table carries a stamp the store's events office never issued, and the booth sets up in a different corner every weekend, so the floor guards never see it twice. At closing the forms leave in a paper bag with a man in a cap who waits by the north exit, and on Sunday nights they reach a broker in a back-street bar near the terminals who sells lists of strong, broke Quirk users to anyone who needs quiet work done. Three people who filled in the form, all with fighting Quirks, have since been called and offered cash for night moving jobs; one of them, a delivery rider, took the offer and has not come home since Thursday, and his sister has been asking at the police box. The two women believe they do market research for a staffing agency and are paid 5,000 yen a day. Clues: gift cards that the store's own counters refuse, a guard who remembers the same booth in the opposite corner last week, and a sister with her brother's photo on her phone. The police box would act on anything firmer than a hunch, and Fat Gum's agency, a short ride away, listens to anyone who brings snacks. Meanwhile a deck attendant lets couples linger past closing for a tip, which management has not yet noticed.",
+    "x": -15.19,
+    "y": -18.69,
+    "radius": 1.5,
+    "region": "Osaka North",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3ec3bba9-71ef-4256-816f-ed2353a90c7f.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Grand Atrium": {
+        "description": "A glass hall eight floors high that bridges the station's north and south buildings over the tracks, so trains slide past beneath floor windows and a giant clock hangs from a steel bridge overhead. The ticket gates for the loop line and the private railways open onto its ground level, subway stairs drop from its corners, and escalators climb its walls. Under the clock is where half of Osaka arranges to meet, and on weekend afternoons people hold their phones up to find each other. A big screen loops hero news and store sales; weekends bring seasonal markets, a hero signing at a folding table or a local agency's safety talk, and Shiketsu students in peaked caps sometimes stop to listen with their hands behind their backs. Station staff watch the gates, store guards in navy blazers walk the balconies with radios, and the police box by the central gates hands out maps and takes reports. Every announcement chimes twice, and the wind of passing trains rises through the floor grilles. Stairs lead down to the Depachika Food Floor, escalators climb to the Umeda Fashion Floors, and express elevators rise to the Sky Garden Deck.",
+        "paths": [
+          "Depachika Food Floor",
+          "Umeda Fashion Floors",
+          "Sky Garden Deck"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/67471d09-09d3-490a-a4c7-1f274b6cd3f6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Depachika Food Floor": {
+        "description": "Two basement floors of food counters under bright white light, packed so close that the aisles become one long queue: pickles in wooden tubs, wagyu boxed meals, grilled eel, tempura, dumplings, fruit in gift boxes priced like jewelry, rice crackers, takoyaki and the delicate sweets Osaka people carry as gifts. Clerks in white caps call out welcomes and prices, pass samples on toothpicks across the glass and wrap gift boxes in seconds. Office workers fight for boxed lunches at noon; afternoons belong to retirees and regulars who know which counter is best each season; in the last hour before the eight o'clock close, markdown stickers go onto the boxed meals and the crowd becomes a polite stampede. A boxed meal runs 800 to 2,500 yen; a melon in a gift box can cost ten times that. Hero collaboration sweets sit by the stairs, this spring All Might castella in gold boxes and round buns shaped like Fat Gum from a local bakery. A sign at the takoyaki counter asks customers not to use Quirks to reach over the queue. The smell of sauce, dashi and burnt sugar is everywhere. Stairs and escalators climb to the Grand Atrium.",
+        "paths": [
+          "Grand Atrium"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5ec35526-6b05-49e2-8183-3a1c4041a54c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Umeda Fashion Floors": {
+        "description": "Seven floors of fashion, cosmetics and homeware above the atrium, from perfume counters and handbags on the lower levels to young labels, menswear, kimono and clothes for small children higher up, with a hero goods corner on the top fashion floor. Each floor rings an open well, so shoppers on the escalators can see the crowds above and below. The cut matters here: a tailoring counter alters suits and dresses for tails, wings, horns and extra arms while customers wait, and the larger fitting rooms have wing space and reinforced hooks. The hero corner stocks Kansai favorites, Fat Gum plush among them, beside the national stars, and its All Might teacher goods sold out the week the news broke. Weekday mornings bring retirees; after work come office workers; weekends bring couples, families and students hauling bags. Clerks banter even where prices are fixed, and customers bargain back for the fun of it. A guard in a navy blazer stands at the head of each escalator. The music is soft, the light is flattering, and every floor smells faintly of the perfume counters below. The escalators lead back down to the Grand Atrium.",
+        "paths": [
+          "Grand Atrium"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9765324e-748b-4ccc-8844-4f8cbd7d4c19.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Sky Garden Deck": {
+        "description": "An open-air garden on the tower's roof, about 170 meters up, reached by express elevators from the Grand Atrium. A ring deck runs around the edge behind a chest-high glass windbreak, with planters of grasses and maples, wooden benches, a small cafe counter and coin telescopes. Entry is 1,200 yen. The view runs all the way around: the Yodo River and Shin-Osaka's tracks to the north, the dense towers of downtown to the south, the bay and its cranes to the west under the Rokko mountains, and on clear evenings city lights spreading to the hills on every side. Mornings bring tourists and retirees with cameras; at lunch office workers eat boxed meals from the basement; at sunset couples take the benches facing west, and the deck stays open until half past ten. When the wind picks up, sensors close the outer ring and an attendant ropes it off. A sign by the elevators says fliers may not take off from or land on the deck, and the guards add that the rule goes double for umbrellas. The wind hums in the glass and carries the faint sound of trains far below. The express elevators lead back down to the Grand Atrium.",
+        "paths": [
+          "Grand Atrium"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dfbf503b-3c19-423f-a244-a6a164a48d38.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

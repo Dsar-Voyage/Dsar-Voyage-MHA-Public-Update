@@ -1,0 +1,20 @@
+{
+  "Clawside Shove": {
+    "name": "Clawside Shove",
+    "description": "The user directs the creature to strike one opponent within a few meters. A clawed hit deals moderate slashing damage; held back, the creature uses an open hand for light bludgeoning damage and pushes the target down. Strong light reduces the strike to a brief shove, and a hit against the creature also jars the user. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

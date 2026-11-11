@@ -1,0 +1,25 @@
+{
+  "Wellspring Pulse": {
+    "name": "Wellspring Pulse",
+    "description": "The user's signature move: the Quirk leaves their hands as a wave of warm light that reaches everyone they choose within a room's width, no touch needed. Each of them stops bleeding, regains a large share of health and has broken bones set and knitting at the price of heavy stamina, while anyone too weak to pay is healed only as far as is safe; afterward the user cannot heal until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ochaco_after_toga": {
+    "title": "The Girl Who Loves Smiles",
+    "beats": "At U.A. Academy, reconstruction work ends and Ochaco Uraraka maintains a bright manner until she leaves Heights Alliance alone. Izuku Midoriya notices the strain. At Beast's Forest, Ochaco reaches a quiet overlook beside the Forest Trailhead, away from the relief crews. Her healing wound and exhausted composure matter more here than public praise for the battle.\n\nThe canon default course, as pressure the player can change: Izuku follows by an established route and finds Ochaco grieving Himiko Toga. In private, Ochaco explains that Toga gave her blood to save her and died; surviving does not make Ochaco feel she succeeded in saving the other girl. Izuku admits his own grief over Tomura Shigaraki and affirms that Ochaco has repeatedly helped him. Their classmates arrive to care for someone who has been caring for everyone else.\n\nGive silence, tears, anger, and the choice to accept company room to occur. The party can notice earlier, offer a different trusted companion, or help keep the gathering small. Ochaco need not recount an intimate memory to every arriving classmate. If Toga or Tomura survived earlier intervention, the conversation faces their real medical or legal circumstances; gratitude and fear can replace a false bereavement. Nobody is made happy on demand, and one evening does not finish recovery.\n\nAt U.A. Academy, play the missed check-in, arrange relief from tomorrow's work, or receive a consented account afterward. At Beast's Forest, approach without surrounding Ochaco and agree on company for the return. A remote party cannot overhear the conversation through a general relief channel.\n\nBy Path: Class 1-A reaches out personally; Class 1-B covers work; General Studies supports peer contact; Support accommodates injuries; Management protects privacy; Faculty offers care without demanding a confession. Licensed Sidekick and Licensed Pro Hero cover duties and support rehabilitation. League of Villains Recruit may mourn Toga separately or request correspondence; Independent Villain can offer relevant testimony; Vigilante can share rescue-related grief if welcomed; Civilian Life provides ordinary company. Custody restricts contact without invalidating grief.\n\nThe event is complete when Ochaco is no longer isolated and a trusted companion, next check-in, and manageable recovery duty are agreed.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_ochaco_after_toga",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

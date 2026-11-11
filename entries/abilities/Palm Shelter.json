@@ -1,0 +1,20 @@
+{
+  "Palm Shelter": {
+    "name": "Palm Shelter",
+    "description": "The user grows both hands and cups them over the people beside them or raises them as a wall. Until the end of the user's next turn, blows, thrown objects, gunfire and falling debris aimed at those people strike the hands instead, and the user can lift them in the cupped hands and carry them clear. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

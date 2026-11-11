@@ -1,0 +1,29 @@
+{
+  "Steady Fang": {
+    "name": "Steady Fang",
+    "description": "The user takes a form halfway between person and beast and holds it for the rest of the scene with a clear head. They keep the beast's strength, senses and hide but also full speech, working hands that use tools and a body that fits through doors, and pain, fear and anger no longer pull them toward instinct. Their claws deal heavy slashing damage; held back, the user strikes with the paw's heel and only knocks the target down. When the form ends the user cannot change again until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

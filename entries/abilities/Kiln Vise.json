@@ -1,0 +1,24 @@
+{
+  "Kiln Vise": {
+    "name": "Kiln Vise",
+    "description": "The user raises two waist-high slabs of glowing stone on either side of a target within three strides, smaller than an Earth user's walls, and slams them shut. It deals heavy bludgeoning and fire damage that ignores worn armor; held back, the user quenches the inner faces first so the slabs only clamp the target upright without burns until broken or released, dumping the drawn heat into the user's arms. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

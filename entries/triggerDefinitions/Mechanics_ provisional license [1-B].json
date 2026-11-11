@@ -1,0 +1,49 @@
+{
+  "Mechanics: provisional license [1-B]": {
+    "name": "Mechanics: provisional license [1-B]",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_provisional_license_exam",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "licenseGranted",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "story",
+        "query": "The player character passed the provisional hero license exam and holds a provisional hero license"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Provisional Hero License",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-add",
+        "item": "Provisional hero license",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "write-boolean",
+        "key": "licenseGranted",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Bait-and-Slip": {
+    "name": "Bait-and-Slip",
+    "description": "The user shows an opening on purpose, waits for the opponent's Quirk to fire, and moves at the moment of activation. The attack lands where the user chose instead (empty ground, a wall, or another enemy in its path, who takes its damage), and the attacker is left overcommitted: they cannot attack again before the user or an ally acts. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirkless",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Sickle Wind": {
+    "name": "Sickle Wind",
+    "description": "The user swipes a hand and throws a thin, curved edge of compressed air across a room. It deals slashing damage to a single target and cuts rope, straps, cloth, boards and tires in its path; the edge shows only as a ripple in dust or rain, so only a target watching the user's hand can dodge it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

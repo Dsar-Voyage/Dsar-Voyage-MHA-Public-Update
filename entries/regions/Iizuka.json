@@ -1,0 +1,30 @@
+{
+  "Iizuka": {
+    "name": "Iizuka",
+    "basicInfo": "The inland country east and southeast of Fukuoka: the Chikushi plain with Dazaifu and Chikushino, the old coal-mining Chikuho basin around Iizuka, Nogata and Tagawa, the Asakura farmland on the north bank of the Chikugo River, the sacred peak of Mount Hiko in the east, and the Buzen coast at Yukuhashi in the northeast corner. Tosu, the rail and expressway crossroads of Kyushu, sits on the western edge. Dazaifu was the ancient government seat of Kyushu, and its Tenmangu shrine to the god of learning draws students before exams and millions of visitors who eat grilled umegae mochi along the approach; Futsukaichi Onsen is next door. Over the hills, Sasaguri has a huge bronze reclining Buddha, and Mount Homan rises above old shrines with sweeping views. The Chikuho basin once fed Japan's furnaces with coal; its slag heaps are green hills now, Tagawa keeps two brick chimneys and a winding tower as a monument, Iizuka has an old wooden kabuki playhouse, and the towns are known for sweets from the days when the Nagasaki road carried sugar through. Akizuki, a tiny castle town in the hills, is famous for cherry blossom and autumn color; Asakura has triple waterwheels, persimmon and pear orchards and the riverside hot springs of Harazuru, where cormorant fishing is done in summer. Koishiwara potters work in the hills, and Mount Hiko's mountain-ascetic trails climb through cedar to nearly twelve hundred meters. Summers are hot and humid, with heavy rains in early July that sometimes flood the valleys; winters are cool, with occasional snow on the mountains. Nishitetsu trains run to Dazaifu, JR lines link Hakata with Iizuka in about forty minutes, the Heisei Chikuho Railway runs through the basin, and the Kyushu and Oita expressways meet at Tosu. From Musutafu, about five hours. Each town has police and small hero agencies; heroes manage exam-season crowds at Dazaifu and flood rescues in the rainy season, and Tosu's warehouses hire strength-type workers. Visitors pray for exam luck, soak at Futsukaichi, walk Akizuki and hike Mount Hiko.",
+    "hiddenInfo": "Chikuho still carries the hard reputation of its coal days: shuttered shopping streets, old mine shafts that cave in under fields, and a few old gang families, much reduced since heroes rose, running small rackets in Tagawa and Iizuka. Asakura's hill farms dread the July rains. Dazaifu's crowds draw pickpockets and fake charm sellers, and Tosu's warehouses see cargo theft. Fukuoka's agencies are thirty minutes to an hour away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -15,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/70a2b55e-300b-4696-a5e2-449fbba43e89.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

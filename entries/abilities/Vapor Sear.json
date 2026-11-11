@@ -1,0 +1,20 @@
+{
+  "Vapor Sear": {
+    "name": "Vapor Sear",
+    "description": "The user presses two fingers to a lock, a frozen pipe or an attacker's weapon and vents a needle of wet heat at contact, narrower than a Fire user's furnace press and unable to ignite dry fuel. It softens plastic, thaws ice or deals fire damage to a hand so the target drops their weapon; held back, it only warms metal too hot to grip without burning skin, and cold air weakens it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

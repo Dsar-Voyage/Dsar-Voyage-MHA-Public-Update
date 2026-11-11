@@ -1,0 +1,20 @@
+{
+  "Drop and Bolt": {
+    "name": "Drop and Bolt",
+    "description": "When an attack, a thrown object or falling debris comes at the user, the user drops, rolls clear and comes up already running. The danger misses, and on the same action the user moves away toward cover or an exit, pulling a nearby person along by the hand. Works against danger the user can see or hear coming; a blast or collapse that fills the whole area is too big to roll clear of. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Non-Combatant",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Dodging",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

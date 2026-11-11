@@ -1,0 +1,20 @@
+{
+  "Keyhole Window": {
+    "name": "Keyhole Window",
+    "description": "The user opens a coin-sized gate into a room, vehicle or rubble void they can picture within reach, and sees and hears through it without opening any door. They can pass air, water, a phone or a bandage through it to someone trapped, or flip a latch from the inside, and only someone looking right at it notices it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

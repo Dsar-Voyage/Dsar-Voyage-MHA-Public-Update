@@ -1,0 +1,20 @@
+{
+  "Loaded Question": {
+    "name": "Loaded Question",
+    "description": "The user reads a guarded target's pride and fears and says the one thing they cannot leave unanswered: a taunt, a plea, a secret, their own name. Unless the target makes a hard effort of will, they answer aloud, and the user's Quirk takes hold of them at once if the user chooses. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

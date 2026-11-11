@@ -1,0 +1,20 @@
+{
+  "Wall Bound": {
+    "name": "Wall Bound",
+    "description": "The user bounds up a building face on claws and powerful legs, leaps street-wide gaps between rooftops and drops down stairwells without slowing, carrying anyone who can hold on to their back. A winged form glides from roof to roof instead and can carry a single passenger. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

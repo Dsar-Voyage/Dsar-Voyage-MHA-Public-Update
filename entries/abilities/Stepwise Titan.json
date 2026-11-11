@@ -1,0 +1,29 @@
+{
+  "Stepwise Titan": {
+    "name": "Stepwise Titan",
+    "description": "For the rest of the scene the user changes size in a blink as often as they choose and grows any single part on its own. They pass through a doorway at normal size and stand up giant in the street beyond, reach a giant hand into a high window while their feet stay small enough to spare the cars below, and land a blow with a fist grown only at the moment of impact, dealing heavy bludgeoning damage, or held back, a flat-palmed shove. When the scene ends they cannot grow again until they have eaten and rested for several hours. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

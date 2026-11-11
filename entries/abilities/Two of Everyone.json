@@ -1,0 +1,24 @@
+{
+  "Two of Everyone": {
+    "name": "Two of Everyone",
+    "description": "The user touches each willing member of their team and makes a double of every one of them alongside their own. Each double has their original's body and skills in copies of their clothes, but no Quirk and no working gear, follows their original's lead and acts until the end of the scene or until they burst, so the whole team can fight or rescue in two places at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

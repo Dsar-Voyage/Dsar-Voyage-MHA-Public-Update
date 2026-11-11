@@ -1,0 +1,29 @@
+{
+  "Gentle Crowd Return": {
+    "name": "Gentle Crowd Return",
+    "description": "The user eases an already floating crowd and its loose equipment back toward the ground across a city block over two turns, restoring gravity gradually without pressing the fingertip pads together. The controlled return avoids an abrupt mass drop and lets rescuers receive injured people. The user cannot move targets sideways or stop incoming attacks and must stay conscious throughout; afterward they need help standing and cannot activate the Quirk for the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Slingshot Launch": {
+    "name": "Slingshot Launch",
+    "description": "The user stretches a band of elastic air between lampposts, railings or doorframes, draws back into it and lets go. They fly across a street, onto a rooftop or straight into a target, who takes force damage and is knocked off their feet; the user can launch a willing ally or a heavy object the same way instead. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

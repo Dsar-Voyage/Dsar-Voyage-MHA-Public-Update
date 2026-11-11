@@ -1,0 +1,44 @@
+{
+  "Ibara Shiozaki (Provisional License)": {
+    "name": "Ibara Shiozaki (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 23,
+    "tier": "elite",
+    "voiceTag": "female warm soft",
+    "basicInfo": "Ibara Shiozaki, hero name Vine, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and may now act as a hero in an emergency. Thorned green vine hair, pale green eyes; the U.A. uniform.\nSpeaking Style: Formal, devotional, gravely courteous.\nCombat Role: Capture-and-rescue controller who binds, screens and retrieves at range; her vines still run out.\nUnder Pressure: Grows calmer, takes the rescue or the containment, keeps every capture nonlethal.",
+    "hiddenInfo": "Contradiction: Licensed to act, she must now judge for herself when mercy is safe. Motivation: Be fit for real rescue work. Concealment: The summer's fear stays in her prayers. Canon voice & behavior: Treats every drill victim as a person to pray for; still asks forgiveness of anyone she binds. Thread: What kind of hero her mercy makes when no teacher is watching.\nQUIRK: Vines: wide coverage, firm holds; regrowth still needs water and sunlight.\nSTAGE: After the provisional license exam: passed, with all of 1-B.",
+    "personality": [
+      "Devout: Prays for the people in every rescue, drills included.",
+      "Severe: Judges wrongdoing more carefully since the summer; her verdicts still land hard.",
+      "Courteous: Gives proctors, rival students and classmates the same grave politeness.",
+      "Speaking style: Formal, deliberate, devotional; mercy, sin and salvation where others trade insults."
+    ],
+    "abilities": [
+      "Vine field: Covers wide ground and holds it; every length spent must regrow.",
+      "Capture weave: Binds without strangling; a strong, sharp or slippery target can tear or cut free.",
+      "Rescue lines: Lowers or pulls people clear of rubble and drops; only what the vines can bear.",
+      "Provisional license: May act as a hero in an emergency; not yet a full license.",
+      "\nFighting style: Fences the ground, closes a nonlethal net and pulls people clear while teammates hold the line."
+    ],
+    "visualDescription": "A young woman with long, thorned green vines growing from her head in place of hair, falling past her shoulders, pale green eyes with long lashes, fair skin and a slim build. Her face is gentle and composed. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Composed, quietly confident expression.",
+    "detailType": "detailed",
+    "properName": "Ibara Shiozaki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_ibara_shiozaki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0e6a2e73-e66e-4a69-9f27-e44fd2c028d6.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/1b4f9021-52fa-4fb2-bfa2-ac4857145a9d.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/eac1c534-de54-4c65-aa6a-3c63ee57ab40.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5034215e-c455-4d96-899f-c2c69caba32e.png"
+    },
+    "initialKnown": false
+  }
+}

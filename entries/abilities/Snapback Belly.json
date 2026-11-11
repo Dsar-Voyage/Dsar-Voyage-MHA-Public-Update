@@ -1,0 +1,20 @@
+{
+  "Snapback Belly": {
+    "name": "Snapback Belly",
+    "description": "As a punch, kick, club strike or thrown object hits the user, their torso or forearm stretches inward to drink the force while their heels turn heavy to root them in place. The stretched flesh snaps back and rebounds the incoming blow straight at its source, dealing force damage and knocking an attacker back a step. Sharp blades, bullets and heat cut or burn the user instead of rebounding. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "From Kyushu or Okinawa": {
+    "name": "From Kyushu or Okinawa",
+    "description": "🌊 You grew up in Kyushu or Okinawa: warm seas, typhoon seasons, volcanoes, island towns and martial arts halls.\n\n🏊 You learned to swim young.\n🥋 A local dojo taught you to throw a proper punch.\n\n📈 Grants: Swimming +5, Striking +5",
+    "traitNarrativeEffects": "Grew up in Kyushu (Fukuoka, Kumamoto, Kagoshima, Nagasaki, Oita or an outlying island) or Okinawa, player's pick; default Fukuoka. How Musutafu and Tokyo treat them: the accent marks them southern; Kyushu folk are assumed loud, stubborn, hard-drinking, Okinawans easygoing and asked about beaches, fondly or condescendingly. Musutafu winters chill Okinawans. A southern typhoon or villain attack means anxious calls home. Who they know: family, dojo mates, a fisherman or diving instructor, island relatives, a neighborhood expecting them at festivals. Local knowledge: typhoons, sea swimming, boats, Kagoshima's volcanic ash, hot springs, food; karate began in Okinawa; kendo and judo halls fill Kyushu towns. Speech: strong dialect; show words and rhythm, not phonetic spelling. Fukuoka: 'bari' (very), '-to?' questions, '-ken' reasons; Kagoshima speech stumps other Japanese. Okinawa: 'haisai'/'haitai' hi, 'mensoore' welcome, 'nankurunaisa' it'll work out, 'chibariyo' cheer.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Swimming",
+        "modifier": 5
+      },
+      {
+        "skill": "Striking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

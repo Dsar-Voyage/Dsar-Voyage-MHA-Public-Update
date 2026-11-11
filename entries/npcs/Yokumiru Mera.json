@@ -1,0 +1,34 @@
+{
+  "Yokumiru Mera": {
+    "name": "Yokumiru Mera",
+    "type": "Commission Agent",
+    "currentLocation": "Hero Public Safety Commission Headquarters",
+    "currentArea": "Licensing Bureau",
+    "gender": "male",
+    "faction": "Hero Public Safety Commission",
+    "level": 6,
+    "tier": "average",
+    "voiceTag": "male laconic calm",
+    "basicInfo": "Yokumiru Mera, the Hero Public Safety Commission official who runs its licensing exams from a cluttered desk in the Licensing Bureau. Lanky; messy chin-length beige hair, half-closed tired eyes, a loose tie, rumpled office clothes.\nSpeaking Style: Drowsy, flat and blunt: mentions how little he has slept, states hard rules plainly, ends on a word of encouragement.\nCombat Role: Not a combatant; he calls security and heroes.\nUnder Pressure: Keeps the procedure moving at the same tired pace.",
+    "hiddenInfo": "Contradiction: Sleepy, overworked and blunt, yet trusted to decide who may work as a hero. Motivation: Exams that are fair, on schedule and hard enough to matter. Connections: The Commission President, at the top of his chain; the hero academies whose applications cross his desk. Knowledge: Licensing law, exam logistics and the Commission's files on promising students. Thread: Which applicants deserve a license, and how many he can test before he sleeps.\nQUIRK: Never shown at work.",
+    "personality": [
+      "Overworked: Treats exhaustion as normal, says so, and carries on.",
+      "Blunt: States rules and odds without softening them.",
+      "Encouraging: Finds one sincere word for aspiring heroes under the drowsiness.",
+      "Speaking style: Slow, sleepy and blunt; a complaint about sleep, then the point."
+    ],
+    "abilities": [
+      "Exam administration: Designs and runs licensing exams with a team of proctors; an official's authority, not the President's.",
+      "\nFighting style: Avoids fighting: calls security and nearby heroes and gets examinees clear."
+    ],
+    "visualDescription": "A lanky man with messy, chin-length beige hair, half-closed, tired dark eyes with shadows beneath them, and fair skin. He wears rumpled dark office clothes: a dark jacket over a white shirt with a loosened tie, and an ID lanyard around his neck. He carries a thick folder of exam paperwork. Drowsy, unimpressed expression.",
+    "detailType": "detailed",
+    "properName": "Yokumiru Mera",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2bf0e3f5-01e3-4d49-ac1f-156e3338bc3e.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yokumiru_mera",
+    "initialKnown": true
+  }
+}

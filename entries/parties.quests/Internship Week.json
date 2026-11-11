@@ -1,0 +1,17 @@
+{
+  "Internship Week": {
+    "name": "Internship Week",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Internship week starts in a few days. Shota Aizawa hands out the lists: the agencies that wrote in after the Sports Festival and, for anyone without an offer, a standing list of agencies that take first-year interns every year. Pick one, file the paperwork, pack your costume. For a week you will shadow a working pro: patrols, paperwork and whatever the city brings. Without a license you observe and assist; you do not fight unless a life is at stake.",
+    "mainObjective": "Choose an agency, work its internship week under a pro and bring back their evaluation.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has chosen an agency, worked its internship week under a pro's supervision and returned to U.A. Academy with the agency's evaluation."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "Real work under supervision. Canon placements as NPC defaults: Izuku Midoriya with Gran Torino, Shoto Todoroki with Endeavor, Katsuki Bakugo with Best Jeanist, Tenya Iida with Manual in Hosu, Ochaco Uraraka with Gunhead, Tsuyu Asui with Selkie, Momo Yaoyorozu and Itsuka Kendo with Uwabami, Eijiro Kirishima with Fourth Kind. The PC's host is any fitting pro by record name; Hero Agency Row stands in for agencies without their own map entry. If the week takes the PC to Hosu, the Hosu event plays on its own terms; this quest never stages, resolves or predicts it. Failure: a reckless intern is sent home early with a written warning.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

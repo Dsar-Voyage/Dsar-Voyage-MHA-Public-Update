@@ -1,0 +1,15 @@
+{
+  "Ghost Tail": {
+    "name": "Ghost Tail",
+    "description": "The user follows a target through streets, stations and crowds, switching sides, changing a jacket, using reflections and letting cameras cover the gaps. The target does not notice the tail even while checking for followers, unless they have a sensing Quirk, and the user follows them all the way to their destination. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Surveillance",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

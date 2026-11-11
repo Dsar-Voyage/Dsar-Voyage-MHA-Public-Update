@@ -1,0 +1,30 @@
+{
+  "Mountain Training Lands": {
+    "name": "Mountain Training Lands",
+    "basicInfo": "Remote mountains in the Japanese Alps around the Kiso valley, about 130 kilometers northwest of Musutafu, three to four hours by chartered bus from U.A. Academy. Dense forest of cedar, cypress, beech and oak covers the slopes, cut by gorges, cold streams and waterfalls, and hot springs rise in the valleys. Far down the Kiso valley are small towns of old post-road inns, sawmills and soba shops, with a highway, a rail line and the last convenience store for a long way. Above them, one high valley holds a timber lodge with a training clearing, the only building for kilometers, reached by a single mountain road; northwest of it spreads Beast's Forest, a thick forest the owners use for training, and to the northeast, high on a cliff, is a ledge nobody at the lodge knows about. Wild boar, serow and monkeys roam the slopes, black bears wake hungry in spring, and the trails are marked with bear bells and faded wooden signposts. The weather turns fast: morning mist, sudden rain, cool summer nights and snow on the high ridges well into spring. In April the snowmelt swells every stream, mudslides close trails, and hikers underestimate the cold. Above the valley towns, almost no one lives but the four pro heroes of the Wild Wild Pussycats, Mandalay, Pixie-Bob, Ragdoll and Tiger, who own the land as far as the eye can see and run mountain rescue across these ranges, and Kota Izumi, the small boy Mandalay looks after. The team is the law up here in practice: it answers search-and-rescue calls from the valley police and the regional fire service, warns trespassers off its land and reshapes washed-out trails. The economy below is timber, tourism and inns; up here it is rescue work and U.A.'s summer training camps, which fill the lodge with students every year. Getting around means the one road, then boots; there is no rail above the valley and no phone signal in the gorges, so the team relies on radios. A visitor can hike, soak in the hot springs, train with the team's permission, volunteer as rescue support, or get lost, which is the most common way strangers meet the Pussycats.",
+    "hiddenInfo": "The team is busier and poorer than its cheerful act suggests: four heroes cover hundreds of square kilometers, rescue pays little, and summer camp fees and merchandise keep the agency afloat. Spring is the worst season, with snowmelt, mudslides and careless visitors. Grief sits under the lodge's noise: Kota's parents died as heroes, and he hates everything the team stands for. He has a hiding place none of them has found. Right now trespassing video streamers are testing how far they can get into Beast's Forest, and the mountains do not forgive mistakes.",
+    "x": -2,
+    "y": 1,
+    "realm": "Japan",
+    "factions": [
+      "Wild Wild Pussycats"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/24bd04c1-7a89-4111-849d-b737907c839f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

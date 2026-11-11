@@ -1,0 +1,20 @@
+{
+  "Valve Screen": {
+    "name": "Valve Screen",
+    "description": "The user vents a scalding-fog screen across a room until the end of their next turn, or focuses the release into a pressure valve jet at touch that bursts a jammed door or lifts a slab of rubble off someone trapped. Enemies entering the fog take fire damage and nobody can see through it; held back, it vents as warm mist that harms nobody and hides allies, though cold rooms condense it early. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

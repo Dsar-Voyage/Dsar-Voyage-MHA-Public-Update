@@ -1,0 +1,29 @@
+{
+  "Held Moment": {
+    "name": "Held Moment",
+    "description": "The user compresses a person who agrees or is unconscious and keeps the sphere sealed far past its usual minutes: for hours, until the user chooses to open it. Inside, no time passes, so a patient bleeding out arrives at surgery no worse than when taken, and a victim of a toxic gas reaches an antidote before it spreads further. The user can hold only a few such spheres, cannot compress anything else while one is sealed past the usual limit, and if the user is knocked out every sealed sphere opens at once wherever it is. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

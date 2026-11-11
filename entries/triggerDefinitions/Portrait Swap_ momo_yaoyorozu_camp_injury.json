@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: momo_yaoyorozu_camp_injury": {
+    "name": "Portrait Swap: momo_yaoyorozu_camp_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_forest_camp_raid",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0957163e-9c90-4872-97f7-37a046e1eb01.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0957163e-9c90-4872-97f7-37a046e1eb01.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0957163e-9c90-4872-97f7-37a046e1eb01.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Momo Yaoyorozu (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0957163e-9c90-4872-97f7-37a046e1eb01.png"
+      }
+    ]
+  }
+}

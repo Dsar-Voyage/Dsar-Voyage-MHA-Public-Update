@@ -1,0 +1,29 @@
+{
+  "Moored Gate": {
+    "name": "Moored Gate",
+    "description": "The user anchors a linked pair of door-sized gates between two places they know well anywhere in the city, and the pair stays open for a full day without the user's attention. Anyone can walk through either way, so a hospital and a disaster site, or an agency and a hideout under watch, become a single step apart. The gates work for villains as well as heroes, the user feels every crossing and cannot sleep while they stand, and when they close the user needs a full night's rest before anchoring another pair. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

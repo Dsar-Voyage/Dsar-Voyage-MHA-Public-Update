@@ -1,0 +1,20 @@
+{
+  "Coil Pulse": {
+    "name": "Coil Pulse",
+    "description": "The user claps both hands and sends a sharp electromagnetic pulse across a single room or a five-meter radius. A ring of sparks hums along nearby metal as every phone, camera, radio, card lock and remote detonator in that small area dies at once without setting explosives off. The pulse does not cross into neighboring rooms, and it fries the user's own phone and unshielded gear on the spot. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

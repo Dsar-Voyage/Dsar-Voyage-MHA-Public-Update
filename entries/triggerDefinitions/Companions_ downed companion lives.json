@@ -1,0 +1,27 @@
+{
+  "Companions: downed companion lives": {
+    "name": "Companions: downed companion lives",
+    "conditions": [
+      {
+        "type": "npc-health",
+        "npc": "anyPartyNPC",
+        "operator": "lessThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-health",
+        "npc": "satisfyingNPCs",
+        "operator": "set",
+        "value": 1
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: a party member went down. They are alive: hurt, out of the fight and unable to act until someone gets them to care (Recovery Girl, a medic, a hospital). Never write a party member killed in a fight."
+      }
+    ],
+    "recurring": true,
+    "phase": "planning"
+  }
+}

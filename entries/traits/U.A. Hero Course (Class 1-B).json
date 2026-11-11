@@ -1,0 +1,64 @@
+{
+  "U.A. Hero Course (Class 1-B)": {
+    "name": "U.A. Hero Course (Class 1-B)",
+    "description": "🧩 You are an extra student in Vlad King's Class 1-B, the hero class that trains in 1-A's shadow and means to beat them.\n\n🏫 Vlad King drills the class as a unit. You carry the same Hero Course load as 1-A and live in the Heights Alliance dorms from day one.\n⚖️ No license yet: Quirk use is legal only in supervised training and exams, on a pro's orders during workplace experience, or in self-defense.\n🤝 Itsuka Kendo is the one classmates look to; Neito Monoma mocks 1-A at every chance. The press notices 1-B less, and the class knows it.\n🔓 Learnable later: Box Them In, Dogpile Capture.\n\n📈 Grants: Cooperativeness +1, Team Coordination +10, Capture +10, Combat Tactics +5\n⚡ Starting technique: Partner Switch\n🎒 Starts with: U.A. school uniform, U.A. gym uniform, U.A. student ID, Course textbooks, ¥10,000, School bag, Casual clothes",
+    "traitNarrativeEffects": "Legal status: adult first-year in Hero Course Class 1-B, an extra student; the 20 canon classmates all stay. No license: Quirk use only in supervised training and exams, on a pro's orders in workplace experience, or in self-defense, until the Provisional License Exam ending summer break. Quirkless students got in on skill and nerve and draw extra doubt.\nAccess: campus, gyms, mock-city grounds, costume lockers, Recovery Girl's infirmary, Power Loader's Development Studio.\nObligations: 1-A's full load of lectures, training, reports and exams; Vlad King's homeroom (loud, devoted, drills the class as a unit to beat 1-A); Heights Alliance dorms from day one, curfew.\nWho notices: leader Itsuka Kendo; Neito Monoma, mocking 1-A and feuding over every comparison until Kendo reins him in; rival 1-A; teachers who compare; scouts. Press and public favor 1-A (1-B knows); each Festival, internship and exam is a chance to prove 1-B stronger.\nTypical week: team drills, sparring.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Team Coordination",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 10
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Partner Switch"
+    ],
+    "startingItems": [
+      {
+        "item": "U.A. school uniform",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. gym uniform",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. student ID",
+        "quantity": 1
+      },
+      {
+        "item": "Course textbooks",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 10000
+      },
+      {
+        "item": "School bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Powered Leap": {
+    "name": "Powered Leap",
+    "description": "The user pushes off with sugar-fueled leg strength and clears a car, a broad gap or a low rooftop edge, reaching a person or position several strides away. The Quirk does not protect the user from a hard landing, so they need a clear destination. Repeated leaps use up the short surge and leave their thinking increasingly dull. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

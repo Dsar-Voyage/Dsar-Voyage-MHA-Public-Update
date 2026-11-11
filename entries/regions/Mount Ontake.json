@@ -1,0 +1,30 @@
+{
+  "Mount Ontake": {
+    "name": "Mount Ontake",
+    "basicInfo": "Mount Ontake is a cell of high volcano and deep valleys straddling the Gifu-Nagano border, from the Hida River gorges and the hot-spring town of Gero in the west to the sacred peak itself and the Kaida highlands on the Kiso side in the east. Ontake rises to 3,067 meters, a broad, scree-covered active volcano whose summit still breathes steam; shelters and volcanic warnings line the trails, and pilgrims of the Ontake faith climb in white robes through the summer, ringing bells and chanting past stone monuments to their founders. Its Gifu flank holds Nigorigo, one of Japan's highest hot-spring hamlets, and the many waterfalls of Hida-Osaka; its Nagano flank holds Otaki village, a ropeway, ski slopes and the Kaida plateau, cold rolling grassland where small, sturdy Kiso horses are bred and buckwheat grows for soba. Winters are long and heavily snowed above the valleys; autumn turns the larch gold and the maples red. South of the mountain lie the Tsukechi gorge, cypress forests and the Kashimo hamlet with its farm-village kabuki stage. Gero, on the Hida River, is the region's town and one of Japan's three famous hot springs: a strip of ryokan along the river with free foot baths, a folk village of thatched gassho farmhouses on the hill, and fireworks over the water on winter weekends. Kanayama and Hagiwara are quiet railway towns, and Higashi-Shirakawa grows tea and fells cypress. Locals eat Hida beef, keichan chicken fried with miso and cabbage, salt-grilled river fish on skewers and valley tomatoes. The JR Takayama Main Line follows the Hida River north, with the limited express Hida reaching Gero from Nagoya in about an hour and forty minutes; Route 41 runs beside it, and buses cross the passes to Kiso-Fukushima on the Chuo Line. From Musutafu the trip is about three hours by shinkansen to Nagoya and the Hida north. Visitors soak, raft the Hida, climb Ontake from the Nagano trailheads, ski and stargaze from the highlands. Gero has a police station, a few police boxes along the valley and a modest hero office that also patrols the onsen strip; mountain rescue on Ontake falls to prefectural teams, local guides and licensed heroes with flight or sensing Quirks.",
+    "hiddenInfo": "The mountain is the quiet worry here: Ontake is active, and every tremor fills the guesthouses with talk and empties them of bookings, while trailhead shops depend on climbers who may stay away. Gero's onsen strip sees peeping, luggage theft from ryokan lobbies and the occasional drunken guest misusing a Quirk in the baths. Lost hikers, bear encounters and winter crashes on Route 41 are routine. Real hero help is thin: the small Gero office and the prefectural police, with heavier response an hour or more away in Takayama, Gifu or Nagoya.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -3,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4f517b4c-1464-44e2-9cfd-cf945b6828e9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

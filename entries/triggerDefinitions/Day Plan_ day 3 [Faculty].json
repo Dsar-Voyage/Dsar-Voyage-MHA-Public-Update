@@ -1,0 +1,30 @@
+{
+  "Day Plan: day 3 [Faculty]": {
+    "name": "Day Plan: day 3 [Faculty]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): after the morning lessons, All Might teaches Class 1-A's first Foundational Hero Studies: a battle trial at Ground Beta's Training Building, the first time the class wears hero costumes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Duffel bag": {
+    "name": "Duffel bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "value": 1
+      }
+    ],
+    "description": "A heavy-duty gym duffel that carries a hero costume, spare gloves, a towel, a water bottle and a first change of clothes to every shift. [ Tool | About ¥9,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/99011296-cb29-4207-931d-3cd16f1350f8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

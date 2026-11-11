@@ -1,0 +1,20 @@
+{
+  "Metal Knuckle Jab": {
+    "name": "Metal Knuckle Jab",
+    "description": "The user transforms and drives a steel fist into one target within arm's reach, dealing moderate bludgeoning damage and staggering an unbraced adult. Held back, it is a short push with the palm. The user still needs sound footing and an open line to the target; the transformation grants no extra reach. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

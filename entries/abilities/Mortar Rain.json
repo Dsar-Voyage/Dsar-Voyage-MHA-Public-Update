@@ -1,0 +1,25 @@
+{
+  "Mortar Rain": {
+    "name": "Mortar Rain",
+    "description": "The user fires a dense spray of fine adhesive high over a whole city block, and it settles on every facade, sign, window and loose brick. For the rest of the scene nothing glued that way falls: cracked glass stays in its frame, a sagging balcony holds, and shaken debris stays put through aftershocks. People it settles on are only lightly tacky, but doors it settles on stick shut and must be pried open. The spray drains the user: afterward they make no adhesive until they have eaten and drunk. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

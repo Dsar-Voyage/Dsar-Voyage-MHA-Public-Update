@@ -1,0 +1,15 @@
+{
+  "side_new_year_shrine": {
+    "title": "New Year's Shrine Visit",
+    "beats": "The first days of the New Year: hatsumode. Classmates bundle up and head down from U.A. Academy to a Musutafu neighborhood shrine, where a long line inches up the stone steps to the offering box and stalls along the approach sell amazake, taiyaki and grilled squid in the cold. Some came in kimono: Momo Yaoyorozu in a formal furisode her family sent, Mina Ashido and Toru Hagakure in rented ones (Toru's appears to walk on its own, and the shrine attendants stare), Ochaco Uraraka in her warmest coat and nothing new.\n\nDefault course as pressure: Tenya Iida has planned the visit to the minute and loses half the group at the first stall. At the offering box each tosses a coin, rings the bell, claps twice and wishes. Ochaco wishes for her parents' business; Izuku Midoriya wishes longer than anyone and will not say what for; Katsuki Bakugo claps once, hard, and walks off. Then the fortunes: Denki Kaminari draws great misfortune and ties it to the rack in a panic; Eijiro Kirishima draws great blessing and offers to share it, because that is the manly thing to do; Tsuyu Asui hides in her scarf and says the cold is making her sleepy. Wishes go up on wooden ema plaques, reading someone else's is rude, and someone does anyway.\n\nClass 1-B is in the line too. It is Pony Tsunotori's first Japanese New Year, so she asks about everything and repeats each step aloud; Itsuka Kendo explains, and Neito Monoma compares fortunes with 1-A until one of his is worse.\n\nBy path: a Hero Course student is in either group; a General Studies student may find Hitoshi Shinso alone near the back of the line; a Support Course student sees Mei Hatsume buy a charm for luck with sponsors; a Management Course student notes which hero goods the stalls are selling, Endeavor masks most of all.\n\nThe party's wish and fortune are the player's to choose; a fortune sets a mood and never foretells anything.\n\nThe event is complete when the party has prayed, drawn a fortune and eaten something hot from the stalls.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_new_year_shrine",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

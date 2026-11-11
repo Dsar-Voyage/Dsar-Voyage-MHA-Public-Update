@@ -1,0 +1,20 @@
+{
+  "Wingspread Descent": {
+    "name": "Wingspread Descent",
+    "description": "Wings grown from chicken, duck or other fowl they have eaten spread from the user's back. They glide down from any height and land safely while carrying a single person in their arms, and a few hard beats lift them onto a low rooftop or across a street-wide gap; they cannot climb any higher. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

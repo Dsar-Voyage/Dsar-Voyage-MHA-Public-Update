@@ -1,0 +1,20 @@
+{
+  "Sundial Step": {
+    "name": "Sundial Step",
+    "description": "The user steps into a shadow at least as wide as their shoulders and steps out of another shadow in sight within about five meters, half a pure shadow user's reach, while a pale ring glints around both patches. Attacks aimed at their old spot miss, and they can carry one held person past a locked door or out of a fall; a floodlight on either shadow blocks the way, and the glint shows where they land. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

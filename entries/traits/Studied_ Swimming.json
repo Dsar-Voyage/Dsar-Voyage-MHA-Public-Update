@@ -1,0 +1,20 @@
+{
+  "Studied: Swimming": {
+    "name": "Studied: Swimming",
+    "description": "🏊 You swam competitively, trained as a pool lifeguard or grew up diving off a rocky coast.\n\n🌱 Efficient strokes, breath control, diving, open water and towing a struggling swimmer. You stay calm in cold water or a current.\n⚠️ Floodwater full of debris, rip currents, deep dives and a panicking adult still push you to your limit.\n⚖️ A pool certificate makes you no rescue diver or coast guard officer, and at a disaster you work under whoever commands the scene.\n🏫 It shows in a swimmer's shoulders, slow breathing and a habit of locating the way out of any water.\n\n📈 Grants: Swimming +15",
+    "traitNarrativeEffects": "The character has trained in the water: efficient strokes, breath control, diving, open-water swimming and towing a struggling swimmer to safety. They stay calm when the water turns cold or a current pulls. Prior study, not mastery: floodwater full of debris, rip currents, deep dives and rescuing a panicking adult still push them to their limit. Not a license: a pool certificate makes them no rescue diver or coast guard officer, and at a disaster they work under whoever commands the scene. It shows in a swimmer's shoulders, slow breathing and a habit of locating the nearest way out of any water.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Swimming",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

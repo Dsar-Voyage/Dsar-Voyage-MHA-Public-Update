@@ -1,0 +1,20 @@
+{
+  "Concrete Heel Bump": {
+    "name": "Concrete Heel Bump",
+    "description": "The user touches a concrete floor and raises a low, blunt ridge beneath one target within five meters, dealing light bludgeoning damage and upsetting their footing this turn. Held back, the ridge merely blocks the next step. The target must stand on connected concrete, and the user cannot reach through a gap in the floor. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/The First Lecture": {
+    "name": "__generated_quest_progress__/The First Lecture",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has taught a full first lesson to a U.A. Academy first-year class and heard Principal Nezu's verdict on it over tea."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The First Lecture"
+      }
+    ]
+  }
+}

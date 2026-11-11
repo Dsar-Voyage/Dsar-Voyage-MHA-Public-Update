@@ -1,0 +1,43 @@
+{
+  "Echo Pulse Quirk": {
+    "name": "Echo Pulse Quirk",
+    "description": "🔊 Your voice carries a physical tremor into whatever it hits.\n\n🧬 A Fusion Quirk of Sound and Vibration: about half a single Quirk's range and force, plus moves only the fusion can do.\n🌱 At the start your shout rattles a target and your hum maps a room through a wall or smoke.\n📈 With training: calls through rubble, a numbed limb, glass shattered or bolts loosened on one chosen object, a silenced area or a blocked sound Quirk, and foes dropped to their knees with nausea.\n⚠️ Ear protection and soft materials blunt it.\n🔗 Common drawback pairing: Bodily Toll, as vibrating notes wear on your throat and inner ears.\n🎬 Similar canon Quirks: Present Mic (Voice), Yo Shindo (Vibrate).\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Analysis +10, Perception +5\n⚡ Starting techniques: Rattle Call, Wall-Hum Echo\n🛡️ Resists: sonic",
+    "traitNarrativeEffects": "Scale: the voice sends tremor through air and solids; jaw and ears read echoes. New adult user: shouts rattle an adult a few meters off, crack glass up close; a hum maps a room through walls or smoke. More needs techniques. Limits: ear protection and soft materials blunt it; heavy use shakes their skull, dulls hearing, rasps the throat; din scrambles echoes. Quirk Strain: light: rattling shout, echo hum; moderate: bone-conducted call, numbing grasp, resonance hum; heavy: counter-tone, corridor chord; severe: signature nausea pulse, bracing drone. Fusion: Sound plus Vibration, each about half single-nature range and force; no kilometer shouts, sound leaps or fault quakes; only it echolocates, loosens bolts, resonance-shatters one object, cancels sound, counters sound Quirks, nauseates foes. Type: Emitter. Law: unlicensed nausea or shattering is assault and property damage; listening through private walls without cause is unlawful surveillance. Look: mouth ripple.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rattle Call",
+      "Wall-Hum Echo"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "sonic"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "gunga_break_the_mask": {
+    "title": "The Extras Fight Back",
+    "beats": "During the early battle on day 405, Endeavor and Hawks confront Shigaraki's Sensei on Gunga Mountain Villa's ruined grounds. All For One uses Toya's history to distract Endeavor and creates an opening against the leading heroes. Kyoka Jiro and Fumikage Tokoyami approach a fight their opponent assumes they are too insignificant to influence.\n\nThe canon default course, as pressure the player can change: Jiro and Tokoyami intervene to protect Hawks and disrupt All For One's control of the engagement. Jiro's defiance helps stir resistance among his stolen Quirks, a struggle other observers cannot fully perceive. Coordinated attacks break his life-support mask. Endeavor fights through the loss of his right arm and burns the enemy's body, while Jiro loses her left earjack. All For One survives the assault and is driven toward a concealed last resort.\n\nStage the mask attack through a threatened approach and a limited chance to combine attacks. The player can shield Jiro, stabilize Endeavor, obstruct a counterattack, or defend All For One. Prevented injuries remain prevented. If catastrophic wounds occur, supply immediate field stabilization and a named handoff for extraction to Musutafu General Hospital; remaining in combat must carry the cost and cannot become instant recovery. Hawks and Tokoyami retain their Quirks at this point. Breaking the mask is a tactical success, not proof that All For One has died.\n\nBy place: Gunga Mountain Villa provides the direct engagement. U.A. Academy, Okuto Island, and Kamino Ward receive only the reports their teams can exchange. Musutafu General Hospital prepares emergency treatment; Jaku City and Takoba Municipal Stadium manage requests without abandoning their assignments. Mount Fuji Battlefield clears threatened approaches. A distant player can secure supplies, rescue access, or accurate reporting while the assault resolves elsewhere.\n\nBy Path: Class 1-A assists Jiro or Tokoyami; Class 1-B checks supporting threats; General Studies relays medical needs. Support sustains protection, Management prioritizes messages, and Faculty coordinates relief. Licensed Sidekick extracts wounded; Licensed Pro Hero joins the attack. League of Villains Recruit can defend All For One or reconsider loyalty; Independent Villain exploits or contests the opening. Vigilante searches the perimeter; Civilian Life keeps evacuation routes clear.\n\nThe event is complete when the mask assault resolves and All For One's actual condition, the heroes' injuries, and immediate treatment arrangements are established.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_gunga_break_the_mask",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

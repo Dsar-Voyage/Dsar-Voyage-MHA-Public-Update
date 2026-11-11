@@ -1,0 +1,45 @@
+{
+  "Event Arrival: The USJ Attack @ Unforeseen Simulation Joint (USJ)": {
+    "name": "Event Arrival: The USJ Attack @ Unforeseen Simulation Joint (USJ)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 10
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_usj_attack",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_media_break_in",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "lessThan",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Unforeseen Simulation Joint (USJ)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "currentBandIndex",
+        "operator": "set",
+        "value": 3
+      }
+    ]
+  }
+}

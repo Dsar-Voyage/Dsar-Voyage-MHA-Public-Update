@@ -1,0 +1,20 @@
+{
+  "Angled Wall Return": {
+    "name": "Angled Wall Return",
+    "description": "The user plants a foot against a sound wall within ten meters and fires a sole burst to leave at a new angle, reaching a visible spot ten meters farther away this turn. The user can pass around an opponent's guard, but loose masonry or slippery paint spoils the rebound, and each burst spends stored air. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

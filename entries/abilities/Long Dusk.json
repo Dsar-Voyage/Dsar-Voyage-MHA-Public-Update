@@ -1,0 +1,25 @@
+{
+  "Long Dusk": {
+    "name": "Long Dusk",
+    "description": "At night or in a blackout, the user takes hold of every shadow across several city blocks for the rest of the scene. In a single breath they bind every enemy standing in shadow there until each breaks free with a hard effort or a strong light falls on them, and they can step between any two shadows in the area and lower anyone trapped on a ledge or in a dark shaft to the ground on shadow ribbons. Searchlights, fires and headlights cut the area into pieces the user cannot reach, and when the scene ends the user cannot shape shadow until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Stormcell Sanctum": {
+    "name": "Stormcell Sanctum",
+    "description": "The user expands their personal cloud into a low mist across a room or courtyard for the rest of the scene, using thin wind seams to insulate every ally inside. The user can feed steady power into medical gear or emergency doors, or send a guided jolt through the mist into any enemy who enters for electric damage; the field covers only one room or courtyard and collapses if a heavy blast scatters the mist. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

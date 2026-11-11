@@ -1,0 +1,20 @@
+{
+  "Cynical": {
+    "name": "Cynical",
+    "description": "🙄 You expect people to look out for themselves, and you are usually right.\n\n🕵️ Lies and hidden motives rarely get past you, and you are hard to flatter or manipulate.\n⚠️ You distrust sincere people too, and you sometimes miss the ones who mean well.\n⚠️ Pushing away real help and assuming the worst of allies can cost you friends and chances.\n🔀 If you are also Cheerful, your cheer is genuine and built on expecting little.\n\n📈 Grants: Insight +5",
+    "traitNarrativeEffects": "The character assumes self-interest: heroes chasing rankings, companies chasing profit, friendly strangers who want something. They spot hidden motives and lies quickly and are hard to flatter or manipulate. Weakness: they distrust sincere people too. They push away real help, mock ideals, assume the worst of allies and can miss the person who means well, and that costs them friendships and opportunities. The narrator offers people who prove them wrong as well as people who prove them right. If the character is also Cheerful, the cheer is genuine and built on expecting little from anyone. The narrator shows the doubt; whom the character finally trusts is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

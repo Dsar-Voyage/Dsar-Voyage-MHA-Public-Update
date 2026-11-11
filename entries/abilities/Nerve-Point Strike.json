@@ -1,0 +1,20 @@
+{
+  "Nerve-Point Strike": {
+    "name": "Nerve-Point Strike",
+    "description": "The user lands a precise knee or knuckle strike on a nerve point: the outside of the thigh or the inside of the upper arm. Deals bludgeoning damage, and the struck limb goes numb: the target cannot put weight on that leg or grip with that arm until the end of their next turn. Thick armor or a hardened body blocks the effect. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Martial Artist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Striking",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

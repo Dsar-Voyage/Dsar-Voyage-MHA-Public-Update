@@ -1,0 +1,22 @@
+{
+  "Items: one Provisional hero license": {
+    "name": "Items: one Provisional hero license",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Provisional hero license",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Provisional hero license",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

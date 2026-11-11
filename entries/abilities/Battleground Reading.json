@@ -1,0 +1,24 @@
+{
+  "Battleground Reading": {
+    "name": "Battleground Reading",
+    "description": "The user kneels, palms on the ground where enemies have fought this scene, and reads every feint and swing they made there. For the rest of the scene, those enemies' attacks on the user miss unless the attacker makes a hard effort, and the user's counters deal heavy bludgeoning damage; held back, a counter only throws the enemy down. The user is open to attack while kneeling, and an enemy new to that ground gives nothing to read. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

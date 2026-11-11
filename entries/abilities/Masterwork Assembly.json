@@ -1,0 +1,24 @@
+{
+  "Masterwork Assembly": {
+    "name": "Masterwork Assembly",
+    "description": "Over about a minute the user builds a single large working machine or structure they have studied, part by part, straight from the skin: a truss bridge across a river or between rooftops, a pump that drains a flooded tunnel, a generator, a vehicle. It works for the rest of the scene and stays afterward, and a bridge made this way carries a whole evacuating crowd at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

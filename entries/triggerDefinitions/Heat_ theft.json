@@ -1,0 +1,27 @@
+{
+  "Heat: theft": {
+    "name": "Heat: theft",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Ss]teal|[Ss]tole|[Rr]ob(bed|bing)?\\b|[Mm]ug(ged|ging)?\\b|[Ss]hoplift|[Pp]ickpocket|[Ll]oot)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "add",
+        "value": 6
+      }
+    ]
+  }
+}

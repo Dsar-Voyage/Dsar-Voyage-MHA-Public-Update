@@ -1,0 +1,20 @@
+{
+  "Spun Line Swing": {
+    "name": "Spun Line Swing",
+    "description": "The user pulls fibers from a coat, a flag or a coil of rope into a long line, snaps its end around a railing, a pole or a ledge, and swings or climbs on it across a street, up a building face or down from a roof. A passenger can ride along holding on, and the line stays anchored until the user lets it come apart. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

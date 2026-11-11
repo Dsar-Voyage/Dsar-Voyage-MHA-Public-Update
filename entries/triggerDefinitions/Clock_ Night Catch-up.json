@@ -1,0 +1,16 @@
+{
+  "Clock: Night Catch-up": {
+    "name": "Clock: Night Catch-up",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "greaterThanOrEqual",
+        "value": 8
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const tk=check({type:'game-tick'})||0;if(storage.skipTick===tk||typeof storage.sleepTick==='number'&&tk-storage.sleepTick<2){skip=true;return;}if((check({type:'read-number',key:'currentBandIndex'})||0)<8){storage.dtN=0;skip=true;return;}const NT=String(check({type:'story-text'})||'').split('\\n').filter(l=>!/^\\s*(?!narrator:)[a-z][\\w .'-]{0,40}:\\s/i.test(l)).map(l=>l.replace(/^\\s*narrator:\\s*(<[^>]*>\\s*)*/i,'')).join('\\n').toLowerCase().replace(/[\"\\u201c][^\"\\u201d]{0,600}[\"\\u201d]/g,' ');const S=NT.split(/[.!?]+/),X=/\\b(tomorrow|will|until|till|if|last|yesterday|earlier|before|this|today|tonight|plan\\w*|remember\\w*|dream\\w*|whether|or not|would|could|should|might|wants?|hopes?|swore|promised|set for|has to|have to|needs? to|must|alarm|since)\\b|'ll\\b/;const DW=!/\\bmidnight\\b/.test(NT)&&S.some(s=>(/\\b(sunrise|daybreak|first light|first sun|sun (rises|rising|comes up|coming up|clears|clearing|crests|breaks|is up|is high)|sky( \\w+){0,3} (lightens|pales|grays|greys|brightens|goes gray|turns gray|loses its black)|dawn (breaks|comes)|at dawn|morning (light|sun)|next morning|following morning)\\b/.test(s)||/\\b(at|by|around|past|after|nearly|almost|just|toward) ((half|a quarter) (past|to) )?(four|five|six|seven|eight)\\b(?! (past|to|minutes))|\\b[4-8]:[0-5]\\d\\b/.test(s)&&/\\b(light|sky|sun\\w*|chime|bell|morning|breakfast|dawn|a\\.m)\\b/.test(s)&&!/\\b(p\\.m|evening|night)\\b/.test(s))&&!X.test(s))||/day, [a-z]+ \\d+, [4-8]:[0-5]\\d a\\.?m/.test(NT);const DT=!/\\b(midnight|moonlight|moon (rises|hangs|is up)|starlight|night sky)\\b/.test(NT)&&S.some(s=>/\\b(homeroom|first period|lunch|noon|afternoon|breakfast|morning|sunlight|daylight)\\b/.test(s)&&!X.test(s));if(DT){storage.dtN=storage.dtT===tk-1?(storage.dtN||0)+1:1;storage.dtT=tk;}else storage.dtN=0;if(!(DW||DT&&storage.dtN>=2)){skip=true;return;}const J=S.filter(s=>!X.test(s)).join('.'),nb=/\\b(afternoon)\\b/.test(J)?4:/\\b(lunch|noon)\\b/.test(J)?3:/\\b(homeroom|first period)\\b/.test(J)?1:0,d=check({type:'read-number',key:'currentDay'})||1;storage.currentDay=d+1;storage.currentBandIndex=nb;storage.sleepTick=tk;storage.cueTick=tk;storage.dtN=0;effects.push({type:'write-number',key:'currentDay',operator:'set',value:d+1},{type:'write-number',key:'currentBandIndex',operator:'set',value:nb});effects.push({type:'player-resource',resource:'Quirk Strain',operator:'set',value:0},{type:'player-resource',resource:'stamina',operator:'add',value:999});effects.push({type:'story',instruction:'The night is over: it is now the next day. Continue from the time of day the story shows.'});})();"
+  }
+}

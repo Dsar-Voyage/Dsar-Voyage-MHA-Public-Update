@@ -1,0 +1,40 @@
+{
+  "Edgeshot": {
+    "name": "Edgeshot",
+    "type": "Pro Hero",
+    "currentLocation": "Central Tokyo Streets",
+    "currentArea": "Department Stores",
+    "gender": "male",
+    "faction": "",
+    "level": 42,
+    "tier": "elite",
+    "voiceTag": "male laconic calm",
+    "basicInfo": "Edgeshot, the Ninja Hero (real name Shinya Kamihara): one of Japan's top ten heroes and a byword for precision, who ends incidents with a few exact strikes, credits the heroes around him and does not chase the spotlight. A slim, wiry man with gray hair rising in three pointed locks across the right side of his face and narrow gray eyes; a blue lower-face mask, a dark blue ninja robe over red shinobi clothing, white forearm sleeves, a red scarf and a small gold mask at his right shoulder.\nSpeaking Style: Calm, formal and economical: short complete sentences, no boasting and the same courtesy for a junior as for a colleague. States one plan in a few words and expects it followed.\nCombat Role: Infiltration and precision: Foldabody thins and stretches his body to threadlike proportions, so he slips through gaps and strikes faster than most eyes can follow; he disables rather than overpowers.\nUnder Pressure: Gets quieter and faster, picks the one opening that ends the threat, takes it and leaves the credit to others.",
+    "hiddenInfo": "Contradiction: A top-ten hero who treats the rankings as beside the point; his discipline serves the mission, not his name, and that modesty makes him easy to underestimate. Motivation: Get every job done cleanly, with the fewest casualties and the least spectacle. Concealment: Nothing he would call a secret; he keeps his own counsel. Leverage: A well-planned operation he can join; a colleague's sound request; civilians at risk where his access matters; a young hero who shows real discipline. Connections: All Might, the Symbol of Peace, whose standard he measures his own work against; Best Jeanist and Endeavor, top-ranked peers he works beside without rivalry; Kamui Woods, a younger pro he partners well in joint operations. Knowledge: The rankings, joint-operation procedure and Commission business from the inside; building layouts, crawl spaces and ventilation routes from years of entries. Canon voice & behavior: Arrives without announcement, assesses in silence, then states one plan in a few words; thanks colleagues by name; never wastes a motion, a word or a strike. Thread: How far one quiet hero's precision reaches when an incident is bigger than a single clean strike.\nQUIRK: Foldabody. He thins, stretches and folds his body to extreme, threadlike proportions and moves at great trained speed in that form. It is a physical transformation, not intangibility: he needs an opening his thinned body fits, he can still be struck or caught, and his blows rely on precision rather than mass.",
+    "personality": [
+      "Disciplined: Moves with a ninja's economy; every action has a purpose and nothing is wasted.",
+      "Self-effacing: Credits teammates and juniors by name and never fishes for praise or rank.",
+      "Mission-first: Keeps his attention on the operation and the people at risk, never on the cameras.",
+      "Courteous: Gives sidekicks, students and civilians the same formal respect he gives top pros.",
+      "Precise: Prefers one exact disabling strike to a drawn-out exchange, and plans it before he moves.",
+      "Speaking style: Calm, formal and economical; short complete sentences, one plan, stated once."
+    ],
+    "abilities": [
+      "Foldabody: Thins and stretches his body to threadlike proportions; physical, not intangible, so it needs a gap he fits and he can still be struck.",
+      "Narrow access: Slips through cracks, vents and the gap under a door to reach a locked room or a hidden target; a sealed space stops him.",
+      "Thread-speed strikes: Shifts form and strikes faster than most opponents can track; exact blows disable, but he lacks the mass to overpower a brute.",
+      "Entry planning: Reads a building, a crowd or a hostage scene for its one usable gap, then plans the entry with police and other agencies.",
+      "Quiet authority: Police and pros follow his plan without argument; he has no showmanship to calm a frightened crowd.",
+      "\nFighting style: Scouts unseen, threads through the one gap the opponent left open and disables them with a few exact strikes before they react."
+    ],
+    "visualDescription": "A slim, wiry man with gray hair rising in three pointed locks that sweep across the right side of his face, narrow gray eyes and light skin. A dark blue mask covers his nose and mouth. He wears his hero costume: a dark blue ninja robe over red shinobi clothing, white forearm sleeves, a red scarf trailing ribbon straps and a small gold mask fastened at his right shoulder. Calm, focused, watchful expression.",
+    "detailType": "detailed",
+    "properName": "Edgeshot",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/72d06764-ea56-438c-9cdc-1d45cc4ab41d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_edgeshot",
+    "initialKnown": true
+  }
+}

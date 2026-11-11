@@ -1,0 +1,31 @@
+{
+  "Kamino and Yokohama": {
+    "name": "Kamino and Yokohama",
+    "basicInfo": "Kamino and Yokohama is the western shore of Tokyo Bay and the hills behind it, about 30 kilometers southwest of central Tokyo and about an hour east of Musutafu by the Tokaido line, where the capital's sprawl runs down to the sea. Yokohama is a working port city of piers, container docks, cranes and harbor parks, with Chinatown's painted gates a short walk inland, a waterfront of red-brick warehouses turned into shops and restaurants, and ferries and cruise ships along the quays; its harbor district is busy day and night with dock crews, truckers, tourists and late-shift bars. About 11 kilometers northwest of the harbor lies Kamino Ward, a tired old ward of shuttered shops, aging apartment blocks, idle warehouses and winding backstreets, where small bars hide down alleys and half the storefronts have not opened in years. Takoba Municipal Stadium stands among sports fields about 12 kilometers southwest of the harbor and hosts school meets, local tournaments and the Commission's licensing exams. Beyond them the land breaks into wooded hills and commuter towns; south along the coast lie the old temple town of Kamakura with its giant bronze Buddha and beaches, the naval port of Yokosuka, and the Miura Peninsula, its tip of fishing harbors and radish fields facing the mouth of the bay. Summers are hot and humid with sea breezes, typhoons in late summer close the port for a day or two, and winters are mild and bright. The economy is the port, shipping, logistics and factories along the bay, the restaurants of Chinatown, tourism and the commuters who ride north into Tokyo every morning. The prefectural police keep order, with police boxes at the stations and harbor patrols on the water; heroes and police patrol the harbor often and Kamino rarely, and the ward's residents have stopped expecting them. People get around by commuter rail into Tokyo in half an hour, local lines and buses, harbor water buses and taxis. A visitor can eat through Chinatown, walk the harbor parks, take dock or warehouse work, sit a licensing exam at Takoba, ride down to the Kamakura beaches, or vanish into the backstreets of a ward nobody watches.",
+    "hiddenInfo": "On the coast the underworld's trade runs quietly: brokers working out of Yokohama's port and Chinatown move unlicensed gear and hired muscle through the container yards, and Kamino's backstreet bars are where small-time villains go looking for cash work. Lately one new buyer with money and no reputation has been hiring through those brokers, and almost nobody has asked who it is. Kamino's empty warehouses are rented through shell companies and visited at night, and the ward's few police boxes log nothing they cannot explain.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police",
+      "Villain Brokers"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 45
+    },
+    "x": 1,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ab284ce4-d0d0-4c79-aecb-c29af0378a3d.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

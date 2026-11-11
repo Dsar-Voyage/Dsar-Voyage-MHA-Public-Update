@@ -1,0 +1,20 @@
+{
+  "Box Them In": {
+    "name": "Box Them In",
+    "description": "The user sends allies to cover a target's exits while the user closes the last gap. While the user and at least one ally hold their positions, the target cannot leave the area by running, jumping or climbing; only a Quirk that carries them over, under or through the line gets them out. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Hero Course (Class 1-B)",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

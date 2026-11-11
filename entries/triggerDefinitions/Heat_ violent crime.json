@@ -1,0 +1,27 @@
+{
+  "Heat: violent crime": {
+    "name": "Heat: violent crime",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Kk]ill|[Mm]urder|[Ss]tab|[Ss]hoot|[Mm]aim|[Tt]orch|[Bb]omb)(s|ed|ing)?\\b(?! time)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "add",
+        "value": 12
+      }
+    ]
+  }
+}

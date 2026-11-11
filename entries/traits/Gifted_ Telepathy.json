@@ -1,0 +1,32 @@
+{
+  "Gifted: Telepathy": {
+    "name": "Gifted: Telepathy",
+    "description": "🧬 Telepathy, as an extra Quirk put into your body.\n\n🌱 At the start you speak into the heads of up to five people within about a hundred meters, through walls, smoke and noise, and feel the minds near you, even under rubble.\n📈 With training: stunning static, shared sight, a team linked mind to mind, the trapped kept calm, surface thoughts read, all hostile minds struck, a district addressed.\n⚠️ It works one way: you hear no answers and read no thoughts until training opens surface reading.\n🔗 Common drawback pairing: Cognitive Fade, as reaching into other minds wears down your own.\n🎬 Similar canon Quirks: Mandalay (Telepath).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Telepathy family): Scale: the user speaks into minds. A new adult user reaches up to five people they can see or have met within about a hundred meters, a few sentences at a time, in their voice; walls, smoke, noise and deafness do not stop it. They also feel minds within about thirty meters: how many, where, awake or not. Images and bigger feats need techniques. Limits: one way at the start: no replies, no thoughts read. Cannot move a body, plant a command or change a feeling; a message can be ignored, not unheard; the unconscious receive nothing. Quirk Strain: light: messages, sensing minds; moderate: mental spike, shared sight, team link; heavy: rescue link, reading a mind; severe: signature strike, district-wide link. Type: Emitter. Law: messaging strangers' minds without cause is harassment; reading a mind without consent is a serious crime and spoils any evidence; licensed users read minds only to save lives.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

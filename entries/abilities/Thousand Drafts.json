@@ -1,0 +1,29 @@
+{
+  "Thousand Drafts": {
+    "name": "Thousand Drafts",
+    "description": "The user splits their wind into dozens of narrow, separate currents and steers each one on its own along a whole street. In a single turn they pluck every weapon from every enemy hand there, carry each falling person or shard of glass to a safe spot, or press each enemy against the nearest wall, where they take heavy force damage and are held until the end of their next turn; held back, the currents only pin them without bruising. The user must stand still with both hands raised and cannot make any other wind until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

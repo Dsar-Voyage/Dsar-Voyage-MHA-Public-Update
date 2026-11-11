@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: twice_plf": {
+    "name": "Portrait Swap: twice_plf",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Twice",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/91cf3feb-d665-40ce-8b6a-31eabe5f3e30.png"
+      }
+    ]
+  }
+}

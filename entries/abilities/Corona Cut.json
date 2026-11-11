@@ -1,0 +1,20 @@
+{
+  "Corona Cut": {
+    "name": "Corona Cut",
+    "description": "The user narrows their light at fingertip range into a short cutting line rimmed in flat black shadow that swallows its own glare. Over a few seconds it slices through a jammed car door, a lock or a steel bar to free a trapped person without blinding or burning them, or at low heat seals a bleeding cut shut until a doctor treats it. It reaches only arm's length and fails if the user moves. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Garnet Cuffs": {
+    "name": "Garnet Cuffs",
+    "description": "The user casts a thin rope of blood that wraps a target's wrists or ankles and hardens around them. The target cannot use the bound limbs until they break the cuff with a hard effort or a heavy tool, or the user lets it run liquid again, and the cuff leaves no injury. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

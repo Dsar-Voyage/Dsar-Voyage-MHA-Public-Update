@@ -1,0 +1,24 @@
+{
+  "Creeping Barrage": {
+    "name": "Creeping Barrage",
+    "description": "The user walks a rolling line of blasts across the ground ahead. Every enemy in a wide area in front takes explosive damage and is knocked flat, and anything thrown or fired through the barrage is blown apart before it reaches the user or the people behind them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

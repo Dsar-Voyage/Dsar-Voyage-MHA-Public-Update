@@ -1,0 +1,24 @@
+{
+  "Piercing Furnace Jet": {
+    "name": "Piercing Furnace Jet",
+    "description": "The user concentrates a brilliant flame into a twenty-meter jet that cuts a narrow opening through a metal barrier and deals heavy fire damage to anything on its line. Held back, the user cuts an empty obstruction after checking the far side. The sustained compression sharply raises body heat and leaves molten edges. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

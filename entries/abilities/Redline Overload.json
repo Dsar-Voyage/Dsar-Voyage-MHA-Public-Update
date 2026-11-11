@@ -1,0 +1,20 @@
+{
+  "Redline Overload": {
+    "name": "Redline Overload",
+    "description": "The user strips the safety limits from a piece of the user's own support gear for a single use. A launcher fires a round that deals explosive damage and knocks down everyone at the impact point, a thruster pack clears a street in a single jump, or a gauntlet punches through a steel door for bludgeoning damage. The item then breaks and needs a workshop repair. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gear Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

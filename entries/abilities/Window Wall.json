@@ -1,0 +1,20 @@
+{
+  "Window Wall": {
+    "name": "Window Wall",
+    "description": "The user sweeps a palm and a door-sized pane of clear glass rises between attackers and the people behind it. Blows, thrown objects and pistol rounds from the front cannot pass it until a strike lands on its weak point, which the user feels and keeps shifting while they touch the pane; the glass hides nothing, so everyone behind it stays in plain sight. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Tentacle Hold": {
+    "name": "Tentacle Hold",
+    "description": "After recently eating octopus, the user grows one tentacle from an arm and wraps it around a person or object within several meters. The grip holds until the end of the user's next turn unless the target tears free or cuts the tentacle. It cannot pull someone much heavier than the user, and the user must keep the limb extended. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

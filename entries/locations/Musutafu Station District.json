@@ -1,0 +1,264 @@
+{
+  "Musutafu Station District": {
+    "name": "Musutafu Station District",
+    "basicInfo": "Musutafu's main rail station and the busy blocks around it, where most visitors arrive. It is a Tokaido shinkansen stop: Tokyo, about 100 km northeast, is 45 minutes away and Osaka two hours. U.A. Academy's campus is about 3 km northeast, ten minutes by bus up the hill road; Musutafu Police Headquarters is about 3.5 km northwest and Hero Agency Row about 4 km east. The rail company runs the station; a police box at the north exit handles lost wallets, directions and the first report of any public Quirk use. The north exit opens on the bus terminal and a crossing of convenience stores; the south exit leads into the Hero Merch Arcade and the back alleys behind it. Commuters pack the concourse from seven to nine and five to eight; between rushes come shoppers, and after dark office workers fill the alley bars until the last train, a little after midnight. U.A. students, who live on campus, come through on weekend visits home, and Sunday evening brings a wave of them back to the buses. Local pros walk patrols at rush hour, and Kamui Woods, Death Arms and Backdraft have all answered calls here. The station is public ground and open to anyone from the first train to the last; after that the gates close and only the convenience stores and the alley bars keep their lights on. A player can work a store or arcade shift, shop, meet friends, catch a train or bus, shadow a patrol, or trade rumors. Departure chimes, hero-news jingles and the smell of fried chicken from the alley vents are constant.",
+    "hiddenInfo": "Since the news broke that All Might now teaches at U.A., reporters and camera crews have staked out the north exit, stopping anyone in a U.A. uniform for a quote on weekends, and fans wait at rush hour in case All Might commutes by train. The rail company has complained to the police box about blocked exits, and the officers on duty spend their weekends moving camera crews along. Behind the arcade, brokers who never give their names buy drinks for small-time crooks and hire for whoever pays; the police box hears most of it as bar talk. One of them works from a standing bar near the end of the lanes most weeknights after ten, asks only about Quirks, pays a cash advance on the spot and never names the client; the bar's cook knows his face and his usual time and will say so for a meal and a promise of discretion. Meanwhile both convenience stores at the north exit are desperately short of night staff; the manager of the busier one will hire anyone who shows up sober and will look the other way about a missing résumé.",
+    "x": -6.04,
+    "y": 18.863,
+    "radius": 1.1,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Station Concourse": {
+        "description": "A long, bright hall of ticket gates, departure boards, kiosks and coin lockers under a curved glass roof, with the shinkansen platforms above and the local lines below. Exits lead north to the Convenience Store Corner and the bus terminal, and south to the Hero Merch Arcade. From seven to nine and five to eight the hall is packed with commuters in suits and local students in school uniforms; U.A. students come through on weekends, and on Sunday evenings they cross it in groups toward the buses back up the hill. Between rushes it holds shoppers, tourists with rolling cases and retirees waiting for friends under the big clock. Station staff watch the gates, make announcements and help lost travelers, and a cleaner with a wide mop works the floor all day. Everyone stands on the left of the escalators and walks on the right, and anyone who blocks the flow gets glared at. The departure chime for the Tokyo trains is a short rising melody that regulars can hum.",
+        "paths": [
+          "Hero Merch Arcade",
+          "Convenience Store Corner",
+          "Station-Front Cafe"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6595b518-3420-45d6-8b23-9ab05c59720a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hero Merch Arcade": {
+        "description": "A covered shopping arcade off the station's south exit, lined with narrow shops selling hero figures, trading cards, posters, replica costumes, signed photos and fan magazines. All Might goods fill the front shelves of every store, and since the news that he teaches at U.A. one shop has cleared a whole window for him; Endeavor, Best Jeanist and Hawks have their own displays, and Mount Lady merchandise has sold fast since her debut in the city last spring. Young fans come after school with their parents, collectors on weekends to hunt rare cards, and part-timers restock at night after the shutters come halfway down. Shopkeepers know their regulars by name and argue about the Hero Billboard Chart across the aisle. Capsule-toy machines rattle, and every shop speaker plays a different hero-news clip. The arcade leads back to the Station Concourse at one end and, through a gap between two shops, into the Back Alleys behind.",
+        "paths": [
+          "Station Concourse",
+          "Back Alleys",
+          "Game Center"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d256228e-c7d1-4f81-9c63-ce1a8fbf5fae.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Convenience Store Corner": {
+        "description": "A busy crossing outside the station's north exit, where two rival convenience stores face each other across a zebra crossing, both open all night, with the bus terminal's shelters beside them. Commuters grab rice balls and canned coffee before the morning trains; local students in school uniforms buy snacks, pay phone bills and photocopy notes after classes; night-shift workers and taxi drivers come in after midnight, and the police box on the corner sends its officers over for coffee. Both stores are always short of part-timers, and shifts are easy to pick up and hard to keep; the managers poach each other's staff with an extra hundred yen an hour. A small TV over one register runs hero news on a loop, the door chimes never stop, and the fried-chicken warmer by the counter sells out by eight. The corner leads back into the Station Concourse.",
+        "paths": [
+          "Station Concourse",
+          "Karaoke Box",
+          "Station-Front Cafe",
+          "Family Restaurant",
+          "Neighborhood Bathhouse",
+          "Coin Laundry"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7e6ffc92-07a7-4431-baea-958289caa4da.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Back Alleys": {
+        "description": "Narrow lanes behind the arcade, crowded with tiny bars, standing noodle counters, vending machines, delivery bikes and stacked crates, under a tangle of power lines and paper lanterns. By day they are service lanes for the shops, with deliveries in the morning and cooks smoking by the back doors in the afternoon. After dark, office workers drink here until the last train, and small-time crooks use the corners to make deals and settle scores. Patrol heroes cut through on foot because cars cannot fit, and the bars go quiet for a moment whenever a costume passes the door. The lanes smell of grilled skewers and garbage, and the local rule is to mind your own business: nobody here wants to be a witness. A cook who keeps the same seat by the window sees everything and says nothing for free. The lanes lead back out through the Hero Merch Arcade.",
+        "paths": [
+          "Hero Merch Arcade",
+          "Ramen Counter",
+          "Izakaya Lane"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/37d4b622-5e6a-482f-bffd-38ee4f6e5bc0.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Game Center": {
+        "description": "A three-story game center halfway down the Hero Merch Arcade, its open front a wall of crane machines stocked with plush heroes, All Might in front and a fresh row of Mount Lady dolls beside him. The ground floor is cranes and photo-sticker booths with curtained stalls; the second floor holds rhythm games, a taiko drum cabinet and two rows of fighting-game cabinets set back to back; the third is medal games and a quiet corner of mahjong machines. Most plays cost 100 yen, and the change machine by the stairs never runs dry. Retirees take the medal floor in the mornings, local students in school uniforms crowd the cranes after classes, and the fighting-game regulars arrive after dinner and stay until the 11 p.m. close, calling out matchups to the watchers behind them. A staff member in a red vest unjams machines and nudges a prize closer when it sticks; a printed notice on every cabinet says that Quirk use on the machines means a lifetime ban, and the staff point to it whenever anyone floats a prize or freezes a claw. The noise is a wall of jingles, drumbeats and pouring medals. The front opens back onto the Hero Merch Arcade.",
+        "paths": [
+          "Hero Merch Arcade"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9717aea5-486a-49af-9b01-577986b32fef.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Karaoke Box": {
+        "description": "A narrow eight-story karaoke building on the north-exit crossing, its front stacked with neon and its sidewalk worked by a staff member handing out discount flyers. The ground floor is a front desk with a rack of tambourines, maracas and costume headbands to borrow; the elevator rises to floors of small soundproof rooms, each with a padded bench, a low table, two microphones, a touch-screen song pad and a wall phone for ordering fries and drinks. Rooms run by the half hour, cheapest on weekday afternoons, and an all-night package from eleven to five draws office workers who missed the last train. Local students come after classes in groups, U.A. students book the big party rooms on weekends home, and by late evening the corridors fill with off-key office parties and birthday crowds. Hero anime theme songs are the most requested tracks this spring, with a dance remix of All Might's catchphrase. A sign at the desk says Quirks may not be used to boost the volume or the scoring, and the night clerk tells of the customer who blew out a speaker. Muffled choruses leak from every door. The entrance opens onto the Convenience Store Corner.",
+        "paths": [
+          "Convenience Store Corner"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2afea627-b7ec-4f23-867a-9b42ea3464d1.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Station-Front Cafe": {
+        "description": "A chain coffee shop beside the station's north exit, with a long window bar facing the bus terminal, small round tables, a wall of power outlets and a pastry case by the register. It opens at seven for the commuter rush, when the line runs out the door and the baristas call orders by cup size at a shout; mid-morning it settles into parents with strollers, retirees and freelancers who nurse one drink for hours. After classes, local students in school uniforms take the outlets to study, and on Sunday evenings U.A. students wait here in twos and threes for the buses up the hill, ordering the cheapest drink to keep a seat. A drip coffee runs about 350 yen and the seasonal sweet drinks about 600. The window bar is the best seat in the district for watching the crossing, and a pair of retired men argue about the hero rankings there every morning. The staff keep a wide stool and a tall table for heteromorph customers, and a sign by the sugar asks customers to clean up anything their Quirk leaves behind. It smells of roast beans and warm butter. One door leads into the Station Concourse, the other out to the Convenience Store Corner.",
+        "paths": [
+          "Station Concourse",
+          "Convenience Store Corner"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cce9da90-6581-4fde-b79e-f4d50ee12823.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Ramen Counter": {
+        "description": "A twelve-seat counter ramen shop where the arcade's back gap meets the alleys, run by a husband and wife who have cooked here for twenty years, with a meal-ticket machine by the door, a row of bolted stools, a stainless counter and a pot of pork-bone broth that never goes off the flame. Customers buy a ticket, about 800 yen for the house tonkotsu and 100 more for a soft-boiled egg, hand it over and are served in minutes. The lunch line is office workers and delivery riders; after classes, students come in pairs; after ten, drinkers from the lanes come in for a last bowl before the train, and the shop stays open until one. The house rules are painted on a board above the counter: eat, pay and give up your stool when people are waiting. The husband never speaks; the wife hears everything said at the counter and repeats none of it. A strip of signed cards from local pros runs along the menu board, some faded beyond reading, and a framed photo of Death Arms with an empty bowl hangs over the register. The air is thick with pork fat and garlic, and the window fogs over on cold nights. The door opens onto the Back Alleys.",
+        "paths": [
+          "Back Alleys",
+          "Izakaya Lane"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/63056200-3366-424a-85a9-699ad0b358f0.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Izakaya Lane": {
+        "description": "A short lane off the back alleys lined on both sides with tiny izakaya, each with a red paper lantern, a cloth curtain over the door, a wooden board of the day's dishes and six or eight seats at a counter around a grill. Smoke from yakitori and grilled fish hangs under the eaves, and beer crates on the pavement serve as extra tables. From six, office workers loosen their ties over beer, highballs and skewers at about 150 yen apiece, and the counters stay full until the last train; the owners pour, cook and listen all at once. Most places charge a small seating fee that comes with a dish of pickles. Older couples come early and young workers late, and U.A. students home for the weekend get a free skewer from owners proud of the academy up the hill. The owners have a standing agreement to call the police box at the first shove, and a closing-time scuffle usually ends with two drunks apologizing to each other on the curb. Touts are not allowed in the lane; the owners chase them out themselves. Laughter, grill hiss and old enka spill from every door. The lane opens onto the Back Alleys, and the Ramen Counter's door sits at its corner.",
+        "paths": [
+          "Back Alleys",
+          "Ramen Counter"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d4de7c6c-0443-443c-a8c5-4926341aa5a3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Family Restaurant": {
+        "description": "A family restaurant on the second floor above the bus terminal, reached by an outdoor staircase from the north-exit crossing: booths with vinyl benches along the windows, a drink bar, a call button on every table and laminated menus with photos of hamburg steak, doria, curry and parfaits. A lunch set runs about 800 yen, and the drink bar alone about 350, which makes it the cheapest place in the district to sit for hours. Mornings bring retirees with breakfast sets; lunch brings parents with toddlers and office workers; after classes, students take the big booths to study and do not leave; late at night, taxi drivers, night-shift workers and anyone who missed the last train nurse a coffee until it closes at two. Staff greet every arrival with the same sing-song welcome. The window booths look down on the bus shelters, and on Sunday nights U.A. students watch for their bus from there. A booth by the drink bar has a wide bench and a reinforced table for heteromorph diners, and somewhere a call button chimes every few seconds. It smells of demi-glace and fryer oil. The staircase leads back down to the Convenience Store Corner.",
+        "paths": [
+          "Convenience Store Corner"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f5ec9b7a-670b-4bd5-b47a-4a425fb409cd.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Neighborhood Bathhouse": {
+        "description": "An old public bathhouse two blocks north of the bus terminal, with a tall brick chimney and split cloth curtains at the entrance, blue for men and red for women. Inside, shoes go into wooden lockers with wooden keys, and an attendant on a raised booth between the changing rooms takes the 500-yen entry and sells towels, soap and bottled milk. Past the changing rooms, rows of low faucets with stools and buckets line the walls, and three tiled baths sit under a painted mural of Mount Fuji: a hot one, a hotter one and an electric bath. Wash before you get in, keep towels out of the water and tie long hair up: the rules are painted on a board, with a newer line asking bathers not to use Quirks to heat or cool the water. Retirees come when it opens at three; after work come laborers and shop staff, and after ten come students and night workers. A wider door and a deep tub at the end are kept for heteromorph bathers. Regulars drink their milk in front of the electric fan, and old men argue about the hero rankings across the changing room. It smells of steam and soap. The street outside leads back to the Convenience Store Corner.",
+        "paths": [
+          "Convenience Store Corner",
+          "Coin Laundry"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/149f72f4-4c1d-421e-98ac-08f6113a6f0e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Coin Laundry": {
+        "description": "A small coin laundry next door to the bathhouse, open all night: a row of front-loading washers along one wall, stacked gas dryers along the other, a folding table down the middle, and a bench by the window under a buzzing fluorescent tube. A wash costs 400 yen, a dryer 100 yen per ten minutes, and the change machine rejects every other note. Bathhouse regulars drop a load in on the way to the bath and fold it on the way home; single office workers come late with a week of shirts; students from the cheap apartments north of the station read manga on the bench while their clothes spin. A cork board by the door holds notices for lost cats, room shares and part-time jobs, and a pile of old hero magazines sits on the windowsill. One handwritten sign asks customers not to leave laundry in the machines overnight; another asks those with heat Quirks not to use them on the dryers. After midnight it is one of the few lit doors on the street, and anyone sitting on the bench is easy to see from outside. It smells of clean cotton. The door opens beside the Neighborhood Bathhouse, a short walk from the Convenience Store Corner.",
+        "paths": [
+          "Convenience Store Corner",
+          "Neighborhood Bathhouse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cfb69f32-7d99-4bec-b972-d61b7a98d337.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Japanese Police",
+      "Villain Brokers"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a6ed4c72-09e9-47ac-b78d-75d92a36b363.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

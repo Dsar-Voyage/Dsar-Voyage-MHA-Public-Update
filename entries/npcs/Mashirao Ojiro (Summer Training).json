@@ -1,0 +1,45 @@
+{
+  "Mashirao Ojiro (Summer Training)": {
+    "name": "Mashirao Ojiro (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "elite",
+    "voiceTag": "male steady approachable",
+    "basicInfo": "Mashirao Ojiro, hero name Tailman, a Class 1-A first-year in U.A. Academy's Hero Course. He passed the practical final exam with Tenya Iida against Power Loader, came back from the forest training camp with a stronger, tougher tail, and lived through the League of Villains' attack on the camp. Short blond hair, dark eyes, an athletic build, a thick tufted tail; the U.A. uniform, or his white gi with a black belt.\nSpeaking Style: Polite, level and plain; advice without lectures; a tired sigh instead of a shout.\nCombat Role: Steadier close-quarters martial artist; camp drills built the tail's power and stamina; still no ranged attack.\nUnder Pressure: Takes the unglamorous job: holding a line, covering a classmate, getting someone out.",
+    "hiddenInfo": "Contradiction: He has shown his integrity in public; now he wants to be known for skill as well. Motivation: Become a hero people remember for the work, not for the tail. Concealment: Still sensitive about being 1-A's plain one. Connections: Tenya Iida, his final-exam partner, whose planning he trusts. Katsuki Bakugo, whom the League took from the camp and who came back from Kamino. Knowledge: Knows the Hero Killer's arrest in Hosu from the news, the attack on the camp from inside it, and Kamino from the live broadcast: All Might won, then retired. Canon voice & behavior: Gives practical advice to a struggling classmate; sighs at chaos, then helps clean it up. Thread: Whether plain hard work keeps pace as every Quirk around him grows.\nQUIRK: Tail. A strong prehensile tail, harder-hitting and slower to tire since the camp, that bears his weight, strikes, grips, braces and launches him; no superhuman power, and it can still be grabbed, pinned or injured.\nSTAGE: After the summer: final exam passed, camp training done, All Might retired, U.A. locked down after Kamino.",
+    "personality": [
+      "Fair play: Turns down an advantage he did not earn and says so plainly.",
+      "Disciplined: Repeats tail and martial-arts drills long after the instructors call a break.",
+      "Plain and aware of it: Laughs off being called ordinary, then trains a little harder.",
+      "Reliable partner: Fits himself around a teammate's Quirk, not the reverse.",
+      "Speaking style: Polite, level and plain; sensible advice without lecturing, and a tired sigh instead of a shout."
+    ],
+    "abilities": [
+      "Tail strike: Heavier sweeps and blows since the camp; still close range, and a braced or armored target absorbs them.",
+      "Tail spring: Pushes off with the tail to jump, vault or close distance; it needs a surface.",
+      "Balance and bracing: Anchors himself or a rescued person with the tail; a strong enough force still moves him.",
+      "Coaching: Breaks down a classmate's stance or footwork and fixes it in a few words; he teaches fundamentals, not Quirks.",
+      "\nFighting style: Stable stance, footwork to close, then the tail to sweep, trap or strike for a clean takedown, not a flashy finish."
+    ],
+    "visualDescription": "A young man with short blond hair, dark eyes, a calm, plain face, fair skin and an athletic build. A thick, muscular blond tail extends from his lower back and ends in a large, fluffy tuft. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Focused, determined expression.",
+    "detailType": "detailed",
+    "properName": "Mashirao Ojiro",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d81f8221-e4e1-4160-92a5-4a55b641a1a0.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mashirao_ojiro",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/d81f8221-e4e1-4160-92a5-4a55b641a1a0.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/d2477c02-7b3e-48db-9a5f-bad62f74bfa0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/209d67cf-e647-48fc-8bcf-605b83b1e2ea.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/98bca443-955b-41b7-8374-3035a59c1a5d.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/653dbce3-44b8-420b-a674-bdf6672d7ddd.png"
+    },
+    "initialKnown": false
+  }
+}

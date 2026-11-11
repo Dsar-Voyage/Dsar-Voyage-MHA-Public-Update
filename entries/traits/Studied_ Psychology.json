@@ -1,0 +1,20 @@
+{
+  "Studied: Psychology": {
+    "name": "Studied: Psychology",
+    "description": "💭 You studied the mind: psychology courses, a peer counseling program or volunteer shifts on a support line.\n\n🌱 Stress and trauma responses, motivation, group behavior and basic counseling. You recognize panic, shock and grief and respond in ways that help.\n⚠️ Deep trauma, serious mental illness and skilled manipulators are beyond you.\n⚖️ You are not a counselor or clinician: you cannot diagnose or treat, and you refer people to professionals.\n🏫 It shows in patient questions, careful wording and a habit of noticing who has gone quiet.\n\n📈 Grants: Psychology +15",
+    "traitNarrativeEffects": "The character has studied psychology: development, stress and trauma responses, motivation, group behavior and the basics of counseling and profiling. They recognize panic, shock and grief and respond in ways that help. Prior study, not mastery: deep trauma, serious mental illness and skilled manipulators are beyond them. Not a license: they are not a counselor or clinician, cannot diagnose or treat, and refer people to professionals. It shows in patient questions, careful wording and a habit of noticing who has gone quiet.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Psychology",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "civ_fan_convention": {
+    "title": "Hero Fan Convention",
+    "beats": "A weekend in early autumn: the Hero Fan Expo fills the exhibition halls of the nearest big city, Musutafu's or Tokyo's, as the player's life sets it. The player comes as a fan, on a friend's spare ticket, or behind a booth the workplace rented.\n\nWho is there: convention staff in orange vests under a floor manager with a headset, Ms. Haruna Ando; Tidewater, a sidekick from a mid-sized agency, signing photos at a folding table, joking about her short line; Doorstop, the stocky pro the expo hired for security, whose Quirk pins whatever he touches to the floor. All Might goods are everywhere and different now: a Symbol of Peace retirement line sells out in an hour, fans tie denim armbands for Best Jeanist's recovery, and cosplayers in Sports Festival tracksuits pose as Bakugo and Todoroki.\n\nThe default course, as pressure the player can change: the main-stage panel, Who Is Number One Now, argues the first Hero Billboard Chart without All Might, due before winter. Endeavor is the highest-ranked active hero and the room's least loved; Hawks is fast and popular; a panelist insists Best Jeanist would hold the top if he were healthy. The open mic waits for a question. Midafternoon a man in a cheap All Might costume sweeps a box of signed cards off a booth and runs for the exit; Doorstop pins him to the carpet in one move and calls security. The player can be the one robbed, the one who points, or the one in the runner's path; a Quirk used outside self-defense is still illegal here, and Doorstop says so politely. Tidewater's line grows for the rest of the day.\n\nA booth worker sells out early or sits beside a stack of unsold stock; a fan chases one signature or one rare figure; a friend who bought the tickets wants a cosplay photo with the player in it.\n\nThe event is complete when the theft is handled and the player has done one thing at the expo that matters to them (a signature, a purchase, a question at the panel, a booth sold out), or leaves the hall.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_civ_fan_convention",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

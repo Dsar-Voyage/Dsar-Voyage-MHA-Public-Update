@@ -1,0 +1,20 @@
+{
+  "Sweet Lift": {
+    "name": "Sweet Lift",
+    "description": "After eating sugar, the user lifts a heavy obstacle within reach, such as a fallen beam or a jammed garage door, and holds it long enough for one person to pass. The boost lasts roughly three minutes from activation. The user must have secure footing, and the weight falls if they lose their grip or the surge ends. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

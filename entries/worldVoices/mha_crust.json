@@ -1,0 +1,15 @@
+{
+  "mha_crust": {
+    "label": "Crust",
+    "voiceTag": "male confident warm",
+    "instructions": "A deep, earnest, booming baritone, heroic and warm-hearted, neutral American accent. Open emotion, emphatic and sincere, voice thickening when moved. Once danger appears, short, powerful protective shouts.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

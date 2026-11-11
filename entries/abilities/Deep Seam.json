@@ -1,0 +1,29 @@
+{
+  "Deep Seam": {
+    "name": "Deep Seam",
+    "description": "The user presses a palm to the ground and their shaping runs through every joined stretch of rock and concrete up to about a kilometer away. They feel the shape of the stone they reach, so they find tunnels, basements and the hollows where people are trapped, and can shape stone there unseen: open a stair out of a flooded basement across the district, seal a tunnel ahead of a fleeing villain or close a stone cage around a target at the far end. The user must keep the palm down and cannot move, speak or defend themselves until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

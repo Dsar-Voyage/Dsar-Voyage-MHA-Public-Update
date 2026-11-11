@@ -1,0 +1,25 @@
+{
+  "Adamant Peak": {
+    "name": "Adamant Peak",
+    "description": "The user's signature move: they harden past their limit until the skin turns dense and glitters. Until the end of their next turn, no blow, blade, bullet or crushing weight harms them, though heat, electricity and gas still do, and their next strike deals massive bludgeoning damage and shatters any wall, vehicle or armor it lands on; afterward the hardening cracks away and they cannot harden until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

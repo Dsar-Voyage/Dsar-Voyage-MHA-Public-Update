@@ -1,0 +1,20 @@
+{
+  "Cinder Glaze": {
+    "name": "Cinder Glaze",
+    "description": "The user sweeps a foot and spreads a sheet of ice five meters across the floor, rimmed with pale-blue embers that send up wisps of steam. Anyone on it who runs or swings hard slips and falls, and bare skin pressed to it takes minor cold damage; held back, the warm rim keeps the sheet from chilling skin while still tripping runners. Its own heat melts the sheet at the end of the user's next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

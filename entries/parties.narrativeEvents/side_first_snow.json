@@ -1,0 +1,15 @@
+{
+  "side_first_snow": {
+    "title": "First Snow",
+    "beats": "Mid-December, wherever the party is: the first snow of the winter comes down on Musutafu, fat wet flakes that stick within the hour. On campus the Heights Alliance Yard turns white; in town the sidewalks go slick and the buses run late.\n\nDefault course as pressure: within minutes of the first real covering, Class 1-A is outside. Mina Ashido starts a snowball fight that splits the dorm into sides; Eijiro Kirishima hardens and takes hits for his team; Katsuki Bakugo's snowballs arrive as warm slush, and he declares that proves nothing. Someone asks Shoto Todoroki to make more snow. He explains that ice is not snow, then shaves frost off a wall until there is a soft drift, and looks quietly pleased. Tsuyu Asui does not join: the cold makes her slow and drowsy, so she wraps up in a blanket on the Class 1-A Dorm Lounge sofa and announces she will sleep until spring. Next door, Tetsutetsu Tetsutetsu challenges Kirishima to a snow fort contest, and Neito Monoma copies Todoroki's Quirk to give Class 1-B the taller wall.\n\nBy path: a Hero Course student is pulled into the fight or the fort contest, or keeps Tsu company on the sofa; a General Studies student finds Hitoshi Shinso walking through it alone, hands in his pockets, ignoring snowballs until one lands; a Support Course student watches Mei Hatsume field-test heated boots that melt a path across the Courtyard until they overheat; a Management Course student is already planning a snowy photo for the academy's public channels; faculty clear the walkways, Cementoss raises a low wall to keep the fight off the main paths, and Present Mic reads the weather alert over the campus speakers at full volume.\n\nAway from campus, Musutafu has its own first snow: commuters slipping, shop staff with shovels, a dropped grocery bag to rescue. At night the flakes fall on a quiet campus under lit dorm windows.\n\nThe event is complete when the snowball fight has a winner or the party heads back indoors to dry off.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_first_snow",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

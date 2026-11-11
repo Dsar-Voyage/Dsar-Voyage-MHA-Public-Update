@@ -1,0 +1,44 @@
+{
+  "Neito Monoma (Summer Training)": {
+    "name": "Neito Monoma (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 16,
+    "tier": "elite",
+    "voiceTag": "male sly manipulative",
+    "basicInfo": "Neito Monoma, hero name Phantom Thief, a Class 1-B first-year in U.A. Academy's Hero Course, back on a campus under lockdown after a summer of final exams, the forest training camp shared with 1-A, the League of Villains' attack on it and All Might's retirement. On the way to camp he gloated over 1-A's failed finals until Itsuka Kendo chopped him silent. Messy blond hair, blue-gray eyes, a lean build; the U.A. uniform, or his black tailcoat costume.\nSpeaking Style: Theatrical mock courtesy toward 1-A and a laugh that runs too long; brisk with 1-B.\nCombat Role: Copy specialist with quicker switching and cleaner timing after the camp's drills; the same five-minute copies.\nUnder Pressure: Keeps talking while he looks for someone to touch.",
+    "hiddenInfo": "Contradiction: At the shared camp he learned more from watching 1-A, the class he performs contempt for, than he will admit. Motivation: A faster, more reliable Copy, and 1-B ahead of 1-A in every comparison. Concealment: Growth that depends on other people's Quirks galls him; he covers it, and the summer's fright, with louder gloating. Leverage: Any 1-A setback he can advertise; Kendo's chop. Connections: Itsuka Kendo, still his off switch; his 1-B classmates, his copy partners in drills; Vlad King, who ran 1-B's camp training. Knowledge: Lived through the camp attack; knows Hosu and Kamino from the news. Canon voice & behavior: Drills copy switching against a stopwatch; gloats over any 1-A slip, then gets chopped. Thread: Whether shared training softens the rivalry or sharpens it.\nQUIRK: Copy: one touch copies a Quirk for about five minutes; several held, one used at a time; practice has sped his switching and timing, not the duration.\nSTAGE: After the summer: finals, the camp attack, Kamino and the lockdown behind him.",
+    "personality": [
+      "Showman: Turns any 1-A slip into a public announcement.",
+      "Strategist: Files which classmates' Quirks pair best with which copies.",
+      "1-B loyalist: Scores every drill as 1-B versus 1-A and argues the result.",
+      "Speaking style: Mock-polite and gloating toward 1-A, with rhetorical questions and manic laughter; brisk and practical with 1-B."
+    ],
+    "abilities": [
+      "Copy: Touching someone copies their Quirk for about five minutes; since the camp's drills he swaps between held copies faster, still one in use at a time.",
+      "Timing: Tracks each copy's five minutes and renews it from a nearby ally before it lapses.",
+      "Team planning: Pairs classmates' Quirks with the copies he carries; with no ally in reach his options shrink fast.",
+      "Quirk reading: Reads a rival's Quirk and habits from a few exchanges, sharper for watching 1-A at camp; spotting a weak point does not put it in reach.",
+      "\nFighting style: Taunts to pull an opponent in, steals a touch, then switches copies to stay unpredictable."
+    ],
+    "visualDescription": "A young man with messy, layered blond hair falling across his forehead, blue-gray eyes, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Smug, sharp-eyed expression with a thin, knowing smile.",
+    "detailType": "detailed",
+    "properName": "Neito Monoma",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e948677a-8782-43f0-ba3a-b9facad1ff37.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_neito_monoma",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/e948677a-8782-43f0-ba3a-b9facad1ff37.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/04312b7f-0173-47e0-a6b0-7dc2aa92e8e9.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/c76efaf4-1d91-4db8-9a81-7fa9c6ad26f3.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/f00bec30-5e15-47ae-9889-7a658fdcc4d5.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/e8501492-d72f-4731-9fb2-02987de1fcd3.png"
+    },
+    "initialKnown": false
+  }
+}

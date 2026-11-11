@@ -1,0 +1,24 @@
+{
+  "Gamer": {
+    "name": "Gamer",
+    "description": "🎮 You spent late nights on online matches, speedruns and strategy games.\n\n🏆 A few tournament trophies sit at home.\n🧠 You think in strategies and know your way around a computer.\n\n📈 Grants: Combat Tactics +5, Computing +5",
+    "traitNarrativeEffects": "The character grew up on competitive games: reading patterns, timing cooldowns and planning team plays. They are at home with computers and online communities, and they talk about fights in game terms.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      },
+      {
+        "skill": "Computing",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

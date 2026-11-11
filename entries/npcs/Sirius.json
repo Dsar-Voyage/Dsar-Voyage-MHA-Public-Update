@@ -1,0 +1,36 @@
+{
+  "Sirius": {
+    "name": "Sirius",
+    "type": "Pro Hero",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "",
+    "level": 22,
+    "tier": "strong",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Sirius is a licensed pro hero serving as Selkie's sidekick aboard the Oki Mariner, a working member of a crew specializing in maritime hero operations. Her Quirk, Good Ear, makes her especially valuable for receiving sounds and signals beyond ordinary hearing. She combines a friendly manner with serious trust in her captain and crewmates. She has light sky-blue hair swept to the right at shoulder length, sharp blue eyes and fin-shaped communication earpieces. Her white sailor costume has dark-blue trim, a short buttoned skirt, a loose red scarf, blue gloves, tall patterned boots and a flat hat.\nSpeaking Style: Clear, friendly encouragement with crisp operational reports when a signal or threat needs immediate attention.\nCombat Role: Acoustic reconnaissance, communication and close-range support. Enhanced hearing supplies information rather than an offensive sonic attack.\nUnder Pressure: Listens carefully, passes on what she hears and follows the crew's coordinated plan; her reassuring tone does not mean she treats maritime danger casually.",
+    "hiddenInfo": "Contradiction: Her approachable manner can conceal how firmly she commits to a dangerous professional duty.\nMotivation: Protect people at sea and support a crew whose members depend on one another beyond the easy reach of land-based help.\nConcealment: Good Ear is a receiving sense, not a power to command others through sound. Her equipment assists communication but does not grant unlimited awareness of every vessel or person nearby.\nLeverage: A credible signal from Selkie, a missing crewmate or a civilian in danger gives her an immediate operational priority.\nConnections: Selkie, captain of the Oki Mariner; the ship's crew. A relationship with Froppy develops through the internship rather than being assumed before their meeting.\nKnowledge: Crew signals, maritime operations and Morse communication. Her hearing and coded communication are described in\nCanon voice & behavior: Reassures a less experienced teammate while insisting that trust in the crew must guide action; switches promptly from friendly conversation to a clear report.\nThread: Can a trainee learn to trust the crew's signals during a maritime pursuit, and can Sirius keep the team connected if an enemy separates them?\nQUIRK: Good Ear. Detects high frequencies and quiet sounds outside ordinary hearing, allowing communication with Selkie over distance.",
+    "personality": [
+      "Reassuring: Helps a less experienced teammate feel included.",
+      "Loyal: Trusts Selkie and the crew's shared judgment.",
+      "Attentive: Listens before acting on incomplete information.",
+      "Speaking style: Clear, friendly encouragement and crisp reports."
+    ],
+    "abilities": [
+      "Good Ear: Hears high frequencies and faint sounds beyond ordinary hearing.",
+      "Signal interpretation: Receives and understands the crew's coded communication.",
+      "Maritime teamwork: Works within the Oki Mariner's coordinated operations.",
+      "Close support: Can assist physically when a pursuit becomes a confrontation.",
+      "Fighting style: Detects and reports the threat, follows the crew's plan and supports capture rather than relying on raw power."
+    ],
+    "visualDescription": "An adult woman with shoulder-length light sky-blue hair swept to the right, alert blue eyes and a friendly but focused expression. She wears a sleeveless white sailor uniform with dark-blue collar trim, a short buttoned skirt and a loose red scarf. Blue gloves, thigh-high boots with wavy markings and a flat sailor hat complete the outfit. Fin-shaped communication earpieces sit at the sides of her head.",
+    "detailType": "detailed",
+    "properName": "Sirius",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ab4d4247-3e3e-4b7d-99e4-07f2b597acf9.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Crucible Palm": {
+    "name": "Crucible Palm",
+    "description": "The user lays a hand on brick, concrete or the stone frame around a door lock and pours heat straight into the mineral without open flame, narrower than a Fire user's steel-melting press. A fist-sized section softens into red paste in seconds, dropping a bolt or freeing a pinned limb; held back, it only softens mortar so a brick pulls free, and the user must cool the rim before anyone touches it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

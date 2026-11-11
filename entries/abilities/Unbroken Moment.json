@@ -1,0 +1,29 @@
+{
+  "Unbroken Moment": {
+    "name": "Unbroken Moment",
+    "description": "The user touches up to three non-living things and holds each in the moment of the touch: for the rest of the scene, every change made to them is undone the instant it happens. A cracking pillar cannot break, a bomb's trigger cannot move, a cell door cannot open and a gun cannot fire while it stays held. Living bodies still never answer, the user cannot use any other technique of the Quirk while holding, and when the hold ends they cannot use the Quirk until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

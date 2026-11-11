@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: natsuo_scarred": {
+    "name": "Portrait Swap: natsuo_scarred",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_todoroki_family_stops_dabi",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Natsuo Todoroki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/d68f66b9-16d0-4743-bbd9-08f059ffdb02.png"
+      }
+    ]
+  }
+}

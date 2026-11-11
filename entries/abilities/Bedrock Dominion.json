@@ -1,0 +1,25 @@
+{
+  "Bedrock Dominion": {
+    "name": "Bedrock Dominion",
+    "description": "The user drives both palms into the street and the ground across several city blocks answers at once. In a single push they raise a stone ring around the whole area that no vehicle or runner can cross, lift every collapsed slab off the people beneath it, and sink every enemy standing on open ground to the knees in setting stone that grips without crushing, holding them until a heavy blow or tools break it. Water mains and gas lines crack throughout the area, collateral the user must call out to rescuers, and the user's hands go numb until they rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

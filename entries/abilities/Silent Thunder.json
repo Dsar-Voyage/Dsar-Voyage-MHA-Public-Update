@@ -1,0 +1,25 @@
+{
+  "Silent Thunder": {
+    "name": "Silent Thunder",
+    "description": "The user's signature move: a single soundless shout of thought hits every hostile mind in a wide area around them. Each enemy takes massive psychic damage and cannot act until the end of their next turn, while allies and bystanders, whom the user picks out one by one, feel nothing; afterward the user cannot send until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

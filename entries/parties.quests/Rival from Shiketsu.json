@@ -1,0 +1,17 @@
+{
+  "Rival from Shiketsu": {
+    "name": "Rival from Shiketsu",
+    "questSource": "Inasa Yoarashi",
+    "questStatement": "Inasa Yoarashi of Shiketsu Academy does nothing quietly, and since the provisional license exam he has decided you are worth his passion. Whether he saw you at Takoba or on the news, he has been sending loud messages: a match, a team-up, a chance to see what your heart is made of. He is in Osaka, by the Dotonbori Canal, and he will not stop asking until you answer in person. His schoolmates would like him to calm down.",
+    "mainObjective": "Meet Inasa Yoarashi in Osaka and answer his challenge, in a sanctioned match or side by side.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has met Inasa Yoarashi in Osaka and answered his challenge with a supervised match, a shared rescue or an honest talk, and he has decided what the PC is to him."
+    },
+    "detailType": "detailed",
+    "questLocation": "Osaka Downtown",
+    "questDesignBrief": "Big, sincere rivalry. Inasa bows too low, shouts about passion and means every word; Seiji Shishikura scolds him about decorum and looks down on U.A.; Camie Utsushimi treats everyone as an old friend. A fight in public is illegal outside a license, so a real match needs a training hall and a supervising teacher. Unless the story has established otherwise, Inasa failed the license exam and is in the Commission's remedial course until it ends, which stings; the quest does not decide that course. A sidekick PC meets him as a working pro he wants to learn from. Failure: a bruised ego, a reprimand from either academy, or a grudge that lasts.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

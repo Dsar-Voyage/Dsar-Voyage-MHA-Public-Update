@@ -1,0 +1,20 @@
+{
+  "Weak Point Read": {
+    "name": "Weak Point Read",
+    "description": "The user studies a target through the sights for a breath and finds the gap: a costume seam, a bare joint, a support item's power cell. The shot that follows ignores armor and shields and deals piercing damage (bludgeoning damage from rubber rounds), and a hit on a support item shuts it down until it is repaired. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Marksman",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

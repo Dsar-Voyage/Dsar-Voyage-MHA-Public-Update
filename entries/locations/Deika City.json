@@ -1,0 +1,107 @@
+{
+  "Deika City": {
+    "name": "Deika City",
+    "basicInfo": "Deika City is a prosperous mountain city built around Detnerat, one of Japan's biggest makers of support items, from hero gear to everyday aids for people whose Quirks make ordinary life hard. Detnerat's headquarters tower and factory campus stand at the edge of downtown, most families have someone on its payroll, and the company pays for the parks, the schools, the festivals and the new city hall. Its president, Rikiya Yotsubashi, a tall, courteous man who bows lower than his guests, is often seen beside the mayor on City Hall Plaza, and the politician Koku Hanabata gives civic talks there that draw large, orderly crowds; the local paper is edited by Chitose Kizuki, a journalist known for getting people to say more than they meant. Crime figures are among the lowest in the country; the few local hero agencies are rarely busy, and neighborhood associations settle disputes before anyone calls the police. Factory shifts change at 7 a.m. and 7 p.m., filling the streets with workers in company jackets; an evening market runs downtown, and by eleven the city is quiet. Detnerat hires temporary workers and runs public factory tours, which need booking a day ahead; the factory floors and the headquarters tower are otherwise closed to anyone without a company badge. Visitors notice the clean streets, the identical banners on every lamppost and the way conversations pause when a stranger sits down nearby. Deika Station has trains to Jaku City (about 14 km east-southeast), Hosu (about 90 km, an hour) and Tokyo (about 120 km, an hour and a half); U.A. Academy is about 150 km south, two and a half hours by rail. Gunga Mountain rises to the northwest, its private villa about an hour's drive away.",
+    "hiddenInfo": "Deika is the living heart of the Meta Liberation Army, a movement the public believes was crushed long ago. Nearly all the residents are sworn members who hold that free Quirk use is a human right; they train in basements and company gyms and cover for one another without being asked. Detnerat's president, Rikiya Yotsubashi, is the son of the army's founder, Destro, and leads it as Re-Destro, with his devoted lieutenant Geten at his side; Detnerat's money and gear supply the members. Two more lieutenants work in plain sight: Koku Hanabata, Trumpet, whose voice strengthens every listener who accepts him as leader, which is why his crowds answer as one; and Chitose Kizuki, Curious, who shapes the local news and researches anyone worth a story. The order is patience: obey the law in public and report any outsider who asks about Destro, the old army or the residents' Quirks. Right now neighborhood associations are vetting every new hire and tenant; anyone who asks the wrong questions gets a friendly visit next morning and is reported up the chain. Younger members are impatient for the day the army shows itself. A new problem walks the Downtown Streets: Muscular, a wanted serial killer who sells his violence to anyone offering a strong opponent, has drifted into town and spends his evenings at the market picking quarrels, and members under orders swallow his insults rather than use their Quirks in public. The associations reported him up the chain, not to the police. Re-Destro wants to know who sent him, and Kizuki has started asking.",
+    "x": -2.26,
+    "y": -14.09,
+    "radius": 1.5,
+    "region": "Deika",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Downtown Streets": {
+        "description": "Wide, spotless avenues of offices, cafes and department stores run from Deika Station to the Detnerat campus, lined with young zelkova trees and identical company banners on every lamppost. At shift changes, seven in the morning and seven at night, the sidewalks fill with workers in company jackets; in the evening a street market sets up along the main avenue, with grilled food, secondhand books, Detnerat seconds sold cheap and local crafts. Shopkeepers greet strangers warmly and remember their faces. Residents talk about their Quirks openly, and heteromorph shoppers draw no second looks; doors are wide and benches built for every kind of body. A huge, scarred man in a red tank top has been loitering at the market stalls lately, and people step around him with practiced calm. The same city radio station plays from every shop doorway, and the avenue leads to City Hall Plaza.",
+        "paths": [
+          "City Hall Plaza",
+          "Deika Evening Market",
+          "Deika Station Cafe"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b023c948-2d8f-4841-98a8-172b609b247e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "City Hall Plaza": {
+        "description": "A broad stone square in front of the new glass city hall, with a fountain, a covered stage and a wall of neighborhood notices. Office workers eat lunch on the benches; neighborhood associations meet in the hall's rooms in the evening; on weekend nights the stage hosts concerts and civic talks that draw large, orderly crowds, Koku Hanabata's most of all. The mayor and Detnerat's community staff often appear together, and the company's president, Rikiya Yotsubashi, sometimes stops to chat with families by the fountain. When a speaker pauses, the whole crowd answers at once, and outsiders find they are the only ones who did not know the reply. The notice wall lists clean-up days, job openings at Detnerat and new arrivals welcomed by name. The Downtown Streets lead back toward the station.",
+        "paths": [
+          "Downtown Streets",
+          "Deika Evening Market"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8655d7bf-7c08-4d14-b503-3b0cee308f22.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Deika Evening Market": {
+        "description": "Every evening from six, the market fills the pedestrian block of the main avenue nearest City Hall Plaza: two rows of identical numbered white canopies strung with bulbs, under the company banners that hang from every lamppost. Stalls sell grilled squid and yakitori, mountain vegetables, secondhand books, crafts and Detnerat seconds at half price: mobility aids, grip gloves and visors with scuffed paint. A bowl of soba is 500 yen. The rush comes after the seven o'clock shift change, when workers in company jackets stop for dinner; by ten the canopies are down and the street swept spotless. Neighborhood association volunteers in armbands keep order, welcome every stranger, ask where they are staying and how long, and jot the answers in notebooks with a smile. Residents talk openly about their Quirks in the queues. Lately a huge, scarred stranger has been picking quarrels at the grill stands, and the stallholders answer every insult with a bow and an apology. Charcoal smoke hangs over the canopies, and the city radio plays from every pole. The market runs back into the Downtown Streets, and its far end opens onto City Hall Plaza.",
+        "paths": [
+          "Downtown Streets",
+          "City Hall Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f53d78d8-20f1-45aa-a752-a94571265fa9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Deika Station Cafe": {
+        "description": "A bright cafe in Deika Station's main concourse, glass-fronted toward the ticket gates, with pale wood tables and a pastry case of chestnut cakes. The morning rush comes before the seven o'clock shift change, when Detnerat workers in company jackets queue for a 350-yen coffee and a breakfast sandwich, and the staff know most orders before anyone speaks. Midday brings travelers waiting for the Tokyo and Hosu trains and visitors booked on the factory tour, who are handed a city map with the tour office circled. Evenings are quiet but for commuters and the ticking departure board. Wide chairs, tall stools and a low counter suit every kind of body. The staff are unfailingly warm and curious: a newcomer is asked where they are from, what brings them to Deika and what their Quirk is, as small talk, and by the second visit the staff remember every answer. Conversations at the next table pause when a stranger sits down and pick up again a beat later. The city radio plays from the ceiling, and a framed poster of the company president bowing beside the mayor hangs by the door. The doors open from the concourse onto the Downtown Streets.",
+        "paths": [
+          "Downtown Streets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/774ba86b-d879-490f-b702-91ef08eadf5e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Meta Liberation Army"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7deadc2c-cb12-4b89-90d3-80137adae7ca.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

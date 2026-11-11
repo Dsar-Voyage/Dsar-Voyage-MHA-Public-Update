@@ -1,0 +1,27 @@
+{
+  "Heat: threat or break-in": {
+    "name": "Heat: threat or break-in",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Bb]r(ea|o)k\\w* into|[Bb]urgl|[Ee]xtort|[Tt]hreaten|[Bb]lackmail|[Hh]eist|[Hh]ijack)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "add",
+        "value": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mha_midnight": {
+    "label": "Midnight",
+    "voiceTag": "female soft flirtatious",
+    "instructions": "A mature woman's sultry, smooth mid-low voice with a husky purr, playful and theatrical: drawn-out words, teasing coos, delighted breathy gasps. When a call matters, a crisp, firm ruling. Plain American speech.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "All For One's Gift": {
+    "name": "All For One's Gift",
+    "description": "💀 Someone put more Quirks into your body: All For One, or a broker working with his machines. You chose one or two extra Quirks in the next step.\n\n⚠️ Every extra Quirk is a separate weight on your body. Use them one at a time and it holds; use them together and Quirk Strain climbs fast.\n⚠️ It shows: doctors and the police can tell something is wrong with you.\n🎬 Similar canon: Nomu, Tomura Shigaraki, the League's Quirk-boosted fighters.\n\n📈 Grants: one or two extra Quirks (next step)",
+    "traitNarrativeEffects": "The character carries extra Quirks forced into the body (All For One's gift or a broker's machine), each a separate Quirk with its own Gifted trait. Using ONE Quirk costs Quirk Strain as usual. Using two Quirks in the same action costs both and +10 more; three at once costs all three and +25 more. Holding two or more Quirks active at the same time adds +5 Strain every turn they stay on. From 60 Strain the body shows it (nosebleeds, migraines, hairline cracks in the skin); from 75 the extra Quirks misfire or answer late; at 100 one of them tears free of control or the body breaks, a serious injury. Rest clears Strain as usual; nothing heals the strain itself. Erasure stops every one of them. A scan, a Quirk test or Recovery Girl finds the anomaly at once: unregistered extra Quirks are a crime in themselves and a lead to All For One.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "League of Villains Recruit",
+      "Independent Villain",
+      "Vigilante"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

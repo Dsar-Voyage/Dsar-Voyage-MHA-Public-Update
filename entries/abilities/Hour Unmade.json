@@ -1,0 +1,25 @@
+{
+  "Hour Unmade": {
+    "name": "Hour Unmade",
+    "description": "The user presses both palms to the street and everything non-living across a whole city block returns to how it stood up to an hour ago. Collapsed buildings rise, shattered windows close, burst mains seal and wrecked cars spring back into shape, while every person trapped in rubble is left lying in open, rebuilt rooms. Enemies in the path of the returning debris take heavy bludgeoning damage, or are only pinned when the user holds back. Whatever was used up stays gone, fires already lit keep burning, and the user cannot undo anything until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

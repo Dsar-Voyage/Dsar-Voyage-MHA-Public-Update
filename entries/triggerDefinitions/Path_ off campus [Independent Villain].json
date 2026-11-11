@@ -1,0 +1,27 @@
+{
+  "Path: off campus [Independent Villain]": {
+    "name": "Path: off campus [Independent Villain]",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "offCampus",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Independent Villain"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

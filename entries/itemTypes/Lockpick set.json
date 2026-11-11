@@ -1,0 +1,20 @@
+{
+  "Lockpick set": {
+    "name": "Lockpick set",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infiltration",
+        "value": 5
+      }
+    ],
+    "description": "A slim roll of picks, tension wrenches and a bump key for opening locks without the owner's key. Japanese law bans possessing picking tools without a legitimate reason such as locksmith work, so police read a set in a pocket as a planned break-in. [ Tool | Black market, about ¥5,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2ee101d8-5ea5-4e9b-907f-c57103e31a9d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

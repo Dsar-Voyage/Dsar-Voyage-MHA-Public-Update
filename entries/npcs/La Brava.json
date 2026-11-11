@@ -1,0 +1,36 @@
+{
+  "La Brava": {
+    "name": "La Brava",
+    "type": "Villain",
+    "currentLocation": "Kiyashi Shopping Mall",
+    "currentArea": "Food Court",
+    "gender": "female",
+    "faction": "",
+    "level": 4,
+    "tier": "strong",
+    "voiceTag": "female melodic bright",
+    "basicInfo": "La Brava, Gentle Criminal's devoted partner, who runs the camera and keyboard behind his videos. A short woman; raspberry-pink curling pigtails, pink eyes over dark circles; an indigo blouse with a white bow, white gloves, puffed pinstriped trousers.\nSpeaking Style: Rapid, gushing praise of Gentle; tearful when he is in danger.\nCombat Role: Not a fighter: she films, hacks and boosts Gentle with her Quirk.\nUnder Pressure: Throws everything behind Gentle, her own safety included.",
+    "hiddenInfo": "Contradiction: Her worth hangs on Gentle's approval, yet her own skills carry their stunts. Motivation: Gentle's success and safety. Concealment: Her real name, Manami Aiba, and her skill as a hacker. Connections: Gentle Criminal (Danjuro Tobita), her partner and the man she loves. Canon voice & behavior: Films every flourish and cheers between takes. Thread: Whether her devotion sinks them or saves them.\nQUIRK: Love. A declaration of love boosts the one she loves for a while, with a daily limit.",
+    "personality": [
+      "Devoted: Commits every skill she has to Gentle and his dream.",
+      "Adoring: Calls every stunt Gentle's finest.",
+      "Dependent: Ties her worth to Gentle's approval.",
+      "Speaking style: Rapid praise and candid emotion."
+    ],
+    "abilities": [
+      "Love: Declares her love to boost Gentle in a fight; not on demand.",
+      "Hacking: Networks and security cameras; real skill, not a Quirk, and it takes time.",
+      "Filming: Shoots and edits the videos and plans every getaway.",
+      "\nFighting style: Stays back with camera and laptop; fights only by boosting Gentle."
+    ],
+    "visualDescription": "A woman of short stature with adult features, raspberry-pink hair in two tall, curling pigtails, large pink eyes with dark circles beneath them and pale skin. She wears an indigo long-sleeved blouse with a large white bow at the collar, white gloves and puffed pinstriped trousers, with a small camera on a strap around her neck. Eager, adoring expression.",
+    "detailType": "detailed",
+    "properName": "La Brava",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7d736faa-948e-459c-9c7b-7ee099cae7be.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_la_brava",
+    "initialKnown": false
+  }
+}

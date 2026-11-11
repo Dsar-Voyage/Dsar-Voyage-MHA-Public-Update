@@ -1,0 +1,37 @@
+{
+  "Selkie": {
+    "name": "Selkie",
+    "type": "Pro Hero",
+    "currentLocation": "Yokohama Harbor District",
+    "currentArea": "Container Docks",
+    "gender": "male",
+    "faction": "",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male deep raspy",
+    "basicInfo": "Selkie, a pro hero who captains his own patrol ship off the Yokohama coast: sea rescue and smuggling cases. A humanoid spotted seal, kind and fond of cute poses. A round seal head with whiskers, a heavy build; a navy diving suit, yellow goggles, flippers.\nSpeaking Style: Warm and playful off duty; stern, clipped orders on duty.\nCombat Role: Water specialist; his strengths are in the sea.\nUnder Pressure: Drops the poses and commands; ship and crew first.",
+    "hiddenInfo": "Contradiction: The hero who strikes cute poses on deck is the strictest captain on the coast once a job starts. Leverage: His crew's safety; anyone in the water. Connections: Sirius, his sidekick and right hand, who puts up with the posing. Knowledge: Tides, currents, shipping lanes and smugglers' habits. Thread: Which Selkie a scene gets.\nQUIRK: Spotted Seal. He can do what a spotted seal can: swim fast, dive deep, hold his breath a long time.",
+    "personality": [
+      "Playful: Strikes cute poses off duty, knowing they exasperate his crew.",
+      "Commanding: Turns stern the moment an operation begins.",
+      "Kind: Warm with his crew and anyone aboard.",
+      "Speaking style: Playful when relaxed; clipped orders on duty."
+    ],
+    "abilities": [
+      "Spotted Seal: Swims fast, dives deep, holds his breath long; on land he loses that edge.",
+      "Sea rescue: Pulls people from rough water and capsized boats.",
+      "Maritime capture: Boards and stops smugglers' boats with his crew.",
+      "Captaincy: Runs his ship through patrols, weather and pursuits.",
+      "\nFighting style: Drags the fight into the water, where he is fastest."
+    ],
+    "visualDescription": "A large, heavyset humanoid spotted seal with a round, powerful body: a seal head with gray fur dappled in dark spots, long white whiskers and big, dark, glossy eyes. He wears his hero costume: a fitted navy diving suit, yellow goggles resting on his head and broad flippers on his feet. Warm, good-humored expression with a friendly glint.",
+    "detailType": "detailed",
+    "properName": "Selkie",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/35da16a5-c632-4043-846f-809772533b9a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_selkie",
+    "initialKnown": true
+  }
+}

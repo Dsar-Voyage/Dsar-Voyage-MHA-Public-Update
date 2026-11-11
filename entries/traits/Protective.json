@@ -1,0 +1,20 @@
+{
+  "Protective": {
+    "name": "Protective",
+    "description": "🛡️ Anyone smaller, weaker or outnumbered near you becomes your responsibility.\n\n🧱 You put yourself between the threat and the people behind you, and you hold there.\n⚠️ You hover, and capable people resent being treated as if they need guarding.\n⚠️ Threaten someone you protect and you stop thinking clearly.\n🔀 If you are also Loyal, your own people come first, then everyone else.\n\n📈 Grants: Blocking +5",
+    "traitNarrativeEffects": "The character is protective: they watch over anyone smaller, weaker or outnumbered, step between the threat and the people behind them and hold the line. Weakness: they hover over capable people who resent it, and a threat to someone they protect makes them stop thinking clearly and take bad risks. If the character is also Loyal, their own people come first. The narrator shows who is vulnerable in a scene; whom the character guards is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

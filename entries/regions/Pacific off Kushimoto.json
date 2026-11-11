@@ -1,0 +1,28 @@
+{
+  "Pacific off Kushimoto": {
+    "name": "Pacific off Kushimoto",
+    "basicInfo": "Open Pacific south of Cape Shionomisaki, the southernmost tip of Honshu, which rises just beyond the northern edge with its white lighthouse and grassy bluff; Kii-Oshima and the Kashinozaki lighthouse lie to the northeast. The Kuroshio passes closer to land here than almost anywhere on Honshu's coast, a fast warm river within the ocean running east at several knots, deep blue, clear and full of life, and it feeds the coral and tropical fish of Kushimoto's reefs just north. The seafloor drops quickly to great depths. Swell is constant, the cape is a notorious meeting place of wind and current, rough in winter, and it sits on a regular typhoon track in late summer. Coastal shipping between Tokyo Bay and Osaka Bay rounds the cape here, so lines of freighters, tankers and car carriers pass day and night. Fishing boats from Kushimoto and Katsuura work for tuna, bonito and longtooth grouper, and the bluefin tuna farm pens in the sheltered bays behind Oshima lie just north. A party here is on a fishing boat, a diving charter out of Kushimoto, a coast guard patrol, or carried by a flying or swimming hero.",
+    "hiddenInfo": "Shipping traffic and the current make this a busy rescue sea; the coast guard station at Kushimoto handles most calls, and maritime heroes on loan from Wakayama cover the cape in typhoon season. Small trouble is illegal fishing, theft from the tuna pens, and divers poaching the reefs.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -6,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dddd83f8-2fd7-4bf7-ac65-4ae7b910f0aa.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

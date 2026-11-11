@@ -1,0 +1,29 @@
+{
+  "Close Quarters Redirection": {
+    "name": "Close Quarters Redirection",
+    "description": "The user alternates precisely angled sole bursts with brief wall contacts inside a room fifteen meters across until the end of the user's next turn. The user changes direction around two allies, intercepts one approaching attacker and deals heavy bludgeoning damage with a checked kick; held back, it becomes a trip. The route requires visible clear surfaces and offers no protection from unseen attacks, and the user exhausts their stored air afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

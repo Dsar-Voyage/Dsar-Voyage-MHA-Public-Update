@@ -1,0 +1,25 @@
+{
+  "Anchored Glacier Stance": {
+    "name": "Anchored Glacier Stance",
+    "description": "The user's signature move: they root into an anchored glacier stance of stone-hard ice that no charge, blast or truck can push over. Until the end of their next turn no blow harms them, and they slam both forearms down to drive a wave of stone-ice across a street for massive bludgeoning and cold damage; held back, it only pins feet. Pushing both natures leaves them unable to use the Quirk next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

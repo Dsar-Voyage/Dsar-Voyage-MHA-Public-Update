@@ -1,0 +1,20 @@
+{
+  "Studied: Striking": {
+    "name": "Studied: Striking",
+    "description": "🥊 You trained in a striking art: boxing, karate, kickboxing or Muay Thai, at a gym, a dojo or on a school team.\n\n🌱 Guard, footwork, punches, kicks, elbows and knees with the hips behind them. You know how to hit without breaking your own hand.\n⚠️ A heavy brawler, a heteromorph's armored hide or a Quirk-boosted opponent can still overpower you, and street fights have no referee.\n⚖️ Hitting someone outside sport or self-defense is assault, and courts look hard at a trained fighter's claim of self-defense.\n🏫 It shows in knuckle calluses, a squared stance when tense and calm on a crowded train.\n\n📈 Grants: Striking +15",
+    "traitNarrativeEffects": "The character has trained to strike: a guard, footwork, punches, kicks, elbows and knees thrown with the hips behind them, and the conditioning of sparring rounds. They know how to hit without breaking their own hand. Prior study, not mastery: a heavy brawler, a heteromorph's armored hide or a Quirk-boosted opponent can still overpower them, and street fights have no referee. Not a license: hitting someone outside sport or self-defense is assault, and courts look hard at a trained fighter's claim of self-defense. It shows in knuckle calluses, a squared stance when tense and calm on a crowded train.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Striking",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "v_hired_muscle": {
+    "title": "Hired Muscle",
+    "beats": "An evening in Kamino Ward a few days before the U.A. Sports Festival, with festival previews on every diner screen. A moneylender who works from an office above a pachinko parlor on the Shopping Street, a soft-spoken man in a cardigan with a ledger and no patience, has three accounts overdue and a fee for anyone who brings back cash tonight. Word reaches the party through a broker's text or a regular on Snack Bar Row; the meeting is a booth at the Late-Night Diner, across the road from the police box. He sends his own enforcer along, a heavy man who enjoys the work. The lender, his enforcer and everyone on his books are generated people.\n\nDefault course, as pressure the party can change: the first debtor is a day laborer in the Backstreets whose Quirk hardens his fists to stone; cornered, he swings, and a fight in a narrow lane brings neighbors to their windows with phones out. The second runs a noodle stall and shares a room with his younger sister, a grown woman working night shifts to pay his debt; she stands in the doorway and will not move, and the enforcer reaches for her first. The third is a mama on Snack Bar Row who pays in coins, smiles, and mentions that her cousin is a police sergeant in the next ward; leaning hard on her is the fastest way to put the police on the party's trail.\n\nThe party chooses how hard to lean: a threat, a broken shutter, a beating, a deal that buys a week, a debt quietly covered from its own pocket, or turning on the lender and his ledger. Any visit that ends in blood or a police report draws attention, the third most of all; clean collections, a name for being reasonable and a few quiet nights away from Kamino cool it. The enforcer reports everything, the lender pays in full only for cash, and his other clients hear how the party works. Violence stays quick and grounded and is never lingered over.\n\nThe event is complete when the three visits are done and the party has taken its fee, refused it or crossed the lender.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_hired_muscle",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

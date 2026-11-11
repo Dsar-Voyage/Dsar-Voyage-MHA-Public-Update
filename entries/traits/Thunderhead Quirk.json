@@ -1,0 +1,43 @@
+{
+  "Thunderhead Quirk": {
+    "name": "Thunderhead Quirk",
+    "description": "⛈️ You gather a small storm cloud of your own: charged wind that steers its own lightning.\n\n🧬 A Fusion Quirk of Wind and Electricity: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you throw charged gusts about five meters and deliver close-range static jolts.\n📈 With training: static updrafts for short hops, rain-and-static cover for an escape, wind channels that guide a spark onto one target or safely to the ground, a charged downdraft that pins and numbs, and lightning steered past bystanders.\n⚠️ Sealed rooms starve your cloud.\n🔗 Common drawback pairing: Stamina Drain, as feeding wind and charge together wears you down fast.\n🎬 Similar canon Quirks: Nine (Weather Manipulation), at a personal scale.\n\n📈 Grants: Speed +1, Quirk Control +10, Quirk Output +10, Evacuation +5\n⚡ Starting techniques: Charged Gust, Ozone Clasp\n🛡️ Resists: electric",
+    "traitNarrativeEffects": "Scale: a damp, static storm cloud wraps shoulders and hands. New adult user: five-meter gusts shove an adult back; updrafts give a half-story hop; touch jolts. More needs techniques. Limits: sealed, bone-dry or grounded rooms thin it; crosswinds scatter it; wet ground carries stray current; no flight, air cuts or wiring control yet. Quirk Strain: light: charged gust, ozone clasp; moderate: updraft, rain-static cover, spark channel; heavy: pinning downdraft, vapor draft; severe: signature lightning, room storm cell. Fusion: Wind plus Electricity, each about half single-nature range and force; no high flight, air blades, nerve-speed sprints or district blackouts; only it guides sparks to a target or ground, makes rain-static cover and numbing downdraft pins, steers lightning past bystanders. Type: Emitter. Law: unlicensed public gusts or shocks are assault; stray static frying phones, signals or medical devices is strict liability. Look: static hair, sparking mist.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Charged Gust",
+      "Ozone Clasp"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "electric"
+    ]
+  }
+}

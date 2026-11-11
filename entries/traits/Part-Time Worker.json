@@ -1,0 +1,24 @@
+{
+  "Part-Time Worker": {
+    "name": "Part-Time Worker",
+    "description": "☕ You worked convenience store nights and café weekends.\n\n💴 You have earned your own money all through high school.\n🧾 You know how to serve customers and how a small business runs.\n\n📈 Grants: Hospitality +5, Business +5",
+    "traitNarrativeEffects": "The character worked part-time jobs through high school: registers, stock, difficult customers and shift schedules. They are practical about money, polite under pressure and know how small businesses run.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Hospitality",
+        "modifier": 5
+      },
+      {
+        "skill": "Business",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

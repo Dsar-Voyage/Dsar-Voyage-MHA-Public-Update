@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: himiko_toga_plf": {
+    "name": "Portrait Swap: himiko_toga_plf",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Himiko Toga",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/baaff094-65c9-4e2e-8426-137ce55c31e9.png"
+      }
+    ]
+  }
+}

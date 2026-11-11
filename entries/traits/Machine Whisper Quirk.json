@@ -1,0 +1,40 @@
+{
+  "Machine Whisper Quirk": {
+    "name": "Machine Whisper Quirk",
+    "description": "⚙️ You feel what a machine is doing through your hands and can talk it into doing what it was built for.\n\n🌱 A touch tells you what is running, what is broken and how to work it; you open an electronic lock, close a shutter or stall an engine with no key or code.\n📈 Training adds locking villains in their own gear, lurching a forklift at an attacker, steadying an elevator, distant drones and driverless cars, and a whole building.\n⚠️ Only machines with a motor, an engine or a circuit answer: a padlock, a knife, a gun and anything living are out of reach.\n🔗 Common drawback pairing: Cognitive Fade, as every machine you hold crowds your own thoughts until words come slowly.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Analysis +10, Support Engineering +5\n⚡ Starting techniques: Diagnostic Touch, Coaxed Lock",
+    "traitNarrativeEffects": "Scale: bare-skin touch reads a machine's state, faults and design and makes it run any built-in function without controls, key or code. New adult user: one touched machine at a time (car, lock, phone, drone); distance needs techniques. Limits: only motor, engine or circuit machines; never simple mechanisms (padlocks, knives, guns, bicycles) or living things, Quirk-made limbs included; implants (pacemaker, prosthetic) are beyond a new user. Only what working parts allow: no power, no motion; cut cables stay cut. No electricity, no metal pulling; many machines at once blur. Quirk Strain: light: reading, unlock, stall; moderate: locking gear, lurch, drone steering; heavy: halting a failing machine, remote driving; severe: signature, running a building. Type: Emitter. Law: unlocking or taking a vehicle without consent or license is unauthorized access and theft; police check registered machine Quirks first after a hacked door. Look: fingertips on it, eyes half shut.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Support Engineering",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Diagnostic Touch",
+      "Coaxed Lock"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

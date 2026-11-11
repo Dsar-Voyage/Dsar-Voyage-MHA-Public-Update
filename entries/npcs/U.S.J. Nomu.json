@@ -1,0 +1,40 @@
+{
+  "U.S.J. Nomu": {
+    "name": "U.S.J. Nomu",
+    "type": "Nomu",
+    "currentLocation": "Nomu Warehouse",
+    "currentArea": "Warehouse Storage Floor",
+    "gender": "male",
+    "faction": "League of Villains",
+    "level": 45,
+    "tier": "boss",
+    "voiceTag": "male monster growly",
+    "basicInfo": "A Nomu built for one job: killing All Might. A massive black-skinned body, an exposed brain, bulging lidless eyes, a beaked mouth full of teeth; beige trousers.\nSpeaking Style: Silent; growls at most.\nCombat Role: Strength and speed to match All Might, with Shock Absorption and Super Regeneration.\nUnder Pressure: Keeps to his last order through any damage; without orders he stands still.",
+    "hiddenInfo": "Motivation: None of his own. Connections: Tomura Shigaraki, his handler; Kurogiri, whose warp gates deliver him; All Might, his target. Knowledge: Orders and targets, nothing more. Canon voice & behavior: Stands motionless until ordered, then attacks without restraint; leaves a trapped limb behind and regrows it. Thread: Whether heroes find his limit before he kills someone.\nQUIRK: Shock Absorption and Super Regeneration; his strength and speed are his body's, not a Quirk.",
+    "personality": [
+      "Order-bound: Pursues his order through any resistance until told to stop.",
+      "Pain-blind: Wounds change his body, never his behavior.",
+      "Inert: Idle until his handler speaks.",
+      "Speaking style: Silent; growls at most."
+    ],
+    "abilities": [
+      "Shock Absorption: Blunt blows sink in harmlessly; a fast enough barrage overloads it.",
+      "Super Regeneration: Regrows lost limbs in moments; damage still lands first.",
+      "Raw power: Strength and speed to trade blows with All Might; Erasure cannot touch it.",
+      "Literal obedience: Follows spoken orders at once and to the letter.",
+      "\nFighting style: Closes, seizes and crushes, absorbing counters until ordered off or overloaded."
+    ],
+    "visualDescription": "A massive, hairless creature with dark blue-black skin over enormous muscles, the top of the head open to show a large exposed brain drawn clean and stylized, round bulging lidless eyes with tiny pupils, and a wide beaked mouth lined with rows of teeth. He wears only beige trousers. Blank, vacant stare.",
+    "detailType": "detailed",
+    "properName": "U.S.J. Nomu",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5ba24bae-90d8-4266-986c-8cfba1314e4f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "bludgeoning"
+    ],
+    "worldVoiceId": "mha_u_s_j_nomu",
+    "initialKnown": false
+  }
+}

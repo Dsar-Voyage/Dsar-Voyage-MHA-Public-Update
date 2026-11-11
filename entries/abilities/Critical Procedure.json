@@ -1,0 +1,15 @@
+{
+  "Critical Procedure": {
+    "name": "Critical Procedure",
+    "description": "With the equipment of a clinic, an ambulance or a field hospital, the user performs a critical procedure: closing a bleeding vessel, draining a collapsed lung, setting a compound fracture or giving the right antidote. The patient's serious or near-fatal injury stops threatening their life, and they recover from it in days of rest instead of weeks. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Medicine",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

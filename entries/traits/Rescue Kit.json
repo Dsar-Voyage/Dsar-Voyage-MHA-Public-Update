@@ -1,0 +1,40 @@
+{
+  "Rescue Kit": {
+    "name": "Rescue Kit",
+    "description": "⛑️ You carry a bag packed for accidents and disasters.\n\n⚖️ All of it is legal to own and carry anywhere.\n🤝 People who see it take you for someone who expects to help.\n⚠️ Rescue gear gives no authority at a disaster: heroes, firefighters and police control the scene, and crossing a cordon is an offense.\n🔄 Used supplies run out and are restocked at a pharmacy or a hero supply store.\n\n🎒 Starts with: First aid kit ×3, Respirator mask, Climbing rope, Flashlight",
+    "traitNarrativeEffects": "The character owns a rescue bag: a stocked first aid kit, a filter mask against smoke, dust and gas, a coil of rescue-rated rope and a bright waterproof flashlight. All of it is legal to own and carry anywhere, and people who see it take the character for someone who expects to help. Owning rescue gear gives no authority at a disaster: heroes, firefighters and police control the scene, and crossing a cordon is still an offense. Used supplies run out and are restocked at a pharmacy or a hero supply store.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "First aid kit",
+        "quantity": 3
+      },
+      {
+        "item": "Respirator mask",
+        "quantity": 1
+      },
+      {
+        "item": "Climbing rope",
+        "quantity": 1
+      },
+      {
+        "item": "Flashlight",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

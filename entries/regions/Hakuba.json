@@ -1,0 +1,30 @@
+{
+  "Hakuba": {
+    "name": "Hakuba",
+    "basicInfo": "The northern Northern Alps and the Hakuba valley, deep in western Nagano: from Kurobe Dam and its lake in the west, across the Ushiro-Tateyama and Hakuba ranges, to the valley towns of Hakuba, Otari and northern Omachi and the volcanic peaks of Togakushi, Kurohime and Myoko on the eastern edge. No coast. The Hakuba Sanzan, Shirouma, Goryu and Kashimayari, form a white wall nearly three thousand meters high above the valley, with the Himekawa river running north toward the Sea of Japan and the Takase and Kurobe rivers cutting deep gorges to the west. Winters bring huge snowfalls of dry powder and bitter cold; summers are cool, green and full of hikers, with alpine flowers on the ridges and the Hakuba snow gorge holding ice into August. Hakuba village is an international ski town with big resorts such as Happo-one and Tsugaike, the ski jumps from the Nagano Olympics, chalets, bars and bakeries run by newcomers alongside old farming families; summer brings paragliding, rafting and mountain biking. Omachi is a dam and spring-water town beside the three Nishina lakes, the Nagano gateway to the Tateyama Kurobe Alpine Route, where an electric bus runs through the mountain to Kurobe Dam, whose spillway roars from summer into autumn. Togakushi, in the east, is a highland of old shrines, a cedar avenue centuries old, ninja lore and some of the best soba in Japan. The JR Oito Line runs Matsumoto to Shinano-Omachi and Hakuba and on to Minami-Otari and Itoigawa; express buses link Hakuba to Nagano Station in about seventy minutes and to Shinjuku in about five hours. From Musutafu it is about three and a half hours via Tokyo, the shinkansen to Nagano and the bus. Visitors ski, climb, soak in onsen, eat soba and oyaki, and ride the alpine route. A small hero office in Hakuba works with the police, ski patrols and licensed rescue sidekicks, many of them multilingual for the foreign crowd, and Quirks with snow or wind sense are prized on avalanche crews.",
+    "hiddenInfo": "Hakuba's boom brings foreign money, soaring land prices, short-staffed resorts and friction between old farming families and new lodge owners. Out-of-bounds skiers and summer hikers on the snow gorge cause most rescues. Serious hero help is in Nagano or Matsumoto, an hour or more away; Hakuba and Omachi have small offices and winter rescue leans on ski patrols and police. Villainy: theft from lodges and rental shops, drunken tourists, drug dealing in resort bars, and unlicensed Quirk stunts on the slopes.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -2,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/04328bce-ccfd-4e64-b521-22be07176048.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

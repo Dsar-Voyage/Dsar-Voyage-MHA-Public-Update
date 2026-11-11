@@ -1,0 +1,20 @@
+{
+  "Ironclad Charge": {
+    "name": "Ironclad Charge",
+    "description": "The user hardens and charges headlong through whatever stands in the way. Everyone in the line of the charge takes bludgeoning damage and is thrown aside, and a wooden door, a drywall partition, a fence or a parked scooter in the path is smashed open or shoved clear. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

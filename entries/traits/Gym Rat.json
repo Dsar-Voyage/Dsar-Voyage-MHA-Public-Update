@@ -1,0 +1,24 @@
+{
+  "Gym Rat": {
+    "name": "Gym Rat",
+    "description": "🏋️ You lived at the gym after school.\n\n💪 Weights and a heavy bag were your daily routine.\n📓 You kept a training log and never skipped it.\n\n📈 Grants: Conditioning +5, Striking +5",
+    "traitNarrativeEffects": "The character kept a strict training routine through high school and still does: early workouts, protein, rest days counted. They are hard to tire and know how to hit; they get restless when a day has no training.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Conditioning",
+        "modifier": 5
+      },
+      {
+        "skill": "Striking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

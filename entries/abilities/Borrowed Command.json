@@ -1,0 +1,24 @@
+{
+  "Borrowed Command": {
+    "name": "Borrowed Command",
+    "description": "Wearing the form of a gang's boss, a crew chief or a squad leader, the user takes their place in front of their people. Until the real leader appears or the user is exposed, those people carry out any order their leader could plausibly give: releasing hostages, standing down, moving out or walking into a trap. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

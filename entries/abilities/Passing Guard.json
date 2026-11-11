@@ -1,0 +1,20 @@
+{
+  "Passing Guard": {
+    "name": "Passing Guard",
+    "description": "The user keeps one arm and shoulder phased while closing with an opponent within a few steps, letting a single guard or grab pass through them. They turn solid to seize the opponent's wrist until the end of the user's next turn. The grip is ordinary once made, and another attack can hit the solid arm. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

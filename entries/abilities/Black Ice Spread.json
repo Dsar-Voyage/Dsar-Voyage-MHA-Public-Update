@@ -1,0 +1,20 @@
+{
+  "Black Ice Spread": {
+    "name": "Black Ice Spread",
+    "description": "The user spreads a thin, clear sheet of ice across the floor or street around them. Until it melts, anyone but the user who runs, charges or swings hard on it falls down, vehicles on it slide out of control, and the user skates across it at speed. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

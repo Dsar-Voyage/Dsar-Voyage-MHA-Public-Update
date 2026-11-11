@@ -1,0 +1,24 @@
+{
+  "Faultline Flurry": {
+    "name": "Faultline Flurry",
+    "description": "The user hardens to their densest and drives a flurry of ridged blows into a target. It deals heavy bludgeoning and slashing damage, and the worn armor, riot shields, support gear and hardened skin it strikes crack apart and give no protection for the rest of the scene. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

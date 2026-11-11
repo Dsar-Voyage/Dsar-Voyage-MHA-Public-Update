@@ -1,0 +1,28 @@
+{
+  "Place Light: dorm unpacked (day 3)": {
+    "name": "Place Light: dorm unpacked (day 3)",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "dormUnpacked",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "dormUnpacked",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      }
+    ]
+  }
+}

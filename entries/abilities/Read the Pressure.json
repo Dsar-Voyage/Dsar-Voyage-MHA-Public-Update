@@ -1,0 +1,15 @@
+{
+  "Read the Pressure": {
+    "name": "Read the Pressure",
+    "description": "Over a short conversation, the user tracks what a person avoids saying and what they keep coming back to. The user learns what this person most wants and most fears right now, and whether they are acting under someone else's threat, blackmail or mind-affecting Quirk. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Insight",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

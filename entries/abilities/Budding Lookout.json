@@ -1,0 +1,20 @@
+{
+  "Budding Lookout": {
+    "name": "Budding Lookout",
+    "description": "The user buds a working eye, ear or mouth at the tip of a limb and slides it around a corner, through a cracked door or into a gap in rubble. They see or hear from the tip while their body stays behind cover, and a budded mouth lets them talk a trapped person through the wait; a blow to the bud hurts the user, and it sinks back when they let it go. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

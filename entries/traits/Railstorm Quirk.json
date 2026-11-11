@@ -1,0 +1,43 @@
+{
+  "Railstorm Quirk": {
+    "name": "Railstorm Quirk",
+    "description": "🧲 Current runs through your arms as magnetic coils: you accelerate metal and ride on steel.\n\n🧬 A Fusion Quirk of Magnetism and Electricity: each side at about half a single Quirk's reach and force, plus moves only the fusion can do.\n🌱 At the start you snatch a steel weapon within five meters with a spark and jolt a target on touch.\n📈 With training: coins and bearings fired as stun shots (lethal only if you let them), a metal-armored villain pinned to a wall, rides along steel girders, a pulse that kills phones, cameras and detonators, falling steel caught midair and a floor's wiring seized.\n⚠️ Rubber and plastic ignore you, and it fries your own phone.\n🔗 Common drawback pairing: Overheating, as coil current heats your forearms.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Support Engineering +5\n⚡ Starting techniques: Sparking Snatch, Polar Jolt\n🛡️ Resists: electric",
+    "traitNarrativeEffects": "Scale: body charge loops into magnetic coils. A new adult user moves steel up to half a person's weight within five meters, locks muscles by touch jolt, powers small devices a few minutes; more needs techniques. Limits: rubber, plastic, wood, stone, glass, unmarked flesh ignore it; insulation blocks it; water spreads it to all; strong pulses fry cards, the user's phone, unshielded gear. Quirk Strain: light: snatch, jolt; moderate: armor pin, induction pulse, bearing volley, rail glide; heavy: falling-steel catch; severe: signature coil shot, floor-wiring seizure, awakened uses. Fusion: magnetism plus electricity, each about half a pure user's range and force; no block-wide metal command, car swings, unguided long-range lightning or storms; only the fusion fires coin or bearing stun shots, rides rails, snuffs electronics. Type: Emitter. Law: full-force shots are assault with a deadly weapon; frying pacemakers or public signals is reckless endangerment. Look: arcs.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Support Engineering",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Sparking Snatch",
+      "Polar Jolt"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "electric"
+    ]
+  }
+}

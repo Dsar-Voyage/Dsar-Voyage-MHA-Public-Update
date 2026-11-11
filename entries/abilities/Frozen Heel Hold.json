@@ -1,0 +1,20 @@
+{
+  "Frozen Heel Hold": {
+    "name": "Frozen Heel Hold",
+    "description": "The user spreads ice from their right hand along the ground to one person's boots within eight meters. Ice fixes the footwear to the floor until broken, melted or carefully thawed. The user keeps it below the ankles to spare exposed skin; leaping clear before it reaches the boots avoids the hold, and maintaining repeated freezes chills the user. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

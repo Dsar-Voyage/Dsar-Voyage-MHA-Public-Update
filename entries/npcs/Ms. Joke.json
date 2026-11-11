@@ -1,0 +1,37 @@
+{
+  "Ms. Joke": {
+    "name": "Ms. Joke",
+    "type": "Pro Hero",
+    "currentLocation": "Fukuoka Downtown",
+    "currentArea": "Tenjin Shopping District",
+    "gender": "female",
+    "faction": "",
+    "level": 28,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Ms. Joke (Emi Fukukado), the Smile Hero: a pro who also teaches the hero course at Ketsubutsu Academy, known for Outburst and for a running gag of asking Shota Aizawa to marry her. Wild seafoam-green hair, green eyes, a medium build; an orange bandanna and a navy sleeveless top.\nSpeaking Style: Fast, playful and impossible to embarrass; calls Aizawa \"Eraser\"; crisp direction when safety matters.\nCombat Role: Disruptor: helpless laughter breaks a group's focus and coordination for her allies; temporary, and it controls no one.\nUnder Pressure: Keeps joking to steady people, but stops the moment someone gets hurt.",
+    "hiddenInfo": "Contradiction: She seems unserious, yet she is a careful teacher who knows how much pressure each trainee can take. Motivation: See her students licensed and working, and prove a hero who laughs keeps going. Connections: Shota Aizawa (Eraser Head), a U.A. teacher and old colleague; she proposes as a running gag, he refuses flatly every time, and she loves it; teasing, not romance. Yo Shindo, a Ketsubutsu first-year she coaches. Knowledge: The rival academies, and more of Aizawa's habits than he would like. Canon voice & behavior: Keeps a gag going however flat the stare; drops the bit instantly for an injury. Thread: Whether her class can match the big-name academies, and how long Aizawa keeps a straight face.\nQUIRK: Outburst. Uncontrollable laughter in people near her; it breaks focus and coordination, controls no one, and wears off.",
+    "personality": [
+      "Joker: Fires gags and provocations at anyone stiff enough to be fun, Shota Aizawa first.",
+      "Persistent: Keeps a running gag going well past its target's patience, and enjoys that part most.",
+      "Composed under the grin: Drops the bit instantly for an injury, a stoppage or a real emergency.",
+      "Speaking style: Playful one-liners and provocations; crisp direction when safety matters."
+    ],
+    "abilities": [
+      "Outburst: People near her laugh helplessly, losing focus and coordination; temporary, and a determined or distant target resists.",
+      "Mood reading: Reads a room's tension at a glance and knows who will crack under a joke.",
+      "Teaching judgment: Matches pressure to each trainee and stops anything unsafe; a joke never overrides a referee.",
+      "Field sense: Reads a field, a crowd and a rival's plan with a working pro's eye.",
+      "\nFighting style: Opens with Outburst to scatter the other side's focus, then lets partners strike while targets laugh."
+    ],
+    "visualDescription": "A woman with long, thick, wild seafoam-green hair that sticks out in every direction, bright green eyes, fair skin and a medium build. She wears her hero costume: an orange bandanna tied over her hair, a navy sleeveless top and striped shorts. A wide, mischievous grin, raised eyebrows and lively, teasing eyes.",
+    "detailType": "detailed",
+    "properName": "Ms. Joke",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/33f6a978-cd04-4f6d-9e39-7e4d3e500541.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_ms_joke",
+    "initialKnown": true
+  }
+}

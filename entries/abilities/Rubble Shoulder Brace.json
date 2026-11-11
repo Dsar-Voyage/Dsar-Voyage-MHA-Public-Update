@@ -1,0 +1,20 @@
+{
+  "Rubble Shoulder Brace": {
+    "name": "Rubble Shoulder Brace",
+    "description": "The user wedges the creature beneath a damaged doorway, stair landing or small slab of rubble. It holds the weight until the end of the user's next turn while one or two people crawl clear. The user must remain nearby, and a collapsing floor or direct floodlight can overwhelm the brace before everyone escapes. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

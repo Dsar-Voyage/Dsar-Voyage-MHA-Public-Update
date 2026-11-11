@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Engine Quirk": {
+    "name": "Mechanics: Canon Drawback Engine Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Engine Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Cooldown",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

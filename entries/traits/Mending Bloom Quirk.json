@@ -1,0 +1,40 @@
+{
+  "Mending Bloom Quirk": {
+    "name": "Mending Bloom Quirk",
+    "description": "🌸 Every plant you grow carries your healing.\n\n🧬 A Fusion Quirk of Plant and Healing: each side at about half a single Quirk's reach and speed, plus moves only the fusion can do.\n🌱 At the start you bind foes in soothing vines out to five meters and grow moss dressings that stop bleeding.\n📈 With training: vine stretchers for the wounded, calming pollen against pain, a fruit that restores stamina, a draining touch, a striking living bough and a cocoon for the dying.\n⚠️ Plants need light and water, and the healing is slow. Living plants only, no gel.\n🔗 Common drawback pairing: Stamina Drain, as both growth and healing empty your strength.\n🎬 Similar canon Quirks: Recovery Girl (Heal), Ibara Shiozaki (Vines).\n\n📈 Grants: Cooperativeness +1, Quirk Control +10, Quirk Stamina +10, First Aid +5\n⚡ Starting techniques: Balm Tendril Snare, Moss Poultice",
+    "traitNarrativeEffects": "Scale: living moss, vines, flowers and fruit grow from hands and forearms, all slowly healing others. New adult user: soft vines hold an adult five meters off; a moss pad stops bleeding at once and closes small cuts in minutes; real plants, no gel. More needs techniques. Limits: darkness or thirst halves reach and withers them; fire and blades ruin them. Healing skips the user. Quirk Strain: light: soothing snare, moss dressing; moderate: vine stretcher, sapping touch, calming pollen, healing fruit; heavy: bough strike; severe: signature arbor, moss cocoon. Fusion: Plant plus Healing at half of pure Plant reach and of pure Healing speed; no instant bone-knitting or block-cracking trunks; only fusion makes dressings, stretchers, pollen, fruit. Type: Emitter. Law: unlicensed binding or pollen-dosing is unlawful restraint; non-emergency unlicensed treatment breaks medical law. Look: herbal scent.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "First Aid",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Balm Tendril Snare",
+      "Moss Poultice"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

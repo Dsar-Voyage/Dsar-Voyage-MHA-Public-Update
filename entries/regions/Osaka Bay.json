@@ -1,0 +1,30 @@
+{
+  "Osaka Bay": {
+    "name": "Osaka Bay",
+    "basicInfo": "The western half of Osaka Bay and its shores: the Akashi and south Kobe waterfront on the north, the eastern coast of Awaji Island on the west, the Senshu coast of southern Osaka with Kansai International Airport on the east, and the Kitan Strait leading out toward the Pacific in the south. About a third of the cell is land. The water is a shallow, busy inland sea, green-gray and full of ships: container vessels, car ferries to Shikoku and Kyushu, fishing boats and the fast boats that link Kobe Airport with Kansai Airport. In the northwest the Akashi Kaikyo Bridge, one of the longest suspension bridges in the world, spans the strait to Awaji. Akashi itself is a cheerful fishing city famous for octopus, sea bream and its Uontana fish market, and for sitting on Japan's time meridian, marked by an observatory tower. East of it, the beaches of Maiko and Suma lead to Kobe's harborfront: Harborland, Meriken Park, the man-made Port Island and Kobe Airport. Across the bay, Awaji's east coast runs from Iwaya past the Yumebutai garden complex to Sumoto, a castle and hot-spring town on the island's main bay. On the southeast shore, Kishiwada's castle town holds the Danjiri Festival each September, with huge wooden floats hauled at a run around street corners; south of it Kaizuka, Izumisano and Rinku Town face the airport island across a long bridge, and the coast tapers to the fishing towns of Misaki and, across the Wakayama line, Kada, where the Tomogashima islands guard the strait. Winters are mild, summers humid. Food is Akashi-yaki egg dumplings, octopus, Awaji onions and Senshu water eggplant. The Sanyo Shinkansen stops at Nishi-Akashi, about two and a half hours from Musutafu; the JR Hanwa and Nankai lines serve the Senshu coast and the airport, and expressways cross both bridges. Akashi, Kobe and Kishiwada have hero agencies and busy police boxes; at the danjiri festival, sidekicks with strength Quirks walk beside the floats.",
+    "hiddenInfo": "This is heavily used water, so trouble is maritime: freighter collisions in the straits, smuggling through Kobe's and the airport's cargo docks, and theft from containers. Kishiwada's festival is joyful and dangerous, with crush injuries and fights every year. Kansai Airport has its own security, police and contracted heroes. Osaka's agencies are close; nothing here is far from help.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -7,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e1e0b1a5-77e6-4d2d-8f5b-43d6e6e9ef87.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

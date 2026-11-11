@@ -1,0 +1,30 @@
+{
+  "Quest Lapse: The Collector": {
+    "name": "Quest Lapse: The Collector",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "The Collector",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_shie_hassaikai_raid",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-complete",
+        "questId": "The Collector"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the quest \"The Collector\" is over; its moment has passed in the calendar. Do not play it, offer it again or speak of it as still to come."
+      }
+    ]
+  }
+}

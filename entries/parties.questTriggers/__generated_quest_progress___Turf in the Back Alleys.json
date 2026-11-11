@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Turf in the Back Alleys": {
+    "name": "__generated_quest_progress__/Turf in the Back Alleys",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The fight over the station's Back Alleys has ended because of the PC, with one crew in control, both broken up or their leaders in police hands."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Turf in the Back Alleys"
+      }
+    ]
+  }
+}

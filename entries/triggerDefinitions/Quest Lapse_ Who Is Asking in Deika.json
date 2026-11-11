@@ -1,0 +1,22 @@
+{
+  "Quest Lapse: Who Is Asking in Deika": {
+    "name": "Quest Lapse: Who Is Asking in Deika",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Who Is Asking in Deika",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "script": "(function(){/*storage_pack:v1:[true,[[860,1]]]*/const __pr=[[860,1]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"typed\",[[860,1,0,false]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(860)===undefined){skip=true;return;}const __HT0=__hc(__hv(860));effects.push(...__HT0);})();"
+  }
+}

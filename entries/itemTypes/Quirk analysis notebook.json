@@ -1,0 +1,20 @@
+{
+  "Quirk analysis notebook": {
+    "name": "Quirk analysis notebook",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "value": 5
+      }
+    ],
+    "description": "A cheap paper notebook filled with handwritten notes on Quirks its owner has seen in action: how they work, where their limits lie, sketches and possible counters. Its worth depends on how carefully its owner watched. [ Tool | About ¥200 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0e3e7e2d-bd19-4f98-9ad9-7ca49310c8d6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

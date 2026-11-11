@@ -1,0 +1,20 @@
+{
+  "Bellow Wave": {
+    "name": "Bellow Wave",
+    "description": "The user lets out an amplified shout in a cone ahead of them. Everyone in front within a few strides takes sonic damage and is pushed back a step; held back, it only staggers them and drowns out whatever they were saying or hearing. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Crossing Bursts": {
+    "name": "Crossing Bursts",
+    "description": "The user fires two brief bursts while turning their torso, striking two visible targets across a street. Each hit deals moderate light damage; held back, each beam hits the ground at a target's feet and drives them away from a doorway. The user cannot fire behind their back, and the quick second shot brings a sharp stomach ache. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

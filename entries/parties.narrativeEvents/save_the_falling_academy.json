@@ -1,0 +1,15 @@
+{
+  "save_the_falling_academy": {
+    "title": "Help From Former Enemies",
+    "beats": "Immediately after the default breach on day 405, the floating U.A. Academy is falling toward catastrophe. Damaged systems and Tomoyasu Chikazoku's intrusion threaten everyone still aboard and below. Izuku Midoriya must keep Shigaraki from reaching a destructive contact while maintenance crews try to preserve the structure. If the breach was prevented, stage the remaining sabotage and structural threat at its actual severity.\n\nThe canon default course, as pressure the player can change: La Brava counters Skeptic's intrusion and helps the pursuing heroes locate him. Gentle Criminal uses his elasticity beneath the falling Academy, supported by La Brava's love, to hold a disaster away from the people below. From Musutafu General Hospital, the severely wounded Lady Nagant fires shots that interrupt Shigaraki's attempts to use his hands. These interventions buy Izuku the chance to draw the engagement away from the endangered structure and toward the ground.\n\nLet the player rescue a trapped compartment, preserve a working control, relay a clear firing opportunity, or oppose the rescuers. Gentle's intervention buys support rather than restoring destroyed machinery. Nagant's determination does not heal her wounds; her firing position must remain reachable for medical assistance, and she returns to guarded treatment afterward. Skeptic's capture follows an actual interception once his location is exposed. A repair of the computer network alone does not save everyone trapped in damaged sections.\n\nBy place: U.A. Academy stages the falling compartments and Gentle's intervention; Musutafu General Hospital stages Nagant's guarded rooftop position. Mount Fuji Battlefield receives Izuku and Shigaraki only after their groundward movement is established. Okuto Island, Kamino Ward, and Gunga Mountain Villa receive warnings through available communications. Jaku City and Takoba Municipal Stadium can supply reachable rescue support without abandoning unresolved battles. Keep La Brava's remote assistance distinct from physical presence aboard the Academy.\n\nBy Path: Class 1-A and Class 1-B stabilize compartments; General Studies moves trapped personnel; Support restores controls. Management routes verified data and Faculty directs evacuation. Licensed Sidekick shields technicians; Licensed Pro Hero supports the ground engagement or capture. League of Villains Recruit can defend the intrusion; Independent Villain bargains over access. Vigilante assists Gentle's rescue; Civilian Life evacuates the impact zone.\n\nThe event is complete when the immediate fall is stopped or its actual impact resolves, and the surviving structure, hacker, rescuers, and ground combatants have established dispositions.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_save_the_falling_academy",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

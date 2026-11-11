@@ -1,0 +1,20 @@
+{
+  "Debris Hand Carry": {
+    "name": "Debris Hand Carry",
+    "description": "The user touches one loose slab or wrecked vehicle weighing under three tonnes and floats it while rescuers pull a trapped person clear. Helpers guide the load with ropes until it rests on firm ground before release. The user cannot float attached foundations separately from the structure, and working near the weight limit causes mounting nausea. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

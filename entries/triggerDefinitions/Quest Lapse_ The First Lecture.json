@@ -1,0 +1,22 @@
+{
+  "Quest Lapse: The First Lecture": {
+    "name": "Quest Lapse: The First Lecture",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "The First Lecture",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_media_break_in",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "script": "(function(){/*storage_pack:v1:[true,[[854,1]]]*/const __pr=[[854,1]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"typed\",[[854,1,0,false]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(854)===undefined){skip=true;return;}const __HT0=__hc(__hv(854));effects.push(...__HT0);})();"
+  }
+}

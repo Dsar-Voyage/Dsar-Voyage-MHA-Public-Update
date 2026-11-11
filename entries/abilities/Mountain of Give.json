@@ -1,0 +1,25 @@
+{
+  "Mountain of Give": {
+    "name": "Mountain of Give",
+    "description": "The user's body swells to the height of a two-story building and the width of a street, and stays soft for the rest of the scene. Every blunt blow, collapsing facade, crashing vehicle and blast wave that reaches that street from either side sinks into the user and stops, so nobody behind them takes damage, and all of it is stored for one release. The user cannot move from the spot while swollen, and blades, heat and gas still pass through. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

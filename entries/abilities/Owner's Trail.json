@@ -1,0 +1,20 @@
+{
+  "Owner's Trail": {
+    "name": "Owner's Trail",
+    "description": "The user concentrates on a Quirk they copied earlier that day and feels for its owner. Until the day ends, they know whenever that owner uses the Quirk within a few city blocks, which direction it came from and roughly what it did, so a fleeing suspect, a hidden villain or a lost child can be followed. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

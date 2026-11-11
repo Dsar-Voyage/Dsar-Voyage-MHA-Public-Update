@@ -1,0 +1,20 @@
+{
+  "Threshold Step": {
+    "name": "Threshold Step",
+    "description": "The user opens a door-sized gate and steps through to a spot they can see within their gates' reach, bringing along a single person they are holding. Any attack already aimed at either of them misses, and they come out behind cover, across a gap or at an opponent's back. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

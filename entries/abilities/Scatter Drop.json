@@ -1,0 +1,20 @@
+{
+  "Scatter Drop": {
+    "name": "Scatter Drop",
+    "description": "The user opens a gate around a target who is standing still, held down or caught off guard, and drops them out of an exit at a place within reach the user can picture, such as a riverbank, a fenced lot or the far side of a police line. The target lands unhurt but stranded until they make their way back; a target who sees it coming can leap clear. Used on a hostage, it pulls them to safety. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

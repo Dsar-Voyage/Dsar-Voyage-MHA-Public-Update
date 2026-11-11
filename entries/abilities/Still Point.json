@@ -1,0 +1,25 @@
+{
+  "Still Point": {
+    "name": "Still Point",
+    "description": "The user's signature move: everything in motion within a street's width locks at once: runners, swung weapons, bullets and falling glass. Until the end of the user's next turn nothing there moves unless the user releases it, every locked attack is turned aside, and each enemy locked mid-charge is turned into the ground for massive bludgeoning damage. Afterward the user cannot lock anything until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

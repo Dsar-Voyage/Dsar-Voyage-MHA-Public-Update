@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Steel Quirk": {
+    "name": "Mechanics: Canon Drawback Steel Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Steel Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Finite Fuel",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

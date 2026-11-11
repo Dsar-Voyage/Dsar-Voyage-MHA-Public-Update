@@ -1,0 +1,28 @@
+{
+  "Sea off Iwami": {
+    "name": "Sea off Iwami",
+    "basicInfo": "Open Sea of Japan off the Iwami coast of western Shimane, with the shore of Gotsu and Hamada just beyond the cell's southeastern corner. The green coastal hills and the town lights of Gotsu are visible on the southeastern horizon, and the long shape of Mount Sanbe rises inland to the east. The water is a deep, clear blue over the shelf, one to two hundred meters deep, with the Tsushima Current flowing northeast. Summers are calm and clear; autumn brings typhoon swells; winter brings northwest gales, high seas and snow squalls. Boats from Hamada, one of the biggest fishing ports on the San'in coast, work here for blackthroat seaperch, horse mackerel, squid and flatfish, and smaller boats from Gotsu and the Iwami hamlets fish closer in. No islands lie inside the cell, and only fishing boats and a few coastal freighters cross it. The coast guard patrols from Hamada, and a maritime hero covering the Shimane coast is the nearest hero help. A party could be out here on a fishing boat from Hamada, a charter, or flying over.",
+    "hiddenInfo": "The fishing towns on this coast are aging and catches are falling, so tempers flare over grounds and outside boats. Help is an hour or more away by boat from Hamada, and winter seas stop rescues outright. Villainy is petty: poaching and stolen gear.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -13,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e821825f-1c46-495f-a07a-a5cbf7e07bb2.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

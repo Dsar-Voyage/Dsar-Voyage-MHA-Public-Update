@@ -1,0 +1,25 @@
+{
+  "Catapult Meteor": {
+    "name": "Catapult Meteor",
+    "description": "The user's signature move: they hook stretched hands to two walls or posts, draw their feather-light body back in a slingshot launch, and rocket down a street, turning tenfold heavy on impact. Enemies in the path take massive bludgeoning damage; held back, the user spreads wide to bowl them flat without breaking bone. Afterward nausea hits and the user cannot stretch or shift weight until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

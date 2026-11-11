@@ -1,0 +1,21 @@
+{
+  "symbol_of_peace_retires": {
+    "title": "The Symbol of Peace Retires",
+    "beats": "The week after Kamino. Screens in U.A. Academy's dorm lounges, hospital waiting rooms, agencies, shops and hideouts carry the debate over All Might's future. His announcement follows what the battle actually cost him; if the player preserved his ability to fight, the public response follows that changed result.\n\nThe canon default course, as pressure the player can change: All Might retires from hero work after spending his remaining power at Kamino and continues teaching at U.A. Academy. He can briefly flex into his muscle form, but cannot sustain hero work. Endeavor becomes the highest-ranked active hero without immediately replacing All Might's public role. All For One is transferred to Tartarus. Unless the player changes the response, petty crime and Stain-inspired copycats increase while Principal Nezu tightens campus security. Heights Alliance is already home to the students: this is a stricter lockdown, with curfews, approved sign-outs, new walls and sensors. Teachers visit families to explain the safeguards and seek their support.\n\nBy canon default Shota Aizawa and All Might visit homes such as the Jiro and Bakugo homes together. All Might visits the Midoriya home alone. Inko Midoriya challenges the repeated injuries to Izuku Midoriya and initially refuses to trust U.A. with him; All Might bows and promises to protect and teach him, while Izuku explains his determination. Unless the player changes their agreement, Inko gives her support under that promise. At a later private meeting on Dagobah Municipal Beach, All Might and Izuku confront what happened at Kamino; All Might promises to devote himself to raising Izuku as his successor. Their relationship to One For All remains private to those already entrusted with it. The public hears a retirement and a teaching commitment, not the secret of his power.\n\nA student party faces curfew changes in Heights Alliance and its own family's response; General Studies, Support and Management students also live under the security rules. Faculty join family visits or arrange accommodations for injured students. Pros and sidekicks take additional calls and respond to the loss of deterrence. Civilians discuss safety at home, in shops and at work. Villains hear brokers such as Giran report fresh League interest; Tomura Shigaraki rebuilds from the League's current refuge without his imprisoned Sensei. Only an invited party joins the Midoriya home or Dagobah Beach scenes; others encounter their public consequences.\n\nThe event is complete when the retirement decision and campus restrictions are public and U.A. has recorded the families' responses to the visits.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_symbol_of_peace_retires",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-number",
+        "key": "studentStage",
+        "operator": "set",
+        "value": 2
+      }
+    ]
+  }
+}

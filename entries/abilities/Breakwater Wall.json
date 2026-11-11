@@ -1,0 +1,20 @@
+{
+  "Breakwater Wall": {
+    "name": "Breakwater Wall",
+    "description": "The user raises a wall of force across a whole street or corridor and braces behind it. Until the user lets it fall or the scene ends, it stops a stampeding crowd, floodwater, a sliding facade, a truck or a mob of attackers, and everyone behind it is untouched; only a blow strong enough to level a building breaks it, and the user cannot move while holding it. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

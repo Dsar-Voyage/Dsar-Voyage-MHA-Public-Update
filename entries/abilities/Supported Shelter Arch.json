@@ -1,0 +1,20 @@
+{
+  "Supported Shelter Arch": {
+    "name": "Supported Shelter Arch",
+    "description": "The user touches a thick concrete floor and raises an arch over three people within ten meters, diverting loose falling debris for two turns while they crawl out. The user maintains contact to adjust the supports; a falling building section can overwhelm the arch, and drawing material from damaged foundations can worsen a collapse. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

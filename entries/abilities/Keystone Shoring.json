@@ -1,0 +1,20 @@
+{
+  "Keystone Shoring": {
+    "name": "Keystone Shoring",
+    "description": "The user presses both palms to a sagging ceiling, a cracked wall or a collapsing stairwell and pushes the stone into new pillars and arches. For the rest of the scene that structure cannot fall any further, and the user can open a crawlway through the rubble to the people trapped inside. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

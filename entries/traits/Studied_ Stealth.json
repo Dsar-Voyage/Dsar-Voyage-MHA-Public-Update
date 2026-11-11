@@ -1,0 +1,20 @@
+{
+  "Studied: Stealth": {
+    "name": "Studied: Stealth",
+    "description": "🥷 You learned to go unnoticed: wildlife tracking, a stage crew working in the dark, or a childhood spent keeping out of someone's way.\n\n🌱 Soft footfalls, shadows and crowds as cover, steps timed to background noise, and freezing when someone looks your way.\n⚠️ Sensing Quirks, trained guards, cameras and alarms still catch you, and long hiding strains your patience and muscles.\n⚖️ Slipping into a building or past a police line is trespass or obstruction, whatever the reason.\n🏫 It shows in a quiet tread, a habit of standing near exits and clothes that draw no attention.\n\n📈 Grants: Stealth +15",
+    "traitNarrativeEffects": "The character has practiced moving unseen: soft footfalls, using shadows and crowds as cover, timing steps to background noise and freezing when someone looks their way. Prior study, not mastery: sensing Quirks, trained guards, cameras and alarms still catch them, and hiding for a long time strains their patience and muscles. Not a license: slipping into a building or past a police line is trespass or obstruction whatever the reason. It shows in a quiet tread, a habit of standing near exits and clothes that draw no attention.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Stealth",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

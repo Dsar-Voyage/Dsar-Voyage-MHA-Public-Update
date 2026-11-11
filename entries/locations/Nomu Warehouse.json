@@ -1,0 +1,67 @@
+{
+  "Nomu Warehouse": {
+    "name": "Nomu Warehouse",
+    "basicInfo": "A plain gray warehouse in a lot of storage sheds and empty yards about 5 km northwest of Kamino Ward's shopping street, out where the ward's old industrial lots run to weeds. From outside it is a long windowless box of corrugated steel on a concrete apron, with welded shutters, a single steel side door with no handle on the outside, a few high vents, and no sign, no company name and no rental notice. Security cameras watch the apron, the door and the gate in the chain-link fence. The neighboring sheds belong to moving firms and a scrap dealer; their workers come and go by day, park their trucks along the fence and leave by dusk, and at night the lot is dark except for one streetlight at the corner and a faint red glow at the high vents. Nobody is ever seen at the door. The building is locked private property: there is no way in without forcing a welded shutter or the door, which is breaking and entering, and nobody nearby has a key or knows who holds the lease. A player can find it only through investigation, and can then watch it, ask the neighbors, dig into who owns it, search it if they find a way in, or report it. Up close, a low mechanical hum comes through the walls day and night, steadier than any freezer, and the steel feels faintly warm to the touch. The place feels empty and occupied at the same time.",
+    "hiddenInfo": "Inside, under red standby lights, rows of tall glass tanks filled with fluid hold Nomu: huge, hairless creatures with exposed brains and powerful bodies, kept dormant for the League of Villains and the man Shigaraki calls Sensei, who supplies them. The tank pumps hum in the dark, and that hum is what the neighbors hear. At the start of the year the largest is a massive black-skinned Nomu with a beaked mouth and bulging lidless eyes, built for one job, killing All Might: strength and speed to match his, with Shock Absorption and Super Regeneration. Another is a winged snatcher with batlike wings and four eyes, strong enough to seize a person and carry them off. More tanks hold more Nomu, dormant and waiting. Nobody stays here; the League comes and goes through Kurogiri's warp gates, which is why the door has no outside handle. The building draws heavy power day and night for a place nobody enters, and the utility's meter reader has been paid to stop asking. The warehouse has cameras but no guard; the cameras feed the monitor at the League's bar. While the League holds the place, Kurogiri checks the tanks every few nights. The locks are plain: welded shutters, a steel door barred from inside, a chained fence gate. The danger is plainer: the Nomu do not react to intruders while dormant, but they wake on command and follow Tomura Shigaraki's simple orders without restraint or fear, and stand still without orders. Anyone seen breaking in can expect Kurogiri through a gate within minutes, and a woken Nomu is beyond any first-year and most pros. Right now the night watchman at the neighboring scrap yard has noticed the red glow and the hum and has started writing down the nights lights move inside; he has told no one yet.",
+    "x": 0.77,
+    "y": 17.09,
+    "radius": 1,
+    "region": "Kamino and Yokohama",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Warehouse Loading Dock": {
+        "description": "A cracked concrete apron along the long side of the warehouse, where a raised loading bay meets three roll-up shutters welded shut along their bottom edges, the weld beads rusted to the color of the steel. Beside the bay, a single steel side door sits flush in the wall with no handle, keyhole or bell on the outside. Cameras on short brackets watch the apron, the door and the chained gate in the chain-link fence, and weeds push through every seam in the concrete except the strip in front of the door. By day the moving firms' trucks park along the fence and the scrap dealer's crane clanks next door, and nobody so much as glances at the building; by dusk the lot empties, and the only light is the streetlight at the corner and a faint red glow at the high vents. Up close a low hum comes through the steel day and night, steadier than any freezer, and the wall is faintly warm under a palm. The building is private property: forcing a shutter or the door is breaking and entering, and the nearest police box is a long way back toward the shopping street. A forced shutter or door would open onto the Warehouse Storage Floor.",
+        "paths": [
+          "Warehouse Storage Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e6bab157-da92-4070-8d9a-7f13acfe5870.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Warehouse Storage Floor": {
+        "description": "One long dark hall under a high steel roof, lit only by red standby lamps on the pillars. Down the middle stand rows of tall glass tanks full of cloudy fluid, each on a humming pump base fed by thick cables and hoses that run across the floor to a bank of power cabinets at the far end; this is the hum the neighbors hear. In the largest tank floats a massive black-skinned creature with an exposed brain, bulging lidless eyes and a beaked mouth full of teeth, motionless in beige trousers. Another holds a pale, hairless thing with folded batlike wings, four eyes and a plate over its mouth. More shapes hang in the tanks beyond, still and waiting, and none of them reacts to a flashlight or a voice. There are no desks, cots, lockers or food wrappers, nothing to say anyone works here, and the dust on the floor is disturbed only around the tanks, by footprints that start and stop in the middle of the hall rather than at the door. A camera looks down from each corner. The air is warm, damp and smells of chemicals and something like a hospital drain. Whoever forced the way in can go back out to the Warehouse Loading Dock.",
+        "paths": [
+          "Warehouse Loading Dock"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/674bb804-8b02-4386-a182-5678f6e06b43.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "League of Villains"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4ae42f8-59b1-476c-8f27-806edb9e3707.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": false
+  }
+}

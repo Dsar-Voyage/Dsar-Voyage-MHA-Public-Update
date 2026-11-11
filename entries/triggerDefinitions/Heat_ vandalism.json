@@ -1,0 +1,27 @@
+{
+  "Heat: vandalism": {
+    "name": "Heat: vandalism",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Vv]andal\\w*|[Gg]raffiti|[Ss]pray[- ]?paint\\w*|[Dd]eface\\w*|[Ss]mash\\w* (the|a) \\w+)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "add",
+        "value": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Live Correction": {
+    "name": "Live Correction",
+    "description": "When a student or ally fails an action within the user's sight, the user calls out what went wrong and how to fix it. That person may at once try the same action again using the correction, and the second attempt stands. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Faculty",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Teaching",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

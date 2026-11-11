@@ -1,0 +1,20 @@
+{
+  "Channel Swimmer Tow": {
+    "name": "Channel Swimmer Tow",
+    "description": "The user swims up to twenty meters this turn and loops their tongue around one conscious person's torso, keeping their face clear while towing them toward a bank or ladder. The person must remain within the tongue's twenty-meter reach. Strong currents, submerged snags and the user's held breath limit the tow; an unconscious person's airway needs direct support. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

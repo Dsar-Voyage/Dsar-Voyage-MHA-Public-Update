@@ -1,0 +1,30 @@
+{
+  "Oki Dogo": {
+    "name": "Oki Dogo",
+    "basicInfo": "Dogo, the largest and roundest island of the Oki archipelago, sitting alone in the Sea of Japan some sixty kilometers north of the Shimane Peninsula, with open water filling the rest of the cell. A sliver of Dogo's western shore lies across the line in the Dozen cell. The island is about twenty kilometers across, a dome of forested hills cut by short rivers, with rice in the valley floors and cedar on the slopes. Saigo, the port town on the southeast shore, holds most of the island's people: the ferry terminal, a shopping street, schools, the hospital and inns along the harbor. Oki Airport lies just south of town, with flights to Izumo and Osaka. Around the coast are fishing hamlets and rock shores: the eroded pale rock of the Jodogaura coast in the east, the white islets of the Shirashima coast in the north, and off the northwest shore the candle rock of Rosokujima, where sightseeing boats line up at sunset so the sun sits on its tip like a flame. Inland stand great cedars: the Yao cedar at Tamawakasu Shrine near Saigo, and the ancient Chichi cedar on a mossy hillside in the northeast. Dannu Falls drops behind a small shrine in the western hills. Dogo is known for its bull sumo, where two bulls lock horns in a ring before a cheering crowd, for Oki beef, squid dried on racks, and the black obsidian that islanders traded to the mainland in prehistory. The whole archipelago is a UNESCO Global Geopark. Winter northwest gales bring snow squalls and stop the ferries. The car ferry from Shichirui or Sakaiminato takes about two and a half hours, the jetfoil about an hour, and the flight from Izumo about half an hour; from Musutafu the trip is most of a day, by shinkansen to Okayama and the limited express to Matsue or Yonago, then sea or air. Saigo has a police station and one small local hero agency that covers the whole island by car and boat, with a sidekick posted at bull sumo days and the summer festivals. Fishers use Quirks to read currents or haul nets, and cattle farmers to calm a nervous bull. Visitors rent cars or bicycles, ride the coast boats, swim at the northern beaches and walk the geopark trails.",
+    "hiddenInfo": "Dogo is the archipelago's hub, so its troubles are everyone's: a shrinking working population, a hospital short of doctors, and young adults leaving after their school years. Summer geopark crowds bring money and friction. The island's one agency is small and knows everyone; real backup comes by jetfoil or helicopter from Matsue or Yonago, an hour or more away, and in winter storms not at all. Villainy runs to fishing-gear theft, poaching in the shellfish beds, a drunken brawl after bull sumo, and now and then a mainland fugitive hoping an island is far enough.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -10,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/75d8dbf0-b139-46bb-99d4-6011ee6182b3.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

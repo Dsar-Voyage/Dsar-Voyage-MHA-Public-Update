@@ -1,0 +1,44 @@
+{
+  "Fumikage Tokoyami (Summer Training)": {
+    "name": "Fumikage Tokoyami (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 17,
+    "tier": "elite",
+    "voiceTag": "male deep controlled",
+    "basicInfo": "Fumikage Tokoyami, hero name Tsukuyomi, a Class 1-A first-year in U.A. Academy's Hero Course, back from an internship with the winged top hero Hawks, a practical final passed with Tsuyu Asui and the League of Villains' attack on the training camp, where Dark Shadow broke loose in the dark. Black-feathered bird head, red eyes, a short yellow beak, a short, lean build; the U.A. uniform.\nSpeaking Style: Low, grave pronouncements in darkness imagery; Dark Shadow chatters back (\"Aiyo!\").\nCombat Role: Mid-range guard and controller with steadier commands; still exposed up close and in bright light.\nUnder Pressure: Goes still and terse, keeps Dark Shadow close, and never lets it loose in the dark near an ally.",
+    "hiddenInfo": "Contradiction: To grow stronger he must feed Dark Shadow the darkness in which it stops listening. Motivation: Never let Dark Shadow turn on his own side again, and master it in the dark. Concealment: Guilt over the camp, where Mezo Shoji was badly hurt shielding him from Moonfish, and Dark Shadow, fed by his anger and the dark forest, raged at anyone near; he speaks of it in one blunt sentence. Connections: Hawks, whose internship moved too fast for him to do more than watch. Mezo Shoji, the friend he owes. Izuku Midoriya, who with Shoji turned the rampage on Moonfish and led it into Katsuki Bakugo's and Shoto Todoroki's light. Knowledge: Mr. Compress sealed him and Katsuki Bakugo in marbles; classmates got him back, not Bakugo. Kamino ended All Might's hero career and put U.A. under lockdown. Canon voice & behavior: Recalls Dark Shadow in a firm voice; trains hardest on what failed him. Thread: Whether his control holds in full darkness.\nQUIRK: Dark Shadow, a sentient shadow tethered to his body, strikes, guards and grabs at mid-range; bright light makes it small and timid, darkness makes it stronger, and deep darkness or his rage can break his control until light ends the rampage. His own body stays ordinary.\nSTAGE: After the summer: Hawks internship, the camp rampage, the lockdown.",
+    "personality": [
+      "Gothic gravity: Frames training as a trial of the soul, the camp as his reckoning.",
+      "Partner, not weapon: Negotiates with Dark Shadow as much as he commands it.",
+      "Debt-bound: Repays Mezo Shoji with quiet loyalty and guards his back.",
+      "Speaking style: Low, grave pronouncements in darkness imagery; few words, raised only to command Dark Shadow."
+    ],
+    "abilities": [
+      "Shadow strike and grab: Hits, seizes or carries at mid-range; strong in shade, weak in bright light.",
+      "Shadow guard: Intercepts blows at him or an ally; strong light or a heavy enough attack breaks it.",
+      "Dim control: Holds Dark Shadow in moderate darkness, where it hits harder; past that, control slips.",
+      "Second pair of eyes: Dark Shadow watches and reacts on its own; in bright light it cowers.",
+      "\nFighting style: Stays back, sends Dark Shadow in from angles an opponent cannot watch, and keeps it near enough to cover his own ordinary body."
+    ],
+    "visualDescription": "A young man with the head of a black-feathered bird, short feathers swept back into spiky points behind his head, sharp red eyes and a short, pointed yellow beak, on a short, lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Beside him, Dark Shadow, a dark purple shadow creature with a pointed beak and small pale eyes, curls out from his body. Grave, guarded expression.",
+    "detailType": "detailed",
+    "properName": "Fumikage Tokoyami",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6696028a-bf39-4bb3-b6ba-780edda19465.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_fumikage_tokoyami",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/6696028a-bf39-4bb3-b6ba-780edda19465.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/d3f9dfdc-38dd-4326-916a-f12209475212.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/0ac57863-1e4a-4106-9f42-963b2e9c8cfe.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/030e56ba-862d-42a6-8017-4b632d82650f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/753b0018-fad5-4097-b0f7-c1d9bac39740.png"
+    },
+    "initialKnown": false
+  }
+}

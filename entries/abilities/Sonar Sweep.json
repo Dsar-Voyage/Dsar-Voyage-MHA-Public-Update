@@ -1,0 +1,20 @@
+{
+  "Sonar Sweep": {
+    "name": "Sonar Sweep",
+    "description": "The user sends out a string of clicks and reads the echoes: underwater out to a harbor's width, on land across a building's floor. They learn the layout, where every person and vehicle is, including anyone trapped in a sunken car, an air pocket or rubble, and who is moving; darkness, mud and smoke do not block it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

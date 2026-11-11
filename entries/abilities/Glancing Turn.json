@@ -1,0 +1,20 @@
+{
+  "Glancing Turn": {
+    "name": "Glancing Turn",
+    "description": "Until the end of the user's next turn, every bullet, arrow or thrown object aimed at the user or an ally within a few strides locks for an instant as it arrives and turns down into the floor, dealing no damage. A sustained burst from an automatic weapon is more than the user can read: only the first few rounds are turned and the rest land as normal. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

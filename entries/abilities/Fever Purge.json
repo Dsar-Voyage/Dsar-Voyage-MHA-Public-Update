@@ -1,0 +1,20 @@
+{
+  "Fever Purge": {
+    "name": "Fever Purge",
+    "description": "The user holds a patient's wrist and drives their body's defenses into a fever that burns out a poison, a venom, a knockout gas, a drug or a fresh infection. Its effects end at once, including the frenzy of a Quirk-boosting drug, and the patient loses heavy stamina and runs a fever for about an hour. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Sliding Partition Check": {
+    "name": "Sliding Partition Check",
+    "description": "The user touches concrete and folds a broad partition sideways into one target within fifteen meters, dealing moderate bludgeoning damage and pushing them away from an exit this turn. Held back, it stops short and closes their route instead. The slab stays joined at its base, needs enough source material and can crush nearby objects. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

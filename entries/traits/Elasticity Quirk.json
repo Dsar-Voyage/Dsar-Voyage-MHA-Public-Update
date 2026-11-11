@@ -1,0 +1,40 @@
+{
+  "Elasticity Quirk": {
+    "name": "Elasticity Quirk",
+    "description": "🪀 You make surfaces, and even the air, elastic.\n\n🌱 At the start a touch turns a door-sized patch of floor, wall or air into a stretching sheet that stops a blow and throws it back, or springs you a story up.\n📈 With training: nets that catch falling people, slingshot launches, holding bands, floors no enemy can stand on, truck-stopping barriers, a dome that returns every blow.\n⚠️ Allies need to know where your patches are.\n🔗 Common drawback pairing: Cognitive Fade, as holding many patches in mind wears down your focus.\n🎬 Similar canon Quirks: Gentle Criminal (Elasticity).\n\n📈 Grants: Intelligence +1, Quirk Control +10, Quirk Mobility +10, Acrobatics +5\n⚡ Starting techniques: Bounceback Sheet, Springstep",
+    "traitNarrativeEffects": "Scale: the user touches a surface, or swipes air within reach, and makes it elastic: it gives under force and snaps back. A new adult user keeps a few door-sized patches; a surface patch lasts about a minute, an air patch a few seconds, unless dropped sooner. Bigger feats need techniques. Limits: at the start a patch only returns the force put in; it stops bodies and objects, not fire, light, gas, sound or electricity; bullets or a speeding car tear through. Allies hitting an unknown patch are thrown too. Never works on living bodies or worn clothing. Quirk Strain: light: single patch, bounce; moderate: catching net, slingshot launch, holding band; heavy: elastic floor, vehicle barrier; severe: signature snap, dome over a scene. Type: Emitter. Law: a patch left in public counts as a hidden trap; the user answers for anyone hurt by one they forgot to release. Look: in use, touched surfaces ripple; elastic air is a faint warp, plain in rain, dust or smoke.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Acrobatics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Bounceback Sheet",
+      "Springstep"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

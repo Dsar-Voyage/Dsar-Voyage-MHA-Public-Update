@@ -1,0 +1,20 @@
+{
+  "Glimpse Ahead": {
+    "name": "Glimpse Ahead",
+    "description": "The user touches a person and meets their eyes, and in a breath sees about the next fifteen minutes of that person's life: where they will go, who they will meet, what they will do and what will happen to them. The vision shows the course if nobody changes it, and acting on it branches the future. The user can read each person once per day, and sunglasses or closed eyes block it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

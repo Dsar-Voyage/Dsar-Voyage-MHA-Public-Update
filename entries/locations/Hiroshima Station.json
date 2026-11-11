@@ -1,0 +1,86 @@
+{
+  "Hiroshima Station": {
+    "name": "Hiroshima Station",
+    "basicInfo": "Hiroshima Station is the gateway to the western Sanyo coast: a long JR West station on the east side of the downtown delta, newly rebuilt so that the city's streetcars glide off a bridge and straight into the second floor of the south building. The south exit faces the city: streetcars leave every few minutes for Hatchobori, the Hondori arcades and the Peace Memorial Park and A-Bomb Dome, about 20 minutes away, and on a slower line toward Miyajimaguchi. In and beside the south building are shopping floors, an okonomiyaki hall where a dozen griddles turn out layered noodle-and-cabbage pancakes all day, oyster and momiji manju counters, boxed-meal stands, coin lockers and tourist information. The north exit, the shinkansen side, is newer and quieter, with hotels, a pedestrian deck and the limousine bus to Hiroshima Airport, about 50 minutes away. The bus terminal sends city and highway buses everywhere, and taxi ranks wait at both exits. The Sanyo shinkansen reaches Musutafu in about 3 hours 30 minutes, Shin-Osaka in about 1 hour 30 minutes and Hakata in about an hour; the Sanyo Line reaches Miyajimaguchi and the Miyajima ferry in about half an hour, the Kure Line reaches Kure in about 40 minutes, and the Geibi and Kabe lines run up into the hills. Ten minutes' walk southeast stands the city's baseball stadium, and on game nights the station fills with fans in red who sing on the platforms. Mornings bring commuters and students; daytime brings tour groups and school trips bound for the peace park; evenings, office crowds head downtown; the last trains leave around midnight. Police boxes stand at both exits, railway police patrol the platforms, sidekicks work the crowds on game nights, and streetcar crews with Quirks clear a stuck switch without stopping traffic. It feels friendly, unhurried and quietly serious: a city that remembers, and also loves its baseball.",
+    "hiddenInfo": "A bike gang has started using the north side as its meeting point, and lately as a pickup stop. On Friday and Saturday nights at about 1 a.m., after the last trains, six to ten riders on loud, chromed motorcycles gather in the empty lot beside the north exit's bicycle parking, rev their engines for twenty minutes and roar off toward the bypass. One or two of them now stay behind to collect small taped parcels left in the coin lockers along the north concourse during the evening: cash from the resale of oysters stolen off the bay's rafts, which the riders carry to a buyer at Ujina port before dawn. Chalk marks on the third row of bicycle racks show which lockers hold parcels. A taxi driver who works the north rank at night has dashcam footage of one rider, a broad man with a rooster-red pompadour, using a strength Quirk to bend a steel bollard out of his way, and the bent bollard is still there; the driver has not handed the footage over because the gang knows his cab. How the place really runs: JR West owns the station, and its security staff thin to a skeleton crew after midnight; the streetcar operator runs its own floor; city agencies cover the south exit densely and the north side barely, and the north police box often stands empty after midnight while its officer is out on calls. The gang is small-time, but a hero who shuts it down will earn the oyster farmers' gratitude and the attention of whoever has been buying from them.",
+    "x": 4.32,
+    "y": -5.71,
+    "radius": 1,
+    "region": "Hiroshima",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/97382b1b-a1d3-43eb-b3fb-680edeb8d7db.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Hiroshima Station Concourse": {
+        "description": "Hiroshima Station's concourse runs from the rebuilt south building, where the city's streetcars glide in on a bridge to the second floor, past the JR ticket gates to the newer north side and the shinkansen gates. The south end is busy and full of food: an okonomiyaki hall where a dozen griddles turn out layered noodle-and-cabbage pancakes all day, counters of grilled oysters and maple-leaf momiji manju, boxed-meal stands. The north concourse is quieter, lined with coin lockers that are among the last in the station to be emptied at night. Mornings bring commuters and students; daytime brings tour groups and school trips bound for the peace park; evenings, office crowds heading downtown; on baseball nights fans in red flood through singing. Police boxes stand at both exits, and railway police patrol the gates. The smell of sweet sauce and frying cabbage meets every arriving train. The last trains leave around midnight, and after that the station's security staff thin to a skeleton crew. An escalator rises to the Streetcar Platform, and the north concourse leads out to the North Exit Plaza.",
+        "paths": [
+          "Streetcar Platform",
+          "North Exit Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/76ea9080-0c42-464e-baee-8df06e795b66.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Streetcar Platform": {
+        "description": "On the second floor of the south building the streetcar line ends indoors: the city's trams, old green-and-cream veterans and long, sleek low-floor cars alike, glide off an elevated bridge straight into a bright terminal of platforms under a glass roof, so riders step from the JR gates onto a streetcar without going outside. Cars leave every few minutes for Hatchobori and the Hondori arcades, for the Peace Memorial Park and the A-Bomb Dome about 20 minutes away, and on a slower line toward Miyajimaguchi. The cars squeal and ring their bells as they curve out over the street. Morning cars carry commuters and students; daytime cars fill with tour groups and school trips, guides holding flags; on game nights the cars run packed with fans in red. Crews know their routes by heart, and one with a Quirk can clear a stuck switch without stopping traffic, a small daily show regulars hardly notice. The streetcar operator runs this floor its own way, with its own staff and a gentle chime before every departure. The last cars leave late in the evening. The platform opens back into the Hiroshima Station Concourse.",
+        "paths": [
+          "Hiroshima Station Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/761fb9da-3a2e-499f-87f6-87376b5ebd0e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "North Exit Plaza": {
+        "description": "The north exit is the shinkansen side, newer and quieter: a pedestrian deck over a broad plaza, business hotels, a taxi rank, the stop for the limousine bus to Hiroshima Airport about 50 minutes away, rows of covered bicycle racks and, beside them, an empty paved lot. Business travelers come and go through the day and hotel guests wheel cases across the deck. After the last trains the plaza goes very quiet; the police box often stands empty after midnight while its officer is out on calls, and on Friday and Saturday nights at about one in the morning the empty lot fills with the roar of loud, chromed motorcycles revving for twenty minutes before they tear off toward the bypass. A steel bollard by the lot is bent nearly flat, and nobody has fixed it; chalk marks come and go on the third row of bicycle racks. Taxi drivers who work the north rank at night keep their doors locked and talk among themselves, and one of them watches the lot more carefully than the others. Streetlights hum over the empty deck. The north concourse leads back into the Hiroshima Station Concourse.",
+        "paths": [
+          "Hiroshima Station Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4738d970-5632-4ded-b5f0-497a71c074a9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

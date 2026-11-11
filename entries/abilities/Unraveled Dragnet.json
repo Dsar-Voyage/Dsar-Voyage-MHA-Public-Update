@@ -1,0 +1,20 @@
+{
+  "Unraveled Dragnet": {
+    "name": "Unraveled Dragnet",
+    "description": "The user unravels a curtain, a banner or a coil of rope into a wide net and casts it over a few people within a room's width. Everyone under it is tangled: they cannot run, attack or use their hands until they cut their way out, tear free with a hard effort or the user lets the net go slack. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

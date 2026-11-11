@@ -1,0 +1,30 @@
+{
+  "Chiba": {
+    "name": "Chiba",
+    "basicInfo": "Northwestern Chiba and the Tokyo Bay shore, the eastern wing of the capital's sprawl: dense suburbs, the Keiyo industrial coast, and beyond them rice paddies, peanut fields and the low plateau around Narita. The western edge runs along the Edogawa river through the last of Tokyo's eastern wards, and across the river lie Ichikawa, Matsudo, Funabashi and Urayasu, where a huge theme resort sits on reclaimed land. The bay shore curves southeast past the Makuhari district's convention halls, stadium and office towers to Chiba city, the prefectural capital, with its port tower, a castle-style museum and a suspended monorail swinging between its districts; steelworks and refineries line the shore south of it. To the north lie Kashiwa, Nagareyama, Noda with its soy sauce breweries, and the Tone river, beyond which Toride, Moriya, Ryugasaki and Ushiku belong to Ibaraki, with the giant bronze Buddha of Ushiku standing over the fields near the northern edge. Inland, Lake Inba, Sakura with its samurai houses, windmill and national history museum, Yachimata's peanut fields, and Narita, where the great Shinshoji temple anchors an old street of eel restaurants, lead to the international airport on the eastern edge. The climate is mild and humid, with hot summers, typhoon rain in early autumn and dry, clear winters. People commute into Tokyo, work at the port, the airport, the steel and chemical plants and the logistics parks, or farm peanuts, nashi pears, carrots and rice. The Sobu, Keiyo and Joban lines, the Keisei railways, the Tozai subway, the Tsukuba Express and the Narita Express run in from Tokyo; Chiba station is about forty minutes from Tokyo Station, so Musutafu is about an hour and a half away. Visitors shop at Makuhari, walk Narita's temple street and watch its July Gion festival floats, see the tulips around Sakura's windmill in April, and dig clams on the bay beaches. Chiba has many hero agencies and busy police; heroes cover the big stations and the airport alongside police and customs officers, and Quirk-assisted cargo handlers work the port on private ground.",
+    "hiddenInfo": "Chiba is Tokyo's overflow: bed towns where neighbors barely meet, an industrial bay coast of shift workers, and a constant flow of strangers through the airport. Agencies here compete with the capital's for talent and attention and often lose. Hero response is fast in the cities and at the airport, fifteen to twenty minutes in the rice country. Small villainy: luggage theft and petty smuggling around the airport, pickpockets on packed trains, fraud rings running call centers from quiet suburbs, and unlicensed Quirk brawls in Funabashi's and Chiba's nightlife streets.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": 2,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3e8bcd05-ffd0-42f6-bbba-d99f047e5933.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Grid Dominion": {
+    "name": "Grid Dominion",
+    "description": "The user lays a hand on a building's wiring and takes over its whole electrical system for the rest of the scene. They can open or seal any powered door, run or stop elevators, switch lights, alarms and cameras, and send a jolt through any metal fixture an enemy touches, dealing electric damage. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

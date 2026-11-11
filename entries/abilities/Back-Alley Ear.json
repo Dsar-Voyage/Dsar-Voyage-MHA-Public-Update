@@ -1,0 +1,15 @@
+{
+  "Back-Alley Ear": {
+    "name": "Back-Alley Ear",
+    "description": "The user works the bars, arcades and back alleys where talk moves, buying drinks and trading small talk. The user learns the current street rumor about a named person, gang or crime, whether it is true, and the name of someone on the street who knows more. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Streetwise",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

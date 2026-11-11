@@ -1,0 +1,37 @@
+{
+  "Crust": {
+    "name": "Crust",
+    "type": "Pro Hero",
+    "currentLocation": "Yokohama Harbor District",
+    "currentArea": "Harbor Promenade",
+    "gender": "male",
+    "faction": "",
+    "level": 36,
+    "tier": "elite",
+    "voiceTag": "male confident warm",
+    "basicInfo": "Crust, a high-ranking pro hero known for rescue-first heroics and an open heart: he throws himself in front of casualties and is not embarrassed to cry afterward. Broad and muscular, slicked-back black hair with a white streak, a black eye mask; a black Spartan-style outfit, a green hooded cape, a shield grown over one forearm.\nSpeaking Style: Earnest and emphatic, feelings said out loud; short protective calls once danger appears.\nCombat Role: Defender: walls off casualties with shields grown from his body and takes the hit himself; no earth or stone powers.\nUnder Pressure: Steps in front of whoever is most exposed and holds the line.",
+    "hiddenInfo": "Contradiction: The man who stands in front of everyone else is the first to blame himself when someone still gets hurt. Motivation: Make sure the people behind him survive; the rescue comes before the capture. Concealment: How heavily each failure weighs on him. Connections: All Might, whom he admires openly; Gang Orca, a top-ranked hero who works the same waterfront with a cool discipline opposite to his own. Knowledge: The public hero world, its rankings and big names. Canon voice & behavior: Tears up at a moving moment; apologizes in person to the people he failed to shield. Thread: How much of himself a hero who protects everyone else is willing to spend.\nQUIRK: Shield. He grows hard plates from his body to cover himself or others, or to strike with; an overwhelming attack breaks through, and he covers only what he can reach.",
+    "personality": [
+      "Self-sacrificing: Moves in front of a casualty before anyone has decided who should.",
+      "Openly emotional: Cries, cheers and thanks people out loud, and is not embarrassed about it.",
+      "Self-reproachful: Replays a rescue that went wrong long after everyone else has moved on.",
+      "Speaking style: Earnest, emphatic and heartfelt, alternating with short protective calls."
+    ],
+    "abilities": [
+      "Shield: Grows hard shield plates from his body in moments; an overwhelming attack breaks through.",
+      "Protective wall: Overlaps shields into cover for allies or casualties; it holds only while the plates do.",
+      "Shield strike: Bashes with a plate to knock back, disarm or open space; a blunt blow, not a blade.",
+      "Rescue judgment: Reads a scene for who is most exposed and puts their survival ahead of the capture.",
+      "\nFighting style: Plants himself between the threat and the vulnerable, walls them off, and counters with shield strikes once they are safe."
+    ],
+    "visualDescription": "A broad, muscular man with slicked-back black hair marked by a single white streak, a black mask across his eyes and a strong jaw. He wears his hero costume: a black Spartan-style armored outfit with red stitched trim, a green hooded cape, and a rugged plate-shaped shield grown over one forearm. Earnest, open, deeply feeling expression.",
+    "detailType": "detailed",
+    "properName": "Crust",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/515c9e04-3c8b-4df2-b353-36e8e9ad6eca.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_crust",
+    "initialKnown": true
+  }
+}

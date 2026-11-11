@@ -1,0 +1,15 @@
+{
+  "b1_after_joint_training": {
+    "title": "After the Joint Training",
+    "beats": "An evening in the days after the Joint Training, in the Class 1-B Dorm Lounge at U.A. Academy. The five rounds at Training Ground Gamma are over and their results stand as this story decided them; nobody replays them here, they argue about them. Momo Yaoyorozu has come over from next door with her notebook, Eijiro Kirishima with a bag of snacks for Tetsutetsu Tetsutetsu, and Itsuka Kendo has cleared the low table for a proper debrief: what worked, what failed, what each class learned about the other.\n\nDefault course, as pressure the player can change: Kendo and Yaoyorozu compare plans and find they made the same mistake from opposite sides; they write it down. Juzo Honenuki adds one quiet correction to each of their notes. Tetsutetsu and Kirishima argue over who took the harder hits and agree it was both. Ibara Shiozaki asks forgiveness of everyone she bound. Neito Monoma stands on a chair and demands a rematch, all five rounds, this week, and asks the 1-A guests with exquisite courtesy how it feels to need help from General Studies, forgetting that 1-B had Hitoshi Shinso on its side too. The talk turns to Shinso: the teachers gave their verdict at the end of the day, by canon default that he is on track to join the Hero Course next spring, and even Monoma admits through his teeth that the capture scarf was well used. Katsuki Bakugo, off at his work-study by default, is a topic of the debrief but not in the room.\n\nBy path: a 1-B party is a host and can lead the debrief, back Monoma's rematch, or tell him what he did well in his round, which leaves him speechless. A 1-A party is a guest in rival territory: Monoma will needle, Tetsutetsu will offer a drink and a challenge, and an honest word of credit for 1-B's plans earns Kendo's respect.\n\nThe event is complete when the notes are traded and Vlad King looks in to send the 1-A guests home, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_after_joint_training",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

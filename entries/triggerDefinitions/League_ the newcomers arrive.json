@@ -1,0 +1,57 @@
+{
+  "League: the newcomers arrive": {
+    "name": "League: the newcomers arrive",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "League Hideout Bar"
+      },
+      {
+        "type": "read-boolean",
+        "key": "live_v_vanguard_briefing",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_vanguard_briefing",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "League of Villains Recruit"
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-placement",
+        "npc": "Mustard",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Muscular",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Moonfish",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: this turn Kurogiri's gate opens in the bar and Mustard, Muscular and Moonfish step through. Each is called by his name from his first appearance on, and the briefing goes on with them present."
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Lighthouse Beam": {
+    "name": "Lighthouse Beam",
+    "description": "The user plants their feet and swings a held beam in a full circle at chest height, keeping it turning until the start of their next turn. Anyone who steps into the circle or reaches across it takes light damage and cannot aim until the end of their next turn, while people crouched at the user's feet stay under the beam and take no harm. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Battle Trial: Heroes and Villains": {
+    "name": "Battle Trial: Heroes and Villains",
+    "questSource": "All Might",
+    "questStatement": "All Might bursts into Foundational Hero Studies with his first combat class and sends everyone to change into costume. At Ground Beta, two-person teams play heroes and villains inside a training building: the villains guard a mock bomb, and the heroes have fifteen minutes to touch it or wrap both villains in capture tape. Teams and roles come out of a lottery box, drawn once at the start; each team fights one round, so a student whose round is done never comes out of the box again. Class 1-B runs the same exercise with Vlad King. Your partner is whoever the box gives you.",
+    "mainObjective": "Fight your Battle Trial round to the end with your partner, playing your assigned role as hero or villain.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC's own Battle Trial round, with their own partner against their own opponents, has ended (the bomb touched, both villains taped or time run out) and the instructor has reviewed that round. Another pair's round ending, including Katsuki Bakugo's or Izuku Midoriya's, does not count."
+    },
+    "detailType": "detailed",
+    "questLocation": "Ground Beta",
+    "questDesignBrief": "First real fight, inside rules. Canon default for 1-A as pressure: Izuku Midoriya and Ochaco Uraraka as heroes against Katsuki Bakugo and Tenya Iida; Katsuki abandons the objective to hunt Izuku, his gauntlet blast wrecks a floor, and Izuku breaks his own arm punching upward so Ochaco can reach the bomb; Shoto Todoroki freezes an entire building in another round. A 1-B PC gets the same format from Vlad King with Itsuka Kendo, Neito Monoma and the rest. The instructor stops any round heading toward serious harm, a stopped opponent is never struck again, and Recovery Girl treats the injured. In review, Momo Yaoyorozu gives the sharpest critique in the room.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

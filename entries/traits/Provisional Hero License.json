@@ -1,0 +1,25 @@
+{
+  "Provisional Hero License": {
+    "name": "Provisional Hero License",
+    "description": "🔰 You passed the Hero Public Safety Commission's provisional license exam.\n\n⚖️ You may use your Quirk in emergencies and do hero work under a licensed hero.\n⚠️ No patrolling or villain hunting on your own, no sidekick work and no agency of your own.\n🤝 Police and the public treat you as a hero in training: trusted to help, expected to defer to the pros.\n\n📈 Grants: Hero Law +5\n🎒 Starts with: Provisional hero license",
+    "traitNarrativeEffects": "A provisional hero license, issued by the Hero Public Safety Commission after its licensing exam. It permits: using their Quirk to protect people and stop an immediate threat in an emergency without waiting for supervision; hero work studies and internships at an agency under a licensed pro; joining hero operations when a licensed hero or the police direct them. It forbids: patrolling or hunting villains on their own initiative, running their own operations, sidekick work, opening an agency, and any public Quirk use outside an emergency or supervised work. Their use of force is judged by a pro's standard. Misuse is reported to their school or supervising agency, and the Commission can suspend or revoke the license. Police and the public treat them as heroes in training: trusted to help, expected to defer to the pros. A Quirkless holder follows the same rules with gear and training in place of a Quirk. If they also hold Hero License, the full license governs.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Hero Law",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Provisional hero license",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

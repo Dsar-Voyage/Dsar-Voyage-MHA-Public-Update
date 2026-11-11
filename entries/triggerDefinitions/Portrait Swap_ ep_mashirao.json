@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_mashirao": {
+    "name": "Portrait Swap: ep_mashirao",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mashirao Ojiro (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb4382ef-467f-4ddb-b2a0-29e251abf87d.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mashirao Ojiro",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb4382ef-467f-4ddb-b2a0-29e251abf87d.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mashirao Ojiro (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb4382ef-467f-4ddb-b2a0-29e251abf87d.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mashirao Ojiro (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb4382ef-467f-4ddb-b2a0-29e251abf87d.png"
+      }
+    ]
+  }
+}

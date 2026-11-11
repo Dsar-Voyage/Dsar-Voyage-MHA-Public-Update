@@ -1,0 +1,20 @@
+{
+  "Wall of Dread": {
+    "name": "Wall of Dread",
+    "description": "The user throws a wave of dread at everyone in front of them within a room's width. Each person in it takes psychic damage and, until the end of their next turn, cannot bring themselves to step toward the user, though they can still hold their ground, shoot or retreat. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

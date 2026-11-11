@@ -1,0 +1,20 @@
+{
+  "Fall Guy": {
+    "name": "Fall Guy",
+    "description": "The user keeps a double at their shoulder for the rest of the scene, watching for danger. The first time an attack would hit the user or someone beside them, the double throws themself into its path and bursts, and the attack does no harm to anyone behind them. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

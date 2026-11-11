@@ -1,0 +1,40 @@
+{
+  "Tape Quirk": {
+    "name": "Tape Quirk",
+    "description": "📼 You make long, sticky strips of tape from your elbows.\n\n🌱 At the start you shoot tape several meters, pull a small object, bind one person's wrists or swing across a short gap, reeling attached strips or tearing them free.\n📈 With training: longer swings, quick turns, falling-person catches, broad nets that restrain several people.\n⚠️ You need sound anchors; heat, blades or force cut tape, heavy targets unbalance you, detached strips stay still, and overuse dries and hurts your elbows.\n🔗 Canon Drawback, built in: Bodily Toll, as prolonged output dries and irritates your elbows.\n🎬 Canon Quirk: Hanta Sero's Tape. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Speed +1, Quirk Control +10, Quirk Mobility +10, Capture +5\n⚡ Starting techniques: Elbow Strip Shot, Sticky Wrist Wrap",
+    "traitNarrativeEffects": "Scale: elbow tape dispensers. Start: several-meter sticky strips onto people or surfaces, torn off or reeled back; pull a small object, bind wrists, swing short gaps from sound high anchors. Longer lines, quick turns, catching fallers, broad restraints need training.\nLimits: tape travels physically from the elbows; never appears afar, moves detached or changes substance. Smooth, dirty, crumbling anchors may fail; heat, blades, force sever it; big targets pull the user off balance. Overuse dries elbow skin, cutting output until rest.\nQuirk Strain: light: short shot, wrist wrap; moderate: swing, rescue catch, anchors; heavy: broad net, long aerial movement; severe: big coordinated restraint, continuous output.\nDrawback: built in, the canon Bodily Toll.\nCanon: Hanta Sero's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: tape restraints or route blocks need lawful purpose and care.\nLook: elbow tubes.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Elbow Strip Shot",
+      "Sticky Wrist Wrap"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

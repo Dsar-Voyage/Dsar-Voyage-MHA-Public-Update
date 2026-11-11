@@ -1,0 +1,24 @@
+{
+  "Twin Speaker Burst": {
+    "name": "Twin Speaker Burst",
+    "description": "The user connects both jacks to worn amplifiers and aims a heartbeat burst down a hallway. Targets in that line take moderate sonic damage and lose their balance until the end of their next turn; held back, the burst only forces them to cover their ears and retreat. The gear fixes the direction, so moving out of the line avoids it, and the user's ears ring afterward. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

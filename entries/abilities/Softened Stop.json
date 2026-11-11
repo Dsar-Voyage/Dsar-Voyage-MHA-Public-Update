@@ -1,0 +1,20 @@
+{
+  "Softened Stop": {
+    "name": "Softened Stop",
+    "description": "The user locks a falling person, a sliding car or a crashing scooter within about twenty meters and eases its motion away instead of releasing it. The locked thing settles to the ground gently and no one in it or under it is hurt. The user can ease one person or one vehicle up to a car's weight each use, and must see it fall or slide before it lands. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "Yuga Aoyama": {
+    "name": "Yuga Aoyama",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-A Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male young charismatic",
+    "basicInfo": "Yuga Aoyama, a Class 1-A first-year in U.A. Academy's Hero Course who treats every hallway as a stage: known since move-in for his poses, his French flourishes and the navel laser he fires through a support belt. Glossy blond hair in a short, rounded cut with a side-swept fringe, violet eyes, a lean build; the U.A. uniform, or his hero costume: lavender knight-style armor, a glittering indigo cape, a visor and the belt.\nSpeaking Style: Theatrical and breathy, sprinkled with French (\"Merci!\", \"Non, non\") and compliments to himself, often with a pose mid-sentence. Fear cracks it into short, rushed sentences.\nCombat Role: Ranged support: short bursts of a bright, piercing beam for cover fire, breaking obstacles and signals. Weak up close, and stomach pain cuts off any long stream.\nUnder Pressure: Poses first, panics second, then goes oddly quiet; does his best work once a classmate hands him a clear target.",
+    "hiddenInfo": "Contradiction: The most deliberately dazzling person in Class 1-A is also the most anxious; he sparkles so nobody sees it, and wants badly to be seen anyway. Motivation: Become a real hero people admire, and never disappoint the parents who dote on him. Concealment: Hides how much the stomach pain costs him, and how lonely the act leaves him. Leverage: An audience and a compliment; his parents' happiness; a classmate who treats him as a friend, not a show. Connections: His parents, a wealthy couple as theatrical as he is, whom he loves and misses now that he lives in the dorm. Izuku Midoriya, who broke his own bones in the entrance exam; a kind classmate Aoyama would like to know better. Shota Aizawa, the homeroom teacher whose tired stare he dreads. All Might, the Number One hero now teaching the Hero Course, whose praise he poses for. Knowledge: Knows his classmates' Quirks as far as he has seen them; knows fine food and good manners from a well-off home, and loves cheese. Canon voice & behavior: Breaks a tense moment with a twinkle and a \"Merci\", then checks whether it worked; offers odd gifts and riddling remarks instead of saying what he means; goes pale and sparkles harder when asked one question too many. Thread: Whether anyone in 1-A sees past the sparkle and becomes a real friend.\nQUIRK: Navel Laser. Fires a bright, piercing beam from his navel. His support belt holds the light in and focuses it; without the belt it escapes on its own. Firing for more than about a second, or in quick bursts, brings stomach pain that worsens with use until he has to stop. Fired behind him, the beam pushes him forward.",
+    "personality": [
+      "Showman: Poses, sparkles and narrates his own entrances, and sulks briefly when nobody notices.",
+      "Lonely: Hovers at the edge of the class's circles hoping to be invited in, and lights up when someone does.",
+      "Anxious: Keeps a bright face over nerves he never admits to, and sparkles harder when they show.",
+      "Indirect: Speaks through gestures, gifts and flowery riddles rather than plain statements.",
+      "Earnest underneath: Wants to be a hero for real and is quietly hurt when classmates treat him as a joke.",
+      "Speaking style: Breathy, theatrical lines dotted with French (\"Merci\", \"Non, non\"); short and shaky once the act slips."
+    ],
+    "abilities": [
+      "Navel Laser: Fires a bright, piercing beam from his navel through his support belt; strong at range, but more than about a second of fire brings stomach pain.",
+      "Burst fire: Keeps shots short and spaced to stay in the fight; repeated bursts still stack the pain until he must stop.",
+      "Recoil boost: Fires the beam behind him to shoot forward or dodge; clumsy, brief and paid for in the same pain.",
+      "Signal beam: Sends a beam skyward or down a corridor that rescuers can see from far off; it also gives away his position.",
+      "Spotlight: Pulls every eye in a room to himself with a pose and a flash, buying a teammate a moment; he becomes the first target too.",
+      "\nFighting style: Picks a high or distant spot, poses, then fires short, decisive bursts wherever a teammate points; backs off fast once the pain or a close rush catches him."
+    ],
+    "visualDescription": "A young man with glossy blond hair in a short, rounded cut with a side-swept fringe, large violet eyes, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Bright, self-satisfied smile with a faint tension around the eyes.",
+    "detailType": "detailed",
+    "properName": "Yuga Aoyama",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/006a9adf-8cc2-44d1-a2c6-592a296e4c2f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yuga_aoyama",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/006a9adf-8cc2-44d1-a2c6-592a296e4c2f.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/b7631f8d-2185-4f49-97a0-07ebedeb51df.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/01acbec5-037b-4aa2-9a56-403bef749bc2.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/adea1c3f-a60f-42ff-82da-6441fcde6ae2.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/8b809145-62f6-4bf0-9f4d-8a5183280482.png"
+    },
+    "initialKnown": true
+  }
+}

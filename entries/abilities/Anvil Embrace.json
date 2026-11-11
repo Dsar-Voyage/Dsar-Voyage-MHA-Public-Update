@@ -1,0 +1,25 @@
+{
+  "Anvil Embrace": {
+    "name": "Anvil Embrace",
+    "description": "The user's signature move: some limbs lock a single opponent in place while the rest hammer them from every side at once. The target cannot dodge, block or pull away, takes massive bludgeoning damage and is thrown down at the end with any shield or held weapon broken; afterward the user's extra limbs hang numb and cannot grip or strike until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

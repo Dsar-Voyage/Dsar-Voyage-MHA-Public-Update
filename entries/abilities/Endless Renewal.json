@@ -1,0 +1,25 @@
+{
+  "Endless Renewal": {
+    "name": "Endless Renewal",
+    "description": "For the rest of the scene the user's body repairs every wound the moment it lands: cuts and bullet holes close behind the blow, broken bones set in a breath, burns fade as they form and a severed limb regrows in moments. The user still feels every injury, a single heavy enough blow still knocks them down, and a wound that would kill outright still kills. When the scene ends they collapse and sleep until the next day, and wake starving. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

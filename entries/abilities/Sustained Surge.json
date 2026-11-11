@@ -1,0 +1,25 @@
+{
+  "Sustained Surge": {
+    "name": "Sustained Surge",
+    "description": "The user's boost holds at full peak strength for the rest of the scene instead of a minute. Their blows deal heavy bludgeoning damage and punch through reinforced concrete, they lift a loaded truck overhead and throw a car the length of a block; held back, a blow only knocks a target flat with no broken bones. The boost adds no toughness or speed. When the scene ends the crash hits all at once: the user collapses, cannot boost for the rest of the day and needs a large meal and hours of rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

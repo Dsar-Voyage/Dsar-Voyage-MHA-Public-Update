@@ -1,0 +1,32 @@
+{
+  "Greater Tokyo": {
+    "name": "Greater Tokyo",
+    "basicInfo": "Greater Tokyo is the capital and the heart of the hero business, about 100 kilometers northeast of Musutafu, 45 minutes by shinkansen into Tokyo Station, and it reaches north to the commuter city of Hosu. It spreads across a flat river plain to the head of Tokyo Bay: a dense field of office towers, rail lines, elevated expressways and shopping districts, and around them endless low neighborhoods of apartments, family houses and corner shops, with older wards, canals and factory lots toward the coast. Summers are hot and sticky, June brings the rainy season, late-summer typhoons can stop the trains for a day, and winter is dry and cold under clear skies; in April the parks and rail embankments fill with cherry blossoms. Millions live and work here: office workers, students, shopkeepers, tourists, reporters and fans who chase incidents with their phones raised. The economy is everything at once, government, finance, media, retail and the hero trade itself, and Japan's largest agencies, Endeavor's and Best Jeanist's among them, compete for its cases alongside the police. Scramble crossings sit under giant screens looping hero news and sponsor ads, and billboards of top-ranked heroes hang over the main avenues. Tokyo Station, the national rail hub at the center, sends shinkansen across Japan. Around it the hero world sits close together: the Hero Public Safety Commission Headquarters about 3 kilometers west-southwest in the government district; the Endeavor Hero Agency tower about 6 kilometers west; Central Tokyo Streets, with the scramble crossing, Billboard Avenue and the department stores, about 7 kilometers west-southwest; the Best Jeanist Hero Agency about 6 kilometers south-southwest, with the Tokyo Broadcasting Center about 6 kilometers south of the station and about 2.5 from Jeanist's door; and the Commission's Hero Billboard Chart Hall about 4 kilometers southeast. About 30 kilometers north, half an hour out by express train and about an hour and a half from Musutafu, Hosu runs on the commuter clock: elevated lines cross it on concrete overpasses, Main Street runs north from Hosu Station to a plaza with a police box and a giant news screen, the walled-in lanes of the Back Alleys lie about 4 km southwest of the station, Hosu General Hospital about 4 km north-northwest, and the small, careful Manual Hero Agency keeps a second-floor office about 3 km east-northeast. Hosu has few heroes for its size, and a call from downtown can wait ten minutes or more for a pro. South of the center, past the river mouths, the bay shore runs on toward Kamino and Yokohama. The Metropolitan Police keep order in the capital, with police boxes on busy corners and cameras over the main crossings, and Hosu's own city police work under Chief Kenji Tsuragamae alongside small local agencies, while the pro hero Native walks Hosu's Main Street on foot; heroes cover the districts their agencies have staked out, and public Quirk use without a license is illegal here as everywhere. People get around by subway, commuter rail, bus and taxi; cars crawl, and heroes with movement Quirks take the rooftops. A visitor can shop, work, sightsee, chase a sidekick contract, keep a Commission appointment, sell footage to the networks, intern with a by-the-book pro in Hosu, or ride the elevated lines and watch the city go by below.",
+    "hiddenInfo": "Under the shine, Greater Tokyo runs on competition and quiet deals. The big agencies fight over case credit in front of the cameras, the Commission settles what would embarrass the system and watches the ranking tallies, and every new Hero Killer attack elsewhere puts the capital's pros on edge. Hosu's real weakness is coverage: heroes are spread thin, police take twenty minutes to reach the older quarters, the Back Alleys have no cameras and the station's cameras cover no rooftops, so anyone who moves by roof or lane can cross the city unseen. Local heroes read every report about the Hero Killer Stain, who watches a city's heroes from its rooftops before he strikes; Hosu is exactly the kind of city he studies, and nobody there would notice him doing it.",
+    "x": 1,
+    "y": 1,
+    "realm": "Japan",
+    "factions": [
+      "Hero Public Safety Commission",
+      "Japanese Police",
+      "Villain Brokers"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 45
+    },
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/64b224ca-e32f-45d1-8616-f02f0d9d04ad.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

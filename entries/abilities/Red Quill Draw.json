@@ -1,0 +1,20 @@
+{
+  "Red Quill Draw": {
+    "name": "Red Quill Draw",
+    "description": "The user stiffens a long wing feather and swings it at a target within arm's reach, dealing moderate slashing damage to an exposed surface. Held back, the user cuts a strap or loose weapon sling instead of flesh. The feather occupies one hand until returned and breaks against sufficiently hard armor. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

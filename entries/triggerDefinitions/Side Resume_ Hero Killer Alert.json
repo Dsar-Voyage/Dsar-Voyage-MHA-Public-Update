@@ -1,0 +1,42 @@
+{
+  "Side Resume: Hero Killer Alert": {
+    "name": "Side Resume: Hero Killer Alert",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "pro_hero_killer_alert",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_pro_hero_killer_alert",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_pro_hero_killer_alert",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "pro_hero_killer_alert"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_pro_hero_killer_alert",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Hero Killer Alert\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The nights after the Hosu Incident, evening into late night."
+      }
+    ]
+  }
+}

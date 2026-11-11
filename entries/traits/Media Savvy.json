@@ -1,0 +1,30 @@
+{
+  "Media Savvy": {
+    "name": "Media Savvy",
+    "description": "📸 You handle cameras, reporters and fans with ease, and turn attention to your advantage.\n\n🎯 Good for pros chasing the rankings and anyone in the public eye.\n📋 Requires level 16 and Media Presence 18.\n\n📈 Grants: Media Presence +10",
+    "traitNarrativeEffects": "The character has been in public view enough to handle it: they give clean answers to reporters, sense a loaded question, choose what to post and turn a viral moment to their advantage. Show it in composed interviews and a public image that survives small mistakes. Limits: savvy cannot erase a real scandal, and attention draws enemies: villains, rivals and journalists digging for the story behind the image.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Media Presence",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "skill",
+        "variable": "Media Presence",
+        "amount": 18
+      }
+    ]
+  }
+}

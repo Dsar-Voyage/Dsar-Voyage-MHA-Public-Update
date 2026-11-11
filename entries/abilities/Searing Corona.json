@@ -1,0 +1,24 @@
+{
+  "Searing Corona": {
+    "name": "Searing Corona",
+    "description": "The user fires a focused beam of white light across half a street's length, half a pure light user's long reach, that lands the instant it leaves the palm while a sleeve of shadow trails along it and snags the target's shadow. It deals heavy light damage that passes through glass and windshields; held back, it only heats a held weapon so the target drops it unhurt. Kickback pushes the user back a step and dims their vision. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

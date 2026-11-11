@@ -1,0 +1,15 @@
+{
+  "mha_toru_hagakure": {
+    "label": "Toru Hagakure",
+    "voiceTag": "female melodic bright",
+    "instructions": "A young woman's high, bubbly, sunny voice bouncing with energy: quick bright exclamations, happy squeals and giggles, pitch leaping when excited. Small and shaky when scared. Never sultry or flat.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

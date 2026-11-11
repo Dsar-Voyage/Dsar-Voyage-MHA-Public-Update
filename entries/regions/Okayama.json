@@ -1,0 +1,30 @@
+{
+  "Okayama": {
+    "name": "Okayama",
+    "basicInfo": "Okayama is where Honshu and Shikoku face each other across the narrowest part of the Inland Sea: the city of Okayama and its plain in the north, the Kagawa coast with Takamatsu and Marugame in the south, and between them the islands of the Bisan-seto and the big island of Shodoshima to the east. About half of the cell is water, calm and blue, crossed by ferries and freighters. Okayama, a big city of seven hundred thousand, has the black Crow Castle and Korakuen, one of Japan's three great gardens, the folktale of Momotaro, born from a peach, as its emblem, kibi dango sweets, white peaches and Muscat grapes; the Kibi plain to the west has old shrines and a cycling road among burial mounds. South of the city, the Seto Ohashi bridges carry road and rail from Kojima across the islands to Sakaide in Kagawa. Takamatsu, Kagawa's capital, is the udon capital of Japan, with hundreds of noodle shops; the Ritsurin garden, the flat-topped Yashima plateau and a modern port are its landmarks. Marugame has a castle with high stone walls and makes most of Japan's round paper fans. Kagawa's plain is dotted with irrigation ponds and cone-shaped hills, and pilgrims in white walk to temples of the Shikoku eighty-eight. Out in the sea lie the art islands of Naoshima, Teshima and Megijima, and Shodoshima, with olive groves, soy sauce breweries, somen noodles and the Kankakei gorge; Ushimado on the Okayama coast has olive groves too. The climate is the sunniest Setouchi: mild winters, hot dry summers. Okayama Station is a Nozomi stop, about two and three-quarter hours from Musutafu, and the hub for Shikoku: the Marine Liner reaches Takamatsu in about an hour across the bridge, and limited expresses go on to Matsuyama and Kochi. Ferries run from Okayama, Uno and Takamatsu to the islands. Visitors eat udon, cycle the islands and see the art festival held every three years. Both cities have hero agencies and police, ferry crews with water Quirks work under license, and maritime heroes patrol the straits with the coast guard.",
+    "hiddenInfo": "The art islands draw crowds, and the locals are aging and tired of them. Small-time trouble is theft from art installations, pickpockets on ferries, bike theft, and Quirk-users stealing olives and citrus. Shipping lanes in the Bisan-seto are busy and accidents happen. Hero coverage is dense in Okayama and Takamatsu, but on the small islands a ferry ride is the only way to help.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -9,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f12551a3-6e3e-49c9-9dc3-9aaa51903f47.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

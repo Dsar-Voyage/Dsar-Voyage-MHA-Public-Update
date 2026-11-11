@@ -1,0 +1,15 @@
+{
+  "Handbrake Slip": {
+    "name": "Handbrake Slip",
+    "description": "The user throws the vehicle into a hard swerve, a handbrake turn or a sudden reverse at the moment a threat comes. The vehicle avoids a single collision, roadblock or attack aimed at it, and nobody inside is hurt by the maneuver. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Driving",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

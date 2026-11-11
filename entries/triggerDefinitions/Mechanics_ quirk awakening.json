@@ -1,0 +1,52 @@
+{
+  "Mechanics: quirk awakening": {
+    "name": "Mechanics: quirk awakening",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Quirk Breakthrough"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThanOrEqual",
+        "value": 16
+      },
+      {
+        "type": "player-resource",
+        "resource": "Quirk Strain",
+        "operator": "greaterThanOrEqual",
+        "value": 75
+      },
+      {
+        "type": "read-boolean",
+        "key": "quirkAwakened",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "story",
+        "query": "In a desperate, life-or-death moment the player character's Quirk breaks past every limit it had and changes in scale or reach, doing its own kind of work far beyond anything it did before, and the story treats it as a lasting change in the Quirk, not one strong use."
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Quirk Awakening",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "write-boolean",
+        "key": "quirkAwakened",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player character's Quirk has just awakened (trait Quirk Awakening). Show the change on the page and what it costs; the new scale stays. It is the same Quirk, larger, never a new kind of power."
+      }
+    ]
+  }
+}

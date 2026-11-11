@@ -1,0 +1,24 @@
+{
+  "Lasting Brace": {
+    "name": "Lasting Brace",
+    "description": "The user prepares sugar and sustains a trained surge long enough to hold a major structural support while a whole room is evacuated. They remain in place for the rest of the scene and cannot plan the evacuation themselves as their thinking dulls. When the surge ends, the support needs a replacement immediately and the user cannot activate again until they recover. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

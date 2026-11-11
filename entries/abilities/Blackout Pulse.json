@@ -1,0 +1,20 @@
+{
+  "Blackout Pulse": {
+    "name": "Blackout Pulse",
+    "description": "The user dumps a surge of power into the wiring around them. Every light, camera, radio, phone, card lock and powered door in the building dies and stays dead until it is restarted or repaired, the user's own devices included. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

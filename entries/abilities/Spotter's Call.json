@@ -1,0 +1,20 @@
+{
+  "Spotter's Call": {
+    "name": "Spotter's Call",
+    "description": "The user locks onto an enemy hidden by smoke, darkness, foliage or an invisibility Quirk and calls out their exact position. Until the end of the user's next turn, the user and every ally who hears the call can aim at that enemy without seeing them, and the enemy cannot move or hide without the user calling out the new spot. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

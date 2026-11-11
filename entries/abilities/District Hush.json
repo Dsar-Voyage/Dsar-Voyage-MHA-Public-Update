@@ -1,0 +1,25 @@
+{
+  "District Hush": {
+    "name": "District Hush",
+    "description": "The user opens up and spreads a steady calm through every person across several city blocks, inside buildings and out. For the rest of the scene panic stops: crowds walk out in order, rioters lower their hands and stand back, and the trapped wait quietly for rescue, though a fresh shock breaks the calm for that person. The calm spills onto allies and the user too: every ally in the area reacts a beat slow until the end of the scene, and afterward the user needs a full rest before pushing feelings again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

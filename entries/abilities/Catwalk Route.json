@@ -1,0 +1,20 @@
+{
+  "Catwalk Route": {
+    "name": "Catwalk Route",
+    "description": "The user asks the neighborhood's cats to lead the way and follows them through back alleys, fence gaps and rooftop paths with anyone who keeps up. The group crosses the district faster than traffic allows, stays clear of crowds and street cameras, and loses anyone following on foot unless the pursuer can track by scent or fly. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

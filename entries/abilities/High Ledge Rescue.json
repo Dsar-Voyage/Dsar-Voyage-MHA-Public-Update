@@ -1,0 +1,24 @@
+{
+  "High Ledge Rescue": {
+    "name": "High Ledge Rescue",
+    "description": "The user secures one adult against their back and leaps up to twelve meters across or six meters upward this turn, anchoring their tongue to a firm ledge within twenty meters to steady the landing. This moves a casualty over floodwater or onto a balcony. The anchor must bear both bodies, and the user cannot attempt another loaded leap until their next turn ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

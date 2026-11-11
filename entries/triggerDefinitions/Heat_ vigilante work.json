@@ -1,0 +1,32 @@
+{
+  "Heat: vigilante work": {
+    "name": "Heat: vigilante work",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Vigilante"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Pp]atrol|[Tt]ackle|[Aa]pprehend|[Ii]ntervene|[Cc]hase (down|after)|[Tt]ake \\w+ down)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "add",
+        "value": 3
+      }
+    ]
+  }
+}

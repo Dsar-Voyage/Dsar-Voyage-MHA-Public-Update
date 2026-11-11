@@ -1,0 +1,147 @@
+{
+  "Ground Beta": {
+    "name": "Ground Beta",
+    "basicInfo": "Ground Beta is one of U.A. Academy's mock cities: blocks of full-size streets, office buildings, shops and working traffic lights built for battle and rescue exercises, about 1.5 km northwest of the main building by campus bus, on the wooded slope above Training Ground Gamma, and 2 km west-northwest of the stadium; the entrance exam calls it Battle Center B. It is one of seven, Battle Centers A to G, scattered through the forest inside U.A.'s wall, and each sits behind its own security wall with a locked perimeter gate where the campus bus drops classes off. The Hero Course uses it during Foundational Hero Studies for battle trials, in which teams play heroes and villains inside a training building while the rest of the class watches on monitors, and for street exercises in pursuit, crowd rescue and fighting faux villain robots. All Might supervises Class 1-A's battle training here. Each February, part of the entrance exam's practical test runs here, with robots worth points. Sessions are booked through the Faculty Office in afternoon blocks; outside bookings the city is closed and empty, and the gate stays locked. Damage is part of the lesson, and construction crews and Cementoss repair it between sessions. A player can fight a battle trial, chase a robot down a four-lane road or watch a classmate from the monitoring room. On empty days the traffic lights still change for streets with no cars.",
+    "hiddenInfo": "The faux villain robots are stored in hangars at the city's edge, along with the giant Zero Pointer from the entrance exam, and only a few staff members can activate it. The robots' programming keeps impacts training-safe, but a malfunctioning one would not hold back. Right now one two-pointer in the second hangar is overdue for servicing after the February exam: a work order taped to its chassis says its impact limiter reads wrong, and it is still on the roster for street drills because the repair crew has been busy elsewhere. A monitoring room records every exercise from dozens of cameras, and the faculty grades from the footage, including how much damage students cause. Nobody guards the streets at night: the security wall and a locked perimeter gate are the only barriers, and students who want an unsupervised fight know it. All Might draws battle-trial teams by lot, from a box he made himself, and he rehearses his briefings from a cue card he thinks nobody notices. The training building's upper floors still hold a fake nuclear warhead prop, papier-mache over a steel frame, left from last year's trials and waiting to be used again.",
+    "x": -5.32,
+    "y": -17.718,
+    "radius": 0.36,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Ground Beta Gate": {
+        "description": "The way into Ground Beta: a locked perimeter gate in the mock city's security wall, at the end of the campus road where it comes out of the forest, with a bus turnaround, a concrete bus shelter and a small staff booth with a card reader and an intercom to the Faculty Office. Campus buses from the Campus Bus Terminal drop classes here in the early afternoon, about a kilometer and a half from the main building, and collect them again before evening; outside a booking the gate stays shut and the turnaround stays empty. Classes line up here in costume while the teacher unlocks the gate and runs through the exercise, and through the bars the first block of the mock city is already in view: a four-lane road, a working traffic light, blank shop windows. A hose reel and a stack of hazard cones sit by the booth for the repair crews, and robot tread marks run in under the gate. Through the gate lie the Mock City Streets.",
+        "paths": [
+          "Mock City Streets",
+          "Mock City Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f5be3616-3f16-4d85-ac5d-671ee720ba20.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mock City Streets": {
+        "description": "Four-lane roads, side streets and intersections between full-size buildings, with working traffic lights, parked cars, storefronts and bus shelters. Exercises here cover pursuit, crowd rescue, street fights and running battles with faux villain robots, which roll out of the hangars at the edge of the city with their point values painted on their sides. Classes arrive by bus at the perimeter gate in the early afternoon and leave before evening; outside bookings the streets are empty. Cameras on the lampposts feed the monitoring room in the Training Building, and fire escapes and ladders lead up to the Mock City Rooftops. The shop windows are blank, the cars have no engines, and the vending machines hold nothing. Fresh concrete patches mark every block, and robot treads have scored the asphalt.",
+        "paths": [
+          "Training Building",
+          "Mock City Rooftops",
+          "Ground Beta Gate",
+          "Mock City Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a77104e5-4259-4d60-bbff-57d05b835038.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Training Building": {
+        "description": "A multistory office building near the center of the mock city, used for indoor battle trials: a villain team defends a target on an upper floor while a hero team breaks in, and wrapping an opponent in capture tape counts as a capture. Each team gets a floor plan and a few minutes to plan, and the villains get a head start to set up. Its monitoring room shows every floor on banks of screens, and the waiting class watches there with the instructor, who stops a trial the moment it turns dangerous and has every student explain their choices afterward. The walls are reinforced but not unbreakable, and holes from past trials are patched in a lighter shade of concrete. The front doors open onto the Mock City Streets. Inside, every hallway looks the same, and the elevators do not run.",
+        "paths": [
+          "Mock City Streets",
+          "Monitoring Room",
+          "Mock City Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d631de6-e1c4-4ac9-bd6f-6fcd085078ee.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mock City Rooftops": {
+        "description": "The flat roofs of the mock city, crowded with water tanks, air units and antenna masts, with gaps between buildings that only some Quirks can cross. Ranged Quirk users take positions here, mobile students practice crossing the skyline, and instructors watch exercises from the tallest roofs with a radio and a stopwatch. Robot targets set on the rooftops are a standard drill for students who can fly, swing or leap, and the scorch marks on the water tanks show who has tried. Fire escapes and ladders lead back down to the Mock City Streets. From up here the forest shows over the security wall on every side, and the stadium's rim is visible to the east. The wind is strong up here, and the edges have no rails.",
+        "paths": [
+          "Mock City Streets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/33561210-9d9b-4e00-9f50-ec7d24bc1b9c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Monitoring Room": {
+        "description": "The Training Building's monitoring room, on the ground floor behind a steel door off the lobby: a dim room lined with banks of screens that show every floor, stairwell and corridor of the building from dozens of ceiling cameras, plus the lamppost cameras out on the Mock City Streets. A long console with microphones lets the instructor talk to the teams through their earpieces and call a stop, and the round's timer runs on the center screen. During a battle trial the waiting class stands here with the instructor and watches the two teams on the screens; after each round the four students come down and stand in front of the class while the instructor has each of them explain their choices, and the class weighs in. Recordings of every exercise go to the Faculty Office for grading. The air conditioning hums, the room smells of warm electronics, and the only light is the blue glow of the screens. The steel door leads back into the Training Building.",
+        "paths": [
+          "Training Building"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7a8c7715-feef-4ef9-8afd-b878d6a1637e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mock City Central Plaza": {
+        "description": "An open square at the center of the mock city, in front of the Training Building's doors, where four streets meet around a dry fountain and a ring of empty benches. This is where an instructor gathers a class inside Ground Beta: teams are briefed here, the class lines up in costume before an exercise, and at the end of a lesson the instructor gives the last words and dismisses everyone, who then walk back down the main road to Ground Beta Gate for the campus bus. A large public screen on one building face can show the monitoring room's feeds to a crowd. The fountain has never held water, the bench paint is fresh, and the storefronts around the square are as blank as everywhere else in the city. The Training Building, the Mock City Streets and the road to Ground Beta Gate all open onto the square.",
+        "paths": [
+          "Training Building",
+          "Mock City Streets",
+          "Ground Beta Gate"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/992d21f1-ffe8-42f4-b411-e8052c0f35e9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "U.A. Academy"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a12f130-5f45-4d7d-9fa5-6be3fc3a0ddc.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

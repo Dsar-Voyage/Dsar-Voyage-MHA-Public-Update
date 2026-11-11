@@ -1,0 +1,15 @@
+{
+  "mha_shigaraki_s_sensei": {
+    "label": "Shigaraki's Sensei",
+    "voiceTag": "male baritone warm",
+    "instructions": "A very deep, velvety bass-baritone, rich and resonant. Soft, slow and pleasant like a kindly old teacher, praising before he corrects; cruelty comes in the same warm, almost purring tone with a quiet chuckle. Never shouts.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  }
+}

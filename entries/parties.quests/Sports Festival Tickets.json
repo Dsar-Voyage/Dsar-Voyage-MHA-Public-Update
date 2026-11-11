@@ -1,0 +1,17 @@
+{
+  "Sports Festival Tickets": {
+    "name": "Sports Festival Tickets",
+    "questSource": "Present Mic",
+    "questStatement": "Public seats for U.A. Academy's first-year Sports Festival sell out in minutes, and resale prices are criminal. Present Mic is giving away a pair of tickets on his late-night show, Put Your Hands Up Radio, to the listener with the best call-in, and there are other ways in: a vendor job at the stadium food stalls, a friend with a spare seat, a long night in the ticket line. You want to be in the stands on Festival day.",
+    "mainObjective": "Get a legitimate ticket, pass or job that puts you inside U.A. Stadium on Festival day.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC holds a valid ticket, staff pass or stadium job that gets them into U.A. Stadium for the first-year Sports Festival."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "Light, fan-centered fun. Present Mic is pure broadcast energy on air and kind off it; the call-in can be a talent bit, a trivia round or a story that moves him. Scalpers and fake tickets are the main hazards. If the USJ attack has happened, the line is full of rumors about it and security is heavy; the quest neither stages nor predicts it. The quest ends when the PC has a way in; the festival itself runs as its own event. The PC cannot enter the rest of the U.A. Academy campus. Failure: a fake ticket, a lost day's pay, or watching the festival on a screen in the Station District.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

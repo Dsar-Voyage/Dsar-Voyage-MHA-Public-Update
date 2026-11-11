@@ -1,0 +1,20 @@
+{
+  "Weathered Hide": {
+    "name": "Weathered Hide",
+    "description": "The user takes an incoming bludgeoning, slashing or piercing hit in full, and layered calloused hide grows over the struck skin and knuckles by the end of their next turn. Until ten minutes after danger passes or a new threat replaces it, hits of that damage type deal half damage, and the user's punches in reach deal bludgeoning damage; held back, they only shove foes back. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

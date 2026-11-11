@@ -1,0 +1,30 @@
+{
+  "Sharp Mind": {
+    "name": "Sharp Mind",
+    "description": "💭 Experience has made you quicker to connect facts and plan ahead.\n\n🎯 Good for strategists and planners.\n📋 Requires level 24 and Intelligence 14.\n\n📈 Grants: Intelligence +1",
+    "traitNarrativeEffects": "The character thinks faster and more clearly than when they started: they connect facts across cases, remember details and plan several steps ahead. Show it in quick deductions and plans that anticipate problems. Limits: intelligence is not knowledge; they still need to learn facts, and they still misjudge people.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 24
+      },
+      {
+        "type": "attribute",
+        "variable": "intelligence",
+        "amount": 14
+      }
+    ]
+  }
+}

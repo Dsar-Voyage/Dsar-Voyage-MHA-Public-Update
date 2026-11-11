@@ -1,0 +1,25 @@
+{
+  "Long Passage Run": {
+    "name": "Long Passage Run",
+    "description": "The user strings together memorized wall and floor passages across several connected rooms for the rest of the scene, using rebounds to emerge wherever their planned route reaches open space. They can scout exits and approach a trapped person despite barriers. Each phase still cuts off sight, sound and breath; a newly sealed passage or lost route can eject them into danger, and no passenger can phase with them. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

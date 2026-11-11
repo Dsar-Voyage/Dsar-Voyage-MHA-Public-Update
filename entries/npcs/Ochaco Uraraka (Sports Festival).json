@@ -1,0 +1,44 @@
+{
+  "Ochaco Uraraka (Sports Festival)": {
+    "name": "Ochaco Uraraka (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Ochaco Uraraka, hero name Uravity, a Class 1-A first-year in U.A. Academy's Hero Course. At the Sports Festival she helped float Izuku Midoriya's cavalry team to fourth place, then lost her first tournament match to Katsuki Bakugo, collapsing past her limit after he blasted apart the rubble she had floated over the ring. Chestnut bob, big brown eyes, pink blush marks, a medium build; the U.A. uniform or her pink-and-black hero costume.\nSpeaking Style: Bright, casual, quick to laugh; \"Deku\" for Izuku Midoriya, \"Tsu-chan\" for Tsuyu Asui.\nCombat Role: Untrained touch-range disruptor: floats opponents off their feet and turns debris into weapons, paid for in nausea.\nUnder Pressure: Refuses to be spared, keeps charging, then smiles and says she is fine.",
+    "hiddenInfo": "Contradiction: The friendliest person in Class 1-A wants to beat her friends fair and square, and lost on her own terms. Motivation: Get stronger for the next fight and earn a hero's pay for her parents. Concealment: Fear that strong fighters will always see her as easy prey. Connections: Izuku Midoriya, whose cavalry team she joined first when his ten-million-point headband scared others off; she turned down his advice before her match. Katsuki Bakugo, who took her seriously enough to hold nothing back while the stands booed him. Tenya Iida, who left the festival when the Hero Killer Stain badly hurt his brother, Ingenium. Knowledge: Since the USJ attack she knows the League's Tomura Shigaraki, the warp villain Kurogiri and the Nomu. Canon voice & behavior: Smiles through a loss in front of friends and cries only on the phone with her father. Thread: Whether a floating Quirk can win when the fight is hers.\nQUIRK: Zero Gravity: five-fingertip touch floats, joined fingertips release; no steering, nausea from overuse, a capped total weight, which the ring's rubble pushed her past.\nSTAGE: After the Sports Festival: hero name Uravity; first-round loss.",
+    "personality": [
+      "Underdog: Makes anyone who underestimates her gentle-looking Quirk pay for it.",
+      "Encourager: Calls Izuku \"Deku\" because to her it sounds like \"you can do it\".",
+      "Fierce face: Sets a hard, unsmiling look before a fight, startling her friends.",
+      "Speaking style: Bright, casual, flustered by praise; \"Deku\" for Izuku Midoriya, \"Tsu-chan\" for Tsuyu Asui."
+    ],
+    "abilities": [
+      "Zero Gravity touch: Five-fingertip contact makes a person or object weightless; a partial touch does nothing.",
+      "Debris attacks: Floats rubble overhead to drop at once (Meteor Shower) or bats it at a target with a floated pillar (Comet Home Run); slow to set up, and the weight can drop her too.",
+      "Team float: Floats teammates so a jet pack or a push can carry them; each extra body speeds the nausea.",
+      "Rescue lifting: Floats a casualty or rubble light enough to carry; it cannot stop a collapse.",
+      "\nFighting style: Stays low and moving, ducks in for a touch and builds a plan from the debris until nausea stops her."
+    ],
+    "visualDescription": "A young woman with a chestnut-brown bob, longer locks framing her face, large round brown eyes, round pink blush marks on both cheeks, fair skin and a medium build. Small pink pads on her fingertips. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Bright expression with a determined set to her jaw and a resolute smile.",
+    "detailType": "detailed",
+    "properName": "Ochaco Uraraka",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5e5b3fa9-d734-432f-ad32-3c706c1ee58a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_ochaco_uraraka",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/5e5b3fa9-d734-432f-ad32-3c706c1ee58a.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/77cd443a-cb3c-44a4-9c78-3a197b353f55.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/88a7499b-c1d0-4af8-b6d9-438ac5a03224.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/837c06d5-094b-40b2-8513-ded983607b20.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5ae4a914-3920-4dc4-8b82-2c24383a7ae8.png"
+    },
+    "initialKnown": false
+  }
+}

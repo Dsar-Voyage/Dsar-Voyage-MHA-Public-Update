@@ -1,0 +1,25 @@
+{
+  "Standing Citadel": {
+    "name": "Standing Citadel",
+    "description": "The user raises a dome of force over a whole city block and holds it for the rest of the scene. Nothing passes through it but heat, light and sound: falling debris, gunfire, a flood or a villain's charge all stop at its surface, and only a blow strong enough to level a building cracks a section. The user can open doorway-sized gaps to let people in or out. The user cannot move or attack while holding it, and when it drops they collapse and need a full rest before the Quirk works again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

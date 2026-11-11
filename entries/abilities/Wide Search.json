@@ -1,0 +1,20 @@
+{
+  "Wide Search": {
+    "name": "Wide Search",
+    "description": "The user forms eyes and ears on several extended arms, checking multiple openings across one room or short hallway at once. They locate visible exits, moving people and audible calls for help, then tell allies what they found. Each organ still needs a clear position, and overlapping sights and sounds make fine details hard to follow. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

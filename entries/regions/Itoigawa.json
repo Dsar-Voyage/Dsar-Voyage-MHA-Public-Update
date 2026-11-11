@@ -1,0 +1,30 @@
+{
+  "Itoigawa": {
+    "name": "Itoigawa",
+    "basicInfo": "The Itoigawa coast, the far western end of Niigata, where the Northern Alps run straight down into the Sea of Japan. The northern half of the region is open sea; the land is a narrow shore strip backed by steep green ridges, running from the Toyama border in the southwest to Nadachi in Joetsu city in the northeast. Itoigawa sits on the Itoigawa-Shizuoka Tectonic Line, the western wall of the Fossa Magna rift that splits Honshu, and the whole area is a UNESCO Global Geopark, with the Fossa Magna Museum and a park where visitors can lay a hand on the fault itself. This is also Japan's jade country: jade boulders lie in the protected Kotaki River gorge, and after storms stone hunters comb the gray gravel beaches between Omi and Itoigawa for green pebbles. At the western end the Oyashirazu cliffs drop sheer into the waves, once the most feared stretch of the old coast road and now threaded by tunnels. Winters bring wild seas, sleet on the coast and deep snow a few kilometers inland; summers are hot, with foehn winds off the mountains. Itoigawa is a small city of fishing harbors, limestone quarries and cement works, sake breweries and quiet shopping streets; Nou to the east has a roadside station where stalls grill red snow crab by the dozen. Locals eat Itoigawa's black squid-ink yakisoba and anglerfish hot pot in winter. The Himekawa valley runs south toward Otari and Hakuba, with Renge Onsen high in the mountains just to the south, and the single-track Oito Line follows it through snow sheds. The Hokuriku Shinkansen stops at Itoigawa, the Echigo Tokimeki Railway runs the coast to Naoetsu and Ichiburi, and the Hokuriku Expressway and Route 8 hug the shore. Musutafu is about three hours away via Tokyo, Tokyo a little over two, Shin-Osaka about three and a half. Visitors come for the geopark, jade hunting, crab, sea kayaking under the cliffs and hiking the old cliff road. A small hero office in Itoigawa covers the whole coast with the police, and its sidekicks spend as much time on landslide and avalanche calls as on crime.",
+    "hiddenInfo": "Nature is the steady threat: landslides and avalanches close the Himekawa valley road and the Oito Line most winters, and rough seas take beachcombers every year. Jade poaching from the protected Kotaki gorge and fake jade sold to tourists are the local scandal. Hero help is thin; the Itoigawa office and police handle most calls, and anything big waits on Joetsu or Toyama, forty minutes to an hour away. Villainy is small: theft at the crab stalls and harbor, drunk drivers on Route 8, and the occasional unlicensed Quirk user digging for stones.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -2,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/45248369-8257-41a1-87a5-8662cb70d34b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Ribboned Descent": {
+    "name": "Ribboned Descent",
+    "description": "The user draws the shadow under a ledge, a stairwell or a dark shaft into firm black ribbons and lowers up to three people from a height to the ground at a safe pace, or reaches into a dark gap in rubble and draws a trapped person out along the ribbons. Firelight or a floodlight thins the ribbons, so the user must keep the people inside the shade the whole way down. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

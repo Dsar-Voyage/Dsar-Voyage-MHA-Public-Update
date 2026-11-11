@@ -1,0 +1,24 @@
+{
+  "Three Corner Assault": {
+    "name": "Three Corner Assault",
+    "description": "The user uses successive wall rebounds along thirty meters of a clear corridor and strikes up to three opponents for heavy bludgeoning damage before landing this turn. Held back, the user checks each impact to knock opponents down. Unsound surfaces interrupt the sequence, and the user must stop to inhale afterward. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Braced Charge": {
+    "name": "Braced Charge",
+    "description": "The user braces and charges until their next turn, with a rising whine and bright muzzle glow, then fires within thirty meters. The shot deals heavy bludgeoning damage and knocks an adult down; held back, it only knocks them back. The user cannot fire while charging, and firing without a brace knocks the user down too. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

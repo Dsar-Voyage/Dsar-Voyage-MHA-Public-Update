@@ -1,0 +1,29 @@
+{
+  "Police Family": {
+    "name": "Police Family",
+    "description": "👮 You are the child of a police officer: at a neighborhood police box, in a detective squad or with the riot police.\n\n⚖️ You grew up with the law and the way detectives think.\n🦸 You also learned the police view of heroes.\n\n📈 Grants: Intelligence +1, Hero Law +5, Investigation +5",
+    "traitNarrativeEffects": "A parent is a police officer: original, never canon. The player may define them; else the narrator sets post (police-box officer, ward detective or riot police), personality and firm view of heroes that shaped the character. On duty, police never use Quirks as weapons: heroes do most Quirk-villain fighting; police arrest, investigate, detain, file paperwork. Officers may respect heroes or resent their credit and damage. In play: officers who know the parent know the character (favors, scrutiny); case files never leak, but home talk reveals police worries; using the parent's name to dodge trouble backfires on both. Paths: illegal Quirk use reaches the parent; a vigilante or villain path puts the parent between child and oath, a conflict the narrator plays honestly and never resolves for the player; a hero: respect from some officers, suspicion from those who say heroes steal cases. Childhood: nameless cases at dinner, missed holidays, curfews, a lie-spotting parent.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Hero Law",
+        "modifier": 5
+      },
+      {
+        "skill": "Investigation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

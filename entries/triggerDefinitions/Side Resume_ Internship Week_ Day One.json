@@ -1,0 +1,42 @@
+{
+  "Side Resume: Internship Week: Day One": {
+    "name": "Side Resume: Internship Week: Day One",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_intern_day_one",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_intern_day_one",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_intern_day_one",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_intern_day_one"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_intern_day_one",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Internship Week: Day One\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The first morning of internship week, at the agency the party chose in the Internship Week quest."
+      }
+    ]
+  }
+}

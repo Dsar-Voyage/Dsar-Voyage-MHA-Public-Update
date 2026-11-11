@@ -1,0 +1,164 @@
+{
+  "Yokohama Harbor District": {
+    "name": "Yokohama Harbor District",
+    "basicInfo": "Yokohama Harbor District is the old port center of Yokohama, about 30 km southwest of central Tokyo and some 70 km east-northeast of U.A. Academy: a waterfront park and seawall promenade, passenger piers, the container docks on reclaimed land, and the painted gates of Chinatown a few blocks inland. Kamino Ward lies about 11 km to the northwest and Takoba Municipal Stadium about 12 km to the west-southwest. The port authority runs the piers and docks, customs officers and the prefectural police watch the cargo, and local hero agencies patrol the promenade and Chinatown. Heroes are a common sight: Gang Orca, the longtime top-ten orca heteromorph whom strangers take for a villain, works the docks with his armored sidekicks; Crust, a rescue-first hero who grows shields from his own body, walks the promenade; and Selkie captains his own patrol ship off the coast on sea-rescue and smuggling cases. Dockworkers keep the container terminal running in shifts around the clock; tourists, couples and school trips crowd the promenade and Chinatown from late morning until late evening. A player can find dock or restaurant work, shop, eat, take a harbor cruise, meet contacts in a crowd, or watch the cargo trade. The promenade and Chinatown are open to anyone; the container terminal needs a port pass at its gate. The nearest station is a short walk from the promenade, with express lines to Tokyo Station. Ship horns, gulls and the smell of salt and diesel carry across the district, and at night the lit cranes and bridges make the whole harbor glow.",
+    "hiddenInfo": "Unlicensed support gear moves through the container docks. Crates declared as machine parts hold grappling launchers, weighted gauntlets and stun batons bound for small-time villains and would-be vigilantes. A customs inspector on the night shift waves certain containers through for cash, usually on the two nights a week when one feeder ship ties up, and the crates leave the terminal through the gap in the seaward fence before dawn. The broker who meets buyers in the private room of a Chinatown restaurant is Giran, the best-known broker in Japan's underworld, who sells introductions, muscle, hideouts and gear to anyone and keeps his records far from that room. One of his steadier clients is a polite man made of mist who buys muscle and pays well for a small group with big talk, and Giran is happy not to ask. Mr. Compress, a masked villain and stage magician who makes people and things vanish into marbles, picks up jobs from Giran and studies the promenade crowds like an audience. Gang Orca suspects something comes off the night ships unseen by customs and has his sidekicks logging which containers leave after midnight; Selkie knows the smugglers' habits on the water and would share them with anyone serious. Hero coverage thins after midnight, when the promenade empties and the docks run on skeleton crews. Chinatown's merchant association pays a local agency for extra patrols during festivals and resents the police for ignoring its complaints the rest of the year.",
+    "x": 8.02,
+    "y": 6.62,
+    "radius": 1.5,
+    "region": "Kamino and Yokohama",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Harbor Promenade": {
+        "description": "A long seawall promenade and waterfront park with lawns, flower beds and benches facing the water, and passenger piers where ferries, harbor cruises and cruise ships tie up. Joggers and dog walkers use it at dawn, tourists and school groups by day, and couples at night when the cranes and bridges across the water are lit. Street musicians and performers set up near the piers on weekends, and heroes on patrol walk the seawall at regular hours; Crust is the one people stop to thank, and he thanks them back with feeling. The salt wind never stops, gulls work the benches for crumbs, and ships' horns sound across the harbor. Along the waterfront the path runs past fenced lots to the gate of the Container Docks; inland, a few blocks of streets lead to the painted gates of the Chinatown Streets. After midnight the lawns empty and the lamps light only the seawall.",
+        "paths": [
+          "Container Docks",
+          "Chinatown Streets",
+          "Harbor Jazz Bar",
+          "Waterfront Amusement Pier"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5cb9cc3e-4209-44bf-a0fc-421cfb5a539d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Container Docks": {
+        "description": "A terminal of stacked shipping containers, gantry cranes and straddle carriers on reclaimed land, fenced and gated, with a customs inspection shed by the main gate. Trucks line up at the gate from early morning, and dockworkers, crane operators and customs officers work in shifts around the clock. Entry needs a port pass, shown at the gate booth, though the night crews know a gap in the fence on the seaward side. Gang Orca and his armored sidekicks, who carry cement guns and water for him, are a regular sight on the quay, and Selkie's patrol ship ties up at the terminal between runs. Floodlights keep the yard bright all night, the beeping of reversing trucks never stops, and the container rows form steel canyons where a person can vanish in a few steps. Workers eat at a canteen truck by the gate. The only public way out is back through the gate to the Harbor Promenade.",
+        "paths": [
+          "Harbor Promenade",
+          "Dockside Safehouse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/32320573-091f-4c0d-8122-3b6c9d5aef30.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Chinatown Streets": {
+        "description": "A grid of narrow streets behind ornate painted gates, packed with restaurants, steamed-bun stalls, tea shops, souvenir stores, fortune tellers and a temple heavy with incense. Crowds peak at lunch and in the evening; shopkeepers call out to passersby, and families who have run the same restaurants for generations know every face on their block. Delivery bikes weave through the crowds, and during festivals lion dancers and drums fill the main street. Upstairs rooms over the restaurants are rented for banquets and private meetings, and the staff who serve them are known for never remembering who sat there. Steam from the bun stalls and the smell of roast pork hang in the air, and red lanterns light the streets after dark. The gates on the waterfront side lead back to the Harbor Promenade.",
+        "paths": [
+          "Harbor Promenade",
+          "Harbor Jazz Bar",
+          "Giran's Chinatown Office"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a090fa1-9c32-4ca7-a23f-ce6438746934.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Harbor Jazz Bar": {
+        "description": "A basement jazz bar under an old brick trading house on the street between the seawall and the Chinatown gates, down a flight of worn stairs lined with signed photos of musicians. The room seats forty at small round tables and a long walnut bar, with a baby grand, a drum kit and an upright bass on a low stage under one warm spotlight, and records shelved floor to ceiling behind the bartender. Sets start at seven, nine and half past ten; the cover is 2,500 yen with one drink, and the house rule is no talking during solos. Early sets draw older couples and harbor cruise passengers; later ones bring musicians from other clubs, office workers loosening their ties and the odd sailor off a cargo ship. On Sunday afternoons the stage is open to anyone who signs the sheet, and the only thing the bartender asks musicians to leave at the door is a sound-amplifying Quirk. Off-duty heroes sometimes catch the last set. The room smells of old wood, whiskey and coffee, and a ship's horn now and then lands right on the beat. The stairs climb back to the Harbor Promenade, and the street outside runs inland to the Chinatown Streets.",
+        "paths": [
+          "Harbor Promenade",
+          "Chinatown Streets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e7d5e742-7868-43a6-8e59-fcd5b46141ca.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Waterfront Amusement Pier": {
+        "description": "An amusement park on a reclaimed pier at the far end of the promenade, reached over a short footbridge: a giant Ferris wheel whose hub is a lit clock face, a roller coaster that dives toward the water, a carousel, a drop tower, a game hall and food stands selling crepes, karaage and soft-serve. Entry is free; rides cost 300 to 900 yen by ticket, and a fifteen-minute turn of the Ferris wheel at night is the classic Yokohama date. School trips and families fill it on weekend afternoons, couples queue for the wheel after dark, and the staff close the coaster early whenever the wind off the bay picks up. One ride mechanic's Quirk lets her feel a bolt working loose from across the platform. Each ride posts a sign saying riders who use Quirks to fly, cling or brace will be removed without a refund. A hero merch booth sells Gang Orca plushies to customers who swear they are not scared of him. The pier smells of caramel, popcorn and salt, the coaster's rattle carries over the water, and gulls steal fries from anyone not watching. At ten the lights go off ride by ride, and the footbridge leads back to the Harbor Promenade.",
+        "paths": [
+          "Harbor Promenade"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f33dfc64-b2a9-43d2-8ce7-e480a6161875.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Dockside Safehouse": {
+        "description": "A forty-foot shipping container at the end of a row of retired ones on the terminal's far edge, near the seaward fence, fitted out years ago by a night crew as a break shed and rented now by the week to people who need to lie low. A steel door with a padlock opens on plywood walls, a cot with a sleeping bag, a camp stove, a crate for a table, jugs of water, a bucket behind a curtain and a battery lantern; a vent cut in the roof lets in air and the orange glow of the floodlights. Cash goes to a dockworker who never asks a name, and the key changes hands at the canteen truck by the gate. Smugglers waiting on a ship, sailors who missed one and villains whose faces are on the news have all slept here. The rules are short: no light after dark, no cooking with the door shut, no visitors, and gone before the morning shift whenever the straddle carriers start moving this row. Gang Orca's sidekicks walk the quay logging containers after midnight, so whoever is inside keeps still when boots pass. The hum of the cranes, the beep of reversing trucks and the ships' horns come through the steel, and the air smells of rust, diesel and salt; summer days bake the box and winter nights frost its walls. A player can rest, stash gear, wait out a search or meet one contact. The door opens onto the steel canyons of the Container Docks.",
+        "paths": [
+          "Container Docks"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d39e8b1-56d6-43f9-8f63-c3343b4bcfbb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Giran's Chinatown Office": {
+        "description": "A narrow room behind a dried-goods shop on a side street of Chinatown, reached past sacks of dried mushrooms, jars of dried scallops and an old shopkeeper who looks up from her abacus only long enough to nod a customer through the bead curtain. Inside are a desk under a single green-shaded lamp, two folding chairs for clients, a sofa with a cigarette burn on one arm, a wall of cardboard boxes labeled as tea and a small safe that holds cash and nothing written. Giran keeps the hours he chooses, mostly late afternoon into the small hours, and sees clients one at a time: jobs, introductions, forged papers, a week in a hideout, unregistered support gear delivered later to an address he names. He quotes prices with a smile, takes half up front and never says one client's name to another; phones go into a tin box by the door. A heavyset man on the sofa reads a racing paper and does not look up until someone raises a voice. A player can ask for work, buy papers or gear, pay off a debt or ask who is hiring, at Giran's price. The room smells of cigarettes, dried fish and cheap incense from the shop. The curtain leads back through the shop to the Chinatown Streets, and a back door opens on an alley that rejoins the Chinatown Streets two blocks away.",
+        "paths": [
+          "Chinatown Streets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/49ab8db1-9784-4032-8e5f-369e3eb79c73.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Villain Brokers"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/43c8949c-4aaa-4ee2-9685-5740d84bc0f5.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

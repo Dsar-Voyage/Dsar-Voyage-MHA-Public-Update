@@ -1,0 +1,20 @@
+{
+  "Many Limb Hold": {
+    "name": "Many Limb Hold",
+    "description": "After recently eating octopus, the user manifests several strong tentacles to restrain one person within a room's length against a wall or floor. The hold lasts until the end of the user's next turn unless the target breaks free or the limbs are cut. The user cannot maintain the grip while moving far from the target. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Gifted: Afterimage": {
+    "name": "Gifted: Afterimage",
+    "description": "🧬 Afterimage, as an extra Quirk put into your body.\n\n🌱 Leave a standing image of yourself behind, fake a lunge with an image of your body, or replay what you witnessed at life size a few strides away.\n📈 Training adds a blinding stored glare, replays that show police what you saw, a false wall across an alley, a lit way out of smoke and a street full of your images.\n⚠️ Your images are light only: no weight, no sound, no shadow, and anything that touches them passes straight through.\n🔗 Common drawback pairing: Visible Tell, as your eyes glow with whatever you have stored and give away a coming projection.\n🎬 Similar canon Quirks: none close.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Afterimage family): Scale: the eyes store sight, projected as moving, full-color light. A new adult user keeps about the last ten minutes (rolling, unless a moment is kept) and projects any stored moment life-size anywhere visible within about ten meters, or their own figure, posed and moving at will; other images only replay sight, as seen. Larger, longer ones need techniques. Limits: light only: no weight, sound, touch, heat or shadow; things pass through. Solid by day; a glow betrays them in the dark. Fades if the user loses sight or focus; no unseen faces or places. Cameras record them. No beams, burning or hiding the user's body. Quirk Strain: light: standing image, feint; moderate: glare, replay, false wall; heavy: lit route, crowd of selves; severe: signature, projected battalion. Type: Emitter. Law: deceiving police or public is obstruction and fraud; showing real heroes or officers unlicensed is impersonation; a replay is sworn testimony, not a recording.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Deception",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

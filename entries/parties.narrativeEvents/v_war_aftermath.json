@@ -1,0 +1,15 @@
+{
+  "v_war_aftermath": {
+    "title": "After the War",
+    "beats": "A cold day in late January or early February, on a street near the party. Unless the story has changed it, the heroes' war on the Paranormal Liberation Front ended with Jaku City in ruins, many of the Front's fighters arrested, Tomura Shigaraki and the League's leaders fugitives, and mass breakouts from Tartarus and other prisons. Wanted posters cover every station wall. The news counts the missing nightly, pros resign on camera and residents patrol with bats and phone cameras.\n\nCanon default course, as pressure the player can change: this event is its own scene, opening now on that one street at its worst, never folded into another running story. Breakout fugitives, hardened villains, hit a shelter, a pharmacy or a convenience store for supplies; a neighborhood watch drags a frightened stranger out of a crowd as a suspected villain; a lone pro tries to hold three blocks alone; police are stretched far too thin. Somebody is going to get hurt, and the party is close enough to choose who.\n\nBy path: a League recruit is a fugitive in a city that hates the League's faces. Contact from the League is rare and depends on who the story left free; breakout villains want the recruit's name on their crew, and the watch looks hard at every stranger. An Independent Villain finds work everywhere and brokers charging triple; a breakout crew offers a share of a looting run, and the same chaos puts armed residents and jumpy pros on every corner. A Vigilante has the busiest nights of their life: residents call the mask by name now, the one pro left is grateful and still has to arrest unlicensed heroes, and the watch wants a vigilante to lead them in ways a vigilante should not.\n\nChoices here raise or lower Heat and decide whether the street remembers the party as a threat, a predator or a protector.\n\nThe event is complete when the fugitives on that street are caught, driven off or gone (the party need not leave the street).",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_war_aftermath",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

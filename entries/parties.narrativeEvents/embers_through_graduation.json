@@ -1,0 +1,15 @@
+{
+  "embers_through_graduation": {
+    "title": "Finish What We Started",
+    "beats": "At U.A. Academy on March 25, the cohort gathers for graduation after its third year. Izuku Midoriya, Katsuki Bakugo, Ochaco Uraraka, Shoto Todoroki, and Hitoshi Shinso wait in the Upper-Year Classrooms while Shota Aizawa checks the ceremony preparations. At Hero Agency Row, completed placements return final assessments. The party has one remaining ambition to account for before the next stage of life.\n\nThe canon default course, as pressure the player can change: the ceremony draws together short scenes from the years since June's recovery. Revisit a rebuilding shift, a demanding training exercise, a placement setback, and a project brought to completion. Let the party choose which goal those scenes test and show the consequence of its actual work. Class A and Class B progress through the Academy's three-year course; other students and professionals pursue their own routes rather than being assigned the same diploma.\n\nPrivately, Izuku continues using the embers of One For All until they fade. By this transition he is Quirkless again, but the education, relationships, and instinct to help remain. Friends can support his next decision without inventing a cure. Return to the graduation ceremony, give the shared achievement and missing people time to matter, and let farewell become an agreement about staying connected. Yuga Aoyama follows the separate route established at his departure; he is not silently restored to the roster. Neither past deaths nor permanent disabilities disappear during the passage of years.\n\nBy Path at U.A. Academy and Hero Agency Row: Class 1-A and Class 1-B complete training and placements; General Studies qualifies for a chosen career; Support presents a working project; Management establishes professional practice; Faculty mentors graduates. Licensed Sidekick takes greater responsibility; Licensed Pro Hero develops an agency. League of Villains Recruit and Independent Villain face the actual outcome of custody, rehabilitation, or continued flight; Vigilante chooses a relationship with formal service; Civilian Life pursues recovery and personal ambitions. Invitations, travel, and legal status determine physical attendance.\n\nThe event is complete when graduation has concluded and the party's selected goal, qualification or unresolved obstacle, and graduation-era place in society are explicit.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

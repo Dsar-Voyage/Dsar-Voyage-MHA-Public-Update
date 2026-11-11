@@ -1,0 +1,20 @@
+{
+  "Capture weapon": {
+    "name": "Capture weapon",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "value": 5
+      }
+    ],
+    "description": "A long binding cloth of carbon fiber woven through with alloy wire, worn looped around the neck and shoulders. Thrown with skill, it snares limbs, wraps a target and anchors swings between walls or posts; in untrained hands it mostly tangles. Outside licensed hero work and supervised training, binding a person with it is lawful only as a citizen's arrest of someone caught in the act, who must then be handed straight to the police. [ Support Gear | Licensed support item, about ¥120,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/34a21a32-063b-4dd6-9950-57f5f9b0e636.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

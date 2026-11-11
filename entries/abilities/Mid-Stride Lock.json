@@ -1,0 +1,20 @@
+{
+  "Mid-Stride Lock": {
+    "name": "Mid-Stride Lock",
+    "description": "The user glances at a running, leaping or falling person within about twenty meters and locks their body's motion. The target hangs in place mid-stride, unable to move their limbs until the end of their next turn or until the user looks away, though they can still breathe, speak and see. Someone standing still gives the Quirk nothing to hold. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vector Lock Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

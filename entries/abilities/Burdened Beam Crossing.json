@@ -1,0 +1,24 @@
+{
+  "Burdened Beam Crossing": {
+    "name": "Burdened Beam Crossing",
+    "description": "The user carries one adult on their back across a beam or broken walkway up to ten meters long, using the tail for balance and contact with nearby supports. The crossing takes the user's turn and needs a continuous foothold; the tail cannot bridge empty air. The load prevents attacks and strains the tail's base. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

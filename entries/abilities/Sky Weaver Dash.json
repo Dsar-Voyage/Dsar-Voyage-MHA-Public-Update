@@ -1,0 +1,24 @@
+{
+  "Sky Weaver Dash": {
+    "name": "Sky Weaver Dash",
+    "description": "The user chains blasts so fast and precise that they weave through an entire scene in a single pass before anyone can react. In that pass they either strike every enemy in the area with a point-blank blast that deals explosive damage, or blast aside every piece of falling debris and every thrown or fired attack in the area before it lands on anyone. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

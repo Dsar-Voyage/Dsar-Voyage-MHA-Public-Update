@@ -1,0 +1,40 @@
+{
+  "Vibration Quirk": {
+    "name": "Vibration Quirk",
+    "description": "📳 You make whatever you touch vibrate, from a faint hum to a violent shake, and feel vibration through your hands and feet.\n\n🌱 Your palm strike rattles a person off their feet, and a palm on the floor reveals footsteps and hollow spaces a room or two away.\n📈 Training adds numbing a grip, shaking concrete to rubble, climbing sheer walls, packing rubble over trapped people, quakes through armor and holding a building still.\n⚠️ It works only through touch: nothing crosses open air, and mud, water or thick padding swallows it.\n🔗 Common drawback pairing: Recoil, as every quake you release also shakes your own wrists and elbows.\n🎬 Similar canon Quirks: Yo Shindo (Vibrate).\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Analysis +10, Demolition +5\n⚡ Starting techniques: Quake Palm, Footfall Read",
+    "traitNarrativeEffects": "Scale: the user vibrates what they touch, faint hum to violent shake, and feels vibration via hands and feet. New adult user: a palm strike knocks an adult down and cracks paving stone or cinderblock; a palm on floor or wall feels footsteps, drops and hollows through about two rooms or one floor. Bigger feats need techniques. Limits: contact only, via solid joined material, never air; soft soil, mud, water, loose sand and padding absorb it. No sensing the perfectly still, fliers or swimmers; engines and machinery drown it. Shaking a load-bearing wall apart can drop a floor. Quirk Strain: light: strike, reading; moderate: numbing grip, shattered wall, climb; heavy: packing rubble, quake through armor; severe: signature move, holding a building still. Type: Emitter. Law: unlicensed wall or pavement shattering: property damage; a quake cracking a structure near bystanders: reckless endangerment. Look: hands blur, dust jumps.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Demolition",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Quake Palm",
+      "Footfall Read"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

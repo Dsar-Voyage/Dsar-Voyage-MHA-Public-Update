@@ -1,0 +1,20 @@
+{
+  "Breakout Showing": {
+    "name": "Breakout Showing",
+    "description": "When the user does something remarkable in front of teachers, scouts, sponsors or a broadcast, they make sure the right person sees it and remembers the name. Before the week is out a concrete offer arrives: a transfer review, an internship, a sponsor's call or a teacher's invitation to train. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. General Studies",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Insight",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

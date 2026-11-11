@@ -1,0 +1,15 @@
+{
+  "lady_nagant_contract": {
+    "title": "The Assassin Above the Rain",
+    "beats": "On April 23, a precision shot destroys Izuku Midoriya's communications above Hosu Downtown. Lady Nagant demands surrender from a position on the rooftops; the armless Overhaul waits nearby, dependent on her help. All Might faces separate attackers on the approach. U.A. Academy can receive a missed check-in or an authorized response request, not a live transcript of the sniper's conversation.\n\nThe canon default course, as pressure the player can change: Nagant uses Rifle and the Air Walk granted by All For One to capture Izuku alive. She changes firing angles through the air and uses calculated pressure rather than an indiscriminate massacre. Her account reveals to those actually present the covert killings she performed for the former Public Safety Commission, her disillusionment and the killing that led to her imprisonment. This history is not automatically public, and listening to it does not excuse the current attack.\n\nIzuku uses the inherited abilities available to him, including Fa Jin's stored motion, to close the distance. When Nagant fires toward Overhaul to test his rescue instinct, he saves the helpless man and reaches her remaining willingness to believe in heroes. Overhaul remains alive and armless; his demand to see the former Hassaikai boss does not establish repentance. The player can disrupt a firing line, extract a bystander, help All Might, protect Overhaul or attempt a different appeal. Keep the contract and its concealed dangers unresolved beyond what the confrontation actually reveals. If Nagant never escaped, use the established source of the threat and report her continuing custody rather than releasing her retroactively.\n\nBy Path: at Hosu Downtown, Licensed Sidekick approaches through cover, Licensed Pro Hero organizes containment, Vigilante protects bystanders and Civilian Life reports shots or shelters casualties. League of Villains Recruit can support or question the contract; Independent Villain can attempt a rival capture or aid an escape. At U.A. Academy, Class 1-A and Class 1-B assist through approved assignments, General Studies traces interrupted contact, Support restores communications, Management protects the incident channel and Faculty coordinates extraction. Participation elsewhere requires an established journey.\n\nThe event is complete when the confrontation and attempted rescue have resolved, with Nagant's decision about the contract, Overhaul's immediate safety and the recipients of her disclosures established.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_lady_nagant_contract",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

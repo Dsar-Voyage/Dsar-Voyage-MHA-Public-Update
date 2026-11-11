@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Faculty Security Council": {
+    "name": "__generated_quest_progress__/Faculty Security Council",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has drafted and put in place one part of U.A.'s new security plan, such as sign-out rules, a sensor route or a family visit, with the council's approval."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Faculty Security Council"
+      }
+    ]
+  }
+}

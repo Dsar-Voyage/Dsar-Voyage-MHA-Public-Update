@@ -1,0 +1,24 @@
+{
+  "Sustained Wave Flight": {
+    "name": "Sustained Wave Flight",
+    "description": "The user feeds continuous spiral waves from their feet to fly above nearby buildings for the rest of the scene. They can cross a street quickly or guide an evacuation route from overhead while sending smaller waves from their hands. Flight ends when their stamina fails, and carrying an adult shortens it sharply. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

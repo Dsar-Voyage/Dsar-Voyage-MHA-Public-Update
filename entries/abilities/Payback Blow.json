@@ -1,0 +1,20 @@
+{
+  "Payback Blow": {
+    "name": "Payback Blow",
+    "description": "The user drives everything they have stored into a single punch, shove or stomp against a target within reach. It deals bludgeoning damage that grows with the force stored and throws the target across the room; held back, it only shoves them off their feet unhurt. With nothing stored, it lands as an ordinary punch. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Gifted: Fire": {
+    "name": "Gifted: Fire",
+    "description": "🧬 Fire, as an extra Quirk put into your body.\n\n🌱 At the start you throw flame jets and bursts out to about five meters, raise a fire screen between you and danger, and give light and heat on demand.\n📈 With training: flame lances, signal flares, thrust leaps, fire lanes that stop a spreading blaze, steel-melting white heat, and flame shaped to spare a hostage.\n⚠️ Holding back is the real skill: every burn you cause is yours to answer for.\n🔗 Common drawback pairing: Overheating, as heat builds inside your own body.\n🎬 Similar canon Quirks: Endeavor (Hellflame), Dabi (Cremation).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Fire family): Scale: flame from the skin, usually palms and forearms. At first: a jet about five meters, a doorway-filling burst, flame a few seconds per push; it lights wood, cloth and fuel; dirty flame makes thick smoke. More needs learned techniques. Limits: water, foam, rain and sealed rooms smother it; fire spreads to what it touches, smoke chokes allies too, and clothes burn unless fireproof. The user resists heat, not smoke, and cannot call back a fire that has caught. Quirk Strain: light: hand flame, short jet; moderate: fire screen, lance, flare, thrust leap; heavy: clearing a fire lane, melting steel; severe: signature move, flame shaped around people. Type: Emitter (also fits Mutant). Law: unlicensed public flame is a crime, burning a person assault; even licensed heroes answer for every avoidable burn.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Conditioning",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "fire"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "man_pr_101": {
+    "title": "Hero PR 101",
+    "beats": "April at U.A. Academy, a weekday lesson in the Management Course Classrooms: the first lecture of Hero Business Fundamentals. The lecturer, a former press director for a top-ten agency, writes three words on the board: ranking, sponsor, image. The Hero Billboard Chart weighs incidents resolved, contribution to society and public approval; sponsors pay for a logo on a costume, a patrol route or a face on a drink can; and every agency, the lecturer says, sells the same product under different labels: the feeling of being safe.\n\nThen the case study. Class 1-A has been in the news twice this month: reporters stormed the grounds when the U.A. Barrier crumbled at the Main Gate, and days later the League of Villains attacked the class at the USJ until All Might arrived. Headlines and comment threads go up on the screen. The default course, as pressure the player can change: the class splits. One side calls 1-A a brand at risk, a class attacked twice in a month that sponsors will read as danger; the other calls it the most valuable first-year class in the country, the students who survived villains with All Might as their teacher. The lecturer lets the argument run, then asks each student to pick one Hero Course first-year and write the single sentence an agency would print on a poster about them.\n\nMidway through, Midnight steps in as a guest for twenty minutes on the costume that made the hero world write new rules, and on why a hero's image belongs to the hero first and the agency second; she enjoys the question about scandal far too much. The Sports Festival is less than two weeks away and the Management Course competes in it too, so the homework is to watch it as a market, not a contest, and note which faces the cameras love. A player who argues well can win the room, earn Midnight's attention or find a partner for the semester's brand project.\n\nThe event is complete when the lecture ends and the player's poster sentence is written, read aloud or refused.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_man_pr_101",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

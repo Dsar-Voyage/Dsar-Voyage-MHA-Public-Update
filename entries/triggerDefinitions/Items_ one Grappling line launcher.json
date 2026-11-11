@@ -1,0 +1,22 @@
+{
+  "Items: one Grappling line launcher": {
+    "name": "Items: one Grappling line launcher",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Grappling line launcher",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Grappling line launcher",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

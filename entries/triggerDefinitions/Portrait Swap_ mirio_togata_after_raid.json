@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: mirio_togata_after_raid": {
+    "name": "Portrait Swap: mirio_togata_after_raid",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_shie_hassaikai_raid",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mirio Togata",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/ef872855-6c18-4080-9581-dec435f47820.png"
+      }
+    ]
+  }
+}

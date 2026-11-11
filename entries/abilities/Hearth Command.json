@@ -1,0 +1,29 @@
+{
+  "Hearth Command": {
+    "name": "Hearth Command",
+    "description": "The user reaches into every fire they started this scene and takes it back under control, however far it has spread through a building or a city block. They can draw it back into their palms, hold it still behind a line they choose, or send it along a street at enemies, who take heavy fire damage; held back, it only walls them in. Fires the user did not start stay out of reach, and every flame drawn back adds its heat to the user's body, so the Drawback strikes at once when the last one goes out. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Shin-Osaka Station": {
+    "name": "Shin-Osaka Station",
+    "basicInfo": "Shin-Osaka Station is Kansai's shinkansen terminal, about 8 km north of downtown Osaka: long elevated platforms under a steel canopy where the bullet trains from Tokyo and Musutafu arrive and the line west to Kyushu begins, a busy central concourse of ticket gates, departure boards, bento and souvenir shops and standing noodle counters, and a taxi and bus rotunda outside. Local trains and the subway run on into the city, about a quarter of an hour to the downtown stations. Railway staff run the gates and platforms, and a police box by the central exit helps lost travelers and takes reports. The concourse is busiest in the morning and evening rush and on holiday weekends, when the queues for reserved seats curl around the pillars and families sit on their suitcases eating takoyaki from paper boats. Late at night it empties fast: the last shinkansen leaves before midnight, the shops pull down their shutters, and a few travelers wait for the first train sleeping on benches. Hero Course students on Kansai internships arrive here and ride on to their agencies; Fat Gum's agency is a short taxi ride to the southeast and Sir Nighteye's a short ride to the west. Access is simple: the concourse is open to anyone, and the platforms are reached only through the ticket gates with a valid ticket. Coin lockers line the lower concourse for travelers who want to leave their bags. A player can arrive in Kansai or leave it here, work a shift at a noodle counter or a souvenir shop, meet someone off a train, or ask the police box for directions. Musutafu is about 2 hours east by shinkansen, Tokyo about 2.5 hours, and Hakata about 2.5 hours west. The feeling is a crowd in a hurry, announcements in four languages and the smell of dashi from every counter.",
+    "hiddenInfo": "The station police box keeps photos of Shie Hassaikai members and watches the shinkansen gates for them, so the compound's people come and go by car and night bus instead and are almost never seen here. The officers know this and keep watching anyway, because the photos are their orders. What they are not watching is the bank of coin lockers on the lower concourse by the south passage. Right now a middleman in Osaka's Trigger trade uses three of those lockers as a dead drop: dealers' cash goes in during the week, and every Monday morning, just after the rush, a man in a gray work jacket with a cleaning company's logo empties them, pays the locker fees in coins and leaves by the local line toward the city. He never looks at the cameras and never uses the same locker twice in a row. Station staff have noticed that the same lockers are always occupied but assume a shop is storing stock. A regular at the standing noodle counter by the gates, an old night-shift cook, has noticed the man too and would say so to anyone who bought him a bowl. The police box could stop the drop in a morning if anyone gave it a reason to look. Meanwhile the station sees the usual troubles: luggage thieves on holiday weekends, the odd drunk whose Quirk sparks on the late platform, and travelers who arrive for an internship at the wrong agency and need directions to the right one.",
+    "x": -14.87,
+    "y": -15.94,
+    "radius": 1,
+    "region": "Osaka North",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Shin-Osaka Shinkansen Concourse": {
+        "description": "The central concourse sits beneath the shinkansen tracks: a long hall of ticket gates, departure boards, bento and souvenir shops and standing noodle counters, with the bullet trains rumbling overhead. Rush hours fill it with business travelers; on holiday weekends the queues for reserved seats curl around the pillars and families sit on their suitcases eating takoyaki from paper boats. Hero Course students on Kansai internships come through with too much luggage and a printed map, and the officers at the police box by the central exit, who glance from a sheet of photographs to the faces at the gates, spend half their day redirecting interns who set out for the wrong agency. At the standing noodle counter by the gates, an old night-shift cook eats a bowl of udon after every shift, watches everyone and will chat with anybody who buys him another. The smell of dashi drifts from every counter. After the last shinkansen leaves before midnight, a few travelers stretch out on benches to wait for the first train. Escalators lead down to the Shin-Osaka Taxi and Bus Rotary, and a corridor of shops opens into the Station Food Hall.",
+        "paths": [
+          "Station Food Hall",
+          "Shin-Osaka Taxi and Bus Rotary"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/717864a1-8b4a-4212-8de1-b0a50ef05c58.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Station Food Hall": {
+        "description": "Off the concourse, a bright hall of stalls packs Osaka's appetite into a few aisles: takoyaki griddles where cooks flip octopus balls with metal picks, a counter of steamed pork buns whose queue never ends, kushikatsu bars serving fried skewers with beer, okonomiyaki, sushi to take away, and shelves of boxed meals, pickles and sweets packed for the train. A sign over the shared sauce pots says what every Osakan already knows: no double dipping. Travelers grab boxed meals in the last ten minutes before their train and sprint; office workers from the nearby towers come for lunch; interns buy boxed sweets to present at their new agencies, and stall staff happily tell them which box the local pros actually like. In the evening, salarymen stand at the skewer counters loosening their ties, and on holiday weekends the aisles jam with families buying souvenirs. Cooks call to each other in broad Osaka dialect and tease customers who hesitate, and the smell of sauce and batter follows people to the platforms. Most stalls close by ten or eleven at night. The hall opens back onto the Shin-Osaka Shinkansen Concourse.",
+        "paths": [
+          "Shin-Osaka Shinkansen Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9649874b-17da-48f6-8a5d-edf0878dec4f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Shin-Osaka Taxi and Bus Rotary": {
+        "description": "On the ground floor, under the elevated tracks, the station opens onto a broad rotary of taxi lanes, bus bays and drop-off curbs. Black and white taxis wait in a long line that moves fast, and the drivers know every hero agency within a short ride and will tell a nervous intern which one they actually mean. Limousine buses leave for Itami and Kansai airports, highway buses for Shikoku, the San'in coast and Tokyo overnight, and city buses for the northern wards. The passage in from the rotary is the lower concourse, lined with coin lockers in every size; travelers leave suitcases there while they see the city, a few lockers by the south passage never seem to be free, and on Monday mornings, just after the rush, the passage is quiet enough to hear coins drop into the fee slots. Business travelers and interns fill the taxi line in the morning, tour groups crowd the bus bays at midday, and on holiday weekends luggage thieves work the curbs while families wrestle with their bags. Late at night the taxis wait with their roof lights on and their drivers chatting by the doors. Escalators climb back to the Shin-Osaka Shinkansen Concourse.",
+        "paths": [
+          "Shin-Osaka Shinkansen Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/94ce080b-fbc9-4160-8b25-00da4ead9e43.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/64549f3f-98c5-4b06-982f-8533c917e86f.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

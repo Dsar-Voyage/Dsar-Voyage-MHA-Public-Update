@@ -1,0 +1,20 @@
+{
+  "Feather Shear": {
+    "name": "Feather Shear",
+    "description": "The user snaps a wingtip and flicks a single shed feather wrapped in a tight blade of compressed air across a room. It deals slashing damage to one target and severs ropes, straps or light cables in its path; held back, the air cushion flattens on impact and only knocks a weapon from a hand. It reaches half a street's width and costs flight feathers that take days to regrow. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

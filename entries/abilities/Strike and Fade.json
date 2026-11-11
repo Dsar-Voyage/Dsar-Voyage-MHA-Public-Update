@@ -1,0 +1,20 @@
+{
+  "Strike and Fade": {
+    "name": "Strike and Fade",
+    "description": "The user darts in, strikes and slips back into shadow, smoke or a crowd in the same motion. Deals bludgeoning damage (slashing or piercing damage with a blade), and the opponent loses track of the user: they cannot attack the user on their next action unless a sensing Quirk finds the user. Needs cover, darkness, smoke or a crowd close by. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Striker",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "gs_transfer_path": {
+    "title": "The Transfer Path",
+    "beats": "A weekday at U.A. Academy, the week after villains attacked Class 1-A at the USJ. In the General Studies Classrooms, Class 1-C's homeroom teacher spends first period on the Sports Festival, now less than two weeks away, and on the rule in every student handbook: a General Studies student with a strong showing there can be considered for a transfer into the Hero Course, and a Hero Course student who falls short can be moved out. Most of the room sat the Hero Course entrance exam and missed. Nobody says so. At the back, Hitoshi Shinso listens with his chin on one hand, asks nothing, and is still in his seat when the room empties for lunch.\n\nDefault course, as pressure the player can change: the argument starts before the teacher is out the door and follows the class to Lunch Rush's Cafeteria. One side says the Hero Course looks straight through General Studies and the country only hears about Class 1-A. The other calls the festival rigged for flashy Quirks and wants nobody embarrassing themselves. A few plan to go and look at Class 1-A for themselves after the last bell. Shinso eats alone by the window and answers any question about his plans with a question back.\n\nIn the classroom, the party can catch Shinso before he leaves and get a few dry words out of him, never what his Quirk does; he turns sympathy aside and respects a straight question. In the cafeteria, the party can take a side, cool the argument, or ask each classmate what they would actually do in the Hero Course. A party that says aloud it means to try for the transfer is laughed at by some and quietly asked for help by others.\n\nBy canon default, Shinso joins the crowd at Class 1-A's door after classes and tells them, level and unhurried, that General Studies is coming for their places; the party may walk with him, try to stop him or hear about it that evening.\n\nThe event is complete when the last bell rings and the party has decided, aloud or privately, whether it is aiming for the transfer.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_gs_transfer_path",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

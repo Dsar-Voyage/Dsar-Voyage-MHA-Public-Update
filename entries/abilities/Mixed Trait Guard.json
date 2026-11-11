@@ -1,0 +1,20 @@
+{
+  "Mixed Trait Guard": {
+    "name": "Mixed Trait Guard",
+    "description": "After recently eating both shellfish and octopus, the user shields their torso with shell while keeping two tentacles free to pull one nearby ally behind them. The protection lasts until the end of the user's next turn. A strong strike can break the shell, and both foods must still be available to the Quirk. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

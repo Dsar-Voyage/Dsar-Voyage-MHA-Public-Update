@@ -1,0 +1,29 @@
+{
+  "Unmelting Seal": {
+    "name": "Unmelting Seal",
+    "description": "The user packs frost into ice so dense that, for the rest of the scene, it does not melt in fire and does not crack under any blow, bullet or blast. They seal a doorway, a burst gas main, a live bomb or a single enemy inside it; an enemy sealed whole takes heavy cold damage at the end of each of their turns, and held back, the seal leaves the head and chest clear and only holds them. The user can keep only one such seal at a time, and while it lasts their own hands stay numb and cannot make other ice. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

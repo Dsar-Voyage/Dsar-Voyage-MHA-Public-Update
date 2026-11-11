@@ -1,0 +1,27 @@
+{
+  "Items: gear license [Licensed Sidekick]": {
+    "name": "Items: gear license [Licensed Sidekick]",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "read-boolean",
+        "key": "gearLicensed",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "gearLicensed",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": false
+  }
+}

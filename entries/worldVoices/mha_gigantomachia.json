@@ -1,0 +1,24 @@
+{
+  "mha_gigantomachia": {
+    "label": "Gigantomachia",
+    "voiceTag": "male monster growly",
+    "instructions": "An enormous, very deep, gravelly bass with a rough stony grain. Slow, heavy and formal; few words with long pauses, \"Master\" said with solemn reverence. Breaks into ground-shaking roars in battle. Never quick or chatty.",
+    "speed": 0.86,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "cavern",
+        "mix": 0.15
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.08
+      }
+    }
+  }
+}

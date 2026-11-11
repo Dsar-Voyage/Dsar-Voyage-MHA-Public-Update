@@ -1,0 +1,21 @@
+{
+  "No Quirk": {
+    "name": "No Quirk",
+    "description": "🚫 You have no Quirk. This is the Quirk Family pick for Quirkless characters.\n\n🧩 Choose it with the Quirkless Quirk Type, which carries your bonuses and techniques.\nℹ️ It gives nothing by itself.",
+    "traitNarrativeEffects": "The character has no Quirk: nothing to activate, show or train, and no record beyond the Quirkless registration made at age four. They have no Quirk techniques and never gain Quirk Strain. Scenes and portraits show an ordinary body with no Quirk effects at rest or in action; anything striking about the character comes from gear, training, clothing or manner. This pick belongs with the Quirkless Quirk Type, which supplies the character's bonuses and techniques. Conflicts: if the Quirk Type picked is Emitter, Transformation or Mutant, the character still has no Quirk and is treated as Quirkless by society; that type's bonuses stay as ordinary aptitude, and a Mutant type adds no heteromorph features. A drawback or strength picked alongside this trait has no Quirk to act on. If the character chose Quirkless, this trait applies as written.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Quirkless"
+    ],
+    "excludedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "requirements": []
+  }
+}

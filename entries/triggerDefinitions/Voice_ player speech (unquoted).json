@@ -1,0 +1,24 @@
+{
+  "Voice: player speech (unquoted)": {
+    "name": "Voice: player speech (unquoted)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^[^\"“”]*$"
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player quoted no words this turn, so the PC has no Character line and no quoted words: narrate any speech the player describes as one plain sentence (\"<PC name> asks Iida about the schedule.\"), and invent nothing else the PC says, texts or writes. Never mention these notes or the PC's silence. Anyone new who appears or speaks this turn gets an ordinary Japanese given and family name in the narration and their Character line, never a description such as THICK-NECKED MAN or WOMAN BEHIND THE COUNTER; the Character line holds the name alone (the name and a colon, with no job or title before the name)."
+      }
+    ]
+  }
+}

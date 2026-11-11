@@ -1,0 +1,29 @@
+{
+  "Raised in a Care Home": {
+    "name": "Raised in a Care Home",
+    "description": "🏡 You grew up in a children's home with a dozen other kids and staff who changed over the years.\n\n🍳 You cooked for a crowd and looked after the little ones.\n💪 You learned to stand on your own early.\n\n📈 Grants: Cooperativeness +1, Childcare +5, Cooking +5",
+    "traitNarrativeEffects": "Grew up in a children's care home; why is the player's to define, else left unstated for the player to raise. Left at eighteen like most residents; managing alone since. In play: the home is a real place to visit; the narrator may create original characters for its director, a favorite caregiver and a few children who look up to the character and follow their progress on the news. Gaps: renting or signing hospital forms needs a family guarantor they lack; no one sends money; holidays are quiet when classmates go home. Pressure and opportunity: some pity them, some expect trouble, and recruiters who target the lonely, villains included, look for this history. Classmates, a mentor or a team can become chosen family if the character lets them. Treat it with dignity, never as tragedy for its own sake. Childhood: shared rooms, chore charts, cooking for many, helping younger kids with homework and bad nights, caregivers who came and went, a few adults who kept in touch.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Childcare",
+        "modifier": 5
+      },
+      {
+        "skill": "Cooking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

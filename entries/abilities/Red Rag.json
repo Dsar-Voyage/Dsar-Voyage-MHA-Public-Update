@@ -1,0 +1,20 @@
+{
+  "Red Rag": {
+    "name": "Red Rag",
+    "description": "The user reads what sets a single enemy off and stokes it into blind anger at the user alone. On their next turn rage drives them at the user and nobody else, charging in the open without cover, careful aim or tricks; a hostage-taker baited this way lets go of the hostage to do it. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

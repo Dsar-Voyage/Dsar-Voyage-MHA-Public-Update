@@ -1,0 +1,22 @@
+{
+  "Event Return: dispatcher 1": {
+    "name": "Event Return: dispatcher 1",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){/*storage_pack:v1:[true,[[452,4]]]*/const __pr=[[452,4]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"wrapped\",[[452,1,0,false],[453,3,0,true]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(452)===undefined){skip=true;return;}const __HT0=__hc(__hv(452));const __HT1=[];for(let n=453;n<456;n++){const v=__hv(n);if(v!==undefined)__HT1.push(__hc(v));}/*cast_pack:v1:0*/const __cpS=__HT0;const E=__HT1,C=[];function __cpR(R){for(const r of R)for(let i=0;i<3;i++)if(typeof r[i]==='number')r[i]=__cpS[r[i]];}for(const r of E){r[2]=r[2].map(i=>typeof i==='number'?__cpS[i]:i);for(const c of r[4])__cpR(c[1]);}for(const c of C)__cpR(c[4]);const STG=[\"\", \" (Sports Festival)\", \" (Summer Training)\", \" (Provisional License)\"];const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));const RT=check({type:'read-boolean',key:'done_symbol_of_peace_retires'});function rcur(b,s){if(b==='All Might'&&RT)return 'All Might (Retired)';return s?b+STG[sg]:b;}const GN=storage.castGone||{},DS=storage.deadStu||{};function cur(b,s){return (GN[b]||DS[b])?null:rcur(b,s);}function ok(n){if(!n)return false;if(check({type:'npc-in-party',npc:n})===true)return false;const h=check({type:'npc-health',npc:n});return !(typeof h==='number'&&h<=0);}const OW=storage.castOwner||{};const mv=(n,lo,ar)=>lo===null?{type:'npc-placement',npc:n,operation:'moveAway'}:{type:'npc-placement',npc:n,operation:'moveTo',location:lo,area:ar};const d=check({type:'read-number',key:'currentDay'})||1,bd=check({type:'read-number',key:'currentBandIndex'})||0,tn=d*10+bd;let pl=null;let ch=false;for(const [ev,ix,N,F,MV,REQ] of C){if(effects.length>=10)break;if(storage['done_'+ev]!==true||(REQ&&storage[REQ]!==true))continue;const CK='cr_'+ev+'|'+N;if(storage[CK])continue;if(effects.length&&effects.length+MV.length>10)break;storage[CK]=true;storage['canon_'+ev]=true;if((storage.castPlaced||{})[ev+'#1'])continue;const O=storage.outcomeDone||{};if(O[N])continue;O[N]=true;storage.outcomeDone=O;let SP=false;for(const [b,lo,ar,s] of MV){const n=rcur(b,s);if(lo===null&&check({type:'npc-in-party',npc:n})===true){SP=true;continue;}OW[b]=ix*2+1;if(lo===null)GN[b]=true;else delete GN[b];effects.push(mv(n,lo,ar));}if(F&&!SP)storage[F]=true;storage.castGone=GN;ch=true;}for(const [ev,ix,L,NC,CH] of E){if(effects.length>=10)break;if(storage['cp_'+ev]!==true||storage['done_'+ev]!==true)continue;const P=CH.filter(c=>!storage['rt_'+c[0]]);if(!P.length)continue;if(check({type:'narrative-event-status',eventId:ev})==='active')continue;if(NC&&!storage['canon_'+ev])continue;if(!Object.keys(storage.castPlaced||{}).some(k=>k.indexOf(ev+'#')===0))continue;const RK='retAt_'+ev;if(storage[RK]===undefined)storage[RK]=tn;if(pl===null)pl=check({type:'party-location'})||'';if(L.indexOf(pl)>=0&&tn===storage[RK])continue;for(const [k,R] of P){if(effects.length&&effects.length+R.length>10)break;for(const [b,lo,ar,s] of R){const n=cur(b,s);const o=OW[b];if(o!==undefined&&(Math.floor(o/2)>ix||o===ix*2+1))continue;delete OW[b];if(!ok(n))continue;effects.push(mv(n,lo,ar));}storage['rt_'+k]=true;ch=true;}}if(ch)storage.castOwner=OW;if(!effects.length)skip=true;})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 5
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 114
+      }
+    ]
+  }
+}

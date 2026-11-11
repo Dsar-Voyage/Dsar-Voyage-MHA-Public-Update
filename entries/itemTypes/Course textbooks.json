@@ -1,0 +1,20 @@
+{
+  "Course textbooks": {
+    "name": "Course textbooks",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Academics",
+        "value": 3
+      }
+    ],
+    "description": "The term's required textbooks and printed lecture notes, from general subjects to course texts on hero law, support engineering or hero business. They are heavy, dog-eared and full of highlighter. [ Tool | About ¥15,000 a term ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/63e0ee73-05e4-42ad-93db-b4b0207ac75a.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Forewarned": {
+    "name": "Forewarned",
+    "description": "The user catches the click of a safety, the scrape of a shoe or the breath drawn before a lunge. Until the start of the user's next turn, nobody can surprise the user or a person beside them, and the first attack aimed at either of them misses, because the user calls it out and gets them both out of the way in time. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

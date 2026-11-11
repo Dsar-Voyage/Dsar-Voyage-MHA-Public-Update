@@ -1,0 +1,24 @@
+{
+  "Alley Net Spread": {
+    "name": "Alley Net Spread",
+    "description": "The user crosses several tape strips between the walls of an alley or hallway, making a visible net. Up to three advancing human-sized opponents are caught and held until they cut or tear free; held back, the net cushions a collision. It needs firm anchors on both sides, and fire or blades can open a route through it. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

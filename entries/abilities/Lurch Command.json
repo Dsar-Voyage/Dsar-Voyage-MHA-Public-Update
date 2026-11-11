@@ -1,0 +1,20 @@
+{
+  "Lurch Command": {
+    "name": "Lurch Command",
+    "description": "The user slaps a hand on a machine with moving parts and orders it to lurch: a parked car rolls a stride, a forklift sweeps its tines, a roller shutter slams down or a conveyor jerks. A target in its path takes bludgeoning damage and is knocked flat; held back, the machine only bumps them over and pins them in place until they wriggle free. The user needs a suitable machine at hand, and it moves only as far as its parts allow. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

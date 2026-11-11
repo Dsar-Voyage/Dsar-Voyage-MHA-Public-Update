@@ -1,0 +1,20 @@
+{
+  "Shuttle Rescue": {
+    "name": "Shuttle Rescue",
+    "description": "The user plants one anchor in a safe place and another inside a burning floor, a flooded basement or a collapsed tunnel within the district, then snaps between them, carrying one person out on each trip. In a single turn they bring out up to five people, each arriving at rest and unhurt; the trips leave the user so dizzy that they cannot snap or attack until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

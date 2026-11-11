@@ -1,0 +1,15 @@
+{
+  "pro_disaster_drill": {
+    "title": "The Regional Disaster Drill",
+    "beats": "Mid-May, a weekday morning. The scene reaches the party wherever it is: the Commission's incident app posts the agency's slot in the regional disaster-response drill, required of every licensed agency in the district, with a staging time that morning. The site is a block of condemned buildings at the edge of the city, rigged with rubble, smoke machines and sirens. The scenario is a major earthquake: three collapsed buildings, a ruptured gas main marked by flags, and casualties played by Commission staff and trained actors carrying cards that list their injuries. Police run the cordon, the fire service holds the command post, paramedics wait at the triage tent, and a Commission evaluator with a tablet grades each agency on coordination, not captures.\n\nThe default course, as pressure the player can change: every agency talks on the radio at once and the net jams; two agencies claim the same building and search it twice while a third stands idle; an aftershock signal clears everyone out mid-search; then a wall that was never meant to fall shifts for real and pins a firefighter's leg. The evaluator calls the code that halts the drill, and the real rescue is the one that counts.\n\nAn agency head commands a sector, reports to the fire chief, sets the triage order and answers for the agency's grade. A sidekick works for someone: the sidekick leads a search team under the boss's orders, finds the shifting wall first and decides whether to call it up the chain or act. If the agency is on Hero Agency Row, the Row's agencies drill together: Backdraft works beside the fire service and counts heads, and Death Arms shifts debris wherever he is pointed. A Tokyo agency drills in a larger zone, with twice as many agencies on the same channel.\n\nThe event is complete when the all-clear sounds and the evaluator hands the agency its grade, or the drill is halted and everyone is out of the rubble.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_disaster_drill",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Place Light: story note Kamino Ward": {
+    "name": "Place Light: story note Kamino Ward",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Kamino Ward"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": ".*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: since the Kamino Incident the heart of Kamino Ward, around its shopping street, is a ruin from All Might's last battle with All For One: collapsed buildings, rubble heaps, hazard tape and cones, rebuilding crews by day and floodlit cordons by night. Describe it that way, never as the intact ward."
+      }
+    ]
+  }
+}

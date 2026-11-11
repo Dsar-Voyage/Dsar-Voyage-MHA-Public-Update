@@ -1,0 +1,32 @@
+{
+  "Quirk Endurance": {
+    "name": "Quirk Endurance",
+    "description": "🔋 Repeated use has taught your body to keep its Quirk running and to push through the drawback when it bites.\n\n📋 Requires level 8 and Quirk Stamina 8.\n🚫 Not available to Quirkless characters.\n\n📈 Grants: Quirk Stamina +10",
+    "traitNarrativeEffects": "The character has pushed their Quirk past its early limits through repetition: long sessions, back-to-back uses and practice at high Strain. Show it as composure while the Quirk runs: steadier breathing, fewer tremors and less visible distress as Strain climbs. They know their body's warning signs and work through the first ones safely. Limits: Strain still rises at the same rate and the Drawback still shows at its thresholds; this is endurance, not immunity, and a severe technique costs what it always cost. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 8
+      }
+    ]
+  }
+}

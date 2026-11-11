@@ -1,0 +1,40 @@
+{
+  "Density Quirk": {
+    "name": "Density Quirk",
+    "description": "🪨 You change how dense your body is: heavy, with the density of steel, or light, about the weight of a stack of paper, never both at once.\n\n🌱 Turn heavy in an instant so nothing can shove you, and put your full weight behind a blow.\n📈 Training adds drifting down from rooftops, pinning a target, walking a flooded street's bottom, anchoring a sliding car, dropping from the sky and facing a runaway truck.\n⚠️ Heavy, you are slow and sink through weak floors; light, a gust carries you off and your blows have no weight. Clothes and gear keep their own weight.\n🔗 Common drawback pairing: Bodily Toll, as heavy shifts grind your joints and light ones leave you dizzy.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Power +1, Quirk Control +10, Quirk Stamina +10, Grappling +5\n⚡ Starting techniques: Leaden Brace, Dropweight Strike",
+    "traitNarrativeEffects": "Scale: body density shifts in about a second, size and shape kept: at first heavy to about five times their weight (a large motorbike) or light to about a fifth (leaps to a second-floor window, falls several stories unhurt), for about a minute. Car weight, drifting, gliding: learned techniques. Limits: heavy or light, never both or uneven; clothes, gear and anyone carried keep their weight. Heavy: walking pace, no jumps or swims, sinks, breaks wood floors, car roofs; shoves, tackles, blasts and wind cannot budge them; blades, bullets, heat and electricity still hurt. Light: gusts carry them off, blows lack weight, solid hits fling them. Quirk Strain: light: brace, weighted blow; moderate: slow descent, pin, underwater walk; heavy: counterweight, sky drop; severe: signature blow, truck weight. Type: Transformation. Law: unlicensed pinning under their weight is assault; floors or roofs they break are their property damage. Look: heavy, gray veins; light, pale skin.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Grappling",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Leaden Brace",
+      "Dropweight Strike"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

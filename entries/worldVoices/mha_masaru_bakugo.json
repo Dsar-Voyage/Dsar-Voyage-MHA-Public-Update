@@ -1,0 +1,15 @@
+{
+  "mha_masaru_bakugo": {
+    "label": "Masaru Bakugo",
+    "voiceTag": "male calm steady",
+    "instructions": "A light, soft tenor, mild and a little meek: an ordinary, kind dad, neutral American accent. Calm, unhurried explanations and a sheepish, apologetic laugh; he gets quieter when others get louder. Worry makes him tight and earnest, never loud.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

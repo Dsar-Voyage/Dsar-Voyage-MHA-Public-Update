@@ -1,0 +1,17 @@
+{
+  "Scouting the Sports Festival": {
+    "name": "Scouting the Sports Festival",
+    "questSource": "Principal Nezu",
+    "questStatement": "The Sports Festival is U.A.'s biggest public day and the agencies' biggest shopping trip. Principal Nezu has asked the Management Course to prepare briefing packs for the sponsors and agency scouts in the reserved stands at U.A. Stadium: who the first-years are, what their Quirks have shown in public and what the public will want from them. Do the research, write the packs, and put them in the right hands.",
+    "mainObjective": "Research the first-year field and deliver scouting briefs to the agencies and sponsors.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has researched the first-year field, written agency and sponsor briefing packs and delivered them to scouts or sponsors at U.A. Stadium."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "The business side of heroics. Research means watching training, reading press coverage and chasing interviews: Katsuki Bakugo refuses, Mei Hatsume pitches, Hitoshi Shinso gives nothing away. Agency and sponsor staff may be invented minor people, never stand-ins for canon pros. Ethics matter: Quirk registrations are confidential and off-limits, medical and family details stay out, and Recovery Girl keeps her files shut. Failure: a sloppy or invasive pack embarrasses U.A. and earns a question from Principal Nezu. Never predict who wins anything; the Festival plays as its own event.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

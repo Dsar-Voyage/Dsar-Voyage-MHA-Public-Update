@@ -1,0 +1,20 @@
+{
+  "Weapon-Hand Shot": {
+    "name": "Weapon-Hand Shot",
+    "description": "The user puts a round, dart or thrown knife into an opponent's weapon or the hand that holds it. The opponent drops what they hold in that hand; a hit on the hand deals piercing damage (bludgeoning damage from rubber rounds), and a hit on the weapon itself knocks it away without injury. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Marksman",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

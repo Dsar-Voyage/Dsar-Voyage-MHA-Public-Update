@@ -1,0 +1,20 @@
+{
+  "Ankle Concrete Hold": {
+    "name": "Ankle Concrete Hold",
+    "description": "The user touches connected concrete and folds it around the ankles of one target within ten meters, holding them in place for the rest of the scene without squeezing. The user leaves circulation clear; heavy blows or tools can break the restraint, and a jumping or airborne target avoids it before it closes. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

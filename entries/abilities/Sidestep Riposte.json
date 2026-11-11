@@ -1,0 +1,20 @@
+{
+  "Sidestep Riposte": {
+    "name": "Sidestep Riposte",
+    "description": "The user waits until an attack is fully committed, steps off its line at the last instant and strikes as the attacker passes. The attack misses, and the counterstrike lands behind the attacker's guard, dealing bludgeoning damage with a blunt weapon or slashing or piercing damage with a blade. Works only on an attacker who comes within weapon reach, not on shots or blasts from a distance. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blade and Baton",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Dodging",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Living Bulwark": {
+    "name": "Living Bulwark",
+    "description": "The user plants themselves in front of the people they protect and softens their whole body. Until the start of their next turn, blunt attacks, thrown debris and falling objects aimed at anyone directly behind them strike the user instead, deal no damage and are stored as force for the next release. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

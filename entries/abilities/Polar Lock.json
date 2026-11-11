@@ -1,0 +1,20 @@
+{
+  "Polar Lock": {
+    "name": "Polar Lock",
+    "description": "The user touches a target and then a wall, a lamppost, a car or a second target, giving the two opposite poles. They slam together and stick: the target cannot pull away until they wrench free with a hard effort, someone pries them apart, the user releases them or the scene ends, and the hold leaves no injury. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

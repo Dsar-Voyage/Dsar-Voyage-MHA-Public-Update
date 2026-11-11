@@ -1,0 +1,20 @@
+{
+  "Grounded Tail Vault": {
+    "name": "Grounded Tail Vault",
+    "description": "The user plants their tail on firm ground and pushes upward to clear a low wall or a gap about three meters wide, landing before their turn ends. The tail supplies the push while the hands remain free. Loose gravel, a weak edge or an injured tail spoils the launch, and the user cannot redirect once airborne. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Riptide Tow": {
+    "name": "Riptide Tow",
+    "description": "The user gathers several people in the water, holds their heads clear and tows them through rip currents, floodwater or surf to the nearest safe footing. While the user holds them, none of them can be pulled under or swept away, and a panicking swimmer cannot drag the user down. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Jaku General Hospital": {
+    "name": "Jaku General Hospital",
+    "basicInfo": "Jaku General Hospital is the largest hospital in the region: a ten-story main tower with an emergency wing, outpatient clinics and a department for Quirk-related injuries and illness, on a rise about 4 km northeast of downtown Jaku. It is well funded and well run, and its director, Kyudai Garaki, an elderly geriatric doctor with an immense white mustache and stacked-lens goggles, is respected across the region; he still makes rounds on the wards, chuckling at his own jokes, and the staff speak well of him. Patients come from Jaku, Deika and farther away, and the emergency department takes Quirk injuries from the whole area. Outpatient clinics run from 8:30 a.m. to 5 p.m.; visiting hours are 1 to 8 p.m.; the emergency department and the wards run around the clock on three nursing shifts. The lobby and wards are open to patients and visitors in those hours; the basement service levels are staff-only behind ID badge doors, and after dark only the emergency entrance is open. A player can work here as a porter, cleaner, clerk or security guard, or as a nurse or doctor with the right license; recover from injuries; visit patients; or look into an accident case. Shuttle buses leave Jaku Station every twenty minutes for the twenty-minute ride, and Deika City is about 17 km away by road. The building smells of floor polish and antiseptic, and the paging system chimes all day.",
+    "hiddenInfo": "Heteromorph patients are sent to a separate waiting room and, when admitted, to a separate floor. The hospital calls it specialized care; staff know it began after complaints from other patients, and a heteromorph patients' group is preparing a public protest for May. The emergency department lost two night doctors in March, and on busy nights ambulances are quietly redirected to Hosu, more than an hour away. One of the night porters sells news of injured pro heroes to tabloid reporters, which is why photographers sometimes reach the lobby before the hero's own agency does. Hospital security suspects a leak but has not found it. The director is the other quiet story. Kyudai Garaki will not retire, and the board's polite requests that he name the doctor who will take over go unanswered. He keeps his research office locked and works there alone late at night; what he studies he never discusses. Deliveries addressed to him personally go to that door unopened, and the night porters have learned not to ask. He takes a collector's delight in unusual Quirks, asks to examine any rare case that comes through the Quirk ward, and charms patients into agreeing. Nobody on the staff has ever seen his own Quirk at work; he chuckles off the question. To everyone here he is a kindly, eccentric workaholic, and nothing on the record says otherwise.",
+    "x": 14.88,
+    "y": -19.81,
+    "radius": 0.8,
+    "region": "Deika",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Hospital Lobby": {
+        "description": "A tall glass atrium with a reception counter, rows of blue seats, a pharmacy window, a convenience store and a small cafe that sells the best melon bread in Jaku. From 8 a.m. it fills with outpatients holding numbered tickets; afternoons bring visitors with flowers; at night only the emergency entrance is open and one guard watches the doors. Heteromorph patients are directed to a separate waiting room down a side corridor, and the sign pointing them there has been defaced twice this spring. Elderly patients sometimes linger after their appointments in the hope that the director will pass through on his way to the wards. A soft electronic chime and a recorded voice call out ticket numbers all day long. Elevators rise to the Patient Wards, and a staff-only door behind the pharmacy leads down to the Basement Service Levels.",
+        "paths": [
+          "Patient Wards",
+          "Basement Service Levels"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/54533fcd-4321-4ca8-aaa6-e11b5be4f2e8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Patient Wards": {
+        "description": "Eight floors of wards above the lobby: general medicine, surgery, a pediatric floor with painted walls, and a Quirk injury ward with reinforced rooms for patients whose Quirks flare under fever or anesthesia. Nurses change shifts at 8 a.m., 4 p.m. and midnight; visitors come from 1 to 8 p.m.; nights are quiet but for rounds and monitors. The elderly director makes his own rounds most mornings, sitting an hour with a lonely patient and lingering longest at the Quirk ward. The Quirk ward's doors are heavy and slow to close, and a card beside each one lists the patient's Quirk for the staff. Day rooms on each floor have a television, a shelf of donated paperbacks and a view over the basin to the mountains. The elevators lead back down to the Hospital Lobby.",
+        "paths": [
+          "Hospital Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fff99ea5-8a5d-4a91-9752-7c0f2a584299.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Basement Service Levels": {
+        "description": "Two staff-only levels under the main tower: the laundry, central sterile supply, kitchens, the generator and boiler plant, medical records storage, the morgue and the loading dock where supply trucks unload. ID badges open the doors, and porters push carts through long, low corridors at all hours. Days are busy with deliveries; at night the levels are nearly empty except for the boiler engineers and porters taking cigarette breaks by the dock, swapping hospital gossip and the occasional rumor sold on. Sealed crates addressed to the director come in through the dock now and then and are wheeled away without a docket. The air is warm and smells of laundry steam, over the steady hum of the generators. The service elevators and stairs lead back up to the Hospital Lobby.",
+        "paths": [
+          "Hospital Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/95ebde3f-d7af-4e17-81d0-5c5e0a4be1c5.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/99a54c88-81de-4f9f-ba4d-6b76b6494d0c.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

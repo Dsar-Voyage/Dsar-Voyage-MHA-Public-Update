@@ -1,0 +1,32 @@
+{
+  "Gifted: Extra Limbs": {
+    "name": "Gifted: Extra Limbs",
+    "description": "🧬 Extra Limbs, as an extra Quirk put into your body.\n\n🌱 Each starts about as strong as an ordinary arm: climb, carry and fight with all at once, strike from angles one guard cannot cover, and pin a person with your hands free.\n📈 With training: several injured carried, an eye or ear budded at a limb tip, sprints up walls, a falling ceiling held, a group seized, limbs split among separate tasks.\n🔗 Common drawback pairing: Bodily Toll, as muscle tears where the limbs join.\n🎬 Similar canon Quirks: Mezo Shoji (Dupli-Arms).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Extra Limbs family): Scale: born with extra limbs of the player's choice: a second pair of arms, up to about four back or shoulder tentacles, or long prehensile limbs. Each has an adult arm's strength; together they lift about two adults' weight, hands left free. Larger feats need techniques. Limits: blades cut and blows break them, and each is one more thing to grab or pin. They cannot stretch, detach or regrow; grips slip past a few holds at once. Always visible unless covered; strangers stare; clothes and costumes need custom work. Quirk Strain: none for daily use; light: multi-limb strike, bind; moderate: group carry, budded organ, fast climb; heavy: bracing a structure, seizing a group; severe: signature move, splitting limbs among tasks. Type: Mutant. Law: striking, pinning or carrying off a person with the limbs unlicensed is assault or unlawful restraint outside self-defense.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Grappling",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

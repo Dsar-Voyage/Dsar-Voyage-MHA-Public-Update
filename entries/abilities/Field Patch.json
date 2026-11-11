@@ -1,0 +1,15 @@
+{
+  "Field Patch": {
+    "name": "Field Patch",
+    "description": "The user opens up a broken piece of support gear, a costume system or a vehicle, finds the fault and bypasses it with tape, spare parts and a toolkit. The equipment works again for the rest of the scene, then fails until it gets a proper workshop repair. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pro_sidekick_poaching": {
+    "title": "Poached",
+    "beats": "A weekday in mid-December. The first chart without All Might ranked Endeavor Number One and Hawks Number Two, and the High-End fight over Fukuoka, carried live, made the whole country watch the new Number One bleed and win. Agencies that climbed the chart are hiring hard. One of them, a generated agency from a bigger city with a fresh billboard and a recruiter the narration names, makes its move. It reaches the party as a lunch invitation at a good restaurant, a card left at the coffee stand by the agency door, or a message on a personal phone.\n\nCanon default course, as pressure the player can change: the recruiter offers better pay, a patrol district of one's own, camera time and a deadline at the end of the week. The bigger agency's head joins by video call to make it personal. Word of the offer reaches the rest of the agency before the deadline, and everyone has an opinion.\n\nA sidekick is the one being courted. The offer is real, and the boss hears of it from the party or from gossip; the boss may counter with money the agency barely has, or with a promise. Loyalty, pay and ambition pull different ways. Taking the job means a new agency from the new year; staying means telling the recruiter no.\n\nAn agency head learns the recruiter is after the agency's best sidekick, the one the party relies on most; or the offer is to the head: fold the agency into the bigger one as a branch office, keep the name on the door in small print and stop worrying about rent. A counter-offer costs money; a speech costs nothing and may not be enough. The generic sidekick has reasons of their own and says them, and nobody is forced either way.\n\nThe event is complete when the deadline passes or the offer is accepted or refused, and the agency knows who is staying.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_sidekick_poaching",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

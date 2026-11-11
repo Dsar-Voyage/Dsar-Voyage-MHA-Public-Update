@@ -1,0 +1,20 @@
+{
+  "Sinking Guard": {
+    "name": "Sinking Guard",
+    "description": "The user braces and lets their body go soft. The next punch, kick, club swing, thrown object or fall they see coming before their next turn sinks in and stops, dealing them no damage, and its force is stored for their next release. Blades, bullets and blows from behind get no such help. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

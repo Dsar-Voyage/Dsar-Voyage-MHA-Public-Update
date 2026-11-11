@@ -1,0 +1,20 @@
+{
+  "Crumbling Palm": {
+    "name": "Crumbling Palm",
+    "description": "The user closes a full hand on a weapon, a shield, a lock or a piece of worn armor, and it breaks down into grit in a moment: a held weapon falls apart in its wielder's grip, and the armor or shield is gone. Gripping a person instead deals corrosive damage to the flesh under the hand, and the wound stops spreading the moment the user lets go. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "v_hawks_joins": {
+    "title": "The Number Two",
+    "beats": "Mid-December, evening to late night in the Yokohama Harbor District, after the Paranormal Liberation Front's founding and the start of Tomura Shigaraki's four-month procedure. Out on the Container Docks and near the Dockside Safehouse, Dabi meets the Wing Hero Hawks, Japan's Number Two pro hero, who has been courting the League since the Kyushu High-End attack.\n\nDefault course as pressure: Hawks lands with his usual breezy smile, hands in his flight jacket pockets, and asks to be brought into the inner circle now that the League and the Meta Liberation Army have merged. Dabi leans against a shipping container, low and sardonic, and refuses to trust a hero's words alone: if the Number Two wants a seat in the Front, he has to prove he has crossed the line in blood. When Hawks returns for the second meeting, he carries a heavy duffel bag onto the docks and unzips it at Dabi's feet to reveal what looks to be the corpse of the missing Number Three hero, Best Jeanist. (Narrator only, covert truth the recruit does not know: Best Jeanist is alive in suspended animation under the Commission's secret operation; on the docks, the recruit sees only what Dabi sees.) Dabi inspects the body in the bag with a flat smirk, remarks that Hawks really is crazy despite doubting whether it is truly Jeanist, and grants Hawks access as a lieutenant's contact while keeping him under quiet watch.\n\nBy path: a League of Villains Recruit accompanies Dabi to the Container Docks as backup, watches the perimeter for Hero Public Safety Commission tails, questions Hawks face-to-face when he hands over the bag, and decides whether to report concerns about the Wing Hero's true motives.\n\nThe event is complete when Hawks presents the duffel bag on the docks and Dabi accepts him into the Front's network on probation.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_hawks_joins",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

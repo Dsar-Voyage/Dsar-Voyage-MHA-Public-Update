@@ -1,0 +1,24 @@
+{
+  "Shudder Run": {
+    "name": "Shudder Run",
+    "description": "The user runs straight through a line of enemies, phasing through each body on the way. Every enemy passed through feels it in every nerve: they are left dizzy and retching, drop what they hold and cannot stand or attack until the end of their next turn, with no lasting harm. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

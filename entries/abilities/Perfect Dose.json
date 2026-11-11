@@ -1,0 +1,24 @@
+{
+  "Perfect Dose": {
+    "name": "Perfect Dose",
+    "description": "The user feeds a precisely measured knockout blend through the vents, stairwells and gaps of an entire building. Everyone inside without a sealed mask who has not reached open air by the end of the user's next turn falls asleep, captors and hostages alike, and sleeps until the scene ends or someone shakes them awake. The dose harms no one, not even children, the sick or the elderly. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

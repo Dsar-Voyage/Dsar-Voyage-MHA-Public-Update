@@ -1,0 +1,25 @@
+{
+  "Hundredfold Muster": {
+    "name": "Hundredfold Muster",
+    "description": "The user pours out hundreds of doubles that spread across several city blocks and each take a post: directing traffic, holding doors, carrying the injured, searching stairwells and guiding crowds out. They work for the rest of the scene and call every find back along the line, so a whole district can be emptied at once, though each still bursts when hit hard. When the scene ends or the last double bursts, the user drops to the ground spent and cannot make doubles again until after a full rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

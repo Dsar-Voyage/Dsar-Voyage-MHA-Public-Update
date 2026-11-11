@@ -1,0 +1,30 @@
+{
+  "Street Smarts": {
+    "name": "Street Smarts",
+    "description": "🌃 You know how the city's underside works.\n\n🧭 You know who sells what, which streets belong to whom and when to walk away.\n📋 Requires level 8 and Streetwise 8.\n\n📈 Grants: Streetwise +10",
+    "traitNarrativeEffects": "The character has spent enough time in the city's rough corners to read them: they spot gang territory, recognize a broker's front business, pick up useful rumors in back-alley bars and arcades and notice when a deal is a trap. Show it as quiet caution and the right question to the right person. Limits: knowing the street is not being trusted by it; the underworld still lies, and organized villains keep their secrets from small-time contacts. Heroes and police may read this familiarity as a sign of criminal ties.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "skill",
+        "variable": "Streetwise",
+        "amount": 8
+      }
+    ]
+  }
+}

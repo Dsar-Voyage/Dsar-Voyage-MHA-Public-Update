@@ -1,0 +1,20 @@
+{
+  "Cut-In Save": {
+    "name": "Cut-In Save",
+    "description": "The user sees a falling sign, a speeding car or an attack about to hit someone and gets there first from anywhere within a city block. They either carry the person clear or kick the threat off course, and the person takes no harm; a thrown object, a swinging weapon or a car door kicked aside hits nobody. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

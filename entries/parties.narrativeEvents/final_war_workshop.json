@@ -1,0 +1,15 @@
+{
+  "final_war_workshop": {
+    "title": "Build a Battlefield",
+    "beats": "On May 5, Mei Hatsume and Power Loader work through urgent repairs in U.A. Academy's Development Studio. Planners use the brief interval won offshore to prepare separated battlefields. Training Ground Gamma hosts controlled rehearsals, while Musutafu General Hospital maintains guarded access to Kurogiri. Tasks can continue into May 6; the available time must follow the actual result of Star and Stripe's battle.\n\nThe canon default course, as pressure the player can change: support workers repair costumes and construct the systems that will lift U.A. Academy as the floating fortress Troy. Its containment surface, replacement material and power supply require continuous human labor. Students test repaired gear instead of receiving inexhaustible equipment. Command assigns teams to separate the enemy's strongest members, keeping civilian evacuation and operational transport distinct.\n\nNeito Monoma practices copying Warp Gate from the captive Kurogiri and prepares to sustain copied Erasure for the later containment battle. He cannot use both simultaneously; deployment must allow a deliberate change of task and renewal of copied abilities within their limits. Shota Aizawa's injuries prevent his old continuous combat role. Hitoshi Shinso, still a General Studies student preparing for transfer, rehearses the improved Brainwashing needed for the Aoyama deception. Access to Kurogiri is guarded and medical, not a friendly visit. An alternative custody or cooperation outcome requires a revised transport and deception plan.\n\nBy Path: at U.A. Academy, Class 1-A and Class 1-B rehearse assignments, General Studies assists Shinso or logistics, Support fabricates and tests, Management allocates supplies and confidential rosters, and Faculty directs readiness. At Training Ground Gamma, Licensed Sidekick and Licensed Pro Hero can test team procedures and agency equipment; Vigilante arranges compatible rescue coverage. At Musutafu General Hospital, authorized personnel protect patients and supervised copying. Civilian Life prepares evacuation necessities. League of Villains Recruit and Independent Villain can gather intelligence, sabotage or supply through established access, without automatically learning the whole operation. Choose one concrete player task and test its failure conditions; remote work cannot certify machinery nobody has inspected.\n\nThe event is complete when the player's preparation has been tested and accepted or explicitly rejected, with its supplies, personnel, limitations and any resulting revision to deployment stated.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

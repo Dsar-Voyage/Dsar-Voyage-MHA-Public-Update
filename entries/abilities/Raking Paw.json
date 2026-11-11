@@ -1,0 +1,20 @@
+{
+  "Raking Paw": {
+    "name": "Raking Paw",
+    "description": "The user's hand swells into a clawed paw mid-swing and rakes a target within reach. It deals slashing damage and drives the target back a step; swung with the back of the paw instead, it only bowls them over and leaves bruises. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

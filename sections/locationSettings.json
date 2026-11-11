@@ -1,0 +1,11 @@
+{
+  "regionSize": 40,
+  "simpleRadius": 2,
+  "complexRadius": 5,
+  "regionLocationCount": 8,
+  "avgTravelDistance": 10,
+  "minTravelDistance": 2,
+  "newRegionGenerationEnabled": false,
+  "regionMapBorderFeatheringEnabled": false,
+  "encountersEnabled": false
+}

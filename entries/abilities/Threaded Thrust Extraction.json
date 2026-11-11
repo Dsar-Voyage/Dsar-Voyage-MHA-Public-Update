@@ -1,0 +1,29 @@
+{
+  "Threaded Thrust Extraction": {
+    "name": "Threaded Thrust Extraction",
+    "description": "The user holds one adult clear of their exhaust, uses foot flames to hover beside a window and divides hand flames into fine streams that sever up to three exposed metal restraints within reach. The user withdraws with the passenger to clear ground within thirty meters by the end of the user's next turn. Contact with a stream still burns, hidden restraints cannot be targeted, and overheating prevents more flames until the user rests and cools. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

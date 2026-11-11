@@ -1,0 +1,20 @@
+{
+  "Pressure Seal": {
+    "name": "Pressure Seal",
+    "description": "The user packs the wound, presses hard and binds it tight with a bandage, belt or torn sleeve without stopping: while running, carrying the patient or under fire. That wound stops bleeding and stays closed even if the patient is moved, carried or keeps fighting, so it costs them no more health. Lost health does not come back. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rescue Specialist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "First Aid",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

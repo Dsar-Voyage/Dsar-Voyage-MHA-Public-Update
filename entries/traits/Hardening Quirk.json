@@ -1,0 +1,50 @@
+{
+  "Hardening Quirk": {
+    "name": "Hardening Quirk",
+    "description": "🗿 You harden your skin into rough, ridged armor at will.\n\n🌱 At the start your whole body hardens in an instant: fists, knives, bats and falling debris stop at your skin, and your hardened fists dent a car door.\n📈 With training: diving over people in danger, breaking walls, dropping through floors to the trapped, holding up a ceiling, armor-cracking blows, a past-your-limit strike.\n⚠️ It stops cuts and blows, not heat, cold, electricity, gas or sound.\n🔗 Common drawback pairing: Time Limit, as the hardening softens sooner the harder you push.\n🎬 Similar canon Quirks: Eijiro Kirishima (Hardening), Tetsutetsu Tetsutetsu (Steel).\n\n📈 Grants: Endurance +1, Quirk Stamina +10, Quirk Output +10, Blocking +5, Health +10\n⚡ Starting techniques: Crag Knuckle, Stone Skin\n🛡️ Resists: bludgeoning, slashing, piercing",
+    "traitNarrativeEffects": "Scale: skin hardens rough and ridged, one limb or the whole body, instantly. A new adult user shrugs off fists, knives, bats and a fall of a story or two, and dents a car door; a pistol round only chips it and bruises. Bigger feats need techniques. Limits: stops cuts and blows, not heat, cold, electricity, gas or sound; a rifle round, a speeding car or a full-power strength Quirk cracks it. Hardened, the user is heavy, sinks and loses fine touch; ridges cut anyone they grab. Quirk Strain: light: one limb, quick full-body flash; moderate: charge, covering a person, hardened drop; heavy: bracing a collapse, armor-breaking flurry; severe: signature move, sheltering a crowd all scene. Type: Transformation. Law: hardening in self-defense is lawful, but a ridged fist outside licensed work is assault, its cuts hard to deny. Look: skin turns gray (or player's color), ridges jut from arms, shoulders and face, the body grinds.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [
+      {
+        "resource": "health",
+        "modifier": 10
+      }
+    ],
+    "abilities": [
+      "Crag Knuckle",
+      "Stone Skin"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ]
+  }
+}

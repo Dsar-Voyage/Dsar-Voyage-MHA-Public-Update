@@ -1,0 +1,20 @@
+{
+  "Iron Snatch": {
+    "name": "Iron Snatch",
+    "description": "The user crooks a hand at a steel object they can see across a room or a street, and it flies to them: a knife, a pipe, a pistol, a ring of keys. Pulled from a person's grip, it is gone before they can swing or fire, and the user catches it or lets it drop at their feet. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

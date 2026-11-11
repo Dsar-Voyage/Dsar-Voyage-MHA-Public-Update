@@ -1,0 +1,20 @@
+{
+  "Accented Palm": {
+    "name": "Accented Palm",
+    "description": "The user times a palm strike within arm's reach to a forceful sung accent. Rhythmic pressure behind the palm deals moderate force damage and pushes the target two steps back; held back, it only opens space without injury. The user must make contact, and a missed beat leaves the strike an ordinary shove. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

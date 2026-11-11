@@ -1,0 +1,20 @@
+{
+  "Pyramid Boost": {
+    "name": "Pyramid Boost",
+    "description": "Doubles appear beneath and beside the user, brace and throw. The user, and a single ally if they choose, is boosted onto a rooftop or a high ledge, flung across a street-wide gap or caught by a stack of doubles before hitting the ground in a fall; the doubles burst afterward, leaving nothing for pursuers to climb. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

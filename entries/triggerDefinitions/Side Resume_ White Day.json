@@ -1,0 +1,42 @@
+{
+  "Side Resume: White Day": {
+    "name": "Side Resume: White Day",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_white_day",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_white_day",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_white_day",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_white_day"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_white_day",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"White Day\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: March 14, White Day: a month after Valentine's, whoever received chocolate returns the favor, ideally with something sweeter and, by a rule nobody can trace, worth three times as much."
+      }
+    ]
+  }
+}

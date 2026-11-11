@@ -1,0 +1,15 @@
+{
+  "Anchor Thought": {
+    "name": "Anchor Thought",
+    "description": "Under threats, panic or an interrogator's pressure, the user fixes on a chosen thought (a promise, a name or a reason) and holds it. For the rest of the scene the user cannot be frightened, panicked or pressured into talking by ordinary threats, though fear caused by a Quirk is resisted normally. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

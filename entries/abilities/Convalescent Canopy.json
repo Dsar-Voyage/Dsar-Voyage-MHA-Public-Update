@@ -1,0 +1,25 @@
+{
+  "Convalescent Canopy": {
+    "name": "Convalescent Canopy",
+    "description": "The user drives roots into the street and raises a canopy of flowering vines, moss beds and fruiting boughs across a whole city block for the rest of the scene. Calming pollen drifts through the block to numb pain, vine stretchers draw every injured person onto moss dressings that stop bleeding and mend wounds slowly, and enemies who force entry are struck by boughs for heavy bludgeoning damage and bound; held back, the vines only hold them still. The canopy wilts without light and water, and feeding it drains the user to collapse when the scene ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

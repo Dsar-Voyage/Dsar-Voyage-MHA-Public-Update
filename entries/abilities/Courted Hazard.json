@@ -1,0 +1,20 @@
+{
+  "Courted Hazard": {
+    "name": "Courted Hazard",
+    "description": "The user touches a present hazard on purpose, such as flame, ice, a live wire or a controlled strike, taking light fire, cold, electric or bludgeoning damage right away. By the end of their next turn their skin or flesh adapts to halve damage of that type for the rest of the scene, and trained control holds two active adaptations at once before a third replaces the oldest. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

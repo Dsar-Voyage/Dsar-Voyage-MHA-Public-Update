@@ -1,0 +1,29 @@
+{
+  "Measured Living Dressing": {
+    "name": "Measured Living Dressing",
+    "description": "The user maintains a medicinal gel coat on one adult within ten meters for the rest of the scene. The user senses pressure and warmth through the connected gel, adjusting its grip to seal accessible bleeding and support a damaged limb during movement. The coat speeds repair over hours, never regrows limbs or replaces blood, and cannot reach hidden internal wounds. The user must remain conscious and cannot produce other gel while treating the patient. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

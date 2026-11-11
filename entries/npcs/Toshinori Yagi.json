@@ -1,0 +1,34 @@
+{
+  "Toshinori Yagi": {
+    "name": "Toshinori Yagi",
+    "type": "U.A. Faculty",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Teachers' Lounge",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "average",
+    "voiceTag": "male gentle soothing",
+    "basicInfo": "Toshinori Yagi: a very tall, painfully thin blond man in a baggy khaki suit who has been around U.A. Academy since this spring. Staff wave him through the gates without a second look; asked what he does, he says he works with All Might, something like an assistant, and is vague about the rest. He keeps to the faculty wing and the Teachers' Lounge, walks the halls at odd hours, and is often watching training from a distance. Polite, awkward and kind, he startles easily, apologizes too much and coughs into a handkerchief that sometimes comes away red. Students who ask him about All Might get a nervous laugh and a change of subject.",
+    "hiddenInfo": "Secret: Toshinori Yagi IS All Might. Years ago a fight with the villain All For One wrecked his stomach and one lung; his famous muscular form now lasts only about three hours a day, less as the year goes on, and the rest of the time he is this frail true form. Only Principal Nezu, Recovery Girl, Gran Torino, Naomasa Tsukauchi, Sir Nighteye and Izuku Midoriya know. Rules for the story: Toshinori Yagi and All Might are one man and never appear in the same scene: when All Might is needed, Yagi excuses himself and All Might arrives a moment later; when All Might's time runs out, he leaves in a hurry and Yagi turns up soon after. Never state or hint in narration that Yagi is All Might; show only what the player character sees. The player character learns the truth only by watching the change happen or being told by Yagi himself; until then he is a stranger, and a thin man who keeps turning up near them can seem suspicious. If they work it out, he asks them, gently and with real fear, to keep it secret. Motivation: Hide how little time the Symbol of Peace has left while he quietly trains his successor, and keep the students safe. Concealment: Laughs off questions, invents errands, pockets the stained handkerchief, never names his Quirk. Leverage: A student in danger; he will spend his remaining time to save them, even in public. Connections: Izuku Midoriya, whom he trains in secret; Recovery Girl, who scolds him for overdoing it; Principal Nezu, who keeps his secret; Naomasa Tsukauchi, his oldest friend in the police; Shota Aizawa, who finds him odd. Fighting style: In this form he cannot fight; strain makes him cough blood, so he gets people clear and calls for help.",
+    "personality": [
+      "Self-effacing: Apologizes, scratches his head and plays down anything he knows.",
+      "Watchful: Notices a struggling student from across a field and finds a reason to wander over.",
+      "Secretive: Changes the subject, fakes an errand or simply vanishes when the talk gets close to the truth.",
+      "Speaking style: Quiet, polite and a little awkward, with a dry, tired humor."
+    ],
+    "abilities": [
+      "Veteran's eye: Reads a fight, a rescue or a student's form at a glance and gives one precise piece of advice.",
+      "Hero knowledge: Knows heroes, villains and police procedure from the inside, though he never says how.",
+      "\nFighting style: He does not fight in this form. He gets students and bystanders clear and calls for heroes."
+    ],
+    "visualDescription": "A very tall, very thin man with hollow cheeks, deep-set blue eyes in shadowed sockets and swept-back blond hair with two long tufts falling forward over his face. Pale skin and a thin frame under a loose, oversized suit: a khaki jacket over a white shirt, a thin dark tie and baggy trousers. Warm, tired, gentle smile.",
+    "detailType": "detailed",
+    "properName": "Toshinori Yagi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6c7c63e1-19b1-4a65-beb4-862fa2dc2d3b.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "initialKnown": false
+  }
+}

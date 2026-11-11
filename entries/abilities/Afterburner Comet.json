@@ -1,0 +1,25 @@
+{
+  "Afterburner Comet": {
+    "name": "Afterburner Comet",
+    "description": "The user's signature move: the engines are forced past their redline for a single flying kick too fast for the eye to follow. It deals massive bludgeoning damage, breaks through any guard, shield or armor and drives the target through the wall behind them; afterward the engines stall and the user cannot run or kick with them until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

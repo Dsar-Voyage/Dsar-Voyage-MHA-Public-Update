@@ -1,0 +1,20 @@
+{
+  "Falling Tape Catch": {
+    "name": "Falling Tape Catch",
+    "description": "The user anchors two strips to firm surfaces and stretches them beneath one falling person. The tape slows the fall and leaves that person hanging until the end of the user's next turn, when the user or an ally can lower them. The anchors must hold the person's weight, and a fall from much higher can tear the strips. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

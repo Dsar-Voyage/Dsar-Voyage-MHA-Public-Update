@@ -1,0 +1,20 @@
+{
+  "Ember Jet": {
+    "name": "Ember Jet",
+    "description": "The user throws a short jet of flame from an open palm at a target within a few strides. It deals fire damage and sets loose cloth or paper alight; held back, it only scorches, forcing the target to give ground or drop what they hold, with no lasting burns. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

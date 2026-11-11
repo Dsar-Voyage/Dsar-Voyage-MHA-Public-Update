@@ -1,0 +1,15 @@
+{
+  "Rolled Guard": {
+    "name": "Rolled Guard",
+    "description": "The user takes a blow on the forearms, a shield or a hardened part of the body and turns with it, sending the force along the guard. A punch, kick or blunt weapon that would cause a serious injury causes only a minor one, and the user stays on their feet even if the blow should knock them down. It turns blows of human strength, not a Quirk-powered blow that could send a person through a wall. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Blocking",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

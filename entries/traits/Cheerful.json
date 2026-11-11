@@ -1,0 +1,20 @@
+{
+  "Cheerful": {
+    "name": "Cheerful",
+    "description": "😄 You find the bright side and share it.\n\n🌱 Your smile and steady voice keep frightened people calm and help crowds follow directions.\n⚠️ The smile hides your own bad days, and the cracks show when you are alone or exhausted.\n⚠️ Some people read cheer as not taking things seriously, so your warnings can be brushed off.\n🔀 If you are also Cynical, the cheer is real and runs on low expectations.\n\n📈 Grants: Evacuation +5",
+    "traitNarrativeEffects": "The character is upbeat: they joke, encourage, point out what went right and keep spirits up. In an emergency their friendly voice and steady smile help crowds stay calm and follow directions. Weakness: they hide their own pain behind it, and the narrator may show the cracks when they are alone or exhausted. Some people read cheer as not taking things seriously, so a warning from them can be brushed off, and a joke in a grave moment can land badly. If the character is also Cynical, the cheer is real and runs on low expectations: they smile because they never expected much. The narrator may hint at what the smile covers; the player decides when the character lets it drop and who sees it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Evacuation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

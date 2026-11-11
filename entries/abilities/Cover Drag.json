@@ -1,0 +1,20 @@
+{
+  "Cover Drag": {
+    "name": "Cover Drag",
+    "description": "The user grabs an injured or frozen person by the collar or under the arms and hauls them behind the nearest solid cover in a single motion. The person ends out of the line of fire and clear of the immediate danger, and any attack aimed at them during the drag strikes the user instead. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rescue Specialist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

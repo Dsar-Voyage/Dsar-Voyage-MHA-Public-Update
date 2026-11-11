@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Image Report on a Rising Hero": {
+    "name": "__generated_quest_progress__/Image Report on a Rising Hero",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has interviewed the public and at least one person close to a pro hero in Tokyo, and delivered an image report on that hero to Principal Nezu."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Image Report on a Rising Hero"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Nightbound Shadow Command": {
+    "name": "Nightbound Shadow Command",
+    "description": "The user keeps the creature obedient in a dark street or building for the rest of the scene. It grows tall enough to catch several falling people or hold two human-sized opponents while the user directs each action. A sudden bright light cuts its strength, and every order in deep darkness still demands the user's attention. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Yosetsu Awase (Provisional License)": {
+    "name": "Yosetsu Awase (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 21,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Yosetsu Awase, hero name Welder, a Class 1-B first-year in U.A. Academy's Hero Course who holds a provisional hero license: 1-B took the exam at a different venue from 1-A, and the whole class passed. Black hair under a striped headband, gray eyes, a sturdy build; the U.A. uniform or his burgundy hero costume.\nSpeaking Style: Direct and informal; quick warnings.\nCombat Role: Hands-on support whose welded restraints and braces go up fast; still contact-only.\nUnder Pressure: Warns his side, keeps the rescue route clear and acts on his license in an emergency.",
+    "hiddenInfo": "Contradiction: The summer gave his careful checks real stakes: he must bond fast without trapping the wrong person. Motivation: Prove practical support belongs at the center of rescue work. Connections: Vlad King, prouder than ever of 1-B's full pass. Thread: What kind of hero a contact-only Quirk makes of him.\nQUIRK: Weld: practiced speed; still contact-only.\nSTAGE: After the provisional license exam: passed; holds a provisional license. All Might retired after Kamino.",
+    "personality": [
+      "Helpful: Steps in to protect someone the moment a practical opening appears.",
+      "Pragmatic: Reads a rescue scene for what can be braced, anchored or joined.",
+      "Careful bonder: Confirms who a weld might trap, even at speed.",
+      "Speaking style: Direct, informal warnings; short and practical, no speeches."
+    ],
+    "abilities": [
+      "Weld: Fuses touched objects into one piece with practiced speed; contact only, no undoing from afar.",
+      "Capture weld: Fixes a restraint or object onto a target to pin them; he must reach them first.",
+      "Emergency bracing: Bonds debris into a rescue support, only as strong as the materials.",
+      "Provisional license: May act with his Quirk in an emergency; it does not make him a pro.",
+      "\nFighting style: Closes to touch range and welds an opponent in place for a teammate; at range he relies on cover."
+    ],
+    "visualDescription": "A young man with black hair swept up and back under a striped headband, gray eyes, fair skin and a sturdy build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Steady, confident expression with a slight grin.",
+    "detailType": "detailed",
+    "properName": "Yosetsu Awase",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/49488a64-9cb6-453d-92eb-29e8d7d1f636.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yosetsu_awase",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/49488a64-9cb6-453d-92eb-29e8d7d1f636.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/e5fc26c0-c8a2-49b7-95de-f7ab80f8077c.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/97dcd4b4-edfd-43fd-9d4d-d9a014259582.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbd737c9-8a46-4ed8-9f6c-380716f10ea9.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/34d96f02-17ec-48d2-928b-ada15f2ddfaa.png"
+    },
+    "initialKnown": false
+  }
+}

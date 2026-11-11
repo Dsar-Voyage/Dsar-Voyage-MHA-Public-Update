@@ -1,0 +1,20 @@
+{
+  "Blaze Screen": {
+    "name": "Blaze Screen",
+    "description": "The user sweeps an arm and raises a screen of flame between attackers and the people behind it. Until the end of the user's next turn, anyone who pushes through takes fire damage, nobody can see through it from either side, and thrown wood, cloth or paper burns up inside it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

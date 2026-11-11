@@ -1,0 +1,20 @@
+{
+  "Deepwater Breath": {
+    "name": "Deepwater Breath",
+    "description": "The user fills their lungs and seals them for several minutes, in water or out of it. Until they breathe again they can swim through polluted water, cross a smoke-filled building and stand in tear gas, knockout gas or toxic fumes without breathing any of it in; anything that burns the eyes or skin still harms them. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

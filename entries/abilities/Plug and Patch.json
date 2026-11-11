@@ -1,0 +1,20 @@
+{
+  "Plug and Patch": {
+    "name": "Plug and Patch",
+    "description": "The user packs a thick plug of adhesive into a breach: a burst water main, a gas leak, a cracked tank, a holed hull, a door that must stay shut or a deep wound. The seal holds against pressure and force for the rest of the scene, and a sealed wound stops bleeding until a medic takes over, though it heals nothing. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

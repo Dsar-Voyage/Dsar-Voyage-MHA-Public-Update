@@ -1,0 +1,20 @@
+{
+  "Gentle": {
+    "name": "Gentle",
+    "description": "🌸 You are soft-spoken and careful, and you never use more force than a moment needs.\n\n🩹 Hurt and frightened people calm down in your hands, and children and animals trust you.\n⚠️ You hold back in a fight even when holding back gets you hurt.\n⚠️ Harsh people mistake you for a pushover.\n🔀 If you are also Stubborn, you are gentle and impossible to move.\n\n📈 Grants: First Aid +5",
+    "traitNarrativeEffects": "The character is gentle: soft-spoken, careful and unwilling to use more force than a moment needs. Hurt and frightened people calm down with them, and children and animals trust them. Weakness: they hold back in a fight even when it gets them hurt, and harsh people mistake them for a pushover. If the character is also Stubborn, they are gentle and impossible to move. The narrator shows how much force a moment allows; how much the character uses is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "First Aid",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

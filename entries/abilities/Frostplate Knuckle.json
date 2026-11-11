@@ -1,0 +1,20 @@
+{
+  "Frostplate Knuckle": {
+    "name": "Frostplate Knuckle",
+    "description": "The user grows a plate of ice over one fist and forearm and hardens it to stone density mid-swing, driving frost-hardened knuckles into a target within reach. It deals bludgeoning and cold damage and knocks the target back a step; held back with a smooth plate, it only staggers them and numbs their arm. The heavy plate slows the user's arm until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Shelter Dome": {
+    "name": "Shelter Dome",
+    "description": "The user curves a dome over themselves and the few people within arm's reach and holds it. Nothing gets in or out, smoke and gas included, until the user drops it or a blow too heavy for it shatters it; while holding it, the user can talk and give directions but cannot move or attack. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "On-Scene Authority": {
+    "name": "On-Scene Authority",
+    "description": "The user shows their license and takes charge of the hero response at an incident. Police officers and bystanders on scene follow the user's directions, and civilians or students who help under the user's supervision are covered: their Quirk use for the rescue counts as lawful. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Licensed Sidekick",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Hero Law",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

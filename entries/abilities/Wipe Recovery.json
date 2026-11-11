@@ -1,0 +1,15 @@
+{
+  "Wipe Recovery": {
+    "name": "Wipe Recovery",
+    "description": "The user takes the storage out of a damaged, burned or wiped phone, laptop or drive and rebuilds its deleted files and logs. The user recovers messages, photos, location history or files the owner believed were destroyed, even after a factory reset or a fire, as long as the storage chip itself survived. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Computing",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

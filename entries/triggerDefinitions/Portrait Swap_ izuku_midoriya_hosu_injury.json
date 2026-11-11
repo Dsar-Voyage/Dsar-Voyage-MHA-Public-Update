@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: izuku_midoriya_hosu_injury": {
+    "name": "Portrait Swap: izuku_midoriya_hosu_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_hosu_incident",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/28d3e438-cae0-40a0-a96b-e1c56294521b.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/28d3e438-cae0-40a0-a96b-e1c56294521b.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/28d3e438-cae0-40a0-a96b-e1c56294521b.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/28d3e438-cae0-40a0-a96b-e1c56294521b.png"
+      }
+    ]
+  }
+}

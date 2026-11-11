@@ -1,0 +1,20 @@
+{
+  "Coattail Leap": {
+    "name": "Coattail Leap",
+    "description": "The user taps a person whose Quirk moves them, such as a jumper, a flyer or a speedster, and uses the copy in the same motion. This turn the copy carries the user wherever it could carry its owner: onto a rooftop, across a street-wide gap or out of a fall into a safe landing, with a single passenger if they choose. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Gifted: Magnetism": {
+    "name": "Gifted: Magnetism",
+    "description": "🧬 Magnetism, as an extra Quirk put into your body.\n\n🌱 At the start you snatch a knife or a gun out of a hand from about ten meters, stop a thrown wrench in midair and slap an attacker away with a repelling push.\n📈 With training: marked people locked to walls or each other, scrap storms, girder rides, falling beams caught, a car swung through a barricade, all the steel in a block.\n🔗 Common drawback pairing: Loss of Control, as a strained field grabs metal you never meant to move.\n🎬 Similar canon Quirks: Magne (Magnetism).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Magnetism family): Scale: the user pulls and pushes iron, steel and anyone or anything marked by touch. A new adult user moves steel within about ten meters, up to a person's weight (a knife, a manhole cover). Marks keep a user-picked pole for the scene; opposite marks within a few meters slam together, matching ones push apart. More needs techniques. Limits: aluminum, copper, plastic, wood, stone and unmarked flesh ignore it; most bullets (lead, copper) pass through. The user must see targets; the field wipes cards and scrambles nearby phones; scrap driven edge-first maims and is lethal force. Quirk Strain: light: snatch, shove; moderate: locking marks, scrap volley, glide; heavy: catching falling steel, swinging a car; severe: signature move, a block's steel. Type: Emitter. Law: hurling metal at people without a license is assault with a weapon; disrupting a pacemaker is endangering life.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

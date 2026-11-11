@@ -1,0 +1,20 @@
+{
+  "Pocket Rig": {
+    "name": "Pocket Rig",
+    "description": "In moments the user turns carried gear and whatever lies nearby into a working device: a tripwire snare, a rope pulley, a smoke screen or a noise lure. A snare holds a target's legs until they break free or the user cuts it; a pulley lets the user alone lift debris off a trapped person; a lure draws an enemy to a chosen spot. The device lasts the scene. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirkless",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

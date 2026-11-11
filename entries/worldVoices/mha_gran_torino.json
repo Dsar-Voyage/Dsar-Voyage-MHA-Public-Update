@@ -1,0 +1,15 @@
+{
+  "mha_gran_torino": {
+    "label": "Gran Torino",
+    "voiceTag": "male gravelly elderly",
+    "instructions": "Scratchy, crotchety old man's voice, thin and a little nasal, with a dry crackle. Mumbling, drifting and pausing when playing doddering, then a sudden sharp, lucid verdict. Gruff huff of a laugh; brisk and fierce in a fight.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

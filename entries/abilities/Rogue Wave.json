@@ -1,0 +1,25 @@
+{
+  "Rogue Wave": {
+    "name": "Rogue Wave",
+    "description": "The user's signature move: every drop they can make leaves at once as a wave taller than a bus that runs the length of a street. Everyone in its path takes massive bludgeoning damage and is swept to the street's far end, every fire along it goes out, and the street floods ankle-deep; afterward the user is parched and cannot make water until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

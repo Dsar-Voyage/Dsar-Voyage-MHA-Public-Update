@@ -1,0 +1,20 @@
+{
+  "Camera": {
+    "name": "Camera",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Media Production",
+        "value": 5
+      }
+    ],
+    "description": "A mirrorless camera with a zoom lens that shoots high-resolution photos and video. Footage of a hero at work sells to news sites; footage of illegal Quirk use becomes police evidence. [ Tool | About ¥80,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f611854f-973e-4ab4-b62d-6a89e555a2cf.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

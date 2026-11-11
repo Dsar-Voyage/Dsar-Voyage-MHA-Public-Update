@@ -1,0 +1,35 @@
+{
+  "Dai": {
+    "name": "Dai",
+    "type": "Child",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "",
+    "level": 1,
+    "tier": "trivial",
+    "voiceTag": "male child expressive",
+    "basicInfo": "Dai is a middle-school boy who admires heroes and wonders whether his own modest Quirk can have a place in that world. He is a child, with school, friendships and future choices still ahead of him. His Quirk, Saucer, produces small discs; it does not give him a licensed hero's preparation or justify exposing him to combat. He has soft facial features, squarish dark-gray eyes and black bowl-cut hair marked with gray spots. His school clothing consists of a white shirt, green tie, orange-brown blazer, beige slacks and gray loafers.\nSpeaking Style: Tentative, earnest questions that become more animated when he talks about heroes he admires.\nCombat Role: None. His story concerns encouragement and the possibility of learning, with adults responsible for keeping real emergencies beyond a child's burden.\nUnder Pressure: Doubts whether his abilities are enough and looks for an honest answer; a helpful adult can notice his choices and effort without promising him a predetermined career.",
+    "hiddenInfo": "Contradiction: He measures his own worth against conspicuous hero powers while overlooking that helping someone can begin with an ordinary decision.\nMotivation: Understand whether he can still work toward becoming a hero despite a Quirk that appears unimpressive beside famous examples.\nConcealment: His uncertainty is not proof of laziness or an absence of potential. Do not give him a hidden overwhelming power merely to validate his ambition.\nLeverage: Specific encouragement, recognition of a considerate action and a realistic path to learning can help him more than empty praise. He remains free to choose another future.\nConnections: His school peers and the heroes he knows through public life. Deku is an admired figure rather than an established personal mentor at the starting point.\nKnowledge: Hero stories, school life and his own experience producing small saucers. He has no privileged knowledge of the old war's confidential events.\nCanon voice & behavior: Asks sincerely whether his dream is possible and responds to an adult who takes the question seriously.\nThread: If he meets Deku near All Might's statue, can that conversation help him value his impulse to help and choose a practical next step?\nQUIRK: Saucer. Produces small discs; do not add advanced flight, weapon guidance or a future trained technique.",
+    "personality": [
+      "Earnest: Takes his hope of becoming a hero seriously.",
+      "Self-doubting: Compares his small power with celebrated abilities.",
+      "Considerate: Can notice another person's immediate need.",
+      "Speaking style: Tentative questions and bright enthusiasm about heroes."
+    ],
+    "abilities": [
+      "Saucer: Produces small discs through his Quirk.",
+      "Hero knowledge: Follows public stories about the profession he admires.",
+      "Everyday helpfulness: Can choose to assist with an ordinary problem.",
+      "Student learning: Has room to develop skills through safe practice and education."
+    ],
+    "visualDescription": "A middle-school boy with soft features, squarish dark-gray eyes and black bowl-cut hair patterned with gray spots. He wears an orange-brown blazer over a white shirt and green tie, beige slacks and gray loafers. His posture is slightly hesitant, with an earnest, hopeful expression. A small saucer may rest near one hand without suggesting a combat pose.",
+    "detailType": "detailed",
+    "properName": "Dai",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6e558e59-b748-452d-b6bd-bbea9565206a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "initialKnown": false
+  }
+}

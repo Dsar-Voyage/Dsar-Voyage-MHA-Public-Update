@@ -1,0 +1,30 @@
+{
+  "Quick Reflexes": {
+    "name": "Quick Reflexes",
+    "description": "⚡ You react faster: a step ahead on the draw, the dodge and the sprint.\n\n🎯 Good for anyone who needs to move first.\n📋 Requires level 16 and Speed 13.\n\n📈 Grants: Speed +1",
+    "traitNarrativeEffects": "The character's reaction speed has sharpened: they move first when a fight starts, catch falling objects and clear the space before a blow lands. Show it in quick hands and fast first steps. Limits: it is human reflex refined by training, not a speed Quirk; it gives no extra actions and still loses to an attack they cannot see coming.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "attribute",
+        "variable": "speed",
+        "amount": 13
+      }
+    ]
+  }
+}

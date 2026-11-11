@@ -1,0 +1,42 @@
+{
+  "Side Resume: Crisis PR After Kamino": {
+    "name": "Side Resume: Crisis PR After Kamino",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "man_crisis_pr",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_man_crisis_pr",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_man_crisis_pr",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "man_crisis_pr"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_man_crisis_pr",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Crisis PR After Kamino\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The week after Kamino, at U.A."
+      }
+    ]
+  }
+}

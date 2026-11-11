@@ -1,0 +1,29 @@
+{
+  "Shouldered Price": {
+    "name": "Shouldered Price",
+    "description": "The user lays both hands on a patient too exhausted to pay for their own healing and carries the price themselves: the user's own stamina pays for the repair instead of the patient's. A grave wound closes and the patient regains most of their health, or an old injury that healed wrong is set right, without costing the patient anything. The user loses extreme stamina and cannot heal again until they rest, and a user already worn down falls unconscious once the work is done. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Heavy Hitter": {
+    "name": "Heavy Hitter",
+    "description": "👊 Your strikes, lifts and blows carry more force.\n\n🎯 Good for fighters who win up close.\n📋 Requires level 16 and Power 13.\n\n📈 Grants: Power +1",
+    "traitNarrativeEffects": "The character's strength has grown through training and fights: they hit harder, lift more and drive force through their whole stance. Show it in dented targets, opponents staggered by a single blow and doors that give way. Limits: more force means more danger to the people they hit; holding back takes conscious effort, and excessive force is a legal problem for heroes and civilians alike.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "attribute",
+        "variable": "power",
+        "amount": 13
+      }
+    ]
+  }
+}

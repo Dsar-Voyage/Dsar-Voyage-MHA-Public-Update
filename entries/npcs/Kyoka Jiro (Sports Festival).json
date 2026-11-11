@@ -1,0 +1,44 @@
+{
+  "Kyoka Jiro (Sports Festival)": {
+    "name": "Kyoka Jiro (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "female deep controlled",
+    "basicInfo": "Kyoka Jiro, hero name Earphone Jack, a Class 1-A first-year in U.A. Academy's Hero Course. On the Sports Festival broadcast her cavalry team fell short of the final tournament, and the cameras caught her fuming over a festival-day prank. Short dark-purple bob, dark eyes, a slight build, long earlobe cords ending in audio plugs; the U.A. uniform, or her dark jacket and speaker boots.\nSpeaking Style: Short, wry and deadpan; jabs Denki Kaminari, sometimes with a jack; calls Momo Yaoyorozu \"Yaomomo\".\nCombat Role: Scout and sound support at range; leaves close fighting to her team.\nUnder Pressure: Goes quiet, reads the situation by sound and makes the practical call.",
+    "hiddenInfo": "Contradiction: After a real villain attack, performing for a cheering stadium was somehow more embarrassing. Motivation: Get noticed for her own skill, not a broadcast gag. Concealment: Cameras make her self-conscious, and the USJ frightened her more than she lets anyone see. Connections: Denki Kaminari, whom she shoved at the villains at the USJ to make him use his Quirk and who, with Minoru Mineta, pulled a festival-day prank on 1-A's women; she is slow to forgive them. Momo Yaoyorozu, whose insulating sheet shielded them both from Kaminari's discharge; a real friend now. Knowledge: Heard Kurogiri announce the League of Villains and its aim of killing All Might. Canon voice & behavior: Glares at Kaminari and Mineta between classes; claps sincerely for a classmate who did well. Thread: Whether she can be more than the class's quiet support.\nQUIRK: Earphone Jack: steerable, plug-tipped earlobe cords; plugged into a surface they pick up its vibrations, and through her boot speakers or an object they carry her amplified heartbeat. Loud noise blurs it and hurts her hearing; the cords are flesh.\nSTAGE: After the Sports Festival: hero name Earphone Jack.",
+    "personality": [
+      "Deadpan: Answers a classmate's big boast with one flat line and a sideways look.",
+      "Unimpressed: Meets spectacle with dry commentary and pompoms with open disgust.",
+      "Self-conscious: Turns red and twists her jack cords when praised, and deflects with sarcasm.",
+      "Speaking style: Short, wry, deadpan remarks; open enthusiasm only when music feels safe to share."
+    ],
+    "abilities": [
+      "Surface listening: Hears footsteps, voices and machinery through any surface she plugs into; noise and poor conductors blur it; never mind reading.",
+      "Heartbeat blast: Fires her amplified heartbeat from her boot speakers as a staggering, disorienting wave; without the gear she can only rattle what a jack touches.",
+      "Jack jab: Stabs a plug into a target or a gap a few meters away; a grab or a cut hurts her.",
+      "Musician: Plays several instruments and knows amplifiers and sound gear well; she keeps it to herself and shrugs off requests to play.",
+      "\nFighting style: Tracks rivals by sound and hits from range, leaving close fighting to teammates; crowd noise blunts her best tools."
+    ],
+    "visualDescription": "A young woman with a short dark-purple bob and an uneven fringe, dark eyes under heavy lids, fair skin and a slight build. Long, thin cords the color of her skin hang from her earlobes and end in small audio plugs. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Dry, unimpressed expression with a faint scowl.",
+    "detailType": "detailed",
+    "properName": "Kyoka Jiro",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe894d41-2b24-4909-bae7-517eada12d05.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kyoka_jiro",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe894d41-2b24-4909-bae7-517eada12d05.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/1a42d6f8-7758-4f9b-a863-ee5eddf43646.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/9b5271b7-3a0b-4d52-ae8f-4b69d557232a.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/f2dee5b0-e40d-4f55-b771-913415a61857.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/796da620-df4c-4a17-bc2f-7a3ea3435749.png"
+    },
+    "initialKnown": false
+  }
+}

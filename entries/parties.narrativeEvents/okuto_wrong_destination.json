@@ -1,0 +1,15 @@
+{
+  "okuto_wrong_destination": {
+    "title": "The Fight He Must Leave",
+    "beats": "On day 405, Izuku Midoriya finds himself on Okuto Island's Coast Road instead of beside Shigaraki. Himiko Toga presses close while Ochaco Uraraka and Tsuyu Asui try to recover the assignment. Gang Orca's force is already fighting Moonfish and the island's other threats. If Izuku avoided the diversion, present the island team's corresponding containment problem without pulling him here afterward.\n\nThe canon default course, as pressure the player can change: Toga describes becoming and hurting people she loves as part of the relationship she wants with Izuku. He cannot accept her proposal. Her sincere affection does not resemble ordinary hostile intent to his private danger warning, making her movements unexpectedly difficult to anticipate. Ochaco and Tsuyu recognize that keeping Izuku here endangers the entire plan. They take responsibility for Toga so that he can leave for the distant Academy battle.\n\nKeep the conversation dangerous without treating rejection as proof that Toga cannot be reached. The player can create an exit, interrupt an attack, ask what Toga means, or insist on another allocation of defenders. Izuku's departure requires a real route over the water; Monoma is occupied with Erasure and cannot supply a fresh gate on demand. Until transport is established, island combat continues around the decision. Gang Orca's success against his opponents is not automatically settled by Izuku leaving.\n\nBy place: Okuto Island provides the direct confrontation and a threatened coastal departure. U.A. Academy receives the estimate of Izuku's arrival; Kamino Ward and Gunga Mountain Villa continue their separate battles. Musutafu General Hospital prepares for marine casualties, while Jaku City and Takoba Municipal Stadium exchange only the operational information they need. Mount Fuji Battlefield maintains ground warnings and future approach safety. Remote participants can help with navigation or reception without appearing on the island.\n\nBy Path: Class 1-A helps Ochaco and Tsuyu; Class 1-B reinforces containment; General Studies relays transport information. Support maintains marine equipment, Management verifies messages, and Faculty reallocates teams. Licensed Sidekick guards evacuation craft; Licensed Pro Hero engages the larger threats. League of Villains Recruit can assist Toga or oppose her isolation of Izuku; Independent Villain chooses an opening. Vigilante rescues stranded people; Civilian Life reaches protected transport.\n\nThe event is complete when Izuku has departed or been prevented from leaving, and the remaining island teams' responsibilities and departure route are explicit.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_okuto_wrong_destination",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

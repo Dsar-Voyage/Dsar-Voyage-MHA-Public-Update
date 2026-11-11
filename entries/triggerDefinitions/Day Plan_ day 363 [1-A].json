@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 363 [1-A]": {
+    "name": "Day Plan: day 363 [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 363
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the Paranormal Liberation War: before dawn the licensed Hero Course students are woken and sent out with the pros for a nationwide raid, briefed on the way: most hold the Gunga Mountain Villa perimeter under Midnight and the raid's heroes, others help evacuate Jaku City. There are no classes; a student without a license stays at U.A., which is locked down."
+      }
+    ]
+  }
+}

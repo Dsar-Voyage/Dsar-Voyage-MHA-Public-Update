@@ -1,0 +1,15 @@
+{
+  "war_casualty_roll": {
+    "title": "The Names After the Battle",
+    "beats": "Day 364, Saturday morning, March 29, after The End of the War: rescue work continues in Jaku City and at Gunga Mountain Villa. Musutafu General Hospital receives casualties; U.A. Academy waits for verified names. Respect every earlier rescue, escape and death rather than restoring the default roster.\nThe canon default course, as pressure the player can change: teams search Jaku Downtown and the Residential Hills for trapped residents, patients and missing responders. At Gunga Mountain Villa's Mountain Slopes, students reach Midnight's fall site and learn that she died unless the story established a rescue. Momo Yaoyorozu, Mina Ashido and Eijiro Kirishima face the loss of the teacher whose last order they followed. Give them work, silence, anger or grief without prescribing a single reaction. A missing report alone never proves a death, and any unresolved rescue remains playable until confirmation.\nAt Musutafu General Hospital, Izuku Midoriya, Katsuki Bakugo, Endeavor, Shoto Todoroki, Hawks, Mirko, Shota Aizawa and Gran Torino fill Patient Rooms by default. Izuku is unconscious; Katsuki needs treatment for his impalement, Shoto for burns, Endeavor for severe battle injuries and Hawks for his burned wings. Mirko's left forearm loss and damaged right leg require surgery and rehabilitation; record the right-leg amputation once treatment establishes it. Aizawa needs treatment for his amputated right leg and injured eye. Gran Torino survives with grave wounds. Hospitalization does not mark any of them dead or erase an established recovery difference.\nNews confirms that a double of Rikiya Yotsubashi attacked Hero Public Safety Commission Headquarters on the war day and killed the Commission President by canon default, leaving operations crippled. This is yesterday's reported attack, not a new morning battle. Use the protection or casualty status recorded at The Dawn Raids. If Commission-side intervention saved her, report that result instead; do not relocate the original Re-Destro from custody.\nBy Path: licensed Hero Course students from both classes assist supervised searches at Jaku City or Gunga Mountain Villa; Faculty, Licensed Pro Heroes and Sidekicks lead recovery and handover. Civilians identify relatives or receive care. League Recruits and already-present Independent Villains or Vigilantes handle their established escape, custody or rescue state. At U.A. Academy, General Studies, Support and Management students receive verified notices; established Commission support can reconcile records, supplies or displaced residents. Eri stays protected away from casualty scenes.\nThe event is complete when the search area is handed over and the dead, rescued and missing are recorded, with surviving wounded assigned to hospital care.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_war_casualty_roll",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

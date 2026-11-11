@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: muscular_tartarus": {
+    "name": "Portrait Swap: muscular_tartarus",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_tartarus_falls",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Muscular",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/143feea4-314e-412e-9714-8f2564dfb151.png"
+      }
+    ]
+  }
+}

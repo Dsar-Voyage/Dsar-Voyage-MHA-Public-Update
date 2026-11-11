@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: yuga_black_jacket": {
+    "name": "Portrait Swap: yuga_black_jacket",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_aoyama_second_chance",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Yuga Aoyama (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/dca3b710-0278-4ff3-89ea-51f5f5dfb530.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Yuga Aoyama",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/dca3b710-0278-4ff3-89ea-51f5f5dfb530.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Yuga Aoyama (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/dca3b710-0278-4ff3-89ea-51f5f5dfb530.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Yuga Aoyama (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/dca3b710-0278-4ff3-89ea-51f5f5dfb530.png"
+      }
+    ]
+  }
+}

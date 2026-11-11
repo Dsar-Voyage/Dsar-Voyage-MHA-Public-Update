@@ -1,0 +1,30 @@
+{
+  "Kobe": {
+    "name": "Kobe",
+    "basicInfo": "The upper half of the Kobe and Hanshin city belt and the hill country behind it: central Kobe's Sannomiya and Kitano districts, the Rokko mountains, Arima's hot springs and, inland, the Sanda and Tamba-Sasayama country to the north and the Miki and Nishiwaki farmlands to the west. The south edge runs along Kobe's downtown, so Sannomiya, Motomachi and Chinatown sit just inside the line while the harbor, Harborland and Port Island lie just beyond it. Kobe is a big, cosmopolitan port city squeezed between sea and mountains: department stores and arcades in Sannomiya, old Western merchant houses climbing the Kitano slope, sake breweries lining the Nada shore to the east, and, just over the ridge, Arima, an ancient hot-spring town of narrow lanes and iron-red springs. The Rokko range rises steeply behind it all, with cable cars, hiking trails and the famous night view over the bay. Eastward, the city runs without a break through wealthy Ashiya and Nishinomiya, past Koshien Stadium, to Takarazuka and its revue theater. North and west the land opens into gentle rice valleys: Sanda's commuter towns, Tamba-Sasayama's castle town of black soybeans, chestnuts and wild-boar hot pot, Tachikui's kilns of rustic Tamba pottery, Miki's carpentry tools and sake-rice fields, and Nishiwaki's weaving mills and the spot it marks as the navel of Japan. Summers are humid and hot, winters mild in the city and colder inland. Food is Kobe beef, Chinatown dumplings, Nada sake and Kobe's bakeries and sweet shops. The Sanyo Shinkansen stops at Shin-Kobe, about two and a quarter hours from Musutafu and fifteen minutes from Shin-Osaka; JR, Hankyu and Hanshin lines run side by side toward Osaka, the Kobe Electric Railway serves Arima and Sanda, and the Chugoku, Sanyo, Hanshin and Shin-Meishin expressways cross the cell. Kobe has many hero agencies and a heavy police presence; downtown, a sidekick with a sticky-handed Quirk directing crowds at a crossing is nothing unusual.",
+    "hiddenInfo": "Kobe is a port city with a long history of organized crime, much reduced since the rise of heroes; the old groups survive in loan-sharking, smuggling through the harbor and protection rackets in the nightlife streets. Sannomiya's crowds draw pickpockets and unlicensed Quirk scuffles, and Arima's wealthy guests draw thieves. Out-of-town villains pass through, but help from Osaka's agencies is twenty minutes away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -7,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a18cdb27-c7cf-442e-901c-c0ceb53b208e.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

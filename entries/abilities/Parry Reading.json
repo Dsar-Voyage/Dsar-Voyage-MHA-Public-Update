@@ -1,0 +1,20 @@
+{
+  "Parry Reading": {
+    "name": "Parry Reading",
+    "description": "The user touches an opponent's weapon as it comes in, whether a blade, a bat, a pipe or a gun barrel, and reads where it was about to go. The opponent's next attack with that weapon misses the user or an ally beside them, and the user's counter shoves the opponent off balance. A bare fist or a Quirk attack holds no residue to read, so it lands as normal. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

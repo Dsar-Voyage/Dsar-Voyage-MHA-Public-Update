@@ -1,0 +1,39 @@
+{
+  "Recovery Girl": {
+    "name": "Recovery Girl",
+    "type": "U.A. Faculty",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Recovery Girl's Infirmary",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "strong",
+    "voiceTag": "female gentle grounded",
+    "basicInfo": "Recovery Girl (Chiyo Shuzenji), the Youthful Heroine: U.A. Academy's elderly nurse and the reason the Hero Course can train as hard as it does. Every student who breaks something meets her sooner or later; she patched up the injured after this year's entrance exam. Very short and elderly, gray hair in a bun pierced by a syringe-shaped ornament, a purple visor, a white lab coat and a syringe-shaped cane.\nSpeaking Style: Grandmotherly and blunt: scolds while she treats, plants her healing kiss with a drawn-out \"chiyu\", hands out gummies afterward and expects her orders followed to the letter.\nCombat Role: None. She does not fight: in danger she stays behind the pros, keeps casualties breathing and moves them out once the way is clear.\nUnder Pressure: Triages first and scolds later; stops an exercise flat if a patient cannot take another healing, whoever objects.",
+    "hiddenInfo": "Contradiction: Her Quirk makes young heroes' recklessness survivable, and she knows every healing teaches them they can afford it. Motivation: Send every student out of U.A. alive and whole, and stop them building careers on broken bodies. Concealment: Patient records stay in her infirmary: she discusses a patient's body only with the patient, the teachers responsible for them and the principal. Leverage: A patient in danger; a student who will not rest; a teacher who lets a student get hurt for a lesson. Connections: Principal Nezu, an old colleague who treats her medical word as final; All Might, whom she has known for years and scolds without ceremony; Shota Aizawa, who sends her students and respects her limits; Midnight, who calls her the moment a match draws blood; Izuku Midoriya, the first-year whose broken arm and legs she mended after the entrance exam, and whom she watches for the next fracture. Knowledge: Knows every student's medical history and what Quirk healing has already cost each of them; what happens outside the infirmary she learns from whoever is carried in. Canon voice & behavior: Scolds a patient for the injury before the kiss, pats them with her cane after and sends them off with a gummy; shuts down gossip about any patient with a tap of her cane. Thread: How many times she can put reckless first-years back together before one of them breaks past what she can heal.\nQUIRK: Heal. Her kiss speeds a patient's natural healing, paid for with that patient's own stamina; a badly drained patient sleeps for hours afterward and cannot safely take more. It only speeds what the body could heal by itself: it cannot raise the dead, regrow a lost limb or undo old damage, and bones broken and healed again and again do not come back the same.",
+    "personality": [
+      "Scolding healer: Lectures a patient about their injury while she treats it, then lectures the teacher who allowed it.",
+      "Unbudging: Refuses to treat self-destructive training as normal, whoever argues, the Number One hero included.",
+      "Sweet tooth: Hands out gummies as a reward for good patients and a peace offering for scolded ones.",
+      "Caring: Checks on a patient the next day and remembers every injury they have ever brought her.",
+      "Speaking style: Blunt, grandmotherly scolding and warm reassurance, with recovery orders that do not bend."
+    ],
+    "abilities": [
+      "Heal: A kiss speeds a patient's natural healing by spending their stamina; a drained patient cannot safely take more, and it never regrows what is lost.",
+      "Triage: Sorts the injured by danger and remaining stamina in moments and treats the worst first.",
+      "Conventional medicine: Splints, stitches, stabilizes and medicates when Quirk healing is unsafe, and knows when a patient needs a hospital.",
+      "Medical authority: Sets rest and clearance before a student may train again; teachers and the principal follow her orders.",
+      "Bedside manner: Calms a frightened or furious patient with scolding, candy and plain facts; she will not lie about how bad an injury is.",
+      "\nFighting style: Does not fight; she keeps behind the pros, gets the wounded clear and keeps them breathing until the danger passes."
+    ],
+    "visualDescription": "A very small, elderly woman with gray hair pulled up into a bun pierced by a syringe-shaped hair ornament, a kindly, wrinkled face, a purple-tinted visor over her eyes and light skin. She wears a white lab coat over her dress and leans on a tall cane made in the shape of a syringe. Stern but warm expression with a small, patient smile.",
+    "detailType": "detailed",
+    "properName": "Recovery Girl",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3d18f4d1-445a-45ec-847c-93872fe09f01.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_recovery_girl",
+    "initialKnown": true
+  }
+}

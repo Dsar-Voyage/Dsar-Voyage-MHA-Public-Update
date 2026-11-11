@@ -1,0 +1,20 @@
+{
+  "Calming Pollen Drift": {
+    "name": "Calming Pollen Drift",
+    "description": "The user opens pale blossoms along their forearms and releases a cloud of calming pollen across a room. Until the end of the user's next turn, wounded allies and bystanders who breathe it feel their pain and panic fade so they can walk or hold steady despite injuries, while enemies inside have their focus dulled and cannot aim or charge. Wind blows the pollen away, and running both natures drains the user's stamina. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

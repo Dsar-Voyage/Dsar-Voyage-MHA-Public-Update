@@ -1,0 +1,25 @@
+{
+  "Repeated Street Retrieval": {
+    "name": "Repeated Street Retrieval",
+    "description": "The user chains tightly timed bursts and breathing stops along a hundred-meter street, retrieving up to four cooperative adults one at a time over three turns. Each passenger travels against the user's torso to the same clear refuge, with checked landings instead of high-speed collisions. The user needs breathable air and a clear return lane for every trip; a blocked lane ends the sequence, and afterward the user cannot propel until they catch their breath. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

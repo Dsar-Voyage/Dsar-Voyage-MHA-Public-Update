@@ -1,0 +1,17 @@
+{
+  "Ultimate Move Development": {
+    "name": "Ultimate Move Development",
+    "questSource": "Cementoss",
+    "questStatement": "The provisional license exam is weeks away, and Shota Aizawa gives the Hero Course one order: by exam day, every student needs ultimate moves, techniques they can use under pressure without thinking. Classes move into Gym Gamma, the Training Dojo, where Cementoss raises terrain to order and Ectoplasm's clones come at you from every side. Power Loader is taking costume change requests in the Development Studio. A move that works once is not a move yet.",
+    "mainObjective": "Develop an ultimate move of your own and demonstrate it reliably before the license exam.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has developed an ultimate move that fits their Quirk and demonstrated it reliably to Cementoss or Ectoplasm in Gym Gamma."
+    },
+    "detailType": "detailed",
+    "questLocation": "Gym Gamma",
+    "questDesignBrief": "Training-montage pace with hard limits. Cementoss shapes terrain to each Quirk and ends a dangerous drill with a wall; Ectoplasm's clones apply pressure and grade in two sentences; Power Loader and Mei Hatsume rework costumes. Canon defaults as background: Izuku Midoriya shifts to a kicking style and new leg gear, Tsuyu Asui and Mina Ashido name their moves with flair, Katsuki Bakugo works alone and waves off advice. A move must respect the PC's Quirk exactly as their traits state, cost included. Failure: an unfinished move goes to the exam unfinished. Recovery Girl treats overuse injuries. Nothing here stages the license exam or assumes its result.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

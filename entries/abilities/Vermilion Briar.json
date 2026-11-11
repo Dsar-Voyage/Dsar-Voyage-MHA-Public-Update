@@ -1,0 +1,25 @@
+{
+  "Vermilion Briar": {
+    "name": "Vermilion Briar",
+    "description": "The user's signature move: they open both palms and pour blood across the ground ahead, then harden it all at once into a thicket of spikes and thorned ropes that fills a street. Every enemy in it takes massive piercing damage and is pinned until they tear free with a hard effort or are cut loose; afterward the user is pale and dizzy, has lost a large share of their health and cannot release blood until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

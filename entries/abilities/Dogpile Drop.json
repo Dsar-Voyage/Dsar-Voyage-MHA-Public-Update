@@ -1,0 +1,24 @@
+{
+  "Dogpile Drop": {
+    "name": "Dogpile Drop",
+    "description": "A heap of doubles drops onto a single target from every side, even a target far larger than the user. The target takes heavy bludgeoning damage and is pinned flat: they cannot move, attack or use their hands until they break free with a great effort, which bursts the whole pile. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

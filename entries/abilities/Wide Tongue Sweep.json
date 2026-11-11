@@ -1,0 +1,25 @@
+{
+  "Wide Tongue Sweep": {
+    "name": "Wide Tongue Sweep",
+    "description": "The user extends their tongue to twenty meters and sweeps one opponent's legs, then coils around their torso before this turn ends. The fall deals heavy bludgeoning damage; held back, the user supports the descent and pins the arms without squeezing the chest. The user needs a firm anchor and cannot safely lift more than one adult; a trapped tongue leaves them exposed. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

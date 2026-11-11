@@ -1,0 +1,24 @@
+{
+  "Citadel Command": {
+    "name": "Citadel Command",
+    "description": "The user lays both palms on the street and takes hold of the stone and concrete across a whole city block. For the rest of the scene they can raise a wall across any street, open stairs to any roof, seal or open any doorway and close a stone cage around any enemy standing on the ground. Each cage holds until heavy blows break it, and everything they shape stays when they let go. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Distant Handling": {
+    "name": "Distant Handling",
+    "description": "The user holds an object for a moment and keeps hold of its residue after it leaves their hand. For the rest of the day, wherever it goes in the city, they feel each new hand that takes it, the face and mood of that person and the surroundings of every spot it is set down, close enough to send heroes there. They can track up to three objects at once, such as marked ransom money, a stolen phone or a planted bag. While tracking, the user cannot read anything else, and a reading that arrives in the middle of a fight leaves them dazed until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

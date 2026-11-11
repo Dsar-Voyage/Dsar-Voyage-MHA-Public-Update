@@ -1,0 +1,40 @@
+{
+  "Dark Shadow Quirk": {
+    "name": "Dark Shadow Quirk",
+    "description": "🌑 You have a talking shadow creature that reaches out from your body.\n\n🌱 At the start you direct a creature your size in indoor light to reach a few meters, catch an object, strike an adult or briefly hold one person.\n📈 With training: coordinated attacks, rescue carries, shelter under its body, flight while riding it.\n⚠️ Your attached creature weakens in bright light, grows wild in darkness and cannot cross walls; hits hurt you and fear disrupts your control.\n🔗 Canon Drawback, built in: Loss of Control, as deep darkness can make your creature disobey.\n🎬 Canon Quirk: Fumikage Tokoyami's Dark Shadow. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Cooperativeness +1, Quirk Control +10, Quirk Output +10, Team Coordination +5\n⚡ Starting techniques: Shadow Hand Catch, Clawside Shove",
+    "traitNarrativeEffects": "Scale: sentient shadow with own voice, judgment, feelings; directed, not puppeted. Start, indoor light: human-sized, few-meter reach; catch, strike an adult, briefly hold one person. Dark: bigger, stronger, less control; bright: smaller, weaker, timid. Growth, dark teamwork, long guarding, flight need training.\nLimits: attached; cannot roam, douse lights, move other shadows or pass walls. Sun, flames, strong lamps weaken it; deep dark may make it attack the nearest person, allies too. Hits on it hurt, distract the user; it can refuse orders.\nQuirk Strain: light: catch, shove; moderate: hold, short scout, rescue carry; heavy: long shelter, flight; severe: full-strength coordinated attack, deep-dark control.\nDrawback: built in, the canon Loss of Control.\nCanon: Fumikage Tokoyami's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: user answers for its harm, even disobeying.\nLook: beaked shadow.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Shadow Hand Catch",
+      "Clawside Shove"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

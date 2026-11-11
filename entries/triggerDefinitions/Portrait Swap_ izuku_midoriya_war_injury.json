@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: izuku_midoriya_war_injury": {
+    "name": "Portrait Swap: izuku_midoriya_war_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a363385-603e-4a08-af0a-87343aad52f7.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a363385-603e-4a08-af0a-87343aad52f7.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a363385-603e-4a08-af0a-87343aad52f7.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a363385-603e-4a08-af0a-87343aad52f7.png"
+      }
+    ]
+  }
+}

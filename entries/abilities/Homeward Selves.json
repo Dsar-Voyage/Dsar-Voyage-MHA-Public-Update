@@ -1,0 +1,29 @@
+{
+  "Homeward Selves": {
+    "name": "Homeward Selves",
+    "description": "The user sends doubles out to scout, search or listen, and each one carries what it learns home. The moment a double bursts or touches the user again, its memories flow back into the user: every room it saw, every word it heard, every face and every trap, so a whole building can be scouted in seconds from outside it. The bursts come back with the memories: the user feels each double's last moment, and after taking more than a handful back they are dazed until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Circling Body Rush": {
+    "name": "Circling Body Rush",
+    "description": "The user divides into many pieces and drives them around one target within a short street, striking from several directions before rejoining. The impacts deal heavy bludgeoning damage; held back, hands and limbs pin the target until the end of their next turn. If the pieces cannot return, replacing them drains the user's stamina sharply. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

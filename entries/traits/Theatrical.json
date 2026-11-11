@@ -1,0 +1,24 @@
+{
+  "Theatrical": {
+    "name": "Theatrical",
+    "description": "🎭 You have a flair for drama: big entrances, named moves and lines delivered for the crowd.\n\n📸 Cameras love you: reporters and fans notice you, and a frightened crowd watches you and follows.\n🎤 You turn a rescue into a show the crowd remembers.\n⚠️ Stealth does not love you: showmanship draws fire, and a speech can give away a plan.\n⚠️ A performance that fails in public becomes a clip people share for weeks.\n🔀 If you are also Reserved, the drama appears only in costume or in front of an audience.\n\n📈 Grants: Media Presence +5, Performance +5",
+    "traitNarrativeEffects": "The character performs: they announce themselves, call their moves, pose for cameras and turn a rescue into a show the crowd remembers. Reporters and fans notice them, and a frightened crowd watches them and follows. Weakness: showmanship costs time and attention. They draw fire, give away plans with a speech and struggle to stay quiet on stealth work. Teachers and older pros may see vanity, and a performance that fails in public becomes a clip people share for weeks. If the character is also Reserved, the drama appears only in costume or in front of an audience. The narrator offers the audience and the camera; the player decides whether the character plays to them.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Media Presence",
+        "modifier": 5
+      },
+      {
+        "skill": "Performance",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

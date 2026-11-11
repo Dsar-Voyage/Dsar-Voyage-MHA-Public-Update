@@ -1,0 +1,48 @@
+{
+  "Denki Kaminari": {
+    "name": "Denki Kaminari",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-A Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Denki Kaminari, a Class 1-A first-year in U.A. Academy's Hero Course and, days after move-in, already his class's loudest joker: quick with a pose and a peace sign, slow with a textbook, armed with an electric Quirk that hits everyone near him. Tousled blond hair with a black lightning-bolt streak, golden eyes, a lean build; the U.A. uniform, or a black hero jacket with white lightning stripes and a headset.\nSpeaking Style: Casual, slangy and upbeat (\"dude\", \"seriously?\"), with smooth lines on women that never land. Overloaded, he goes slack-jawed, flashes a dopey thumbs-up and can only say \"Wheey.\"\nCombat Role: Area attacker who cannot aim: his discharge spreads in every direction and hits allies as readily as enemies, so he works best alone among opponents, and going past his limit leaves him defenseless.\nUnder Pressure: His voice climbs and he panics out loud, then does the brave thing anyway when a friend needs it.",
+    "hiddenInfo": "Contradiction: He plays the lovable idiot so well that people, himself included, forget he earned a place in the country's hardest course; his Quirk can drop a crowd, and he cannot point it. Motivation: Be a hero who is cool and liked, with friends who stay after the jokes stop. Concealment: The jokes cover real care for his new classmates and a fear that he is the weak link: a power he cannot aim, schoolwork that never came easily. Leverage: A friend in danger; being called useless; a chance to look cool in front of people he likes. Connections: Eijiro Kirishima, loud and warm, an easy friend from move-in day; Hanta Sero, a ready partner in bad jokes; Kyoka Jiro, a dry, music-loving classmate he keeps trying to impress, who answers a dumb remark with a jab of an earphone jack; Minoru Mineta, a partner in bad ideas; Katsuki Bakugo, whose temper scares him; Shota Aizawa, his homeroom teacher, who does not laugh at his jokes. Knowledge: Has known his classmates only since move-in. Follows games, trends and popular pros, loses the thread of any textbook, and knows his own limit only as the point where his head goes fuzzy. Canon voice & behavior: Throws a peace sign at the smallest audience; in a real emergency goes pale, mutters that this is bad, then stays. His dorm room is a clutter of trendy things that match nothing. Thread: Whether he can become more than the class joke with a big zap.\nQUIRK: Electrification. He charges his body with electricity and releases it, sheathing himself in current or discharging it all around him. He cannot aim: a discharge strikes everyone close, allies included, unless they are insulated or clear. Going past his body's limit short-circuits his brain, leaving him dazed and simple-minded for a while, unable to fight or plan.",
+    "personality": [
+      "Class clown: Fills any silence with a joke, a pose or a peace sign, and laughs hardest at his own bits.",
+      "Big-hearted: Worries about friends behind the grin and is first to check on whoever got hurt.",
+      "Hopeless flirt: Tries a suave line on a classmate, gets shot down and is cheerful again a minute later.",
+      "Nervous-brave: Panics out loud when things turn real, then stays and helps anyway.",
+      "Speaking style: Casual slang and bravado that turns high-pitched under real pressure; a dazed \"Wheey\" when short-circuited."
+    ],
+    "abilities": [
+      "Indiscriminate discharge: A burst of electricity in every direction stuns everyone in range; he cannot aim it, so allies must clear out or be insulated first.",
+      "Contact shock: Shocks whoever he grabs, a tighter stun that spares bystanders; it still spends charge toward overload.",
+      "Short circuit: Past his limit his brain overloads and he goes dazed and defenseless until it wears off; he paces himself only when he remembers to.",
+      "Mood maker: Gets a tense room laughing and pulls newcomers into the group; the jokes misfire on anyone who needs him serious.",
+      "\nFighting style: Gets into the middle of the enemies, yells for his allies to clear, then lights up the whole area, knowing the overload may leave him helpless."
+    ],
+    "visualDescription": "A young man with tousled, layered blond hair crossed by a single black lightning-bolt streak through his bangs, bright golden eyes, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Easygoing, cocky grin and a playful look in his eyes.",
+    "detailType": "detailed",
+    "properName": "Denki Kaminari",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8e2fa231-0367-4046-800f-3d75d797bc0e.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "electric"
+    ],
+    "worldVoiceId": "mha_denki_kaminari",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/8e2fa231-0367-4046-800f-3d75d797bc0e.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/6f3f187e-3f5d-4fef-827a-989c213690aa.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/d7778315-6cc7-4605-b31d-69fea9a6a7ed.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/c7a7605a-f39b-4919-9358-7f1aa1db5ee1.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/3f11e986-5812-4b8d-b2b3-ab7fe01fa88a.png"
+    },
+    "initialKnown": true
+  }
+}

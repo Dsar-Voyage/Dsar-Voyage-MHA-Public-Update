@@ -1,0 +1,24 @@
+{
+  "Solid Point Strike": {
+    "name": "Solid Point Strike",
+    "description": "The user lets an opponent's visible attack pass through a phased shoulder, then makes one fist solid at close range for a counter. The blow deals moderate bludgeoning damage; held back, it stuns without breaking bone. The fist is vulnerable at the instant of contact, and an attack from a second direction can still land. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

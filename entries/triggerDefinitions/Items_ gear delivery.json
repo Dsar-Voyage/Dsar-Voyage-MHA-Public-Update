@@ -1,0 +1,22 @@
+{
+  "Items: gear delivery": {
+    "name": "Items: gear delivery",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "read-boolean",
+        "key": "gearPending",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const O=[[\"goggles\", \"Support goggles\"], [\"gloves\", \"Grip gloves\"], [\"comms\", \"Comms earpiece\"], [\"respirator\", \"Respirator mask\"], [\"earplugs\", \"Noise-filtering earpieces\"], [\"grapple\", \"Grappling line launcher\"], [\"boots\", \"Support boots\"], [\"plates\", \"Impact armor plates\"], [\"vest\", \"Cooling vest\"], [\"capture\", \"Capture weapon\"]];const d=check({type:'read-number',key:'currentDay'})||1;const got=[];let left=0;for(const [k,it] of O){const o=check({type:'read-number',key:'order_'+k})||0;const K='od_'+k;if(o)left++;if(!o){if(K in storage)delete storage[K];continue;}if(typeof storage[K]!=='number'){storage[K]=d;continue;}if(d>=storage[K]+3&&effects.length<8){const h=N(check({type:'player-item',item:it})),oc=storage['oc_'+k];const tg=typeof oc==='number'?oc+1:1;if(h<tg)effects.push({type:'item-add',item:it,quantity:tg-h});effects.push({type:'write-number',key:'order_'+k,operator:'set',value:0});got.push(it);left--;delete storage[K];}}if(!left)effects.push({type:'write-boolean',key:'gearPending',operator:'set',value:false});if(got.length)effects.push({type:'story',instruction:'Narrator only: a support company courier delivers the character\\'s order: '+got.join(', ')+'. It is in their inventory now.'});if(!effects.length)skip=true;"
+  }
+}

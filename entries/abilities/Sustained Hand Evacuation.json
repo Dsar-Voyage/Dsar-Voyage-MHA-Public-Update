@@ -1,0 +1,25 @@
+{
+  "Sustained Hand Evacuation": {
+    "name": "Sustained Hand Evacuation",
+    "description": "The user keeps both hands enlarged for five minutes while evacuating a building, carrying up to two cooperative adults at a time in supported palms through clear passages. Each trip still requires walking and room for the hands; no one gains protection from gas or heavy collapse. Repeated loads exhaust the shoulders, and afterward the user cannot enlarge their hands again until they rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

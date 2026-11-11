@@ -1,0 +1,30 @@
+{
+  "Shunan": {
+    "name": "Shunan",
+    "basicInfo": "Shunan is the Suo coast of southeastern Yamaguchi Prefecture, from the eastern edge of Hofu to Yanai, with the forested hills of the Chugoku Mountains behind and the Suo-nada sea in front; nearly half of the cell is water, the Inland Sea filling the south, with the Kaminoseki peninsula reaching out to the southeast. Shunan, the city formed around Tokuyama, is a port of petrochemical plants and refineries whose lights at night are a famous view, with a zoo, a shopping street and ferries to Kyushu. Kudamatsu next door builds shinkansen cars at its railcar works, Hikari has long pine-lined beaches at Murozumi, and Yanai is an old merchant town of white walls and red goldfish lanterns, whose August lantern festival fills the streets. Kaminoseki, at the tip of the peninsula, is a quiet fishing town of old houses facing small islands. Off Tokuyama, small islands such as Otsushima are reached by ferry, and inland the hills of rice terraces and cedar climb north to the upper Nishiki River valley. The climate is mild Setouchi, calm seas and sunny winters. The Sanyo shinkansen stops at Tokuyama, about forty-five minutes from Fukuoka and about four hours from Musutafu; the Sanyo Main Line runs along the coast and the Gantoku Line through the hills to Iwakuni, and the Sanyo Expressway crosses the region. Ferries run from Tokuyama to the Kunisaki Peninsula in Kyushu in about two hours, and from Yanai to Matsuyama. Visitors watch the factory lights, swim at Murozumi, buy goldfish lanterns and eat fugu and seafood. Each town has police and small hero agencies, plant crews with heat-resistant Quirks work under license, and sidekicks patrol the lantern festival.",
+    "hiddenInfo": "Industrial towns with shift workers, aging fishing villages. Small-time trouble is scrap and copper theft from industrial zones, bike gangs on coastal roads, and Quirk-users poaching shellfish. Hero coverage comes from Shunan's agencies; serious backup is from Hiroshima or Fukuoka, about an hour away by shinkansen.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -13,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4dabb357-0375-49cb-a419-1e4b0d58275c.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

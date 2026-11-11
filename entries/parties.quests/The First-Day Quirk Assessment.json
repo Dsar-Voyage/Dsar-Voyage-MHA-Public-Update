@@ -1,0 +1,17 @@
+{
+  "The First-Day Quirk Assessment": {
+    "name": "The First-Day Quirk Assessment",
+    "questSource": "Shota Aizawa",
+    "questStatement": "Monday morning, the first day of classes. While the rest of the first year files into the entrance ceremony, Shota Aizawa orders Class 1-A into gym clothes and out to the athletics field beside the main building. Eight physical tests, Quirks allowed: a sprint, grip strength, a standing long jump, side steps, a ball throw, an endurance run, sit-ups and a seated toe-touch. Whoever finishes last, he says, goes home today. He does not look like he is joking.",
+    "mainObjective": "Complete all eight events of Aizawa's Quirk assessment and stay out of last place in Class 1-A.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has completed all eight events of Shota Aizawa's Quirk assessment and learned where they placed in Class 1-A and what Aizawa decided about them."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Dry, tense and funny. The class walks from the homeroom to the athletics field beside the main building in gym clothes (no bus, no costumes; costumes come with All Might's first class). Before the first event Shota Aizawa says aloud that whoever finishes last overall will be expelled. He runs it alone with a stopwatch and posts the ranking at the end. Class 1-A competes beside the PC by record name. Canon default as pressure: Momo Yaoyorozu tops the board, and Izuku Midoriya scores nothing remarkable until the ball throw, where Aizawa erases his Quirk mid-throw (hair lifting, eyes red), warns him quietly, and Izuku's second throw sends the ball 705 meters and breaks one fingertip. The PC's Quirk works exactly as their traits state; clever use earns marks, self-harm earns Aizawa's contempt. If the PC places last, Aizawa decides on the spot whether their potential justifies keeping them; he may call the threat a logical ruse afterward, never before. Recovery Girl treats injuries.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

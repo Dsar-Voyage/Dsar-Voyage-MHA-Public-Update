@@ -1,0 +1,25 @@
+{
+  "Specter Drive": {
+    "name": "Specter Drive",
+    "description": "The user's signature move: their fist phases through armor, shields and a raised guard and turns solid only as it meets the target's body. It deals massive bludgeoning damage that no armor, block or barrier reduces and throws the target off their feet; afterward the user cannot phase until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

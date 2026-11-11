@@ -1,0 +1,24 @@
+{
+  "Divided Feather Escort": {
+    "name": "Divided Feather Escort",
+    "description": "The user splits their feather stock into three bundles and carries up to three adults within fifty meters to visible safe ground over two turns. The user stays on solid ground and abandons all other feather tasks; heavy loads, burning debris or broken feathers force an early landing rather than extra lift. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "A Moment Ahead": {
+    "name": "A Moment Ahead",
+    "description": "The user's signature move: every sense locks onto a single opponent until the user knows each movement a moment before it starts. Until the end of the user's next turn, that opponent's attacks against the user all miss and the user's own attacks on them cannot be dodged or blocked; afterward the senses white out, and the user is deaf and cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Etched Ascent": {
+    "name": "Etched Ascent",
+    "description": "The user runs up a wall or across a ceiling, etching handholds and footholds with acid as they go and gripping with tacky gel on the palms. They can carry a passenger on their back, and the etched holds stay behind so others can climb up or down the same route. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

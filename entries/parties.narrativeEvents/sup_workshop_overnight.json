@@ -1,0 +1,15 @@
+{
+  "sup_workshop_overnight": {
+    "title": "Workshop Overnight",
+    "beats": "A winter night at U.A. Academy, well past the hour the Development Studio should be dark. A Hero Course student's gear failed in training this afternoon: the mount of a grapple line cracked under load, and the student is due on the field for morning drills with it or without it. The repair request came to the Support Course stamped urgent. Mei Hatsume claimed the job first, as she claims everything, and already has the whole assembly in pieces on her bench.\n\nDefault course, as pressure the player can change: Power Loader is meant to send everyone back to the dorms by curfew. Tonight he signs late passes, starts the coffee maker and stays, which he will deny tomorrow. The night runs on solder, canned coffee and Hatsume talking to the parts. Around midnight she decides the original mount was the wrong idea and starts a redesign that would be better and slower; Power Loader wants the simple fix, tested twice, done by dawn. The argument is technical, fast and not unfriendly. Around three in the morning the first rebuilt mount cracks in the test cage.\n\nA Support Course party is the third pair of hands. It can take the safe fix and get it exactly right, back Hatsume's redesign and race the clock, find out why the first mount cracked, or be the one who makes everyone stop and eat something. Power Loader tests the final piece himself before it leaves the studio, and he will not pass anything that might fail on someone's arm. A student who stays the night learns more about how he thinks than any lecture teaches.\n\nThe event is complete when the repaired gear passes its test in the cage and is boxed for the morning, or Power Loader calls it off and sends everyone to bed.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_sup_workshop_overnight",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

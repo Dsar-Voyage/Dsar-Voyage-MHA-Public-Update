@@ -1,0 +1,30 @@
+{
+  "Iron Constitution": {
+    "name": "Iron Constitution",
+    "description": "🪨 Your body has toughened: you shake off illness, cold and exhaustion and take a hit better.\n\n🎯 Good for front-liners and anyone who works long, hard shifts.\n📋 Requires level 24 and Endurance 14.\n\n📈 Grants: Endurance +1",
+    "traitNarrativeEffects": "The character's body has toughened through a long stretch of training, injury and recovery: they recover from illness quickly, handle heat and cold and absorb blows that would stagger others. Show it in a solid frame and quick recovery. Limits: it toughens the body, not the mind, and it does not resist Quirk effects that bypass the body.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 24
+      },
+      {
+        "type": "attribute",
+        "variable": "endurance",
+        "amount": 14
+      }
+    ]
+  }
+}

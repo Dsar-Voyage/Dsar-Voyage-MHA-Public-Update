@@ -1,0 +1,20 @@
+{
+  "Standing Order": {
+    "name": "Standing Order",
+    "description": "The user gives a person under their control a single order that keeps working after the hold ends: sit and wait, stay in this room, sleep, keep your hands on the wall. The person keeps obeying it, even with the user gone, until the scene ends, until they are hurt or shaken hard, or until the user lifts it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

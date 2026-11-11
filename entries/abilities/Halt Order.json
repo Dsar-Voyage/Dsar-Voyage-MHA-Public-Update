@@ -1,0 +1,20 @@
+{
+  "Halt Order": {
+    "name": "Halt Order",
+    "description": "The user calls a stop in the voice of a teacher and a licensed pro. Students, trainees and anyone else who accepts the user's authority stop what they are doing and wait for instructions. Anyone else hearing it for the first time in a scene hesitates, so the user acts before them in the next exchange. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Faculty",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

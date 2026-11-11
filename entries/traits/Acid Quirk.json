@@ -1,0 +1,43 @@
+{
+  "Acid Quirk": {
+    "name": "Acid Quirk",
+    "description": "🧪 You secrete acid from your skin and set its strength and thickness each time, from a harmless sting to acid that eats rope, plastic and wood.\n\n🌱 At the start you spray it a few meters, make an attacker drop their weapon with a sting and skate on a slick film faster than you can run.\n📈 With training: melted locks and car doors, glued feet, etched climbing routes, an unholdable coat, armor-ruining rain and, at the top, dissolving only what you name.\n🔗 Common drawback pairing: Bodily Toll, as overuse leaves your skin raw.\n🎬 Similar canon Quirks: Mina Ashido (Acid).\n\n📈 Grants: Speed +1, Quirk Output +10, Quirk Mobility +10, Acrobatics +5\n⚡ Starting techniques: Sizzle Flick, Slick Skate\n🛡️ Resists: corrosive",
+    "traitNarrativeEffects": "Scale: the user secretes acid from the skin, mostly palms and soles, setting strength and thickness each time: stinging film, sticky gel, or acid that eats rope, plastic and wood in seconds. A new adult user sprays it a few meters, about a bucket's worth before running dry; their skin resists corrosives. Bigger feats need techniques. Limits: water dilutes it, baking soda neutralizes it, it pools where it runs; fumes in a closed room sting everyone's eyes and lungs, allies included. It eats thick steel or concrete only slowly; full strength scars skin for life, so restraint is the skill. Quirk Strain: light: spray, skating film; moderate: glob, melted lock, etched climb; heavy: full-body coat, acid rain; severe: signature move, tuned solvent. Type: Emitter. Law: acid thrown at a person is aggravated assault; melting locks or cars unlicensed is burglary or property damage. Look: skin glistens with hissing fluid (player's color); skating leaves a wet, shining trail.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Acrobatics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Sizzle Flick",
+      "Slick Skate"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "corrosive"
+    ]
+  }
+}

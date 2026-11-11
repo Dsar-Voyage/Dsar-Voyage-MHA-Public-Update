@@ -1,0 +1,15 @@
+{
+  "license_remedial_course": {
+    "title": "The License Remedial Course",
+    "beats": "A mid-course lesson at Takoba Municipal Stadium during the Commission's remedial program. Katsuki Bakugo, Shoto Todoroki, Inasa Yoarashi and Camie Utsushimi work under instructors including Gang Orca. Camie attends because Himiko Toga's impersonation left the real Camie untested. Today's assignment is to win the trust of children from Masegaki Primary School; the final licensing assessment comes later, after Joint Training.\n\nThe canon default course, as pressure the player can change: the children mock the candidates, ignore instructions and show off their Quirks. Katsuki wants to impose order, Shoto's formal approach fails to connect and Inasa's enthusiasm does not win them over. The instructors demand that the candidates understand the children rather than overpower them. Unless the player finds another safe approach, the candidates abandon lecturing and combine their abilities into a supervised attraction: Shoto shapes an ice slide, Inasa guides wind, Camie provides Glamour illusions and Katsuki uses controlled blasts to help build the show. The children are always written child-safe; nobody injures, humiliates or threatens them. By canon default they join the fun and accept the candidates. Katsuki speaks with their leader about how looking down on others hides one's own weaknesses, showing a change in how he treats people.\n\nUnless the player changes the observers' conversation, Endeavor watches Shoto from the stands and asks All Might what it means to be a Symbol. All Might discusses the responsibility and the need for Endeavor to find his own answer; Endeavor's encouragement embarrasses Shoto. The day ends with feedback on the candidates' ability to reach the children. No candidate receives a license at this lesson; Katsuki, Shoto and Inasa remain unlicensed, and Camie still has her assessment ahead.\n\nA remedial student party takes the lesson; licensed students and other U.A. courses can observe or assist with an approved volunteer role. Faculty, pros and sidekicks supervise the activity and its safety. Civilians are parents, school staff or stadium workers. A villain or vigilante outside Takoba has no automatic access to the children or training floor. At the Hero Public Safety Commission Headquarters, Yokumiru Mera and Licensing Bureau staff handle progress reports and future assessment arrangements; they do not sign licenses today. An injured party receives an appropriate observation or assistance role rather than being treated as recovered.\n\nThe event is complete when the children give their verdict for the day and the instructors close the lesson with feedback.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_license_remedial_course",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

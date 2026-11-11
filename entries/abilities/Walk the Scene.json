@@ -1,0 +1,15 @@
+{
+  "Walk the Scene": {
+    "name": "Walk the Scene",
+    "description": "The user walks the scene in order, from entry to struggle to exit, matching marks, debris, blood and burns against each other. The user learns the order of events at the scene, how many people took part and which marks a Quirk left, though not who those people were. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Investigation",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

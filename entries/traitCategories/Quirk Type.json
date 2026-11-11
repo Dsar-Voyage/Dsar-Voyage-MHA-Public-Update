@@ -1,0 +1,13 @@
+{
+  "Quirk Type": {
+    "name": "Quirk Type",
+    "maxSelections": 1,
+    "traits": [
+      "Emitter",
+      "Transformation",
+      "Mutant",
+      "Quirkless"
+    ],
+    "description": "⚡ How your Quirk shows: Emitter (you put something out), Transformation (your body changes when you activate it), Mutant (your body is always different) or Quirkless (about one person in five).\n\nQuirkless? Pick \"No Quirk\", \"No Drawback (Quirkless)\" and \"No Quirk Strength (Quirkless)\" in the next three groups."
+  }
+}

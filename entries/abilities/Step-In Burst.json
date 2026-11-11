@@ -1,0 +1,20 @@
+{
+  "Step-In Burst": {
+    "name": "Step-In Burst",
+    "description": "The user closes the distance with a quick step and releases the Quirk at point-blank range as the front foot lands. Deals the Quirk's own damage type (bludgeoning damage from a body-strengthening Quirk) and pushes the opponent back out of arm's reach and off balance: they cannot counterattack on their next action. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirk-Centered Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

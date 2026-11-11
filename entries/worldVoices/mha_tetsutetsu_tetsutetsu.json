@@ -1,0 +1,15 @@
+{
+  "mha_tetsutetsu_tetsutetsu": {
+    "label": "Tetsutetsu Tetsutetsu",
+    "voiceTag": "male confident energetic",
+    "instructions": "A young man's hoarse, gruff mid-low voice at shouting volume, hot-blooded and wholehearted: bellowed challenges, rough battle cries, cracking emotional praise for guts. Fast and punchy. Never sly or cool.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

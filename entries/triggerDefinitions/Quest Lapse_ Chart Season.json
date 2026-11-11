@@ -1,0 +1,30 @@
+{
+  "Quest Lapse: Chart Season": {
+    "name": "Quest Lapse: Chart Season",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Chart Season",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_billboard_chart",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-complete",
+        "questId": "Chart Season"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the quest \"Chart Season\" is over; its moment has passed in the calendar. Do not play it, offer it again or speak of it as still to come."
+      }
+    ]
+  }
+}

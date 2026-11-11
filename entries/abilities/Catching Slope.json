@@ -1,0 +1,20 @@
+{
+  "Catching Slope": {
+    "name": "Catching Slope",
+    "description": "The user throws a slanted panel under anyone falling within sight, even from a few stories up: they strike it at an angle, slide down and land on their feet unhurt. The same slope catches a falling car, a dropped beam or a crowd tumbling down a stairway and brings them to the ground without injury. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

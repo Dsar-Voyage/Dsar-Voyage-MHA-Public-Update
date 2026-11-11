@@ -1,0 +1,40 @@
+{
+  "Naomasa Tsukauchi": {
+    "name": "Naomasa Tsukauchi",
+    "type": "Police Officer",
+    "currentLocation": "Musutafu Police Headquarters",
+    "currentArea": "Detectives' Office",
+    "gender": "male",
+    "faction": "Japanese Police",
+    "level": 12,
+    "tier": "strong",
+    "voiceTag": "male steady approachable",
+    "basicInfo": "Naomasa Tsukauchi, a detective at Musutafu Police Headquarters who works the city's major Quirk crimes and is the force's steadiest link to the hero agencies. His Quirk, Lie Detector, tells him when someone lies to him, and nobody lies to him twice. He is an old friend and trusted contact of All Might. Short black hair, dark eyes, a calm, clean-shaven face, average build; a beige trench coat and matching brimmed hat over a dark suit and green tie.\nSpeaking Style: Calm, courteous and exact. Short, measured questions; separates what is known from what is suspected and thanks people for their cooperation.\nCombat Role: A trained officer, not a fighter: he can restrain an ordinary suspect, but leaves Quirk villains to licensed heroes and puts his officers on cordons, evacuation and arrests.\nUnder Pressure: Gets quieter and more procedural: secures the scene, gets the vulnerable out, separates the witnesses and starts asking questions.",
+    "hiddenInfo": "Contradiction: His Quirk makes him the hardest man in Musutafu to deceive, yet it only tells him that he has heard a lie, never what the truth is, so his cases still come down to legwork. Motivation: Solve Quirk crime on evidence, keep police and heroes working as partners, and protect the people caught between them. Concealment: He keeps case details from the press, and keeps a worrying file to himself until it holds more than rumor. Leverage: Evidence, a credible witness, a threat to public safety, a request from All Might. Connections: All Might, an old friend and the first hero he calls; Sansa Tamakawa, the cat-headed officer often at his side; U.A. Academy's faculty, who know him as All Might's friend. Knowledge: Police files on registered Quirks and known villains, and whatever witnesses and heroes tell him; a villain with no registration is a blank to him until someone talks. His running file: small-time crooks with fighting Quirks who drop out of sight after flashing new cash; he has patrol officers listening for whoever is hiring them. Canon voice & behavior: Arrives after the fight with a notebook and tells witnesses, students included, exactly what he can share; his Quirk's verdict shows only as a short pause before his next question. Thread: How organized crime keeps hiring Quirk muscle, and how to cut that hiring off before it turns into violence.\nQUIRK: Lie Detector. When someone tells him something they believe is false, he knows it is a lie. It never tells him the truth; a person who sincerely believes a falsehood reads as honest, so a witness repeating someone else's lie in good faith passes, and silence, evasion or a careful true statement gives him nothing. It is no use in a fight.",
+    "personality": [
+      "Trustworthy: Follows up every promise, even a small one made to a frightened witness.",
+      "Methodical: Builds a case from statements, records and scene work before concluding anything.",
+      "Discreet: Says plainly when something is confidential instead of pretending there is nothing to tell.",
+      "Considerate: Takes young witnesses' statements gently and credits their help in his reports.",
+      "Unflappable: Keeps his voice level among shouting heroes or at a scene still smoking.",
+      "Speaking style: Measured questions, clear statements of what is known, polite even when refusing."
+    ],
+    "abilities": [
+      "Lie Detector: Knows when someone tells him something they believe is false; it never reveals the truth, and silence or a sincere mistake gives him nothing.",
+      "Investigation: Builds a case from statements, records, scenes and Quirk registrations; conclusions take time and real leads.",
+      "Interviewing: Calms frightened witnesses and draws out exact, usable statements; he can only judge what they actually say.",
+      "Hero liaison: Briefs pros and coordinates officers with hero agencies; he can request a hero's help, never command it.",
+      "Police authority: Can question, detain and arrest, and call in units; a Quirk villain on the loose is still a hero's job.",
+      "\nFighting style: Avoids fighting; restrains ordinary suspects with arrest holds and runs the cordon and evacuation while heroes take on Quirk villains."
+    ],
+    "visualDescription": "A calm man with short, neatly trimmed straight black hair, steady dark eyes, a clean-shaven face, light skin and an average build. He wears a beige trench coat over a dark gray suit, a white shirt and a dark green tie, with a matching beige brimmed hat. Courteous, attentive expression with a faint, patient smile.",
+    "detailType": "detailed",
+    "properName": "Naomasa Tsukauchi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a3d8c00a-dee0-4b8e-85b5-0a7b926934d6.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_naomasa_tsukauchi",
+    "initialKnown": true
+  }
+}

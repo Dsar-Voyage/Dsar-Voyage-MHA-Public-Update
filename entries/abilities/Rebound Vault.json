@@ -1,0 +1,20 @@
+{
+  "Rebound Vault": {
+    "name": "Rebound Vault",
+    "description": "The user throws themselves hard against the ground or a wall, soaks the impact and lets it fling them back out: onto a rooftop, across a street-wide gap or into the path of a falling person, whom they catch against their soft body with no harm to either. On this move the user lands from any height unhurt. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "deku_vs_kacchan_2": {
+    "title": "Deku vs. Kacchan, Part 2",
+    "beats": "Day 170, night at U.A. Academy. After the provisional license results, Katsuki Bakugo calls Izuku Midoriya out of Heights Alliance and leads him to Ground Beta's Mock City Streets. He has pieced together a connection between Izuku's strength and All Might, but the question behind the challenge is why someone he judged weak received his idol's trust.\n\nThe canon default course, as pressure the player can change: Katsuki demands a fight away from the dorms. His anger breaks into guilt over being kidnapped and setting in motion the battle that ended All Might's career. Izuku recognizes that winning and saving have always meant different things to them. Unless interrupted, they fight seriously without intending to kill: Izuku uses Shoot Style and briefly pushes Full Cowl to eight percent, while Katsuki adapts his blasts and wins the exchange. A party can separate them, talk Katsuki through the confession, summon staff or change the fight's result; the emotional conflict does not require the default winner.\n\nNarrator only, private to established witnesses: All Might arrives and confirms One For All's transfer from himself to Izuku. He tells Katsuki that his retirement is not Katsuki's fault and asks him to keep the secret. Izuku already knows his own history; this is Katsuki's confirmation, not a public announcement or a class lesson. All Might urges them to learn each other's strengths. No nearby student learns the secret merely because an event runs.\n\nBy Path and place: a Class 1-A party at U.A. Academy can notice the departure, follow to Ground Beta or report the absence. Class 1-B, General Studies, Support and Management parties need an established reason to be outside after curfew; faculty can intervene directly. Licensed pros and sidekicks act through campus permission. Civilian, vigilante and villain Paths remain subject to security and gain no automatic access to the private talk. Back at U.A. Academy, Shota Aizawa hears the report and, by default, orders house arrest and dorm cleaning: four days for Katsuki, three for Izuku. Keep their absence from lessons and cleaning duties in the following days; do not lift the punishment at scene end or force it onto an innocent participant.\n\nThe event is complete when the confrontation has stopped, the private conversation or its changed alternative has resolved, and Aizawa has assigned the consequences.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_deku_vs_kacchan_2",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

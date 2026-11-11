@@ -1,0 +1,24 @@
+{
+  "Every Heartbeat": {
+    "name": "Every Heartbeat",
+    "description": "The user opens every sense their animal body has across a whole city block for the rest of the scene. They know where every living person in it is, who is hurt and how badly, who is hiding or lying in wait, and which way anyone flees; nobody there can ambush the user or the allies they warn, and trapped survivors are found without searching. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

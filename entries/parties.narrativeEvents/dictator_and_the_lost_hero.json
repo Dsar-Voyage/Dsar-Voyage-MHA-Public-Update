@@ -1,0 +1,15 @@
+{
+  "dictator_and_the_lost_hero": {
+    "title": "Too Tired to Stand",
+    "beats": "On May 1, Izuku Midoriya reaches Kamino Ward's Shopping Street in a filthy, damaged costume, struggling to keep moving. By default he has pushed All Might away and evaded the support team; preserve any support the player actually kept in place. Dictator waits behind a crowd of civilians controlled through Despot. At U.A. Academy, Class 1-A's effort to find Izuku has become an authorized retrieval operation rather than an ordinary outing.\n\nThe canon default course, as pressure the player can change: Dictator forces people to surround and attack Izuku. They remain victims even when their bodies obstruct him. Izuku looks for a solution that does not injure them, but his exhaustion makes coordination difficult. Dictator counts on that restraint until Katsuki Bakugo intervenes from above and disables him. The controlled crowd is released, and Class 1-A reaches its friend. Their arrival resolves the immediate ambush, not the argument over whether Izuku will return.\n\nAllow the player to locate the controller, remove people from danger, protect a falling victim or create a clean opening. A villain-aligned participant can support the ambush, expose Dictator or decline to help either side. Track injuries from any attack through the crowd, including friendly attacks. If Dictator was retained in custody after Tartarus, do not release him solely to stage this encounter: establish his absence through the pursuit report and resolve the classmates' actual contact with Izuku. A healthier Izuku responds with the stamina earned by earlier interventions.\n\nBy Path: at Kamino Ward, Class 1-A can join retrieval, Licensed Sidekick removes civilians, Licensed Pro Hero secures Dictator, Vigilante protects extraction and Civilian Life can survive control or help victims. League of Villains Recruit and Independent Villain decide whether to aid the ambush or exploit its failure. At U.A. Academy, Class 1-B covers rescue obligations, General Studies identifies missing residents, Support prepares restraints, Management coordinates reception and Faculty monitors the retrieval. Remote participants receive concrete tasks and reports instead of being transported into the crowd. The class's knowledge of One For All remains confidential.\n\nThe event is complete when Dictator can no longer control the immediate crowd, the victims' care and his custody or escape are established, and Izuku's classmates have reached him or received an explicit changed contact outcome.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_dictator_and_the_lost_hero",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "Place Note: Hosu Downtown (before Hosu)": {
+    "name": "Place Note: Hosu Downtown (before Hosu)",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Hosu Downtown"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_sports_festival",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_hosu_incident",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const K=\"Hosu Downtown (before Hosu)\",X=\"Narrator only, true until the Hosu incident: the Hero Killer Stain has attacked pro heroes in other cities and has never been caught; he has not struck in Hosu.\";const t=check({type:'game-tick'})||0,d=check({type:'read-number',key:'currentDay'})||1,a=check({type:'party-area'})||'';const S=storage.placeNote||{};const p=S[K];const st=d+'|'+a;if(p&&p[0]===st&&t-p[1]<10){skip=true;return;}S[K]=[st,t];storage.placeNote=S;effects.push({type:'story',instruction:X});})();"
+  }
+}

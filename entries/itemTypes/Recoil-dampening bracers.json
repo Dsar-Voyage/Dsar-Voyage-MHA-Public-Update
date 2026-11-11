@@ -1,0 +1,25 @@
+{
+  "Recoil-dampening bracers": {
+    "name": "Recoil-dampening bracers",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "value": 3
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      }
+    ],
+    "description": "Padded forearm bracers with shock-absorbing cores that soak up part of the kickback when a Quirk fires through the hands or arms. They reduce recoil without removing it: a user who pushes past their limit still gets hurt. [ Support Gear | About ¥85,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3653c591-8d1a-4f19-a0bb-fb07eeb9a598.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Cupped Hand Carry": {
+    "name": "Cupped Hand Carry",
+    "description": "The user cups both enlarged hands around one injured adult and carries them up to ten meters this turn, shielding them from small loose debris and direct splashes. The hands leave breathing gaps and cannot keep out poison gas. The user cannot strike while carrying, and a heavy impact can injure the hands or passenger. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

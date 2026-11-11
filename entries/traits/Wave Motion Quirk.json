@@ -1,0 +1,40 @@
+{
+  "Wave Motion Quirk": {
+    "name": "Wave Motion Quirk",
+    "description": "🌀 You turn your stamina into visible spiral shockwaves.\n\n🌱 At the start you push one nearby adult back, shove loose debris aside, soften a fall or lift yourself briefly with waves from your hands or feet.\n📈 With training: controlled descents, repeated blasts, broad rescue pushes, stronger waves, sustained flight.\n⚠️ You spend stamina on every wave; slow spirals give targets time to dodge, hit allies in their path and cannot turn around walls, while flight needs repeated output.\n🔗 Canon Drawback, built in: Stamina Drain, as every spiral spends your own energy.\n🎬 Canon Quirk: Nejire Hado's Wave Motion. You are not related to her; people who know her Quirk notice the resemblance.\n\n📈 Grants: Endurance +1, Quirk Output +10, Quirk Stamina +10, Evacuation +5\n⚡ Starting techniques: Spiral Palm, Heel Wave Lift",
+    "traitNarrativeEffects": "Scale: own stamina becomes visible twisting shockwaves, mainly from hands and feet. Start: push a nearby person back, shove loose debris or briefly lift themselves. Stronger blasts, accurate flight, broad waves need training.\nLimits: each wave costs stamina; long use weakens. Spirals are slow; alert targets dodge. Waves cross open space, hitting what they meet; no curving around walls or sparing allies. Aim and control force near civilians. Sustained flight needs repeated foot output, faltering when exhausted.\nQuirk Strain: light: short push or lift; moderate: repeated blasts, controlled descent, brief flight; heavy: broad waves, sustained flight; severe: large release, extended air battle.\nDrawback: built in, the canon Stamina Drain.\nCanon: Nejire Hado's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: user answers for bystanders hit; choose a clear line of fire.\nLook: bright spirals.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Spiral Palm",
+      "Heel Wave Lift"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

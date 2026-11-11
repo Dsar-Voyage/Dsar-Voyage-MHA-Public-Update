@@ -1,0 +1,86 @@
+{
+  "Utsunomiya Station": {
+    "name": "Utsunomiya Station",
+    "basicInfo": "Utsunomiya Station is the gateway to Tochigi and the northern Kanto plain: a big JR East station on the Tohoku shinkansen, with the city spread out to the west and the new light rail running east. The west exit faces downtown across a wide pedestrian deck over the bus terminal, where buses leave for the Oya stone quarries, Futaarayama Shrine on its hill in the center of town and the outlying towns; on the deck stands a statue of a woman wrapped in a gyoza skin, carved from Oya stone, which everyone photographs and nobody explains. In and around the station, gyoza shops argue over the best dumpling in a city that takes the question seriously, and boxed-meal and souvenir stands sell frozen gyoza packs, strawberry sweets, kanpyo and Mashiko pottery cups. The east exit is newer, flat and spacious, with the light rail platform at its center, its trams gliding east across the Kinu river to the industrial parks and Haga, and a plaza with a convention hall. Coin lockers line the concourse, bicycle racks fill the streets on both sides, and taxi ranks wait at each exit. The Tohoku shinkansen reaches Tokyo in about 50 minutes, so Musutafu is about 2 hours away with a change at Tokyo; the Utsunomiya Line runs south toward Tokyo more slowly, the Nikko Line reaches Nikko in about 45 minutes, and the Karasuyama Line runs east into the hills; the separate Tobu station for the private line south lies downtown, about a 25-minute walk west. Mornings bring commuters, students and factory shift buses; noon brings gyoza lines; evenings, workers head downtown for the jazz bars and cocktail lounges; the last trains leave before midnight. A police box stands at the west exit, the prefectural police headquarters are in the city, and sidekicks from the local agencies patrol the deck. It feels comfortable, local and unhurried: a capital that is happy to be a short trip from Tokyo and happier still to be home.",
+    "hiddenInfo": "A phone-scam crew is using the station to collect its money, and the next pickup is set for this week. Callers somewhere far away phone elderly people in the farm towns, pretending to be a grandson in trouble or a bank officer, then send a collector to meet the victim at the west exit or to pick up an envelope of cash left in a coin locker. The collectors are hired one job at a time through online ads for easy money: right now it is a nervous man in a too-new gray suit who arrives on the shinkansen from Tokyo around 2 p.m., checks his phone constantly and waits by the gyoza statue; he has no Quirk worth mentioning and does not know who he works for. An elderly woman from Nasukarasuyama is coming in on the Karasuyama Line with three million yen in a cloth bag for her grandson's emergency, and her real grandson knows nothing about it. A ticket-gate attendant who has already seen two other old people come through clutching bags and looking for a stranger has started writing down the times; the officer at the west exit police box has been told to watch for exactly this, but is alone on afternoon shifts and also takes the bicycle theft reports, which come in by the dozen. How the place really runs: JR East runs the station, the light rail runs its own east-side platform, and the city owns the decks and plaza; one local agency holds the station patrol and splits its sidekicks between the deck and the bar streets at night, where Quirk brawls at closing time keep them busiest. Bag snatching on the deck peaks on festival weekends.",
+    "x": -13.82,
+    "y": -11.94,
+    "radius": 1,
+    "region": "Utsunomiya",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/02f5d109-d1ac-4035-abec-37cc6b20fdda.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Utsunomiya Station Concourse": {
+        "description": "Utsunomiya Station's concourse runs through the JR East building between the west exit, facing downtown, and the newer east exit with its light rail platform, passing the shinkansen gates, the gates for the Utsunomiya, Nikko and Karasuyama lines, coin lockers and boxed-meal and souvenir stands selling frozen gyoza packs, strawberry sweets, kanpyo and Mashiko pottery cups. Mornings bring commuters, students and workers heading for the factory shift buses; at noon visitors follow their noses toward the gyoza shops; in the evening workers stream west toward downtown's jazz bars and cocktail lounges. Elderly travelers from the farm towns come in on the Karasuyama Line in the afternoons with their bags held close, looking about for whoever is meeting them, and the attendant at the ticket gate has started writing down the times they pass. Announcements are calm and unhurried, and the smell of frying dumplings drifts in from the west side. The last trains leave before midnight. A short walk past the shops leads to Gyoza Street, and the west doors open onto the Utsunomiya West Exit Plaza and its deck.",
+        "paths": [
+          "Gyoza Street",
+          "Utsunomiya West Exit Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2e7714f8-0a69-4bbe-b3cc-e17f66b4895e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Gyoza Street": {
+        "description": "Along the west side of the station building and the streets just beyond it, gyoza shops crowd side by side, each with a hand-lettered sign, a steamed-up window and a line out the door at noon: pan-fried dumplings with crisp, lacy bottoms, boiled gyoza in broth, deep-fried gyoza, sets with rice and soup, and frozen packs to take home. Every shop has its partisans, and in a city that takes the question seriously, regulars argue loudly over whose filling gets the balance of cabbage, garlic and pork right, and whether vinegar and pepper beat soy and chili oil. Office workers and travelers queue at lunch; shinkansen passengers grab a plate before the train back to Tokyo; evenings bring workers with beer and plates stacked high; most shops close around nine. Cooks work in full view, sizzling rows of dumplings in heavy iron pans and lifting the lids in clouds of steam, and the whole street smells of sesame oil and garlic. Some shops have menus with only three things on them and refuse to add a fourth, and first-timers who ask for something else get a patient lecture. The street leads back into the Utsunomiya Station Concourse.",
+        "paths": [
+          "Utsunomiya Station Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/595d66dd-562d-42a4-944b-760e21995192.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Utsunomiya West Exit Plaza": {
+        "description": "The west exit opens onto a wide pedestrian deck over the bus terminal, with stairs down to the bus stands, bicycle racks and taxi ranks below and the city spreading west toward downtown and Futaarayama Shrine on its hill. On the deck stands a statue of a woman wrapped in a gyoza skin, carved from pale Oya stone, which everyone photographs and nobody explains; it is the obvious place to meet a stranger. Buses below leave for the Oya stone quarries, the shrine and the outlying towns. Mornings bring commuters and students; at noon tourists photograph the statue; in the afternoon, after the shinkansen from Tokyo comes in around two, there is often someone waiting by the statue who checks a phone constantly and does not look like anyone's relative. The police box at the west exit has one officer on afternoon shifts, who spends half of it taking bicycle theft reports, which come in by the dozen. Sidekicks from the local agency patrol the deck by day; at night they split their time with the bar streets downtown, and on festival weekends bag snatchers work the crowds up here. The doors lead back into the Utsunomiya Station Concourse.",
+        "paths": [
+          "Utsunomiya Station Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c1ffa725-d253-446c-88ed-a8a57859a661.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

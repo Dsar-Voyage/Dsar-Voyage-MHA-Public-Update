@@ -1,0 +1,29 @@
+{
+  "Rebound Corridor": {
+    "name": "Rebound Corridor",
+    "description": "The user places a precise chain of balls across a damaged building, then rebounds through turns, vertical shafts and broken rooms to retrieve several stranded people one at a time. The user chooses each landing so a passenger never touches a sticky ball. The route lasts for the rest of the scene, but a missing or covered ball breaks that section, and the user's scalp needs rest afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Whirlpool Cocoon": {
+    "name": "Whirlpool Cocoon",
+    "description": "The user wraps a person, themselves included, in a thick, turning shell of water with air inside. Until the end of the user's next turn, blows, blades and bullets slow to a shove against it, and fire, heat, smoke and gas cannot reach the person inside; thrown under someone falling, the shell catches them unhurt. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

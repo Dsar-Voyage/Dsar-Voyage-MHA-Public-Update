@@ -1,0 +1,20 @@
+{
+  "Tongue Wrist Loop": {
+    "name": "Tongue Wrist Loop",
+    "description": "The user extends their tongue up to ten meters and loops it around one opponent's wrist or a loose hand-sized object. The user holds the wrist until the target breaks free or releases the object, which can be pulled back this turn. The tongue cannot overpower a much stronger target, and blades or hot surfaces can injure it directly. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

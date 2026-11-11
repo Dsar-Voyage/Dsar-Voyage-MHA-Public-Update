@@ -1,0 +1,20 @@
+{
+  "Closing Bell": {
+    "name": "Closing Bell",
+    "description": "The user plants both feet, turns the hips and puts the whole body into a single overhand blow. It deals bludgeoning damage that carries through armor plates, riot shields and hardened skin, and the opponent is knocked down and cannot act on their next turn; a giant or vehicle-sized opponent is only staggered. Afterward the user's guard is down until the user acts again. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Brawler",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Striking",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

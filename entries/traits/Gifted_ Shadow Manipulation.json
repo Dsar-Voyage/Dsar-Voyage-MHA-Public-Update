@@ -1,0 +1,32 @@
+{
+  "Gifted: Shadow Manipulation": {
+    "name": "Gifted: Shadow Manipulation",
+    "description": "🧬 Shadow Manipulation, as an extra Quirk put into your body.\n\n🌱 Bind a target's ankles in the shadow under them, or step into one shadow and out of another you can see.\n📈 Training adds dark glass pins and panes, a coat of dusk, shadow ribbons to lower people, splinters from every shadow in a room and, at the top, a whole city block.\n⚠️ It needs real shadow: strong, even light thins it and shadowless light stops it. Your shadow has no mind or voice and does only what you shape.\n🔗 Common drawback pairing: Activation Condition, as the Quirk works only where real shadow falls.\n🎬 Not Fumikage Tokoyami's Dark Shadow, which is a living creature: yours is plain shadow shaped as a material, with no mind of its own.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Shadow Manipulation family): Scale: real shadow shaped as a material. At first, within about ten meters: harmless flat black binding bands; stepping into a shadow at least their size and out of a seen one within about fifteen meters; shapes last about a minute. Dark glass, coats and bigger shapes: learned techniques. Limits: no shadow, no Quirk; strong even light (noon sun, floodlights, flashlights) thins it: shapes fade, binds slip, dark glass goes brittle; firelight makes them unreliable. It has no mind, voice or will and moves only when shaped; darkness means more, never wilder. The user must see it; steps carry only what they wear and hold. Quirk Strain: light: bind, quick step; moderate: glass pin or pane, coat of dusk, lowering people; heavy: glass splinters across a room; severe: signature relay, every shadow on a block. Type: Emitter. Law: unlicensed binding is unlawful confinement; shadow-entering homes or vaults is still trespass or burglary.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Infiltration",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

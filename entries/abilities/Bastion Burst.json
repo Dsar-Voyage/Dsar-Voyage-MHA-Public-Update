@@ -1,0 +1,25 @@
+{
+  "Bastion Burst": {
+    "name": "Bastion Burst",
+    "description": "The user's signature move: a dome bursts out from them to the width of a city block in a heartbeat. Every enemy it meets is hurled out, taking massive force damage and landing flat, while everyone the user chooses stays sheltered inside. Nothing passes through it until the end of the user's next turn, and the user can do nothing else while it stands; afterward they cannot raise a barrier until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

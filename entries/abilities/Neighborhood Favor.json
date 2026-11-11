@@ -1,0 +1,20 @@
+{
+  "Neighborhood Favor": {
+    "name": "Neighborhood Favor",
+    "description": "The user asks the people who know them from work and the street, such as regulars, shop owners, a station attendant or the landlady, for help. Someone comes through with one thing the user needs right now: a place to hide, a phone, a ride, first aid supplies or word of what is happening down the road. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Civilian Life",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Hospitality",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "This Way Out": {
+    "name": "This Way Out",
+    "description": "The user reads where the danger is moving (the spread of smoke, the direction a villain faces, the surge of a crowd) and calls out a way to safety that avoids it in a clear, steady voice. Everyone who hears the user stops panicking and takes that route, and the danger the user read does not reach the route while they are on it; a new danger, such as a second villain, can. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Non-Combatant",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Evacuation",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

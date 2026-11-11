@@ -1,0 +1,20 @@
+{
+  "School bag": {
+    "name": "School bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Academics",
+        "value": 1
+      }
+    ],
+    "description": "A dark green U.A. shoulder bag with the school crest: textbooks, a pencil case, a bento, the student ID on a lanyard and whatever else a school day needs. [ Tool | Issued at enrollment ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/428bb40a-739d-4f3e-a4cd-c0c4a1d19a51.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Last-Second Hide": {
+    "name": "Last-Second Hide",
+    "description": "When discovery is a moment away, the user drops into the nearest cover or shadow, slows their breathing and holds still. A searcher looking straight at the spot passes over the user unless they use a sensing Quirk, touch the user or bring a light right up to them. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

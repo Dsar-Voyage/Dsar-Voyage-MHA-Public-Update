@@ -1,0 +1,20 @@
+{
+  "Safe Lamp Charge": {
+    "name": "Safe Lamp Charge",
+    "description": "The user feeds a controlled current into a small compatible device, such as a rescue lamp or radio, and keeps it working until the end of the user's next turn. This gives a team light or a brief call when its battery has failed. The device needs a usable contact and cannot accept more than its circuitry allows; excess current burns it out. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

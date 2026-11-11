@@ -1,0 +1,20 @@
+{
+  "Studied: Search and Rescue": {
+    "name": "Studied: Search and Rescue",
+    "description": "🦺 You trained with a volunteer fire corps, a disaster drill team or a mountain rescue club: finding people, shoring rubble, carrying the injured.\n\n🌱 Pattern searches, calling and listening for survivors, safe lifting, rope systems and carrying or dragging an injured person out.\n⚠️ Large collapses, fire, floodwater and unstable structures still need professionals and Quirks, and a rushed rescue can kill.\n⚖️ You have no authority at a disaster: heroes, firefighters and police command it, and crossing a cordon without permission is an offense.\n🏫 It shows in a habit of noting exits, load-bearing walls and who is missing.\n\n📈 Grants: Search and Rescue +15",
+    "traitNarrativeEffects": "The character has trained in rescue work: searching a collapse in a pattern, calling and listening for survivors, shoring and lifting debris safely, rope systems and carrying or dragging an injured person out. Prior study, not mastery: large collapses, fire, floodwater and unstable structures still need professionals and Quirks, and a rushed rescue can kill. Not a license: they have no authority at a disaster; heroes, firefighters and police command it, and crossing a cordon without permission is an offense. It shows in a habit of noting exits, load-bearing walls and who is missing.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Search and Rescue",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

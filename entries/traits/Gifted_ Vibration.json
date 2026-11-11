@@ -1,0 +1,32 @@
+{
+  "Gifted: Vibration": {
+    "name": "Gifted: Vibration",
+    "description": "🧬 Vibration, as an extra Quirk put into your body.\n\n🌱 Your palm strike rattles a person off their feet, and a palm on the floor reveals footsteps and hollow spaces a room or two away.\n📈 Training adds numbing a grip, shaking concrete to rubble, climbing sheer walls, packing rubble over trapped people, quakes through armor and holding a building still.\n⚠️ It works only through touch: nothing crosses open air, and mud, water or thick padding swallows it.\n🔗 Common drawback pairing: Recoil, as every quake you release also shakes your own wrists and elbows.\n🎬 Similar canon Quirks: Yo Shindo (Vibrate).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Vibration family): Scale: the user vibrates what they touch, faint hum to violent shake, and feels vibration via hands and feet. New adult user: a palm strike knocks an adult down and cracks paving stone or cinderblock; a palm on floor or wall feels footsteps, drops and hollows through about two rooms or one floor. Bigger feats need techniques. Limits: contact only, via solid joined material, never air; soft soil, mud, water, loose sand and padding absorb it. No sensing the perfectly still, fliers or swimmers; engines and machinery drown it. Shaking a load-bearing wall apart can drop a floor. Quirk Strain: light: strike, reading; moderate: numbing grip, shattered wall, climb; heavy: packing rubble, quake through armor; severe: signature move, holding a building still. Type: Emitter. Law: unlicensed wall or pavement shattering: property damage; a quake cracking a structure near bystanders: reckless endangerment.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Demolition",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

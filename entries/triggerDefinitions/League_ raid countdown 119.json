@@ -1,0 +1,26 @@
+{
+  "League: raid countdown 119": {
+    "name": "League: raid countdown 119",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 119
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_vanguard_briefing",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, a background fact (not a line to speak or correct): the Vanguard Action Squad's raid on the forest camp is on the evening of Saturday, August 3. Today is Saturday, July 27: the raid is 7 days from today. The PC is a full League member with a real part in the preparation (scouting, gear, drills, jobs), whatever their Path."
+      }
+    ]
+  }
+}

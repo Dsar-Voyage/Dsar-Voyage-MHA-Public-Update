@@ -1,0 +1,32 @@
+{
+  "Gifted: Precognition": {
+    "name": "Gifted: Precognition",
+    "description": "🧬 Precognition, as an extra Quirk put into your body.\n\n🌱 At the start you see about three seconds of whatever your own eyes would see, so you dodge, counter and shout warnings a beat early.\n📈 Training adds grabbing a runner where they are about to step, crossing a collapsing street untouched, knocking a weapon loose before it fires, a ten-second horizon and, at your peak, a minute ahead.\n⚠️ A blow from behind or through a wall never shows, a big brawl blurs into noise, and acting on a glimpse changes it.\n🔗 Common drawback pairing: Sensory Overload, as a crowded fight floods you with seconds that have not happened yet.\n🎬 Similar canon Quirks: none close; Sir Nighteye's Foresight reads hours of one person's life instead.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Precognition family): Scale: awake and focused, a new adult user glimpses about three seconds ahead of all in their line of sight (punches, a runner's turn, a falling sign, a swerving car) as a motion overlay, so they move, counter and warn early. Longer windows, whole streets and others' safety need techniques. Limits: only what their own eyes would see; nothing behind, through walls or out of sight shows. It shows events' course if unchanged; acting on it branches events; they see anew. Motion and events only, never thoughts, plans or words; crowded fast brawls blur to noise. Asleep, blindfolded or in total darkness: nothing. Quirk Strain: light: dodge, counter, warning; moderate: pinned grab, run through danger, disarm; heavy: ten-second horizon over a block; severe: signature move, a minute ahead. Type: Emitter. Law: legal in self-defense and licensed duty; cheating at gambling or sports with it is fraud.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Dodging",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

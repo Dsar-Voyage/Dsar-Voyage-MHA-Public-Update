@@ -1,0 +1,20 @@
+{
+  "Express Carry": {
+    "name": "Express Carry",
+    "description": "The user darts in and carries a person out of danger before it lands: out of the path of a car, a falling object, an attack or a spreading fire. The danger misses them both, and the user sets the person down anywhere within a street's distance, jolted but unhurt. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Quick on the Draw": {
+    "name": "Quick on the Draw",
+    "description": "⏱️ You react first: to a threat, a question or an opening, sometimes before you know what you are reacting to.\n\n🌱 In a sudden fight or emergency you act at the first opening, and you are first to move when a blow comes.\n⚠️ You jump at false alarms, commit before seeing a feint and sometimes act on the wrong target.\n⚠️ Opponents who notice can bait an early move, and waiting for a signal takes effort.\n\n📈 Grants: Speed +1, Dodging +5",
+    "traitNarrativeEffects": "The character reacts fast: first to move when a blow comes, first to answer, first to catch a falling object or reach for a phone. In a sudden fight or emergency the narrator lets them act at the first opening. Weakness: speed comes before full information. They jump at false alarms, answer before the question ends, commit to a move before seeing the feint and sometimes act on the wrong target. Opponents who notice can bait an early move. Waiting for a signal takes effort, and others may find them impatient or rude. The narrator may show the itch to move first; the player decides whether the character commits or holds.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Dodging",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

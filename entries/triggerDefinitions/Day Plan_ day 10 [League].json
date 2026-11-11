@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 10 [League]": {
+    "name": "Day Plan: day 10 [League]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 10
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_usj_attack",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the day of the League's attack on U.A.: this morning Tomura Shigaraki and Kurogiri brief the hired crew at the League Hideout Bar with the U.A. timetable stolen in the gate break-in (All Might teaches Class 1-A at the USJ this afternoon); after lunch Kurogiri's gate takes them to the USJ. No other job today."
+      }
+    ]
+  }
+}

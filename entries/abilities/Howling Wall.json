@@ -1,0 +1,20 @@
+{
+  "Howling Wall": {
+    "name": "Howling Wall",
+    "description": "The user raises a roaring wall of wind between attackers and the people behind it. Until the end of the user's next turn, thrown objects, smoke, gas and loose debris cannot cross it, bullets fired through it veer wide, and anyone who tries to push through is thrown back to where they started. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Quake Release": {
+    "name": "Quake Release",
+    "description": "The user slams everything they have stored into the floor or the street. A shock runs out a room's width in every direction: every enemy standing in it takes bludgeoning damage and is knocked flat, while allies who were warned keep their feet. Driven into a single wall or a jammed door instead, it opens a passage a person can walk through. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

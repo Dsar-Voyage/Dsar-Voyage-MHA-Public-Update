@@ -1,0 +1,20 @@
+{
+  "Metal Grip Ascent": {
+    "name": "Metal Grip Ascent",
+    "description": "The user transforms and pulls onto a ledge within raised-arm reach, using steel hands and forearms to cross a jagged sill this turn. The form protects against sharp edges but adds no reach and creates no footholds. The ledge must support the user, and an unstable edge can break away under the pull. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

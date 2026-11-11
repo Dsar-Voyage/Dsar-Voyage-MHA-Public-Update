@@ -1,0 +1,20 @@
+{
+  "Flicker Sweep": {
+    "name": "Flicker Sweep",
+    "description": "The user lets the look sweep slowly across a crowd, a room or a street. Every Emitter or Transformation effect in use there falters for an instant as the gaze passes its user: a disguise slips, a hidden sensor goes blind, a victim under a mind-control Quirk comes to for a breath. The user learns who in sight is using a Quirk right now, even someone trying to hide it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

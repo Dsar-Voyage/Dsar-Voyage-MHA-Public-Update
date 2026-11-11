@@ -1,0 +1,31 @@
+{
+  "Shadow Striker": {
+    "name": "Shadow Striker",
+    "description": "🌑 You fight from concealment: move unseen, strike from behind with a short weapon or bare hands, and vanish before anyone can answer.\n\n🎯 Suits underground heroes, vigilantes and villains alike. Works with any Quirk or none.\n⚠️ You need shadows, cover, smoke or a crowd. Alert opponents, open ground, sensing Quirks and cameras make it far harder, and in the open you are average.\n📈 You learn more techniques as your Stealth and Melee Weapons improve.\n⚖️ Striking someone who never saw it coming is assault unless it is part of a licensed hero's arrest.\n🤝 Underground heroes stay out of the media, and the public distrusts heroes known for ambushes.\n\n📈 Grants: Speed +1, Stealth +15, Melee Weapons +10\n⚡ Starting technique: Blindside Opener",
+    "traitNarrativeEffects": "Avoids fair fights: strikes unseen from side or behind with a short weapon or bare hands, breaks line of sight, strikes again elsewhere. At start: slips past an ordinary guard and silently drops an unaware, untrained target; alert foes, bright open ground, sensing Quirks and cameras make it far harder; spotted in the open, an average fighter at best. Covers moving unseen in the moment; locks and alarms are Infiltration, watching a target over time is Surveillance. Pure training, same if Quirkless; techniques cost stamina, never Quirk Strain. Blunt weapons and bare hands: bludgeoning; blades: slashing or piercing. Legal and social treatment: an unseen strike is assault or worse unless in a licensed hero's arrest. Underground heroes use it under license, away from the media; vigilantes and villains using it are hunted harder: witnesses cannot describe them. The public distrusts ambush heroes. How it looks: dark, quiet clothes, soft soles, near exits, out of the light.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Stealth",
+        "modifier": 15
+      },
+      {
+        "skill": "Melee Weapons",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Blindside Opener"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

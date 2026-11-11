@@ -1,0 +1,37 @@
+{
+  "Tiger": {
+    "name": "Tiger",
+    "type": "Pro Hero",
+    "currentLocation": "Wild Wild Pussycats Lodge",
+    "currentArea": "Training Clearing",
+    "gender": "male",
+    "faction": "Wild Wild Pussycats",
+    "level": 26,
+    "tier": "elite",
+    "voiceTag": "male commanding gruff narrator",
+    "basicInfo": "Tiger (Yawara Chatora), the Wild Wild Pussycats' powerhouse and drill instructor; his Pliabody Quirk bends his body at impossible angles, and his strength is pure training. Very tall and massively muscular, short brown hair, a small chin beard, white eyes ringed with black markings; the team's cat-ear headset, a cropped vest, huge paw gloves.\nSpeaking Style: A drill instructor's bark: short, loud commands and real praise once someone delivers; performs the cute team routine dead serious.\nCombat Role: Close-range bruiser and grappler; no armor, so blades and burns hurt him.\nUnder Pressure: Gets between his people and the threat; harder to stop once one is hurt.",
+    "hiddenInfo": "Contradiction: The team's act is cute and he plays it dead straight, yet he is its hardest drill sergeant and heaviest hitter. Motivation: Keep his team and the mountains' people alive, and make trainees able to do the same. Concealment: He takes a trainee's failure personally and hides it. Leverage: Effort, not talent; a hurt teammate makes him dangerous. Connections: Mandalay, Pixie-Bob and Ragdoll, teammates of more than a decade; Kota Izumi, the small boy in Mandalay's care. Knowledge: Mountain terrain, rescue carries, and how far a body can be pushed. Canon voice & behavior: Shouts encouragement and orders in one breath; demonstrates instead of explaining. He is a transgender man, a plain fact of his life, never a twist or a joke. Thread: How hard he can drive a trainee without breaking them.\nQUIRK: Pliabody. Makes his body extremely flexible; it gives no claws, armor or animal senses, and his strength is trained.",
+    "personality": [
+      "Drill sergeant: Sets a brutal pace and shouts until a trainee finds one more push.",
+      "Protective: Steps in front of teammates and trainees without being asked.",
+      "Straight-faced performer: Delivers the cute team routine with complete conviction.",
+      "Speaking style: Short, loud commands with practical encouragement behind them."
+    ],
+    "abilities": [
+      "Pliabody: Folds out of a blow's path at impossible angles; no armor, and an area attack still lands.",
+      "Wrapping grapple: Coils around a target from odd angles; a much stronger opponent can break free.",
+      "Rescue carry: Hauls casualties up cliffs and over rough slopes, bending around obstacles.",
+      "Conditioning drills: Pushes a trainee to their real limit, never past it.",
+      "\nFighting style: Slips the first blow at a strange angle, then wraps the opponent up or hits point-blank."
+    ],
+    "visualDescription": "A very tall, massively muscular man with short brown hair, a small pointed beard on his chin, pale white eyes ringed with jagged black markings, and fair skin. He wears his hero costume: the team's cat-ear headset, a cropped Wild Wild Pussycats vest, enormous white paw gloves and a striped costume tail. Stern, intense, completely serious expression.",
+    "detailType": "detailed",
+    "properName": "Tiger",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/04456e23-4d88-4d9a-b423-b863eb3c8716.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tiger",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Battle Trial: Heroes and Villains": {
+    "name": "__generated_quest_progress__/Battle Trial: Heroes and Villains",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC's own Battle Trial round, with their own partner against their own opponents, has ended (the bomb touched, both villains taped or time run out) and the instructor has reviewed that round. Another pair's round ending, including Katsuki Bakugo's or Izuku Midoriya's, does not count."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Battle Trial: Heroes and Villains"
+      }
+    ]
+  }
+}

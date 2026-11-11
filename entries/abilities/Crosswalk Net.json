@@ -1,0 +1,24 @@
+{
+  "Crosswalk Net": {
+    "name": "Crosswalk Net",
+    "description": "The user throws a pattern of balls across a street crossing, sticking pursuing opponents to pavement, vehicles or one another as they move through it. Up to several human-sized targets remain caught until they tear free or the hold fades. The pattern has open gaps for an evacuation lane, and it cannot distinguish an ally from an enemy who enters it. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

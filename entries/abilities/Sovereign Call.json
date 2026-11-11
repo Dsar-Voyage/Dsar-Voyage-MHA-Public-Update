@@ -1,0 +1,25 @@
+{
+  "Sovereign Call": {
+    "name": "Sovereign Call",
+    "description": "The user's signature move: they read a whole crowd and call out the one question nearly everyone in earshot answers without thinking. Everyone who answers, ally, enemy or bystander, falls under the user's control and obeys a single shared command, such as kneel, drop your weapons or walk to the exits, until hurt, shaken or the scene ends; afterward the user's voice gives out until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

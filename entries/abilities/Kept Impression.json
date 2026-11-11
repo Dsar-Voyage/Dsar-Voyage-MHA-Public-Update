@@ -1,0 +1,29 @@
+{
+  "Kept Impression": {
+    "name": "Kept Impression",
+    "description": "The user reaches back through every Quirk they have ever copied and calls one up again without touching its owner, even an owner in another city or long since jailed. The recalled copy works at a beginner's level for a few minutes, and the user knows at once what has changed in it since they last held it. Mutant features remain out of reach. While a recalled copy runs, the user cannot take a new copy by touch, and the Drawback strikes the moment it ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

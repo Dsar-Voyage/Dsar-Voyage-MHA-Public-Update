@@ -1,0 +1,30 @@
+{
+  "Iga": {
+    "name": "Iga",
+    "basicInfo": "The hill country between Lake Biwa, Kyoto and Ise Bay: the southern shore of Lake Biwa around Moriyama and Yasu, the Koka and Shigaraki uplands, the Iga basin, the Suzuka range, and the Tsu plain running down to Ise Bay. A corner of the lake reaches into the northwest, and the southeast edge touches the Ise Bay shore at Tsu. The lakeside end is commuter country of new housing, factories and rice fields around Moriyama, Ritto, Yasu and Ryuo, with Mount Mikami's neat cone rising over the plain. To the southeast the land climbs into wooded hills: Koka, old home of the Koga ninja and of traveling medicine peddlers; Shigaraki, a pottery town where ceramic tanuki stand outside every kiln and shop; and, hidden in the forest nearby, a mountaintop art museum. Over the pass lies the Iga basin, where Iga Ueno's castle on its high stone wall looks over a ninja museum and the birthplace of the poet Basho, and where braided silk cord, Iga pottery and Iga beef are made. East, the Suzuka range runs north-south along the Shiga-Mie line, with Gozaisho's ropeway and trails, and at its foot the old Tokaido post towns of Seki and Kameyama keep rows of latticed wooden houses. The plain ends at the prefectural capital, Tsu, a modest city of offices, a great temple of the Takada Shin Buddhist sect and some of Japan's best-loved eel restaurants. Summers are hot, winters cold and dry inland and snowy on the high Suzuka. The JR Kusatsu and Kansai lines, the Iga Railway's ninja-painted trains, the Shigaraki Kohgen line and Kintetsu's Nagoya line serve the cell, and the Meishin, Shin-Meishin and Ise expressways cross it. Tsu is about two hours from Musutafu by way of Nagoya, Iga Ueno about three, and Shin-Osaka is an hour or so from most of the cell. Tsu and the lakeside towns have hero agencies and police; licensed heroes cover the hills, and in Iga a few ninja-themed hero costumes draw tourists.",
+    "hiddenInfo": "Prosperous and calm, with factories and commuter towns in the north and quiet farm villages in the hills. Trouble is ordinary: theft from logistics yards along the expressways, speeding and wrecks on the Shin-Meishin, burglaries of empty farmhouses, and tourists in Iga who think a ninja costume entitles them to climb walls. Hero help from Kyoto, Nagoya or Osaka is within an hour.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -5,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a6d4f235-a5d8-4ae8-805e-f548c7ef4df3.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

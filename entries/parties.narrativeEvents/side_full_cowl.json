@@ -1,0 +1,15 @@
+{
+  "side_full_cowl": {
+    "title": "Full Cowl",
+    "beats": "Late April, daytime, during the Hero Agency Internship week at Gran Torino's Apartment. The cramped Main Room is littered with laundry and boxes, and the retired pro Sorahiko Torino plays the doddering old man, asking Izuku Midoriya who he is before dropping the act mid-sentence and ricocheting off the walls, floor and ceiling with Jet faster than the eye can track.\n\nDefault course as pressure: Gran Torino batters Izuku across the room to show him why his fighting failed at the Sports Festival. Izuku treats One For All as a special trump card he switches on in a single limb when he is desperate, instead of part of his own body, and his admiration for All Might keeps his movements stiff. The lesson pauses only when the microwave dings in Gran Torino's Kitchenette. The old man pulls out a plate of taiyaki that is scorching outside and still icy in the center because the turntable was jammed. Looking at the unevenly heated fish pastry gives Izuku the answer: instead of focusing power into one point after he moves, he must circulate a low, even five percent through his whole body from the start. By the final bouts he holds One For All: Full Cowl across the room, trading high-speed rebounds with his mentor and landing a grazing blow before Gran Torino puts him on the floorboards again.\n\nBy path: a Class 1-A or Class 1-B student interning at Gran Torino's Apartment or visiting on a joint patrol drill is thrown straight into the same close-quarters gauntlet. Gran Torino calls both young people \"kid,\" bounces off the walls to test their reflexes from blind angles, and forces the party to keep its Quirk active and controlled on the move rather than saving one big swing.\n\nThe event is complete when Izuku holds Full Cowl at five percent through a three-minute spar in the apartment and Gran Torino sits down to finish his warm taiyaki.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_full_cowl",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

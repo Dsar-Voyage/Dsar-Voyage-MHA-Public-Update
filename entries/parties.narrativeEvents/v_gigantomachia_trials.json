@@ -1,0 +1,15 @@
+{
+  "v_gigantomachia_trials": {
+    "title": "The Giant",
+    "beats": "Throughout November, day and night, wherever the League of Villains is camped in the wilderness before the Battle of Deika. After All For One's bodyguard Gigantomachia rejected Tomura Shigaraki as too weak to succeed his master, Dr. Kyudai Garaki gave the League one condition for his backing and resources: bend the giant to Shigaraki's will in combat.\n\nDefault course as pressure: for weeks on end, the League fights Gigantomachia across rugged ravines and mountain slopes. Every forty-eight hours and forty-four minutes, the giant stops only for three hours of sleep before waking to hunt Shigaraki all over again. Dabi's blue flames scorch the rock without slowing him, Himiko Toga and Spinner dart from cover to buy seconds, Twice makes doubles to pull the bruised out of reach, and Mr. Compress pockets boulders and exhausted comrades alike, yet Gigantomachia tears through hillsides roaring for his master. Exhausted and sleepless, Shigaraki refuses to retreat; his speed sharpens and his Decay begins spreading beyond the five fingers he touches directly. Just as Shigaraki swears he will tame the giant in the next waking cycle, word comes through the underworld: the Meta Liberation Army's leader, Re-Destro, holds the broker Giran captive in Deika City and challenges the League to come fight his army or watch their broker die.\n\nBy path: a League of Villains Recruit endures the grueling mountain attrition alongside Shigaraki, Dabi, Toga, Twice, Spinner, and Compress—taking shifts to bait Gigantomachia's charges, covering Shigaraki during the three-hour rest windows, and weighing in when Re-Destro's ultimatum over Giran arrives.\n\nThe event is complete when the League survives another waking bout with Gigantomachia and hears Re-Destro's challenge to march on Deika City.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_gigantomachia_trials",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

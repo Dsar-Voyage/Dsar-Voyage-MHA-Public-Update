@@ -1,0 +1,29 @@
+{
+  "Kindred Shatter": {
+    "name": "Kindred Shatter",
+    "description": "The user holds one object, feels the exact pitch at which its material breaks, and sends that pitch through the ground to every object of the same make within a city block at once. Every rifle of that model, every pane of that glass or every blade of that steel shatters together, while other materials and every person stay untouched. The user needs the sample in hand, flying shards can cut anyone beside a shattering window, and afterward both hands are numb until the user rests. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

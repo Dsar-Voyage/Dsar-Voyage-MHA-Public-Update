@@ -1,0 +1,20 @@
+{
+  "Filter Lung": {
+    "name": "Filter Lung",
+    "description": "The user takes one choking breath of water, smoke or toxic gas at full effect, and gill slits open on their neck or filtering membranes line their lungs by the end of their next turn. Until ten minutes after reaching clean air or a new threat replaces it, they breathe that hazard unharmed and share clean exhaled air with one person held close, though they can speak only in a rasp. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Arcing Catch": {
+    "name": "Arcing Catch",
+    "description": "The user raises both hands and catches falling steel beams, rebar or thrown blades within a room's width in a magnetic field laced with crackling current. The arcs tack loose steel scraps together in midair so nothing showers onto the people below, and the user lowers the mass to a safe spot. The reach is half a pure magnet user's, and concrete, glass, wood and aluminum fall straight through untouched. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Hitachi": {
+    "name": "Hitachi",
+    "basicInfo": "The northern Ibaraki coast and the Kuji river hill country behind it, a cell where the southern Abukuma and Yamizo hills come down toward a rocky Pacific shore, with the eastern third open sea. On the coast, from north to south, lie Kitaibaraki with its fishing harbors of Otsu and Hirakata and the rocky coves of Izura, where a small red hexagonal hall perches on the rocks; Takahagi; and the long industrial city of Hitachi, which grew from a copper mine in the hills into a town of electrical machinery works, with a glass-walled station concourse that hangs over the sea. Tokai village lies on the southern edge. Inland, the Kuji river valley holds the old town of Hitachi-Ota with its merchant streets and the Ryujin gorge with its long suspension bridge, while Hitachi-Omiya and the town of Daigo sit near the western edge, where Fukuroda falls drops in four tiers and freezes white in a hard winter. The hills grow cedar, chestnuts and tea, the valleys rice and buckwheat. The climate is mild, with cool sea fog in early summer, little snow, and dry, bright winters. People work in Hitachi's factories, fish for monkfish, flounder and whitebait, farm and raise cattle for Hitachi beef, and run inns and seafood restaurants. The Joban line runs along the coast and the Suigun line up the Kuji valley toward Daigo and Fukushima; the Joban Expressway and Route 6 run just inland. Hitachi is about an hour and a half from Tokyo by limited express, so Musutafu is about three hours away. Visitors eat monkfish hotpot at Otsu in winter, walk Izura's cliffs, cross the Ryujin bridge in autumn color, stand under Fukuroda falls, and eat Hitachi-Ota soba and fall chestnut sweets. Hitachi has a mid-sized hero agency near the station that patrols the factory belt with the police, a small office in Kitaibaraki covers the northern harbors, and on the factory floors workers whose Quirks let them handle hot or heavy parts are prized hires.",
+    "hiddenInfo": "Hitachi is a company town without the swagger it once had: younger workers leave, the downtown arcades are quiet, and the coast towns depend on a shrinking fleet. Industrial accidents and fires are a standing worry along the factory belt. Real hero help is minutes away in Hitachi city and half an hour from the inland valleys. Small villainy: metal and tool theft from plants, night poaching of shellfish, drug sales among bored shift workers, and unlicensed Quirk use in late-night street fights near the station.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 3,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/432d4c9d-bd1b-494f-8800-fcad98c06b42.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

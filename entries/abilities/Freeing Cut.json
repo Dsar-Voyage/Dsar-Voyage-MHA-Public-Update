@@ -1,0 +1,20 @@
+{
+  "Freeing Cut": {
+    "name": "Freeing Cut",
+    "description": "The user grows a short hooked edge at the wrist or fingertip and slips it between a person and whatever binds them. Rope, tape, zip ties, seatbelts, netting and cloth part in a single draw without nicking the skin beneath, and the user can free their own hands the same way when they themselves are tied up. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

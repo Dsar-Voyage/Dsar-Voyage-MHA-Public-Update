@@ -1,0 +1,21 @@
+{
+  "Year So Far": {
+    "name": "Year So Far",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const EVY=[];{const VS=[8417, 8472, 1501];for(let i=0;i<VS.length;i++){if(storage['evyV'+(i+1)]!==VS[i]){skip=true;return;}for(const x of storage['EVY'+(i+1)])EVY.push(x.slice());}}const CV=[\"case_conference\", \"eri_first_encounter\", \"garaki_procedure\", \"kurogiri_is_oboro\", \"league_meets_overhaul\"];const L=EVY.filter(x=>x[2]||storage['live_'+x[0]]).map(x=>[x[0],x[2],x[4]]);const d=check({type:'read-number',key:'currentDay'})||1;const st=d+'|'+(check({type:'party-location'})||'');if(storage.yearStamp===st){skip=true;return;}storage.yearStamp=st;const got=[];for(const [id,t,ti] of L){if(check({type:'read-boolean',key:'done_'+id}))got.push([id,storage['live_'+id]?ti+' happened in play; what the story showed is what happened.':t]);}const PIN=['kamino_incident','symbol_of_peace_retires'];const last=got.slice(-6);const keep=got.filter(x=>PIN.indexOf(x[0])>=0&&last.indexOf(x)<0).concat(last).map(x=>x[1]);if(!got.length){skip=true;return;}let s='THE YEAR SO FAR (narrator only; the world remembers this): '+keep.join(' ');if(s.length>1000)s=s.slice(0,997)+'...';effects.push({type:'story',instruction:s});})();"
+  }
+}

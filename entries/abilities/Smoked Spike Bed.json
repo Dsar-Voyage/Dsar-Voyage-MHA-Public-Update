@@ -1,0 +1,24 @@
+{
+  "Smoked Spike Bed": {
+    "name": "Smoked Spike Bed",
+    "description": "The user hardens the shadows within five meters into a bed of smoked-glass spikes that bursts upward. Every enemy standing in shadow there takes heavy piercing damage and is caught among the brittle spikes, unable to move their legs until they break free with a hard effort; held back, the spikes rise blunt and only cage their ankles without drawing blood. Enemies in bright light or past five meters are out of reach. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

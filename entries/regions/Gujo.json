@@ -1,0 +1,30 @@
+{
+  "Gujo": {
+    "name": "Gujo",
+    "basicInfo": "Gujo is the mountain heart of Gifu's Okumino country, a cell of steep cedar ridges and clear rivers running from the upper Nagara valley in the east, across the Neo and Ibi headwaters, to the Kuzuryu gorge on the Fukui side in the west. No coast reaches it; the Ryohaku mountains wall the north and the Nobi plain opens just beyond the southern edge. The Nagara River rises near Hirugano and runs south through Shiratori, Yamato and the old castle town of Gujo Hachiman, its water so clean that people rinse vegetables in stone tanks along the lanes. Winters bring deep snow to the northern highlands, where the Takasu, Washigatake and Hirugano ski slopes fill with buses from Nagoya; summers are green and cool at night, with mist in the valleys and ayu fishers standing waist-deep in the rapids. Gujo Hachiman's white castle sits on a hill above a grid of wooden houses, canals and narrow bridges that local swimmers leap from in August. The town is famous for Gujo Odori, a summer dance held on some thirty nights from July into September, with four all-night dances at Obon when the streets stay full until dawn, and for workshops that make the lifelike plastic food seen in restaurant windows across Japan. West over the passes, the Neo valley keeps a vast old cherry tree and the raw scarp of the fault that tore open in the great Nobi earthquake; farther west, Kuzuryu Lake fills a dam in the Fukui mountains. People farm small terraced fields, work timber and tourism, run inns and soba shops, or commute down the valley to Mino and Seki. The Tokai-Hokuriku Expressway threads the Nagara valley north toward Toyama, the little Nagara River Railway runs up from Mino-Ota to Hokuno, and the Kuzuryu Line climbs from Fukui. Musutafu is about three hours away by shinkansen to Nagoya and an expressway bus up the valley; Osaka is about two and a half hours by road. Visitors canoe, fish, ski and dance in yukata through summer nights. Each town keeps a police box or two, and a small hero office in Gujo Hachiman covers a huge district of valleys, sending sidekicks to steer the Obon dance crowds; snowplow crews with strength or heat Quirks clear the passes under municipal permits.",
+    "hiddenInfo": "Gujo's quiet trouble is emptiness: the valleys lose young families to Nagoya, schools merge, and hamlets on the Ibi and Neo headwaters keep only a handful of households, so a fall on ice or a missing hiker can go unnoticed for a day. Summer dance crowds bring pickpockets, drunken scuffles and the odd unlicensed Quirk show-off on the canal bridges; winter brings stranded drivers on the Hirugano grades and thefts from ski-lot cars. Bears raid orchards in autumn. Real hero help is the small Gujo Hachiman office and the prefectural police; anything serious waits for teams driving up from Gifu or Nagoya, about an hour and a half away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -4,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ad284542-e1ce-4e0f-8c45-5c5b833fed3f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

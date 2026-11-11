@@ -1,0 +1,20 @@
+{
+  "Wallbeat Search": {
+    "name": "Wallbeat Search",
+    "description": "The user plants both jacks in a connected wall or floor and separates several sets of footsteps and breathing sounds behind it. They identify where up to three moving people stand until the end of the user's next turn, helping rescuers choose a door or route. A gap between surfaces breaks the reading, and a loud impact briefly deafens it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

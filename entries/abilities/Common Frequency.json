@@ -1,0 +1,24 @@
+{
+  "Common Frequency": {
+    "name": "Common Frequency",
+    "description": "The user opens a line to every mind across a whole district for the rest of the scene. Every person in it hears the user's directions in their own head at once, anyone trapped or hurt can call back and be found, and every hero and responder in the area shares a single live picture of the disaster, so evacuation and rescue run as a single operation. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

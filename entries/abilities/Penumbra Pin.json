@@ -1,0 +1,20 @@
+{
+  "Penumbra Pin": {
+    "name": "Penumbra Pin",
+    "description": "The shadow wraps around a target within its reach and pins them to the ground or a wall. They cannot move their arms or legs until they break free with a hard effort, a bright light falls on the shadow or the user lets go, and the user stays free to act while the shadow holds them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

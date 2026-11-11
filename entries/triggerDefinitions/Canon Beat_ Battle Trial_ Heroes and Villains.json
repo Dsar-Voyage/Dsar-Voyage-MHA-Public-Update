@@ -1,0 +1,31 @@
+{
+  "Canon Beat: Battle Trial: Heroes and Villains": {
+    "name": "Canon Beat: Battle Trial: Heroes and Villains",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Battle Trial: Heroes and Villains",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 3
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, canon beats of All Might's first battle trial while it runs (pressure the player can change, never forced): the class arrives in hero costumes for the first time. All Might draws teams by lot: two heroes must capture two villains or touch the paper bomb they guard inside the Training Building, with a time limit. First match: Izuku Midoriya and Ochaco Uraraka as heroes against Katsuki Bakugo and Tenya Iida as villains. Bakugo ignores the plan to hunt Izuku and blasts a floor apart; Iida plays the villain in earnest; Izuku punches straight up through the floors, breaking his arm, so Uraraka can reach the bomb, and the heroes win. Izuku is carried to Recovery Girl. In review Momo explains why Iida did best. In a later match Shoto Todoroki freezes the whole building in one move. Only the four drawn students act in a round; the rest watch from the monitor room and never help either side. A student wrapped in capture tape is out of the round and stops acting."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Sketched Hound": {
+    "name": "Sketched Hound",
+    "description": "The user sketches a hound in a few strokes and it peels off the surface and bounds at a target within a street's width. It bites for piercing damage and drags them to the ground; held back, it only bowls them over and stands on their chest until the end of their next turn. A solid blow or a splash of water breaks it apart. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

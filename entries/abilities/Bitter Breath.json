@@ -1,0 +1,20 @@
+{
+  "Bitter Breath": {
+    "name": "Bitter Breath",
+    "description": "The user spits a jet of stinging irritant gas into the face of a target within a few strides. It deals toxic damage, and the target's eyes stream shut while they cough: they cannot see well enough to aim or pick anyone out until the end of their next turn. Held back, it deals no damage and leaves only the tears and coughing. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

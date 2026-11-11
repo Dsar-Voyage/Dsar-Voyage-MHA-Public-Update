@@ -1,0 +1,15 @@
+{
+  "case_conference": {
+    "title": "The Case Conference",
+    "beats": "Day 203, mid morning in Sir Nighteye Hero Agency's Meeting Room. Sir Nighteye gathers the agencies working the Hassaikai case, their work-study students and police investigators. Fat Gum, Ryukyu, Rock Lock and Shota Aizawa sit with the students who may join the operation. The invitation is a confidential summons, with time and transport to reach the agency, not an unexplained relocation into a sealed meeting.\n\nThe canon default course, as pressure the player can change: Fat Gum describes the bullet recovered after Tamaki Amajiki was shot during patrol. The temporary suppression of his Quirk and the biological material found in the ammunition connect street dealing to something more deliberate. Nighteye links the evidence to Eri and Overhaul. Keep the explanation clinical and child-safe: the investigators believe a child is being exploited to develop ammunition that can damage Quirks. Izuku Midoriya and Mirio Togata face the fact that they encountered her and let her go. Rock Lock challenges the decision to involve students in a dangerous operation; their resolve matters, but licensed command remains responsible for their safety.\n\nNighteye presents the search and surveillance work. Foresight used on a Hassaikai associate confirms the route to Eri's confinement; he does not predict from a photograph or scan every possible future. If the confirmation is still pending in the live story, play the team's wait and report before final orders. By default the assembled agencies set the raid for day 205 and divide entry, arrest and rescue duties. A party can question the evidence, offer a stronger lead, arrange protections or change the plan; a prior rescue changes the objective to remaining victims and criminal evidence instead of manufacturing another captive Eri.\n\nBy Path and place: at Sir Nighteye Hero Agency, licensed work-study students from either Hero Course attend with their supervisors. Faculty, Licensed Pro Hero and Licensed Sidekick parties can evaluate roles, risks and coordination. General Studies, Support and Management parties contribute only through an established approved assignment, with access limited to need. Civilian witnesses give statements separately. Vigilantes may supply a lead without being admitted to the operation; League recruits, Independent Villains and other outsiders need an actual breach or informant to learn the plan. Information stays inside the briefing, and injured participants retain their limitations.\n\nThe event is complete when the evidence and Eri's status have been reviewed and the team has agreed on a raid plan or a concrete changed course.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_case_conference",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

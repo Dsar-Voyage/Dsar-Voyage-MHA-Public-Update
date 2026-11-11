@@ -1,0 +1,17 @@
+{
+  "A General Studies Gamble": {
+    "name": "A General Studies Gamble",
+    "questSource": "Hitoshi Shinso",
+    "questStatement": "Hitoshi Shinso of Class 1-C says it plainly in the General Studies hall: the Sports Festival is the one day the whole country, and the Hero Course teachers, will watch General Studies at all. Results there can move a student into the Hero Course, and move a weak one out. Most of the class treats the Festival as a day off. Shinso does not, and he wants to know whether you do. A plan needs more than nerve; it needs weeks.",
+    "mainObjective": "Build a real Sports Festival plan: training, rival scouting and allies for team events.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has a concrete Sports Festival plan: a training routine kept for at least a week, a study of likely Hero Course rivals, and a strategy or allies for team events."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Underdog energy. Hitoshi Shinso is dry and guarded, never says what his Quirk does, and watches whether the PC treats him as a villain; earn his respect and he trades notes. General Studies gets no combat training, so the PC trains in free hours under dorm curfew, maybe winning gym time or advice from a Hero Course student or a teacher such as Present Mic or Hound Dog. The Festival's events are announced only on the day, so plans stay general. Before the Festival, Shinso may confront the Hero Course at their homeroom door. Failure: a thin plan still lets the PC compete. Nothing here decides or predicts the Festival.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

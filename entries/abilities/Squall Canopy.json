@@ -1,0 +1,25 @@
+{
+  "Squall Canopy": {
+    "name": "Squall Canopy",
+    "description": "The user swells their personal storm cloud across a whole city block for the rest of the scene, filling the street with rain, static cover and guided wind channels. Each turn they can drop a charged downdraft on foes in the block for heavy force and electric damage that pins and numbs them until the end of their next turn, or lift allies a story high on static updrafts; held back, the downdrafts only hold foes flat. Sustaining both natures across a block scrambles every radio and camera inside and triggers the user's Drawback at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

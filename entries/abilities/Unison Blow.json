@@ -1,0 +1,15 @@
+{
+  "Unison Blow": {
+    "name": "Unison Blow",
+    "description": "The user and a partner time their attacks, Quirks or gear into a single combined blow: wind feeding a fire, an impact shattering fresh ice, a hold pinning a target in front of a strike. The combination deals the damage types of both parts and breaks through a defense that could stop either part alone; any Quirk used in it still costs its usual Strain. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "amount": 12
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 3
+  }
+}

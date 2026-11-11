@@ -1,0 +1,15 @@
+{
+  "civ_holiday_rush": {
+    "title": "Holiday Rush",
+    "beats": "Mid to late December, the year-end rush, afternoon into closing. The city is lit, bonus season fills the shops, Christmas cake orders stack up and year-end parties fill every izakaya. Unless the story changed it, November's Hero Billboard Chart named Endeavor Number One and Hawks Number Two, and the replay of Endeavor's fight with a flying Nomu over Fukuoka, his fist raised at the end, still runs between ads.\n\nWho is there: the manager, Mr. Masaru Iwata, short-staffed and apologizing in advance; a part-timer, Ayumi Kuroda, saving for a trip; a stream of customers; a local hero on patrol, Snapline, whose Quirk fires a taut cord from either wrist.\n\nThe default course, as pressure the player can change: a coworker calls in sick and Mr. Iwata asks the player to stay two extra hours. The cake preorders are mixed up and two customers claim the same box. Near dusk a man with a Quirk that fogs glass clouds the front window and the register camera, grabs a stack of gift cards and the cash tray, and runs; Snapline, passing outside, has him wrapped on the sidewalk in seconds, poses for one phone, and leaves the statements to a police officer. Any civilian who uses a Quirk on the thief risks a fine, unless it was self-defense. The rush resumes.\n\nAt a convenience store it is cakes and fried chicken; at a cafe, seasonal drinks and couples at every table; at a ramen shop, party groups ordering one more round; on a delivery route, three times the packages and dark stairwells; at a shop counter, gift wrapping until the tape runs out. Near Tokyo's scramble crossing the stores overflow under the giant screens.\n\nAfter closing the shutters come down and the noise stops. Mr. Iwata hands out leftover cake and thanks everyone in turn; Ayumi buys hot canned coffee from the vending machine and asks what the player plans for the New Year.\n\nThe event is complete when the shop closes for the night after the robbery is handled and the player has shared the quiet after closing or gone home.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_civ_holiday_rush",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Load Bearer": {
+    "name": "Load Bearer",
+    "description": "During a surge, the user braces a collapsing beam or slab and holds it for up to several minutes while rescuers move people clear. The support works only while the user remains beneath or against the load. Their judgment becomes too dull for detailed instructions, and another support must take the weight before the surge ends. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

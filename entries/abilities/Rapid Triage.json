@@ -1,0 +1,20 @@
+{
+  "Rapid Triage": {
+    "name": "Rapid Triage",
+    "description": "The user turns the bystanders at a mass-casualty scene into a field team: a few words each on pressing a wound, cooling a burn or keeping an airway open, then the user moves between them checking the work. Every injured person in the area stops losing health to bleeding and burns, and anyone dazed or in shock comes back to awareness and can walk with help. It does not restore lost health. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rescue Specialist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "First Aid",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

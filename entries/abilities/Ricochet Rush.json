@@ -1,0 +1,24 @@
+{
+  "Ricochet Rush": {
+    "name": "Ricochet Rush",
+    "description": "The user caroms from enemy to enemy across a room or a street corner, striking each before anyone can react. Every enemy the user chooses in that area takes bludgeoning damage and is knocked off their feet, while allies and bystanders between them are passed untouched. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Pacific east of Miyakejima": {
+    "name": "Pacific east of Miyakejima",
+    "basicInfo": "The open Pacific east of Miyakejima and Mikurajima, a wide reach of empty, deep-blue ocean beside the middle of the Izu Islands chain, about two hundred kilometers south of Tokyo. There is no land in the cell itself. Miyakejima's volcano shows to the west on clear days, a broad dark cone that sometimes trails steam, with the steep green dome of Mikurajima to its south. The bottom lies a kilometer or two down, and the Kuroshio usually flows east through this water in a warm, fast band, though in some years it loops far to the south. The weather is nearly subtropical: warm, humid summers, typhoons from late summer, and gusty westerly winters. Bonito, flying fish, yellowtail and marlin follow the current, boats out of the islands fish its edges, and wild dolphins swim near Mikurajima. The big ferry from Tokyo to the southern Izu Islands passes to the west by night, and cargo ships sometimes cross. The coast guard watches by aircraft and patrol boat, and maritime heroes cover the islands on long rotations. A party could be out here on a fishing boat, a yacht, a passing ship, or carried by a flying hero.",
+    "hiddenInfo": "Very little happens here. The risk is weather and distance: a sick passenger or a disabled boat may wait hours for help. Help is the coast guard, by aircraft from the mainland or the islands. Small villainy: illegal fishing by unlicensed boats and the occasional smuggling transfer at sea.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 2,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bdb42470-e719-4000-971f-e37da24226ec.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "False Dead End": {
+    "name": "False Dead End",
+    "description": "The user projects a stored image of a wall, a closed shutter or a parked truck across an alley, a corridor or a doorway. Anyone who sees it believes the way is blocked: a fleeing villain turns back toward waiting heroes, and civilians keep away from danger. The image lasts as long as the user watches it, and anyone who touches it or throws something through it sees that the way is open. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Set on Cue": {
+    "name": "Set on Cue",
+    "description": "The user calls on every strand, glob and sheet of their own adhesive in the scene at once and changes each one by choice. Chosen pieces let go and flake to dust, freeing captives, allies or a glued street; the rest set rigid, so a wrapped enemy cannot twitch, a web stiffens into a walkway that bears a crowd, and a taped limb is splinted straight. Rigid adhesive never sets across a face or chest, so the bound still breathe. The user makes no new adhesive until the end of their next turn, and anyone set rigid must be cut out with tools. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Rubble Recall": {
+    "name": "Rubble Recall",
+    "description": "The user touches a wall, a car or a pillar smashed within the last few minutes, and every scattered piece across a street's width flies back to rejoin it at once. Everyone standing between the pieces and the object takes heavy bludgeoning damage and is knocked flat; held back, the user calls only the smaller pieces, which bruise and trip. The pieces fly in straight lines, so the user must first clear bystanders from their paths. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

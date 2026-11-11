@@ -1,0 +1,20 @@
+{
+  "Doorway Cluster": {
+    "name": "Doorway Cluster",
+    "description": "The user scatters several balls across one doorway or passage a few strides wide. Anyone rushing through sticks a foot or hand to the floor or frame and must stop to free it; allies who know the gaps can pass carefully. The cluster does not block projectiles, and its hold weakens as the balls age. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

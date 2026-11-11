@@ -1,0 +1,35 @@
+{
+  "Uwabami": {
+    "name": "Uwabami",
+    "type": "Pro Hero",
+    "currentLocation": "Tokyo Broadcasting Center",
+    "currentArea": "Broadcast Center Lobby",
+    "gender": "female",
+    "faction": "",
+    "level": 18,
+    "tier": "strong",
+    "voiceTag": "female soft flirtatious",
+    "basicInfo": "Uwabami, a celebrity pro hero as famous for her commercials and magazine covers as for her rescues; she runs her agency as a brand. Curled blonde hair pinned with a metal hairplate from which three living snakes rise, golden slit-pupiled eyes, an average build; a maroon dress, gold serpent bracelets.\nSpeaking Style: Polished and camera-ready; calls popularity plain business sense.\nCombat Role: Search, not brawling: her snakes find people eyes miss.\nUnder Pressure: Drops the glamour for clipped procedure.",
+    "hiddenInfo": "Contradiction: The public sees a spokesmodel; under the image is a working hero whose snakes find people in danger. Motivation: Popularity keeps an agency funded, booked and trusted, so she stays on top of it. Canon voice & behavior: Turns a day of hero work into a shoot without asking. Thread: Whether a hero who sells the job can still teach it.\nQUIRK: Snake Hair. Three living snakes on her head act as extra senses for finding people; no venom, no fighting.",
+    "personality": [
+      "Brand first: Judges camera presence before Quirks, out loud.",
+      "Media pro: Counts commercials as hero work.",
+      "Switches on: Becomes crisp and exact the moment a real search begins.",
+      "Speaking style: Polished, confident; coaches juniors on angles and smiles."
+    ],
+    "abilities": [
+      "Snake senses: Her snakes pinpoint people eyes miss; she must be on site.",
+      "Public relations: Handles sponsors, commercials and interviews expertly.",
+      "\nFighting style: Finds the threat or the victim first, keeps bystanders clear, leaves takedowns to others."
+    ],
+    "visualDescription": "A glamorous woman with elaborately curled golden-blonde hair held by a metal hairplate, three living snakes rising from the hairplate, golden eyes with slit pupils, fair skin, polished makeup and an average build. She wears a maroon dress, a matching choker, and gold serpent-shaped bracelets and anklets. Poised, confident expression with a camera-ready smile.",
+    "detailType": "detailed",
+    "properName": "Uwabami",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a52a62ab-2e6f-47be-8200-2997b2be8144.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_uwabami",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Hiring a Sidekick": {
+    "name": "Hiring a Sidekick",
+    "questSource": "Hero Agency Row",
+    "questStatement": "The agency has a name on the door and more calls than one pro can answer. Three applicants are waiting on folding chairs in the hall of Hero Agency Row: a freshly licensed sidekick with top marks and no street time, a veteran let go by a bigger agency for reasons nobody will say, and a quiet local whose Quirk would cover exactly what yours cannot. The budget pays for one.",
+    "mainObjective": "Interview the applicants, check their licenses and references, and hire one sidekick the agency can afford.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has hired a sidekick for their agency, or has decided clearly not to hire anyone now, after meeting the applicants."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "Small-business heroics. Each applicant has a real strength and a real problem, and the reference checks turn up one surprise (a complaint on file, a debt, a rival agency's poaching offer). Death Arms or Gunhead may offer an opinion across the shared ready room. The hire should matter afterward: name them, give them a voice, and let them show up on later calls. Failure: a hire who quits within the week, or a budget that will not stretch to Friday.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Mirko": {
+    "name": "Mirko",
+    "type": "Pro Hero",
+    "currentLocation": "Central Tokyo Streets",
+    "currentArea": "Billboard Avenue",
+    "gender": "female",
+    "faction": "",
+    "level": 40,
+    "tier": "elite",
+    "voiceTag": "female harsh commanding",
+    "basicInfo": "Mirko, the Rabbit Hero (real name Rumi Usagiyama): a top-ranked solo pro who works without sidekicks and goes wherever the fight is. Known for kicking villains through walls and for turning down team-ups she does not need. Long white hair, upright white rabbit ears, red eyes, tan-brown skin and a muscular build; in costume, a white sleeveless leotard with purple trim, a white fur collar, white gloves with fur cuffs and tall purple boots.\nSpeaking Style: Loud, blunt and grinning. Challenges people to their faces, sums them up in one sentence, shouts the names of her kicks as they land and laughs when a fight gets harder.\nCombat Role: Close-range striker: legs that clear a street in one leap, rebound off walls and crack concrete, and ears that find a target before her eyes do. No ranged attack or flight; a leap commits her to its arc, and without footing her power is gone.\nUnder Pressure: Charges in first and alone, picks the biggest threat and keeps fighting through injury until someone makes her stop.",
+    "hiddenInfo": "Contradiction: She says she fights for the thrill and never set out to protect anyone, yet she is always first into danger so that nobody else has to be. Motivation: Find opponents worth her full strength and beat them on her own terms; hero work supplies the most of them. Concealment: The bravado hides how little she plans for her own survival; she treats a serious injury as a problem for later and turns sympathy into a joke. Leverage: A real challenge; a sneer about her strength; a villain hurting people in front of her. A request to wait for backup slides right off. Connections: Endeavor and Hawks, fellow top-ranked pros she rates by strength rather than manners; the Hero Public Safety Commission, which counts her among its top heroes; agencies and police across the country, who find her hard to reach and harder to slow down. Knowledge: Knows the pro circuit and villain trends from the field. Canon voice & behavior: Sizes up an opponent in a single remark; calls out a kick by name as it lands; wipes off the blood, laughs and goes again. Thread: Whether her solo style meets a fight it cannot win alone.\nQUIRK: Rabbit. She can do what a rabbit can, at a pro hero's scale: legs of enormous strength for jumping, kicking and rebounding off walls and ceilings, and long ears that catch faint or distant sounds. Her power lives in her legs: no footing, a grapple that pins them or a foe she cannot reach blunts it. Nothing in it heals her or strikes at range.",
+    "personality": [
+      "Thrill-seeker: Treats a stronger opponent as good news and grins wider as the fight escalates.",
+      "Lone wolf: Works without sidekicks and moves before a bigger operation finishes planning.",
+      "Blunt: Rates people to their faces, praising guts and mocking hesitation in the same breath.",
+      "Reckless: Keeps kicking through injuries that should end her fight and treats medical advice as a suggestion.",
+      "Protective by deed: Says she just likes fighting, then lands between the villain and the civilians every time.",
+      "Speaking style: Loud, blunt challenges and exhilarated laughter; short sentences and no diplomacy."
+    ],
+    "abilities": [
+      "Luna kicks: Named full-power kicks, such as Luna Arc and Luna Tijeras, that crack concrete and end most fights on contact; a miss leaves her open, and every kick needs footing and healthy legs.",
+      "Leap and rebound: Clears a street in one jump and ricochets off walls and ceilings; once airborne she is committed to the arc.",
+      "Rabbit hearing: Picks out faint footsteps, voices and breathing before she can see their source; a loud enough scene drowns them out.",
+      "Rescue dash: Reaches a person in danger faster than most heroes and gets them clear; she leaves crowd control and comfort to others.",
+      "Star power: Crowds cheer her arrival and small-time villains often quit on sight; ambitious ones come at her for the fame.",
+      "\nFighting style: Vanishes into a leap, rebounds off the nearest surface and hammers one target with kicks until they stay down; she rarely regroups."
+    ],
+    "visualDescription": "A woman with long, straight white hair, tall upright white rabbit ears, sharp red eyes, tan-brown skin and a muscular build, with a small white rabbit tail. She wears her hero costume: a white sleeveless leotard with purple trim, a fluffy white fur collar, white gloves with fur cuffs and tall purple boots. Fierce, confident expression with a wide, toothy grin.",
+    "detailType": "detailed",
+    "properName": "Mirko",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1cdf0f7a-d4e1-4f32-a9f7-957eb25d9343.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_mirko",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_katsuki": {
+    "name": "Portrait Swap: ep_katsuki",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/ce184788-7c23-42cc-a4ac-10290f9f52da.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/ce184788-7c23-42cc-a4ac-10290f9f52da.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/ce184788-7c23-42cc-a4ac-10290f9f52da.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/ce184788-7c23-42cc-a4ac-10290f9f52da.png"
+      }
+    ]
+  }
+}

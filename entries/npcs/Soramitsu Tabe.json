@@ -1,0 +1,35 @@
+{
+  "Soramitsu Tabe": {
+    "name": "Soramitsu Tabe",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 20,
+    "tier": "strong",
+    "voiceTag": "male monster growly",
+    "basicInfo": "Soramitsu Tabe, one of the Shie Hassaikai's Eight Bullets, Kai Chisaki's sworn enforcers; his Quirk lets him bite through and swallow almost anything solid. A big man under a stitched sack mask with a wide opening for his mouth.\nSpeaking Style: Few words; hunger shows more than speech.\nCombat Role: Close-range eater: bites through cover, barriers and weapons within reach; nothing at range.\nUnder Pressure: Stays with Yu Hojo and Toya Setsuno and chews through whatever blocks them.",
+    "hiddenInfo": "Contradiction: He can chew through walls, yet goes only where his friends lead. Motivation: His next meal and his friends. Connections: Yu Hojo and Toya Setsuno, the friends he follows; Kai Chisaki (Overhaul), the boss they serve. Knowledge: What is in front of him and his orders. Thread: Whether anything but hunger and his friends moves him.\nQUIRK: Food. He can bite through and swallow almost any solid material, including things a Quirk has made, but only what his mouth reaches.",
+    "personality": [
+      "Hungry: Eats between orders and during them.",
+      "Quiet: Says little and lets Setsuno do the talking.",
+      "Loyal: Goes where Hojo and Setsuno go, into any fight.",
+      "Speaking style: Terse; hunger does most of the talking."
+    ],
+    "abilities": [
+      "Food: Bites through and swallows tough solid material within reach; nothing at range.",
+      "Structure eater: Chews through barriers, cover and Quirk-made constructs; he must reach them first.",
+      "\nFighting style: Closes to biting range and eats through cover; kept at a distance, he has nothing."
+    ],
+    "visualDescription": "A big, heavy-set man whose whole head is covered by a stitched burlap sack mask with two small eyeholes and a wide opening at the mouth. He wears plain dark clothes: a loose dark shirt and dark trousers. Thick arms, a broad, rounded frame and large hands. The rough sack and its crude stitching give him a blank, unsettling look.",
+    "detailType": "detailed",
+    "properName": "Soramitsu Tabe",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e9bc0803-2e23-4bf4-8ed6-9e18b6356383.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_soramitsu_tabe",
+    "initialKnown": false
+  }
+}

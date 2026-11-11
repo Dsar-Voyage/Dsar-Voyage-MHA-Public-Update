@@ -1,0 +1,35 @@
+{
+  "Exceptional Quirk": {
+    "name": "Exceptional Quirk",
+    "description": "🌟 Your Quirk is far stronger than most of its kind, and people notice.\n\n🌱 Beyond the starting reach and force your Quirk's card describes, from day one.\n⚠️ Every use strains you twice as hard: Quirk Strain per use is doubled.\n⚠️ Your drawback shows sooner, from Quirk Strain 50.\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Control +5",
+    "traitNarrativeEffects": "The Quirk works above its family's starting scale: more force, range, area and duration than a typical new user's, enough that holding back is a skill the user must practice. Each use builds double the usual Quirk Strain, and the drawback starts to show at 50 instead of 60; it turns active at 80, and at 100 the Quirk gives out or the body pays, as for anyone. A few big uses in a row push the user into the active drawback. Attention follows: hero agencies send scouts and offers, the Hero Public Safety Commission keeps a file and watches for misuse, villains see a prize to recruit or a threat to remove, and reporters and classmates measure the user against top heroes. Accidents with a Quirk this strong hurt people and make the news. If the character chose Quirkless, this trait does not apply: they have no Quirk, never gain Quirk Strain, and draw none of this attention.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "ua_gate_appeal": {
+    "title": "A Place to Rest",
+    "beats": "On May 2, U.A. Academy's Main Gate becomes the boundary between an exhausted rescuer and frightened refugees. Izuku Midoriya arrives with Class 1-A, but residents object that admitting him will draw Tomura Shigaraki to their families. Inko Midoriya waits among the people inside. Kota Izumi is present as a protected child with trusted adults nearby; he is never assigned to contain the crowd or defend the gate.\n\nThe canon default course, as pressure the player can change: Principal Nezu explains the strengthened barrier and evacuation system. Underground shelter sections and transport arrangements offer real protection, but engineering alone does not answer residents who have already lost their homes. Ochaco Uraraka takes an elevated speaking position and describes Izuku's condition, asking them to let him rest at his Academy. She does not publicly explain One For All's transfer or its private history. Residents know that he is a particular enemy target; that knowledge is not consent to every operational secret.\n\nKota and the heteromorphic woman Izuku previously rescued recognize the person behind the frightening costume and step forward. Preserve their recognition only where the earlier rescues occurred or a valid alternative established it. Their testimony helps the residents accept his return by default. Opposition may remain without making every refugee cruel or irrational. A player can question evacuation capacity, testify to a rescue, maintain a safe corridor or propose a protection commitment. Any alternative admission decision must include a real place for Izuku to recover and continuing safety for the shelter population.\n\nBy Path: Class 1-A stands with Izuku, Class 1-B assists residents, General Studies facilitates discussion, Support explains equipment within its knowledge and Management maintains amplification and a channel for questions. Faculty addresses safeguards, Licensed Sidekick preserves safe access and Licensed Pro Hero commits actual protection. Vigilante can testify to witnessed rescues; Civilian Life can oppose or support admission and help neighbors understand the options. League of Villains Recruit and Independent Villain act only through access or contacts already established, deciding whether to report what they observe. Do not admit a hostile outsider into restricted areas merely because the scene has begun.\n\nThe event is complete when admission and immediate recovery arrangements are decided, the crowd has a safe next step and the player's continuing shelter or protection duty is clear.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_ua_gate_appeal",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

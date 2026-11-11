@@ -1,0 +1,20 @@
+{
+  "Incoming Current Catch": {
+    "name": "Incoming Current Catch",
+    "description": "The user places themselves between one incoming electrical attack and a nearby ally and takes the current into their own body. The ally avoids that electric damage, and the user can release a small charge into the ground before the end of their next turn. A surge beyond the user's safe output still short-circuits their brain. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

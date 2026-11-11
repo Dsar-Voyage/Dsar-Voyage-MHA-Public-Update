@@ -1,0 +1,20 @@
+{
+  "Dark Crossing": {
+    "name": "Dark Crossing",
+    "description": "The user steps into a shadow at least as large as their own body and steps out of another shadow they can see within about fifteen meters in the same instant. An attacker aiming at them must find them again, and the user can cross a locked gate or a gap between rooftops this way; they carry only what they wear and hold, and a floodlight on either shadow closes the way. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Sea off Shingu": {
+    "name": "Sea off Shingu",
+    "basicInfo": "The Kumano-nada off the mouth of the Kumano River, a deep, open stretch of the Pacific east of the Kii Peninsula's southern corner. Only a thin edge of land touches the northwest: the city of Shingu on the Wakayama bank of the river mouth and, across the river on the Mie bank, the start of the long pebble beach of Shichiri Mihama running north. The water is deep blue and shelves quickly to depths of over a thousand meters; the warm Kuroshio sweeps along offshore to the south, bringing heavy swell, sea fog in early summer, and typhoons in late summer and autumn. Purse seiners and line boats from Katsuura, Shingu and Kumano work for bonito, tuna, mackerel and the slim autumn saury used in the local pressed sushi. There are no islands in view and no ferries cross here. From the water, the dark Kumano mountains stand behind Shingu. A party out here is on a fishing boat, a coast guard cutter from Owase or Kushimoto, or carried by a flying or swimming hero. Shingu is about four hours from Nagoya by the Nanki limited express.",
+    "hiddenInfo": "Open, empty water. Weather is the danger: sudden swells, fog and typhoons catch small boats, and the coast guard does most rescues. Small-time trouble is illegal fishing, the occasional smuggling run along the coast, and boaters using water Quirks without a license. The nearest hero agency large enough to help is hours away in Tsu or Wakayama.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -5,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/490d158b-a48d-478e-a0fc-0ff7fb93a51f.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

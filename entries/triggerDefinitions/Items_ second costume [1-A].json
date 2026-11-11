@@ -1,0 +1,37 @@
+{
+  "Items: second costume [1-A]": {
+    "name": "Items: second costume [1-A]",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 166
+      },
+      {
+        "type": "player-item",
+        "item": "Second hero costume",
+        "operator": "lessThan",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Second hero costume",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the redesigned costume from the Development Studio is ready for the license exam and is handed to the character in this scene: their Second hero costume. It is already in their inventory."
+      }
+    ],
+    "recurring": false
+  }
+}

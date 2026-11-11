@@ -1,0 +1,24 @@
+{
+  "Complete Direction": {
+    "name": "Complete Direction",
+    "description": "A person under the user's control follows long, detailed instructions with all their own skill: they drive, climb, pick a lock or perform surgery. They can also use or stop their own Quirk on command, undoing what it did, lowering a barrier, ending a transformation or holding an unstable Quirk steady. An order to hurt themselves or anyone else still snaps them free. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

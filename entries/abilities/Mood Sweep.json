@@ -1,0 +1,20 @@
+{
+  "Mood Sweep": {
+    "name": "Mood Sweep",
+    "description": "The user goes still and feels every strong emotion around them, through walls and floors. They learn how many people are nearby and where, who is panicking, who hides hostility behind a calm face, and where someone trapped or hiding is holding their breath in fear. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

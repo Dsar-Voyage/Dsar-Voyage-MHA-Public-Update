@@ -1,0 +1,15 @@
+{
+  "licenses_cider_house": {
+    "title": "The Final Assessment",
+    "beats": "Day 253, Sunday mid morning at Takoba Municipal Stadium. Katsuki Bakugo, Shoto Todoroki, Inasa Yoarashi and the real Camie Utsushimi assemble for the remedial program's final assessment. The earlier lesson with Masegaki's children was practice, not the licensing decision. All Might accompanies U.A.'s pair as a retired teacher; he cannot return to combat.\n\nThe canon default course, as pressure the player can change: instructors assess the candidates' accumulated work and readiness, with rescue judgment and cooperation as well as control of their Quirks. Keep any played exercise supervised and nonlethal, without inventing a compulsory second battle with the children. By default all four pass and receive provisional hero licenses. Their authority begins with this successful result, not retroactively at the earlier lesson. A party can help them prepare, change an assessment performance or challenge an unsafe instruction; any changed result must follow what the assessors actually observe.\n\nWithin the hour, Katsuki and Shoto encounter the Cider House gang committing a support-item theft on the way back to U.A. Academy.The thieves use stolen equipment to threaten people and escape. Newly licensed, Katsuki and Shoto coordinate to stop them, protect bystanders and recover the gear. The player can take part, choose rescue over pursuit or change who secures the arrest.His arrival does not erase the students' work or disclose any hidden allegiance.\n\nBy Path and place: at Takoba Municipal Stadium, a remedial Hero Course student takes the assessment; licensed students and other courses observe or assist only with authorization. Faculty, pros and sidekicks supervise or accompany candidates. At U.A. Academy, classmates can see the departure or receive the returning pair and their cards, joining the street incident only through an established route. Civilian and vigilante Paths may witness the theft, call help or assist people at risk. Villain Paths need a real connection to the theft or its location, not access to the exam. Support students can identify recovered equipment through official follow-up; Management students can help with approved reporting. Preserve existing injuries and any earlier story-earned license.\n\nThe event is complete when the candidates' results are settled and the Cider House theft has been stopped, escaped or otherwise resolved.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_licenses_cider_house",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

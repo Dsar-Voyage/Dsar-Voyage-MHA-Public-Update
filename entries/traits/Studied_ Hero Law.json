@@ -1,0 +1,20 @@
+{
+  "Studied: Hero Law": {
+    "name": "Studied: Hero Law",
+    "description": "📜 You studied Quirk law and hero regulation: pre-law classes, a hero-prep cram school or a parent's legal textbooks.\n\n🌱 Registration, the ban on public Quirk use, self-defense, Commission licensing and arrest powers. You can tell what a hero may do at a scene.\n⚠️ Case law, Commission policy and the gray areas of a real incident still need a lawyer.\n⚖️ Knowing the law is neither a hero license nor a license to practice law, and the rules bind you as much as anyone.\n🏫 It shows in precise questions about who authorized what.\n\n📈 Grants: Hero Law +15",
+    "traitNarrativeEffects": "The character has studied the law around Quirks and heroes: Quirk registration, the ban on public Quirk use, self-defense, licensing by the Hero Public Safety Commission, arrest powers, use of force, jurisdiction and liability. They can tell what a hero may do at a scene and what a civilian may not. Prior study, not mastery: case law, Commission policy and the gray areas of a real incident still need a lawyer. Not a license: knowing the law is neither a hero license nor a license to practice law, and the rules bind them no less than anyone else. It shows in precise questions about who authorized what.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Hero Law",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

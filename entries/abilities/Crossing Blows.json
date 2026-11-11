@@ -1,0 +1,20 @@
+{
+  "Crossing Blows": {
+    "name": "Crossing Blows",
+    "description": "The user strikes a single target within reach with several limbs at once, each blow arriving from a different angle. It deals bludgeoning damage, and the target cannot block or parry it with a single guard or shield; held back, the limbs only buffet and shove, driving the target back a few steps without injury. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

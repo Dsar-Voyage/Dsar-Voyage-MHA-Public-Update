@@ -1,0 +1,20 @@
+{
+  "Ground to Grit": {
+    "name": "Ground to Grit",
+    "description": "The user slaps a full hand to the floor or the street, and the surface crumbles into loose, shifting grit across a room's width while the patch under their own feet holds. Everyone else on it loses their footing: anyone moving falls, and until the end of their next turn nobody on it can run, charge or dodge. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

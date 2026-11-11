@@ -1,0 +1,30 @@
+{
+  "Minamiaizu": {
+    "name": "Minamiaizu",
+    "basicInfo": "The deep mountains of southern Aizu, a block of forested ridges and narrow valleys on the Fukushima-Tochigi border where the Kanto plain finally gives way to snow country. Most of the cell is the town of Minamiaizu and the village of Hinoemata on the Fukushima side; its southern strip belongs to Tochigi, where the hot spring hamlets of Yunishigawa, Kawamata and Okukinu sit at the head of the Kinu valley. In the southwest corner the volcanic dome of Mount Hiuchigatake, the highest peak in Tohoku, rises over the marsh lake of Ozenuma, with Aizu-Komagatake just to its northeast and the wide Oze moor just over the western edge. The Ina river runs north through Tajima, the old post town at the district's center, and the Tadami river cuts the far northwest past big hydroelectric dams. Winters are long and white, with two meters of snow on the western villages; summers are cool, skunk cabbage blooms in Oze in early summer, and October sets the beech slopes alight. People farm buckwheat, summer tomatoes and rice on the valley floors, cut timber, run inns, and keep a few ski slopes going near Takatsue. Thatched L-shaped farmhouses still stand in the Maezawa hamlet of Tateiwa, Hinoemata villagers stage their own kabuki on a thatched shrine stage in spring and late summer, and Yunishigawa keeps its legend of fugitive Heike warriors with fish grilled around sunken hearths and a June festival. The Aizu Railway runs north from Aizu-Kogen-Ozeguchi through Tajima toward Aizu-Wakamatsu; at Aizu-Kogen it joins the Yagan Railway down to Kinugawa, and through limited expresses come all the way from Asakusa. Route 121 follows the same valley, Route 352 climbs west to Hinoemata and the Oze trailheads and closes over the pass in winter, and buses are few. From Tokyo, Tajima is about three and a half hours; from Musutafu, most of five. Visitors hike Oze, soak, ski, eat hatto buckwheat dumplings and Aizu soba, and watch village kabuki. There is no hero agency here: officers at residential police posts and a licensed hero who covers the whole mountain district from a larger town answer the calls, and a farmer whose Quirk throws off heat keeps the farmhouse path clear on private land.",
+    "hiddenInfo": "The villages are emptying: schools have closed, half the houses on some lanes stay shut all winter, and the few young adults who remain carry the snow clearing, the volunteer fire brigade and the festivals. Asian black bears come down to the persimmons and corn in autumn. In a blizzard or on the closed passes, real hero help is an hour or more away, so residents lean on each other and on the police posts. Trouble is small: theft from empty holiday homes, strangers stripping wild vegetables and mushrooms from private forest, and the odd thrill-seeker using an unlicensed Quirk on backcountry ski slopes.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 1,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/34290048-1b26-4dee-b53f-0a5b21f0c95e.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

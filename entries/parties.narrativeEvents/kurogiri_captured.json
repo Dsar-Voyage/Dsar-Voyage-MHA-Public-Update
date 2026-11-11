@@ -1,0 +1,15 @@
+{
+  "kurogiri_captured": {
+    "title": "Kurogiri Captured",
+    "beats": "Day 209, mid morning at Musutafu Police Headquarters. Naomasa Tsukauchi coordinates the search for the League's warp villain from the Detectives' Office. Gran Torino prepares to pursue the trail, with Gran Torino's Apartment serving as a quiet place to compare leads and arrange departure. Kurogiri escaped Kamino; today's investigation must not presume an earlier capture there.\n\nThe canon default course, as pressure the player can change: the investigators track Kurogiri into remote mountains after the Hassaikai operation.A party that joins through the briefing travels with the operation, while one that stays behind handles communications or waits for its report. Gran Torino closes on Kurogiri and the police secure him before he can open a successful escape. A colossal figure, Gigantomachia, is glimpsed during the pursuit; the team survives the threat and brings Kurogiri out. The giant is not captured, defeated or publicly identified by this scene, and witnessing his presence supplies no explanation of his origin.\n\nOnce restrained, Kurogiri undergoes guarded processing and transfer to Tartarus's Maximum-Security Cell Block by default.A party can change the approach, protect officers, interrupt a warp escape or help Kurogiri evade custody. If he escapes, record the escape and the continuing search instead of applying the default cell placement. His body and collar can be restrained; his gate does not provide an automatic exit after unconsciousness or effective containment.\n\nBy Path and place: at Musutafu Police Headquarters, Licensed Pro Hero and Licensed Sidekick parties can join an authorized operation; faculty advise through existing contacts. At Gran Torino's Apartment, invited students or associates may hear a limited briefing, but students need permission and a lawful role before entering the field. General Studies, Support and Management Paths offer approved logistical help. Civilians give statements or later hear the arrest announcement. A League recruit or Independent Villain needs an established warning or contact to reach Kurogiri; a vigilante can follow actual evidence and faces the operation's cordon. The prison transfer exposes no information about Kurogiri's human identity, which remains unknown to the investigators here.\n\nThe event is complete when the mountain pursuit has ended and Kurogiri's secure custody and transfer, or his escape, has been established.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_kurogiri_captured",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Backdraft": {
+    "name": "Backdraft",
+    "type": "Pro Hero",
+    "currentLocation": "Hero Agency Row",
+    "currentArea": "Patrol Garage",
+    "gender": "male",
+    "faction": "",
+    "level": 18,
+    "tier": "elite",
+    "voiceTag": "male commanding blunt",
+    "basicInfo": "Backdraft, a Musutafu rescue pro who specializes in fire and disaster work. At the sludge villain attack the spring before the entrance exam, he held back the fires while the other pros looked for a way in. A broad build; a red firefighter helmet over a white full-face mask with one round orange lens, a long yellow rescue coat, and hands ending in metal tap fittings.\nSpeaking Style: Plain emergency-service talk: locations, headcounts, instructions.\nCombat Role: Support, not a brawler: water from his hands douses fire, clears routes and pushes threats back.\nUnder Pressure: Keeps working the rescue until every civilian is out.",
+    "hiddenInfo": "Contradiction: The hero who fights least at a scene often saves the most people there, and the cameras follow the fighting. Motivation: Get everyone out, and keep fires and collapses from turning into funerals. Connections: Death Arms, who shares the block's garage and many patrols; Death Arms takes the weight, Backdraft the water. Kamui Woods, whose wood keeps him off a burning scene until Backdraft knocks the fire down. Knowledge: Rescue procedure, building hazards and fire-service protocol. Canon voice & behavior: Gets water on the fire before he says a word, then talks in short, practical lines. Thread: Whether a rescue specialist keeps his footing on a block where agencies fight for every call.\nQUIRK: Water Hose. Water from his hands, a wide spray or a hard jet; it douses and pushes, never cuts, and cannot put out a burning block alone.",
+    "personality": [
+      "Task-focused: Works the rescue in front of him until it is finished, then asks what happened.",
+      "Calm under heat: Keeps his instructions short and level while a scene burns around him.",
+      "Headcounter: Counts people out of every building and goes back in when the number is short.",
+      "Speaking style: Plain, concise emergency-service talk: locations, headcounts, instructions."
+    ],
+    "abilities": [
+      "Water Hose: A wide spray or a hard jet of water from his hands; it douses and pushes, never wounds.",
+      "Fire suppression: Knocks down a blaze or a burning car to buy rescuers time; a large fire still needs the fire service.",
+      "Evacuation: Cools a route through flame and smoke and guides people out; he cannot carry a crowd.",
+      "Hazard reading: Judges from smoke, heat and sag how long a building will hold; Quirk-made fires break the rules.",
+      "\nFighting style: Fights only when a rescue requires it, using water to push back, blind or slow a threat while other heroes engage."
+    ],
+    "visualDescription": "A broad-built man whose face is fully hidden behind a white rescue mask with one round orange lens, under a red firefighter helmet. He wears his hero costume: a long yellow rescue coat with reflective trim, dark trousers and heavy boots, and his hands end in metal tap fittings with red valve wheels. Steady, purposeful bearing.",
+    "detailType": "detailed",
+    "properName": "Backdraft",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/de19a8df-c171-4fba-93b0-237f6d5f1de3.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_backdraft",
+    "initialKnown": true
+  }
+}

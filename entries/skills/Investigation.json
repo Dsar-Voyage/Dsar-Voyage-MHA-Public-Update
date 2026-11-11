@@ -1,0 +1,9 @@
+{
+  "Investigation": {
+    "name": "Investigation",
+    "attribute": "intelligence",
+    "type": "utility",
+    "description": "Covers: examining scenes and evidence, interviewing witnesses, following leads and working out what happened. Not: watching a target over time, which is Surveillance. Primary attribute: Intelligence.",
+    "startingItems": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Overnight Build": {
+    "name": "Overnight Build",
+    "description": "With a night in the Development Studio or a workshop as well equipped, the user designs and builds a support item for one person's Quirk and body: a gauntlet that aims a blast, boots that grip walls, a mask that filters a gas. From the next morning the item does that one job reliably until it breaks. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Support Course",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "One-Minute Reset": {
+    "name": "One-Minute Reset",
+    "description": "The user's signature move: a slapped palm returns everything non-living within a street's width to its state a minute ago. Craters fill, torn asphalt flies back into place, enemies in a filled crater are gripped to the waist in rebuilt road, and every enemy struck by the returning debris takes massive bludgeoning damage; held back, it only pins. Afterward the user cannot undo anything until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

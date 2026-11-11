@@ -1,0 +1,24 @@
+{
+  "Rubble Haul": {
+    "name": "Rubble Haul",
+    "description": "The user consumes sugar and drags a car-sized piece of debris clear of a rescue opening, exposing people trapped beneath or behind it. They move the load only a few strides and set it down on stable ground. They cannot both haul it and carry a survivor, and the large effort leaves their thinking dull for the rest of the surge. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

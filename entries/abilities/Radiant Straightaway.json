@@ -1,0 +1,25 @@
+{
+  "Radiant Straightaway": {
+    "name": "Radiant Straightaway",
+    "description": "The user's signature move: they brace their body and fire a sustained beam straight down a clear street. It breaks heavy cover and deals massive light damage to anything caught in its path; held back, the user sweeps it through empty pavement to cut off pursuit. It cannot turn once fired, and abdominal pain prevents another laser use until the end of the user's next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

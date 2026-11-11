@@ -1,0 +1,15 @@
+{
+  "warp_gates_and_twice": {
+    "title": "The Battlefields Break Open",
+    "beats": "During day 405's middle crisis, Kurogiri's awakening threatens the separation holding the battle plan together. Mist appears at connected fronts while defenders try to identify each opening before someone crosses it. Begin from the actual hospital outcome: if Kurogiri remains secured, the player instead confronts the attempted connection and the enemy's failure to obtain the expected route.\n\nThe canon default course, as pressure the player can change: Dabi revives from his initial defeat by imitating Phosphor and passes from Kamino to Gunga to reach Endeavor. Himiko Toga uses Twice's stored blood to transform and sends multiplying doubles through Kurogiri's connections. Ochaco Uraraka and Tsuyu Asui pursue the threat from Okuto. Doubles reach the floating Academy's observers, interrupt Monoma's Erasure, and expose the defenders to Shigaraki's restored Quirks. Shota Aizawa and Present Mic become cut off amid the portal disruption.\n\nStage one gate mouth at the player's actual front. Its destination must be established before passage; entering mist does not grant unrestricted choice of location. A barricade, a warning, an intercepted double, or a conversation with Kurogiri can change who crosses. Dabi cannot revive here if earlier custody genuinely prevented it. Toga needs the blood and the opportunity to use it, and her transformation has a running limit. Twice himself remains dead. Establish actual clone concentrations without treating a double of any person as proof that the original has arrived.\n\nBy place: Musutafu General Hospital contains Kurogiri's point of activation; Okuto Island faces Toga's departure; Kamino Ward faces Dabi's escape; Gunga Mountain Villa receives their default arrivals. U.A. Academy faces the attack on Erasure. Jaku City and Takoba Municipal Stadium verify any threatened connections while protecting their own teams. Mount Fuji Battlefield receives warnings about displaced threats and unsafe approaches. Remote players can identify a breached route or protect a reachable arrival point.\n\nBy Path: Class 1-A and Class 1-B defend gate exits; General Studies tracks displaced teams; Support isolates breached systems. Management reconciles reports and Faculty restores command. Licensed Sidekick protects exposed personnel; Licensed Pro Hero contains arrivals. League of Villains Recruit exploits or contests the gates; Independent Villain chooses passage or withdrawal. Vigilante rescues displaced people; Civilian Life avoids breached evacuation routes.\n\nThe event is complete when the portal cascade's actual destinations, Erasure's condition, displaced personnel, and immediate losses are established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_warp_gates_and_twice",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

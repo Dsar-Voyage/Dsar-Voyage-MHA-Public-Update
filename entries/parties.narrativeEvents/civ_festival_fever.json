@@ -1,0 +1,15 @@
+{
+  "civ_festival_fever": {
+    "title": "Festival Fever",
+    "beats": "Golden Week, the days after the U.A. Sports Festival. The scene reaches the player wherever the day goes. Replays loop on station boards, shop televisions and phones. By canon default, unless the story changed it, the whole country watched Katsuki Bakugo win the first-year tournament and rage on the podium in chains and a muzzle because Shoto Todoroki held back his fire in the final; Izuku Midoriya win the obstacle race and wreck his own fingers against Todoroki; Ochaco Uraraka refuse to quit against Bakugo; Fumikage Tokoyami take third, and Tenya Iida, also third, leave before the ceremony when word came that his brother Ingenium had been attacked in Hosu by the Hero Killer.\n\nWho is there: at work, Kenji Watabe, a coworker who has rewatched the final eleven times and calls that podium honest; the manager, Ms. Yumiko Hosaka, who wants the screen off because people stop to watch and block the aisle; Mr. Shiraishi, a retired regular, who says a hero who snarls on a podium should never be licensed.\n\nThe default course, as pressure the player can change: Kenji and Mr. Shiraishi start a loud argument over the podium, a line forms behind them, and Ms. Hosaka asks the player to end it. Later a first-year in a U.A. tracksuit, a Support Course student seen for half a minute in the obstacle race, comes in for a drink; three customers recognize her at once, one wants a photo, and she only wants out. If the player sat in the stands on festival day, a regular swears the player was in a crowd shot behind the food stalls.\n\nAt a cafe the replay plays on one phone at a table of six; at a ramen shop it runs above the counter between orders; on a delivery route every door asks about the final; near Tokyo's scramble crossing the giant screens loop the podium while the crowd stalls on the crosswalk.\n\nThe event is complete when the argument at work is settled or broken up and the recognized student has her drink and leaves, with or without a photo, or the player's shift ends.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_civ_festival_fever",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

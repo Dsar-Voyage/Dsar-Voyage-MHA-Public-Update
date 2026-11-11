@@ -1,0 +1,20 @@
+{
+  "Steel Rescue Carry": {
+    "name": "Steel Rescue Carry",
+    "description": "The user transforms and carries one adult up to ten meters toward cover, turning their back toward small falling fragments and handgun fire until their turn ends. The passenger must stay behind the user's body to gain shelter. A large slab can crush both, and neither gains clean air or protection from poison gas. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

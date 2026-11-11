@@ -1,0 +1,21 @@
+{
+  "Record Guard: All Might": {
+    "name": "Record Guard: All Might",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){/*hot_lite:v1*/const done=check({type:'read-boolean',key:\"done_symbol_of_peace_retires\"})===true;const W=done?\"All Might\":\"All Might (Retired)\",R=done?\"All Might (Retired)\":\"All Might\";if(done){const Y='Toshinori Yagi',YQ={type:'npc-location',npc:Y};const yl=check(YQ);if(check({type:'known-entity',entity:Y})===true)effects.push({type:'known-entity',entity:Y,operator:'set',value:false});if(typeof yl==='string'&&yl){YQ.type='npc-area';const ya=check(YQ)||'';effects.push({type:'npc-placement',npc:Y,operation:'moveAway'});const rl=check({type:'npc-location',npc:R});if(typeof rl!=='string'||!rl)effects.push({type:'npc-placement',npc:R,operation:'moveTo',location:yl,area:ya});YQ.type='npc-in-party';if(check(YQ)===true){effects.push({type:'npc-in-party',npc:Y,operator:'set',value:false});effects.push({type:'npc-in-party',npc:R,operator:'set',value:true});}}}else{/*yagi_scene*/const Y='Toshinori Yagi',SC=check({type:'npc-in-scene',npc:'anySceneNPC'});if(SC&&typeof SC==='object'&&SC[Y]){if(SC['All Might']){effects.push({type:'npc-placement',npc:Y,operation:'moveAway'});if(check({type:'npc-in-party',npc:Y})===true)effects.push({type:'npc-in-party',npc:Y,operator:'set',value:false});}else effects.push({type:'story',instruction:\"Narrator only: the thin, tired blond man in this scene is Toshinori Yagi in his own form. Write him as Yagi (or as an unnamed thin man if the player character has not learned his name), never as All Might: the muscular hero All Might is not in this scene and does not appear or speak in it, and if someone asks for him, Yagi says he is out on hero work. Only a character who already knows the secret may call Yagi All Might.\"});}}if(check({type:'known-entity',entity:R})===true&&check({type:'known-entity',entity:W})===true)effects.push({type:'known-entity',entity:W,operator:'set',value:false});const Q={type:'npc-location',npc:W};const l=check(Q);if(typeof l!=='string'||!l){if(!effects.length)skip=true;return;}Q.type='npc-area';const a=check(Q)||'';effects.push({type:'npc-placement',npc:W,operation:'moveAway'});effects.push({type:'npc-placement',npc:R,operation:'moveTo',location:l,area:a});Q.type='npc-in-party';if(check(Q)===true){effects.push({type:'npc-in-party',npc:W,operator:'set',value:false});effects.push({type:'npc-in-party',npc:R,operator:'set',value:true});}})();"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "Items: hero license trait [1-B]": {
+    "name": "Items: hero license trait [1-B]",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Hero License",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "player-traits",
+        "operator": "remove",
+        "value": "Provisional Hero License",
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "item-remove",
+        "item": "Provisional hero license",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false
+  }
+}

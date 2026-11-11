@@ -1,0 +1,20 @@
+{
+  "Sanguine Dome": {
+    "name": "Sanguine Dome",
+    "description": "The user opens a deeper cut and spreads the blood into a curved shell over themselves and the people beside them, hardening it in an instant. Until a heavy blow breaks it or the user lets it fall, bullets, blades, thrown debris and falling rubble stop at the shell and nobody outside can reach those inside. It costs the user some health in spent blood. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

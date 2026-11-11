@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Half-Cold Half-Hot Quirk": {
+    "name": "Mechanics: Canon Drawback Half-Cold Half-Hot Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Half-Cold Half-Hot Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Overheating",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

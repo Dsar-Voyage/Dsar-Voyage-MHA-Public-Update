@@ -1,0 +1,29 @@
+{
+  "Needle Throttle": {
+    "name": "Needle Throttle",
+    "description": "The user feathers the engines in short, exact bursts, so top speed no longer means wide turns or long stops. Until the end of their next turn they weave through a crowded room, platform or street at engine speed and kick every chosen enemy in it once, dealing heavy bludgeoning damage or, held back, only knocking them flat, without touching any bystander or hostage between them. The bursts overheat the ports, and the user cannot use the engines until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

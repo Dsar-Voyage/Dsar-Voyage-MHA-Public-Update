@@ -1,0 +1,15 @@
+{
+  "Items: price list": {
+    "name": "Items: price list",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Pp]rices?|[Cc]osts?|[Hh]ow much|[Ss]ell\\w*|[Ss]tock\\w*|[Mm]enu|[Cc]arry|[Hh]ave|[Gg]ot)\\b"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const K=[\"Campus Store\", \"Convenience Store Corner\", \"All-Night Convenience Store\"],B=[\"Black Market Basement\", \"Giran's Chinatown Office\"],PL={\"konbini\": [[\"Onigiri\", 150], [\"Bento box\", 600], [\"Canned coffee\", 130], [\"Energy drink\", 250], [\"Protein bar\", 200], [\"Bandages\", 500], [\"Painkillers\", 1000], [\"Ice pack\", 300], [\"Burn gel\", 1200], [\"First aid kit\", 4000], [\"Zip ties\", 300]], \"black\": [[\"Trigger vial\", 50000], [\"Forged ID\", 150000], [\"Burner phone\", 10000], [\"Smoke grenade\", 4000], [\"Flashbang\", 8000], [\"Lockpick set\", 5000], [\"Combat knife\", 6000], [\"Brass knuckles\", 3000], [\"Villain coat and gear\", 60000], [\"Homemade vigilante costume\", 15000]], \"campus\": [[\"Onigiri\", 150], [\"Bento box\", 600], [\"Canned coffee\", 130], [\"Energy drink\", 250], [\"Protein bar\", 200], [\"Bandages\", 500], [\"Painkillers\", 1000], [\"Ice pack\", 300], [\"Burn gel\", 1200], [\"First aid kit\", 4000], [\"Zip ties\", 300], [\"U.A. school uniform\", 45000], [\"U.A. gym uniform\", 12000], [\"Casual clothes\", 8000], [\"Business suit\", 40000], [\"Workshop coveralls\", 9000]], \"clothes\": [[\"Casual clothes\", 8000], [\"Business suit\", 40000], [\"Workshop coveralls\", 9000]]};const a=check({type:'party-area'})||'';const Q=[\"Station Concourse\", \"Marunouchi Concourse\", \"Hakata Station Concourse\", \"Shin-Osaka Shinkansen Concourse\", \"Kyoto Central Concourse\", \"Nagoya Central Concourse\", \"Sannomiya Station Concourse\", \"Hiroshima Station Concourse\", \"Kanazawa Station Concourse\", \"Utsunomiya Station Concourse\", \"Concourse Food Stalls\"],C=[\"Fashion Floors\", \"Department Stores\", \"Yaesu Underground Mall\", \"Tenjin Shopping District\", \"Tenjin Underground Mall\", \"Nagoya Underground Mall\"];const L=a==='Campus Store'?PL.campus:K.indexOf(a)>=0||Q.indexOf(a)>=0?PL.konbini:B.indexOf(a)>=0?PL.black:C.indexOf(a)>=0?PL.clothes:null;if(!L){skip=true;return;}effects.push({type:'story',instruction:'Narrator only: this shop\\'s prices (quote only these, in yen): '+L.map(r=>r[0]+' \\u00a5'+r[1]).join(', ')+'. Other goods here cost their usual price. Hero costumes are never sold.'});})();"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Iki": {
+    "name": "Iki",
+    "basicInfo": "The Genkai-nada around the north half of Iki, a low, rolling island between Kyushu and Tsushima. Most of this square is open water, but the island's north end lies inside it: the fishing town of Katsumoto with its morning market, the ferry port of Ashibe on the east coast, the hot-spring village of Yunomoto on the west, and Saruiwa, a sea stack shaped like a monkey's head in profile. Off Katsumoto lie a few small inhabited islets and uninhabited Tatsunoshima, whose white beaches and glassy water draw summer boat trips. Iki is gentle farmland of rice, barley and black cattle, dotted with small shrines, and it calls itself the birthplace of barley shochu; sea urchin rice bowls are the summer food. The water is a clear blue-green near shore and deep blue beyond, with the Tsushima Current setting northeast; winter northwesterlies make crossings rough. Jetfoils and ferries from Hakata reach Ashibe in about an hour and continue north to Tsushima, whose mountains show on the northwestern horizon. The coast guard patrols from Iki, and the island has a small police presence and a licensed hero or two for sea rescues. A party is out here by ferry, fishing boat or with a flying hero.",
+    "hiddenInfo": "Iki is quiet; its problems are an aging population, drift trash on the north shore and fishermen worried about thinning squid. Small trouble is drunken fights at the port, theft from boats and poaching around the islets. Help from Fukuoka is an hour away by fast boat in good weather.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -17,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/55e0dbd1-7037-48d1-998c-13d1d764e470.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

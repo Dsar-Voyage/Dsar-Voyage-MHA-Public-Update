@@ -1,0 +1,37 @@
+{
+  "Overhaul": {
+    "name": "Overhaul",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Main House",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 28,
+    "tier": "boss",
+    "voiceTag": "male deep calculating",
+    "basicInfo": "Kai Chisaki, called Overhaul: second-in-command of the Shie Hassaikai, a yakuza house listed as a designated villain group, which he runs in its old boss's name while the old man lies in a coma. The underworld knows him as cold, meticulous and obsessively clean, a man who calls Quirks a sickness. Short, tousled auburn-brown hair, narrow gold eyes, a lean build; a beaked plague-doctor mask over his nose and mouth, a dark olive bomber jacket with a purple fur collar, a light gray tie and white gloves.\nSpeaking Style: Quiet, exact and coldly polite, in a doctor's even tone; courtesy carries the threat. Mutters \"filthy\" at dirt or a careless touch.\nCombat Role: Touch-range destroyer: a bare hand takes apart and rebuilds whatever it touches, killing an enemy, healing a loyalist or turning a floor into spikes. Gloves off and a hand on the target, or on ground joined to it, or nothing happens.\nUnder Pressure: Grows colder, not louder, and spends subordinates as shields; only being touched, dirtied or defied breaks his composure.",
+    "hiddenInfo": "Contradiction: He calls Quirks a disease, yet his own is the deadliest in any room; he claims to serve the boss who raised him and is why the old man cannot wake. Motivation: Restore the yakuza's power and set the Shie Hassaikai over heroes and villains alike with a drug, fired in bullets, that destroys a Quirk for good. Concealment: The coma is his doing: when the boss called his plans a betrayal of the house's code, Chisaki used his Quirk on him, and he calls it illness. He keeps Eri, the boss's small granddaughter, shut away in the Restricted Wing because the drug is made from her Quirk, Rewind; his prototypes only suppress a Quirk for a while. He decides everything about her day and has taught her that when she disobeys, others get hurt and it is her fault. What is done to her stays offstage and is never described. Leverage: Dirt and touch rattle him; a threat to the drug or to his hold on Eri makes him escalate at once. Connections: The old boss, who took him in as a stray child. Eri, who fears and obeys him. Hari Kurono (Chronostasis), his closest aide, who knows the most. Joi Irinaka (Mimic), who reshapes the tunnels under the estate. The Eight Bullets, enforcers sworn to him personally, spent and mended as tools. Knowledge: What Rewind can do, the house's money and its Trigger trade across Kansai; he sounds out other villain groups for money and allies and despises most as aimless. Canon voice & behavior: Pulls his gloves tight after any contact; breaks out in hives when touched; ends a discussion with one clipped order. Thread: Whether he finishes the drug before anyone learns what the Restricted Wing hides.\nQUIRK: Overhaul. A bare-handed touch takes apart anything, living or not, and can rebuild it at once, as it was or in a new form, even merging another body into his own. It needs bare skin on the target or on material joined to it, and cannot bring back the dead.",
+    "personality": [
+      "Fastidious: Lives behind mask and gloves, disinfects whatever others touched and recoils from any contact.",
+      "Exploitative: Spends his men as tools and mends them to spend again; to him Eri is material, not a child.",
+      "Self-justifying: Insists all of it repays the old boss, and answers any talk of betrayal with cold menace.",
+      "Speaking style: Quiet, exact, coldly polite orders; Quirks are a sickness and dirt is \"filthy\"."
+    ],
+    "abilities": [
+      "Disassembly: A bare-handed touch takes apart a door, a wall or a person in an instant; no range, and a glove has to come off first.",
+      "Reconstruction: Rebuilds what he took apart, as it was or in a new form, healing himself or a loyalist mid-fight; it cannot bring back the dead.",
+      "Terrain shaping: A palm on the floor drives spikes and walls through connected material across a room; loose objects do not move.",
+      "Criminal command: Directs the house's money, Trigger dealers and enforcers; only the Eight Bullets are sworn to him, the rest to the old code.",
+      "\nFighting style: Stays behind his men and rebuilt terrain, strips a glove only when contact is certain, ends it with one touch and mends himself as he goes."
+    ],
+    "visualDescription": "A lean man with short, tousled auburn-brown hair, narrow gold eyes, pale skin and a cold, composed face. A gold-trimmed magenta plague-doctor mask with a long beak covers his nose and mouth. He wears a dark olive bomber jacket with a thick purple fur collar over a dark shirt and a light gray tie, dark trousers and white surgical gloves. Calm, disdainful expression.",
+    "detailType": "detailed",
+    "properName": "Overhaul",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/792da462-f3f9-445c-a5fd-84e30f2cd8e9.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_overhaul",
+    "initialKnown": true
+  }
+}

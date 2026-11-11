@@ -1,0 +1,30 @@
+{
+  "Joetsu": {
+    "name": "Joetsu",
+    "basicInfo": "Joetsu and its hinterland in southwestern Niigata, where the Kubiki Plain opens onto the Sea of Japan and climbs inland into snowy hills; a thin band of sea runs along the north, and the coast reaches from Nadachi east past the port of Naoetsu to Kakizaki under Mount Yoneyama. Joetsu city joins two old towns: Naoetsu, a port of chemical plants, fishing boats and the ferry terminal for Sado Island, and Takada, an inland castle town famous for some of the deepest snow recorded in any Japanese city. Takada's streets are lined with gangi, covered wooden arcades that keep the sidewalks open under meters of snow, and Takada Castle park holds thousands of cherry trees lit by lanterns at night in April and lotus blooming in its moats in summer. On the hill to the west stand the ruins of Kasugayama Castle, home of a famed warlord whose August festival fills the town with an armored horseback procession. Inland lie Arai in Myoko city, where chilies are bleached on the snow for kanzuri paste, the mountain villages of Yasuzuka and Ohshima, and in the southeast corner Matsudai and Matsunoyama, part of Tokamachi, with art installations scattered through rice terraces, the old Matsunoyama hot springs, and the Kiyotsu Gorge on the edge. The climate is mild in summer and brutal in winter, with snow-melt sprinklers in the roads and roof-clearing a daily chore. The Kubiki Plain grows Koshihikari rice; sake, sasa-dango rice dumplings, sweet shrimp, nodoguro and winter yellowtail fill the tables. The Hokuriku Shinkansen stops at Joetsumyoko, about two hours from Tokyo and about three from Musutafu; the Echigo Tokimeki Railway runs the coast and up to Myoko Kogen, the Hokuhoku Line cuts east through Matsudai to Tokamachi, and the Hokuriku and Joshin-etsu expressways meet here. Sado ferries leave Naoetsu for Ogi. Visitors come for the cherry blossoms, the castle ruins, the aquarium on the shore, art walks in the hills and hot springs. A few small hero offices in Takada and Naoetsu work with the police, and in heavy winters licensed heroes with heat or strength Quirks are called out to free stranded trains and buried homes.",
+    "hiddenInfo": "Snow is the real adversary: roof collapses, residents hurt clearing roofs, trucks stranded for hours on the expressway in whiteouts. Joetsu city has decent police and two or three small hero offices, but the hill villages of Yasuzuka, Matsudai and Matsunoyama can be an hour away in winter. Depopulation empties the uplands. Villainy is modest: theft around the port, scams on elderly residents, drunken fights in Naoetsu bars, and people paid under the table to clear snow with unlicensed Quirks.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -1,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9cdd7567-52f7-4531-8a83-40a44b1dd1ed.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

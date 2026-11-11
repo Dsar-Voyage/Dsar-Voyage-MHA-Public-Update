@@ -1,0 +1,20 @@
+{
+  "Sealed Breach": {
+    "name": "Sealed Breach",
+    "description": "The user touches a wall, a door or a fence that was broken through within the last minute, and it rebuilds itself whole around anyone standing in the gap. The returning bricks or planks close around their body and grip without crushing, holding them in place until they break out with a hard effort or are freed with tools. Anyone not standing in the gap is simply shut out, so a fleeing target must still be in it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

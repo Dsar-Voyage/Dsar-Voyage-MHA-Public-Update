@@ -1,0 +1,32 @@
+{
+  "Athlete Kit": {
+    "name": "Athlete Kit",
+    "description": "👟 You carry gear for a body in daily training.\n\n⚖️ All of it is legal to own; the boots are a commercial support item sold to the public.\n🏫 School competitions can ban support items for students outside the Support Course, so the boots may stay in a locker on event days.\n🔄 Protein bars and ice packs are used up on use.\n\n🎒 Starts with: Fitness tracker, Support boots, Protein bar ×4, Ice pack ×2",
+    "traitNarrativeEffects": "The character owns a wristband that tracks heart rate and training, spring-soled support boots with ankle support and grip, a stash of protein bars and instant cold packs for sprains and bruises. All of it is legal; the boots are a commercial support item sold to the public. School competitions can ban support items for students outside the Support Course, so the boots may stay in a locker on event days. Bars and cold packs are used up on use.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Fitness tracker",
+        "quantity": 1
+      },
+      {
+        "item": "Support boots",
+        "quantity": 1
+      },
+      {
+        "item": "Protein bar",
+        "quantity": 4
+      },
+      {
+        "item": "Ice pack",
+        "quantity": 2
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

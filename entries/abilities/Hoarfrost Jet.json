@@ -1,0 +1,20 @@
+{
+  "Hoarfrost Jet": {
+    "name": "Hoarfrost Jet",
+    "description": "The user throws a short jet of pale-blue flame from the palm at a target within three meters. It deals fire damage and leaves a crust of frost across the target's clothes or weapon; held back, it only singes and chills their fingers so they drop what they hold without burns. Rain or spray cuts its reach in half, and the frost crust melts away at the end of the target's next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

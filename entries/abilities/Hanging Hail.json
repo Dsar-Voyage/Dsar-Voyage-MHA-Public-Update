@@ -1,0 +1,20 @@
+{
+  "Hanging Hail": {
+    "name": "Hanging Hail",
+    "description": "The user touches rubble, crates, chairs or parked bikes in quick succession and pushes them drifting over a spot they choose. On the user's gesture they all drop at once: everyone beneath takes bludgeoning damage and is knocked down, and the fallen debris blocks the way until it is cleared. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

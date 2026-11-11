@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Permeation Quirk": {
+    "name": "Mechanics: Canon Drawback Permeation Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Permeation Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Bodily Toll",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

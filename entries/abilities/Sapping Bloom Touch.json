@@ -1,0 +1,20 @@
+{
+  "Sapping Bloom Touch": {
+    "name": "Sapping Bloom Touch",
+    "description": "The user grips an opponent's bare skin and drives a surge of plant-scented mending into a body with nothing to heal, while tiny blossoms sprout on their sleeve. The target takes biological damage as their strength drains into empty repair and cannot run or strike hard until the end of their next turn; held back, it deals no damage and only leaves them drowsy. The user pays moderate stamina from their own reserves. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Rubble Diver": {
+    "name": "Rubble Diver",
+    "description": "The user moves through a collapsed building's rubble, surfacing into each air pocket to look and listen before going on. They find every trapped person in that part of the collapse, learn who is hurt and how badly, and mark a safe line for diggers to follow, without adding weight to the pile or shifting it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

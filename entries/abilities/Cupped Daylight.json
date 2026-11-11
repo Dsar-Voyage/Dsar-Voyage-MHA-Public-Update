@@ -1,0 +1,20 @@
+{
+  "Cupped Daylight": {
+    "name": "Cupped Daylight",
+    "description": "The user gathers the light passing through their body into cupped palms and opens them at a target's eyes in a sudden white flash. The target is dazzled until the end of their next turn: they cannot aim, read signals or track the user, though they take no damage. A target who looks away in time or wears tinted lenses is unaffected. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

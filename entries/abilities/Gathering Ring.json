@@ -1,0 +1,24 @@
+{
+  "Gathering Ring": {
+    "name": "Gathering Ring",
+    "description": "For the rest of the scene, anything that crosses the ring circling the user joins it: thrown objects, falling glass, bullets and the projectiles of other Quirks fall into the circle instead of striking anyone inside. The user can send any of them back out for heavy bludgeoning or piercing damage; held back, they drop them harmlessly at their feet. The ring reaches only a few strides out and stops nothing that comes from below. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

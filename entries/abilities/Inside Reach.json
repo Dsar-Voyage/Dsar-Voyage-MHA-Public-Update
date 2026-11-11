@@ -1,0 +1,29 @@
+{
+  "Inside Reach": {
+    "name": "Inside Reach",
+    "description": "The user phases a single hand through the casing of a bomb, a locked safe, a car door or a gun's frame and turns the fingertips solid in the hollow space inside. In one action they pull a detonator wire, lift a firing pin, trip a lock from within or free a jammed seatbelt, and they can do this to one weapon or device within reach each turn for the rest of the scene. The phased hand cannot see, so the user works by touch alone, and a wrong move inside a live device sets it off. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Studied: Investigation": {
+    "name": "Studied: Investigation",
+    "description": "🔍 You studied how to work out what happened: criminology classes, a newspaper club, a detective agency job or years of case files.\n\n🌱 You read a scene and its evidence, build timelines, interview witnesses, check alibis and notice what does not fit.\n⚠️ Forensic labs, Quirk-based crimes and professional cover-ups outpace you, and you can commit to a wrong theory.\n⚖️ You are not police: no searches, no seizing evidence, no entering a sealed scene, and tampering with one is a crime.\n🏫 It shows in notes, pointed questions and a refusal to accept the first explanation.\n\n📈 Grants: Investigation +15",
+    "traitNarrativeEffects": "The character has studied investigation: reading a scene and its evidence, building timelines, interviewing witnesses, checking alibis and tracing records. They notice what does not fit and write it down. Prior study, not mastery: forensic labs, Quirk-based crimes and professional cover-ups still outpace them, and they can commit to a wrong theory. Not a license: they are not police; they cannot search, seize evidence, question suspects with authority or enter a sealed scene, and tampering with one is a crime. It shows in notes, pointed questions and a refusal to accept the first explanation.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Investigation",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

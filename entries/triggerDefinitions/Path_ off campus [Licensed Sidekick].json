@@ -1,0 +1,27 @@
+{
+  "Path: off campus [Licensed Sidekick]": {
+    "name": "Path: off campus [Licensed Sidekick]",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "offCampus",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

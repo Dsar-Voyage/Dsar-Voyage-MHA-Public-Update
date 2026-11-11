@@ -1,0 +1,24 @@
+{
+  "Maze of Doors": {
+    "name": "Maze of Doors",
+    "description": "For the rest of the scene the user ties every doorway, hatch and window in a building to their Quirk and decides where each one leads. Enemies who pass through any of them come out where the user chooses, such as a locked room, the roof or the front steps, while allies and evacuees step from any door straight to safety; only breaking through a wall gets around it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

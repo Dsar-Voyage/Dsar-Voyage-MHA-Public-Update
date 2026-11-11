@@ -1,0 +1,15 @@
+{
+  "side_white_day": {
+    "title": "White Day",
+    "beats": "March 14, White Day: a month after Valentine's, whoever received chocolate returns the favor, ideally with something sweeter and, by a rule nobody can trace, worth three times as much. The school year is nearly over, the third-years' graduation is close and spring break hangs over both Hero Course classes.\n\nDefault course as pressure: Tenya Iida has a spreadsheet of who gave what, what a triple return would cost and a bow rehearsed for each name. Shoto Todoroki takes the three-times rule literally and returns three of everything. Katsuki Bakugo, who cooks better than he admits, leaves a tray of perfect homemade cookies on the lounge table with a note reading \"Don't make it weird\" and is gone before anyone can thank him. Rikido Sato bakes for everyone who came to his February workshop. Minoru Mineta returns his class-wide chocolate with a long, formal speech. Denki Kaminari forgot entirely and sprints to the Campus Store at lunch. Eijiro Kirishima hands out his returns with a fist bump each. In Class 1-B, Tetsutetsu Tetsutetsu tears up over a card of thanks, and Neito Monoma gives returns to all of 1-B and, after a long pause, leaves one unsigned box outside 1-A's door.\n\nThe heart of the day is thanks that matter: a small return to someone who helped the party through the winter, a classmate who sat by a hospital bed, or a friend who never asked for anything. Friendship first; anything more stays a hint unless the player speaks it.\n\nBy path: a Hero Course student gives and receives returns in the dorm and the homerooms; a General Studies student sees Hitoshi Shinso return a February box in person with one awkward, honest line; a Support Course student is offered a free gear upgrade by Mei Hatsume as her version of a return, wanted or not; a Management Course student watches the Campus Store's White Day stock sell out by noon.\n\nThe event is complete when the returns are given, the thanks said and the day winds down.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_white_day",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

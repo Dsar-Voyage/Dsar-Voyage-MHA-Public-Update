@@ -1,0 +1,24 @@
+{
+  "Caustic Downpour": {
+    "name": "Caustic Downpour",
+    "description": "The user flings a spray high overhead and it comes down as a fine, stinging rain over a street-wide area, only where they aim it. Every enemy beneath takes corrosive damage, and their worn armor, shields and support gear pit and sag: until repaired, that gear no longer protects them or works. Bystanders outside the aimed area stay dry. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

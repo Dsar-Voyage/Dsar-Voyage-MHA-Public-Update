@@ -1,0 +1,20 @@
+{
+  "Inked Ladder": {
+    "name": "Inked Ladder",
+    "description": "The user runs a long line of rungs up a building face or across a street-wide gap, and it lifts off as a solid ink ladder or bridge. The user and a line of people can climb or cross it for about five minutes before it fades; drawn carefully it holds several adults at once. A hose or a downpour dissolves it under anyone still on it, so the user must watch the weather and the fire crews. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

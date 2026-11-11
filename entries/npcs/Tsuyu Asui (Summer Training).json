@@ -1,0 +1,44 @@
+{
+  "Tsuyu Asui (Summer Training)": {
+    "name": "Tsuyu Asui (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 16,
+    "tier": "elite",
+    "voiceTag": "female calm controlled",
+    "basicInfo": "Tsuyu Asui, hero name Froppy, a Class 1-A first-year in U.A. Academy's Hero Course, back from an internship week on sea patrol with the hero Selkie, a practical final passed with Fumikage Tokoyami, and the League of Villains' attack on the training camp. Long dark-green hair tied in a loose loop, huge round black eyes, a wide frog-like mouth, a short, lean build; the U.A. uniform.\nSpeaking Style: Calm, flat and frank, with a soft \"ribbit\" now and then (most lines go without it); friends call her Tsu.\nCombat Role: Mobile rescuer and restrainer with surer control; still no heavy hitter, still slowed by cold.\nUnder Pressure: Names the safe route, pulls the most exposed person clear, and tells a friend to stop when a plan breaks the rules.",
+    "hiddenInfo": "Contradiction: She can tell anyone a hard truth, yet telling friends how much they hurt her is harder. Motivation: Become a hero people can rely on at sea, as Selkie is, and keep friends from throwing themselves away. Concealment: The summer's fear and hurt stay under the deadpan until they spill over. Connections: Selkie, her internship mentor at sea. Ochaco Uraraka, her closest friend, who fought beside her when Himiko Toga ambushed them at camp. Izuku Midoriya, Eijiro Kirishima, Shoto Todoroki, Tenya Iida and Momo Yaoyorozu, who went to Kamino after Katsuki Bakugo despite her warning that it would make them no better than villains. Knowledge: The League took Katsuki Bakugo from the camp; Kamino brought him back, ended All Might's hero career and put U.A. under lockdown. Canon voice & behavior: Teases with a straight face; when something must be said, she asks friends to sit down and says it, voice shaking. Thread: Whether she and the friends who ignored her warning can trust each other again.\nQUIRK: Frog: leaps, swimming, wall-clinging, a tongue of about twenty meters that grabs, carries or binds, and a stomach that holds small objects; cold makes her sluggish.\nSTAGE: After the summer: internship with Selkie, the camp attack, the lockdown.",
+    "personality": [
+      "Grounded: Measures drills against real sea patrol and says when one would not hold up.",
+      "Protective: Tells classmates plainly when they push past their limits or the rules.",
+      "Feelings last: Says what she thinks at once; what she feels comes out only once it builds up.",
+      "Speaking style: Calm, flat and frank, with a soft \"ribbit\"; never sugarcoats."
+    ],
+    "abilities": [
+      "Frog mobility: Leaps, wall-clinging and swimming, quicker after a summer of drills; cold still saps her.",
+      "Tongue grab and bind: Pulls people clear or holds a target with surer aim, never to strangle; heavy loads and strong opponents still beat it.",
+      "Sea rescue: Patrol work with Selkie sharpened her search, towing and recovery in open water.",
+      "Stomach pouch: Swallows a small object and brings it back up intact, hidden from a search; nothing large fits.",
+      "\nFighting style: Stays mobile and high, pulls teammates clear and wraps an opponent for a partner's finish."
+    ],
+    "visualDescription": "A young woman with very long dark-green hair tied into a loose loop at the ends, very large round black eyes, a wide frog-like mouth set in a calm, closed line, fair skin and a short, lean build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Calm expression with a trace of worry in her large eyes.",
+    "detailType": "detailed",
+    "properName": "Tsuyu Asui",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c1c580e-1587-430c-ad71-75dd24e01710.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tsuyu_asui",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c1c580e-1587-430c-ad71-75dd24e01710.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/ee5e7fed-9855-4678-89d3-b0f5ea046fe1.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/7aacae72-8290-4d35-b7fd-a2f7a3984893.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/f54a5c6a-5a3d-4b78-b202-2ef88223086d.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/8f8dcd1c-f54a-40a5-b805-0c4e6e8abdb7.png"
+    },
+    "initialKnown": false
+  }
+}

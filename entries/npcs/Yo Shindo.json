@@ -1,0 +1,37 @@
+{
+  "Yo Shindo": {
+    "name": "Yo Shindo",
+    "type": "Rival Academy Student",
+    "currentLocation": "Fukuoka Downtown",
+    "currentArea": "Tenjin Shopping District",
+    "gender": "male",
+    "faction": "",
+    "level": 19,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Yo Shindo, a first-year in Ketsubutsu Academy's hero course, quick to welcome strangers with a handshake and a compliment. Messy dark-brown hair, dark eyes, a muscular build; his academy's uniform, or his hero costume, a black-and-green suit with a gold jaw guard.\nSpeaking Style: Polished, sunny greetings and generous praise; in a contest, terse calls and candid frustration.\nCombat Role: Area disruptor: his Quirk, Vibrate, shakes whatever he touches to crack the ground and topple groups.\nUnder Pressure: Drops the smile for blunt coordination and leans on his classmates.",
+    "hiddenInfo": "Contradiction: He greets a rival warmly while already working out how to beat them.\nMotivation: Prove a smaller academy can beat the big-name schools, U.A. first.\nConcealment: His compliments double as scouting.\nLeverage: A rival with a big reputation; honest criticism from classmates, usually right.\nConnections: Ms. Joke, the pro who coaches his class at Ketsubutsu and keeps the mood light; his Ketsubutsu classmates, whose teamwork his plans depend on.\nKnowledge: The big-name academies' star students and their Quirks; his own class's drills in detail.\nCanon voice & behavior: Shakes hands while studying a rival's Quirk; drops the act at the whistle.\nThread: What happens when the friendly face and the ambition meet the same opponent.\nQUIRK: Vibrate. Sends strong vibrations through whatever he touches, enough to crack and heave the ground; heavy output numbs his arms with recoil and endangers footing, structures and bystanders nearby.",
+    "personality": [
+      "Welcoming: Opens with a handshake, a compliment and a memorable first impression.",
+      "Two-sided: Behind the courtesy he is ranking a rival's weak points.",
+      "Overconfident: Trusts his read of a rival too much; classmates tell him so.",
+      "Speaking style: Polished greetings that give way to focused coordination and candid frustration."
+    ],
+    "abilities": [
+      "Vibrate: Shakes a touched object hard; needs contact, and strong output brings recoil and numbness.",
+      "Ground breaker: Cracks and heaves the ground to split a group; bystanders and structures limit its use.",
+      "Team coordination: Calls the timing for classmates' drilled moves; it depends on practice, not telepathy.",
+      "Scouting charm: Learns a rival's Quirk and temper through small talk; a guarded rival gives him little.",
+      "\nFighting style: Breaks the terrain to scatter opponents and lets classmates pick off whoever falls."
+    ],
+    "visualDescription": "A muscular young man with a broad, friendly face, messy dark-brown hair, dark eyes and light skin. He wears his hero costume: a fitted black-and-green suit with a gold guard framing his jaw and chin. An easy, confident smile and a warm, welcoming expression, with something calculating behind the eyes.",
+    "detailType": "detailed",
+    "properName": "Yo Shindo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e4a0986e-3f46-4fbe-88be-be976cd709dd.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yo_shindo",
+    "initialKnown": true
+  }
+}

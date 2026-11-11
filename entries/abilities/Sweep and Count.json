@@ -1,0 +1,15 @@
+{
+  "Sweep and Count": {
+    "name": "Sweep and Count",
+    "description": "The user splits a crowd into small groups, names a calm person to lead each group, sends them out by different exits, then counts heads at the assembly point. A whole floor, station platform or street block empties in a single action, and the user knows exactly who is still missing and where each of them was last seen. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Evacuation",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

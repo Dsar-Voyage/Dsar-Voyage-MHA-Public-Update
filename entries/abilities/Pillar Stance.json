@@ -1,0 +1,20 @@
+{
+  "Pillar Stance": {
+    "name": "Pillar Stance",
+    "description": "The user gets under a collapsing ceiling, a sagging floor, a toppling wall or a falling sign and takes its weight on their whole body. While they hold, nothing above them falls any further and everyone beneath can get out; the user cannot move or attack, and can hold until the end of the scene or until they let go. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

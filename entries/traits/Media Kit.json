@@ -1,0 +1,33 @@
+{
+  "Media Kit": {
+    "name": "Media Kit",
+    "description": "📷 You carry gear for making and sharing content.\n\n⚖️ All of it is legal to own, and filming in public is allowed.\n⚠️ Crossing a police or hero cordon for a shot is obstruction, posting private faces brings complaints, and footage can be demanded as evidence.\n🤝 Handing out cards makes you easy to find for fans, sponsors and anyone with a grudge.\n\n🎒 Starts with: Camera, Tablet, Business cards",
+    "traitNarrativeEffects": "The character owns a camera for photos and video, a tablet for editing, notes and presentations, and a box of business cards with their name and contact details or channel. All of it is legal. Filming in public is allowed, but crossing a police or hero cordon for a shot is obstruction, posting private faces brings complaints, and footage of a crime can be demanded as evidence. Handing out cards makes the character easy to find for fans, sponsors and anyone with a grudge.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Camera",
+        "quantity": 1
+      },
+      {
+        "item": "Tablet",
+        "quantity": 1
+      },
+      {
+        "item": "Business cards",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Civilian Life"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

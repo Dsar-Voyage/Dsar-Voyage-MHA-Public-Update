@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: magne_plf": {
+    "name": "Portrait Swap: magne_plf",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Magne",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/278452d0-6907-4d51-95ed-6bbfa45c4401.png"
+      }
+    ]
+  }
+}

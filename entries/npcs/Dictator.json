@@ -1,0 +1,36 @@
+{
+  "Dictator": {
+    "name": "Dictator",
+    "type": "Villain",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "",
+    "level": 30,
+    "tier": "strong",
+    "voiceTag": "male sly manipulative",
+    "basicInfo": "Dictator is a Tartarus escapee who turns crowds into unwilling weapons through his Quirk, Despot. Among the dangerous criminals loose after the prison break, he favors a position from which other people bear the immediate danger. His victims remain people in need of rescue even while their bodies obstruct or attack a hero. He is short and severely hunched, with his head held near the level of his stomach, long thin arms, small legs and a round face. Crosshair markings surround his small eyes, and a wide, grooved mouth dominates his face. A large black coat threaded with control lines hangs over a dress shirt.\nSpeaking Style: Smug, needling commentary; draws attention to the difficulty of fighting him without hurting his captives.\nCombat Role: Crowd control and hostage obstruction. Despot lets him direct people through controlling threads, giving him numbers and cover rather than personal durability.\nUnder Pressure: Relies more heavily on the people under his control, watches for a hero's reluctance and tries to keep the confrontation on those terms.",
+    "hiddenInfo": "Contradiction: He presents himself as a commanding figure while depending on captive civilians to stand between him and danger.\nMotivation: Fulfill an opportunity offered by All For One and exploit the collapse of ordinary public protection for his own advantage.\nConcealment: His apparent numerical superiority consists of victims whose movements are being compelled. Their pleas and resistance must remain distinct from his intentions.\nLeverage: Separating him from his controlled crowd, disrupting his concentration or reaching him from an unexpected angle threatens the advantage he depends upon.\nConnections: All For One, whose prison break enabled his freedom and whose hunt for Deku offers him a target; the civilians he controls, who are captives rather than allies.\nKnowledge: How Despot works, the behavior of frightened crowds and the practical restraint a rescue-minded hero must exercise.\nCanon voice & behavior: Taunts an exhausted opponent about having too many people to save and treats that concern as a weakness to exploit.\nThread: Can Deku be reached before exhaustion and a controlled crowd leave him trapped, and can other heroes break Dictator's hold without injuring the captives?\nQUIRK: Despot. Controlling threads compel other people's movements. Control is not loyalty, and the victims do not choose the acts he forces upon them.",
+    "personality": [
+      "Coercive: Uses other people's bodies to obtain an advantage.",
+      "Smug: Enjoys explaining the rescue problem he has created.",
+      "Opportunistic: Targets vulnerability and exhaustion.",
+      "Speaking style: Nasal taunts and self-satisfied explanations."
+    ],
+    "abilities": [
+      "Despot: Uses controlling threads to compel people's movements.",
+      "Crowd obstruction: Places controlled victims between himself and an opponent.",
+      "Hostage pressure: Exploits a hero's obligation to protect the people he controls.",
+      "Ambush judgment: Favors exhausted targets and situations with available captives.",
+      "Fighting style: Surrounds the target with controlled civilians and remains behind them while directing their movements."
+    ],
+    "visualDescription": "A short adult man with an extreme forward hunch, a low-set round head, long lanky arms and very small legs. His small, beady eyes are surrounded by crosshair markings, and his broad mouth has deep vertical grooves. He wears an oversized black coat stitched with visible control lines over a dress shirt. His hands hang forward, and his expression is smug and malicious.",
+    "detailType": "detailed",
+    "properName": "Dictator",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d00bc51f-74ec-4f68-b121-7abb922fb01f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "initialKnown": false
+  }
+}

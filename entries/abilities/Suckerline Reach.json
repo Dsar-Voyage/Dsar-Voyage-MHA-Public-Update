@@ -1,0 +1,20 @@
+{
+  "Suckerline Reach": {
+    "name": "Suckerline Reach",
+    "description": "The user's fingers stretch into the tentacles of octopus or squid they have eaten, long enough to cross a small room. They can grab a person or object in that reach and pull them in, wrap a target's arms so they cannot strike until they break free with a hard effort, or fix the suckers to a wall or ceiling and haul themselves up. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

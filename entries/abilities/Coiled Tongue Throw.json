@@ -1,0 +1,20 @@
+{
+  "Coiled Tongue Throw": {
+    "name": "Coiled Tongue Throw",
+    "description": "The user coils their tongue around one opponent's waist within ten meters and uses a planted stance to throw them up to two meters this turn, dealing moderate bludgeoning damage. Held back, the user lowers them onto their back and keeps the coil loose enough to breathe. The target must be roughly an adult's weight, and grabbing the tongue can stop the throw. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

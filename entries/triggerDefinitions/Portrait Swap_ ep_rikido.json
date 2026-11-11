@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_rikido": {
+    "name": "Portrait Swap: ep_rikido",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Rikido Sato (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7243ba02-11a8-41a9-a682-619cfb008257.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Rikido Sato",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7243ba02-11a8-41a9-a682-619cfb008257.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Rikido Sato (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7243ba02-11a8-41a9-a682-619cfb008257.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Rikido Sato (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7243ba02-11a8-41a9-a682-619cfb008257.png"
+      }
+    ]
+  }
+}

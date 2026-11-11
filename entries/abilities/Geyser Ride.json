@@ -1,0 +1,20 @@
+{
+  "Geyser Ride": {
+    "name": "Geyser Ride",
+    "description": "The user fires jets from the soles and rides a rising column of water up a building face, onto a rooftop or a bridge, or skims across a river or a flooded street at a run. A single person the user holds rides along, and the user can hover at a high window long enough to bring someone out. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

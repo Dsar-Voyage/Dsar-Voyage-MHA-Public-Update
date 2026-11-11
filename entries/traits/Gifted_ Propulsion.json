@@ -1,0 +1,32 @@
+{
+  "Gifted: Propulsion": {
+    "name": "Gifted: Propulsion",
+    "description": "🧬 Propulsion, as an extra Quirk put into your body.\n\n🌱 At the start they drive you at about the speed of a car on a city street for about a minute at a time, and kick hard enough to dent a car door.\n📈 With training: a ring of foes swept down, the injured shuttled from fires, wall runs, a speeding car beaten to the person in its path, walls rammed, a runaway bus caught.\n⚠️ The engines are loud and hot, and they cannot make you fly.\n🔗 Common drawback pairing: Cooldown, as a pushed engine stalls and must reset.\n🎬 Similar canon Quirks: Tenya Iida (Engine).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Propulsion family): Scale: body engines vent through calf ports, or forearm or back thrusters (player's choice). A new adult user runs at about city-car speed for about a minute before the engines ease off; kicks dent a car door. More needs techniques. Limits: no flying or hovering. Speed makes turns wide and stops long; mud and deep water choke the ports; a blocked port or a firm grip on the limb stalls that engine. Loud, hot engines rule out sneaking while running them. Quirk Strain: none for walking and ordinary running; light: boosted kick, dash; moderate: spinning sweep, rescue shuttle, wall sprint; heavy: last-second save, ram through a wall; severe: signature kick, stopping a runaway vehicle. Type: Mutant. Law: unlicensed engine-speed running on public streets breaks Quirk law; a collision at that speed is also a traffic crime.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Running",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

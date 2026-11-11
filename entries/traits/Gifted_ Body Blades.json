@@ -1,0 +1,35 @@
+{
+  "Gifted: Body Blades": {
+    "name": "Gifted: Body Blades",
+    "description": "🧬 Body Blades, as an extra Quirk put into your body.\n\n🌱 At the start a curved edge about thirty centimeters long slides from your forearms, shins or knuckles in under a second, cutting rope, cloth, wood and plastic.\n✂️ It frees a tied-up person in a single stroke, and you strike with the flat when you hold back.\n📈 With training: caught weapons, people pinned by their clothes, blade-spur climbs, people cut from wrecks, cleaved armor, a bloom of edges, a room disarmed bloodlessly.\n🔗 Common drawback pairing: Bodily Toll, as every blade tears its way out through your skin.\n🎬 Similar canon Quirks: Togaru Kamakiri (Blades).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Body Blades family): Scale: the user grows bone-hard blades through the skin of forearms, shins, knuckles and elbows. A new adult user extends an edge of about thirty centimeters in under a second and holds it at will; it cuts rope, cloth, plastic and wood but only scratches steel. More needs techniques. Limits: reach is arm's length plus the blade; blades cannot be thrown or stop bullets. A heavy blow or twisting grip snaps a blade, which bleeds and regrows in about a minute; a grapple on the arms shuts them down. Every edge cuts, so holding back means striking with the flat. Quirk Strain: light: a cut, freeing someone; moderate: block, pin, spur climb; heavy: carving a wreck, cleaving armor; severe: signature bloom, a room of precise cuts. Type: Transformation. Law: blades count as a drawn weapon: unlicensed public use brings police; a cut on a person is an armed attack.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Melee Weapons",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "slashing"
+    ]
+  }
+}

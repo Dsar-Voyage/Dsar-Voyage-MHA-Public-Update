@@ -1,0 +1,31 @@
+{
+  "Place Light: dorm unpacked (story)": {
+    "name": "Place Light: dorm unpacked (story)",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "dormUnpacked",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "dormUnpacked",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Your Dorm Room"
+      },
+      {
+        "type": "story",
+        "query": "The player character has unpacked their belongings in their own dorm room: the move-in boxes are emptied and put away."
+      }
+    ]
+  }
+}

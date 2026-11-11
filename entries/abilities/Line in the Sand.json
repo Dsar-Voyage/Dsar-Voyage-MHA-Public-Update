@@ -1,0 +1,15 @@
+{
+  "Line in the Sand": {
+    "name": "Line in the Sand",
+    "description": "The user marks a line, a doorway or a distance and tells a group exactly what happens to the first person who crosses it. No ordinary opponent, such as a thug, guard or gang member, crosses it for the rest of the scene unless a leader forces them to, and those who were already wavering flee or surrender. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

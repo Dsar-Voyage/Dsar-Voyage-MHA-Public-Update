@@ -1,0 +1,24 @@
+{
+  "Deep Mend": {
+    "name": "Deep Mend",
+    "description": "The user pours the Quirk into a single grave injury in one long session: a deep burn across a limb, a crushed hand, a collapsed lung or a gunshot wound. The injury closes and the patient regains most of their health, but they lose extreme stamina and fall asleep for hours unless danger forces them up. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Healing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

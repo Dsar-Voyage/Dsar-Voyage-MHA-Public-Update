@@ -1,0 +1,15 @@
+{
+  "Rooted Guard": {
+    "name": "Rooted Guard",
+    "description": "Facing a blow strong enough to send a person through a wall, the user drops their stance, braces against the ground and meets it on a locked guard. The user is not knocked back or down, the injury is a category lighter than the blow would cause, and the attacker is left off balance and open to the user's next action. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Blocking",
+        "amount": 12
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 2
+  }
+}

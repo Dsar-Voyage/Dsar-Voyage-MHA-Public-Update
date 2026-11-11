@@ -1,0 +1,20 @@
+{
+  "Quick-Change Fade": {
+    "name": "Quick-Change Fade",
+    "description": "The user breaks line of sight for a moment, behind a pillar, a passing bus or a crowd, and steps back out wearing a face from a sample they carry. Anyone tailing them loses the trail and must search the area to pick them out again, and descriptions already given to police no longer fit. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

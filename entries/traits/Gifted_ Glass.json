@@ -1,0 +1,32 @@
+{
+  "Gifted: Glass": {
+    "name": "Gifted: Glass",
+    "description": "🧬 Glass, as an extra Quirk put into your body.\n\n🌱 Raise a door-sized pane, flick blunt beads, grow lenses, shards and plates. Your glass stops fists and pistol rounds until a blow hits its weak point.\n📈 Training adds shackles fused to the floor, a lens that focuses sunlight, glazing shut a cracking wall, stairs up a building, shard fans and holding up a falling tower.\n⚠️ You always feel the weak point and can shift it, but sudden heat change cracks it.\n🔗 Common drawback pairing: Bodily Toll, as the skin at your knuckles cracks and bleeds when you push it.\n🎬 Similar canon Quirks: none close.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Glass family): Scale: clear glass wells from palms and forearms and sets hard in a second or two as guided; at first about a bucket per scene, up to a door-sized pane. It stops fists, bats, knives and pistol rounds, but a blow on its weak point shatters it; the user feels that point and all strain and can shift it by touch. Bigger structures need learned techniques. Limits: only self-grown glass obeys, though they feel strain in any glass touched. It hides nothing; sudden heat change (fire, then water) cracks it; shards cut unless carefully grown to break blunt. Quirk Strain: light: pane, beads; moderate: shackle, lens, stair; heavy: glazing a failing structure, shard fan; severe: signature fist, holding up a building. Type: Emitter (also fits Mutant). Law: glass left on roads is the user's to clear; unlicensed shards count as weapons.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Slipstream Skyway": {
+    "name": "Slipstream Skyway",
+    "description": "The user sheds flight feathers into a wind ring that spans a whole city block from street to rooftops for the rest of the scene. Inside it, the user hovers without flapping to pluck people from windows, and feather-guided updrafts catch every falling person and float trapped groups to safety; enemies in the currents take heavy force damage and are thrown back, or are only pinned in place when held back. Strong crosswinds at the perimeter fray the ring, and when it ends the lost feathers and exhausted back ground the user for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

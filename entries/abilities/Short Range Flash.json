@@ -1,0 +1,20 @@
+{
+  "Short Range Flash": {
+    "name": "Short Range Flash",
+    "description": "The user releases electricity around their body across a few steps. Everyone in that space who lacks insulation takes moderate electric damage and loses their next movement; held back, the user cuts the charge after a painful warning shock. The burst is indiscriminate, so an ally beside the user is struck too. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

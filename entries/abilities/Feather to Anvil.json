@@ -1,0 +1,25 @@
+{
+  "Feather to Anvil": {
+    "name": "Feather to Anvil",
+    "description": "The user's signature move: they turn light so their arm whips forward with no weight to slow it, then turn as heavy as they can in the instant the blow lands. It deals massive bludgeoning damage that no block or brace can stop and drives the target into the ground, unable to rise until the end of their next turn; afterward the user's joints lock up and they cannot change density until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

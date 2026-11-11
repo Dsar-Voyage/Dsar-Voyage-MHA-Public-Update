@@ -1,0 +1,42 @@
+{
+  "Side Resume: Kendo's Study Session": {
+    "name": "Side Resume: Kendo's Study Session",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "b1_kendo_study",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_b1_kendo_study",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_b1_kendo_study",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "b1_kendo_study"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_b1_kendo_study",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Kendo's Study Session\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Evenings in the week before the final exams, in the Class 1-B Dorm Lounge at U.A."
+      }
+    ]
+  }
+}

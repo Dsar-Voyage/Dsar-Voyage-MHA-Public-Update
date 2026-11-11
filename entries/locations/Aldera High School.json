@@ -1,0 +1,86 @@
+{
+  "Aldera High School": {
+    "name": "Aldera High School",
+    "basicInfo": "Aldera High School is an ordinary public school on Musutafu's southeast side, about 5.5 km from the station, under 2.5 km from the Midoriya apartment and under 2 km from the Bakugo house, with concrete classroom blocks, a sports ground, a gym and a courtyard with a koi pond. Most of its graduates go on to ordinary jobs or further study close to home. This year it boasts that two graduates, Izuku Midoriya and Katsuki Bakugo, got into U.A. Academy, a first for the school, and a banner in the entrance hall says so. Classes run from half past eight into the afternoon, and club practice fills the sports ground with shouting until six; the baseball club's bats and the brass band's scales carry for blocks. Students in navy uniforms crowd the convenience store across the road after classes and walk home in loud groups. Visitors sign in at the front office and wear a visitor badge; the gate is closed during classes, and nobody wanders the corridors without a teacher's escort. On weekends the school is closed except for club practice. A player can visit a teacher, talk with current students, watch a club match, or ask about the two famous graduates, and anyone who mentions U.A. will draw a crowd of questions. The halls smell of floor wax and cafeteria curry, and the chime is the same one every school in town uses.",
+    "hiddenInfo": "Teachers who ignored years of Katsuki bullying Izuku now take credit for both of them. Former classmates still tell how Katsuki blew up one of Izuku's notebooks and threw it into the koi pond, and how the class laughed when a teacher mentioned that Izuku had applied to U.A. Most of them grew up knowing Izuku as Quirkless, and they gossip about how he got in: a hidden Quirk, a connection, a mistake by the examiners. Nobody here saw his power come in, and nobody can explain it. The principal is now drafting an invitation for both graduates to come back and speak at an assembly, and the homeroom teacher who laughed loudest is the one asked to write it; neither graduate has been asked yet, and either answer would cause a scene. Two of Katsuki's old hangers-on, graduates now, still turn up at the school gate after classes to brag that they know him, trading stories for attention from the current students. They also know exactly what was done to Izuku over the years, and one of them is uneasy about it now that Izuku is at U.A. too; he would talk to someone who caught him alone. The koi pond still has a notebook-sized patch of algae the groundskeeper swears he never cleaned out.",
+    "x": -2.03,
+    "y": 14.852,
+    "radius": 1,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Aldera School Gate": {
+        "description": "The front of Aldera High School: a wide sliding gate of steel bars between concrete pillars carved with the school's name, a short drive to the entrance hall of the main classroom block, and a bicycle shed packed tight along the fence. During classes the gate is rolled shut, and visitors buzz the front office, sign in, wear a visitor badge on a lanyard and wait for a teacher to walk them in. Inside the entrance, rows of shoe lockers face a banner announcing that two graduates, Izuku Midoriya and Katsuki Bakugo, were admitted to U.A. Academy, the first in the school's history. At half past eight a teacher stands at the gate greeting late arrivals by name; after classes navy uniforms pour across the road to the convenience store, where rice balls go for about 150 yen and the hero magazines get read standing up. A few graduates still loiter by the gate after classes, telling current students they know a U.A. first-year. A sign on the pillar says in plain words that Quirk use is forbidden on school grounds. Brass band scales drift from an upper window. Inside, the stairs lead to the Aldera Classroom and on up to the Aldera Rooftop.",
+        "paths": [
+          "Aldera Classroom",
+          "Aldera Rooftop"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c952bcf4-8ae4-4967-8cce-5ddd9e6f7673.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Aldera Classroom": {
+        "description": "An ordinary homeroom on the top floor of the classroom block, the room where Izuku Midoriya and Katsuki Bakugo spent their final year: rows of wooden desks, a green chalkboard, a teacher's lectern, a wall of windows over the courtyard and its koi pond, and cubbies along the back wall. Current students fill it from half past eight with homeroom and lessons until the afternoon; at lunch they push desks together over bento boxes and convenience-store bread, and after the last chime the cleaning rota sweeps the floor before club practice. The teachers who taught both famous graduates still teach here and tell the story of the U.A. admissions to every new class, each version kinder to themselves than the last. One old desk by the window has a faint scorch mark the custodian has never managed to sand out, and whoever sits there now gets asked about it. A printed notice by the door reminds everyone that using a Quirk in class means a call home. Chalk dust, floor wax and the crack of the baseball club's bats through the open windows fill the room. The corridor leads down to the Aldera School Gate and up the stairs to the Aldera Rooftop.",
+        "paths": [
+          "Aldera School Gate",
+          "Aldera Rooftop"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4bc2db53-ef7f-49a1-85dc-26b257c24953.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Aldera Rooftop": {
+        "description": "The flat roof of Aldera's classroom block, reached through a steel door at the top of the stairs: a wide stretch of weathered concrete, a tall chain-link fence around the edge, water tanks and air-conditioning units along one side, and a few benches someone dragged up years ago. The door is unlocked at lunch and after classes until club practice ends, and a duty teacher checks it at six; the rule painted on the inside of the door says no climbing the fence and no Quirks. At lunch, students who want space from their classmates eat up here in twos and threes, and after classes it belongs to friends with secrets, the occasional couple and anyone avoiding someone downstairs. From the fence the koi pond in the courtyard looks like a small green coin, and on a clear day the forested hills of U.A. Academy show to the north beyond Musutafu's rooftops, which some current students stare at longer than they would admit. The wind is always stronger up here than below and rattles the fence, and crows squabble over dropped bread crusts on the water tanks. The steel door leads back down to the Aldera Classroom and on to the Aldera School Gate.",
+        "paths": [
+          "Aldera Classroom",
+          "Aldera School Gate"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6e00a297-56f7-47d9-89f8-cca0a714e9cc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8ed2a865-2d4d-4e80-9781-92a6348f89f1.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

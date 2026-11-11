@@ -1,0 +1,30 @@
+{
+  "Shirahama": {
+    "name": "Shirahama",
+    "basicInfo": "The southwest coast of the Kii Peninsula around Tanabe Bay, and the broad stretch of open water west of it. Only a thin strip in the northeast corner is land: Minabe, Tanabe city, the hot-spring resort of Shirahama on its hooked headland, and the coast just south toward Tsubaki. The rest of the cell is the Kii Channel opening into the Pacific, with Shikoku out of sight far to the west. Shirahama is one of Japan's oldest hot-spring towns, a resort of big hotels and seaside baths whose landmarks lie in a row along its west shore: the bright white sand of Shirarahama beach, the Sakinoyu bath cut into the sea rocks, the flat tilted sandstone shelves of Senjojiki, the sheer cliffs of Sandanbeki with a sea cave below, and Engetsu, a small island with a round hole that frames the sunset near the equinoxes. The resort also has an airport, a large safari-style animal park, an aquarium and a busy fish market. Across the bay, Tanabe is a working city of fishing boats and plum merchants and the gateway to the Kumano Kodo pilgrim trails inland; its Tokei Shrine festival in late July brings out tall floats. Minabe, just north, is the plum capital of Japan: every hill is an orchard, white with blossom in February, and its umeboshi pickled plums are sold all year, while binchotan charcoal makers still work the same hills. Winters are mild, summers hot and humid, with heavy rain and typhoons in late summer. The JR Kisei Main Line brings the Kuroshio limited express from Shin-Osaka in about two and a half hours, the Kisei Expressway runs south past Tanabe, and Nanki-Shirahama Airport has flights from Haneda in a little over an hour. From Musutafu, it is about four and a half hours by shinkansen and limited express, or a short flight from Tokyo. Shirahama keeps a small resort hero office, and lifeguards with water Quirks work the beaches; Tanabe has its own police station and hero office, and sidekicks fill the summer fireworks nights on Shirarahama.",
+    "hiddenInfo": "Shirahama lives on tourism and has the quiet problems of a resort: summer crowds, drownings and rip currents off the rocks, drunk visitors, and pickpockets in the onsen streets. The sea cliffs along the west shore are dangerous in a swell, and police patrol the lookouts. Hero help beyond the resort office comes from Wakayama city, about an hour and a half north. Ordinary villainy is plum theft at harvest, thieves working hotel parking lots, and small-time fraud aimed at older pilgrims.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -7,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/84cbe5f0-865a-43fe-b3ad-bd332f0b269e.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

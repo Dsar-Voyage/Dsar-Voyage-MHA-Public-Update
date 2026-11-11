@@ -1,0 +1,25 @@
+{
+  "Street Marker Circuit": {
+    "name": "Street Marker Circuit",
+    "description": "The user works through a prepared network of compatible targeting markers for the rest of the scene, choosing one marked position each turn for a disabling discharge. A target beside that marker takes heavy electric damage; held back, the shock immobilizes them until the end of their next turn. The markers can be removed, and conductive ground may carry current beyond the chosen target. Sustaining the circuit steadily clouds the user's thinking. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

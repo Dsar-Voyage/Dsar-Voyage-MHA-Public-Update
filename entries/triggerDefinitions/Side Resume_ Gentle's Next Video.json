@@ -1,0 +1,42 @@
+{
+  "Side Resume: Gentle's Next Video": {
+    "name": "Side Resume: Gentle's Next Video",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "v_gentle_video",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_gentle_video",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_v_gentle_video",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "v_gentle_video"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_v_gentle_video",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Gentle's Next Video\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: A day in late October or early November."
+      }
+    ]
+  }
+}

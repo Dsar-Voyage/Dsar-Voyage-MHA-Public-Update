@@ -1,0 +1,17 @@
+{
+  "Costume Request": {
+    "name": "Costume Request",
+    "questSource": "Power Loader",
+    "questStatement": "Every Hero Course student is reworking their costume before the provisional license exam, and the Development Studio is buried in change requests. Power Loader drops one on your bench: a Hero Course first-year needs an upgrade that fits a new technique, and the exam is weeks away. You will have to meet the student, watch how their Quirk actually moves, and build something they will trust with their body.",
+    "mainObjective": "Take a Hero Course student's costume request and deliver a tested upgrade before the license exam.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has designed and delivered a costume upgrade for a Hero Course student, tested it with them, and Power Loader has signed it off."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Client work. Choose the client by record name from Class 1-A or 1-B to suit the PC's skills; a canon default is Izuku Midoriya, who needs leg gear for a new kicking style. The client has opinions: Katsuki Bakugo, if chosen, rejects anything that slows him, and Mei Hatsume may try to steal the job. Fittings happen in the Development Studio, and trial runs in Gym Gamma while the client trains. Power Loader tests before he signs. Failure: a late or rejected upgrade sends the client to the exam in old gear, and they remember it. Nothing here stages or predicts the license exam.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

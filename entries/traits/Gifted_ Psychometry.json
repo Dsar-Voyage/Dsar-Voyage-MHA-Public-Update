@@ -1,0 +1,32 @@
+{
+  "Gifted: Psychometry": {
+    "name": "Gifted: Psychometry",
+    "description": "🧬 Psychometry, as an extra Quirk put into your body.\n\n🌱 A touch reaches back only a few minutes, and in a fight, touching an opponent's weapon shows you where it was about to go.\n📈 Training adds tracing a stolen object through every hand, disarming a grip you have read, seeing a collapse, following guards' worn paths and reading a scene days back.\n⚠️ You read objects and places, never living minds, and gloves or fire stop you cold.\n🔗 Common drawback pairing: Sensory Overload, as other people's strongest moments crash into you with every touch.\n🎬 Similar canon Quirks: none close.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Psychometry family): Scale: bare fingertips on an object or spot read its residue: at first the last few minutes within a few strides (who touched it, their faces and hands, what they did and felt, words said in strong feeling). In a fight, touching a foe's weapon shows where it was about to go. Hours and days need learned techniques. Limits: objects and places only, never living minds or bodies. Gloves block it; crowd-handled things (cash, railings, straps) blur; fire scours residue. Fresh, strong feelings drown older, calm ones; impressions are images and feelings to interpret, so can mislead. Quirk Strain: light: quick reading, read parry; moderate: chain of hands, disarm, worn path; heavy: a collapse or battleground; severe: signature move, full scene. Type: Emitter. Law: reading private belongings without consent or a warrant is invasion of privacy; readings are police leads, never court evidence alone.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Investigation",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

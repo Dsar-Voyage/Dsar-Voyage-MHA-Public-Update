@@ -1,0 +1,30 @@
+{
+  "Deika": {
+    "name": "Deika",
+    "basicInfo": "Deika is mountain country about 100 kilometers northwest of Tokyo, where river valleys cut between forested ridges of cedar, beech and pine. Deika City fills a wide valley in the south of the region: a clean, prosperous city whose newer districts grew around the offices and plants of Detnerat, the support-equipment maker that owns much of its land and employs most of its people, from factory hands to designers of hero gear and everyday aids for people whose Quirks make ordinary life hard. Northwest of the city rises Gunga Mountain, its upper slopes private land with few roads; a private villa sits high on it about 18 km north-northwest of the city, behind a locked gate. The region's southeastern edge runs down to the outskirts of Jaku, the neighboring city about 14 km from Deika by rail, and there, about 4 km northeast of Jaku's station, stands Jaku General Hospital, the large general hospital that serves the whole district. Between the valleys lie rice terraces, orchards, old farming hamlets with wooden storehouses, hot-spring inns along the rivers and roadside stations selling soba and pickles; farther north the ridges climb toward the snow country and the high passes. Winters are cold, with snow on the ridges into April; spring comes late, the cherry trees bloom in mid-April, and summers are cooler than on the coast, with afternoon thunderstorms in the valleys. Residents are company employees, hospital staff, shopkeepers and old farming families, polite to visitors and slow to discuss their neighbors. Deika is famous for its low crime and its neighborhood associations, which settle disputes before anyone calls the police; anything serious brings in heroes from Jaku or from Hosu, about an hour away by train. Trains link Deika with Jaku, with Hosu in about an hour, with Tokyo in about an hour and a half and with Musutafu in about two and a half hours; buses climb into the hills, and anywhere above the valleys a car is a necessity. A visitor can take temporary work at Detnerat or the hospital, join a public factory tour, shop at Deika's evening market, soak in a valley hot spring, hike the ridges, or start asking why a town this content is so careful about strangers.",
+    "hiddenInfo": "Under the polite surface, Deika belongs to the Meta Liberation Army, which the rest of Japan files under history: nearly everyone in the city is a member, Detnerat pays for it, and the neighborhood associations double as its eyes. Outsiders who ask questions are noticed within a day. Gunga Mountain's upper slopes are emptier than any map admits, and something moves in its deep ravines that the valley people have learned not to ask about. Even the respected old director of Jaku's hospital keeps one door locked.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 15,
+      "max": 50
+    },
+    "x": 0,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5664a0cb-68ac-454d-b36e-09289c214ed4.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

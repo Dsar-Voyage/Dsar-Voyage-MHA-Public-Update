@@ -1,0 +1,25 @@
+{
+  "Redline Marathon": {
+    "name": "Redline Marathon",
+    "description": "The user's engines hold their top speed for the rest of the scene instead of a minute, fast enough to outrun expressway traffic. They cross a whole city district in moments, run evacuation trips between a disaster site and a shelter several blocks away until everyone on the site is out, and reach any point in the district before anyone there can act. Nobody they carry takes harm from the speed. When the scene ends the engines stall, and the user cannot run them until they rest a full night. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

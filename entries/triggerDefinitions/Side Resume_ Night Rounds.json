@@ -1,0 +1,42 @@
+{
+  "Side Resume: Night Rounds": {
+    "name": "Side Resume: Night Rounds",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "fac_night_rounds",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_fac_night_rounds",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_fac_night_rounds",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "fac_night_rounds"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_fac_night_rounds",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Night Rounds\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Late at night at Heights Alliance, U.A."
+      }
+    ]
+  }
+}

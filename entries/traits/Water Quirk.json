@@ -1,0 +1,40 @@
+{
+  "Water Quirk": {
+    "name": "Water Quirk",
+    "description": "💧 Your body makes water and pushes it out under pressure.\n\n🌱 At the start a jet knocks an adult down at close range, your spray puts out a burning room, and you hold a ball of your own water in shape for a few seconds.\n📈 With training: shells that stop blows and fire, hallway-sweeping waves, jets up a building, turned floodwater, slugs that hit through any guard, command of a whole flood.\n⚠️ Water held over a face can drown a person, so restraint comes first.\n🔗 Common drawback pairing: Finite Fuel, as every liter you push out has to be drunk back in.\n🎬 Similar canon Quirks: Backdraft (Water Hose).\n\n📈 Grants: Endurance +1, Quirk Output +10, Quirk Control +10, Search and Rescue +5\n⚡ Starting techniques: Hydrant Shot, Dousing Fan",
+    "traitNarrativeEffects": "Scale: the body makes clean water, released from the palms or a player-chosen spot. A new adult user fires a jet about ten meters that knocks an adult down up close, puts out a burning room within a minute, and holds a head-sized water ball a few seconds. Bigger feats need techniques. Limits: the water carries current (a soaked area is dangerous near live wires and electric Quirks), turns grease fires into fireballs and makes floors slick; cold or ice Quirks freeze it. Force drops fast past range; at the start it cannot cut or steer water the user did not make. Quirk Strain: light: jet, spray, held ball; moderate: water shell, sweeping wave, geyser ride; heavy: turning floodwater, water hammer; severe: signature wave, commanding a flood. Type: Emitter. Law: water held over a mouth and nose is attempted homicide however brief; flooding a street or building brings property charges. Look: cool, damp palms; in use, beads well up, then pour out in a roaring stream.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Hydrant Shot",
+      "Dousing Fan"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Pinpoint Control": {
+    "name": "Pinpoint Control",
+    "description": "🎯 You place your Quirk exactly where you mean it.\n\n✨ A narrow strike past a hostage, a gentle touch, a partial use on demand.\n📋 Requires level 16 and Quirk Control 22.\n🚫 Not available to Quirkless characters.\n\n📈 Grants: Quirk Control +10",
+    "traitNarrativeEffects": "The character has refined fine control of their Quirk: they can shrink its area, dial its force down to what the moment needs, aim it past an ally or a hostage and stop it the instant they decide. Show precision in small details: an effect that ends exactly at a line, a strike that bruises instead of breaking bone, a use so measured it looks easy. Limits: precision adds no range or power, and fatigue, panic and high Strain still loosen control. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 22
+      }
+    ]
+  }
+}

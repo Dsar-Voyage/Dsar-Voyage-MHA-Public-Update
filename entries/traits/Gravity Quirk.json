@@ -1,0 +1,40 @@
+{
+  "Gravity Quirk": {
+    "name": "Gravity Quirk",
+    "description": "🪐 You change the weight of what you touch.\n\n🌱 At the start a fingertip touch floats a person or object up to about a car's weight until you release it, or drags someone you grab to their knees.\n📈 With training: debris dropped on cue, rubble lifted off survivors, drifting wall leaps, unshakable anchors, one-handed car throws, crushing fields, a building held aloft.\n⚠️ Whatever you float falls when you let go.\n🔗 Common drawback pairing: Bodily Toll, as nausea and dizziness build with the weight you change.\n🎬 Similar canon Quirks: Ochaco Uraraka (Zero Gravity).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Liftoff Tap, Ballast Palm",
+    "traitNarrativeEffects": "Scale: the user changes the weight of what a bare fingertip or palm touches. At first: floats people and objects up to about a ton total (a small car) until a release gesture from anywhere in sight, or makes a held person about twice as heavy for a few seconds. More needs learned techniques. Limits: skin contact only, so full gloves block it; floated things keep momentum (a pushed car still hits hard) and drift in wind. Past the total, new touches do nothing; no push or pull at range; all of it falls if the user lets go or is knocked out. Quirk Strain: light: floating one person or object; moderate: making someone heavy, floating debris or rubble, drifting leap; heavy: anchoring something, throwing a car; severe: signature crush, holding up a collapsing building. Type: Emitter. Law: floating a person against their will is unlawful restraint; the user is liable for anything floated that falls on someone. Look: touched things rise shimmering or sag floorward.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Liftoff Tap",
+      "Ballast Palm"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

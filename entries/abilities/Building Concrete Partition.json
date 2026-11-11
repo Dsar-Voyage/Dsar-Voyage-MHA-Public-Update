@@ -1,0 +1,25 @@
+{
+  "Building Concrete Partition": {
+    "name": "Building Concrete Partition",
+    "description": "The user keeps both hands on a substantial concrete structure and reshapes connected floors and walls across sixty meters for three turns. The user raises twelve partitions up to twenty meters high, dividing a visible crowd into accessible courtyards with open exits for civilians. The operation redistributes existing material rather than creating it; reinforcement and structural loads restrict placement, and afterward the user cannot shape until rested. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

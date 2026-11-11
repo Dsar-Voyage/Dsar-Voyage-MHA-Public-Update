@@ -1,0 +1,20 @@
+{
+  "Domino mask": {
+    "name": "Domino mask",
+    "category": "Accessory",
+    "slot": "Accessory",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Disguise",
+        "value": 3
+      }
+    ],
+    "description": "A simple fabric or molded mask that covers the eyes and the bridge of the nose. It hides enough of a face to stop casual recognition, and many heroes wear one as part of a costume. [ Accessory | About ¥1,500 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/91a904f3-ab74-488d-9643-5f6373aa3346.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

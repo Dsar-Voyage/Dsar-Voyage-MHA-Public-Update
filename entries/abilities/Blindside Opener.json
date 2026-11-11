@@ -1,0 +1,20 @@
+{
+  "Blindside Opener": {
+    "name": "Blindside Opener",
+    "description": "The user strikes an opponent who has not noticed the user yet, from behind or from a blind side. The blow lands before the opponent can dodge, block or counter, dealing bludgeoning damage (slashing or piercing damage with a blade), and the opponent cannot strike back on their next action. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Striker",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

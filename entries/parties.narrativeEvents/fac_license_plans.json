@@ -1,0 +1,15 @@
+{
+  "fac_license_plans": {
+    "title": "License Exam Lesson Plans",
+    "beats": "Late summer at U.A. Academy, the weeks before the provisional license exam. Shota Aizawa has told the Hero Course to build at least two Ultimate Moves, signature techniques built on each student's Quirk, before the exam, and the faculty has turned the Main Gymnasium into a training hall. Cementoss raises cliffs, pillars and broken stairs out of the floor on request; Ectoplasm fills them with clones, one per student, and lets each fight until a move works or fails. All Might, retired and thin in a loose suit, watches from the side with a notebook and gives plain advice.\n\nThe default course, as pressure the player can change: by midmorning Izuku Midoriya has stopped punching and started kicking, sparing his scarred arms, and All Might cannot stop smiling; Katsuki Bakugo is blowing clones apart with a tighter, narrower blast; a dozen others are stuck. At lunch in the Teachers' Lounge the plan becomes an argument. Aizawa wants the slowest students pushed hardest. Cementoss reports that the floor needs more repairs than he can make by tomorrow and that two students trained through injuries. Vlad King wants equal gym hours for Class 1-B, which sits the exam at a different venue, and says so. Power Loader has a stack of costume change requests and no time. Ectoplasm names, in two sentences, who is not ready.\n\nA teacher party sets the rota, runs a session, rules on who gets the gym, or benches a student who is not ready for a day. Pushing a tired student too hard costs a sprain and a lecture from Recovery Girl; holding back too much costs a move nobody finishes before the exam.\n\nThe event is complete when the day's sessions end and next week's training plan is agreed, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_fac_license_plans",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

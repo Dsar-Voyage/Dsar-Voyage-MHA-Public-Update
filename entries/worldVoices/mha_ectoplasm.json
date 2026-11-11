@@ -1,0 +1,15 @@
+{
+  "mha_ectoplasm": {
+    "label": "Ectoplasm",
+    "voiceTag": "male deep controlled",
+    "instructions": "A deep, gravelly, slightly muffled man's voice, measured and direct. Sets challenges in short, exact sentences at a steady pace with a stern, testing edge and an occasional low growl of emphasis. Never chatty.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

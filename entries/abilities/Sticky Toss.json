@@ -1,0 +1,20 @@
+{
+  "Sticky Toss": {
+    "name": "Sticky Toss",
+    "description": "The user plucks one scalp ball and throws it at a person or object across a room. On contact it sticks the target to the next surface they touch until they cut away the caught clothing, break the surface or the ball loses its hold. The throw can miss, and a single ball cannot pin a strong person's whole body. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

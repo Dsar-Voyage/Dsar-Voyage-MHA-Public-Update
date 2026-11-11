@@ -1,0 +1,20 @@
+{
+  "Rubble Baton Sweep": {
+    "name": "Rubble Baton Sweep",
+    "description": "The user floats a loose beam up to four meters long by touching it, then grips and swings it across the space within its reach this turn. It deals moderate bludgeoning damage; held back, it pushes opponents aside with the broad surface. The user must guide the beam physically, has no protection from its moving ends and needs a clear area free of bystanders. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

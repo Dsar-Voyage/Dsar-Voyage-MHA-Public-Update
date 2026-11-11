@@ -1,0 +1,20 @@
+{
+  "Foreseen Grab": {
+    "name": "Foreseen Grab",
+    "description": "The user sees where a fleeing or struggling person within a few strides will step next and is already there, seizing an arm or collar. The target is held fast until they win a contest of strength against the user's grip; a hero with capture tape or cuffs can restrain them in that time. The grab works only on a target of roughly human size, and a target with a strength Quirk breaks it at once. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

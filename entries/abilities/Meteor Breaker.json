@@ -1,0 +1,25 @@
+{
+  "Meteor Breaker": {
+    "name": "Meteor Breaker",
+    "description": "The user's signature move: a column of blasts throws the user high into the air, then they dive with both palms forward and release everything on impact. It deals massive explosive damage to the target and everyone around the impact point and leaves a crater; afterward the user's arms are numb and cannot fire until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

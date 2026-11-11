@@ -1,0 +1,29 @@
+{
+  "Rapid Trait Exchange": {
+    "name": "Rapid Trait Exchange",
+    "description": "For the rest of the scene, the user rapidly moves traits from recently eaten foods between body parts, replacing a broken shell guard, extending tentacles to catch a falling person or forming wings for a short glide. Only traits from food still being digested are available. Each new feature remains vulnerable to injury, and the repeated changes consume the user's stamina and food supply. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

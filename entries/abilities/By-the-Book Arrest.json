@@ -1,0 +1,20 @@
+{
+  "By-the-Book Arrest": {
+    "name": "By-the-Book Arrest",
+    "description": "The user makes the arrest by procedure: states the charge, keeps the scene untouched for the police, records what happened and hands the suspect and the scene over by the book. The arrest holds up: the villain cannot walk free on a procedural error, and the user's statement counts in court. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Licensed Sidekick",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Hero Law",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

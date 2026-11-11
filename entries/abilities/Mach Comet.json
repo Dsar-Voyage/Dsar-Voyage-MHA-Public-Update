@@ -1,0 +1,25 @@
+{
+  "Mach Comet": {
+    "name": "Mach Comet",
+    "description": "The user's signature move: a long run-up squeezed into a few strides, ending in a single strike at a speed that cracks the air. It deals massive bludgeoning damage and throws the target through a wall or down the street, and the boom knocks everyone nearby off their feet; afterward the user's legs lock and they cannot speed up until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

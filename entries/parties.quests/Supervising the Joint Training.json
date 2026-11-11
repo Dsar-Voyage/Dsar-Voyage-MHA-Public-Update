@@ -1,0 +1,17 @@
+{
+  "Supervising the Joint Training": {
+    "name": "Supervising the Joint Training",
+    "questSource": "Vlad King",
+    "questStatement": "Class 1-A and Class 1-B are about to meet in their first Joint Training, team matches in the pipes and factory floors of Training Ground Gamma, and Vlad King wants it fair, with 1-B winning. He and Shota Aizawa need help building the rounds: balanced teams, start positions, jail sites, and rules for the General Studies student joining as a transfer trial.",
+    "mainObjective": "Help Vlad King and Shota Aizawa build fair team matches for the Joint Training.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has drawn up balanced team rosters, start points and jail sites for the Joint Training rounds and won sign-off from both Vlad King and Shota Aizawa."
+    },
+    "detailType": "detailed",
+    "questLocation": "Training Ground Gamma",
+    "questDesignBrief": "Two proud teachers and one map. Vlad King argues for 1-B at full volume; Aizawa counters flatly; both drop the rivalry the moment safety comes up. The PC walks Training Ground Gamma, checks the Control Tower monitors and the Pipe Maze's blind spots with Cementoss or Power Loader. Unless the story has established otherwise, Hitoshi Shinso joins as a transfer trial; his slots and capture scarf need rules, by default one round on each side. Neito Monoma may try to wheedle team details out of the PC. The matches run as the Joint Training event; nothing is decided here. Failure: a lopsided design gets torn up the night before.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

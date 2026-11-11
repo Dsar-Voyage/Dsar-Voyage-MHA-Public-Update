@@ -1,0 +1,15 @@
+{
+  "Set the Headline": {
+    "name": "Set the Headline",
+    "description": "Facing cameras or a crowd right after an incident, the user gives a short, quotable account that frames what happened on their terms. News coverage and online talk about the event follow the user's framing, unless hard footage contradicts it. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Media Presence",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "Licensed Sidekick": {
+    "name": "Licensed Sidekick",
+    "description": "🦺 You are a licensed pro hero working as a sidekick: patrols, arrests, reports and backing up the hero whose name is on the door.\n\n⚖️ Fully licensed from the first scene. You use your Quirk in hero work and emergencies, under the Commission's rules and your agency's orders.\n🏫 Set patrol shifts, call-outs, an incident report after every capture, court appearances, gym time and a rare day off.\n🤝 Your lead hero, fellow sidekicks, the local police (Detective Tsukauchi once a case touches the League) and pros such as Kamui Woods and Mount Lady.\n🔓 Learnable later: By-the-Book Arrest, Cordon Call.\n\n📈 Grants: Endurance +1, Hero Law +10, Team Coordination +10, Capture +5\n⚡ Starting technique: On-Scene Authority\n🎒 Starts with: Agency hero costume, Agency radio, Capture tape, ¥30,000, Duffel bag, Casual clothes",
+    "traitNarrativeEffects": "Legal status: licensed pro hero, sidekick at a small Musutafu-area agency, from the first scene (story start adds the Hero License trait, may name the agency). Quirk use in hero work and emergencies, arrests, supervising rescue helpers, under Commission rules and agency orders. Property damage and excessive force bring complaints and inquiries.\nAccess: office, gear, radio, crime scenes as support, agency contacts.\nObligations: patrol shifts, the lead's orders, a report per capture, police statements, court, training, image rules, agency ranking.\nWho notices: lead hero, sidekicks; police, and Detective Naomasa Tsukauchi on League of Villains cases; pros Kamui Woods, Mount Lady, Death Arms; residents, press; villains they arrested.\nStanding pressures: daily incidents, ranking by arrests; pros guard and scout the Sports Festival; may supervise a workplace-experience student; Stain, the Hero Killer, at large at year start; big operations pull in nearby agencies.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Hero Law",
+        "modifier": 10
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "On-Scene Authority"
+    ],
+    "startingItems": [
+      {
+        "item": "Agency hero costume",
+        "quantity": 1
+      },
+      {
+        "item": "Agency radio",
+        "quantity": 1
+      },
+      {
+        "item": "Capture tape",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 30000
+      },
+      {
+        "item": "Duffel bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      },
+      {
+        "item": "Hero license",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

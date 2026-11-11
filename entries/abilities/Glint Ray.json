@@ -1,0 +1,20 @@
+{
+  "Glint Ray": {
+    "name": "Glint Ray",
+    "description": "The user fires a thin, searing beam at a target in sight across a room. It deals light damage and chars cloth and paper; held back, it only stings, and a hand it strikes lets go of whatever it holds. The flash of the shot shows everyone watching where the user stands. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

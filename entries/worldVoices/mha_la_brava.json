@@ -1,0 +1,15 @@
+{
+  "mha_la_brava": {
+    "label": "La Brava",
+    "voiceTag": "female melodic bright",
+    "instructions": "A young woman's very high, sweet, slightly squeaky and nasal voice. Rapid and gushing, words tumbling over each other in lovestruck praise of Gentle; pouty when he is insulted, quavering and tearful when he is in danger.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

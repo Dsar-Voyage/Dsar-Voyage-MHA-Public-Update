@@ -1,0 +1,20 @@
+{
+  "Vise Hold": {
+    "name": "Vise Hold",
+    "description": "The user wraps a target in swollen arms and locks the hold. The target cannot move their arms, strike or use anything they hold until they break free with a hard effort or the user lets go, and each turn the user chooses to hold them harmlessly or squeeze, dealing bludgeoning damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Shatterpoint Fist": {
+    "name": "Shatterpoint Fist",
+    "description": "The user's signature move: they grow a layered glass gauntlet over one fist with its weak point turned inward, then drive it into a target. It deals massive bludgeoning damage that ignores worn armor and hardened skin, and on impact the gauntlet bursts into blunt pebbles that knock everyone within a stride off their feet; afterward the user's knuckles split and they cannot grow glass until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

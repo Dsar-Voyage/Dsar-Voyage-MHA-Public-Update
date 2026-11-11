@@ -1,0 +1,20 @@
+{
+  "Palm Weight Release": {
+    "name": "Palm Weight Release",
+    "description": "The user touches a person or loose object of up to an adult's weight with all five pads of one hand, making the target float until the user releases it. A small push moves it away from a hazard, and a hand or rope keeps it close. The user cannot steer it at a distance and restores gravity only when it has safe support. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

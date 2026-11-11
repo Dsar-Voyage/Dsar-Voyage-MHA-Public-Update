@@ -1,0 +1,24 @@
+{
+  "Round-Up Slam": {
+    "name": "Round-Up Slam",
+    "description": "The user's limbs lash out at the opponents around them, seizing as many as they have extra limbs, and slam them into the ground or into each other. Each seized opponent takes bludgeoning damage, drops what they hold and stays pinned down until they break free with a hard effort or the user lets go. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

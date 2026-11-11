@@ -1,0 +1,20 @@
+{
+  "Anxious": {
+    "name": "Anxious",
+    "description": "😰 Your mind runs ahead to everything that could go wrong, and it rarely stops.\n\n👀 You notice danger early: the exit, the loose railing, the person acting off.\n📋 You over-prepare, so you are rarely caught without a plan or the right gear.\n⚠️ Worry eats sleep and focus; you second-guess choices and freeze when there are too many.\n⚠️ Pressure from crowds, tests or authority hits you harder than most.\n🔀 If you are also Reckless, you panic and jump anyway, then worry about it all night.\n\n📈 Grants: Perception +5",
+    "traitNarrativeEffects": "The character is anxious: they imagine everything that could go wrong, check things twice and carry the worry with them. They notice danger early (exits, unstable footing, someone acting off) and over-prepare, so they rarely lack a plan or the right gear. Weakness: worry costs sleep and focus. They second-guess, freeze when there are too many choices and feel tests, crowds and authority harder than most. If the character is also Reckless, they act on impulse and worry about it afterward. The narrator shows the signs worth worrying about; how the character handles the fear is the player's decision. Treat the anxiety with respect, never as a joke.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

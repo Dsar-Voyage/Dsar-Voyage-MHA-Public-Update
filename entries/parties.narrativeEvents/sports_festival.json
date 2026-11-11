@@ -1,0 +1,21 @@
+{
+  "sports_festival": {
+    "title": "The U.A. Sports Festival",
+    "beats": "Festival morning at U.A. Stadium, broadcast nationwide. Agency scouts fill the stands; Present Mic and Shota Aizawa call the events, Midnight referees and Cementoss raises the stage. Students come from U.A. Academy's dorms to the Competitor Waiting Rooms.\n\nThe canon default course, as pressure the player can change: Shoto Todoroki declares war on Izuku Midoriya in the waiting room; Katsuki Bakugo pledges to win and draws boos. Unless the player changes the races, Izuku wins the obstacle course of robots, a chasm and mines by riding a mine blast; Shoto's cavalry team takes his top headband, and Izuku's team barely qualifies. At lunch Shoto privately tells Izuku about Endeavor's treatment of his family and his mother's breakdown; this stays between those present. By canon default Mashirao Ojiro and Nirengeki Shoda withdraw rather than accept advancement earned under Hitoshi Shinso's brainwashing; Tetsutetsu Tetsutetsu and Ibara Shiozaki replace them after Itsuka Kendo yields her team's opportunity.\n\nUnless the player changes the bracket, Izuku answers Shinso and is brainwashed; One For All's vestiges move his fingers, breaking control, and he wins. That inner encounter stays private. Shoto beats Hanta Sero; Ibara beats Denki Kaminari; Mei Hatsume uses Tenya Iida to advertise her gear, then steps out and gives him the win; Mina Ashido beats Yuga Aoyama; Fumikage Tokoyami beats Momo Yaoyorozu; Eijiro Kirishima and Tetsutetsu draw, then Eijiro wins their arm-wrestling tiebreak; Katsuki beats Ochaco Uraraka despite her falling-debris plan. By canon default Shoto beats Izuku, whose broken fingers and appeal push him to use fire; Tenya beats Ibara, Fumikage beats Mina and Katsuki beats Eijiro. Shoto then beats Tenya, Katsuki beats Fumikage, and Katsuki wins the final when Shoto holds back his fire. Tenya leaves for Hosu after his semifinal on learning that Stain has gravely injured his brother Tensei Iida; unless changed elsewhere, Tensei loses the use of his legs and his hero career. All Might awards medals; Katsuki protests his hollow victory.\n\nA first-year student party from Hero, General Studies, Support or Management competes through its actual qualifiers; injured students keep their condition and can watch. Recovery Girl treats injuries, and stopped opponents are not struck. Faculty staff U.A. Stadium's safety line; pros and sidekicks scout; civilians use the Concourse Food Stalls and stands. Villains watch a broadcast or risk stadium security in disguise. Others follow the dorm lounge screens.\n\nThe event is complete when the tournament final is decided and the medal ceremony ends.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_sports_festival",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-number",
+        "key": "studentStage",
+        "operator": "set",
+        "value": 1
+      }
+    ]
+  }
+}

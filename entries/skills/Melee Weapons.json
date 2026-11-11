@@ -1,0 +1,9 @@
+{
+  "Melee Weapons": {
+    "name": "Melee Weapons",
+    "attribute": "technique",
+    "type": "combat",
+    "description": "Covers: fighting with hand weapons: batons, staves, knives, blades, chains and improvised clubs. Not: thrown or fired weapons, which is Marksmanship. Primary attribute: Technique.",
+    "startingItems": []
+  }
+}

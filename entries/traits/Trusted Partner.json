@@ -1,0 +1,30 @@
+{
+  "Trusted Partner": {
+    "name": "Trusted Partner",
+    "description": "🫂 People rely on you and open up to you: allies, victims and strangers alike.\n\n🎯 Good for anyone who wins people over or holds a team together.\n📋 Requires level 24 and Cooperativeness 14.\n\n📈 Grants: Cooperativeness +1",
+    "traitNarrativeEffects": "The character has a record of keeping their word and showing up, and people sense it: allies share plans, victims accept help and strangers answer questions. Show it in easy rapport and people who seek them out. Limits: trust is earned person by person; enemies, the prejudiced and anyone they have betrayed are not won over by this.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 24
+      },
+      {
+        "type": "attribute",
+        "variable": "cooperativeness",
+        "amount": 14
+      }
+    ]
+  }
+}

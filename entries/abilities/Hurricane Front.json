@@ -1,0 +1,25 @@
+{
+  "Hurricane Front": {
+    "name": "Hurricane Front",
+    "description": "The user's signature move: they draw in all the air they can hold around them and release it as a level storm the width of a street. Everyone in its path takes massive force damage and is hurled far down the street, parked cars roll, and barricades, cover and smoke are torn away; afterward the air around the user hangs still and they cannot make wind until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

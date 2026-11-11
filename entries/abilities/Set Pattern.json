@@ -1,0 +1,29 @@
+{
+  "Set Pattern": {
+    "name": "Set Pattern",
+    "description": "The user weaves rope, curtain and carpet thread across a few doorways, stairwells or gaps and sets a fixed rule into each weave. For the rest of the scene, with no user watching or touching it, each pattern grips the clothing of anyone the user did not mark while weaving, binding their legs as they pass, and catches any falling person unhurt; the user feels the moment each one acts. While patterns stand, the user moves only fibers they touch, not those they see, and a cut or burned pattern is gone for good. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

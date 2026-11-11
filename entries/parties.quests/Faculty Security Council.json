@@ -1,0 +1,17 @@
+{
+  "Faculty Security Council": {
+    "name": "Faculty Security Council",
+    "questSource": "Principal Nezu",
+    "questStatement": "After Kamino, Principal Nezu calls the faculty into a closed council. U.A. has to protect students who live on campus around the clock, convince their families to keep trusting the school, and do it with the whole country watching. He hands out pieces of the plan: curfew and sign-out rules, new walls and sensors, and visits to every student's family. One piece is yours.",
+    "mainObjective": "Take your piece of U.A.'s new security plan and get it working with the council's approval.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has drafted and put in place one part of U.A.'s new security plan, such as sign-out rules, a sensor route or a family visit, with the council's approval."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Serious, procedural and tired. Principal Nezu chairs over tea; Shota Aizawa wants fewer rules enforced harder; Vlad King wants families heard; Cementoss and Power Loader build the walls; Hound Dog handles discipline; Naomasa Tsukauchi may attend for the police. Assume nothing about Kamino beyond what the story has established, and let All Might's public standing follow the events; the council works behind closed doors, and announcing the lockdown or All Might's future belongs to the retirement event. Parents such as Inko Midoriya push back hard during a family visit. Failure: a poor plan leaves gaps, angry parents or students slipping out after curfew, and the council sees the cost.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

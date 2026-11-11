@@ -1,0 +1,30 @@
+{
+  "Koyasan": {
+    "name": "Koyasan",
+    "basicInfo": "The heart of the Kii Mountains: the monastery town of Koyasan in the north, the Ryujin and Totsukawa river gorges, and the Kumano Hongu country in the south, a cell almost entirely of steep forested ridges and deep valleys. Koyasan sits in a high basin ringed by eight peaks, a town of more than a hundred temples founded by Kobo Daishi; visitors sleep in temple lodgings, eat vegetarian monk's cuisine and sesame tofu, and walk at dusk through Okunoin, a two-kilometer cemetery path among giant cedars and mossy tombs leading to the founder's mausoleum. From there the mountains run south in endless cedar ridges. The Koya-Ryujin Skyline road follows the crests to Ryujin Onsen, a valley hot spring famous for smoothing skin, past Mount Gomadan, the prefecture's highest peak. To the east, Totsukawa, one of Japan's largest villages by area, strings its hamlets along the Totsu River gorge, with the swaying Tanize suspension bridge, riverside hot springs and an old summer bon dance. In the south, Kumano Hongu Taisha, head of the three Kumano grand shrines, stands in cedar woods above the river, and nearby an enormous torii at Oyunohara marks its original site on a sandbank. Hot spring villages cluster around it: Yunomine, with one of Japan's oldest public baths; Kawayu, where people dig their own pools in the riverbed; and Watarase. The Kumano Kodo pilgrimage trails cross the cell, the Kohechi from Koyasan to Hongu over three high passes and the Nakahechi from Tanabe through Chikatsuyu. It is among the rainiest country in Japan, misty and lush, with typhoons in late summer and snow on the high ridges. There is no railway except the cable car up to Koyasan from the north; long local buses follow the gorge roads, including the route from Yamato-Yagi in Nara through Totsukawa to Shingu, the longest local bus run in the country. Koyasan is about two hours from Shin-Osaka and four and a half from Musutafu; Hongu is most of a day. Police boxes and a handful of licensed heroes cover huge districts, and a mail carrier with a mutant mountain-goat build still delivers to hamlets the roads do not reach.",
+    "hiddenInfo": "The mountains are sacred and quiet, but vast. Lost hikers on the Kohechi and landslides that cut off villages are the main emergencies, and help can be hours away. Koyasan's tourist crowds draw pickpockets and a few con artists dressed as pilgrims or monks. Wildlife poaching and illegal logging happen in remote valleys. The nearest real hero force is in Wakayama, Nara or Osaka, two hours or more by road.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -6,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6b130eed-e575-4d80-aec6-9d9498ac5bb1.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

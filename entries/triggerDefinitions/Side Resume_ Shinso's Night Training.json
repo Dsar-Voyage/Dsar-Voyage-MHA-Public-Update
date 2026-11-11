@@ -1,0 +1,42 @@
+{
+  "Side Resume: Shinso's Night Training": {
+    "name": "Side Resume: Shinso's Night Training",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "gs_shinso_training",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_gs_shinso_training",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_gs_shinso_training",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "gs_shinso_training"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_gs_shinso_training",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Shinso's Night Training\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: An evening in late spring at U.A."
+      }
+    ]
+  }
+}

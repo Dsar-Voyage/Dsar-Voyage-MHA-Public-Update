@@ -1,0 +1,25 @@
+{
+  "Grand Lockstitch": {
+    "name": "Grand Lockstitch",
+    "description": "The user's signature move: they seize the clothing of every enemy they can see across a street and stitch it in place, locking limbs to bodies and bodies to the ground. Until the end of the user's next turn, none of them can step from the spot, swing a limb or draw a weapon unless they wear almost no cloth; the user can do nothing else while holding, and afterward cannot move fibers until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

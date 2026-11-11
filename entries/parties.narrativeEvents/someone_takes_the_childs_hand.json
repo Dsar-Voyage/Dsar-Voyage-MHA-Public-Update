@@ -1,0 +1,15 @@
+{
+  "someone_takes_the_childs_hand": {
+    "title": "This Time, Someone Stops",
+    "beats": "In Musutafu Station District, a frightened boy emerges from the Back Alleys into a neighborhood beginning to enjoy ordinary life again. Koki Terumoto has escaped confinement and neglect; he needs safety and care before questions about his past. Izuku Midoriya and Ochaco Uraraka are nearby, but the first person with a chance to respond is an elderly resident.\n\nThe canon default course, as pressure the player can change: the woman who once walked past Tenko Shimura notices this child and stops. Her earlier failure is her own memory, not knowledge automatically shared by everyone present. She speaks gently, offers a hand rather than demanding obedience, and asks the neighbors to help. Koki's distress begins to ease because somebody sees him before treating him as a threat. Izuku and Ochaco support the response instead of replacing the civilian's decision with a display of hero power.\n\nThe party can be the first person to stop, fetch water, clear space, or call qualified help. Keep the woman's contribution if someone else reaches Koki first: several people can choose care. His Darkness Quirk and visible fear never make him a villain or justify a combat scene. Describe the abuse only as much as needed to arrange safeguarding. Koki may decline touch or struggle to answer; neither response counts as ingratitude.\n\nRyu Yoshida can receive him at Musutafu General Hospital after an actual escorted journey. Before departure, identify the responsible escort and accepting clinician aloud; neighbors do not send an unaccompanied child away with an address. The initial medical handover remains separate from deciding permanent care, which needs a protected assessment.\n\nBy Path at Musutafu Station District: Class 1-A and Class 1-B help without taking over; General Studies contacts care services; Support meets immediate practical needs; Management explains available help; Faculty arranges suitable educational contact. Licensed Sidekick and Licensed Pro Hero secure safeguarding and follow-up. League of Villains Recruit and Independent Villain face a choice to protect a vulnerable person, with any threat answered promptly; Vigilante helps residents act; Civilian Life can be the person who stops. No Path makes the child a recruit.\n\nThe event is complete when Koki is safe with an identified responsible adult, an accepting care provider, and a definite escorted handover.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_someone_takes_the_childs_hand",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

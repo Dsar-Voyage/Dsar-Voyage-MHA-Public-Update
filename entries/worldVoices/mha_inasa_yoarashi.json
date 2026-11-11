@@ -1,0 +1,15 @@
+{
+  "mha_inasa_yoarashi": {
+    "label": "Inasa Yoarashi",
+    "voiceTag": "male confident energetic",
+    "instructions": "Huge, booming, hoarse young adult male voice at maximum volume and sincerity. Every line a passionate, full-chest declaration about heart and heroes, with roaring outbursts of joy or apology. Fast and breathless. No irony.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

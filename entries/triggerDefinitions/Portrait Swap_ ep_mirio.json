@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: ep_mirio": {
+    "name": "Portrait Swap: ep_mirio",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mirio Togata",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/748ae30f-11ff-44f7-960d-9be06976ef05.png"
+      }
+    ]
+  }
+}

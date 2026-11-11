@@ -1,0 +1,25 @@
+{
+  "Intersection Cold Surge": {
+    "name": "Intersection Cold Surge",
+    "description": "The user circulates right-side cold and left-side heat through their chest, then releases cold flames and a spreading mass of ice across an intersection up to sixty meters wide. It extinguishes exposed fires and deals massive cold damage; held back, it freezes empty ground and equipment while sparing bodies. The ice remains until broken or melted. Allies need cleared shelter, and the user cannot emit either half until their following turn ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

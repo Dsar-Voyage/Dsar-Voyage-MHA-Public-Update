@@ -1,0 +1,25 @@
+{
+  "Sunfall Expanse": {
+    "name": "Sunfall Expanse",
+    "description": "The user releases flame in every direction at once and floods a whole city block, from the street to the rooftops, with a sheet of fire that burns for the rest of the scene. Every enemy inside takes heavy fire damage at the end of each of their turns until they leave the block, and steel, glass and asphalt there soften in the heat; held back, the flame only scorches and drives enemies out. The user cannot shape this fire around people, so allies and bystanders must be cleared from the block first. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

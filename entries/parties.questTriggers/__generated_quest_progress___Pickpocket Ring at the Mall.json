@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Pickpocket Ring at the Mall": {
+    "name": "__generated_quest_progress__/Pickpocket Ring at the Mall",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The mall's pickpocket crew has been identified to the police with the PC's help, and its members are arrested, scattered or scared off."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Pickpocket Ring at the Mall"
+      }
+    ]
+  }
+}

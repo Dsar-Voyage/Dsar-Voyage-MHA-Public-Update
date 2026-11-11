@@ -1,0 +1,24 @@
+{
+  "mha_u_s_j_nomu": {
+    "label": "U.S.J. Nomu",
+    "voiceTag": "male monster growly",
+    "instructions": "No words: a very deep, rumbling animal growl and heavy, wet breathing through a beaked mouth full of teeth. Mindless and flat, sudden roaring bellows on impact, then silence. Organic and beastly, never robotic, never speech.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -3
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "hall",
+        "mix": 0.2
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.12
+      }
+    }
+  }
+}

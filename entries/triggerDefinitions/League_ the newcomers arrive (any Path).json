@@ -1,0 +1,59 @@
+{
+  "League: the newcomers arrive (any Path)": {
+    "name": "League: the newcomers arrive (any Path)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "lg_start",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-boolean",
+        "key": "live_v_vanguard_briefing",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_vanguard_briefing",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "League Hideout Bar"
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-placement",
+        "npc": "Mustard",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Muscular",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Moonfish",
+        "operation": "moveTo",
+        "location": "League Hideout Bar",
+        "area": "Bar Counter"
+      }
+    ]
+  }
+}

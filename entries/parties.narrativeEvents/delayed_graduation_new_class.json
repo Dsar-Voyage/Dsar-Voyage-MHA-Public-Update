@@ -1,0 +1,15 @@
+{
+  "delayed_graduation_new_class": {
+    "title": "The Academy Opens Again",
+    "beats": "June 1 at U.A. Academy: Mirio Togata, Tamaki Amajiki, and Nejire Hado gather with their graduating year for the ceremony the crisis postponed. Shota Aizawa waits afterward with Yuga Aoyama and Hitoshi Shinso as returning students discover how much their classroom will change. Graduation is a celebration with visible absences, injuries, and unfinished rebuilding outside.\n\nThe canon default course, as pressure the player can change: the Big Three graduate and leave student life for professional work. Yuga voluntarily withdraws despite his classmates' willingness to welcome him back. He intends to face his responsibility and earn a fresh route toward becoming a hero; departure is neither an erasure of coercion nor a declaration that he can never return to that ambition. Hitoshi enters the Hero Course and joins Class A. Izuku Midoriya's cohort begins its delayed second year, and the parallel Class B advances with it.\n\nGive the party time for a farewell, a practical offer of support, or a question about transfer requirements before the new homeroom settles. Yuga can hear a different proposal and choose differently if the conversation earns it. His family's private history is not recited to the ceremony audience. Classroom doors and familiar meeting places remain recognizable, but students and teachers speak of Class 2-A and Class 2-B. The graduating seniors no longer receive student assignments.\n\nBy Path at U.A. Academy: Class 1-A and Class 1-B take their new places without losing the friendships formed in the first year; General Studies can discuss a real transfer route; Support issues repaired equipment; Management helps run the ceremony; Faculty sets a recovery curriculum. Licensed Sidekick and Licensed Pro Hero offer graduates placements. League of Villains Recruit and Independent Villain receive an authorized account or decide whether to approach the restored institution; Vigilante considers lawful training; Civilian Life attends as an invited guest or supports resumed education. Detention never becomes an invitation to campus.\n\nThe event is complete when the seniors' graduation, Yuga's departure or agreed alternative, Hitoshi's placement, and the party's new academic or professional status are stated.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_delayed_graduation_new_class",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

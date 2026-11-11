@@ -1,0 +1,29 @@
+{
+  "Faceted Umbra Weave": {
+    "name": "Faceted Umbra Weave",
+    "description": "The user fuses their shadow into smoked-glass plates over their body and a ring of planted shards across a street for the rest of the scene. While the armor holds, their blurred outline makes attacks beyond arm's reach miss, allies stepping into a shard's shade emerge under any shard the user picks, and an enemy whose shadow meets a shard takes heavy slashing damage and is locked in place, or only pinned if held back. The user grows parched, casts no shadow and cannot use the Quirk until the end of their next turn if a plate breaks. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

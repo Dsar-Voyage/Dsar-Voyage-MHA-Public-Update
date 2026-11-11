@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Frog Quirk": {
+    "name": "Mechanics: Canon Drawback Frog Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Frog Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Activation Condition",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

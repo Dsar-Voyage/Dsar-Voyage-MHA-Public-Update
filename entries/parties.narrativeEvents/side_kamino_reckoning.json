@@ -1,0 +1,15 @@
+{
+  "side_kamino_reckoning": {
+    "title": "The Rebuke",
+    "beats": "Early August, evening, outside Heights Alliance in the Heights Alliance Yard at U.A. Academy. The crisis in Kamino Ward is over, All Might has retired, and Class 1-A has been called out before dinner to face Shota Aizawa under the courtyard lights. The air between the five students who went to Kamino and the classmates who stayed behind is strained and quiet.\n\nDefault course as pressure: Aizawa addresses the class in his flat, low voice. He tells Izuku Midoriya, Tenya Iida, Shoto Todoroki, Eijiro Kirishima, and Momo Yaoyorozu that breaking rules to play vigilante in Kamino shattered the faculty's trust, and tells everyone else who knew of their plan and said nothing—everyone except Katsuki Bakugo, Kyoka Jiro and Toru Hagakure, who were hurt or unconscious that night—that they share the blame. If U.A. Academy were not under emergency campus lockdown after All Might's retirement, he would expel every one of them except those three on the spot; instead, he orders them to rebuild their trust strictly by the book and walks inside. In the awkward silence, Tsuyu Asui finally speaks up, tears spilling down her face: she tells the five how hurt and frightened she was that they went into danger after she warned them, and how badly she wants them all to be friends again without breaking the rules. The rescuers apologize in full, hugging her in the yard. Meanwhile, Katsuki Bakugo grabs Denki Kaminari, drags him behind the bushes to force him into his short-circuited \"Wheey\" state so the class laughs, and shoves an envelope of cash into Kirishima's chest to repay the night-vision goggles Kirishima bought to save him.\n\nBy path: a Class 1-A student stands in the yard for Aizawa's judgment—counted among those who went, those who stayed silent, or the few who spoke against it—and helps mend the rift with Tsu and the others in the Class 1-A Dorm Lounge afterward.\n\nThe event is complete when Tsuyu's tears dry, Bakugo pays his debt, and Class 1-A heads into the Class 1-A Dorm Lounge together.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_kamino_reckoning",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

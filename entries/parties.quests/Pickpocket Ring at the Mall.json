@@ -1,0 +1,17 @@
+{
+  "Pickpocket Ring at the Mall": {
+    "name": "Pickpocket Ring at the Mall",
+    "questSource": "Sansa Tamakawa",
+    "questStatement": "The pickpocket crew that works Kiyashi Shopping Mall's weekend crowds is still at it: one of them makes everyone near the fountain flinch for a second, and the others lift wallets and phones in that second. Mall security has descriptions and no power to act. Officer Sansa Tamakawa, who took the latest statements, says the police need someone who can recognize the crew and point them out. You have seen their faces. They may have seen yours.",
+    "mainObjective": "Help Officer Sansa Tamakawa identify the mall's pickpocket crew without becoming their target.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The mall's pickpocket crew has been identified to the police with the PC's help, and its members are arrested, scattered or scared off."
+    },
+    "detailType": "detailed",
+    "questLocation": "Kiyashi Shopping Mall",
+    "questDesignBrief": "Civilian courage at human scale. Sansa Tamakawa is courteous and procedural; he asks a civilian to watch and report, never to fight, and reminds the PC that public Quirk use outside self-defense is illegal. The crew are generated people; one may be someone the PC knows from their Background. The crew notices informants: a threatening note, a stolen bag, someone waiting near the PC's home. Mount Lady may answer a call to the atrium. Gentle Criminal and La Brava have nothing to do with the crew and disapprove of pickpockets. Failure: the PC is threatened, robbed or embarrassed, and the crew moves to another mall.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

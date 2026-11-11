@@ -1,0 +1,20 @@
+{
+  "Echo Sounding": {
+    "name": "Echo Sounding",
+    "description": "The user sends out a sharp click or pulse and reads the echoes that come back. They learn the layout of the room or rubble pile around them and where every person in it is, including anyone hiding or trapped, even in darkness or smoke; anyone nearby can hear the pulse. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

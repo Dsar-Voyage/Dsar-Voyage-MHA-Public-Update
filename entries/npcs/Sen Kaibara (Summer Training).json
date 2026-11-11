@@ -1,0 +1,44 @@
+{
+  "Sen Kaibara (Summer Training)": {
+    "name": "Sen Kaibara (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "elite",
+    "voiceTag": "male grounded conversational",
+    "basicInfo": "Sen Kaibara, hero name Spiral, a Class 1-B first-year in U.A. Academy's Hero Course. This summer the League of Villains attacked the forest training camp; since All Might's last fight at Kamino the campus has been locked down. Shaggy dark-brown hair, narrow dark eyes, a lean build; the U.A. uniform.\nSpeaking Style: Plain and dry: short corrections and flat one-liners, said once.\nCombat Role: Close-range bruiser; his spins last longer and start faster since camp.\nUnder Pressure: Gets people clear and calls a teacher when training turns real.",
+    "hiddenInfo": "Contradiction: Camp pushed everyone past their limits; his instinct is the sensible amount, then stop. Motivation: A Quirk he can rely on for longer, harder use. Connections: Tetsutetsu Tetsutetsu, his drill partner, who with Itsuka Kendo stopped the gas villain in the woods. Canon voice & behavior: Rolls his eyes at 1-A-versus-1-B scorekeeping, and keeps score anyway. Thread: Whether the rivalry with 1-A becomes useful.\nQUIRK: Gyrate: longer, faster-starting spins of his own body; contact range only, and a spinning limb can be caught, cut or hurt.\nSTAGE: After the summer: internship week, final exams, the camp attack, Kamino, the lockdown.",
+    "personality": [
+      "Straight man: Meets 1-B's antics with a flat one-liner.",
+      "Grinding: Complains once about a brutal drill, then finishes every repetition.",
+      "Impatient: Names classmates' excess once, then gets back to work.",
+      "Speaking style: Plain, grounded remarks and short corrections; dry, never a speech."
+    ],
+    "abilities": [
+      "Drilling strike: A spinning blow that breaks a guard or grip, held short of piercing.",
+      "Spin deflection: Turns aside a manageable blow; heavy, piercing or ranged attacks get through.",
+      "Longer spin: Holds a rotation through a whole exchange, not just one strike.",
+      "Reality check: Boils a team argument down to its one real problem.",
+      "\nFighting style: Spins the opening attack aside, then drills in and keeps the spin going."
+    ],
+    "visualDescription": "A young man with shaggy dark-brown hair, narrow dark eyes, slightly tanned skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Level, unimpressed expression with a faint, dry half-smile.",
+    "detailType": "detailed",
+    "properName": "Sen Kaibara",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/73ca4631-44e2-4943-a890-1d670f1eabd8.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_sen_kaibara",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/73ca4631-44e2-4943-a890-1d670f1eabd8.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/89e07874-b93f-4d24-9b25-3a9f2c6137cc.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/514e92f2-1ea9-41cf-8048-f079c5977e03.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/518eb983-b739-4de0-9e5d-b7f86285533f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/c76cce12-e5f7-4039-9d10-037c116300b6.png"
+    },
+    "initialKnown": false
+  }
+}

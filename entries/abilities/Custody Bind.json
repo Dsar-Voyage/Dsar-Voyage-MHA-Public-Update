@@ -1,0 +1,15 @@
+{
+  "Custody Bind": {
+    "name": "Custody Bind",
+    "description": "The user binds a subdued target for transport: limbs strapped, eyes covered, mouth gagged, and any tail, wings or extra limbs pinned to the body. Until the user hands them over or someone frees them, the target cannot use any Quirk that needs sight, speech, movement or touch, and cannot get out of the binding without outside help. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "amount": 12
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 2
+  }
+}

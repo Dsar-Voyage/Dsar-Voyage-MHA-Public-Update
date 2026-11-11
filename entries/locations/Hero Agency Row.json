@@ -1,0 +1,103 @@
+{
+  "Hero Agency Row": {
+    "name": "Hero Agency Row",
+    "basicInfo": "A short street in the riverside blocks about 4 km east of the station where several small hero agencies share one converted office block and a ground-floor garage; the Bakugo house is about 2 km away and the residential blocks of the southeast side close by. None of their pros ranks high on the Hero Billboard Chart; they handle the city's everyday calls: traffic accidents, fires, stray Quirk fights, missing persons and bag snatchers. Each agency is a licensed business with one or two pros, a few sidekicks and an office manager. They split the rent, the garage and a shared ready room, and they compete for every incident, since a hero's pay depends on the incidents they resolve. The block's pros include the rising capture specialist Kamui Woods and the rookie giant Mount Lady, who bicker in public and still work side by side, the street brawler Death Arms and the rescue specialist Backdraft, who share the garage and many patrols, the soft-spoken martial artist Gunhead, and the stern, four-armed Fourth Kind. Patrol shifts cover the morning rush, school drop-off, the evening and the night. This is where a newly licensed hero signs a first sidekick contract. The front door is open during office hours for the public and job applicants; upstairs offices are by appointment, and the garage and ready room are for agency staff only. A player can apply for work, take a patrol shift, train in the ready room, get gear fixed, or pick up calls from the dispatch radio. Radios crackle with police traffic all day, and someone is always arguing about the shift schedule.",
+    "hiddenInfo": "The agencies here run on thin margins. Sidekicks from bigger agencies have started patrolling the station district and taking calls the local pros counted on, and one agency is two months behind on rent; its office manager has started taking calls on her personal phone so the landlord cannot reach her. Kiyashi Shopping Mall's management is quietly taking bids for a paid security contract, and two of the agencies are competing hard for it; the loser may have to close. Mount Lady wants it for the crowds and the cameras, while the agency behind on rent needs it to survive, and the two offices have stopped speaking in the stairwell. Since the Hero Killer began attacking lone pros in other cities, the agencies send patrols out in pairs, which halves their coverage, and Fourth Kind openly calls the rule cowardly while following it. The police want arrest reports filed faster, and the office managers are buried in paperwork. Gunhead has started teaching an unofficial capture-hold class in the ready room on slow afternoons, and sidekicks from every office come, which is the only thing they do together. A newcomer who can take a patrol shift without complaint, file a clean report and keep out of the rent fight would be hired almost anywhere on the block.",
+    "x": -1.7,
+    "y": 18.163,
+    "radius": 0.45,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Agency Offices": {
+        "description": "The second and third floors of the block, split into small offices behind frosted-glass doors along a narrow hall with a squeaky floor. Each has an agency logo, a front desk, a few work desks, a dispatch radio and a wall map of Musutafu with pins for active calls. Office managers take calls from the public and the police, schedule patrols, and handle contracts and invoices; a pro back from patrol writes reports here with one hand on the radio volume. Visitors and job applicants wait on folding chairs in the hall under framed newspaper clippings of past captures, and each office makes sure its own clippings hang at eye level. Phones and radios run nonstop, and every office keeps its door shut to the others. Stairs lead down to the shared Ready Room at the back of the ground floor and to the Patrol Garage.",
+        "paths": [
+          "Ready Room",
+          "Patrol Garage"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/31bce99e-bd82-4f3f-b55f-f28ffea78a49.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Ready Room": {
+        "description": "A shared room at the back of the ground floor with lockers, benches, a whiteboard of patrol routes and shifts, a kitchenette, and a few mats and weights for training. Pros and sidekicks from every agency change here before and after patrols and swap news about the night's calls, and on slow afternoons the mats are pushed together for practice holds and throws. It is the one room where the agencies get along, and the rule is that rivalries stay upstairs; anyone who breaks it washes the mugs for a week. The whiteboard is a battleground of crossed-out names and arrows, and a corner of it is reserved for doodles of Mount Lady's poses that nobody admits drawing. The rice cooker is always half full. It smells of sweat, instant coffee and deodorant. Stairs lead back up to the Agency Offices.",
+        "paths": [
+          "Agency Offices"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/43cc2c9a-257f-4ce6-aa63-57e6d636253f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Patrol Garage": {
+        "description": "The ground-floor garage the agencies share: patrol bikes, two small vans, a workbench for basic repairs to costumes and support gear, spare capture tape, first-aid kits, fire extinguishers and a roll-up door onto the street. Patrols leave and return here at shift changes, when the room fills with pros pulling on gear and calling out routes; between shifts, a part-time mechanic keeps the bikes running and listens to the radio. Support gear that needs real repair goes back to its maker. Each agency has its own painted parking spots and its own grudges about who borrowed whose tools. A drying rack by the wall holds a long yellow rescue coat and a red helmet most nights. The roll-up door rattles every time it opens, and oil stains mark every parking spot. A side door and stairs lead up to the Agency Offices.",
+        "paths": [
+          "Agency Offices",
+          "Agency Row Coffee Stand"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d3be931-1cb9-4795-90c0-0b8b8062e3f1.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Agency Row Coffee Stand": {
+        "description": "A one-window coffee stand built into the corner of the agency block beside the garage's roll-up door, with a fold-down counter, three stools and an espresso machine that wheezes before every shot. It opens at six for the morning patrol shift and closes at eight, and its drip coffee, about 250 yen, is the block's fuel: pros and sidekicks buy it in trays of six on the way out, office managers phone in orders and send whoever is newest to fetch them, and job applicants buy one for courage before their interviews upstairs. The owner trades gossip freely and keeps a tab for each agency on a clipboard, and which office has fallen behind on its tab is the worst-kept secret on the street. Kamui Woods takes his coffee black and says little; Mount Lady orders the largest size and photographs it for her followers; Death Arms and Backdraft split a bag of fried bread after night patrol, and Gunhead always remembers the owner's name. A police scanner murmurs beside the cups, and the owner turns it up whenever a call comes from the district. It smells of burnt sugar and garage oil. Its counter faces the street beside the Patrol Garage.",
+        "paths": [
+          "Patrol Garage"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7677ba71-2de0-4dfa-8709-c7e3bf74f898.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1d8a448d-5145-4729-9c92-1fd3fecffd25.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

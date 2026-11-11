@@ -1,0 +1,20 @@
+{
+  "Crescent Draw": {
+    "name": "Crescent Draw",
+    "description": "The user grows a curved blade along the forearm in the middle of a swing and cuts a target within reach. It deals slashing damage; held back, the flat of the blade strikes instead and staggers the target without cutting them, or the edge slices only a strap, a sleeve or a bag the user picks. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

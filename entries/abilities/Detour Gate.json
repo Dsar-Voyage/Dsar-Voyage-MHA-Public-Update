@@ -1,0 +1,20 @@
+{
+  "Detour Gate": {
+    "name": "Detour Gate",
+    "description": "The user throws open a gate in the path of a bullet, blade, blast or Quirk attack aimed at themselves or someone near them. The attack vanishes into it and comes out where the user chooses: into the ground, into the open sky, or back at the attacker, who takes the damage it would have dealt. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

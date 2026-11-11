@@ -1,0 +1,20 @@
+{
+  "Stagebound Leap": {
+    "name": "Stagebound Leap",
+    "description": "The user stamps in time and directs rhythmic pressure beneath both feet, leaping across a four-meter gap or onto a low balcony this turn. The user can carry one willing adult, halving the distance. The user needs a firm takeoff surface and an audible beat; losing either prevents the boost. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

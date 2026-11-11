@@ -1,0 +1,20 @@
+{
+  "Watchfire Flare": {
+    "name": "Watchfire Flare",
+    "description": "The user lobs a ball of flame high overhead, where it bursts into a slow-falling flare that burns for a few minutes. It lights the whole area, reveals anyone hiding in the dark and marks the spot for responders; anyone facing the burst is dazzled and cannot aim or track the user until the end of their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

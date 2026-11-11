@@ -1,0 +1,17 @@
+{
+  "Giran's Supply Run": {
+    "name": "Giran's Supply Run",
+    "questSource": "Giran",
+    "questStatement": "Giran, the broker who sells gear and introductions to anyone who pays, has a crate waiting in the Container Docks of Yokohama Harbor: support gear and forged papers off a freighter, bought by a client he will not name. He needs someone to collect it and carry it across the city without a customs check, a harbor patrol or a curious hero getting a look inside. The fee is good, and a favor from Giran is worth more.",
+    "mainObjective": "Collect Giran's crate at the Container Docks and deliver it without drawing police or heroes.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has collected the crate from the Container Docks and delivered it where Giran asked, lost it or sold it out, and Giran knows which."
+    },
+    "detailType": "detailed",
+    "questLocation": "Yokohama Harbor District",
+    "questDesignBrief": "A smuggling job that tests nerve and planning. Giran is smooth, pays on delivery and never names one client to another. Harbor police, customs officers and dock workers are generated people; a patrol hero may cross the route. Mr. Compress, who also takes jobs through Giran, may be on the Harbor Promenade with a professional's advice or an offer of his own; he owes the PC nothing. The crate holds support gear and forged documents, never Nomu or anything from the man Shigaraki calls Sensei. Pros outclass the PC in a straight fight; evasion and timing win. Failure: the crate is seized, Giran's goodwill drops and the police open a file.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

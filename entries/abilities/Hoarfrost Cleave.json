@@ -1,0 +1,24 @@
+{
+  "Hoarfrost Cleave": {
+    "name": "Hoarfrost Cleave",
+    "description": "The user glazes a target's armor, shield or weapon with stone-hard frost on contact and drives a plated forearm through the brittle seam. It deals heavy cold and bludgeoning damage that ignores worn armor and shatters the struck shield or vest; held back, it cracks only the gear and shoves the target down. The deep chill locks the user's striking arm until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Opening Read": {
+    "name": "Opening Read",
+    "description": "The user studies an opponent through a few exchanges, watching stance, footing and habits until a pattern shows. The user learns a concrete weakness the opponent has in this fight, such as a guard that drops after a kick or a bad knee, and the next attack aimed at it by the user or an ally ignores the opponent's guard. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Combat Tactics",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

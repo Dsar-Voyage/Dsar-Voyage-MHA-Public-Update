@@ -1,0 +1,15 @@
+{
+  "Blast Gap Dive": {
+    "name": "Blast Gap Dive",
+    "description": "When an explosion, a shock wave or a collapse fills the area, the user dives for the only gap in it: behind a pillar, at the edge of the blast, under a slab that holds. The user takes no harm from an area attack or falling structure they see coming, and can drag a person within arm's reach into the gap with them. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Dodging",
+        "amount": 12
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 3
+  }
+}

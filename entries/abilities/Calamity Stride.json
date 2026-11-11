@@ -1,0 +1,25 @@
+{
+  "Calamity Stride": {
+    "name": "Calamity Stride",
+    "description": "The user steps onto a burning, flooded or collapsed street, breathes its air once, and adapts by the end of their next turn to every environmental hazard across a whole city block for the rest of the scene: fire, cold, water, toxic gas, smoke, live wires and falling debris. They cross the block unharmed, shield and haul groups of trapped people out, and drive foes back for heavy bludgeoning damage; held back, they only shove them clear. Fresh enemy attacks still land first, and afterward the user cannot adapt again until they rest an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

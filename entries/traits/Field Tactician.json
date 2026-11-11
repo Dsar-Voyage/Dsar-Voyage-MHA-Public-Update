@@ -1,0 +1,31 @@
+{
+  "Field Tactician": {
+    "name": "Field Tactician",
+    "description": "🧠 You win by thinking: reading an opponent's habits, choosing the ground and timing your allies so their attacks land together.\n\n🎯 Strongest with a team, still useful alone. Works with any Quirk or none.\n⚠️ Your own blows are ordinary, ally techniques do nothing when you are alone, and a skilled opponent who changes rhythm can break the plan.\n📈 You learn more techniques as your Combat Tactics and Team Coordination improve.\n🤝 Suits hero teams, villain crews and whoever ends up giving orders. Agencies and the Commission prize tactical sidekicks.\n⚖️ Thinking is never illegal, but planning a crime carries the same guilt as carrying it out.\n\n📈 Grants: Intelligence +1, Combat Tactics +15, Team Coordination +10\n⚡ Starting technique: Call the Tell",
+    "traitNarrativeEffects": "Treats a fight as a problem: watches first, spots habits and weak points, steers the fight to favorable ground, coordinates allies so attacks and Quirks combine. At start they read an ordinary fighter within a few exchanges and run simple plays with trusting partners; a foe who changes rhythm, or allies ignoring the call, break the plan. Their own blows and footwork are ordinary unless another trait improves them; ally techniques do nothing alone. Ordering a large group is Leadership. Pure training: the same if Quirkless, never Quirk Strain; calls and plans are free, body techniques cost stamina as tagged. Legal and social treatment: thinking is legal; planning a crime carries the guilt of doing it. Agencies and the Commission prize tactical sidekicks and team leaders, U.A.'s practical exams grade judgment as well as strength, and villain crews follow whoever keeps them out of prison. How it looks: watchful at the edge, hand signals, a notebook of foes' habits.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Combat Tactics",
+        "modifier": 15
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Call the Tell"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

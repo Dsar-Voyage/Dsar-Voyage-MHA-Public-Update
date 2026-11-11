@@ -1,0 +1,15 @@
+{
+  "deku_reaches_the_coffin": {
+    "title": "Control Your Heart",
+    "beats": "During the middle phase of day 405, Izuku Midoriya reaches the floating U.A. Academy battlefield with help along his approach from the American pilots. The arena is damaged, its defenders wounded, and Katsuki Bakugo lies under treatment in the default course. Mirio Togata remains between Tomura Shigaraki and the people still trying to save him. An earlier arrival or prevented injury changes what Izuku finds.\n\nThe canon default course, as pressure the player can change: the enemy draws Izuku's attention to Bakugo and tries to turn grief and rage into an uncontrolled attack. Mirio makes clear that the rescue effort has not been abandoned. Izuku regains enough control to fight deliberately, combines his inherited abilities, and uses the second holder's Gearshift to overwhelm the enemy temporarily. The acceleration carries a strict useful window and dangerous physical backlash. An extraordinary opening does not establish Shigaraki's defeat.\n\nGive the player a concrete role in the arrival: securing a landing space, protecting Mirio's attempt to reach Izuku, shielding treatment, or disrupting the first combination. Let a credible intervention change Izuku's immediate judgment. The private voices advising him remain inaccessible to ordinary witnesses. Once Gearshift is spent, its effects and approaching exhaustion remain part of the next confrontations; neither a new scene nor a supportive speech restores his body. Bakugo stays under treatment unless his earlier condition actually differs.\n\nBy place: U.A. Academy provides the arrival and direct engagement. Okuto Island can confirm the route Izuku left behind; Kamino Ward and Gunga Mountain Villa receive the revised battle status. Musutafu General Hospital prepares for continuing critical injuries. Jaku City and Takoba Municipal Stadium remain responsible for their own containment, while Mount Fuji Battlefield supports the ground approach and debris warnings. Remote players can verify assistance or protect an accessible casualty.\n\nBy Path: Class 1-A and Class 1-B create a safe opening; General Studies coordinates incoming aid; Support manages arena damage. Management transmits accurate status and Faculty protects containment. Licensed Sidekick shields the wounded; Licensed Pro Hero supports Izuku's attack. League of Villains Recruit can aid Shigaraki's survival; Independent Villain chooses a tactical intervention. Vigilante protects approach zones; Civilian Life assists rescuers below the battlefield.\n\nThe event is complete when Izuku takes over the direct engagement or his arrival is blocked, and the resulting advantage, injuries, and remaining time are established.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_deku_reaches_the_coffin",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

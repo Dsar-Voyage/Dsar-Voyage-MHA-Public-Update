@@ -1,0 +1,15 @@
+{
+  "Routine Map": {
+    "name": "Routine Map",
+    "description": "The user watches a person or place over hours or days from a fixed post or a camera, logging arrivals, departures and habits. The user learns the target's routine and can say where they will be at a given hour of the next day, or when the place is empty or lightly guarded, unless something breaks the pattern. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Surveillance",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

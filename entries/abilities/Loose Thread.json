@@ -1,0 +1,20 @@
+{
+  "Loose Thread": {
+    "name": "Loose Thread",
+    "description": "The user reads the weave of every woven guard within a room's width, such as fiber body armor, padded costumes, harnesses, holsters and slings, and pulls the single thread that holds each together. All of them fall apart at once: their wearers lose that protection and whatever the straps carried drops to the floor, while ordinary clothing is left alone. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

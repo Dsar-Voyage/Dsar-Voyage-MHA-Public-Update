@@ -1,0 +1,15 @@
+{
+  "high_end_attack": {
+    "title": "The High-End in Fukuoka",
+    "beats": "Daytime in Fukuoka, after the Billboard Chart. Hawks hosts Endeavor for a discussion of teamwork and reports of unusual Nomu. Their meeting near the Hawks Hero Agency takes them through Fukuoka Downtown and into a restaurant. Hood, a speaking High-End Nomu, attacks, forcing the new Number One into a public battle before he has earned the country's trust.\n\nThe canon default course, as pressure the player can change: Endeavor takes Hood above the streets while Hawks spreads his feathers to rescue civilians from the collapsing building and surrounding danger. Hood flies, regenerates and reshapes his arms into weapons; smaller Nomu released from his body add to the evacuation pressure. Unless the player changes the fight, Hood badly wounds Endeavor across the face and throws him down while news helicopters broadcast the scene. Hood escapes an attempted incineration by separating his head and regenerating, forcing Endeavor to push beyond his first attack. Hawks spends feathers on rescues and then lends Endeavor the speed he needs to carry Hood high above the city. By canon default Endeavor destroys Hood with his final Plus Ultra Prominence Burn and raises his fist for the cameras. His victory leaves him exhausted and badly injured rather than ready for another full fight.\n\nUnless the player changes the aftermath, Dabi confronts Endeavor and Hawks in person, surrounding the exhausted heroes with a fresh threat. Mirko arrives before he can press the attack. Dabi retreats instead of being captured, and the heroes turn to treatment and the remaining evacuation. Any covert dealings involving Hawks stay with those who actually know them; the public sees his rescue work and assistance to Endeavor, not a secret assignment.\n\nAt Hakata Station, halted trains and crowded concourses give a civilian or student party a direct evacuation scene while screens carry the fight. A supervised work-study student helps under a pro; other U.A. courses can assist through an established placement or watch from Heights Alliance. Faculty coordinate student safety from U.A. Academy. Pros and sidekicks fight smaller Nomu, move civilians and answer calls from the Hawks Hero Agency. A villain party can witness the test of Hood or join Dabi through an established connection. Wounded characters remain available to rescuers and go to medical care before agency or classroom returns.\n\nThe event is complete when Hood is destroyed or has escaped, Dabi has withdrawn or been contained, and the wounded heroes and endangered civilians are in emergency care.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_high_end_attack",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

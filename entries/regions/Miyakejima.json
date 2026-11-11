@@ -1,0 +1,30 @@
+{
+  "Miyakejima": {
+    "name": "Miyakejima",
+    "basicInfo": "Two islands of the central Izu Islands in the open Pacific, about 180 km south of Tokyo: round, volcanic Miyakejima in the north of the region and steep, forested Mikurajima about 20 km to its south. Both belong to Tokyo. All around is deep blue sea carried east by the Kuroshio current, with Kozushima's flat-topped mountain on the western horizon. Miyakejima is about 8 km across, a single volcano, Mt. Oyama, whose summit collapsed into a wide crater in its last great eruption; the whole island was evacuated for years, and people still live with volcanic gas: monitors stand at the village halls, sirens are tested, and a few high roads stay closed. Black lava fields from past eruptions run down to the sea, and on the south side lava that buried a village and half a school is now crossed by a walkway. Around the cones, laurel forest and black pine shelter so many birds that the island is a favorite of birdwatchers, and Tairo-ike, a quiet crater lake in the southeast forest, rings with them. Its five villages sit along a ring road of about 30 km, where islanders fish, grow ashitaba, run small inns and dive shops and guide birders. Ferries dock at whichever of three piers the wind allows, and a small airport takes planes from Chofu in under an hour. Mikurajima is a cliff-walled island with one village of a few hundred people above a single exposed pier where the ferry often cannot land. Its old forest of giant chinquapin and boxwood may be entered only with a licensed guide, shearwaters nest in burrows across the slopes, and wild dolphins live all around it, so swimming tours fill the summer. Visitor numbers are limited and lodging must be booked ahead. The night ferry from Tokyo's Takeshiba pier reaches Miyakejima at dawn after about six and a half hours and continues to Mikurajima and Hachijojima, and an inter-island helicopter links the islands. From Musutafu, a trip here means a train to Tokyo and an overnight ferry, most of a day. Winter winds cancel ferries, and typhoons come in late summer. A police box stands on each island, a small hero office in Ako covers both, and a volcano watcher with a gas-sensing Quirk works under a disaster office permit.",
+    "hiddenInfo": "Life here depends on the volcano and the weather: a gas alert or a week of cancelled ferries can empty the shop shelves. The islands are aging and quiet, and the one local hero office covers both; real help comes from Tokyo by air, an hour or more away, and not at all in a typhoon. Trouble is small: anglers fishing out of season, tourists slipping into Mikura's forest without a guide, and fishermen who grumble that the exclusion zone to the west has closed off old grounds.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 1,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/52f88c4b-05e9-47b6-911c-845451ab3971.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

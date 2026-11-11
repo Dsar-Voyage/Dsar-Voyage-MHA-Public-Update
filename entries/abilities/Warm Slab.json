@@ -1,0 +1,20 @@
+{
+  "Warm Slab": {
+    "name": "Warm Slab",
+    "description": "The user stamps the ground and tips up a waist-high slab of pavement for cover, smaller than a pure Earth user's wall and arriving smoking hot. Shots and thrown objects from the front stop against it, and an attacker who grabs or vaults the uncooled stone takes minor fire damage; the user must spend a moment drawing the heat back before an ally can lean on it safely. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

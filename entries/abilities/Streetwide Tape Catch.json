@@ -1,0 +1,25 @@
+{
+  "Streetwide Tape Catch": {
+    "name": "Streetwide Tape Catch",
+    "description": "The user rapidly layers strips between firm buildings or poles across a street for the rest of the scene. The web catches several falling people or stops a charging group, holding each until rescuers free them; held back, the tape cushions rather than crushes. Heavy vehicles can tear through it, every span needs sound anchors, and sustained output leaves the user's elbow skin cracked and painful. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

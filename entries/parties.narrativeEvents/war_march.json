@@ -1,0 +1,15 @@
+{
+  "war_march": {
+    "title": "Gigantomachia's March",
+    "beats": "Day 363, after Jaku's immediate aerial clash, Gigantomachia advances from Gunga Mountain Villa toward the evacuation zone of Jaku City. The Jaku battle stays active at its resolved stage while the students' attempt to stop the giant takes focus; no earlier rescue or death is replayed.\nThe canon default course, as pressure the player can change: on Gunga Mountain Villa's Mountain Slopes, Momo Yaoyorozu turns Midnight's last instruction into an anesthetic plan. Licensed students prepare doses, traps and a route to the giant's mouth. Mount Lady grapples with Gigantomachia and strains to hold his jaws apart while Kamui Woods and the perimeter team buy time. Class 1-A and Class 1-B coordinate rather than charging separately; Itsuka Kendo helps keep the teams organized.\nMina Ashido pushes through danger carrying a dose, then freezes when the giant brings back a towering villain she once faced before U.A.. Eijiro Kirishima shields her, takes up the dropped dose, climbs into reach and gets anesthetic into Gigantomachia's mouth. Others' failed throws do not erase his delivery. The dose is delivered by canon default, but it needs time to work; the giant breaks onward rather than instantly falling asleep. A player can change the delivery, strength of the delay or escape route. Record machia_dosed only if a dose actually reaches him.\nThe giant carries the Front's leaders toward Jaku City, crushing streets and forcing rescue teams to redirect evacuees. Himiko Toga leaves his back, enters Jaku's evacuation area and lures Ochaco Uraraka away under a civilian disguise. She demands to know whether heroes will kill her as Twice was killed. Ochaco confronts the harm Toga inflicts on others; Toga attacks and seeks a personal answer, not a public debate. Tsuyu Asui reaches Ochaco; Toga escapes by default. Their private exchange does not become general news.\nBy Path: licensed Hero Course students hold the mountain perimeter under their pros or evacuate Jaku City's Residential Hills. Faculty, Licensed Pro Heroes and Sidekicks can hold the giant, deliver a dose, clear debris or defend evacuees. League of Villains Recruits protect the riders or find their own escape; Independent Villains and Vigilantes act only if already on these fronts. Civilians flee or seek rescue. General Studies, Support and Management students stay with evacuation or an established Commission supply or dispatch role.\nThe event is complete when the dosing attempt and Toga's confrontation have resolved and the giant's next position is established, without requiring his capture or the war's end.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_war_march",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

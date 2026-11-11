@@ -1,0 +1,20 @@
+{
+  "Smartphone": {
+    "name": "Smartphone",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Navigation",
+        "value": 2
+      }
+    ],
+    "description": "A touchscreen phone with maps, messaging, a camera, news feeds and hero apps that track rankings and incident alerts. Its wallet app pays at most registers and ticket gates. [ Tool | About ¥90,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df7e818c-e372-413a-aa2c-3e6225cbac0c.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

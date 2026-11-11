@@ -1,0 +1,25 @@
+{
+  "Stubborn": {
+    "name": "Stubborn",
+    "description": "🪨 You do not move once you decide: not for pain, not for pressure, and sometimes not for good advice.\n\n💪 You stay standing after a hit and keep working after others quit.\n🧱 Pressure and pain do not change your mind once it is made up.\n⚠️ You rarely change course, even when you are wrong, and you need to see the evidence twice.\n⚠️ You clash with teachers and superiors, hold grudges and apologize late.\n\n📈 Grants: Endurance +1, Willpower +5",
+    "traitNarrativeEffects": "The character holds their ground: they stay standing after a hit, keep working after others quit and refuse to back down once they have decided. That persistence carries them through long fights and long nights. Weakness: they rarely change course, even when they are wrong. They need to hear advice twice and see the evidence twice before they accept either. They clash with teachers and superiors, hold grudges and apologize late. The narrator lets their stubbornness win some fights and cost them some friendships. When they finally give ground, if ever, is the player's decision.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Willpower",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

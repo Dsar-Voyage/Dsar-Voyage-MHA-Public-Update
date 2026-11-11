@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 248 [1-A]": {
+    "name": "Day Plan: day 248 [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 248
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_joint_training",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the joint training battle: Classes 1-A and 1-B face each other in four-on-four matches at Training Ground Gamma under Aizawa and Vlad King; no other lessons."
+      }
+    ]
+  }
+}

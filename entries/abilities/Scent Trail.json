@@ -1,0 +1,20 @@
+{
+  "Scent Trail": {
+    "name": "Scent Trail",
+    "description": "With the beast's nose, the user takes a person's scent from a worn item or the spot where they stood and follows it through streets, stairwells and crowds until running water or a vehicle breaks the trail. Along the way they smell gunpowder, gas leaks, fresh blood and fear, and find anyone hiding or trapped within a few rooms. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

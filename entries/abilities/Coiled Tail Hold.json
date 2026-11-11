@@ -1,0 +1,20 @@
+{
+  "Coiled Tail Hold": {
+    "name": "Coiled Tail Hold",
+    "description": "The user coils their tail around one adult's waist within two meters and pins an arm against the body until the end of the user's next turn. The user keeps pressure below a crushing grip. A stronger opponent can pry free, and holding the target prevents using the tail to strike or support the user's balance. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

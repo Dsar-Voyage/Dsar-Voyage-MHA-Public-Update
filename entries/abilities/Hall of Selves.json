@@ -1,0 +1,24 @@
+{
+  "Hall of Selves": {
+    "name": "Hall of Selves",
+    "description": "The user fills a street-wide area with a dozen moving images of themselves, each acting on its own. Until the end of the user's next turn, every attack aimed at the user hits only an image unless the attacker makes a hard effort, and the user strikes from among them for heavy bludgeoning damage; held back, the strike only knocks the target down. The images make no sound, and the user can only move and strike while holding them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

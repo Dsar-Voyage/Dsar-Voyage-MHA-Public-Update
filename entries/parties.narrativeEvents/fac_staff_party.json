@@ -1,0 +1,15 @@
+{
+  "fac_staff_party": {
+    "title": "Year-End Staff Party",
+    "beats": "Late December, evening, in the Teachers' Lounge at U.A. Academy. The desks are pushed to the walls; Midnight has hung lights and set the dress code, and Present Mic has wired his speaker collar to a playlist and appointed himself host. Lunch Rush's trays cover one table; Power Loader has built a hot pot burner that has not caught fire yet. For once everyone is out of costume, in party clothes: Principal Nezu with a speech on cards, Shota Aizawa near the door, All Might in a suit that finally fits his new frame, Cementoss, Ectoplasm, Snipe, Hound Dog, Recovery Girl, Thirteen and Vlad King.\n\nThe default course, as pressure the player can change: Nezu's toast runs long and wanders into the state of his fur, then lands on the year: the USJ, the camp, Kamino, All Might's retirement, a festival held behind walls, the first chart without All Might at the top, and a whole first year that made it to December. Midnight runs a party game of questions that Hound Dog refuses and Snipe wins without saying a word. Present Mic gets the room singing. Vlad King and Aizawa argue the Joint Training result again. All Might tells a story at his own expense and the room laughs with him, not at him. Aizawa tries to leave three times, and Mic and Midnight catch him twice. If the raid freed Eri, he has a better excuse than anyone: she is asleep in the teachers' quarters and he wants to be there if she wakes.\n\nLate in the evening someone goes quiet over what the year cost, and the party can sit with them or let the music cover it. A teacher party can give a toast of its own, start a rivalry over the karaoke list or help Aizawa escape. Between colleagues, romance stays at most a hint.\n\nThe event is complete when Nezu's last toast is drunk and the lounge empties, or Aizawa finally gets out the door with the party's help.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_fac_staff_party",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

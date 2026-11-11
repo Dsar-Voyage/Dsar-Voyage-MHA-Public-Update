@@ -1,0 +1,30 @@
+{
+  "Hamamatsu": {
+    "name": "Hamamatsu",
+    "basicInfo": "Hamamatsu is the cell of western Shizuoka's Enshu country: the city of Hamamatsu in the southwest corner, Iwata, Fukuroi, Kakegawa and Kikugawa strung east across the Tokaido plain, and behind them the folded green hills of the Tenryu and Oi river valleys climbing north toward the Akaishi mountains. The Pacific shore of the Enshu-nada, with its long dunes and kite beach, runs just beyond the southern edge, and the eastern shore of Lake Hamana touches the west. The Tenryu River, wide and gravel-bedded, cuts down the middle from Sakuma and Futamata to the sea; the Oi River runs down the east through Kawane, where tea terraces cling to the slopes. The climate is mild and sunny, with the famously strong, dry Enshu winds of winter and humid summers with typhoons. Hamamatsu is a big manufacturing city famous for musical instruments and motorcycles and for a large Japanese-Brazilian community with its own shops, churches and samba nights; it is proud of its gyoza, served in rings around a heap of bean sprouts, and of the eel from the lake. In early May the Hamamatsu Festival flies giant kites over the dunes by day and parades lantern-lit palace floats through town by night. Iwata and Fukuroi have farms, factories and greenhouses of crown melons; Kakegawa has a rebuilt wooden castle and deep-steamed green tea, and Akiha shrine on its mountain draws pilgrims seeking protection from fire. The Oigawa Railway runs vintage steam trains up the Oi valley to Senzu, and the Tenryu Hamanako Railway loops through the northern hills. The Tokaido Shinkansen stops at Hamamatsu and Kakegawa, the JR Tokaido Line and the Enshu Railway serve the plain, the Tomei and Shin-Tomei expressways cross it, and the Iida Line passes through Sakuma in the far north. Musutafu is under an hour away by shinkansen, and Nagoya about half an hour. Visitors eat gyoza, ride the steam trains and raft the Tenryu. Hamamatsu has many hero agencies, a city police headquarters and constant traffic patrols; heroes with wind or flight Quirks are welcome at kite season, and small offices cover the hill valleys with long drives.",
+    "hiddenInfo": "Hamamatsu's undercurrent is a working city under strain: factory layoffs hit migrant families hardest, language barriers leave people easy to exploit, and tensions surface around bars and crowded housing blocks. Motorcycle gangs race the coastal roads and the Tenryu riverbed at night. The Tenryu hill country loses people every year, leaving empty houses to squatters and thieves. In the city, police and hero response is quick; in the northern valleys it can take most of an hour.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -2,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0394f838-1897-45f8-bf8c-40a58ad70c9d.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

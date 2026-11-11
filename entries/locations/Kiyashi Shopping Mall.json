@@ -1,0 +1,164 @@
+{
+  "Kiyashi Shopping Mall": {
+    "name": "Kiyashi Shopping Mall",
+    "basicInfo": "A large suburban mall on Musutafu's south side, about 5 km south-southwest of the station, with its own bus terminal and a multi-level parking garage; Dagobah Municipal Beach Park is about 3 km farther toward the bay. Its selling point is range: shops stock clothing and gear for every body type, including heteromorph sizes, along with sports goods, electronics, books, groceries and a movie theater. A private management company runs it and its uniformed security guards, who carry radios and have no authority to use Quirks; serious trouble means calling the police or a patrolling pro. It opens at ten and closes at nine, and the doors are locked outside those hours except the staff entrance by the loading docks. Weekday mornings bring retirees and parents with strollers; after classes, local students in school uniforms arrive; weekends are packed with families, couples and young people from across the city, U.A. students among them. The four-story atrium is the meeting point for half of Musutafu, the food court is the cheapest long lunch in town, and the upper fashion floors are where heteromorph shoppers come because they can finally find clothes that fit. A player can shop, eat, meet friends, take a part-time job in a store or the food court, catch a movie, or watch the crowd. Escalators hum, piped music mixes with announcements, and the atrium's big screen runs hero news between ads.",
+    "hiddenInfo": "A pickpocket crew has worked the weekend crowds in the atrium for a month. One of them has a small Quirk that makes people flinch for a second, and the others lift wallets and phones in that moment; they work Saturday afternoons by the fountain, when the crowd is thickest, and leave by different exits. Mall security has descriptions but no authority to use Quirks, and the police treat it as low priority. Embarrassed, management is quietly taking bids from the small agencies on Hero Agency Row for a paid security contract; whichever pro lands it gets steady pay and a crowd to be seen by. Store staff also complain that the security company cut night guards to save money, so the loading docks are often unwatched after closing. Meanwhile Gentle Criminal and La Brava have taken a corner table in the Food Court most weekday afternoons, where she pours him tea from a thermos while they plan. They are scouting the atrium for his next video: La Brava has been probing the big screen's control system from her laptop, and Gentle wants to take it over at the busiest hour of a Saturday to broadcast himself to the whole mall. Clues are there for anyone who looks: a small woman with raspberry-pink pigtails lingering near the screen's service panel, a white-haired man in a tailcoat rehearsing bows by the escalators, and a security guard who has twice found the panel's cover loose.",
+    "x": -7.64,
+    "y": 14.053,
+    "radius": 1,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Main Atrium": {
+        "description": "A four-story glass atrium in the middle of the mall, ringed by balconies and crossed by escalators, with a fountain and a giant screen at floor level and a skylight that lets the afternoon sun fall across the tiles. Weekend events happen here: product launches, school band shows, seasonal markets and now and then a rookie hero signing autographs at a folding table. It is the default meeting point, so friends wait by the fountain while mall security watches from the second-floor railing, and on Saturday afternoons the crowd around the fountain is so thick that people move shoulder to shoulder. Coins glitter on the fountain floor, and the screen alternates ads with hero news and the mall's own announcements. Sound carries upward, and anything said by the fountain can be heard on the balconies above. Escalators lead up to the Fashion Floors, and a wide passage on the ground floor opens into the Food Court.",
+        "paths": [
+          "Food Court",
+          "Fashion Floors",
+          "Bookstore and Manga Floor",
+          "Electronics Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d2c08d5d-c69a-48b1-8d32-376b79dfd458.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Food Court": {
+        "description": "A broad hall of food counters around rows of shared tables: ramen, curry, crepes, takoyaki, burgers and a bakery. Several counters serve large portions, and one section has sturdy chairs and wide tables for customers with big or heavy heteromorph bodies. Lunch brings office workers and parents with toddlers; after classes, students hold the corner tables for hours over a single drink, and on weekends every seat is taken by noon. Part-timers in paper hats work the counters in short shifts, and the ramen counter is always hiring. Regulars keep their own tables, and a pair of odd ones, a white-haired man in a tailcoat and a small woman with pink pigtails and a laptop, have claimed the far corner most weekday afternoons. Trays clatter, order buzzers go off, and the smell of sweet batter from the crepe stand reaches the escalators. The hall opens back onto the Main Atrium.",
+        "paths": [
+          "Main Atrium"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/65556f6a-2663-4d83-88fc-3273bd53d225.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Fashion Floors": {
+        "description": "Two upper floors of clothing stores, from cheap chains to brand boutiques, with fitting rooms and a tailor who alters clothes for tails, wings, extra arms and other heteromorph builds while the customer waits. Athletic and training-wear shops are popular with hero students, and one of them keeps a wall of shoes reinforced for Quirks that are hard on footwear. Weekday afternoons are quiet, with clerks folding stock; on weekends, lines form at the fitting rooms and friends trade opinions from the benches outside. Staff are trained to treat every body type the same, and customers notice when they do not. The music changes every few meters, the lighting is brighter here than anywhere else in the mall, and the tailor's shop smells of steam from the pressing iron. From the railing, shoppers can look straight down into the Main Atrium, and the escalators lead back down to it.",
+        "paths": [
+          "Main Atrium",
+          "Cinema Complex",
+          "Rooftop Amusement Deck"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f7be37e5-6f57-4017-bd97-cb858922255c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Cinema Complex": {
+        "description": "A ten-screen cinema on the mall's top floor, one last escalator above the Fashion Floors, entered through a dim lobby of carpet, poster lightboxes and a concession counter selling popcorn in salt, caramel and soy-butter. Tickets come from touch-screen machines, about 1,900 yen for an adult and cheaper on the first day of each month; the screens show hero action films, anime, romances and imports, and this spring a documentary on All Might's career sells out on weekends. Weekday mornings are near empty; after classes, students fill the cheap seats; weekends are packed with families and couples, and the last show lets out just before the mall locks its doors at nine. One screen has wide reinforced seats and open space at the front for heteromorph viewers, and the ushers ask winged guests to keep their wings folded so the row behind can see. Phones off, no talking and no glowing Quirks during the film: an usher with a flashlight enforces all three. The lobby smells of butter and carpet cleaner, and a trailer reel loops over the counter. The escalator leads down to the Fashion Floors, and a stairway climbs to the Rooftop Amusement Deck.",
+        "paths": [
+          "Fashion Floors",
+          "Rooftop Amusement Deck"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f2da7447-0ca3-4f93-8069-0a9818f13683.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Bookstore and Manga Floor": {
+        "description": "A big chain bookstore filling half of the mall's second floor off the atrium balcony, with novels, cookbooks and study books at the front and the whole back half given over to manga, light novels and hero magazines. A wide table holds each week's new manga in shrink-wrapped stacks, and the hero section sells Hero Billboard Chart guides, agency yearbooks, hero-law workbooks and the thick prep manuals for U.A.'s entrance exam, which sell all year. Retirees browse the newspapers in the mornings; after classes, students stand reading in the manga aisles until a clerk moves them along; weekends bring families buying picture books and fans lining up for hero magazine special issues. Staff write hand-lettered recommendation cards for the shelves, and one clerk's cards on hero biographies are so long they curl. A notice by the register asks customers to keep Quirks off the shelves since a telekinetic browser pulled a whole row down. It smells of paper and of coffee from the small counter at the back. The doors open onto the Main Atrium's balcony and its escalators, and a wide aisle runs across to the Electronics Floor.",
+        "paths": [
+          "Main Atrium",
+          "Electronics Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3304fe4d-54e9-401f-a5ce-a2640eb8884a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Electronics Floor": {
+        "description": "The other half of the mall's second floor, a bright electronics store under rows of white light: walls of televisions all showing the same hero news, aisles of phones, laptops, cameras, rice cookers and massage chairs, and a games corner of demo consoles. Staff in matching polo shirts push warranties and point cards, and a time-sale jingle plays every half hour. A counter at the back repairs phones and replaces cracked screens while you wait, about 8,000 yen for most models; hero students bring in phones broken in training more often than they admit, and the repair tech has learned not to ask. A shelf of Quirk-adapted goods is the floor's specialty: heat-proof phone cases, oversized keyboards, claw-friendly touch gloves and headphones for unusual ears. Retirees try the massage chairs every weekday morning; after classes, students crowd the game demos; weekends bring families comparing washing machines. When a live hero incident breaks in, every screen cuts to it and the floor stops to watch. It smells of new plastic and cardboard. Escalators lead down to the Main Atrium, and an aisle runs across to the Bookstore and Manga Floor.",
+        "paths": [
+          "Main Atrium",
+          "Bookstore and Manga Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1c77a796-38a2-469c-bd0c-6546aa1cb967.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Rooftop Amusement Deck": {
+        "description": "An open-air roof deck above the cinema, fenced with high safety netting, where the mall keeps an old-fashioned rooftop amusement corner: a small Ferris wheel of eight gondolas, coin-operated ride-on animals and hero cars, a batting cage and a stand selling soft-serve and grilled corn. The wheel costs 300 yen and, on a clear day, shows the whole city from the top: Suruga Bay to the southwest, Mount Fuji to the north and the hills of U.A.'s campus far to the northeast. Parents bring toddlers on weekday mornings; after classes, students hit balls in the batting cage and take photos in the gondolas; on weekends, families line up for the wheel, and at dusk couples ride it for the view as the city lights come on. The deck closes with the mall at nine, earlier in rain or high wind, and an attendant in a windbreaker runs the wheel. A sign at the batting cage says in large letters that Quirks may not be used on the balls, and any hit that tears the net ends the session. The wind is steady, the netting hums, and the wheel's motor whirs between the jingles. Stairs lead down to the Cinema Complex, and an elevator runs to the Fashion Floors.",
+        "paths": [
+          "Fashion Floors",
+          "Cinema Complex"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1cbba1e9-74e1-4d08-ac65-e519923fc9d4.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/157a832f-a497-4431-9fd9-914928ca0cdd.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

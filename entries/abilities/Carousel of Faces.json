@@ -1,0 +1,25 @@
+{
+  "Carousel of Faces": {
+    "name": "Carousel of Faces",
+    "description": "The user's signature move: they weave through a group of enemies, changing form at every step, wearing each carried face and the face of any enemy whose blood or hair they took this scene. Until the end of the user's next turn, no enemy can tell the user from their own side: none can target the user, and any who attacks hits another enemy or holds back. Then the user cannot change form until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Lizard Tail Splitter Quirk": {
+    "name": "Lizard Tail Splitter Quirk",
+    "description": "🦎 You turn your body into living pieces you steer through the air.\n\n🌱 At the start you detach a hand or eye, guide it across a room to touch or see, then return it to rejoin your body, leaving your main body exposed.\n📈 With training: several routes watched, small objects carried, opponents surrounded, split-body dodges, a full split into up to fifty pieces.\n⚠️ Your pieces can be trapped and cannot stay away forever; a hand cannot lift an adult, split views divide attention, and replacing losses drains stamina.\n🔗 Canon Drawback, built in: Stamina Drain, as many pieces and regeneration exhaust you.\n🎬 Canon Quirk: Setsuna Tokage's Lizard Tail Splitter. You are not related to her; people who know her Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Mobility +10, Surveillance +5\n⚡ Starting techniques: Sectioned Palm, Loose Hand Lift",
+    "traitNarrativeEffects": "Scale: splits off own body parts and flies them. Start: one hand or eye flies across a room, touching or seeing, then rejoins; the rest stays alive, aware. More pieces, joint attacks, wide searches need training; mastery: up to 50.\nLimits: a detached hand holds small objects, never an adult; an eye sees only where it points; several views split attention. Pieces can be struck, trapped, stolen; none stay out forever: recall them or regrow at a stamina cost. Split, fewer limbs guard the core.\nQuirk Strain: light: one piece, short way; moderate: several pieces, search, restraint; heavy: most of the body, regrowing several pieces; severe: full split, sustained control.\nDrawback: built in, the canon Stamina Drain.\nCanon: Setsuna Tokage's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Transformation.\nLaw: user owns detached parts; unauthorized eyes in private rooms violate privacy.\nLook: floating parts.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Surveillance",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Sectioned Palm",
+      "Loose Hand Lift"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

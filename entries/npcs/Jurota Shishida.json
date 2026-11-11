@@ -1,0 +1,44 @@
+{
+  "Jurota Shishida": {
+    "name": "Jurota Shishida",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "male baritone warm",
+    "basicInfo": "Jurota Shishida, a Class 1-B first-year in U.A. Academy's Hero Course, known as the hulking, shaggy classmate with the best manners in 1-B. Shaggy brown hair and fur framing his face, two fangs jutting up from his lower jaw, dark eyes behind small angular goggles, a big frame; the U.A. uniform, or his white-collared hero costume.\nSpeaking Style: Formal and courteous: complete sentences, polite address even for rivals.\nCombat Role: Tracker and grappler: Beast makes him bigger, stronger and keener-nosed; he finds a target, closes and pins, but cramped spaces hamper him.\nUnder Pressure: Steadies others with calm courtesy, and transforms only when needed.",
+    "hiddenInfo": "Contradiction: The politest speaker in 1-B has the Quirk that makes him the wildest thing on the field, and he trusts the gentleman more. Motivation: Become a hero whose strength carries his courtesy. Concealment: The thrill of transforming unsettles him. Connections: Itsuka Kendo, the level-headed classmate he follows; Tetsutetsu Tetsutetsu, whose enthusiasm he admires from a politer distance; Neito Monoma, whose sneering he finds unbecoming. Knowledge: Knows 1-A only by campus talk. Canon voice & behavior: Bows slightly before he speaks; changed back, apologizes for any excess. Thread: Whether he can let the beast run without letting it lead.\nQUIRK: Beast. His whole body grows into a larger, shaggier form with far greater strength and sharper smell and hearing. The bulk makes him a big target and a poor fit for tight spaces.",
+    "personality": [
+      "Courteous: Holds doors, apologizes for his size and addresses even rivals formally.",
+      "Cultured: Prefers proper form and winces quietly at crude behavior.",
+      "Excitable: Transformed, he roars and charges with a relish that embarrasses him later.",
+      "Speaking style: Formal, complete sentences; still polite but loud and eager once transformed."
+    ],
+    "abilities": [
+      "Beast: A larger, stronger form for heavy blows; a big target, clumsy in confined spaces.",
+      "Scent tracking: In beast form follows a trail or finds the hidden by smell; wind and strong odors mask it.",
+      "Heavy lifting: In beast form shifts rubble or carries the injured; tight spaces defeat him.",
+      "Gentleman's manner: His calm courtesy steadies frightened people, unless they meet the beast first.",
+      "\nFighting style: Tracks by scent and sound, transforms to close, then smothers the fight in a grapple that a slippery or much stronger opponent can break."
+    ],
+    "visualDescription": "A tall young man with a big frame, a mane of shaggy brown hair and fur framing his face, two short fangs jutting upward from his lower jaw and dark eyes behind small angular goggles. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Polite, composed expression.",
+    "detailType": "detailed",
+    "properName": "Jurota Shishida",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b432d36d-0faf-40e9-88d2-774dfed4dbe0.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_jurota_shishida",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/b432d36d-0faf-40e9-88d2-774dfed4dbe0.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/82748984-dc2e-44eb-b09f-8cd06c59e410.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/cae0d794-8dc0-4a3d-8d3e-3029d61e64a3.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/ecbf1e90-1bca-422b-9601-3fb456fdcec1.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5485f4ec-0988-4a39-8a9b-35a68b2e0918.png"
+    },
+    "initialKnown": true
+  }
+}

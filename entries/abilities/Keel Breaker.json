@@ -1,0 +1,24 @@
+{
+  "Keel Breaker": {
+    "name": "Keel Breaker",
+    "description": "The user rams a vessel or vehicle at full swimming speed, from below or from the side. A fleeing boat or jet ski stops dead or flips, a hull is holed, and a sunken car's door or windshield caves in so the people inside can be pulled out; against a person it deals heavy bludgeoning damage that ignores worn armor. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

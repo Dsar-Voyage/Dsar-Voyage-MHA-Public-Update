@@ -1,0 +1,17 @@
+{
+  "Chart Season": {
+    "name": "Chart Season",
+    "questSource": "Uwabami",
+    "questStatement": "The Hero Billboard Chart is days away, and the rankings weigh public approval along with cases solved. Uwabami, a celebrity pro who runs her agency as a brand, has booked your agency into a charity broadcast at the Tokyo Broadcasting Center: a studio segment, a fan event and a live rescue demonstration. She wants you polished, quotable and on camera, with no mistakes in front of the nation.",
+    "mainObjective": "Get through Uwabami's charity broadcast and raise your agency's standing before the Billboard Chart.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has taken part in Uwabami's charity broadcast on air and off, and the public has formed a clear new impression of the PC and their agency, good or bad."
+    },
+    "detailType": "detailed",
+    "questLocation": "Tokyo Broadcasting Center",
+    "questDesignBrief": "Satire of hero celebrity with real work underneath. Uwabami is glossy on camera and clipped and competent off it; her snakes find people eyes miss. Give the broadcast one unscripted problem: a real emergency nearby, a fan who needs help, or a staged rescue that goes wrong. How the PC chooses between the shot and the person decides how the segment plays. Mount Lady may turn up for the cameras. The quest does not predict the chart; rankings are decided only when the Billboard Chart event runs. Failure: an embarrassing clip that follows the PC for weeks, or a person left waiting while the PC posed.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

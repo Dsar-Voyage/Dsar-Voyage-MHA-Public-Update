@@ -1,0 +1,20 @@
+{
+  "Piston Kick": {
+    "name": "Piston Kick",
+    "description": "The user fires the engines behind a single kick, or a punch for arm thrusters, at a target within reach. It deals bludgeoning damage and throws the target off their feet and back across the room; held back, the thrust only shoves them away and puts them on the ground without injury. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

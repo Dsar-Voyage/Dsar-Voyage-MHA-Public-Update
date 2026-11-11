@@ -1,0 +1,25 @@
+{
+  "Monsoon Veil": {
+    "name": "Monsoon Veil",
+    "description": "The user throws water straight up in a column that breaks into a heavy rain over a whole city district for the rest of the scene. Every ordinary fire under it goes out within minutes, smoke and dust wash out of the air, and the user can drop the rain onto any enemy in the open as a downpour that deals heavy bludgeoning damage and knocks them flat; held back, it only pins them down and blinds them. Streets there flood ankle-deep, so live wiring becomes a danger to everyone, and afterward the user is parched and cannot make water for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

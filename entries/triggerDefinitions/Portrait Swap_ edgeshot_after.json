@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: edgeshot_after": {
+    "name": "Portrait Swap: edgeshot_after",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Edgeshot",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/26e85618-0e64-4bf4-9bf0-e34235c82657.png"
+      }
+    ]
+  }
+}

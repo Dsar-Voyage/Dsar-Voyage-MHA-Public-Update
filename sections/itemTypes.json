@@ -1,0 +1,1438 @@
+{
+  "Yen": {
+    "name": "Yen",
+    "category": "Currency",
+    "bonuses": [],
+    "description": "Japanese yen: coins from ¥1 to ¥500, notes from ¥1,000 to ¥10,000, and the stored balance on a phone wallet or IC card. Ticket gates, vending machines and convenience stores take a tap of card or phone; small shops, food stalls and shrines often want cash. An onigiri costs about ¥150, and part-time work pays about ¥1,100 an hour. [ Currency | Legal tender ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/aed98c06-9041-4b25-8873-7dc5af982805.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100
+  },
+  "U.A. school uniform": {
+    "name": "U.A. school uniform",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [],
+    "description": "U.A.'s gray blazer edged in dark green, a white shirt, a red tie and dark green trousers or a dark green pleated skirt. Students wear it to lectures, ceremonies and school business off campus, and people across Japan recognize it on sight from the televised Sports Festival. It gives no protection in a fight. [ Armor | Issued at enrollment (about ¥45,000) ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3a26cbb3-6d93-47a4-924a-5439253dfb5e.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "U.A. gym uniform": {
+    "name": "U.A. gym uniform",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 5
+      }
+    ],
+    "description": "U.A.'s navy tracksuit with broad white stripes, worn with sneakers for physical training, Quirk assessments and drills. The stretch fabric survives scrapes and tumbles on the training grounds, which is all the protection it gives. [ Armor | Issued at enrollment (about ¥12,000) ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d429f2d1-1fec-41fd-a5b3-cc180d9c6a7b.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Student hero costume": {
+    "name": "Student hero costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 40
+      }
+    ],
+    "description": "A Hero Course student's first costume, padded where the body takes hits and fitted with features that serve the Quirk it was built for. The first real exercises usually show what the design got wrong. Wearing it grants no legal rights; only a license does. [ Armor | School-funded; made by a contracted support company from the student's design request ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/456ec7ec-58bc-4040-b99d-2408c5e68e0d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Second hero costume": {
+    "name": "Second hero costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 80
+      }
+    ],
+    "description": "A student's rebuilt costume, redesigned once real fights have shown where the first one failed. The support company adds reinforced panels, sturdier seams and gear tuned to how the student now fights in the field, close to the standard of a working pro's outfit. Like the first costume, it grants no legal rights; only a license does. [ Armor | School-funded upgrade after field experience or the license exam ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/48cc283f-f65d-46a1-82be-a8b9e2b6d7ee.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Agency hero costume": {
+    "name": "Agency hero costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 90
+      }
+    ],
+    "description": "A licensed pro's working costume, built to the hero's specifications and serviced by the agency's support contractor after every hard shift. Its look is part of the hero's brand: it appears on posters, merchandise and the evening news. [ Armor | Agency-funded; ¥800,000 and up ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/05a52b3c-85c5-46b3-9b0b-a36c8c9897d6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Villain coat and gear": {
+    "name": "Villain coat and gear",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 30
+      }
+    ],
+    "description": "Dark street clothes under a long coat, with padded layers, gloves and a hood or mask that keeps a face hidden from cameras. Underworld tailors sell it as a set and ask no questions. Nothing in it is illegal to own; the crimes it is worn for are. [ Armor | Black market, about ¥60,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/34a9aa0a-5ceb-4bb1-b7da-bcb01aeeacc6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Homemade vigilante costume": {
+    "name": "Homemade vigilante costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 20
+      }
+    ],
+    "description": "A costume pieced together from sports padding, a hooded jacket and a mask, with tape where the seams have given out. It blunts punches and scrapes but stops no blade, and fighting crime in it without a hero license is vigilantism, an arrestable offense. [ Armor | About ¥15,000 in parts ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4c37569a-974d-4522-9486-3c1ee38fb881.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Business suit": {
+    "name": "Business suit",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [],
+    "description": "A dark two-piece suit worn with a white shirt and tie or a plain blouse. It is the standard dress for office work, agency meetings, press conferences and appointments at the Hero Public Safety Commission. [ Armor | About ¥40,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/01e28b86-20f5-41e4-a9e6-473401f9bd4c.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Casual clothes": {
+    "name": "Casual clothes",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [],
+    "description": "Jeans or slacks, a T-shirt or blouse, a light jacket and sneakers, changed with the seasons. In them, a person blends into any city crowd. [ Armor | About ¥8,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cf520358-dd37-4d04-a310-1016a6010781.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Work uniform": {
+    "name": "Work uniform",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [],
+    "description": "A shop, cafe, delivery or service uniform with the employer's logo and a name tag pinned at the chest. The employer issues it for shifts and expects it back clean. [ Armor | Employer-issued ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e0c6ebfa-6ab9-4f78-8bb0-14497d022c6d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Workshop coveralls": {
+    "name": "Workshop coveralls",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      }
+    ],
+    "description": "Heavy canvas coveralls with reinforced knees, tool pockets on every limb and scorch marks from earlier projects. Support Course students wear them in the Development Studio, where small fires and test explosions are part of a normal day. [ Armor | About ¥9,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed11abbb-6eb6-4912-8ea1-6487ac0a64f7.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Police tactical vest": {
+    "name": "Police tactical vest",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 60
+      }
+    ],
+    "description": "A riot officer's protective set: a stab-resistant vest, shoulder and shin guards and a visored helmet. Police issue it to officers only; a civilian who wears police-marked gear can be charged under the Minor Offenses Act for wearing an official uniform without the right to it. [ Armor | Police-issue only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/527be112-689a-4109-91d1-4861ebc4f29b.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Capture weapon": {
+    "name": "Capture weapon",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "value": 5
+      }
+    ],
+    "description": "A long binding cloth of carbon fiber woven through with alloy wire, worn looped around the neck and shoulders. Thrown with skill, it snares limbs, wraps a target and anchors swings between walls or posts; in untrained hands it mostly tangles. Outside licensed hero work and supervised training, binding a person with it is lawful only as a citizen's arrest of someone caught in the act, who must then be handed straight to the police. [ Support Gear | Licensed support item, about ¥120,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/34a21a32-063b-4dd6-9950-57f5f9b0e636.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Support goggles": {
+    "name": "Support goggles",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "value": 3
+      }
+    ],
+    "description": "Tinted goggles in a sealed frame, with glare filtering and a small zoom control at the temple. They keep out dust, wind and blinding light and let the wearer read a face from across a street. [ Support Gear | About ¥18,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b7eacb35-3fe6-45b4-ab33-e897ed263e15.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Grip gloves": {
+    "name": "Grip gloves",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Climbing",
+        "value": 5
+      }
+    ],
+    "description": "Gloves with high-friction palms and reinforced fingertips that hold onto wet railings, brick and rope. Climbers and rescuers wear them, and so does anyone whose Quirk needs a firm grip. [ Support Gear | About ¥9,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a0f836b3-c2b7-4641-a7ae-3164f13a0ed8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Recoil-dampening bracers": {
+    "name": "Recoil-dampening bracers",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "value": 3
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 10
+      }
+    ],
+    "description": "Padded forearm bracers with shock-absorbing cores that soak up part of the kickback when a Quirk fires through the hands or arms. They reduce recoil without removing it: a user who pushes past their limit still gets hurt. [ Support Gear | About ¥85,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3653c591-8d1a-4f19-a0bb-fb07eeb9a598.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Cooling vest": {
+    "name": "Cooling vest",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "value": 5
+      }
+    ],
+    "description": "A snug vest threaded with thin coolant lines and a small battery pump at the back. It draws heat out of a body that runs hot or warms one that runs cold, so a Quirk that heats or chills its user can run longer before the user overheats or goes numb. [ Support Gear | About ¥60,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/da257efb-5933-4557-807b-6b30530f3582.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Noise-filtering earpieces": {
+    "name": "Noise-filtering earpieces",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "value": 3
+      }
+    ],
+    "description": "Small molded earpieces that let voices through but clamp down on sudden loud sounds such as blasts, sirens and screaming. Users whose senses overload wear them to stay focused when a fight, a crowd or an alarm gets loud. [ Support Gear | About ¥25,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4e47507e-fedd-4a8f-8d5e-f2e1d63a4af3.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Support boots": {
+    "name": "Support boots",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Running",
+        "value": 5
+      }
+    ],
+    "description": "Laced boots with sprung soles, stiff ankle supports and treads that grip wet concrete. They return a little energy on every stride and keep a hard landing from rolling an ankle. [ Support Gear | About ¥70,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/54122908-e21d-466e-b007-84ac90337bf2.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Grappling line launcher": {
+    "name": "Grappling line launcher",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Parkour",
+        "value": 5
+      }
+    ],
+    "description": "A wrist-mounted launcher that fires a hooked anchor on thin high-tension line and reels it back in with a motor. It pulls the wearer up a wall, across a gap or out of a fall, provided the anchor catches on something solid. [ Support Gear | About ¥95,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/da5ba8c3-677c-4142-8136-0e8302158158.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Respirator mask": {
+    "name": "Respirator mask",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "value": 5
+      }
+    ],
+    "description": "A half-face mask with twin replaceable filters against smoke, dust and many airborne toxins. It keeps a rescuer breathing in a burning or collapsed building, but it supplies no air of its own and cannot help where the oxygen has run out. [ Support Gear | About ¥15,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/752acc74-fd02-4272-9d9a-533ce7a66699.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Comms earpiece": {
+    "name": "Comms earpiece",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "value": 5
+      }
+    ],
+    "description": "A small encrypted earpiece with a bone-conduction mic, linked to a shared team channel. Teammates call out positions and warnings hands-free: a murmur carries over the channel, and bystanders cannot hear the replies. [ Support Gear | About ¥20,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/164d8eb6-b716-405f-a64a-bf3ee1566c30.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Impact armor plates": {
+    "name": "Impact armor plates",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 30
+      }
+    ],
+    "description": "Curved composite plates in a strap harness that sit over the chest and back and spread the force of a blow or a fall. They fit over or under most costumes and add weight the wearer feels on a long run. [ Support Gear | About ¥75,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6b216292-01a6-4e31-82d9-21c68048ab65.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Fuel belt": {
+    "name": "Fuel belt",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "value": 3
+      }
+    ],
+    "description": "A waist belt of sealed pouches that keeps a fuel-based Quirk's supply within reach: sugar, water, snacks or whatever the body burns. A user can tear open a Quirk fuel pack from it in the middle of a fight without looking down. [ Support Gear | About ¥6,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d8851f8a-e00e-4f4d-bd0f-51fbe86f8b66.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Scanner gauntlet": {
+    "name": "Scanner gauntlet",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "value": 5
+      }
+    ],
+    "description": "A forearm sleeve of sensors with a small display that reads body heat, movement and energy output from a few meters away. It shows when someone's Quirk is building up and where it is aimed, but it does not name the Quirk: working that out is still the wearer's job. [ Support Gear | About ¥140,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6457c614-3fcf-4596-8c23-5808597d9bb7.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Prototype thruster pack": {
+    "name": "Prototype thruster pack",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "value": 5
+      }
+    ],
+    "description": "A compact backpack thruster from U.A.'s Development Studio, with two nozzles, a fuel cell and a trigger strapped to the wearer's palm. It turns a fall into a controlled drop and a jump into a short powered leap, and now and then it sputters out or overheats at the worst moment. [ Support Gear | Prototype, not for sale ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7efad7e6-1ba3-4ee8-9813-b9a02bcda460.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "legendary"
+  },
+  "Riot shield": {
+    "name": "Riot shield",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Blocking",
+        "value": 5
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 20
+      }
+    ],
+    "description": "A tall, clear polycarbonate shield with a padded forearm grip that riot police use to hold a line against thrown objects, blows and small Quirk blasts. Its holder can see through it while crouching behind it. [ Support Gear | Police-issue only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9152f72d-2faf-45d4-b46c-dedb40dc59e4.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Telescoping baton": {
+    "name": "Telescoping baton",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "value": 3
+      }
+    ],
+    "description": "A steel baton that snaps out to full length with a flick of the wrist and collapses back to pocket size. Police and security guards carry them on duty; anyone else who carries one hidden without a legitimate reason breaks the Minor Offenses Act, and police confiscate it. [ Weapon | About ¥7,000; carrying one without reason is illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/28b16dad-96dc-47f6-8a4d-7505f4afed7f.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Combat knife": {
+    "name": "Combat knife",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      }
+    ],
+    "description": "A fixed-blade knife with a ridged grip and a belt sheath, built for fighting and for cutting rope, straps and seat belts. Under the Firearms and Swords Control Law, carrying a blade longer than six centimeters without a legitimate reason is a crime, and police confiscate the knife on sight. [ Weapon | About ¥6,000; carrying one in public is illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/46111a2f-d0f5-40ff-a92e-27157d1f2ff4.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Katana": {
+    "name": "Katana",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      }
+    ],
+    "description": "A real steel katana with a curved single-edged blade and a cord-wrapped hilt, kept in a lacquered scabbard. Every real sword in Japan needs its own registration certificate from the prefectural board of education. Taking one wrapped and cased to a dojo or an appraiser is lawful; carrying one ready to draw in public is a crime. [ Weapon | About ¥300,000; registration required, carrying it illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe99ad56-f5e8-4b97-b464-6a9af04e6b87.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Bo staff": {
+    "name": "Bo staff",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "value": 2
+      }
+    ],
+    "description": "A straight hardwood staff about the user's height, a training weapon in many martial-arts dojos. Its long reach keeps an attacker out of range, and its ends hit hard enough to knock someone down without cutting them. [ Weapon | About ¥5,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8c38d87a-cec4-438c-9387-a020fd828d27.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Brass knuckles": {
+    "name": "Brass knuckles",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Striking",
+        "value": 3
+      }
+    ],
+    "description": "A brass bar with four finger holes that sits across the knuckles and puts hard metal behind every punch, enough to crack bone. Owning a pair is legal, but carrying them hidden without a legitimate reason breaks the Minor Offenses Act, and police treat a pair in a pocket as a sign that someone came looking for a fight. [ Weapon | About ¥3,000; carrying them is illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9b1074ed-48cc-404e-95d6-a36f6c392108.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Tranquilizer pistol": {
+    "name": "Tranquilizer pistol",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 3
+      }
+    ],
+    "description": "A compressed-gas pistol that fires darts loaded with a fast-acting sedative. A clean hit brings an average adult down within a minute; large bodies and unusual physiologies can take several darts. Police and licensed heroes carry it when a target has to be taken alive and unhurt. [ Weapon | Licensed heroes and police only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/536219cc-53cd-4416-8738-e3d06fa0a945.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Handgun": {
+    "name": "Handgun",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 2
+      }
+    ],
+    "description": "A semi-automatic pistol that fires live rounds. Police officers carry them on duty and a few heroes hold special permits; under the Firearms and Swords Control Law, anyone else caught with one faces years in prison. [ Weapon | Police and specially licensed heroes only; illegal for anyone else ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/83dc4263-2f4a-4402-8130-a62b93fb3f44.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Rubber-bullet rifle": {
+    "name": "Rubber-bullet rifle",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 5
+      }
+    ],
+    "description": "A shoulder-fired rifle that shoots hard rubber rounds meant to stagger and drop a target without killing. At close range or to the head a round can still break bone or blind, which is why only licensed heroes may carry one. [ Weapon | Licensed heroes only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d0b2a4e8-e404-49ef-8fcd-f1c23d698e1d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Throwing knives": {
+    "name": "Throwing knives",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 2
+      }
+    ],
+    "description": "A set of balanced steel knives in a strap holster, weighted to spin true and land point first. Skilled hands can pin a sleeve to a wall from across a room, and carrying them without a legitimate reason breaks the same blade law as any knife. [ Weapon | About ¥8,000 a set ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/85f075aa-7380-47d4-8fe3-0b390d9b8590.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Chain whip": {
+    "name": "Chain whip",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "value": 2
+      }
+    ],
+    "description": "A length of linked steel with a weighted tip and a wrapped handle. Swung, it strikes from beyond arm's reach and can wrap a wrist or a weapon; a careless swing comes back at its user. Carried hidden without a legitimate reason, it breaks the Minor Offenses Act like any concealed weapon. [ Weapon | About ¥4,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/69fca6ee-347c-4cdc-9851-494840463d65.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Smartphone": {
+    "name": "Smartphone",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Navigation",
+        "value": 2
+      }
+    ],
+    "description": "A touchscreen phone with maps, messaging, a camera, news feeds and hero apps that track rankings and incident alerts. Its wallet app pays at most registers and ticket gates. [ Tool | About ¥90,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df7e818c-e372-413a-aa2c-3e6225cbac0c.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "IC transit card": {
+    "name": "IC transit card",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [],
+    "description": "A rechargeable contactless card tapped at ticket gates, bus readers, vending machines and convenience store registers. It holds a stored balance, topped up with cash at any station machine. [ Tool | ¥500 deposit ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d1eab49-d4c7-4e97-8d09-98a581f9a4d8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "U.A. student ID": {
+    "name": "U.A. student ID",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [],
+    "description": "A photo card with the student's name, course and class that opens U.A.'s gates, lecture buildings and the student's own Heights Alliance dorm. Without one, the main gate's security barrier slams shut. [ Tool | Issued at enrollment ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ec4abedd-8930-4135-8822-3ffdc4412a20.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "U.A. faculty ID": {
+    "name": "U.A. faculty ID",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [],
+    "description": "A staff photo card that opens U.A.'s gates, the teachers' lounge, faculty offices and restricted areas such as the training grounds' control rooms. A lost card counts as a security incident, and the school handles it as one. [ Tool | Issued to staff ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e308904b-ac9f-4c7e-96d2-c9408f900e99.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Provisional hero license": {
+    "name": "Provisional hero license",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [],
+    "description": "A card issued to those who pass the Provisional Hero License Exam. It allows the holder to use their Quirk in an emergency and to do hero work under a licensed pro's supervision, but not to work solo or run an agency. [ Tool | Issued by the Hero Public Safety Commission ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/89152903-4c91-4ffe-89cb-13542aa7ca8e.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Hero license": {
+    "name": "Hero license",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [],
+    "description": "A photo card bearing the holder's registered hero name. It permits Quirk use in hero work, detaining villains for the police and joining or founding a hero agency, and the Commission can suspend or revoke it. [ Tool | Issued by the Hero Public Safety Commission ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4abc0073-4ecc-4ef5-ac52-37c1f278b0c3.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "First aid kit": {
+    "name": "First aid kit",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "First Aid",
+        "value": 5
+      }
+    ],
+    "description": "A zip pouch of bandages, gauze, tape, a tourniquet, burn dressings, antiseptic wipes and disposable gloves. It covers cuts, burns and heavy bleeding until paramedics or a healer take over. [ Tool | About ¥4,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f4ec7471-e238-4f30-aebc-89e580691925.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Support toolkit": {
+    "name": "Support toolkit",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Fabrication",
+        "value": 5
+      }
+    ],
+    "description": "A hard case of precision drivers, pliers, a multimeter, a battery soldering iron and a tray of spare screws, cells and connectors. With it, an engineer can fix a jammed launcher or a dead power pack in the field. [ Tool | About ¥35,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed372682-3976-4067-8190-f5d0cd8a5814.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Laptop": {
+    "name": "Laptop",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Computing",
+        "value": 5
+      }
+    ],
+    "description": "A slim laptop for coursework, research, design software and secure messaging. On the right network it reaches whatever camera feeds and databases its owner is cleared for. [ Tool | About ¥120,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed531ac9-3e79-4119-825a-606a88b30734.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Tablet": {
+    "name": "Tablet",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Media Production",
+        "value": 3
+      }
+    ],
+    "description": "A tablet with a stylus for lecture notes, quick sketches, editing footage and presenting to a room. Management Course students pitch hero images to sponsors from theirs. [ Tool | About ¥60,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cf8edea4-291c-49ed-b48a-4802e77fb4f6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Quirk analysis notebook": {
+    "name": "Quirk analysis notebook",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "value": 5
+      }
+    ],
+    "description": "A cheap paper notebook filled with handwritten notes on Quirks its owner has seen in action: how they work, where their limits lie, sketches and possible counters. Its worth depends on how carefully its owner watched. [ Tool | About ¥200 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0e3e7e2d-bd19-4f98-9ad9-7ca49310c8d6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Course textbooks": {
+    "name": "Course textbooks",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Academics",
+        "value": 3
+      }
+    ],
+    "description": "The term's required textbooks and printed lecture notes, from general subjects to course texts on hero law, support engineering or hero business. They are heavy, dog-eared and full of highlighter. [ Tool | About ¥15,000 a term ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/63e0ee73-05e4-42ad-93db-b4b0207ac75a.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Camera": {
+    "name": "Camera",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Media Production",
+        "value": 5
+      }
+    ],
+    "description": "A mirrorless camera with a zoom lens that shoots high-resolution photos and video. Footage of a hero at work sells to news sites; footage of illegal Quirk use becomes police evidence. [ Tool | About ¥80,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f611854f-973e-4ab4-b62d-6a89e555a2cf.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Burner phone": {
+    "name": "Burner phone",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Streetwise",
+        "value": 3
+      }
+    ],
+    "description": "A cheap prepaid phone with a number tied to no real name. Japanese law requires ID for every phone contract and bans handing phones on without the carrier's consent, so it comes from a broker who breaks that law. It is for calls that must not lead back to its owner, and it gets thrown away the moment they might. [ Tool | About ¥10,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/189e55ce-9253-4712-ae1f-0596f32751af.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Lockpick set": {
+    "name": "Lockpick set",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Infiltration",
+        "value": 5
+      }
+    ],
+    "description": "A slim roll of picks, tension wrenches and a bump key for opening locks without the owner's key. Japanese law bans possessing picking tools without a legitimate reason such as locksmith work, so police read a set in a pocket as a planned break-in. [ Tool | Black market, about ¥5,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2ee101d8-5ea5-4e9b-907f-c57103e31a9d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Forged ID": {
+    "name": "Forged ID",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Disguise",
+        "value": 5
+      }
+    ],
+    "description": "A fake identity card with the holder's photo under a false name and address. It passes a glance at a counter but fails a database check at a police box, and forging an official ID or showing one as genuine is a serious crime under the Penal Code. [ Tool | Broker-made, about ¥150,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/674fbe43-383f-4e7e-9752-ff5a13c1dd26.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "Capture tape": {
+    "name": "Capture tape",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "value": 5
+      }
+    ],
+    "description": "A hand-sized roll of strong adhesive restraint tape. In U.A. training exercises, wrapping it around an opponent counts as a capture; in the field it binds wrists and ankles until police cuffs arrive. [ Tool | Hero supply, about ¥1,500 a roll ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4351c5d5-d858-4922-9c15-c8d92c51cc23.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Flashlight": {
+    "name": "Flashlight",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "value": 2
+      }
+    ],
+    "description": "A bright, waterproof aluminum flashlight with a strobe setting. It lights gaps in rubble, smoke-filled rooms and dark stairwells, and a flash in someone's eyes buys a second. [ Tool | About ¥2,500 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f5e82a67-57b1-41e5-96d6-6ef823afcd5f.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Climbing rope": {
+    "name": "Climbing rope",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Climbing",
+        "value": 3
+      }
+    ],
+    "description": "Thirty meters of rescue-rated rope with two locking carabiners. It lowers a casualty from a balcony, hauls a rescuer up a shaft or anchors a climb where there are no holds. [ Tool | About ¥12,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/18edce28-2fd0-4e38-8f90-7558eb6e08b8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Agency radio": {
+    "name": "Agency radio",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Team Coordination",
+        "value": 3
+      }
+    ],
+    "description": "A rugged handheld radio set to the agency's channel and the shared police band. It keeps a hero in touch with dispatch and nearby officers when phone networks fail in a disaster. [ Tool | Agency-issue ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6f4067e9-3cbd-42a0-93b7-28358da2391a.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Handcuffs": {
+    "name": "Handcuffs",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Capture",
+        "value": 3
+      }
+    ],
+    "description": "Steel police-pattern handcuffs with a key. Heroes and police use them to hold a detained villain until transport arrives, though a strong or shape-changing Quirk can break or slip them. Cuffing someone without legal authority is a crime. [ Tool | Police and licensed heroes ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/163b0c3b-8586-436a-b6d2-eea2320267be.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Business cards": {
+    "name": "Business cards",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Negotiation",
+        "value": 2
+      }
+    ],
+    "description": "A box of printed cards with a name, title and contact details. In Japan they change hands with a bow and both hands at every first meeting, and having none marks a person as unprepared. [ Tool | About ¥3,000 a box ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f0351fae-06ea-40ac-aa4e-b41845860f1c.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Sketchbook": {
+    "name": "Sketchbook",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Costume Design",
+        "value": 3
+      }
+    ],
+    "description": "A spiral sketchbook filled with pencil drafts of costumes, gear and hero logos, with notes on materials and fit in the margins. Most costume request forms start in one. [ Tool | About ¥800 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/99396feb-f7d6-4d9b-85b0-dcade4902b31.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Domino mask": {
+    "name": "Domino mask",
+    "category": "Accessory",
+    "slot": "Accessory",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Disguise",
+        "value": 3
+      }
+    ],
+    "description": "A simple fabric or molded mask that covers the eyes and the bridge of the nose. It hides enough of a face to stop casual recognition, and many heroes wear one as part of a costume. [ Accessory | About ¥1,500 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/91a904f3-ab74-488d-9643-5f6373aa3346.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Balaclava": {
+    "name": "Balaclava",
+    "category": "Accessory",
+    "slot": "Accessory",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Disguise",
+        "value": 3
+      }
+    ],
+    "description": "A knit balaclava that covers the head and neck and leaves a slit for the eyes, warm in winter and anonymous all year. Wearing one into a shop or a crowd puts police and heroes on alert. [ Accessory | About ¥1,200 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9c285da4-52be-40ea-a1ad-b1f7335e6c81.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Fitness tracker": {
+    "name": "Fitness tracker",
+    "category": "Accessory",
+    "slot": "Accessory",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "value": 2
+      }
+    ],
+    "description": "A slim wristband that logs heart rate, sleep, steps and training load. It tells the wearer when they are pushing too hard and when they have recovered enough to push again. [ Accessory | About ¥15,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cf8f20ee-5d5e-4be4-95b7-4b8e3f79af0b.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Omamori charm": {
+    "name": "Omamori charm",
+    "category": "Accessory",
+    "slot": "Accessory",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "value": 2
+      }
+    ],
+    "description": "A small embroidered silk pouch from a shrine, holding a blessing for luck, safety or exam success. Tradition says never to open it, and keeping it close steadies a nervous owner. [ Accessory | About ¥800 at a shrine ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f0bcc114-ce5b-4bf6-ba60-9e3b7073b659.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Bandages": {
+    "name": "Bandages",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "Rolls of elastic bandage and medical tape. Wrapped firmly over a cut or graze, they stop light bleeding and keep the wound clean; deep wounds need more than this. [ Consumable | About ¥500 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/06182552-3e25-4a76-af3c-74f3fd603e74.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Painkillers": {
+    "name": "Painkillers",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A blister pack of over-the-counter pain tablets. A dose dulls the pain of bruises, sprains and headaches for a few hours; it hides an injury without healing it. [ Consumable | About ¥1,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cedc7692-bb82-4e04-9f36-f51e66c73497.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Burn gel": {
+    "name": "Burn gel",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A tube of cooling hydrogel with sterile dressings. Spread over a burn, it takes the sting out and protects the skin while it heals; a serious burn still needs a doctor. [ Consumable | About ¥1,200 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/27086b59-b209-43eb-8f93-95cfb92094d2.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Splint": {
+    "name": "Splint",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A rolled, padded aluminum splint that bends to the shape of an arm or leg. Strapped over a broken or sprained limb, it holds the bone still so the person can move or be moved with less pain; setting the bone is a doctor's job. [ Consumable | About ¥2,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d0edc95a-c8da-4e2a-857a-897c391ac99d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Ice pack": {
+    "name": "Ice pack",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A single-use cold pack that turns cold within seconds of a hard squeeze. Held on a bruise, sprain or swelling, it brings the swelling down and numbs the pain for a while. [ Consumable | About ¥300 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe3dee92-5d56-424a-94f4-2f40adf261e7.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Energy drink": {
+    "name": "Energy drink",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A tall can of caffeine and sugar from any convenience store. Drinking one staves off fatigue for a while, but it is no rest, and the crash comes later. [ Consumable | About ¥250 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fcf3e6ed-6517-4e57-8c20-7daff446c809.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Protein bar": {
+    "name": "Protein bar",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A dense, chewy bar of protein, oats and chocolate. Eating one settles hunger after training and gives tired muscles something to rebuild with. [ Consumable | About ¥200 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/85f3014b-a7db-4f8b-b684-d26e3d8afcb8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Quirk fuel pack": {
+    "name": "Quirk fuel pack",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A sealed ration of whatever a fuel-based Quirk runs on, such as sugar, water, lipids or salt, measured for one refill. Consuming it restores the Quirk's fuel supply so the Quirk can work again; for a Quirk that burns no fuel, it is only a snack. [ Consumable | About ¥600 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fa1b4f5a-fb1b-48b8-aadf-0ac724442c18.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Recovery Girl's gummies": {
+    "name": "Recovery Girl's gummies",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "Soft fruit gummies that Recovery Girl hands to every patient leaving her infirmary, along with a reminder to be more careful. They are only candy and heal nothing. [ Consumable | Free from Recovery Girl ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d0de1de-f582-4aee-b067-de258ca91826.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Onigiri": {
+    "name": "Onigiri",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A triangle of rice wrapped in nori around a filling of salmon, tuna mayonnaise or pickled plum, sold at every convenience store. Eating one holds off hunger until the next meal. [ Consumable | About ¥150 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/78d70350-73d5-468e-b5a5-70b80cb29fd4.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Bento box": {
+    "name": "Bento box",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A boxed lunch of rice, a main dish and small sides, bought at a convenience store or packed at home. Eating one counts as a proper meal. [ Consumable | About ¥600 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1d1c0d06-9d6c-482b-b504-bce7df205ce6.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Canned coffee": {
+    "name": "Canned coffee",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A small can of sweetened or black coffee, sold hot in winter and cold in summer from vending machines on every block. Drinking one keeps a tired person alert for a short while. [ Consumable | About ¥130 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f3ba9d44-ee78-4c94-ad78-c6ff7e6e9b98.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Smoke grenade": {
+    "name": "Smoke grenade",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A pull-pin canister that pours out thick gray smoke and fills a room within seconds. The smoke blocks sight for both sides and covers an escape or a rescue, but it does nothing against heat vision, scent tracking or other senses that work through smoke. [ Consumable | Hero supply or black market, about ¥4,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d79ec135-2872-48c4-b75f-9f7edd6f4de8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Flashbang": {
+    "name": "Flashbang",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A stun grenade that goes off with a blinding flash and a deafening bang. Anyone nearby without eye and ear protection is left dazed, half-blind and deafened for several seconds; outside the police and licensed heroes, owning one is a crime. [ Consumable | Restricted, about ¥8,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c041b083-afaa-418e-a110-7f3ba43ab575.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Zip ties": {
+    "name": "Zip ties",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A bundle of heavy-duty plastic zip ties. Looped and pulled tight, a pair binds wrists or ankles in a pinch, though a strong or bladed Quirk snaps or cuts through them. [ Consumable | About ¥300 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/52931cd4-a892-4e65-90a0-4f4f070b4df4.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Trigger vial": {
+    "name": "Trigger vial",
+    "category": "Consumable",
+    "bonuses": [],
+    "description": "A small glass ampoule of Trigger, the street drug that forces a Quirk past its limits. A dose makes the Quirk stronger and far harder to control while it strips away judgment and self-control, and the user crashes hard when it wears off. Police treat even one vial as a serious drug offense. [ Consumable | Black market, ¥50,000 and up; possession is a crime ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2d17b7be-f249-41e1-8564-605e21b9b263.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  },
+  "School bag": {
+    "name": "School bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Academics",
+        "value": 1
+      }
+    ],
+    "description": "A dark green U.A. shoulder bag with the school crest: textbooks, a pencil case, a bento, the student ID on a lanyard and whatever else a school day needs. [ Tool | Issued at enrollment ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/428bb40a-739d-4f3e-a4cd-c0c4a1d19a51.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Duffel bag": {
+    "name": "Duffel bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "value": 1
+      }
+    ],
+    "description": "A heavy-duty gym duffel that carries a hero costume, spare gloves, a towel, a water bottle and a first change of clothes to every shift. [ Tool | About ¥9,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/99011296-cb29-4207-931d-3cd16f1350f8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Shoulder bag": {
+    "name": "Shoulder bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Teaching",
+        "value": 1
+      }
+    ],
+    "description": "A leather shoulder bag of a working teacher: graded papers, lesson plans, a laptop sleeve, red pens and a faculty lanyard. [ Tool | About ¥25,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/feff0e91-7a1c-4979-a043-7307998a8432.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Backpack": {
+    "name": "Backpack",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [],
+    "description": "A sturdy everyday backpack: a water bottle, a phone charger, a folding umbrella, snacks and room for whatever the day needs. [ Tool | About ¥6,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/87b4622f-ee94-42e5-981c-6f247da069dd.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  },
+  "Go-bag": {
+    "name": "Go-bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Survival",
+        "value": 1
+      }
+    ],
+    "description": "A plain black backpack packed to leave in a hurry: a change of clothes, cash, a spare burner SIM, a first aid pouch and nothing with a name on it. [ Tool | Assembled, never bought ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8a1e39a6-3b9e-4ff9-984a-1b770eb9d386.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  },
+  "Agency phone": {
+    "name": "Agency phone",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Hero Industry",
+        "value": 2
+      }
+    ],
+    "description": "The agency's work phone: dispatch alerts, the Hero Public Safety Commission's incident app, sponsor contacts and a camera roll of every arrest report. [ Tool | Agency-issue ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4d18bed4-5be7-43f6-ab45-1161e873aeb5.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

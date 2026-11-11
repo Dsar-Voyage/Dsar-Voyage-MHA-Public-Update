@@ -1,0 +1,20 @@
+{
+  "Tapeline Swing": {
+    "name": "Tapeline Swing",
+    "description": "The user fires a line to a high anchor, such as a lamppost, a ledge or a beam, and swings or hauls themself along it: across a street, up to a high window or clear of an incoming attack, which misses them. They can grab a single passenger on the way and carry them along. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Fresh Trace": {
+    "name": "Fresh Trace",
+    "description": "The user lays bare fingertips on an object or a spot, and impressions of the last few minutes come to them: the faces and hands of whoever touched it, what those people felt and what happened within a few strides. A dropped knife shows the face of the person who dropped it; a doorknob shows who left in a hurry. The impressions are images and feelings, not words, and gloves block the reading. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

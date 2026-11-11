@@ -1,0 +1,20 @@
+{
+  "Travel: named shop": {
+    "name": "Travel: named shop",
+    "recurring": true,
+    "effects": [],
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b(go|head|walk|travel|ride|train|bus|fly|run|re(turn|port)|arriv|visit|driv|way to|take|bring)"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Bb]lack [Mm]arket|[Gg]iran|[Cc]onvenience [Ss]tore|[Kk]onbini"
+      }
+    ],
+    "script": "(function(){const X=check({type:'action-text'})||[];const tx=String(Array.isArray(X)?(X[X.length-1]||''):X).toLowerCase();const cur=check({type:'party-location'})||'',ca=check({type:'party-area'})||'';let hit=null;if(/black market/.test(tx))hit=['Kamino Ward','Black Market Basement'];else if(/giran/.test(tx))hit=['Yokohama Harbor District',\"Giran's Chinatown Office\"];else{const KS={'U.A. Academy':'Campus Store','Hosu Downtown':'All-Night Convenience Store','Musutafu Station District':'Convenience Store Corner'};if(KS[cur])hit=[cur,KS[cur]];else if(check({type:'party-region'})==='Musutafu')hit=['Musutafu Station District','Convenience Store Corner'];}if(!hit||hit[0]===cur&&hit[1]===ca){skip=true;return;}effects.push({type:'party-location',operator:'set',value:hit[0]},{type:'party-area',operator:'set',value:hit[1]},{type:'story',instruction:'Narrator only: the party arrives at '+hit[1]+' in '+hit[0]+' this turn; the scene is set there.'});storage.travelTo={l:hit[0],a:hit[1],tk:check({type:'game-tick'})||0};})();"
+  }
+}

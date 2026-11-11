@@ -1,0 +1,19 @@
+{
+  "Care: meal manners": {
+    "name": "Care: meal manners",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Ll]unch|[Bb]reakfast|[Dd]inner|[Ee]at(s|ing)?|[Ff]ood|[Hh]ungry|[Cc]afeteria|[Mm]eals?)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, at this meal: what or how much the player character eats is nobody's business. Nobody comments on it, jokes about it, gives nutrition advice, links it to healing or training, or recalls a meal they skipped; at most one person offers them food, once. Classmates eat and talk about their own things."
+      }
+    ]
+  }
+}

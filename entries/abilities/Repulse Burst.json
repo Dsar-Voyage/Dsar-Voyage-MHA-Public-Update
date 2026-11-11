@@ -1,0 +1,20 @@
+{
+  "Repulse Burst": {
+    "name": "Repulse Burst",
+    "description": "The user slaps a target with an open palm, marking them with a pole, and repels them in the same instant. It deals force damage and throws the target a few strides back and off their feet, with or without metal on them; held back, it only shoves them away and breaks any hold they had on the user. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

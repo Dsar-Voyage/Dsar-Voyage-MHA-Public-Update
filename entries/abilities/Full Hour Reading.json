@@ -1,0 +1,20 @@
+{
+  "Full Hour Reading": {
+    "name": "Full Hour Reading",
+    "description": "The user holds a reading longer and sees a full hour of a person's coming life in close detail: each place, each face, each spoken word in that person's hearing. This is enough to learn a meeting time, a delivery route or the shape of a planned attack. The reading takes several breaths of contact and leaves the user drained, so they cannot read anyone else for the rest of the scene. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

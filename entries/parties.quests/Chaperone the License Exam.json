@@ -1,0 +1,17 @@
+{
+  "Chaperone the License Exam": {
+    "name": "Chaperone the License Exam",
+    "questSource": "Shota Aizawa",
+    "questStatement": "The Hero Public Safety Commission's provisional license exam is coming, and Shota Aizawa needs another teacher on the trip to Takoba Municipal Stadium. Before then there is work: brief the students on the published rules, study the other academies' students and keep nerves from turning into mistakes. On the day you ride the bus, carry the paperwork and sit in the stands with the other schools' teachers.",
+    "mainObjective": "Prepare your students for the license exam and see them safely to Takoba on exam day.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has briefed their students on the license exam, studied the rival academies with Shota Aizawa, and accompanied the class to Takoba Municipal Stadium on exam day."
+    },
+    "detailType": "detailed",
+    "questLocation": "Takoba Municipal Stadium",
+    "questDesignBrief": "The faculty side of the exam. Aizawa is curt and quietly anxious. Rival schools: Shiketsu, with Inasa Yoarashi, Camie Utsushimi and Seiji Shishikura, and Ketsubutsu, with Yo Shindo and Ms. Joke, who teases Aizawa about marrying her. The Commission keeps the format secret until the day, and Yokumiru Mera briefs examinees, not teachers. Teachers cannot intervene once the exam starts. The exam runs as its own event; this quest completes on arrival and never decides results. Failure: a poor briefing leaves students rattled.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

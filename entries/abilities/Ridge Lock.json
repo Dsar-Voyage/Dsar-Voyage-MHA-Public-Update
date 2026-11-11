@@ -1,0 +1,29 @@
+{
+  "Ridge Lock": {
+    "name": "Ridge Lock",
+    "description": "For the rest of the scene the user stays soft and hardens only the exact spot of skin an attack touches, in the instant it touches. They keep full speed, fine touch and the ability to swim and carry injured people without cutting them, while blows, blades and pistol rounds stop at that spot, and any weapon that strikes them is caught in a closing ridge and wrenched from the attacker's grip. An attack the user does not see coming lands on soft skin, and heat, electricity and gas still hurt them. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

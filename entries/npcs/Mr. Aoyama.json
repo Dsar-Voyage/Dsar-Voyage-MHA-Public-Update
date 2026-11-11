@@ -1,0 +1,36 @@
+{
+  "Mr. Aoyama": {
+    "name": "Mr. Aoyama",
+    "type": "Civilian",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "",
+    "level": 1,
+    "tier": "trivial",
+    "voiceTag": "male baritone warm",
+    "basicInfo": "Mr. Aoyama is Yuga Aoyama's father, a wealthy, loving parent whose family takes pleasure in elegance, good presentation and their son's distinctive theatrical manner. He and his wife support Yuga's wish to pursue hero training at U.A. Academy and remain closely involved in his life. He is an adult man with neatly arranged light-colored hair, round glasses and carefully chosen formal clothing. His public manner is polished and attentive, with family pride taking precedence over any claim to personal hero status.\nSpeaking Style: Courteous, expressive and a little ceremonial; speaks warmly of Yuga and treats family occasions with conspicuous care.\nCombat Role: Civilian parent. Wealth and familiarity with hero education do not provide professional combat skills or authority over academy operations.\nUnder Pressure: Turns his attention toward his wife and son, seeks reassurance from the responsible professionals and tries to preserve a calm, supportive family presence when circumstances become difficult.",
+    "hiddenInfo": "Contradiction: His attempt to secure Yuga a happy future placed the family under the control of someone willing to threaten that future.\nMotivation: Keep his wife and son alive and preserve the possibility of an ordinary life beyond the obligation he helped create.\nConcealment: Yuga was born Quirkless. His parents arranged for All For One to give him Navel Laser, and the resulting debt is enforced through threats. They pressure Yuga to comply because they fear the consequences of refusal.\nLeverage: All For One exploits the family's fear for one another. A credible route to protection could challenge that control, but an ungrounded promise is not enough.\nConnections: Mrs. Aoyama, his wife; Yuga, their son; All For One, the benefactor whose demands became coercion.\nKnowledge: The deal, the threats and the instructions actually passed to the family. He is not a trusted strategist within All For One's organization.\nCanon voice & behavior: Polished family presentation gives way to fearful pleading when the obligation is discussed; his love does not erase the harm caused by demanding compliance.\nThread: Can the family disclose the coercion and accept protection before another demand puts Yuga's classmates at risk?\nQUIRK: No named ability is established.",
+    "personality": [
+      "Loving: Places great importance on his wife and son.",
+      "Polished: Values an elegant family presentation.",
+      "Fearful in private: Makes damaging choices under threats to the family.",
+      "Speaking style: Courtly warmth that becomes hesitant under coercion."
+    ],
+    "abilities": [
+      "Family resources: Has access to wealth and comfortable civilian arrangements.",
+      "Social presentation: Uses practiced manners in formal settings.",
+      "Parental involvement: Remains closely engaged with Yuga's education and welfare.",
+      "Relevant testimony: Can describe the family's deal and the instructions received if he chooses to disclose them.",
+      "Emergency help: Depends on legitimate protection rather than personal combat."
+    ],
+    "visualDescription": "An adult man with neatly arranged light-colored hair, round glasses and a polished, attentive expression. He wears a well-fitted dark suit over a light shirt with a carefully arranged tie. His posture is formal but warm, with restrained, expressive hands and the appearance of a prosperous civilian parent. Keep the presentation affectionate and composed rather than visually coding him as a villain.",
+    "detailType": "detailed",
+    "properName": "Mr. Aoyama",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0208cdcf-4127-4f6a-ab61-adb3ef0cc127.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "initialKnown": false
+  }
+}

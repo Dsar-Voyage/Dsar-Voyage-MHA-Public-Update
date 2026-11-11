@@ -1,0 +1,38 @@
+{
+  "Mechanics: training safety net": {
+    "name": "Mechanics: training safety net",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "party-region",
+        "operator": "equals",
+        "value": "U.A. Campus"
+      },
+      {
+        "type": "read-boolean",
+        "key": "campusOff",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const V=[\"usj_attack\", \"hosu_incident\", \"forest_camp_raid\", \"kamino_incident\", \"shie_hassaikai_raid\", \"high_end_attack\", \"deika_liberation\", \"paranormal_liberation_war\"],S=[\"Denki Kaminari\", \"Eijiro Kirishima\", \"Fumikage Tokoyami\", \"Hanta Sero\", \"Hiryu Rin\", \"Ibara Shiozaki\", \"Itsuka Kendo\", \"Izuku Midoriya\", \"Jurota Shishida\", \"Juzo Honenuki\", \"Katsuki Bakugo\", \"Kinoko Komori\", \"Koji Koda\", \"Kojiro Bondo\", \"Kosei Tsuburaba\", \"Kyoka Jiro\", \"Manga Fukidashi\", \"Mashirao Ojiro\", \"Mezo Shoji\", \"Mina Ashido\", \"Minoru Mineta\", \"Momo Yaoyorozu\", \"Neito Monoma\", \"Nirengeki Shoda\", \"Ochaco Uraraka\", \"Pony Tsunotori\", \"Reiko Yanagi\", \"Rikido Sato\", \"Sen Kaibara\", \"Setsuna Tokage\", \"Shihai Kuroiro\", \"Shoto Todoroki\", \"Tenya Iida\", \"Tetsutetsu Tetsutetsu\", \"Togaru Kamakiri\", \"Toru Hagakure\", \"Tsuyu Asui\", \"Yosetsu Awase\", \"Yuga Aoyama\", \"Yui Kodai\"],STU=[\"Denki Kaminari\", \"Eijiro Kirishima\", \"Fumikage Tokoyami\", \"Hanta Sero\", \"Hiryu Rin\", \"Ibara Shiozaki\", \"Itsuka Kendo\", \"Izuku Midoriya\", \"Jurota Shishida\", \"Juzo Honenuki\", \"Katsuki Bakugo\", \"Kinoko Komori\", \"Koji Koda\", \"Kojiro Bondo\", \"Kosei Tsuburaba\", \"Kyoka Jiro\", \"Manga Fukidashi\", \"Mashirao Ojiro\", \"Mezo Shoji\", \"Mina Ashido\", \"Minoru Mineta\", \"Momo Yaoyorozu\", \"Neito Monoma\", \"Nirengeki Shoda\", \"Ochaco Uraraka\", \"Pony Tsunotori\", \"Reiko Yanagi\", \"Rikido Sato\", \"Sen Kaibara\", \"Setsuna Tokage\", \"Shihai Kuroiro\", \"Shoto Todoroki\", \"Tenya Iida\", \"Tetsutetsu Tetsutetsu\", \"Togaru Kamakiri\", \"Toru Hagakure\", \"Tsuyu Asui\", \"Yosetsu Awase\", \"Yuga Aoyama\", \"Yui Kodai\"],KIDS=[\"Eri\", \"Kota Izumi\"],STG=[\"\", \" (Sports Festival)\", \" (Summer Training)\", \" (Provisional License)\"];for(const e of V){if(storage['live_'+e]===true&&!storage['done_'+e]&&check({type:'narrative-event-status',eventId:e})==='active'){skip=true;return;}}const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));const names=S.flatMap(b=>STU.indexOf(b)>=0&&sg?[b+STG[sg],b]:[b]).concat(KIDS);const full=((check({type:'game-tick'})||0)%5)===0,HS=full?null:check({type:'npc-health',npc:'anySceneNPC'});const HM=(HS&&typeof HS==='object')?HS:{};for(const n of names){if(effects.length>=10)break;if(!full&&!(n in HM))continue;const h=full?check({type:'npc-health',npc:n}):HM[n];if(typeof h==='number'&&h<=0)effects.push({type:'npc-health',npc:n,operator:'set',value:1});}if(!effects.length)skip=true;})();"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Boiler Blowout": {
+    "name": "Boiler Blowout",
+    "description": "The user's signature move: they build core pressure and open a full pressure valve from both palms, bursting a steel door, lifting a collapsed roof slab or blasting a street-wide cone. Enemies in the cone take massive force and fire damage and are hurled back; held back, it vents cooler and only throws them flat. Afterward the user cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

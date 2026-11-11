@@ -1,0 +1,24 @@
+{
+  "Lodestar Field": {
+    "name": "Lodestar Field",
+    "description": "The user takes hold of every piece of steel across a city block at once. For the rest of the scene they can hold a collapsing steel-framed building upright, stop vehicles in their tracks, strip the steel weapons from every enemy they choose and bend rebar around those enemies' ankles until cut or pried free, while everyone else's steel stays untouched. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Focused Trait Shift": {
+    "name": "Focused Trait Shift",
+    "description": "The user shifts traits from several recently eaten foods between body parts for the rest of the scene, placing shell where a blow will land, tentacles where a grip is needed and wings where space permits. Each change requires a moment of control, and a digested food can no longer supply its feature. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Big Fist Quirk": {
+    "name": "Big Fist Quirk",
+    "description": "✊ You make your hands huge while your body stays its normal size.\n\n🌱 At the start you grow a hand about a meter across for a short exchange, cover your upper body, and strike or catch within about two meters.\n📈 With training: careful captures, climbing pulls, protected carries, broad air fans, punches that expand just before contact.\n⚠️ Only your hands grow and stay flesh; blades and heat hurt, heavy swings tire you, and air fans move gas without cleaning it or supplying oxygen.\n🔗 Canon Drawback, built in: Stamina Drain, as large hands and heavy swings exhaust your arms.\n🎬 Canon Quirk: Itsuka Kendo's Big Fist. You are not related to her; people who know her Quirk notice the resemblance.\n\n📈 Grants: Power +1, Quirk Control +10, Quirk Output +10, Grappling +5\n⚡ Starting techniques: Broadhand Guard, Growing Palm Strike",
+    "traitNarrativeEffects": "Scale: enlarged hands, matching force and grip. Start: a meter-wide hand for a short exchange, guarding the upper body, striking or catching within about 2 m. Training: size, timing, repeats, gentle handling.\nLimits: only hands grow (no arm stretch or armor) and stay flesh, hurt by edges, heat, focused force. Heavy or long use tires. Corridors cramp; a closing fist can crush. Fanning only moves air and gas: no purifying, oxygen, dousing every fire. Cupped hands: brief shelter, not sealed air.\nQuirk Strain: light: guard, strike; moderate: careful capture, climbing pull, air fan; heavy: loaded carry, long grip; severe: signature expanding punches, long two-hand use.\nDrawback: built in, the canon Stamina Drain.\nCanon: Itsuka Kendo's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Transformation.\nLaw: no excessive force; captures, break-ins, moving toxic gas need a license or self-defense.\nLook: giant hands.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Grappling",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Broadhand Guard",
+      "Growing Palm Strike"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

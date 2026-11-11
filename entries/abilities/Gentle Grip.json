@@ -1,0 +1,20 @@
+{
+  "Gentle Grip": {
+    "name": "Gentle Grip",
+    "description": "The user uses boosted strength to hold a struggling person still without crushing them, keeping their arms pinned until the end of the user's next turn so an ally can apply restraints. The user must stay within reach and concentrate on the pressure of their hands. As the sugar surge dulls their thinking, a prolonged hold risks an unsafe squeeze. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Event Outfit: all_might_usj_shirt": {
+    "name": "Event Outfit: all_might_usj_shirt",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "usj_attack",
+        "operator": "equals",
+        "value": "active"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_usj_attack",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "All Might",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/fd555513-9b41-418b-b98a-d11d2b6e7a37.png"
+      }
+    ]
+  }
+}

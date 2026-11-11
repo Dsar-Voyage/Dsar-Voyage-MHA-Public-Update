@@ -1,0 +1,25 @@
+{
+  "Bedrock Tide": {
+    "name": "Bedrock Tide",
+    "description": "The user's signature move: both palms hit the ground and the street ahead rears up into a rolling wave of stone. Every enemy in its path takes massive bludgeoning damage and is buried to the chest when the wave sets, unable to move until they break out with a hard effort or are dug out; afterward the user's hands go numb and they cannot shape stone until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

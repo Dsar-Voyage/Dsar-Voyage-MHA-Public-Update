@@ -1,0 +1,20 @@
+{
+  "Upward Rescue Stream": {
+    "name": "Upward Rescue Stream",
+    "description": "The user directs a controlled wave beneath one falling person within a short street, slowing their descent until they land without injury by the end of the user's next turn. The user must see and reach the falling person with the wave in time. A person behind a wall or already at ground level cannot be saved by this release. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

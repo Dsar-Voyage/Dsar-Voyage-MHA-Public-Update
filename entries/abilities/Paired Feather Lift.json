@@ -1,0 +1,20 @@
+{
+  "Paired Feather Lift": {
+    "name": "Paired Feather Lift",
+    "description": "The user gathers a bundle of feathers beneath one adult within thirty meters and carries them to visible safe ground by the end of the user's next turn. The feathers support the torso and limbs rather than the neck; the user stays grounded because the bundle removes too much wing area for shared flight. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

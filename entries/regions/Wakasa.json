@@ -1,0 +1,30 @@
+{
+  "Wakasa": {
+    "name": "Wakasa",
+    "basicInfo": "The inner Wakasa Bay coast of Fukui and the wild mountains behind it, stretching south over the watershed into the forested uplands of northern Kyoto and the western flank of the Hira range above Lake Biwa. The north edge is a drowned ria coast: Obama sits on its own small bay, Takahama to the west has the bay's best swimming beaches under Mount Aoba, the Wakasa Fuji, with steep wooded headlands between them. Obama is an old port town of temples, quiet wooden streets and lacquer workshops that make most of Japan's lacquered chopsticks. Each March, at Jingu-ji and on the Onyu River, a night fire ceremony sends sacred water toward Nara's Todai-ji. From Obama the old Mackerel Road runs southeast through the post town of Kumagawa-juku and the Kutsuki valley toward Kyoto, once carrying salted mackerel to the capital overnight. South of the watershed lies a deep, quiet country: the Ashiu forest, one of the largest natural forests left in western Japan; the hamlet of Miyama with its dozens of tall thatched farmhouses; and the Keihoku and Hanase valleys, where cedar plantations and narrow roads wind toward Kyoto's northern suburbs. The Hira peaks on the east rise past a thousand meters, with Lake Biwa just beyond. Winters are snowy, summers mild on the coast and cool in the mountains. Food is grilled mackerel, heshiko mackerel fermented in rice bran, Wakasa tilefish and wild mountain vegetables. The JR Obama line and the Maizuru-Wakasa Expressway follow the coast; buses run the Mackerel Road and up the valleys. Shin-Osaka is about two and a half hours, Musutafu about three and a half by way of Tsuruga. Obama has a small hero agency and police boxes; the mountain villages rely on a few licensed heroes who drive long loops, and a forestry crew may include someone whose Quirk lets them feel rot inside a trunk.",
+    "hiddenInfo": "Inland, depopulation leaves empty houses that squatters and petty thieves use, and deer and bears get into fields; a bear in a village is the most common emergency. Small crime is theft from roadside stores and illegal dumping in the hills. Kyoto's agencies are an hour or two away; most days the local heroes are alone.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -6,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ef590fd0-6ac1-4131-a819-33e01d1c0b04.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

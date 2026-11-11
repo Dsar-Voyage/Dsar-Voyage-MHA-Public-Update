@@ -1,0 +1,20 @@
+{
+  "Door Latch Burn": {
+    "name": "Door Latch Burn",
+    "description": "The user focuses a narrow flame on an exposed metal latch within arm's reach, softening it enough to push open a jammed exit this turn. The user directs trapped people away from the hot fitting before opening it; hidden fuel, an explosive device or a load-bearing hinge makes the attempt unsafe, and the burn adds body heat. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

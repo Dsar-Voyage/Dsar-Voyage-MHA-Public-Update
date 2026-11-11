@@ -1,0 +1,30 @@
+{
+  "Omaezaki": {
+    "name": "Omaezaki",
+    "basicInfo": "The Enshu coast of western Shizuoka, a narrow strip of shore running from the southern edge of Hamamatsu east past Iwata, Fukuroi and Kakegawa to the city of Omaezaki, whose cape at the region's eastern edge marks where Suruga Bay opens to the Pacific. Nearly all of the region is the open Enshu-nada sea; the land is a band of beach, dune and farmland along its northern edge. The shore is one long, nearly straight run of sand beaten by heavy surf, backed by belts of windbreak pine, fields and low towns. In southern Hamamatsu the Nakatajima dunes roll down to the sea, and every May the Hamamatsu Festival's giant kites fight over the sand. The broad gravel mouth of the Tenryu River opens between Hamamatsu and Iwata. Fukude's small port lands whitebait; Fukuroi grows crown muskmelons in glass houses, one fruit to a vine; tea fields reach down toward the coast in Kakegawa. Omaezaki is a fishing and surf town around a bonito and whitebait harbor, with windsurfers on its beaches year round, the cape lighthouse just past the region's eastern edge. The climate is sunny and mild, but the dry northwest wind of winter blasts down the coast for weeks, and summer brings typhoons and big swell. The coast also lives with the threat of a great Nankai Trough earthquake: tsunami towers, raised evacuation mounds and a long new seawall line the shore, and drills are taken seriously. Route 150 follows the coast the whole way; the Tokaido shinkansen and Tokaido Main Line run a few kilometers inland, with stations at Hamamatsu, Iwata, Fukuroi and Kakegawa, and local buses run down to the beaches and to Omaezaki. From Musutafu it is about an hour by shinkansen to Hamamatsu or 45 minutes to Kakegawa, then an hour by bus to Omaezaki. Visitors surf and windsurf, fly kites on the dunes, eat whitebait bowls and melon, and walk the beaches. Police boxes stand in every coastal town, small hero offices in Omaezaki and southern Hamamatsu cover long stretches of coast, and a lifeguard with a sonar Quirk works the summer beaches under a municipal permit.",
+    "hiddenInfo": "The coast's quiet worry is the sea itself: everyone knows the next great earthquake could send a tsunami over the dunes within minutes, and the drills make old residents tense. Day to day the trouble is ordinary: night races on Route 150 by riders with speed Quirks, drownings on the surf beaches, and theft from melon houses and fishing gear sheds. The local hero offices are spread thin over long coastline; bigger agencies in Hamamatsu can reach the beaches in twenty to forty minutes.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -2,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0db4bb0a-894b-48fd-bf3d-930dab149803.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

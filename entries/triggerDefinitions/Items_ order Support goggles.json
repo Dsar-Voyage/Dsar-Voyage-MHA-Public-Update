@@ -1,0 +1,55 @@
+{
+  "Items: order Support goggles": {
+    "name": "Items: order Support goggles",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^(?!.*(\\w+n't|\\b[Nn]ot\\b|\\b[Nn]ever\\b)).*\\b([Oo]rder\\w*|[Bb]uys?|[Pp]urchas\\w*)\\b"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Ss]upport goggles|[Gg]oggles)\\b"
+      },
+      {
+        "type": "read-boolean",
+        "key": "gearLicensed",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-item",
+        "item": "Yen",
+        "operator": "greaterThanOrEqual",
+        "value": 18000
+      },
+      {
+        "type": "read-number",
+        "key": "order_goggles",
+        "operator": "equals",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "order_goggles",
+        "operator": "set",
+        "value": 1
+      },
+      {
+        "type": "write-boolean",
+        "key": "gearPending",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the character orders Support goggles from a support company with their registration papers and pays ¥18,000. Delivery takes three days; it is not in hand yet."
+      }
+    ],
+    "recurring": true,
+    "script": "const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const y=N(check({type:'player-item',item:'Yen'})),h=N(check({type:'player-item',item:\"Support goggles\"}));storage['od_goggles']=check({type:'read-number',key:'currentDay'})||1;storage['oc_goggles']=h;storage.shopP={y:y-18000,it:[[\"Support goggles\",h]]};effects.push({type:'write-boolean',key:'shopSettle',operator:'set',value:true});"
+  }
+}

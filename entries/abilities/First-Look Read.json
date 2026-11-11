@@ -1,0 +1,20 @@
+{
+  "First-Look Read": {
+    "name": "First-Look Read",
+    "description": "The user watches a Quirk in use and works out what it is: its type, what sets it off and where it stops. The user learns a true limit of that Quirk (range, trigger, duration, fuel, blind side or recovery time), and the user and anyone they tell can plan around it for the rest of the scene. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirkless",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

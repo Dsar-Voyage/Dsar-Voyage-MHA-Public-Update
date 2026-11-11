@@ -1,0 +1,20 @@
+{
+  "Scout Sparrow": {
+    "name": "Scout Sparrow",
+    "description": "The user draws a small bird on their palm and it takes off, flying up to a few city blocks away and back within a couple of minutes. On its return it lands on a sheet of paper and lies flat as a careful sketch of everything it passed: who stands where, which exits are blocked, where people are trapped. Rain, a sprinkler or a swatting hand ends it, and it shows nothing it did not fly past. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

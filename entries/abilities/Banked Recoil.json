@@ -1,0 +1,29 @@
+{
+  "Banked Recoil": {
+    "name": "Banked Recoil",
+    "description": "The user sets a single elastic pane that holds every blow, charge, bullet and thrown object it catches instead of throwing it back, storing their force for the rest of the scene. On the user's word the pane releases everything it has stored at once in a direction the user chooses: everyone in that line along a street takes heavy force damage, more the more it caught, and is thrown down; held back, it only throws them flat. The user can hold only one such pane, and if the user is knocked out it releases in every direction. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

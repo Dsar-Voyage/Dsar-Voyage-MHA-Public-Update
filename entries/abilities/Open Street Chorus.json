@@ -1,0 +1,25 @@
+{
+  "Open Street Chorus": {
+    "name": "Open Street Chorus",
+    "description": "The user carries a continuous live performance across fifty meters for three turns. Up to sixty willing listeners move toward exits without tangling, while up to ten hearing opponents have their next step pulled sideways each turn. Everyone keeps their choices. Soundproof barriers still block the pressure, and the user cannot perform again until an hour of rest after the chorus ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

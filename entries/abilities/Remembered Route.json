@@ -1,0 +1,20 @@
+{
+  "Remembered Route": {
+    "name": "Remembered Route",
+    "description": "In smoke, darkness or a blackout, the user projects the corridor, stairwell or street they saw before it went dark, outlined in faint light at full size over the real one. Evacuees can follow the projected route to the exit at a steady pace for the rest of the scene. The image shows the place as it was when the user saw it, so any new collapse, fire or locked door does not appear in it. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

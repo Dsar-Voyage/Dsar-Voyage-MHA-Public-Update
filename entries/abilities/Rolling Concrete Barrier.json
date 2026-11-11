@@ -1,0 +1,25 @@
+{
+  "Rolling Concrete Barrier": {
+    "name": "Rolling Concrete Barrier",
+    "description": "The user touches a broad concrete foundation and drives a folding surge thirty meters ahead, dealing massive bludgeoning damage to targets caught this turn. Held back, it rises ahead of them and closes the route without impact. The surge requires ample joined material and leaves the user too exhausted to shape until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

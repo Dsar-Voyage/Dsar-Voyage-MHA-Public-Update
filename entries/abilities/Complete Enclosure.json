@@ -1,0 +1,25 @@
+{
+  "Complete Enclosure": {
+    "name": "Complete Enclosure",
+    "description": "The user's signature move: they form hands on all four extra arms and close all six arms around one person within reach, pinning their limbs without striking them. The target remains held until they overpower the grips or an outside force pulls the user away. Every arm is committed, leaving the user unable to guard another person, and injury to one arm weakens the enclosure. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

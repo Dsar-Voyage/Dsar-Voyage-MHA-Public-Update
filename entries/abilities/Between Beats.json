@@ -1,0 +1,20 @@
+{
+  "Between Beats": {
+    "name": "Between Beats",
+    "description": "The user reads the rhythm of a Quirk attack, a fire or a collapsing structure and runs into the danger at the safe moment. They reach a person caught in it and drag or carry that person clear before the next blow, blast or fall lands: neither of them takes harm from that threat this turn. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirkless",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Perception",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

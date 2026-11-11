@@ -1,0 +1,128 @@
+{
+  "Tokyo Bayside Mall": {
+    "name": "Tokyo Bayside Mall",
+    "basicInfo": "A waterfront mega-mall on reclaimed land in Tokyo Bay, about 7 km south of Tokyo Station and just over a kilometer southeast of the Tokyo Broadcasting Center, across a narrow channel; the Hero Billboard Chart Hall is about 4 km to the north-northeast and the Best Jeanist Hero Agency about 4 km to the west. A driverless elevated train loops out over the harbor from the city, a footbridge crosses the channel from the broadcasting center's side, and water buses tie up at the mall's own pier. Five floors of shops, restaurants and entertainment run along the seawall, fronted by the All Might Statue Plaza, where a giant likeness of the Number One stands over the boardwalk, and closed at the east end by the Bayside Ferris Wheel, the tallest thing on the island. Inside are a food hall, a hero history gallery with its museum shop, a whole floor of games, fashion and sporting chains, and fittings built for every body: double-width doors, reinforced benches, escalators with clearance for wings and fitting rooms sized for tails and extra limbs. Shops open at ten and close at nine, restaurants and the games floor run until eleven, and the plaza and the boardwalk stay open all night under lamps. Weekday mornings belong to tour groups and school trips; lunch brings staff from the broadcasting center; after classes come students, and weekends pack the island with families, couples, tourists and hero fans, U.A. students among them on a day out an hour from Musutafu. Since the news that All Might teaches at U.A., the statue draws a line of fans from opening to dusk. The management company's uniformed guards carry radios and have no authority to use Quirks; the Metropolitan Police keep a box at the plaza, and small agencies on contract walk the boardwalk in pairs on weekends. A player can shop, eat, ride the wheel, sell footage to the network next door, work a part-time shift or meet friends under the statue. Gulls, sea wind and the plaza's chime on the hour set the mood.",
+    "hiddenInfo": "Right now a two-person freelance crew is planning to stage a rescue on the Bayside Ferris Wheel and sell it to the newsroom next door, which pays cash for incident footage and does not ask how a shot was taken. Their date is Saturday at dusk, when the wheel's queue is longest and the statue's first light show turns every phone on the plaza toward the water. One of them, a thin man in a gray windbreaker, has a Quirk that drains the charge from anything electric he holds for about a minute; he has ridden the wheel alone five times this week, filming the drive cabinet beside the boarding deck as his gondola came down, and has timed a full turn at sixteen minutes. The other will run the camera from the Arcade Floor's skybridge. They have promised a rookie licensed hero from a small agency across the bay a cut of the sale and a clip that could lift his approval for months; he believes the stall will be a harmless pause of a minute or two. It will not be: when the drive loses power the brakes lock every gondola in place until engineers reset the system, which took fifty minutes the last time, when an elderly rider fainted at the top. Clues are there for anyone who looks: the wheel attendant remembers the solo rider and his camera, the drive cabinet's lock was found scratched on Wednesday, and the rookie's sidekick has twice asked the plaza police box what time the lights come on. The officers there would act on a name; the mall's guards would rather hand it to anyone else. Meanwhile management is quietly haggling over the license fee for the statue's likeness, and the museum shop's manager suspects that some signed cards consigned to her are forged.",
+    "x": 18.12,
+    "y": -16.76,
+    "radius": 1.5,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e73d6e5c-a640-4ae2-a229-dbefe8e8f608.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "All Might Statue Plaza": {
+        "description": "A broad plaza of pale paving at the front of the mall, open to the bay on one side, where an All Might statue about eighteen meters tall stands on a stone plinth in his familiar blue, red and gold costume, one fist raised to the sky and his grin turned to the water. The plaque on the plinth carries his famous words, I am here, and fans touch his boot for luck until the toe shines. This is the island's arrival point: the elevated train's station opens onto one corner, the footbridge from the broadcasting center lands on another, and water buses tie up at the pier steps. A photo line forms by ten and runs until dusk, longer since the news that he teaches at U.A., and a staffer with a megaphone keeps it moving at one photo per group. At sunset the statue lights up, and a short light show plays across it every hour until ten. A police box sits by the train exit, and the guards ask fliers not to perch on his shoulders. Sea wind, gulls and the hourly chime fill the air. Glass doors open into the Bayside Food Hall, escalators climb to the Hero Museum Shop and the Arcade Floor, and the boardwalk runs east to the Bayside Ferris Wheel.",
+        "paths": [
+          "Bayside Food Hall",
+          "Hero Museum Shop",
+          "Arcade Floor",
+          "Bayside Ferris Wheel"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ad19ae88-62c4-49ad-a7d5-433dfa94ab39.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Bayside Food Hall": {
+        "description": "A long ground-floor hall behind a glass wall facing the bay, with about thirty food counters around shared tables and a wooden deck outside where diners eat in the sea air. The counters cover the whole country: monjayaki and okonomiyaki griddles, conveyor sushi, tempura bowls, ramen, curry, Korean barbecue, crepes, soft-serve and a bakery whose melon bread sells out by two. A bowl or a set runs 800 to 1,500 yen, and the hall's hero collaboration menu changes each season; this spring it is an All Might hamburger steak with a gold-flecked egg and a paper flag of his grin. Lunch brings staff from the broadcasting center across the channel, talking shop in their lanyards; after classes come students who stretch one drink across an afternoon; weekends fill every seat by noon. One section has wide benches and tables bolted to the floor for big and heavy heteromorph diners, and a card on each table asks guests not to use Quirks to heat, cool or fetch their food. Gulls patrol the deck railing for dropped fries, and the griddles hiss out the smell of soy and butter. The hall opens back onto the All Might Statue Plaza.",
+        "paths": [
+          "All Might Statue Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ac144c80-537c-4cb3-bbaa-4854534408e6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hero Museum Shop": {
+        "description": "A gallery and shop on the second floor, laid out like a small museum. A timeline along one wall runs from the first Quirk births through the years of chaos to the founding of hero licensing, with glass cases of old costumes, worn capture tools and old front pages; a room at the end belongs to All Might, with his famous rescues looping on screens and a life-size cutout that fans stand beside for photos, most of them reaching his chest. The gallery is free. The shop beyond it sells licensed figures from 3,000 to 20,000 yen, replica capes, trading cards and signed goods in sealed frames, each with a holographic license seal so buyers can tell them from street fakes. Weekday mornings bring school trips and tour groups; afternoons bring collectors who know the stock better than the staff; weekends bring families, and since the news about U.A. the All Might shelves are restocked twice a day. Staff wear white gloves, and a sign asks visitors to keep Quirks away from the cases. It smells of new cardboard and floor polish. Escalators lead down to the All Might Statue Plaza and up to the Arcade Floor.",
+        "paths": [
+          "All Might Statue Plaza",
+          "Arcade Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b2332967-cb29-4b09-9412-6d76ecd51743.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Arcade Floor": {
+        "description": "The whole third floor is one big game center under a black ceiling strung with colored lights. By the escalators stand rows of crane machines stocked with plush heroes, All Might in every size at the front, then photo-sticker booths with hero frames and curtained stalls; deeper in are rhythm games, a taiko cabinet, fighting-game cabinets and a medal corner with a jackpot tower. The showpiece is a rescue simulator, a padded booth with screens on three sides where players dodge and reach through a collapsing city to carry virtual civilians out, 500 yen a run, with the day's top scores posted outside. Most other games cost 100 yen. Students crowd the cranes after classes, fighting-game regulars arrive after dinner, and weekends bring families who leave with armfuls of plush. It stays open until eleven, after the shops close. Staff in vests unjam machines, and a notice on every cabinet says Quirk use means a lifetime ban. The noise is a wall of jingles and pouring medals. Escalators lead down to the Hero Museum Shop and the All Might Statue Plaza, and a glass skybridge at the east end crosses to the Bayside Ferris Wheel.",
+        "paths": [
+          "All Might Statue Plaza",
+          "Hero Museum Shop",
+          "Bayside Ferris Wheel"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cb50bcf2-e9a8-42be-bcf8-03e508277a37.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Bayside Ferris Wheel": {
+        "description": "At the island's east end stands the tallest thing on the waterfront, a Ferris wheel about 110 meters high with sixty-four gondolas, two of them with glass floors, turning above a boarding deck. A turn takes about sixteen minutes and costs 1,000 yen; the glass-floor gondolas cost more. From the top the whole bay opens out: the broadcasting center's helipad close by to the northwest, the towers of central Tokyo to the north, container cranes and ships to the south and, on the clearest winter days, Mount Fuji far to the west. It runs from ten until ten at night and stops in high wind. Tour groups ride in the morning, students in the afternoon, and at dusk the queue fills with couples waiting for the spokes to light up in slow waves of color. Wider gondolas with reinforced floors carry heteromorph riders, and a sign at the gate reminds fliers that nobody leaves a gondola in the air. An attendant in a windbreaker checks every latch by hand, and the motor hums under the clank of doors. The boardwalk leads back to the All Might Statue Plaza, and the skybridge crosses to the Arcade Floor.",
+        "paths": [
+          "All Might Statue Plaza",
+          "Arcade Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ff4e5dfa-6d44-4ff2-ad60-982ba3c0a25a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

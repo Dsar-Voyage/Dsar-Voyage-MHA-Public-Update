@@ -1,0 +1,30 @@
+{
+  "Mito": {
+    "name": "Mito",
+    "basicInfo": "Mito and the central Ibaraki coast, a cell of flat farmland, lakes and long sand beaches facing the Pacific, with the eastern half open sea. Mito, the prefectural capital, sits on a ridge between the Naka river and Lake Senba, around the Kairakuen garden with its three thousand plum trees and the old domain school of Kodokan. East of it, Hitachinaka holds the fish market and harbor of Nakaminato, a seaside park whose hills turn blue with nemophila in spring and red with kochia in autumn, and the sweet potato fields that make dried hoshi-imo. Oarai, just south, is a beach and port town with an aquarium, a torii gate standing on surf-washed rocks, and an overnight ferry to Hokkaido. Behind the coast lie Lake Hinuma, known for its shijimi clams, Ibaraki Airport near Omitama, the eastern reaches of Lake Kasumigaura and Lake Kitaura with their lotus fields and fishing villages, and Hokota, the melon capital, above a straight, empty beach running south. Tokai village marks the northern edge. Summers are warm and humid, winters dry and bright with little snow, and spring winds raise dust over the fields. People grow melons, sweet potatoes, lotus root and rice, raise pigs and Hitachi beef, fish in the lakes and off the coast, and work in Mito's offices and the Hitachinaka factories. The Joban line and Joban Expressway put Mito about an hour and a quarter from Tokyo; the Suigun line runs north, the Mito line west, the Oarai Kashima line down the coast, and a little seaside railway runs from Katsuta out to the beach at Ajigaura. From Musutafu allow about two and a half hours. Visitors eat natto in every form, monkfish hotpot in Oarai in winter and melons in Hokota in summer, see the plum blossoms in February and March, ride the ferry north, and swim at Oarai. Mito has several hero agencies and the prefectural police headquarters; summer beach patrols use sidekicks with water Quirks, and a melon grower whose Quirk senses ripeness by touch picks the best fruit for the auction.",
+    "hiddenInfo": "Ibaraki runs a long joke about being Japan's least attractive prefecture, and Mito people are prickly about it; downtown is losing shops to the malls and to Tokyo. Rip currents on the beaches drown swimmers every summer. Real hero help is quick in Mito and Hitachinaka and fifteen to thirty minutes out in the lake country. Small villainy: loud motorcycle gangs and drag racing on the coast roads, crop theft from melon and sweet potato farms, and scams on the elderly.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 3,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/eac0452c-facf-4423-ae22-7bcc20774097.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

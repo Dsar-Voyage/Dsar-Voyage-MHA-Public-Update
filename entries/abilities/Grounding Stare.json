@@ -1,0 +1,20 @@
+{
+  "Grounding Stare": {
+    "name": "Grounding Stare",
+    "description": "The user locks onto a person moving with an Emitter or Transformation Quirk: flying, speeding, leaping or opening a portal. The move dies halfway: a speedster stumbles to an ordinary run, a jumper falls short, a portal closes before anyone passes, and a flyer drops, the look slipping a moment before impact so they land hard but unhurt. While the look holds, they cannot use the Quirk to get away until the end of their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

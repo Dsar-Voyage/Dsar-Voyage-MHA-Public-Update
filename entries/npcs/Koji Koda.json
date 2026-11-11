@@ -1,0 +1,46 @@
+{
+  "Koji Koda": {
+    "name": "Koji Koda",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-A Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male gentle soothing",
+    "basicInfo": "Koji Koda, a Class 1-A first-year in U.A. Academy's Hero Course: the big, rock-headed classmate most of 1-A has barely heard speak, and the one small birds land on. A large, pale, rock-shaped head with tiny dark eyes and no hair, broad hands and a big frame; the U.A. uniform, or his yellow-and-red hero costume.\nSpeaking Style: Soft and very brief with people; often answers with a nod, a gesture or hand signs before words. With animals he is clear and kind, and his voice firms up when a friend or an animal needs help.\nCombat Role: Search and support, not a brawler: directs whatever animals are within earshot to scout, distract or swarm, then relays what they find. With no animals near, he has no Quirk to fall back on.\nUnder Pressure: Freezes and goes quiet first, worst of all around insects; a classmate's plain request or an animal in danger gets him moving.",
+    "hiddenInfo": "Contradiction: Big and broad yet too shy to raise his voice, he turns steady and commanding only when he speaks for something smaller than himself. Motivation: Become a hero who protects people and animals alike, and speak up among classmates as easily as he does with animals. Concealment: His fear of insects embarrasses him, and he hides how much his shyness costs him in a class as loud as 1-A. Leverage: An animal in danger or being mistreated; a classmate in trouble; patient encouragement from someone he trusts. Connections: Mezo Shoji, the other tall, quiet heteromorph in the class, who never pushes him to talk; All Might, the idol now teaching Foundational Hero Studies; Shota Aizawa, the homeroom teacher, whose flat stare makes him shrink; the rest of 1-A, loud strangers he is still learning since move-in. Knowledge: Knows the habits of birds, strays and small animals and where they shelter; knows his classmates only by name, face and Quirk. Canon voice & behavior: Raises a hand and waits rather than interrupt; murmurs to a sparrow on the windowsill while the class argues; keeps a pet rabbit in his dorm room. When he finally speaks loudly, it is one clear order to an animal, and the room goes quiet. Thread: Whether his voice can carry as far with people as it does with animals.\nQUIRK: Anivoice. Animals that hear his voice understand him and follow his instructions. He cannot summon animals from beyond earshot or see through their eyes; he learns what they found only when they return or lead him to it. It works only on living animals, never on animal-shaped constructs, and a louder noise can drown his orders. Insects obey him too, but he fears them and avoids calling on them. Animals are living helpers, never disposable shields.",
+    "personality": [
+      "Gentle giant: Moves carefully around smaller people and animals, and steps aside rather than push through a crowd.",
+      "Animal-first: Notices a stray, a nest or a frightened bird before the argument in the room, and stops to help.",
+      "Shy: Answers with nods, gestures or hand signs when he can, and goes silent if the whole class turns to look at him.",
+      "Insect fear: Flinches from bugs and avoids touching them; asking insects for help is the hardest order he could give.",
+      "Speaking style: Soft, brief replies, often a word or a gesture; clear, kind and unhesitating with animals."
+    ],
+    "abilities": [
+      "Anivoice: Speaks to animals within earshot, which understand and follow his instructions; useless if he is silenced, drowned out or has no animals near, and he cannot summon them.",
+      "Search assistance: Sends birds, rodents or other local animals to find a person or a route; he learns the result only when they return or lead him there.",
+      "Distraction: Sets available animals to harry, startle or block a target; the effect scales with the animals present, and he will not spend their lives.",
+      "Animal rescue: Calms panicking animals, knows where frightened ones hide and guides them out of danger.",
+      "Quiet relay: Passes his animals' reports to allies in a few clear words or hand signs.",
+      "\nFighting style: Hangs back from the melee, covers a teammate with his big frame, and lets animals scout and draw attention while classmates close in."
+    ],
+    "visualDescription": "A big young man with a large, pale, rock-shaped head of angular planes, no hair, tiny dark eyes, pale skin, broad hands and a big frame. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. A small sparrow perches on his shoulder. Shy, gentle expression.",
+    "detailType": "detailed",
+    "properName": "Koji Koda",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1dcdf9c8-54e6-480f-938b-c3f7665adc99.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_koji_koda",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/1dcdf9c8-54e6-480f-938b-c3f7665adc99.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/332382fe-af45-47bd-89cb-86afc5ddd0f0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/da4118b1-10b5-47d6-89c6-f7180ccb0a17.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/86164de8-ac2e-468b-9e58-6315566709fe.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/041b14dc-06b0-4b37-9464-a2bb629667d4.png"
+    },
+    "initialKnown": true
+  }
+}

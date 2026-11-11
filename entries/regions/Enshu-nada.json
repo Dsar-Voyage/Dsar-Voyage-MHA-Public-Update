@@ -1,0 +1,28 @@
+{
+  "Enshu-nada": {
+    "name": "Enshu-nada",
+    "basicInfo": "The open Enshu-nada, the stretch of Pacific off the long sand coast of western Shizuoka, known to sailors for generations as rough water. Here, well offshore, the water is deep blue and heavy with swell, falling away toward the Nankai Trough, and the warm Kuroshio current runs to the south. In winter the dry northwest wind races down from the mountains and whips the sea white; in summer, long southerly swells roll toward the beaches, and typhoons can turn it violent from late summer into autumn. The coastal shipping route between Tokyo Bay and the ports of Nagoya and Osaka passes through, and at night the freighters' lights move in a slow line. Fishing boats from Maisaka, Fukude and Omaezaki come out for bonito and mackerel, while the whitebait boats stay near the beaches. On a clear winter day the coastal hills and, far beyond, the snow of the Southern Alps can show to the north, and to the northeast the cape at Omaezaki. Coast guard patrol boats and the occasional maritime hero cover the area. A party could be out here on a fishing boat, a coastal freighter, a yacht, or carried by a flying hero.",
+    "hiddenInfo": "The sea itself is the danger: small boats caught by the winter wind, and pleasure craft that set out on a calm morning and do not come back. Rescue is a coast guard cutter or a maritime hero from Hamamatsu or Omaezaki, most of an hour away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -2,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/87c787e3-570a-4479-9a2f-eae785e9df32.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

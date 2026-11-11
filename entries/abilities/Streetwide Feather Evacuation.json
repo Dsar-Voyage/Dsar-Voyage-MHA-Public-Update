@@ -1,0 +1,25 @@
+{
+  "Streetwide Feather Evacuation": {
+    "name": "Streetwide Feather Evacuation",
+    "description": "The user sends their full feather stock along a visible hundred-meter street and carries up to eight ordinary adults at once to clear ground by the end of the user's next turn. Smaller bundles retrieve dropped children or phones instead of adding adult loads. The user remains grounded, needs unobstructed routes and cannot perform other feather tasks until the bundles return; burning or trapped feathers reduce the number rescued. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

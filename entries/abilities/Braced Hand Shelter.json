@@ -1,0 +1,24 @@
+{
+  "Braced Hand Shelter": {
+    "name": "Braced Hand Shelter",
+    "description": "The user holds both hands enlarged around a doorway-wide space for three turns while up to four people crouch behind them. The palms turn aside light fragments and ordinary thrown objects from the front. The user must kneel and cannot advance or attack; blades, gunfire and heavy rubble can injure the hands and break the shelter. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

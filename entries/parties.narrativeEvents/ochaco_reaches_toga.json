@@ -1,0 +1,15 @@
+{
+  "ochaco_reaches_toga": {
+    "title": "A Smile Worth Seeing",
+    "beats": "Late on day 405, Gunga Mountain Villa's slopes disappear beneath multiplying doubles while Ochaco Uraraka tries to reach Himiko Toga. Tsuyu Asui and the surrounding defenders struggle to keep people from being overwhelmed. If the earlier portals or blood transformation were prevented, begin from Toga's actual position and the smaller confrontation that remains.\n\nThe canon default course, as pressure the player can change: Toga stabs Ochaco, leaving a life-threatening wound, but Ochaco continues trying to understand her instead of reducing her to the swarm. Ochaco's awakened Zero Gravity spreads through the doubles, lifting the mass and interrupting its assault. Her willingness to offer Toga blood answers the need for acceptance beneath Toga's violence without excusing the people she has hurt. As the transformation expires, Toga chooses to give her own blood to Ochaco. Without another rescue, that transfusion saves Ochaco and costs Toga her life.\n\nKeep both women physically reachable before death is established. The player can prevent the stabbing, clear a medical approach, provide compatible emergency support, or persuade Toga to accept a rescue that saves both. Her death is the canon default, not a price the scene demands. Do not complete it merely because she begins transfusing. Establish the actual result through medical assessment and preserve any successful intervention. Twice remains dead; the doubles vanish with the relevant transformation and do not become revived originals. The intimate exchange is not automatically carried by the battlefield cameras.\n\nBy place: Gunga Mountain Villa stages the approach through the swarm and the medical rescue. Musutafu General Hospital prepares urgent blood-loss treatment. U.A. Academy, Okuto Island, and Kamino Ward receive reports that distinguish the swarm's disappearance from a confirmed casualty. Jaku City and Takoba Municipal Stadium assist reachable requests while their teams remain accountable. Mount Fuji Battlefield protects approaches from remaining displaced threats. Remote players can arrange aid without hearing the private conversation.\n\nBy Path: Class 1-A and Class 1-B protect access or contain doubles; General Studies coordinates medics; Support supplies emergency equipment. Management checks witnesses and Faculty organizes treatment. Licensed Sidekick extracts wounded; Licensed Pro Hero contains the swarm. League of Villains Recruit can support Toga or seek a rescue for both women; Independent Villain intervenes or withdraws. Vigilante reaches trapped casualties; Civilian Life supplies accessible emergency assistance.\n\nThe event is complete when the clone threat has ended and Toga's and Ochaco's actual medical outcomes, including any prevented death, are explicitly established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_ochaco_reaches_toga",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "Quirk Awakening": {
+    "name": "Quirk Awakening",
+    "description": "Your Quirk has awakened: pushed past every limit, it changed in scale and reach and stayed that way. It unlocks two Awakened techniques for your Quirk family, which still need high Quirk skill (and level 30 for the second). Grants: Quirk Control +5, Quirk Output +5, Quirk Stamina +5. As a level-up pick it requires Quirk Breakthrough and level 24; the story can also grant it in a life-or-death moment. Not available to Quirkless characters.",
+    "traitNarrativeEffects": "The character's Quirk has awakened, the rare change researchers call a Quirk awakening: driven past every limit it had, it grew in scale and reach and kept that growth. Mark the moment with a scene in which the Quirk does its own work on a scale nobody has seen from this character, and show what it costs them. From then on the larger scale is theirs, but heavy: Awakened techniques cost severe Strain, the Drawback bites harder at full output, and holding the new scale back takes practice. Limits: the Quirk keeps its nature and family and gains no new kind of power. Teachers, the Hero Public Safety Commission, the press and villains take serious interest; the character's Quirk registration must be updated, and some will want to study, sponsor or recruit them. If the character chose Quirkless, this trait does not apply: they have no Quirk to awaken.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Quirk Breakthrough"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 24
+      }
+    ]
+  }
+}

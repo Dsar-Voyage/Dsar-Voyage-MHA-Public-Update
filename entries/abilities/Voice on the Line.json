@@ -1,0 +1,20 @@
+{
+  "Voice on the Line": {
+    "name": "Voice on the Line",
+    "description": "The user's Quirk carries through a phone call, radio, intercom or loudspeaker. A target who answers the user's voice through the device falls under the user's control just as they would face to face, within the same limits, so a hero can talk a hostage-taker into setting down the knife from a block away. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

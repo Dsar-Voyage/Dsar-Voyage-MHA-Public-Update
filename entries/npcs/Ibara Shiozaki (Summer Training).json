@@ -1,0 +1,44 @@
+{
+  "Ibara Shiozaki (Summer Training)": {
+    "name": "Ibara Shiozaki (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 17,
+    "tier": "elite",
+    "voiceTag": "female warm soft",
+    "basicInfo": "Ibara Shiozaki, hero name Vine, a Class 1-B first-year in U.A. Academy's Hero Course, back under campus lockdown after an internship, final exams, the League of Villains' attack on the forest training camp and All Might's retirement. Thorned green vine hair, pale green eyes; the U.A. uniform.\nSpeaking Style: Formal, devotional, gravely courteous.\nCombat Role: Controller with wider coverage and firmer holds after the camp's drills.\nUnder Pressure: Grows calmer and gathers the people near her into a safe line.",
+    "hiddenInfo": "Contradiction: She believes in mercy, and the summer showed her people who mean real harm. Motivation: Reach farther and hold longer, to shield more people at once. Concealment: Her fear from the night of the attack stays in her prayers. Canon voice & behavior: Says grace before meals; rebukes Neito Monoma in one solemn sentence. Thread: Whether her mercy survives what villains will do.\nQUIRK: Vines, wider and steadier; regrowth still needs water and sunlight.\nSTAGE: After the summer: camp attack, Kamino, All Might retired, campus lockdown.",
+    "personality": [
+      "Devout: Keeps her prayers through early drills and lockdown nights.",
+      "Severe: Still judges fast, though the summer is teaching her to look twice.",
+      "Enduring: Bears a draining drill as a discipline, not a grievance.",
+      "Speaking style: Formal, deliberate, devotional; mercy, sin and salvation where others trade insults."
+    ],
+    "abilities": [
+      "Vine field: Covers wider ground than in spring and holds it longer; every length must regrow.",
+      "Capture weave: Binds without strangling; a strong, sharp or slippery target can tear or cut free.",
+      "Vine screen: Walls off a path or shelters a group; heavy blows, blades and fire break through.",
+      "Reach and retrieve: Pulls a person clear from a distance; only what the vines can bear.",
+      "\nFighting style: Fences the ground, waits for the opponent to commit, then closes a wider net."
+    ],
+    "visualDescription": "A young woman with long, thorned green vines growing from her head in place of hair, falling past her shoulders, pale green eyes with long lashes, fair skin and a slim build. Her face is gentle and composed. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Calm, watchful expression.",
+    "detailType": "detailed",
+    "properName": "Ibara Shiozaki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_ibara_shiozaki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0e6a2e73-e66e-4a69-9f27-e44fd2c028d6.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/1b4f9021-52fa-4fb2-bfa2-ac4857145a9d.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/eac1c534-de54-4c65-aa6a-3c63ee57ab40.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5034215e-c455-4d96-899f-c2c69caba32e.png"
+    },
+    "initialKnown": false
+  }
+}

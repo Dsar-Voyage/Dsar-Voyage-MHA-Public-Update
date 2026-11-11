@@ -1,0 +1,84 @@
+{
+  "Bakugo Residence": {
+    "name": "Bakugo Residence",
+    "basicInfo": "A two-story detached house on a quiet street of family homes, about 4.5 km east-southeast of the station, 1.3 km east of the Midoriya apartment and about 5 km south-southeast of U.A. Academy's main campus; Aldera High School is under 2 km away and Hero Agency Row about 2 km. Mitsuki and Masaru Bakugo live here. Mitsuki is a designer and Masaru works in fashion, and the house shows it: clean lines, good furniture, a small front garden kept neat and a living room that looks better than the rest of the street. Their son Katsuki, a U.A. first-year, lives in the academy's dorms and comes home some weekends. Mitsuki is loud, blunt and quick to smack her son on the back of the head; Masaru is mild and keeps the peace. When Katsuki is home, he spends little time in the shared rooms, and mother and son shout at each other at full volume; the neighbors stopped noticing years ago. To outsiders the house is polite and welcoming: Mitsuki turns gracious the moment a guest rings the bell, and Masaru makes tea. It is a private home, and visitors come in only when invited. On weekdays both parents work, and the house is quiet until evening. A player can visit, deliver something, or find Katsuki on a weekend home. Katsuki's room upstairs is kept shut, and a shouted warning comes through the door before anyone gets near it.",
+    "hiddenInfo": "The spring before the entrance exam, Katsuki was taken hostage in a shopping street by a sludge villain until All Might freed him, and he refuses to talk about it; Mitsuki keeps the news clippings in a drawer. The pros at the scene, Death Arms among them, praised him afterward and offered him a sidekick spot, and he never mentions that either. Since U.A.'s acceptance letters arrived, his temper has been worse than usual, and he has not said whether he will come home this weekend. His parents suspect it has to do with Izuku Midoriya, whom he grew up with and has looked down on since childhood, but neither has asked him directly, because asking only starts a fight. Mitsuki has known Inko Midoriya since their sons played together and sees her at the shops; she has started to wonder what Izuku's late Quirk means for her own son's pride, and she half wants to ask Inko over tea. Masaru wants to tell Katsuki that he is proud of him and keeps waiting for a quiet moment that never comes. A visitor who treats Katsuki as a thug or a victim will find Mitsuki's politeness gone at once; one who speaks honestly about him may hear more from her than she has ever said to him.",
+    "x": -2.35,
+    "y": 16.462,
+    "radius": 1,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Bakugo Living Room": {
+        "description": "The main room of the Bakugo house, open-plan and bright, and the best-looking room on the street: pale wood floors, a long low sofa in charcoal fabric, a glass coffee table with design magazines squared at the corners, a large TV and tall windows onto the small front garden. Mitsuki is a designer and Masaru works in fashion, and it shows in the lighting, the framed prints and a dining table where nothing is out of place. A cabinet holds a few photos: the family at the beach, Katsuki scowling in an Aldera uniform, Katsuki scowling over his U.A. acceptance letter. On weekday evenings, once both parents are home, Masaru makes tea and the news plays low; when Katsuki is home on a weekend, he crosses this room as fast as he can, and mother and son trade insults across it at full volume while Masaru asks them both to sit down. Guests see none of that. The moment the bell rings Mitsuki turns gracious, Masaru brings tea and a plate of rice crackers, and the visitor is seated on the good end of the sofa. The stairs to Katsuki's Old Bedroom rise from the back of the room, and the Bakugo Front Entry is through the door at the front.",
+        "paths": [
+          "Katsuki's Old Bedroom",
+          "Bakugo Front Entry"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/467b8e7c-0696-4ae0-a008-3af0a4a7058b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Katsuki's Old Bedroom": {
+        "description": "A bedroom at the end of the upstairs landing, door shut, left as Katsuki had it when he moved into U.A.'s dorms; nobody goes in uninvited, and Mitsuki opens it only to air it out. Inside it is spare and orderly in a way that surprises people: a made bed, a desk cleared except for a stack of entrance-exam workbooks with every page finished, a set of dumbbells and a rolled exercise mat in the corner, and a shoebox of medals and certificates from school competitions pushed under the bed rather than displayed. One old All Might poster still hangs over the desk, its corners re-taped more than once. The curtains are dark and heavy, and a small scorch mark on the windowsill shows where someone once tested his palms indoors and heard about it for a week. When Katsuki comes home on a weekend, he spends most of his time in here with the door closed, and a shouted warning comes through it before anyone reaches the top of the stairs. Masaru sometimes stands on the landing as if about to knock, then goes back down. The room smells of laundry detergent and, faintly, of something burnt. The stairs lead back down to the Bakugo Living Room.",
+        "paths": [
+          "Bakugo Living Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b9ae1c11-76ac-40b4-8c4a-4424664dd308.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Bakugo Front Entry": {
+        "description": "The way into the Bakugo house from the street: a low gate in a trimmed hedge, a short path of flat stones across a small, neat front garden with a maple and raked gravel, and a front door of dark wood under a narrow porch light. The intercom by the gate has a camera, and visitors ring and wait; the family lets in only people they know or expect. Inside the door is the genkan, a tiled step-down where shoes come off, with a tall shoe cabinet, a slim umbrella stand, a mirror and a row of guest slippers on the raised floor. Both parents leave for work in the morning and come home in the evening, and on weekdays the house sits quiet in between, apart from deliveries left in a box by the step. When Katsuki comes home, his shoes land kicked off sideways, and Mitsuki lines them up again with a remark loud enough for the street. The neighbors on this quiet street of family homes stopped turning their heads at the shouting years ago, and the ward officer who cycles past in the evening only waves. The garden smells of cut grass, and the gravel crunches loudly under every step. Through the front door, the hall leads into the Bakugo Living Room.",
+        "paths": [
+          "Bakugo Living Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/902885dc-a245-4218-8d1e-69292310fb2d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/deee4615-83fa-40f1-9957-50aa1ddd4308.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

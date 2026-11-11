@@ -1,0 +1,20 @@
+{
+  "Party Line": {
+    "name": "Party Line",
+    "description": "The user links a small team, themself included, into a two-way line for the rest of the scene. Everyone on it talks mind to mind at the speed of thought, nobody on the line can be surprised from a direction another member is watching, and a member caught by a mind-control, emotion or illusion Quirk shakes it off at the end of their next turn when the others call to them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

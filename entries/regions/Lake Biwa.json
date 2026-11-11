@@ -1,0 +1,30 @@
+{
+  "Lake Biwa": {
+    "name": "Lake Biwa",
+    "basicInfo": "The northern half of Lake Biwa, Japan's largest lake, with the Shiga shores around it and the Ibuki and Sekigahara country to the east. About a third of the cell is water: the lake's broad northern basin, blue and wind-ruffled, with the steep forested islet of Chikubushima and its temple and shrine reached by tour boat, and inhabited Okishima nearer the east shore. On the east side, Nagahama is an old market town with a black-walled glass quarter and an April festival of kabuki staged on float tops; Maibara is a rail junction and the region's shinkansen stop; and Hikone keeps an original castle keep on a hill above its moat, with the Genkyu-en garden below. Behind them the hills rise to Taga Taisha shrine, and Mount Ibuki lifts its bald, snowy dome to the northeast, famous for medicinal herbs and alpine flowers. Just over the Gifu line sits Sekigahara, the old battlefield in a narrow pass. The west shore is quieter: Takashima's lakeside villages, Shirahige Shrine's vermilion torii standing in the water, the cherry tunnel at Kaizu Osaki and the Makino plateau. The far north, around Lake Yogo and Shizugatake, is snowy farm country. Winters are cold, with heavy snow in the north and around Ibuki; summers are hot and humid, and each July Hikone's lakeshore hosts a crowd-drawing contest of homemade human-powered aircraft launched off a platform. Food is Omi beef, funazushi fermented carp, Biwa trout, ayu and duck hot pot. The Tokaido Shinkansen stops at Maibara, about an hour and a half from Musutafu and forty-five minutes from Shin-Osaka; the Biwako, Hokuriku and Kosei lines circle the lake, and the Meishin and Hokuriku expressways meet at Maibara. Boats link Nagahama, Hikone and Imazu to Chikubushima. Each town has a small hero agency and police boxes, a lake patrol watches the water, and at the July flight contest sidekicks with flight Quirks stand by to fish out pilots.",
+    "hiddenInfo": "Lake country is comfortable and busy with commuters, and Hikone and Nagahama see tourist crowds on weekends. Trouble is drowning and boating accidents, poaching of protected lake fish, and theft at festivals. Sekigahara's pass is a choke point where snowy expressway pileups are the worst emergencies of the year. Big-city hero help is under an hour away in Kyoto, Nagoya or Osaka.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -5,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9a16f732-8c5c-4ec0-9c95-24b726981934.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

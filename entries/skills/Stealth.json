@@ -1,0 +1,9 @@
+{
+  "Stealth": {
+    "name": "Stealth",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: moving unseen and unheard, hiding, and slipping past people in the moment. Not: watching a target over time, which is Surveillance; locks and alarms, which is Infiltration. Primary attribute: Speed.",
+    "startingItems": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Driverless Run": {
+    "name": "Driverless Run",
+    "description": "The user lays a hand on a car, a truck or a motorbike, and it drives itself at their will for the rest of the scene, with the user inside or up to a city block away in sight. It boxes in a fleeing vehicle, carries injured people to an ambulance or rams a target for heavy bludgeoning damage; held back, it only pins them to a wall. A crash hurts anyone inside, and the user cannot use another technique while it runs. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

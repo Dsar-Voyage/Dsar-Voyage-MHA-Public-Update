@@ -1,0 +1,30 @@
+{
+  "Day Plan: day 2 [Faculty]": {
+    "name": "Day Plan: day 2 [Faculty]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the first morning: the faculty attends the first-year entrance ceremony, except Shota Aizawa, who takes Class 1-A to the athletics field for a Quirk assessment instead; the afternoon is homeroom guidance. Regular lessons, including a new teacher's first lesson, begin tomorrow morning."
+      }
+    ]
+  }
+}

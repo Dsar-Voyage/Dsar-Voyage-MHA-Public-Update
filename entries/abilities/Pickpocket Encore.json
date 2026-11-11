@@ -1,0 +1,24 @@
+{
+  "Pickpocket Encore": {
+    "name": "Pickpocket Encore",
+    "description": "The user moves through a group of enemies in a room in a single pass, tapping each with a palm, and every weapon, support item and piece of armor they carry folds into a sphere that drops into the user's pocket. Until those spheres are released, the whole group fights bare-handed and unprotected; anyone who steps back out of reach first keeps their gear. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

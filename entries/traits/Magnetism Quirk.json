@@ -1,0 +1,40 @@
+{
+  "Magnetism Quirk": {
+    "name": "Magnetism Quirk",
+    "description": "🧲 You pull and push iron and steel, and you can give anything you touch a magnetic pole.\n\n🌱 At the start you snatch a knife or a gun out of a hand from about ten meters, stop a thrown wrench in midair and slap an attacker away with a repelling push.\n📈 With training: marked people locked to walls or each other, scrap storms, girder rides, falling beams caught, a car swung through a barricade, all the steel in a block.\n🔗 Common drawback pairing: Loss of Control, as a strained field grabs metal you never meant to move.\n🎬 Similar canon Quirks: Magne (Magnetism).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Combat Tactics +5\n⚡ Starting techniques: Iron Snatch, Repulse Burst",
+    "traitNarrativeEffects": "Scale: the user pulls and pushes iron, steel and anyone or anything marked by touch. A new adult user moves steel within about ten meters, up to a person's weight (a knife, a manhole cover). Marks keep a user-picked pole for the scene; opposite marks within a few meters slam together, matching ones push apart. More needs techniques. Limits: aluminum, copper, plastic, wood, stone and unmarked flesh ignore it; most bullets (lead, copper) pass through. The user must see targets; the field wipes cards and scrambles nearby phones; scrap driven edge-first maims and is lethal force. Quirk Strain: light: snatch, shove; moderate: locking marks, scrap volley, glide; heavy: catching falling steel, swinging a car; severe: signature move, a block's steel. Type: Emitter. Law: hurling metal at people without a license is assault with a weapon; disrupting a pacemaker is endangering life. Look: loose metal twitches toward the user, a low hum, marks glow faintly, one color per pole.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Iron Snatch",
+      "Repulse Burst"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

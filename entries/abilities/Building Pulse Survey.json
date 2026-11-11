@@ -1,0 +1,25 @@
+{
+  "Building Pulse Survey": {
+    "name": "Building Pulse Survey",
+    "description": "The user plants both jacks into a building's connected structure and tracks vibrations across its floors for the rest of the scene. They can report the position of moving people, active machinery and fresh collapses to a rescue team each turn. The reading cannot find a silent person on an isolated surface, and one major impact can overwhelm the user's hearing and interrupt the survey. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

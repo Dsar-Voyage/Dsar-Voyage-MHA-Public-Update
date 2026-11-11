@@ -1,0 +1,40 @@
+{
+  "Prognostication Quirk": {
+    "name": "Prognostication Quirk",
+    "description": "🔮 Touch someone while meeting their eyes, and the coming stretch of their life rushes past you in a breath.\n\n🌱 At the start a reading shows about fifteen minutes of that person's future, once per person per day.\n📈 Training adds throwing at where a read opponent will be, pulling someone out of a coming accident, having police waiting where a suspect will go, a full hour, several people at once and, at your peak, a whole day ahead.\n⚠️ No touch or no eye contact, no reading; it never shows thoughts, and acting on a vision changes the future it showed.\n🔗 Common drawback pairing: Cognitive Fade, as a long reading leaves your own day blurry.\n🎬 Similar canon Quirks: Sir Nighteye's Foresight.\n\n📈 Grants: Intelligence +1, Quirk Analysis +10, Quirk Stamina +10, Insight +5\n⚡ Starting techniques: Glimpse Ahead, Foreseen Throw",
+    "traitNarrativeEffects": "Scale: touch (skin or clothing) plus eye contact shows the user in a breath a person's next stretch as rapid scenes from beside them: where they go, whom they meet, what they say and do, what befalls them. At first about fifteen minutes ahead, once per person per day; longer, multi-person and combat readings: learned techniques. Limits: sunglasses, eye masks or shut eyes block it; the narrator never opens a refuser's eyes. It shows the course if nobody acts, never fate; acting branches it, the player stays free. Only events to and around them: never thoughts, memories or secrets they would not reveal then, nor the user's future except beside them. Quirk Strain: light: short reading, foreseen throw; moderate: saved accident, set trap, route reading; heavy: several people; severe: signature move, a full day. Type: Emitter. Law: a reading is a lead, never court evidence alone; stalking, blackmail or robbery by it is a crime. Look: a still-eyed breath, tight grip.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Glimpse Ahead",
+      "Foreseen Throw"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

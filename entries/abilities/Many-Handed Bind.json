@@ -1,0 +1,20 @@
+{
+  "Many-Handed Bind": {
+    "name": "Many-Handed Bind",
+    "description": "The user wraps spare limbs around a person within reach and pins their arms to their sides or their legs together. Until the person breaks free with a hard effort or the user lets go, they cannot use the pinned limbs or anything held in them, while the user's own hands stay free to cuff them, search them or keep working. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

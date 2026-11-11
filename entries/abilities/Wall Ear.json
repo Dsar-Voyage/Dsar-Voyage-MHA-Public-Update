@@ -1,0 +1,20 @@
+{
+  "Wall Ear": {
+    "name": "Wall Ear",
+    "description": "The user extends an arm to a nearby doorway, vent or thin partition and forms an ear near the far side. They hear voices, movement or cries for help there and can guide a team toward the sound. A thick wall still blocks hearing, and a loud noise at the exposed ear causes pain and breaks the user's concentration. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

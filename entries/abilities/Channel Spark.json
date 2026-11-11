@@ -1,0 +1,20 @@
+{
+  "Channel Spark": {
+    "name": "Channel Spark",
+    "description": "The user shapes a narrow wind channel from their storm cloud to guide an electric spark across a room without a wire. It strikes a single target for electric damage while leaving people beside them untouched, or catches an incoming shock or live wire's current and grounds it harmlessly into the floor; shaping air and charge together roots the user in place until the end of their turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

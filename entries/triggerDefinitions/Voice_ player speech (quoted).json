@@ -1,0 +1,24 @@
+{
+  "Voice: player speech (quoted)": {
+    "name": "Voice: player speech (quoted)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\"“”]"
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: this turn the PC says aloud only the words the player put in quotes, unchanged and nothing more; any other speech the player describes is one plain sentence without quotes. Anyone new who appears or speaks this turn gets an ordinary Japanese given and family name in the narration and their Character line, never a description such as THICK-NECKED MAN or WOMAN BEHIND THE COUNTER; the Character line holds the name alone (the name and a colon, with no job or title before the name)."
+      }
+    ]
+  }
+}

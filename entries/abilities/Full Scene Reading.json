@@ -1,0 +1,24 @@
+{
+  "Full Scene Reading": {
+    "name": "Full Scene Reading",
+    "description": "The user walks a crime scene or a room, touching surfaces as they go, and reads its last few days in order: who came and went, what was done there, what was hidden and where, and the faces, vehicles and routes involved. Police can follow each lead to a person or a hidden object, but the reading is never evidence by itself, and the user spends the whole scene reading and cannot fight while they do. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

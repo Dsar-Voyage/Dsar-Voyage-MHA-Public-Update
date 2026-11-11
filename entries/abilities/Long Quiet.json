@@ -1,0 +1,29 @@
+{
+  "Long Quiet": {
+    "name": "Long Quiet",
+    "description": "The user holds the look on a single person in sight for a full minute without a blink, doing nothing else, and the stop settles into that person's body. Until the user next sleeps, that person cannot use an Emitter or Transformation Quirk anywhere, in or out of the user's sight, so a dangerous prisoner stays powerless through a transfer, a hearing or a night in a holding cell. The user can hold a single such mark at a time, and while it lasts every other look of theirs ends at the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

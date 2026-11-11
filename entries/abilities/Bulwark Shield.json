@@ -1,0 +1,20 @@
+{
+  "Bulwark Shield": {
+    "name": "Bulwark Shield",
+    "description": "The user pushes a broad shield of layered steel and rubber out of the forearm and plants its edge on the ground. It turns aside bullets, blades, thrown debris and blasts from the front for the user and anyone crouched behind them, and it keeps standing as cover after the user steps away, until a heavy blow or a vehicle knocks it flat. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "Gifted: Plant": {
+    "name": "Gifted: Plant",
+    "description": "🧬 Plant, as an extra Quirk put into your body.\n\n🌱 At the start your vines reach about ten meters, hold an adult and bind limbs, a thorned vine whips anyone in reach, and crops you touch grow days' worth in minutes.\n📈 With training: thorn hedges across a street, buried people found through roots, vine swings, lifting rubble, a hardwood ram and, at the top, every plant in a city block.\n🔗 Common drawback pairing: Stamina Drain, since every vine grows from your body and needs water and sunlight to regrow.\n🎬 Similar canon Quirks: Ibara Shiozaki (Vines), Kamui Woods (Arbor).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Plant family): Scale: the user grows vines from the skin, usually forearms or scalp, and raises roots from touched soil. A new adult user sends wrist-thick vines about ten meters in a second or two, able to hold an adult, and grows touched crops days' worth in minutes. Bigger feats need techniques. Limits: fire burns vines, blades cut them; cut vines die, and regrowth needs water and sunlight, so long fights in dark, dry places starve it. Roots need soil or cracked ground; at the start the user cannot command plants they did not grow. Quirk Strain: light: tendril, lash; moderate: hedge, root listening, swing line; heavy: lifting rubble, hardwood ram; severe: signature move, a block's plants. Type: Emitter (also fits Mutant). Law: unlicensed binding is unlawful restraint; roots that crack a foundation are property damage.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Survival",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

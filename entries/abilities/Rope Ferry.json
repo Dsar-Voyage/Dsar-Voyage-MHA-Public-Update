@@ -1,0 +1,20 @@
+{
+  "Rope Ferry": {
+    "name": "Rope Ferry",
+    "description": "The user seats a carried grapple or weighted rescue rope in the bore and fires it to a visible anchor or clear landing within twenty meters. A lodged grapple supports one adult if its anchor holds, or a waiting rescuer receives the rope. The user must load actual equipment and secure the line by hand; the cannon cannot reel anyone in. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

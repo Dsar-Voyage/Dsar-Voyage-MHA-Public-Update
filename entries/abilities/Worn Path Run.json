@@ -1,0 +1,20 @@
+{
+  "Worn Path Run": {
+    "name": "Worn Path Run",
+    "description": "The user trails a hand along walls, railings and door frames as they move, reading where people have walked in the last few hours. They and up to three allies find the back stairs and service doors the staff use, time their crossing between the guards' rounds and pass through a building or a city block unseen by its regular patrols. A newcomer who has left no trail yet is not avoided. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

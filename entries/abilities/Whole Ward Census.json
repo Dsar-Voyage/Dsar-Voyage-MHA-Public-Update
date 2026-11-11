@@ -1,0 +1,25 @@
+{
+  "Whole Ward Census": {
+    "name": "Whole Ward Census",
+    "description": "The user stands still, closes their eyes and feels every mind across a whole city district at once, through walls, floors, rubble and floodwater. For the rest of the scene they know where each person in it is, whether they are awake, unconscious, panicking or in pain, and the moment any of them moves or fades, so no survivor under a collapse is missed and no hidden attacker stays hidden. The user must keep still with eyes closed to hold it, sends no messages while it runs, and needs a full rest afterward before the Quirk works again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

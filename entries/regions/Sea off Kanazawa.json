@@ -1,0 +1,28 @@
+{
+  "Sea off Kanazawa": {
+    "name": "Sea off Kanazawa",
+    "basicInfo": "Open Sea of Japan off the Kaga coast of Ishikawa, the water west of Kanazawa. The city itself lies just beyond the eastern edge; the only land in the cell is a thin strip of sandy shore at its southeast corner, where the Hakusan coast runs south toward Komatsu. From out here the view east is a low line of dunes and pines, Kanazawa's port cranes and, for half the year, the white mass of Mount Hakusan. The water is shelf sea, mostly under two hundred meters, green near the beaches and darkening to blue farther out, with the Tsushima Warm Current running northeast along the coast. Summers are calm and hot, good for beaches and night squid fishing. Winters bring the northwest monsoon: steep gray waves, sleet, and the December thunder locals call buri-okoshi, the yellowtail-waker. Boats out of Kanazawa Port and the small Kaga harbors work for sweet shrimp, snow crab, yellowtail and squid, and the catch reaches Kanazawa's markets the same morning. Cruise ships and freighters call at Kanazawa Port. Coast guard boats patrol from Kanazawa, and the city's hero agencies keep a few members with water or flight Quirks for sea calls. A party could be on a fishing boat from Kanazawa, a cargo ship, or flying; Kanazawa is a little over three hours from Musutafu by shinkansen.",
+    "hiddenInfo": "The coast is quiet; trouble is the weather and the crowds. In winter, sudden squalls catch amateur anglers and small boats, and summer beach days bring rip currents and drownings along the Kaga shore. Now and then someone with a water Quirk tries to show off offshore and needs rescuing. The nearest hero help is in Kanazawa, half an hour to an hour away by boat or air.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -5,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ccd25f6c-a9f3-4e6e-978e-905af790923b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

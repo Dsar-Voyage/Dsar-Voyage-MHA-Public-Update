@@ -1,0 +1,25 @@
+{
+  "Caldera Surge": {
+    "name": "Caldera Surge",
+    "description": "The user's signature move: both palms drive heat and shaping into the street at once, melting a lane of stone into a wave of slag that surges forward and quenches solid. Enemies in its path take massive fire and bludgeoning damage and are locked to the knees in cooled rock; held back, it cools before contact and only pins them. Afterward the user cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

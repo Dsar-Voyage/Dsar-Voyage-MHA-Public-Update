@@ -1,0 +1,20 @@
+{
+  "Gliding Ice Track": {
+    "name": "Gliding Ice Track",
+    "description": "The user lays a narrow ice track from their right side and slides up to fifteen meters along it this turn, raising a low ramp to cross a shallow gap. The track remains slippery until melted or broken. The user needs a continuous surface to build from and enough space to brake; sharp turns or carrying an unsecured passenger risks a fall. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

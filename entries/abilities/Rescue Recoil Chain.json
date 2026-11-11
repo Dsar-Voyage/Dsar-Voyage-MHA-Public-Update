@@ -1,0 +1,29 @@
+{
+  "Rescue Recoil Chain": {
+    "name": "Rescue Recoil Chain",
+    "description": "The user carries one adult with their free arm and releases three precisely metered shots during a single leap, steering through open air up to thirty meters and braking onto a visible landing before the end of their next turn. Each shot needs an empty impact area below or behind them; the user cannot hover, and a missed impulse spoils the landing. Afterward the user's shaking arm cannot fire for the rest of the scene, and they need help carrying the rescued person. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

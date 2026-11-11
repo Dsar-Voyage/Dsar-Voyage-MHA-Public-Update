@@ -1,0 +1,15 @@
+{
+  "man_festival_marketing": {
+    "title": "Festival Marketing",
+    "beats": "The last days before the U.A. School Festival, at U.A. Academy. Principal Nezu has won permission to hold it at all, on strict terms: invitation-only guests screened at the Main Gate, police on the perimeter, and a single alarm cancels the day. The Management Course has the job of selling a festival nobody can simply walk into: the invitation list, sponsor booths in the Courtyard, a printed program, the posters, and a reason for the public to think of U.A. as a school again after Kamino.\n\nIn the Management Course Classrooms, the default course as pressure the player can change: the lecturer gives the class two days and a budget too small for its ambitions. Teams fight over what to lead with: the Hero Course stage show, the Support Course's exhibits, or the cafes and stalls of the other courses, which still blame the Hero Course for the lockdown. A sponsor wants its logo above the stage; the invitation list has room for families and a few local businesses, and none for the press.\n\nIn the Courtyard the poster war breaks out. Kyoka Jiro, who leads Class 1-A's band, wants the poster plain: date, time, stage. Mina Ashido, who runs the dance, wants lights, glitter and every face in the class. Neito Monoma arrives with a draft for Class 1-B's play twice the size, insists the program list it first, then asks whether the Management Course takes commissions to keep Class 1-A off the cover. Whatever the class picks, somebody storms off, and the player can broker one poster everybody can live with, sell two, or let the Hero Course fight it out while the deadline passes.\n\nThe event is complete when the festival's promotion plan is approved and the posters go up, or the party leaves before the fight is settled.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_man_festival_marketing",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

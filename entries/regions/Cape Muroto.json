@@ -1,0 +1,28 @@
+{
+  "Cape Muroto": {
+    "name": "Cape Muroto",
+    "basicInfo": "The Pacific around Cape Muroto, the southeastern tip of Shikoku, where Tosa Bay ends and the open approach to the Kii Channel begins. A little land in the north is the cape itself: the town of Muroto with its fishing port at Murotsu, the uplifted wave-cut terraces and black rock shelves of a geopark, the white Muroto Misaki lighthouse on the bluff, a pilgrimage temple on the hill above, and the sea caves where the founder of the Shikoku pilgrimage is said to have meditated. Muroto pumps cold, clean water from deep below the sea and sells it, and its boats bring in golden-eyed alfonsino from deep water off the cape. The weather station here is famous for record typhoon winds; the cape takes the full force of storms, and the sea is often rough, with swell from the south and the Kuroshio running close offshore, deep blue and warm. West of the cape lies Tosa Bay, east the open Pacific toward the Kii Channel, and the seafloor drops away steeply to the south. No ferries cross. A party here might be on a fishing boat out of Murotsu, a coast guard cutter, or carried by a flying or swimming hero, and Route 55 buses reach the cape from Nahari and Kannoura.",
+    "hiddenInfo": "Muroto is remote, aging and exposed: typhoons and the expected Nankai earthquake are the worries, and help from Kochi city is about two hours away by road. The coast guard does the rescues offshore. Small trouble is illegal diving for lobster and abalone, gear theft at the port, and boaters ignoring storm warnings.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -9,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bf4e1c30-f7e0-4157-94a6-d32a1ea55119.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

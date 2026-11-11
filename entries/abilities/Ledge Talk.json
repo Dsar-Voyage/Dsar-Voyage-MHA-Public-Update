@@ -1,0 +1,15 @@
+{
+  "Ledge Talk": {
+    "name": "Ledge Talk",
+    "description": "The user lowers their voice, uses the person's name and offers a way out that lets them keep their pride. A frightened, angry or desperate person who is not a committed villain holds off their next violent act and keeps listening for as long as the user keeps talking and nobody threatens them. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Persuasion",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

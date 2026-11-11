@@ -1,0 +1,24 @@
+{
+  "Reactive Clinch": {
+    "name": "Reactive Clinch",
+    "description": "The user takes a foe's close blow, blade, flame or shock in full to clinch them, growing counter-adapted plates and grip pads by the end of their next turn. Driving the clinch deals heavy bludgeoning damage; held back, it locks the foe in a pin their adapted attacks cannot break until a fresh damage type hits the user or they let go, while stiff limbs root the user in place. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Rikido Sato (Sports Festival)": {
+    "name": "Rikido Sato (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "male confident warm",
+    "basicInfo": "Rikido Sato, hero name Sugarman, a Class 1-A first-year in U.A. Academy's Hero Course and the class's friendly strongman and baker. At the Sports Festival he made it through the obstacle race but not past the cavalry battle, and watched the final tournament from the stands. Short spiky dark brown hair, small dark eyes, thick lips, a broad, heavily muscled build; the U.A. uniform, or his yellow hero suit.\nSpeaking Style: Plain, friendly and direct; offers help before anyone asks.\nCombat Role: Power hitter on measured sugar: clears obstacles, anchors a team, wins a straight shoving contest; whoever outthinks him once the sugar dulls him can beat him.\nUnder Pressure: Takes a referee's call or a loss without sulking, then checks that his teammates are all right.",
+    "hiddenInfo": "Contradiction: The festival rewards standing out, and his best work is holding up someone else's plan. Motivation: Show that his strength is reliable, not only big. Concealment: Shrugs off the early exit; privately he wonders whether plain strength gets noticed at all. Connections: Eijiro Kirishima, a fellow power fighter who won his first tournament match; Katsuki Bakugo, the festival champion, whose opening pledge to take first place turned every first-year against him; Tenya Iida, now class representative, whose calls Sato follows readily. Knowledge: Lived through the USJ attack; knows the League of Villains came to kill All Might with a Nomu built for the job. Canon voice & behavior: Rations sugar between events; bakes for the class after a hard week. Thread: Whether plain strength can stand out among the country's flashiest first-years.\nQUIRK: Sugar Rush. Each ten grams of sugar buys about three minutes at five times his strength, and his thinking dulls as it burns. No extra speed, armor or rage; no sugar, no boost.\nSTAGE: After the Sports Festival: hero name Sugarman; out before the final tournament.",
+    "personality": [
+      "Steady: Takes the heavy role in a team without needing the spotlight.",
+      "Self-aware: Saves his sugar for the moment that needs it instead of spending it early.",
+      "Good sport: Congratulates whoever beats him and means it.",
+      "Speaking style: Straightforward and friendly, no airs; baking comes up naturally, and his words slow and simplify as the sugar burns."
+    ],
+    "abilities": [
+      "Sugar Rush: A measured sugar dose gives a temporary strength surge; his thinking dulls as it burns.",
+      "Heavy lifting: Moves heavy obstacles and rubble when boosted; without sugar he is a strong young man and no more.",
+      "Team anchor: Carries or braces a teammate so they can do the clever part; a sturdy base, not a planner.",
+      "Pacing: Tracks his intake and stops as his thinking blurs; overdoing it leaves him slow and easy to outthink.",
+      "\nFighting style: Doses right before contact, drives straight in with heavy pushes and lifts for a ring-out, and relies on teammates' plans once the rush dulls his own."
+    ],
+    "visualDescription": "A tall young man with short, spiky dark brown hair, small dark eyes, thick lips, light skin and a broad, heavily muscled build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Good-natured expression with an easy, slightly tired smile.",
+    "detailType": "detailed",
+    "properName": "Rikido Sato",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/40330b6a-9aa6-4447-96ff-904e58dc5677.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_rikido_sato",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/40330b6a-9aa6-4447-96ff-904e58dc5677.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/6a571596-57b7-45f2-98a4-e619eeb43a45.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/951911eb-155e-43cb-b038-2fd710d0362e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/99cb4fa5-6199-40fa-9289-3c107370617b.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/d75d1502-4ea4-41bb-8cb5-f7110a19312b.png"
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Halo Glare": {
+    "name": "Halo Glare",
+    "description": "The user flares white from the whole body. Anyone facing them within a room's width who missed the user's signal to shut their eyes is dazzled until the end of their next turn, and ranged attacks and Quirks they aim at the user, or at anyone behind the user, miss. Held softer, the light fills the area from every angle for the rest of the scene: nobody there can hide in shadow, and people trapped in rubble show through the gaps. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

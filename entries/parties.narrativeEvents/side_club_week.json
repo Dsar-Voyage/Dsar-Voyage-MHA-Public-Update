@@ -1,0 +1,15 @@
+{
+  "side_club_week": {
+    "title": "Club Recruitment Week",
+    "beats": "Afternoons after classes at U.A. Academy, the week the clubs recruit. Folding tables line the Courtyard under hand-painted banners: kendo, light music, robotics, tea ceremony, track, manga, the swimming club, and a cooking club handing out rice balls. Present Mic has volunteered for the announcements and runs each club's pitch over the campus speakers as a radio segment. Mei Hatsume has set up a table beside the clubs without belonging to any of them, demonstrating a jet backpack to anyone who slows down.\n\nThe attack at the USJ is days old and the Sports Festival is close, so the fair is also the campus insisting on an ordinary week. Default course, as pressure the player can change: every club captain lights up at a Hero Course student, asks for a commitment, hears about Foundational Hero Studies, evening training and the festival, and sighs. Kyoka Jiro lingers too long at the light music table. Rikido Sato is talked into judging the cooking club's cakes. Tenya Iida reads every sign-up sheet and corrects the paperwork. Izuku Midoriya fills notebook pages on every Quirk in the demonstrations. Itsuka Kendo is claimed by the martial-arts table on sight and gets the same sigh when she explains her timetable. Hitoshi Shinso of General Studies walks past all of it with his hands in his pockets: his only plan this spring is the Sports Festival.\n\nBy path: a Hero Course party can join a club anyway and fight for the hours, or help a table recruit. A General Studies, Support or Management party has real time for clubs, and a club can become a standing part of its year; a Management party can rescue a table's failing pitch, and a Support party can end up as Mei's demonstrator. A faculty party is asked to sign on as a club's advisor and to settle a dispute over a double-booked practice room.\n\nThe event is complete when the party has spent an afternoon among the tables and signs up for a club or turns them all down.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_week",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

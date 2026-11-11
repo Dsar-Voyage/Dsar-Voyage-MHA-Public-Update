@@ -1,0 +1,30 @@
+{
+  "Awaji Island": {
+    "name": "Awaji Island",
+    "basicInfo": "The western shore of Awaji Island and the open Harima-nada around it, at the eastern end of the Seto Inland Sea's island country. Only about a sixth of the cell is land. Along the east edge runs Awaji's quiet west coast: long sandy beaches at Goshiki and Keino Matsubara, with pine groves, fishing harbors and sunset viewpoints over the water, and inland the island's onion fields and rice terraces climbing toward the central ridge, where the old Izanagi Shrine at Taga sits among cedars as the place where the creator god retired. At the southwest corner, the harbor of Fukura is home to Awaji's traditional puppet theater and to the boats that run out under the Onaruto Bridge to watch the Naruto whirlpools churning in the strait, with the Shikoku shore just across the water to the south. In the northwest, the Ieshima islands are a cluster of granite and fishing islands, reached by ferry from Himeji, where quarries cut stone and fishing crews work the strait. The eastern headlands of Shodoshima touch the western edge. The water of the Harima-nada is shallow, green and tidal, crossed by freighters and fishing boats, with nori seaweed rafts in winter and sand-eel fishing in spring. Winters are mild and dry, summers hot. Food is Awaji onions, sea bream, conger eel, sand eels simmered in soy, and Awaji beef. The Kobe-Awaji-Naruto Expressway runs down the island's spine just to the east, with expressway buses from Sannomiya and Osaka to Fukura and on into Tokushima; Fukura is about an hour and a half from Shin-Kobe, so Musutafu is about four hours away. Ferries from Himeji reach Ieshima in about half an hour. Awaji has a small hero agency in Sumoto and police boxes in the towns; a single licensed hero might cover half the island, and fishing crews with water Quirks are often the first to reach a capsized boat.",
+    "hiddenInfo": "Island life is slow and close-knit, and newcomers from Kobe who buy beach houses cause gossip. Problems are boating and fishing accidents, illegal sand and shellfish taking, and drunk drivers on the coast road. The Naruto strait's currents are deadly to swimmers. Help from Kobe or Tokushima is an hour away by road; local heroes and fishing crews handle most things.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -8,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bf5c71d6-31a6-4360-931b-f81823fc6320.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

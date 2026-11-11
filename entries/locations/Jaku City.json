@@ -1,0 +1,105 @@
+{
+  "Jaku City": {
+    "name": "Jaku City",
+    "basicInfo": "Jaku is a mid-sized regional city in a mountain basin, plainer and quieter than its neighbor Deika: a compact, busy downtown around Jaku Station and residential hills climbing on three sides. Its best-known institution is Jaku General Hospital, about 4 km northeast of downtown, which draws patients and visiting families from across the region and employs a good share of the city. Downtown, an old covered arcade of family shops runs off the station's south side, business hotels and karaoke boxes crowd the north exit, and a few IT and logistics firms rent offices above the department stores, among them the company whose exacting executive, Tomoyasu Chikazoku, is known around the station cafes for never closing his laptop. Two small local hero agencies and the city police handle traffic accidents, weather emergencies and petty Quirk crime; anything serious brings in heroes from Hosu. Weekday mornings belong to commuters, afternoons to shoppers and hospital visitors with flowers, evenings to the bars around the station; the hills are dark and quiet by ten. Rents are cheap, the hospital and the station hotels are always hiring, and shuttle buses run from the station to the hospital. Trains run to Deika City (about 14 km west-northwest), Hosu (about 70 km southeast, an hour) and Tokyo (about 100 km, an hour and a half); U.A. Academy is about 140 km away, two and a half hours by rail. Spring comes late here: the cherry trees on the hill streets bloom in mid-April, and evenings off the mountains are cold. A player can find hotel, shop or hospital work, rent a cheap room in the hills, shop the arcade, or help the local agencies with a city that has more trouble than it admits.",
+    "hiddenInfo": "Jaku is less peaceful than it looks. A burglar has hit eleven houses in the residential hills since February, always in daylight while the owners are at work, and has never been seen; the police have one detective on it, and the local agency covering the hills has no leads. Residents have started night watches, and last week a watch group cornered a hospital nurse walking home from a late shift. Downtown, the shopkeepers' association is split over a Deika developer's offer to buy the old covered arcade, and the members who argued loudest against the sale have been getting polite visits from people they do not know, who mention their loan balances and their relatives' jobs word for word from a file. Those files come from Tomoyasu Chikazoku, who as Skeptic runs the Meta Liberation Army's data and surveillance behind his corporate career and treats the arcade as a project to finish on schedule. Separately, a slim young man has been staying at a station business hotel for two weeks, paying in cash and waiting on a job from a broker; the night clerk once saw a gas mask with hoses to a tank in his bag. He is Mustard, a villain who hides in a cloud of knockout gas and backs it with a handgun, and he despises U.A.'s students as pampered elites. The local agencies are stretched thin, and on a bad night help from Hosu is an hour away by train.",
+    "x": 12.43,
+    "y": 17.75,
+    "radius": 1.5,
+    "region": "Jaku",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Jaku Downtown": {
+        "description": "A compact grid of department stores, chain restaurants, karaoke boxes, pachinko halls and business hotels around Jaku Station, with an old covered arcade of family shops on its south side, where a tofu maker, a tea merchant and a stationer have kept the same storefronts for generations; a petition against the arcade's sale hangs half-signed in the tea shop window. Weekday mornings are commuters and delivery vans; afternoons bring hospital visitors buying flowers and fruit baskets; after dark the side streets fill with office workers in izakaya. A local hero walks the station plaza at rush hour, and the shuttle bus to the hospital leaves from the stand by the north exit. The station's departure chime carries across the plaza, along with smoke from the yakitori stands outside the north exit. Streets and stairways climb from the downtown edge into the Residential Hills.",
+        "paths": [
+          "Residential Hills",
+          "Jaku Covered Arcade",
+          "Izakaya by the Tracks"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/948ff71a-e56a-4d57-9251-460633c6b436.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Residential Hills": {
+        "description": "Narrow streets of family houses, small apartment blocks and terraced gardens climb the slopes above downtown, joined by steep stairways and a single bus route. Retirees, young families and hospital staff on rotating shifts live here. Days are quiet apart from morning walks to school, garbage trucks and the occasional delivery van, and lately neighbors watch every unfamiliar van with suspicion; a hand-lettered sign at the bottom of the main stairway announces the new night watch. By ten at night the streets are dark, neighbors know which car belongs in which driveway, and the watch groups walk past with flashlights. At six every evening a temple bell rings from the top of the hill, and the wind off the mountains carries it across the whole slope. The streets and stairways lead back down to Jaku Downtown.",
+        "paths": [
+          "Jaku Downtown",
+          "Jaku Covered Arcade"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/34498ae8-5232-4e50-bef9-f769df4b38db.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Jaku Covered Arcade": {
+        "description": "The old covered arcade runs four blocks south from the station under a curved roof of frosted panels, many of them cracked, with a tiled walkway worn into a shallow groove down the middle. Family shops line both sides: the tofu maker selling warm soy milk at seven, the tea merchant roasting hojicha in a drum by the door, the stationer, a fishmonger, a sweet shop selling dango at 120 yen a skewer, and a few shutters down for good. Retirees shop in the mornings, hospital visitors buy fruit baskets and flowers in the afternoons, and most shops close by seven. The petition against the arcade's sale hangs half-signed in the tea shop window, and lately a few of its loudest backers have gone strangely quiet. A sidekick from one of the two local agencies buys lunch at the tofu shop every day. Signs at both ends ask shoppers to leave bicycles at the entrance and Quirks at home. The arcade smells of roasting tea and soybeans, an old radio plays enka at the fishmonger's, and at dusk the mountain wind whistles through the cracked panels. The north end opens onto Jaku Downtown; the south end meets the stairways into the Residential Hills.",
+        "paths": [
+          "Jaku Downtown",
+          "Residential Hills"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/be64489f-850d-49c0-b0ae-67413f7829b2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Izakaya by the Tracks": {
+        "description": "A row of izakaya built into the brick arches under the raised tracks just east of Jaku Station: each one a single room with a counter and three or four tables, noren curtains, red lanterns, beer crates for extra seats and a menu on paper strips along the wall. Yakitori is 150 yen a skewer, a mug of draft beer 450, a highball 380, and the house rule is to order a drink before sitting down. Trains rumble overhead every few minutes and rattle the glasses, and the regulars pause mid-sentence for every train without noticing. Office workers come straight from work at six, hospital staff off the late shift drift in near eleven, and karaoke stragglers fill the last tables until closing at one. Guests from the station business hotels sometimes eat alone at the counters, paying cash and saying little. The cooks grill over charcoal facing the lane, and smoke sweet with tare sauce drifts out under the arches. A local hero walks the row at closing to settle the odd argument over a bill, and a card by each door says trouble goes to the station police box and Quirks stay out of it. The lane under the tracks leads back to Jaku Downtown.",
+        "paths": [
+          "Jaku Downtown"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9731c1cc-a76e-4476-a92c-df426d097c48.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ad30fae4-1d52-4ffb-9139-0c70ec6aab2d.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "Event Arrival: All Might's first battle trial @ Ground Beta": {
+    "name": "Event Arrival: All Might's first battle trial @ Ground Beta",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "lessThan",
+        "value": 4
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "currentBandIndex",
+        "operator": "set",
+        "value": 4
+      }
+    ]
+  }
+}

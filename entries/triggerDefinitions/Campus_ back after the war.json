@@ -1,0 +1,28 @@
+{
+  "Campus: back after the war": {
+    "name": "Campus: back after the war",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_hospital_after_victory",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "campusOff",
+        "operator": "set",
+        "value": false
+      }
+    ]
+  }
+}

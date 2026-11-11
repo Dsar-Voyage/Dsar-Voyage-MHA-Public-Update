@@ -1,0 +1,28 @@
+{
+  "Sea off Nagato": {
+    "name": "Sea off Nagato",
+    "basicInfo": "Open Sea of Japan north of the Nagato coast of Yamaguchi Prefecture, a square of water with no land in it at all. The shore lies over the southern horizon, where the sea cliffs of Omijima and the headlands around Senzaki show as a low line on clear days; to the east, beyond this water, the small island of Mishima rides alone. The sea is a deep navy over a continental shelf a hundred meters and more down, carried northeast by the warm Tsushima Current. Summers are calm and hazy; from November the northwest monsoon piles up whitecaps and gray swells that keep small boats in port for days at a time. It is a working fishing ground: boats out of Senzaki, Tsunoshima and Hagi set nets and long-lines for yellowtail, sea bream and kensaki squid, and squid boats hang rows of bright lamps here on summer nights. Cargo traffic between the Kanmon Strait and the ports of the Sea of Japan coast passes well offshore. The coast guard office at Senzaki patrols these grounds, and maritime heroes from the Shimonoseki and Kitakyushu side are an hour or more away. A party is out here aboard a fishing boat, a coast guard cutter, or carried by a hero who can fly.",
+    "hiddenInfo": "Mostly empty water, and that is the danger: an engine failure here means drifting a long way before anyone notices. Unlicensed boats work the squid grounds at night with their lights off, and local fishermen complain of foreign boats on their grounds. Hero help means a call to the coast guard first and a long wait.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -15,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c268ac4f-25d3-4e00-bd73-429d0f3a8d37.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

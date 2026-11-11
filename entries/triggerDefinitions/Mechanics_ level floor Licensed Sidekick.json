@@ -1,0 +1,33 @@
+{
+  "Mechanics: level floor Licensed Sidekick": {
+    "name": "Mechanics: level floor Licensed Sidekick",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "player-level",
+        "operator": "lessThan",
+        "value": 6
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 6,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true,
+    "scope": "player"
+  }
+}

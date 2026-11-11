@@ -1,0 +1,32 @@
+{
+  "Gifted: Blood": {
+    "name": "Gifted: Blood",
+    "description": "🧬 Blood, as an extra Quirk put into your body.\n\n🌱 At the start you work about a cupful at a time within a few meters: needles flicked from a nicked fingertip, a rope that hardens around someone's wrists.\n📈 With training: sealed wounds, a marking drop you follow across the city, blood cables to swing on, a bullet-stopping shell, and spilled blood called back.\n⚠️ Dried, soaked-in or washed-away blood slips out of your control.\n🔗 Common drawback pairing: Finite Fuel, as iron and fluids run low.\n🎬 Similar canon Quirks: Vlad King (Blood Control), Stain (Bloodcurdle).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Blood family): Scale: the user moves their own blood once it leaves the body through small cuts (lancet or existing wound). A new adult user works about a cupful at a time within about five meters and hardens it instantly; hardened blood holds until broken or released. Bigger feats need techniques. Limits: dried, soaked-in or washed-away blood leaves their control; heavy blows break hardened blood. Never anyone else's blood; bound hands that cannot cut stop it. Quirk Strain: light: needles, cuff; moderate: wound seal, tracking drop, lifeline; heavy: shell over people, thorned lash; severe: signature, calling spilled blood back. Type: Emitter. Law: blood used on a person unlicensed is assault with a weapon; blood left at a scene is evidence police can match to the user.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "First Aid",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

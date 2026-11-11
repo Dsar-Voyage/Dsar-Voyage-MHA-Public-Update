@@ -1,0 +1,20 @@
+{
+  "Stoop Strike": {
+    "name": "Stoop Strike",
+    "description": "The user climbs, folds their wings and drops on a target, snapping them open at the last instant to sweep past at head height. The wings' hard leading edges deal slashing damage, and the user is back out of reach before the target can strike back; held back, they hit with the flat of a wing and only knock the target down. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

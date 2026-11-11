@@ -1,0 +1,25 @@
+{
+  "Nocturne Crossfall": {
+    "name": "Nocturne Crossfall",
+    "description": "The user's signature move: user and shadow strike together from opposite sides in a single rhythm, the shadow swollen to full size for that moment even in bright light. The target cannot block or dodge, takes massive slashing and bludgeoning damage and is driven to the ground, unable to act until the end of their next turn; afterward the shadow is spent and cannot come out until the end of the user's next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

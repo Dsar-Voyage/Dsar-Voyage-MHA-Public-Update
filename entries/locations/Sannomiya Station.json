@@ -1,0 +1,88 @@
+{
+  "Sannomiya Station": {
+    "name": "Sannomiya Station",
+    "basicInfo": "Sannomiya is the heart of Kobe and its main rail hub: not one station but a knot of them under and around the elevated tracks, where JR West's Kobe Line, the Hankyu and Hanshin lines toward Osaka, two subway lines and the driverless Port Liner to Port Island and Kobe Airport all meet within a few minutes' walk of each other. The shinkansen does not stop here: travelers from Musutafu ride to Shin-Kobe, at the foot of the mountains, then take the Seishin-Yamate subway one stop, about two minutes, so the whole trip runs about 2 hours 15 minutes. The JR special rapid reaches Osaka in about 20 minutes, the private lines in about half an hour. Around the stations, pedestrian decks and underground passages tie together department stores, a tall fashion building over the JR east exit, the long covered arcade of Center Gai heading west toward Motomachi and Chinatown, and Flower Road running south between trees toward city hall and its flower clock, with the harbor beyond. North of the tracks the streets climb at once toward Ikuta Shrine, a few minutes' walk away, the bar lanes of Kitanozaka and the old Western merchant houses of Kitano, and the green wall of the Rokko mountains stands over everything, so nobody here ever loses north. The bus terminal on the south side sends highway buses over the Akashi Strait bridge to Awaji and Shikoku and airport buses to Kansai Airport; taxi ranks wait at every exit, and coin lockers line the passages. Mornings belong to commuters and students, afternoons to shoppers and bakery lines, evenings to office crowds heading for the izakaya under the tracks, and on weekends the arcades are shoulder to shoulder. Police boxes stand at the JR exits, railway police patrol the platforms, and sidekicks from the city's many agencies direct the crowds at the big crossings. It feels cosmopolitan and quick, the sea air only a few streets away and the smell of fresh bread and grilled meat in every passage.",
+    "hiddenInfo": "Every evening at about 9 p.m., a soft-spoken man in a good camel coat walks the row of small shops in the passage under the elevated tracks between the JR and Hanshin stations and collects envelopes from at least four of them: a shoe-repair counter, a secondhand-watch shop, a standing bar and a dumpling stall. He works for one of the old loan-sharking outfits that survive in the port's nightlife, and the shopkeepers are paying off debts at interest that never shrinks. Nobody has gone to the police, because the last owner who complained found his shutter fused shut overnight by someone's Quirk and lost a week of trade. The clerk at the watch shop has a Quirk that lets her recall any face she has seen once, and she has begun drawing the collector and the two men who sometimes wait for him by the Port Liner stairs in a notebook she keeps under the counter; she is frightened, looking for someone she can trust, and will not talk to anyone in uniform while he might be watching. The officers at the JR east exit police box know there is loan sharking under the tracks but have no complaint to act on. How the place really runs: several railways and the city's subway share the station area, each with its own guards, and the passages between them belong to everyone and no one; several agencies split the downtown patrol, and the one that covers the under-track passage is small and spread thin. On weekend nights, pickpockets and unlicensed Quirk scuffles in Center Gai keep every patrol busy, and the collector times his rounds for exactly then.",
+    "x": 2.88,
+    "y": -19.39,
+    "radius": 1,
+    "region": "Kobe",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/aed08078-c157-4b25-a8d1-45ffd65f2cd5.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Sannomiya Station Concourse": {
+        "description": "JR Sannomiya's concourse runs beneath the elevated tracks between the east and west exits: a busy, low-ceilinged hall of ticket gates, departure boards, coin lockers and a bakery counter whose fresh-bread smell fills the whole passage. Outside, pedestrian decks and stairways tie it to the Hankyu and Hanshin stations, two subway lines and the driverless Port Liner, all within a few minutes' walk, and the green wall of the Rokko mountains stands over the rooftops to the north. Mornings bring commuters and students hurrying between lines; afternoons bring shoppers; in the evening office workers drift out toward the izakaya under the tracks, and on weekends the crowd barely moves. Police boxes stand at the JR exits, railway police patrol the platforms above, and sidekicks from the city's many agencies direct the crowds at the big crossings. Trains thunder overhead every couple of minutes, and sea air drifts in from the harbor a few streets south. The last trains leave a little after midnight. The west side opens onto the Center Street Arcade, and a passage along the tracks leads into the Under-the-Tracks Shops.",
+        "paths": [
+          "Center Street Arcade",
+          "Under-the-Tracks Shops"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/14c73d71-77e3-415c-8e17-ffca125e288a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Center Street Arcade": {
+        "description": "Center Gai runs west from the station under a long arched glass roof, a covered street of boutiques, sneaker shops, game centers, drugstores, cafes and bakeries, with the tracks a block to the north and the arcade carrying on toward Motomachi and Chinatown. Shoppers fill it from mid-morning, students in uniform come after classes for crepes and arcade games, office workers cut through at lunch, and street performers set up at the cross streets in the evening. On weekends the arcade is shoulder to shoulder, and on weekend nights pickpockets and unlicensed Quirk scuffles outside the game centers keep every patrol busy; sidekicks in bright vests jog from one incident to the next, and a shout at one end can pull every uniform in the district toward it for a while. Rain drums on the glass roof without ever touching the shoppers, and every shop plays its own music. Most shutters come down around nine, and by eleven only the game centers and convenience stores are lit. The arcade's east end opens back toward the Sannomiya Station Concourse, and short side streets to the north lead under the tracks into the Under-the-Tracks Shops.",
+        "paths": [
+          "Sannomiya Station Concourse",
+          "Under-the-Tracks Shops"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2af2b3f1-a1c9-44a7-b368-49dee5a1e3cf.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Under-the-Tracks Shops": {
+        "description": "In the passage under the elevated tracks between the JR and Hanshin stations, a row of tiny shops fits into the arches: a shoe-repair counter, a secondhand-watch shop with glass cases of old wristwatches, a standing bar, a dumpling stall and a few others barely wide enough for one customer. The ceiling is low and stained, fluorescent tubes buzz, and every train overhead shakes the dust on the shelves. Commuters cut through all day; after six, office workers crowd the standing bar and the dumpling stall, shoulder to shoulder. Around nine in the evening the talk along the row goes quiet for a few minutes, and nobody explains why. One shutter near the end has a rippled, melted-looking seam where it was fused shut one night and had to be cut open, and the clerk at the watch shop sketches in a notebook under the counter between customers, glancing up at everyone who passes. Two men sometimes stand by the stairs to the Port Liner without ever boarding. The shops close by ten. The passage leads back to the Sannomiya Station Concourse, and short side streets to the south lead out to the Center Street Arcade.",
+        "paths": [
+          "Sannomiya Station Concourse",
+          "Center Street Arcade"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/87ad0af2-477f-48e7-a7c0-061891db601d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

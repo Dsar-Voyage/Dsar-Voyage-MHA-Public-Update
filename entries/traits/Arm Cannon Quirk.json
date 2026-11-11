@@ -1,0 +1,41 @@
+{
+  "Arm Cannon Quirk": {
+    "name": "Arm Cannon Quirk",
+    "description": "💥 You turn one forearm into a cannon of bone and hardened muscle.\n\n🌱 At the start you fire quick calcium rounds, or hold a glowing, whining charge that knocks an adult down from across a street.\n📈 With training: door breaching, recoil jumps and fall braking, rescue ropes and grapple lines, blunt stun rounds, signal flares, a street-wide salvo.\n⚠️ The cannon is useless for fine work until it turns back into a hand.\n🔗 Common drawback pairing: Recoil, as stronger shots jar your shoulder and throw you backward.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Control +10, Marksmanship +5\n⚡ Starting techniques: Bore Snap, Braced Charge",
+    "traitNarrativeEffects": "Scale: one forearm (side fixed at creation) becomes a heavy bone-and-muscle cannon. A new adult user fires reserve-made calcium rounds about twenty meters, or a few-second charge that drops an adult across a street; special rounds and reach need training. Limits: no grip or fine work; reverting takes about three seconds. Straight shots can hit people beyond. Ropes, grapples, harnesses are carried gear. Quirk Strain: light: snap shot, flare; moderate: basic charge, rope launch, recoil jump, blunt round; heavy: breaching shot; severe: signature, sustained battery, awakened techniques. Type: Transformation (also fits Mutant). Law: outside self-defense or licensed duty, shooting people is assault, breaching property damage; strays are on the user. Look: a Mutant's forearm stays thick.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Bore Snap",
+      "Braced Charge"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Sea off Noto": {
+    "name": "Sea off Noto",
+    "basicInfo": "Open Sea of Japan west of the Noto Peninsula, a square of deep blue water with no land in it. The peninsula's long western shore runs along the eastern horizon, its cliffs clear on fine days, with the harbors of Togi and Monzen just beyond the edge. Over the inner part the bottom is continental shelf a hundred or two hundred meters down; farther west it falls away toward the deep basins of the open sea, and the water turns from green-blue near shore to a hard ink blue. The Tsushima Warm Current runs northeast through it. Summers are mild and glassy, with squid boats stringing white lamps across the dark. From November to March the northwest monsoon drives gray swells and snow squalls onto the Noto coast, and small boats stay in port for days. Boats work these grounds for winter yellowtail, snow crab, sweet shrimp and squid, sold in Kanazawa's Omicho market within hours. Car ferries between Tsuruga and Niigata or Hokkaido pass well offshore. The coast guard patrols out of Kanazawa and Nanao, and a few heroes with water or flight Quirks are on call along the Ishikawa coast, though help out here comes slowly. A party could be on a chartered fishing boat, a ferry deck, or carried by a flying hero; Kanazawa is a little over three hours from Musutafu by shinkansen.",
+    "hiddenInfo": "Out here the problems are the sea's: winter storms that swamp small boats, and unlicensed boats from elsewhere that slip into the squid grounds at night and argue with local crews over nets. Smuggling is small and sporadic, a crate passed between boats offshore. A rescue can take an hour or more; the nearest licensed heroes with sea or flight Quirks work out of Kanazawa, and the coast guard does most of the real work.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -5,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cbdb29e7-6b6a-412c-a658-78693a791478.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

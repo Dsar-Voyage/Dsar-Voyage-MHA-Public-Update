@@ -1,0 +1,20 @@
+{
+  "Ballast Palm": {
+    "name": "Ballast Palm",
+    "description": "The user slaps a palm onto a target and floods their body with weight. The target is dragged to the ground, takes force damage from their own weight and cannot stand until the end of their next turn; held back, they only sink to a knee and drop whatever they hold. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

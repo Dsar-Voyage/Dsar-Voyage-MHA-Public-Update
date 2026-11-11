@@ -1,0 +1,20 @@
+{
+  "Stand-In Double": {
+    "name": "Stand-In Double",
+    "description": "With a sample from someone in danger, the user takes their form and steps into view while the real person slips away. Until the user is exposed or reveals themselves, anyone hunting that person goes after the user instead, and the borrowed form holds even when the user is struck. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

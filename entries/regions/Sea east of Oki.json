@@ -1,0 +1,28 @@
+{
+  "Sea east of Oki": {
+    "name": "Sea east of Oki",
+    "basicInfo": "Open Sea of Japan between the Oki island of Dogo to the west and the Tottori and Tajima coasts to the south and southeast. Dogo's eastern hills stand on the western horizon on clear days, and nothing else breaks the water. Here the sea falls away from the island shelf toward the deep Oki Trough, so the water is dark blue and cold beneath the warm surface current that runs northeast. Weather follows the seasons: calm summers, typhoon swells in early autumn, and winter monsoon gales with snow and heavy seas. The slopes of the trough are snow crab grounds, worked from late autumn to spring by trawlers from Tottori, Sakaiminato and Hyogo's Tajima ports, and squid boats light the water on summer nights. No ferry crosses the cell; the Oki ferries run to the west. The coast guard patrols from Sakaiminato and Saigo, and a maritime hero covering the San'in coast answers calls. A party could be out here aboard a crab trawler in season, a charter out of Tottori or Saigo, or flying across.",
+    "hiddenInfo": "Crab is valuable and the quota rules are strict, so arguments over grounds and illegal catch are the main tension between ports. In winter storms help is far and slow, hours by patrol boat. Villainy is crab poaching at sea and mislabeling at the landing.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -9,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/18dac640-7937-4994-af1b-88801072a9bb.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

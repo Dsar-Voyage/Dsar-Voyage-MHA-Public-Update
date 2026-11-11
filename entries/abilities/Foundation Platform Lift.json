@@ -1,0 +1,24 @@
+{
+  "Foundation Platform Lift": {
+    "name": "Foundation Platform Lift",
+    "description": "The user draws on a thick concrete foundation to raise a platform beneath three people within twenty meters, lifting them to a clear opening up to twenty meters high this turn. The user maintains contact at the base; thin paving lacks the volume, and the platform stays still afterward until reshaped or broken. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

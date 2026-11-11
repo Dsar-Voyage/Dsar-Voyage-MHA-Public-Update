@@ -1,0 +1,15 @@
+{
+  "side_winter_work_study": {
+    "title": "Winter Work-Study",
+    "beats": "Mid-December, daytime, wherever the party is as winter Hero Work-Studies begin after the remedial provisional licenses and the Paranormal Liberation Front's hidden founding. Shoto Todoroki has invited Izuku Midoriya and Katsuki Bakugo to join him at the Endeavor Hero Agency under the new Number One hero, Endeavor, with Burnin and the Flaming Sidekickers setting a blistering pace from the first morning.\n\nDefault course as pressure: on the opening patrol through the city streets, the villain Starservant and his cult disciples shatter glass across a major intersection to stage a prophetic rampage. Before the three students can close the distance, Endeavor blasts from zero to full speed with Flashfire Fist, taking down the fleeing villain before the interns even reach the corner. Minutes later, the Number Two hero Hawks lands at the scene, chatting breezily while handing Endeavor a copy of Destro's Meta Liberation War book with highlighted passages. (Narrator only, private between Hawks and Endeavor unless the party closely observes the handoff: Hawks is covertly warning Endeavor that a liberation army of over a hundred thousand will strike in four months.) Turning back to the three interns, Endeavor asks what each lacks for the winter: Shoto wants to master Flashfire, Izuku wants control when power surges and the ability to use Air Force smoothly in battle, and Katsuki wants to discover what he cannot yet do. Endeavor gives them all one assignment: beat him to a single villain this winter.\n\nBy path: a Class 1-A student on winter work-study either trains directly alongside Izuku, Katsuki, and Shoto under Endeavor and Burnin—chasing the Number One hero's ignition speed through the streets—or crosses paths with their patrol during the Starservant response from another agency's beat.\n\nThe event is complete when the Starservant scene is cleared, Hawks delivers the book, and Endeavor sets his speed challenge for the winter.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_winter_work_study",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

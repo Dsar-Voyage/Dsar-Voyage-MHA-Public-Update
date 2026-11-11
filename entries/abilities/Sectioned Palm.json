@@ -1,0 +1,20 @@
+{
+  "Sectioned Palm": {
+    "name": "Sectioned Palm",
+    "description": "The user detaches one hand and guides it up to several meters away. It can press a button, retrieve keys or grip a light object until the end of the user's next turn, then returns to rejoin the arm. The hand cannot pull an adult or overpower a firm grip, and the user's arm cannot grasp anything while it is away. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

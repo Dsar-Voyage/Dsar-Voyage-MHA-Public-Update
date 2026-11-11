@@ -1,0 +1,20 @@
+{
+  "Trail Reader": {
+    "name": "Trail Reader",
+    "description": "The user fixes on a person's scent, voice, footsteps or the marks they leave and follows the trail through crowds, streets and stairwells. They know which way the person went and roughly how long ago, as long as the trail is hours old rather than days; rain, bleach, running water or a ride in a vehicle breaks it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

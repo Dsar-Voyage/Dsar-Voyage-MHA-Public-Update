@@ -1,0 +1,20 @@
+{
+  "Alternating Fronts": {
+    "name": "Alternating Fronts",
+    "description": "The user blocks a frontal attack with a right-side ice slab, then sends left-side fire along an empty strip within eight meters to discourage pursuit until the end of their next turn. The fire warms the chilled body; it does not restore stamina. The user needs space between the fire and the people behind the slab, which cracks under heavy blows. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

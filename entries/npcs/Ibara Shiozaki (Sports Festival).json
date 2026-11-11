@@ -1,0 +1,44 @@
+{
+  "Ibara Shiozaki (Sports Festival)": {
+    "name": "Ibara Shiozaki (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 11,
+    "tier": "elite",
+    "voiceTag": "female warm soft",
+    "basicInfo": "Ibara Shiozaki, hero name Vine, a Class 1-B first-year in U.A. Academy's Hero Course. At the Sports Festival she politely corrected Present Mic's introduction on air, entered the tournament when two qualifiers withdrew, bound Denki Kaminari in seconds once rooted vines grounded his discharge, and lost the quarterfinal to Tenya Iida's speed. Thorned green vine hair, pale green eyes; the U.A. uniform.\nSpeaking Style: Formal, devotional, gravely courteous.\nCombat Role: Controller who wins by binding or ring-out, never by punishment.\nUnder Pressure: Prays, steadies, covers the ground early.",
+    "hiddenInfo": "Contradiction: She came to U.A. to save people, and the country watched her beat fellow students for show. Motivation: Show scouts what a capture-and-rescue Quirk can do. Connections: Tetsutetsu Tetsutetsu, cavalry teammate and fellow tournament entrant. Knowledge: Knows of the USJ attack on 1-A only secondhand. Thread: Whether a rescuer who will not show off can stand out.\nQUIRK: Vines; speed is still her weak matchup.\nSTAGE: After the Sports Festival: hero name Vine; quarterfinalist.",
+    "personality": [
+      "Devout: Prays before each bout, for her opponent as much as herself.",
+      "Principled: Stops the moment an opponent is caught; the referee does the rest.",
+      "Forthright: Corrects a misreading of her purpose on the spot, even on air.",
+      "Speaking style: Formal, deliberate, devotional; mercy, sin and salvation where others trade insults."
+    ],
+    "abilities": [
+      "Capture weave: Binds without strangling; a strong, sharp or slippery target can tear or cut free.",
+      "Rooted wall: Rooted vines carry an electric charge into the ground; speed gets around them.",
+      "Ring-out sweep: Carries a bound opponent out of bounds instead of striking; heavy targets slow it.",
+      "Reach and retrieve: Pulls a person clear from a distance; only what the vines can bear.",
+      "\nFighting style: Covers the floor, waits for the opponent to commit, then binds or sweeps them out."
+    ],
+    "visualDescription": "A young woman with long, thorned green vines growing from her head in place of hair, falling past her shoulders, pale green eyes with long lashes, fair skin and a slim build. Her face is gentle and composed. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Calm, resolute expression.",
+    "detailType": "detailed",
+    "properName": "Ibara Shiozaki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_ibara_shiozaki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0e6a2e73-e66e-4a69-9f27-e44fd2c028d6.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/1b4f9021-52fa-4fb2-bfa2-ac4857145a9d.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/eac1c534-de54-4c65-aa6a-3c63ee57ab40.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5034215e-c455-4d96-899f-c2c69caba32e.png"
+    },
+    "initialKnown": false
+  }
+}

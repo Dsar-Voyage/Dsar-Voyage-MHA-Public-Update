@@ -1,0 +1,15 @@
+{
+  "Rally Point": {
+    "name": "Rally Point",
+    "description": "When the group falters after a loss, under fear or at the edge of exhaustion, the user stands where everyone can see them and calls them back to the task. Every ally who hears it shakes off fear, panic and despair and acts normally on their next turn, and allies under a fear-causing Quirk get a fresh chance to resist it. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

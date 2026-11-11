@@ -1,0 +1,25 @@
+{
+  "Hundred Point Hold": {
+    "name": "Hundred Point Hold",
+    "description": "The user's signature move: they pluck and throw a dense cluster around one large target within a street's width, fastening its limbs to nearby surfaces from several directions. The target stays held until it breaks those surfaces or the balls lose their hold. The rapid plucking makes the user's scalp bleed, preventing further ball use until it recovers. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

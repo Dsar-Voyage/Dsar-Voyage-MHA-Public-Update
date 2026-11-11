@@ -1,0 +1,20 @@
+{
+  "Image Rebuild": {
+    "name": "Image Rebuild",
+    "description": "The user builds a campaign for a hero, agency or person whose image has taken a hit: an apology that lands, a charity appearance, a new story for the cameras. Once it runs, public opinion of them returns to where it stood before the damage, unless new wrongdoing comes out. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Management Course",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Business",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

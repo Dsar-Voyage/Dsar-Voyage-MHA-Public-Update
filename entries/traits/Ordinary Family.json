@@ -1,0 +1,29 @@
+{
+  "Ordinary Family": {
+    "name": "Ordinary Family",
+    "description": "🏠 You come from working parents, maybe a sibling and a small home, with school, cram school and a club.\n\n🌱 Nobody in your family is a hero or a criminal.\n❤️ They love you without fully understanding your world.\n\n📈 Grants: Cooperativeness +1, Academics +5, Team Coordination +5",
+    "traitNarrativeEffects": "In play: the family is present, not a plot device: calls after villain-attack news, food parcels, questions about eating and sleep, worry over dorms, internships and injuries. Home is quiet and safe; the character can visit on breaks. Parents voice career opinions; the character, an adult, decides. Pressure: no hero-world connections, no family money, and people who could be hurt if a villain learns who they are; the narrator raises that danger only when the story has earned it, with warning and a chance to act. Paths: a villain or vigilante hides it from the family at first; every call home becomes a lie or a confession. Family: one or two parents with everyday jobs (office, nursing, factory, shop counter), maybe a sibling, an apartment or small house in a normal neighborhood; player-defined, else a plain, believable family with original names. Childhood: school, cram school, a club (training, teamwork), chores, hero news on TV; nothing handed to them, all earned.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Academics",
+        "modifier": 5
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Items: arrest confiscation (rest)": {
+    "name": "Items: arrest confiscation (rest)",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "seizeMore",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);effects.push({type:'write-boolean',key:'seizeMore',operator:'set',value:false});const R=storage.seizeRest;if(!Array.isArray(R)||!R.length)return;storage.seizeRest=[];for(const it of R){if(effects.length>=10)break;const n=N(check({type:'player-item',item:it}));if(n>0)effects.push({type:'item-remove',item:it,quantity:n});}})();"
+  }
+}

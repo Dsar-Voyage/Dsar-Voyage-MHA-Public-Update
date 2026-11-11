@@ -1,0 +1,40 @@
+{
+  "Shadow Manipulation Quirk": {
+    "name": "Shadow Manipulation Quirk",
+    "description": "🌑 You shape real shadows as a material: flat black bands, dark glass and a coat of darkness.\n\n🌱 Bind a target's ankles in the shadow under them, or step into one shadow and out of another you can see.\n📈 Training adds dark glass pins and panes, a coat of dusk, shadow ribbons to lower people, splinters from every shadow in a room and, at the top, a whole city block.\n⚠️ It needs real shadow: strong, even light thins it and shadowless light stops it. Your shadow has no mind or voice and does only what you shape.\n🔗 Common drawback pairing: Activation Condition, as the Quirk works only where real shadow falls.\n🎬 Not Fumikage Tokoyami's Dark Shadow, which is a living creature: yours is plain shadow shaped as a material, with no mind of its own.\n\n📈 Grants: Speed +1, Quirk Control +10, Quirk Mobility +10, Infiltration +5\n⚡ Starting techniques: Shadow Snare, Dark Crossing",
+    "traitNarrativeEffects": "Scale: real shadow shaped as a material. At first, within about ten meters: harmless flat black binding bands; stepping into a shadow at least their size and out of a seen one within about fifteen meters; shapes last about a minute. Dark glass, coats and bigger shapes: learned techniques. Limits: no shadow, no Quirk; strong even light (noon sun, floodlights, flashlights) thins it: shapes fade, binds slip, dark glass goes brittle; firelight makes them unreliable. It has no mind, voice or will and moves only when shaped; darkness means more, never wilder. The user must see it; steps carry only what they wear and hold. Quirk Strain: light: bind, quick step; moderate: glass pin or pane, coat of dusk, lowering people; heavy: glass splinters across a room; severe: signature relay, every shadow on a block. Type: Emitter. Law: unlicensed binding is unlawful confinement; shadow-entering homes or vaults is still trespass or burglary. Look: flat black shadows with hard edges.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Infiltration",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Shadow Snare",
+      "Dark Crossing"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

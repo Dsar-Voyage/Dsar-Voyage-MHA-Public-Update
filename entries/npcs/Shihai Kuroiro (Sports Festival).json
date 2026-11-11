@@ -1,0 +1,44 @@
+{
+  "Shihai Kuroiro (Sports Festival)": {
+    "name": "Shihai Kuroiro (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "male deep calculating",
+    "basicInfo": "Shihai Kuroiro, hero name Vantablack, a Class 1-B first-year in U.A. Academy's Hero Course. The Sports Festival's sunlit stadium gave him almost no black to hide in, and his cavalry team finished outside the top four. Pitch-black skin, fluffy white hair, narrow eyes; the U.A. uniform.\nSpeaking Style: Low, sly, melodramatic talk of darkness; flustered when teased.\nCombat Role: Ambusher who needs black ground or gear; open ground leaves him exposed.\nUnder Pressure: Hunts for the one dark route the ground allows.",
+    "hiddenInfo": "Contradiction: His style is built for unseen work, and the festival was built for spectacle. Motivation: Show scouts that stealth wins too. Concealment: The crowd unnerved him more than he admits. Connections: Fumikage Tokoyami of 1-A, whose living shadow carried him to the semifinals. Canon voice & behavior: Narrates his own entrance under his breath; goes red when a camera catches him mid-pose. Thread: Whether a creature of the dark can stand out in daylight.\nQUIRK: Black: merges into anything black and travels through connected black; out of it he is an ordinary person.\nSTAGE: After the Sports Festival: hero name Vantablack.",
+    "personality": [
+      "Theatrical: Treats every entrance as a villain's debut.",
+      "Team-minded: Plays the hidden piece of any 1-B plan.",
+      "Self-conscious: A commentator's quip turns his poise into mumbling.",
+      "Speaking style: Sly, melodramatic talk of darkness; flustered when teased."
+    ],
+    "abilities": [
+      "Black merge and travel: Sinks into black material and moves through what connects to it; no black, no hiding place.",
+      "Black-object riding: Shifts a movable black object from inside it; nothing outside the black moves.",
+      "Route scouting: Spots every black surface in a space first.",
+      "Ambush: Rises behind a target to grab or distract; once out he is an ordinary fighter.",
+      "\nFighting style: Hides in black gear or ground near the action, then emerges for a grab or a teammate's setup."
+    ],
+    "visualDescription": "A tall, lean young man with pitch-black skin, fluffy, messy white hair and narrow eyes. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Sly, theatrical half-smile that does not quite hide his shyness.",
+    "detailType": "detailed",
+    "properName": "Shihai Kuroiro",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbfd1e9c-5942-4bb7-b1bd-94dc36961235.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_shihai_kuroiro",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbfd1e9c-5942-4bb7-b1bd-94dc36961235.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/08b2d62e-22aa-48c1-8e27-9b0ce77f3af0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/4614a719-b5a1-4c0f-841a-532f25e4e1dc.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/9eb37f9f-8a38-4f5f-8a3b-bcf844eae4cc.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d5504d8-e511-4f6b-a880-b237d35870fe.png"
+    },
+    "initialKnown": false
+  }
+}

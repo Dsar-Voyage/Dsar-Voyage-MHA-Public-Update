@@ -1,0 +1,34 @@
+{
+  "Kenji Tsuragamae": {
+    "name": "Kenji Tsuragamae",
+    "type": "Police Officer",
+    "currentLocation": "Hosu Downtown",
+    "currentArea": "Station Plaza",
+    "gender": "male",
+    "faction": "Japanese Police",
+    "level": 10,
+    "tier": "strong",
+    "voiceTag": "male deep raspy",
+    "basicInfo": "Kenji Tsuragamae, Hosu's police chief: formal, law-minded, short of heroes for a city this size, and often at the police box on the Station Plaza. A tall, sturdy man with a beagle's head; a dark suit, waistcoat and spotted tie.\nSpeaking Style: Formal and official, the law first; now and then a sentence ends in \"woof\".\nCombat Role: A commander, not a fighter; Quirk villains are for licensed heroes.\nUnder Pressure: Puts the law first, gets civilians clear, calls in heroes.",
+    "hiddenInfo": "Contradiction: Law-minded, yet pragmatic about the record when a rescue was real. Leverage: Real rescue work; the law, which he will not openly break. Connections: Manual and the other local pros, on whom he depends in any Quirk fight. Canon voice & behavior: States exactly which law was broken, then thanks real rescuers with a formal bow. Thread: What he chooses to put on the official record.\nQUIRK: Heteromorph: a dog's head. He relies on police work, not on it.",
+    "personality": [
+      "Law-minded: Frames every incident in legal terms before anything else.",
+      "Pragmatic: Picks the workable outcome over the strictest one when a rescue was real.",
+      "Grateful: Thanks real rescuers in person, whatever the law lets him say in public.",
+      "Speaking style: Formal police register; an occasional \"woof\" ends a sentence."
+    ],
+    "abilities": [
+      "Police command: Directs the city's officers, investigations and official record; he can request a hero's help, never order it.",
+      "\nFighting style: Never takes on a Quirk villain; commands the cordon and the arrest once a hero has them down."
+    ],
+    "visualDescription": "A tall, sturdy man with the head of a beagle: short, glossy brown-and-white fur, long, floppy brown ears hanging past his jaw, a white muzzle and chin, a black nose and dark, serious eyes under a furrowed brow. He wears a well-pressed dark suit with a matching buttoned waistcoat, a crisp white shirt and a dark spotted tie. Formal, dignified bearing.",
+    "detailType": "detailed",
+    "properName": "Kenji Tsuragamae",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/10ff61ce-b79e-4930-a09e-4bbc2dcef562.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kenji_tsuragamae",
+    "initialKnown": true
+  }
+}

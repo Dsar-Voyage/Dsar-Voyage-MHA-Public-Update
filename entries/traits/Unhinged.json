@@ -1,0 +1,20 @@
+{
+  "Unhinged": {
+    "name": "Unhinged",
+    "description": "🌀 You are unpredictable: a laugh at the wrong moment, a choice no one saw coming.\n\n😨 People cannot read you, and that frightens them.\n⚠️ No one, including you, can count on what you will do next; allies hesitate to plan with you.\n⚠️ Heroes and police treat you as dangerous on sight.\n🔀 If you are also Calculating, the chaos is an act that hides a plan.\n\n📈 Grants: Intimidation +5",
+    "traitNarrativeEffects": "The character is unhinged: unpredictable, prone to laughing at the wrong moment and making choices no one saw coming, and people find them hard to read and frightening. Weakness: no one can count on them, allies hesitate to plan with them, and heroes and police treat them as dangerous on sight. If the character is also Calculating, the chaos is an act that hides a plan. Write the character as unpredictable, not as a portrayal of real mental illness. The narrator shows how others react; what the character does is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Intimidation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

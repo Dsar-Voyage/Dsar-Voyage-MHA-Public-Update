@@ -1,0 +1,29 @@
+{
+  "Event Lazy: advance": {
+    "name": "Event Lazy: advance",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_media_break_in",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-string",
+        "key": "ev_lazy_event",
+        "operator": "set",
+        "value": "*"
+      }
+    ],
+    "recurring": true,
+    "phase": "state",
+    "script": "(function(){const C=[\"media_break_in\",\"usj_attack\",\"sports_festival\",\"hero_names\",\"hosu_incident\",\"final_exams\",\"forest_camp_arrival\",\"forest_camp_raid\",\"camp_aftermath\",\"kamino_incident\",\"symbol_of_peace_retires\",\"provisional_license_exam\",\"deku_vs_kacchan_2\",\"league_meets_overhaul\",\"eri_first_encounter\",\"case_conference\",\"shie_hassaikai_raid\",\"convoy_ambush\",\"nighteye_farewell\",\"kurogiri_captured\",\"license_remedial_course\",\"school_festival\",\"billboard_chart\",\"high_end_attack\",\"deika_liberation\",\"joint_training\",\"licenses_cider_house\",\"garaki_procedure\",\"ending_natsuo\",\"kurogiri_is_oboro\",\"war_dawn\",\"war_villa\",\"war_jaku\",\"war_march\",\"war_dabi\",\"paranormal_liberation_war\",\"war_casualty_roll\",\"tartarus_falls\",\"todoroki_hospital_reckoning\",\"hero_society_fractures\",\"last_bearer_leaves_home\",\"muscular_returns\",\"rain_patrols\",\"lady_nagant_contract\",\"nagant_and_the_mansion_trap\",\"dictator_and_the_lost_hero\",\"deku_versus_class_a\",\"ua_gate_appeal\",\"stain_and_the_return_home\",\"star_and_stripe_last_order\",\"aoyama_exposed\",\"aoyama_second_chance\",\"final_war_workshop\",\"league_before_the_end\",\"leave_for_troy\",\"operation_troy_division\",\"sky_coffin_first_contact\",\"okuto_wrong_destination\",\"kamino_phosphor\",\"gunga_break_the_mask\",\"bakugo_heart_stops\",\"deku_reaches_the_coffin\",\"central_hospital_uprising\",\"jaku_machia_custody\",\"warp_gates_and_twice\",\"save_the_falling_academy\",\"gunga_last_reinforcements\",\"evacuation_routes_under_attack\",\"todoroki_family_stops_dabi\",\"ochaco_reaches_toga\",\"troy_kunieda_bloom\",\"takoba_gashly_front\",\"armored_all_might\",\"bakugo_saves_all_might\",\"bakugo_ends_original_afo\",\"deku_gives_up_one_for_all\",\"tenko_and_the_stolen_life\",\"eri_horn_and_open_gates\",\"everyone_clears_the_way\",\"hospital_after_victory\",\"delayed_graduation_new_class\",\"todoroki_final_visit\",\"pardons_and_accountability\",\"spinner_hears_the_message\",\"ochaco_after_toga\",\"someone_takes_the_childs_hand\",\"embers_through_graduation\",\"teacher_deku_and_dai\",\"deku_armor_return\",\"more_quirk_counseling\",\"more_class_reunion\",\"more_choose_a_personal_future\"];let id;for(const x of C)if(check({type:'read-boolean',key:'done_'+x})!==true){id=x;break;}if(id===undefined)delete triggers[\"Event Lazy: advance\"];else triggers[\"Event Lazy: advance\"]={...triggers[\"Event Lazy: advance\"],conditions:[{type:'game-tick',operator:'greaterThanOrEqual',value:3},{type:'read-boolean',key:'done_'+id,operator:'equals',value:true}]};})();"
+  }
+}

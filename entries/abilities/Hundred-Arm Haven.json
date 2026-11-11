@@ -1,0 +1,24 @@
+{
+  "Hundred-Arm Haven": {
+    "name": "Hundred-Arm Haven",
+    "description": "After a meal of octopus or squid, the user grows dozens of tentacles from their arms and back, each long enough to cross a street, and works every one at once. In a single action they catch everyone falling in the area and set them down unhurt, pin every chosen enemy so they cannot move or strike until they break free with a hard effort or are released, and brace a collapsing structure while everyone beneath is lowered out. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

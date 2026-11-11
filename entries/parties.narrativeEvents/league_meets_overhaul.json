@@ -1,0 +1,15 @@
+{
+  "league_meets_overhaul": {
+    "title": "The League Meets Overhaul",
+    "beats": "Day 178, early evening in Yokohama Harbor District's Dockside Safehouse. Giran brings Overhaul to the League's current refuge, not its ruined former bar. Tomura Shigaraki hears a proposal for combining forces; Magne and Mr. Compress wait close enough to react. Overhaul regards the League's notoriety as a resource and its leader as someone who should serve him.\n\nThe canon default course, as pressure the player can change: the offer turns into contempt over authority, organization and the League's failures. Magne refuses to surrender her freedom and attacks. Unless the party prevents contact, Overhaul kills Magne with his Quirk; keep the danger interruptible before the fatal touch, with rescue or treatment available if she is wounded instead. Mr. Compress moves against him and loses his left arm to Overhaul's touch by default. Stop the immediate bleeding and get him to a hospital ward; injury never removes him from play as a death would. Shigaraki retaliates against Overhaul's accompanying men, and a standoff ends the clash before it consumes both groups.The meeting leaves the League furious rather than converted. In the default follow-up, Shigaraki accepts a temporary arrangement on his own terms and lends Himiko Toga and Twice to the Hassaikai. They resent Magne's loss and remain loyal to the League. Stage the negotiation and their subsequent arrival at Shie Hassaikai Compound's Main House only after the initial confrontation is settled; they do not begin already loaned out. A saved Magne or prevented mutilation changes the grievance and bargaining without making the alliance inevitable.\n\nBy Path and place: a League of Villains Recruit in Yokohama Harbor District can argue terms, protect a comrade or break the meeting apart. Independent Villain and broker contacts need a credible invitation. At Shie Hassaikai Compound, an established associate sees Overhaul depart and later receives his account and the loaned pair. Hero, sidekick and vigilante Paths need surveillance evidence or an actual intervention to enter either covert scene. Students and civilians see ordinary dock activity and guarded private property; nothing supplies the meeting as public knowledge. Giran values his exit over choosing a side.\n\nThe event is complete when the clash and casualty care have resolved and the proposed loan of Toga and Twice has been accepted, refused or replaced by the party's negotiated result.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_league_meets_overhaul",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

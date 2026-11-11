@@ -1,0 +1,86 @@
+{
+  "Mount Fuji Battlefield": {
+    "name": "Mount Fuji Battlefield",
+    "basicInfo": "The open lower slopes and plains at the foot of Mount Fuji, northeast of Fujinomiya: wide grassland and lava fields scattered with pine woods, farm roads and a few closed tourist rest stops, with the mountain's great cone filling the sky above. On a clear day the summit snow is bright from every direction; in bad weather cloud swallows everything above the tree line.",
+    "hiddenInfo": "The plains are empty enough, and far enough from any city, that heroes planning a last battle would choose them to keep a catastrophe away from people.",
+    "x": 4,
+    "y": 6,
+    "radius": 1,
+    "region": "Fujinomiya",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [],
+    "areas": {
+      "Lava Plain": {
+        "description": "A broad plain of old black lava and coarse grass under the mountain, open in every direction, with nowhere to hide and nothing to break apart but stone.",
+        "paths": [
+          "Pine Woods",
+          "Rest Stop Road"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ba97726f-50d3-4329-a95a-439f2337a0dc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Pine Woods": {
+        "description": "Windbreak pine woods along the edge of the plain, dark and quiet, cut by a farm track and a dry streambed.",
+        "paths": [
+          "Lava Plain",
+          "Rest Stop Road"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/524d7905-ccb8-44f5-8a15-f9b8d0377462.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Rest Stop Road": {
+        "description": "A two-lane road past a shuttered rest stop with a parking lot, vending machines and souvenir stands, the last built place before the open ground.",
+        "paths": [
+          "Lava Plain",
+          "Pine Woods"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9cb403a7-0672-4e87-ac2f-44900a30f1c6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/15acd35c-dcaa-4bd6-95d3-730141b662bf.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": false
+  }
+}

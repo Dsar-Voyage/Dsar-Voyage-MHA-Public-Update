@@ -1,0 +1,15 @@
+{
+  "mha_gunhead": {
+    "label": "Gunhead",
+    "voiceTag": "male confident warm",
+    "instructions": "Big man's friendly voice used very gently: soft volume, a light, sweet, almost cutesy lilt and upbeat sentence endings. Patient and encouraging, easy chuckle. In a real fight it firms into calm, plain instruction.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

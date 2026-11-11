@@ -1,0 +1,20 @@
+{
+  "Items: arrest confiscation": {
+    "name": "Items: arrest confiscation",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "story",
+        "query": "The player character is arrested or taken into police custody in this scene"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const C=[\"Trigger vial\", \"Handgun\", \"Katana\", \"Forged ID\", \"Tranquilizer pistol\", \"Combat knife\", \"Throwing knives\", \"Chain whip\", \"Brass knuckles\", \"Flashbang\", \"Smoke grenade\", \"Lockpick set\"],got=[];for(const it of C){if(effects.length>=9)break;const n=N(check({type:'player-item',item:it}));if(n>0){effects.push({type:'item-remove',item:it,quantity:n});got.push(it);}}if(got.length){storage.seizeRest=C.slice(C.indexOf(got[got.length-1])+1);if(storage.seizeRest.length)effects.push({type:'write-boolean',key:'seizeMore',operator:'set',value:true});effects.push({type:'story',instruction:'Narrator only: the police seize the character\\'s '+got.join(', ')+' as evidence; none of it comes back.'});}else skip=true;"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Delinquent": {
+    "name": "Delinquent",
+    "description": "😤 You skipped classes and hung out in back streets.\n\n🏫 You left a reputation the teachers still mention.\n🧭 You know the back streets and how to stare someone down.\n\n📈 Grants: Streetwise +5, Intimidation +5",
+    "traitNarrativeEffects": "The character spent high school on the wrong side of the rules: fights behind the station, truancy, older friends with bad habits. They know the streets and how to look dangerous; teachers and police remember them.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      },
+      {
+        "skill": "Intimidation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "Developing Quirk": {
+    "name": "Developing Quirk",
+    "description": "🌱 Your Quirk is weaker than most of its kind, and that taught you to rely on your head.\n\n📏 Below the starting reach and force your Quirk's card describes.\n🔋 It strains you half as much: Quirk Strain per use is halved.\n📈 Your Quirk can still grow.\n\n📈 Grants: Intelligence +1, Quirk Control +5",
+    "traitNarrativeEffects": "The Quirk works below its family's starting scale: shorter range, less force, a smaller area and a shorter duration than a typical new user's. Each use builds half the usual Quirk Strain, rounded up, so the user can keep going long after stronger users tire; the drawback still shows at 60, turns active at 80 and peaks at 100. The Quirk grows with training: as the user's Quirk skills rise, its scale climbs toward the family's normal range, and a Quirk Breakthrough can carry it further. Strain stays halved throughout. Socially the user has been underestimated: placed in lower classes, passed over by scouts, told their Quirk is cute or useless. They learned to plan, observe and use the Quirk with precision instead of force, and opponents who judge them by the Quirk alone misread them. If the character chose Quirkless, this trait does not apply: they have no Quirk, never gain Quirk Strain, and the narrator ignores it.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

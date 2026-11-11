@@ -1,0 +1,37 @@
+{
+  "Items: hero costume [1-A] battle trial": {
+    "name": "Items: hero costume [1-A] battle trial",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "quest-status",
+        "questId": "Battle Trial: Heroes and Villains",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "player-item",
+        "item": "Student hero costume",
+        "operator": "lessThan",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-add",
+        "item": "Student hero costume",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the costume cases are handed out now; the character receives their Student hero costume, built from their request. It is already in their inventory."
+      }
+    ],
+    "recurring": false
+  }
+}

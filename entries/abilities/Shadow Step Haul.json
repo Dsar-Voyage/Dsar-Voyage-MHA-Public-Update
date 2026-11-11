@@ -1,0 +1,20 @@
+{
+  "Shadow Step Haul": {
+    "name": "Shadow Step Haul",
+    "description": "The user sends the creature to grip a ledge or railing and pull them across a gap or up one building story. It can instead lift one person from a ledge and lower them beside the user. The creature remains attached throughout; without a sound anchor, or under strong light, it cannot support the person's weight. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

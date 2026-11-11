@@ -1,0 +1,20 @@
+{
+  "Stopgap Pane": {
+    "name": "Stopgap Pane",
+    "description": "The user snaps a door-sized panel into being anywhere within a few strides. Set in an attack's path, it takes the blow, blade, thrown object or handgun round meant for the person behind it; slammed into a target instead, it deals force damage and shoves them back a few steps, or, held back, only pushes them away. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

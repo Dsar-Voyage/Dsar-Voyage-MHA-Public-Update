@@ -1,0 +1,25 @@
+{
+  "Epicenter Drop": {
+    "name": "Epicenter Drop",
+    "description": "The user's signature move: both palms slam into the ground and a quake spreads across a circle a street wide. Every enemy standing in it takes massive bludgeoning damage and is thrown down, unable to stand until the end of their next turn; held back, the quake only throws them down. Windows in the circle shatter, and afterward the user's arms go numb and they cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

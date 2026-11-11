@@ -1,0 +1,28 @@
+{
+  "Portrait Swap: mount_lady_scar": {
+    "name": "Portrait Swap: mount_lady_scar",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_war_casualty_roll",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mount Lady",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/e11fb505-10dc-4393-9906-b4c1bf07e863.png"
+      }
+    ]
+  }
+}

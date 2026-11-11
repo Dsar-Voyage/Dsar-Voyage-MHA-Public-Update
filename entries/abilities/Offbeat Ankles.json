@@ -1,0 +1,20 @@
+{
+  "Offbeat Ankles": {
+    "name": "Offbeat Ankles",
+    "description": "The user directs three accented beats at one hearing opponent within eight meters. The pressure pulls their ankles toward each other, holding their feet together until the end of the user's next turn for capture. The target can break free with a hard effort, and the hold ends if the user stops performing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Care: food declined": {
+    "name": "Care: food declined",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Nn]ot hungry|[Nn]o,? thanks|I.?ll pass|[Jj]ust (have )?tea|already ate|[Ss]kip(ping)? lunch"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player character has turned food down. One line accepts it; nobody argues, offers again, jokes about it or brings it up later, today or on any other day, not even as a joke."
+      }
+    ]
+  }
+}

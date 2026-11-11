@@ -1,0 +1,34 @@
+{
+  "Criminal Ties": {
+    "name": "Criminal Ties",
+    "description": "🕵️ Someone close to you lives outside the law: a broker, a fence, a smuggler or an old gang family.\n\n🗣️ You know how that world talks and how to keep a straight face.\n⚠️ You hold numbers you should not have.\n\n📈 Grants: Speed +1, Streetwise +5, Deception +5\n🎒 Starts with: Burner phone",
+    "traitNarrativeEffects": "Someone close (kin or family friend) works in crime: broker, fence, smuggler, loan shark, gambler, or an old yakuza family, now a designated villain group under police watch. Never canon. The player may define who and how close; else the narrator picks one contact, kept human: loyal their way, dangerous, often in trouble. The character is no criminal unless the player says so. In play: burner-phone numbers reach a broker, a no-questions doctor or a place to lie low; every favor is a debt due at a bad moment. Old associates may ask for a job, a lookout or silence. Pressure: police may know the family name; agencies and the Hero Public Safety Commission check backgrounds, and exposed ties bring hard questions. Heroes may want an informant; villains, a recruit or risk. Paths: a hero student's secret may surface at the worst time; a villain finds doors open, debts owed. Childhood: silence to police, leaving for business talk, knowing whose streets were whose.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      },
+      {
+        "skill": "Deception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Burner phone",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

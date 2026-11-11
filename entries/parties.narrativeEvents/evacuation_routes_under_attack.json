@@ -1,0 +1,15 @@
+{
+  "evacuation_routes_under_attack": {
+    "title": "Keep the Shelters Moving",
+    "beats": "During day 405, evacuation personnel discover that moving shelters and protected routes are vulnerable to sabotage, infiltrators, and changing surface threats. Open with the player's reachable group at a staffed access point, a stalled transport section, or a receiving area. Near Gunga, Rei Todoroki, Fuyumi Todoroki, and Natsuo Todoroki face news that Toya's battle is approaching the people being evacuated.\n\nThe canon default course, as pressure the player can change: Skeptic's interference and embedded sympathizers expose weaknesses in the evacuation operation. Defenders and civilians keep routes functioning while the danger around Gunga grows. Countering the intrusion helps, but physical obstructions, frightened passengers, and compromised exits still need attention. The Todoroki relatives move toward the confrontation with Toya instead of remaining distant observers, setting up their arrival before the threatened explosion is resolved.\n\nGive the party one group with a real headcount, a destination, and a choice between routes. The player can expose an infiltrator, repair an access mechanism, escort a vulnerable passenger, or protect people from an accusation made without evidence. Do not identify guilt from appearance. If the family chooses to approach Toya, make their route and the opportunity to stop or accompany them explicit. Preventing that journey changes the next confrontation. A successful computer repair does not move a single passenger until transport or an escort actually works.\n\nBy place: U.A. Academy handles shelter access and transport coordination; Gunga Mountain Villa supplies the threatened surface exits. Musutafu General Hospital receives injured evacuees. Okuto Island uses marine transport, Kamino Ward clears damaged streets, Jaku City warns residents along the giant's route, and Takoba Municipal Stadium maintains a protected reception point. Mount Fuji Battlefield protects the remaining approaches from spreading destruction. Stage only the section physically reachable from the player's present front.\n\nBy Path: Class 1-A and Class 1-B escort assigned groups; General Studies reconciles headcounts; Support restores doors and transport. Management provides accurate route instructions and Faculty chooses alternatives. Licensed Sidekick investigates suspected sabotage; Licensed Pro Hero defends exits. League of Villains Recruit and Independent Villain can aid sabotage, abandon it, or protect the stranded. Vigilante guides surface rescues; Civilian Life organizes fellow evacuees and challenges dangerous confusion.\n\nThe event is complete when the player's refugee group reaches a stated safe place or receives an explicit rescue handover, and the Todoroki relatives' actual route is established.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_evacuation_routes_under_attack",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

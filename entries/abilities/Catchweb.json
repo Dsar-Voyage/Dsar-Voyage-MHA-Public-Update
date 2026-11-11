@@ -1,0 +1,20 @@
+{
+  "Catchweb": {
+    "name": "Catchweb",
+    "description": "The user strings a web of sticky lines across a gap, between buildings, under a sagging floor or over a crowd. Until the end of the scene it catches falling people unhurt and holds them until the user peels them free and lowers them, and it stops falling debris and thrown objects that hit it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

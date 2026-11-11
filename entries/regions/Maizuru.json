@@ -1,0 +1,30 @@
+{
+  "Maizuru": {
+    "name": "Maizuru",
+    "basicInfo": "The Tango and Tamba country of northern Kyoto Prefecture, from the sea at Maizuru and Miyazu south through the Yura River valley to Fukuchiyama and Ayabe and the low Tamba hills along the Hyogo line. In the north, Maizuru lies on a deep, many-armed harbor: East Maizuru is a naval town of red-brick warehouses, gray Maritime Self-Defense Force ships and a coast guard headquarters, with the overnight ferry to Otaru in Hokkaido leaving from its port, while West Maizuru is an older castle and fishing town. Westward along the coast, Miyazu Bay holds Amanohashidate, a pine-covered sandbar more than three kilometers long that visitors view upside-down between their legs from the Kasamatsu lookout, with Chion-ji temple at its south end and Kono Shrine at the north. Behind Miyazu rise the Oe mountains, home in legend of the demon Shuten-doji. The Yura River winds south through steep valleys to Fukuchiyama, a busy rail junction and castle town that floods when the river rises and logs some of Kyoto Prefecture's hottest summer days, and to Ayabe, a quiet textile and paper town. Southern Tamba is gentle hills, chestnut groves, black-soybean fields and thatched farmhouses, often under thick autumn morning fog. Winters bring snow in the north and wet cold in the basins. People fish, farm, work at the port and the base, and commute by rail. Food is Maizuru's sea bream and squid, Miyazu's oysters and torigai cockles, Tamba chestnuts and wild boar. The JR Sanin line runs through Ayabe and Fukuchiyama, the Maizuru line to East Maizuru, the Fukuchiyama line south to Osaka, and the Kyoto Tango Railway along the coast; the Maizuru-Wakasa and Kyoto Jukan expressways cross the cell. Shin-Osaka is under two hours, Kyoto about an hour and a half, Musutafu three and a half to four. Each of the main towns has a small hero agency and police boxes, and the naval presence keeps the port orderly; at harvest, a chestnut grower with a gentle telekinetic Quirk shakes whole trees clean in minutes.",
+    "hiddenInfo": "The region is stable but slowly shrinking, and the base and the ferry bring outsiders through constantly. Small-time trouble is car break-ins at Amanohashidate, fights in East Maizuru's bars and shellfish poaching. Floods on the Yura draw every local hero out at once. Bigger help is in Kyoto and Osaka, an hour and a half or more away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -7,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9ee91eb5-751e-44fa-acf0-5934b8bb41c9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

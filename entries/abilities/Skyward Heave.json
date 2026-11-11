@@ -1,0 +1,24 @@
+{
+  "Skyward Heave": {
+    "name": "Skyward Heave",
+    "description": "The user lifts a weight no human body should move: a fallen overpass span, a derailed train car or a whole collapsed floor. They raise it high enough for everyone trapped beneath to be pulled out, hold it there for the rest of the scene and set it down where they choose without crushing anyone. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

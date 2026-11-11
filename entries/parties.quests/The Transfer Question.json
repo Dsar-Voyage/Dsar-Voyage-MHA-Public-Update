@@ -1,0 +1,17 @@
+{
+  "The Transfer Question": {
+    "name": "The Transfer Question",
+    "questSource": "Shota Aizawa",
+    "questStatement": "The Sports Festival put General Studies on national television, and some Hero Course teachers took notes. Shota Aizawa gives out neither praise nor promises, but word has it that a General Studies student with the right results and the right attitude can train toward a transfer, outside class hours and on his terms. Nobody gets that chance by asking nicely. You will need to show him something worth his time, and then keep showing him.",
+    "mainObjective": "Convince Shota Aizawa to take you on for extra hero training, then keep up with it.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has persuaded Shota Aizawa or another Hero Course teacher to supervise extra hero training and has kept up with it for several weeks, whatever the transfer decision."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Earned, never given. Aizawa wants proof: Festival footage, a written plan, a demonstration of control and a reason he believes. He trains without kindness: capture-scarf drills, endurance runs, Quirk control at dawn, and he drops anyone who skips a session. Hitoshi Shinso wants the same chance and can become a partner or a rival. The transfer itself is decided by the teachers later, after the Joint Training and only through the story; this quest never promises or grants it. Failure: Aizawa says no and tells the PC exactly why, and the PC may return with better proof.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

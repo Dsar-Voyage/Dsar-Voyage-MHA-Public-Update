@@ -1,0 +1,20 @@
+{
+  "Drawn Lifeline": {
+    "name": "Drawn Lifeline",
+    "description": "The user draws a coil of rope in one quick stroke and it lifts off as an ink line up to two stories long. It loops around a person on a ledge, under a fallen sign or at the edge of a roof and hauls them to the user or lowers them gently. As a quick sketch it holds one adult and snaps under a second, and water dissolves it at once. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

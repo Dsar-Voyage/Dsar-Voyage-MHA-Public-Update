@@ -1,0 +1,15 @@
+{
+  "Planted Rumor": {
+    "name": "Planted Rumor",
+    "description": "The user feeds a false sighting, tip or rumor to a source the target trusts and lets it travel. The false information reaches the intended person or group, and they act on it at least once before they find out it is false. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Deception",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

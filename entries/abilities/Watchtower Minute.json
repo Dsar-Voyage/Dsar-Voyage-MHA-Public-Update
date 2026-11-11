@@ -1,0 +1,25 @@
+{
+  "Watchtower Minute": {
+    "name": "Watchtower Minute",
+    "description": "For the rest of the scene the user sees about a minute ahead across everything visible from where they stand, from a rooftop several city blocks, and the vision renews itself each turn without effort. They know every collapse, shot, crash and escape route in that area before it happens and can direct a whole team or an evacuating crowd around each danger by radio. When the scene ends the user's sight goes grey and blurred until they have slept, and they cannot use the Quirk until then. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

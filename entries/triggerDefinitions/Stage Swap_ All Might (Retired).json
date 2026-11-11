@@ -1,0 +1,27 @@
+{
+  "Stage Swap: All Might (Retired)": {
+    "name": "Stage Swap: All Might (Retired)",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_symbol_of_peace_retires",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "recurring": false,
+    "script": "const P=\"All Might\",N=\"All Might (Retired)\",HL=\"U.A. Academy\",HA=\"Faculty Office\";effects.length=0;let l=check({type:'npc-location',npc:P}),a=check({type:'npc-area',npc:P});if(typeof l!=='string'||!l){l=HL;a=HA;}if((storage.castOwner||{})[P.replace(/ \\(.*\\)$/,'')]===900)l='';effects.push({type:'npc-placement',npc:P,operation:'moveAway'});effects.push({type:'npc-placement',npc:N,operation:'moveTo',location:l,area:a||''});const r=check({type:'npc-relationship',npc:P});if(typeof r==='number'&&r!==0)effects.push({type:'npc-relationship',npc:N,operator:'set',value:r});if(check({type:'npc-in-party',npc:P})===true){effects.push({type:'npc-in-party',npc:P,operator:'set',value:false});effects.push({type:'npc-in-party',npc:N,operator:'set',value:true});}if(check({type:'known-entity',entity:P})===true){effects.push({type:'known-entity',entity:N,operator:'set',value:true});effects.push({type:'known-entity',entity:P,operator:'set',value:false});}"
+  }
+}

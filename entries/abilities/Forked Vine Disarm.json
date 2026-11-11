@@ -1,0 +1,20 @@
+{
+  "Forked Vine Disarm": {
+    "name": "Forked Vine Disarm",
+    "description": "The user sends two vine bundles up to ten meters, one around a visible weapon and one around its wielder's clothed forearm, then pulls the weapon aside this turn. The user avoids fingers and the face. A firm two-handed grip can resist, an active blade can sever the vines, and thorns may scratch exposed skin. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

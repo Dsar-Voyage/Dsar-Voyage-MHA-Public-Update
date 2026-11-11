@@ -1,0 +1,22 @@
+{
+  "Quest Lapse: Class Representative": {
+    "name": "Quest Lapse: Class Representative",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Class Representative",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 6
+      }
+    ],
+    "effects": [],
+    "script": "(function(){/*storage_pack:v1:[true,[[870,1]]]*/const __pr=[[870,1]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"typed\",[[870,1,0,false]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(870)===undefined){skip=true;return;}const __HT0=__hc(__hv(870));effects.push(...__HT0);})();"
+  }
+}

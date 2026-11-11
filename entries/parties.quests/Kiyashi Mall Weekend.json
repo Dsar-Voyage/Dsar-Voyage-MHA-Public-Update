@@ -1,0 +1,17 @@
+{
+  "Kiyashi Mall Weekend": {
+    "name": "Kiyashi Mall Weekend",
+    "questSource": "Mina Ashido",
+    "questStatement": "Exams are over, and Mina Ashido has decided that what everyone needs is a weekend trip to Kiyashi Shopping Mall: gear for the Hero Course's summer camp, new shoes, snacks and whatever else catches her eye. She has signed out half of Class 1-A already and is recruiting anyone else she finds in the halls. It is a day off, with curfew at the end of it. Go, shop, eat, and get everyone back to Heights Alliance on time.",
+    "mainObjective": "Join Mina Ashido's mall trip and get the group back to Heights Alliance before curfew.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has spent the day at Kiyashi Shopping Mall with Mina Ashido's group and made it back to Heights Alliance, on time or not, with the day's surprises settled."
+    },
+    "detailType": "detailed",
+    "questLocation": "Kiyashi Shopping Mall",
+    "questDesignBrief": "Slice of life with an edge. Mina is loud and drags in anyone who looks left out; Eijiro Kirishima, Ochaco Uraraka or Izuku Midoriya may come along, and students from other courses are welcome. Most of the day is shopping and teasing. Unless the story has established otherwise, a hooded stranger may be in the crowd: Tomura Shigaraki, off duty and curious, who sits beside a student and talks about heroes with his hand too close to their neck. That encounter is possible, never required, and never becomes an attack on the crowd; police arrive only after he leaves. Exam results stand as the story has established them. Failure: missed curfew and a scolding.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

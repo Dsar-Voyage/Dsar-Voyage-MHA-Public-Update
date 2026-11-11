@@ -1,0 +1,20 @@
+{
+  "Palm Survey": {
+    "name": "Palm Survey",
+    "description": "The user lays a palm on a wall, a crate, a car or a rubble pile and feels the shape and weight of everything inside it. They learn where any person, hollow, weapon or hidden compartment sits and which beams carry the load, so rescuers know where to dig, police know what to seize and nobody pulls the wrong piece. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

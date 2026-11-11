@@ -1,0 +1,20 @@
+{
+  "Bunched Vine Lash": {
+    "name": "Bunched Vine Lash",
+    "description": "The user swings a vine bundle at one target within five meters, dealing moderate bludgeoning and slashing damage from the stems and thorns. Held back, it hooks loose clothing to pull the target a step off balance without a full strike. A cutting guard can sever the bundle, and nearby allies risk scratches. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

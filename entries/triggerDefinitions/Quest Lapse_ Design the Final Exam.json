@@ -1,0 +1,22 @@
+{
+  "Quest Lapse: Design the Final Exam": {
+    "name": "Quest Lapse: Design the Final Exam",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Design the Final Exam",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_final_exams",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "script": "(function(){/*storage_pack:v1:[true,[[855,1]]]*/const __pr=[[855,1]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"typed\",[[855,1,0,false]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(855)===undefined){skip=true;return;}const __HT0=__hc(__hv(855));effects.push(...__HT0);})();"
+  }
+}

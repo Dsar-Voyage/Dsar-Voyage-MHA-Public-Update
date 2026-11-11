@@ -1,0 +1,20 @@
+{
+  "Keystone Brace": {
+    "name": "Keystone Brace",
+    "description": "The user hardens and braces under a falling slab, a sagging ceiling or a tipping truck, taking its weight on their back and arms. While they hold, it falls no further and everyone under it can crawl or be pulled out; the user cannot move or attack while bracing and lets go at the end of the scene at the latest. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

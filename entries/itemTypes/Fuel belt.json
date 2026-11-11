@@ -1,0 +1,20 @@
+{
+  "Fuel belt": {
+    "name": "Fuel belt",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "value": 3
+      }
+    ],
+    "description": "A waist belt of sealed pouches that keeps a fuel-based Quirk's supply within reach: sugar, water, snacks or whatever the body burns. A user can tear open a Quirk fuel pack from it in the middle of a fight without looking down. [ Support Gear | About ¥6,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d8851f8a-e00e-4f4d-bd0f-51fbe86f8b66.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

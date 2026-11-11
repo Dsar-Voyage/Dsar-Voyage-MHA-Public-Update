@@ -1,0 +1,20 @@
+{
+  "Retching Tide": {
+    "name": "Retching Tide",
+    "description": "The user rolls a low, churning front of nauseating gas down a corridor or along a street. Everyone it reaches without a sealed mask, allies included, takes toxic damage and doubles over retching: until the end of their next turn they cannot attack, aim or use a Quirk, and anyone who tries to run falls. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

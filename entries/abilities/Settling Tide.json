@@ -1,0 +1,20 @@
+{
+  "Settling Tide": {
+    "name": "Settling Tide",
+    "description": "The user spreads a steady calm through every frightened person in a crowd around them, across a station platform or a whole floor. Screaming and shoving stop, and for the rest of the scene they can hear and follow simple directions, walk out in order and help the injured; only a fresh shock breaks the calm. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

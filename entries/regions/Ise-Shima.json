@@ -1,0 +1,30 @@
+{
+  "Ise-Shima": {
+    "name": "Ise-Shima",
+    "basicInfo": "The Shima Peninsula and the southwestern shore of Ise Bay in Mie Prefecture, from Matsusaka on the western edge through Ise and Toba to the drowned inlets of Shima in the south. Ise Bay lies to the north, the Kumano Sea to the south, and the Irago Channel to the east. The north is a flat rice plain cut by the Kushida and Miya rivers; south of Ise, the forested hills of Ise-Shima National Park rise to Mt. Asama, and beyond them the coast breaks into rias: Ago Bay and Matoya Bay, crowded with pearl and oyster rafts. Winters are mild and bright, summers hot and humid, and typhoons come in from the south in late summer. Ise is a pilgrimage city built around Ise Jingu, Japan's most revered Shinto shrine: the Outer Shrine stands near Iseshi Station, and the Inner Shrine lies in deep cedar forest beside the clear Isuzu River, reached over the wooden Uji Bridge. Outside it, the old streets of Oharai-machi and Okage Yokocho sell red-bean mochi, Ise udon in thick dark sauce, tekone-zushi of marinated bonito and grilled shellfish. East at Futami, two wedded rocks joined by a sacred rope stand in the surf. Toba is a harbor town of hotels, a large aquarium and a pearl island, with ferries to the fishing islands of Toshijima, Sugashima and Kamishima. Ama divers still work the rocks for abalone, turban shell and seaweed out of Osatsu, and visitors eat the grilled catch beside the fire in their diving huts. Shima is resort and fishing country: pearl farms on Ago Bay, hotels at Kashikojima, lighthouses on Daiozaki and Anorisaki and the white beach at Goza. Matsusaka, a merchant town of old storehouses and castle walls, is famous for its marbled beef. Kintetsu limited expresses run from Nagoya and Osaka to Matsusaka, Ise, Toba and Kashikojima, JR lines and the Ise Expressway serve the north, and a car ferry crosses from Toba to Irago in about 55 minutes. From Musutafu the trip is about 2.5 hours by shinkansen to Nagoya and Kintetsu onward; from Osaka it is about two hours. Local hero offices in Ise and Toba keep the shrine approaches orderly, sidekicks work the New Year crowds, and a police box stands by the Uji Bridge.",
+    "hiddenInfo": "The shrine crowds draw the small-time trade every pilgrim town has: pickpockets on the approach, sellers of fake charms, rental scams at the inns, and quarrels at the busiest festivals. Out on the bays, pearl harvests have been poor and rafts have been stripped at night, and the ama villages are aging with few new divers to replace them. Divers who use a Quirk to work deeper than the co-op allows are a sore point. Hero help is local in Ise and Toba; the larger agencies of Tsu and Nagoya are an hour or more away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -4,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/37032bcf-711f-4644-b155-d66ffc667f43.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

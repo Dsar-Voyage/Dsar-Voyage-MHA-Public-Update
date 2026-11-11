@@ -1,0 +1,20 @@
+{
+  "Restored Crossing": {
+    "name": "Restored Crossing",
+    "description": "The user touches the base of a stairway, a fire escape, a footbridge or a ladder that fell within the last few minutes, and it rises back into place whole, fixed where it was. The user and anyone with them can climb or cross it at once, and it stays standing afterward. Pieces held down by a person or carried off elsewhere stay put, leaving gaps the user must warn others about. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

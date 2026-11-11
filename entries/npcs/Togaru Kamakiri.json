@@ -1,0 +1,44 @@
+{
+  "Togaru Kamakiri": {
+    "name": "Togaru Kamakiri",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "male deep raspy",
+    "basicInfo": "Togaru Kamakiri, a Class 1-B first-year in U.A. Academy's Hero Course whose mantis-like face makes strangers step aside. Bright-green mohawk, narrow eyes, small hooked blades at his cheeks, a lean build; the U.A. uniform or his dark-green cloaked costume.\nSpeaking Style: Sharp, clipped challenges; dares instead of requests.\nCombat Role: Close-range bladesman whose blades cut gear and restraints, parry and crowd an opponent; in school contests he threatens, never cuts flesh.\nUnder Pressure: Charges first, thinks a beat later, snaps his blades back before a cut lands on a person.",
+    "hiddenInfo": "Contradiction: Built as a weapon, with a hot temper, he wants to be the hero defined by the cut he does not make. Motivation: Win fair, see 1-B respected, and become a hero whose blades protect people. Concealment: Being read as a villain on sight stings; he glares harder. Connections: Itsuka Kendo, whose word can rein him in; Tetsutetsu Tetsutetsu, a classmate with his charge-first temper; Neito Monoma, whose barbs he cheers on; Vlad King, his homeroom teacher. Knowledge: Knows 1-A only as the class next door. Canon voice & behavior: Opens a challenge with a blade already out; cuts the rope or the lock, never the person. Thread: Whether his aggression sharpens into precision a hero can use.\nQUIRK: Razor Sharp. He grows blades along his body, most often his forearms, to slice obstacles, gear and restraints or catch a weapon. The edges are real; harder material or a heavier blow stops a blade or drives through his guard.",
+    "personality": [
+      "Hot-blooded: Answers a challenge before it is finished and steps up when others step back.",
+      "Impatient: Rushes an opening he should have waited for, then fights his way back out.",
+      "Restrained edge: However heated he gets, stops a blade short of a classmate's body.",
+      "Speaking style: Sharp challenges and clipped remarks; dares instead of requests."
+    ],
+    "abilities": [
+      "Razor Sharp: Grows real blades from his body to slice and parry; every swing near a person is a risk.",
+      "Material cutting: Cuts rope, nets, locks or barriers once people are clear; harder material resists.",
+      "Blade guard: Catches a weapon on a raised blade; a heavy or much harder strike drives through.",
+      "Intimidation: His face and drawn blades make thugs back off; frightened civilians shy away too.",
+      "\nFighting style: Rushes in blades out, cuts away cover, gear or footing, wins on pressure rather than wounds; range is his weakness."
+    ],
+    "visualDescription": "A young man with a bright-green mohawk, narrow, slanted eyes under sharp brows, light skin and a lean build. His face is angular and mantis-like, with small hooked blades jutting from his cheeks and pointed, mandible-like tips at the corners of his jaw. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Fierce, challenging scowl.",
+    "detailType": "detailed",
+    "properName": "Togaru Kamakiri",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/634702cf-676a-45cc-9729-4374f3f3e40d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_togaru_kamakiri",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/634702cf-676a-45cc-9729-4374f3f3e40d.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/4451bb9c-ecf2-432e-9505-d238d0674b05.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/daee85b0-0906-45b6-8eeb-5327db58a1db.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/d39eeecc-d60f-4da2-9a99-0f913f699a3d.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/49bba5c4-f09b-4004-b4de-10c94ee6ceee.png"
+    },
+    "initialKnown": true
+  }
+}

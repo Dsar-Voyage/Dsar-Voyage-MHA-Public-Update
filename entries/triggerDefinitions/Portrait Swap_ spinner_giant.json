@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: spinner_giant": {
+    "name": "Portrait Swap: spinner_giant",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_league_before_the_end",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Spinner",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c55f63a-1ba9-4371-81a0-e4d76ba75a3f.png"
+      }
+    ]
+  }
+}

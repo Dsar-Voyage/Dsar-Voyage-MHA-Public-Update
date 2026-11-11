@@ -1,0 +1,20 @@
+{
+  "Rime Shell Guard": {
+    "name": "Rime Shell Guard",
+    "description": "The user steps over or in front of a person in danger and hardens a crust of frosted plates across their own back and shoulders. Until the end of the user's next turn, blows, blades, pistol rounds and falling debris strike the user's shell instead, doing no harm to either person and frosting any weapon that hits. Fire melts the shell, and its chill prevents the user from running. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

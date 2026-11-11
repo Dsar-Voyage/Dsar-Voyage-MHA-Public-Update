@@ -1,0 +1,25 @@
+{
+  "Open Gallery": {
+    "name": "Open Gallery",
+    "description": "The user runs their fingertips along every wall of a street as they move, and the drawings across a whole city block wake for the rest of the scene. Their constructs no longer fade after minutes, and the user commands up to a dozen at once: a flock of scout birds over the block, ladders up every burning building, nets over fleeing enemies and hounds that bite for heavy piercing damage, or only pin when held back. Water still dissolves every one. When the scene ends the user's fingertips crack and bleed, and they cannot draw until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

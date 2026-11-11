@@ -1,0 +1,20 @@
+{
+  "Jackline Trip": {
+    "name": "Jackline Trip",
+    "description": "The user stretches a jack across a narrow passage and pulls it taut when one runner reaches it. The target falls and loses movement until the end of their next turn, giving an ally time to restrain them. The user must remain within the jack's length, and a heavy or fast opponent can drag the sensitive cord and injure the user's ear. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Wide Area Watch": {
+    "name": "Wide Area Watch",
+    "description": "The user maintains the full spread of up to fifty pieces across several neighboring streets for the rest of the scene. Detached eyes and ears relay where people are trapped or fleeing, while hands open accessible doors and guide evacuees. Each piece still has to travel through an actual opening, and several destroyed or trapped pieces leave the user too drained to regenerate them all during the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

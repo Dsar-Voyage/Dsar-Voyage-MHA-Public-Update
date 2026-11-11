@@ -1,0 +1,20 @@
+{
+  "Nectar Fruit Bough": {
+    "name": "Nectar Fruit Bough",
+    "description": "With light and water on hand, the user grows a fruiting branch from their wrist and pours both natures into a single ripe fruit. Any ally or patient who eats the fruit regains heavy stamina, shakes off exhaustion, knockout gas or poison fever, and has minor cuts begin to close over the next few minutes. The user cannot eat their own fruit to recover, and growing it costs the user heavy stamina and water. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

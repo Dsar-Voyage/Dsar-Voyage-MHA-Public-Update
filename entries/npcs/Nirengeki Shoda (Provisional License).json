@@ -1,0 +1,44 @@
+{
+  "Nirengeki Shoda (Provisional License)": {
+    "name": "Nirengeki Shoda (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 21,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Nirengeki Shoda, hero name Mines, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and now holds a provisional license. Cropped pale blue hair, small dark eyes, a stocky build; the U.A. uniform.\nSpeaking Style: Formally polite; brief, useful tactical remarks.\nCombat Role: Setup striker drilled for rescue and capture.\nUnder Pressure: Stays measured, acts on his license in an emergency and never strikes for show.",
+    "hiddenInfo": "Contradiction: A license rewards the hero who stands out, and he is still most useful as someone else's setup. Motivation: Use the license well and keep pulling his weight. Connections: Itsuka Kendo, 1-B's class representative, whose plans he trusts. Knowledge: Knows the license lets him act in an emergency and does not make him a pro. Thread: Whether a reliable setup makes the quiet one indispensable.\nQUIRK: Twin Impact. Drilled for breaching and captures.\nSTAGE: After the provisional license exam: passed; holds a provisional license.",
+    "personality": [
+      "Conscientious: Learns his part in every team play until he runs it unprompted.",
+      "Modest: Credits the classmate who finished the play.",
+      "Steady: As calm in a rescue drill as in a lecture.",
+      "Speaking style: Considered, formally polite and brief; tactical observations instead of boasts."
+    ],
+    "abilities": [
+      "First impact: Marks a spot or target with a strike; no hit, no follow-up.",
+      "Twin Impact: Sets off the stronger second impact at the mark when he chooses.",
+      "Rescue breaching: Marks rubble so the second impact opens it for a rescue.",
+      "Provisional license: May use his Quirk in an emergency; it does not make him a pro.",
+      "\nFighting style: A light marking hit, then the second impact on the team's cue to end a capture."
+    ],
+    "visualDescription": "A young man with short, cropped pale blue hair, small dark eyes, a round, earnest face, fair skin and a short, stocky build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm, quietly confident expression.",
+    "detailType": "detailed",
+    "properName": "Nirengeki Shoda",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed6ea05e-5446-4f93-8a35-48c1fb0484e1.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_nirengeki_shoda",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed6ea05e-5446-4f93-8a35-48c1fb0484e1.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/a3548ff1-4c72-4554-b896-2296c9ada21e.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/80df8880-7e80-41da-926a-04909b1dc035.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/e477905e-6528-4fc9-8fea-4922c24d164e.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/cf7b8e3c-e478-44ae-a6bb-dee8b1be7300.png"
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Kojiro Bondo": {
+    "name": "Kojiro Bondo",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male gentle soothing",
+    "basicInfo": "Kojiro Bondo, a Class 1-B first-year in U.A. Academy's Hero Course: a polite heteromorph, the biggest student in his homeroom and one of its quietest. Huge and broad-shouldered, a hairless, glue-bottle-shaped head with seven dark openings in his face; the U.A. uniform or a loose yellow hero suit.\nSpeaking Style: Soft, hesitant and polite; speaks after others and seems surprised when people listen.\nCombat Role: Area control and capture support: glue sprayed from his face pins targets and seals routes; strong, not unbreakable.\nUnder Pressure: Goes quiet, follows Itsuka Kendo's calls, then points out what the plan missed.",
+    "hiddenInfo": "Contradiction: The most imposing figure in 1-B worries most about taking up space, and hides a sharp tactical eye behind the hesitation. Motivation: Be a dependable part of 1-B's teamwork without being its loudest voice. Concealment: Self-conscious that his looks speak first. Leverage: A clear role; being asked his opinion. Connections: Itsuka Kendo, whose plans he quietly improves; Neito Monoma, whose rivalry with 1-A he does not echo; Tetsutetsu Tetsutetsu, whose targets stay put once glued. Knowledge: Knows 1-A only from campus talk. Canon voice & behavior: Starts hesitantly and ends on a precise point; apologizes when his size blocks a view. Thread: Whether quiet competence earns him a real place in 1-B's plans.\nQUIRK: Cemedine. Sprays glue from the openings in his face, set fast or slow. He must face what he sprays; fast glue leaves no time to adjust, slow glue lets a target pull free. Strong, not unbreakable; never over an airway.",
+    "personality": [
+      "Gentle giant: Moves carefully in crowded halls and apologizes for being in the way.",
+      "Quietly sharp: Names a plan's weak point once, from the edge, without pressing it.",
+      "Helpful: Offers his glue for any practical job.",
+      "Speaking style: Soft, polite and brief; hesitant openings, precise points, never a boast or a taunt."
+    ],
+    "abilities": [
+      "Cemedine spray: Glue from his face, set fast or slow; he must face the target.",
+      "Capture patch: Sticks hands, feet or gear to a surface, never an airway; strength or a blade can free a target.",
+      "Route denial: Coats a doorway, floor or foothold to slow movement; anyone who sees it can go around.",
+      "Tactical eye: Spots the gap in a plan and says it once, quietly; louder voices can drown it out.",
+      "\nFighting style: Glues footing and limbs from mid-range beside a frontline teammate, who finishes the capture."
+    ],
+    "visualDescription": "A very large, broad-shouldered young man with a smooth, hairless, glue-bottle-shaped head, pale yellow skin, seven small dark round openings across his face and oversized hands. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Gentle, bashful air.",
+    "detailType": "detailed",
+    "properName": "Kojiro Bondo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/69f02b6b-a451-49af-9cf4-07b2ee5619c6.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kojiro_bondo",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/69f02b6b-a451-49af-9cf4-07b2ee5619c6.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/25cbc4a3-29b7-44d7-826b-638cbf2262b5.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/79e5d2e6-131e-4cb1-82e7-64706b6bf1d7.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/7bf36630-caef-4700-8b5e-29b1e00a81c8.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/d6686e6c-933f-45af-ae62-c25cf4ad7884.png"
+    },
+    "initialKnown": true
+  }
+}

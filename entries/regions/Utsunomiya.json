@@ -1,0 +1,30 @@
+{
+  "Utsunomiya": {
+    "name": "Utsunomiya",
+    "basicInfo": "Utsunomiya and the eastern Tochigi plain, a cell of rice paddies, orchards and low wooded hills centered on Tochigi's capital in the middle of the northern Kanto plain. Utsunomiya fills the southwest of the cell, a busy city with covered shopping arcades, a castle park, a big shrine on a hill in the center, and a new light rail line running east to the factory parks and Haga. Just west of the city, in the Oya valley, soft green-gray Oya stone has been quarried for centuries, leaving cathedral-sized underground galleries and a Buddha carved into the cliff. North along the Kinu river and the Tohoku main line lie Yaita, Sakura and Otawara, with the Nasu plain opening beyond; east lie the Naka valley towns of Nasukarasuyama and Bato and the hills around Motegi, home to a motorsport circuit; the pottery town of Mashiko sits on the southern edge. The climate is continental for Kanto: hot, humid summers with afternoon thunderstorms that roll off the mountains, and cold, dry winters with a sharp north wind. Utsunomiya is known for gyoza, served in dozens of shops and argued over; for jazz bars and cocktail lounges; and for cycling, with a big road race every autumn. Around it the land grows rice, strawberries, nashi pears and kanpyo gourd strips, and the industrial parks build cars, aircraft parts and electronics. The Tohoku Shinkansen reaches Utsunomiya from Tokyo in about fifty minutes, so Musutafu is about two hours away; the Utsunomiya line, the Karasuyama line, the Tohoku Expressway and the Kita-Kanto Expressway cross the cell, and buses fill the gaps. Visitors eat gyoza, tour the Oya quarry galleries, throw pots at Mashiko, watch the July Yamaage festival in Karasuyama, where townspeople raise painted mountain scenery in the street for open-air kabuki, and fish for ayu on the Naka river. Utsunomiya has several hero agencies and the prefectural police headquarters; outlying towns have smaller offices and police boxes, and a gyoza cook whose Quirk crisps a whole pan in seconds keeps the lunch line moving.",
+    "hiddenInfo": "Utsunomiya is comfortable and a little proud, with a gyoza rivalry with Hamamatsu that locals take half seriously. Beneath that, the outlying farm towns are aging and the factory parks run on long shifts and short-term contracts. Hero coverage is good in the city and thin in the eastern hills, thirty to forty minutes out. Small villainy: bicycle theft and bag snatching in the station district, Quirk brawls outside bars at closing time, strawberry and fruit theft from greenhouses, and phone scams aimed at the elderly.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 2,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fb4216b7-95bf-4df6-8144-95dd17d8d29b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Scrap Squall": {
+    "name": "Scrap Squall",
+    "description": "The user lifts every loose bolt, coin, nail and scrap of steel nearby into a whirling cloud and flings it flat-side first through a cone across a room. Everyone in the cone takes bludgeoning damage and, battered from all sides, cannot aim a weapon or a Quirk until the end of their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

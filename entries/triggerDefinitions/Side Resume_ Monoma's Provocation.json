@@ -1,0 +1,42 @@
+{
+  "Side Resume: Monoma's Provocation": {
+    "name": "Side Resume: Monoma's Provocation",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "b1_monoma_provocation",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_b1_monoma_provocation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_b1_monoma_provocation",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "b1_monoma_provocation"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_b1_monoma_provocation",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Monoma's Provocation\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Lunchtime in the days after Hero Name Day, at Lunch Rush's Cafeteria at U.A."
+      }
+    ]
+  }
+}

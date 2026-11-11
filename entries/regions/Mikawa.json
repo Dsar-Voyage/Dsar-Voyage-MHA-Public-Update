@@ -1,0 +1,30 @@
+{
+  "Mikawa": {
+    "name": "Mikawa",
+    "basicInfo": "Mikawa is the cell of eastern Aichi: the Okazaki plain and the car city of Toyota in the northwest, the Mikawa highlands rising behind them, the head of Mikawa Bay with Gamagori and the root of the Atsumi Peninsula in the south, Toyohashi on the plain of the Toyo River, and most of Lake Hamana in the southeast corner on the Shizuoka border. Mikawa Bay is the calm, shallow inner water to the southwest, ringed by clam flats and seaweed farms; the Pacific surf breaks beyond the Atsumi hills, just outside the southern edge. Lake Hamana is a broad brackish lagoon opening to the sea at its southern mouth, with Kosai on its western shore and the Kanzanji hot springs on its eastern shore. Summers are hot and sticky, winters mild and dry with a sharp wind. Toyota is an industrial city built around car plants, with supplier factories filling the surrounding towns and workers from across Japan and abroad; the Korankei gorge on its northeast edge is famous for autumn maples. Okazaki is an old castle town, birthplace of the first Tokugawa shogun, known for dense, dark Hatcho miso aged in great cedar vats and for summer fireworks over the Yahagi River. Toyohashi is a port and farming city with a streetcar line, a castle park, and huge greenhouses of cabbage, flowers and quail; its harbor brings in more imported cars than any other in Japan. Gamagori has hot springs, a shrine on the little bay island of Takeshima and seaside resorts. In the hills, Shinshiro holds the old Nagashino battlefield and the cedar-lined stairs of Mount Horaiji, and the Toyokawa Inari temple draws huge crowds at New Year. The Tokaido Shinkansen stops at Toyohashi, JR and Meitetsu lines link the cities to Nagoya, the Iida Line climbs north up the Toyo valley, the Aichi Loop Line connects Okazaki and Toyota, and the Tomei and Shin-Tomei expressways cross the region. Musutafu is about an hour and a quarter away by shinkansen, and Nagoya about half an hour beyond. Visitors tour castles and plants, eat Lake Hamana eel and soak at the hot springs. The cities keep many hero agencies and busy police, and plant security, rescue and factory-safety work employ heroes and Quirk-licensed workers alike.",
+    "hiddenInfo": "Mikawa's undercurrent is dependence on one big industry: when car orders dip, temporary workers lose dormitory beds and jobs together, and resentment pools in the factory suburbs. Parts and catalytic-converter theft, glass-eel poaching on Lake Hamana and frauds aimed at elderly farm households are common. The cities answer calls quickly; the hill villages around Shinshiro and Shitara wait far longer, with Toyohashi or Okazaki teams half an hour to an hour away.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -3,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/81fa65b4-46ad-461e-a1a9-aab4fd3c88c0.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

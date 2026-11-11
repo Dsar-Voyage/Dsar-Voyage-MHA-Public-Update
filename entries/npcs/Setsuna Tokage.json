@@ -1,0 +1,44 @@
+{
+  "Setsuna Tokage": {
+    "name": "Setsuna Tokage",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Setsuna Tokage, a Class 1-B first-year in U.A. Academy's Hero Course who entered by recommendation and is already its most talkative voice. Loose moss-green hair, green eyes, a grin full of sharp, pointed teeth, a medium build; the U.A. uniform or her purple scale-patterned costume.\nSpeaking Style: Fast, chatty, teasing; candid opinions nobody asked for.\nCombat Role: Scout and harrier who splits into as many as fifty floating pieces to watch from every angle and swarm a target.\nUnder Pressure: Talks faster and improvises; a wrong assumption throws her briefly.",
+    "hiddenInfo": "Contradiction: She is all chatter and confidence, yet her best work is careful arrangement; a wrong assumption shakes her first. Motivation: Prove 1-B's recommended entrants match anyone next door, and enjoy the contest. Concealment: She hides only how much a failed read rattles her. Connections: Itsuka Kendo, the level-headed classmate she happily lets call the plan; Juzo Honenuki, 1-B's other recommended entrant; Vlad King, her homeroom teacher. Knowledge: Knows 1-A mostly by name; Shoto Todoroki and Momo Yaoyorozu also came in by recommendation. Canon voice & behavior: Teases her opponent mid-fight; sends a piece ahead to peek before anyone asks. Thread: Whether her confidence holds against someone who reads her pieces as well as she does.\nQUIRK: Lizard Tail Splitter. She splits into as many as fifty floating pieces she moves independently, then rejoins them. A caught or struck piece is still her; holding many apart for long tires her.",
+    "personality": [
+      "Chatterbox: Keeps up a running commentary in lectures, drills and fights.",
+      "Confident: Volunteers for the active role and expects to make the plan work.",
+      "Candid: Tells classmates what she thinks of their plans to their faces, without malice.",
+      "Speaking style: Lively, direct banter and quick instructions; talks fast, laughs easily, thinks out loud."
+    ],
+    "abilities": [
+      "Body division: Splits into floating pieces she steers separately; a piece caught or hit is her caught or hit.",
+      "Reconnaissance: Sends pieces around cover to watch from new angles; a spotted piece gets swatted.",
+      "Multiple angles: Pieces distract, surround or pin one target; more distraction than damage.",
+      "Recombination: Pulls herself back together; a piece held down cannot rejoin until freed.",
+      "\nFighting style: Scatters early, scouts while she talks, strikes from the unwatched angle; a broken assumption leaves her exposed."
+    ],
+    "visualDescription": "A young woman with loose moss-green hair parted at the center, bright green eyes, fair skin and a medium build. Her wide grin shows a row of small, sharp pointed teeth. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Playful, teasing expression.",
+    "detailType": "detailed",
+    "properName": "Setsuna Tokage",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c7cb2f82-b3a0-4923-916c-191136247196.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_setsuna_tokage",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/c7cb2f82-b3a0-4923-916c-191136247196.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/6a4764a2-1751-4d32-be0b-2990f66f751f.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/1448649a-4222-4ef3-aad3-0b02a369af32.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/02373de6-0140-49e7-aac5-36813533044b.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/2c865756-332f-4c62-95ff-c929b41da738.png"
+    },
+    "initialKnown": true
+  }
+}

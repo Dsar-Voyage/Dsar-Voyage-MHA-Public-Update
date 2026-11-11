@@ -1,0 +1,15 @@
+{
+  "everyone_clears_the_way": {
+    "title": "The Last Smash",
+    "beats": "At day 405's conclusion, the surviving reinforcements face the body controlled by All For One at Mount Fuji Battlefield. Izuku Midoriya can advance only with the power and bodily condition actually left to him. In the default course his arms are restored and only One For All's embers remain. The gathered fighters create a route while broadcasts carry the visible struggle to people far beyond the battlefield.\n\nThe canon default course, as pressure the player can change: classmates and heroes combine their abilities to shield Izuku and carry him through successive attacks. Their contributions create physical openings rather than restoring his lost inheritance. Kurogiri tries once more to protect Tomura. Bakugo, still grievously injured, reaches the final confrontation through an established approach and destroys that obstruction. Izuku's last attack joins resistance from within to destroy All For One's remaining presence and end Shigaraki's life. Tomura entrusts Izuku with a message for Spinner before disappearing.\n\nKeep Shigaraki and Kurogiri reachable until their deaths are actually established. The player can contribute an opening, attempt a rescue that separates Tomura from the controlling presence, protect Kurogiri, surrender, or oppose the advance. Neither death is a required payment for victory. A successful rescue changes the aftermath and custody. The private final message reaches Spinner only if someone later delivers it. Bakugo's return requires a viable route and cannot undo a prior medical extraction or incapacity without explanation. At the end, fading embers remain distinct from the full inherited power.\n\nBy place: Mount Fuji Battlefield stages the final advance and immediate rescue handover. U.A. Academy maintains surviving communications; Musutafu General Hospital prepares mass casualty reception. Okuto Island, Kamino Ward, Gunga Mountain Villa, Jaku City, and Takoba Municipal Stadium receive verified outcomes and continue local rescue. A distant player can keep a broadcast, medical route, or trapped group alive while the decisive action occurs elsewhere; watching does not place them inside the final exchange.\n\nBy Path: Class 1-A and Class 1-B create a concrete opening; General Studies maintains rescue communications; Support sustains equipment. Management preserves accurate reporting and Faculty coordinates the advance. Licensed Sidekick protects wounded; Licensed Pro Hero clears the route. League of Villains Recruit chooses Tomura, All For One, surrender, or defection; Independent Villain makes a final intervention. Vigilante rescues at the perimeter; Civilian Life helps responders and stranded people.\n\nThe event is complete when the enemy's final condition, Izuku's survival and remaining power, all established deaths or rescues, and the immediate medical handover are explicit.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

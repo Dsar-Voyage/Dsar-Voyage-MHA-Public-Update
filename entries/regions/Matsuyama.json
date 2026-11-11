@@ -1,0 +1,30 @@
+{
+  "Matsuyama": {
+    "name": "Matsuyama",
+    "basicInfo": "Matsuyama is the northwest corner of Shikoku, the Ehime coast from Matsuyama city in the southwest to Imabari and Saijo in the east, facing the island-filled Inland Sea to the north and west; about half of the cell is water, the Iyo-nada to the west, the Aki-nada to the north and the Hiuchi-nada to the northeast. The Takanawa Peninsula's hills rise between Matsuyama and Imabari, and in the south the land climbs toward the Ishizuchi range on the southern edge. Matsuyama, Shikoku's largest city at about half a million, is a city of streetcars, citrus and hot springs: its castle stands on a hill in the center, reached by ropeway, and Dogo Onsen, one of Japan's oldest hot springs, keeps a wooden bathhouse at the end of the tram line; mikan juice, sea bream rice and literary history are its pride. Imabari, at the north tip, makes most of Japan's towels and builds ships in the country's largest shipbuilding cluster; its castle has a seawater moat, and it is the Shikoku end of the Shimanami Kaido bridges that hop north across Oshima, Hakatajima and the Kurushima Strait, one of the fastest tidal races in Japan. Saijo, in the east, is a town of spring water that wells up from the ground, with autumn festivals of floats and portable shrines, a railway museum and the ropeway up toward the sacred Mount Ishizuchi. The Hojo coast between Matsuyama and Imabari has beaches and Kikuma's roof-tile kilns. The climate is mild Setouchi: hot summers, mild winters, little snow. The JR Yosan Line links Matsuyama to Imabari and Saijo, and the Shiokaze limited express reaches Okayama in under three hours; Matsuyama Airport has flights to Haneda, and high-speed boats run to Hiroshima in about an hour and a quarter. From Musutafu it is about five and a half hours by shinkansen to Okayama and the Shiokaze. Visitors soak at Dogo, climb the castle, cycle the Shimanami Kaido and eat taimeshi. Matsuyama has several hero agencies and police stations, Imabari and Saijo have their own, shipyard crews with strength Quirks work under license, and sidekicks patrol the autumn festivals.",
+    "hiddenInfo": "A comfortable city and a working coast: shipyard booms and busts, labor disputes, and shipyard crews of many nationalities. Small-time trouble is bike theft, drunk brawls at the autumn festivals, Quirk-users stealing scrap or towels from factories, and pickpockets in Dogo. The Kurushima Strait's currents take careless boaters and swimmers every year. Hero coverage is solid in Matsuyama; Imabari and the islands lean on smaller agencies and the coast guard.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -11,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/158d3f87-3765-436d-bdd7-a7fafb58274a.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

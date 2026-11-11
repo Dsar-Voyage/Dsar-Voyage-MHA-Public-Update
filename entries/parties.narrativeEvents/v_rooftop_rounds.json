@@ -1,0 +1,15 @@
+{
+  "v_rooftop_rounds": {
+    "title": "Rooftop Rounds",
+    "beats": "Late evening and night in Musutafu, a week or so after the USJ attack. The news still loops footage of the dome, pros are stretched thin, and the party is out in costume on its first real rounds: rooftops above the Musutafu Station District, the Station Concourse below, Izakaya Lane and the Back Alleys behind the arcade. Nobody hired it, nobody pays it and nobody licensed it.\n\nDefault course over one or two nights, as pressure the party can change. First, a purse snatcher on a bicycle tears a bag from an office worker at the Convenience Store Corner and races for the alleys; catching him is easy, deciding what to do with him is not, because holding a man for the police is itself an unlicensed arrest. Second, a drunk salaryman thrown out of a bar on Izakaya Lane has a Quirk that throws off bursts of static; he is shorting the signs and frightening the crowd, talking him down works as well as force, and force on a frightened drunk looks very different on a phone video. Third, after the trouble is over, a pro arrives late: Death Arms, out of breath from another call across town, looks at the tied-up thief or the calmed drunk and asks who called it in and who did the work. He has nothing against help, but help without a license is a crime and he says so bluntly. He wants a name, and the officer from the station police box wants a description of the costume for the log.\n\nThe party chooses: hand over the culprit and talk, slip away before the pro arrives, or stay and argue. Every sighting goes in the police log. Staying on camera, fighting in front of crowds and speaking for the costume draw attention to the mask; leaving no trace and resting the costume for a few nights cool it. People who were helped remember the mask kindly and say so to anyone who asks, police included.\n\nThe event is complete when the night's last call is handled and the party has faced the pro or vanished over the rooftops.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_rooftop_rounds",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

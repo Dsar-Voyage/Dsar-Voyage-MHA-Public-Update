@@ -1,0 +1,15 @@
+{
+  "mha_nagamasa_mora": {
+    "label": "Nagamasa Mora",
+    "voiceTag": "male calm steady",
+    "instructions": "Deep, calm, polite young adult male voice, formal and measured, slow and even. Quiet, stern, low rebukes for schoolmates; courteous apologies to outsiders on their behalf. Steady and unflappable, never raising his voice.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

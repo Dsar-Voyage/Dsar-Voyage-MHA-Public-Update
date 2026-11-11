@@ -1,0 +1,20 @@
+{
+  "Seized Servos": {
+    "name": "Seized Servos",
+    "description": "The user grabs an opponent's powered gear, such as an exoskeleton, a motorized gauntlet, a jet pack or a support-item harness, and orders every motor in it to lock. The wearer is frozen inside it and cannot move the locked parts until the end of their next turn, or longer while the user keeps hold; a drone or a scooter simply stops. The wearer can climb out with a hard effort, and gear without motors does not answer. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

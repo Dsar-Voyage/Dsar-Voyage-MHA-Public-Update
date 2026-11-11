@@ -1,0 +1,40 @@
+{
+  "Engine Quirk": {
+    "name": "Engine Quirk",
+    "description": "🏎️ You have engines in your calves that power fast runs and hard kicks.\n\n🌱 At the start you run fifty meters in a few seconds on clear ground, with traction, braking room and time to notice hazards.\n📈 With training: controlled turns, interceptions, passenger carries, short overdrive, longer high-speed runs with stronger regrown exhausts.\n⚠️ You need orange juice; blocked pipes, fizzy drinks or heat stall your engines until you clear and cool them, and speed gives no armor or faster thought.\n🔗 Canon Drawback, built in: Cooldown, as overdrive temporarily stalls your engines.\n🎬 Canon Quirk: Tenya Iida's Engine. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Stamina +10, Running +5\n⚡ Starting techniques: Calf Motor Dash, Driven Heel Strike",
+    "traitNarrativeEffects": "Scale: calf engines with exhausts. Start: 50 m in a few seconds on clear level ground, a running kick; high gears, sharp turns, safe passengers need training.\nLimits: needs fuel (orange juice helps); soda or blocked exhausts stall it; overuse overheats; a stall needs cooling and cleared pipes. Needs traction, braking room, a visible route; speed gives no protection or faster thought. Long overdrive needs stronger exhausts regrown in prior training; learning it is not enough.\nQuirk Strain: light: short dash, restrained kick; moderate: interception, capture, passenger run, throttle feint; heavy: 10-second overdrive; severe: max kick, sustained high gear, cooled distance run.\nDrawback: built in, the canon Cooldown.\nCanon: Tenya Iida's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: crowd racing and public combat need a license; user answers for collisions and exhaust burns.\nLook: calf exhaust pipes.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Running",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Calf Motor Dash",
+      "Driven Heel Strike"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

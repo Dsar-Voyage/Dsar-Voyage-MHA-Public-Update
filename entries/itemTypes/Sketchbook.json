@@ -1,0 +1,20 @@
+{
+  "Sketchbook": {
+    "name": "Sketchbook",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Costume Design",
+        "value": 3
+      }
+    ],
+    "description": "A spiral sketchbook filled with pencil drafts of costumes, gear and hero logos, with notes on materials and fit in the margins. Most costume request forms start in one. [ Tool | About ¥800 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/99396feb-f7d6-4d9b-85b0-dcade4902b31.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Hero Family": {
+    "name": "Hero Family",
+    "description": "🦸 You have a parent or close relative who is a pro hero, active or retired.\n\n🏠 You grew up with training drills and agency talk at dinner.\n⚠️ You have a hero name to live up to.\n\n📈 Grants: Power +1, Hero Industry +5, Conditioning +5",
+    "traitNarrativeEffects": "A parent, grandparent, aunt, uncle or older sibling is a licensed pro hero, active or retired: an original character, never canon or canon-related, with a non-canon agency. Player-defined, or the narrator makes one: hero name, Quirk, modest rank far below the top of the Hero Billboard Chart JP, and how they get along. The character's Quirk is their own, linking them to no canon person. In play: the relative recurs, calls after dangerous news, gives useful or unwanted advice. The name opens doors (an internship offer, a pro willing to meet) and breeds resentment (rivals cry favoritism; reporters ask about the relative). Old enemies appear only if the story needs one. Paths: a hero student carries family hopes; a villain or vigilante is a looming scandal, and the relative must choose family or license. Quirkless: hope for a hero heir became pity, protectiveness or another plan, and they know it. Childhood: drills, kitchen-table first aid, missed birthdays.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Hero Industry",
+        "modifier": 5
+      },
+      {
+        "skill": "Conditioning",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

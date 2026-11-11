@@ -1,0 +1,30 @@
+{
+  "Kochi": {
+    "name": "Kochi",
+    "basicInfo": "The heart of Kochi Prefecture: Kochi city on its bay, the plain of Nankoku and Kami to the east, the Niyodo River valley at Ino to the west, and the coast running southwest past Tosa city to the port of Susaki. The southern third of the cell is the open water of Tosa Bay; the northern half is steep green mountain. Kochi city sits where its rivers meet Urado Bay, around one of the few castles in Japan with its original keep, a city of trams, covered arcades and a famously loud food hall where strangers share tables over katsuo no tataki, bonito seared over a straw fire. A Sunday market has run down the avenue below the castle for three centuries. Katsurahama, a curving beach with a rocky point and a bronze statue of the city's most famous Bakumatsu-era son, faces the Pacific at the mouth of Urado Bay, and Godaisan hill above the bay holds a pilgrimage temple and a botanical garden. In August the Yosakoi Festival fills every street with dance teams in wild costume clacking wooden naruko clappers. East, the Nankoku plain is greenhouse country of eggplant, peppers and ginger, with Kochi Ryoma Airport near the shore and the limestone cave of Ryugado in the hills of Kami. West, Ino makes Tosa washi paper beside the Niyodo, a river so clear its blue has its own name, and the Yokonami Peninsula carries a skyline road between Tosa Bay and a long inlet. Susaki, at the western edge, is a fishing and limestone port known for nabeyaki ramen served in clay pots. The climate is warm, sunny and very wet, and typhoons often make landfall here. The JR Dosan Line limited express runs from Okayama in about two and a half hours and continues west to Susaki; the trams run the city east to west; the Kochi Expressway climbs north over the mountains. From Musutafu, it is about five and a half hours by shinkansen and limited express through Okayama, or a little over three by air through Tokyo; from Osaka, about three and a half hours. Kochi city keeps several modest hero agencies and a full prefectural police headquarters, and the Yosakoi nights are the busiest patrol of the year.",
+    "hiddenInfo": "Kochi people are proud, blunt and slow to trust outsiders, and the city's drinking culture keeps police boxes busy with brawls and late-night Quirk flare-ups. The real worries are the expected Nankai Trough earthquake and tsunami, drilled for constantly, and flood season. Kochi has its own heroes but no large agency; serious villain trouble means calling help from Osaka or Okayama, hours away. Petty crime is pickpockets in the Yosakoi crowds, greenhouse theft, and small gangs running unlicensed fights and gambling in the nightlife streets.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -10,
+    "y": -4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f33778d9-4a28-46e0-8d7c-cbb499eb1be4.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

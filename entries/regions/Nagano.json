@@ -1,0 +1,30 @@
+{
+  "Nagano": {
+    "name": "Nagano",
+    "basicInfo": "Northern Nagano and the high volcanic country on the Gunma border: the Zenkoji Plain around Nagano city, the apple towns of the Chikuma River valley, the Shiga highlands, and over the Shibu pass the hot spring town of Kusatsu in Gunma. No coast. The Chikuma River runs northeast through a wide basin of orchards, rice and towns toward Iiyama and the Niigata border; to the east the land climbs into the Shiga Kogen plateau, Mount Kusatsu-Shirane and the cabbage fields of Tsumagoi, and to the northwest lie Lake Nojiri and the ski fields of Madarao and Myoko Kogen at the corner. Winters are cold and snowy, heavy in the north; summers are warm in the basin and cool on the plateaus. Nagano city, the prefectural capital of under four hundred thousand, grew up around Zenkoji, a great temple whose stand-in for its hidden Buddha image is displayed every seven years and whose lane is lined with inns and souvenir shops; Matsushiro to the south is an old castle town. Obuse is a chestnut and art town, Suzaka and Nakano grow grapes and mushrooms, Iiyama makes Buddhist altars and gets buried in snow. Yamanouchi holds Yudanaka and Shibu Onsen with their wooden inns and the steaming valley where snow monkeys bathe, and above it Shiga Kogen's ski fields. Kusatsu, over the pass, is one of Japan's most famous onsen, its sulfurous water cooled in a steaming wooden channel in the town square and stirred with long paddles in traditional song. Food: apples, oyaki, Shinshu soba, nozawana pickles. The Hokuriku Shinkansen stops at Nagano and Iiyama; Nagano is about eighty minutes from Tokyo and about two and a half hours from Musutafu. The Nagaden line runs to Yudanaka, the Shinano Railway north to Myoko Kogen, the Iiyama Line up the Chikuma, and the Joshin-etsu Expressway crosses the basin; Kusatsu is reached by bus from Naganohara or Karuizawa. Visitors come for Zenkoji, the monkeys, skiing, onsen and orchard fruit picking. Nagano city has several hero agencies; smaller offices and police cover the towns, and orchard families with growth or weather-sense Quirks are common at harvest.",
+    "hiddenInfo": "Nagano city is orderly and conservative; the tensions are aging orchard families, depopulating hill villages and the volcanoes, whose gas warnings close the Shiga-Kusatsu road. Nagano city has real hero coverage; Yamanouchi, Kusatsu and Iiyama rely on small offices and police thirty minutes to an hour out. Villainy: fruit theft at harvest, scams on elderly residents, pickpockets at Zenkoji, ski-lodge theft, bar fights in the city's arcades.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -1,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d01a11ea-b38a-40f5-8ff4-7bb64dd49984.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

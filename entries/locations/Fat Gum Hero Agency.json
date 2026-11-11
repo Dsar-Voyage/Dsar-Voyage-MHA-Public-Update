@@ -1,0 +1,86 @@
+{
+  "Fat Gum Hero Agency": {
+    "name": "Fat Gum Hero Agency",
+    "basicInfo": "A cheerful, cluttered agency in a low building about 5 km north-northeast of downtown Osaka, a short ride from Shin-Osaka Station, run by the pro hero Fat Gum, the BMI Hero (Taishiro Toyomitsu), a huge, round, good-natured man whose Quirk, Fat Absorption, sinks blows and blades into his body fat and lets him release the stored force. When he spends the stored force he burns through the fat and comes out startlingly lean, and then he eats until he is round again. The agency focuses on drug crime and street violence and patrols the nightlife districts in the afternoon and again late at night; downtown shopkeepers love him and feed him on every round. Tamaki Amajiki, a U.A. Academy third-year and one of its Big Three, does his work-study here, riding in from U.A. on approved days and hiding in the back office until patrol starts. There are snacks on every desk, a rice cooker that never goes cold and a whiteboard of patrol routes covered in food stains. The front office is open to the public from morning until evening, with a sidekick at the front desk to take reports, tips and requests; the back office, the evidence cabinet and the patrol briefings are for staff and interns only. The office empties in late afternoon when the patrols go out and fills again near midnight when they come back. A player can intern, take a sidekick shift, bring a tip or ask for help, and anyone who brings snacks is welcomed. The feeling is a busy neighborhood kitchen that happens to fight crime: loud, warm and serious only when the radio says so.",
+    "hiddenInfo": "Fat Gum has been chasing the return of Trigger since winter. He has seen the drug before, and he is sure this supply is organized: the same doses, a steady flow, and dealers too frightened to name anyone. He suspects an old yakuza house but has no proof, and the police want more before they move. He pays a back-street informant out of his own pocket, a nervous bar worker who meets him on Tuesday nights at a standing noodle counter near the arcade and has started asking for more money because he is scared. Right now Fat Gum wants one thing: a live dealer caught holding a dose, with the phone that dealer calls, so the chain can be followed upward. He has two sidekicks rotating on late watch near the red-lantern bar in the back streets on weekend nights, and anyone who can get closer than a hero in costume would be worth his while. The prefectural drug squad shares little with him; it has not told him that Sir Nighteye's agency is building a file on the same house, and neither agency knows how much the other holds. Fat Gum also worries about Tamaki, whose nerves are the weak point of a strong Quirk: Manifest lets Tamaki take on the traits of whatever he has eaten, and he is far stronger than he believes. Fat Gum is quietly looking for chances to put him in front of a real crowd and let him find out. The agency's finances are thin because Fat Gum turns down sponsors he does not like, and the shopkeepers' associations' consulting money keeps the lights on.",
+    "x": -13.26,
+    "y": -17.38,
+    "radius": 1,
+    "region": "Osaka North",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Fat Gum Agency Front Office": {
+        "description": "The ground floor of the low building, open to the public from morning until evening: a long front desk where a sidekick takes reports, tips and requests, a row of mismatched chairs for people waiting, and behind the counter a cluster of staff desks buried in paperwork and snack bags. A whiteboard of patrol routes covers one wall, the nightlife districts marked in red and the margins spotted with sauce. A glass bowl of rice crackers on the counter is for anyone, and a hand-lettered card beside it says, in Kansai dialect, that tips are welcome and snacks even more so. Shopkeepers drop by all day with boxes of takoyaki or a bag of buns for the boss, and Fat Gum, when he is in, eats whatever arrives at the desk while he talks. The office empties in late afternoon when the patrols head out and fills again near midnight when they come back loud and hungry, and the police radio on the desk mutters through it all. Interns and visitors sign in here; the back office, the evidence cabinet and the patrol briefings are staff only. A hallway behind the desk leads to the Fat Gum Agency Break Room and down to the Fat Gum Agency Training Mat.",
+        "paths": [
+          "Fat Gum Agency Break Room",
+          "Fat Gum Agency Training Mat"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/54923651-ebb2-40b4-baf0-733a2f87a7c9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Fat Gum Agency Break Room": {
+        "description": "A narrow staff room off the back hallway with a low table, floor cushions, a battered sofa, a refrigerator covered in takeout menus and a rice cooker on the counter that is never switched off. A shelf holds paper plates, chopsticks and whatever the shopkeepers sent over that day, and a laminated sign over the sink asks whoever eats the last of the rice to start the next pot. Sidekicks eat here between patrols, nap on the sofa after late watches and argue about the best okonomiyaki in the ward; Fat Gum holds informal debriefs at the table with his mouth full, and the jokes stop the moment the talk turns to the street drug the agency has been chasing. On his work-study days, Tamaki Amajiki, the quiet U.A. third-year, often sits at the end of the table nearest the wall, eating deliberately and saying little, until the patrol goes out. Interns are expected to eat with everyone; refusing a second helping counts as rude. The room smells of rice, sauce and coffee, and a small television in the corner plays hero news with the sound low. The hallway leads back to the Fat Gum Agency Front Office and down to the Fat Gum Agency Training Mat.",
+        "paths": [
+          "Fat Gum Agency Front Office",
+          "Fat Gum Agency Training Mat"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b2d75049-9806-46e4-b811-2a66ef4e8872.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Fat Gum Agency Training Mat": {
+        "description": "A plain basement room under the agency, floored wall to wall with thick blue mats and lit by bright ceiling panels, with a heavy bag hanging in one corner, a rack of padded batons and practice knives, a scale with a cracked dial and a whiteboard of capture drills. This is where Fat Gum teaches close-quarters work: he invites interns and sidekicks to hit him as hard as they can, lets their fists, batons and practice blades sink into his body and stop, and then explains, kindly and in detail, exactly what went wrong. Restraint holds, takedowns in narrow alleys and how to keep a partner covered are practiced here every morning before the office opens, and again on quiet evenings. Quirk use is allowed on the mat during supervised training only, and a sign on the door says so in words; Fat Gum's other rule is that nobody spars hungry, and a basket of rice balls sits by the door to make sure of it. The mats smell of sweat and disinfectant, and the thud of a body landing carries up through the floor to the offices above. Stairs lead back up to the Fat Gum Agency Front Office and the Fat Gum Agency Break Room.",
+        "paths": [
+          "Fat Gum Agency Front Office",
+          "Fat Gum Agency Break Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d5480abe-4597-4c93-9576-d1aa4e3c1e99.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7aaa301f-46e3-4ecf-b6cb-ee741b593a93.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

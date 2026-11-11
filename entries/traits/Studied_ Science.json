@@ -1,0 +1,20 @@
+{
+  "Studied: Science": {
+    "name": "Studied: Science",
+    "description": "🔬 You studied the sciences: physics, chemistry and biology, a lab internship or an introductory Quirk science course.\n\n🌱 You can estimate forces, identify a chemical hazard, run a careful experiment and reason about how a Quirk might work.\n⚠️ Research-level Quirk genetics, restricted studies and advanced lab work are beyond you.\n⚖️ It gives no lab access and no right to experiment on people; Quirk experiments on people without consent are a serious crime.\n🏫 It shows in careful measurements, hypotheses spoken aloud and a lab notebook.\n\n📈 Grants: Science +15",
+    "traitNarrativeEffects": "The character has studied science: physics, chemistry, biology and the basics of Quirk science, including how Quirks are inherited and why they vary. They can estimate forces, identify a chemical hazard, run a careful experiment and reason about how a Quirk might work. Prior study, not mastery: research-level Quirk genetics, restricted studies and advanced lab work are beyond them. Not a license: it gives no lab access and no right to experiment on people; Quirk experiments on people without consent are a serious crime. It shows in careful measurements, hypotheses spoken aloud and a lab notebook.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Science",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

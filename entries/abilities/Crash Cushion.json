@@ -1,0 +1,24 @@
+{
+  "Crash Cushion": {
+    "name": "Crash Cushion",
+    "description": "The user stretches a deep elastic barrier across a road, a rail line or an elevator shaft for the rest of the scene. A speeding truck, a runaway train car, a falling elevator or a stampeding crowd that hits it sinks in and is brought to a slow stop, and the people inside or caught up in it are unhurt. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "kamino_incident": {
+    "title": "The Kamino Incident",
+    "beats": "Night, days after the camp raid. Police under Naomasa Tsukauchi and selected pros prepare simultaneous raids on the League Hideout Bar and Nomu Warehouse in Kamino Ward. Katsuki Bakugo remains a captive who refuses recruitment unless the camp ended differently; the missing Ragdoll and the League remain targets either way. Momo Yaoyorozu and Yosetsu Awase's tracker supplies the warehouse lead.\n\nThe canon default course, as pressure the player can change: All Might breaks into the bar, Kamui Woods binds the League, Edgeshot knocks Kurogiri unconscious and Gran Torino blocks escape. At the warehouse, Best Jeanist, Mount Lady, Gang Orca and Tiger find dormant Nomu and Ragdoll. Shigaraki's masked Sensei appears and levels the warehouse block with a blast, gravely injuring Best Jeanist despite his attempt to protect the team. Unless the player changes the counterattack, the masked man forcibly transports the League and Katsuki to the warehouse ruins, and All Might arrives from the bar. The man identifies himself as All For One and meets All Might with combinations of stolen Quirks while helicopters broadcast the fighting.\n\nBy canon default Izuku Midoriya, Shoto Todoroki, Eijiro Kirishima, Tenya Iida and Momo, who planned a rescue at Musutafu General Hospital, use an ice ramp to launch Eijiro above the battle. Katsuki takes his hand and escapes with them. All For One then forces Kurogiri's Warp Gate to carry the League away through Kurogiri's unconscious body before the final duel; Kurogiri is not arrested. Unless the player changes the fight, All For One tells All Might that Tomura Shigaraki is Nana Shimura's grandson. That revelation stays with those who actually hear it, outside public knowledge. All Might's thin, wounded body becomes visible on television. With his remaining strength he defeats All For One using United States of Smash, then points at the camera and says, \"Next, it's your turn.\" Police take All For One into custody. Ragdoll is recovered alive but without Search; Best Jeanist and the other wounded receive hospital care.\n\nA student party at Musutafu General Hospital can join the rescue plan or alert faculty; other U.A. courses can supply an established support route without automatic entry into the raid. Faculty coordinate student safety; pros and sidekicks join either police operation. Villains start at the bar or their established post-camp position. Civilians evacuate Kamino's streets or watch from shelters and screens across Japan. Injuries remain in force, and the critically wounded stay reachable for rescue.\n\nThe event is complete when All For One is in custody or has escaped, Katsuki's rescue or continued captivity is established, and the wounded have been handed to medical teams.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_kamino_incident",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Dead-Angle Approach": {
+    "name": "Dead-Angle Approach",
+    "description": "The user closes on a target from their blind side, timing each step to the target's own movements and the noise around them. The user gets within arm's length unnoticed, even when the target is alert and watching for intruders, and the first action against them catches them off guard: they cannot dodge, block or call out against it. A sensing Quirk or a target facing the user spoils the approach. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Stealth",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

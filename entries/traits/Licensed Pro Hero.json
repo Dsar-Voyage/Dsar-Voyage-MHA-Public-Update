@@ -1,0 +1,72 @@
+{
+  "Licensed Pro Hero": {
+    "name": "Licensed Pro Hero",
+    "description": "🏢 You run your own small hero agency on Musutafu's Hero Agency Row: your hero name on the door, one sidekick and a ranking to climb.\n\n⚖️ Fully licensed from the first scene. You may patrol, arrest villains, hire sidekicks and supervise hero students on workplace experience.\n⚠️ Rent is due every month, and property damage or excessive force brings complaints, lawsuits and lost sponsors that your agency pays for.\n🤝 Your sidekick, rival agencies on the same street (Death Arms, Backdraft, Gunhead, Fourth Kind), the police, the press and the Hero Billboard Chart.\n🔓 Learnable later: Name on the Door, Team-Up Request.\n\n📈 Grants: Power +1, Hero Industry +10, Leadership +10, Media Presence +5\n⚡ Starting technique: Agency Dispatch\n🎒 Starts with: Agency hero costume, Agency radio, Agency phone, Business cards, Capture tape, Duffel bag, Casual clothes, ¥80,000",
+    "traitNarrativeEffects": "Legal status: fully licensed pro hero (Hero License trait added at start), small agency on Musutafu's Hero Agency Row; not U.A. faculty. Commission rules: Quirk use in hero work and emergencies, arrests for police, hiring sidekicks, contracts, supervising student workplace experience. Damage or excess force: complaints, inquiries, suits, lost sponsors; agency pays.\nAccess: office, shared Row rooms and radio, crime scenes, Commission app, police, support, agency contacts.\nObligations: rent, insurance, sidekick pay, patrols, reports, statements, court, audits, sponsor rules; Hero Billboard Chart: arrests, rescues, complaints all count.\nWho notices: sidekick; Row rivals Death Arms, Backdraft, Gunhead, Fourth Kind; Kamui Woods, Mount Lady; police, Naomasa Tsukauchi on League cases; press, fans.\nStanding pressures: rank and contracts make or break agencies; pros scout students at the Sports Festival; Stain the Hero Killer is loose; big operations draft nearby agencies.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Hero Industry",
+        "modifier": 10
+      },
+      {
+        "skill": "Leadership",
+        "modifier": 10
+      },
+      {
+        "skill": "Media Presence",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Agency Dispatch"
+    ],
+    "startingItems": [
+      {
+        "item": "Agency hero costume",
+        "quantity": 1
+      },
+      {
+        "item": "Agency radio",
+        "quantity": 1
+      },
+      {
+        "item": "Agency phone",
+        "quantity": 1
+      },
+      {
+        "item": "Business cards",
+        "quantity": 1
+      },
+      {
+        "item": "Capture tape",
+        "quantity": 1
+      },
+      {
+        "item": "Duffel bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 80000
+      },
+      {
+        "item": "Hero license",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

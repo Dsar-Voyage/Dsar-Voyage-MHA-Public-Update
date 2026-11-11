@@ -1,0 +1,30 @@
+{
+  "Noto Peninsula": {
+    "name": "Noto Peninsula",
+    "basicInfo": "The waist of the Noto Peninsula, the hooked arm of Ishikawa that reaches north into the Sea of Japan. This region runs from Hakui on the west coast and Nanao on the east up to Monzen and Anamizu; the peninsula's far tip around Wajima and Suzu continues past the northern edge. The west side faces the open Sea of Japan in wave-cut cliffs and rock arches such as Ganmon on the Noto Kongo coast; the east side wraps sheltered Nanao Bay, where the low wooded island of Notojima is tied to the mainland by two long bridges and oyster rafts line the inlets toward Anamizu. Inland is rolling satoyama country: terraced paddies, cedar groves, black-tiled farmhouses and narrow roads over hills that rarely top five hundred meters. Winters are gray, windy and wet with sea-effect snow and booming surf; summers are humid and green. Nanao is the main town, a port and rail hub with a fish market on the harbor, and just north of it Wakura Onsen lines the bay with big ryokan whose salty spring a heron is said to have found. Hakui has the ancient Keta Taisha shrine; Shika, Togi and Monzen are quiet coast towns, Monzen with the great Zen temple Sojiji Soin; Anamizu is a small fishing and oyster town. People grow rice, fish, run inns. The peninsula is known for Noto beef, winter oysters, yellowtail, squid, ishiru fish sauce and its summer kiriko festivals, when towering lantern floats are carried through the streets at night; Nanao's Seihakusai in May hauls three enormous dekayama floats through town. The Noto Kagaribi limited express runs from Kanazawa to Wakura Onsen in about an hour, the Noto Railway continues to Anamizu, local buses cover the rest, and the toll-free Noto Satoyama Kaido climbs the spine to Noto Airport near Anamizu, with flights to Haneda. Musutafu is about five hours away by shinkansen and limited express via Kanazawa; Shin-Osaka about three and a half. Small hero offices in Nanao and Hakui cover huge rural districts, every station has its police box, and at festival time sidekicks walk beside the lantern bearers while broad-shouldered locals with strength-type builds take the heaviest poles.",
+    "hiddenInfo": "Depopulation is the steady problem: shuttered shops on Nanao's side streets, empty farmhouses up the valleys, festival crews short of hands to carry the kiriko. Older residents trust the police box and the volunteer fire brigade more than flashy hero work. Real hero help is thin; the Nanao and Hakui offices can take half an hour to reach a cliff road, and serious cases call in Kanazawa, an hour south. Trouble is small: drunken festival fights, theft from empty holiday homes, oyster-raft poaching, unlicensed Quirk use in fishing, and quakes and rockfall on an aging coast road.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -4,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/285e2670-97cc-4aba-813e-141544ac2eab.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

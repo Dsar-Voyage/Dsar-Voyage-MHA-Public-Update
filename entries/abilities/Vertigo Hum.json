@@ -1,0 +1,20 @@
+{
+  "Vertigo Hum": {
+    "name": "Vertigo Hum",
+    "description": "The user holds a low, wavering tone that scrambles the inner ear of everyone in front within a room's width. Until the end of their next turn, each of them falls if they try to run or jump and cannot aim a weapon or a Quirk; the tone deals no damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

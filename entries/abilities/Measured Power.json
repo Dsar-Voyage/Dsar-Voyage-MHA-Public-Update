@@ -1,0 +1,29 @@
+{
+  "Measured Power": {
+    "name": "Measured Power",
+    "description": "The user divides a prepared sugar supply into successive short strength surges, adjusting their grip between them to move heavy debris around several trapped people without crushing the spaces they occupy. Each surge still dulls the user's thinking, so an ally must give simple directions and check each placement. When the supply is spent, the user loses the boost and must rest before another activation. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Afterimage Seal": {
+    "name": "Afterimage Seal",
+    "description": "The user sweeps the look from opponent to opponent across a whole group in a room or a street, timing each blink to a moment when none of them can act. For the rest of the scene, every enemy the user chooses who stays in the user's sight cannot use an Emitter or Transformation Quirk; smoke, a flash, a blow to the user's head or getting out of sight frees that person at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

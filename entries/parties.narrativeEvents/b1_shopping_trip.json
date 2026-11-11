@@ -1,0 +1,15 @@
+{
+  "b1_shopping_trip": {
+    "title": "The 1-B Shopping Trip",
+    "beats": "A free day in mid-July, with the forest training camp ahead. Class 1-B rides into Musutafu to shop at Kiyashi Shopping Mall on a day of its own, and the Main Atrium swallows twenty people in under a minute. Itsuka Kendo holds the list: hiking boots, a rain shell, insect repellent, a flashlight, a week of socks, and a meeting time at the fountain she repeats three times.\n\nDefault course, as pressure the player can change: the class scatters. Setsuna Tokage splits into pieces to cover the Fashion Floors all at once and reports prices from four shops in one breath, until a security guard asks why a hand is floating by the sunglasses. Pony Tsunotori hunts for boots that fit hooves and wants a cowboy hat for the mountains. Kinoko Komori asks the staff how humid the camp will be and buys three rain hats. Yui Kodai shrinks the class's purchases until they fit in one tote bag. Tetsutetsu Tetsutetsu heads straight for the Food Court and anything with iron in it. Neito Monoma demands to know what Class 1-A bought and buys one more of each item. Ibara Shiozaki finds the music, the screens and the crowds hard to bear and stays near the fountain, praying quietly; she will not say she wants to leave.\n\nThe party can shop with any group, help Pony find boots, keep Tokage out of trouble with security, or notice Shiozaki and find her a quieter floor, for which she thanks the party gravely. If Class 1-A's lockdown at this mall has already happened, police stand at the entrances and the class talks about it in low voices; this day stays ordinary and no villain appears. A party that stayed at U.A. Academy meets the class at the Campus Bus Terminal on its way back, loaded with bags, and can help Kendo check the list.\n\nThe event is complete when the class meets at the fountain with everything on the list and heads home, or the party leaves.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_shopping_trip",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

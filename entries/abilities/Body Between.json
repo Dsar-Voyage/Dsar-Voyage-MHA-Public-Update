@@ -1,0 +1,15 @@
+{
+  "Body Between": {
+    "name": "Body Between",
+    "description": "The user throws themselves into the path of an attack aimed at someone within a few steps and takes it on a planted guard. The intended target takes no harm, and the injury the user takes from the hit is a category lighter than an unguarded hit would cause. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Blocking",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

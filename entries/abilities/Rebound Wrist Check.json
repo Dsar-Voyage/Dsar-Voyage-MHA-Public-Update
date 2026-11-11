@@ -1,0 +1,20 @@
+{
+  "Rebound Wrist Check": {
+    "name": "Rebound Wrist Check",
+    "description": "The user rebounds from a nearby wall and passes a target within ten meters, striking a weapon wrist for light bludgeoning damage and knocking a loosely held weapon away. The user lands beyond the target this turn; a locked grip resists the disarm, and the route requires a sound wall, clear footing and stored air. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

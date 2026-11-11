@@ -1,0 +1,24 @@
+{
+  "Wrecking Pull": {
+    "name": "Wrecking Pull",
+    "description": "The user tears a car, a steel door or a streetlight loose and swings it into a target across a street. It deals heavy bludgeoning damage to the target and anyone beside them and smashes through a barricade or a wall behind them; held back, the user lets it fall short across the target, pinning them to the ground without crushing until they heave it off with a hard effort or someone lifts it away. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

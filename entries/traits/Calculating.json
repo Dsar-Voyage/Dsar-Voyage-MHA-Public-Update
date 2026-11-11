@@ -1,0 +1,20 @@
+{
+  "Calculating": {
+    "name": "Calculating",
+    "description": "♟️ Every move is three moves ahead. You plan, you wait and you strike when the odds are yours.\n\n🧮 You read a fight or a deal like a board and find the weak square.\n⚠️ Chaos ruins plans, and you are slow when there is no time to think.\n⚠️ People feel they are being measured, and they are right.\n🔀 If you are also Hot-Blooded, the plan holds until someone makes it personal.\n\n📈 Grants: Combat Tactics +5",
+    "traitNarrativeEffects": "The character is calculating: they plan several moves ahead, wait for the odds to favor them and read fights and deals like a board. Weakness: chaos and surprises ruin plans, they are slow when there is no time to think, and people sense they are being measured. If the character is also Hot-Blooded, the plan holds until someone makes it personal. The narrator shows the board honestly, including what the character cannot know; the moves are the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

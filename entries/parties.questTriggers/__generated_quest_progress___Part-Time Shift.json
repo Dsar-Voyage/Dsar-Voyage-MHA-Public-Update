@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Part-Time Shift": {
+    "name": "__generated_quest_progress__/Part-Time Shift",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has finished a shift at Kiyashi Shopping Mall that went wrong, has dealt with the trouble, and the manager has kept, warned or fired the PC."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Part-Time Shift"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Boso Peninsula": {
+    "name": "Boso Peninsula",
+    "basicInfo": "The middle of the Boso Peninsula, a cell running from the Tokyo Bay shore across low, deeply cut hills to the Pacific at Katsuura, with its western strip in the bay. On the bay side, the Aqua-Line bridge and tunnel come ashore at Kisarazu after crossing from Kawasaki by way of the Umihotaru rest island; around it lie the tidal flats of Banzu, where families dig clams, and south along the shore Kimitsu's steelworks, Futtsu's sandspit cape and nori beds, and the ferry port of Kanaya under the quarried cliffs and great carved Buddha of Mount Nokogiri. Sodegaura and Ichihara to the north are refinery and petrochemical towns at the end of the Keiyo industrial belt. Inland the Boso hills are no higher than a few hundred meters but steep and tangled, with cedar, bamboo and river gorges like Yoro, the castle town of Otaki, the spring water and sake breweries of Kururi, and Lake Kameyama. On the Pacific side Mobara is a market and natural gas town, and Katsuura on its rocky southeastern coast holds one of Japan's great morning markets and a famous fiery tantanmen. The climate is mild and moist, warm in winter, with heavy typhoon rain in early autumn; flowers bloom early and the hills turn color late. People work the bay plants, commute to Tokyo by bus over the Aqua-Line, farm rice, vegetables and flowers, fish, and keep inns and golf courses. The Uchibo, Kururi and Sotobo lines, the Kominato Railway and the little Isumi Railway serve the cell; the Tateyama and Ken-O expressways and the Aqua-Line carry most travelers, and a car ferry crosses from Kurihama to Kanaya in about forty minutes. Highway buses reach Kisarazu from Tokyo Station in about an hour, so Musutafu is about two hours away. Visitors dig clams at Kisarazu, ride the ropeway up Nokogiri, hike the Yoro gorge in late autumn, visit Otaki castle, and eat Katsuura tantanmen and namero, minced raw fish with miso. Small hero agencies in Kisarazu and Ichihara cover the bay; Katsuura and the hill towns rely on the police and roving licensed heroes, and a nori farmer whose Quirk lets them breathe underwater tends the seaweed lines.",
+    "hiddenInfo": "Boso feels close to Tokyo yet left behind: the hill villages are aging fast, storm damage to roofs and cedar forests lingers, and wild boar and invasive muntjac deer strip the fields. The bay towns live on heavy industry and fear the day the plants close. Hero help is twenty minutes away on the bay and much longer in the hills. Small villainy: illegal dumping in hill valleys, theft of copper wire and solar panels, drunk fights in the industrial towns, and smugglers using small harbors.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 2,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/44859906-7437-46e9-9a39-1aa0864b6943.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Wealthy Family": {
+    "name": "Wealthy Family",
+    "description": "💴 Your family has money: a company, property or an old name.\n\n🎓 You grew up with tutors, formal dinners and an allowance.\n⚠️ Expectations come with the money.\n\n📈 Grants: Intelligence +1, Etiquette +5, Business +5\n🎒 Starts with: ¥100,000",
+    "traitNarrativeEffects": "Wealthy family; the player may set the source (company, hospital group, property, support-gear maker, old money), else a large private company; original, never canon. Money: the starting yen is a one-time allowance; more comes only through the story (a conditional gift, a request, a favor owed), never as monthly income. It buys gear, travel, private clinics, good lawyers; never U.A. admission, grades, a hero license, rankings or loyalty, as the narrator shows. Pressure: inheritance, marriage and career expectations; classmates who think they bought their place; flatterers; reporters; villains eyeing a ransom. Scandal hurts the business, so the family fights a villain or vigilante path and can cut them off. Quirkless: the family paid every specialist and second opinion before accepting the diagnosis. Childhood: tutors, elite schools, business dinners, formal manners, household staff, a planned future; at ease at galas, quick to spot those who want something.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 5
+      },
+      {
+        "skill": "Business",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Yen",
+        "quantity": 100000
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

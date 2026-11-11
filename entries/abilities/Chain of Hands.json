@@ -1,0 +1,20 @@
+{
+  "Chain of Hands": {
+    "name": "Chain of Hands",
+    "description": "The user holds an object and follows its residue back through the last few hours, hand by hand: every person who held it, in order, their faces, where each one took it and what they did with it there. A stolen wallet leads back through the fence to the pickpocket. Each step back is fainter, and objects handled by crowds, such as cash or a train strap, blur into noise. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

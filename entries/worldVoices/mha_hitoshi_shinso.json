@@ -1,0 +1,15 @@
+{
+  "mha_hitoshi_shinso": {
+    "label": "Hitoshi Shinso",
+    "voiceTag": "male laconic calm",
+    "instructions": "Low-mid young man's voice, dry and slightly husky, tired and half-awake. Quiet, unhurried, almost monotone; questions come out level and probing, jabs soft and cool. Stung, the flatness tightens into a cold, clipped edge. Never bright.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

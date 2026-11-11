@@ -1,0 +1,15 @@
+{
+  "mha_stain": {
+    "label": "Stain",
+    "voiceTag": "male deep raspy",
+    "instructions": "A low, harsh, heavily rasping voice, a gravelly near-whisper with a hiss. A breathy \"Hah...\" before he speaks; every line a certain verdict, venomous toward a \"fake\", hushed and reverent about All Might. Slow and intense.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

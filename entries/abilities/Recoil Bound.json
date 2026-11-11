@@ -1,0 +1,20 @@
+{
+  "Recoil Bound": {
+    "name": "Recoil Bound",
+    "description": "The user fires at clear ground behind or below them, using the recoil to cross a gap up to five meters or slow a fall from one story before landing. The shot still strikes the ground, so the user needs an empty impact area and a clear landing. It cannot stop a longer fall, and the user cannot fire again before landing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Arm Cannon Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

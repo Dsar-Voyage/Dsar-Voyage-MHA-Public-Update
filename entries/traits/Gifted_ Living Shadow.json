@@ -1,0 +1,32 @@
+{
+  "Gifted: Living Shadow": {
+    "name": "Gifted: Living Shadow",
+    "description": "🧬 Living Shadow, as an extra Quirk put into your body.\n\n🌱 At the start it reaches about five meters, catches blows and falls meant for you or a friend, and rakes opponents with its claws.\n📈 With training it pins people, hauls you up buildings, scouts under doors, digs out survivors, wraps you as armor, strikes in step with you and stays yours in total dark.\n⚠️ Darkness makes it bigger, stronger and wilder; bright light shrinks it into a timid sulk.\n🔗 Common drawback pairing: Loss of Control, as darkness and anger loosen your hold on it.\n🎬 Similar canon Quirks: Fumikage Tokoyami (Dark Shadow).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Living Shadow family): Scale: a shadow creature with its own mind, voice and player-picked temper lives in the user and pours from their chest. In indoor light a new adult user's shadow is user-sized, reaches about five meters, throws an adult, claws. Darkness makes it bigger, stronger, wilder; bright light (sun, floodlights, fire) shrinks it to a timid scrap. Limits: it stays within reach, cannot fly or pass walls, feels blows and burns, can refuse orders; in total darkness it may frenzy at anyone near, allies included, until light or the user's will reins it in. Quirk Strain: light: catch, strike; moderate: pin, climb, scouting; heavy: bracing rubble or armor; severe: signature duet, control in total darkness. Type: Emitter (also fits Mutant). Law: whatever it breaks or hurts, even in a frenzy, is the user's own Quirk use.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Ironbound Hour": {
+    "name": "Ironbound Hour",
+    "description": "The user hardens to a density their skin has never reached and holds it for the rest of the scene instead of a minute. Rifle rounds, a speeding car, a strength Quirk at full power and a falling floor of a collapsing building do them no harm, and their ridged blows deal heavy bludgeoning damage; held back, they strike with smoothed fists that only knock a target down. Heat, cold, electricity and gas still hurt them. When the scene ends the hardening cracks away and the user cannot harden until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

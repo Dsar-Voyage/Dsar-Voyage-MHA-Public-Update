@@ -1,0 +1,15 @@
+{
+  "Knock and Listen": {
+    "name": "Knock and Listen",
+    "description": "The user shouts into the debris, orders silence across the site, then listens and feels for knocks, voices and shifting dust throughout the collapse. The user learns where every trapped person who can make a sound or move is, and which of them can be reached without bringing more debris down. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

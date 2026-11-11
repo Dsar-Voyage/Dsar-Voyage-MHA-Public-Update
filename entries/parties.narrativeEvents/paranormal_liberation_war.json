@@ -1,0 +1,15 @@
+{
+  "paranormal_liberation_war": {
+    "title": "The End of the War",
+    "beats": "Day 363, immediately after Toya Todoroki: Jaku City's heroes face the giant, the League and further Nomu. Continue the resolved broadcast, wounds and anesthetic status; Gunga Mountain Villa's remaining defenders are still under pressure from the raid.\nThe canon default course, as pressure the player can change: Best Jeanist returns alive over Jaku Downtown and binds Gigantomachia and the League with heavy fibers, publicly overturning Dabi's allegation that Hawks killed him. Mirio Togata arrives with Permeation restored. Narrator only: Eri's practiced Rewind restored him before this deployment; the child remains protected at U.A. Academy, never brought into the fighting. Mirio supports the exhausted heroes against Nomu. Katsuki Bakugo, still gravely hurt and supported, tells Best Jeanist his chosen name: Great Explosion Murder God Dynamight. Do not heal him or remove him before this exchange merely because his injury flag is set.\nIf machia_dosed records a real delivery, the anesthetic finally takes effect and the giant collapses into custody under Best Jeanist's restraints. Without a dose, require another earned means of stopping him. Mr. Compress removes portions of his own body to escape the fibers and free his friends, accepting grave injury; heroes capture him alive and stabilize him before secure medical custody. Spinner rouses Tomura Shigaraki. Narrator only, private to the struggle: All For One takes control through Shigaraki, repels pursuit and escapes with him, Dabi, Spinner and Tomoyasu Chikazoku under Nomu cover by default. Himiko Toga also escapes, separately from that extraction after her earlier clash; do not place her back on the giant. Izuku Midoriya's Danger Sense awakens amid the danger; its origin remains private.\nAt Gunga Mountain Villa, the raid's heroes defeat Rikiya Yotsubashi, known as Re-Destro, and Geten, and the remaining Front fighters face arrest. Carry these captures alongside Jaku's conclusion, not as a second war day. No prison breakout happens here.\nBy Path: licensed students from Class 1-A and Class 1-B protect evacuees or assist their pros on their existing front. Faculty, Licensed Pro Heroes and Sidekicks bind, pursue or triage. League Recruits can aid escape or surrender at Jaku City or Gunga Mountain Villa; Independent Villains and Vigilantes act only where already present. Civilians seek safety; other U.A. courses remain evacuated or in established Commission support.\nThe event is complete when Shigaraki's escape or capture is resolved, Gigantomachia is stopped, and immediate combat ends on both fronts with custody and casualty transfers assigned.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

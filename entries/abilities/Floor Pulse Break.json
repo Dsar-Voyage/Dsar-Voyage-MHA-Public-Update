@@ -1,0 +1,20 @@
+{
+  "Floor Pulse Break": {
+    "name": "Floor Pulse Break",
+    "description": "The user plugs both jacks into an amplifier and drives their heartbeat through a connected floor. People in a room-sized area stumble, and an opponent braced to attack loses that action; the vibration deals light sonic damage. The user must have the gear and a continuous surface, and the pulse also disrupts unprepared allies standing there. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

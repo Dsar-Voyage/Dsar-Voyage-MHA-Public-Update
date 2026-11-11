@@ -1,0 +1,20 @@
+{
+  "Warm Spray": {
+    "name": "Warm Spray",
+    "description": "The user fires a steaming stream of hot water from the palm out to five meters, half a pure Water user's range. It puts out small fires, settles dust and smoke, or hits a target for bludgeoning damage that knocks them back a step; held back, it cools to a warm splash in the face that spoils their aim until the end of their next turn. Each stream drains the user's water reserves. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

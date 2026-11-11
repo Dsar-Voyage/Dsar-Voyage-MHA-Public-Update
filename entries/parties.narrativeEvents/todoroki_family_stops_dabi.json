@@ -1,0 +1,15 @@
+{
+  "todoroki_family_stops_dabi": {
+    "title": "The Whole Family Arrives",
+    "beats": "Late in the day 405 battle, Dabi's accumulated heat threatens a devastating explosion at Gunga Mountain Villa. Endeavor, already missing his right arm in the default course, attempts to carry Toya away from the evacuation area. Rei, Fuyumi, and Natsuo arrive through their established route. Shoto Todoroki is still at Kamino with Tenya Iida until their journey actually begins.\n\nThe canon default course, as pressure the player can change: Endeavor tries to take the catastrophe upon himself, but the other family members refuse to remain outside Toya's suffering. Their ice helps contain the heat while burning them in turn. Iida carries the exhausted Shoto from Kamino at extraordinary speed, aided by Shoto's cooling. Shoto reaches the confrontation and uses a massive cooling attack with his family's support. The explosion is prevented, and Toya survives in a terminally injured condition requiring guarded life support.\n\nMake the threatened evacuation area and the remaining approach concrete. The player can clear Iida's route, support cooling, extract a family member, or attempt to reach Dabi before the heat peaks. Dabi remains reachable while alive; a credible intervention may improve his survival rather than merely postpone death. Earlier secure custody can replace the blast crisis with the consequences of having prevented it. Nobody is required to forgive Endeavor, and surviving together does not establish reconciliation. Severe burns and Endeavor's additional injuries require actual transfer to Musutafu General Hospital.\n\nBy place: Gunga Mountain Villa stages the cooling effort and extraction; Kamino Ward stages Shoto and Iida's departure. U.A. Academy and Okuto Island receive blast warnings through available communications. Musutafu General Hospital prepares guarded critical care and family treatment. Jaku City and Takoba Municipal Stadium support reachable evacuation or supply work. Mount Fuji Battlefield keeps threatened approaches clear. Remote players act on the warning locally rather than arriving ahead of a journey never made.\n\nBy Path: Class 1-A supports Shoto's route or cooling; Class 1-B protects the perimeter; General Studies locates evacuees. Support supplies thermal protection, Management distributes blast warnings, and Faculty directs rescue. Licensed Sidekick extracts relatives; Licensed Pro Hero contains heat. League of Villains Recruit can aid Dabi or oppose his self-destruction; Independent Villain chooses an intervention. Vigilante clears endangered routes; Civilian Life evacuates or assists accessible rescue logistics.\n\nThe event is complete when the explosion is prevented or resolves, and the family's actual survival, treatment, Dabi's custody, and the surrounding evacuation outcome are established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_todoroki_family_stops_dabi",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

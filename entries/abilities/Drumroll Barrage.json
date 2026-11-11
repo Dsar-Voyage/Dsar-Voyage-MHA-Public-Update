@@ -1,0 +1,20 @@
+{
+  "Drumroll Barrage": {
+    "name": "Drumroll Barrage",
+    "description": "The user throws a burst of rapid punches in the time a single blow should take. It deals bludgeoning damage to a target within reach, knocks loose whatever they hold and leaves them unable to block or counter until the end of their next turn; pulled, the barrage only stings, with the same effect. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

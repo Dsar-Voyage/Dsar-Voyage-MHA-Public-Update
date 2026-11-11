@@ -1,0 +1,86 @@
+{
+  "Kyoto Station": {
+    "name": "Kyoto Station",
+    "basicInfo": "Kyoto Station is the old capital's front door and the city's main rail station: a vast steel-and-glass building of hard modern lines set down in a city of temples, with a canyon-like atrium under a lattice roof and a grand stairway of 171 steps climbing from the concourse to a rooftop garden, its risers lit with changing light pictures after dark. JR West's local and limited-express lines, JR Central's Tokaido shinkansen on the south side, the Kintetsu Kyoto Line and the Karasuma subway line all meet here, and IC transit cards open every gate. The north side, the Karasuma exit, faces the white-and-red needle of Kyoto Tower across the road and the city's main bus terminal, where travelers queue at numbered stands for the city buses to Kiyomizu-dera, Gion, Kinkaku-ji and Ginkaku-ji, with taxi ranks for everything else; the great wooden halls of Higashi Hongan-ji are a five-minute walk north. The south side, the Hachijo exit, holds the shinkansen gates, highway-bus stops and quieter hotels. Under the north plaza runs an underground shopping street; inside the building are a department store, a high floor of rival ramen counters, gift shops stacked with yatsuhashi sweets and green-tea everything, boxed-meal stands, counters that forward suitcases to hotels, and banks of coin lockers that are full by ten in the morning. Early mornings bring commuters and students in uniform; from mid-morning to dusk come tour groups, school trips and rental-kimono strollers; evenings, the stairway lights draw couples and photographers; after the last trains leave, a little after midnight, the halls go quiet and the taxis wait. A police box stands at the Karasuma exit, railway police walk the concourses, and pros from the city's old, dignified agencies pass through on patrol, polite, unhurried and expected to stop for photos. The shinkansen reaches Shin-Osaka in about 15 minutes and Musutafu in about 1 hour 45 minutes; JR lines run to Fushimi Inari, Arashiyama, Nara and Lake Biwa at Otsu, and a limited express runs to Kansai Airport. It feels like a city politely holding its breath: crowded, orderly and always a little too full.",
+    "hiddenInfo": "A pickpocket pair is working the city-bus queues at the Karasuma exit right now, every afternoon between about 3 and 6 p.m., when the lines for Kiyomizu-dera and Gion are longest. One is a woman in a rented lavender kimono who passes for a tourist and asks people to take her photo by the queue signs; the other, a man in a gray rain jacket, has a Quirk that makes anything he touches weigh almost nothing for a few seconds, so a wallet lifts out of a pocket without a tug as the bus doors open and the crowd surges. They strip the wallets in the restroom off the underground shopping street and drop them, cash gone and cards left, in the bin beside the coin lockers on the Hachijo side, where a night cleaner has found eleven in two weeks and turned each one in. The evening officer at the police box is new to the posting, has written every one up as lost property and has not connected them; the cleaner has noticed that the owners all came through the same two bus stands and would tell anyone who asked. How the place really runs: the station belongs to the railways, JR West on the north side and JR Central on the shinkansen side, and each keeps its own guards; the local agency that holds the station patrol contract is short-handed in tourist season and leans on its sidekicks; and the city's tourism office would rather nothing that frightens visitors reach the news, so small crimes here are handled quietly and slowly. After lost luggage, unlicensed Quirk use in the bus crush is the commonest complaint at the police box.",
+    "x": 4,
+    "y": 6.51,
+    "radius": 1,
+    "region": "Osaka North",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0054e8a9-6720-4e66-9eda-498844d2d345.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "areas": {
+      "Kyoto Central Concourse": {
+        "description": "Inside the north entrance the building opens into a canyon: a vast atrium of steel and glass under a lattice roof, with the department store rising on one side, the hotel on the other and terraces of escalators climbing away into the light. On its floor lies the central concourse, a wide hall of JR ticket gates, departure boards in four languages, gift shops stacked with yatsuhashi sweets and green-tea everything, counters that forward suitcases to hotels, and banks of coin lockers that are full by ten in the morning. Commuters and students in uniform cross it early; from mid-morning tour groups gather under raised flags and school trips sit in rows on the floor. Railway police walk the hall, and pros from the city's old agencies stop patiently for photos. A night cleaner who empties the bins by the coin lockers turns in every lost thing found there, and lately that has meant a surprising number of empty wallets. After the last trains, a little after midnight, the hall goes quiet. The Grand Stairway and Skyway climb from the atrium's west side, and the north doors open onto the Karasuma Exit Bus Terminal.",
+        "paths": [
+          "Grand Stairway and Skyway",
+          "Karasuma Exit Bus Terminal"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/11aed913-7445-439b-83cc-0252c25543b3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Grand Stairway and Skyway": {
+        "description": "From the atrium's west side the Grand Stairway climbs 171 steps through the building, escalators running alongside, past shopping floors and the high floor of rival ramen counters to a rooftop garden of benches and trees that looks out over the city to the hills. High up, a glass corridor called the Skyway is slung across the atrium; from it you can look down on the lattice roof, straight across at Kyoto Tower and, through the north glass, onto the bus terminal's numbered stands and the queues that snake around them. People sit on the steps to eat lunch, wait for friends or rest their feet; tour groups line up for photos, and a few fit locals run the stairs early in the morning before the shops open. After dark the risers become a screen: thousands of lights in the steps play changing pictures, falling maple leaves, cherry blossoms, a festival scene, and couples and photographers sit and wait for their favorite. The ramen floor fills from lunch until late evening, each shop arguing for its own broth. Security staff clear the rooftop at closing. The stairs lead back down to the Kyoto Central Concourse.",
+        "paths": [
+          "Kyoto Central Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d3196ffe-a370-4961-944e-9aecae7e66f6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Karasuma Exit Bus Terminal": {
+        "description": "Outside the north doors, across the road from the white-and-red needle of Kyoto Tower, the city's main bus terminal spreads out in rows of numbered stands under shelters, each with a sign listing its routes in four languages: Kiyomizu-dera, Gion, Kinkaku-ji, Ginkaku-ji. The police box stands at the corner of the exit. Morning buses carry commuters and students; from mid-morning to dusk the queues belong to tourists with daypacks, school trips and rental-kimono strollers who ask strangers to take their photo by the queue signs. Between about three and six in the afternoon the lines for Kiyomizu-dera and Gion are at their longest, and when the bus doors open the crowd surges forward all at once; regulars hold their bags in front of them. The evening officer at the police box is new to the posting and keeps a growing stack of lost-wallet reports on the desk. Starters in caps call out route numbers through handheld speakers, and buses kneel and hiss at the curb. After the last city buses leave, late in the evening, only the taxis remain. The north doors lead back into the Kyoto Central Concourse.",
+        "paths": [
+          "Kyoto Central Concourse"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/47b8b10d-5837-4ef9-bda1-4bcabfdc0415.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Accepted Blow": {
+    "name": "Accepted Blow",
+    "description": "The user steps into an attack instead of avoiding it, takes the blow and uses the opening it leaves. The user still takes the attack's damage, but the attacker cannot dodge or block the counterblow, which deals bludgeoning damage; held back, the counter only throws the attacker off balance and drives them back. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

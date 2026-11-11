@@ -1,0 +1,20 @@
+{
+  "Climbing rope": {
+    "name": "Climbing rope",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Climbing",
+        "value": 3
+      }
+    ],
+    "description": "Thirty meters of rescue-rated rope with two locking carabiners. It lowers a casualty from a balcony, hauls a rescuer up a shaft or anchors a climb where there are no holds. [ Tool | About ¥12,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/18edce28-2fd0-4e38-8f90-7558eb6e08b8.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

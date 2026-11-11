@@ -1,0 +1,24 @@
+{
+  "Umbral Sanctum": {
+    "name": "Umbral Sanctum",
+    "description": "The user takes hold of every existing shadow across a room or a street's width for the rest of the scene, never a whole block. They raise dark glass panes edged with a pale glow to stop bullets and falling rubble, lower trapped people on shadow ribbons and bind any enemy standing in shade there unhurt until a hard effort or a floodlight breaks the hold. Where bright light erases the shade, the hold ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

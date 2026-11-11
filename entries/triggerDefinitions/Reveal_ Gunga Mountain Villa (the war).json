@@ -1,0 +1,22 @@
+{
+  "Reveal: Gunga Mountain Villa (the war)": {
+    "name": "Reveal: Gunga Mountain Villa (the war)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "paranormal_liberation_war",
+        "operator": "equals",
+        "value": "active"
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "Gunga Mountain Villa",
+        "operator": "set",
+        "value": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Narrow Burn": {
+    "name": "Narrow Burn",
+    "description": "The user steadies their abdomen and draws a thin laser line across a lock, rope or small metal fitting within sight. The cut opens that single obstruction without striking a person beside it. The user must hold still for a full turn, and an impact or sudden turn of the torso sends the beam off its intended line. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

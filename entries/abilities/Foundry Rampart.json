@@ -1,0 +1,25 @@
+{
+  "Foundry Rampart": {
+    "name": "Foundry Rampart",
+    "description": "The user braces both arms and, over a single turn, pours a two-story wall of layered steel and rubber out of their back and forearms that runs the length of a city block, with gated openings wherever they choose. Gunfire, blasts, vehicles and thrown debris from the far side cannot pass it until heavy blows breach a section, and it stays standing after the scene. The effort empties the user's reserves: they cannot make anything for the rest of the scene and must eat and rest before the Quirk works again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

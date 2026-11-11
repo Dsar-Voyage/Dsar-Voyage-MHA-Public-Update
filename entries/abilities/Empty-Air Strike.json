@@ -1,0 +1,20 @@
+{
+  "Empty-Air Strike": {
+    "name": "Empty-Air Strike",
+    "description": "The user bends the light around a gloved fist, a shoe or a short baton for an instant and strikes from apparently empty air. It deals bludgeoning damage, and the target cannot see it coming to dodge or block it; held back, it only knocks them off balance and leaves them unsure where the blow came from. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

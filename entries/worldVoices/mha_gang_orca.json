@@ -1,0 +1,15 @@
+{
+  "mha_gang_orca": {
+    "label": "Gang Orca",
+    "voiceTag": "male deep controlled",
+    "instructions": "Very deep, smooth, resonant bass with a slightly ominous weight. Slow, formal and measured; mistakes named plainly and calmly. Anger makes it heavier and colder, not louder. Never rushed or shrill.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Izumo Taisha": {
+    "name": "Izumo Taisha",
+    "basicInfo": "The western end of the Izumo plain and the Shimane Peninsula where they meet the Sea of Japan, a cell that is mostly open water, its coast running southwest from the cape of Hinomisaki to the Oda shore. The land is a narrow wedge along the eastern and southeastern edges. Its center is Izumo Taisha, one of the oldest and most revered shrines in Japan, at the foot of green hills on the eastern edge. Its main sanctuary is the tallest in Japan, and the twisted straw rope over the Kagura hall is as long as a bus. Worshippers come to pray for good marriages and lasting bonds, bowing twice and clapping four times. In the tenth month of the old calendar the gods of all Japan are said to gather here, so Izumo calls it the month with gods, and a bonfire rite on Inasa Beach, just west of the shrine, welcomes them ashore. Shinmon-dori, the approach street, is lined with shops selling Izumo soba in stacked lacquer boxes, red-bean zenzai and charms. North along the coast road stand vermilion Hinomisaki Shrine and Hinomisaki Lighthouse, Japan's tallest stone lighthouse, above cliffs where black-tailed gulls nest on Fumishima islet. South runs a line of fishing hamlets and coves, Taki, Kute and the Oda shore, with the singing sand of Kotogahama near the southern edge and Mount Sanbe's northern slopes at the border. Oda is a quiet small city of fishers, farmers and commuters; the old silver mine of Iwami Ginzan lies just beyond the cell to the south. Winters are gray and windy, with some snow. The Ichibata line runs from Matsue along Lake Shinji to Izumo Taisha-mae, JR's San'in Main Line runs down the coast through Oda, and buses run from Izumo-shi station and the airport. From Musutafu it is about six hours by shinkansen to Okayama and limited express to Izumo-shi, or a flight from Tokyo. From Osaka it is about four hours by train or highway bus. A police box stands at the shrine approach, and a small hero agency in Izumo sends sidekicks to the shrine when New Year and festival crowds swell. Quirks turn up in daily life: a soba maker who never tires, a fisher with a feel for the weather. Visitors pray, eat soba, watch the sunset from Inasa Beach and swim in summer.",
+    "hiddenInfo": "Izumo lives on pilgrims, and the prosperity is uneven: the approach street booms while the fishing hamlets and Oda empty out. Crowds at New Year and in the month with gods bring pickpockets, fake fortune-tellers, matchmaking hustlers and Quirk users selling blessings. The local agency is small; help from Izumo city is within half an hour, but a major incident means heroes from Hiroshima or Okayama, hours away. On the cliffs and coves, rescue work is a bigger part of the job than villainy.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -12,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a72b1b38-326e-453c-9435-eff34eb1c717.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

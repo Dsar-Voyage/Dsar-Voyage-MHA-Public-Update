@@ -1,0 +1,20 @@
+{
+  "Katana": {
+    "name": "Katana",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 4
+      }
+    ],
+    "description": "A real steel katana with a curved single-edged blade and a cord-wrapped hilt, kept in a lacquered scabbard. Every real sword in Japan needs its own registration certificate from the prefectural board of education. Taking one wrapped and cased to a dojo or an appraiser is lawful; carrying one ready to draw in public is a crime. [ Weapon | About ¥300,000; registration required, carrying it illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe99ad56-f5e8-4b97-b464-6a9af04e6b87.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

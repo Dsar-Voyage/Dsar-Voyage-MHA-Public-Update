@@ -1,0 +1,25 @@
+{
+  "Citywide Mooring": {
+    "name": "Citywide Mooring",
+    "description": "For the rest of the day the user's anchors reach across the whole city, about thirty kilometers, and they hold up to ten at once. They feel every anchor's distance and direction without effort, snap to any of them at will, and may send or carry one touched person on each snap, so a hostage across town is reached in a breath and a burned worker stands at a hospital entrance a heartbeat later. Snaps still move one person at a time, never a group, and each arrival leaves the user dizzy. When the day ends every anchor fades and the user cannot snap until they have slept. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mha_hiryu_rin": {
+    "label": "Hiryu Rin",
+    "voiceTag": "male steady approachable",
+    "instructions": "Firm, mid-low young man's voice, clean and controlled, with crisp consonants and a martial artist's calm. Short, plain sentences; clipped, sure calls to teammates; a brief warm note when he approves. Never loud for show or rambling.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Who Is Asking in Deika": {
+    "name": "Who Is Asking in Deika",
+    "questSource": "Giran",
+    "questStatement": "Someone has been buying information on the League of Villains and paying better than anyone in the trade. Giran has noticed: questions about Tomura Shigaraki's people come with clean money, through middlemen who lead back to Deika City, a prosperous town with no business caring about villains. Giran wants to know who is asking before he decides whom to sell to, and anyone near the League has reason to want the answer.",
+    "mainObjective": "Go to Deika City and find out who is hunting the League of Villains before they move.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has learned who in Deika City is gathering information on the League and has taken it to Giran, the League or the police, or kept it for their own use."
+    },
+    "detailType": "detailed",
+    "questLocation": "Deika City",
+    "questDesignBrief": "A slow reveal in a city that seems too orderly. The hunters are the Meta Liberation Army, a movement thought long dead, led by Rikiya Yotsubashi as Re-Destro. The trail runs through Chitose Kizuki's interviews and Koku Hanabata's rallies on City Hall Plaza; each lieutenant tests whoever comes near. The PC can learn the Army exists, glimpse its size and even be offered a place in it, but the battle belongs to the Battle of Deika event: this quest never starts it, ends it or decides it. Giran may go quiet as the trail closes, taken as leverage, only if it fits the story. Failure: the PC is noticed, recruited against their will or silenced.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Studied: Hero Industry": {
+    "name": "Studied: Hero Industry",
+    "description": "🌟 You followed the hero world closely: rankings, agencies, merchandise, sidekick contracts and decades of hero history.\n\n🌱 You know the Hero Billboard Chart JP and its three measures, the major agencies and their districts, and you recognize pros on sight.\n⚠️ Insider deals, private Quirk details and agency politics never reach the public.\n⚖️ Knowing the industry earns no job or contract, and a fan's knowledge can make a pro wary.\n🏫 It shows in quick identification of heroes and an opinion on every ranking.\n\n📈 Grants: Hero Industry +15",
+    "traitNarrativeEffects": "The character has studied the hero industry: the Hero Billboard Chart JP and its three measures (incidents resolved, contribution to society and public approval), the major agencies and the districts they cover, famous heroes' public Quirks and specialties, sidekick and agency contracts, sponsorship and merchandise. They recognize a pro on sight and know which agency covers which ward. Prior study, not mastery: insider deals, private Quirk details and agency politics never reach the public. Not a license: knowing the industry earns no job or contract, and a fan's knowledge can make a pro wary. It shows in quick identification of heroes and an opinion on every ranking.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Hero Industry",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

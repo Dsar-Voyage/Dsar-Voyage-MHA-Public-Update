@@ -1,0 +1,34 @@
+{
+  "Follow: 1-A part 2 (before the story)": {
+    "name": "Follow: 1-A part 2 (before the story)",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){/*hot_lite:v1*/const K=\"fol_1-A part 2\";const STG=['',' (Sports Festival)',' (Summer Training)',' (Provisional License)'];let pl=check({type:'party-location'})||'',pa=check({type:'party-area'})||'';const TT=storage.travelTo,tkT=check({type:'game-tick'})||0;if(TT&&TT.tk===tkT){pl=TT.l;if(TT.a)pa=TT.a;}const cur=pl+'|'+pa,prev=storage[K];if(prev===cur){skip=true;return;}const st=String(check({type:'story-text'})||'');if(!st){skip=true;return;}storage[K]=cur;if(!prev||!pl){skip=true;return;}const pp=prev.split('|'),ppl=pp[0],ppa=pp[1]||'';const S=[\"Fumikage Tokoyami\",\"Mina Ashido\",\"Hanta Sero\",\"Mashirao Ojiro\",\"Mezo Shoji\",\"Rikido Sato\",\"Koji Koda\",\"Toru Hagakure\",\"Yuga Aoyama\",\"Minoru Mineta\"],STU=[\"Fumikage Tokoyami\",\"Mina Ashido\",\"Hanta Sero\",\"Mashirao Ojiro\",\"Mezo Shoji\",\"Rikido Sato\",\"Koji Koda\",\"Toru Hagakure\",\"Yuga Aoyama\",\"Minoru Mineta\"],CLS=true;const A=check({type:'action-text'})||[];const act=String(Array.isArray(A)?(A[A.length-1]||''):A);const tx=(st+' '+act).toLowerCase();const cm=CLS&&/\\b(class 1-[ab]|the class|the whole class|classmates|everyone|everybody|the others|the rest of (the )?class|the students)\\b[^.!?]{0,60}\\b(follow|follows|followed|head|heads|headed|walk|walks|walked|file|files|filed|go|goes|went|move|moves|moved|troop|troops|trooped|pile|piles|piled|spill|spills|spilled|out to|ride|rides|rode|board|boards|boarded|climb|climbs|climbed|into|toward|towards|across)\\b|\\b(leads|led|takes|took|brings|brought|herds|herded|sends|sent|marches|marched)\\b[^.!?]{0,40}\\b(the class|everyone|the students|classmates|1-[ab])\\b/.test(tx);let NM=-1,WM=0;function has(bit,w){if(NM<0){NM=0;const NR=/\\b(?:(dark shadow|tsukuyomi|fumikage|tokoyami)|(ashido|pinky|mina)|(cellophane|hanta|sero)|(mashirao|tailman|ojiro)|(tentacole|shoji|mezo)|(sugarman|rikido|sato)|(anima|koji|koda)|(invisible girl|hagakure|toru)|(can't stop twinkling|aoyama|yuga)|(grape juice|minoru|mineta))\\b/g,PR=/\\b(with|beside|alongside|next to|behind|after|joins?|joined|joining|follows?|followed|following|leads?|led|brings?|brought|takes?|took|escorts?|escorted)\\b[^.!?]{0,40}(?![\\s\\S])/,PO=/^[^.!?]{0,40}\\b(walks?|walked|walking|follows?|followed|following|falls? in|fell in|joins?|joined|tags? along|tagged along|comes? along|came along|heads?|headed|goes|went|leads?|led|catch(es)? up|caught up|hurries|hurried|jogs?|jogged|runs?|ran|keeps? pace|kept pace|stays? with|stayed with)\\b/;let mt;while((mt=NR.exec(tx))!==null){let ix=1;while(mt[ix]===undefined)ix++;const bit=1<<(ix-1);NM|=bit;if(PR.test(tx.slice(0,mt.index))||PO.test(tx.slice(mt.index+mt[0].length)))WM|=bit;}}return ((w?WM:NM)&bit)!==0;}const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));const ret=check({type:'read-boolean',key:'done_symbol_of_peace_retires'});const WP=storage.withPC||{},tk=check({type:'game-tick'})||0;const MQ={},QQ={};function nr(t,n){let q=QQ[t];if(!q)q=QQ[t]={type:t,npc:'anySceneNPC'};let m=MQ[t];if(m===undefined){q.npc='anySceneNPC';m=check(q);m=MQ[t]=m&&typeof m==='object'?m:null;}if(m&&Object.prototype.hasOwnProperty.call(m,n))return m[n];q.npc=n;return check(q);}for(let bi=0;bi<S.length;bi++){const base=S[bi];if(effects.length>=10)break;if(!cm&&!has(1<<bi,false))continue;const n=base==='All Might'&&ret?'All Might (Retired)':(STU.indexOf(base)>=0?base+STG[sg]:base);const l=nr('npc-location',n)||'';if(l!==ppl)continue;const a=nr('npc-area',n)||'';if(l===pl&&a===pa)continue;if(l===ppl&&a===ppa){if(!cm&&!has(1<<bi,false))continue;}else if(l!==ppl||!has(1<<bi,true))continue;if(nr('npc-in-party',n)===true)continue;const h=nr('npc-health',n);if(typeof h==='number'&&h<=0)continue;WP[base]=tk;effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:pl,area:pa});}storage.withPC=WP;if(!effects.length)skip=true;})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-boolean",
+        "key": "offCampus",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "campusOff",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "phase": "planning"
+  }
+}

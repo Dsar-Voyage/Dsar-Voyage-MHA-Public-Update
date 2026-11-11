@@ -1,0 +1,24 @@
+{
+  "From the Marrow": {
+    "name": "From the Marrow",
+    "description": "The user pours everything into a single surge that rebuilds their own body at once. Every wound, burn and broken bone in them heals and any poison burns away, they get up from serious injury ready to fight, and a limb, eye or organ they lost earlier regrows over the following night; afterward they are starving and heal no faster than an ordinary person until they eat a large meal. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

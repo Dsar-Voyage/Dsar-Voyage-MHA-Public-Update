@@ -1,0 +1,20 @@
+{
+  "Split Leash": {
+    "name": "Split Leash",
+    "description": "The user keeps several people under control at once, each caught by their own answer, and commands them together or each by name. Snapping one person free leaves the others held, so a whole gang can be walked out of a building with their hands on their heads. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

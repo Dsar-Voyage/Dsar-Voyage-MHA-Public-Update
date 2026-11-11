@@ -1,0 +1,20 @@
+{
+  "Glacier Slideway": {
+    "name": "Glacier Slideway",
+    "description": "The user lays a short ramp of stone-hardened ice up to a second-story window or across an alley and slides along it as it sets, carrying one person in their free arm. The dense ramp holds the weight of fleeing bystanders without cracking until heat melts it, so others can slide down to safety, but chilling their boots slows the user's running speed on the next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

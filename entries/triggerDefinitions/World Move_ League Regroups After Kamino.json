@@ -1,0 +1,33 @@
+{
+  "World Move: League Regroups After Kamino": {
+    "name": "World Move: League Regroups After Kamino",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 133
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const R=[\"Tomura Shigaraki\", \"Himiko Toga\", \"Twice\", \"Spinner\", \"Mr. Compress\", \"Magne\", \"Dabi\"],LO=\"Yokohama Harbor District\",AR=\"Chinatown Streets\",K=\"moved_League Regroups After Kamino\";const OW=storage.castOwner||{};const GN=storage.castGone||{},M=storage[K]||{};let left=0;for(const n of R){if(M[n]||GN[n])continue;const h=check({type:'npc-health',npc:n});if(typeof h==='number'&&h<=0){M[n]=true;continue;}if(OW[n]!==undefined||check({type:'npc-in-party',npc:n})===true){left++;continue;}effects.push({type:'npc-placement',npc:n,operation:'moveTo',location:LO,area:AR});M[n]=true;}storage[K]=M;if(!effects.length)skip=true;"
+  }
+}

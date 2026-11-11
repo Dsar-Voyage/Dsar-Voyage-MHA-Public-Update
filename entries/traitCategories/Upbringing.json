@@ -1,0 +1,17 @@
+{
+  "Upbringing": {
+    "name": "Upbringing",
+    "maxSelections": 1,
+    "traits": [
+      "Hero Family",
+      "Ordinary Family",
+      "Police Family",
+      "Wealthy Family",
+      "Raised in a Care Home",
+      "Criminal Ties",
+      "Grew Up Facing Prejudice",
+      "Family Business"
+    ],
+    "description": "🏠 The household that raised you."
+  }
+}

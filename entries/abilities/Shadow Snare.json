@@ -1,0 +1,20 @@
+{
+  "Shadow Snare": {
+    "name": "Shadow Snare",
+    "description": "The user lifts the shadow under a target within about ten meters into flat black bands that wrap their ankles or wrists and hold without hurting. The target cannot walk away or swing the held arm until they break free with a hard effort, a strong light falls on the bands or the end of the user's next turn. On a sunlit open street the bands are too thin to hold anyone. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

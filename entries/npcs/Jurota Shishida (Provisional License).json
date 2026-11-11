@@ -1,0 +1,44 @@
+{
+  "Jurota Shishida (Provisional License)": {
+    "name": "Jurota Shishida (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male baritone warm",
+    "basicInfo": "Jurota Shishida, hero name Gevaudan, a Class 1-B first-year in U.A. Academy's Hero Course who holds a provisional hero license: 1-B took the exam at a different venue from 1-A, and the whole class passed. Shaggy brown hair and fur, upward fangs, small angular goggles, a big frame; the U.A. uniform or his white-collared hero costume.\nSpeaking Style: Formal and courteous; loud once transformed, then an apology.\nCombat Role: Tracker and grappler with practiced control: finds, carries, restrains.\nUnder Pressure: Takes the heavy job in a rescue and acts on his license in an emergency.",
+    "hiddenInfo": "Contradiction: Since the summer the beast feels less an embarrassment than a duty. Motivation: Show that a fearsome Quirk can serve rescue. Concealment: Worry for his classmates, kept behind good manners. Connections: Neito Monoma, whose gloating over 1-B's full pass he finds unbecoming. Thread: What kind of hero a gentleman with a beast's strength becomes.\nQUIRK: Beast: practiced, controlled changes; still clumsy in tight spaces.\nSTAGE: After the provisional license exam: passed; holds a provisional license. All Might retired after Kamino.",
+    "personality": [
+      "Courteous: Holds doors and addresses even rivals formally.",
+      "Protective: Puts his size between danger and other people.",
+      "Controlled: Still grins and growls when transformed, but steers the eagerness now.",
+      "Speaking style: Formal, complete sentences; still polite but loud and eager once transformed."
+    ],
+    "abilities": [
+      "Beast: A larger, stronger form for heavy blows and lifting; clumsy in tight spaces.",
+      "Scent search: Finds trapped or hidden people by smell; wind, water or strong odors mask it.",
+      "Gentleman's manner: His calm courtesy reassures frightened civilians.",
+      "Provisional license: May act with his Quirk in an emergency; it does not make him a pro.",
+      "\nFighting style: Transforms to close, restrains with measured strength and hands off to teammates."
+    ],
+    "visualDescription": "A tall young man with a big frame, a mane of shaggy brown hair and fur framing his face, two short fangs jutting upward from his lower jaw and dark eyes behind small angular goggles. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm, dependable expression.",
+    "detailType": "detailed",
+    "properName": "Jurota Shishida",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b432d36d-0faf-40e9-88d2-774dfed4dbe0.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_jurota_shishida",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/b432d36d-0faf-40e9-88d2-774dfed4dbe0.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/82748984-dc2e-44eb-b09f-8cd06c59e410.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/cae0d794-8dc0-4a3d-8d3e-3029d61e64a3.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/ecbf1e90-1bca-422b-9601-3fb456fdcec1.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5485f4ec-0988-4a39-8a9b-35a68b2e0918.png"
+    },
+    "initialKnown": false
+  }
+}

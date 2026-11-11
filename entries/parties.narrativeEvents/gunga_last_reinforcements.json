@@ -1,0 +1,15 @@
+{
+  "gunga_last_reinforcements": {
+    "title": "Everyone Against All For One",
+    "beats": "Later in day 405's middle fighting, Shigaraki's Sensei stands restored on Gunga Mountain Villa's ruined grounds and begins growing younger. Hawks and Fumikage Tokoyami face him as the remaining coalition gathers. Inasa Yoarashi, Camie Utsushimi, and Seiji Shishikura reinforce the front; the Jaku group arrives only if its earlier departure succeeded.\n\nThe canon default course, as pressure the player can change: All For One has used a drug derived from Rewind that restores his body while carrying him toward eventual erasure. Shiketsu's coordinated support, Tokoyami's enormous Dark Shadow, and the attacks of Mount Lady and Gigantomachia delay him. Machia's response includes his own anger at abandonment, not merely obedience to Shinso. All For One ultimately devastates the coalition, steals Hawks's Fierce Wings, and leaves toward Shigaraki. Minoru Mineta's defiance helps distract him from taking Dark Shadow, which remains Tokoyami's.\n\nChoose an opening within the combined assault or the following rescue crisis. The player can extend the delay, shield Hawks from contact, protect Shinso, or help All For One escape. A prevented Quirk theft remains prevented. Machia is struck down in the default course, but collapse does not establish a precise death; leave him reachable for assessment. Severe casualties require field stabilization and transport to Musutafu General Hospital when extraction is secured. The enemy's rejuvenation is not an ordinary recovery that can continue indefinitely.\n\nBy place: Gunga Mountain Villa provides the coalition attack and casualty field. Jaku City verifies the arriving group's route. U.A. Academy, Okuto Island, and Kamino Ward receive a warning when All For One departs. Musutafu General Hospital prepares major casualty reception; Takoba Municipal Stadium keeps its own force engaged. Mount Fuji Battlefield receives the warning of an approaching enemy, not his automatic arrival. A distant player can protect an actual evacuation or interception route.\n\nBy Path: Class 1-A and Class 1-B coordinate attacks or extraction; General Studies supports Shinso's communications. Support sustains damaged gear, Management requests reserves, and Faculty organizes retreat. Licensed Sidekick extracts fallen fighters; Licensed Pro Hero delays All For One. League of Villains Recruit chooses between him, Machia, or defection; Independent Villain contests the departure. Vigilante rescues the fallen; Civilian Life clears medical routes.\n\nThe event is complete when All For One's departure or containment, the coalition's losses, and the actual status of Hawks, Dark Shadow, and Gigantomachia are established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_gunga_last_reinforcements",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

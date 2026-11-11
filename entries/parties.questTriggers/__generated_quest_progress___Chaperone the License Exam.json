@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Chaperone the License Exam": {
+    "name": "__generated_quest_progress__/Chaperone the License Exam",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has briefed their students on the license exam, studied the rival academies with Shota Aizawa, and accompanied the class to Takoba Municipal Stadium on exam day."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Chaperone the License Exam"
+      }
+    ]
+  }
+}

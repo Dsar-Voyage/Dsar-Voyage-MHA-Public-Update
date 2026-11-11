@@ -1,0 +1,20 @@
+{
+  "Detonation Palm": {
+    "name": "Detonation Palm",
+    "description": "The user thrusts an open palm at a target within a few strides and detonates. It deals explosive damage and throws the target off their feet; held back, the blast only staggers them and knocks them down without serious injury. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

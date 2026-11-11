@@ -1,0 +1,20 @@
+{
+  "Shatterhold Climb": {
+    "name": "Shatterhold Climb",
+    "description": "The user taps fingertips and boot toes into a wall and shakes out a small pocket with each tap, climbing a stone, brick or concrete face up to a rooftop at a steady pace. The pockets stay, so one other person can follow the same holds up or down. Smooth metal and glass give no holds, and the user cannot climb and fight at the same time. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

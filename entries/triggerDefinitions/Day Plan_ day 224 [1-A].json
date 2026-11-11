@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 224 [1-A]": {
+    "name": "Day Plan: day 224 [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 224
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_school_festival",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the U.A. School Festival: the campus is open to invited guests under heavy security, every class runs its stall or stage show, and there are no lessons."
+      }
+    ]
+  }
+}

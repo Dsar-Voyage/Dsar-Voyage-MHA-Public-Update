@@ -1,0 +1,28 @@
+{
+  "Pacific off Omaezaki": {
+    "name": "Pacific off Omaezaki",
+    "basicInfo": "Open Pacific south of Cape Omaezaki and the mouth of Suruga Bay, where the Suruga Trough runs out to meet the Nankai Trough in deep, dark blue water. The Kuroshio current flows east to the south, sometimes swinging close enough to warm the surface and push ships along. The busy coastal shipping route between Tokyo Bay and the ports of Nagoya, Osaka and Kobe rounds the Izu and Omaezaki capes here, and freighters, tankers and car carriers pass in a steady line day and night. Tuna and bonito boats out of Omaezaki and Yaizu work the open water, and sport fishing boats chase marlin in late summer. On clear days the Omaezaki lighthouse shows to the north and the Izu Peninsula's mountains to the northeast. To the east, police boats patrol the restricted exclusion zone around the prison island, and ships give it a wide berth. Weather is open-ocean weather: strong winter westerlies, fog in early summer and typhoons from late summer into autumn. Coast guard cutters patrol the route, and maritime heroes come out for sinkings and fires at sea. A party could be out here on a freighter, a fishing boat, a yacht, or carried by a flying hero.",
+    "hiddenInfo": "Fishermen grumble that the exclusion zone to the east has cost them good grounds, and a few push closer to its edge than they should. Help is a coast guard cutter or a maritime hero from the Shizuoka coast, an hour or more away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -1,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/55cb2d48-b7ea-44ad-858b-57ce80833d53.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

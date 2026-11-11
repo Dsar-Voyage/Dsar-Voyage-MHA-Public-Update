@@ -1,0 +1,30 @@
+{
+  "Tsuyama": {
+    "name": "Tsuyama",
+    "basicInfo": "Tsuyama is eastern Okayama Prefecture from the Mimasaka basin in the north to the Bizen hills by the Inland Sea, a cell that is almost all land except a sliver of coast at Hinase in the far southeast corner. The Yoshii River runs south through the middle from the mountains to the plain, the Asahi River skirts the west, and between them lie rolling hills, rice basins, orchards and pine-covered ridges. In the north, the castle town of Tsuyama, a city of about a hundred thousand, sits beneath the massive stone walls of Kakuzan Park, one of the finest cherry blossom sites in western Japan; the old Joto merchant street, a fan-shaped engine shed full of preserved locomotives and bowls of hormone udon make it a regional hub. East of it lie the hot springs of Yunogo at Mimasaka and a motor-racing circuit in the hills; south, the Misaki and Kumenan farm towns and Tanjoji temple. In the south the land turns to Bizen: Inbe, where Bizen ware is fired unglazed in wood-burning kilns, its brick chimneys and pottery shops lining the streets; Shizutani School, an old lecture hall roofed in Bizen-ware tiles among the hills; Wake and Akaiwa, famous for white peaches and Muscat grapes; and Hinase, a small port on the Inland Sea known for oysters and oyster okonomiyaki. Okayama's northern suburbs reach in along the south edge. Winters are cold and sometimes snowy in the north, mild in the south; summers are hot and dry, typical of the sunny Setouchi climate. The Tsuyama Line runs up from Okayama in about an hour and ten minutes, the Kishin Line crosses east to Himeji and west to Niimi, the Inbi Line climbs north to Tottori, and the Ako Line serves Inbe and Hinase near the coast; the Chugoku Expressway crosses the north and the Sanyo Expressway the south. From Musutafu it is about four hours by shinkansen to Okayama and the Tsuyama Line, and express buses reach Tsuyama from Osaka in about two and a half hours. Visitors see the castle hill in spring, shop for pottery, soak at Yunogo and eat oysters at Hinase in winter. Tsuyama has its own small hero agency and police station, potters with heat-resistant hands are common at the kilns, and sidekicks patrol the cherry blossom crowds.",
+    "hiddenInfo": "The north is depopulating while the south feeds commuters into Okayama. Small-time trouble is theft of valuable pottery from kilns and galleries, fruit theft before harvest, bike gangs on the Chugoku Expressway, and Quirk-users doing unlicensed heavy work in the quarries and lumber yards. Okayama's hero agencies are thirty minutes to an hour away by car, so the Tsuyama agency and the prefectural police cover most incidents across the north.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -9,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/427ce331-da97-41fa-844e-6861ff9c223e.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

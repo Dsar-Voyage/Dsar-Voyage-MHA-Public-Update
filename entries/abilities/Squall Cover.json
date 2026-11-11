@@ -1,0 +1,20 @@
+{
+  "Squall Cover": {
+    "name": "Squall Cover",
+    "description": "The user vents a burst of mist, rain and static from their personal cloud across a room or alley until the end of their next turn. The static hiss scrambles cameras, radios and electronic sights inside the cloud while the rain hides the user and nearby allies for a clean escape, though the user's own radio and phone cut out until the cloud clears. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Fused Shackle": {
+    "name": "Fused Shackle",
+    "description": "The user grips a target's wrist or ankle for a moment and grows a ring of glass around it that fuses to the floor, a railing or the target's other limb. The target cannot pull free until the shackle is struck at its weak point, which the user turns to the inside edge out of reach, broken with heavy tools or released by the user. A struggling target may slip the grip before the glass sets. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

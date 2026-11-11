@@ -1,0 +1,52 @@
+{
+  "Emitter": {
+    "name": "Emitter",
+    "description": "✨ Your Quirk comes out of your body or acts on the world around you: flame, cold, electricity, force, light, sound, a substance or a pull.\n\n🌱 You look ordinary until you use it, and control is what makes you safe to stand near.\n⚠️ Eraser Head's Erasure switches your Quirk off while he looks at you.\n🎬 Similar canon Quirks: Katsuki Bakugo (Explosion), Ochaco Uraraka (Zero Gravity), Momo Yaoyorozu (Creation).\n\n📈 Grants: Technique +1, Quirk Control +5, Quirk Mobility +5, Quirk Analysis +5\n⚡ Starting technique: Special Move Training",
+    "traitNarrativeEffects": "Type: Emitter. Sends something out of the body or acts beyond it: energy, elements, force, substances, or an effect on what the user touches or sees.\nErasure: while Shota Aizawa (Eraser Head) looks at the user with his Quirk active (hair up, eyes red), the Quirk is off; what it already made or moved stays (ice, fire, a thrown object). It returns the instant his look breaks: a blink (more often the longer he holds it), smoke or a wall in the way, or he looks away. Other suppression: same, while it lasts.\nLaw: use in public or on a person without a hero license is illegal except self-defense or supervised (school, licensed work). Attacks are hard to hide; witnesses and police can usually trace a blast. Ordinary in a crowd; most know the Quirk only by registration and reputation.\nConflicts: one Quirk Type only; Quirkless overrides it; with No Quirk, bonuses only.\nLook: ordinary at rest; shows only in use, where it leaves the body (palms, mouth, eyes, skin) and lands.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Special Move Training"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "League of Villains Recruit",
+      "Independent Villain",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "excludedBy": [
+      "Transformation",
+      "Mutant",
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

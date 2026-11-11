@@ -1,0 +1,37 @@
+{
+  "Shin Nemoto": {
+    "name": "Shin Nemoto",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Main House",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 18,
+    "tier": "elite",
+    "voiceTag": "male laconic calm",
+    "basicInfo": "Shin Nemoto, one of the Shie Hassaikai's Eight Bullets, Kai Chisaki's sworn enforcers, trusted at his side for a Quirk that makes people answer truthfully. Slim; a bowler hat, a black cape and a dark beaked mask.\nSpeaking Style: Cool and cynical; pointed questions, long silences.\nCombat Role: Interrogator and gunman: Confession forces answers, a handgun covers the rest.\nUnder Pressure: Draws the gun and puts Chisaki's safety first.",
+    "hiddenInfo": "Contradiction: Cynical about everyone, devoted to one man. Connections: Kai Chisaki (Overhaul), whom he would follow anywhere; Hari Kurono (Chronostasis), his fellow guard at Chisaki's side. Knowledge: Chisaki is making a drug to destroy Quirks, and Eri, the child kept in the Restricted Wing, is needed for it. Canon voice & behavior: Questions rather than threatens.\nQUIRK: Confession. Whoever hears his question must answer truthfully, but only with what they know.",
+    "personality": [
+      "Cynical: Assumes everyone hides something and asks until it comes out.",
+      "Calculating: Prefers leverage to a fight.",
+      "Devoted: Reveres Chisaki as he reveres nobody else.",
+      "Speaking style: Cool, pointed questions; never raises his voice."
+    ],
+    "abilities": [
+      "Confession: Compels truthful answers, but only what a person knows.",
+      "Interrogation: Tests visitors and doubtful members; vague questions get vague truths.",
+      "Handgun: Carries a pistol; no melee fighter.",
+      "Reading people: Spots fear and evasion; it shows where to press, not why.",
+      "\nFighting style: Keeps his distance, talks and shoots; close fighting is for others."
+    ],
+    "visualDescription": "A slim man in a long black cape over a dark suit, with a black bowler hat and a dark, beaked plague-doctor mask covering his face. Short, light-colored hair shows beneath the hat's brim at the back of his neck. Pale skin at his throat, and a handgun holstered at his hip beneath the cape. A cold, watchful air, every part of his face hidden but the dark lenses of the mask.",
+    "detailType": "detailed",
+    "properName": "Shin Nemoto",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/441d747e-deaf-4980-b90f-ae9f956d8c12.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_shin_nemoto",
+    "initialKnown": false
+  }
+}

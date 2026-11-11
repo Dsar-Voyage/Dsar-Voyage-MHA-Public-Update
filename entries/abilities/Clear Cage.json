@@ -1,0 +1,20 @@
+{
+  "Clear Cage": {
+    "name": "Clear Cage",
+    "description": "The user closes a box of panels around a single target within sight. Until the end of the user's next turn, or for as long after that as the user does nothing but hold it, the target cannot leave, attack anyone outside or be reached; a heavy blow from inside shatters it, and it holds enough air for the scene. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

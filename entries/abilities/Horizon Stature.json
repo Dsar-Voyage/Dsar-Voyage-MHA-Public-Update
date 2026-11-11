@@ -1,0 +1,25 @@
+{
+  "Horizon Stature": {
+    "name": "Horizon Stature",
+    "description": "The user grows to twice the height of the tallest building nearby and holds it for a few minutes. They cross a river or a ward in a few strides, catch the upper floors of a toppling high-rise and set them down, and their blows deal massive bludgeoning damage; held back, an open palm only pins a giant opponent or a vehicle in place. Every step cracks roads and bursts pipes, so the user must watch each footfall. Afterward they drop to normal size and cannot grow for the rest of the day. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

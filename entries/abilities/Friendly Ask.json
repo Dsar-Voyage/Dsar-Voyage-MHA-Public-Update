@@ -1,0 +1,20 @@
+{
+  "Friendly Ask": {
+    "name": "Friendly Ask",
+    "description": "The user asks one animal within earshot for a simple favor that fits what it is: a crow drops a note on a balcony, a cat slips through a gap and knocks a latch loose, a dog barks to raise the alarm or plants itself across a doorway. The animal does it at once unless it is afraid, hurt or asked to fight. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

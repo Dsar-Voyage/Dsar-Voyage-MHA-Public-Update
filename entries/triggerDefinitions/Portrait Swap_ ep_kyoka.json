@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_kyoka": {
+    "name": "Portrait Swap: ep_kyoka",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/080b57bb-6c5e-415d-af53-0d271a6f1380.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/080b57bb-6c5e-415d-af53-0d271a6f1380.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/080b57bb-6c5e-415d-af53-0d271a6f1380.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/080b57bb-6c5e-415d-af53-0d271a6f1380.png"
+      }
+    ]
+  }
+}

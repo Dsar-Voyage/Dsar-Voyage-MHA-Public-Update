@@ -1,0 +1,20 @@
+{
+  "Slick Skate": {
+    "name": "Slick Skate",
+    "description": "The user lays a film of weak acid under their soles and skates on it across any floor or road faster than a sprinter, sliding under closing doors and around obstacles. Until the end of the user's next turn, anyone who tries to grab them slips off, and anyone who chases them across the film falls. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

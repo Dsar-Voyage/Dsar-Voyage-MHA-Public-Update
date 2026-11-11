@@ -1,0 +1,20 @@
+{
+  "Split Body Screen": {
+    "name": "Split Body Screen",
+    "description": "The user separates the part of their body about to be struck, letting one blow pass through the gap, then guides the pieces back together by the end of their next turn. A nearby ally can use the opening to move clear. The user must see the attack coming; a broad blast or several simultaneous hits can still catch separated pieces. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

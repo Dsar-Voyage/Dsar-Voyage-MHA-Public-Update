@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_fumikage": {
+    "name": "Portrait Swap: ep_fumikage",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa600535-1a1f-40ec-aed6-e4b467d7eb47.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa600535-1a1f-40ec-aed6-e4b467d7eb47.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa600535-1a1f-40ec-aed6-e4b467d7eb47.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Fumikage Tokoyami (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa600535-1a1f-40ec-aed6-e4b467d7eb47.png"
+      }
+    ]
+  }
+}

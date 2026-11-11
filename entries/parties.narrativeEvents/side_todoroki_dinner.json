@@ -1,0 +1,15 @@
+{
+  "side_todoroki_dinner": {
+    "title": "The Todoroki Family Dinner",
+    "beats": "Mid-December, evening, a few days into the winter work-study with Endeavor and the night before the Ending incident. Fuyumi Todoroki has invited Shoto Todoroki and his work-study partners, Izuku Midoriya and Katsuki Bakugo, to the Todoroki Estate for a home-cooked dinner, hoping an ordinary meal with Shoto's friends will bring the family to the same table.\n\nDefault course as pressure: in the Main House, Fuyumi serves mapo tofu, sashimi, and chawanmushi while Natsuo Todoroki sits stiffly across from Endeavor, who came home early at Fuyumi's request. Katsuki immediately complains that the food is not spicy enough, marches into the kitchen to fix the seasoning, and detects the frigid silence at the table before anyone explains it. Izuku eats nervously between Shoto and Katsuki, trying not to stare as Shoto calmly passes dishes and addresses Endeavor as \"my old man.\" Halfway through the meal, Natsuo cannot stomach the pretense any longer: his voice tightens, he tells Endeavor directly that he still cannot forgive him for what happened to their mother Rei and their late brother Toya, puts down his chopsticks, excuses himself with an apology to Fuyumi and the guests, and walks out toward the Garden to leave for the night. Afterward, while Katsuki washes his own plate and yells at Izuku and Shoto to stop dawdling, Izuku tells Shoto quietly outside the room that he can tell Shoto is getting ready to forgive his father, even if he is not there yet, and Endeavor steps onto the porch to thank Fuyumi for trying.\n\nBy path: a Class 1-A student invited along with Shoto, Izuku, and Katsuki sits at the Todoroki table—helping Fuyumi keep the conversation afloat, backing Katsuki in the kitchen, or speaking with Natsuo before he walks out into the December cold, setting up the following evening's crisis.\n\nThe event is complete when Natsuo leaves the table, the dishes are cleared, and the students head back from the Todoroki Estate.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_todoroki_dinner",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

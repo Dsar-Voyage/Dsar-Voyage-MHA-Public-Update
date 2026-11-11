@@ -1,0 +1,20 @@
+{
+  "Turned Grip": {
+    "name": "Turned Grip",
+    "description": "The user seizes an opponent's weapon and reads at once how its owner holds it, which way they twist and when they let go. The user wrenches it free into their own hand, and the opponent is thrown off balance and pinned in a wrist lock until they break free with a hard effort or the user lets go. The weapon must be one the opponent has carried for at least a few minutes, long enough to leave residue. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

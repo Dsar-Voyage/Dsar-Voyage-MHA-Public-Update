@@ -1,0 +1,30 @@
+{
+  "Hagi": {
+    "name": "Hagi",
+    "basicInfo": "The Sea of Japan coast of northern Yamaguchi Prefecture, from the hot-spring valleys of Nagato in the west to the old castle town of Hagi and the quiet farm town of Abu in the east, with the green karst plateau of Akiyoshidai rising at the southern edge. The northern part of the square is open sea scattered with small islands. Hagi sits on a delta between two branches of the Abu River, its grid of earthen walls, white-plastered storehouses and summer-orange trees hardly changed since it was the seat of the domain that helped bring down the shogunate; the castle ruins stand on a hill by the sea, and the small private academy that taught many Meiji leaders is now a shrine and museum. Its potters make Hagi ware, soft pale tea bowls that change color with use, and a pottery festival fills the town each May. Just north of town, little Kasayama is a tiny dormant volcano by the sea. To the west, Nagato has the fishing port of Senzaki, known for kamaboko and squid, the cliff island of Omijima with boat tours past its sea arches, the hot-spring towns of Yumoto and Tawarayama along mountain streams, and a taste for yakitori. Near the western edge, Motonosumi Shrine sends a tunnel of red torii down a headland to the waves. Akiyoshidai is a high grassland studded with white limestone pinnacles, burned each February to keep it open, above one of the largest limestone caves in Japan. Winters are gray and windy with snow on the plateau; summers are hot and green. The JR San'in Main Line follows the coast through Nagato and Higashi-Hagi, the Mine Line runs inland, and buses link Hagi to Shin-Yamaguchi on the Sanyo shinkansen in about an hour; from Musutafu the trip is about five hours, from Hakata under two. Hagi and Nagato each have a police station and a small hero office, and licensed heroes patrol the castle district at festivals and cover farm districts by car. Visitors bicycle through the samurai quarter, buy pottery, soak in onsen, walk the plateau and take ferries out to the islands.",
+    "hiddenInfo": "Hagi is aging fast, and empty samurai houses and closed kilns are a quiet worry; town talk is about who will keep the old quarter alive. Tourists crowd the torii shrine and Akiyoshidai on holidays, and some wander off into the karst fields or caves. Small crime is fake or stolen pottery sold as old Hagi ware, car break-ins at scenic stops and night poaching along the coast. Bigger hero help is in Yamaguchi city, about an hour south over the mountains.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -14,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9f5783b4-5e57-46c2-9ebc-7cdc9ce3bfda.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

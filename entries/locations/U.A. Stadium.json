@@ -1,0 +1,145 @@
+{
+  "U.A. Stadium": {
+    "name": "U.A. Stadium",
+    "basicInfo": "U.A. Academy's main stadium: a huge oval bowl in its own walled park beside the main campus, about 1 km east of the main building, where the first-year events of the U.A. Sports Festival are held each spring before a full house and a national television audience. The festival has replaced the Olympics as Japan's biggest sporting event, and pro heroes come from across the country to scout students for internship offers; the second- and third-year events run at the same time in separate arenas. On festival days Midnight referees the first-year events, Present Mic calls them from the Broadcast Booth, Cementoss raises the tournament stage and Recovery Girl brings a festival-day first-aid post (her infirmary stays in the main building). The rest of the year the stadium stands mostly closed: only festival rehearsals and setup crews use it, while everyday training, P.E. and Quirk practice happen at the Athletics Field, Gym Gamma and the training grounds. It lies inside U.A.'s wall: students reach it by campus bus from the main building or a fifteen-minute walk along the campus road, and its doors open only for a class or session booked through the Faculty Office. On festival days the park's own outer gate opens to ticket holders, staffed by hired pros, and stays sealed the rest of the year. Students can train here with a booking or compete; outsiders come to scout, report or work the festival-day stalls. Campus buses run from the main building, and on festival days extra buses carry crowds up from Musutafu Station, about 3.5 km to the southwest. Empty, the bowl is enormous and still, and the wind hums over the rim.",
+    "hiddenInfo": "In the weeks before the festival, setup crews, broadcasters and hired security move through the stadium every day, and their passes get far less scrutiny than an ID at the Main Gate. That season has started: this month the national broadcaster's crew began running cable under the rim and testing the giant screens two or three afternoons a week, on contractor day passes signed at the gate. Agencies send staff to study the Hero Course in advance, and a few Management Course students quietly sell their own scouting notes. On the day, tens of thousands of spectators pass through ticket gates staffed by hired pros, and anyone with a ticket can sit a few rows above the arena floor. The faculty weighs festival results when it decides transfers between General Studies and the Hero Course, and General Studies students who want a transfer train for it after hours, some on this track with a borrowed booking. The first-year event list is not posted yet; Midnight and Present Mic are drafting it behind the Teachers' Lounge door, and students who try to guess it are wasting their time.",
+    "x": -3.48,
+    "y": -18.637,
+    "radius": 0.34,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Stadium Gate Plaza": {
+        "description": "The way into the stadium from the campus road: a broad paved plaza at the foot of the bowl's curved outer wall, with a bus turnaround and a covered campus bus stop on one side, a row of tall glass doors and steel turnstiles under the U.A. crest, and a separate competitors' entrance down a ramp to the tunnels under the stands. Campus buses from the Campus Bus Terminal drop classes here, and the fifteen-minute walk along the campus road from the main building ends here too. The doors open only for a class or session booked through the Faculty Office, and a staff member with a tablet checks names at the turnstiles. On festival days the plaza fills: extra buses unload crowds brought up from Musutafu Station, ticket holders queue through the turnstiles past hired pro heroes on security, broadcast vans park nose to tail along the curb, and the smell of the stalls drifts out through the doors. Out of season the plaza is wide, swept and nearly silent, the turnstiles chained, the bus shelter's bench the only place to wait. Through the turnstiles lies the Concourse; the ramp leads down to the Competitor Waiting Rooms.",
+        "paths": [
+          "Concourse Food Stalls",
+          "Competitor Waiting Rooms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ca82543d-48db-4ed9-8760-6432b74543ce.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Arena Floor": {
+        "description": "The oval field at the bottom of the bowl, ringed by a running track and walled off from the lowest seats by a padded barrier taller than a person, with a wide tunnel gate at one end where competitors come out from the Competitor Waiting Rooms. On festival days Cementoss raises a square concrete stage in the middle for the tournament, and leaving its bounds loses the match; Midnight referees from beside it, and the roar from the Spectator Stands comes down from every side at once. The rest of the year classes use the track and field for P.E., fitness tests and drills, booked through the Faculty Office, and festival rehearsals mark the turf with chalk lines and cones. Groundskeepers roll the turf early on Monday mornings. When the stands are empty, a single runner's footsteps echo around the whole bowl, and the giant screens at either end stay dark unless a technician is testing them.",
+        "paths": [
+          "Competitor Waiting Rooms",
+          "Spectator Stands"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0c9ab7ee-1619-48df-941a-f638a1e0c1e3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Spectator Stands": {
+        "description": "Steep tiers of seats rising from the field to the rim, with giant screens at both ends and reserved sections near the front where pro heroes sit to scout, notebooks and phones out. Festival days fill them with tens of thousands of families, fans and agency staff, and the noise is a solid wall when a match ends. The lowest rows look straight down onto the Arena Floor, a staff stair climbs to the Broadcast Booth, and tunnels lead back to the Concourse Food Stalls. The rest of the year they are empty except for cleaning crews, camera riggers and the odd student eating lunch in the top rows, which nobody minds as long as the wrappers leave with them. From the rim the whole field is visible at once, including which pros take notes on whom. The wind across the top rows never stops, and on clear days Mount Fuji shows above the far rim.",
+        "paths": [
+          "Arena Floor",
+          "Broadcast Booth",
+          "Concourse Food Stalls"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e936c37d-fe49-4978-86d5-173829fa2d62.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Competitor Waiting Rooms": {
+        "description": "A corridor of small rooms under the stands, each with a bench, a table, a water cooler, a wall monitor showing the arena and a numbered card on the door. On festival days competitors wait here alone or in pairs until staff call them a few minutes before their turn, then walk the tunnel out to the Arena Floor; Recovery Girl's treatment room is at the end of the same corridor, and the injured come back past every door. Competitors are not supposed to visit each other's rooms, and it happens anyway: a friend with a pep talk, a rival with a warning. The rest of the year the rooms serve as changing rooms for classes using the field, with lockers that stick. Through the concrete, the crowd overhead is a constant muffled roar, and a big cheer rattles the ceiling lights.",
+        "paths": [
+          "Arena Floor",
+          "Stadium Gate Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8c49e50f-dddc-4bf3-a970-f126689ef80b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Broadcast Booth": {
+        "description": "A glass-fronted box high in the stands with a commentary desk, microphones, a mixing board and banks of monitors, shared with the national broadcaster's crew and reached by a staff stair from the Spectator Stands. Present Mic calls the first-year festival events from here, and he likes to drag a reluctant colleague in beside him as co-commentator, Shota Aizawa (Eraser Head) most of all. On the day a director, a replay operator and two camera coordinators fill the back row, and the desk has a cough button nobody remembers to use. Out of season, technicians test feeds and cameras a few days a week, and the booth stays locked otherwise; its key is signed out from the Faculty Office. Behind the soundproof glass the stadium goes silent, and the only sound is the hum of the equipment and the warm smell of electronics.",
+        "paths": [
+          "Spectator Stands"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/23c82dfd-bdb0-4535-8dc3-bfcb5ea3594b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Concourse Food Stalls": {
+        "description": "The wide ring corridor behind the stands and the plaza outside the gates, lined with shuttered stall frames, vending machines and restrooms, with ramps up into the Spectator Stands every few dozen meters. On festival days vendors fill every frame with yakisoba, takoyaki, grilled squid, shaved ice and hero merchandise, lines wind around the pillars between events, and hired pro heroes on security duty walk the crowd. Stall work is a festival-day part-time job open to anyone who applies, paid at the end of the day, and Musutafu locals take it every year for the pay and the gossip. Out of season only the vending machines and their restockers are here, and the stall frames sit padlocked. On festival mornings the smell of grilled sauce reaches the seats before the crowds do.",
+        "paths": [
+          "Spectator Stands",
+          "Stadium Gate Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fe58029d-1d22-45f0-8231-b25067abfe13.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "U.A. Academy"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1a6b6d3f-2e4d-442a-9f3a-14c53b18b614.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "First Patrol Report": {
+    "name": "First Patrol Report",
+    "questSource": "Kamui Woods",
+    "questStatement": "Your first week of patrols has to go on paper, and the paper has to be right: the agency logs every Quirk use, every capture and every yen of property damage, and the Commission audits the numbers. One capture you assisted near the station also appears in Kamui Woods' report, and his account and yours do not match. He has asked you to come to the Agency Offices on Hero Agency Row and settle it before either report goes in.",
+    "mainObjective": "File a complete, accurate first-week patrol report and settle the mismatch with Kamui Woods.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has filed the first week's patrol report with every Quirk use and capture accounted for, and the disputed capture is settled with Kamui Woods, honestly or not."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hero Agency Row",
+    "questDesignBrief": "Workplace realism with a quiet test of character. Kamui Woods is calm and exact; he cares less about credit than about a correct record, and he notices padding. The mismatch can be an honest error, a lead hero who told the PC to claim the capture, or a Quirk use the PC left out because it broke agency rules. Mount Lady may drift through the Ready Room and make the dispute louder; Sansa Tamakawa can confirm the police side. Failure is paperwork-sized: a reprimand, a docked bonus, and a reputation for sloppy reports that follows the PC along Hero Agency Row. No villain plot surfaces here, and no canon event is staged or foreshadowed.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

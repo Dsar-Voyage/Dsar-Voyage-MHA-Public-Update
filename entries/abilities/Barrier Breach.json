@@ -1,0 +1,24 @@
+{
+  "Barrier Breach": {
+    "name": "Barrier Breach",
+    "description": "The user holds a focused beam on one solid barrier within a street's width until it burns an opening wide enough for a person to pass. The beam can break a reinforced door or a thick concrete section, but it cannot curve around anyone behind it. The user must know the space beyond is clear, and the sustained firing leaves them doubled over until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Crimson Lifeline": {
+    "name": "Crimson Lifeline",
+    "description": "The user casts a long cable of blood that hardens where it strikes a ledge, a pole or a railing, then hauls themselves up a building face or swings across a street-wide gap. Cast at a person who is falling or in the water, the cable wraps around them and the user lowers or pulls them to safety. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

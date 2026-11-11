@@ -1,0 +1,44 @@
+{
+  "Kosei Tsuburaba (Sports Festival)": {
+    "name": "Kosei Tsuburaba (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Kosei Tsuburaba, hero name Tsuburaba, a Class 1-B first-year in U.A. Academy's Hero Course. At the Sports Festival, on Neito Monoma's cavalry team, his air wall blocked Katsuki Bakugo before Bakugo's team took the headbands back; he did not reach the final tournament. Tousled auburn hair, large dark eyes; the U.A. uniform.\nSpeaking Style: Casual banter; the second joke, never the first.\nCombat Role: Support and control with invisible walls; a long day drains his breath.\nUnder Pressure: Sticks to 1-B's plan and puts a wall where it is needed.",
+    "hiddenInfo": "Contradiction: He wanted a moment on national television, and his Quirk works best unseen. Motivation: Build a wall people remember. Connections: Katsuki Bakugo, whom he stopped once, and who did not stay stopped. Knowledge: Knows the USJ attack on 1-A from the news and campus talk. Canon voice & behavior: Retells the Bakugo block a little bigger each time. Thread: Whether anyone outside 1-B noticed the guy who built the wall.\nQUIRK: Solid Air, unchanged.\nSTAGE: After the Sports Festival: hero name Tsuburaba; no tournament match.",
+    "personality": [
+      "Team player: Builds exactly where 1-B's plan tells him.",
+      "Loud reactions: Groans or whistles when a rival does something good.",
+      "Rivalry for sport: Enjoys 1-B's grudge against 1-A as a contest, not a resentment.",
+      "Speaking style: Casual banter and audible reactions; talks bigger after a win than it deserves."
+    ],
+    "abilities": [
+      "Solid Air: Hardens his breath into a transparent solid; the air he has left sets the size.",
+      "Transparent wall: Blocks a route or attack unseen; a heavy blow breaks it.",
+      "Capture barrier: Boxes a target in until a teammate makes the capture.",
+      "Breath pacing: Rations air across a long day; empty lungs leave him exposed.",
+      "\nFighting style: Blocks and steers rivals toward a teammate's grab; avoids a straight brawl."
+    ],
+    "visualDescription": "A young man with short, tousled auburn hair, large round dark eyes, an ordinary, friendly face, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Proud, slightly cocky grin with his chin up.",
+    "detailType": "detailed",
+    "properName": "Kosei Tsuburaba",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2df8cf50-16e6-49a6-88b4-be5b10699905.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kosei_tsuburaba",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/2df8cf50-16e6-49a6-88b4-be5b10699905.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/655dabb4-2e90-4f54-930f-d2c0a42caf7d.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/b3efbdd5-4acc-4bb8-ab95-d71d583ad204.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/13cbb9e7-b90c-4f3e-b05a-d3b087e63b03.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/1f67c570-33c3-4b44-93aa-f48dfd9066fd.png"
+    },
+    "initialKnown": false
+  }
+}

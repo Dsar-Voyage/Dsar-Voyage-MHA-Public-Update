@@ -1,0 +1,25 @@
+{
+  "District Bound": {
+    "name": "District Bound",
+    "description": "The user's animal body runs at its full limit for the rest of the scene: each bound clears a city block, and they cross a district by rooftop, wall and street in moments, carrying up to two people at once. In one action they strike every enemy on a whole city block in turn with their natural weapons, dealing heavy slashing or bludgeoning damage; held back, each enemy is only knocked flat. When the scene ends the user's legs give out, and they cannot bound or sprint until they rest a full night. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

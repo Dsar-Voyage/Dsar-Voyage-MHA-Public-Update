@@ -1,0 +1,21 @@
+{
+  "No Drawback (Quirkless)": {
+    "name": "No Drawback (Quirkless)",
+    "description": "➖ You have no Quirk, so you have no drawback. This is the Drawback pick for Quirkless characters.\n\n🧩 Choose it with the Quirkless Quirk Type.\n🌱 It gives nothing by itself.",
+    "traitNarrativeEffects": "The character has no Quirk, so nothing strains, backfires or runs out. They never gain Quirk Strain, and no drawback shows at any point. This pick belongs with the Quirkless Quirk Type. Conflicts: if the character has a Quirk (a Quirk Type of Emitter, Transformation or Mutant with a real Quirk Family), this trait does not make the Quirk free. The narrator gives it plain fatigue as its drawback: at Quirk Strain 60 (50 for an Exceptional Quirk) the user breathes hard and their aim and focus slip; at 80 the drawback is active, any use beyond light risks failing, and the user shakes with effort; at 100 the Quirk gives out until Strain falls below 60 and the user is left drained. In ordinary life that user tires after long practice and nothing more. If the character chose Quirkless, this trait applies as written.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Quirkless"
+    ],
+    "excludedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "requirements": []
+  }
+}

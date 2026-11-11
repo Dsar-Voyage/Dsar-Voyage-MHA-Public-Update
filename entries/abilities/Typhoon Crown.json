@@ -1,0 +1,25 @@
+{
+  "Typhoon Crown": {
+    "name": "Typhoon Crown",
+    "description": "The user spins up a storm that turns over a whole city district for the rest of the scene, with the user standing in its calm center. Every enemy in the open within it who tries to rise is thrown back down and takes heavy force damage; held back, the wind only keeps them flat. Smoke and gas blow clear of the district and nothing but the user can fly through it, but fires there flare in the wind and signs, glass and loose debris fly, so bystanders must shelter indoors, and the user cannot leave the center while it lasts. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

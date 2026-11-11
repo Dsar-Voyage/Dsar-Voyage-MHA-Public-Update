@@ -1,0 +1,17 @@
+{
+  "Grading the Battle Trial": {
+    "name": "Grading the Battle Trial",
+    "questSource": "All Might",
+    "questStatement": "All Might is running his first combat class, the indoor Battle Trial at Ground Beta, and he has asked for a second pair of eyes in the monitor room. Two-person teams of heroes and villains fight over a mock bomb while you watch every camera feed, keep score and step in if a round turns dangerous. Afterward the class expects a grade and a reason for it.",
+    "mainObjective": "Supervise the Battle Trial rounds with All Might and give every student a fair grade.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has supervised Battle Trial rounds from the Ground Beta monitor room, judged when to stop a round, and delivered grades with reasons to the students."
+    },
+    "detailType": "detailed",
+    "questLocation": "Ground Beta",
+    "questDesignBrief": "A faculty seat at a famous lesson. All Might is enthusiastic, reads from a cue card and hesitates over hard calls; the PC's judgment can steady him or clash with his. Canon pressure: Katsuki Bakugo hunts Izuku Midoriya instead of the objective and a gauntlet blast wrecks a floor, Izuku breaks his own arm to win, and Shoto Todoroki freezes a whole building. Stopping a round early or letting it run is the PC's call to argue. Students dispute their grades, and Momo Yaoyorozu's critique may rival the PC's. Recovery Girl treats the injured and scolds whoever let it happen. Nothing here touches All Might's private life.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "Wild Wild Pussycats Lodge": {
+    "name": "Wild Wild Pussycats Lodge",
+    "basicInfo": "The lodge is a large two-story timber building in a mountain valley, deep in the private forest land owned and patrolled by the Wild Wild Pussycats, a four-hero mountain rescue team that has worked together for well over a decade: Mandalay (Telepath), the calm leader who speaks into many minds at once; Pixie-Bob (Earth Flow), loud and theatrical, who reshapes whole hillsides; Ragdoll (Search), bubbly and exact, who tracks up to a hundred people she has seen; and Tiger (Pliabody), the massive drill instructor who bends his body at impossible angles. They wear matching cat-themed costumes and strike their team pose for every introduction. It is their office, bunkhouse and training base, and Kota Izumi, the small boy in Mandalay's care, lives here with them, scowling under a horned cap. In summer the lodge hosts U.A. Academy's training camp and sleeps about forty guests; the rest of the year the team answers search-and-rescue calls across a wide stretch of mountains. Their day starts at dawn with drills and radio checks, and calls come at any hour; in April, snowmelt, mudslides and lost hikers keep them busy. A player can train here with the team's permission, volunteer as rescue support, help run the lodge, or recover in the hot spring; the land is private, and anyone who arrives uninvited is greeted kindly and asked their business. One mountain road climbs to the lodge from the highway, about 130 km northwest of U.A. Academy, three to four hours by chartered bus; there is no rail line, and the nearest town is far down the valley. Beast's Forest lies to the northwest, about three hours across on foot for the team. The lodge smells of woodsmoke, curry and cedar, and the radio is never off.",
+    "hiddenInfo": "The team is busier and poorer than its cheerful act suggests. Four heroes cover hundreds of square kilometers, rescue work pays little, and summer camp fees and merchandise keep the agency afloat. Mandalay's Telepath only sends: she can speak into many minds at once but hears nothing back, so the team relies on radios and on Ragdoll's Search, which tracks the position and weaknesses of up to a hundred people at once, but only people she has seen. Kota disappears for hours most afternoons; Mandalay has never found where he goes, and his contempt for heroes is getting worse. Ragdoll keeps him registered, and Mandalay has asked her not to say where he is unless he is in danger; that is the arrangement between them, and Kota does not know it exists. Pixie-Bob spends her mornings in the forest reshaping trails the winter washed out. Right now a group of video streamers keeps sneaking into Beast's Forest to film the earth beasts; the team has warned them twice. Ragdoll registered the two who argued with her at the road lookout, but the third stayed behind the camera, and she never saw that one. Their car has been parked at the lookout for two nights, and nobody at the lodge has checked it yet; the radio log shows no call. When the team finds out, Mandalay will want every pair of hands on the slopes before dark.",
+    "x": -10.68,
+    "y": 3.9,
+    "radius": 1,
+    "region": "Mountain Training Lands",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Lodge Hall": {
+        "description": "The main building: an entry hall racked with boots, ropes and rescue packs, a long dining hall with low tables for forty, a map and radio room the team uses as its office, and guest rooms upstairs. Breakfast is at seven and dinner at half past six; at night the team gathers around the map table to plan the next day's searches, and Pixie-Bob complains about her love life until Mandalay cuts her off. Framed team photos line the stairs, decades of the same pose in the same cat ears. Kota eats fast and leaves early. The radio scanner crackles all day, and at mealtimes Mandalay calls everyone in by speaking straight into their heads. Doors lead out to the Outdoor Kitchen behind the lodge, the Hot Spring Bath and the Training Clearing beside it.",
+        "paths": [
+          "Outdoor Kitchen",
+          "Hot Spring Bath",
+          "Training Clearing",
+          "Men's Bunk Room",
+          "Women's Bunk Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/20c0d2d5-28b8-4329-8fef-0e4c1ee56520.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Outdoor Kitchen": {
+        "description": "A roofed cooking area behind the lodge: wood-fired stoves, giant rice cookers, long prep tables and stacks of pots big enough to feed forty. During camps the guests cook their own meals here; the rest of the year the team takes turns, cooking curry and stew in bulk for the week, and Kota is often put to work peeling vegetables, which he does in silence and badly on purpose. Ragdoll hums while she chops and greets anyone new at full volume. A woodpile and a chopping block stand at one end, and a hose bib by the sink is the only water. The air smells of woodsmoke and curry, and the house rule is that whoever burns the rice washes every pot. The back door leads into the Lodge Hall.",
+        "paths": [
+          "Lodge Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3efc2cff-0a85-4fae-97d1-6e66de8accbf.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hot Spring Bath": {
+        "description": "Outdoor rock pools fed by a natural hot spring, split into men's and women's sides by a tall wooden wall, with a changing house and a covered rinsing area of low stools and wooden buckets. Guests can bathe from four in the afternoon until eleven at night; the team uses the pools after night searches to thaw out, and the morning soak belongs to whoever came back from the latest call. A hand-painted sign asks bathers to rinse first and keep their voices down, and Pixie-Bob ignores the second half. Steam rises into the cold air, the water smells faintly of sulfur, and a mountain stream runs loud just beyond the fence, swollen with snowmelt in April. A stone path leads back to the Lodge Hall.",
+        "paths": [
+          "Lodge Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d15e3939-bbf1-43c2-9c41-78319ba6e123.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Training Clearing": {
+        "description": "A wide stretch of packed earth and rock beside the lodge, ringed by forest and a low cliff, which Pixie-Bob reshapes on request into slopes, pits and walls. Tiger runs body-conditioning drills here at dawn, barking short orders and demonstrating rather than explaining; Mandalay and Ragdoll run search exercises in the afternoon; during camps, dozens of students push their Quirks here from morning to dusk under the team's supervision. A rack of stretchers and climbing gear stands at the edge for rescue carries. The ground never stays the same from one day to the next, and yesterday's footprints end at walls that were not there. The lodge's side door leads back into the Lodge Hall.",
+        "paths": [
+          "Lodge Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d272f024-36f3-4c0a-af48-8efa5e0fd0b2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Men's Bunk Room": {
+        "description": "The larger of the two guest rooms upstairs in the lodge: one long tatami room under the slope of the roof, with sliding paper doors onto the landing, a row of small windows facing the forest, and futons for twenty-some guests stacked in a wall cupboard by day and rolled out edge to edge at night. A low table sits by the window under a single paper lamp; bags, boots and drying towels collect along the walls no matter how often Tiger orders them tidied. During U.A.'s summer camp the Hero Course men sleep here, falling onto their futons after twelve hours in the Training Clearing, too sore to talk, or else talking far too long: pillow fights, a card game on the low table, someone snoring in a way that sounds like a Quirk, and Tenya Iida announcing lights-out at ten and enforcing it alone. The windows stay open for the cold mountain air, the wooden floor creaks on the stairs, and the smell is cedar, liniment and the curry from dinner below. The rest of the year it holds rescue volunteers and the odd stranded hiker. The stairs lead down to the Lodge Hall.",
+        "paths": [
+          "Lodge Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/28c3cbc1-c55d-4f46-b57b-ad2f3a72ffc4.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Women's Bunk Room": {
+        "description": "The second guest room upstairs, across the landing from the men's: a long tatami room with sliding paper doors, a row of windows looking down over the Hot Spring Bath's wooden wall to the trees, futons stacked in a cupboard by day and laid out in two neat rows at night, and a mirror and outlets by the door that are always fought over. A kotatsu-style low table holds snacks, a first-aid kit and a fan; Ragdoll has left a hand-drawn welcome card on the wall. During U.A.'s summer camp the Hero Course women sleep here after the day's training: sore arms, muscle cream passed hand to hand, talk about the day's drills and Pixie-Bob's matchmaking, Toru Hagakure's floating pajamas startling whoever wakes first, and a firm rule that the door stays closed after lights-out. Mornings start before dawn when Tiger's whistle carries up the stairs. The room smells of cedar, soap from the bath and the forest through the window screens. The rest of the year rescue volunteers and stranded hikers sleep here. The stairs lead down to the Lodge Hall.",
+        "paths": [
+          "Lodge Hall"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e45bd737-8489-4021-9d47-c463de3bfce7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Wild Wild Pussycats"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/07675f1d-042b-4696-bdae-993cac02fe5e.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

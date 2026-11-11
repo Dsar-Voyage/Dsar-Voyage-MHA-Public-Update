@@ -1,0 +1,15 @@
+{
+  "man_agency_placement": {
+    "title": "Agency Office Placement",
+    "beats": "September, in the weeks after the provisional license exam. The Management Course sends its first-years out for a week on the business side of a working hero agency, and the scene meets the party wherever it is: a placement letter, a train ride, a front desk with three phones. The agency is a mid-size office in Musutafu or near the party; its head is a working pro too busy to look up, and its staff are an office manager who actually runs everything, a tired publicist and a dispatcher in a headset. All of them are generic people; no canon hero runs this office.\n\nThe default course, as pressure the player can change: since All Might retired, call volume has doubled and the patrol schedule no longer fits the sidekicks the agency can pay. The office manager hands the student the week. Rebuild the patrol rota so nobody works three nights in a row. Sit in on the quarterly call with a sponsor, a regional bakery chain that wants its logo on camera and is nervous about a property damage claim from last month. Answer the public line, where a lost cat, a noise complaint and a frightened caller who saw someone climbing a roof all count. Draft the agency's two-line comment for a reporter asking whether small agencies can hold the line now that the Symbol of Peace is gone. Endeavor's name comes up in every meeting, and the newly licensed students from U.A. and Shiketsu are everyone's recruiting topic.\n\nMidweek, dispatch sends the pro out during the sponsor call and leaves the student holding it alone; the sponsor stays or walks on what the student says. A rota that ignores the sidekicks' rest gets one of them hurt on a late patrol by Friday, minor and preventable; a fair rota holds. The publicist steals the best line from the student's draft and takes the credit unless someone objects.\n\nThe event is complete when the week's rota is posted, the sponsor's decision is in and the office manager signs the student's placement report.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_man_agency_placement",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

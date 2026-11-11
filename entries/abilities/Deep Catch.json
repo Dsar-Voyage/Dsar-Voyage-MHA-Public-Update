@@ -1,0 +1,20 @@
+{
+  "Deep Catch": {
+    "name": "Deep Catch",
+    "description": "The user thickens their body across the path of incoming fire. Until the start of their next turn, blades, bullets, arrows and shrapnel aimed at the user or at a person they cover sink into the soft mass and stop: they deal no damage, bullets drop at the user's feet, and a blade stays held until the user lets go. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

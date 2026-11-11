@@ -1,0 +1,15 @@
+{
+  "v_plf_founding": {
+    "title": "The Paranormal Liberation Front",
+    "beats": "A day in December at the Gunga Mountain Villa, in snow, after the Battle of Deika. The Meta Liberation Army knelt to the League of Villains, and the two are now one: the Paranormal Liberation Front, with more than a hundred thousand followers across Japan. Believers drive up the private road all day in cars and chartered buses. In the villa's great hall the League sits where the army's leaders sat, in the new coats and uniforms of the Front.\n\nTomura Shigaraki takes the head of the hall as the Front's commander. Re-Destro, the army's leader, stands below him and swears the army to him in front of everyone. The army's lieutenants, Geten, Koku Hanabata and Tomoyasu Chikazoku, take their places too, and Dabi, Himiko Toga, Twice, Spinner and Mr. Compress, and Magne if the story kept her with the League, are each given command of units of believers. Down in the ravines of the Mountain Slopes, Gigantomachia sleeps and answers to Tomura now.\n\nCanon default course, as pressure the player can change: the believers hear liberation in Tomura's words; the League hears only destruction, and nobody says so out loud. Geten makes plain that he serves the cause and despises the League. Chikazoku sneers at the League's lack of discipline and wants rosters, ranks and schedules. Twice is overwhelmed by a crowd that calls him sir; Spinner is thrilled and terrified to command anyone; Toga is bored by every speech; Dabi watches all of it with his own reasons and shares none.\n\nA League recruit is the newest name in an army of veterans. The recruit is offered a rank and a unit, or a place at a League member's side, and the believers test the recruit's Quirk on the snowy slopes. Disrespect from an old army lieutenant, a test of loyalty, or a chance to stand out in front of Tomura can all come before the night ends.\n\nThe event is complete when the founding ceremony ends and the recruit has a place in the Front, or walks out of the hall.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_plf_founding",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

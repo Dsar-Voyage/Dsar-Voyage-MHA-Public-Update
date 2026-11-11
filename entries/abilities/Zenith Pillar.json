@@ -1,0 +1,25 @@
+{
+  "Zenith Pillar": {
+    "name": "Zenith Pillar",
+    "description": "The user's signature move: every bit of heat gathers into a white star between the palms, then leaves as a pillar of flame wide enough to fill a street. It deals massive fire damage to everything along its line and burns through any armor or barrier in the way; afterward the user cannot make flame until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

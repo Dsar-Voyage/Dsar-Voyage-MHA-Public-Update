@@ -1,0 +1,32 @@
+{
+  "Gifted: Mental Command": {
+    "name": "Gifted: Mental Command",
+    "description": "🧬 Mental Command, as an extra Quirk put into your body.\n\n🌱 At the start you hold one person at a time with simple commands until pain or a shock snaps them free, and you know what to say to draw a reply from someone on guard.\n📈 With training: orders that outlast the hold, minds freed from panic or control, phone commands, several held at once, mind overload, a crowd, a person's skills and Quirk.\n⚠️ Many call it a villain's Quirk and go silent once they know.\n🔗 Common drawback pairing: Activation Condition, as Strain demands a longer, clearer answer.\n🎬 Similar canon Quirks: Hitoshi Shinso (Brainwashing).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Mental Command family): Scale: anyone who answers the user aloud blanks and obeys short spoken commands (stop, sit, drop it), doing nothing on their own. A new adult user holds one person in earshot at a time, up to several minutes. Bigger feats need techniques. Limits: only a spoken reply counts (no nod or wordless scream); those who know the Quirk stay silent or cover their ears. Pain, a hard shake, a close loud noise or an order to hurt anyone breaks it. Held people move stiffly, lose fine skills and their own Quirk, and later recall only a haze; it reads no thoughts. Quirk Strain: light: hold, baited question; moderate: standing order, waking someone, speaking by phone; heavy: holding several, overloading a mind; severe: commanding a crowd, directing another's skills and Quirk. Type: Emitter. Law: unlicensed commanding is assault; nothing gained by command holds up in court; the Commission watches licensed users closely.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Deception",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

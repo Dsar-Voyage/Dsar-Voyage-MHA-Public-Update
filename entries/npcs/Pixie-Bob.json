@@ -1,0 +1,37 @@
+{
+  "Pixie-Bob": {
+    "name": "Pixie-Bob",
+    "type": "Pro Hero",
+    "currentLocation": "Wild Wild Pussycats Lodge",
+    "currentArea": "Training Clearing",
+    "gender": "female",
+    "faction": "Wild Wild Pussycats",
+    "level": 24,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Pixie-Bob (Ryuko Tsuchikawa), the Wild Wild Pussycats' earth specialist: her Earth Flow Quirk reshapes whole hillsides and raises moving earth beasts. The loudest of the four. Long blonde hair, blue eyes, a medium build; a blue cat-ear headset, the blue-and-cream team uniform, white paw gloves.\nSpeaking Style: Loud, playful, theatrical; insists she is young at heart and turns any talk of romance into a lament about being single.\nCombat Role: Terrain controller: walls, routes and earth beasts, from ground that is already there.\nUnder Pressure: Drops the act at once, shapes cover and an escape route, and follows Mandalay's orders.",
+    "hiddenInfo": "Contradiction: The loudest, most playful Pussycat is quietly afraid that a life given to the team has left her alone. Motivation: Do the rescue work well, keep spirits up and, privately, find a partner. Concealment: She plays the marriage worry as a joke so nobody sees how much it hurts. Leverage: A sincere compliment; anyone endangering her teammates. Connections: Mandalay, whose orders she follows and who cuts her complaints short; Ragdoll and Tiger, teammates of more than a decade; Kota Izumi, Mandalay's small charge. Knowledge: Soil, rock and slope across the team's land. Canon voice & behavior: Hits the pose at full volume; plants a paw glove over the face of anyone who counts the team's years. Thread: Whether she finds someone without leaving the mountains.\nQUIRK: Earth Flow. Moves and reshapes existing earth over a wide area and forms moving constructs from it. It creates no earth, and a construct is only as tough as its soil.",
+    "personality": [
+      "Theatrical: Throws herself into the team pose and introduction every time, audience or not.",
+      "Lovelorn: Turns talk of the future into worry about staying single, half joking.",
+      "Creative trainer: Builds slopes, pits and earth beasts that make a drill a real wilderness test.",
+      "Speaking style: Loud, playful, emphatic; short shouted calls in a rescue."
+    ],
+    "abilities": [
+      "Earth Flow: Reshapes existing soil over a wide area; it creates none and needs ground to work.",
+      "Earth beasts: Raises moving earth creatures to chase trainees or pin a target; hard hits break them.",
+      "Rescue routes: Turns a slope into a path, ramp or landing for rescuers.",
+      "Ground reading: Knows where a slope will hold or slide; experience, not a sense.",
+      "\nFighting style: Walls to split opponents, slopes to unbalance them, earth beasts to pin them."
+    ],
+    "visualDescription": "A woman with long, swept-back blonde hair, bright blue eyes, small blue marks on her cheeks, fair skin and a medium build. She wears her hero costume: a blue mechanical cat-ear headset, a clear visor over her eyes, the blue-and-cream Wild Wild Pussycats uniform, oversized white paw gloves and a striped costume tail. Lively, playful expression with a wide grin.",
+    "detailType": "detailed",
+    "properName": "Pixie-Bob",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c781bbdf-1706-4ddb-8111-bcced0fccbf7.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_pixie_bob",
+    "initialKnown": true
+  }
+}

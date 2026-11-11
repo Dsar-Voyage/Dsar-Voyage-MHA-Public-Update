@@ -1,0 +1,20 @@
+{
+  "Moment of Collapse": {
+    "name": "Moment of Collapse",
+    "description": "The user presses a palm to a beam, a slab or a wall of a collapsed building and reads the moment it fell. They see where each person inside stood, which way they ran and where the floors came down on them, and can point rescuers to every likely survivor. The reading shows that moment, not the present, so it cannot tell who is still alive, and it takes the user a full minute of contact. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

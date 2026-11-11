@@ -1,0 +1,15 @@
+{
+  "Slip the Line": {
+    "name": "Slip the Line",
+    "description": "The user reads the attacker's shoulders and eyes, steps off the line of the attack at the last instant and comes out at the attacker's side. A single melee attack misses, and the user ends beside the attacker with an open flank to strike or a clear path to run. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Dodging",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

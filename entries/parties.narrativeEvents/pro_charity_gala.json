@@ -1,0 +1,15 @@
+{
+  "pro_charity_gala": {
+    "title": "The Charity Gala",
+    "beats": "Tonight, an evening in early September, in a hotel ballroom in central Tokyo. The party accepted the invitation weeks ago and the scene opens as it arrives in formal wear: cut straight to the ballroom, with no travel, briefing or other case first. It is a charity gala for the residents of Kamino Ward, whose blocks were flattened on live television. It is the first big hero event since All Might retired; his portrait stands by the stage and every toast mentions him. Endeavor, now the highest-ranked active hero, sends a large check and no speech, and the room talks about him all night. Best Jeanist's table keeps an empty chair while he recovers from Kamino, unless the story spared him.\n\nUwabami runs the auction in an evening gown: signed goods, a day on patrol with a ranked pro, a framed poster from All Might's debut year, sponsors bidding against each other. Edgeshot, who fought at Kamino, accepts one toast, credits the heroes beside him and leaves early. Yoroi Musha sits upright in formal dress, unimpressed by all of it. Sponsors' reps work the tables, and reporters ask every pro whether anyone can fill the gap.\n\nCanon default pressure: near the end, trouble at the entrance. A Kamino resident who lost his shop shouts at the arriving guests, a man quoting Stain throws paint over a pro's car, security shoves back, and phones film everything. Unless someone steps in well, the crowd outside turns on the heroes and the clip runs under tomorrow's headlines.\n\nAn agency head is a guest with a sponsor table to charm, an auction paddle and a budget that cannot cover the lot it wants; a bid or a few words at the microphone get noticed. A sidekick comes as the boss's plus-one and hears a bigger agency sound them out over dessert, or works the door with the security detail and is first to the trouble.\n\nThe event is complete when the auction closes and the trouble at the entrance is settled, one way or another.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_charity_gala",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

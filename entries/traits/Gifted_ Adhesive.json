@@ -1,0 +1,32 @@
+{
+  "Gifted: Adhesive": {
+    "name": "Gifted: Adhesive",
+    "description": "🧬 Adhesive, as an extra Quirk put into your body.\n\n🌱 At the start you fire a strand or glob about ten meters to glue a hand, a foot or a weapon in place, and swing or haul yourself along lines that hold your weight.\n📈 With training: harmless full-body wraps, people reeled from danger, catch-webs, plugged leaks and wounds, a glued street, a crowd bound in a pass, a building held up.\n🔗 Common drawback pairing: Finite Fuel, as the adhesive draws on what you eat and drink.\n🎬 Similar canon Quirks: Hanta Sero (Tape), Minoru Mineta (Pop Off).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Adhesive family): Scale: the user makes tape or sticky globs from the skin, usually palms or forearms. A new adult user fires a strand or glob about ten meters, with lines that hold their weight or another adult's; it sets at once, stays tacky about an hour, then dries and flakes off. Bigger feats need techniques. Limits: blades cut it, fire and solvents loosen it, dust and oil stop it holding, a strong person tears free with hard effort. It sticks to friend and foe, never the user; it cannot cut or crush; never on faces, where it can suffocate. Quirk Strain: light: shot, swing; moderate: wrap, reel-in, web; heavy: plugging a breach, gluing a street; severe: signature pass, holding a building together. Type: Emitter (also fits Mutant). Law: unlicensed gluing of a person is unlawful restraint; adhesive left on roads, platforms or exits endangers the public.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Capture",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

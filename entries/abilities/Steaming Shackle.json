@@ -1,0 +1,20 @@
+{
+  "Steaming Shackle": {
+    "name": "Steaming Shackle",
+    "description": "The user sends frost along the floor to a target within five meters and encases their wrists or ankles in blue-white ice threaded with warm vapor. The warmth prevents frostbite while the ice holds the target in place until they break free with a hard effort or until the end of their next turn, when the internal heat softens the shackle on its own. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

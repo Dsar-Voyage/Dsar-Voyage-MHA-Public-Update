@@ -1,0 +1,30 @@
+{
+  "Oita": {
+    "name": "Oita",
+    "basicInfo": "The eastern coast of Oita Prefecture from the capital south to the Saiki rias, facing the Bungo Channel: Oita city on the southern shore of Beppu Bay at the western edge, the Saganoseki Peninsula pointing east toward Shikoku, then the castle town of Usuki, the quarry town of Tsukumi and the port of Saiki, with forested mountains behind and the open channel beyond. Beppu's hot springs lie just west of the edge. A little under half the cell is land; the east is the Bungo Channel, with Shikoku's coast on the far side. Oita is a mid-sized industrial city, with a downtown of arcades around the old castle moat and a waterfront of steelworks, refineries and petrochemical plants on reclaimed land east of the river mouths. Saganoseki is a fishing town under the tall chimney of a copper smelter; its line-caught horse mackerel and mackerel from the fast Hayasui Strait are luxury brands, and a car ferry crosses to Sadamisaki in about seventy minutes. Usuki is a quiet castle town of soy sauce and miso breweries, famous for fugu, for the Usuki stone Buddhas carved into a soft cliff in a valley outside town, and for a November festival of bamboo lanterns. Tsukumi lives on limestone and citrus. Saiki, the largest city in Kyushu by area, is a fishing port proud of its sushi, at the head of a ria coast of fish farms and small islands. Oita food is chicken tempura, karaage, flat-noodle dango-jiru soup, marinated fish ryukyu, dried shiitake, and kabosu citrus squeezed over everything. The climate is mild, drier in the north and wetter in the southern rias, with typhoons in late summer. The JR Nippo Main Line's Sonic limited express reaches Oita from Hakata in about two hours, and the Nichirin runs south to Saiki and Miyazaki; the Oita and Higashi-Kyushu expressways cross the area, ferries leave Usuki for Yawatahama, and overnight ferries from Oita and Beppu reach Kobe and Osaka. From Musutafu, it is about five and a half hours by shinkansen to Kokura and the Sonic, or a flight from Haneda. Oita city has several established hero agencies and the prefectural police headquarters, and its steelworks hire Quirk-assisted crews.",
+    "hiddenInfo": "Oita is a solid regional city with its own hero scene, but the coast south of Usuki empties out fast, and help there can be an hour or more away. The steel and petrochemical complex brings labor tension, industrial accidents, and a steady trickle of theft from shipping yards. The fishing towns quarrel over catch limits and the poaching of the prized Saganoseki fish. Petty crime downtown is the ordinary sort: bar fights, unlicensed Quirk use by night crowds, and small gangs skimming from the docks and pachinko halls.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -13,
+    "y": -5,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/209864a2-4f7a-4b26-8f4b-8881158ab773.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

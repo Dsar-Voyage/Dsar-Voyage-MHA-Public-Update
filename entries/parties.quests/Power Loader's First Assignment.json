@@ -1,0 +1,17 @@
+{
+  "Power Loader's First Assignment": {
+    "name": "Power Loader's First Assignment",
+    "questSource": "Power Loader",
+    "questStatement": "First day in the Support Course, and Power Loader skips the speeches. Each first-year draws a brief from a box: a real request pulled from a Hero Course costume file, a support item to design, build and test in the Development Studio before the month is out. It has to work, it has to meet the support-item rules, and it has to fail safely. He will test it himself before anyone wears it.",
+    "mainObjective": "Design and build a support item to Power Loader's brief and pass his safety test.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has designed and built a support item to Power Loader's brief, and Power Loader has tested and graded it in the Development Studio."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Workshop texture: welding sparks, burnt coffee and Mei Hatsume's explosions two benches over. Power Loader asks how the user's Quirk actually moves before he looks at a drawing, and he cuts the power the moment a test turns unsafe. The brief can come from any Class 1-A or 1-B costume file; the PC may need to measure a Hero Course student by record name, who may be busy or impatient. Support-item law limits weapons: nothing lethal, nothing that stands in for a Quirk license. Failure: a failed test means a redesign and a lower grade, never an injured tester. Keep the engineering grounded and the limits real.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

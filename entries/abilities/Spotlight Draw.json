@@ -1,0 +1,15 @@
+{
+  "Spotlight Draw": {
+    "name": "Spotlight Draw",
+    "description": "The user steps into full view on purpose and gives the crowd and cameras a show: a pose, a speech, a name to chant. While the user holds the spotlight, onlookers and press cameras miss whatever happens out of frame, such as a teammate's approach, a quiet arrest or an accomplice slipping away, and no phone footage of it spreads; fixed security cameras still record. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Media Presence",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

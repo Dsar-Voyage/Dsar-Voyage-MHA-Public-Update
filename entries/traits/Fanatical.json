@@ -1,0 +1,20 @@
+{
+  "Fanatical": {
+    "name": "Fanatical",
+    "description": "🔥 You believe in a cause completely, and it comes before everything, including you.\n\n🗣️ Your conviction draws followers, and doubt never slows you down.\n⚠️ You cannot see past the cause, and people use your belief to aim you.\n⚠️ You burn bridges with anyone who does not share it.\n🔀 Pair it with Motivation: Fix the System for a revolutionary, or Be Seen for a prophet.\n\n📈 Grants: Willpower +5",
+    "traitNarrativeEffects": "The character is fanatical: they believe completely in a cause (an ideal, a leader, a vision of society) and put it before everything, including themselves; their conviction draws followers and doubt never slows them. Weakness: they cannot see past the cause, people who share its language can aim them like a weapon, and they burn bridges with anyone who disagrees. The narrator presents challenges to the belief; whether the character keeps it is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Willpower",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

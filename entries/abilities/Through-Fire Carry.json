@@ -1,0 +1,20 @@
+{
+  "Through-Fire Carry": {
+    "name": "Through-Fire Carry",
+    "description": "The user lifts a casualty across the shoulders and runs them out through fire, smoke, falling debris or an active fight. The rescued person takes no further harm during the run, attacks and debris that would hit them strike the user instead, and the user reaches the nearest safe exit even if the way passes through danger. Stamina: extreme.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rescue Specialist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

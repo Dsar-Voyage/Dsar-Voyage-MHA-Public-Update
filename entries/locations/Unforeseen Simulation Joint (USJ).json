@@ -1,0 +1,200 @@
+{
+  "Unforeseen Simulation Joint (USJ)": {
+    "name": "Unforeseen Simulation Joint (USJ)",
+    "basicInfo": "The Unforeseen Simulation Joint (USJ) is U.A. Academy's rescue-training facility: a huge dome high in the forest at the top of the grounds, about 3 km north-northeast of the main building and ten minutes by campus bus up the winding hill road, inside U.A.'s wall; on foot the climb takes the better part of an hour. Thirteen, the Space Hero and a rescue specialist, designed it and runs it. Inside, six disaster zones surround a central plaza: flood, landslide, fire, storm, collapsed buildings and mountain. Hero Course classes come here for the rescue side of Foundational Hero Studies, in afternoon blocks booked through the Faculty Office, with Thirteen teaching and All Might or the class's homeroom teacher, Shota Aizawa (Eraser Head) for 1-A or Vlad King for 1-B, joining when the curriculum calls for it. The bus stops at the main doors, the only doors to the outside, and they stay locked unless a class or session is booked. Thirteen opens zones for extra practice on request and begins each class's first lesson with a talk on how easily a Quirk can kill. Students come here to learn rescue, practice Quirk control under lifelike conditions and be graded on getting people out: who was found, how fast, and whether the rescuer added to the disaster. Ground crews reset the zones in the mornings so they are ready for afternoon classes. Pumps, fire jets and rain machines keep up a constant rumble under the dome, and the air changes from wet to smoky to dusty from one zone to the next.",
+    "hiddenInfo": "The USJ's alarms, phones and cameras all route back to the main campus; a Quirk that jams signals would cut the dome off, and help from the main building is at least ten minutes away by road. The only doors to the outside are at the Entrance Plaza, and every zone is built to hide people in water, smoke, rain or rubble. The disasters run on real machinery, and Thirteen insists on safety checks before every session because a stuck valve could drown or burn a student. Right now one of the Flood Zone's current pumps is new, fitted last week, and still trips its breaker when it runs at full power; Thirteen has it on her checklist and runs the lake at half current until it holds. A class's first rescue lesson here brings Thirteen and its homeroom teacher. All Might is meant to join Class 1-A's first one too, but on that day he is held up on the main campus since morning and is not in the dome when the class arrives or when the lesson starts. Thirteen's Black Hole can pull in almost anything, which is why Thirteen teaches restraint first. The control room at the Entrance Plaza can cut every zone's machinery at once, and only Thirteen and the faculty know the shutdown code.",
+    "x": -3.48,
+    "y": -15.877,
+    "radius": 0.3,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "USJ Bus Drop-Off": {
+        "description": "The way into the USJ from the hill road: a wide paved turnaround outside the dome's main doors, high in the forest at the top of the grounds, about ten minutes by campus bus up the winding road from the main building. Campus buses from the Campus Bus Terminal pull in under a long canopy to drop classes at the foot of a short flight of steps up to the doors, the only doors to the outside, which stay locked unless a class or session is booked. The dome fills the sky above the trees, its curved panels catching the light, and the rumble of pumps and rain machines comes faintly through the walls. Classes climb out in costume here, Thirteen or their homeroom teacher counting heads, and the bus waits at the turnaround or heads back down for the next group. A covered bench, a first-aid box and an emergency phone to the Faculty Office stand by the curb. On foot the climb from the main campus takes the better part of an hour. Through the main doors lies the Entrance Plaza.",
+        "paths": [
+          "Entrance Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/caa72713-912f-4baf-b31e-774a97014aab.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Entrance Plaza": {
+        "description": "The terrace just inside the main doors, at the top of a long staircase down to the Central Plaza. From the rail the whole dome is in view: the lake and its ship, the burning block, the storm zone's enclosed dome, the rubble and the mountain. Classes gather here when the bus arrives, hear Thirteen's safety talk and get their assignments; she counts her points on gloved fingers, loses count, and then says the serious one plainly. The doors to the outside and the control room for the dome's systems are here, behind a window that looks over the whole floor. Students line up by the rail in costume, comparing gear and guessing which zone they will draw. Sound from every zone rises to this terrace at once: water, fire, rain and wind.",
+        "paths": [
+          "Central Plaza",
+          "USJ Bus Drop-Off"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/af1cfb7f-3fe2-4098-918f-957a0ee5ea06.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Central Plaza": {
+        "description": "A wide paved plaza at the foot of the entrance stairs, with a fountain in the middle and broad paths branching to each disaster zone: the Flood Zone, the Landslide Zone, the Conflagration Zone, the Downpour Zone, the Ruins Zone and the Mountain Zone, with the stairs climbing back to the Entrance Plaza. Thirteen uses it for briefings, triage practice and the start of combined exercises, and classes regroup here between zones, dripping, sooty or dusty depending on where they came from. It is the one place in the dome with clear sightlines in every direction and no hazards, and stretchers and first-aid kits are stacked along its edge during sessions. The fountain runs all day, and on quiet mornings it is the loudest thing in the building.",
+        "paths": [
+          "Entrance Plaza",
+          "Flood Zone",
+          "Landslide Zone",
+          "Conflagration Zone",
+          "Downpour Zone",
+          "Ruins Zone",
+          "Mountain Zone"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cad8e10d-fb82-4fc6-b54f-6c0f3e99e4a7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Flood Zone": {
+        "description": "A deep artificial lake with a stranded passenger ship in the middle, current machines along its edges and floating debris that staff rearrange between sessions. Students practice water rescue here: swimming with a victim, righting small boats and getting people off the listing ship, whose decks tilt more each time the pumps push the water. Weighted dummies stand in for victims, and some are tied below deck where they have to be found. The pumps run only during booked afternoon sessions, and the lake lies flat and still on other days, the ship's rust streaks reflected in it. The way back is the paved path to the Central Plaza. The water is cold, chest-deep near the shore and far over anyone's head by the ship, and the whole zone smells of chlorine and wet steel.",
+        "paths": [
+          "Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e8e2f447-e2f3-49f4-b255-1e16ebd4f2bb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Landslide Zone": {
+        "description": "Hills of loose earth and rubble poured over half-buried houses and cars, with slopes that machinery can set sliding on command. Students practice finding buried victims, shoring up slopes and digging people out without bringing more earth down, working in pairs with one digging and one watching the slope. Sensors buried with the dummies chirp faintly, and the class that finds them by listening rather than digging blind gets the better grade. Ground crews reset the slopes in the mornings, so the zone is ready for afternoon classes, and a path leads back to the Central Plaza. The ground shifts underfoot, boots sink to the ankle after rain machines run next door, and the smell of wet clay clings to costumes for the rest of the day.",
+        "paths": [
+          "Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/efc0b7ea-5a28-4e7e-af0f-26e835f715e0.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Conflagration Zone": {
+        "description": "A city block of fire-gutted buildings whose gas jets set rooms burning on demand, with smoke machines and sprinkler mains run from the control room. Students practice clearing smoke-filled floors, fighting fire with their Quirks and carrying victims down burning stairwells, keeping low where the air is clearest. The jets light only when Thirteen clears a session, with breathing gear on hand and the fires shut off between groups; a horn sounds before every ignition, and nobody enters until it stops. Ice and water Quirks are welcome here, and explosive ones are watched closely. The path back to the Central Plaza is the only clear air. The heat is real: costumes scorch, railings burn bare hands, and everything smells of soot.",
+        "paths": [
+          "Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3fbc2217-c997-48db-b3c9-df75435c0634.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Downpour Zone": {
+        "description": "A cluster of streets and buildings under its own enclosed dome, where machines drive heavy rain and gale-force wind. Students practice rescues in poor visibility, rising water in the streets, slick footing and wind strong enough to throw a careless flier off course, finding dummies trapped on balconies and in flooded doorways. The storm runs on afternoon bookings; otherwise the rain is off, the streets drain into pools and the inner dome's door to the Central Plaza stands open. Costumes that are not waterproof come out heavy and cold, and the Support Course gets a wave of repair requests after every session. Inside, the roar of rain on metal roofs drowns out shouted orders, so teams train with hand signals.",
+        "paths": [
+          "Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8297589d-2d9c-4fa5-b270-bda7a458443d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Ruins Zone": {
+        "description": "Collapsed and half-standing concrete buildings over broken streets, with voids, tilted floors and crawl spaces built in on purpose. Students practice search and rescue in rubble: listening for victims, shoring up slabs and crossing unstable floors without bringing them down, then carrying the found back along the path to the Central Plaza. Some floors are rigged to drop a few centimeters under too much weight, a warning rather than a fall. Staff rebuild sections on weekends after heavy use, and a strong Quirk that knocks down a wall to reach a victim faster loses points for the people the wall would have landed on. Dust hangs in the air after every exercise, and the zone's one firm rule is silence when a rescuer calls for it to listen for tapping.",
+        "paths": [
+          "Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/32a7703c-8f24-4f56-8a5a-3da98d287d66.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mountain Zone": {
+        "description": "A steep artificial mountain of bare rock with cliffs, ledges, a narrow summit path and bolted anchors for ropes. Students practice cliff rescue, rope work, lowering injured climbers and crossing exposed faces, with or without a Quirk that helps; the strongest climbers learn that hauling a stretcher is a different job from climbing alone. Fall nets hang under the worst drops during sessions, and climbers can ask Thirteen for extra practice after classes. Chalk marks and frayed rope ends show the favorite routes, and a path at the foot of the rock leads back to the Central Plaza. Gloves shred quickly here. From the summit the whole dome is in view, and voices from the Central Plaza carry up clearly.",
+        "paths": [
+          "Central Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/604a8664-a1f2-4720-b2c1-3b2912059d1a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "U.A. Academy"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e34ef16f-6046-47ee-8c0d-ad7c077cef3c.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

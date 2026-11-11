@@ -1,0 +1,19 @@
+{
+  "Gear Set": {
+    "name": "Gear Set",
+    "maxSelections": 1,
+    "traits": [
+      "Rescue Kit",
+      "Support Starter Kit",
+      "Street Kit",
+      "Villain Kit",
+      "Study Kit",
+      "Athlete Kit",
+      "Tech Kit",
+      "Everyday Kit",
+      "Media Kit",
+      "No Gear Set"
+    ],
+    "description": "🎒 Extra things you carry, or none. Your path already gives your uniform or outfit."
+  }
+}

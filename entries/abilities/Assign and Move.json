@@ -1,0 +1,15 @@
+{
+  "Assign and Move": {
+    "name": "Assign and Move",
+    "description": "The user takes charge in a crisis, naming each person and giving them a short, specific task. Allies, sidekicks or bystanders who hear the orders act on them at once, without freezing, panicking or arguing, until the situation changes. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

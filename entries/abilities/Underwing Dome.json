@@ -1,0 +1,20 @@
+{
+  "Underwing Dome": {
+    "name": "Underwing Dome",
+    "description": "The user drops over a small group, arches both wings wide and spins a tight dome of wind beneath the feathers until the end of their next turn. The dome turns aside smoke, gas, heat, thrown debris and pistol rounds while the wings take any heavier blow that breaks through. Driving a wind dome through arched wings locks the user to the spot and leaves the wing muscles too spent to fly on their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

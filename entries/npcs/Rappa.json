@@ -1,0 +1,37 @@
+{
+  "Rappa": {
+    "name": "Rappa",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 28,
+    "tier": "elite",
+    "voiceTag": "male brute commanding",
+    "basicInfo": "Kendo Rappa, one of the Shie Hassaikai's Eight Bullets, the enforcers sworn to Kai Chisaki (Overhaul) himself: a battle-hungry brawler who lives for hand-to-hand fights. Huge and heavily muscled, long brown hair, a plague-doctor mask; a sleeveless top, belts and heavy gloves.\nSpeaking Style: Boisterous and rough; shouts challenges, laughs mid-fight and praises anyone who keeps standing.\nCombat Role: Close-range brawler: spins his shoulders to throw punches too fast to follow, a barrage that batters through guards; at range he has nothing.\nUnder Pressure: Gets happier, not more careful; a strong opponent beats any order.",
+    "hiddenInfo": "Contradiction: He serves a house whose plans bore him; a worthy opponent can win his respect, never his surrender. Motivation: The next all-out fight. Leverage: The promise of a strong opponent. Connections: Kai Chisaki (Overhaul), who beat him in a fight and whom he follows for it; Hekiji Tengai, his barrier-raising partner, who shields him whether Rappa wants it or not; the other Eight Bullets, whom he rates by how hard they hit. Knowledge: Every fighter in the house; Chisaki has a big plan, which Rappa has never cared to learn. Canon voice & behavior: Yells at a defender to hold out while he hammers them; a dodge disappoints him; laughs when he takes a good hit. Thread: Whether the house's plans will ever matter to him as much as a fight.\nQUIRK: Strongarm. He rotates his shoulders at tremendous speed for an unbroken barrage of heavy punches; close range only, with no extra reach or toughness.",
+    "personality": [
+      "Battle-hungry: Drags out a good fight for the fun of it and sulks when it ends.",
+      "Respects grit: Praises an opponent who takes his punches and stays standing, and keeps swinging.",
+      "Reckless: Ignores orders and caution for a satisfying fight.",
+      "Speaking style: Boisterous challenges, laughter and blunt praise."
+    ],
+    "abilities": [
+      "Strongarm: Spins his shoulders to throw punches faster than the eye can follow; close range only.",
+      "Punch barrage: Buries a target or a barrier under heavy blows; a tough enough defender can outlast it.",
+      "Pressure: Stays in striking reach and chases anyone who backs off; distance blunts him.",
+      "Instinct: Reads a fistfight by feel; tricks that avoid contact frustrate him.",
+      "\nFighting style: Plants himself in front of the toughest opponent behind Hekiji Tengai's barriers and throws an endless barrage until one of them drops."
+    ],
+    "visualDescription": "A huge, heavily muscled man with long, unkempt brown hair falling past his shoulders and a plague-doctor mask with a short beak over his face. He wears a sleeveless pale blue top that bares his massive arms, several belts at the waist, dark trousers and heavy gloves plated with metal across the knuckles. Broad shoulders and thick forearms; an eager, restless energy about him.",
+    "detailType": "detailed",
+    "properName": "Rappa",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2e47cdff-c0dd-49b9-8f34-b515a97e7d38.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_rappa",
+    "initialKnown": false
+  }
+}

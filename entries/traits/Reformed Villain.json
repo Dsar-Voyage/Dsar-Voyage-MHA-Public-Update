@@ -1,0 +1,26 @@
+{
+  "Reformed Villain": {
+    "name": "Reformed Villain",
+    "description": "🔁 You were a villain once, and you walked away. Now you help people without a license, with a record that follows you.\n\n⚠️ The police have your file; some old contacts want you back, some want you gone.\n📈 Grants: Streetwise +5, Intimidation +5",
+    "traitNarrativeEffects": "The character is a former villain who turned to vigilante work: a criminal record (served time, or never caught for most of it), old underworld contacts who know their face and want them back or silenced, and police and pros who assume the worst at first sight. Doing good does not erase the past; trust is earned on the page. If they were ever given extra Quirks, this is where they came from.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      },
+      {
+        "skill": "Intimidation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Vigilante"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

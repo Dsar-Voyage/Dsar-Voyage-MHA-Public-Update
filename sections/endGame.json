@@ -1,0 +1,14 @@
+{
+  "win": {
+    "endCondition": "win",
+    "instructions": "Close on what the character achieved in their year: who they saved, who they became, the license, rank or freedom they earned and the people beside them. Name the lasting change their choices made to this world. End on a moment, not a summary."
+  },
+  "lose": {
+    "endCondition": "lose",
+    "instructions": "Close on what the failure cost: who was not saved, what the villains took, the license lost, the arrest or the hospital stay. Make the consequences specific, show who is still standing, and end on the weight of it rather than on despair for its own sake."
+  },
+  "end": {
+    "endCondition": "end",
+    "instructions": "Close the story where it stands: the character's life now, the bonds they built, the business left unfinished, and one image of ordinary life in a society of Quirks going on. It should feel like the end of a chapter."
+  }
+}

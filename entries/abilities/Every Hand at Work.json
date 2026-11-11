@@ -1,0 +1,24 @@
+{
+  "Every Hand at Work": {
+    "name": "Every Hand at Work",
+    "description": "The user splits their limbs among separate tasks and works them all at once. Until the end of their next turn, each limb, their own arms included, takes its own action on a different person or object: a pin, a catch, a strike, a carry, first aid or forcing a jammed door, and none of these actions slows or weakens the others. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

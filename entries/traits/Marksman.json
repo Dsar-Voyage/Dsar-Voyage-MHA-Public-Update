@@ -1,0 +1,31 @@
+{
+  "Marksman": {
+    "name": "Marksman",
+    "description": "🎯 You are a precise shooter and thrower: rubber-bullet rifles, tranquilizer pistols, launchers, throwing knives or anything you can throw straight.\n\n🛡️ You pin enemies behind cover, shoot weapons out of hands and watch over allies from a distance.\n⚠️ You need a ranged weapon or something to throw. Long shots, moving targets in crowds and bad light stay hard, and up close you are an ordinary fighter.\n📈 You learn more techniques as your Marksmanship and Perception improve.\n⚖️ Japan bans civilian handguns. Licensed heroes carry approved firearms, U.A. students train only on supervised ranges, and a hero who shoots faces an inquiry.\n🚨 A villain or vigilante with a live gun draws armed police and the heaviest charges.\n\n📈 Grants: Technique +1, Marksmanship +15, Perception +10\n⚡ Starting technique: Pin-Down Fire",
+    "traitNarrativeEffects": "Fights at range, shooting and throwing, watching all movement: suppression, disarming, weak points, covering allies. At start: reliably hits a person-sized target across a street, a hand or weapon closer; long shots, moving targets in crowds and bad light stay hard; up close, an ordinary fighter. Rubber rounds: bludgeoning; live rounds, darts, thrown knives: piercing; a tranquilizer dart in bare skin sleeps an ordinary adult in moments. Thrown stones or coins work too. Does not aim a Quirk (Quirk Output or Quirk Control). Pure training, same if Quirkless; techniques cost stamina, never Quirk Strain. Legal and social treatment: Japan bans civilian handguns; licensed heroes carry approved firearms and nonlethal launchers; U.A. students train only on supervised ranges. A villain or vigilante with a live gun draws armed police and the heaviest charges; a hero who shoots in public faces an inquiry and harsh press even if justified. How it looks: steady, watchful.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Marksmanship",
+        "modifier": 15
+      },
+      {
+        "skill": "Perception",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Pin-Down Fire"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

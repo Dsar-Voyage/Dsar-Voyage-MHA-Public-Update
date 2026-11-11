@@ -1,0 +1,20 @@
+{
+  "Quill Clothing Pin": {
+    "name": "Quill Clothing Pin",
+    "description": "The user sends two stiff feathers into a target's loose sleeves within twenty meters, pinning the fabric to a wooden door or plaster wall until the target tears free or the feathers return. The user aims clear of skin; close clothing or a hard backing prevents the pin, and those feathers cannot support flight. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

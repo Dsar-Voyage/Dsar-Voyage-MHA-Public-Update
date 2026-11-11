@@ -1,0 +1,25 @@
+{
+  "Thousand-Feather Watch": {
+    "name": "Thousand-Feather Watch",
+    "description": "The user sheds every flight feather they can spare and steers them across a whole city block, inside buildings and around corners. For the rest of the scene the feathers lift fallen people a few at a time clear of rubble, smoke and fire, and any enemy on the block can be slashed for heavy slashing damage or pinned to a wall until they tear free. The user cannot fly while the feathers are out, and the lost feathers take a week to regrow. Only feathered wings can do this. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

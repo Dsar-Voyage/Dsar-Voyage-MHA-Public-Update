@@ -1,0 +1,25 @@
+{
+  "Hissing Floodplain": {
+    "name": "Hissing Floodplain",
+    "description": "The user's skin pours out acid in a volume it never held before, running ankle-deep across a whole city block at a strength they set. Every enemy standing in it takes heavy corrosive damage each turn they stay as their boots, armor and support gear are eaten away, and vehicle tires melt so nothing drives out; held back, it only stings and leaves the footing so slick that anyone running falls. The acid flows downhill into drains and basements, so the user must steer it off bystanders, and afterward they cannot make acid until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

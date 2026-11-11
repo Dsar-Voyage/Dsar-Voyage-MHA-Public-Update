@@ -1,0 +1,25 @@
+{
+  "Bowstring Boulevard": {
+    "name": "Bowstring Boulevard",
+    "description": "The user's signature move: they stretch the air across a whole street into layer on layer of elastic sheets and charge them with their Quirk until they hum, then let go. The snap slams down the street: everyone in front takes massive force damage and is thrown off their feet, and cars, barricades and cover are shoved aside; afterward the user cannot make a patch until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

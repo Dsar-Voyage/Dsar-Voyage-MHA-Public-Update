@@ -1,0 +1,32 @@
+{
+  "Gifted: Speed Boost": {
+    "name": "Gifted: Speed Boost",
+    "description": "🧬 Speed Boost, as an extra Quirk put into your body.\n\n🌱 At the start you match city traffic for a few seconds per burst, throw several punches in the time of one and react to a thrown punch before it lands.\n📈 With training: weapons snatched in passing, people carried from harm, wall and water runs, a smoky stairwell cleared, a group struck at once, a falling building emptied.\n⚠️ Stopping takes about ten meters.\n🔗 Common drawback pairing: Overheating, as friction and effort build heat in your body.\n🎬 Similar canon Quirks: Kendo Rappa (Strongarm) for rapid fists; hyper-speed Quirks also turn up among working pros.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Speed Boost family): Scale: the user speeds up their own legs, arms, nerves and reflexes. At first: about sixty kilometers an hour for a few seconds per burst, several punches in the time of one, reacting to a thrown punch. More, and clean stops, need learned techniques. Limits: at full speed braking takes about ten meters and a sharp turn throws them off their feet. Senses lag behind legs, so crowds, stairs, wet floors and darkness cause crashes. Speed adds no weight to a blow except at a run, cannot outrun bullets and gives no flight; friction burns through ordinary soles. Quirk Strain: light: dash, burst of punches; moderate: snatch, rescue carry, wall or water run; heavy: clearing smoke, striking a group; severe: signature strike, emptying a building. Type: Transformation. Law: unlicensed racing through crowds or traffic is reckless endangerment; an injuring high-speed collision is charged as assault.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Running",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

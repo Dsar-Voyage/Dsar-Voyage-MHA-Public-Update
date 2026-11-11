@@ -1,0 +1,20 @@
+{
+  "Snare Bolas": {
+    "name": "Snare Bolas",
+    "description": "The user forms a set of weighted cords in the palm and hurls them at a target across a room or down a corridor. They wrap the target's legs, or their arms and chest if the user chooses: the target cannot run, kick or use the bound limbs until they wrench free with a hard effort, cut the cords or someone unwinds them, and the cords leave no injury. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

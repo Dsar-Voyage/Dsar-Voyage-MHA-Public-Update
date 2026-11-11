@@ -1,0 +1,32 @@
+{
+  "Gifted: Compression": {
+    "name": "Gifted: Compression",
+    "description": "🧬 Compression, as an extra Quirk put into your body.\n\n🌱 At the start you palm a weapon, a crate or a motorcycle into a marble-sized sphere in an instant, and feel through your palm what a wall or a rubble pile hides.\n📈 With training: people carried out sealed safely inside, stored walls dropped in place, pocket ladders, villains removed, gangs disarmed at once, a falling tower pocketed.\n🔗 Common drawback pairing: Cognitive Fade, as tracking every sphere wears on your mind.\n🎬 Similar canon Quirks: Mr. Compress (Compress).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Compression family): Scale: the palm shrinks what it touches into a marble-sized sphere (or a player-picked shape) and snaps it back within about ten meters. A new adult user takes up to a motorcycle's size in a second, carries a handful of weightless spheres, and feels the shape of what the palm touches. People and bigger feats need techniques. Limits: no touch, no compression; walls, floors and fixed doors stay put. It never harms its contents; a person inside feels no time pass and comes out unhurt on their own within minutes. A broken sphere frees what it holds. Quirk Strain: light: an object in or out, reading a volume; moderate: a willing person, ranged release, climbing released objects; heavy: a resister, disarming a group; severe: signature, touchless compression. Type: Emitter. Law: compressing a person without consent is abduction; hiding goods in spheres is smuggling; licensed users take people only to rescue or arrest.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Sleight of Hand",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

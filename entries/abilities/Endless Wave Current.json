@@ -1,0 +1,29 @@
+{
+  "Endless Wave Current": {
+    "name": "Endless Wave Current",
+    "description": "For the rest of the scene, the user maintains a continuous spiral stream beneath their feet for flight while directing smaller waves from their hands to slow falls or keep opponents away from civilians. Every output still spends stamina, and the waves remain visible and slow enough to evade. When the stream ends, the user must land at once and is too exhausted to produce another large wave during the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

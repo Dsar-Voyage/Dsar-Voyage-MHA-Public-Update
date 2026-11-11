@@ -1,0 +1,28 @@
+{
+  "Sea off Kitaibaraki": {
+    "name": "Sea off Kitaibaraki",
+    "basicInfo": "The open Pacific off northern Ibaraki and southern Fukushima, from about ten to sixty kilometers out from the rocky shore of Kitaibaraki, Takahagi and Hitachi. The water is green-gray near the coast and turns deep blue over the slope offshore, where the bottom drops from about a hundred meters to several hundred and more. Here the cold Oyashio from the north meets warm Kuroshio water, so the sea is rich, often foggy in early summer, and rough with northwest gales in winter. Boats from Otsu, Hirakata, Hitachi and Onahama work the grounds for monkfish, flounder, mackerel, sardines and whitebait. Overnight car ferries between Oarai and Hokkaido and cargo ships out of Hitachi and Onahama pass through, and on a clear day the low coast and Hitachi's factory stacks show to the west. The coast guard runs patrol boats out of Onahama and the Ibaraki ports, and maritime heroes ride out with the fishing fleet in storms. A party could be out here on a ferry, a chartered fishing boat, or carried by a flying hero.",
+    "hiddenInfo": "Fishers here argue with buyers and regulators over quotas and prices, and boats sometimes stray into each other's grounds. Fog brings near-collisions with cargo ships. Real help is the coast guard, an hour or more out from port. Petty crime is fuel and catch theft and illegal dumping from passing ships.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 4,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6e233225-da77-4148-a9ca-2e37229b6801.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

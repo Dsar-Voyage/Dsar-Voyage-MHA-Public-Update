@@ -1,0 +1,15 @@
+{
+  "side_big_three": {
+    "title": "The Big Three",
+    "beats": "Mid-September, daytime at U.A. Academy, at the start of the second term. To explain the Hero Work-Studies that go beyond first-term internships, Shota Aizawa brings the academy's top three third-year students—the Big Three—into Class 1-A Homeroom: Mirio Togata, Tamaki Amajiki, and Nejire Hado.\n\nDefault course as pressure: the introduction starts oddly. Tamaki stares intensely at the class to picture them as potatoes, then gives up, turns to face the homeroom wall, and mutters that he wants to go home. Nejire immediately darts from desk to desk firing rapid-fire questions about Mina Ashido's horns, Shoto Todoroki's burn scar, and everyone else's Quirks before anyone can answer. Mirio opens with a flat pun that lands on dead silence, laughs loudly anyway, and proposes moving to the Main Gymnasium so the first-years can learn by fighting him all at once. On the gym floor, Mirio's clothes drop as his Quirk activates, he apologizes mid-slip, and within seconds he sinks through the floor with Permeation to take out the long-range attackers first before dropping the close-range fighters with single precision body blows. Even when Izuku Midoriya reads his resurface angle, Mirio slips the counter through sheer prediction. Afterward, fully dressed again, Mirio explains that Permeation leaves him blind, deaf, and breathless underground; what beat Class 1-A was not a flashy power, but the experience and foresight he gained on work-study under Sir Nighteye. It is a supervised bout where no student is badly hurt.\n\nBy path: a Class 1-A student faces Mirio on the Main Gymnasium floor alongside the class and tests a plan against his prediction; a Class 1-B student observing from the Main Building Hallway or joining the joint session gets the chance to step onto the mat and test 1-B's teamwork against Lemillion.\n\nThe event is complete when Mirio finishes the bout, explains how work-study built his skill, and the Big Three take questions from the first-years.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_big_three",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

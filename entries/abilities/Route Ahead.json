@@ -1,0 +1,20 @@
+{
+  "Route Ahead": {
+    "name": "Route Ahead",
+    "description": "Before an operation the user reads a teammate and sees the operation's coming stretch from beside them: the locked door, the ambush on the stairwell, the hostage moved to the roof. The team uses the user's account to scout ahead, and the first danger the vision showed meets them already prepared, so it catches nobody by surprise. Changing the plan branches the future, and the vision shows nothing beyond that teammate's own path. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

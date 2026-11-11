@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_toru": {
+    "name": "Portrait Swap: ep_toru",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Toru Hagakure (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/4f334978-e442-4e39-8fb9-cebd2b2facf9.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Toru Hagakure",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/4f334978-e442-4e39-8fb9-cebd2b2facf9.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Toru Hagakure (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/4f334978-e442-4e39-8fb9-cebd2b2facf9.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Toru Hagakure (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/4f334978-e442-4e39-8fb9-cebd2b2facf9.png"
+      }
+    ]
+  }
+}

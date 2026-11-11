@@ -1,0 +1,20 @@
+{
+  "Rocket Hop": {
+    "name": "Rocket Hop",
+    "description": "The user fires a blast behind or below themselves and is thrown clear in an instant: across a room, onto a low rooftop or out of the path of an incoming attack, which misses them. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

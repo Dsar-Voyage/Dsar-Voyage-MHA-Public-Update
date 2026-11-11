@@ -1,0 +1,20 @@
+{
+  "Studied: Persuasion": {
+    "name": "Studied: Persuasion",
+    "description": "🗣️ You learned to change minds honestly: a debate club, student council campaigns, a sales job or a support hotline.\n\n🌱 You build an argument, listen first and find what the other person cares about. You can talk a frightened stranger away from danger.\n⚠️ Hatred, fanaticism and a villain with a plan do not yield to technique alone.\n⚖️ Practice gives no authority, and hostage talks belong to the police and the heroes on the scene.\n🏫 It shows in an open posture, careful listening and words chosen for the listener.\n\n📈 Grants: Persuasion +15",
+    "traitNarrativeEffects": "The character has practiced honest persuasion: building an argument, finding what the other person cares about, listening first and making an appeal that respects them. They can talk a nervous classmate into trying or a frightened stranger away from danger. Prior study, not mastery: hatred, fanaticism and a villain with a plan do not yield to technique alone. Not a license: practice gives no authority, and hostage talks belong to the police and the heroes on the scene. It shows in an open posture, careful listening and words chosen for the listener.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Persuasion",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

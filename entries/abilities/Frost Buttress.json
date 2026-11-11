@@ -1,0 +1,20 @@
+{
+  "Frost Buttress": {
+    "name": "Frost Buttress",
+    "description": "The user packs frost into a sagging ceiling, a cracked wall or a shifting rubble pile until it sets as a single solid mass. For the rest of the scene nothing in it shifts or falls, so trapped people can be pulled out from under it without the collapse going any further. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Custom Quirk": {
+    "name": "Custom Quirk",
+    "description": "✍️ A Quirk of your own design. 🎮 Single player only.\n\nTo make it work, do BOTH steps:\n1️⃣ Before you generate your background, describe your Quirk in the background box: what it does, what it looks like and its limits. What it costs you is the Drawback you pick next, so leave the cost out. Your background's Quirk paragraph becomes its permanent record.\n2️⃣ Your Quirk starts with NO techniques. Once the game starts, ask the in-game Studio to create your Quirk's abilities from that description. Until you do, you have no Quirk abilities to use.\n\n🧬 It is one Quirk, as everyone in this world is born with one: if your idea blends two powers, describe them as a single Quirk and Studio builds it that way.\n⚖️ It keeps the Quirk Type, Strength and Drawback you pick, and Quirk Strain works as for any Quirk.\n\n📈 Grants: Quirk Control +10, Quirk Output +10",
+    "traitNarrativeEffects": "The character's Quirk is their own design, recorded in the Quirk paragraph of their Background. Use exactly what that paragraph says it does, at the selected Quirk Strength, with the selected Drawback as its only cost (a cost the paragraph names is that Drawback's) and the selected Quirk Type, and nothing beyond it; techniques the player adds later through Studio are part of it. It is one Quirk: it never copies, steals or stacks other Quirks. Quirk Strain applies as for any Quirk. If the character chose Quirkless, this does not apply.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Sinker Grasp": {
+    "name": "Sinker Grasp",
+    "description": "The user stretches an arm across a room to wrap a target's wrist or ankle and pours weight into them through bare skin. The target is dragged to their knees, takes force damage from the sudden load and cannot run until the end of their next turn; held back, the weight only roots their feet to the floor without harm. The reach is short, and the weight shift turns the user's stomach. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

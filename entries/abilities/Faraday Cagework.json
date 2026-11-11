@@ -1,0 +1,29 @@
+{
+  "Faraday Cagework": {
+    "name": "Faraday Cagework",
+    "description": "The user weaves standing coils of current and magnetic force between steel girders, cars or pipes around a crowd or over a live bomb for the rest of the scene. Metal projectiles, shrapnel and electric attacks hitting the cage stop dead, every radio trigger and detonator inside dies without firing, and any enemy who forces through takes heavy electric damage and is thrown back; held back, the cage only shoves them clear. Holding both natures in tight balance roots the user to the spot and empties their charge when the cage drops. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

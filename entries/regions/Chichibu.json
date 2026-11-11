@@ -1,0 +1,30 @@
+{
+  "Chichibu": {
+    "name": "Chichibu",
+    "basicInfo": "Chichibu is a cell of forested mountains on the western edge of the Kanto plain, where Saitama, Tokyo and Yamanashi meet in the Okuchichibu range: the Chichibu basin at the north, the green gorges of Okutama in the middle, the Chuo corridor of eastern Yamanashi along the south, and Mount Takao at the southeast corner looking out over the Tokyo suburbs. Mount Kumotori, the highest point in Tokyo, and the long ridge of Mount Daibosatsu rise near the center, and on clear days Mount Fuji stands over the southern ridges. The Arakawa flows north out of the Chichibu basin, the Tama River rises in the Okutama hills and fills Lake Okutama behind the Ogochi Dam, and the Sagami River runs east past Otsuki and Uenohara into Lake Sagami. There is no coast. Summers are humid, autumn color is spectacular and winters bring frost. Chichibu city is an old silk and pilgrimage town of wooden shopfronts, a great shrine and a circuit of thirty-four Kannon temples, lying under the quarried limestone face of Mount Buko; its Night Festival in early December hauls lantern-lit floats up a slope under winter fireworks, and in spring the Hitsujiyama hillside blooms pink with moss phlox. Okutama is a hiking and river town of canyoning, kayaks on the Tama, the Nippara limestone cave, wasabi terraces and trout fishing, and Mount Mitake has a cable car and pilgrim lodges. In Yamanashi, Otsuki keeps the old Saruhashi cantilever bridge over a gorge, and the slopes of Enzan and Katsunuma are covered with grape trellises and wineries. Locals eat waraji katsudon, buckwheat soba, grilled miso potatoes and grapes. Seibu limited expresses reach Chichibu from Ikebukuro in about eighty minutes, the Chichibu Railway runs a steam train in season, the JR Ome Line ends at Okutama, and the Chuo Line and Chuo Expressway run through Otsuki and Takao toward Tokyo. Musutafu is about two and a half hours away by way of Tokyo, or by road around Fuji; Tokyo is one to two hours depending on the valley. The towns keep police boxes and small hero offices, agencies from the western Tokyo suburbs cover the weekend crowds on Takao, and rescue heroes and mountain police pull lost hikers off the Okutama trails.",
+    "hiddenInfo": "Chichibu's mountains sit close to the capital yet empty out behind the trailheads, which makes them a place where things get left: illegal dumping in the gorges, abandoned cars on forest roads, the odd small-time crook lying low in a rented cabin. Weekend crowds on Takao and Okutama bring theft, reckless driving on the mountain roads and river drownings in summer. Deer and bears are a farm nuisance. Hero help is close at the eastern edge, within half an hour from the Tokyo suburbs, but slow in the western valleys, where police and volunteer fire brigades often arrive first.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 0,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0452b339-3036-4a7c-b8b1-fb685ddfc0c9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

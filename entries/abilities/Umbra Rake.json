@@ -1,0 +1,20 @@
+{
+  "Umbra Rake": {
+    "name": "Umbra Rake",
+    "description": "The shadow lashes out at a target within its reach and rakes them with its claws for slashing damage, or slams them with a fist for bludgeoning damage that knocks them flat. Held back, it only shoves them to the ground and leaves no wound. In darkness the blow lands harder; in bright light it barely stings. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

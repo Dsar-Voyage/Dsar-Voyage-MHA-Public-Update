@@ -1,0 +1,20 @@
+{
+  "Stadium Voice": {
+    "name": "Stadium Voice",
+    "description": "The user takes a microphone, loudspeaker or stage and speaks to a panicking crowd. Everyone within reach of the speakers, even a full stadium, stops, listens and follows the user's directions toward the exits in order; nobody is trampled or left behind while the user keeps talking, though the user cannot fight or leave while they do. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Management Course",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Media Presence",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

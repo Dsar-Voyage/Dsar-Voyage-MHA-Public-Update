@@ -1,0 +1,24 @@
+{
+  "Muted Color Watch": {
+    "name": "Muted Color Watch",
+    "description": "The user changes their skin color to blend into a wall, foliage or rubble within arm's reach for the rest of the scene while holding mostly still. Ordinary visual searches can overlook them, allowing observation of a nearby room or street. Rapid movement, uncovered equipment, sound or touch reveals the user, and maintaining the color match tires their muscles. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

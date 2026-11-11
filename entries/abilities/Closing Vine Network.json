@@ -1,0 +1,25 @@
+{
+  "Closing Vine Network": {
+    "name": "Closing Vine Network",
+    "description": "The user spreads vine bundles over a courtyard within twenty meters and loosely coils up to five visible opponents around their clothed limbs until the user's next turn ends. Faces and airways stay clear. Cutting attacks or superior strength break individual holds; the spread exposes the user's body and leaves little growth free for defense. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

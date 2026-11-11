@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: mezo_unmasked": {
+    "name": "Portrait Swap: mezo_unmasked",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_everyone_clears_the_way",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/235eb63d-3c25-407d-b547-df4aac5cf1c6.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/235eb63d-3c25-407d-b547-df4aac5cf1c6.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/235eb63d-3c25-407d-b547-df4aac5cf1c6.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mezo Shoji (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/235eb63d-3c25-407d-b547-df4aac5cf1c6.png"
+      }
+    ]
+  }
+}

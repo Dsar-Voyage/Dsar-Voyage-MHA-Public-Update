@@ -1,0 +1,37 @@
+{
+  "Ectoplasm": {
+    "name": "Ectoplasm",
+    "type": "U.A. Faculty",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Faculty Office",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 30,
+    "tier": "elite",
+    "voiceTag": "male deep controlled",
+    "basicInfo": "Ectoplasm, a pro hero on U.A. Academy's faculty who teaches the Hero Course first-years mathematics and runs practical exercises and exams with his clones. Tall and lean; a black helmet with blank white eyes and bared teeth behind a jaw guard, a tan high-collared coat over a black suit, prosthetic legs below the knee.\nSpeaking Style: Deep, measured and direct; sets challenges, not encouragement, and grades in a few exact sentences.\nCombat Role: Area control by numbers: clones surround and contain while he kicks on his prosthetics; a solid hit dissolves a clone.\nUnder Pressure: Floods the scene with clones, guarding students and exits first.",
+    "hiddenInfo": "Contradiction: Severe in manner, generous with effort: he gives each student a clone to fight, then sums up the result in two cold sentences. Motivation: Send students out ready for pressure from every side; a hard test on campus costs less than a real one. Leverage: A student who corrects a mistake; danger to students on his watch. Connections: Principal Nezu, who sets the assessments he runs; Shota Aizawa and Vlad King, whose classes he teaches and tests; Cementoss, whose terrain pairs with his numbers. Knowledge: Every first-year's registered Quirk and its weak spot. Canon voice & behavior: Releases clones without preamble; answers a protest with the next problem. Thread: Whether students see the care inside the pressure.\nQUIRK: Clones. The ectoplasm he expels from his mouth forms many solid copies of himself that fight as he does until a solid hit dissolves them; massed, one giant clone engulfs and holds a target.",
+    "personality": [
+      "Exacting: After a round, lists what worked, what failed and the next problem.",
+      "Relentless: Sends clones from new angles until a student finds an answer.",
+      "Unexplained: Rarely says why an exercise is so hard, so he seems colder than he is.",
+      "Speaking style: Deep, measured, concise verdicts; praise is rare and short."
+    ],
+    "abilities": [
+      "Clones: Makes many solid copies of himself at once; each dissolves under a solid hit.",
+      "Giant clone: One huge clone engulfs and holds a target; it uses up his numbers and needs room.",
+      "Guard detail: Posts clones on exits and bystanders before he commits any to the fight.",
+      "Weak-point drills: Builds each test around what a student's Quirk handles worst.",
+      "\nFighting style: Pins the opponent with a wave of clones, seals the exits, then swarms; the original hangs back and kicks hard if reached."
+    ],
+    "visualDescription": "A tall, lean man whose whole head is covered by a smooth black helmet with two large, blank white eyes and, below them, a bared row of white teeth behind a metal jaw guard. He wears a tan, high-collared, double-breasted long coat over a black suit and dark trousers; both lower legs are dark prosthetic pegs. Calm, stern bearing.",
+    "detailType": "detailed",
+    "properName": "Ectoplasm",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/712fc54c-32f5-4c26-a1e5-4e59ac809f32.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_ectoplasm",
+    "initialKnown": true
+  }
+}

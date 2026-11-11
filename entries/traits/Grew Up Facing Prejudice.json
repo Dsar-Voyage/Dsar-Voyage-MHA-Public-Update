@@ -1,0 +1,29 @@
+{
+  "Grew Up Facing Prejudice": {
+    "name": "Grew Up Facing Prejudice",
+    "description": "🛡️ You grew up with stares, insults and closed doors: as a heteromorph, as someone born Quirkless or with a Quirk people call villainous.\n\n🧱 You learned to hold your ground.\n👁️ You can tell kindness from pity.\n\n📈 Grants: Endurance +1, Willpower +5, Insight +5",
+    "traitNarrativeEffects": "It depends on the character. Heteromorph (Mutant Type): stares, people crossing the street, refused service, landlords and other parents calling them dangerous, open hostility in some rural towns. Quirkless: pity, bullying, teachers and doctors urging them to give up heroics, a class joke from age four. Neither: a Quirk people called villainous or frightening. In play: most people in Musutafu and at U.A. are polite; some are not. The narrator shows it in small fitting moments (a double take, a clerk's hesitation, a reporter's angle, a hero assuming the worst) and shows people who do better. Willpower and Insight help read and withstand it, not end it. Pressure: villain and extremist recruiters seek this history, offering belonging and a target for anger; allies, mentors and others like them offer another way; the narrator surfaces both, the player decides. Childhood: safe places, a neutral face, whispers, the few who treated them as ordinary.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Willpower",
+        "modifier": 5
+      },
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Pavement Cover Rise": {
+    "name": "Pavement Cover Rise",
+    "description": "The user touches concrete and raises a chest-high wall two meters across within five meters, providing solid cover from that direction for the rest of the scene. The wall remains after contact ends, but heavy blows can break it; thin paving cannot supply the same thickness without opening a nearby depression. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

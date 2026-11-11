@@ -1,0 +1,27 @@
+{
+  "Items: gear license [U.A. Faculty]": {
+    "name": "Items: gear license [U.A. Faculty]",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "read-boolean",
+        "key": "gearLicensed",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "gearLicensed",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "recurring": false
+  }
+}

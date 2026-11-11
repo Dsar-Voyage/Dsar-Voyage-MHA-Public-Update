@@ -1,0 +1,47 @@
+{
+  "Denki Kaminari (Sports Festival)": {
+    "name": "Denki Kaminari (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Denki Kaminari, hero name Chargebolt, a Class 1-A first-year in U.A. Academy's Hero Course. On the Sports Festival broadcast he powered Shoto Todoroki's winning cavalry team: his 1.3-million-volt Indiscriminate Shock, with Momo Yaoyorozu's insulating sheet covering the team, stunned the rivals around them. In the tournament Ibara Shiozaki beat him in seconds. Blond hair with a black lightning-bolt streak, golden eyes, a lean build; the U.A. uniform.\nSpeaking Style: Casual, slangy bravado and failed smooth lines; overloaded, a dopey thumbs-up and \"Wheey.\"\nCombat Role: Area attacker who still cannot aim; grounding or insulation shuts him down, and overload leaves him dazed.\nUnder Pressure: Panics, commits anyway, then laughs at himself too loudly.",
+    "hiddenInfo": "Contradiction: He wanted to look cool on national broadcast; his best moment served a classmate's plan, and his own match lasted seconds. Motivation: Impress the pros who watched, and matter one-on-one. Concealment: Hopes nobody noticed how fast one grounded wall shut him down. Connections: Shoto Todoroki and Momo Yaoyorozu, who built a winning plan around him; Ibara Shiozaki of Class 1-B, whose rooted vines grounded his shot and bound him; Kyoka Jiro, even less impressed since his part in Minoru Mineta's festival-day prank on the women of 1-A. Knowledge: At the USJ attack, warped in with Kyoka Jiro and Momo Yaoyorozu, he dropped a crowd of thugs with one discharge while Momo's insulating sheet covered her and Jiro, and the overload then left him defenseless. He knows the League of Villains came to kill All Might. Canon voice & behavior: Cheers good work from either class, the student who beat him included. Thread: Whether he can find a way to aim, or to matter alone.\nQUIRK: Electrification. Indiscriminate Shock reached 1.3 million volts; still unaimed, drained by anything rooted in the ground, and overload still dazes him.\nSTAGE: After the Sports Festival: hero name Chargebolt; the country saw his biggest shot and his fastest loss.",
+    "personality": [
+      "Showman: Plays to the crowd and shouts his voltage before he fires.",
+      "Mischief-prone: Gets pulled into Minoru Mineta's schemes and regrets it fast.",
+      "Stung: Jokes about losing in seconds before anyone else can.",
+      "Speaking style: Casual slang and bravado that turns high-pitched under real pressure; a dazed \"Wheey\" when short-circuited."
+    ],
+    "abilities": [
+      "Indiscriminate Shock: A 1.3-million-volt burst in every direction stuns everyone in range; allies need insulation or distance.",
+      "Contact shock: Shocks whoever he grabs without hitting bystanders; it still spends charge toward overload.",
+      "Short circuit: Past his limit he goes dazed and defenseless until it wears off.",
+      "Team battery: Pins a whole crowd inside a teammate's plan; he needs them to supply the cover.",
+      "\nFighting style: Saves the big discharge for when a team plan covers his allies; alone against grounding or insulation, he has no second move."
+    ],
+    "visualDescription": "A young man with tousled, layered blond hair crossed by a single black lightning-bolt streak through his bangs, bright golden eyes, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Easygoing, cocky grin and a playful look in his eyes.",
+    "detailType": "detailed",
+    "properName": "Denki Kaminari",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8e2fa231-0367-4046-800f-3d75d797bc0e.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "electric"
+    ],
+    "worldVoiceId": "mha_denki_kaminari",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/8e2fa231-0367-4046-800f-3d75d797bc0e.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/6f3f187e-3f5d-4fef-827a-989c213690aa.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/d7778315-6cc7-4605-b31d-69fea9a6a7ed.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/c7a7605a-f39b-4919-9358-7f1aa1db5ee1.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/3f11e986-5812-4b8d-b2b3-ab7fe01fa88a.png"
+    },
+    "initialKnown": false
+  }
+}

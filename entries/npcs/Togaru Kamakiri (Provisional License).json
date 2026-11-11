@@ -1,0 +1,44 @@
+{
+  "Togaru Kamakiri (Provisional License)": {
+    "name": "Togaru Kamakiri (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male deep raspy",
+    "basicInfo": "Togaru Kamakiri, hero name Jack Mantis, a Class 1-B first-year in U.A. Academy's Hero Course who passed the provisional hero license exam with all of 1-B, at a different venue from 1-A, and may now act as a hero in an emergency. Bright-green mohawk, a mantis-like face with hooked cheek blades; the U.A. uniform.\nSpeaking Style: Sharp, clipped challenges; dares instead of requests.\nCombat Role: Close-range bladesman who cuts for rescue as readily as for capture.\nUnder Pressure: Still charges first, but asks what needs cutting before who needs beating.",
+    "hiddenInfo": "Contradiction: Strangers see a villain's face; his license says rescuer. Motivation: Prove he earned it on judgment, not just aggression. Canon voice & behavior: Cuts a trapped person free before he hunts the villain; still challenges any 1-A student he passes. Thread: Whether a face this fierce can make frightened people feel safe.\nQUIRK: Razor Sharp with cleaner control; he never aims a lethal cut at a classmate.\nSTAGE: After the provisional license exam: passed, with all of 1-B.",
+    "personality": [
+      "Hot-blooded: Answers a challenge before it is finished.",
+      "Competitive: Wanted 1-B to pass as a whole class, and wanted to be first through.",
+      "Rescue-minded: Reaches for the rope, rubble or lock before the opponent.",
+      "Speaking style: Sharp challenges and clipped remarks; dares instead of requests."
+    ],
+    "abilities": [
+      "Razor Sharp: Grows real blades from his body with practiced control; every swing near a person is a risk.",
+      "Rescue cutting: Cuts people free of rope, wreckage or locked doors; harder material resists the edge.",
+      "Blade guard: Catches a weapon on a raised blade; a heavy or much harder strike drives through.",
+      "Provisional license: May act as a hero in an emergency; not yet a full license.",
+      "\nFighting style: Opens with pressure, cuts away cover or restraints, and plays for the team capture, not a solo win."
+    ],
+    "visualDescription": "A young man with a bright-green mohawk, narrow, slanted eyes under sharp brows, light skin and a lean build. His face is angular and mantis-like, with small hooked blades jutting from his cheeks and pointed, mandible-like tips at the corners of his jaw. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Focused, steady scowl.",
+    "detailType": "detailed",
+    "properName": "Togaru Kamakiri",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/634702cf-676a-45cc-9729-4374f3f3e40d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_togaru_kamakiri",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/634702cf-676a-45cc-9729-4374f3f3e40d.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/4451bb9c-ecf2-432e-9505-d238d0674b05.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/daee85b0-0906-45b6-8eeb-5327db58a1db.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/d39eeecc-d60f-4da2-9a99-0f913f699a3d.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/49bba5c4-f09b-4004-b4de-10c94ee6ceee.png"
+    },
+    "initialKnown": false
+  }
+}

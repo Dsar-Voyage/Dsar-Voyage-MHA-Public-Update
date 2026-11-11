@@ -1,0 +1,20 @@
+{
+  "Pinball Drop": {
+    "name": "Pinball Drop",
+    "description": "The user goes feather-light to kick off walls, pillars and ceilings in rapid rebounding bounds across a street or up a shaft, then shifts to heavy weight in the final instant of landing on a target. The drop deals bludgeoning damage and knocks the target flat; held back, the user lands beside them and only bowls them off balance. Rapid weight shifts with every bounce leave the user nauseated. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "man_crisis_pr": {
+    "title": "Crisis PR After Kamino",
+    "beats": "The week after Kamino, at U.A. Academy. The country watched All Might's last fight live, saw his body give way to a thin, wounded man on camera, and has now heard him retire from hero work. U.A. is where the questions land: the League of Villains took a student from a U.A. training camp, U.A.'s apology to the press afterward went badly, and the campus is locking down behind new walls, sensors and a stricter curfew. Reporters crowd the Main Gate again, parents' emails fill the office, and two of the academy's sponsors have asked for a call.\n\nIn the Management Course Classrooms the hero business lecturer scraps the syllabus. The class gets real material, cleared by the principal: the press questions, a stack of anonymized parent complaints, the sponsors' notes. The default course, as pressure the player can change: the class drafts responses in teams and splits between honesty and reassurance. One team wants U.A. to apologize again; another wants to sell the lockdown as safety; a third wants All Might's face nowhere near any of it.\n\nAt the Main Gate, Present Mic stands between the reporters and the grounds, quieter than anyone has heard him, answering nothing. A team sent to observe sees one careless quote turn into an evening headline, and a reporter tries to get a Management student to say something about the Hero Course on camera.\n\nThe best draft goes up to Principal Nezu in the Principal's Office. He offers tea, reads it twice, asks one question that takes it apart and one that puts it back together, and may use a line of it at the next briefing.\n\nPublic facts only: what aired from Kamino, the retirement, the camp raid, the lockdown. Nobody on this campus explains why All Might's power gave out, and the narration does not guess.\n\nThe event is complete when the class's response is delivered to Nezu or to the press at the gate, or the party leaves the scene.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_man_crisis_pr",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

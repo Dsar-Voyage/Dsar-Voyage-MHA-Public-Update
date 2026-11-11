@@ -1,0 +1,24 @@
+{
+  "Whiteout Hush": {
+    "name": "Whiteout Hush",
+    "description": "The user sends frost out in every direction at once and freezes a whole scene the size of a city block. Fires go out, floodwater stops as solid ice, and each person the user chooses is frozen in place to the waist, unable to leave the spot until they break free with a hard effort or are thawed. The ice harms nobody, and everyone the user spares stands in a pocket of clear air. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

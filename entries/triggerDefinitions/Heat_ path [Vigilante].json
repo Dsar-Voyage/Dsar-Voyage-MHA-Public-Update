@@ -1,0 +1,39 @@
+{
+  "Heat: path [Vigilante]": {
+    "name": "Heat: path [Vigilante]",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Vigilante"
+      },
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "villainPath",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "set",
+        "value": 0
+      },
+      {
+        "type": "write-number",
+        "key": "nTier",
+        "operator": "set",
+        "value": 0
+      }
+    ]
+  }
+}

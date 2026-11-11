@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Wave Motion Quirk": {
+    "name": "Mechanics: Canon Drawback Wave Motion Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Wave Motion Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Stamina Drain",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

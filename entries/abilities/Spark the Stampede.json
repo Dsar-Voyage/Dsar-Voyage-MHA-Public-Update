@@ -1,0 +1,20 @@
+{
+  "Spark the Stampede": {
+    "name": "Spark the Stampede",
+    "description": "The user commits a sudden act of violence or wreckage in a crowded place: a smashed storefront, a fire set in a doorway, a blade raised in a packed station. Bystanders panic and scatter, and every hero, student or officer present must spend their next action protecting or evacuating civilians instead of attacking or chasing the user. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "League of Villains Recruit",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Intimidation",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Light Quirk": {
+    "name": "Light Quirk",
+    "description": "✨ You build light inside your body and release it as beams and flashes.\n\n🌱 At the start you fire a thin beam that sears skin about twenty meters away, flare bright enough to dazzle a room, and light up a dark building.\n📈 With training: beams nobody can dodge, decoy light doubles, beam-kick leaps, cutting lines that free the trapped and seal wounds, a guarding turn, a street-wide beam.\n⚠️ A full beam to the eyes can blind for life.\n🔗 Common drawback pairing: Bodily Toll, as forcing light out cramps the muscles it leaves through.\n🎬 Similar canon Quirks: Yuga Aoyama (Navel Laser).\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Control +10, Performance +5\n⚡ Starting techniques: Glint Ray, Halo Glare\n🛡️ Resists: light",
+    "traitNarrativeEffects": "Scale: the user builds light in the body and releases it from palms, chest or a player-chosen spot. A new adult user fires a thin beam about twenty meters that sears skin, flashes to dazzle a room, or lights a warehouse until they stop. More needs techniques. Limits: a beam burns but never shoves; its kick pushes the user back a step; mirrors bounce it, smoke, fog and rain scatter it, opaque cover stops it; no corners without a mirror; every beam reveals where the user stands; tinted visors or shut eyes blunt the dazzle. Quirk Strain: light: short beam, glow; moderate: dazzling flash, precise long beam, light double, beam-kick leap; heavy: cutting line, turning guard beam; severe: signature beam, disarming a whole scene. Type: Emitter. Law: a beam to the eyes can blind for life, so aiming at a face is serious assault; unlicensed public use is a crime even if nobody is hurt. Look: in use, the spot glows white or the player's color; beams show in dust and smoke.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Performance",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Glint Ray",
+      "Halo Glare"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "light"
+    ]
+  }
+}

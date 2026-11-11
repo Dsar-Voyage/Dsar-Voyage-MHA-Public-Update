@@ -1,0 +1,24 @@
+{
+  "Rattling Chorale": {
+    "name": "Rattling Chorale",
+    "description": "The user drives a rolling chord down a corridor or half a street that shakes the floor and air together. Enemies in its path take sonic damage, have their footing rattled out from under them so they fall prone, and cannot hear spoken calls until the end of their next turn; held back, it only forces them to cover their ears and give ground. It reaches half a pure sound sweep's length, and carpets or ear protection blunt it. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

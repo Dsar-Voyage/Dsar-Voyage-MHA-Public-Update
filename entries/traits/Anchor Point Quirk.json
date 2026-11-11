@@ -1,0 +1,40 @@
+{
+  "Anchor Point Quirk": {
+    "name": "Anchor Point Quirk",
+    "description": "📍 You mark spots on a floor, a wall or a lamp post with a touch and snap back to them in a heartbeat.\n\n🌱 Hold up to three anchors, always sensing each, and snap to any within your city district, arriving at rest whatever your speed, so a snap ends a fall.\n📈 Training adds strike-and-snap, sending a touched person to safety, delivering a villain to a police van, tagging a car, shuttling people from fires and up to six anchors.\n⚠️ Only you and what you wear and carry make the trip: a grip on you is left holding air, and an anchor someone stands on puts you down beside them.\n🔗 Common drawback pairing: Sensory Overload, as each snap leaves you dizzy and half-deaf for a breath.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Control +10, Navigation +5\n⚡ Starting techniques: Homing Snap, Recall Jab",
+    "traitNarrativeEffects": "Scale: a bare palm held a moment on a fixed spot plants an anchor. New adult user: up to three, each lasting about a day, always sensing direction and distance; focus snaps them to any anchor within about 2 km, arriving at rest, so a snap ends a fall. Carrying or sending others, moving or extra anchors need techniques. Limits: only body and gear go; grippers hold air; a chained rope or cuff stays, wrenching the wrist. Anchors: non-living fixed spots only, lost if moved. Occupied: arrive beside them; sealed, flooded or buried: snap fails. No snap unconscious or panicking. Quirk Strain: light: snap, strike-and-recall; moderate: send or carry one, tag a vehicle; heavy: shuttle several, three-sided rush; severe: signature throw, six anchors. Type: Emitter. Law: snapping into a locked home or office is trespass; warrantless anchoring of a stranger's car to tail it is stalking. Look: faint handprints seen up close; soft thump, flash on arrival.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Navigation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Homing Snap",
+      "Recall Jab"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Tracer Mist": {
+    "name": "Tracer Mist",
+    "description": "The user lets a thin, harmless trace gas seep through a building, a rubble pile or a smoke-filled floor and feels it curl around everything that breathes. They learn where each person inside is, whether each is moving, still or pinned, and which gaps lead out; anyone watching closely may notice a faint haze. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "v_manhunt": {
+    "title": "Manhunt",
+    "beats": "The party is now Most Wanted, and a new manhunt opens with this scene (any chase before it does not count): a coordinated operation closes in, run by a police task force with a top-ranked pro of the narration's choosing, one active at this point in the year, and the local agencies under that pro. In Musutafu, Naomasa Tsukauchi runs the police side in person.\n\nCanon default course, as pressure the player can change: it starts small. A contact stops answering; a familiar street has a new parked van; a broker or a neighbor has been paid to remember a face. Then the raid comes, at the party's safe room or cover address, at an hour the party did not expect: officers at every exit, a pro through the window, drones over the roofs. If the party gets out, the chase runs across rooftops, train lines and back alleys, with checkpoints closing ahead and a pro who will not give up the pursuit.\n\nGetting away always costs something real: the safe room and everything left in it, the cover identity, a stash of cash or gear, a contact burned, or a wound that will not heal quickly. Surrender is always on the table, and the pro offers it more than once. Bystanders are in the way everywhere, and hurting one ends any chance of sympathy.\n\nBy path: a League of Villains recruit learns the League treats recruits as disposable; help may come late or not at all, and after Kamino there is no warp gate to call. An Independent Villain finds every broker's price for a safe room suddenly much higher and wonders which one sold the address. A Vigilante faces a task force that calls the mask dangerous, a pro who respects the work and arrests anyway, and residents who might hide the party or point the way.\n\nThe event is complete when the raid has played out on screen and the party then escapes the net at a price, is captured or surrenders.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_manhunt",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

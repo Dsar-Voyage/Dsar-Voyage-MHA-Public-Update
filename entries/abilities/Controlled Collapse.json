@@ -1,0 +1,24 @@
+{
+  "Controlled Collapse": {
+    "name": "Controlled Collapse",
+    "description": "The user grips a load-bearing point and brings down a chosen piece of a structure, such as a wall, a stairway, a section of floor, a bridge span or a crane, so it falls exactly where they choose. Dropped clear of people, it opens a way in or out; dropped on enemies, it deals bludgeoning damage and pins them under rubble until they are dug out or haul themselves free. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Unmoored Block": {
+    "name": "Unmoored Block",
+    "description": "The user presses both palms to the ground and sends the Quirk out through it, so every person, car and loose slab touching the ground across a whole city block counts as touched. For the rest of the scene the user can make any of them weightless or several times heavier with a gesture: floated enemies drift helpless, and weighted enemies take heavy force damage and cannot stand; held back, the weight only pins them flat. The user's palms must stay on the ground the whole time, and if they lift, everything floated falls at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

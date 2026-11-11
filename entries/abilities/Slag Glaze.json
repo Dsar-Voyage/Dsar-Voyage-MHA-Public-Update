@@ -1,0 +1,20 @@
+{
+  "Slag Glaze": {
+    "name": "Slag Glaze",
+    "description": "The user presses a palm to stone or concrete and sends heat two strides through the floor instead of the air, blistering the rock into a glowing crust. A target standing on that patch takes fire damage and is forced a step back; held back, the crust only warms their soles and spoils their stance without burns. On wood or metal floors it fails, and the stone stays hot for a minute. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

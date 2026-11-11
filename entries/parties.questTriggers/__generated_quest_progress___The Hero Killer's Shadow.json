@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/The Hero Killer's Shadow": {
+    "name": "__generated_quest_progress__/The Hero Killer's Shadow",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The Stain copycat in Hosu has been identified and stopped through the PC's actions: captured, turned in or talked down."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "The Hero Killer's Shadow"
+      }
+    ]
+  }
+}

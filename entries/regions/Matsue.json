@@ -1,0 +1,30 @@
+{
+  "Matsue": {
+    "name": "Matsue",
+    "basicInfo": "The heart of Shimane: the city of Matsue, Lake Shinji, the Izumo plain and the eastern Shimane Peninsula, with the Okuizumo hills rising to the south. The Shimane Peninsula forms the north, a low wall of green ridges whose coast is cut by fishing coves such as Kaga, where boats enter the sea cave of Kaga no Kukedo. Below it lie two linked lakes: brackish Lake Shinji in the west, famous for its sunsets and tiny shijimi clams, and the larger Nakaumi lagoon in the east, with Daikonshima island and its peony gardens. Matsue, the prefectural capital, sits on the channel between them, a city of canals around one of Japan's few original castle keeps, black-walled, with pleasure boats circling the moat under low bridges. Samurai houses line the northern moat. Tamatsukuri Onsen, south of the lake, is an old hot spring town. West of the lake spreads the Izumo plain, farm villages with tall pine windbreaks around each house, and the city of Izumo on the Hii River, with the airport, malls and factories. The Hii River country to the south is the land of the eight-headed serpent legend, with Yaegaki and Kamosu shrines near Matsue, Kisuki's riverbank cherries, and in Okuizumo the old tatara iron smelting that still makes steel for swordsmiths. The Adachi Museum of Art near Yasugi is known for its garden. On the eastern edge the Eshima Ohashi bridge arches steeply across Nakaumi toward Sakaiminato, a busy fishing port of red snow crab and tuna, with a street of bronze yokai statues and the ferry to the Oki Islands. Winters are damp and gray with some snow. Foods: shijimi soup, Izumo soba, the lake's seven delicacies, sweets with matcha. JR's San'in Main Line runs along the lake's south shore, the Ichibata line along the north shore, and two expressways carry the cars. The limited express from Okayama takes about two and a half hours; from Musutafu it is about six hours by train, or a flight to Izumo. From Osaka, about three and a half hours. Matsue and Izumo each have small hero agencies and police boxes; sidekicks patrol the castle area and the autumn water lantern festival. Quirks here run to lake and farm work, like a clam digger who feels shells through the mud.",
+    "hiddenInfo": "Matsue and Izumo are comfortable but aging, losing jobs and young adults to the cities beyond the mountains. The castle town draws tourists and with them minor theft and Quirk scams; Izumo's malls see shoplifting and the odd brawl. The local agencies are small but steady; a serious villain means calling heroes from Okayama or Hiroshima, two or three hours away. In the Okuizumo hills the danger is landslides and floods on the Hii River more than crime.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -11,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/40b92a41-4f9b-4562-8bc9-fff997a03d13.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

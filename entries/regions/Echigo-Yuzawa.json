@@ -1,0 +1,30 @@
+{
+  "Echigo-Yuzawa": {
+    "name": "Echigo-Yuzawa",
+    "basicInfo": "The Uonuma country of southern Niigata, a long snowbound valley and its surrounding mountains running north from the hot spring town of Yuzawa toward Ojiya, with Tokamachi on the western edge and the wild border range of Fukushima on the east. No coast here. The Uono River flows north between low hills on the west and the Echigo Sanzan peaks, Mount Hakkai among them, on the east, and the Shinano River winds through Tokamachi and Ojiya; in the east the mountains rise to Echigo-Komagatake and the deep Okutadami dam lake on the Fukushima border. This is some of the snowiest inhabited ground on earth: two or three meters on the valley floor is normal, streets run with snow-melt sprinklers, and houses stand on high concrete bases. Summers are hot and humid in the valley, cool on the ridges. Yuzawa is the gateway, the snow country of a famous novel, a town of onsen inns, high-rise resort condos and ski slopes, one of them with a gondola that starts at a shinkansen station. Minamiuonuma holds Muikamachi, Urasa and big ski areas such as Ishiuchi Maruyama; Urasa's Bishamon temple holds a naked pushing festival every March. Uonuma's Koide is the start of the Tadami Line into Aizu. Tokamachi is a kimono-weaving town with a big snow festival in February and buckwheat noodles served on wooden trays, and Ojiya breeds koi and weaves fine ramie cloth bleached on the snow; nearby Katakai fires one of the largest fireworks shells in the world in September. Uonuma Koshihikari is the most prized rice in Japan, and the local sake is famous. The Joetsu Shinkansen stops at Echigo-Yuzawa and Urasa, about seventy-five minutes from Tokyo and about two and a half hours from Musutafu; the Joetsu Line, Iiyama Line, Hokuhoku Line and Tadami Line spread out from the valley, and the Kan-etsu Expressway runs north from the long Kan-etsu Tunnel just south of Yuzawa. Visitors ski, soak, tour breweries, buy koi, hike Hakkai and Okutadami, and eat soba. Small hero offices in Yuzawa and Muikamachi work with police and ski patrols, and in winter licensed heroes with heat or wind Quirks help clear avalanche debris from the tracks.",
+    "hiddenInfo": "Weekend ski crowds bring petty theft, drunken tourists at lodges and backcountry skiers lost or buried in avalanches. Bubble-era resort condos sit half empty and cheap, drawing squatters and quiet trouble. Prized koi worth fortunes make Ojiya ponds a target for thieves. Hero help: small offices at Yuzawa and Muikamachi plus seasonal rescue staff; the Okutadami and Fukushima border wilderness is hours from anyone. Larger cases bring in Nagaoka or Niigata responders, an hour or more off.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": 0,
+    "y": 4,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9622c8ef-840b-4068-9639-4ef4527dec49.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

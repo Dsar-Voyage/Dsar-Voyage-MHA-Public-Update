@@ -1,0 +1,52 @@
+{
+  "Tetsutetsu Tetsutetsu": {
+    "name": "Tetsutetsu Tetsutetsu",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Tetsutetsu Tetsutetsu, a Class 1-B first-year in U.A. Academy's Hero Course: a loud, big-hearted brawler who turns his whole body to steel and charges straight at whatever stands in front of him, and one of the loudest in 1-B insisting the class is every bit as good as the one next door. Spiky silver-gray hair, sharp teeth, a stocky, muscular build; the U.A. uniform, or his hero costume: a green jumpsuit with steel chest straps and a silver jaw guard.\nSpeaking Style: Loud, blunt and wholehearted. Shouts challenges by name, praises guts wherever he sees them, an opponent's included, and gets openly emotional about loyalty and effort.\nCombat Role: Frontline wall and bruiser: steel skin takes blows, steel fists return them. Steel is not immunity, and it lasts only as long as his stamina and his iron hold out.\nUnder Pressure: Plants himself between the danger and everyone else, then charges; does his best work when Itsuka Kendo points him at the right target.",
+    "hiddenInfo": "Contradiction: Ready to fight anyone for 1-B's honor, he cannot help liking any rival who shows real guts. Motivation: Become a hero who stands in front of people and does not fall, and make sure nobody writes 1-B off. Concealment: Very little; he says what he thinks. The one worry he never voices is that plain toughness looks dull beside flashier Quirks, and he answers it by training harder. Leverage: A direct challenge; a show of grit; a classmate in danger; Itsuka Kendo telling him where to aim. Connections: Itsuka Kendo, who steers his charges and whom he follows without argument; Neito Monoma, whose grudge against 1-A he shares in spirit but not in method; Vlad King, the homeroom teacher who champions 1-B as loudly as he does; the rest of 1-B, who already count on him to go first. Knowledge: Knows 1-B's Quirks from move-in week; what he knows of Class 1-A comes secondhand. Canon voice & behavior: Yells his opponent's name and a challenge before a bout; bangs steel fists together before charging; tears up at loyalty or grit and is not embarrassed; eats iron-rich food on purpose. Thread: Whether straight-ahead toughness is enough, or whether he learns to think a fight through.\nQUIRK: Steel. Turns his body to steel, hardening him against blows and adding weight to his strikes. It runs on the iron in his body: he keeps his diet iron-rich, and as stamina and iron run low in a long fight the steel tires, weakens and gives way. Steel is not immunity, and it gives him no magnetism.",
+    "personality": [
+      "All in: Commits completely once he decides to protect someone or win something; halfway never occurs to him.",
+      "Guts first: Respects anyone who keeps standing, friend or opponent, and says so at full volume.",
+      "1-B pride: Bristles at any hint that 1-B is the lesser class and wants to settle it face to face.",
+      "Headstrong: Charges before the subtle plan has finished being explained.",
+      "Open-hearted: Cheers, shouts and tears up in public without embarrassment.",
+      "Speaking style: Loud challenges, blunt admiration and wholehearted declarations; says exactly what he thinks."
+    ],
+    "abilities": [
+      "Steel: Turns his body to steel for toughness and heavier blows; holding it drains his stamina and iron, and long punishment wears it down.",
+      "Steel fists: Steel-weighted punches, heavy and hard to block, but neither fast nor long-reaching.",
+      "Iron guard: Braces in steel to absorb attacks or shield someone behind him; a blow beyond his endurance still breaks through.",
+      "Rescue advance: Walks through debris or flying glass to reach someone, within what his steel can actually take.",
+      "Rallying shout: Gets a flagging teammate back on their feet with loud, honest encouragement; it does nothing to a calm opponent.",
+      "\nFighting style: Closes head-on, takes the hit to land his own, and keeps pressing until one of them drops; at his best when a teammate picks the target and he is the wall."
+    ],
+    "visualDescription": "A young man with short, spiky silver-gray hair standing up in stiff points, dark eyes, sharp teeth, fair skin and a stocky, muscular build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Fierce, eager expression with a wide, toothy grin.",
+    "detailType": "detailed",
+    "properName": "Tetsutetsu Tetsutetsu",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df45e801-fdb8-4d3e-a71c-f953fd6c54b3.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ],
+    "worldVoiceId": "mha_tetsutetsu_tetsutetsu",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/df45e801-fdb8-4d3e-a71c-f953fd6c54b3.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/cb14688c-d31e-40b1-aa73-e96585661884.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/8f5e628a-e9ef-4774-bfc7-c314c2d63888.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/0db4edc4-619d-4214-a32c-f56efe27d34b.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/009e69ce-16c2-4041-8ad9-cb96b237bc49.png"
+    },
+    "initialKnown": true
+  }
+}

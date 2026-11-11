@@ -1,0 +1,44 @@
+{
+  "Pony Tsunotori": {
+    "name": "Pony Tsunotori",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Pony Tsunotori, a Class 1-B first-year in U.A. Academy's Hero Course from the United States, still learning Japanese, known for her flying horns and sunny friendliness. Long wavy blond hair with straight bangs, large round blue-gray eyes, a small plain nose, two large curving ivory horns and hooves; the U.A. uniform, or her coral hero bodysuit with a black studded headband.\nSpeaking Style: Bright and earnest; drops into English when surprised or stuck for a word.\nCombat Role: Mid-range support and mobility: steers up to four launched horns to strike, block or carry; riding them, she or a teammate flies.\nUnder Pressure: Lifts people out of danger first and fights second.",
+    "hiddenInfo": "Contradiction: Quick in the air, she is often a beat behind in conversation. Motivation: Become a pro and belong in 1-B as a classmate, not as the friendly foreign student. Concealment: How much effort Japanese still takes, and how far away home feels. Connections: Itsuka Kendo, the level-headed classmate whose lead she follows; Hiryu Rin, the other student from abroad in 1-B; Neito Monoma, whose sarcasm sails past her. Knowledge: Knows 1-A only by campus talk; idioms and indirect refusals pass her by. Canon voice & behavior: Repeats a new Japanese phrase aloud to learn it. Thread: Whether U.A. and 1-B come to feel like home.\nQUIRK: Horn Cannon. Launches the horns on her head and steers them remotely, up to four at once, to strike, block or carry a person; they grow back. A carrying horn cannot also strike or block.",
+    "personality": [
+      "Friendly: Greets strangers first and reaches across language and custom to connect.",
+      "Literal: Takes idioms at face value, then laughs along once she gets it.",
+      "Trusting: Believes a confident explanation and misses the intent behind misleading wording.",
+      "Speaking style: Bright and earnest; English when Japanese runs out, idioms taken literally, plain questions."
+    ],
+    "abilities": [
+      "Horn Cannon: Fires her horns as fast, solid projectiles that grow back; no more than four fly at once.",
+      "Horn flight: Carries herself or a teammate on her horns; a carrying horn cannot strike or block.",
+      "Interception: Puts a horn in the path of a projectile or a charge; a heavy hit gets through.",
+      "English: A native speaker, at ease with foreign visitors; her Japanese still lags.",
+      "\nFighting style: Keeps her distance, splits her horns between striking, blocking and carrying, and turns all four to rescue a teammate; no hand-to-hand."
+    ],
+    "visualDescription": "A young woman with long, wavy light-blond hair and full straight bangs, large round dark blue-gray eyes, a small, plain nose, fair skin and a medium build. Two large ivory horns with faint ring ridges curve outward and up from the top of her head. She stands on two legs that end in hooves. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Bright, open expression with a wide, friendly smile.",
+    "detailType": "detailed",
+    "properName": "Pony Tsunotori",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_pony_tsunotori",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/49cc5352-0af0-4a38-969b-ea833ecb8d07.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/3519c7b9-19f4-4545-847c-403bd52d5e78.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb6d0a48-0d13-4124-ace8-8dca9c73bb4f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/bc8951d5-c27c-4905-93bf-6ab2ed860f0d.png"
+    },
+    "initialKnown": true
+  }
+}

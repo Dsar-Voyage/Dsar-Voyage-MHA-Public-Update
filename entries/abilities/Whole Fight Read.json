@@ -1,0 +1,25 @@
+{
+  "Whole Fight Read": {
+    "name": "Whole Fight Read",
+    "description": "The user's signature move: they catch an opponent's weapon and read in one moment the whole fight its owner has planned. Every attack the opponent makes misses the user until the end of the opponent's next turn, and the user's counter deals massive bludgeoning damage and leaves them unable to act until then; held back, it only drops them. Afterward the user's head pounds and they cannot read until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Psychometry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

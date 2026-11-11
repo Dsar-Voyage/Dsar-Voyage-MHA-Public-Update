@@ -1,0 +1,33 @@
+{
+  "Heat: sleep or time": {
+    "name": "Heat: sleep or time",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "heat",
+        "operator": "greaterThan",
+        "value": 0
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Ss]leep|[Gg]o to bed|[Ss]kip|[Dd]ays pass|[Nn]ext (day|morning))"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "subtract",
+        "value": 4
+      }
+    ]
+  }
+}

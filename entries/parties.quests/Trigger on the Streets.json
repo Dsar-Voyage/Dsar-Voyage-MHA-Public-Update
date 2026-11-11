@@ -1,0 +1,17 @@
+{
+  "Trigger on the Streets": {
+    "name": "Trigger on the Streets",
+    "questSource": "Naomasa Tsukauchi",
+    "questStatement": "Three people in a week have turned up around Musutafu Station with Quirks running far past their registrations, then collapsed shaking an hour later. The police lab calls it Trigger, a street drug that boosts a Quirk for minutes and wrecks the user afterward. Detective Naomasa Tsukauchi's team is tracing it, and the only lead is a dealer working the Back Alleys behind the arcade. Licensed or not, whoever brings Tsukauchi evidence he can use in court gets his attention.",
+    "mainObjective": "Find the Trigger dealer in the station's Back Alleys and get usable evidence to Detective Naomasa Tsukauchi.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has identified the Trigger dealer working the station's Back Alleys and has put him and evidence of his sales in police hands, or has ended his sales another way."
+    },
+    "detailType": "detailed",
+    "questLocation": "Musutafu Police Headquarters",
+    "questDesignBrief": "Street investigation with medical stakes. A user on Trigger is stronger, erratic and in danger, and the crash can put them in the hospital. Naomasa Tsukauchi works by evidence and hears every lie told to him; Sansa Tamakawa takes statements. A sidekick works through the agency and the police; a vigilante risks arrest for every unlicensed act and leaves evidence where police will find it. The dealer and his buyers are generated people. The supply traces only as far as a courier who mentions buyers in Kansai; the quest never names the wholesaler or reaches Osaka. Tsukauchi's file on crooks flashing new cash foreshadows no canon event. Failure: the dealer moves on and a user gets hurt.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

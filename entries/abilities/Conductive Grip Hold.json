@@ -1,0 +1,20 @@
+{
+  "Conductive Grip Hold": {
+    "name": "Conductive Grip Hold",
+    "description": "The user grips one opponent directly or through a metal object and maintains a measured shock until the end of the user's next turn. The target's muscles seize, preventing escape or an attack while the contact holds; held back, the shock ends before lasting injury. Insulation breaks the circuit, and the user cannot safely touch an ally with the same hand. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Telepathy Quirk": {
+    "name": "Telepathy Quirk",
+    "description": "🧠 You send your thoughts into other people's minds.\n\n🌱 At the start you speak into the heads of up to five people within about a hundred meters, through walls, smoke and noise, and feel the minds near you, even under rubble.\n📈 With training: stunning static, shared sight, a team linked mind to mind, the trapped kept calm, surface thoughts read, all hostile minds struck, a district addressed.\n⚠️ It works one way: you hear no answers and read no thoughts until training opens surface reading.\n🔗 Common drawback pairing: Cognitive Fade, as reaching into other minds wears down your own.\n🎬 Similar canon Quirks: Mandalay (Telepath).\n\n📈 Grants: Cooperativeness +1, Quirk Analysis +10, Quirk Control +10, Team Coordination +5\n⚡ Starting techniques: Mindcast, Mind Census",
+    "traitNarrativeEffects": "Scale: the user speaks into minds. A new adult user reaches up to five people they can see or have met within about a hundred meters, a few sentences at a time, in their voice; walls, smoke, noise and deafness do not stop it. They also feel minds within about thirty meters: how many, where, awake or not. Images and bigger feats need techniques. Limits: one way at the start: no replies, no thoughts read. Cannot move a body, plant a command or change a feeling; a message can be ignored, not unheard; the unconscious receive nothing. Quirk Strain: light: messages, sensing minds; moderate: mental spike, shared sight, team link; heavy: rescue link, reading a mind; severe: signature strike, district-wide link. Type: Emitter. Law: messaging strangers' minds without cause is harassment; reading a mind without consent is a serious crime and spoils any evidence; licensed users read minds only to save lives. Look: unfocused eyes; listeners feel pressure behind the eyes first.",
+    "attributes": [
+      {
+        "attribute": "cooperativeness",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Mindcast",
+      "Mind Census"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

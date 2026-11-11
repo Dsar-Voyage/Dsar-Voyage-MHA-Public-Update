@@ -1,0 +1,15 @@
+{
+  "side_work_study_first_shift": {
+    "title": "Work-Study: First Shift",
+    "beats": "A weekday in the fall, between classes. The party holds a provisional license and a work-study placement, won in the Hero Work-Study quest, at the agency that accepted it; the mentor is that pro, played as the record describes, or a working pro of the narration's making. U.A. has approved the missed classes on one condition: grades hold. The party leaves campus after homeroom with a make-up worksheet in the bag. Other classmates leave on their own trains: Eijiro Kirishima for Fat Gum's agency in Osaka beside Tamaki Amajiki, Ochaco Uraraka and Tsuyu Asui for Ryukyu's agency beside Nejire Hado, Izuku Midoriya for Sir Nighteye's agency, where Mirio Togata works.\n\nCanon default course, as pressure the player can change: a licensed student is not an intern. The mentor hands over a radio, a sector of the beat and a sidekick partner, and expects the party to judge when to act. The day is ordinary agency work, the kind the agency handles every week: a patrol, a lost wallet, a shop owner's complaint. Then the case: a delivery truck has gone into a storefront two blocks from the party's position, the driver is pinned behind a jammed door, a gas line hisses, and the sidekick partner is on the far side of the block. The party is first on scene, with the authority to clear the street, use a Quirk to free the driver and hold the scene until the mentor arrives. Moving too slowly costs the driver; moving carelessly costs the building.\n\nAfterward the mentor reviews it plainly: what the license allowed, what the party did with it, what the report needs. Then the clock: the train back, a quiz tomorrow, the make-up worksheet still blank.\n\nBy path: a 1-A party comes home to a lounge where the other work-study students compare first shifts without saying much. A 1-B party is one of its class's first on placement, and its classmates want every detail.\n\nThe event is complete when the case is closed and the shift report is filed, or the party misses the train back to U.A.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_work_study_first_shift",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Kosei Tsuburaba (Summer Training)": {
+    "name": "Kosei Tsuburaba (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Kosei Tsuburaba, hero name Tsuburaba, a Class 1-B first-year in U.A. Academy's Hero Course. Since the festival: his internship week, the final exams, and the forest training camp shared with 1-A, which the League of Villains attacked while he was there. Tousled auburn hair, large dark eyes; the U.A. uniform.\nSpeaking Style: Casual banter; quieter about real danger than about drills.\nCombat Role: Support and control; camp drills made his walls faster and bigger.\nUnder Pressure: Walls off the danger for whoever is beside him.",
+    "hiddenInfo": "Contradiction: Camp drills pushed every Quirk to its limit, and his limit is an ordinary one: he runs out of breath. Motivation: Close the gap with 1-A. Concealment: The night of the attack shook him more than his jokes show. Connections: Itsuka Kendo and Tetsutetsu Tetsutetsu, who went after the villain behind the gas. Knowledge: Knows Hosu and Kamino from the news: Katsuki Bakugo rescued, All Might retired, U.A. locked down since. Thread: Whether the class can rely on him now.\nQUIRK: Solid Air. Faster, bigger walls; his lungs still cap them.\nSTAGE: After the summer: camp attacked, All Might retired, U.A. locked down.",
+    "personality": [
+      "Grumbler: Complains about every hard drill, and finishes every one.",
+      "Loud reactions: Groans or whistles when a rival does something good.",
+      "Friendlier: Banters with 1-A now that the classes have trained side by side.",
+      "Speaking style: Casual banter and audible reactions; talks bigger after a win than it deserves."
+    ],
+    "abilities": [
+      "Solid Air: Hardens his breath into a transparent solid, quicker after drills.",
+      "Transparent wall: Blocks a route or attack unseen; a heavy blow breaks it.",
+      "Capture barrier: Boxes a target in until a teammate makes the capture.",
+      "Air footing: Breathes a small solid step into place for a jump or a climb.",
+      "\nFighting style: Stays a step behind the front line and walls off the opponent's path."
+    ],
+    "visualDescription": "A young man with short, tousled auburn hair, large round dark eyes, an ordinary, friendly face, fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Tired but cheerful expression, the grin a little less cocky.",
+    "detailType": "detailed",
+    "properName": "Kosei Tsuburaba",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2df8cf50-16e6-49a6-88b4-be5b10699905.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_kosei_tsuburaba",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/2df8cf50-16e6-49a6-88b4-be5b10699905.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/655dabb4-2e90-4f54-930f-d2c0a42caf7d.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/b3efbdd5-4acc-4bb8-ab95-d71d583ad204.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/13cbb9e7-b90c-4f3e-b05a-d3b087e63b03.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/1f67c570-33c3-4b44-93aa-f48dfd9066fd.png"
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,1435 @@
+{
+  "new-voice-1": {
+    "label": "",
+    "voiceTag": "Male Voice actor - Anime Dub",
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 0
+      },
+      "reverb": {
+        "enabled": false,
+        "space": "room",
+        "mix": 0.47
+      },
+      "echo": {
+        "enabled": false,
+        "delayMs": 260,
+        "feedback": 0.35,
+        "mix": 0.3
+      },
+      "eq": {
+        "enabled": false,
+        "highPass": {
+          "enabled": false,
+          "frequency": 80
+        },
+        "lowShelf": {
+          "enabled": false,
+          "frequency": 150,
+          "gainDb": 0
+        },
+        "bell1": {
+          "enabled": false,
+          "frequency": 500,
+          "gainDb": 0,
+          "q": 1
+        },
+        "bell2": {
+          "enabled": false,
+          "frequency": 3000,
+          "gainDb": 0,
+          "q": 1
+        },
+        "highShelf": {
+          "enabled": false,
+          "frequency": 8000,
+          "gainDb": 0
+        },
+        "lowPass": {
+          "enabled": false,
+          "frequency": 12000
+        }
+      },
+      "distortion": {
+        "enabled": false,
+        "drive": 0.4
+      },
+      "output": {
+        "enabled": false,
+        "gainDb": 0,
+        "compressor": true
+      }
+    },
+    "instructions": "Anime voice actor from MHA, English Dub anime"
+  },
+  "mha_hitoshi_shinso": {
+    "label": "Hitoshi Shinso",
+    "voiceTag": "male laconic calm",
+    "instructions": "Low-mid young man's voice, dry and slightly husky, tired and half-awake. Quiet, unhurried, almost monotone; questions come out level and probing, jabs soft and cool. Stung, the flatness tightens into a cold, clipped edge. Never bright.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_denki_kaminari": {
+    "label": "Denki Kaminari",
+    "voiceTag": "male confident energetic",
+    "instructions": "Bright, light young man's tenor with a goofy grin in it; loud, quick and upbeat slacker slang. Cracks upward into a yelp when scared, slides into a fake-smooth croon when flirting, goes slack and dopey when overloaded. Never grave.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_eijiro_kirishima": {
+    "label": "Eijiro Kirishima",
+    "voiceTag": "male confident warm",
+    "instructions": "Young man's mid-range voice with a gruff, scratchy edge; loud, open and sincere. Punchy exclamations, a hearty laugh, encouragement in every line; bellows with grit in a fight, goes earnest and straight when apologizing. Never sly or cold.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false
+  },
+  "mha_fumikage_tokoyami": {
+    "label": "Fumikage Tokoyami",
+    "voiceTag": "male deep controlled",
+    "instructions": "Low, grave young man's voice, smooth and slightly hollow, with measured, theatrical solemnity and deliberate pauses. Short pronouncements; rises only for a sharp command to his shadow. Flustered, it cracks into a stiff mutter. Never chirpy.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false
+  },
+  "mha_hanta_sero": {
+    "label": "Hanta Sero",
+    "voiceTag": "male confident casual",
+    "instructions": "Relaxed mid-range young man's voice with a slight nasal brightness and an easy grin; laid-back, quick and friendly, with wry chuckles and dry asides. Field calls short and clear. More amused than scared. Never stiff or formal.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false
+  },
+  "mha_hiryu_rin": {
+    "label": "Hiryu Rin",
+    "voiceTag": "male steady approachable",
+    "instructions": "Firm, mid-low young man's voice, clean and controlled, with crisp consonants and a martial artist's calm. Short, plain sentences; clipped, sure calls to teammates; a brief warm note when he approves. Never loud for show or rambling.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_ibara_shiozaki": {
+    "label": "Ibara Shiozaki",
+    "voiceTag": "female warm soft",
+    "instructions": "Gentle, serene young woman's voice, soft and clear, with formal, prayerful courtesy. Unhurried, graceful phrasing; earnest and kind, firm and solemn when speaking of justice or mercy. Never slangy, loud or teasing.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false
+  },
+  "mha_itsuka_kendo": {
+    "label": "Itsuka Kendo",
+    "voiceTag": "female gentle grounded",
+    "instructions": "Clear, mid-range young woman's voice, confident and warm like a capable big sister. Brisk and direct: crisp instructions, calm corrections, an easy chuckle at compliments, a sharp no-nonsense snap at a troublemaker. Never shrill or flirty.",
+    "speed": 1.03,
+    "exposeInCharacterCreation": false
+  },
+  "mha_izuku_midoriya": {
+    "label": "Izuku Midoriya",
+    "voiceTag": "male grounded conversational",
+    "instructions": "Light, earnest young man's tenor, soft and a little breathy. Talks fast, stammers and apologizes when nervous, mutters rapidly while analyzing; in a rescue turns loud and clear, with raw, cracking shouts. Emotion comes easily. Never smug or deep.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_jurota_shishida": {
+    "label": "Jurota Shishida",
+    "voiceTag": "male baritone warm",
+    "instructions": "Deep, rumbling young man's voice, rich and well-mannered, with a gentlemanly, slightly old-fashioned formality. Measured, complete, polite sentences, warm even to rivals; a growling, beastly edge when roused. Never sloppy or slangy.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_juzo_honenuki": {
+    "label": "Juzo Honenuki",
+    "voiceTag": "male deep drywitted",
+    "instructions": "Mellow mid-low young man's voice, relaxed and a touch drowsy, with a dry, even calm and a faint lazy drawl. Plain, unhurried statements of what he sees and what to do; stays level under pressure. Never shouts or rushes.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false
+  },
+  "mha_katsuki_bakugo": {
+    "label": "Katsuki Bakugo",
+    "voiceTag": "male deep raspy",
+    "instructions": "Hoarse, raspy young man's voice in a mid register, harsh and scratchy, always on the edge of a shout. Clipped, snarling delivery; barks orders and insults, volume jumping into explosive yells; quiet moments a rough grumble. Never slow, soft or polite.",
+    "speed": 1.06,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_kinoko_komori": {
+    "label": "Kinoko Komori",
+    "voiceTag": "female melodic bright",
+    "instructions": "Bright, cute, higher young woman's voice, bubbly and sing-song, with a playful lilt on her mushroom puns. Quick, cheerful and a little giggly; when a plan clicks she turns short, focused and quietly sly. Never deep or harsh.",
+    "speed": 1.06,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_koji_koda": {
+    "label": "Koji Koda",
+    "voiceTag": "male gentle soothing",
+    "instructions": "Soft, gentle young man's voice, quiet and slightly light for his size; shy and hesitant, often trailing into a murmur. Clear, kind and tender with animals; firms into a determined call when someone is in danger. Never loud or brash.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false
+  },
+  "mha_kojiro_bondo": {
+    "label": "Kojiro Bondo",
+    "voiceTag": "male gentle soothing",
+    "instructions": "Deep but soft young man's voice, warm and slightly muffled, hesitant and polite. Speaks slowly and after others, with small apologetic pauses; steady and sincere in a crisis. Never boisterous, sharp or quick.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_kosei_tsuburaba": {
+    "label": "Kosei Tsuburaba",
+    "voiceTag": "male confident casual",
+    "instructions": "Casual mid-range young man's voice, easygoing and a little cocky, quick banter with a smirk in it. Puffs up and gets louder after a good moment; otherwise a relaxed, ordinary friendly guy. Never grave or formal.",
+    "speed": 1.03,
+    "exposeInCharacterCreation": false
+  },
+  "mha_kyoka_jiro": {
+    "label": "Kyoka Jiro",
+    "voiceTag": "female deep controlled",
+    "instructions": "Cool, low alto young woman's voice, slightly husky and dry. Deadpan, short, wry one-liners with a smirk; rises into a sharp, exasperated snap at fools; goes quick and mumbly when her music is praised. Never bubbly or sing-song.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_manga_fukidashi": {
+    "label": "Manga Fukidashi",
+    "voiceTag": "male commanding blunt",
+    "instructions": "Loud, punchy young man's voice, big-chested and emphatic, shouting comic sound effects with stretched vowels and lots of tonal color so the feeling carries without words. Energetic, like a living comic panel. Never mumbling or menacing.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mashirao_ojiro": {
+    "label": "Mashirao Ojiro",
+    "voiceTag": "male steady approachable",
+    "instructions": "Plain, mild mid-range young man's voice, polite and level, sensible and unflashy. Direct, calm, reasonable answers; a resigned sigh instead of a shout at classmates' antics; short, firm calls in a fight. Never theatrical or brash.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mezo_shoji": {
+    "label": "Mezo Shoji",
+    "voiceTag": "male calm steady",
+    "instructions": "Deep, low young man's voice, calm and steady, slightly muffled as if behind a cloth mask. Short, plain, economical sentences, gentle and protective beneath the gravity; louder only to report or warn. Never jokey or rushed.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  },
+  "mha_mina_ashido": {
+    "label": "Mina Ashido",
+    "voiceTag": "female melodic bright",
+    "instructions": "Bright, high, energetic young woman's voice with a slightly raspy, playful edge; fast, teasing and bubbly. Lots of exclamations, a drawn-out 'Ehhh?!', gleeful squeals at any hint of romance, an easy loud laugh. Never calm or monotone for long.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_minoru_mineta": {
+    "label": "Minoru Mineta",
+    "voiceTag": "male young charismatic",
+    "instructions": "A high, thin, nasal young man with a whiny, sniveling edge: quick, breathy and eager, his voice cracks upward when he gets excited or scared and drops into a sleazy, wheedling murmur when he schemes. Clear and smooth, never hoarse, gravelly or raspy, never deep.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 2
+      }
+    }
+  },
+  "mha_mirio_togata": {
+    "label": "Mirio Togata",
+    "voiceTag": "male confident energetic",
+    "instructions": "Big, bright, booming young man's voice, sunny and goofy, with a hearty laugh at his own jokes. Loud, open and enthusiastic, puns and encouragement delivered with total confidence; steady, firm warmth when serious. Never cold or gloomy.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false
+  },
+  "mha_momo_yaoyorozu": {
+    "label": "Momo Yaoyorozu",
+    "voiceTag": "female calm controlled",
+    "instructions": "Refined young woman's voice, mid-low, smooth and articulate; polite, formal and precise, with a tutor's patient clarity. Composed pace, curious and wide-eyed about ordinary things, crisp and decisive under pressure. American accent, never British.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_neito_monoma": {
+    "label": "Neito Monoma",
+    "voiceTag": "male sly manipulative",
+    "instructions": "Smooth mid-range young man's voice, theatrical and sneering, with exaggerated mock courtesy and a high, manic laugh that runs too long; pitch swoops for drama. With his own class, quick, sharp and practical. Never slow, deep or menacing.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_nejire_hado": {
+    "label": "Nejire Hado",
+    "voiceTag": "female melodic bright",
+    "instructions": "Light, airy, high young woman's voice, dreamy and sing-song, bubbling with curiosity. Rapid, breathless strings of questions, hopping topics mid-sentence with a lilting rise; bright and focused in battle. Never flat, slow, whispery or harsh.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_nirengeki_shoda": {
+    "label": "Nirengeki Shoda",
+    "voiceTag": "male calm steady",
+    "instructions": "Soft, even mid-range young man's voice, politely formal and considered. Calm, careful sentences; offers a tactical point quietly and modestly, and stays composed when things go wrong. Never raises his voice or rushes.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_ochaco_uraraka": {
+    "label": "Ochaco Uraraka",
+    "voiceTag": "female warm friendly",
+    "instructions": "Sweet, bright young woman's voice, mid-high and warm, casual and cheerful with an easy laugh. Wide-eyed squeaks at anything expensive, flustered stammers at compliments; firm and clear when determined. Never cold, smoky or posh.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_pony_tsunotori": {
+    "label": "Pony Tsunotori",
+    "voiceTag": "female warm friendly",
+    "instructions": "Bright, earnest young woman's voice with a natural General American accent, friendly and sunny. A little careful when hunting for a word, then quick, excited exclamations when surprised. Warm and a little breathless. Never British or flat.",
+    "speed": 1.03,
+    "exposeInCharacterCreation": false
+  },
+  "mha_reiko_yanagi": {
+    "label": "Reiko Yanagi",
+    "voiceTag": "female cynical monotone",
+    "instructions": "Soft, low, flat young woman's voice, sparse and quiet, with a dry, faintly eerie, ghost-story stillness. Long pauses, minimal inflection, a deadpan murmur; hushed and calm even in danger, with faint dark amusement. Never bubbly or loud.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false
+  },
+  "mha_rikido_sato": {
+    "label": "Rikido Sato",
+    "voiceTag": "male confident warm",
+    "instructions": "A big young man's warm, low-mid voice with a slight husk. Plain, friendly and unhurried, brightening with real enthusiasm about baking; short grunting effort in a fight, soft and sincere when worried. Never boastful.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_sen_kaibara": {
+    "label": "Sen Kaibara",
+    "voiceTag": "male grounded conversational",
+    "instructions": "A young man's natural mid-low voice with a dry, deadpan edge. Short, flat sentences at a steady clip, each correction said once with a faint unimpressed sigh. Turns clipped and quick, not loud, when a plan goes wrong.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_setsuna_tokage": {
+    "label": "Setsuna Tokage",
+    "voiceTag": "female warm friendly",
+    "instructions": "A young woman's bright mid-range voice with a brash, tomboyish edge. Talks fast and nonstop, grinning through teasing jabs and little snorts of laughter; candid and breezy. Sharp and focused under pressure.",
+    "speed": 1.12,
+    "exposeInCharacterCreation": false
+  },
+  "mha_shihai_kuroiro": {
+    "label": "Shihai Kuroiro",
+    "voiceTag": "male deep calculating",
+    "instructions": "A young man's low, hushed voice in theatrical gloom: slow, breathy, melodramatic lines about darkness, savoring each word. Teased, the act collapses into fast, embarrassed mumbling. The menace is a pose.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false
+  },
+  "mha_shoto_todoroki": {
+    "label": "Shoto Todoroki",
+    "voiceTag": "male calm steady",
+    "instructions": "A young man's smooth, soft mid-low voice, cool, quiet and nearly monotone. Short, literal answers at an unhurried pace with small pauses. Anger is colder and tighter, never louder. Never bubbly.",
+    "speed": 0.94,
+    "exposeInCharacterCreation": false
+  },
+  "mha_tamaki_amajiki": {
+    "label": "Tamaki Amajiki",
+    "voiceTag": "male laconic calm",
+    "instructions": "A young man's soft, low, breathy voice that trails off into mumbles, hesitant and self-deprecating. In a fight it snaps into clipped, precise, steady calls. Never loud except in rare strained resolve.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false
+  },
+  "mha_tenya_iida": {
+    "label": "Tenya Iida",
+    "voiceTag": "male commanding blunt",
+    "instructions": "A young man's clear, firm mid-baritone, loud and earnest, formal and over-enunciated, every clause hit hard. Scolds at full volume, apologizes just as emphatically. Plain American speech, stiff but sincere. Never menacing.",
+    "speed": 1.06,
+    "exposeInCharacterCreation": false
+  },
+  "mha_tetsutetsu_tetsutetsu": {
+    "label": "Tetsutetsu Tetsutetsu",
+    "voiceTag": "male confident energetic",
+    "instructions": "A young man's hoarse, gruff mid-low voice at shouting volume, hot-blooded and wholehearted: bellowed challenges, rough battle cries, cracking emotional praise for guts. Fast and punchy. Never sly or cool.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_togaru_kamakiri": {
+    "label": "Togaru Kamakiri",
+    "voiceTag": "male deep raspy",
+    "instructions": "A young man's raspy, sharp mid-range voice with a hissing edge on sibilants. Short, clipped challenges and taunts spat out with a sneer, dropping into a low rasp before a fight. Abrasive, impatient, terse.",
+    "speed": 1.03,
+    "exposeInCharacterCreation": false
+  },
+  "mha_toru_hagakure": {
+    "label": "Toru Hagakure",
+    "voiceTag": "female melodic bright",
+    "instructions": "A young woman's high, bubbly, sunny voice bouncing with energy: quick bright exclamations, happy squeals and giggles, pitch leaping when excited. Small and shaky when scared. Never sultry or flat.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_tsuyu_asui": {
+    "label": "Tsuyu Asui",
+    "voiceTag": "female calm controlled",
+    "instructions": "A young woman's low-mid, soft voice with a faint croaky texture, calm and deadpan. Frank, even and unhurried with little pitch movement; an occasional quiet, flat \"ribbit\". Wobbles thin when upset. Never perky.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_yosetsu_awase": {
+    "label": "Yosetsu Awase",
+    "voiceTag": "male confident casual",
+    "instructions": "A young man's mid-range voice, a little rough, casual and practical. Quick, informal warnings and suggestions at a brisk conversational pace; loud and scrappy in a fight, earnest when he messes up. Never smug.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false
+  },
+  "mha_yuga_aoyama": {
+    "label": "Yuga Aoyama",
+    "voiceTag": "male young charismatic",
+    "instructions": "A young man's light, airy, breathy mid-high voice with a playful French-flavored lilt, theatrical and sparkling, savoring self-compliments and drawn-out \"Merci!\" flourishes. Fear makes it rushed and higher. Never British.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_yui_kodai": {
+    "label": "Yui Kodai",
+    "voiceTag": "female cynical monotone",
+    "instructions": "A young woman's quiet, low-mid, level voice with almost no inflection: a single word or one short sentence after a small pause, attentive rather than cold. Brief and steady in a fight. Never sarcastic or bored.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mei_hatsume": {
+    "label": "Mei Hatsume",
+    "voiceTag": "female melodic bright",
+    "instructions": "A young woman's loud, brassy, bright voice at full speed: rapid tech jargon, sales-pitch enthusiasm and constant exclamations, with a pleased, throaty \"Fufufu\". Self-assured and relentlessly upbeat. Never shy.",
+    "speed": 1.13,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_all_might": {
+    "label": "All Might",
+    "voiceTag": "male commanding blunt",
+    "instructions": "A huge, deep, resonant heroic baritone at booming volume, warm and theatrical: triumphant declarations, a thundering \"HA HA HA!\" and punchy English catchphrases. Warm and fatherly with students; strained and breathy when hurt.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  },
+  "mha_cementoss": {
+    "label": "Cementoss",
+    "voiceTag": "male gentle soothing",
+    "instructions": "A mild, soft-spoken man's mid-low voice, calm, patient and precise. Polite and even at a measured pace, like a gentle teacher explaining plainly, with almost no change in volume. Level and firm in a crisis.",
+    "speed": 0.94,
+    "exposeInCharacterCreation": false
+  },
+  "mha_ectoplasm": {
+    "label": "Ectoplasm",
+    "voiceTag": "male deep controlled",
+    "instructions": "A deep, gravelly, slightly muffled man's voice, measured and direct. Sets challenges in short, exact sentences at a steady pace with a stern, testing edge and an occasional low growl of emphasis. Never chatty.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_hound_dog": {
+    "label": "Hound Dog",
+    "voiceTag": "male monster growly",
+    "instructions": "A gruff, deep, gravelly man's voice, stern and short: clear, curt rules and reprimands. As anger rises his words roughen into snarls, growls and sharp barks. Calm moments are still clipped and rough-edged.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_lunch_rush": {
+    "label": "Lunch Rush",
+    "voiceTag": "male steady approachable",
+    "instructions": "A soft, mild man's voice, slightly muffled behind a mask, only a few courteous words at a time. Polite, kind and quiet, with gentle warmth and a pleased little hum when serving food. Even and unhurried.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_midnight": {
+    "label": "Midnight",
+    "voiceTag": "female soft flirtatious",
+    "instructions": "A mature woman's sultry, smooth mid-low voice with a husky purr, playful and theatrical: drawn-out words, teasing coos, delighted breathy gasps. When a call matters, a crisp, firm ruling. Plain American speech.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_power_loader": {
+    "label": "Power Loader",
+    "voiceTag": "male grounded conversational",
+    "instructions": "A middle-aged man's even, slightly gravelly voice, tired and technical. Explains failures by their cause in a patient, weary tone with a sigh before each correction; a loud, exasperated \"Hatsume!\" when smoke appears.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_present_mic": {
+    "label": "Present Mic",
+    "voiceTag": "male confident energetic",
+    "instructions": "A loud, bright, slightly raspy man's voice with radio-host hype: punchy, rhythmic, booming delivery and stretched-out \"YEAAAH!\" calls, as if always on air. Fast and showy; short, low and plain when something is wrong.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_principal_nezu": {
+    "label": "Principal Nezu",
+    "voiceTag": "male calm steady",
+    "instructions": "A light, high, slightly nasal male voice, chirpy, polite and composed, with no rasp. Fond of rhetorical questions and wandering asides, rounding off plans with a pleased little \"hahaha\". Bad news in the same pleasant tone.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 2
+      }
+    }
+  },
+  "mha_recovery_girl": {
+    "label": "Recovery Girl",
+    "voiceTag": "female gentle grounded",
+    "instructions": "An elderly woman's creaky, slightly raspy, higher voice, grandmotherly and blunt, plain American speech. Brisk scolding while she works, a drawn-out \"chiyuuu\" for her healing kiss, kindly warmth with gummies.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_shota_aizawa": {
+    "label": "Shota Aizawa",
+    "voiceTag": "male deep raspy",
+    "instructions": "A tired man's low, husky, slightly raspy voice, flat and economical, with sleepy deadpan and a faint exhale before many lines. Short, cutting statements at an unhurried pace; angrier means lower, not louder.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false
+  },
+  "mha_snipe": {
+    "label": "Snipe",
+    "voiceTag": "male southern gritty",
+    "instructions": "A man's low, gritty voice with an easy cowboy drawl, slightly muffled behind a mask. Few words, level and dry: practical instructions about position and lines of fire, slow and steady, with wry quiet confidence.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false
+  },
+  "mha_thirteen": {
+    "label": "Thirteen",
+    "voiceTag": "female warm soft",
+    "instructions": "A gentle, soft woman's voice, slightly muffled behind a helmet, polite and earnest. Formal and kind at a moderate pace, a little long-winded, then the serious point plainly and firmly. Calm and protective in a crisis.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false
+  },
+  "mha_vlad_king": {
+    "label": "Vlad King",
+    "voiceTag": "male commanding gruff narrator",
+    "instructions": "A big, loud, hot-blooded man's voice, deep and gruff with drill-sergeant force: barked surnames at full volume, booming pride in his class, blunt orders. Gravelly and impatient; pride shows as a gruff rumble.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false
+  },
+  "mha_eri": {
+    "label": "Eri",
+    "voiceTag": "female child gentle",
+    "instructions": "A small child's very soft, quiet, high voice, shy and hesitant: short sentences, small questions and long pauses, often a whispered \"I'm sorry\" first. Happiness comes out tiny and wondering. Never bubbly or bold.",
+    "speed": 0.88,
+    "exposeInCharacterCreation": false
+  },
+  "mha_kota_izumi": {
+    "label": "Kota Izumi",
+    "voiceTag": "male child calm",
+    "instructions": "A small boy's voice, mid-high, flat and sullen rather than sweet. Short, clipped answers with a scornful huff; mutters 'hero' like a dirty word. When scared or upset the flatness cracks into a shaky shout. Never cheerful or cute.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false
+  },
+  "mha_chitose_kizuki": {
+    "label": "Chitose Kizuki",
+    "voiceTag": "female calm controlled",
+    "instructions": "Mid-pitched, smooth and polished with a pleasant on-air brightness, neutral American accent. Quick, eager pace, leaning into each question as if she already knows the answer; a light knowing laugh and a cool, sharp edge when pressed.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false
+  },
+  "mha_fuyumi_todoroki": {
+    "label": "Fuyumi Todoroki",
+    "voiceTag": "female gentle grounded",
+    "instructions": "A soft, warm, mid-high young woman's voice with a patient teacher's clarity. Gentle and a little anxious: careful phrasing, hopeful lifts at the end of invitations, a nervous little laugh; brightens with relief when someone says yes.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false
+  },
+  "mha_inko_midoriya": {
+    "label": "Inko Midoriya",
+    "voiceTag": "female warm friendly",
+    "instructions": "A warm, mid-high motherly voice, soft and slightly breathy, wobbling easily with emotion. Quick, affectionate fussing, voice catching and going teary with pride or fear; drops lower and turns firm when her son's safety is at stake.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_koku_hanabata": {
+    "label": "Koku Hanabata",
+    "voiceTag": "male commanding blunt",
+    "instructions": "A strong, resonant mid-baritone with a practiced orator's polish, neutral American accent. Theatrical rally cadence that builds each sentence to a ringing peak and lands key words hard. In private, softer, slick and persuasive, never shrill.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false
+  },
+  "mha_kyudai_garaki": {
+    "label": "Kyudai Garaki",
+    "voiceTag": "male gravelly elderly",
+    "instructions": "A thin, crackly old man's voice, slightly reedy and wheezy, genial and grandfatherly, neutral American accent. Unhurried, with breathy chuckles at his own remarks; rattles off dense medical jargon fondly. Displeasure thins it into a cold rasp.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false
+  },
+  "mha_masaru_bakugo": {
+    "label": "Masaru Bakugo",
+    "voiceTag": "male calm steady",
+    "instructions": "A light, soft tenor, mild and a little meek: an ordinary, kind dad, neutral American accent. Calm, unhurried explanations and a sheepish, apologetic laugh; he gets quieter when others get louder. Worry makes him tight and earnest, never loud.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_mitsuki_bakugo": {
+    "label": "Mitsuki Bakugo",
+    "voiceTag": "female harsh commanding",
+    "instructions": "A brash, rough mid-range woman's voice with a hoarse edge, fast and loud. Barks insults at full volume with a sharp scolding snap, then a quick cackle. With outsiders she drops to a lower, polite, serious register, bite still close. Never meek.",
+    "speed": 1.07,
+    "exposeInCharacterCreation": false
+  },
+  "mha_natsuo_todoroki": {
+    "label": "Natsuo Todoroki",
+    "voiceTag": "male confident casual",
+    "instructions": "A relaxed young man's mid-range voice, a little husky, neutral American accent. Easygoing and candid with siblings he trusts: quick jokes, an easy laugh. The instant his father comes up he goes cold, low and clipped, with a bitter edge.",
+    "speed": 1.03,
+    "exposeInCharacterCreation": false
+  },
+  "mha_rei_todoroki": {
+    "label": "Rei Todoroki",
+    "voiceTag": "female warm soft",
+    "instructions": "A soft, quiet, breathy mid-high voice, fragile but warm. Slow and careful, with hesitant pauses before painful subjects and gentle, apologetic phrasing. Tender and glowing about her children; small and withdrawn at any mention of her husband. Never loud.",
+    "speed": 0.88,
+    "exposeInCharacterCreation": false
+  },
+  "mha_rikiya_yotsubashi": {
+    "label": "Rikiya Yotsubashi",
+    "voiceTag": "male deep controlled",
+    "instructions": "A deep, smooth, gentlemanly baritone, courteous and deliberate like a patient executive. Calm, even pace and polite phrasing. Under strain he erupts into a booming, furious shout, then apologizes quietly and resumes in the same composed tone.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false
+  },
+  "mha_tomoyasu_chikazoku": {
+    "label": "Tomoyasu Chikazoku",
+    "voiceTag": "male confident energetic",
+    "instructions": "A sharp, slightly nasal mid-range voice with a sneering, condescending edge, neutral American accent. Clipped, impatient and fast, requests phrased as orders, half-distracted. Dry, scoffing sarcasm; turns shrill and petulant when challenged.",
+    "speed": 1.07,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_commission_president": {
+    "label": "Commission President",
+    "voiceTag": "female deep controlled",
+    "instructions": "A cool, low-mid mature woman's voice, smooth and authoritative. Measured, precise pace with formal policy wording; every sentence lands as already decided. Polite but distant. Under pressure she only grows quieter and colder, never louder.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_yokumiru_mera": {
+    "label": "Yokumiru Mera",
+    "voiceTag": "male laconic calm",
+    "instructions": "A drowsy, flat, droning mid-low man's voice, half asleep. Slow, monotone delivery with yawning pauses and mumbled asides about how little he slept; hard rules stated with zero emphasis, then a quiet, sincere word of encouragement. Never energetic.",
+    "speed": 0.87,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_hood": {
+    "label": "Hood",
+    "voiceTag": "male monster growly",
+    "instructions": "A deep, guttural, rasping creature voice forcing out broken words one at a time: a name, a short demand to fight. Heavy strained breathing and wet growls between words; slurred and rough, hungrier and louder as he fights.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "room",
+        "mix": 0.15
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.12
+      }
+    }
+  },
+  "mha_hosu_winged_nomu": {
+    "label": "Hosu Winged Nomu",
+    "voiceTag": "male monster growly",
+    "instructions": "No words at all: a high, piercing, rasping screech, clicking hisses and harsh breathing through a mask-like mouth plate. Short shrieks when diving, ragged panting when grounded. Inhuman and animal, never speech.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "hall",
+        "mix": 0.15
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.1
+      }
+    }
+  },
+  "mha_u_s_j_nomu": {
+    "label": "U.S.J. Nomu",
+    "voiceTag": "male monster growly",
+    "instructions": "No words: a very deep, rumbling animal growl and heavy, wet breathing through a beaked mouth full of teeth. Mindless and flat, sudden roaring bellows on impact, then silence. Organic and beastly, never robotic, never speech.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -3
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "hall",
+        "mix": 0.2
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.12
+      }
+    }
+  },
+  "mha_kenji_tsuragamae": {
+    "label": "Kenji Tsuragamae",
+    "voiceTag": "male deep raspy",
+    "instructions": "A deep, gruff, slightly raspy voice, stiff and formal like an old-school police chief. Official wording, steady clipped cadence, the law first. Now and then a sentence ends in a dry, matter-of-fact 'woof' with no change of tone.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_naomasa_tsukauchi": {
+    "label": "Naomasa Tsukauchi",
+    "voiceTag": "male steady approachable",
+    "instructions": "A calm, friendly mid-baritone, soft-spoken and courteous, neutral American accent. Short, measured questions, even pacing, patient pauses while he listens; plain, exact tone and sincere thanks. When serious, quieter and firmer, never loud.",
+    "speed": 0.96,
+    "exposeInCharacterCreation": false
+  },
+  "mha_sansa_tamakawa": {
+    "label": "Sansa Tamakawa",
+    "voiceTag": "male grounded conversational",
+    "instructions": "A clear, friendly mid-range voice, plain and polite, neutral American accent. Straightforward questions and answers at an easy, businesslike pace with a calm, attentive officer's manner. Brisker in an emergency, never gruff.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_backdraft": {
+    "label": "Backdraft",
+    "voiceTag": "male commanding blunt",
+    "instructions": "A strong, slightly gruff mid-low voice of a seasoned rescue worker. Loud, clear and to the point: locations, headcounts and short instructions called over noise. Calm authority under pressure, curt when people get in the way.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false
+  },
+  "mha_best_jeanist": {
+    "label": "Best Jeanist",
+    "voiceTag": "male british refined",
+    "instructions": "A crisp, cultivated mid-baritone with precise, refined diction and a polished, faintly posh accent. Composed, formal and exacting: each correction in one calm, cool breath, every word tailored. Never shouts; only grows more clipped and icy.",
+    "speed": 0.96,
+    "exposeInCharacterCreation": false
+  },
+  "mha_bubble_girl": {
+    "label": "Bubble Girl",
+    "voiceTag": "female melodic bright",
+    "instructions": "A bright, high, bubbly young woman's voice, loud and chatty, neutral American accent. Fast, eager talk with a quick self-mocking laugh and big, exaggerated reactions. Quick and sharp in an emergency but still upbeat.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false
+  },
+  "mha_burnin": {
+    "label": "Burnin",
+    "voiceTag": "female harsh commanding",
+    "instructions": "A loud, scratchy, high-energy woman's voice, fiery and shouty. Rapid pep talks and brisk calls hollered at full volume, an excited raspy whoop on big moments. Blunt and cocky, grinning through every line. Never soft for long.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_centipeder": {
+    "label": "Centipeder",
+    "voiceTag": "male calm steady",
+    "instructions": "A polished, mid-low gentleman's voice, smooth and refined like a butler, neutral American accent. Polite, measured and formal with everyone, suspects included; precise phrasing at an unhurried pace. Firm but never raised when giving orders.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_crust": {
+    "label": "Crust",
+    "voiceTag": "male confident warm",
+    "instructions": "A deep, earnest, booming baritone, heroic and warm-hearted, neutral American accent. Open emotion, emphatic and sincere, voice thickening when moved. Once danger appears, short, powerful protective shouts.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_death_arms": {
+    "label": "Death Arms",
+    "voiceTag": "male deep accent",
+    "instructions": "A deep, gruff, gritty tough-guy voice, loud and blunt, with a streetwise edge. Short shouted warnings and orders, plain grumbling complaints. Straightforward and brawny like a boxer between rounds, quick to bellow; never subtle.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false
+  },
+  "mha_edgeshot": {
+    "label": "Edgeshot",
+    "voiceTag": "male laconic calm",
+    "instructions": "A quiet, low, composed voice with a ninja's restraint. Short, complete sentences in an even, economical tone; no boasting, the same courtesy for juniors as for peers. States one plan in a few words. Only quieter and sharper in danger.",
+    "speed": 0.94,
+    "exposeInCharacterCreation": false
+  },
+  "mha_endeavor": {
+    "label": "Endeavor",
+    "voiceTag": "male commanding intense",
+    "instructions": "A very deep, gravelly, intimidating voice, low and curt. Barks orders and never explains; terse and impatient with reporters, a bitter growl at All Might's name. Enraged, a roaring bellow; even rare softer moments stay rough and halting.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_fat_gum": {
+    "label": "Fat Gum",
+    "voiceTag": "male southern gritty",
+    "instructions": "A big, round, hearty mid-range voice, loud and jolly with a relaxed, folksy Southern-style drawl. Laughs easily, jokes about food, booms encouragement at his interns. When someone is being exploited the jokes stop dead: low, blunt and fierce.",
+    "speed": 1.03,
+    "exposeInCharacterCreation": false
+  },
+  "mha_fourth_kind": {
+    "label": "Fourth Kind",
+    "voiceTag": "male commanding intense",
+    "instructions": "Deep, gruff, hard-edged adult male voice with a loud bark. Short, clipped orders at a brisk pace; huffing irritation at excuses, a scolding snap at hesitation. Approval is one grudging word. Never chatty or warm.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_gang_orca": {
+    "label": "Gang Orca",
+    "voiceTag": "male deep controlled",
+    "instructions": "Very deep, smooth, resonant bass with a slightly ominous weight. Slow, formal and measured; mistakes named plainly and calmly. Anger makes it heavier and colder, not louder. Never rushed or shrill.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  },
+  "mha_gran_torino": {
+    "label": "Gran Torino",
+    "voiceTag": "male gravelly elderly",
+    "instructions": "Scratchy, crotchety old man's voice, thin and a little nasal, with a dry crackle. Mumbling, drifting and pausing when playing doddering, then a sudden sharp, lucid verdict. Gruff huff of a laugh; brisk and fierce in a fight.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_gunhead": {
+    "label": "Gunhead",
+    "voiceTag": "male confident warm",
+    "instructions": "Big man's friendly voice used very gently: soft volume, a light, sweet, almost cutesy lilt and upbeat sentence endings. Patient and encouraging, easy chuckle. In a real fight it firms into calm, plain instruction.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_hawks": {
+    "label": "Hawks",
+    "voiceTag": "male confident casual",
+    "instructions": "Smooth, light baritone with an easy, laid-back drawl and a grin in it. Quick, breezy and teasing, lazy on the vowels, joking through tense moments. A cool, flat focus surfaces in a crisis. Never booming or earnest.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false
+  },
+  "mha_kamui_woods": {
+    "label": "Kamui Woods",
+    "voiceTag": "male grounded conversational",
+    "instructions": "Clear, earnest mid-baritone, serious and steady. Speaks sparingly at an even pace, then calls his technique names out loud with full, crisp force. Mild, put-upon exasperation when someone steals a capture. No swagger.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mandalay": {
+    "label": "Mandalay",
+    "voiceTag": "female gentle grounded",
+    "instructions": "Mature, clear mid-range woman's voice, firm and composed with a slightly husky warmth. Crisp, even, dispatcher-like bulletins in a crisis; brightly theatrical for the team cry, then straight back to business.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_manual": {
+    "label": "Manual",
+    "voiceTag": "male steady approachable",
+    "instructions": "Mild, light, friendly voice, a little soft-spoken and modest. Explains things step by step, patient and slightly sheepish, with a nervous chuckle at his own expense. Clear and careful, not loud, when giving safety orders.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mirko": {
+    "label": "Mirko",
+    "voiceTag": "female harsh commanding",
+    "instructions": "Husky, low-mid, brash woman's voice, loud and grinning with swagger. Blunt one-line judgments, cocky taunts, a rough delighted laugh when a fight gets harder; kick names shouted with raspy force. Fast and punchy, never prim.",
+    "speed": 1.06,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mount_lady": {
+    "label": "Mount Lady",
+    "voiceTag": "female melodic bright",
+    "instructions": "Bright, brassy, mid-high woman's voice with a sassy, self-satisfied lilt, like a celebrity mugging for the camera. Stretches words when bragging, pouty and needling, quick smug giggle. Short, urgent, loud orders in a crisis.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false
+  },
+  "mha_ms_joke": {
+    "label": "Ms. Joke",
+    "voiceTag": "female warm friendly",
+    "instructions": "Fast, high-energy, slightly raspy woman's voice, always half laughing. Rapid-fire wisecracks, cackling giggles and shameless teasing, big swings in pitch. Snaps into crisp, direct instructions when safety matters, then grins again.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_native": {
+    "label": "Native",
+    "voiceTag": "male calm steady",
+    "instructions": "Plain, polite, mid-range adult male voice, professional and reliable. Short reports and clear requests at an even pace; courteous with civilians, firm when clearing an area. Strained but steady when hurt. No showmanship.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_pixie_bob": {
+    "label": "Pixie-Bob",
+    "voiceTag": "female warm friendly",
+    "instructions": "Loud, theatrical, mid-high woman's voice with a brassy, playful bite and cat-like flourishes: mock hisses, growly purrs, dramatic wails about being single. Fierce and energetic in action, shouting with gusto. Never demure.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_ragdoll": {
+    "label": "Ragdoll",
+    "voiceTag": "female melodic bright",
+    "instructions": "High, bubbly, squeaky-bright woman's voice, fast and gushing, squealing over new faces with little delighted gasps. Once a search starts she turns quick and exact, calling positions once, crisply. A perky adult, not a child.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_rock_lock": {
+    "label": "Rock Lock",
+    "voiceTag": "male deep accent",
+    "instructions": "Rough, gritty, mid-low male voice with a skeptical, sour edge. Blunt and grounded; pokes holes in plans out loud and grumbles about what happens when they fail. Short, hard, sarcastic sentences; grit and steadiness under pressure.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_ryukyu": {
+    "label": "Ryukyu",
+    "voiceTag": "female calm controlled",
+    "instructions": "Calm, low-mid woman's voice with a soft, mature warmth and quiet authority. Polite and measured; orders phrased as courteous requests, delivered evenly and clearly. Warm praise for her team. Steady and resolute in battle, never shrill.",
+    "speed": 0.96,
+    "exposeInCharacterCreation": false
+  },
+  "mha_selkie": {
+    "label": "Selkie",
+    "voiceTag": "male deep raspy",
+    "instructions": "Deep, gravelly, salty sea-captain voice, rough and weathered with a hearty, rumbling warmth. Jovial and hammy off duty, chuckling over cute poses. On duty the rasp hardens into stern, clipped orders barked over wind and waves.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false
+  },
+  "mha_sir_nighteye": {
+    "label": "Sir Nighteye",
+    "voiceTag": "male deep controlled",
+    "instructions": "Crisp, cold, precise mid-low male voice, articulate and clipped, slightly nasal. Formal, deliberate pacing with pointed pauses before a verdict; judgments stated as settled facts, dry and unimpressed. Never warm, casual or menacing.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_tensei_iida": {
+    "label": "Tensei Iida",
+    "voiceTag": "male confident warm",
+    "instructions": "Warm, friendly, relaxed mid-baritone, open and easygoing with an easy laugh. Straightforward and kind, gently teasing his little brother with obvious affection. Calm and clear when serious; quiet and sincere when hurt.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_tiger": {
+    "label": "Tiger",
+    "voiceTag": "male commanding gruff narrator",
+    "instructions": "Very deep, loud, booming drill-instructor bark, rough and gravelly. Short, explosive commands and gruff, genuine praise once someone delivers. Performs the team's cute catchphrases in the same dead-serious deep shout. Never soft.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false
+  },
+  "mha_uwabami": {
+    "label": "Uwabami",
+    "voiceTag": "female soft flirtatious",
+    "instructions": "Smooth, polished, sultry mid-low woman's voice with a glamorous, camera-ready purr. Elegant, self-assured and a little haughty, every line like a commercial take; a soft, knowing laugh. Plain American accent, never loud or flustered.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_yoroi_musha": {
+    "label": "Yoroi Musha",
+    "voiceTag": "male gravelly elderly",
+    "instructions": "Old man's deep, weathered, dignified voice, slow and restrained, with a veteran warrior's gravity. Formal, economical sentences delivered evenly; a low, firm edge in a fight. Plain American accent, never frail, chatty or theatrical.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_camie_utsushimi": {
+    "label": "Camie Utsushimi",
+    "voiceTag": "female soft flirtatious",
+    "instructions": "Breezy, mid-range young woman's voice with a lazy valley-girl drawl and upturned endings. Casual slang, stretched vowels, airy and carefree; a playful, slightly sultry tease and giggles. A relaxed young adult, never childish.",
+    "speed": 1,
+    "exposeInCharacterCreation": false
+  },
+  "mha_inasa_yoarashi": {
+    "label": "Inasa Yoarashi",
+    "voiceTag": "male confident energetic",
+    "instructions": "Huge, booming, hoarse young adult male voice at maximum volume and sincerity. Every line a passionate, full-chest declaration about heart and heroes, with roaring outbursts of joy or apology. Fast and breathless. No irony.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_nagamasa_mora": {
+    "label": "Nagamasa Mora",
+    "voiceTag": "male calm steady",
+    "instructions": "Deep, calm, polite young adult male voice, formal and measured, slow and even. Quiet, stern, low rebukes for schoolmates; courteous apologies to outsiders on their behalf. Steady and unflappable, never raising his voice.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_seiji_shishikura": {
+    "label": "Seiji Shishikura",
+    "voiceTag": "male sly manipulative",
+    "instructions": "Sharp, haughty, mid-range young adult male voice with sneering, ceremonious precision. Judgments delivered like verdicts, crisp and condescending; indignant, clipped anger when challenged. Prim and proud. Plain American accent.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_yo_shindo": {
+    "label": "Yo Shindo",
+    "voiceTag": "male confident casual",
+    "instructions": "Smooth, sunny, polished young adult male voice, friendly and charming, easy compliments and a ready laugh. In a contest the polish drops: terse, quick calls and candid, gritted frustration with a cold edge. Never loud.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false
+  },
+  "mha_dabi": {
+    "label": "Dabi",
+    "voiceTag": "male deep raspy",
+    "instructions": "Low, smoky, raspy male voice, lazy and sardonic, with a slow, bored drawl. Flat, sneering mockery, a dry humorless chuckle, quiet casual threats. When truly set off, a harsh, cracking, unhinged laugh and raw shouting.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false
+  },
+  "mha_gentle_criminal": {
+    "label": "Gentle Criminal",
+    "voiceTag": "male british refined",
+    "instructions": "Theatrical, refined baritone with an affected, genteel flourish, performing for a camera. Grand, rolling declarations and courtly pauses, savoring his own lines. Flustered and indignant when things go wrong; tender about his partner.",
+    "speed": 0.97,
+    "exposeInCharacterCreation": false
+  },
+  "mha_geten": {
+    "label": "Geten",
+    "voiceTag": "male commanding intense",
+    "instructions": "Cold, hard, young adult male voice, mid-low and slightly rough, with a clipped, contemptuous edge. Blunt, flat verdicts on power and weakness; anger is a sharp, icy snarl, not loud heat. Never polite, playful or warm.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false
+  },
+  "mha_gigantomachia": {
+    "label": "Gigantomachia",
+    "voiceTag": "male monster growly",
+    "instructions": "An enormous, very deep, gravelly bass with a rough stony grain. Slow, heavy and formal; few words with long pauses, \"Master\" said with solemn reverence. Breaks into ground-shaking roars in battle. Never quick or chatty.",
+    "speed": 0.86,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "cavern",
+        "mix": 0.15
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.08
+      }
+    }
+  },
+  "mha_giran": {
+    "label": "Giran",
+    "voiceTag": "male sly manipulative",
+    "instructions": "A middle-aged man's low, smooth, slightly smoky voice. Relaxed, unhurried salesman's patter about terms and prices, faintly amused and never rattled; a dry chuckle at threats. Never loud or theatrical.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false
+  },
+  "mha_himiko_toga": {
+    "label": "Himiko Toga",
+    "voiceTag": "female melodic bright",
+    "instructions": "A young woman's high, bright, airy voice with a sing-song lilt. Bubbly and giddy, giggling often, swooning over anyone \"cute\" and going breathless at the thought of blood. Cheerful even about awful things; quick and playful.",
+    "speed": 1.06,
+    "exposeInCharacterCreation": false
+  },
+  "mha_kurogiri": {
+    "label": "Kurogiri",
+    "voiceTag": "male deep controlled",
+    "instructions": "A deep, smooth, resonant voice, faintly hollow. Polite and formal like a refined butler or bartender: measured, precise and courteous. Quietly stern when correcting Tomura Shigaraki; never raises his voice.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "hall",
+        "mix": 0.18
+      }
+    }
+  },
+  "mha_la_brava": {
+    "label": "La Brava",
+    "voiceTag": "female melodic bright",
+    "instructions": "A young woman's very high, sweet, slightly squeaky and nasal voice. Rapid and gushing, words tumbling over each other in lovestruck praise of Gentle; pouty when he is insulted, quavering and tearful when he is in danger.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_magne": {
+    "label": "Magne",
+    "voiceTag": "female deep controlled",
+    "instructions": "A woman's low, husky, throaty voice with a warm rasp. Frank, sassy and confident, a teasing big sister with people she likes; blunt and scoffing toward heroes and police. Relaxed pace, strong presence, never shrill.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_moonfish": {
+    "label": "Moonfish",
+    "voiceTag": "male goblin chaotic",
+    "instructions": "A thin, hoarse, wet rasp, half whisper and half hiss, strained through clenched teeth. Broken, repeated fragments about flesh and meat, drawn out with eerie relish, rising giddy and unhinged, then sinking to a murmur.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mr_compress": {
+    "label": "Mr. Compress",
+    "voiceTag": "male british refined",
+    "instructions": "A polished, theatrical baritone with crisp, cultured stage diction. A showman announcing each trick to his audience, savoring the reveal with a pleased little laugh. Courteous to friend and foe, warm and smooth; never rough or hurried.",
+    "speed": 0.98,
+    "exposeInCharacterCreation": false
+  },
+  "mha_muscular": {
+    "label": "Muscular",
+    "voiceTag": "male monster growly",
+    "instructions": "A big, gravelly, booming man's voice full of manic glee. Loud and articulate, narrating his own violence with relish, mocking a victim in a sing-song sneer, breaking into wild barking laughter. Never calm or gentle.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mustard": {
+    "label": "Mustard",
+    "voiceTag": "male confident casual",
+    "instructions": "A young man's mid-to-high, slightly nasal voice, a little muffled behind a gas mask. Bitter, sneering and bratty: spits \"elite\" like an insult, gloats smugly, snaps and whines when things go wrong.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_shigaraki_s_sensei": {
+    "label": "Shigaraki's Sensei",
+    "voiceTag": "male baritone warm",
+    "instructions": "A very deep, velvety bass-baritone, rich and resonant. Soft, slow and pleasant like a kindly old teacher, praising before he corrects; cruelty comes in the same warm, almost purring tone with a quiet chuckle. Never shouts.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  },
+  "mha_spinner": {
+    "label": "Spinner",
+    "voiceTag": "male grounded conversational",
+    "instructions": "A young man's rough, gruff mid-low voice with a slight gravel. Blunt, guarded and grumbling, quick to bristle at remarks about his looks; fast and eager about games; earnest and a little awkward defending a friend.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false
+  },
+  "mha_stain": {
+    "label": "Stain",
+    "voiceTag": "male deep raspy",
+    "instructions": "A low, harsh, heavily rasping voice, a gravelly near-whisper with a hiss. A breathy \"Hah...\" before he speaks; every line a certain verdict, venomous toward a \"fake\", hushed and reverent about All Might. Slow and intense.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  },
+  "mha_tomura_shigaraki": {
+    "label": "Tomura Shigaraki",
+    "voiceTag": "male deep raspy",
+    "instructions": "A young man's dry, scratchy, breathy mid-low voice, often a sulky mutter. Bored and contemptuous, drawling game talk about bosses and cheats, then flaring into petulant, raspy rage and unsettling laughter. Never booming.",
+    "speed": 0.95,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  },
+  "mha_twice": {
+    "label": "Twice",
+    "voiceTag": "male confident energetic",
+    "instructions": "A loud, frantic, high-energy mid-range man's voice. Rapid-fire and jokey, flipping every statement into its opposite mid-breath, shouting, then whining, then cheering; suddenly soft and sincere with anyone kind to him.",
+    "speed": 1.12,
+    "exposeInCharacterCreation": false
+  },
+  "mha_chronostasis": {
+    "label": "Chronostasis",
+    "voiceTag": "male calm steady",
+    "instructions": "A soft-spoken, mild mid-range man's voice with a dry, faintly lazy ease. Calm and courteous, giving directions and threats in the same even, polite tone with a hint of smugness. Unhurried; never rattled.",
+    "speed": 0.94,
+    "exposeInCharacterCreation": false
+  },
+  "mha_deidoro_sakaki": {
+    "label": "Deidoro Sakaki",
+    "voiceTag": "male deep accent",
+    "instructions": "A rough, boozy, gritty man's voice, loud and rowdy. Hot-tempered, jeering and laughing, snapping fast into anger; words slur and drag when he has been drinking, with hiccuping pauses. Never calm or refined.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false
+  },
+  "mha_mimic": {
+    "label": "Mimic",
+    "voiceTag": "male commanding blunt",
+    "instructions": "A harsh, gruff mid-low man's voice with an irritable edge. Barks orders at subordinates in clipped bursts, sneers at outsiders, quick to shout when crossed; proud when he speaks of the house. Forceful and impatient.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false
+  },
+  "mha_overhaul": {
+    "label": "Overhaul",
+    "voiceTag": "male deep calculating",
+    "instructions": "A quiet, low, cold man's voice, clipped and exact like a doctor's flat diagnosis. Coldly polite; the courtesy carries the threat. Mutters \"filthy\" with weary disgust. Anger is an icier edge, never shouting.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false
+  },
+  "mha_rappa": {
+    "label": "Rappa",
+    "voiceTag": "male brute commanding",
+    "instructions": "A loud, rough, gravelly brawler's voice, boisterous and delighted. Shouts challenges, laughs heartily mid-fight and roars praise at anyone still standing. Cocky and joyful about violence; never quiet or calculating.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false
+  },
+  "mha_rikiya_katsukame": {
+    "label": "Rikiya Katsukame",
+    "voiceTag": "male commanding gruff narrator",
+    "instructions": "A big, gruff, deep man's voice, slightly muffled behind a full mask. Slow, flat and drowsy before he has fed on anyone's energy; once invigorated, loud, aggressive and boastful, booming with heavy confidence.",
+    "speed": 0.96,
+    "exposeInCharacterCreation": false
+  },
+  "mha_shin_nemoto": {
+    "label": "Shin Nemoto",
+    "voiceTag": "male laconic calm",
+    "instructions": "A cool, dry mid-low man's voice, quiet and cynical. Pointed questions in a flat, level tone, then long silences. Detached and unimpressed, faint scorn underneath. Never loud, never hurried.",
+    "speed": 0.92,
+    "exposeInCharacterCreation": false
+  },
+  "mha_soramitsu_tabe": {
+    "label": "Soramitsu Tabe",
+    "voiceTag": "male monster growly",
+    "instructions": "A deep, thick, guttural man's voice, muffled behind a sack mask. Says very little: grunts, low growls and hungry chewing sounds; the few words come slow and blunt. Never chatty or articulate.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false
+  },
+  "mha_tengai": {
+    "label": "Tengai",
+    "voiceTag": "male deep controlled",
+    "instructions": "A calm, deep, solemn man's voice with a monk's quiet formality. Slow, even and measured, almost ritual phrasing; stern but composed even when scolding his own side. Grave and steady; never excitable.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false
+  },
+  "mha_toya_setsuno": {
+    "label": "Toya Setsuno",
+    "voiceTag": "male confident energetic",
+    "instructions": "A young man's sharp, intense mid-range voice, outspoken and fast. Talks for his trio with heated conviction, bristling and raising his voice at any sneer toward his friends. Proud, edgy, quick to taunt.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false
+  },
+  "mha_yu_hojo": {
+    "label": "Yu Hojo",
+    "voiceTag": "male steady approachable",
+    "instructions": "A deep, plain, heavy man's voice. Blunt and few-worded: short, flat statements delivered steadily, meaning every one. Gruff loyalty to his friends in a firm, low tone. Unhurried and solid; never flashy.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mha_principal_nezu": {
+    "label": "Principal Nezu",
+    "voiceTag": "male calm steady",
+    "instructions": "A light, high, slightly nasal male voice, chirpy, polite and composed, with no rasp. Fond of rhetorical questions and wandering asides, rounding off plans with a pleased little \"hahaha\". Bad news in the same pleasant tone.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 2
+      }
+    }
+  }
+}

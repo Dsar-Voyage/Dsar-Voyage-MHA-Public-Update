@@ -1,0 +1,88 @@
+{
+  "Beast's Forest": {
+    "name": "Beast's Forest",
+    "basicInfo": "Beast's Forest is the dense mountain forest northwest of the Pussycats' lodge, part of the team's private land: steep slopes of cedar, beech and oak, mossy ravines, fast streams and almost no trails. Pixie-Bob uses her Quirk, Earth Flow, to raise beasts of soil and rock that stalk and attack anyone crossing, which makes it one of the hardest training courses in the country. The team runs survival and rescue training here and sends camp guests through on foot, and nobody enters without the team's say; signs at the road and at the lodge's edge mark it as private training land. From the lookout on the mountain road at the forest's far edge, the lodge is a speck across the valley; the team crosses in about three hours, most visitors take all day. In April the streams run high with snowmelt, old snow lies in the shaded gullies, and Pixie-Bob is out most mornings rebuilding the trails and slopes the winter washed out. Camp guests who cross it carry a radio and a whistle, and the team checks every group out at the edge and back in at the far side. A player can train here with the team's permission, cross it as a test, help Pixie-Bob rebuild a washed-out slope, or go in after someone who should not be there; anyone caught inside without permission is walked out and warned. Under the trees the light is green and dim even at noon, the ground is soft with needles and moss, and the only warning a beast gives is the sound of earth shifting where no one is walking.",
+    "hiddenInfo": "The beasts are only soil and rock moving under Pixie-Bob's control: break one and it collapses into dirt, and she can raise another as fast as it falls. She cannot make earth, so a beast raised on wet ground is soft and a beast raised on rock is hard. The beasts are meant to chase and pin, not to maim, and she pulls them back the moment someone is hurt. The real dangers are the terrain and the weather: ravines hidden by undergrowth, a stream crossing that floods after rain, and freezing April nights. A group of video streamers has been sneaking in from the road lookout to film the beasts, and one of them has not come back out. The two Ragdoll registered when she warned them off are back in the valley town, editing footage and telling no one; the third, the one behind the camera, went in alone two days ago to get the shot they missed and is now somewhere in the lower ravines with a twisted ankle, a dead phone and no food. Their car still sits at the lookout. Ragdoll never saw the third, so her Search cannot find them; only boots, a careful eye and the streamers' footage will.",
+    "x": -15.53,
+    "y": 7.13,
+    "radius": 3,
+    "region": "Mountain Training Lands",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Forest Trailhead": {
+        "description": "The edge of the forest on the lodge's side, where a cut meadow of rough grass stops at a wall of cedar and beech. A weathered wooden board, painted with the team's cat-ear logo, states the rules in plain words: private training land, no entry without the Wild Wild Pussycats' permission, earth beasts active, carry a radio and a whistle, check out here and back in at the far side. Under a little roof beside it hang a clipboard log, spare whistles, a first-aid bag and a bear bell on a cord,. One muddy track leads in and narrows to nothing within a few hundred steps. Most mornings Pixie-Bob strides out from here at first light with a thermos and comes back filthy at lunch, loudly reporting which slopes the winter took; during camps, groups of U.A. students gather here in the morning chill for a team pose and a briefing before the beasts are let loose. In April the meadow is soggy with snowmelt, old snow lies gray in the shade, and the first gust from the trees carries the cold smell of wet earth and cedar. From here the track runs into the Deep Forest, and a side path drops toward the Forest Ravine.",
+        "paths": [
+          "Deep Forest",
+          "Forest Ravine"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ea8f4623-ae49-401d-b457-87ce454344b6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Deep Forest": {
+        "description": "The heart of the forest, where the trails give out entirely and the slopes are a tangle of old cedar, beech and oak, with fallen trunks thick with moss and roots that stand up like steps. The light is green and dim even at noon, the ground is soft with needles, and the only marks of people are a few strips of faded orange tape tied to branches by the team and the boot prints of whoever came through last. This is where Pixie-Bob's Earth Flow does its work: soil and rock heave up into beasts with stone teeth and clumsy, heavy legs that stalk crossers, chase them and pin them down, and collapse back into dirt when they are broken or called off. Beasts raised on wet ground come up soft and crumbling; on rock they come up hard. The team crosses in about three hours, most visitors take all day, and camp groups crossing it are checked over the radio on the hour. In April the snowmelt has left soft patches and fresh slides, and bears are waking hungry. The only warning a beast gives is the sound of earth shifting where nobody is walking. The way back leads to the Forest Trailhead, and the slope falls away downhill into the Forest Ravine.",
+        "paths": [
+          "Forest Trailhead",
+          "Forest Ravine"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a5811201-11a5-478d-9f84-2c8819f8779d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Forest Ravine": {
+        "description": "A narrow, mossy cut in the forest floor where a fast stream runs between boulders, ferns and walls of wet rock ten or twenty meters high. Undergrowth hangs over the rim and hides the drop until the ground gives way, and the only ways down are a few steep gullies of loose stones and roots. The stream bed is a jumble of slick rocks and fallen logs; one crossing has a fixed rope the team strung years ago, and after a night of rain the water rises over it and goes brown and loud. In April the stream runs high and icy with snowmelt, old snow lies packed in the shaded corners, and the air down here is several degrees colder than on the slopes above. There is no phone signal, and even the radios crackle between the walls. The team uses the ravine for rope rescue drills and stretcher carries, and Pixie-Bob rebuilds the gully steps here after every storm; camp guests are warned at the briefing that the ravine, not the beasts, is what actually hurts people. Voices echo strangely off the rock, and a whistle carries farther along the water than up the walls. Gullies climb back up to the Deep Forest and, farther along, to the Forest Trailhead.",
+        "paths": [
+          "Deep Forest",
+          "Forest Trailhead"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/53d69328-1fc9-4d65-876f-a433778b41bb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Wild Wild Pussycats"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6a9f6fb8-6cd2-4c45-b78a-bcb6bf1f9804.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

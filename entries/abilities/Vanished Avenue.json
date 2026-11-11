@@ -1,0 +1,25 @@
+{
+  "Vanished Avenue": {
+    "name": "Vanished Avenue",
+    "description": "The user bends the light across a whole stretch of street, a city block long and wall to wall, around everyone and everything inside it, without touching anyone. For the rest of the scene nobody outside can see into that stretch: civilians, vehicles and heroes in it vanish from enemy eyes and cameras, though sound, scent and footprints still give them away. It fails in darkness, the user must stand still at its center and cannot attack, and the effect ends the instant they take a hard hit. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

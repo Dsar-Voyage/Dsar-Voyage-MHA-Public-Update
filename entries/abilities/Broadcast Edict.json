@@ -1,0 +1,25 @@
+{
+  "Broadcast Edict": {
+    "name": "Broadcast Edict",
+    "description": "Through a public address system, an emergency broadcast or stadium speakers, the user asks a question that reaches every ear across several city blocks. Everyone who answers aloud anywhere in that reach, ally, enemy or bystander, falls under a single shared command, such as shelter in place, weapons down or walk to the evacuation route, for several minutes until hurt, shaken hard or released; an order to hurt anyone frees them all. The user cannot choose who is caught, their voice gives out for the rest of the scene, and the Commission reviews every use. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mental Command Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "last_bearer_leaves_home": {
+    "title": "The Empty Dorm Room",
+    "beats": "On April 6, Izuku Midoriya wakes in Musutafu General Hospital while his classmates wait for news at U.A. Academy. His arms remain scarred and his body is still recovering. All Might and Inko Midoriya must confront his intention to pursue the enemy outside the shelter. Gran Torino remains a seriously injured patient, available for a protected bedside conversation rather than another field assignment.\n\nThe canon default course, as pressure the player can change: within One For All, its predecessors explain that the accumulated power shortens the lives of holders who already possess a Quirk. Izuku's original Quirklessness may make him its last suitable bearer. Asked whether he can kill Tomura Shigaraki, he insists on trying to reach the suffering person he perceived within him. This interior exchange is private; a hospital visitor cannot hear it or enter the vestige space merely by being nearby.\n\nIzuku accepts Gran Torino's yellow cape and leaves his established home at Heights Alliance. Letters explain One For All to Class 1-A and explain why he believes remaining would endanger them. All Might, Endeavor, Hawks and Best Jeanist support the pursuit, despite disagreement over its risks. His provisional license is not erased. Inko receives an actual conversation about danger and support, not a silent demand to approve. A participant can argue for rest, a different base, escorts or a protected arrangement at the Academy; accepting help must create practical commitments.\n\nBy Path: at Musutafu General Hospital, Faculty, Licensed Sidekick and Licensed Pro Hero can negotiate medical and operational safeguards; Civilian Life can support Inko with consent. At U.A. Academy, Class 1-A responds to the letters, Class 1-B covers recovery duties, General Studies seeks permitted contact, Support prepares equipment and Management protects private correspondence. Vigilante can seek a safe contact route. League of Villains Recruit and Independent Villain receive only information their contacts actually provide about the hunt. No Path gains the letters or vestige history automatically. Keep an absent or detained player involved through an authorized message or cooperation decision.\n\nThe event is complete when Izuku has departed or accepted a different supported arrangement, with his destination category, medical limits, escorts and each recipient's knowledge explicitly established.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_last_bearer_leaves_home",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

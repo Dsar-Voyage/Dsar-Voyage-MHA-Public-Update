@@ -1,0 +1,20 @@
+{
+  "Full Shift": {
+    "name": "Full Shift",
+    "description": "The user takes their full beast form in a few seconds and holds it until they change back, tire or the scene ends. While shifted they carry a few adults on their back, break through a wooden door or a fence, smell and hear far beyond any person, and fists and knives barely mark their hide; they cannot use tools, fit through ordinary doors or say more than a few rough words. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

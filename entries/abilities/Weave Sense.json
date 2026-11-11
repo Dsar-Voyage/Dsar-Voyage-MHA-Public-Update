@@ -1,0 +1,20 @@
+{
+  "Weave Sense": {
+    "name": "Weave Sense",
+    "description": "The user touches any fabric, such as a carpet, a curtain, a seat or a sleeve, and feels through it to every woven thing within a room's width. They learn where people stand or hide by the clothes they wear, what weighs down a pocket or a bag, who carries a holstered gun or a hidden blade, and where someone buried under rubble lies. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

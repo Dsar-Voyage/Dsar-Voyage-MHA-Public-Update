@@ -1,0 +1,15 @@
+{
+  "v_tsukauchi_questions": {
+    "title": "A Detective's Questions",
+    "beats": "A weekday in early summer, during the day or early evening, weeks after the Hosu incident, with the police logging every masked figure on a roof. Detective Naomasa Tsukauchi of Musutafu Police Headquarters is following up reports that match the party: a costume, a Quirk, a route, a time of night. His partner, Officer Sansa Tamakawa, carries the folder. Tsukauchi's Quirk tells him whenever someone lies to him; he is courteous, exact and in no hurry.\n\nHow close he is depends on how much attention the party has drawn. If it has kept quiet, this is a canvass: the two officers knock on doors around the party's room or day job, show a blurred still from a security camera, and ask the party, along with the neighbors, whether it saw anything on certain nights. If its notoriety is growing, Tsukauchi asks for it by its cover name and invites it to a voluntary talk in the Detectives' Office, coffee on the table and the door open. If it is already wanted, he comes in person with a warning: he cannot arrest on a feeling, but he knows, and the next report ends in handcuffs or a pro at the door.\n\nDefault course, as pressure the party can change: his questions are short and he lets silence work. A flat lie is caught at once; he says so politely and writes it down. Silence, a refusal, a lawyer, careful true statements and questions back at him all work, and his questions show a sharp party what the police actually have. Leaving is allowed; running is noticed. Getting through clean and staying out of sight for a while cools things; a lie, a threat or a Quirk used near him heats them.\n\nA vigilante hears that saving lives matters to him and still does not change the law; he says a license is the legal road and he would rather not make the arrest. An independent villain hears about the specific crime he is tracing and gets his card, and an offer to talk before the heroes find it.\n\nThe event is complete when Tsukauchi closes his notebook and the party knows roughly how close he is.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_tsukauchi_questions",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

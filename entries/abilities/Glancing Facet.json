@@ -1,0 +1,24 @@
+{
+  "Glancing Facet": {
+    "name": "Glancing Facet",
+    "description": "The user sets a thick pane at a steep slant across the path of an attack too strong to stop head-on, such as a speeding car, a blast, gunfire or a heavy Quirk strike. The pane holds, and the attack glances off along the line its slant sets, never straight back: into the ground, the open sky or an enemy standing on that line, who takes its damage, while the person it was aimed at takes none. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

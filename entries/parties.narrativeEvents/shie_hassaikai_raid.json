@@ -1,0 +1,15 @@
+{
+  "shie_hassaikai_raid": {
+    "title": "The Shie Hassaikai Raid",
+    "beats": "Dawn at the Sir Nighteye Hero Agency. Sir Nighteye, Mirio Togata, Izuku Midoriya, Bubble Girl and Centipeder prepare to raid Kai Chisaki, called Overhaul, at the Shie Hassaikai Compound. Their case links his Quirk-destroying bullets to the exploitation of Eri, a child held inside. Fat Gum brings Tamaki Amajiki and Eijiro Kirishima; Ryukyu brings Nejire Hado, Ochaco Uraraka and Tsuyu Asui. Shota Aizawa, Rock Lock and police join the staging. Work-study students receive their summons through their agencies and deploy under their pros.\n\nThe canon default course, as pressure the player can change: police serve the warrant, Rikiya Katsukame attacks outside and Ryukyu's team holds him while the entry team advances. Mimic reshapes the Underground Passages to split the heroes. Unless the player changes the encounters, Tamaki defeats Yu Hojo, Soramitsu Tabe and Toya Setsuno; Fat Gum and Eijiro overcome Kendo Rappa and Hekiji Tengai. Other enforcers, including Deidoro Sakaki and Shin Nemoto, delay the pursuit. Himiko Toga and Twice are inside on loan from the League of Villains. They sabotage their hosts, attack and misdirect the heroes, then goad Mimic into exposing himself through his anger; they escape rather than remain loyal to Overhaul.\n\nBy canon default Mirio reaches Eri ahead of the team, fights Overhaul and Chronostasis, and protects her when a Quirk-destroying bullet is fired at her. The bullet takes Mirio's Permeation, but he continues defending her. Overhaul gravely wounds Nighteye. Unless the player changes the rescue, Eri reaches Izuku; her Rewind reverses the damage from his power, letting him sustain 100% One For All and defeat Overhaul above ground. The power's name and inheritance remain private, not a public explanation. Eri's Rewind then runs out of control until Aizawa erases it. She receives protective medical care and is never treated as a weapon. Nighteye remains reachable for rescue and treatment; his death from the wound afterward is the canon default unless changed care or fighting saves him.\n\nA participating student party answers its agency summons; other U.A. courses assist only through established support duties or remain at U.A. Academy. Faculty, pros and sidekicks enter with the operation or maintain the street perimeter. A Fat Gum party can begin with the call from Osaka Downtown. Villains inside the compound face shifting halls and orders to hold the heroes back; League parties can act with Toga and Twice. Civilians meet police tape and evacuation routes outside the compound.\n\nThe event is complete when Eri is in protective medical care with Rewind contained, Overhaul is captured or has escaped, and the wounded have been transferred to medical teams.",
+    "targetTurns": 50,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_shie_hassaikai_raid",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

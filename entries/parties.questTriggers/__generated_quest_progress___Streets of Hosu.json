@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Streets of Hosu": {
+    "name": "__generated_quest_progress__/Streets of Hosu",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The quiet-fee crew no longer collects in the Hosu Back Alleys because the PC broke it, exposed it or drove it out, and the PC is still unidentified or has faced the cost."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Streets of Hosu"
+      }
+    ]
+  }
+}

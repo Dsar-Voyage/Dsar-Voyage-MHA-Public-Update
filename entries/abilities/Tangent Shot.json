@@ -1,0 +1,20 @@
+{
+  "Tangent Shot": {
+    "name": "Tangent Shot",
+    "description": "The user lets a circling stone, can or bolt fly off its orbit along a straight line at a target within about twenty meters. It deals bludgeoning damage and knocks the target back a step; held back, the user lets a soft object fly instead, a balled-up jacket or a rubber ball, which only staggers them and knocks a weapon from their hand. The user must already have something circling. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

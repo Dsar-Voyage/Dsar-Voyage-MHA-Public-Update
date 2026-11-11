@@ -1,0 +1,25 @@
+{
+  "Great Wildcall": {
+    "name": "Great Wildcall",
+    "description": "The user's signature move: one long call carries across several blocks, and every animal in them answers at once. Each enemy in the area is mobbed by birds and swarmed by small animals and cannot aim, run or use a Quirk that needs sight until the end of their next turn, while bystanders are led to the nearest safe exit; afterward the user's voice gives out and they cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Corrosion Crest": {
+    "name": "Corrosion Crest",
+    "description": "The user's signature move: they pour out a rolling wave of acid gel the length of a street and ride its crest. Every enemy in its path takes massive corrosive damage, or only a sting if the user thins it, and is swept off their feet and stuck in the setting gel until they tear free with a hard effort or are dug or washed free; afterward the user's skin runs dry and they cannot make acid until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

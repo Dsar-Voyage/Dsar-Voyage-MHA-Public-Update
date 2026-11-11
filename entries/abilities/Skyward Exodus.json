@@ -1,0 +1,24 @@
+{
+  "Skyward Exodus": {
+    "name": "Skyward Exodus",
+    "description": "The user flies so fast and so precisely through a burning, flooded or collapsing building that in a single action they clear a whole floor of it. Every person on that floor is carried out through windows and gaps and set down safely, and none of them takes damage from the flight, the smoke or the fall. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

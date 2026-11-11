@@ -1,0 +1,24 @@
+{
+  "Second Skin Ward": {
+    "name": "Second Skin Ward",
+    "description": "The user wraps a thin, close-fitting barrier around every person they choose in sight, a whole crowd at once, and each shell moves with its wearer. Until the end of the scene, each shell stops the next attack, fall, blast or crush of debris that would harm its wearer and then breaks, while the wearer can still walk, carry and fight freely. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Barrier Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

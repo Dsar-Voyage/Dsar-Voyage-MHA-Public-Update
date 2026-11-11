@@ -1,0 +1,20 @@
+{
+  "Rime Rush": {
+    "name": "Rime Rush",
+    "description": "The user slaps a hand to the ground and sends a jagged surge of ice racing along it into a target within a few strides. It deals cold damage and frosts the target's legs: they cannot run or dodge until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Aquatic Quirk": {
+    "name": "Aquatic Quirk",
+    "description": "🐟 Your body is built for water: gills, fins, webbed hands and feet or slick skin, as you choose.\n\n🌱 At the start you breathe underwater, outswim any athlete, hold a breath through smoke and gas on land, and rush through water to a target or a drowning swimmer.\n📈 With training: sonar in murky water, groups towed from floods, any grip slipped, tail and body slams, boats stopped dead, breaches onto a target, rescues held underwater.\n⚠️ Dry air and heat wear on you.\n🔗 Common drawback pairing: Overheating, as exertion out of water heats and dries your body.\n🎬 Similar canon Quirks: Gang Orca (Orca), Tsuyu Asui (Frog).\n\n📈 Grants: Endurance +1, Quirk Mobility +10, Quirk Stamina +10, Swimming +5\n⚡ Starting techniques: Slipstream Dash, Deepwater Breath",
+    "traitNarrativeEffects": "Scale: a body built for water: gills, fins, webbed hands and feet or slick skin (player's choice). New adult user: breathes underwater, swims several times faster than a human champion, dives to about thirty meters, sees in murky water and holds a breath on land for minutes. More needs techniques. Limits: ordinary pace on land; dry air and heat dry skin and gills: hours from water tire them until wet again; hot rooms exhaust them; they move through water, never move it; polluted water harms them as anyone. Quirk Strain: living in the body costs nothing; light: dash, held breath; moderate: sonar, towing, slipping a hold; heavy: body slam, ramming a vessel; severe: signature breach, whole-district rescue. Type: Mutant. Law: the features break no law, but holding a person under water is attempted murder, whatever the intent. Look: permanent: gill slits on neck or ribs, fins on forearms, back, calves or a tail, webbed digits, smooth damp skin in the player's colors.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Swimming",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Slipstream Dash",
+      "Deepwater Breath"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

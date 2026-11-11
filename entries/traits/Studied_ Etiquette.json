@@ -1,0 +1,20 @@
+{
+  "Studied: Etiquette": {
+    "name": "Studied: Etiquette",
+    "description": "🍵 You learned formal manners: honorific speech, tea ceremony, business protocol, or a family that hosted important guests.\n\n🌱 Bows, seating order, gifts, business cards and conduct at galas and agency meetings. You know what offends an official or a sponsor.\n⚠️ Unfamiliar foreign customs and the hidden politics of an old hero family can still trip you.\n⚖️ Perfect manners grant no rank or invitation, and polite words do not hide bad intent from people who watch closely.\n🏫 It shows in correct posture, measured speech and a reflex to stand when a senior enters.\n\n📈 Grants: Etiquette +15",
+    "traitNarrativeEffects": "The character has studied etiquette: honorific and humble speech, bows, seating order, gift customs, the exchange of business cards and conduct at ceremonies, galas and agency meetings. They know what offends a Commission official or a wealthy sponsor and avoid it. Prior study, not mastery: unfamiliar foreign customs and the hidden politics of an old hero family still trip them. Not a license: perfect manners grant no rank or invitation, and polite words do not hide bad intent from people who watch closely. It shows in correct posture, measured speech and a reflex to stand when a senior enters.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Toya Setsuno": {
+    "name": "Toya Setsuno",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 16,
+    "tier": "strong",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Toya Setsuno, one of the Shie Hassaikai's Eight Bullets, Kai Chisaki's sworn enforcers, and the talker of his trio with Yu Hojo and Soramitsu Tabe. Lean, with chin-length golden hair over one eye, dark circles, a beaked mask and formal clothes.\nSpeaking Style: Intense and outspoken; takes any sneer at his friends personally.\nCombat Role: Disarmer: his Quirk pulls a weapon or tool he can see into his hands.\nUnder Pressure: Gets louder and sticks closer to Hojo and Tabe.",
+    "hiddenInfo": "Contradiction: His friendship with Hojo and Tabe is real, inside a house that uses them. Motivation: Keeping the friends he found after years of rejection. Connections: Yu Hojo and Soramitsu Tabe, his closest companions; Kai Chisaki (Overhaul), their boss. Knowledge: The tunnels, the Trigger trade and his orders. Thread: Whether he is loyal to the house or only to his two friends.\nQUIRK: Larceny. Pulls an object he can see out of someone's possession into his hands; things only, and size limits what he can take.",
+    "personality": [
+      "Intense: Throws himself into a fight or an argument.",
+      "Outspoken: Tells opponents exactly what he thinks.",
+      "Attached: A threat to Hojo or Tabe lands harder than one to himself.",
+      "Speaking style: Fervent, quick and blunt."
+    ],
+    "abilities": [
+      "Larceny: Takes a visible object from someone into his hands; line of sight and size limit it.",
+      "Disarming: Strips a weapon or tool at the key moment; useless against a Quirk.",
+      "\nFighting style: Works behind Hojo and beside Tabe, stealing gear and openings instead of trading blows."
+    ],
+    "visualDescription": "A lean man with messy, chin-length golden hair falling over one eye, tired eyes ringed with dark circles, and light skin. A dark beaked mask covers his nose and mouth. He wears formal dark clothes: a dark suit jacket, a white shirt and dark trousers. An intense, restless expression, the visible eye sharp and quick.",
+    "detailType": "detailed",
+    "properName": "Toya Setsuno",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bdbb3dee-b96a-4cc1-822a-55f5352e4cca.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_toya_setsuno",
+    "initialKnown": false
+  }
+}

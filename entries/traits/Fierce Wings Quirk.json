@@ -1,0 +1,49 @@
+{
+  "Fierce Wings Quirk": {
+    "name": "Fierce Wings Quirk",
+    "description": "🪶 You have red wings and control each feather even after it detaches.\n\n🌱 At the start you fly twenty meters, hover briefly and guide about six feathers within twenty meters to lift a five-kilogram bag or sense sound without sight.\n📈 With training: clothing pins, feather blades, adult rescues, faster flight, many simultaneous feather tasks.\n⚠️ You lose lift as feathers leave; intact ones can return, but fire destroys them and regrowth takes days, while deep burns can damage your wings.\n🔗 Canon Drawback, built in: Finite Fuel, as lost feathers reduce your flight supply.\n🎬 Canon Quirk: Keigo Takami / Hawks's Fierce Wings. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Quirk fuel pack x5, Fuel belt\n\n📈 Grants: Speed +1, Quirk Control +10, Quirk Mobility +10, Search and Rescue +5\n⚡ Starting techniques: Red Wing Hop, Quill Clothing Pin",
+    "traitNarrativeEffects": "Scale: red wings; feathers move at will, attached or not. Start: 20 m flights, hovers, about six feathers in 20 m, jointly lifting about 5 kg. Feather vibrations sense nearby motion and sound, no images. Carrying adults, many far feathers need training.\nLimits: finite feathers: sending them shrinks the wings, cutting speed, lift, then flight; intact ones reattach, lost ones regrow over days. Fire burns them; bad burns go deeper. Pinned feathers can break or be pulled. Senses no silent objects or thoughts.\nQuirk Strain: light: short flight, clothing pin; moderate: listen, cut, carry one adult; heavy: rapid interception, multitasking; severe: full deployment, sustained rescue.\nDrawback: built in, the canon Finite Fuel.\nCanon: Keigo Takami / Hawks's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: rescues need safe routes; pursuit, restraint, private listening need lawful authority.\nLook: red wings.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Red Wing Hop",
+      "Quill Clothing Pin"
+    ],
+    "startingItems": [
+      {
+        "item": "Quirk fuel pack",
+        "quantity": 5
+      },
+      {
+        "item": "Fuel belt",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

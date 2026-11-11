@@ -1,0 +1,20 @@
+{
+  "Linked Climb": {
+    "name": "Linked Climb",
+    "description": "The user forms several hands and climbs a wall, ladder or damaged structure while keeping two grips free for a small child or rescue supplies. They can move one story before needing another secure hold. The arms need real handholds, and a broken support can pull the user and passenger down together. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

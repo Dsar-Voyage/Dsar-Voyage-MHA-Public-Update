@@ -1,0 +1,1747 @@
+{
+  "U.A. Academy": {
+    "name": "U.A. Academy",
+    "basicInfo": "The main campus of U.A. Academy, Japan's national hero academy: a three-year residential program for high-school graduates, run by Principal Nezu with a faculty of working pro heroes, on the forested hill directly above Musutafu, about 3 km northeast of Musutafu Station and ten minutes by city bus. Courses: Hero (first-year Classes 1-A under Shota Aizawa (Eraser Head) and 1-B under Vlad King), General Studies (1-C to 1-E), Support (1-F to 1-H) and Management (1-I to 1-K). The U.A. Barrier at the Main Gate locks to anyone without a student or faculty ID or a visitor's day pass; visitors need an appointment and an escort. Past the Courtyard, with its bus bay and the Library, stands the H-shaped glass main building: homerooms, the Faculty Office and the Principal's Office, Recovery Girl's Infirmary, Power Loader's Development Studio and Lunch Rush's Cafeteria. Gym Gamma, the pool and the athletics field share the main campus; U.A. Stadium stands in its own walled park next door to the east, and the training grounds are spread through the forested hills behind, each behind its own wall and linked by winding campus roads. Every student lives in Heights Alliance, a short walk across campus: a five-story building for each Hero Course class and larger shared halls for the other courses, under curfew, signing out for weekend visits home. Teachers on call live in the Faculty Residence at a quiet edge of campus. Homeroom is at 8:30 and lunch at 12:30, when the whole academy reaches the cafeteria at once; afternoons, the Hero Course rides campus buses to the training grounds for Foundational Hero Studies with All Might and Shota Aizawa (Eraser Head), General Studies lectures until about four, Support builds and Management works through case studies. After classes, students study in the Library until nine, build gear or book training, then cook and argue in their dorm kitchens until curfew. Quirk use outside supervised training earns a talk with Hound Dog. The chime carries across campus.",
+    "hiddenInfo": "The barrier stops people, not Quirks: anything that can cut, melt or dissolve its steel would open it, and a breach sets off the Level 3 intruder alarm, which sends everyone to the same exits at once. Day passes are issued only against a faculty appointment, and this month several callers have tried to book visits as relatives of new students to get near All Might; the gate's security office caught each one. Principal Nezu has refused every interview request about his new teacher since April, and the unanswered letters pile up in a tray in the Faculty Office. The Faculty Office keeps every class's weekly curriculum on its board, including where All Might will teach and when, and any student handing in a form can read it. All Might arrives late to his own lessons and vanishes between them, and the other teachers have stopped asking where he goes. At Heights Alliance, door readers log every entry and a missing sign-out reaches the homeroom teacher by morning, but the balconies and fire stairs are watched far less closely, and older residents know it. Hound Dog keeps a list of curfew breaches and makes an example of repeat offenders, and every building argues over its cooking, cleaning and laundry rotas.",
+    "x": -4.4,
+    "y": -18.727,
+    "radius": 0.42,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Main Gate": {
+        "description": "The way in from Musutafu, about 3 kilometers northeast of Musutafu Station and ten minutes up the hill road by city bus: a towering gateway in the security wall, crowned with the academy's U.A. crest, with the city bus stop and its shelter just outside. Sensors in the gateposts read every student ID, faculty ID and visitor pass as it passes; anyone without one triggers the U.A. Barrier, thick steel panels that slam down across the opening. Visitors come only by appointment: they sign in at the security office beside the gate, wear a day pass the readers accept, and wait there to be met by the person they came to see. Faculty, staff and deliveries arrive in the morning, and through the school day the gate is quiet except for the wind in the trees along the wall. Students pass only when signed out on their dorm's sheet, so a Saturday morning brings a trickle of residents heading into town, and the Sunday-evening return from visits home is the busiest hour, a line of bags, care packages and souvenirs waiting for the readers. The barrier's boom stops every conversation nearby, and anyone who has heard it once keeps their ID out on the walk up. Inside, the drive opens onto the Courtyard.",
+        "paths": [
+          "Courtyard",
+          "Campus Bus Terminal"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9f211c52-ed1b-4c97-82f0-c5404656a9a7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Courtyard": {
+        "description": "The paved square and lawns between the Main Gate and the glass main building, with the two-story Library on one side, the Athletics Field along the building's flank, where classes run fitness tests, and the path to Heights Alliance, a short walk across campus; a quieter path runs past the trees to the Faculty Residence. Residents cross it in a stream before 8:30 homeroom, some still finishing toast from the dorm kitchens, and the lobby's glass doors swallow them all. The bus bay is here: after lunch, Hero Course classes board in costume for the training grounds, and the rest of the academy watches them go. In April the cherry trees bloom and petals drift over the benches they shade, and the lawns fill at lunch with bento boxes and cafeteria trays carried outside. After classes it belongs to joggers, club recruiters with handmade signs and students heading for the Library. Quirk use outside a supervised class earns a talk with Hound Dog, who handles student discipline, and every first-year has already heard that his nose remembers who was there.",
+        "paths": [
+          "Main Gate",
+          "Main Building Lobby",
+          "Library",
+          "Heights Alliance Yard",
+          "Athletics Field",
+          "Faculty Residence",
+          "Campus Bus Terminal"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cbb8c52e-8326-42ae-841c-2afcecf2520a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Main Building Lobby": {
+        "description": "The ground floor of the H-shaped glass building, where its two long wings meet: a bright, high hall of glass and pale stone, its front doors opening onto the Courtyard, with corridors to the Hero Course, General Studies and Management homerooms, the Faculty Office, Recovery Girl's Infirmary and the Development Studio, the doors of Lunch Rush's Cafeteria, the long main hallway and elevators to the upper years. Every door is oversized for students of any size, wide and tall enough for wings, tails, horns and shoulders like Mezo Shoji's. It fills at each class change, floods at the 12:30 lunch bell and empties after six, when only the Development Studio's corridor stays lit. The Big Three, Mirio Togata, Tamaki Amajiki and Nejire Hado, cut through it between lectures, and first-years still stop mid-sentence to watch them pass. A notice board by the elevators carries club flyers and the cafeteria's weekly menu. Ceiling speakers carry the chime and every alarm, and on a sunny morning the hall smells of floor polish and warm glass.",
+        "paths": [
+          "Courtyard",
+          "Class 1-A Homeroom",
+          "Class 1-B Homeroom",
+          "General Studies Classrooms",
+          "Management Course Classrooms",
+          "Faculty Office",
+          "Recovery Girl's Infirmary",
+          "Development Studio",
+          "Lunch Rush's Cafeteria",
+          "Main Building Hallway",
+          "Campus Store",
+          "Lecture Hall",
+          "Upper-Year Classrooms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4b9639d9-4f67-40f5-8eca-4fe0cf86f9d6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-A Homeroom": {
+        "description": "Class 1-A's classroom: rows of desks, a wide blackboard, tall windows over the campus and a sliding door taller than anyone in the class, marked 1-A in huge numerals. On training days, numbered cases holding each student's hero costume slide out of the wall. Shota Aizawa (Eraser Head) takes homeroom at 8:30; then come English with Present Mic, modern literature with Cementoss, math with Ectoplasm and modern hero art history with Midnight, and the afternoons belong to Foundational Hero Studies, the course All Might joined the faculty to teach. Izuku Midoriya, Katsuki Bakugo, Shoto Todoroki, Ochaco Uraraka and Tenya Iida sit here with fifteen classmates, a room still learning one another's names and Quirks. Katsuki sits directly in front of Izuku and puts his boots up on the desk; Tenya tells him not to. Before the bell, Denki Kaminari and Mina Ashido are the loudest corner, Shoto Todoroki looks out of the window, and Minoru Mineta complains about something. Aizawa wants silence within seconds and once expelled an entire class, so when he arrives the room goes quiet fast.",
+        "paths": [
+          "Main Building Lobby",
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c44d7019-edd9-4067-bdd7-4720f0d80111.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-B Homeroom": {
+        "description": "Class 1-B's classroom along the same corridor, laid out the same way as 1-A's, with the same towering sliding door and the same wall of costume cases, but with its own mood: loud, close-knit and determined never to be the other Hero Course class. Vlad King (Sekijiro Kan) runs homeroom at 8:30 and backs his students with loud, open pride. Itsuka Kendo keeps order, settles squabbles and is the one person who can silence Neito Monoma, with a chop to the neck if she has to; Neito measures 1-B against 1-A at every chance, usually out loud; Tetsutetsu Tetsutetsu treats each drill as a contest and each contest as a matter of honor. Ibara Shiozaki bows her head in a quiet prayer before lunch, and Pony Tsunotori's horns clear the doorframe with room to spare. Mornings bring the same lecturers as 1-A, and afternoon hero training runs on its own rotation of the training grounds, so the two classes pass in the corridor more often than they share a field. Vlad King's voice carries through the wall into 1-A's room.",
+        "paths": [
+          "Main Building Lobby",
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/013488b7-ad54-4be1-baf8-cfb1ab204cf8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "General Studies Classrooms": {
+        "description": "The homerooms of Classes 1-C to 1-E, along a quieter wing of the main building: standard desks, clean blackboards and a full academic load of literature, math, sciences, history and languages that runs into the afternoon while the Hero Course boards its buses. Many students here sat the Hero Course exam and missed, and nobody brings it up; Hitoshi Shinso of 1-C is one, a tired-eyed presence near the back who listens far more than he talks. Everyone knows the rule: a strong showing at the Sports Festival can earn a transfer into the Hero Course, and a weak Hero Course student can be moved out. Some students here are happily bound for other careers, law, medicine, business, teaching; a few train on their own time and say nothing about it. Lectures end around four, and the rooms empty toward the Library and the dorms. From the windows, students watch the afternoon buses leave, and the room goes a little quieter each time one pulls away.",
+        "paths": [
+          "Main Building Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/257e4bb4-c011-4fc8-9676-0e970d62c095.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Management Course Classrooms": {
+        "description": "The homerooms of Classes 1-I to 1-K: seminar rooms with tables set in a horseshoe and wall screens showing hero rankings, news clips and hero merchandise sales. Management students learn agency finance, contracts, publicity and media relations, and they see the Hero Course as their future clients, already sorting the new first-years by entrance exam rumor and by how well each one might photograph. Lectures run through the morning, with case studies and group projects in the afternoon: a mock press conference, a sponsorship pitch, an insurance claim for a fight that wrecked a shopping street. The Sports Festival is their first live market: they track which students the cameras and the scouts favor. Arguments here are settled with numbers: approval ratings, sales and airtime. Laptops stay open, paper coffee cups stack up on the windowsill, and someone is always rehearsing a pitch under their breath.",
+        "paths": [
+          "Main Building Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f6319836-c77a-4ace-b11b-741e4caa35d3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Faculty Office": {
+        "description": "The teachers' office on the ground floor: rows of cluttered desks for the faculty, a coffee machine, filing cabinets, a wall calendar of training-ground bookings and a door to the Principal's Office, with another into the Teachers' Lounge. Staff meet here before homeroom, return between lectures and grade late. Present Mic talks at Shota Aizawa, often asleep in his yellow sleeping bag beside his desk; Midnight, Cementoss, Ectoplasm, Snipe, Thirteen, Vlad King and Hound Dog plan here, and Vlad King and Aizawa compare their classes in a rivalry that is friendly most days. All Might's desk, the newest in the room, is often empty, its owner out on a hero call or somewhere on campus, while the pile of fan mail on it keeps growing. Students come to hand in forms, find a teacher or book training-ground time. Barging in draws a look from every desk; a knock, a bow and a clear statement of business get a teacher's attention, and Aizawa's only if it is urgent.",
+        "paths": [
+          "Main Building Lobby",
+          "Principal's Office",
+          "Main Building Hallway",
+          "Teachers' Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c429863-c46e-48d8-9dbd-b6b5b9924cfa.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Principal's Office": {
+        "description": "Principal Nezu's office, through a door at the back of the Faculty Office: a wide desk, a tall chair its small owner hops into, shelves of law, history, strategy and engineering, a window over the campus and a tea set that is always in use. Nezu receives faculty, students, families and officials here by appointment, usually over tea and a long, cheerful speech that wanders before it lands exactly where he meant. Admissions, expulsions, transfers between courses and faculty hiring are decided in this room, and so is the academy's security. He is usually in from early morning and walks the campus in the afternoons, so a visitor who arrives late may find only the tea warm. He introduces himself as a mouse, a dog or a bear, and settles on principal. The tea is excellent, and he notices how each guest drinks it: who waits to be offered, who gulps, who never touches the cup. Students who are called here walk out either reassured or very thoughtful.",
+        "paths": [
+          "Faculty Office"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/add0c8c6-41fd-4fef-82c3-611c3a01d31f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Recovery Girl's Infirmary": {
+        "description": "The academy's infirmary: curtained beds, a treatment table, cabinets of bandages and splints, a lightbox for X-rays and a desk stocked with gummy candy. Recovery Girl (Chiyo Shuzenji) heals with a kiss that speeds the body's own recovery by spending the patient's stamina, so badly drained patients sleep for hours afterward. She keeps class hours and is busiest in the late afternoon, when training ends; she also travels to exams and events, and she patched up the injured after this year's entrance exam. Her rules are fixed: she rations her Quirk, scolds repeat patients, sends serious cases to hospital and refuses further treatment, whoever objects, when a patient cannot take more. Teachers bring the injured here first. She moves between the beds with her syringe-shaped cane, and nobody leaves without a gummy and a lecture about taking better care of the body they have. The room smells of antiseptic and sugar, and the wall clock ticks loudly over the beds.",
+        "paths": [
+          "Main Building Lobby",
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/32bc83a5-abdd-4f08-8c3f-4d14d5f1d8b1.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Development Studio": {
+        "description": "Power Loader's workshop, behind a heavy sliding door off a ground-floor corridor near the lobby: workbenches, lathes, welding booths, a test cage, a wall of tools and shelves of half-built gear, with a second door straight through to the Support Course Classrooms. The Support Course (1-F to 1-H) builds and tests equipment here in the afternoons, and Hero Course students come after classes with costume change requests and repairs, forms in hand. Power Loader (Higari Maijima), in his digging-claw helmet, signs off on every test and has firm opinions about safety goggles. Mei Hatsume of 1-H all but lives here, from before homeroom until curfew, and greets anyone who stands still long enough with a pitch for one of her babies. Small explosions are routine, and nobody looks up for the first one; the second gets a sigh from Power Loader, and the sliding door has already been rehung on its track. The air smells of hot metal, solder and scorched paint, and a fire extinguisher hangs at every bench.",
+        "paths": [
+          "Main Building Lobby",
+          "Support Course Classrooms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/57fa3799-a2a9-4d4e-9976-09c725055173.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Library": {
+        "description": "A two-story building on the Courtyard: open stacks on hero law, Quirk science, rescue medicine and hero history, bound runs of hero magazines, a media room with recordings of past Sports Festivals and hero news, and study carrels along the tall windows. It opens before homeroom and stays open until nine at night on weekdays, with shorter weekend hours, and it fills before exams. Momo Yaoyorozu studies here often; her Quirk depends on knowing how things are made, and she reads chemistry and engineering texts the way others read comics. Izuku Midoriya haunts the media room, filling notebooks on every pro hero he can find. Management students borrow the agency yearbooks, Support students the engineering manuals, and General Studies students claim the quiet tables upstairs. Talk above a whisper earns a raised hand from the staff, and phones go face down on the tables. The building smells of paper and floor wax, and in the evenings the windows glow out over the Courtyard.",
+        "paths": [
+          "Courtyard"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b8ad19bf-686b-4739-9d82-0f727869110f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Lunch Rush's Cafeteria": {
+        "description": "A big, bright dining hall inside the main building, off the Main Building Lobby: tall windows, long tables, a serving counter and an open kitchen. Lunch Rush, the Cook Hero, cooks for the whole academy: first-rate food at low prices, with set meals from about 500 to 800 yen; katsudon, curry, cold soba and white rice are steady sellers, and Ochaco Uraraka is not the only first-year who calls the rice reason enough to have passed the exam. At the 12:30 bell every course arrives at once and shares the tables, with seats in several sizes, so Hero Course, General Studies, Support and Management students end up elbow to elbow. Its doors open onto the lobby where the main hallway meets it, and the line reaches them within minutes. Lunch Rush works in silence behind his white mask, serving at a speed nobody can follow, and nobody leaves a tray on the table under his eye. Trays clatter, steam from the rice cookers fogs the windows, and for half an hour it is the loudest room in the academy.",
+        "paths": [
+          "Main Building Lobby",
+          "Main Building Hallway",
+          "Campus Store"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0e230268-c556-447c-8b41-7cd01924fbf3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Heights Alliance Yard": {
+        "description": "The lawn and walkways of Heights Alliance, a short walk across campus from the main building by a path from the Courtyard: one five-story dorm for each Hero Course class of all three years, Class 1-A's and Class 1-B's side by side, and the other courses' larger shared halls at the far end. The grass is new, the saplings along the paths are still staked, and the forested hills rise behind the rooftops. Residents walk to homeroom in the morning in loose, half-awake groups, General Studies hopefuls chasing a Hero Course transfer run drills here before dawn, and groups sit out on the benches on warm evenings. On Sunday evenings residents back from a weekend at home cross the lawn with bags and food from their families. Faculty walk rounds after dark, and anyone caught out after curfew gets house arrest and cleaning duty. Floodlights come on at dusk, and the door reader at each entrance chirps as residents badge in. Paths lead to the Class 1-A and Class 1-B lounges, the Other Course Dorm Halls, the Courtyard and the Faculty Residence.",
+        "paths": [
+          "Class 1-A Dorm Lounge",
+          "Class 1-B Dorm Lounge",
+          "Other Course Dorm Halls",
+          "Courtyard",
+          "Faculty Residence"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1c291a8c-be92-4b3f-9153-2357ae5ab12e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Other Course Dorm Halls": {
+        "description": "The larger shared dorm halls where General Studies, Support and Management students live, with all three courses mixed on every floor and separate men's and women's wings. They are bigger and busier than the Hero Course buildings: long corridors, a front desk with the sign-out sheet, and a notice board crowded with club flyers, study-group sign-ups and lost-and-found. Each hall has a common kitchen, laundry, quiet study rooms and a ventilated workroom where Support residents tinker until curfew. Hitoshi Shinso of General Studies and Mei Hatsume of the Support Course live here; Mei misses curfew more than anyone. Study groups fill the common rooms in the evenings, Management students rehearse presentations in the hallways, and the talk in the kitchens often turns to the Hero Course buildings across the yard. The smell of solder from the workroom reaches the stairwells, and now and then a small bang from it makes the whole floor look up. The only way out is back to Heights Alliance Yard.",
+        "paths": [
+          "Heights Alliance Yard"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/682dbb4c-263b-45b0-95da-712d0cbacc2b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-A Dorm Lounge": {
+        "description": "The ground floor of 1-A's dorm building: an open lounge with long sofas around a big television, a dining table that seats the whole class, the kitchen along one side, the laundry room, the doors to the baths and the elevator up to the dorm rooms. It is empty through class hours and busy from late afternoon until curfew with homework, games and arguments about training. Momo Yaoyorozu ends up tutoring at the dining table whether she planned to or not, Denki Kaminari and Mina Ashido fight over the remote, and Shoto Todoroki sits at the far end of a sofa and says little. Katsuki Bakugo is usually in bed by nine; Tenya Iida reminds everyone else of the time. Shoes come off at the entrance, and the shoe cubbies show at a glance who is home; beside them hangs the building's sign-out sheet, which anyone leaving campus must fill in. From here doors lead to the Dorm Kitchen, the laundry room, the men's and women's baths, the yard, and the elevator to the Dorm Rooms and the men's and women's wings.",
+        "paths": [
+          "Heights Alliance Yard",
+          "Dorm Kitchen",
+          "Dorm Rooms",
+          "Class 1-A Men's Wing",
+          "Class 1-A Women's Wing",
+          "Class 1-A Men's Bath",
+          "Class 1-A Women's Bath",
+          "Class 1-A Laundry Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a938684c-d2d5-4ac7-a398-c7d2009beb06.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-B Dorm Lounge": {
+        "description": "Class 1-B's dorm building, next door to 1-A's in Heights Alliance, has the same five-story layout but a ground floor run 1-B's way: a big television facing a ring of sofas, a kitchen corner where the rice cooker is almost never off, and a dining table long enough to seat the whole class at once. Itsuka Kendo keeps cleaning and cooking duties on a whiteboard by the door, written in her quick, square hand, and the whiteboard is house law; arguments about it end at the whiteboard. Tetsutetsu Tetsutetsu drags anyone willing into push-up contests on the rug, Neito Monoma compares 1-B with 1-A for anyone who will listen and would go next door to needle them nightly if Kendo let him. Vlad King checks in most evenings, loud enough to hear upstairs. It is busy from the end of classes until curfew and dim and quiet after it. The front door opens onto the Heights Alliance Yard; stairs and an elevator climb to the dorm rooms in the men's and women's wings, and the baths and the laundry room open off the ground floor.",
+        "paths": [
+          "Heights Alliance Yard",
+          "Dorm Rooms",
+          "Class 1-B Men's Wing",
+          "Class 1-B Women's Wing",
+          "Class 1-B Men's Bath",
+          "Class 1-B Women's Bath",
+          "Class 1-B Laundry Room",
+          "Dorm Kitchen"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dedf6f8e-2a12-4dbc-a65f-5a64700be57a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Dorm Kitchen": {
+        "description": "The full kitchen on the ground floor of each Hero Course dorm (1-A's and 1-B's are built the same): two stoves, a large oven, a rice cooker that is rarely off, two refrigerators and a long counter facing the dining table. Residents cook breakfast and dinner in shifts, a schedule that is always under dispute, and on weekends whoever has not gone home eats together here. Rikido Sato bakes whenever he has time, and the class eats the results; his chiffon cake is already famous on both wings. Ochaco Uraraka keeps a bag of rice and a stash of mochi on her shelf, Tsuyu Asui makes tea for whoever is up late, and Momo Yaoyorozu studies the dish rota with open fascination. It is busiest from six to eight in the morning and six to nine at night, when the whole floor smells of rice, frying oil and, more often than not, warm sugar. Tenya Iida's rule on the fridge door: label your food or lose it. In 1-B's, Tetsutetsu and Itsuka Kendo argue over the rice cooker. The doorway leads back to the class's own dorm lounge.",
+        "paths": [
+          "Class 1-A Dorm Lounge",
+          "Class 1-B Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/feec0b32-87cc-44b7-a12f-ac32849335b8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Dorm Rooms": {
+        "description": "The upper stories of the Hero Course dorm buildings: carpeted halls of numbered doors, the men's wing on one side and the women's wing on the other, with a small sitting area by each elevator. Every resident has a private room with a bed, desk, closet and balcony, furnished however they please: Izuku Midoriya's is covered in All Might merchandise, and Shoto Todoroki rebuilt his as a tatami room on move-in day. Nameplates are hand-lettered, and the class compares whose room says the most about its owner. Residents are here from evening until they walk to homeroom, and visiting another room is fine until curfew. The unwritten rule on every floor is that you knock and wait, because nobody's room is a hallway. After lights-out the halls go quiet, and footsteps carry. The elevators lead down to the Class 1-A and Class 1-B dorm lounges.",
+        "paths": [
+          "Class 1-A Dorm Lounge",
+          "Class 1-B Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/812faa91-f5c3-45d7-b56d-5e690621765f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Athletics Field": {
+        "description": "The outdoor athletics field along the flank of U.A.'s main building: a 400-meter track around a turf infield, sprint lanes with timing gates, a long-jump pit, a throwing circle with a long open lane for the ball throw, and a low concrete stand along one side. Classes run fitness tests and physical education here in gym uniforms, and teachers time every event with stopwatches and handheld scoring devices that post results to a large display, so every score is public the moment it is made. Quirk use is allowed only under a teacher's supervision. Early risers from Heights Alliance run laps before breakfast, after classes the track belongs to clubs and anyone training on their own, and on a clear evening the infield smells of cut grass. Scuffed turf, scorch marks and the odd crater get raked and filled by the grounds staff without comment. The locker rooms open onto the field through the main building's side doors, and the Courtyard is a short walk around the corner.",
+        "paths": [
+          "Courtyard",
+          "Men's Locker Room",
+          "Women's Locker Room",
+          "Indoor Pool",
+          "Main Gymnasium"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c3c1d46a-62ab-4352-9256-8d3a44751537.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Main Building Hallway": {
+        "description": "The wide corridors of U.A.'s main building: polished floors, tall windows over the Courtyard, and classroom doors built several meters tall so that students of every size and Quirk can pass. The corridors link the homerooms of every course, the Faculty Office, the Principal's Office, Recovery Girl's Infirmary, the Development Studio, Lunch Rush's Cafeteria, the locker rooms, the restrooms, the Teachers' Lounge, and the stairs and elevators up the building, with the last flight climbing to the rooftop door. Between periods they fill with students; during class they are quiet except for a teacher passing, a lecture leaking through a door or someone running late. Running in the halls earns a reminder, usually from Tenya Iida before any teacher notices. Each class's door carries its name in tall numerals, first-years still check them twice, and the faint thump of the Development Studio comes through the floor at odd hours.",
+        "paths": [
+          "Main Building Lobby",
+          "Class 1-A Homeroom",
+          "Class 1-B Homeroom",
+          "General Studies Classrooms",
+          "Management Course Classrooms",
+          "Faculty Office",
+          "Principal's Office",
+          "Recovery Girl's Infirmary",
+          "Development Studio",
+          "Lunch Rush's Cafeteria",
+          "Men's Locker Room",
+          "Women's Locker Room",
+          "Men's Restroom",
+          "Women's Restroom",
+          "Teachers' Lounge",
+          "Support Course Classrooms",
+          "Main Building Rooftop",
+          "Main Gymnasium",
+          "Lecture Hall",
+          "Science Labs",
+          "Music Room",
+          "Upper-Year Classrooms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4989862c-01a5-4af9-a1e1-ebb926d3dba8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Men's Locker Room": {
+        "description": "The men's locker room on the ground floor of the main building, with a side door out to the Athletics Field: rows of tall steel lockers in several sizes, long wooden benches, a wall of mirrors and a tiled shower room at the back. Hero Course students change here into gym uniforms before physical education and fitness tests, and before afternoon training they bring in their costume cases and suit up. It is loud and crowded for the ten minutes before and after every class and empty the rest of the time. Eijiro Kirishima hypes up anyone within earshot, Katsuki Bakugo is dressed and gone before most people find their socks, and costume parts nobody can identify yet get passed along the bench for a second opinion. It smells of deodorant spray, rubber matting and clean towels. A handwritten sign by the door asks everyone to keep Quirks out of the showers, and the women's locker room is on the other side of a thick concrete wall.",
+        "paths": [
+          "Main Building Hallway",
+          "Athletics Field"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/93db92ba-66a9-472b-8979-5b6a1886336a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Women's Locker Room": {
+        "description": "The women's locker room on the ground floor of the main building, with a side door out to the Athletics Field: rows of tall steel lockers in several sizes, long benches, a vanity counter under bright mirrors and a tiled shower room with private stalls at the back. Hero Course students change here into gym uniforms before physical education and fitness tests, and before afternoon training they bring in their costume cases and suit up. It is busy and chatty for the ten minutes before and after every class and empty the rest of the time. Mina Ashido turns every changeover into a debrief, Kyoka Jiro keeps one earphone in, Tsuyu Asui says exactly what everyone else is thinking, and Toru Hagakure is only visible once her gloves and boots are on. It smells of shampoo, hairspray and warm towels. A row of hooks by the mirrors holds hair ties nobody ever claims, and the men's locker room is on the other side of a thick concrete wall.",
+        "paths": [
+          "Main Building Hallway",
+          "Athletics Field"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/67568897-37d6-40ca-8359-47675e74948e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Men's Restroom": {
+        "description": "The men's restroom off the main hallway: clean tiled stalls and urinals, a long row of sinks under a mirror wall, hand dryers, and fixtures built in several sizes like the rest of the building, for students of every build, including a wide stall and a high basin for the academy's larger students. Students duck in between periods; for a minute it is the one quiet place in the main building, where someone splashes water on his face before a test or mutters through a speech he means to give in class. The cleaning staff come through mid-morning and again after lunch, and it smells of citrus cleaner. A laminated notice by the mirror reminds everyone that Quirk use is not permitted here, which matters more than it sounds in a building full of fire, acid and explosions, and a second notice asks students with sharp parts to mind the hand dryers.",
+        "paths": [
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/caea9603-a073-4922-8b45-cf855e9f2f17.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Women's Restroom": {
+        "description": "The women's restroom off the main hallway: clean tiled stalls, a long counter of sinks under a mirror wall with a little shelf for bags, hand dryers, and fixtures built in several sizes like the rest of the building, for students of every build. Students duck in between periods to fix their hair or catch up for a minute out of the hallway's noise, and the mirror is where the day's news travels fastest: who got called to the Faculty Office, what Lunch Rush is serving, which teacher is in a mood. The cleaning staff come through mid-morning and again after lunch, and it smells of citrus cleaner and someone's hand cream. A laminated notice by the mirror reminds everyone that Quirk use is not permitted here, and someone has added a cartoon underneath it. Before lunch there is a short line; after the last period it is empty and echoing.",
+        "paths": [
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5afb64c6-ff61-4a18-90e4-61e35d332d62.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-A Men's Wing": {
+        "description": "The men's side of Class 1-A's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the men's rooms, a small sitting area by the elevator and a window at each end. Izuku Midoriya, Katsuki Bakugo, Shoto Todoroki, Tenya Iida, Eijiro Kirishima, Denki Kaminari, Fumikage Tokoyami, Mashirao Ojiro, Hanta Sero, Mezo Shoji, Rikido Sato, Koji Koda, Yuga Aoyama and Minoru Mineta live along these halls. Evenings are loud: Eijiro's door stands open, Denki's music leaks into the hall, Yuga's door glitters when it opens, and the smell of Rikido's baking drifts up from the kitchen. Katsuki's door is shut by nine, and anyone who forgets hears about it. Visiting is fine until curfew, and the house rule is to knock and wait for an answer. After lights-out the halls go quiet and footsteps carry. The hallways lead to every man's room on the side, to your own room if it is here, and down to the Class 1-A Dorm Lounge.",
+        "paths": [
+          "Class 1-A Dorm Lounge",
+          "Your Dorm Room",
+          "Izuku Midoriya's Room",
+          "Katsuki Bakugo's Room",
+          "Shoto Todoroki's Room",
+          "Tenya Iida's Room",
+          "Eijiro Kirishima's Room",
+          "Denki Kaminari's Room",
+          "Fumikage Tokoyami's Room",
+          "Mashirao Ojiro's Room",
+          "Hanta Sero's Room",
+          "Mezo Shoji's Room",
+          "Rikido Sato's Room",
+          "Koji Koda's Room",
+          "Yuga Aoyama's Room",
+          "Minoru Mineta's Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/32215a69-550f-4f5f-b1d2-86a78d6a2437.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-A Women's Wing": {
+        "description": "The women's side of Class 1-A's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the women's rooms, a small sitting area by the elevator with a potted plant, and a window at each end. Ochaco Uraraka, Momo Yaoyorozu, Tsuyu Asui, Kyoka Jiro, Mina Ashido and Toru Hagakure live along these halls. With only six of them on the side, the sitting area has become a shared living room: Mina and Toru hold court there in the evenings, Momo brings tea, and Kyoka's bass hums faintly through her wall when she thinks nobody is listening. The hall smells of shampoo and someone's sweet hand cream. Visiting is fine until curfew, and every door gets a knock before it gets opened. After lights-out the halls go quiet and footsteps carry. The hallways lead to each woman's room on the side, to your own room if it is here, and down to the Class 1-A Dorm Lounge.",
+        "paths": [
+          "Class 1-A Dorm Lounge",
+          "Your Dorm Room",
+          "Ochaco Uraraka's Room",
+          "Momo Yaoyorozu's Room",
+          "Tsuyu Asui's Room",
+          "Kyoka Jiro's Room",
+          "Mina Ashido's Room",
+          "Toru Hagakure's Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bf36dbbf-6984-461d-b991-c31c7d743652.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-A Men's Bath": {
+        "description": "The men's communal bath on the ground floor of Class 1-A's dorm: a changing room of cubbies and woven baskets, a row of wash stations with low stools, handheld showers and buckets, and a large tiled soaking tub big enough for the whole men's side. In the evening steam fogs the frosted windows and the talk is loud, echoing off the tile: training complaints, who scored what in the entrance exam, and whether Eijiro Kirishima can stay hardened underwater. Katsuki Bakugo comes in early, washes fast and leaves before the crowd. A solid wall separates it from the women's bath. Residents wash before they soak, nobody uses a Quirk in the water, and towels stay out of the tub. The air smells of hot water and cedar soap. The last one out turns off the lights. The only door leads back to the Class 1-A Dorm Lounge.",
+        "paths": [
+          "Class 1-A Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fc277dda-95e6-4f2f-aab3-91ac8b5261cc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-A Women's Bath": {
+        "description": "The women's communal bath on the ground floor of Class 1-A's dorm: a changing room of cubbies, woven baskets and a mirror counter with hair dryers, a row of wash stations with low stools and handheld showers, and a large tiled soaking tub under frosted windows. Evenings here are for long soaks and longer conversations: Mina Ashido and Toru Hagakure dig for gossip, Ochaco Uraraka admits how sore she is, Tsuyu Asui stays in the water longest, and the talk runs from training to home to which classmate has a crush on whom. A solid wall separates it from the men's bath. Residents wash before they soak and leave the hair dryers coiled for the next person. Steam smells of citrus shampoo, and the dryers roar for a while after everyone gets out. The only door leads back to the Class 1-A Dorm Lounge.",
+        "paths": [
+          "Class 1-A Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/adf93e46-3e00-4a23-b4f7-f39caf33a6d8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-A Laundry Room": {
+        "description": "The laundry room off Class 1-A's dorm lounge: a row of washers and dryers, folding tables, a deep sink for muddy training clothes and drying racks hung with gym uniforms and towels. Residents run loads in the evenings and on weekends, argue over whose socks were left in a drum, and fold while they talk. After an afternoon on the training grounds the sink fills with dust, scorched cuffs and worse, and the room smells of detergent and warm lint. Tenya Iida has already taped a load schedule to the wall; nobody follows it yet. Eijiro Kirishima's shredded shirts and Denki Kaminari's forgotten loads are the usual culprits, and Momo Yaoyorozu is still learning which dial does what. The dryers thump all evening, and the room is the warmest on the floor. The only door leads back to the Class 1-A Dorm Lounge.",
+        "paths": [
+          "Class 1-A Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9b2aee56-a445-45c9-bb25-8c86b2bed4bb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Your Dorm Room": {
+        "description": "The dorm room assigned to you in Heights Alliance: a standard single with about eight tatami mats of floor, a bed, a desk and chair, a closet, a small bookshelf, curtains and a door out to a narrow balcony that looks over the yard toward the forested hills. It started as bare walls and the smell of new carpet and fresh paint, and it becomes whatever its owner makes of it. Whatever you bring, hang or rearrange stays where you leave it: posters or none, a plant, a photo from home, gear piled in the corner. It is yours to make your own, and nobody comes in unless you let them; classmates knock and wait, and the walls are thin enough that a neighbor's laugh carries. The door opens onto your wing's hallway.",
+        "paths": [
+          "Class 1-A Men's Wing",
+          "Class 1-A Women's Wing",
+          "Class 1-B Men's Wing",
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d4a35f52-f7fe-455d-a39e-e64adf4738c5.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Izuku Midoriya's Room": {
+        "description": "Izuku Midoriya's dorm room on the men's side: every surface is All Might. Posters cover the walls, figures and collectible cards fill the shelves, All Might curtains frame the window, and an All Might clock ticks over a desk stacked with his numbered hero analysis notebooks, and more merchandise stored in boxes under the bed. A small row of weights sits under the bed. He is here late into the night, filling notebook pages on every Quirk he saw that day and muttering while he writes, and up early to work out. The room smells of pencil shavings and new vinyl figures. He is embarrassed by it and proud of it at the same time. Knock first: a knock sends him scrambling to cover the most embarrassing poster before he answers.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5a7b07be-0e0a-4179-8663-77cb4cdac9ed.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Katsuki Bakugo's Room": {
+        "description": "Katsuki Bakugo's dorm room on the men's side: plain, tidy and spare. A neatly made bed, a desk with study books squared at the edge, a few pieces of climbing and training gear and a dumbbell rack, and nothing on the walls worth asking about; his boxes were unpacked and flattened on the first night. He does homework here straight after dinner, finishes it properly, and lifts before bed. A faint, sweet, burnt-sugar smell hangs around his training gloves. He is in bed by nine and does not want visitors. Knock first, and expect to be told to get lost; walking in without knocking is a mistake nobody makes twice.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c27c40a-33bf-49c5-9890-81bec12391e8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Shoto Todoroki's Room": {
+        "description": "Shoto Todoroki's dorm room on the men's side, which he rebuilt on move-in day into a traditional Japanese room: tatami mats, sliding shoji screens, a low table, a floor cushion and a futon folded in the corner, with a plain hanging scroll and a simple flower arrangement. It reads as a room from an old Japanese house, not a dorm, and it is very quiet. He reads and studies at the low table in the evenings, alone by habit, and sleeps early. The room smells of fresh rush matting, and the shoji soften the light to a pale glow. Knock first; he slides the door open with a flat question and, if you have a reason to be there, lets you sit.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1ee459f2-334c-4940-9f58-25307cb3b816.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Tenya Iida's Room": {
+        "description": "Tenya Iida's dorm room on the men's side: orderly to the millimeter. Bookshelves of study guides and hero law, a desk with a schedule pinned square to the wall, a neatly made bed, a framed photo of his brother Ingenium, and a display shelf holding a long row of spare pairs of glasses. The window is opened for exactly ten minutes every morning. He studies here every evening, plans the floor's rotas nobody asked for, and rises before the rest of the floor. The room smells of floor polish and new paper. Knock first: he answers in full voice, chops the air as he greets you, and will remind you of the time before you ask.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/81dc8db3-a369-4c02-ab3f-b6476a36ab5e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Eijiro Kirishima's Room": {
+        "description": "Eijiro Kirishima's dorm room on the men's side, as manly as he could make it: a heavy punching bag hanging from the ceiling, a sandbag, dumbbells, a bold calligraphy banner about fighting spirit, and posters of the old hero Crimson Riot. He trains here before breakfast and after dinner, hardening his fists against the bag, and talks with anyone who wanders by. It smells faintly of liniment, and the thud of the bag carries down the hall. The door is usually open. Knock anyway, since that is the rule on every floor; he will shout for you to come in before your knuckles leave the frame and offer you a turn on the bag.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/db1aa5de-ff74-402d-a91d-95fe67bb2316.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Denki Kaminari's Room": {
+        "description": "Denki Kaminari's dorm room on the men's side: trendy and cluttered. Street-fashion posters, a dartboard, a skateboard against the wall, a speaker and game console under the television, string lights, and a little of everything he thought looked cool in the shop, half of it still in shopping bags. Something is always charging, and his phone, console and lights all crowd one power strip. He games here until his homework is due, then panics and asks the whole floor for help. Music thumps through the door most evenings. Knock first, and loud enough to be heard over the speaker; he answers with a peace sign.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e1023d2e-addf-49b9-949a-10e98cd599c4.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Fumikage Tokoyami's Room": {
+        "description": "Fumikage Tokoyami's dorm room on the men's side: dark by design. Black walls and curtains, deep red accents, gothic ornaments, a skull or two on the shelves, candles on the desk and blackout curtains that keep the balcony light out. He calls it a sanctum and hates when anyone else uses the word. Dark Shadow is stronger in here, and on evenings when he reads or meditates in near darkness it drifts across the ceiling and chatters at anyone who comes in. The air smells of candle wax, and the one lamp he allows has a red shade. Knock first and wait; he opens the door only partway, so the hall light does not spill in.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/69685bc2-90cf-4e81-a7ac-bcf98fb0ff3a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mashirao Ojiro's Room": {
+        "description": "Mashirao Ojiro's dorm room on the men's side: perfectly ordinary. A made bed, a desk, a small bookshelf, a poster of a martial-arts tournament and a training mat rolled by the wall, unrolled every morning for forms and tail drills before homeroom. He worries it is too plain to say anything about him, and a little harder training that evening usually follows the thought. In the evenings he studies quietly and gives sensible advice to whoever drops in. It smells of clean laundry and nothing else. Knock first; he answers politely and offers you the chair.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b0955690-dd6e-4fd4-ab8e-7e7991c8ae04.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hanta Sero's Room": {
+        "description": "Hanta Sero's dorm room on the men's side, decorated in a warm Asian style: woven rugs, carved wooden furniture, paper lanterns, hanging fabric and plants, more stylish than anyone expected. He likes to show it off and is good company in it, and most evenings a few classmates are sprawled on his rugs trading jokes over snacks while he plays host. The lanterns give the room a low, amber glow and a faint scent of sandalwood. He has already worked out where a tape line would anchor on the ceiling. Knock first; he answers with a grin, a nickname and an offer of the good cushion.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/170bc5e6-cead-40be-95e9-01e688035f12.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mezo Shoji's Room": {
+        "description": "Mezo Shoji's dorm room on the men's side: almost empty. A futon, a low table and very little else, with plenty of space for his arms. He likes it simple and does not explain it. He reads at the low table in the evenings and stretches all six arms before bed, and in the morning the futon is folded away before anyone else on the floor is up. The bare floor makes every footstep echo softly, and the room smells of clean straw matting. Knock first; when he is busy, an ear grows at the tip of one arm by the door to listen, and he answers in a few calm words.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/805652ca-bd97-4105-9eff-8df97f4d9c45.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Rikido Sato's Room": {
+        "description": "Rikido Sato's dorm room on the men's side: neat and homey, with a shelf of baking books, an apron on the hook and a cooling rack on the desk. It always smells of something sweet, because he bakes in the dorm kitchen and brings the results upstairs for anyone passing, chiffon cake most of all. He plans recipes here after training, copying them into a flour-dusted notebook, and keeps a tin of carefully measured sugar for his Quirk on the shelf. Evenings, his door is a stop on half the floor's walk to bed. Knock first; he usually opens the door holding a plate.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ca748aea-ed6c-4913-b03e-a6194f9b2a3b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Koji Koda's Room": {
+        "description": "Koji Koda's dorm room on the men's side: gentle and full of plants, with a cozy rug, small animal figurines and a pen for his pet rabbit, Yuwai, who has the run of the floor. Birds come to the balcony rail when he opens the door, and he talks to them softly in the mornings while scattering seed, then waters the plants before homeroom. It smells of hay and green leaves. Visitors close the door quickly behind them so Yuwai does not escape into the hall. Knock softly first; he answers with a nod and a small gesture to come in, and he speaks more easily if the rabbit likes you.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ddbb7ef2-8125-4273-a2ed-3039fdaa6e5e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Yuga Aoyama's Room": {
+        "description": "Yuga Aoyama's dorm room on the men's side: dazzling. Mirrors, a mirror ball, glittering fabrics, sparkle in every color and a vanity of hair products, all arranged to catch the light. Being in it is like standing inside a disco ball, which is the point. He practices his poses and his hair here every morning and evening, and he lights up when someone actually comes to visit. The air smells of hairspray and expensive cologne, and light dances across the ceiling whenever the door moves. Knock first; he will open it with a pose and a breathy merci, and quietly hope you stay a while.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/66efc029-f97a-4572-99e6-b3ee776bb87f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Minoru Mineta's Room": {
+        "description": "Minoru Mineta's dorm room on the men's side: cramped and cluttered, with a low bed, a game console and stacks of magazines and idol posters he insists are tasteful; the ones he knows are not stay rolled up and hidden under the bed, and he panics if anyone looks there. Spare purple balls from his Quirk sit stuck to a bowl by the door, and visitors watch where they step. He games here late and complains about homework to anyone who will listen. It smells of instant noodles and the plastic of a new console still half in its box. Knock first, and he will scramble to tidy before answering.",
+        "paths": [
+          "Class 1-A Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/106b6af7-fa5b-4f39-a4fa-4816e04da2f9.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Ochaco Uraraka's Room": {
+        "description": "Ochaco Uraraka's dorm room on the women's side: simple and frugal. A bed, a desk, a low table, and only a few decorations, because she sends what she can home to her parents. A framed family photo sits where she can see it from her pillow. She studies at the low table in the evenings, counts her yen for the week, and some nights calls home in a quiet voice. A small rice cooker sits on the shelf beside a box of mochi, and the room smells of plain steamed rice. A paper chart of the month's budget is taped inside the closet door. Knock first; she will answer with a bright smile, whatever kind of day it has been.",
+        "paths": [
+          "Class 1-A Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6117b62f-337c-4a3b-8da0-81c9513f1603.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Momo Yaoyorozu's Room": {
+        "description": "Momo Yaoyorozu's dorm room on the women's side, almost entirely taken up by the enormous canopy bed she had brought from home before she realized the room's size. Fine bedding, a few elegant books and a tea set are tucked into whatever space is left, and visitors end up sitting on the bed because there is nowhere else. She studies here late and makes tea for anyone who comes for help with homework. The room smells of good black tea, and the bed's canopy brushes the ceiling light. She is still a little embarrassed about the bed. Knock first; she answers formally, invites you in, and apologizes for the lack of chairs.",
+        "paths": [
+          "Class 1-A Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/efec159d-15ba-4380-8d01-54e4e3cf5444.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Tsuyu Asui's Room": {
+        "description": "Tsuyu Asui's dorm room on the women's side: calm and Japanese in style, with tatami, a low table, a few frog plushies and green cushions, and a small humidifier to keep the air the way she likes it. A shallow stone basin of water with floating leaves sits by the window, a tiny pond of her own. The room has the feel of a family home. She writes to her family and does homework here in the evenings, and she is up early. The air is soft and damp, with the smell of wet leaves. Knock first; she will tell you plainly if it is a bad time, and offer you a cushion if it is not.",
+        "paths": [
+          "Class 1-A Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/940b9d31-7a54-4bf4-9c6f-d38cc3f58663.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kyoka Jiro's Room": {
+        "description": "Kyoka Jiro's dorm room on the women's side: a musician's room. Guitars and a bass on wall stands, a drum pad, keyboard, amplifiers, speakers and a shelf of records and CDs. She shrugs it off as nothing special and lights up when someone notices. She plays here after dinner with the volume low, earphone jacks plugged into the amp, and goes red if she catches anyone listening at the door. The room smells of old record sleeves and warm amplifier dust, and a pick or two always turns up on the carpet. Knock first; she usually heard you coming down the hall already.",
+        "paths": [
+          "Class 1-A Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/88d4073a-e7a2-4cab-b1e2-9d878102d882.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Mina Ashido's Room": {
+        "description": "Mina Ashido's dorm room on the women's side: bright pink and purple, stylish and fun, with fashion posters, a big mirror, fairy lights and an overflowing closet. Music is usually playing and the door is usually open for whoever wants to talk. She practices breakdancing on a clear patch of floor every evening, puts off homework until it is due, and hosts whatever gathering the women's side is having tonight. The room smells of fruity body spray, and her scuffed dance sneakers sit by the door next to a pile of fashion magazines. Knock first anyway; she will drag you in and ask who you like.",
+        "paths": [
+          "Class 1-A Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c7cadac4-18e9-4bae-ba06-2f73a6b2a1ec.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Toru Hagakure's Room": {
+        "description": "Toru Hagakure's dorm room on the women's side: cute and bright, with pastel bedding, plush toys, a vanity and rows of clothes and accessories that only show what she looks like when she is wearing them. She tries on outfits here every evening and asks visitors to describe how they look on her. A floating sweater is often the first thing you see when the door opens. The room smells of sweet perfume, and a tall mirror stands ready so her outfits can at least see themselves. Knock first and say your name; she likes to know who is there before she bounces up to answer.",
+        "paths": [
+          "Class 1-A Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/09a79dd0-1a2d-4d64-9a1d-ad5d30bf2c4f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Teachers' Lounge": {
+        "description": "The faculty's break room beside the Faculty Office, where U.A.'s teachers go to get away from students: worn leather sofas, a long table buried in papers to grade, and a kitchenette where Principal Nezu's fine tea set sits next to the coffee machine Present Mic insists is his. Shota Aizawa's sleeping bag lies in the corner for naps between classes, Midnight's fashion magazines cover the side table, Cementoss keeps a bowl of sweets on the counter, and Lunch Rush leaves labeled leftovers in the fridge for whoever missed lunch. Teachers argue training plans and swap news here, from agency gossip to which first-years have already shown promise; Snipe and Ectoplasm trade notes over coffee, and Vlad King and Aizawa compare their classes. All Might draws a crowd whenever he stops in, though he rarely stays long. Students knock and wait at the door, and nobody inside hurries to answer.",
+        "paths": [
+          "Main Building Hallway",
+          "Faculty Office"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/a89501bd-f33b-4a99-8d2c-91b2b61708a8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Support Course Classrooms": {
+        "description": "The Support Course's first-year classrooms, 1-F to 1-H, on the main building's workshop side: desks with drafting lamps, whiteboards of schematics, parts bins, 3D printers humming along the back wall and a door straight through to Power Loader's Development Studio. Mornings bring the same standard lectures as every course, plus materials science, drafting and design theory; in the afternoons the desks clear and the work moves next door. Something is always half built, something is usually smoking, and the students would rather show you an invention than talk about the weather. Mei Hatsume's desk in 1-H is buried under prototypes she has no intention of tidying, and her classmates have learned to keep their own projects at arm's length from it. Visitors from the Hero Course are treated as walking test cases and asked to try something on. It smells of warm plastic and machine oil, and the printers never quite stop.",
+        "paths": [
+          "Main Building Hallway",
+          "Development Studio"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/16f84800-63ac-47c8-ad02-0dec8f9161cc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Faculty Residence": {
+        "description": "The staff housing at a quiet edge of the campus: a modern low-rise of small apartments with a shared entrance, mailboxes, a little garden and a parking area, for the teachers who live on site and are on call around the clock. New teachers are given a unit here on arrival. It is close enough to Heights Alliance to reach the dorms in minutes, and far enough that students rarely wander over; a path also leads back to the Courtyard. Lights come on late, after grading and the rounds the faculty walk at Heights Alliance after dark, and a teacher back from night patrol work can come through the shared entrance in the small hours, still in costume. Mornings are a quiet procession of teachers with coffee heading for the Faculty Office. The garden is better kept than anyone admits to tending, and a student who turns up at the shared entrance had better have a good reason.",
+        "paths": [
+          "Courtyard",
+          "Heights Alliance Yard"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7af28f96-541b-4758-881f-5e0b3e123b6e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Main Building Rooftop": {
+        "description": "The flat rooftop of U.A.'s main building: safety railings, water tanks, humming air-conditioning units, a few benches and a wide view over the campus, the forested foothills, the city spread below and Mount Fuji to the west. Students come up at lunch for quiet, private talks and the wind, eating from bento boxes on the benches or sitting with their backs against the tanks; in April the breeze carries cherry petals up from the Courtyard. It is where classmates go to say what they cannot say in a crowded hallway, and where someone sulking after a bad morning is easiest to find. Teachers clear it after dark, and the railings are the one rule nobody tests. The door from the stairwell sticks and slams, so everyone on the roof knows the moment someone else arrives.",
+        "paths": [
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d25e5896-3cc4-4226-bf1a-347274738fc1.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-B Men's Wing": {
+        "description": "The men's side of Class 1-B's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the men's rooms, each with a name card slid into a holder, a small sitting area by the elevator with two worn armchairs, and a window at each end looking out over the forested hills. Neito Monoma, Tetsutetsu Tetsutetsu, Juzo Honenuki, Togaru Kamakiri, Hiryu Rin, Jurota Shishida, Yosetsu Awase, Sen Kaibara, Shihai Kuroiro, Kojiro Bondo, Kosei Tsuburaba, Nirengeki Shoda and Manga Fukidashi live along these halls. In the evenings the halls fill with doors left open, music leaking from Tetsutetsu's room and somebody shouting down the corridor to borrow a phone charger. Visiting is fine until curfew, and the house rule is the same at every door: knock first. After lights-out the halls go quiet, faculty rounds pass through after dark, and footsteps carry. The stairs and elevator lead back down to the lounge.",
+        "paths": [
+          "Class 1-B Dorm Lounge",
+          "Your Dorm Room",
+          "Neito Monoma's Room",
+          "Tetsutetsu Tetsutetsu's Room",
+          "Juzo Honenuki's Room",
+          "Togaru Kamakiri's Room",
+          "Hiryu Rin's Room",
+          "Jurota Shishida's Room",
+          "Yosetsu Awase's Room",
+          "Sen Kaibara's Room",
+          "Shihai Kuroiro's Room",
+          "Kojiro Bondo's Room",
+          "Kosei Tsuburaba's Room",
+          "Nirengeki Shoda's Room",
+          "Manga Fukidashi's Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e463408b-4bc2-4b36-a420-014f2565961f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-B Women's Wing": {
+        "description": "The women's side of Class 1-B's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the women's rooms, a name card in a holder on each, a sitting area by the elevator with a low table and a basket of shared magazines, and a window at each end looking out over the trees. Itsuka Kendo, Ibara Shiozaki, Setsuna Tokage, Pony Tsunotori, Yui Kodai, Kinoko Komori and Reiko Yanagi live along these halls. With seven of them it is the smaller, closer wing: doors stand open in the evening, Tokage's voice carries the length of the corridor, someone is always borrowing a hair dryer, and the faint earthy smell of Komori's humidifier drifts from her end of the hall. Visiting is fine until curfew, and every door follows the house rule: knock first and wait for an answer. After lights-out the halls go quiet, faculty rounds pass through after dark, and footsteps carry. The stairs and elevator lead back down to the lounge.",
+        "paths": [
+          "Class 1-B Dorm Lounge",
+          "Your Dorm Room",
+          "Itsuka Kendo's Room",
+          "Ibara Shiozaki's Room",
+          "Setsuna Tokage's Room",
+          "Pony Tsunotori's Room",
+          "Yui Kodai's Room",
+          "Kinoko Komori's Room",
+          "Reiko Yanagi's Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2776010d-0a60-44e2-b0eb-f667d1fd5e91.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-B Men's Bath": {
+        "description": "The men's communal bath on the ground floor of Class 1-B's dorm: a changing room of cubbies and woven baskets, a row of wash stations with low stools, handheld showers and buckets, and a large tiled soaking tub under a steamed-up window. Residents wash before they soak, rinse their stool when they leave and keep towels out of the water, and nobody uses a Quirk in here. Evenings are loud with arguments about beating 1-A: Tetsutetsu Tetsutetsu declares it in the tub, Neito Monoma lays out how in the next breath, and Sen Kaibara answers both with one dry line. Jurota Shishida takes the end station and the longest time, since all that fur needs washing and drying, and Kojiro Bondo waits politely for the tub to thin out before he climbs in. The air smells of hot cedar and shampoo, and the drain gurgles under the slatted floor. A solid wall separates it from the women's bath. The only door leads back to the lounge.",
+        "paths": [
+          "Class 1-B Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c07206d2-4b57-4bd7-9929-2767f2ec6bf2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-B Women's Bath": {
+        "description": "The women's communal bath on the ground floor of Class 1-B's dorm: a changing room of cubbies and a mirror counter with hair dryers, a row of wash stations with low stools and handheld showers, and a large tiled soaking tub under frosted windows. Residents wash before they soak, keep hair and towels out of the water and leave the stools rinsed, and nobody uses a Quirk in here. Evenings are the busy time, when the soak becomes the place to talk over the day's training and whatever Monoma did now; Setsuna Tokage keeps the conversation running, Itsuka Kendo settles who goes first at the mirror, and Ibara Shiozaki's vines take the longest to dry, so she has a dryer of her own by unspoken agreement. Steam fogs the mirrors and the air smells of citrus soap and warm tile. A solid wall separates it from the men's bath. The only door leads back to the lounge.",
+        "paths": [
+          "Class 1-B Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/042c96bd-de4c-4202-90e5-8b6eadfc3d01.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Class 1-B Laundry Room": {
+        "description": "The laundry room off Class 1-B's dorm lounge: a bank of washers and dryers, two folding tables, a deep sink for scrubbing mud and sweat out of training clothes, and racks hung with gym uniforms and towels. Itsuka Kendo keeps a sign-up rota on the door, and it actually works: names in pencil, one slot each, finished loads out of the drum within the hour or they go into the overflow basket. Tetsutetsu Tetsutetsu's sweat towels fill more than their share of the racks, Kojiro Bondo leaves a polite note when he has borrowed the last of the detergent, and torn hero costumes do not go in the machines at all, since repairs go through the Support Course. After afternoon training the room runs flat out; late in the evening it is the quietest place on the ground floor, with the dryers humming and the warm smell of clean cotton. The only door leads back to the lounge.",
+        "paths": [
+          "Class 1-B Dorm Lounge"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/777ec442-b5e6-48ae-8249-de16ac39f7cc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Neito Monoma's Room": {
+        "description": "Neito Monoma's dorm room on the men's side: elegant and a little theatrical, with a polished wooden desk, a chess set mid-game, a velvet armchair and a framed class photo of 1-B on the wall. Pinned beside it is a tidy list of Class 1-A's names with notes under each one, half of them still blank, which he calls research. His books live in boxes under the bed, because the room has to look right first. He plans here in the evenings, playing both sides of the chess game, and rehearses his remarks for the class next door aloud. The air smells of furniture polish. House rule: knock first; he answers with the ceremony of a prince receiving a visitor.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/578de83e-471a-41ae-86b8-af6df385e3dc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Tetsutetsu Tetsutetsu's Room": {
+        "description": "Tetsutetsu Tetsutetsu's dorm room on the men's side: loud and manly, all steel gray and red. Dumbbells and a weight bench, a punching bag hung from a bracket he installed on day one, a bold banner about guts and never backing down, and sweat towels drying on every hook, with clothes heaped by the closet. He trains here before breakfast and after dinner, counting reps at full volume and testing his steel skin against the bag with a clang that rings down the hall. The door is open and the music is too loud. House rule still applies: knock first, even on the open door frame.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2e7a664a-7c2e-49a2-a929-f5ce4b551560.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Juzo Honenuki's Room": {
+        "description": "Juzo Honenuki's dorm room on the men's side: calm and soft in earth tones, with a deep beanbag, a thick rug, a low futon, houseplants and a shelf of mystery novels. Everything in it is comfortable to sink into, which suits him. He keeps the room spare and is in no hurry to fill it. In the evenings he reads with his feet up, sometimes guessing the culprit aloud, and talks through tomorrow's training plans with whoever drops by in the same unhurried voice. The room smells of potting soil and green tea. The house rule is to knock first, and he answers with a relaxed come in.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/374d9a64-4b47-4917-b02f-f8d516ce5bab.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Togaru Kamakiri's Room": {
+        "description": "Togaru Kamakiri's dorm room on the men's side: sharp and spare, with angular black furniture, a carefully trimmed bonsai on the windowsill and a glass case of insect specimens, mantises at the center. A wooden practice post in the corner is scored with shallow, precise nicks where he drills stopping a blade a hair short of the wood. He keeps the curtains half drawn and does not like visitors touching anything. He trains here at night and trims the bonsai in the morning with the same narrow focus. It smells faintly of cut pine. The house rule is to knock first, and he expects it.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/64f2184b-97b6-42d7-91e8-1bc085619c66.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hiryu Rin's Room": {
+        "description": "Hiryu Rin's dorm room on the men's side: a martial artist's room with a wooden training dummy, a rolled floor mat, Chinese calligraphy scrolls on the wall, a tea set on a low table and a few kung-fu film posters. It is neat, quiet and smells of jasmine tea. He was unpacked by the second evening. Every morning before breakfast he unrolls the mat and runs his kung-fu forms slowly and properly, and at night the knock of palm on wood from the dummy is the only sound from his door. He pours tea for a guest without asking. House rule: knock first, and he will answer in one word.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bbc70e71-049c-4c6f-945f-038d590f5f37.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Jurota Shishida's Room": {
+        "description": "Jurota Shishida's dorm room on the men's side: a gentleman's study with tall bookshelves of classics, a record player and a stack of classical records, a large reading armchair with a lamp, and a careful row of grooming brushes for his fur. He has unpacked everything already, alphabetized. Each evening he reads with a record turning low, and each morning he brushes out his mane before a mirror with real seriousness, apologizing to anyone who has to wait. A faint scent of cedar and grooming oil hangs in the air. He offers visitors tea. House rule: knock first; he always answers formally.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ac2ae9f0-3e45-4fae-914e-82c4fc020377.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Yosetsu Awase's Room": {
+        "description": "Yosetsu Awase's dorm room on the men's side: a builder's room with a workbench of model kits and small tools, a welded metal sculpture made from scrap on the shelf, and a beanbag in front of a game console. He is always halfway through fixing something: a classmate's lamp, a drawer runner, a chair he found in the yard. His welds are seamless, joined by touch, and the room smells faintly of metal and machine oil. Upturned crates double as side tables. In the evenings he games with whoever drops in, a project in his lap between rounds. House rule: knock first, then mind the parts on the floor.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e24531e9-3658-41a9-8f28-26ca91e86e79.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Sen Kaibara's Room": {
+        "description": "Sen Kaibara's dorm room on the men's side: laid-back, with a turntable, a coiled hanging lamp, a rack of sneakers, a basketball and posters of street dancers. He likes things that spin and rooms where friends drop in and stay. A strip of floor stays clear for his drills, slow forearm rotations and short twisting punches in front of the closet mirror, worked through without his Quirk until the motion is clean. Evenings, a record turns and a few classmates sprawl on the floor while he spins the basketball on one finger and adds a flat remark now and then. The room smells of new rubber and sneaker cleaner. House rule: knock first.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ec39a4dc-2c6d-4571-a9a8-e630cea2169f.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Shihai Kuroiro's Room": {
+        "description": "Shihai Kuroiro's dorm room on the men's side: everything is black, the walls, the bedding, the furniture and the blackout curtains, with shelves of horror manga and a single dim lamp. He covered the walls in black fabric on move-in day and keeps everything else in plain black storage bins. In the dark he is very hard to find in it, and he likes that: he reads in the gloom, practices slipping into the black surfaces, and greets visitors from somewhere they did not expect, in his most ominous voice. The air smells of new fabric and ink. House rule: knock first, and wait, because he may need a moment to come out of the wall.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3e4ff4cc-e46d-4710-afa1-dc5846a9cfbc.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kojiro Bondo's Room": {
+        "description": "Kojiro Bondo's dorm room on the men's side: a crafter's room, with shelves of finished model kits, jars of glue and paint, a desk under a magnifying lamp and a corkboard of plans. Polite to the core, he keeps everything labeled and asks visitors to mind the drying parts. His big hands work with surprising care over the tiny pieces in the evenings, and he moves through his own room sideways so nothing gets knocked. Every storage box on his shelves is labeled. It smells of paint and model cement, the window cracked for air. House rule: knock first; he answers softly, a little surprised anyone came.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e665f3b7-4ac5-443c-a13a-7912084d4ab3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kosei Tsuburaba's Room": {
+        "description": "Kosei Tsuburaba's dorm room on the men's side: airy and open, with the window always cracked, wind chimes on the balcony, an air purifier humming, a few plants and very little furniture. The whole room is built around the air in it. He trains his breath here every morning, long inhales timed on his phone and air walls hardened over the desk to test how long they hold, and talks through the whole session to whoever is listening. He owns little and calls it his minimalist look. The chimes ring with every breeze. House rule: knock first, and he will have a story ready.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa63fc26-cbcf-426a-ba45-ea567712ea27.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Nirengeki Shoda's Room": {
+        "description": "Nirengeki Shoda's dorm room on the men's side: serious and orderly, with a neat desk of study books, a pair of focus mitts and a heavy bag in the corner, and a small shelf of strategy books. He keeps a training log open on the desk, written in small, careful handwriting. He finished unpacking the first night and folded the boxes flat. In the evenings he studies, then works the bag quietly, one strike and a pause, practicing the timing of his second impact. The room smells of fresh paper and tatami. House rule: knock first; he answers politely and offers the only chair.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e07d2dbd-c1d4-4b7d-9e3a-b5c01bbc9b67.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Manga Fukidashi's Room": {
+        "description": "Manga Fukidashi's dorm room on the men's side: floor-to-ceiling shelves of manga volumes, a drawing desk with pens and inked pages, and walls covered in comic panels and speech-bubble posters. His shelves of manga volumes are always being re-sorted. He narrates his own day out loud in sound effects, but in here he keeps them to a murmur so none of them turn solid and knock the shelves over. He draws in the evenings, the scratch of pen nibs and the smell of fresh ink filling the room, and acts out his replies with his whole body. House rule: knock first; the answer will be a cheerful sound effect.",
+        "paths": [
+          "Class 1-B Men's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2398443f-01f3-4d21-96c2-d4cf195c70d4.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Itsuka Kendo's Room": {
+        "description": "Itsuka Kendo's dorm room on the women's side: tidy and welcoming, the room of the class's big sister, with martial-arts trophies on a shelf, a pair of training mitts, a big drawer of snacks to share and a low table where classmates come to talk things out. She unpacked in an afternoon and spent the next one helping others do the same. She stretches and runs her martial-arts forms here each morning, and in the evenings the low table holds whoever is homesick, stuck or annoyed with Monoma. The room smells of green tea and rice crackers. House rule: knock first; she always answers, and usually puts the kettle on.",
+        "paths": [
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8c7dbf21-b509-4fea-9c10-97c0359bd000.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Ibara Shiozaki's Room": {
+        "description": "Ibara Shiozaki's dorm room on the women's side: green and peaceful, with vines and potted plants climbing the walls and windowsill, fresh flowers, a small corner for quiet prayer with a candle, and soft light through the curtains. She tends the plants every morning and prays at dawn and before sleep, lighting the candle only while she prays. Her few belongings are already put away with care. Visitors are welcome, but quietly; she speaks softly and asks the same of guests. The room smells of damp leaves and flowers. House rule: knock first, gently, and wait if she is at prayer.",
+        "paths": [
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df005312-f77c-4e7a-bd07-04bd9a0b0202.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Setsuna Tokage's Room": {
+        "description": "Setsuna Tokage's dorm room on the women's side: bright and lively, with fashion posters, a messy vanity, colorful cushions and a terrarium of small lizards by the window. Something is always out of place and she likes it that way. Things lie half put away everywhere, because she keeps starting something new mid-sentence. She talks to the lizards when nobody else is around and to everyone else the rest of the time, and evenings bring classmates to the cushions to hear her opinions on everything. The terrarium heat lamp keeps one corner warm. House rule: knock first, and expect to be talked at before you are in.",
+        "paths": [
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8b48f6b5-28b3-496c-874e-981240e3385d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Pony Tsunotori's Room": {
+        "description": "Pony Tsunotori's dorm room on the women's side: a little piece of America, with horse posters, a pair of cowboy boots by the door, a patchwork quilt, English-language books and photos of home, and a Japanese phrasebook full of notes. She has hung the ceiling lamp higher so her horns clear it, and her hooves click on the wooden floor as she moves. Evenings, she studies Japanese at the desk, reading phrases aloud and laughing when an idiom turns out not to mean what it says, and calls home late. Her storage boxes are labeled in English. House rule: knock first; she answers with a bright hello in English.",
+        "paths": [
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/41fac5e2-7c8a-4feb-8c97-31113677177b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Yui Kodai's Room": {
+        "description": "Yui Kodai's dorm room on the women's side: quiet and neat, with very little furniture and a glass shelf of carefully arranged miniatures, tiny furniture and models she can resize. She speaks little and the room says a lot. Everything was in place by the end of move-in day, each item squared to the edge of its shelf. She reads at the desk in the evenings and picks out the few small objects she will carry tomorrow, lining them up by the door. The room is so silent the clock is the loudest thing in it. House rule: knock first; she opens the door and nods.",
+        "paths": [
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/835db2c8-7b0c-4b19-a8ca-45fd386a6c66.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kinoko Komori's Room": {
+        "description": "Kinoko Komori's dorm room on the women's side: cozy and slightly damp, with a humidifier, mushroom plushies and mushroom lamps, a moss terrarium and soft pastel bedding. It smells of earth after rain. The humidifier runs day and night, because she likes the air the way her spores like it, and she checks the moss before class each morning. Storage boxes line the wall with a plushie perched on each. Evenings, she chats with whoever drops in, a mushroom pun in every other sentence. House rule: knock first, and do not leave the door open, because she has the humidity just right.",
+        "paths": [
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6cb36d0b-798e-46e4-93b5-7cd19515ff63.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Reiko Yanagi's Room": {
+        "description": "Reiko Yanagi's dorm room on the women's side: spooky but cute, with dark drapes, candles, a shelf of ghost stories and horror novels, and pale paper lanterns. It is very quiet and things in it occasionally float, which is only her Quirk at work when she cannot be bothered to stand up. She reads ghost stories late into the evening and offers to lend one to anyone who looks curious. The candles stay unlit for safety; the lanterns give the room its pale glow. The air smells of old paper and dried lavender. House rule: knock first; the door may open on its own.",
+        "paths": [
+          "Class 1-B Women's Wing"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed5e23c6-8738-4f4b-a119-a841ce2c534a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Indoor Pool": {
+        "description": "U.A.'s indoor pool, in a long glass-roofed hall beside the Athletics Field: an eight-lane, fifty-meter pool, a diving well with a ten-meter platform, a shallow teaching pool, changing rooms at the entrance and spectator benches along the glass. The deep lanes carry a current generator and anchor points for flood-rescue drills, and the fittings are built to survive Quirks that churn, freeze or boil water. The swimming club trains here before homeroom. By day, P.E. classes swim timed laps in academy swimsuits, and Hero Course classes book afternoon blocks for water rescue: treading water in clothes and towing a limp partner, with Quirk use only under a teacher's eye. After classes, students may swim with a teacher's signature from the Faculty Office, and the pool closes at five sharp, a rule Tenya Iida looks ready to enforce with a whistle. Tsuyu Asui heads for the deepest lane and stays under long enough to alarm anyone who has not met her. The air is warm with chlorine, every splash echoes off the glass, and wet footprints lead out to the Athletics Field and along the covered walkway to the Main Gymnasium.",
+        "paths": [
+          "Athletics Field",
+          "Main Gymnasium"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7ad729e0-1587-4281-9a7c-57e2bb168bbb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Campus Store": {
+        "description": "A narrow, crowded shop on the ground floor of the main building, between the lobby and the cafeteria doors: shelves of notebooks, pens and calculators, racks of spare uniforms and gym clothes in every cut the academy needs, from extra-long sleeves to tail-slit trousers, a cooler of drinks and rice balls, a bread rack and a case of U.A. crest goods. Prices are student prices: a notebook about 150 yen, a rice ball 150, a crest towel 1,200, a replacement blazer by order. It opens before homeroom for forgotten pens, does its biggest trade in the minutes after the 12:30 bell, when whoever lost the race to Lunch Rush's line buys bread instead, and closes at six. Support students order solder and safety goggles here, and Hero Course first-years buy athletic tape by the roll. The two clerks keep a lost-and-found box behind the counter. The newest shelf, a short row of All Might notebooks and towels, empties within a day of every delivery, and the clerks have stopped apologizing. The door chime rings every few seconds at lunch, and the shop smells of new paper and warm melon bread. Doors open onto the Main Building Lobby and the cafeteria.",
+        "paths": [
+          "Main Building Lobby",
+          "Lunch Rush's Cafeteria"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b82ff027-e009-4851-942f-6d5eef4eaf61.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Main Gymnasium": {
+        "description": "The academy's main gymnasium, a high-roofed hall beside the Athletics Field, separate from Cementoss's concrete Gym Gamma: a sprung wooden floor painted with basketball, volleyball and badminton lines, folding bleachers along both walls, a stage at the far end under a great U.A. crest, climbing ropes, stacked mats and a storeroom of balls and nets. The roof is high enough for fliers, and the walls are padded well above head height. P.E. classes from every course move in here when it rains, and after classes the basketball, volleyball and badminton clubs share the floor until seven, split by a mesh curtain and a schedule taped by the door. It is also the assembly hall, where the whole school gathers for the entrance ceremony each April and for assemblies through the year. Quirk use is barred unless a teacher runs the session, and only clean gym shoes touch the wood. Sneakers squeak, a ball hammers the boards at almost any hour, and the hall smells of varnish and warm dust. A covered walkway leads to the main building's hallway, and side doors open onto the Athletics Field and the Indoor Pool.",
+        "paths": [
+          "Athletics Field",
+          "Main Building Hallway",
+          "Indoor Pool"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2550f6c4-7b13-4e2e-835c-4a2dc0f9509c.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Lecture Hall": {
+        "description": "A tiered lecture hall off the main building's ground floor, between the lobby and the long hallway: about three hundred seats in curved rows climbing to the back, fold-down desks, wider seats and aisles at the end of every row for students of unusual size, a long demonstration bench at the front, twin screens and ceiling microphones. It holds what one classroom cannot: hero law and Quirk regulation for both Hero Course classes together, safety and evacuation briefings for each year group, guest talks from detectives and visiting pros, and written exams at the end of term, with a seat left empty between candidates. Present Mic opens combined lectures with a full radio intro and carries on cheerfully when nobody joins his call-and-response. The back rows fill first, the front row stays empty until a teacher points at it, and a sign by the door asks for phones off and Quirks off. Management students borrow it in the evenings for mock press conferences. The air conditioning hums, fold-down desks clack like applause at every bell, and light slants across the rows from high windows. Doors lead back to the lobby and the hallway.",
+        "paths": [
+          "Main Building Lobby",
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/425f19af-df8a-44a8-92e5-7bb39f82d4af.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Science Labs": {
+        "description": "A run of three laboratories along an upper corridor of the main building, chemistry, physics and biology, sharing a locked prep room: black-topped benches with gas taps and deep sinks, fume hoods along the windows, reagent cabinets, anatomy charts, and a sealed measurement room with force plates and heat sensors for testing what a Quirk actually does. Every course takes its required sciences here in the mornings: General Studies its full load, the Hero Course the chemistry and anatomy behind rescue and first aid, the Support Course materials testing. Lab technicians set out the equipment and lock up at five; after that, a student needs a teacher's booking. Momo Yaoyorozu stays after lectures whenever she can, since her Quirk makes only what she understands down to the molecule. The rules are posted at every bench: goggles on, hair tied back, nothing leaves the lab, and no Quirk use outside the measurement room. Every bench has a fire blanket, and the tiles by the hoods carry scorch marks nobody admits to. The labs smell of ethanol, gas and old rubber tubing, and the corridor leads back to the Main Building Hallway.",
+        "paths": [
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cd418fec-5cc5-43fb-a103-d41cda5bba9e.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Music Room": {
+        "description": "A soundproofed music room at the quiet end of an upper floor of the main building: a grand piano by the windows, tiered risers for a choir, shelves of scores, a wall rack of academy instruments from violins to a tuba, a drum kit and amplifiers in a padded corner, and two small practice booths with heavy sealed doors. General Studies classes take their arts elective here in the mornings, and the afternoons are usually silent. After classes the light music club and the choir split it on a booking sheet by the door until seven; on weekends it opens only for a booking. The walls are doubled and lined, built so that a voice Quirk or an amplifier at full volume barely reaches the corridor, and a sign asks students with sound Quirks to use the booths with the doors shut. Kyoka Jiro of 1-A found the drum booth in her first week and would like nobody to mention it. Students who cannot play still come up at lunch to sit at the piano and pick out one-finger tunes. The door seals with a soft thump, the room smells of wood polish and rosin, and a slightly fast metronome ticks on the piano lid. The only way out is the Main Building Hallway.",
+        "paths": [
+          "Main Building Hallway"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df306087-a251-4fe2-92bf-70debaf7dc32.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Upper-Year Classrooms": {
+        "description": "The second- and third-year homerooms on the main building's upper floors, up the lobby elevators and the main stairs: the same towering doors and wide corridors as the first-year rooms, marked 2-A to 2-K and 3-A to 3-K, but quieter and more worn in, with corridor boards full of work-study rosters, provisional license reminders and agency notices. Most upper-year Hero Course students already hold provisional licenses, and on any weekday a few desks in each Hero Course room stand empty while their owners work at agencies. Class 3-A is home to the Big Three: Mirio Togata, who works with Sir Nighteye, Tamaki Amajiki with Fat Gum and Nejire Hado with Ryukyu; when all three are in, the corridor knows it. Support third-years carry portfolios to company interviews. First-years are not barred, but one who wanders up without business is questioned kindly and thoroughly: Nejire Hado wants to know everything about them, Mirio Togata tries a pun, and Tamaki Amajiki finds a wall to face. Instant coffee and toner hang in the air, an exam countdown is chalked on a board, and the stairs lead back down to the Main Building Hallway and the lobby.",
+        "paths": [
+          "Main Building Hallway",
+          "Main Building Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c89eded-ab6b-45c9-af71-edda7b8595b3.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Campus Bus Terminal": {
+        "description": "U.A.'s bus depot, just inside the Main Gate to one side of the drive: a long steel canopy over white campus buses parked nose-in, the crest on every flank, a wash bay, fuel pumps, a dispatch office with a wall board of the day's training-ground bookings, and a bench where drivers drink canned coffee between runs. Some buses have forward-facing rows; others have side-facing benches that defeat any seating plan by student number. After lunch the fleet rolls up to the Courtyard bay to collect classes in costume for Training Ground Gamma about a kilometer west, Ground Beta a kilometer and a half northwest, the stadium to the east and the USJ, ten minutes up the hill road, and brings them back before evening, dusty, soaked or scorched. Chartered coaches for off-campus trips load here and are checked through the gate. Every bus carries a first-aid kit and a radio to the Faculty Office. A hand-lettered sign at each door asks for wings folded, tails in and Quirks off on board. The canopy smells of diesel and warm rubber, and the dispatcher's radio never quite goes quiet. The Main Gate is steps away; the drive climbs to the Courtyard.",
+        "paths": [
+          "Main Gate",
+          "Courtyard"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/205325ab-5f31-4612-98e4-4cc1b8092085.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "U.A. Academy"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6afde8ea-b6eb-4bc8-bb43-6753a5aa4be0.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

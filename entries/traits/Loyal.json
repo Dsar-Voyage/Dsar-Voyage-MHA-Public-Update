@@ -1,0 +1,20 @@
+{
+  "Loyal": {
+    "name": "Loyal",
+    "description": "🫂 You stand by your people. When a friend or partner is in trouble, you are already moving.\n\n🤝 You cover a partner's blind side, and partners fight better beside you.\n⚠️ You follow friends into bad decisions, even when the friend is wrong.\n⚠️ Enemies can reach you through the people you care about, and betrayal takes a long time to forgive.\n\n📈 Grants: Team Coordination +5",
+    "traitNarrativeEffects": "The character keeps faith with friends, partners and teams: they cover a partner's blind side, keep secrets, answer when called and defend their people in public. Partners fight better beside them. Weakness: they follow friends into bad decisions and struggle to see their friends' faults. A friend's request can override their own judgment, and enemies can reach them through the people they care about. Betrayal hits hard and takes a long time to forgive. The narrator shows a friend's pull on them; where their loyalty ends, and whether they forgive, is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

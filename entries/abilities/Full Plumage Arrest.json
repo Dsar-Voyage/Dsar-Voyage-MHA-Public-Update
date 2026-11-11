@@ -1,0 +1,25 @@
+{
+  "Full Plumage Arrest": {
+    "name": "Full Plumage Arrest",
+    "description": "The user deploys nearly every feather across fifty meters, pinning up to six people's loose clothing to nearby walls until the end of the user's next turn. The user avoids flesh and leaves breathing clear; targets can tear free, fire destroys the pins, and the user cannot fly until enough feathers return. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

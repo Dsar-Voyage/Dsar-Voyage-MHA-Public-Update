@@ -1,0 +1,20 @@
+{
+  "Facade Sprint": {
+    "name": "Facade Sprint",
+    "description": "The user hits a building face at full speed and runs straight up it on engine thrust to a rooftop or a high window, or clears a street-wide gap from a running start. They can carry a single passenger, and if they lose their footing the engines slow their fall into a safe landing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

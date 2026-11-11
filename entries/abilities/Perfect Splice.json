@@ -1,0 +1,24 @@
+{
+  "Perfect Splice": {
+    "name": "Perfect Splice",
+    "description": "The user runs a pair of copied Quirks at once and splices them into a single effect neither owner can make: flame carried on a gale, a wall of ice thrown up by water pressure, hardened skin moving at a speedster's pace. Every enemy in a wide area in front takes damage of both copied types and is knocked down, or the spliced effect performs a rescue neither Quirk could manage alone. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Copy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

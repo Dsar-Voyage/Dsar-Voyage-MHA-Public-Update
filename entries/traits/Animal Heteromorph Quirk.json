@@ -1,0 +1,44 @@
+{
+  "Animal Heteromorph Quirk": {
+    "name": "Animal Heteromorph Quirk",
+    "description": "🐸 Your body carries the traits of an animal you choose: a frog, a rabbit, a dog, a cat, a lizard or another creature.\n\n🌱 From the start you have its way of moving, its sharpest sense and its natural weapons: claws, teeth, kicks or a tail.\n📈 With training: sheer walls climbed with someone on your back, ambushes felt early, people snatched from danger, a room bounced around and struck, every heartbeat nearby.\n⚠️ The features are permanent and visible.\n🔗 Common drawback pairing: Sensory Overload, as senses this sharp punish noise and stench.\n🎬 Similar canon Quirks: Tsuyu Asui (Frog), Mirko (Rabbit), Hound Dog (Dog).\n\n📈 Grants: Speed +1, Endurance +1, Quirk Mobility +10, Quirk Analysis +10, Perception +5\n⚡ Starting techniques: Leaping Lunge, Keen Read",
+    "traitNarrativeEffects": "Scale: the user's body carries one player-chosen animal's senses, movement and natural weapons at human size. New adult users: rabbit or frog legs clear a story per bound; a cat lands on its feet from a second floor; gecko hands cling to walls; the keenest sense matches the animal (a dog's nose trails fresh scent a few blocks). Bigger feats need techniques. Limits: only what the animal's body could do; never flight, gills or venom. Weaknesses too: cold slows cold-blooded bodies, keen noses and ears suffer stench and noise, leapers wrestle poorly. Quirk Strain: none for living in the body; light: bound, sense reading; moderate: wall running, instinct, snatch; heavy: full-strength blow, rampage; severe: signature pounce, sensing a whole block. Type: Mutant. Law: features are legal; unlicensed clawing, biting or kicking a person is assault; the user meets open heteromorph prejudice. Look: permanent animal ears, tail, fur or scales, eyes, feet, claws, player's pick.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      },
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Leaping Lunge",
+      "Keen Read"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

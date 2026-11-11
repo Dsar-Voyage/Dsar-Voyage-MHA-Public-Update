@@ -1,0 +1,20 @@
+{
+  "Sleeve Lock": {
+    "name": "Sleeve Lock",
+    "description": "The user seizes the clothing of a single person within sight and pulls it tight around either their arms or their legs. Until they tear free with a hard effort or the end of their next turn, pinned sleeves keep them from swinging a weapon or throwing a punch, or bound pant legs keep them from running, and they fall if they try. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fiber Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

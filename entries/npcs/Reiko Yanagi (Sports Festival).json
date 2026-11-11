@@ -1,0 +1,44 @@
+{
+  "Reiko Yanagi (Sports Festival)": {
+    "name": "Reiko Yanagi (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "female cynical monotone",
+    "basicInfo": "Reiko Yanagi, hero name Emily, a Class 1-B first-year in U.A. Academy's Hero Course. At the Sports Festival she was on Itsuka Kendo's cavalry team with Yui Kodai and Kinoko Komori, which gave the two tournament places freed by withdrawals to Tetsutetsu Tetsutetsu's team. Very pale skin, silver hair over one eye; the U.A. uniform.\nSpeaking Style: Soft, sparse, flat, faintly eerie.\nCombat Role: Mid-range support that floats objects to block and distract.\nUnder Pressure: Gets quieter and follows Itsuka Kendo's calls.",
+    "hiddenInfo": "Contradiction: The national broadcast was the loudest stage she has stood on, and she stayed the quietest person on it. Motivation: Show that quiet support counts. Concealment: Spectators read her look as spirit powers she does not have. Connections: Yui Kodai, her cavalry teammate, whose Quirk fits hers. Knowledge: Knows the USJ attack on 1-A from the news and campus talk. Thread: Whether quiet support gets noticed.\nQUIRK: Poltergeist, unchanged.\nSTAGE: After the Sports Festival: hero name Emily; no tournament match.",
+    "personality": [
+      "Ghostly manner: Stays still and expressionless while the stadium roars.",
+      "Attentive teammate: Learns each event's plan and does her part exactly.",
+      "Gloomy: Takes a win and a loss in the same low murmur.",
+      "Speaking style: Soft, sparse, flat, faintly eerie; her look is never played as real haunting."
+    ],
+    "abilities": [
+      "Poltergeist: Moves nearby objects without touch, up to about a person's weight.",
+      "Distraction: Sends several objects on separate paths to split a rival's attention.",
+      "Object positioning: Shifts debris or barriers to block a path or open one.",
+      "Unsettling presence: Her stillness throws off rivals who do not know her.",
+      "\nFighting style: Floats objects to push a rival off balance or set up a teammate's grab."
+    ],
+    "visualDescription": "A young woman with very pale skin, short silver hair with a long fringe that hides one eye, half-lidded dark blue eyes and a slight build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Still, deadpan expression.",
+    "detailType": "detailed",
+    "properName": "Reiko Yanagi",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_reiko_yanagi",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3bd87b43-7297-405b-ab35-dc2e2351ed48.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0ab698fc-4b0b-4a37-92f3-1269432e8449.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/6acec2e1-84b9-4804-82e9-4c1a23a72c80.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/983f5144-0794-49bb-ada8-1adcbffdfe87.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/6bba9392-bad4-4f81-8e37-b5627001e810.png"
+    },
+    "initialKnown": false
+  }
+}

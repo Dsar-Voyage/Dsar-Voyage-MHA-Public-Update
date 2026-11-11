@@ -1,0 +1,15 @@
+{
+  "camp_aftermath": {
+    "title": "After the Camp",
+    "beats": "Day 128, mid morning at Musutafu General Hospital. By default Izuku Midoriya rests in Patient Rooms with his arms immobilized after the forest attack; visitors wait for permission rather than crowding his bed. Recovery Girl consults the doctors, and Inko Midoriya demands a clear account of his condition. At U.A. Academy, Principal Nezu, Shota Aizawa and Vlad King prepare a televised apology while families call for news of the missing.\n\nThe canon default course, as pressure the player can change: the doctors explain that repeated catastrophic fractures have damaged Izuku's arms. Another injury of this severity could leave him unable to use them; healing the present breaks does not erase that risk. Recovery Girl insists that his training must change. Classmates can bring comfort, anger or practical help, but cannot pronounce him fit. Katsuki Bakugo and Ragdoll remain missing unless the camp's resolved outcomes say otherwise. At the press conference, Nezu accepts responsibility for the academy's failure to protect its students. Reporters demand to know whether Katsuki will become a villain. Aizawa rejects that assumption and defends his student's resolve; Vlad faces questions about the camp's defenses. Their public answers protect the search and the victims' privacy.\n\nBy Path and place: at Musutafu General Hospital, Class 1-A friends visit within medical limits; Class 1-B and other students can check on their own injured classmates or deliver messages. Faculty, Licensed Pro Hero and Licensed Sidekick parties coordinate care and witness statements. Civilian relatives ask questions and arrange contact; Support and Management students can help with approved practical tasks. At U.A. Academy's Lecture Hall, faculty face the cameras, Management students assist the press arrangements, and other courses watch from permitted spaces or Heights Alliance. Vigilantes and villain Paths encounter hospital security or the public broadcast, not confidential charts or an automatic rescue briefing. Existing injuries and altered captivity outcomes govern every visit; neither the conference nor an absent-player summary restores a kidnapping the party prevented.The event is complete when the medical warning has been delivered, the press conference has ended, and visits or family contacts have reached a stopping point.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_camp_aftermath",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

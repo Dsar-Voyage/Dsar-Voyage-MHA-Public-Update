@@ -1,0 +1,30 @@
+{
+  "Izu Oshima": {
+    "name": "Izu Oshima",
+    "basicInfo": "Izu Oshima, the largest and nearest of the Izu Islands, a round volcanic island about 15 km long sitting in open water where Sagami Bay meets the Pacific, with the Izu Peninsula's east coast on the western horizon and the Boso Peninsula's southern tip off to the northeast. Most of the region is sea: a deep blue channel crossed day and night by ships bound into and out of Tokyo Bay. At the island's center rises Mt. Mihara, an active volcano of 758 m whose caldera holds the Ura-sabaku, a wide black desert of cinder and old lava; trails circle the crater rim, and steam still seeps from the rock. The lower slopes are thick with camellia, wild cherry and pine, and the island is known for its camellias: groves line the roads, camellia oil is pressed for hair and cooking, and the Camellia Festival runs from late January into March, when island women in the old indigo anko dress greet visitors at the pier. Motomachi on the west coast is the main town and ferry port, with inns, shops and a seaside open-air bath that looks across the water to Mt. Fuji. Okata on the north coast takes the ferries when the west side is rough, and Habu in the south is an old fishing port in a round crater bay, its lanes of wooden houses climbing the slope. On the southwest road, a cliff of layered ash bands is known as the giant baumkuchen. Islanders fish for alfonsino, bonito and spiny lobster, dry flying fish into pungent kusaya, grow ashitaba greens, and run inns and dive shops. The climate is mild and wet, warmed by the Kuroshio, with windy winters and hard typhoons in late summer and autumn. Jetfoils from Tokyo's Takeshiba pier take under two hours and a night ferry docks at dawn; from Musutafu, a short train to Atami and a jetfoil of about 45 minutes take under two hours. Small planes fly from Chofu in about 25 minutes. A ring road circles the island, served by buses, rental cars and scooters. Visitors hike the crater, soak in the hot springs, dive off black-rock coves and eat ashitaba tempura and fresh sashimi. A police box in Motomachi and a small local hero office cover the island, and a lobster diver who can hold her breath for an hour works the grounds under a co-op permit.",
+    "hiddenInfo": "The island watches Mt. Mihara the way other towns watch the weather: older islanders remember being shipped off the island when the volcano last erupted, and every tremor fills the town office with calls. The local hero office is one licensed hero and a sidekick for the whole island; real backup comes from the mainland by jetfoil or helicopter, an hour or more away, and none of it moves in a storm. Trouble is small: out-of-season abalone and lobster poaching by visiting divers, drunk weekenders on scooters, unlicensed Quirk stunts on the crater trails, and stranded tourists when the boats stop running.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 1,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/643846f7-32a4-4503-a871-b41fcf40615e.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

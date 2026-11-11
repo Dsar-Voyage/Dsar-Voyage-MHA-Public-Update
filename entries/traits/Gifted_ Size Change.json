@@ -1,0 +1,32 @@
+{
+  "Gifted: Size Change": {
+    "name": "Gifted: Size Change",
+    "description": "🧬 Size Change, as an extra Quirk put into your body.\n\n🌱 At the start your hands, forearms or feet swell to car-door size in a second, enough to swat a person flat, hold someone in a palm or shelter people under a cupped hand.\n📈 With training: double height, a block in a few strides, apartment-building height for a minute, stomps that topple enemies, a falling bus caught with all inside unhurt.\n⚠️ Growth adds strength, not toughness, and you pay for what giant steps break.\n🔗 Common drawback pairing: Stamina Drain, as extra mass burns your energy.\n🎬 Similar canon Quirks: Mount Lady (Gigantification), Itsuka Kendo (Big Fist).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Size Change family): Scale: the user grows their own body or parts of it, gaining strength and weight in proportion. A new adult user swells hands, forearms or feet to about car-door size in a second, holding several minutes; whole-body growth needs techniques, and giant height lasts about a minute at first. Limits: strength, not toughness: bullets and blades still wound a bigger target. No shrinking below normal; nothing grows but the user's body. Grown hands fumble fine work; a grown body cannot fit through doors, cracks floors and roads, and can crush people with a careless step. Quirk Strain: light: hands or feet; moderate: grip, doubled height, long stride; heavy: apartment-building height, giant stomp; severe: signature drop, careful giant rescue. Type: Transformation. Law: unlicensed public growth is an offense; every car, pipe and window a giant form breaks goes on the user's record and bill.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Athletics",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

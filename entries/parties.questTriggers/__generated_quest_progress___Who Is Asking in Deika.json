@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Who Is Asking in Deika": {
+    "name": "__generated_quest_progress__/Who Is Asking in Deika",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has learned who in Deika City is gathering information on the League and has taken it to Giran, the League or the police, or kept it for their own use."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Who Is Asking in Deika"
+      }
+    ]
+  }
+}

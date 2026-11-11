@@ -1,0 +1,25 @@
+{
+  "Sudden Furnace Crash": {
+    "name": "Sudden Furnace Crash",
+    "description": "The user chills the air ahead with a broad ice release, then heats it abruptly with left-side fire, creating a pressure blast across fifteen meters. It deals heavy explosive damage; held back, it strikes an empty barrier to scatter cover. Allies must clear the blast, and the temperature swing leaves the user unable to emit either half until their next turn ends. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

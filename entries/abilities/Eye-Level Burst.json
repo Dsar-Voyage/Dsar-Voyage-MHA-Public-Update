@@ -1,0 +1,20 @@
+{
+  "Eye-Level Burst": {
+    "name": "Eye-Level Burst",
+    "description": "The user lobs a flashbang or smoke grenade so it bursts at the opponents' eye level instead of at their feet. Every opponent in a small area is blinded or lost in smoke, without injury: none of them can aim a ranged attack or pick out a target until the end of their next turn. Needs a flashbang, a smoke grenade or a device built to do the same. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gear Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

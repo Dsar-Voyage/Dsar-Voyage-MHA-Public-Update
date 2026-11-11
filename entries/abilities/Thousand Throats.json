@@ -1,0 +1,25 @@
+{
+  "Thousand Throats": {
+    "name": "Thousand Throats",
+    "description": "The user's call passes from animal to animal until it covers a whole ward of the city, dozens of blocks wide. Within minutes the user knows where every fire, collapse, fight and trapped person in the ward is, and dogs, cats and birds lead every lost or stranded bystander they find to the nearest shelter or rescuer. The animals still refuse fire, gunfire and fights. Afterward animal voices crowd the user's hearing and they cannot use the Quirk for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

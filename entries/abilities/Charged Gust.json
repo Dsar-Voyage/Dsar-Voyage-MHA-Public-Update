@@ -1,0 +1,20 @@
+{
+  "Charged Gust": {
+    "name": "Charged Gust",
+    "description": "The user thrusts a palm and drives a five-meter gust from their personal storm cloud into a target, laced with crackling static. It deals force damage, knocks the target a step back and makes their fingers twitch so they fumble a held weapon; held back, it only shoves them clear without injury. In a cramped space the static snaps back into the user's hands, stinging their palms. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

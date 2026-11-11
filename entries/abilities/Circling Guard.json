@@ -1,0 +1,20 @@
+{
+  "Circling Guard": {
+    "name": "Circling Guard",
+    "description": "The user sets the loose things at hand, a bag, a few stones or a bottle, circling an arm's length around their body. Until the end of the user's next turn, the first thrown object, swung club or grabbing hand to cross the circle strikes an orbiting object instead and is knocked aside without harming the user; the circle then breaks and the objects fall. In a narrow corridor the objects strike the walls and drop at once. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

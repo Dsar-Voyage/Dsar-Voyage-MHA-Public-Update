@@ -1,0 +1,29 @@
+{
+  "Sentinel Seedbed": {
+    "name": "Sentinel Seedbed",
+    "description": "The user plants seeds of their own vines across a building, a street or a field, and the plants that sprout keep a single standing order for up to a day after the user leaves: bind anyone who forces the doors, hold any slab that shifts over a survivor, or catch anyone who falls. The user feels through the roots whenever a seedling acts, from anywhere in the city, and the bindings grip without bruising. While any seedling lives, the user's own vines reach only half as far, and fire or a blade kills the seedlings as easily as any other vine. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Plant Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

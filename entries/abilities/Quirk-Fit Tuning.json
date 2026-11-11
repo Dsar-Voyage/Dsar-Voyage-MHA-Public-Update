@@ -1,0 +1,20 @@
+{
+  "Quirk-Fit Tuning": {
+    "name": "Quirk-Fit Tuning",
+    "description": "The user retunes their own or an ally's costume or support gear to how that wearer's Quirk behaves in use: venting heat, damping recoil or feeding fuel more smoothly. The next Quirk technique the wearer uses this scene counts one Strain step lower: severe to heavy, heavy to moderate, moderate to light. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Support Course",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Support Engineering",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Daylight Needles": {
+    "name": "Daylight Needles",
+    "description": "Unseen, the user splits the light gathered through their body into many fine white-hot threads and lays one on each chosen target in a room at once. In one action they cut every rope, zip tie and cuff binding the hostages there without harming them and dazzle every guard until the end of their next turn; a guard struck directly takes heavy light damage, or held back, only a sting. It needs daylight or bright lamps, and afterward the user's outline flickers into view until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

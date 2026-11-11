@@ -1,0 +1,60 @@
+{
+  "Independent Villain": {
+    "name": "Independent Villain",
+    "description": "🕶️ You are a criminal who answers to no group: jobs through brokers, gear from the black market, and the law one mistake behind you.\n\n⚖️ A criminal. If caught, you face custody, trial and, for serious villains, Tartarus. The story start sets whether police know your face.\n🏫 A cover life with a job, a room and a name; jobs through brokers such as Giran; then lying low and watching the news for your description.\n⚠️ No orders, only debts: broker fees, favors owed, rent on safe rooms, and everyone you have crossed.\n🔓 Learnable later: Fallback Hideout, Untraceable Job.\n\n📈 Grants: Speed +1, Streetwise +10, Stealth +10, Negotiation +5\n⚡ Starting technique: Broker's Number\n🎒 Starts with: Villain coat and gear, Burner phone, Forged ID, ¥20,000, Go-bag, Casual clothes",
+    "traitNarrativeEffects": "Legal status: criminal, solo or in short-lived crews. Quirk use on people, theft, smuggling, carrying weapons are crimes; capture: custody, trial, Tartarus for serious villains. Story start sets whether police know their face.\nAccess: brokers (e.g. Giran) selling jobs, gear, introductions; black markets (weapons, forged papers, Trigger); cheap rooms, lockers in Hosu and elsewhere under the forged ID; gang and yakuza turf, if they pay respect.\nObligations: no orders, only debts: broker fees, favors, rent, everyone they crossed.\nWho notices: brokers, rivals, gangs; Quirk-crime detectives; patrolling heroes; bigger groups' recruiters.\nStanding pressures: Hero Killer Stain (killed or crippled dozens of 'fake' pro heroes) is at large as the year opens; police jumpy at hero sightings near crimes; new groups pay well for muscle; yakuza remnants push Quirk-boosting Trigger; heroes and police short-staffed; more jobs than takers.\nTypical week: cover life, jobs, lying low.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 10
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 10
+      },
+      {
+        "skill": "Negotiation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Broker's Number"
+    ],
+    "startingItems": [
+      {
+        "item": "Villain coat and gear",
+        "quantity": 1
+      },
+      {
+        "item": "Burner phone",
+        "quantity": 1
+      },
+      {
+        "item": "Forged ID",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 20000
+      },
+      {
+        "item": "Go-bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

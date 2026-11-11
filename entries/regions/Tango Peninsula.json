@@ -1,0 +1,30 @@
+{
+  "Tango Peninsula": {
+    "name": "Tango Peninsula",
+    "basicInfo": "The northern half of the Tango Peninsula, the thumb of Kyoto Prefecture that juts into the Sea of Japan, and the open water around it. Only about a fifth of the cell is land: the peninsula's rounded, forested hills, its rocky northern tip at Cape Kyoga with a white lighthouse on the cliff, and the coves and sandy bays along its west and east sides; everything north of the shore is sea. On the western shore lie the town of Amino and Kotohiki-hama, a beach whose sand squeaks underfoot, and farther west the calm lagoon of Kumihama Bay. Inland, the old weaving town of Mineyama sits in a valley where looms still clatter making Tango chirimen silk crepe. On the north coast the fishing port of Taiza lands snow crab each winter. On the eastern shore, Ine wraps around a sheltered bay lined with funaya, two-story boathouses built right on the water with boats parked beneath the family rooms, and its Urashima shrine keeps the old fisherman's legend. The climate is Sea of Japan: warm, clear summers good for beaches and diving, and winters of strong wind, snow and rough gray sea. People fish, weave, grow rice in narrow valleys and run small inns serving crab, yellowtail, barazushi and local sake. The Kyoto Tango Railway runs along the peninsula's base through Mineyama and Amino; elsewhere local buses wind along the coast road, and the Kyoto Jukan Expressway ends just to the south. Amanohashidate is a short bus ride south, Shin-Osaka about two and a half hours, Musutafu about five. A small hero agency in Kyotango covers the whole peninsula with a few members, and police boxes in each town handle most matters; one old fisher's weather-reading Quirk is trusted more than any forecast.",
+    "hiddenInfo": "The peninsula is aging and emptying, and the young move to Kyoto or Osaka. The friction is between old crab families and newcomers opening inns and guesthouses. Crime is small: theft from unlocked homes, crab poaching, a tourist who strays too close to the cliffs. A serious incident would draw help from Maizuru or Fukuchiyama, an hour or more away, and Kyoto's agencies after that.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -7,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2747326a-77f6-4b7a-be9d-552957906212.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

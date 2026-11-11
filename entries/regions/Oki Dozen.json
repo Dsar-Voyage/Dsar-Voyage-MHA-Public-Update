@@ -1,0 +1,30 @@
+{
+  "Oki Dozen": {
+    "name": "Oki Dozen",
+    "basicInfo": "The Dozen islands of the Oki archipelago, three steep volcanic islands ringing a sheltered inner bay about fifty kilometers off the Shimane coast in the Sea of Japan, with a sliver of Dogo's western shore inside the eastern edge. Nishinoshima, the largest, lies to the west, Nakanoshima lies to the east, and little Chiburijima sits to the south, its southern tip just across the line in the Oki Strait. Together they are the broken rim of an old caldera, and the inner sea between them stays calm even when the outer coast is white with surf. On Nishinoshima's western side the Kuniga coast drops in sheer red and gray cliffs, the Matengai wall rising about 250 meters straight from the sea, with the rock arch of Tsutenkyo below and cattle and horses grazing the grass on top. Winters are gray and wind-battered, with the northwest monsoon cutting the islands off for days; summers are clear, warm and blue. A few thousand people live across the three islands in small harbor villages: Ama on Nakanoshima, Beppu and Urago on Nishinoshima, Chibu on Chiburijima. They fish for squid and turban shells, farm rock oysters in the bays, raise Oki beef on the hill pastures and run family inns for summer visitors. Nakanoshima holds Oki Shrine, raised where an exiled medieval emperor spent his last years, and Nishinoshima's Takuhi Shrine is built into a cliff face on the slope of Mount Takuhi. There is no bridge to the mainland. Car ferries from Shichirui on the Shimane Peninsula and from Sakaiminato take two to three hours, the jetfoil about an hour, and a small ferry hops between the Dozen ports. From Musutafu the trip is most of a day: shinkansen to Okayama, the limited express north to Matsue or Yonago, then the boat; from Osaka it is about five hours. Each island has a resident police officer's post, and a single licensed hero covers the whole Dozen group from Nishinoshima, crossing between islands by boat. Quirks here are practical and quiet: a fisher who reads the swell by feel, a herder whose call carries across a whole pasture. Visitors cycle, swim in the inner bay, ride boats to the sea caves, hike the Kuniga clifftops and eat oyster rice at harbor counters.",
+    "hiddenInfo": "The islands are aging and shrinking, and every family weighs whether its young adults should leave for school and work on the mainland; incomers who come for island life are welcomed but watched. The one hero covering the Dozen is stretched thin, and in bad winter weather the ferries and jetfoil stop, so real help from Matsue or the coast guard can be a day away. Villainy is small: poached abalone and turban shells, a rented boat or bicycle taken, a drunk with a strength Quirk at a harbor party, an unlicensed fixer who moves goods between islands with a Quirk and asks no questions.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -11,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7359c0b1-170b-4caf-868b-19587684e977.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

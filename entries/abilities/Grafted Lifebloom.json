@@ -1,0 +1,29 @@
+{
+  "Grafted Lifebloom": {
+    "name": "Grafted Lifebloom",
+    "description": "The user plants a living seed in a moss dressing over a patient's severed limb, crushed organ or mortal chest wound and feeds it with water and their own stamina. Fine rootlets thread the injury, keep the patient alive while heart or lungs fail, and slowly knit tissue, nerves and bone back together over the rest of the scene, leaving a faint green scar when the blossom withers. It cannot revive the dead, the user must keep both hands on the dressing the whole time, and afterward the user falls unconscious from exhaustion. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mending Bloom Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

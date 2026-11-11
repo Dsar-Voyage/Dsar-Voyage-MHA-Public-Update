@@ -1,0 +1,40 @@
+{
+  "Zero Gravity Quirk": {
+    "name": "Zero Gravity Quirk",
+    "description": "🫧 You make solid people and objects weightless with your fingertip pads.\n\n🌱 At the start you float one adult or loose rubble by touching with all five pads of one hand, up to roughly three tonnes total, and join your pads to release.\n📈 With training: throws, rescue loads, tethered travel, debris attacks, awakening that spreads through touching targets and lowers them gently.\n⚠️ You need pushes or tethers to steer floating solids; heavy loads and self-floating cause nausea and vomiting, and release can cause falls.\n🔗 Canon Drawback, built in: Bodily Toll, as heavy loads and self-floating upset your stomach.\n🎬 Canon Quirk: Ochaco Uraraka's Zero Gravity. You are not related to her; people who know her Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Stamina +10, Capture +5\n⚡ Starting techniques: Palm Weight Release, Weightless Shoulder Throw",
+    "traitNarrativeEffects": "Scale: floats solid targets, people too, touched with all five pads of one hand; first-year cap about 3 tonnes at once; near-cap loads and self-floating cause nausea.\nLimits: contact only (spread through touching targets is for awakening); pads together release. No steering or propulsion: needs pushes, ropes, handholds. Air and flames cannot float. Release aloft risks a dangerous fall; fast targets need a safe catch. Vomiting and exhaustion halt work.\nQuirk Strain: light: small load, short throw; moderate: suspension, tethered travel, rescue hauling, rubble weapon; heavy: debris shower; severe: big falling load, repeated self-float, contact spread, mass descent.\nDrawback: built in, the canon Bodily Toll.\nCanon: Ochaco Uraraka's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: public combat needs a license; unlawful floating is assault; user answers for falling loads.\nLook: pink fingertip pads.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Palm Weight Release",
+      "Weightless Shoulder Throw"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

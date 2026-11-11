@@ -1,0 +1,20 @@
+{
+  "Wingbeat Gust": {
+    "name": "Wingbeat Gust",
+    "description": "The user plants their feet and drives both wings forward in one hard beat. Everyone in front within a few strides is pushed back a step and cannot close on the user until the end of their next turn, smoke, gas and dust there are blown clear, and thrown objects in flight are knocked aside; the gust deals no damage. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

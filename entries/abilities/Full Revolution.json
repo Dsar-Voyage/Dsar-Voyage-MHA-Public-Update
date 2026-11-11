@@ -1,0 +1,25 @@
+{
+  "Full Revolution": {
+    "name": "Full Revolution",
+    "description": "The user's signature move: they set a manhole cover, a car door or a steel beam circling faster with every lap and release it at a target within a street's length. It deals massive bludgeoning damage, throws the target down and smashes any cover between them; held back, it strikes the ground at the target's feet and the shock knocks them down. Afterward the user cannot set anything circling until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Orbit Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

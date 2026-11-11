@@ -1,0 +1,20 @@
+{
+  "Clot Seal": {
+    "name": "Clot Seal",
+    "description": "The user lays a film of their own blood over a bleeding wound, theirs or someone else's, and hardens it into a close-fitting seal. The bleeding stops and the patient can be moved without the wound reopening until a medic replaces the seal with a proper dressing; the seal heals nothing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

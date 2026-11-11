@@ -1,0 +1,40 @@
+{
+  "Duskglass Quirk": {
+    "name": "Duskglass Quirk",
+    "description": "🌑 Your shadow sets into smoked black glass that casts its own shade, and you step from shard to shard through it.\n\n🧬 A Fusion Quirk of Shadow Manipulation and Glass: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you bind a target in glass-edged shadow bands about five meters away and flick smoked glass beads that knock people back.\n📈 With training: shadow ribbons that lower people to safety, smoked panes that cast shade even in sunlight, a circling halo of blade-shards you step between, light-drinking glass armor, and shattering a shard to pin the shadows of everyone near it.\n⚠️ Without a standing shard your shadow reaches only about five meters and bright light thins it.\n🔗 Common drawback pairing: Bodily Toll, as glass splinters press under the skin of your palms.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Speed +1, Quirk Control +10, Quirk Mobility +10, Infiltration +5\n⚡ Starting techniques: Umbral Band, Smoked Bead Toss",
+    "traitNarrativeEffects": "Scale: shadow and palm-grown glass fuse into shade-casting smoked glass. A new adult user binds or shadow-steps within five meters and grows a few thin panes, beads or shards a scene; more needs techniques. Limits: shardless shadow needs real shade; bright light thins it; hard hits on weak points shatter panes; plain windows never answer. Quirk Strain: light: bind, bead toss; moderate: rescue ribbon, pane, shard ring; heavy: armor, shadow-pinning shatter, spike bed; severe: signature relay, bracing a room, awakened uses. Fusion: Shadow Manipulation plus Glass, each half-scale (no block-wide shadow, no building-scale glass); only the fusion steps between shards' shade in sight, orbits glass as blades, wears it as light-drinking armor, shatters it to pin shadows. Type: Emitter. Law: the user clears public shards; shard-stepping into closed buildings is burglary. Look: glossy-edged shadow.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Infiltration",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Umbral Band",
+      "Smoked Bead Toss"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

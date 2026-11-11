@@ -1,0 +1,20 @@
+{
+  "Palm Forge": {
+    "name": "Palm Forge",
+    "description": "The user pulls a staff, a baton or a short spear out of an open palm and strikes with it in the same motion. It deals bludgeoning damage, or piercing damage with the spear, and stays in hand afterward. Because it comes from the skin, a searched, disarmed or handcuffed user can still make one, or a crowbar, a rope or a cuff shim instead. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

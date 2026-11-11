@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Navel Laser Quirk": {
+    "name": "Mechanics: Canon Drawback Navel Laser Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Navel Laser Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Bodily Toll",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

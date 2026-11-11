@@ -1,0 +1,20 @@
+{
+  "Studied: Fabrication": {
+    "name": "Studied: Fabrication",
+    "description": "🛠️ You learned to make things by hand: a technical school, a machine shop job, welding classes or a family workshop.\n\n🌱 Machining, welding, soldering, wiring and reading plans. You can repair a broken support item when the parts exist.\n⚠️ Precision parts, unusual materials and complex electronics still need better tools and time.\n⚖️ Making weapons or illegal gear is a crime, and workshop rules decide who runs the heavy machines.\n🏫 It shows in small burn marks, steady hands and pockets full of tools.\n\n📈 Grants: Fabrication +15",
+    "traitNarrativeEffects": "The character has trained in hands-on making: machining, welding, soldering, wiring, sewing heavy materials, reading plans and assembling parts that fit. They can repair a broken support item when the parts exist. Prior study, not mastery: precision parts, unusual materials and complex electronics still need better tools and time. Not a license: making weapons or illegal gear is a crime, and workshop rules decide who may run the heavy machines. It shows in small burn marks, steady hands and pockets full of tools.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Fabrication",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

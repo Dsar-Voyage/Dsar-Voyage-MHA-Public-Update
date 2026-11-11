@@ -1,0 +1,86 @@
+{
+  "Takoba Municipal Stadium": {
+    "name": "Takoba Municipal Stadium",
+    "basicInfo": "Takoba Municipal Stadium is a huge stadium about 12 km west-southwest of Yokohama's harbor and some 60 km east-northeast of U.A. Academy, set among municipal sports fields and parking lots. The municipality owns it, but the Hero Public Safety Commission leases it as a venue for the Provisional Hero License Exam and has fitted it with movable walls and terrain that its crews reshape between sessions. On exam days, more than a thousand examinees from hero academies across Japan gather here, school by school in hero costume, the Commission's examiner Yokumiru Mera reads the rules, and fewer than half the examinees pass: a free-for-all first phase on the arena field, then a rescue phase in the collapsing ruins. Between exams the building is closed to the public except for occasional municipal events, while Commission engineers and maintenance crews work on the terrain; the gates are locked and staffed, and only examinees entered by their academy, Commission staff and hired crews get in. A player can take the exam here when their academy enters them, find work on a maintenance crew or as an exam actor, or scout the facility from the public sports fields outside. Shuttle buses run from the nearest station on exam days, and the parking lots fill with academy buses before dawn. From outside it looks like any big stadium; inside, the field is a landscape of city blocks, cliffs and pipes under open sky. The empty arena echoes with every dropped tool.",
+    "hiddenInfo": "Commission engineers are re-rigging the Rescue Exercise Ruins after the last session: one collapse charge failed to fire, and a block of mock buildings is roped off until it is rebuilt. A crew member suspects a contractor wired the charge badly to save money and has kept the faulty part in his locker, unsure whom to show it to. Exam veterans know an unspoken tradition: in the first phase, examinees from other academies go after U.A. Academy students first, because each year's televised U.A. Sports Festival has already shown everyone their Quirks and fighting styles. Actors from the Help Us Company (HUC), professionals who play disaster victims, rehearse here between sessions and score examinees on how they speak to a frightened person as much as on what they do. Pro heroes hired by the Commission may attack during the rescue phase in the role of villains, and the Commission never announces which; Gang Orca, whose judgment of hero candidates it values, is the kind of pro it asks. Every examinee who reaches the rescue phase gets a scored report afterward, with remarks on attitude as well as skill. Yokumiru Mera plans the venue's sessions from his desk in Tokyo and comes out only for the final terrain inspection and on exam days, and the crews work to his schedule, which never has enough hours in it.",
+    "x": -0.84,
+    "y": 2.6,
+    "radius": 1,
+    "region": "Kamino and Yokohama",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Exam Arena": {
+        "description": "The stadium's vast main field, laid out as mixed terrain: a mock city grid, rocky slopes and ravines, a river course, and a block of industrial buildings with tanks and catwalks. On exam days the whole field becomes a free-for-all for more than a thousand examinees at once, and Commission staff watch from the upper levels behind glass, logging every pass and elimination. Between sessions it is empty except for engineers testing the hydraulics and crews hauling rubble, and movable slabs groan as they shift into new layouts. The stands are closed, and every crash or shout echoes back across the field. Dust settles on everything, and wind pours in over the open rim. At the center stands the Waiting Hall, whose walls fold outward onto the field; on the far side, a cordoned district opens into the Rescue Exercise Ruins. Crews wear hard hats and radios, and anyone walking the field without them is stopped within a minute.",
+        "paths": [
+          "Waiting Hall",
+          "Rescue Exercise Ruins"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8b226929-8a69-4957-8546-04dd3f792e28.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Waiting Hall": {
+        "description": "A vast windowless hall at the center of the arena, with bare concrete floors, a small stage and a public-address system. On exam days, examinees in hero costume crowd it school by school, sizing each other up while the Commission's examiner, Yokumiru Mera, reads the rules in a tired voice and mentions how little he has slept. Each examinee is handed the first phase's equipment at the door; old acquaintances from other academies trade greetings, and someone always tries to read the room's Quirks before the rules are finished. When the first phase begins, the hall's walls fold outward and open straight onto the Exam Arena. Between exams it stores equipment: stacked chairs, crates and coiled cable. Empty, it is cold, and every footstep rings off the steel wall panels.",
+        "paths": [
+          "Exam Arena"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b53079d0-5f6c-447a-a5ea-58774d0ef3f6.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Rescue Exercise Ruins": {
+        "description": "A district of mock buildings rigged to collapse on command, leaving rubble fields, broken water mains and burning wreckage for the exam's rescue phase. Before that phase, actors from the Help Us Company take their places in the debris in convincing wound makeup and play disaster victims who score how examinees treat them; pro heroes hired by the Commission may attack mid-rescue in the role of villains. Between sessions, Commission crews rebuild the ruins and test the charges, and one roped-off block waits for repair. Hidden speakers play sirens, cries and the creak of failing beams on cue, and the footing is uneven enough to turn an ankle. Examinees are expected to set up their own first-aid station and evacuation point, and the actors notice who forgets. The air carries concrete dust and the sweet smell of stage blood. The cordon on its open side leads back onto the Exam Arena.",
+        "paths": [
+          "Exam Arena"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6a3179dc-638d-4f02-b57d-d5085507c9cb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Hero Public Safety Commission"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cc555f2d-0049-4a92-946a-7839ec28b5c4.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

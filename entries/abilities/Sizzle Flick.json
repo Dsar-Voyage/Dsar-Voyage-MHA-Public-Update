@@ -1,0 +1,20 @@
+{
+  "Sizzle Flick": {
+    "name": "Sizzle Flick",
+    "description": "The user flicks a spray of acid from the fingertips at a target within a few strides. It deals corrosive damage and eats holes in the cloth, rope and plastic it lands on; held back to a mild sting, it leaves no burn, but the target lets go of whatever they hold and cannot grip anything until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "World Note: paranormal_liberation_war": {
+    "name": "World Note: paranormal_liberation_war",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){/*storage_pack:v1:[true,[[666,1]]]*/const __pr=[[666,1]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"wrapped\",[[666,1,0,false]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(666)===undefined){skip=true;return;}const __HT0=__hc(__hv(666));const E=\"paranormal_liberation_war\",X=__HT0;const d=check({type:'read-number',key:'currentDay'})||1;const S=storage.worldNoteDay||{};if(S[E]===undefined)S[E]=[d,-1];if(d-S[E][0]>10||S[E][1]===d){storage.worldNoteDay=S;skip=true;return;}S[E][1]=d;storage.worldNoteDay=S;effects.push({type:'story',instruction:X});})();"
+  }
+}

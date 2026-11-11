@@ -1,0 +1,25 @@
+{
+  "Feast Form Rescue": {
+    "name": "Feast Form Rescue",
+    "description": "After eating suitable seafood and poultry, the user spreads protective shell across their body and uses several tentacles and wings to reach one person amid nearby debris. They hold loose rubble back and carry the person to clear ground by the end of their next turn. Heavy debris can break the shell, and the form consumes its food supply quickly. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

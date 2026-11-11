@@ -1,0 +1,15 @@
+{
+  "mha_tomoyasu_chikazoku": {
+    "label": "Tomoyasu Chikazoku",
+    "voiceTag": "male confident energetic",
+    "instructions": "A sharp, slightly nasal mid-range voice with a sneering, condescending edge, neutral American accent. Clipped, impatient and fast, requests phrased as orders, half-distracted. Dry, scoffing sarcasm; turns shrill and petulant when challenged.",
+    "speed": 1.07,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

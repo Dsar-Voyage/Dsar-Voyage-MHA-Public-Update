@@ -1,0 +1,24 @@
+{
+  "Dread Roar": {
+    "name": "Dread Roar",
+    "description": "The user lets loose a roar that rattles windows down the block. Every enemy within a street's width who hears it cannot step toward the user or attack until the end of their next turn, and anyone without hero or combat training drops what they hold and runs; bystanders in earshot panic too, so the user must calm or clear them afterward. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Beast Form Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "mha_fourth_kind": {
+    "label": "Fourth Kind",
+    "voiceTag": "male commanding intense",
+    "instructions": "Deep, gruff, hard-edged adult male voice with a loud bark. Short, clipped orders at a brisk pace; huffing irritation at excuses, a scolding snap at hesitation. Approval is one grudging word. Never chatty or warm.",
+    "speed": 1.02,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Steeled Door Entry": {
+    "name": "Steeled Door Entry",
+    "description": "The user transforms and drives a shoulder through a wooden door or light partition within a few steps, opening a person-wide route this turn. A reinforced wall stops the charge and jars the user. The user must check the far side first to avoid hitting someone; steel does not protect anyone struck by flying fragments. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

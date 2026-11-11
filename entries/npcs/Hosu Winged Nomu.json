@@ -1,0 +1,37 @@
+{
+  "Hosu Winged Nomu": {
+    "name": "Hosu Winged Nomu",
+    "type": "Nomu",
+    "currentLocation": "Nomu Warehouse",
+    "currentArea": "Warehouse Storage Floor",
+    "gender": "male",
+    "faction": "League of Villains",
+    "level": 30,
+    "tier": "elite",
+    "voiceTag": "male monster growly",
+    "basicInfo": "A winged Nomu: a flying snatcher that dives, seizes a person in his talons and carries them off. A pale yellowish hairless body, batlike wings, an exposed brain, four eyes, a mask-like plate over the mouth.\nSpeaking Style: Silent.\nCombat Role: Aerial snatcher, strong enough to lift a grown person; no other power shown.\nUnder Pressure: Climbs higher with his captive and holds his last order through wounds.",
+    "hiddenInfo": "Motivation: None of his own; he carries out his handler's orders. Connections: Tomura Shigaraki, who commands the Nomu; Kurogiri, whose gates release them. Canon voice & behavior: Circles high, picks one target and dives without warning; keeps flying and holding on while wounded and bleeding. Thread: A captive in his grip is the real stakes.\nQUIRK: Flight on batlike wings and a body strong enough to carry a person; nothing else has been shown.",
+    "personality": [
+      "Predatory: Picks one target from above and dives without warning.",
+      "Tenacious: Keeps his grip and his course while wounded.",
+      "Literal: Follows his last order and nothing else.",
+      "Speaking style: None; wingbeats and motion only."
+    ],
+    "abilities": [
+      "Flight: Fast, agile flight over streets and rooftops; damaged wings bring him down.",
+      "Snatch: Seizes one person mid-dive and lifts them clear; one captive at a time.",
+      "Diving strike: Drops from height faster than most people can react.",
+      "Pain-blind: Keeps flying and holding on while wounded.",
+      "\nFighting style: Circles, dives, snatches, climbs; grounding him or freeing the captive is the counter."
+    ],
+    "visualDescription": "A lean, sinewy, hairless creature with pale yellowish skin and broad batlike wings, the top of the head open to show an exposed brain drawn clean and stylized, four round lidless eyes, and the mouth hidden behind a ridged, respirator-shaped plate. Long clawed hands and taloned feet. Plain dark trousers. Blank, predatory stare.",
+    "detailType": "detailed",
+    "properName": "Hosu Winged Nomu",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/14ced654-1d73-496c-99af-e371f151401c.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_hosu_winged_nomu",
+    "initialKnown": false
+  }
+}

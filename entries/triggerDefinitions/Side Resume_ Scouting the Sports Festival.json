@@ -1,0 +1,42 @@
+{
+  "Side Resume: Scouting the Sports Festival": {
+    "name": "Side Resume: Scouting the Sports Festival",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "pro_festival_scouting",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_pro_festival_scouting",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_pro_festival_scouting",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "pro_festival_scouting"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_pro_festival_scouting",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Scouting the Sports Festival\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The two days off after the U.A."
+      }
+    ]
+  }
+}

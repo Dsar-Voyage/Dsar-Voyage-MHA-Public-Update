@@ -1,0 +1,15 @@
+{
+  "final_exams": {
+    "title": "The Final Exams",
+    "beats": "Early July at U.A. Academy. Class 1-A and Class 1-B sit written papers in their homerooms; Momo Yaoyorozu runs study sessions for classmates at risk of failing. For the practical, Principal Nezu announces pairs against faculty instead of robots. A pair passes by cuffing its teacher or getting one partner through the exit within thirty minutes. Teachers wear weights equal to half their body weight. Gym Gamma is the staging hall, with waiting pairs watching the feeds.\n\nThe canon default course, as pressure the player can change: Eijiro Kirishima and Rikido Sato exhaust themselves against Cementoss and fail; Tsuyu Asui and Fumikage Tokoyami combine their abilities against Ectoplasm and pass. Tenya Iida and Mashirao Ojiro pass against Power Loader by using their movement together to reach the exit despite his traps. Shoto Todoroki and Momo pass against Shota Aizawa through Momo's plan, with Shoto learning to trust her judgment. Unless the player changes the remaining practicals, Ochaco Uraraka and Yuga Aoyama pass against Thirteen; Denki Kaminari and Mina Ashido fail against Nezu's demolition of their route; Kyoka Jiro and Koji Koda pass against Present Mic when Koji overcomes his fear and directs insects against him. Mezo Shoji and Toru Hagakure pass against Snipe by combining cover and invisibility to reach him. Hanta Sero falls asleep against Midnight and fails, while Minoru Mineta uses Sero's tape and carries him out to pass. By canon default Izuku Midoriya and Katsuki Bakugo face All Might in Ground Beta's mock city, struggle to cooperate, then escape with Izuku carrying an unconscious Katsuki through the gate. Recovery Girl treats the injured. Unless the player changes the results, the five practical failures are Eijiro, Rikido, Denki, Mina and Hanta. Aizawa later reveals that they still attend camp, with extra lessons.\n\nA Hero Course student party takes its assigned practical with a partner; its result follows the actual escape or capture. Class 1-B follows its own faculty assignments rather than replacing the listed 1-A pairs. Faculty parties test the students within the exercise's rules. Invited pros and sidekicks can observe from the monitor rooms. General Studies, Support and Management parties have approved observation or support duties, not automatic exam entry. Civilians and villains hear secondhand accounts outside U.A. Academy; they do not receive campus access from this event. Injured students receive care before returning to the staging hall.\n\nThe event is complete when every assigned practical has ended and each student's result is posted.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_final_exams",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Coaxed Lock": {
+    "name": "Coaxed Lock",
+    "description": "The user touches an electronic lock, an automatic door, a shutter, a turnstile or a running engine and talks it into one thing it was built to do: the lock opens or locks, the door or shutter opens or shuts, or the engine stalls and will not start again until the user allows it. A key lock, a padlock or a deadbolt does not answer, and a separate alarm system still sounds unless the user touches it too. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

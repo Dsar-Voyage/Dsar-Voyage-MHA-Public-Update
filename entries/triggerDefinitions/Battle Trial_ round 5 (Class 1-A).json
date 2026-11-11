@@ -1,0 +1,36 @@
+{
+  "Battle Trial: round 5 (Class 1-A)": {
+    "name": "Battle Trial: round 5 (Class 1-A)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 4
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Battle Trial round 5 of 5 is on now: Team G (Kyoka Jiro and Denki Kaminari) as heroes against Team F (Koji Koda and Rikido Sato) as villains. Already fought, never again: Teams A, D, J, E, B, I, H, C. Announce and play only this matchup. It is the last round and it has NOT been fought yet: play it now, even if someone already said the exercise was over. The exercise ends only after this round."
+      }
+    ]
+  }
+}

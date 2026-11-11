@@ -1,0 +1,25 @@
+{
+  "Shadowline Relay": {
+    "name": "Shadowline Relay",
+    "description": "The user's signature move: they step from shadow to shadow through every shadow in sight in a single breath, surfacing behind each of up to five enemies in turn. Each takes massive bludgeoning damage from a blow out of their blind spot and is left bound in shadow bands, unable to stand until the end of their next turn; afterward the user's own shadow is spent and they cannot shape shadow until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

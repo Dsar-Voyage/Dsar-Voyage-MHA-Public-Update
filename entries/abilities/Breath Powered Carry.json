@@ -1,0 +1,20 @@
+{
+  "Breath Powered Carry": {
+    "name": "Breath Powered Carry",
+    "description": "The user holds one cooperative adult firmly against their torso and propels both across ten meters to clear ground by the end of this turn. The user uses several checked bursts to keep the passenger upright; the extra weight shortens the route and empties the air reserve, so the user must inhale before another carry. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

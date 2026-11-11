@@ -1,0 +1,34 @@
+{
+  "Sansa Tamakawa": {
+    "name": "Sansa Tamakawa",
+    "type": "Police Officer",
+    "currentLocation": "Musutafu Police Headquarters",
+    "currentArea": "Front Desk",
+    "gender": "male",
+    "faction": "Japanese Police",
+    "level": 8,
+    "tier": "strong",
+    "voiceTag": "male grounded conversational",
+    "basicInfo": "Sansa Tamakawa, a police officer and Detective Naomasa Tsukauchi's usual partner on Quirk cases; between cases he takes statements at the Front Desk. A cat-headed heteromorph of average build: ginger tabby fur, yellow eyes, a white muzzle, a gold bell at his collar; a pale-blue police shirt and dark vest.\nSpeaking Style: Courteous and straightforward: clear questions, plain answers.\nCombat Role: Not a frontline fighter; he secures scenes and radios for heroes.\nUnder Pressure: Falls back on procedure: secure the scene, protect civilians, call it in.",
+    "hiddenInfo": "Contradiction: The most unusual-looking officer in any room is the most devoted to ordinary procedure. Connections: Naomasa Tsukauchi, the detective he works beside, whose calm he matches. Knowledge: Police files, statements and whatever Tsukauchi shares. Canon voice & behavior: Courteous with witnesses; writes down what he sees and hears. Thread: Whether careful police work still counts in a city that calls heroes first.\nQUIRK: Heteromorph: a cat's head. He uses no power on duty.",
+    "personality": [
+      "Procedural: Ties every step of a case to the evidence in hand.",
+      "Patient: Lets nervous witnesses give statements at their own pace.",
+      "Supportive: Backs up colleagues and civilians on the practical steps.",
+      "Speaking style: Courteous, straightforward professional exchanges."
+    ],
+    "abilities": [
+      "Police work: Scenes, statements, evidence and custody paperwork, by the book; he cuffs villains once a hero has them down.",
+      "\nFighting style: Avoids fighting: holds the cordon and gets civilians clear."
+    ],
+    "visualDescription": "A man of average build with a cat's head: ginger tabby fur with darker stripes across the brow and cheeks, large yellow eyes, a white muzzle, pointed ears and long whiskers, and a small gold bell at his collar. He wears a pale-blue police shirt under a dark protective vest, dark uniform trousers and a duty belt with a radio. Calm, attentive expression.",
+    "detailType": "detailed",
+    "properName": "Sansa Tamakawa",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/cd2f66e7-b53f-40ed-8521-1f4756258963.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_sansa_tamakawa",
+    "initialKnown": true
+  }
+}

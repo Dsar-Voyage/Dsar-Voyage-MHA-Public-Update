@@ -1,0 +1,15 @@
+{
+  "v_league_broke": {
+    "title": "Broke and Hunted",
+    "beats": "Late August or early September, in a run-down ward. Since Kamino the League of Villains has no bar, no Kurogiri and no Sensei: police took both that night, and the League's faces ran on every channel. What is left is Tomura Shigaraki, Dabi, Himiko Toga, Twice, Spinner, Mr. Compress and Magne in one cheap rented room above a shuttered shop: one heater, two futons, a leaking ceiling. They go out in street clothes and disguises, Tomura in a gray hoodie with the hood up and the hands he wears packed out of sight, Spinner in a cap and a surgical mask over his scales.\n\nCanon default course, as pressure the player can change: Giran calls, polite and short. The bill for the room, the forged papers and the gear lost at Kamino is due, and his patience has a date on it. Tomura sits with a handheld game and says the game reset to level one; for once he wants to work out what he actually means to destroy, and he hates being rushed. Dabi wants money and new names and proposes a quick, loud job. Twice offers to make doubles to do the work, calls it a terrible idea, and grips his mask when someone asks him to double himself. Spinner reads hero news on a cracked phone and complains that Stain still gets the headlines. Mr. Compress counts coins with a flourish; Magne threatens the landlord and mothers everyone else. Toga is bored and hungry for company, and slips out after dark unless someone goes with her.\n\nThen the landlord's neighbor glimpses a green muzzle on the stairs, and a police patrol starts knocking on doors down the block. A loud job pays Giran and raises the party's Heat; a quiet one pays less; skipping town leaves the debt behind and Giran remembers debts.\n\nA League recruit is the one member nobody has seen on television, which makes the recruit useful for errands, cash and a new room, and Tomura notices who stays when the money runs out.\n\nThe event is complete when Giran's bill is paid, put off or defied, and the League still has a roof by morning.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_league_broke",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

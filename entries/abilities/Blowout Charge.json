@@ -1,0 +1,29 @@
+{
+  "Blowout Charge": {
+    "name": "Blowout Charge",
+    "description": "The user hurls themselves to the heart of a burning building or a blazing fuel spill and sets off a single shaped blast there. The shock wave tears the flame from its fuel and puts out every fire across the whole building or the length of a street at once, and enemies at the core take heavy explosive damage and are thrown down; held back, the blast only knocks them flat. Every window in the building breaks and everyone inside is deafened until the end of the scene, so people must be moved away from the core first. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

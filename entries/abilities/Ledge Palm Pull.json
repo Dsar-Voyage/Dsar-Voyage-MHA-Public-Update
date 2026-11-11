@@ -1,0 +1,20 @@
+{
+  "Ledge Palm Pull": {
+    "name": "Ledge Palm Pull",
+    "description": "The user enlarges one hand to catch a sound ledge up to three meters above their feet and pulls onto it this turn, placing the other hand for balance. The larger grip needs a ledge that can bear the user's weight; the arms do not lengthen. A weak sill may tear away, and the pull leaves the torso exposed. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

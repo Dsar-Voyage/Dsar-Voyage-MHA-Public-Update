@@ -1,0 +1,25 @@
+{
+  "Building Bearer": {
+    "name": "Building Bearer",
+    "description": "After consuming a large prepared sugar supply, the user supports a failing section of a building for the rest of the scene, keeping a floor and its escape route open while many people leave. They must remain planted at one load-bearing point and cannot protect another area at the same time. Their thinking grows severely dull during the effort, and the structure needs permanent support before they release it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

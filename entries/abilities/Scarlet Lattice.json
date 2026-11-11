@@ -1,0 +1,25 @@
+{
+  "Scarlet Lattice": {
+    "name": "Scarlet Lattice",
+    "description": "The user opens both forearms and sends their blood out in hair-thin threads along gutters, walls and lampposts across a whole city block, then hardens every thread at once. Each enemy the user chooses in that block is bound at the wrists and ankles and cannot move until they break free with a hard effort, and every bleeding person there is sealed. The bindings leave no injury. Afterward the user has lost nearly a liter of blood, cannot stand without help and cannot release blood until they have rested for an hour. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

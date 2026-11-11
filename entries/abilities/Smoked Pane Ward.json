@@ -1,0 +1,20 @@
+{
+  "Smoked Pane Ward": {
+    "name": "Smoked Pane Ward",
+    "description": "The user sweeps a palm and raises a chest-high pane of thin smoked glass between attackers and an ally within reach. It stops fists, blades and thrown objects from the front and casts a pool of real shade behind it even under bright sun, giving the user a shadow to work from; a pistol round or a blow on its weak point shatters it at once, and growing it draws water from the user's body. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

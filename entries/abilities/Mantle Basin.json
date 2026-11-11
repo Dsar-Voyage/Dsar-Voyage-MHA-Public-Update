@@ -1,0 +1,25 @@
+{
+  "Mantle Basin": {
+    "name": "Mantle Basin",
+    "description": "The user drives both palms into the pavement and spreads fused heat and shaping across a whole city block for the rest of the scene. They soften streets into knee-deep hot mud traps that halt vehicles and runners, fuse fallen rubble into glassy shelter arches over trapped people, and deal heavy fire and bludgeoning damage to enemies on the stone; held back, the mud cools around their legs and only pins them. The user must cool each stretch before civilians step on it, and the absorbed heat triggers their Drawback at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

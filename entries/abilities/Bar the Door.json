@@ -1,0 +1,20 @@
+{
+  "Bar the Door": {
+    "name": "Bar the Door",
+    "description": "The user braces a door, shutter or barricade against a villain, a fire or a crowd crush while the people behind them get away. Until everyone behind the user is clear, nothing gets through that way without first getting through the user. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Civilian Life",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Willpower",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Vapordraft Clear": {
+    "name": "Vapordraft Clear",
+    "description": "The user spins a damp current through a room or hallway, using the static in the mist to bind smoke, dust and airborne gas into heavy droplets that settle to the floor while fresh air flows in for trapped people. Hostile targets caught in the spin are shoved off balance and take force damage; the draft reaches only a single room or corridor and cannot clear a whole building. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

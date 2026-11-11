@@ -1,0 +1,20 @@
+{
+  "Knit Shut": {
+    "name": "Knit Shut",
+    "description": "The user drives the healing into their own fresh wounds and forces them shut in moments. Bleeding from cuts and grazes stops, a sprain, a cracked rib or a dislocated joint sets, and injuries from the current fight stop slowing the user; a broken bone or a burn still heals at the usual pace. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

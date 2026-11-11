@@ -1,0 +1,29 @@
+{
+  "Steady Hand Relay": {
+    "name": "Steady Hand Relay",
+    "description": "The user streams their own trained know-how into a single ally's mind, step by step and movement by movement, faster than speech. For the rest of the scene that ally performs one task the user knows, such as packing a wound, defusing a device or shoring a sagging beam, with the user's full skill, even with no training of their own. The user must stay focused on the link and can take no other action; if the ally is hurt while linked, the user feels it and takes heavy psychic damage. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Telepathy Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

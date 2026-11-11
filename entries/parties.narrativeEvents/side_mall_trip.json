@@ -1,0 +1,15 @@
+{
+  "side_mall_trip": {
+    "title": "The Kiyashi Mall Trip",
+    "beats": "A free day after the final exams, with the forest training camp still ahead. Class 1-A goes shopping together at Kiyashi Shopping Mall on Musutafu's south side: hiking boots, suitcases, bug spray and whatever Mina Ashido finds on the Fashion Floors. Katsuki Bakugo refused to come, Shoto Todoroki slips off on an errand of his own, and the class splits up in the Main Atrium.\n\nCanon default course, as pressure the player can change: Ochaco Uraraka goes for bug spray, and Izuku Midoriya ends up alone at a table on the edge of the Food Court. A young man in a dark hoodie sits beside him, greets him with easy familiarity and drapes an arm across his shoulders. It is Tomura Shigaraki, and the hand on Izuku's neck rests four fingers on the skin with the fifth held carefully away. He talks low: why does the whole country care about the Hero Killer Stain, and why does nobody look at him the same way? Izuku can answer only with words. Families eat lunch around them and notice nothing. Then Uraraka comes back and says hello; Shigaraki lets go, warns Izuku not to follow, and walks off into the crowd. Uraraka calls the police, the mall locks down with shoppers held inside, and Izuku gives his statement to the police that afternoon.\n\nWhat the party can change: who sits near that table, how fast the alarm goes up, whether a classmate keeps the shoppers clear. Any move on Shigaraki puts the people around him in reach of that hand. He is not caught here and vanishes into the crowds before the exits close; nobody dies at the mall.\n\nBy site and path: a 1-A party is one of the shoppers and can be the one who comes back to the table. A 1-B party is buying for the same camp and gets caught in the lockdown. A party at U.A. Academy hears it from Shota Aizawa, who has had the call from the police; the class later learns that the camp destination will change and only the staff will know it.\n\nThe event is complete when the lockdown lifts and the class heads home, or the party leaves the mall.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_mall_trip",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "Musutafu General Hospital": {
+    "name": "Musutafu General Hospital",
+    "basicInfo": "The city's main hospital, about 5 km west of the station and about 3 km north of Dagobah Municipal Beach Park: a large white complex with an ambulance bay, outpatient clinics and several hundred beds. Its staff know Quirk injuries well: burns, fractures, toxins, mutations gone wrong, and the damage people do to themselves by pushing a Quirk too far. The hospital is public and open to anyone; the wards keep visiting hours from one to eight, and the emergency ward never closes. Visitors sign in at each ward's nurses' station, and a few long-term private rooms on the upper floors admit only visitors on the patient's own list. Doctors and nurses work long rotating shifts, some with Quirks that help them diagnose or ease pain, though none heals the way U.A.'s Recovery Girl does; serious cases from the academy come here when her care is not enough. Heroes come in with injured victims or for their own treatment, and police officers wait in the corridors to take statements. Ambulances arrive from across the city, and the hospital bus stop has its own line to the station. A player can be treated, recover, visit someone, work as an orderly or volunteer, or ask the staff about recent injuries. Monitors beep, carts squeak on polished floors, and everything smells of disinfectant. The lobby has a coffee stand, a florist and a gift shop selling hero-themed get-well cards, and the elevators are always slow.",
+    "hiddenInfo": "The emergency ward is short of night staff, and after midnight anything less serious than a broken bone waits for hours. In a private room on the third floor, a burglar arrested last week by a local pro is recovering from a broken jaw under police guard. The night officer slips up to the rooftop garden for long breaks, and a man claiming to be the burglar's cousin has called the ward three times to ask about visiting hours and which room he is in. Nobody has told the police, and the triage nurses are too busy to notice who walks in with the evening visitors. The burglar fenced his goods through someone in the station district's back alleys and knows a name he has not given the police. On a quieter upper floor, Rei Todoroki, the wife of the pro hero Endeavor, has lived for years in a private room; few outside the family know she is here or why. Her daughter Fuyumi and her son Natsuo visit and bring her news, including that her youngest, Shoto Todoroki, got into U.A. on recommendation, but Shoto has not come in years. The staff keep her name off the ward board and turn away anyone not on the family's list, and they know that the mention of her husband frightens her and shuts her down for days. She is gentle, keeps to her window, and treasures small everyday news about her family.",
+    "x": -10.85,
+    "y": 18.863,
+    "radius": 1,
+    "region": "Musutafu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Emergency Ward": {
+        "description": "The ground-floor emergency department: an ambulance bay under a concrete canopy, a triage desk, curtained bays, a burn treatment room and two trauma rooms fitted with restraints for patients who lose control of their Quirks. It is busiest at night and after big incidents, when heroes and paramedics bring the injured in together and police officers wait by the doors for statements. Triage nurses sort patients by colored tags, and nobody skips the line for being famous; a pro in costume with a cut arm waits like everyone else. The waiting room has plastic chairs, a vending machine that eats coins and a TV that is always on, and families sit there for hours without news. The sliding doors open every few minutes to sirens and a blast of outside air. Elevators and a staff corridor lead up to the Patient Rooms.",
+        "paths": [
+          "Patient Rooms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/35cbe1c9-a391-46c0-b5fd-e5ed3e053cac.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Patient Rooms": {
+        "description": "Several floors of wards with six-bed shared rooms and a few private rooms, each floor run from a central nurses' station where visitors sign in. Patients recover here from surgery, accidents and Quirk injuries; families visit from one to eight with fruit and clean clothes, and injured heroes sometimes check in under a false name to avoid fans. The upper floors are quieter, with a few long-term private rooms whose doors are hung with small personal touches, a pressed flower or a grandchild's drawing, and whose visitors are checked against a list. Nights are quiet except for call buttons and the nurses' rounds. Curtains are the only privacy in the shared rooms, so everyone hears everyone else's phone calls. The corridors smell of disinfectant and canned soup. Elevators lead down to the Emergency Ward and up to the Rooftop Garden.",
+        "paths": [
+          "Emergency Ward",
+          "Rooftop Garden"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b1edd1c4-bf66-4e85-80e7-30c1012d94d8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Rooftop Garden": {
+        "description": "A rooftop terrace with planters, benches and a covered rest area, open to patients and visitors from morning until dusk. Patients in wheelchairs sit in the sun with their families, staff eat lunch out of sight of the wards, and people come up to make calls they do not want overheard. On clear days Mount Fuji rises to the north-northwest, and U.A.'s foothill campus shows to the north-northeast, with Suruga Bay glinting to the south. The planters are tended by a volunteer group of retired patients, who grow herbs, marigolds and a stubborn tomato vine. Smoking is banned and happens anyway, in the corner behind the water tanks, where a police officer on night guard duty has been seen more often than he should be. Wind chimes hang from the rest-area roof and ring in every breeze. A stairwell and elevator lead back down to the Patient Rooms.",
+        "paths": [
+          "Patient Rooms"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a82546d-3586-4571-b77e-48f80286a8db.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d2bd0eb5-baa7-44bf-a409-d63b6eee2d6b.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

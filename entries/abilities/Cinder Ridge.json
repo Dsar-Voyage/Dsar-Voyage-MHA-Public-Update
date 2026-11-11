@@ -1,0 +1,20 @@
+{
+  "Cinder Ridge": {
+    "name": "Cinder Ridge",
+    "description": "The user slams a palm down and drives a knee-high ridge of smoking stone four strides across a floor, half the reach of an Earth Quirk user's line. Everyone on the line takes bludgeoning and fire damage and is knocked off their feet; held back, the ridge rises cooler and only trips them without burning. The broken strip radiates heat that blocks bare-handed crawlers until cooled. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magma Heart Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

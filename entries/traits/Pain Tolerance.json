@@ -1,0 +1,30 @@
+{
+  "Pain Tolerance": {
+    "name": "Pain Tolerance",
+    "description": "🩹 You keep functioning through injuries that would drop most people.\n\n⚠️ It heals nothing: injuries you ignore still get worse.\n📋 Requires level 16 and Conditioning 15.\n\n📈 Grants: Health +15",
+    "traitNarrativeEffects": "The character has been hurt often enough to work through pain: they stay conscious, keep moving and think clearly through bruises, burns and cracked ribs. Show it as grim focus and injuries noticed only after the fight. Limits: tolerance heals nothing; ignored injuries get worse, Recovery Girl or a hospital doctor will still order rest, and a hard blow to the head still knocks them out.",
+    "attributes": [],
+    "skills": [],
+    "resources": [
+      {
+        "resource": "health",
+        "modifier": 15
+      }
+    ],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "skill",
+        "variable": "Conditioning",
+        "amount": 15
+      }
+    ]
+  }
+}

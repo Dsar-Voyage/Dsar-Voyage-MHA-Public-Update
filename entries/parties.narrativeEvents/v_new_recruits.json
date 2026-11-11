@@ -1,0 +1,15 @@
+{
+  "v_new_recruits": {
+    "title": "New Faces at the Bar",
+    "beats": "An evening at the League Hideout Bar, days after the Hosu incident. Every channel replays Stain, the Hero Killer, bleeding and standing before the pros, and the news ties the League of Villains to the Nomu loosed on Hosu that night. For the first time people want in, and Tomura Shigaraki hates that they come for Stain and not for him. He sits on the end stool at the Bar Counter; Kurogiri polishes glasses; the party is already there.\n\nThe slot at the Alley Entrance opens and Giran, the broker, comes in smiling with two introductions. Himiko Toga bounces in after him, gives her name brightly, says she wants to be Stain, or maybe to kill him, and asks to join. Dabi leans in the doorway, gives no name but Dabi, and asks whether the sulking man at the counter is really the one carrying on what Stain started.\n\nDefault course, as pressure the party can change: the newcomers needle Tomura, Tomura sneers back, and within minutes it breaks. Tomura reaches for Dabi with five fingers, blue fire wakes in Dabi's palm, Toga's knife comes out, and Kurogiri opens gates that swallow the reaching hands before anyone turns to dust or ash. Tomura walks out into the alley without a word. Hours later Tomura comes back calmer and colder: he has decided what he wants to break, and the newcomers can stay if they help him break it.\n\nThe party is in the room for all of it. It can step between them, back one side, make a friend of Toga (cheerful, unnerving and very interested in anyone who bleeds), get nothing from Dabi but a shrug, or stay out of the way. Whoever it sides with remembers, Tomura most of all. Before he leaves, Giran mentions one more candidate for another night: a gecko-faced admirer of Stain with a blade of strapped knives. This is the night the newcomers arrive, not the vetting work Kurogiri may hand out later. Dabi gives no past, and the scene invents none.\n\nThe event is complete when Tomura returns with his decision or the night ends with the newcomers gone.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_new_recruits",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "Vigilante": {
+    "name": "Vigilante",
+    "description": "🎭 You are an unlicensed hero: masked, unpaid and breaking the law to protect people in Musutafu. Not a villain, but not legal either.\n\n⚖️ Hero work without a license is a crime. Police arrest vigilantes even when they save lives, though courts treat them apart from villains.\n🏫 A day job or classes, nights on the rooftops, small rescues, close calls with police and sleep during the day.\n🤝 Police log every sighting of your costume. A few heroes tolerate you, most do not, and residents start to recognize the mask.\n🔓 Learnable later: Gone Before the Cuffs, Snatch-Back.\n\n📈 Grants: Speed +1, Parkour +10, Search and Rescue +10, Stealth +5\n⚡ Starting technique: Before the Sirens\n🎒 Starts with: Homemade vigilante costume, Domino mask, ¥8,000, Backpack, Casual clothes",
+    "traitNarrativeEffects": "Legal status: unlicensed hero work, including Quirk use on people outside self-defense, is a crime: vigilantes are arrested and charged even after saving lives, though treated apart from villains. Never hurts bystanders or works for criminals.\nAccess: rooftops, alleys, fire escapes, known Musutafu routes, a police scanner, a hideout if civilian life allows; no agency, campus or police support.\nObligations: none on paper; in practice: the mask, a separate civilian life, self-treated injuries, villains left for police.\nWho notices: police, logging every costume sighting; heroes, a few tolerant; residents who learn the mask; villains whose jobs they spoil; press calling vigilantes a failing system's symptom.\nStanding pressures: more incidents than patrol pros (Kamui Woods, Mount Lady, Death Arms) can cover; at year start Stain, the Hero Killer, hunts pros he calls fakes, and the press may link any masked vigilante to him; one seen at a big incident becomes a suspect.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Parkour",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 10
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Before the Sirens"
+    ],
+    "startingItems": [
+      {
+        "item": "Homemade vigilante costume",
+        "quantity": 1
+      },
+      {
+        "item": "Domino mask",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 8000
+      },
+      {
+        "item": "Backpack",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

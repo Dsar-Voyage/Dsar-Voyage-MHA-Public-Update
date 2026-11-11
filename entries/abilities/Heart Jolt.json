@@ -1,0 +1,20 @@
+{
+  "Heart Jolt": {
+    "name": "Heart Jolt",
+    "description": "The user picks out a single person within a room's width and pushes a sharp feeling into them. Laughter doubles them over: until the end of their next turn they cannot aim a weapon or a Quirk or speak clearly; fear instead deals psychic damage and drives them a few steps back from the user. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Emotion Induction Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

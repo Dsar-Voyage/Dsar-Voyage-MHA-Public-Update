@@ -1,0 +1,20 @@
+{
+  "Snap Takeoff": {
+    "name": "Snap Takeoff",
+    "description": "The user snaps their wings open and launches in a single beat: onto a rooftop, across a street or river, or out of the path of an incoming attack, which misses them. They can land anywhere in sight or stay aloft and circle until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

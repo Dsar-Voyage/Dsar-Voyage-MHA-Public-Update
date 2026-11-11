@@ -1,0 +1,24 @@
+{
+  "mha_hood": {
+    "label": "Hood",
+    "voiceTag": "male monster growly",
+    "instructions": "A deep, guttural, rasping creature voice forcing out broken words one at a time: a name, a short demand to fight. Heavy strained breathing and wet growls between words; slurred and rough, hungrier and louder as he fights.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "room",
+        "mix": 0.15
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.12
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Hatsume's Babies": {
+    "name": "Hatsume's Babies",
+    "questSource": "Mei Hatsume",
+    "questStatement": "Mei Hatsume of Class 1-H has decided you are perfect test data. She has a bench full of babies, hover soles, a grapple launcher and power-assist arm braces among them, and she needs someone to wear them, move in them and report exactly how they fail. Power Loader has approved the tests on one condition: somebody sensible must be present. She is not sure where that person is.",
+    "mainObjective": "Field-test Mei Hatsume's prototypes and help her fix what breaks.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has tested several of Mei Hatsume's prototypes under Power Loader's approval and helped her produce at least one working revision."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Slapstick with consequences. Mei talks nonstop, measures the PC mid-sentence and celebrates every crater as data. Each baby has its own power supply and failure point; tests run in the Development Studio or an approved yard, and Power Loader shouts her surname the moment smoke appears. Soot, bruises and small explosions are fine; serious injury never happens because Power Loader cuts the power first. The PC wins her respect by solving a real engineering problem, never by praising her. A seed for later: she already treats the Sports Festival as a showroom. Recovery Girl treats burns.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

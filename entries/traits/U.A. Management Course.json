@@ -1,0 +1,68 @@
+{
+  "U.A. Management Course": {
+    "name": "U.A. Management Course",
+    "description": "💼 You learn the business side of heroics at U.A.: agency finance, contracts, public relations, media and crowds.\n\n🏫 Class 1-I, 1-J or 1-K: case studies, group pitches, hero-ranking analysis and assigned roles at school events.\n⚖️ No license: Quirk use is legal only in supervised training and in self-defense, and your work never needs a Quirk.\n🤝 Agencies hunting for managers, reporters who want a quote from inside U.A., and Hero Course students who need help with their image.\n🔓 Learnable later: Image Rebuild, Stadium Voice.\n\n📈 Grants: Intelligence +1, Media Presence +10, Business +10, Negotiation +5\n⚡ Starting technique: Press Line\n🎒 Starts with: U.A. school uniform, Tablet, Business cards, U.A. student ID, ¥10,000, School bag, Casual clothes, U.A. gym uniform",
+    "traitNarrativeEffects": "Legal status: adult first-year, Management Course (Class 1-I, 1-J or 1-K): agencies, hero publicity, events. No license: Quirk use only in supervised training and self-defense; the work never needs a Quirk.\nAccess: campus, school media and event offices, agency offices on internships, press and organizer areas at assigned events.\nObligations: business, law, marketing and hero-industry lectures; case studies, projects, pitches; school-event roles; Heights Alliance dorms from day one, curfew.\nWho notices: agencies seeking managers and publicists, reporters wanting an inside quote, Hero Course students wanting image help, teachers grading pitches.\nStanding pressures: with All Might teaching, gate reporters want quotes from any student; the Sports Festival is the biggest broadcast and a talent market, then hero names and agency internships; any U.A. incident becomes an image problem the course studies live.\nTypical week: news analysis, networking, part-time event work.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Media Presence",
+        "modifier": 10
+      },
+      {
+        "skill": "Business",
+        "modifier": 10
+      },
+      {
+        "skill": "Negotiation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Press Line"
+    ],
+    "startingItems": [
+      {
+        "item": "U.A. school uniform",
+        "quantity": 1
+      },
+      {
+        "item": "Tablet",
+        "quantity": 1
+      },
+      {
+        "item": "Business cards",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. student ID",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 10000
+      },
+      {
+        "item": "School bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      },
+      {
+        "item": "U.A. gym uniform",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Tufted Strike": {
+    "name": "Tufted Strike",
+    "description": "The user swings the thick part of their tail into one opponent within two meters, dealing moderate bludgeoning damage and pushing them a step aside. Held back, it checks the opponent's advance without knocking them down. The swing needs clear space and leaves the user's front exposed until the tail returns. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

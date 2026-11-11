@@ -1,0 +1,24 @@
+{
+  "Plate Cleaver": {
+    "name": "Plate Cleaver",
+    "description": "The user grows a single heavy blade the length of an arm and brings it down on a target with their whole weight. It deals heavy slashing damage that ignores worn armor, riot shields and hardened skin, and it splits a car door, a steel shutter or a safe's hinges in a single stroke. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

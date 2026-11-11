@@ -1,0 +1,20 @@
+{
+  "Studied: Climbing": {
+    "name": "Studied: Climbing",
+    "description": "🧗 You trained at a bouldering gym, on outdoor rock or with a mountain club, and you know rope work and belaying.\n\n🌱 Knots, anchors and reading a wall for holds. On a building, cliff or rubble pile you test each hold before trusting it.\n⚠️ Smooth glass, blank overhangs, crumbling concrete and climbing while hurt are beyond you, and long climbs drain your stamina.\n⚖️ Scaling a building in the city is trespass unless a hero or rescue operation directs it.\n🏫 It shows in chalk-dry hands, calloused fingertips and an eye that maps holds on any wall.\n\n📈 Grants: Climbing +15",
+    "traitNarrativeEffects": "The character has trained as a climber: bouldering, roped climbing, belaying, knots, anchors and reading a wall for holds. On a building, cliff or rubble pile they test each hold before trusting it and move one limb at a time. Prior study, not mastery: smooth glass, blank overhangs, crumbling concrete and climbing while injured are still beyond them, and a long climb drains their stamina. Not a license: scaling a building in the city is trespass unless a hero or rescue operation directs it. It shows in chalk-dry hands, calloused fingertips and an eye that maps holds on any wall.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Climbing",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

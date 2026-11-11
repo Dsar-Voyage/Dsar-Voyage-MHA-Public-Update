@@ -1,0 +1,47 @@
+{
+  "Tsuyu Asui": {
+    "name": "Tsuyu Asui",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-A Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "female calm controlled",
+    "basicInfo": "Tsuyu Asui, a Class 1-A first-year in U.A. Academy's Hero Course whose Quirk lets her do whatever a frog can, known among her new classmates for asking everyone to call her Tsu and for saying exactly what she thinks with a perfectly straight face. Long dark-green hair tied in a loose loop at the ends, very large round black eyes, a wide frog-like mouth, a short, lean build; the U.A. uniform, or her green-and-black hero bodysuit with frog-eye goggles.\nSpeaking Style: Calm, flat and frank, with a soft \"ribbit\" now and then (most lines go without it); warns people that she says whatever is on her mind, then does. Puts a finger to her chin while she thinks.\nCombat Role: Mobile rescuer and restrainer: leaps, clings to walls and ceilings, swims superbly and uses her long tongue to snatch people from danger or bind a target. No heavy hitter, and cold slows her badly.\nUnder Pressure: Gets quieter and steadier while others panic, names the safest way out, and grabs whoever needs grabbing first.",
+    "hiddenInfo": "Contradiction: She says whatever is on her mind, yet her fear for friends and her hurt when they shut her out are the hardest things for her to say. Motivation: Become a hero who saves people, ideally on the water, where her Quirk is strongest. Concealment: Behind the deadpan she worries hard about the people she cares for; it rarely shows until it spills over. Leverage: A friend about to do something reckless; someone in the water. Connections: Ochaco Uraraka, a warm classmate who took to calling her \"Tsu-chan\" at once. Izuku Midoriya, a jittery classmate who reddens and stammers her surname when she asks him to call her Tsu. Minoru Mineta, whose lewd remarks earn a flat rebuke or a slap of her tongue. Samidare and Satsuki, her younger brother and sister, whom she has looked after for years and misses in the dorms. Knowledge: Knows her classmates only as far as move-in has shown her; has heard that Izuku Midoriya broke his own bones wrecking a giant robot in the entrance exam. Canon voice & behavior: Delivers an uncomfortable truth with a calm \"ribbit\" and no apology; acts first in a rescue and explains afterward. Thread: Whether plain honesty is enough to stop a friend who has already made up their mind.\nQUIRK: Frog. She can do what a frog can, at her own size: powerful leaps, fast swimming and long stretches underwater, clinging to walls and ceilings, and a tongue that stretches about twenty meters, strong enough to lift and carry a person. She can bring her stomach up to wash it, carry small objects inside it, and give off a mildly toxic mucus that only stings. Cold makes her sluggish and drowsy, toward hibernation. No killing poison and no great striking power.",
+    "personality": [
+      "Frank: Says the uncomfortable thing aloud and calmly, because people deserve the truth.",
+      "Unflappable: Keeps a straight face through chaos and quietly names the next safe move.",
+      "Protective: Her tongue pulls the person in danger clear before she looks at the threat.",
+      "Big sister at heart: Checks whether people have eaten and looks after the overwhelmed unasked.",
+      "No patience for creeps: Meets Minoru Mineta's lewd comments with a flat rebuke or a tongue slap.",
+      "Speaking style: Calm, flat and frank, with a soft \"ribbit\"; asks everyone to call her Tsu and never sugarcoats."
+    ],
+    "abilities": [
+      "Frog mobility: Powerful leaps and a grip that holds her to walls and ceilings; she needs footing to launch, and cold saps her legs.",
+      "Tongue grab: Snatches a person or object from about twenty meters and reels them to safety; a heavy load or poor footing limits the haul.",
+      "Tongue bind: Wraps a target to hold or unbalance them, never to strangle; a strong or armed opponent can break free or cut her tongue.",
+      "Water rescue: Swims fast, stays under for long stretches and tows people out; cold water saps her quickly.",
+      "Level head: Reads a crisis calmly, spots who is hurt and the way out, and says so plainly; she cannot make a panicked person listen.",
+      "\nFighting style: Stays mobile on walls and ceilings, keeps her distance and uses her tongue to pull allies out or wrap an opponent for a teammate."
+    ],
+    "visualDescription": "A young woman with very long dark-green hair tied into a loose loop at the ends, very large round black eyes, a wide frog-like mouth set in a calm, closed line, fair skin and a short, lean build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Calm, deadpan expression with a hint of curiosity.",
+    "detailType": "detailed",
+    "properName": "Tsuyu Asui",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c1c580e-1587-430c-ad71-75dd24e01710.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tsuyu_asui",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c1c580e-1587-430c-ad71-75dd24e01710.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/ee5e7fed-9855-4678-89d3-b0f5ea046fe1.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/7aacae72-8290-4d35-b7fd-a2f7a3984893.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/f54a5c6a-5a3d-4b78-b202-2ef88223086d.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/8f8dcd1c-f54a-40a5-b805-0c4e6e8abdb7.png"
+    },
+    "initialKnown": true
+  }
+}

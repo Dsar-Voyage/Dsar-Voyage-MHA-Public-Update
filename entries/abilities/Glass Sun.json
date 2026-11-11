@@ -1,0 +1,25 @@
+{
+  "Glass Sun": {
+    "name": "Glass Sun",
+    "description": "The user's signature move: all the light passing through the user's body gathers at once and bursts out of them in a blaze that floods the area. Every enemy facing the user within a street's width takes massive light damage and is blinded until the end of their next turn, while allies warned to look away are spared; afterward the user flickers faintly into view and cannot bend light until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

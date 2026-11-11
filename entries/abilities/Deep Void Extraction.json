@@ -1,0 +1,15 @@
+{
+  "Deep Void Extraction": {
+    "name": "Deep Void Extraction",
+    "description": "The user goes where no stretcher fits, such as a flooded basement, a burning floor or a crawlspace under a failing slab, then straps the victim into a harness and hauls them out by rope. The user can reach and bring out a trapped person anywhere their own body fits, and the victim takes no further injury on the way out, though the user still faces the fire, water and debris. Stamina: extreme.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 12
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 2
+  }
+}

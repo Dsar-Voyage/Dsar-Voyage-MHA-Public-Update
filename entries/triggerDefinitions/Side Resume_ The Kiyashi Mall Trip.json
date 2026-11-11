@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Kiyashi Mall Trip": {
+    "name": "Side Resume: The Kiyashi Mall Trip",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_mall_trip",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_mall_trip",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_mall_trip",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_mall_trip"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_mall_trip",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Kiyashi Mall Trip\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: A free day after the final exams, with the forest training camp still ahead."
+      }
+    ]
+  }
+}

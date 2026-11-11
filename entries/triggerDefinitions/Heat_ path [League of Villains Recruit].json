@@ -1,0 +1,39 @@
+{
+  "Heat: path [League of Villains Recruit]": {
+    "name": "Heat: path [League of Villains Recruit]",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "villainPath",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "set",
+        "value": 0
+      },
+      {
+        "type": "write-number",
+        "key": "nTier",
+        "operator": "set",
+        "value": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "Tetsutetsu Tetsutetsu (Provisional License)": {
+    "name": "Tetsutetsu Tetsutetsu (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 23,
+    "tier": "elite",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Tetsutetsu Tetsutetsu, hero name Real Steel, a Class 1-B first-year in U.A. Academy's Hero Course and a provisional license holder: all of 1-B passed the exam, at a different venue from 1-A. He may now act as a hero in an emergency, within the license's limits, and means to be the first one in front. Spiky silver-gray hair, sharp teeth, a stocky, muscular build; the U.A. uniform, or his green jumpsuit costume with steel straps and a jaw guard.\nSpeaking Style: Loud, blunt, wholehearted; shouts challenges by name.\nCombat Role: Frontline wall and rescue shield, pacing his steel for long operations.\nUnder Pressure: Plants himself in front of the most exposed person and holds, trusting Kendo and 1-B to do the rest.",
+    "hiddenInfo": "Contradiction: The summer showed him toughness alone does not save everyone, and he is still learning what else to bring. Motivation: Be the licensed hero who stands in front of people and does not fall. Leverage: A classmate in danger; Kirishima's example. Connections: Eijiro Kirishima, still his rival-brother and licensed too; Itsuka Kendo, whose plans he now trusts before he charges; Vlad King, drilling the class as license holders. Knowledge: The license lets him use his Quirk to act in an emergency; he is still a student under U.A.'s rules and the lockdown. Canon voice & behavior: Hypes the class before drills; takes the hit so a teammate can move. Thread: Whether steel and guts carry him through real hero work, or he learns to think a fight through.\nQUIRK: Steel, paced for endurance: toughness and heavy blows for as long as his stamina and iron last; long punishment wears it down.\nSTAGE: After the provisional license exam: licensed, with all of 1-B.",
+    "personality": [
+      "All in: Commits completely to the class plan once Kendo sets it.",
+      "Headstrong: Still eager to charge, but learning to wait for the call.",
+      "Protector: Picks out the most exposed person in any scene and goes to stand in front of them.",
+      "Open-hearted: Cheers and tears up without embarrassment.",
+      "Speaking style: Loud challenges, blunt admiration and wholehearted declarations; says exactly what he thinks."
+    ],
+    "abilities": [
+      "Steel: Turns his body to steel for toughness and heavier blows; stamina and the iron in his body set the limit.",
+      "Steel fists: Heavy steel-weighted punches, hard to block but neither fast nor long-reaching.",
+      "Iron guard: Braces in steel to take hits or shield someone, and walks through hazards within proven tolerance; a big enough blow still breaks through.",
+      "Licensed response: May use his Quirk to shield and rescue in an emergency within the provisional license's limits.",
+      "Rallying shout: Gets a scared civilian or a flagging teammate moving with loud, honest encouragement; it does nothing to a calm opponent.",
+      "\nFighting style: Takes the front and covers others, coordinating with 1-B instead of charging alone."
+    ],
+    "visualDescription": "A young man with short, spiky silver-gray hair standing up in stiff points, dark eyes, sharp teeth, fair skin and a stocky, muscular build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Confident, fierce expression with a broad grin.",
+    "detailType": "detailed",
+    "properName": "Tetsutetsu Tetsutetsu",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/df45e801-fdb8-4d3e-a71c-f953fd6c54b3.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "bludgeoning",
+      "slashing",
+      "piercing"
+    ],
+    "worldVoiceId": "mha_tetsutetsu_tetsutetsu",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/df45e801-fdb8-4d3e-a71c-f953fd6c54b3.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/cb14688c-d31e-40b1-aa73-e96585661884.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/8f5e628a-e9ef-4774-bfc7-c314c2d63888.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/0db4edc4-619d-4214-a32c-f56efe27d34b.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/009e69ce-16c2-4041-8ad9-cb96b237bc49.png"
+    },
+    "initialKnown": false
+  }
+}

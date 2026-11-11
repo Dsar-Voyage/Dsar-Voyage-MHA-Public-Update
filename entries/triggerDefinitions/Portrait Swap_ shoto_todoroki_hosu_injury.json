@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: shoto_todoroki_hosu_injury": {
+    "name": "Portrait Swap: shoto_todoroki_hosu_injury",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_hosu_incident",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/057ad0b9-39e6-407e-80e2-e5f538e5be43.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/057ad0b9-39e6-407e-80e2-e5f538e5be43.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/057ad0b9-39e6-407e-80e2-e5f538e5be43.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Shoto Todoroki (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/057ad0b9-39e6-407e-80e2-e5f538e5be43.png"
+      }
+    ]
+  }
+}

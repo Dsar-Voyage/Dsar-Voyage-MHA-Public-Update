@@ -1,0 +1,25 @@
+{
+  "Permafrost Reach": {
+    "name": "Permafrost Reach",
+    "description": "The user drives frost down into the ground and out along every street, pipe and wall it reaches until ice covers a district several city blocks across within a minute. For the rest of the scene the user can raise a wall, a ramp or a restraint anywhere in that district without touching it, and an enemy struck by ice the user raises takes heavy cold damage; held back, the ice only locks them in place. Every road there is unusable for traffic, and the user must keep a hand on the ground the whole time or the district stops answering. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

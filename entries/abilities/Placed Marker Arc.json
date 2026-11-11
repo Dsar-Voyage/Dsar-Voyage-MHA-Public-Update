@@ -1,0 +1,20 @@
+{
+  "Placed Marker Arc": {
+    "name": "Placed Marker Arc",
+    "description": "The user fires a discharge toward a compatible targeting marker already placed within a street's width. One opponent beside that marker takes moderate electric damage and drops what they hold; held back, the arc only stuns. The marker is support gear rather than part of the Quirk, and without it the user cannot direct this distant strike. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

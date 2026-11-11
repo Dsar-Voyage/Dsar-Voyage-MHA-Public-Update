@@ -1,0 +1,20 @@
+{
+  "Scattered Search": {
+    "name": "Scattered Search",
+    "description": "The user divides into several small pieces and sends them through open gaps across one building floor to find a missing person or an exit. Each piece can be called back with a sighting before the end of the scene. Doors and sealed walls still block them, and following several views at once makes the user slow to notice threats beside the main body. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

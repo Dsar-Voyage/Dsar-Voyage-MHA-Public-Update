@@ -1,0 +1,20 @@
+{
+  "Folded Concrete Stair": {
+    "name": "Folded Concrete Stair",
+    "description": "The user presses a hand to a thick concrete wall and folds steps outward to an opening six meters above, leaving a climbable rescue route for the rest of the scene. The user checks the opening by sight; insufficient concrete or obstructing reinforcement limits the stair, and the Quirk supplies no safety rail without more material. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Cement Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

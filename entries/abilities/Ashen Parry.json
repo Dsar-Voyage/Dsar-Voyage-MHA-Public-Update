@@ -1,0 +1,20 @@
+{
+  "Ashen Parry": {
+    "name": "Ashen Parry",
+    "description": "The user meets a swung blade, bat or pipe, a thrown object or a falling chunk of debris with an open palm, whether it is aimed at them or at a person beside them, and it turns to dust on contact. That attack deals no damage and the weapon is destroyed; a bare fist or kick met this way is only blocked, because the user holds the decay back from flesh. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

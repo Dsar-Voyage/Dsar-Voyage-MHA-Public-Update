@@ -1,0 +1,20 @@
+{
+  "Tail Hammer": {
+    "name": "Tail Hammer",
+    "description": "The user swings a heavy tail, or slams their whole dense body, into a target within reach. It deals heavy bludgeoning damage and throws the target off their feet or clear out of the water; held back, it only knocks them flat and winded, unable to rise until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

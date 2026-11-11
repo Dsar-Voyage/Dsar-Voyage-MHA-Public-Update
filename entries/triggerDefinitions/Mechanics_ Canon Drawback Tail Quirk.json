@@ -1,0 +1,22 @@
+{
+  "Mechanics: Canon Drawback Tail Quirk": {
+    "name": "Mechanics: Canon Drawback Tail Quirk",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Tail Quirk"
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-traits",
+        "operator": "add",
+        "value": "Drawback: Bodily Toll",
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": false,
+    "scope": "player"
+  }
+}

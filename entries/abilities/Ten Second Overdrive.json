@@ -1,0 +1,24 @@
+{
+  "Ten Second Overdrive": {
+    "name": "Ten Second Overdrive",
+    "description": "The user forces their calf engines above normal output for ten seconds, covering a clear three-hundred-meter route or overtaking a speeding vehicle. The user must plan turns before accelerating and cannot stop abruptly without risking injury. After the burst the engines stall until the end of the user's following turn; blocked pipes or insufficient fuel ends it early. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

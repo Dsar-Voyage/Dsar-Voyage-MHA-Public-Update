@@ -1,0 +1,15 @@
+{
+  "mha_denki_kaminari": {
+    "label": "Denki Kaminari",
+    "voiceTag": "male confident energetic",
+    "instructions": "Bright, light young man's tenor with a goofy grin in it; loud, quick and upbeat slacker slang. Cracks upward into a yelp when scared, slides into a fake-smooth croon when flirting, goes slack and dopey when overloaded. Never grave.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

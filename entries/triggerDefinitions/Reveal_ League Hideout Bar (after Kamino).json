@@ -1,0 +1,22 @@
+{
+  "Reveal: League Hideout Bar (after Kamino)": {
+    "name": "Reveal: League Hideout Bar (after Kamino)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "League Hideout Bar",
+        "operator": "set",
+        "value": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Twin Reel Slam": {
+    "name": "Twin Reel Slam",
+    "description": "The user's signature move: the user attaches both elbow strips to solid points beyond one opponent, reels forward and strikes with the momentum for heavy bludgeoning damage. Held back, the user wraps the opponent and drives them to the ground for capture. Missing either anchor spoils the approach, and the abrupt stop leaves the user's elbows painful. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "Gym Gamma": {
+    "name": "Gym Gamma",
+    "basicInfo": "Gym Gamma, nicknamed Training Dungeon Land, is a large indoor gym with a reinforced concrete floor and walls, on the main campus, a short walk northeast of the main building, about 400 meters by the path from the Courtyard. Cementoss reshapes the concrete into cliffs, pillars, pits and arenas to suit each class or student, so the training fits the Quirk instead of the other way around. Hero Course classes use it in afternoon blocks for terrain drills and special-move training, booked through the Faculty Office and supervised by Cementoss, often with Ectoplasm's clones as sparring partners. Students can request time after classes, and they sign a sheet at the door on the way in and out. It is locked whenever Cementoss or another teacher is not inside, and no one trains here alone. The building has one wide door on the campus side, changing rooms and a first-aid kit at the entrance, and a viewing gallery along one wall where waiting students sit. A session might put one student on a pillar thirty meters up, another in a pit full of clones, and a third throwing the same move at the same wall for an hour. The gym is the place to build a special move, test a Quirk's limits safely, or ask Cementoss for terrain nobody else has thought to ask for. Recovery Girl's Infirmary is a five-minute walk away, and Cementoss sends anyone with a bad landing there at once. Under the high roof every impact booms, and cement dust hangs in the air.",
+    "hiddenInfo": "Hero Course requests for after-class time often outnumber the slots, most of all before the Sports Festival and exams, and Cementoss favors students who arrive with a plan, since he supervises every session himself. Terrain he leaves standing stays until he returns, and loose blocks from broken formations are a hazard to anyone training alone. The walls are rated for heavy Quirk impacts, but repeated blasts in one spot crack them, and a cracked wall closes the gym until he rebuilds it. Right now a hairline crack runs across the north wall at shoulder height, and Cementoss has chalked a circle around it and plans to rebuild it on Saturday; a student who keeps blasting that wall before then could close the gym for days. Ectoplasm's clones hold back exactly as much as the student in front of them needs and no more, and he grades from the result in two sentences. The after-class booking sheet for the next two weeks is already half full, and most of the names are from Class 1-B, which noticed it first.",
+    "x": -4.14,
+    "y": -18.598,
+    "radius": 0.12,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Gym Gamma Entrance": {
+        "description": "The way into Gym Gamma from the main campus: a paved forecourt at the end of the path from the Courtyard, about 400 meters and five minutes on foot, in front of the gym's one wide door, a pair of reinforced steel doors under a concrete canopy. A bike rack, a bench and a drinking fountain stand along the wall, shoes and bags pile up beside the doors before a session, and a notice board holds the after-class booking times. The gym is on the main campus, so classes walk here instead of taking the bus. The doors stay locked unless Cementoss or another teacher is inside; students waiting for a booking sit on the bench or stretch on the forecourt, and every impact from the training floor comes through the doors as a dull boom. After a session they come out gray with cement dust and head back toward the main building or to Recovery Girl's Infirmary. Through the doors lies the Equipment Bay.",
+        "paths": [
+          "Equipment Bay"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c9e75c2-cce1-4649-a904-e382a35847b2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Gym Gamma Training Floor": {
+        "description": "The main floor of Gym Gamma, the gym students call Training Dungeon Land: a vast hall of reinforced concrete under a high steel roof, with floodlights overhead and one wide door on the campus side. Cementoss lays a palm on the floor and it rises into cliffs, pillars, pits, ramps and walled arenas shaped for whoever is training, and whatever he leaves standing waits there until he comes back. Hero Course classes take the floor in afternoon blocks for terrain drills and special-move work, with Ectoplasm's clones dropping from ledges to spar; after classes, students who booked time through the Faculty Office train under his eye, one on a pillar thirty meters up, another holding a pit against a ring of clones, a third throwing the same move at the same wall for an hour. No one trains here alone, and the gym is locked whenever no teacher is inside. On the north wall, a hairline crack at shoulder height sits inside a chalk circle, and everyone with sense aims elsewhere. Every impact booms off the roof, and cement dust hangs in the light. The Equipment Bay and the stairs up to the Gym Gamma Observation Deck both open off the floor.",
+        "paths": [
+          "Equipment Bay",
+          "Gym Gamma Observation Deck"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1cb6adef-1397-4612-920a-63e223b670a0.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Equipment Bay": {
+        "description": "A long, low room just inside Gym Gamma's door, between the changing rooms and the training floor, where everything the floor needs is kept in order. Stacked crash mats line one wall, with helmets and elbow guards on open shelves by size, weighted vests on hooks, timing gates and stopwatches in a locked cabinet, and buckets, wide brooms and shovels for the rubble every session leaves. The first-aid kit hangs by the door with a folding stretcher clipped beneath it, and the sign-in sheet hangs on a clipboard beside it: every student writes a name and a time going in and coming out, and Cementoss reads it before he locks up. A whiteboard lists the after-class bookings for the next two weeks, already half full and mostly in Class 1-B handwriting. Students strap on gear here before a session and come back gray with dust afterward, comparing who lasted longest against Ectoplasm's clones. Reinforced racks hold heavier gear made for students whose Quirks would tear ordinary equipment, and a hand-lettered notice asks everyone to return it clean. The room smells of rubber mats and wet cement. It opens onto the Gym Gamma Training Floor.",
+        "paths": [
+          "Gym Gamma Training Floor",
+          "Gym Gamma Entrance"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c3dd3c34-7d21-4be7-9ffb-72e2473f94a8.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Gym Gamma Observation Deck": {
+        "description": "A raised viewing gallery along one side wall of Gym Gamma, reached by a steel stair from the training floor: rows of bench seating behind a waist-high concrete parapet topped with thick shatterproof panels, high enough to see every cliff and pit Cementoss raises below. Waiting students sit here between turns, towels around their necks, watching classmates and taking notes on Quirks that are not their own; teachers who booked the floor for a class stand at the rail to call out corrections, and Ectoplasm sometimes grades from up here while his clones do the work below. During afternoon blocks the benches fill with a whole class in gym uniforms; after classes they hold a handful of students waiting for their slot and the occasional classmate who came only to watch a rival train. The rule is simple: nobody throws anything from the gallery, Quirks included, and anyone leaning over the panels gets a quiet word from Cementoss without his ever looking up. Through the panels every blast below arrives as a dull thud felt through the bench, and dust films the rail by evening. The stair leads back down to the Gym Gamma Training Floor.",
+        "paths": [
+          "Gym Gamma Training Floor"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0ccddd2d-7b9e-4e89-9275-7c398d97ea15.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "U.A. Academy"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/47cd8b94-bbf4-4d6a-b1eb-b6ed4f74d94d.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

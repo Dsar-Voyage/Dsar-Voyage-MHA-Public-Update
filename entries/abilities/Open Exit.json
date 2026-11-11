@@ -1,0 +1,20 @@
+{
+  "Open Exit": {
+    "name": "Open Exit",
+    "description": "The user opens a door-sized gate and holds it until the end of their next turn, its exit set in a safe place they know within a few blocks. Everyone who walks, runs or is carried through in that time is out of the danger; pursuers can follow unless the user lets it close, which pushes anyone halfway through back out unharmed. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

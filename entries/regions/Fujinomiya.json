@@ -1,0 +1,30 @@
+{
+  "Fujinomiya": {
+    "name": "Fujinomiya",
+    "basicInfo": "Fujinomiya is the cell west of Mount Fuji: the paper-mill city of Fuji on the coast at the southeast corner, Fujinomiya town on the mountain's southwest skirt, the Asagiri plateau and three of the Fuji Five Lakes in the northeast, the Fuji River valley through Yamanashi's Minobu country in the middle, and the empty foothills of the Southern Alps around the upper Oi and Abe rivers in the west. Mount Fuji's summit stands just beyond the eastern edge, filling the sky. Fuji city's shore at Tagonoura is the region's only coast, a strip of dark sand and a small fishing harbor with Suruga Bay to the south. The Fuji River, fast and gray with gravel, comes down from the Kofu basin through gorges and reaches the sea just south of the city. The climate runs from mild on the coast to cold on the plateau. Fuji is an industrial city of paper and pulp mills whose white smokestacks frame the volcano, and Tagonoura lands tiny shirasu whitebait. Fujinomiya is a gateway town of the mountain, built around the head Sengen shrine; it is known for chewy Fujinomiya yakisoba, trout farms fed by spring water, and dairy and tea on the lower slopes. North of town the Shiraito Falls spill in hundreds of silken threads from a curved lava cliff, and the Asagiri plateau grows grass for dairy cows and launches paragliders. Lakes Motosu, Shoji and Sai lie in a dark sea of lava forest, Aokigahara, where wind and ice caves open in old lava tubes. Up the Fuji valley, Minobu is a temple town on a cedar mountain, home of the head temple of the Nichiren school and its famous weeping cherries. The Tokaido Shinkansen stops at Shin-Fuji, the JR Tokaido and Minobu lines meet at Fuji, the Tomei, Shin-Tomei and Chubu-Odan expressways cross the region, and Route 139 climbs north around the mountain's western side to the lakes. Musutafu, the neighbor to the southeast, is about fifteen minutes away by kodama, and Tokyo about an hour and ten minutes. Visitors camp by the lakes, paddle and tour the caves and falls. Fuji and Fujinomiya keep police stations and several hero agencies; mountain and forest rescue is a constant job for licensed heroes with flight or sensing Quirks.",
+    "hiddenInfo": "Fujinomiya's undercurrents are the mills and the mountain. Fuji's paper industry is shrinking, leaving older workers anxious and some mill land idle, while tourist traffic on Route 139 brings crashes, illegal camping and litter around the lakes. Hikers and campers get lost in the lava forest, and search parties are a familiar sight. The Minobu valley is emptying. Hero help is quick in Fuji and Fujinomiya and close at hand from the busy cities to the east; the western Alps valleys wait an hour or more.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -1,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/12fd8d02-c5cd-41b1-83f1-f6d19fb60467.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

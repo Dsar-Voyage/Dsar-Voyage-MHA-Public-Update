@@ -1,0 +1,87 @@
+{
+  "Tartarus": {
+    "name": "Tartarus",
+    "basicInfo": "Japan's maximum-security prison for villains too dangerous for any ordinary facility, built into a small volcanic island among the Izu Islands, about 55 km south-southeast of the Tartarus Transfer Port. It is a national facility: a guard force under the National Police Agency runs custody and transfers, and the Hero Public Safety Commission vets the staff and approves every visit. Nobody casually visits, and there is no public access of any kind. Nobody lands without written authorization, and only by armored transfer boat or helicopter from the port; every arrival is met at the landing by armed guards and escorted from that moment until departure. Visitors pass a chain of checkpoints, surrender phones and belongings, and are scanned and searched more than once; anyone whose papers do not match the day's log goes back on the boat. Inmates live in solitary cells deep inside the island, each built around its occupant's Quirk; they wear restraints that block their Quirks, and automatic guns cover every cell. Inmates leave a cell only in full restraints with an escort of four guards, and no door opens without two officers confirming it. Guards work long rotations on the island in armored gear, eating and sleeping in quarters inside the walls. Only the worst offenders are sent here: serial killers, villains whose Quirks no ordinary cell can hold, and criminals judged too dangerous to live among other prisoners. A player can deliver a prisoner, interview an inmate with approval, work a guard rotation, or investigate a case. Sound is controlled: steel doors seal with a hiss, alarms are tested at set hours, and the sea can be heard only at the landing.",
+    "hiddenInfo": "Tartarus is nearly full. The number of villains judged too dangerous for ordinary prisons has risen for years, and the guard force works longer rotations to cover it; some guards have not been ashore in three weeks, and mistakes on the night shift are becoming more common: a logged check that was never walked, a door confirmation given by radio instead of in person. A few inmates' files are sealed, and the Commission screens every request to see them. The whole design assumes the restraints, the cell locks and the guns never fail at the same moment, and the backup generators are tested monthly. A guard is under review for passing an inmate's letter out unread; he says he was told it was a note to a lawyer, and the review has not yet found who asked him. Among the inmates is Moonfish, a serial killer under a death sentence, held in the Maximum-Security Cell Block. He murmurs about meat for hours and rarely answers what he is asked, and the guards rotate who brings his meals because he unsettles everyone who stands at his slot. Detectives from several prefectures have requested interviews with him about old cases, and most leave with nothing. To the staff, the danger is not any one inmate but tiredness: a crew that has done the same checks for weeks starts to see what it expects to see.",
+    "x": 10.49,
+    "y": 17.843,
+    "radius": 1,
+    "region": "Tartarus Waters",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Guard Control Center": {
+        "description": "The command room at the island's core: a wall of monitors showing every cell, corridor and checkpoint, lock and gun controls behind a second sealed door, an armory, and a duty desk where every arrival, transfer and visit is logged by hand and by computer. A shift supervisor and a full team are on duty around the clock, changing at six in the morning and six at night, and each handover is read aloud line by line. Nothing opens without two officers confirming it, and no one enters alone, not even the supervisor. Arrivals from the landing are brought here first, checked against the day's log and assigned an escort. The room is cold, equipment hums, the coffee is bad, and conversation stays short. Secured corridors lead to the Visitor Interview Room and, through the guarded elevator, down to the Maximum-Security Cell Block.",
+        "paths": [
+          "Visitor Interview Room",
+          "Maximum-Security Cell Block"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1014ead2-3d74-4a3a-a57c-9d2bc1d826dd.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Visitor Interview Room": {
+        "description": "A bare room split in two by a thick transparent wall. On the inmate's side, the prisoner sits strapped into a fixed chair under automatic guns that fire at any sign of Quirk use. On the visitor's side there is one chair and a speaker grille, bolted to the floor. Visits are approved weeks ahead, limited in time, recorded, and watched by guards on both sides; a clock above the wall counts down the minutes. Before every visit a guard reads the rules aloud: no gifts, no touching the wall, and the visit ends at the first breach. Visitors come in already searched, with nothing in their hands but the papers they were allowed to bring. The light is flat and white, the walls are bare concrete, and the only other sound is the faint whir of the guns tracking the prisoner. A sealed door leads back to the Guard Control Center.",
+        "paths": [
+          "Guard Control Center"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0603056e-82d2-40c9-a8e7-eeef80ccdb99.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Maximum-Security Cell Block": {
+        "description": "Levels of solitary cells deep beneath the island, reached by a single guarded elevator. Each cell is sealed by a heavy door and built around its occupant's Quirk, with restraints that block it, automatic guns covering the bed, and lights that never fully go off. Meals arrive through a slot at fixed hours; inmates leave only in full restraints with an escort of four guards, for interviews, medical checks or transfers. Guards walk the corridors in pairs at fixed intervals and speak to inmates only to give orders. Each door carries a number, not a name, and a colored stripe that tells the guards how dangerous the occupant is. From one cell a broken voice repeats the same word for hours, and the guards have learned not to answer. The air is filtered, dry and smells of metal. The elevator leads back up to the Guard Control Center.",
+        "paths": [
+          "Guard Control Center"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4767d9fe-bcee-41c1-ba12-e2a8985085a1.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Japanese Police",
+      "Hero Public Safety Commission"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1849962e-4c98-44c9-ab73-1555467435fa.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

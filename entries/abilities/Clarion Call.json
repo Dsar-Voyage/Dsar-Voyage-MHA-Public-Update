@@ -1,0 +1,20 @@
+{
+  "Clarion Call": {
+    "name": "Clarion Call",
+    "description": "The user's voice carries clearly across a whole disaster site or stadium, cutting through sirens, alarms and screams. Panicked people who hear it can follow the user's simple directions, such as which exit to take or when to stay down, and anyone trapped who calls back is heard and located. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

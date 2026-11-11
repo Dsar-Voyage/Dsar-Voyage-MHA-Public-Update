@@ -1,0 +1,24 @@
+{
+  "Far Door": {
+    "name": "Far Door",
+    "description": "The user opens a door-sized gate to any place they know well anywhere in the city and holds it while they and a handful of people step through. They can reach a hospital, an agency, a hideout or a home across town in a single step, though anyone else who reaches the gate before it closes comes too. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

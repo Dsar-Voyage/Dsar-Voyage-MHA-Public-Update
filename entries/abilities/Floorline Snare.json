@@ -1,0 +1,20 @@
+{
+  "Floorline Snare": {
+    "name": "Floorline Snare",
+    "description": "The user fixes tape between two low anchors across a passage. The first running target who crosses it trips and remains tangled until the end of their next turn, giving an ally time to apply cuffs. A cautious target can see and step over the line, and a blade or hard pull can break it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

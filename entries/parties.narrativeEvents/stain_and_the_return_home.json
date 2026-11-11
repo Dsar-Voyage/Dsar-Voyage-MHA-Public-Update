@@ -1,0 +1,15 @@
+{
+  "stain_and_the_return_home": {
+    "title": "What Remains of All Might",
+    "beats": "Later on May 2, All Might stands in Kamino Ward, confronting the apparent uselessness of a former symbol who could not keep his student beside him. Moko Tamashi tends the memorial associated with his final public rescue. Stain approaches independently. At U.A. Academy, Izuku Midoriya finally has a chance to wash, eat and rest, provided the preceding admission decision allows it.\n\nThe canon default course, as pressure the player can change: Stain challenges All Might's despair and directs his attention toward Moko's ordinary act of care. Her continued gratitude demonstrates that saving someone has consequences beyond a hero's ability to win another fight. Stain's argument does not make his murders acceptable or turn him into a licensed ally. All Might can hear the challenge while still opposing him. The player may protect Moko's privacy, challenge Stain, secure the exchange or help All Might recognize the work he can still do.\n\nStain hands over information stolen from Tartarus. Through analysis and comparison with other intelligence, it reveals that the enemy's completion timetable is much shorter than expected. It is not a public document automatically understood by everyone at the memorial. If Stain remained imprisoned, was intercepted or lost the material, establish whether another credible delivery exists and retain any delay. At the Academy, classmates help Izuku clean up and rest; he and All Might reconcile when they actually meet. Remove the filthy patrol presentation after washing, but preserve scars, fatigue and the need for treatment.\n\nBy Path: at Kamino Ward, Vigilante can encounter the confrontation, Civilian Life can maintain the memorial, and Licensed Sidekick or Licensed Pro Hero can secure a route or receive an authorized handover. League of Villains Recruit and Independent Villain can pursue the intelligence only through witnessed information or existing contacts. At U.A. Academy, Class 1-A and Class 1-B offer companionship, General Studies supports shelter routines, Support assesses costume damage, Management protects delivery and Faculty evaluates the shortened deadline. All Might's restored purpose should create practical planning work, not a return of his lost power. Anyone learning the outcome remotely receives only the appropriate personal or operational report.\n\nThe event is complete when Izuku has an explicit recovery arrangement and the Tartarus information has reached the planners, been lost or been delayed under a stated alternative.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_stain_and_the_return_home",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

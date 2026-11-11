@@ -1,0 +1,20 @@
+{
+  "Glass Stairway": {
+    "name": "Glass Stairway",
+    "description": "The user grows a stair of thick glass up a building face, a ramp to an upper window or a narrow bridge across a street-wide gap, and runs up it as it sets. It holds the user and a line of people walking single file, and through it the user feels the weight of everyone standing on it; a heavy blow to its weak point brings it down, so the user keeps that point shifting toward the wall. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

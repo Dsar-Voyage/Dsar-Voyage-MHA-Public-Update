@@ -1,0 +1,20 @@
+{
+  "Patient Tow": {
+    "name": "Patient Tow",
+    "description": "The user forms a padded gel cradle around one reachable injured adult, keeping the face clear, and draws it along the ground within six meters for three turns. The cradle supports the body without gripping wounds. The user moves at walking pace, cannot lift it over walls and must replace gel fouled by debris. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gelatinous Guardian Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

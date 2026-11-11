@@ -1,0 +1,20 @@
+{
+  "Back-Door Shortcut": {
+    "name": "Back-Door Shortcut",
+    "description": "The user leads people through the back ways of their own neighborhood: a shop's rear door, a parking garage, a shrine path, a service stair. The group comes out ahead of whatever they were fleeing or racing toward, and anyone sticking to the main streets falls behind. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Civilian Life",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Evacuation",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

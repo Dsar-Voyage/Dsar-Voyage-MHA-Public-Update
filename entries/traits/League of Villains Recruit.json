@@ -1,0 +1,60 @@
+{
+  "League of Villains Recruit": {
+    "name": "League of Villains Recruit",
+    "description": "🦹 You are a recruit in the League of Villains while it is still a small crew in a hidden bar, taking orders from Tomura Shigaraki.\n\n⚖️ A criminal. If caught, you face custody, trial and, for serious villains, Tartarus. At the start no record ties you to the League.\n🤝 Kurogiri, the mist-bodied bartender, watches everything. Shigaraki tests new recruits. Sensei speaks only from a screen and expects results.\n⚠️ Orders come without explanation and change with Shigaraki's temper, and the League treats some recruits as disposable.\n🔓 Learnable later: Signal-Cut Raid, Spark the Stampede.\n\n📈 Grants: Power +1, Intimidation +10, Stealth +10, Streetwise +5\n⚡ Starting technique: Hired-Hand Command\n🎒 Starts with: Villain coat and gear, Burner phone, Balaclava, ¥20,000, Go-bag, Casual clothes",
+    "traitNarrativeEffects": "Legal status: criminal (Quirk use on people, every League job); capture: custody, trial, Tartarus if serious. No record links them to the League at start unless the story start sets one.\nAccess: the hidden bar (door or Kurogiri's warp gates), safe rooms, back exits, hired thugs, their broker.\nObligations: secrecy; answering calls; Tomura Shigaraki's unexplained orders, shifting with his temper; results for Sensei, a voice on the bar's screen; his name, face and plans stay unknown.\nWho notices: Kurogiri, mist-bodied bartender, watches all; Shigaraki tests recruits, talks plans like a video game; Quirk-crime detectives once a job goes public; heroes who see their face.\nStanding pressures: a tiny League (Shigaraki, Kurogiri, hired thugs); Sensei supplies the Nomu, huge silent bioengineered brutes. Shigaraki wants All Might dead and hero society broken; hired help and some recruits are disposable. The character decides how far to go; everyone wants what they know.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Intimidation",
+        "modifier": 10
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 10
+      },
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Hired-Hand Command"
+    ],
+    "startingItems": [
+      {
+        "item": "Villain coat and gear",
+        "quantity": 1
+      },
+      {
+        "item": "Burner phone",
+        "quantity": 1
+      },
+      {
+        "item": "Balaclava",
+        "quantity": 1
+      },
+      {
+        "item": "Yen",
+        "quantity": 20000
+      },
+      {
+        "item": "Go-bag",
+        "quantity": 1
+      },
+      {
+        "item": "Casual clothes",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

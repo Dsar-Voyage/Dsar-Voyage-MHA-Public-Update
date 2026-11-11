@@ -1,0 +1,20 @@
+{
+  "Doorway Break": {
+    "name": "Doorway Break",
+    "description": "During a sugar-fueled surge, the user forces open one reinforced door or breaks a thin wall within reach to create an escape path. They check the space beyond before pushing through. The effort takes most of a turn, and the user's strength returns to normal when the short surge ends. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sugar Rush Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

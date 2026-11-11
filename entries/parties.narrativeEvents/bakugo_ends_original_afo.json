@@ -1,0 +1,15 @@
+{
+  "bakugo_ends_original_afo": {
+    "title": "The Demon Lord Runs Out of Time",
+    "beats": "Late on day 405, Katsuki Bakugo confronts the original body of Shigaraki's Sensei along the damaged route through Kamino Ward. All Might has an escort in the default course, but All For One still intends to reach Shigaraki. Bakugo's right arm and recently repaired heart remain severely compromised. Rewind is visibly reducing his opponent's age and remaining time.\n\nThe canon default course, as pressure the player can change: Bakugo's awakened explosions let him pursue and redirect an opponent who expects to overpower him. He keeps All For One from reaching the body he wants to control. Under pressure, the enemy's private memories expose his possessiveness toward Yoichi and the origin of their conflict; these memories are not part of the public broadcast. Repeated setbacks consume the original body's remaining Rewind time until it disappears entirely. Bakugo collapses with injuries that still require urgent treatment.\n\nStage one threatened escape lane and one chance to protect people in the pursuit corridor. The player can help Bakugo deny the route, shield him from a counterattack, aid the fleeing enemy, or pursue a credible containment alternative. All For One remains physically reachable until his disappearance is established. The apparent youth of the rewinding body does not make it a newly introduced child civilian. If the original body survives through an intervention, preserve the resulting danger rather than announcing erasure anyway. Its destruction does not remove the separate remaining presence inside Shigaraki.\n\nBy place: Kamino Ward stages the pursuit and Bakugo's collapse. Mount Fuji Battlefield receives a warning or confirmation concerning the original body's approach. U.A. Academy monitors Bakugo's condition; Musutafu General Hospital prepares critical reception once extraction becomes possible. Okuto Island, Gunga Mountain Villa, Jaku City, and Takoba Municipal Stadium protect local people and relay verified updates. Remote participants can secure an actual escape corridor or medical approach without joining the duel through a screen.\n\nBy Path: Class 1-A and Class 1-B protect casualties or assist pursuit; General Studies tracks the route; Support sustains damaged gear. Management warns districts and Faculty coordinates interception. Licensed Sidekick extracts bystanders; Licensed Pro Hero blocks an escape lane. League of Villains Recruit helps All For One or abandons him; Independent Villain exploits or contests his defeat. Vigilante protects the corridor; Civilian Life shelters and helps reachable wounded.\n\nThe event is complete when the original body's actual fate is established and Bakugo's collapse, protection, and urgent medical handoff are acknowledged.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_bakugo_ends_original_afo",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

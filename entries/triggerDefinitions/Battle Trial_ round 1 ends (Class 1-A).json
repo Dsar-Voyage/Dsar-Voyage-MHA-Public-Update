@@ -1,0 +1,42 @@
+{
+  "Battle Trial: round 1 ends (Class 1-A)": {
+    "name": "Battle Trial: round 1 ends (Class 1-A)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "story",
+        "query": "In this turn's story the Battle Trial round being fought now (round 1: Team A, Izuku Midoriya and Ochaco Uraraka, against Team D, Katsuki Bakugo and Tenya Iida, or whichever students the story sent in) ends in this turn: the bomb is touched, both villains are captured, or the time runs out. A round that ended on an earlier turn and is only recapped or reviewed does not count"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "btRound",
+        "operator": "set",
+        "value": 1
+      }
+    ]
+  }
+}

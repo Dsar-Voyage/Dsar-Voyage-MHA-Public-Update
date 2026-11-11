@@ -1,0 +1,30 @@
+{
+  "Shirakawa-go": {
+    "name": "Shirakawa-go",
+    "basicInfo": "Deep mountain country where Ishikawa, Gifu and Toyama meet, around the sacred peak of Mount Haku and the Shokawa River valley. No coast and almost no flat land: the Ryohaku mountains rise in steep forested ranks, Hakusan's summit cones reaching about twenty-seven hundred meters in the southwest, while the Shokawa winds north through gorges and dam lakes past Shirakawa village and the Gokayama hamlets toward the Toyama plain. To the west the upper Tedori River runs down past Shiramine and Torigoe toward Tsurugi, home of the head shrine of the Hakusan faith. Snowfall is enormous, two meters or more in the valleys, and the villages are cut off by drifts in bad winters; summers are short and green with cool mornings, and autumn color fills the gorges. Shirakawa-go's Ogimachi and Gokayama's Ainokura and Suganuma are UNESCO World Heritage villages of gassho-zukuri farmhouses, steep thatched roofs built like praying hands, where families once raised silkworms and made saltpeter in the attics; some houses are still homes, others are inns, museums and noodle shops. On winter evenings the villages are lit up beneath the snow, and in autumn residents test the water cannons that protect the roofs from fire. Shirakawa's October Doburoku festival pours cloudy home-brewed sake, and Gokayama dances the Kokiriko with clapper sticks in September. Food is mountain food: hoba miso grilled on magnolia leaves, Hida beef, grilled char, firm Gokayama tofu, mountain vegetables and soba. The Tokai-Hokuriku Expressway tunnels through the range with exits at Shokawa, Shirakawa-go and Gokayama; the Hakusan White Road toll road crosses the mountains to Ishikawa from June to November. There is no railway: buses run to Takayama in about fifty minutes, Kanazawa in about seventy-five and Nagoya in about three hours. From Musutafu it is about four and a half hours via Nagoya, from Shin-Osaka about three and a half via Kanazawa. Visitors walk the villages, climb Hakusan as pilgrims have for centuries and sleep in thatched inns. There is no hero office; police boxes, the fire brigade and licensed heroes from Takayama or Kanazawa on call are all the protection here.",
+    "hiddenInfo": "Overtourism weighs on small resident communities: tour buses, trespassers in private homes, drones and litter. Fire is the nightmare for thatch, and visitors with fire Quirks are watched closely. No hero lives here; help from Takayama or Kanazawa is an hour or more by expressway, longer in snow. Trouble is small: theft from inns, illegal mountain-vegetable picking, bears on Hakusan trails and lost hikers.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -4,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9d65d2fd-39a0-47bd-95fa-3feb0bbf6133.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

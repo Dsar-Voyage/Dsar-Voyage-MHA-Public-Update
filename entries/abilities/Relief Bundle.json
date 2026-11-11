@@ -1,0 +1,20 @@
+{
+  "Relief Bundle": {
+    "name": "Relief Bundle",
+    "description": "Over about a minute the user unrolls field supplies from their forearms: sterile gauze, splints, slings and foil blankets for a handful of injured people. Patients treated with them stop bleeding, keep broken limbs still and stay warm, so each can be moved without worsening their injuries, and for the rest of the scene First Aid on them needs no kit. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

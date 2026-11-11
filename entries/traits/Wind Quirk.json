@@ -1,0 +1,40 @@
+{
+  "Wind Quirk": {
+    "name": "Wind Quirk",
+    "description": "🌪️ You make wind and drive it where you aim.\n\n🌱 At the start your gusts knock an adult off their feet about ten meters away, an updraft lifts you a story high, and you clear the smoke from a room.\n📈 With training: cutting air edges, wind walls that turn thrown objects aside, true flight carrying others, smoke-pulling drafts, cyclones, a whole crowd flown to safety.\n⚠️ Wind feeds fires and throws debris, so check what lies behind your target.\n🔗 Common drawback pairing: Loss of Control, as strong wind stops going where you aim it.\n🎬 Similar canon Quirks: Inasa Yoarashi (Whirlwind).\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Mobility +10, Search and Rescue +5\n⚡ Starting techniques: Gust Shove, Updraft Bound",
+    "traitNarrativeEffects": "Scale: the user makes moving air and throws it from the hands (or whole body, player's choice). A new adult user's gust knocks an adult off their feet about ten meters away; an updraft lifts the user a story high or slows a fall; a draft clears a room of smoke in seconds. Bigger feats need techniques. Limits: wind moves everything in its path, so debris, glass and bystanders go with the target; it fans flames and pushes smoke and gas downwind. Braced or heavy targets hold; a sealed room only churns. At the start it cannot cut, keep anyone aloft past a moment, or pin anyone. Quirk Strain: light: gust, updraft hop; moderate: cutting edge, wind wall, flight; heavy: pulling smoke from a building, cyclone; severe: signature storm, flying a crowd to safety. Type: Emitter. Law: unlicensed public gusts are a crime; the user answers for every sign, window and pedestrian their wind throws into traffic. Look: in use, hair and clothes whip, dust spirals, air roars.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Gust Shove",
+      "Updraft Bound"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

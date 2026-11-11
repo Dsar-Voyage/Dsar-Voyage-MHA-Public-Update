@@ -1,0 +1,39 @@
+{
+  "Roll Call: Quirk test (action) part 3": {
+    "name": "Roll Call: Quirk test (action) part 3",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "fdField1A",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Aa]thletic|[Ff]ield|[Tt]rack|[Qq]uirk [Aa]ssessment|[Qq]uirk [Tt]est"
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-placement",
+        "npc": "Shota Aizawa",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      }
+    ]
+  }
+}

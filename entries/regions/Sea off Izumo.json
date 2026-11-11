@@ -1,0 +1,28 @@
+{
+  "Sea off Izumo": {
+    "name": "Sea off Izumo",
+    "basicInfo": "Open Sea of Japan off the western tip of the Shimane Peninsula, north and west of the cape of Hinomisaki. The cape and its tall stone lighthouse stand just beyond the cell's southeastern corner, with the green ridges of the peninsula running east behind them, and on clear days the hills of the Oki Dozen islands show low to the northeast. The water is clear blue over the shelf, around one to two hundred meters deep, with the Tsushima Current running northeast along the coast. Summers are calm, autumn brings typhoons, and winter brings strong northwest monsoon winds and heavy seas that pound the cape. Fishing boats from the small ports of the Izumo coast and from Hamada work here for squid, horse mackerel, sea bream and flying fish, which are caught in early summer and grilled and dried for the region's ago broth. Few ships cross; the Oki ferries run farther east. The coast guard watches from Hamada and Sakaiminato, and a maritime hero working the Shimane coast is the nearest hero help. A party could be out here on a fishing boat from one of Izumo's little harbors, a charter out of the Hinomisaki port, or crossing by air.",
+    "hiddenInfo": "The waters off the cape are rough and rescues are more common than crimes. The fishing towns are aging, and outside boats working close to shore stir anger. The nearest help is the coast guard and heroes on the Izumo coast, about an hour away. Villainy is petty: gear theft and poaching.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -12,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d41b5968-55da-40d2-ae37-8d94ff6fd130.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

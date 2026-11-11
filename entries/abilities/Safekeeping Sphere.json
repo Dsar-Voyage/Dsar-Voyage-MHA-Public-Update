@@ -1,0 +1,20 @@
+{
+  "Safekeeping Sphere": {
+    "name": "Safekeeping Sphere",
+    "description": "The user touches a person who agrees to it or is unconscious, even someone pinned under debris, and compresses them out from under any weight. Inside the sphere they are safe from smoke, fire, gas, falling debris and further injury and feel no time pass; the user can carry several people this way and must release them before the spheres open on their own. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

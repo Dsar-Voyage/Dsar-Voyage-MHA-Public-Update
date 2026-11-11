@@ -1,0 +1,20 @@
+{
+  "Orbit Step": {
+    "name": "Orbit Step",
+    "description": "The user makes themselves weightless and moves by pushing off whatever is near: up a wall, across a ceiling, over a street-wide gap, or off a roof in a slow float to a soft landing. In midair they change direction by pushing off anything they have floated, and they can tow a single person by the hand. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

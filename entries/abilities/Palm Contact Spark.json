@@ -1,0 +1,20 @@
+{
+  "Palm Contact Spark": {
+    "name": "Palm Contact Spark",
+    "description": "The user touches one target and sends a brief shock through the contact. It deals light electric damage and makes the target release what they hold until the end of their next turn; held back, it only numbs the hand. Thick insulation blocks the transfer, and the user must reach the target without touching an ally through the same conductor. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

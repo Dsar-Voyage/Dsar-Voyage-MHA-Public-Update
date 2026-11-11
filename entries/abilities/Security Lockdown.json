@@ -1,0 +1,20 @@
+{
+  "Security Lockdown": {
+    "name": "Security Lockdown",
+    "description": "The user triggers U.A.'s security protocol from a faculty terminal or radio: barriers drop, gates seal, staff are paged and students are sent to shelter points. Until a teacher lifts the alert, nobody enters or leaves the sealed grounds or building without a faculty ID or a Quirk that passes through walls, unless the system has been sabotaged. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Faculty",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Warp Quirk": {
+    "name": "Warp Quirk",
+    "description": "🌀 You open linked gates: step into one and out of the other.\n\n🌱 At the start gates reach about fifty meters to a spot you can see or have stood in; small ones strike from odd angles, door-sized ones carry you and a companion out.\n📈 With training: attacks sent back, peeks into sealed rooms, crowd exits, villains sent far from hostages, the city crossed in a step, command of every door in a building.\n⚠️ Warp users are rare, and agencies, the Commission and villains all track them.\n🔗 Common drawback pairing: Cognitive Fade, as holding two places in mind wears you down.\n🎬 Similar canon Quirks: Kurogiri (Warp Gate).\n\n📈 Grants: Intelligence +1, Quirk Control +10, Quirk Mobility +10, Navigation +5\n⚡ Starting techniques: Sidelong Reach, Threshold Step",
+    "traitNarrativeEffects": "Scale: two linked gates, one beside the user and one at a spot they can picture (in sight or once stood on); what enters one leaves the other. At first: about fifty meters, at most door-sized, open a few seconds, one pair at a time. More needs learned techniques. Limits: a gate takes a moment to open and works both ways, so quick foes can dodge, follow through or shoot back. Gates never open inside solid matter or a person and never cut: a closing gate pushes anything halfway through back out. Losing focus shuts every gate. Quirk Strain: light: small gates, short step; moderate: turning an attack aside, peephole, group exit; heavy: sending someone away, crossing the city; severe: signature collapse, taking every door in a building. Type: Emitter. Law: moving a person through a gate without consent is abduction; the Commission tracks every registered warp user. Look: none at rest; each gate a flat ring of swirling haze in the player's chosen color, far side visible.",
+    "attributes": [
+      {
+        "attribute": "intelligence",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Navigation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Sidelong Reach",
+      "Threshold Step"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Rime Ember Ward": {
+    "name": "Rime Ember Ward",
+    "description": "The user spreads frost threaded with pale-blue embers across a whole room or courtyard for the rest of the scene. Sagging walls and rubble freeze solid so they cannot collapse on trapped people, fires go out, and chosen enemies are locked to the waist in warm-veined ice that holds without frostbite until broken with a hard effort; the ward reaches only one room or courtyard and thaws if the user leaves it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

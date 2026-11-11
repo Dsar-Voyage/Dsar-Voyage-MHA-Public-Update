@@ -1,0 +1,20 @@
+{
+  "Bone-Set Landing": {
+    "name": "Bone-Set Landing",
+    "description": "The user jumps from a rooftop, a high window or a bridge, or crashes through glass or a fence at a run, and lets the body take the damage. They take the fall's damage but land on their feet and keep moving at full speed, with fractures from the landing setting as they go, so the drop never stops or slows them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

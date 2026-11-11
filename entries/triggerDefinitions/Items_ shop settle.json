@@ -1,0 +1,16 @@
+{
+  "Items: shop settle": {
+    "name": "Items: shop settle",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "shopSettle",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const P=storage.shopP;const E=[{type:'write-boolean',key:'shopSettle',operator:'set',value:false}];if(P&&P.it&&P.b){const RF=/\\b((can't|cannot|can not|won't) (ring|sell|take|accept)|no sale|slides? (the|your|his|her|their) (money|coins|cash|card) back|card is declined|(sale|purchase) (does not|doesn't|did not|didn't) go through|not ringing (it|this|that|anything|a sale)|(store|shop|register|counter|kiosk) is (closed|shut)|(goes?|go|put) back on the shelf|(won't|will not|can't|cannot) (hand|give) (it|them|this) over|(coins?|cash|money|change|card|balance|wallet) (falls?|fell|comes? up|came up|is|are|runs?) short|not enough (money|cash|yen|on the card)|(doesn't|does not|won't|will not) cover|declined)/i;const RS=String(check({type:'story-text'})||'').split(/\\n+/).filter(x=>RF.test(x));if(RS.length){const JN=RS.join(' '),NM=(P.c||[]).filter(c=>new RegExp('\\\\b(?:'+c[3]+')s?\\\\b','i').test(JN));if(!NM.length){P.y=P.y0;P.it=P.b;}else for(const c of NM){P.y+=c[1]*c[2];const t=P.it.find(x=>x[0]===c[0]),bb=P.b.find(x=>x[0]===c[0]);if(t&&bb)t[1]=bb[1];}}}if(P&&P.it){const y=N(check({type:'player-item',item:'Yen'}));if(y>P.y)E.push({type:'item-remove',item:'Yen',quantity:y-P.y});else if(y<P.y)E.push({type:'item-add',item:'Yen',quantity:P.y-y});for(const [it,t] of P.it){if(E.length>=9)break;const h=N(check({type:'player-item',item:it}));if(h<t)E.push({type:'item-add',item:it,quantity:t-h});else if(h>t)E.push({type:'item-remove',item:it,quantity:h-t});}E.push({type:'write-boolean',key:'shopRecheck',operator:'set',value:true});}for(const e of E)effects.push(e);"
+  }
+}

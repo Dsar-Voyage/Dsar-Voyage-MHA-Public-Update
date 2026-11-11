@@ -1,0 +1,29 @@
+{
+  "Midair Strokes": {
+    "name": "Midair Strokes",
+    "description": "For the rest of the scene the user draws on empty air. Each stroke hangs where their fingertip passes and lifts at once into a construct, so with a few flicks they draw a stair up into the sky, a net under a falling crowd or a cage around a target. Constructs drawn this scene do not dissolve in water, but every midair drawing is a quick sketch that breaks under a heavy blow, and the user can still keep only three going at once. When the scene ends their ink is spent until they have slept. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

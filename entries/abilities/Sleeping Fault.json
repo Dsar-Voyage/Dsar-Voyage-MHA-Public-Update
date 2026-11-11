@@ -1,0 +1,29 @@
+{
+  "Sleeping Fault": {
+    "name": "Sleeping Fault",
+    "description": "The user grips a door, a vehicle, a weapon or a beam and plants the decay without letting it act. It waits in the material for up to an hour and crumbles that object the instant the user wills it or a condition they set is met: a getaway van falls apart as its engine starts, a stolen gun turns to grit when drawn, never touching the hand that holds it. The user can plant a handful at once; each aches in the palm until spent or called back, that hand cannot decay anything meanwhile, and a forgotten plant still goes off. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Disintegration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

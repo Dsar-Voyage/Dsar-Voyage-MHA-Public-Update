@@ -1,0 +1,20 @@
+{
+  "Mirror Reversal": {
+    "name": "Mirror Reversal",
+    "description": "The user meets a punch, kick, weapon swing or grab with a turning parry and sends the attacker's force back along the line it came in on. The attack misses the user; the attacker takes the damage they meant to deal, of the same type, and lands on the ground. Works against physical attacks at arm's reach, not beams, blasts or projectiles. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Martial Artist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Grappling",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

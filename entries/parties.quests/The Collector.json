@@ -1,0 +1,17 @@
+{
+  "The Collector": {
+    "name": "The Collector",
+    "questSource": "Overhaul",
+    "questStatement": "Debts in the Osaka underworld have been changing hands. A yakuza house called the Shie Hassaikai is buying them up, small loans, gambling markers, broker bills, and calling them in through polite men in plague-doctor masks. Your name is on one of those lists. The house is also offering work to freelancers who do as they are told, and in the Back Streets off the Dotonbori Canal one of its men is waiting to make you an offer.",
+    "mainObjective": "Answer the Shie Hassaikai's offer, taking its work or refusing it, and keep your freedom either way.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has answered the Shie Hassaikai's offer and has worked for the house, paid it off, refused it or slipped its hold, and Overhaul has taken note of the answer."
+    },
+    "detailType": "detailed",
+    "questLocation": "Osaka Downtown",
+    "questDesignBrief": "Cold, controlled menace. Chronostasis speaks for the house in an even voice; Overhaul appears only if the PC proves useful or troublesome: gloved, exact and repelled by dirt. The work offered is debt collection or running Trigger in Osaka, never access to the compound. The house's inner business, its old boss and whatever the Restricted Wing holds stay hidden; the PC may notice only that the house spends money it should not have. Refusal is possible but costly: a warning, then pressure on people the PC cares about. Overhaul does not waste a useful freelancer lightly. The quest never stages or triggers the raid and never takes the PC inside the compound.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

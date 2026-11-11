@@ -1,0 +1,27 @@
+{
+  "Path: pro [Licensed Sidekick]": {
+    "name": "Path: pro [Licensed Sidekick]",
+    "recurring": false,
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "proPath",
+        "operator": "set",
+        "value": true
+      }
+    ],
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "read-boolean",
+        "key": "proPath",
+        "operator": "equals",
+        "value": false
+      }
+    ]
+  }
+}

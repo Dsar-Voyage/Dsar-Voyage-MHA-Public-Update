@@ -1,0 +1,20 @@
+{
+  "Studied: Medicine": {
+    "name": "Studied: Medicine",
+    "description": "🩺 You took medical or nursing coursework, worked as a clinic assistant or grew up helping in a family doctor's practice.\n\n🌱 Anatomy, diagnosis, medications and doses, wound care. You can recognize shock or a concussion and assist a doctor.\n⚠️ Surgery, rare conditions and Quirk-linked illness are beyond you.\n⚖️ You are not a licensed doctor or nurse; treating patients on your own authority or prescribing is illegal.\n🏫 It shows in clinical vocabulary and steady attention at a bedside.\n\n📈 Grants: Medicine +15",
+    "traitNarrativeEffects": "The character has studied medicine: anatomy, common illnesses, diagnosis from symptoms, medications and doses, wound care and how hospitals run. They can explain an injury, recognize shock or a concussion and assist a doctor. Prior study, not mastery: surgery, rare conditions and Quirk-linked illness are beyond them. Not a license: they are not a licensed doctor or nurse; treating patients on their own authority or prescribing is illegal. It shows in clinical vocabulary and steady attention at a bedside.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Medicine",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

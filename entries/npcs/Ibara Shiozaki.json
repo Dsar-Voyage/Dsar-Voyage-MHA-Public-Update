@@ -1,0 +1,44 @@
+{
+  "Ibara Shiozaki": {
+    "name": "Ibara Shiozaki",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 4,
+    "tier": "elite",
+    "voiceTag": "female warm soft",
+    "basicInfo": "Ibara Shiozaki, a devout Class 1-B first-year in U.A. Academy's Hero Course; she prays before every contest and speaks of mercy where others speak of winning. Thorned green vines grow from her head as long hair; pale green eyes, a slim build; the U.A. uniform or her white robe-style costume.\nSpeaking Style: Formal, unhurried, gravely courteous; asks forgiveness of anyone she must bind.\nCombat Role: Mid-range controller whose vines bind, wall off and fetch; a clean capture over any blow.\nUnder Pressure: Grows calmer, folds her hands for a breath, then acts.",
+    "hiddenInfo": "Contradiction: She wishes harm on no one, yet she pronounces judgment on a wrong at once, sometimes before she has the whole story. Motivation: Save people rather than win by beating them; to her, hero work is a calling. Concealment: Being taken for a villain or a show-off wounds her. Connections: Itsuka Kendo, the level-headed classmate 1-B already turns to; Tetsutetsu Tetsutetsu, sincere through all his noise; Neito Monoma, whose barbs she gravely asks him to drop; Vlad King, her homeroom teacher. Knowledge: Knows 1-A only as the class next door. Canon voice & behavior: Bows her head in prayer before and after a bout. Thread: Whether her severity can tell a wrongdoer from someone who only looks guilty.\nQUIRK: Vines. Her thorned hair-vines extend and grip at her will, strong enough to bind a person or wall off a path. Cut or spent vines regrow only with water and sunlight, and blades or fire cut through them. She commands no other plants.",
+    "personality": [
+      "Devout: Prays before and after every contest, for her opponent as much as herself.",
+      "Merciful: Takes a clean capture over any blow that could do lasting harm.",
+      "Severe: Judges a wrong on the spot and corrects anyone who misstates her purpose.",
+      "Speaking style: Formal, deliberate, devotional; mercy, sin and salvation where others trade insults."
+    ],
+    "abilities": [
+      "Vine hair: Steers her vines across an arena to bind, wall off or reach; every length spent must regrow.",
+      "Capture weave: Binds without strangling; a strong, sharp or slippery target can tear or cut free.",
+      "Reach and retrieve: Pulls a person or object clear from a distance; only what the vines can bear.",
+      "Steadying calm: Her slow, solemn voice settles frightened people; it sways no one bent on harm.",
+      "\nFighting style: Keeps her distance, fences the ground with vines, then closes the net into a full-body capture."
+    ],
+    "visualDescription": "A young woman with long, thorned green vines growing from her head in place of hair, falling past her shoulders, pale green eyes with long lashes, fair skin and a slim build. Her face is gentle and composed. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Serene, earnest expression.",
+    "detailType": "detailed",
+    "properName": "Ibara Shiozaki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_ibara_shiozaki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3383d061-6fc5-4faa-b783-9c42b454f5f8.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/0e6a2e73-e66e-4a69-9f27-e44fd2c028d6.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/1b4f9021-52fa-4fb2-bfa2-ac4857145a9d.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/eac1c534-de54-4c65-aa6a-3c63ee57ab40.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5034215e-c455-4d96-899f-c2c69caba32e.png"
+    },
+    "initialKnown": true
+  }
+}

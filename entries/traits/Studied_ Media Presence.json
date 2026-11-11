@@ -1,0 +1,20 @@
+{
+  "Studied: Media Presence": {
+    "name": "Studied: Media Presence",
+    "description": "📸 You trained for the camera: talent agency lessons, a school broadcasting club, a streaming channel or speech contests.\n\n🌱 You speak clearly on camera, handle a press question, hold a pose and build a public image with care.\n⚠️ A hostile press pack, a scandal or a live disaster broadcast can still rattle you, and an image can fall apart in a day.\n⚖️ Popularity is no hero license, and anything you post can be traced, quoted and used against you.\n🏫 It shows in a ready smile for cameras and a sense of where the lens is.\n\n📈 Grants: Media Presence +15",
+    "traitNarrativeEffects": "The character has trained to be seen: speaking clearly on camera, handling a press question, holding a pose for a photo, building a public image and posting with care. They know a clip outlives the moment. Prior study, not mastery: a hostile press pack, a scandal or a live disaster broadcast can still rattle them, and an image built over years can fall apart in a day. Not a license: popularity is no hero license, and anything they post can be traced, quoted and used against them. It shows in a ready smile for cameras and a sense of where the lens is.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Media Presence",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

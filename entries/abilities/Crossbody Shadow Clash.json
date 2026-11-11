@@ -1,0 +1,25 @@
+{
+  "Crossbody Shadow Clash": {
+    "name": "Crossbody Shadow Clash",
+    "description": "The user's signature move: the user and creature rush one target from opposite sides within a few strides. The creature strikes for heavy bludgeoning damage while the user drives the target to the ground; held back, the paired blows pin without a wound. Afterward the creature recoils and cannot emerge again until the end of the user's next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dark Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

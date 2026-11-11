@@ -1,0 +1,40 @@
+{
+  "Suppression Quirk": {
+    "name": "Suppression Quirk",
+    "description": "👁️ You switch off other people's Quirks by looking at them.\n\n🌱 At the start you stop one person's Quirk in clear sight within about twenty meters while you stare unblinking, and read a Quirk's tell to cut it off before it fires.\n📈 With training: flyers downed safely, crowds swept for hidden users, runaway Quirks shut off, a prisoner held all scene, sealed doorways, all Quirks in sight stilled.\n⚠️ It stops powers, not people: you still capture by hand. Mutant features never switch off.\n🔗 Common drawback pairing: Bodily Toll, as your eyes dry, burn and blur.\n🎬 Similar canon Quirks: Eraser Head (Erasure).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Analysis +10, Capture +5\n⚡ Starting techniques: Quell Gaze, Cutoff Glance",
+    "traitNarrativeEffects": "Scale: the user's look stops a person's Quirk: at first one person at a time, in clear sight within about twenty meters, about ten seconds without blinking; drying eyes shorten later looks until rested. Under it Emitter Quirks fail and transformations end; what the Quirk already made stays. More needs learned techniques. Limits: Mutant features never switch off, only what a Mutant body sends out. Screens do not carry the look; a blink, smoke, a flash or a blow to the user breaks it and the Quirk returns at once. A stopped foe keeps fists and weapons. Quirk Strain: light: single look, read tell; moderate: grounding a mover, crowd sweep, stopping a runaway Quirk; heavy: scene-long hold, watched doorway; severe: signature stare, a group held all scene. Type: Emitter. Law: switching off a Quirk without a license is unlawful Quirk use; police and agencies prize licensed users for arrests. Look: irises glow (player's color), showing the target unless goggles hide it.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Quell Gaze",
+      "Cutoff Glance"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

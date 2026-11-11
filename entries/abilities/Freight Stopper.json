@@ -1,0 +1,24 @@
+{
+  "Freight Stopper": {
+    "name": "Freight Stopper",
+    "description": "The user plants their feet and meets a speeding car, a runaway truck or a charging giant head-on with both swollen arms. Whatever they catch stops within a few strides: people inside a vehicle are jolted but unhurt, and a charging person takes bludgeoning damage and is knocked flat. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

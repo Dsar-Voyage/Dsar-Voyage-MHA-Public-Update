@@ -1,0 +1,15 @@
+{
+  "sup_support_expo": {
+    "title": "The Support Expo",
+    "beats": "A weekend in early autumn. One of the mid-sized houses on Theater Row in Central Tokyo has been rented for a support-item trade show: booths from the big support companies and a dozen small ones crowd the lobby and aisles, the stage runs live demonstrations, recruiters hand out cards, and several schools with support programs have student tables. U.A. Academy's Support Course has signed out a small group under Power Loader's supervision, by bus from the Campus Bus Terminal and back before evening roll call, as the lockdown rules require.\n\nDefault course, as pressure the player can change: Mei Hatsume came to sell, not to look. She has her babies laid out before the doors open, stops every company scout who slows down, and demonstrates a jet pack indoors until an usher objects. At the next table a prodigy from a rival school draws a crowd with a small, quiet device that works every single time, and the two start a contest neither will admit to. Mid-afternoon an independent inventor's pitch goes wrong on the main stage: a powered rig jams, overheats and starts to smoke in front of a full house. Power Loader is already moving toward it, and someone at the U.A. table is closer.\n\nA Support Course party chooses what it came for. It can pitch its own work, study what the industry builds for working heroes, help Hatsume win the room or keep her from scaring off a sponsor, and befriend or outdo the rival prodigy. On stage, it can help bring the rig down safely and spare the inventor some dignity, or watch Hatsume turn the rescue into a sales pitch. A company card or an invitation to send designs is a real result; a signed contract is not, not this year.\n\nIf the scene starts at U.A. Academy, it opens at dawn with crates going onto the bus and Hatsume arguing about how many more will fit.\n\nThe event is complete when the expo closes, the U.A. group is back on the bus and the party has counted what it brought home.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_sup_support_expo",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

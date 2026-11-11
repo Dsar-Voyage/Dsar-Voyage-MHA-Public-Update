@@ -1,0 +1,29 @@
+{
+  "Pack Accord": {
+    "name": "Pack Accord",
+    "description": "The user speaks at length with one group of animals, up to a pack of dogs or a whole flock, and wins their full trust. Until the end of the day the group carries out a long task with several steps the user lays out, such as guarding a door, following a person and bringing word at each change, and keeps at it through noise and threats; guard and police dogs set against the user stand down. The animals still never fight to the death, and while the task lasts the user cannot ask any other animal for anything. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

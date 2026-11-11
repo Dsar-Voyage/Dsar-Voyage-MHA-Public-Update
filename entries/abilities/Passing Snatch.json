@@ -1,0 +1,20 @@
+{
+  "Passing Snatch": {
+    "name": "Passing Snatch",
+    "description": "The user blurs past a target and plucks away something they hold or wear loose: a weapon, a detonator, a phone, keys or a bag. The target notices only after the user has stopped, and cannot use the taken thing unless they get it back. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

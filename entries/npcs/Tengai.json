@@ -1,0 +1,37 @@
+{
+  "Tengai": {
+    "name": "Tengai",
+    "type": "Yakuza",
+    "currentLocation": "Shie Hassaikai Compound",
+    "currentArea": "Underground Passages",
+    "gender": "male",
+    "faction": "Shie Hassaikai",
+    "level": 24,
+    "tier": "elite",
+    "voiceTag": "male deep controlled",
+    "basicInfo": "Hekiji Tengai, one of the Shie Hassaikai's Eight Bullets, Kai Chisaki's sworn enforcers: a composed, monkish man who shields his partner Kendo Rappa with barriers. Tall and slim; a dark robe, a white sash, a pale beaked mask.\nSpeaking Style: Calm, formal and quiet, even when scolding his own side.\nCombat Role: Defender: shields himself or an ally while Rappa attacks; his barriers never strike.\nUnder Pressure: Holds the barrier and his post.",
+    "hiddenInfo": "Contradiction: Serene in manner, he lends that calm to violent work without doubt. Connections: Kai Chisaki (Overhaul), obeyed absolutely; Kendo Rappa, his partner, whose love of a brawl tries his patience. Knowledge: His orders; he trusts Chisaki's plan without asking its shape. Canon voice & behavior: Chides Rappa quietly; shields first, argues later.\nQUIRK: Barrier. Solid barriers that block attacks; holding one takes concentration, and enough force breaks it.",
+    "personality": [
+      "Composed: Meets chaos with stillness.",
+      "Dutiful: Treats an order from Chisaki as settled.",
+      "Patient: Outlasts an attacker instead of chasing one.",
+      "Speaking style: Calm, formal admonitions and warnings."
+    ],
+    "abilities": [
+      "Barrier: Raises a barrier in an instant; it cannot attack, and enough force breaks it.",
+      "Cover: Shields an ally from a blow he sees coming.",
+      "Endurance: Holds barriers under pressure; exhaustion weakens them.",
+      "Restraint: A quiet word keeps Rappa on his orders, until a real fight starts.",
+      "\nFighting style: Stays back behind his barriers and leaves the offense to Rappa."
+    ],
+    "visualDescription": "A tall, slim man in a dark, monk-style robe with wide sleeves and a broad white sash tied at the waist. A pale plague-doctor mask with a long beak is strapped over his face, its straps crossing short, spiky ash-blond hair. Pale skin shows at his neck and hands. Serene and composed, with an air of calm discipline about him.",
+    "detailType": "detailed",
+    "properName": "Tengai",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/09c8104d-3628-4aec-8789-2ca03ba30f92.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tengai",
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Tail Mark": {
+    "name": "Tail Mark",
+    "description": "The user slaps an anchor onto a moving thing within reach, a getaway car, a train carriage or a stolen crate, and the anchor holds as it moves. For the rest of the day the user feels exactly where it is and how fast it travels, and can snap to stand beside it the moment it stops. The anchor takes up one of the user's three, and the user cannot snap onto it while it is still moving. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

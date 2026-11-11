@@ -1,0 +1,20 @@
+{
+  "Heel Wave Lift": {
+    "name": "Heel Wave Lift",
+    "description": "The user sends a spiral wave from their feet to rise above a low obstacle or slow a fall until the end of their next turn. The lift can place them on a nearby ledge or bring them down safely. It requires open space beneath the feet, and a second lift immediately afterward draws more stamina. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

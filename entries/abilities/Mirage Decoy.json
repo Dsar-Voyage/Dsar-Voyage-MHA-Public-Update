@@ -1,0 +1,20 @@
+{
+  "Mirage Decoy": {
+    "name": "Mirage Decoy",
+    "description": "The user bends light into a glowing double of themselves or of someone nearby, standing a few strides from the real person, who fades to a faint shimmer. Until the end of the user's next turn, the next attack aimed at that person hits the double instead, which bursts into sparks, and the real person can slip away while eyes stay on the double. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

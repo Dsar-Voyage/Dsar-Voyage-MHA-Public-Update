@@ -1,0 +1,20 @@
+{
+  "Knuckle Rap": {
+    "name": "Knuckle Rap",
+    "description": "The user whips the weapon down across the opponent's knuckles or wrist. Deals bludgeoning damage (slashing damage with an edge), and the opponent drops whatever they hold in that hand. A gauntleted or hardened hand keeps its grip but still takes the hit. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blade and Baton",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

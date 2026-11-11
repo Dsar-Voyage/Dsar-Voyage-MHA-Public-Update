@@ -1,0 +1,24 @@
+{
+  "Flypaper Ground": {
+    "name": "Flypaper Ground",
+    "description": "The user sprays a sheet of adhesive across a whole street or a large hall in a single sweep, leaving clean lanes only where they choose. Anyone standing on it outside those lanes is stuck fast by the feet and cannot leave the spot until they tear free with a great effort, anyone knocked down on it is glued flat, and vehicles that roll onto it stall. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

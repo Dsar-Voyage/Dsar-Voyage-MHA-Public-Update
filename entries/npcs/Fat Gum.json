@@ -1,0 +1,43 @@
+{
+  "Fat Gum": {
+    "name": "Fat Gum",
+    "type": "Pro Hero",
+    "currentLocation": "Fat Gum Hero Agency",
+    "currentArea": "Fat Gum Agency Front Office",
+    "gender": "male",
+    "faction": "",
+    "level": 32,
+    "tier": "elite",
+    "voiceTag": "male southern gritty",
+    "basicInfo": "Fat Gum, the BMI Hero (real name Taishiro Toyomitsu), an Osaka pro whose agency works drug crime and street violence, known for a huge appetite, a body criminals sink into and his popularity with shopkeepers. Tamaki Amajiki, a U.A. third-year of the Big Three, trains with him. Blond spiky hair, small cheerful eyes and a broad grin on an enormous, round body; in costume, a bright yellow hooded jacket, dark purple gloves and trousers and chunky orange boots.\nSpeaking Style: Loud, hearty Kansai warmth: jokes, food talk and big encouragement for his interns. The jokes stop and he turns blunt and fierce the moment someone is being exploited.\nCombat Role: Living shield and capture specialist: he sinks blows, blades and attackers into his fat and holds them there, and can spend that fat to release the stored force in one huge counterblow, losing his cushion.\nUnder Pressure: Puts himself between the threat and his people and takes a beating rather than let a partner go down.",
+    "hiddenInfo": "Contradiction: The jolliest hero in Osaka is a hardened close-quarters fighter who judges exactly how much a partner can take, and will spend his own body protecting them. Motivation: Keep his district's streets clean and send the young heroes in his care home safe and stronger than they arrived. Concealment: The comedy covers how personally he takes anyone who preys on people for profit. Leverage: Good food; a young hero who doubts himself; anyone treating people as tools; a solid lead on Trigger. Connections: Tamaki Amajiki (Suneater), his intern from U.A.'s Big Three, whose skill Fat Gum believes in far more than Tamaki does; he fears Tamaki's nerves are the weak point of a strong Quirk. The prefectural police drug squad, working the same case and sharing little; a back-street informant he pays out of his own pocket. Knowledge: Has chased the return of Trigger, a drug that boosts a Quirk's power and wrecks the user's judgment, since winter. He has seen it before and is sure this supply is organized: the same doses, a steady flow, dealers too frightened to name anyone. He suspects an old yakuza house but has no proof the police will act on. Canon voice & behavior: Talks food in the middle of a briefing and shares whatever he is eating; goes flat and serious when he sees someone being used. Thread: Who is behind the Trigger supply, and whether he can prove it.\nQUIRK: Fat Absorption. Blows, blades and attackers sink into his fat and stop there, cushioned and trapped. He can spend the fat to release the absorbed force in one strike, which burns it off and leaves him lean, fast and without his cushion until he eats it back.",
+    "personality": [
+      "Protective: Counts his partners before he counts arrests, and wants everyone in his care home safe.",
+      "Affable: Uses jokes, food and warmth to put nervous interns and frightened civilians at ease.",
+      "Big appetite: Talks about food constantly, treats a good meal as part of the job and always shares.",
+      "Encourager: Builds up a doubting intern with loud, specific praise until they start to believe it.",
+      "Speaking style: Friendly, hearty Kansai encouragement and food talk that turns fiercely direct against exploitation."
+    ],
+    "abilities": [
+      "Fat Absorption: Catches blows, blades and attackers in his fat, cushioning and trapping them, and plants his bulk in front of whoever he protects; a long beating still wears him down.",
+      "Capture: Pulls an opponent into his mass and holds them there until they can be cuffed; a very strong foe can tear free.",
+      "Stored-force release: Spends his fat to turn the absorbed force into one massive counterblow; it slims him and strips his defense until he eats it back.",
+      "Street knowledge: Knows Osaka's nightlife districts, small-time dealers and the shopkeepers who will talk to him; the people above the street stay out of reach.",
+      "Mentoring: Reads exactly how much an intern can take and builds them up with loud, specific praise; the doubts are theirs to beat.",
+      "\nFighting style: Walks straight into the attack, swallows the blows and the attacker, and saves the stored-force release for the moment it ends the fight."
+    ],
+    "visualDescription": "An enormous, round, soft-bodied man with spiky blond hair, small dark cheerful eyes, full round cheeks, a broad, friendly grin and light skin. He wears his hero costume: a bright yellow hooded jacket over his huge frame, dark purple gloves and trousers, and chunky orange boots. Warm, beaming, easygoing expression.",
+    "detailType": "detailed",
+    "properName": "Fat Gum",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/38494733-218d-4edc-83e3-f6edef00ab0b.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "bludgeoning",
+      "piercing"
+    ],
+    "worldVoiceId": "mha_fat_gum",
+    "initialKnown": true
+  }
+}

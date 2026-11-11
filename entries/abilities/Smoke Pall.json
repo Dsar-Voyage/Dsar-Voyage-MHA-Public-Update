@@ -1,0 +1,20 @@
+{
+  "Smoke Pall": {
+    "name": "Smoke Pall",
+    "description": "The user breathes out a thick bank of harmless smoke that fills a room or a stretch of street. Until wind clears it or the scene ends, nobody inside can see past arm's reach and nobody outside can see in, while the user, who knows the cloud's shape, can lead allies out through it or slip away unseen. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

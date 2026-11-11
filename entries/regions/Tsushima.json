@@ -1,0 +1,30 @@
+{
+  "Tsushima": {
+    "name": "Tsushima",
+    "basicInfo": "The northeastern corner of Tsushima, the long mountainous island in the middle of the Korea Strait, and a wide stretch of the strait's eastern channel beside it. Only the island's north end falls inside: Kamitsushima, with the port of Hitakatsu, the white-sand cove of Miuda Beach and fishing villages tucked into drowned inlets along the east shore. The island's spine of forested ridges runs on south and west, out of this square, toward Izuhara, the main town, and the airport. East of the shore everything is open water, deep blue and fast-moving, with the warm Tsushima Current setting northeast and Okinoshima and the Kyushu coast far beyond the eastern horizon. On a clear day the hills and apartment towers of Busan, about fifty kilometers away, can be seen from the observatory at the island's northern tip, and Korean is heard in Hitakatsu's shops as often as Japanese. The land is steep, almost all cedar, cypress and broadleaf forest, with rice and buckwheat in narrow valley floors. Winters are mild but windy, summers humid, and typhoons and winter gales cut the island off from the mainland for days. People fish for squid, conger eel and yellowtail, keep native honeybees in hollow-log hives, and run guesthouses for visitors from both countries. The rare Tsushima leopard cat lives in these forests, and road signs ask drivers to slow down for it. Local food is iriyaki fish hot pot, rokubee noodles made from sweet potato starch, and grilled conger eel. Route 382 runs the length of the island; Hitakatsu to Izuhara is about two hours by car or island bus. Fast ferries from Busan reach Hitakatsu in a little over an hour; from Hakata, jetfoils reach Izuhara by way of Iki in a little over two hours, and a slower car ferry calls at Hitakatsu directly. From Musutafu the trip takes most of a day: shinkansen to Hakata, then a boat or a short flight from Fukuoka. Hitakatsu has a police box, a coast guard office and one small hero office whose licensed hero covers the whole north of the island, mostly sea rescues, lost hikers and festival crowds. Visitors swim at Miuda, kayak the inlets, hike forest trails and eat fresh squid by the harbor.",
+    "hiddenInfo": "Tsushima is a border island and feels it: the coast guard and police watch the strait closely, and smuggling in fish holds is the classic local crime. Beaches on the exposed coasts collect drift trash from across the sea. The population keeps shrinking as young people leave for Fukuoka. Other trouble is small and local: theft from unattended shrines, cut fishing nets, the odd drunken quarrel at the port. Serious hero help is far; Fukuoka is two hours away by jetfoil, longer in bad weather.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -17,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4247fc70-3f5f-4eef-9a90-af3c2df0df4d.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

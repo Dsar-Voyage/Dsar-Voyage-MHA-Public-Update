@@ -1,0 +1,24 @@
+{
+  "Company Rhythm": {
+    "name": "Company Rhythm",
+    "description": "The user sustains a performance for the rest of the scene within twenty meters. Up to twelve willing listeners match footwork to avoid collisions and keep formation through ordinary shoves, including while carrying stretchers. The user must move at walking pace; silence or a buried beat ends it and clears attention charges. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

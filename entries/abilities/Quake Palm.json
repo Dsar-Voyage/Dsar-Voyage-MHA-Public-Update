@@ -1,0 +1,20 @@
+{
+  "Quake Palm": {
+    "name": "Quake Palm",
+    "description": "The user drives an open palm into a target within reach and releases a hard shudder through their body. It deals bludgeoning damage and knocks the target off their feet, even through a raised guard; held back, it only rattles them off balance and numbs their arms with no lasting harm. The user must touch the target, and the release jars the user's own wrist. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

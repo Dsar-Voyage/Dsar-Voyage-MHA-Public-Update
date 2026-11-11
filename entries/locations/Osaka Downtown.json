@@ -1,0 +1,168 @@
+{
+  "Osaka Downtown": {
+    "name": "Osaka Downtown",
+    "basicInfo": "Downtown Osaka is the loud, crowded commercial heart of Kansai: the neon of the Dotonbori canal, long covered shopping arcades, street food on every corner and back streets of bars, pachinko halls and small offices. People speak Kansai dialect, bargain hard and joke harder; they cheer heroes loudly and heckle the slow ones. Several established agencies split the patrol districts, and Fat Gum, whose agency is about 5 km north-northeast, is a favorite with shopkeepers, who press food on him wherever he walks. Days are for shopping and office work; evenings are for food and noise until the last trains, after which the back streets belong to bar workers and taxi drivers. Police and heroes are busiest on Friday and Saturday nights, when the canal walkway is packed and the drunk fights start. The streets are public and open at all hours; only the shutters of the arcade shops close at night, and police boxes at the main crossings take reports and give directions. Students from Shiketsu Academy, U.A.'s great rival, turn up here often in their dark uniforms and peaked caps, some to eat and some on conduct patrols of their own. A player can find work in kitchens and shops, pick up street rumors, patrol with a local agency, eat at the canal stalls, catch a hero on PR duty, or follow a whisper into the back streets. Namba Station and the subway serve the district; Shin-Osaka Station lies about 8 km north, Sir Nighteye's agency about 7 km northwest, and the walled Shie Hassaikai compound about 11 km southeast. The shinkansen from Shin-Osaka runs east to Musutafu (about 2 hours) and Tokyo (about 2.5 hours), and west to Fukuoka (about 2.5 hours). The feeling is a party that never quite ends, with something less friendly underneath it after midnight.",
+    "hiddenInfo": "Trigger is back. The Quirk-boosting street drug, rare for years, has been turning up in the back streets since winter: users get a surge of power and lose their judgment, and two fights in the arcade this month ended with bystanders in the hospital. Street dealers sell it in small doses through layers of middlemen; the people at the bottom do not know who supplies them, but the money runs upward to an old yakuza house outside the city. Right now the busiest seller works the back streets on Friday and Saturday nights after the last train, from a standing bar with a torn red lantern, handing doses through a runner in a delivery jacket who never carries more than three at a time; used injector ampoules turn up in the gutters behind the mahjong parlors on Sunday mornings, and the bar's owner pays for silence by looking the other way. Anyone who buys twice is offered a phone number, and the voice on it never meets a buyer in person. Fat Gum's agency and the prefectural police drug squad are both working the case and share little with each other: the squad wants a dealer arrested with a supply, Fat Gum wants the source. Meanwhile the arcade shopkeepers' associations pay consulting fees to whichever agency keeps their streets cleanest, and some smaller agencies cut corners to win those contracts, chasing off loiterers and ignoring what happens two lanes back. Underworld brokers meet clients in the back-street bars and pay well for anyone who can find things out quietly, carry a bag without asking or keep a stranger company for a night. The Shiketsu students who walk these streets have noticed the arcade fights and the dealers, and the more earnest of them are tempted to do something about it without a license to do it.",
+    "x": -14.86,
+    "y": 18.63,
+    "radius": 1.5,
+    "region": "Osaka South",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Dotonbori Canal": {
+        "description": "A narrow canal lined on both banks with giant neon signs, mechanical shop mascots, takoyaki and okonomiyaki stands and a riverside walkway that is packed shoulder to shoulder from early evening. Tour boats pass under the bridges; crowds gather on the main bridge for photos; heroes on PR duty walk here at peak hours to be seen and filmed, signing autographs and posing with tourists while their sidekicks keep the walkway moving. By day the canal is quieter, office workers on lunch and tourists with maps; from dusk to the last train it is the loudest place in Kansai, and on Friday and Saturday nights the crowd spills across the bridges. Shiketsu students in peaked caps stop here for street food after training. Takoyaki griddles hiss, shop barkers call out in thick Kansai dialect, a giant mechanical crab waves its claws over a restaurant door, and the signs keep the walkway bright long after midnight. The local rule is simple: eat standing, keep walking, and never stop dead on the bridge. The walkway leads into the Covered Arcade.",
+        "paths": [
+          "Covered Arcade",
+          "Namba Comedy Theater",
+          "Amerikamura Club Street"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7c92a1a5-2ed2-4a03-9a0a-3af447409d59.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Covered Arcade": {
+        "description": "A long covered shopping street under a high arched roof, running from the canal district toward the back streets: clothing shops, drugstores, hero merch stalls, cheap eateries, pachinko halls and old family businesses that have sold the same pickles or tea for generations. Shoppers and students crowd it from late morning; local agencies run foot patrols down the middle at set hours, and shopkeepers come out to chat with the heroes they like and grumble about the ones they pay. Shiketsu students drift through in pairs after class. After the shutters come down at night it becomes a dim wind tunnel with a few late bars, a convenience store and the occasional busker. The roof traps every sound, so jingles, announcements and voices merge into one roar, and a fight anywhere along it is heard everywhere. The floor tiles are worn smooth down the center, a fried-chicken stand near the canal end never seems to close, and every shop has a hand-lettered sign saying no Quirks inside. One end opens onto the Dotonbori Canal; side passages lead into the Back Streets.",
+        "paths": [
+          "Dotonbori Canal",
+          "Back Streets",
+          "Namba Comedy Theater",
+          "Kushikatsu Alley",
+          "Electric Town Arcades"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bf281aa2-e9d5-4085-9cf0-0544bdbc5de2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Back Streets": {
+        "description": "Narrow lanes behind the arcade: tiny bars, mahjong parlors, pawn shops, kitchen doors and vending machines under a tangle of wires and air-conditioner units. Most bars seat six or eight at a counter, with a lantern or a hand-painted sign as the only clue they exist, and the lanes are too narrow for a car. By day it is delivery workers and smokers; after the last train it is bar staff, drunks, touts and people who would rather not be seen on the main streets, and a broker might be holding court in any back room. Patrols pass through but do not linger. Cats sleep on the warm compressor units, a rice-cracker shop that opens at dawn is the only thing here that keeps daytime hours, and a shrine the size of a phone booth gets fresh sake every morning. The air smells of fried food and garbage, air conditioners drip onto the pavement, and everyone notices a stranger who stops walking. The only way out to the main streets is back through the Covered Arcade.",
+        "paths": [
+          "Covered Arcade",
+          "Kushikatsu Alley",
+          "Amerikamura Club Street"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/50379922-1597-4332-9c0c-8b6fa5ad6d8b.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Namba Comedy Theater": {
+        "description": "A big comedy theater a block off the arcade, its frontage plastered with grinning portraits of manzai duos and its lobby lined with souvenir stands. The main hall seats eight hundred on red velvet, facing a bare stage with a single standing microphone for the duos and a painted set for the slapstick play that closes every show. Shows run two to four times a day, about 4,800 yen a seat; bus tours, retirees and families fill the matinees, office workers the evening show, and the audience is expected to heckle back. Upstairs, a small studio stages young duos fighting for a slot, 1,000 yen at the door. Hero jokes are the bread and butter: All Might impressions, villains who trip over their own capes, and a running bit about Fat Gum's appetite that he has laughed at from the front row. A notice at the stage door reminds performers that Quirk acts need a permit filed in advance, and a stagehand with a sound-damping Quirk waits in the wings for the duo whose act is shouting. The lobby smells of fried snacks and floor polish. The front doors open onto the Covered Arcade, and a side street runs north to the Dotonbori Canal.",
+        "paths": [
+          "Covered Arcade",
+          "Dotonbori Canal"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/7da109e1-144f-4918-8e80-b2ac61fd81e2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Kushikatsu Alley": {
+        "description": "A short, roofed alley between the arcade and the back streets where six kushikatsu counters face each other close enough to pass a plate across. Each is a steel counter around a bubbling vat of oil, with boxes of raw cabbage and a shared tin of thin brown sauce in front of every two stools; skewers of beef, lotus root, quail egg and cheese run 100 to 200 yen each, and a beer is 500. Every counter has the same sign in big red letters: no double-dipping in the sauce, and the cooks enforce it with a glare that works on pro heroes too. Office workers stand at the counters at lunch, families take the back tables on weekends, and after the last train the alley feeds bar staff, taxi drivers and anyone heading into the back streets. Shiketsu students in peaked caps come through after training to see who can eat the most, and when Fat Gum's patrol passes, the cooks start frying before he asks. The cook at the far end reads the oil's heat with her Quirk by touching the vat. The air is thick with frying oil and sauce, and paper lanterns turn the walls amber. One end opens onto the Covered Arcade; the other leads into the Back Streets.",
+        "paths": [
+          "Covered Arcade",
+          "Back Streets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/50b99219-58eb-4cf8-9715-185dee68d5b2.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Electric Town Arcades": {
+        "description": "A few blocks southeast of the arcade, the electronics street packs its game centers into narrow buildings five and six floors high: crane games and photo-sticker booths on the ground floor, rhythm and fighting-game cabinets above and a retro floor of old cabinets at the top, with parts shops and figure dealers squeezed between. A credit is 100 yen; fighting-game regulars line their coins on the cabinet to claim the next match, and weekend tournaments draw crowds that cheer every combo. Students after class, office workers on lunch and anime fans on weekends fill it from noon until closing at midnight. A life-size All Might statue in one window is the street's most photographed spot. Since winter, staff in vests walk the floors more often: a late-night fight ended with smashed cabinets and a customer whose Quirk was far stronger than his friends had ever seen, and rumors are spreading. A sticker on every cabinet warns that Quirk use on the machines gets a player barred. The noise is a wall of jingles and button clatter, the air smells of hot electronics and fried chicken, and the street leads back to the Covered Arcade.",
+        "paths": [
+          "Covered Arcade"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5a424654-813a-409d-b768-4578192f31e4.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Amerikamura Club Street": {
+        "description": "West of the main boulevard, the youth quarter's club street runs past Triangle Park, a small paved square where skateboarders, buskers and young people in loud secondhand clothes hang out from afternoon on. Vintage shops, sneaker stores and tattoo studios fill the ground floors; above them, clubs and live houses hide up narrow stairwells papered with stickers. Doors open at ten, the cover is 2,000 to 3,000 yen, and the bouncers check ID and bags. On weekend nights the queues run down the sidewalk and DJs play until the first train. Touts in puffer jackets work the corners, the police box at the park end hands out leaflets about drink spiking, and the rumor on the steps is that an old Quirk-boosting drug is back on the street; the bouncers walk out anyone who looks too wired or suddenly too strong. At closing the curb fills with people eating takoyaki and waiting for the first train, and a local agency's night patrol breaks up the odd shoving match. Shiketsu students on conduct patrol get teased for looking stern. The street leads south to the Dotonbori Canal, and an alley behind the clubs cuts through to the Back Streets.",
+        "paths": [
+          "Dotonbori Canal",
+          "Back Streets"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/923ff0b7-7853-45cb-9bff-8018bb878e6a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Shie Hassaikai"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b289f316-1fdb-44df-a6fd-dc3a98ca32db.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

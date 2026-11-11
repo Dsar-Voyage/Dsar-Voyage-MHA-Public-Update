@@ -1,0 +1,20 @@
+{
+  "Shard Recall": {
+    "name": "Shard Recall",
+    "description": "The user touches an object broken within the last minute, a smashed crate, a split bench or a shattered pot, and its scattered pieces within a few strides fly back to rejoin it, striking a target in their path. The target takes bludgeoning damage and is knocked off balance; held back, the user calls back only the small pieces, which sting and trip. Without a freshly broken object in reach, there is nothing to recall. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

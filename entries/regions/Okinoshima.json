@@ -1,0 +1,28 @@
+{
+  "Okinoshima": {
+    "name": "Okinoshima",
+    "basicInfo": "The open Genkai-nada between Tsushima and the Kyushu coast, holding the sacred island of Okinoshima near its southwestern edge. Okinoshima is a small, steep, forested island about sixty kilometers off Munakata, the innermost sanctuary of Munakata Taisha; for more than a thousand years offerings for safe passage were left among its rocks, and it is a World Heritage site. No ordinary visitor may land: a single priest keeps the shrine in rotation, bathing in the sea before setting foot on shore, and nothing on the island may be carried away. Around it the water is deep blue and clear, a hundred meters or more over the shelf, with the warm Tsushima Current setting northeast. Winter northwesterlies make this one of the roughest stretches of water off Kyushu; summers are calmer, with sea fog in early summer. The overnight ferry between Shimonoseki and Busan crosses here, and cargo ships work the lanes toward the Kanmon Strait. Boats from Munakata's Oshima and Kanezaki fish the grounds around the island for sea bream, yellowtail and squid. The coast guard patrols out of Fukuoka and Kitakyushu, and maritime heroes from Fukuoka, more than an hour away by fast boat, answer emergencies. A party is out here aboard a ferry, a fishing boat, or with a flying hero.",
+    "hiddenInfo": "The island's taboos are taken seriously, and anyone landing without leave, a curious diver or a flier hunting for photos, is met by the coast guard and a very unhappy shrine. Otherwise the troubles are those of open water: night poaching, a fishing boat's engine dying far from shore, and help that is an hour or more away even for a flying hero.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -16,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/94684ef1-3331-4f82-96f2-2102df86d0ba.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

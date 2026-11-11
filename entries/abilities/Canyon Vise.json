@@ -1,0 +1,24 @@
+{
+  "Canyon Vise": {
+    "name": "Canyon Vise",
+    "description": "The user raises walls of stone on both sides of a target and slams them together. It deals heavy bludgeoning damage that ignores worn armor and hardened skin; held back, the walls stop short and hold the target upright between them, unable to move anything but their head, until they break out with a hard effort, the stone is broken or the user releases them. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earth Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

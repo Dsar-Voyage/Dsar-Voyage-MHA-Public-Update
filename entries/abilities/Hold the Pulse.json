@@ -1,0 +1,15 @@
+{
+  "Hold the Pulse": {
+    "name": "Hold the Pulse",
+    "description": "The user works on a dying patient with whatever is at hand, holding the airway open, packing wounds, treating shock and doing chest compressions if the heart stops. The patient stops getting worse and survives until an ambulance, a hospital or a healing Quirk takes over, as long as the user stays with them or hands them to a trained medic. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "First Aid",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

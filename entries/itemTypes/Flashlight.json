@@ -1,0 +1,20 @@
+{
+  "Flashlight": {
+    "name": "Flashlight",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "value": 2
+      }
+    ],
+    "description": "A bright, waterproof aluminum flashlight with a strobe setting. It lights gaps in rubble, smoke-filled rooms and dark stairwells, and a flash in someone's eyes buys a second. [ Tool | About ¥2,500 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f5e82a67-57b1-41e5-96d6-6ef823afcd5f.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "mundane"
+  }
+}

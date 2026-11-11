@@ -1,0 +1,20 @@
+{
+  "Turbine Sweep": {
+    "name": "Turbine Sweep",
+    "description": "The user plants a foot and spins on it with the engines firing, sweeping the other leg through a full circle at knee height. Every opponent within reach all around takes bludgeoning damage and is knocked flat, and any of them gripping a hostage or a weapon is forced to let go. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

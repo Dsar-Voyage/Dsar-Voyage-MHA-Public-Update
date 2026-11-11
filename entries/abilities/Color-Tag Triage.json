@@ -1,0 +1,15 @@
+{
+  "Color-Tag Triage": {
+    "name": "Color-Tag Triage",
+    "description": "The user moves through a group of casualties, checking breathing, bleeding and response in seconds each, and tags each person red, yellow, green or black by urgency. The user learns who is dying, who can wait and who can walk, and stops the most dangerous bleed among them in the same action. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "First Aid",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

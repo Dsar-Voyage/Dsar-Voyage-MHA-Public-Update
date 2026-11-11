@@ -1,0 +1,48 @@
+{
+  "Mina Ashido (Provisional License)": {
+    "name": "Mina Ashido (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "female melodic bright",
+    "basicInfo": "Mina Ashido, hero name Pinky, a Class 1-A first-year in U.A. Academy's Hero Course who passed the provisional hero license exam: she may now act as a hero in an emergency, within the license's limits. Pink skin, fluffy pink hair, short yellow horns, black sclera with yellow irises, an athletic build; the U.A. uniform, or her camouflage bodysuit, tan vest and white eye mask.\nSpeaking Style: Bright, fast and teasing; nicknames, a drawn-out \"Ehhh?!\" and a pounce on any romance (\"Is that love?!\").\nCombat Role: Licensed skirmisher: skates on acid, melts footing and gear, and times takedowns with teammates.\nUnder Pressure: Keeps the mood up; real fear can still freeze her for a beat, and she now pushes through it herself.",
+    "hiddenInfo": "Contradiction: She passed as the class clown, and now the license means a joke will not cover a mistake. Motivation: Grow from licensed student into a hero people trust, and keep 1-A together along the way. Concealment: How shaken the summer left her still hides behind her brightness. Connections: Eijiro Kirishima, Denki Kaminari and Hanta Sero, partners in noise in the Heights Alliance common room; Shota Aizawa, who pushed 1-A into building signature moves. Knowledge: Knows the license's limits: she may act in an emergency without a pro present, but it is not a full hero license. Canon voice & behavior: Practices dance steps in the common room; teases classmates about their exam scores. Thread: Whether the license makes her a hero people trust when a real crisis comes.\nQUIRK: Acid. Fine control of strength and thickness; strong or prolonged output still burns her skin. Drilled techniques fling acid at incoming objects.\nSTAGE: After the provisional license exam: passed; licensed for emergencies; acid techniques drilled.",
+    "personality": [
+      "Mood-maker: Starts the dance party or the snack run in the common room and drags everyone along.",
+      "Bright for others: Gets louder and cheerier when the class is down, whatever she feels herself.",
+      "Gossip hound: Interrogates anyone who blushes (\"Is that love?!\") until they escape.",
+      "Speaking style: Bright, rapid and teasing; nicknames and loud encouragement."
+    ],
+    "abilities": [
+      "Acid secretion: Fine control of strength and thickness; strong or prolonged output burns her own skin.",
+      "Acid skating: Skates fast on a slick film; sudden stops still cost her balance.",
+      "Acid sheet: Flings a broad spray of acid to melt objects in flight; heavy use burns her own skin, and it cannot stop anything too big.",
+      "Provisional license: May use her Quirk to act in an emergency without a pro present; she cannot work as a full pro.",
+      "Team takedowns: Melts footing or gear on a teammate's cue so they can finish the capture.",
+      "\nFighting style: Skates and dances around the opponent, melts footing or gear rather than skin, and times the takedown with teammates."
+    ],
+    "visualDescription": "A young woman with light pink skin, fluffy, tousled short pink hair, two short, curved pale-yellow horns rising from her hairline, black sclera with bright yellow irises, and an athletic build. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Bright, mischievous grin and a lively, playful expression.",
+    "detailType": "detailed",
+    "properName": "Mina Ashido",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/16a1f407-18c7-4fa9-97a8-4add2241b50a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "corrosive"
+    ],
+    "worldVoiceId": "mha_mina_ashido",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/16a1f407-18c7-4fa9-97a8-4add2241b50a.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/095bef8f-093c-4762-a910-65a50b41b726.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/562dcb6c-7a93-424c-a744-f2b7d691039c.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c4dd628-a67a-4413-b1aa-1fc64dc0bda9.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/92244ee5-d0e9-4bf6-aef1-31a1e30c4ff8.png"
+    },
+    "initialKnown": false
+  }
+}

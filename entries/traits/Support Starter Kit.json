@@ -1,0 +1,38 @@
+{
+  "Support Starter Kit": {
+    "name": "Support Starter Kit",
+    "description": "🥽 You own entry-level support gear from a licensed support company.\n\n⚖️ All of it is sold to the public and legal to own and wear.\n⚠️ Gear is not a license: wearing it while chasing criminals is still vigilantism.\n🏫 School exercises, exams and events can ban gear that was not approved in advance.\n🔧 It only helps while worn, it can break, and repairs go through a support workshop.\n\n🎒 Starts with: Support goggles, Grip gloves, Comms earpiece",
+    "traitNarrativeEffects": "The character owns entry-level support gear: tinted goggles with zoom and glare filtering, high-friction gloves and an encrypted earpiece paired to a channel they share with friends, teammates or classmates. All of it is sold to the public and legal to own and wear. Gear is not a license: wearing it while chasing criminals is still vigilantism, and school exercises, exams and events can ban gear that was not approved in advance. It only helps while worn, it can break, and repairs go through a support workshop.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Support goggles",
+        "quantity": 1
+      },
+      {
+        "item": "Grip gloves",
+        "quantity": 1
+      },
+      {
+        "item": "Comms earpiece",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "Vigilante"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Chimney Draft": {
+    "name": "Chimney Draft",
+    "description": "The user drives a turning draft through a burning building, a tunnel or a gas-filled street and pulls the smoke, gas or dust out through a single opening they choose, steering it clear of open flame. For the rest of the scene the air there stays breathable, and the user feels which rooms the draft cannot reach, where doors are shut or people are trapped. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wind Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

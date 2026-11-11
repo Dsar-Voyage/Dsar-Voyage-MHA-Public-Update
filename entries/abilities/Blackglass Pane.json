@@ -1,0 +1,20 @@
+{
+  "Blackglass Pane": {
+    "name": "Blackglass Pane",
+    "description": "The user hardens a shadow into a pane of dark glass as wide as a door between an attack and the people behind it. Until the end of the user's next turn, fists, thrown objects and pistol rounds from the front stop against the pane and deal no damage to anyone behind it; a rifle round or a heavy blow cracks it open, and a floodlight on it softens it away. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

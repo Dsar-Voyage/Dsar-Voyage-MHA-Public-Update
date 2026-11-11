@@ -1,0 +1,20 @@
+{
+  "Static Burst": {
+    "name": "Static Burst",
+    "description": "The user lets the stored charge go in a crackling burst all around their body. Everyone within arm's reach, allies included, takes electric damage and anyone gripping the user is forced to let go; held back, the burst only jolts, making each person drop what they hold. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

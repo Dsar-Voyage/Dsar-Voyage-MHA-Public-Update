@@ -1,0 +1,15 @@
+{
+  "armored_all_might": {
+    "title": "I Am Here",
+    "beats": "Late on day 405, All Might intercepts Shigaraki's Sensei along the route toward Shigaraki, on the approaches through Kamino Ward. He is visibly the retired, frail teacher the country now knows. Support armor unfolds around him with assistance from Hercules. Stain watches for an opening nearby. If All For One never escaped Gunga, relocate the interception only through an established journey or resolve the delay that has already succeeded.\n\nThe canon default course, as pressure the player can change: All Might uses armor functions inspired by his students to turn the enemy's hatred into wasted time. All For One keeps attacking him instead of proceeding directly to Shigaraki, while Rewind continues making the original body younger. Armor and vehicle components are progressively destroyed. Stain intervenes with Bloodcurdle, but All For One counters him and kills him unless someone changes that exchange. All Might survives the armored fight severely injured, captured, and facing a publicly visible execution.\n\nKeep Stain reachable before the counterattack, with an opportunity to shield him, force separation, or secure emergency extraction. His death is a default consequence, not an announcement at the opening. All Might's equipment has finite functions and does not give him his old Quirk back. The player can preserve a component, create an escape route, interfere with the broadcast, or help the enemy close the trap. Once a component is destroyed, later scenes cannot reuse it. All Might's capture must establish his actual condition and the execution threat without completing his death.\n\nBy place: Kamino Ward provides the interception and rescue approaches. U.A. Academy receives the broadcast while its wounded defenders remain occupied. Okuto Island, Gunga Mountain Villa, Jaku City, and Takoba Municipal Stadium respond from their actual remaining duties. Musutafu General Hospital prepares critical reception. Mount Fuji Battlefield receives the warning that All For One is still trying to reach Shigaraki. Remote players can coordinate a rescue request or protect local casualties without arriving through the screen.\n\nBy Path: Class 1-A and Class 1-B respond from their fronts; General Studies relays requests; Support assesses armor failures. Management maintains communications and Faculty seeks a rescue opening. Licensed Sidekick clears an approach; Licensed Pro Hero intercepts. League of Villains Recruit can aid or undermine the execution; Independent Villain exploits or contests it. Vigilante approaches rescue positions; Civilian Life helps nearby wounded.\n\nThe event is complete when the delaying action ends and All Might's condition and captivity, Stain's actual fate, and the remaining rescue opening are established.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_armored_all_might",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

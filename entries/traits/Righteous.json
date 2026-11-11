@@ -1,0 +1,20 @@
+{
+  "Righteous": {
+    "name": "Righteous",
+    "description": "⚖️ Right and wrong are clear to you, and you will not look away from wrong.\n\n🚨 You go after what others let slide, and wrongdoers feel you coming.\n⚠️ You see the world in black and white and judge people too fast.\n⚠️ You make enemies of people who could have been allies.\n🔀 If you are also Cynical, you expect the worst and punish it.\n\n📈 Grants: Capture +5",
+    "traitNarrativeEffects": "The character is righteous: they have a clear sense of right and wrong, refuse to look away from injustice and go after what others let slide. Weakness: they see things in black and white, judge people too fast, lecture, and make enemies of people who could have been allies. If the character is also Cynical, they expect the worst of people and punish it. The narrator shows the grey areas too; how the character judges them is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

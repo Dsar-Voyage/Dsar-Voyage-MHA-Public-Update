@@ -1,0 +1,20 @@
+{
+  "Competitive": {
+    "name": "Competitive",
+    "description": "🏆 You need to win. You train harder than your rivals, keep score and take the bait of any challenge.\n\n💪 Rivals drive you, and you train past exhaustion to stay ahead.\n⚠️ Losing stings and it shows, and you turn shared tasks into contests.\n⚠️ A rival's taunt can pull you off a plan, and you may chase a personal win when the team needs support.\n\n📈 Grants: Conditioning +5",
+    "traitNarrativeEffects": "The character measures themselves against others: grades, times, rankings, who lifted more, who made the rescue. Rivals drive them, and they train past exhaustion to stay ahead. Weakness: losing stings, and it shows. They take the bait of any challenge, turn shared tasks into contests and may chase a personal win when the team needs support. A rival's taunt can pull them off a plan. The narrator gives them rivals worth beating and moments where winning and doing the right thing point in different directions. The narrator puts each challenge in front of them; whether they take it is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Conditioning",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Bright Guard": {
+    "name": "Bright Guard",
+    "description": "The user fires a short beam across the path of one incoming attacker within several strides. The attacker must stop or take moderate light damage, giving one nearby ally room to move until the end of the user's next turn. The beam remains straight and can scorch anything behind the attacker, so the user must check the line first. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

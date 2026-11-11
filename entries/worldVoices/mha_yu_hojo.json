@@ -1,0 +1,15 @@
+{
+  "mha_yu_hojo": {
+    "label": "Yu Hojo",
+    "voiceTag": "male steady approachable",
+    "instructions": "A deep, plain, heavy man's voice. Blunt and few-worded: short, flat statements delivered steadily, meaning every one. Gruff loyalty to his friends in a firm, low tone. Unhurried and solid; never flashy.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -2
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Wreck Unmade": {
+    "name": "Wreck Unmade",
+    "description": "The user lays both palms on a crushed car, a buckled elevator car or a fallen slab up to a car's size and returns it to how it stood up to a few minutes ago. Crumpled doors spring open, a crushed roof lifts off the people inside and a slab rises back into the ceiling, moving around trapped bodies without crushing them. Damage older than a few minutes stays, and the user cannot move until the object finishes returning. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Undo Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

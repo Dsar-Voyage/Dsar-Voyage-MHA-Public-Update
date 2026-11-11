@@ -1,0 +1,25 @@
+{
+  "Rubber-bullet rifle": {
+    "name": "Rubber-bullet rifle",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "value": 5
+      }
+    ],
+    "description": "A shoulder-fired rifle that shoots hard rubber rounds meant to stagger and drop a target without killing. At close range or to the head a round can still break bone or blind, which is why only licensed heroes may carry one. [ Weapon | Licensed heroes only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d0b2a4e8-e404-49ef-8fcd-f1c23d698e1d.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

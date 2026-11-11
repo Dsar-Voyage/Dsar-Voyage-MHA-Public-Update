@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_mina": {
+    "name": "Portrait Swap: ep_mina",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/5c646a3d-8ab6-4af7-823f-e6fc0bdf62e1.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/5c646a3d-8ab6-4af7-823f-e6fc0bdf62e1.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/5c646a3d-8ab6-4af7-823f-e6fc0bdf62e1.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Mina Ashido (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/5c646a3d-8ab6-4af7-823f-e6fc0bdf62e1.png"
+      }
+    ]
+  }
+}

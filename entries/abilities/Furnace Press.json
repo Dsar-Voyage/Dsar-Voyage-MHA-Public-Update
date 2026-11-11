@@ -1,0 +1,24 @@
+{
+  "Furnace Press": {
+    "name": "Furnace Press",
+    "description": "The user presses a palm to the target and drives the flame to a white heat at contact. It deals heavy fire damage that ignores worn armor, shields and hardened skin, and it melts through a steel door, a car body or a vault lock in moments. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Blind Route Run": {
+    "name": "Blind Route Run",
+    "description": "The user memorizes a short route, holds a breath and passes through two thin obstacles before reappearing within the same room or corridor. They can scout a blocked passage or reach a person on its far side by the end of their next turn. They receive no sight or sound during the passage, so a changed route can send them into danger. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Permeation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

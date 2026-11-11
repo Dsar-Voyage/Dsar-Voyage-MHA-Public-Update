@@ -1,0 +1,20 @@
+{
+  "Taproot Listening": {
+    "name": "Taproot Listening",
+    "description": "The user sinks roots into soil, rubble or a cracked floor and feels the tremors that run through them. While they stay rooted and still, they know where every person in the building or rubble field is moving, hiding or lying trapped, down to the faint shifts of someone breathing under debris, but they cannot see faces or hear words. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Plant Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

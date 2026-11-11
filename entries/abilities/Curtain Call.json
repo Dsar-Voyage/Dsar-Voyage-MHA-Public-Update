@@ -1,0 +1,20 @@
+{
+  "Curtain Call": {
+    "name": "Curtain Call",
+    "description": "The user plants a palm on a struggling target and holds on. If the contact lasts until the end of the target's next turn, they fold into a sphere and are held unharmed until the user releases them or the sphere opens on its own; a shove, a blow or a dodge that breaks the contact before then stops it, and the target feels the pull begin. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Compression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

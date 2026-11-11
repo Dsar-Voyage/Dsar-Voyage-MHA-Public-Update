@@ -1,0 +1,25 @@
+{
+  "Thistledown Crossing": {
+    "name": "Thistledown Crossing",
+    "description": "The user turns lighter than they have ever been, a few hundred grams, and for the rest of the scene rides the wind across several city blocks: rising up any building face on its updraft, hanging above a street to watch every alley, and turning heavy at any moment to drop onto a target for heavy bludgeoning damage; held back, they land beside the target and the shock knocks them down. They can carry nothing heavier than a phone, a strong gust can sweep them a block off course, and when the scene ends they cannot change density until they rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

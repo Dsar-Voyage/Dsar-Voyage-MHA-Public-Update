@@ -1,0 +1,17 @@
+{
+  "Recruitment Drive": {
+    "name": "Recruitment Drive",
+    "questSource": "Kurogiri",
+    "questStatement": "Since Hosu, footage of the Hero Killer Stain demanding true heroes has spread everywhere, and villains who admire him want into the League of Villains that the news tied to that night. Giran is sending candidates to the bar, and Kurogiri wants someone to vet them before Tomura Shigaraki loses his temper and turns one to dust. Find out who each candidate is, what they want and whether they will take orders.",
+    "mainObjective": "Vet the League's new candidates for Kurogiri and report who is worth keeping.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has met the League's new candidates, judged what each one wants, and given Kurogiri or Tomura Shigaraki a recommendation, honest or not."
+    },
+    "detailType": "detailed",
+    "questLocation": "League Hideout Bar",
+    "questDesignBrief": "Character-driven villain politics. Unless the story has established otherwise, Giran brings Himiko Toga and Dabi to the bar first; Spinner, drawn by Stain's creed, and others such as Twice, Mr. Compress and Magne may follow later. Each wants something different: Toga to live as she pleases, Dabi to see Stain's will carried out, Spinner a cause. Tomura Shigaraki resents the comparison to Stain and may lash out. The PC's report shapes the mood, but who joins is decided in play, never forced either way. Dabi gives no history, and the quest supplies none. The quest plans no operation and stages no attack. Failure: a candidate turns on the PC, or Shigaraki blames the PC for a bad hire.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Rail Glide": {
+    "name": "Rail Glide",
+    "description": "The user wraps their boots and palms in live magnetic coils and rides the pull along steel rails, girders, pipes or parked cars across a street or up a building face. They can carry one passenger and brake against steel below to turn a fall into a soft landing. Running current and pull together leaves the user's legs tingling and wipes cards and phones on both riders, and wooden or stone faces give no lift. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

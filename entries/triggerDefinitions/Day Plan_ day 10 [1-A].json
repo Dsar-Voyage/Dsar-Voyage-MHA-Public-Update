@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 10 [1-A]": {
+    "name": "Day Plan: day 10 [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 10
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_usj_attack",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): after lunch Class 1-A rides the bus in hero costume to the Unforeseen Simulation Joint (USJ) for rescue training with Thirteen and Aizawa only. All Might is held up on the main campus since morning: he is not on the bus or in the dome when the class arrives and the lesson starts. No other afternoon class."
+      }
+    ]
+  }
+}

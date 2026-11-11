@@ -1,0 +1,15 @@
+{
+  "mha_kojiro_bondo": {
+    "label": "Kojiro Bondo",
+    "voiceTag": "male gentle soothing",
+    "instructions": "Deep but soft young man's voice, warm and slightly muffled, hesitant and polite. Speaks slowly and after others, with small apologetic pauses; steady and sincere in a crisis. Never boisterous, sharp or quick.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

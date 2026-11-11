@@ -1,0 +1,28 @@
+{
+  "Sea off Toshima": {
+    "name": "Sea off Toshima",
+    "basicInfo": "Open sea in the northern Izu Islands, south of Izu Oshima and east of the Izu Peninsula's tip, where the small round island of Toshima rises on the western edge of the region: a single steep volcanic cone under 3 km across, covered in camellia groves, with one village of a few hundred people above a tiny harbor and no beach at all. The water is deep, clear and cobalt blue, carried northeast by the Kuroshio current. Oshima's volcano shows to the north, Niijima's long white shore to the southwest, and open Pacific to the east. The night ferry from Tokyo's Takeshiba pier and the jetfoils call at Toshima on the way south to Niijima, Shikinejima and Kozushima, though landings are often cancelled in heavy swell. Wild dolphins live around Toshima, and visitors swim with them in summer. Fishing boats from Oshima and Toshima work the grounds for alfonsino, bonito, flying fish and spiny lobster. Coast guard patrol boats pass on their rounds. Far to the southwest, beyond Niijima, police boats patrol the restricted exclusion zone around the prison island, and the ferries keep to their charted routes. A party could be out here on a ferry or jetfoil, a fishing or dolphin boat, a private yacht, or carried by a flying hero.",
+    "hiddenInfo": "Toshima lives by the boats: when the swell cancels landings for a week, food runs short and tempers with it. Visiting divers and anglers sometimes take lobster out of season, and dolphin boats compete for the same pods. The nearest hero help is on Oshima or the Izu mainland, an hour or more away even in good weather.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 1,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c404206b-7d97-4e4a-860b-1add898a25fc.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

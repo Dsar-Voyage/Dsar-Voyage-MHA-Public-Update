@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 363 [League]": {
+    "name": "Day Plan: day 363 [League]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 363
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the Paranormal Liberation War: before dawn the heroes raid the Paranormal Liberation Front at the Gunga Mountain Villa, where the League is staying, and Jaku General Hospital, where Tomura Shigaraki lies in his pod. A recruit at the villa wakes to the attack; one elsewhere is called to the villa within the hour."
+      }
+    ]
+  }
+}

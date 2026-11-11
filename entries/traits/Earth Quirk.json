@@ -1,0 +1,40 @@
+{
+  "Earth Quirk": {
+    "name": "Earth Quirk",
+    "description": "🪨 You shape stone, concrete and packed soil by touch.\n\n🌱 At the start you tip up a chest-high slab for cover, drive a stone spur under an attacker, cut steps into a wall and move a car's weight of ground in a second or two.\n📈 With training: feet locked in the floor, a ridge heaving down a street, a rising column, shoring a collapse while you open a way in, crushing walls, a reshaped block.\n🔗 Common drawback pairing: Recoil, as every push into the ground jars your wrists.\n🎬 Similar canon Quirks: Cementoss (Cement), Pixie-Bob (Earth Flow).\n\n📈 Grants: Power +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Upturned Slab, Stone Spur",
+    "traitNarrativeEffects": "Scale: the user shapes stone, concrete, brick and packed soil by touch; it softens, flows where pushed, sets hard on release. At first: about a car's weight within a few meters in a second or two (chest-high slab, spur that throws an adult, steps up a wall). Shapes are real stone and stay. More needs learned techniques. Limits: the user must touch or stand on the material, moving only what is joined to it; metal, wood, glass and flesh do not answer (useless on a steel deck or in the air). Shaping takes a moment; reshaping a load-bearing wall can drop a building. Quirk Strain: light: slab, spur; moderate: gripping feet, a ridge down a street, a rising column; heavy: shoring a building, crushing vise; severe: signature move, reshaping a block. Type: Emitter. Law: unlicensed reshaping of roads or buildings is property damage; sealing a person in is unlawful confinement. Look: none at rest; ground ripples from the palms, gray grit climbs the wrists, stone grinds up.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Upturned Slab",
+      "Stone Spur"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

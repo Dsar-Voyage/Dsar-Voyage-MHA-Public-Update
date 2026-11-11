@@ -1,0 +1,25 @@
+{
+  "Induction Corridor": {
+    "name": "Induction Corridor",
+    "description": "The user links every lamppost, rail, pipe, car and wire along a city block into one electromagnetic corridor for the rest of the scene. On command it accelerates bearings into volleys or slams metal-armored enemies into walls for heavy force and electric damage, pinning them until they wrench free with a hard effort; held back, it only knocks targets down and disarms steel weapons. Running both natures across a block fries every phone, camera and battery there and slows the user to a walk while it lasts. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Railstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

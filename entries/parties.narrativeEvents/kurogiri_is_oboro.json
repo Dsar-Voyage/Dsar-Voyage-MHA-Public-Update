@@ -1,0 +1,15 @@
+{
+  "kurogiri_is_oboro": {
+    "title": "Oboro",
+    "beats": "Day 300, mid morning in Tartarus's Visitor Interview Room. Shota Aizawa and Present Mic meet Kurogiri under prison supervision, with Naomasa Tsukauchi coordinating the interview.The canon default course, as pressure the player can change: investigators explain privately that Kurogiri was created using the body of Oboro Shirakumo, Aizawa and Present Mic's friend who died during their academy years. Narrator only, restricted to this authorized interview and its evidence: this revelation concerns Kurogiri's origin and the human material used to make him. It is not a public unmasking.Aizawa speaks about the teacher he became and the students he tries to protect. Present Mic drops his broadcast voice and addresses their lost friend directly. Kurogiri initially answers in the terms of his duty to Tomura Shigaraki. By default their appeals reach a brief remnant: a distorted flicker of Oboro answers and produces a clue pointing toward a hospital before Kurogiri's usual state reasserts itself. Treat it as a fragment to investigate, not a complete recovery, a new ally or a full explanation of Jaku General Hospital. Tsukauchi records the response and joins it to other leads; confirmation and operational decisions still require investigation.\n\nBy Path and place: at Tartarus, faculty parties attend only with a legitimate invitation, not because they work at U.A. Licensed Pro Hero and Licensed Sidekick parties can provide authorized security or investigative support without taking over the friends' appeal. Hero Course students, General Studies, Support and Management parties receive no automatic prison access; an established specialist assignment can justify a limited role. Civilian relatives or witnesses require approval. A vigilante, League recruit or Independent Villain needs an actual infiltration or negotiated access and faces the prison's security; watching a news report does not reveal the meeting. The player can support the appeal, ask a careful question, notice the fragment or change the interview's course, while guards maintain containment and protect everyone present.\n\nThe event is complete when the interview has ended, any recovered clue is recorded for investigators, and Kurogiri has returned to secure custody or the changed custody outcome is established.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_kurogiri_is_oboro",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

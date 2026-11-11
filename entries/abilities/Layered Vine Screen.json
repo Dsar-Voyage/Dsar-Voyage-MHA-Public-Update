@@ -1,0 +1,24 @@
+{
+  "Layered Vine Screen": {
+    "name": "Layered Vine Screen",
+    "description": "The user weaves a dense screen across a passage up to five meters wide within fifteen meters, slowing attackers and catching light debris for two turns. Crossing the thorns risks light slashing damage; held back, the user opens a marked gap for evacuation. Fire or repeated cutting breaks the screen and spends growth that needs water and sunlight to replace. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Iwami": {
+    "name": "Iwami",
+    "basicInfo": "Iwami is the mountain heart of old Iwami Province in central Shimane, a cell of steep forested ridges and narrow valleys that touches the Sea of Japan only along its northwest edge. There the port town of Gotsu sits at the mouth of the Gonokawa, the longest river in the Chugoku region, and the coast runs northeast past the old hot-spring port of Yunotsu to the singing-sand beach of Kotogahama at Nima; the sea lies northwest of that line and everything else is land. Inland, the Gonokawa loops through gorges and quiet river towns such as Kawamoto and Misato, beside the rusting bed of the closed Sanko Line. In a wooded valley in the northeast lies Iwami Ginzan, the silver mine that once fed a large share of the world's silver and is now a World Heritage site: the Omori street of wooden merchant houses, the Ryugenji shaft open to visitors, and forest trails past shrines and hundreds of old tunnel mouths. The grassy volcanic domes of Mount Sanbe rise on the northeast edge, with Sanbe Onsen and pastures at their foot. The south is cold high plateau along the Hiroshima border, the farm towns of Onan and northern Kitahiroshima, with ski slopes at Mizuho Highland and Geihoku. Winters bring gray skies and deep snow inland; autumn fills the valleys with morning fog. Gotsu fires Iwami-yaki pottery, famous for huge glazed water jars, and the red Sekishu roof tiles seen across the region; elsewhere people grow rice, cut timber, hunt wild boar, brew sake and run inns for heritage visitors. Yunotsu is a small World Heritage hot-spring town of tiled bathhouses, and Iwami kagura is danced at shrines in every valley. The San'in Main Line and the Super Oki follow the coast through Gotsu; the Hamada Expressway crosses the southern plateau, and express buses run to Hiroshima, the nearest big city, in about two and a half hours. From Musutafu it is most of a day, six hours or more by shinkansen to Hiroshima and bus. Police boxes sit in each town, one or two licensed heroes cover dozens of valleys by car and on foot, heritage wardens ask visitors not to use Quirks inside the old shafts, and farmers with strength Quirks haul timber and snow under their work permits.",
+    "hiddenInfo": "Depopulation is the slow crisis: empty houses, shuttered schools, boar and deer stripping the fields, and roads cut by landslides in the rainy season. Small-time trouble is treasure hunters crawling into unmapped Ginzan shafts after silver ore, thieves lifting old tiles and pottery from abandoned houses, night speeders on the mountain roads, and an unregistered Quirk-user poaching ayu. Real hero help is far: Hiroshima is over two hours south and Matsue more than that, so rescues depend on police, volunteer fire brigades and whichever hero is on duty in the district.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -12,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bfe25883-16bf-42a4-9fcf-a7cc0c469e4b.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

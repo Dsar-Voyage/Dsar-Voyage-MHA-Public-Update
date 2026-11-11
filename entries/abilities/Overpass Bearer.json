@@ -1,0 +1,25 @@
+{
+  "Overpass Bearer": {
+    "name": "Overpass Bearer",
+    "description": "The user's extra limbs swell with the strength of a dozen adults each and brace against the largest load in reach: a collapsing building face, a falling highway span or a toppling crane. Until the end of the scene, or until the user lets go, nothing they hold falls further and everyone beneath it can walk out unhurt. The user cannot move their feet or use the extra limbs for anything else while bracing, and if they are knocked down the load drops at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

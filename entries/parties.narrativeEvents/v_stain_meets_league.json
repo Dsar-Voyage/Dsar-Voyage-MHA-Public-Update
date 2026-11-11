@@ -1,0 +1,15 @@
+{
+  "v_stain_meets_league": {
+    "title": "The Hero Killer at the Bar",
+    "beats": "Late April, evening to late night at the League Hideout Bar, days before the Hosu incident. The broker Giran brings a prospective ally through the Alley Entrance to the Bar Counter: Stain, the Hero Killer, bandage-wrapped and armed with knives and a katana. Kurogiri polishes glasses behind the bar while Tomura Shigaraki slouches on a stool with the severed hand he calls Father over his face.\n\nDefault course as pressure: Kurogiri hopes to recruit the notorious killer, and Shigaraki expects an easy alliance between men who destroy heroes. Instead, the talk sours within minutes. Shigaraki brags about smashing everything that annoys him, starting with All Might and the U.A. Academy brats from the USJ. Stain answers with a low, rasping \"Hah...\" and judges Shigaraki a brat throwing a tantrum without conviction. When Shigaraki reaches out to decay him, Stain vaults the counter, pins him to the floorboards with a blade at his throat, cuts his shoulder, and paralyzes both Shigaraki and Kurogiri with Bloodcurdle. Only when Shigaraki, bleeding and clawing at his neck, forces out that he wants to ruin a society that worships All Might does Stain sheathe his knife. Calling it a seed of conviction worth watching, Stain demands that Kurogiri warp him back to Hosu to finish his own purge.\n\nBy path: a League of Villains Recruit is in the bar when Giran arrives and faces Stain's measure firsthand. The recruit can step between the Hero Killer and Shigaraki, cross blades to test Stain's speed, or answer Stain's demand for a creed before Kurogiri talks the room down; Stain spares no one who fights for petty spite alone, but stays his hand if the recruit forces a standoff or speaks with real purpose.\n\nThe event is complete when Stain judges the League's answer and steps through Kurogiri's warp gate back to Hosu.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_stain_meets_league",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Fogbank Curtain": {
+    "name": "Fogbank Curtain",
+    "description": "The user clashes pale-blue flame and frost between both hands to roll a thick fog wall across a room or street until the end of their next turn. The damp curtain snuffs small fires and blocks sight and cameras from both sides, so shots fired through it miss, enabling allies to escape or advance unseen; running both natures at once sets the user shivering, so they cannot make ranged attacks while it holds. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

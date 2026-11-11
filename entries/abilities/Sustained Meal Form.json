@@ -1,0 +1,25 @@
+{
+  "Sustained Meal Form": {
+    "name": "Sustained Meal Form",
+    "description": "After preparing and eating several suitable foods, the user maintains multiple manifested traits across the whole body for the rest of the scene. Tentacles can hold two nearby people clear of danger while shell protects the user and wings assist a descent. Every trait must come from food actually eaten, and the forms weaken as that food is digested; maintaining them leaves the user exhausted. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Manifest Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

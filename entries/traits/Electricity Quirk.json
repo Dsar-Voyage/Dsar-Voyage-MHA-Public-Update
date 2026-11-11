@@ -1,0 +1,43 @@
+{
+  "Electricity Quirk": {
+    "name": "Electricity Quirk",
+    "description": "⚡ Your body stores electricity and releases it.\n\n🌱 At the start you discharge a crackling burst at everyone within arm's reach, lock a person's muscles with a touch, and run a phone or a dead car battery for a while.\n📈 With training and conductive tricks: one-target bolts, building blackouts and takeovers, a restarted heart, a nerve-driven blur, lightning chained through a crowd.\n⚠️ Aiming is the hard part: your early bursts hit friend and foe alike.\n🔗 Common drawback pairing: Cognitive Fade, as overuse scrambles your thinking.\n🎬 Similar canon Quirks: Denki Kaminari (Electrification).\n\n📈 Grants: Speed +1, Quirk Output +10, Quirk Control +10, Support Engineering +5\n⚡ Starting techniques: Static Burst, Jolt Clasp\n🛡️ Resists: electric",
+    "traitNarrativeEffects": "Scale: the body stores charge and releases it through the skin. A new adult user discharges a burst about arm's length around, drops an adult with a touch shock, runs a phone or car battery some minutes. Untrained discharges spread every way; a bolt hits a chosen target only along a conductor (wire, thrown coin). Bigger feats need techniques. Limits: rubber, insulation and grounding blunt it; water carries it to everyone in it; nearby electronics can fry by accident. Cannot fly, block blows or move metal. Quirk Strain: light: burst, touch shock; moderate: guided bolt, blackout, restarting a heart; heavy: nerve-driven sprint, chained lightning; severe: signature discharge, seizing a building's power. Type: Emitter. Law: shocking a person unlicensed is assault; cutting power to traffic lights or hospitals is endangering the public. Look: static in the hair at rest; in use, yellow-white arcs (or player's color) crawl on the skin, lights flicker, ozone smell.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Support Engineering",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Static Burst",
+      "Jolt Clasp"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "electric"
+    ]
+  }
+}

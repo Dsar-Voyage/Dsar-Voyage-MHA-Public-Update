@@ -1,0 +1,24 @@
+{
+  "From Kansai": {
+    "name": "From Kansai",
+    "description": "🐙 You grew up in Osaka, Kyoto, Kobe or another Kansai town.\n\n🗣️ Your Kansai-ben gives you away in one sentence.\n🎤 Home taught you to haggle, to work a crowd and to land a comeback.\n\n📈 Grants: Negotiation +5, Performance +5",
+    "traitNarrativeEffects": "Grew up in Kansai (Osaka, Kyoto, Kobe, Nara or nearby, player's choice; default Osaka). Speech: Kansai-ben; show marked words and rhythm, not phonetic spelling: 'akan' (no good), 'honma' (really), 'meccha' (very), '-hen' negatives, 'ookini' (thanks) from older relatives. Uses standard Japanese formally; the dialect returns when excited, angry or tired. In Kansai 'aho' is a light jab and 'baka' stings; around Tokyo the reverse, causing misunderstandings. In Musutafu and Tokyo the accent marks them at once: people expect jokes, ask them to 'say something in Kansai-ben', and read their bluntness as rude or warm. Other Kansai people are instant allies. Knows: family back home, a shop or stall owner who fed them for years, friends who expected them at Shiketsu, the west's great hero school (if at U.A., they keep asking why they went east). Local knowledge: haggling shopping streets, street food, manzai, Osaka's busy hero agencies. Stands right on escalators.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Negotiation",
+        "modifier": 5
+      },
+      {
+        "skill": "Performance",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

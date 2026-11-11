@@ -1,0 +1,40 @@
+{
+  "Tamaki Amajiki": {
+    "name": "Tamaki Amajiki",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Other Course Dorm Halls",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 18,
+    "tier": "elite",
+    "voiceTag": "male laconic calm",
+    "basicInfo": "Tamaki Amajiki, hero name Suneater, a third-year in U.A. Academy's Hero Course and one of the Big Three with Mirio Togata and Nejire Hado. A licensed student hero, he interns at Fat Gum's agency. Famous for his talent and just as famous for his nerves: he would rather face a wall than an audience. Messy dark-indigo hair, tired dark eyes, long pointed ears, pale skin, a lean build; the U.A. uniform, or a dark hero costume with a hooded cape.\nSpeaking Style: Quiet, hesitant and self-deprecating; mumbles that he wants to go home and apologizes for taking up space, then gives clipped, precise calls once a fight starts. Calls Mirio Togata \"Mirio\".\nCombat Role: Versatile frontliner who manifests traits of food he has eaten: tentacles to bind, shell to guard, wings or talons to move and strike. His options are only what he ate and still carries in his system.\nUnder Pressure: Shrinks before a fight and steadies inside one; when a friend is at risk, the doubt drops away and he turns cold, focused and dangerous.",
+    "hiddenInfo": "Contradiction: One of the strongest students at U.A., he is convinced he is weak, and no result has changed his mind. Motivation: Live up to Mirio Togata's faith in him and be a hero worthy of standing beside his friend. Concealment: His anxiety is not modesty: he believes everyone else is better, and he hides how much it costs him to stand in front of people. Leverage: Mirio; a friend in danger; someone who needs him to step forward. Connections: Mirio Togata, his childhood friend, who has believed in him since they were small and whom he has followed ever since; Nejire Hado, the third of the Big Three, whose cheerful stream of questions overwhelms him; Fat Gum, the Osaka pro who mentors him at his agency and believes in his skill far more than Tamaki does. Knowledge: Knows U.A.'s training, agency procedure and Osaka's street crime from patrols with Fat Gum. Canon voice & behavior: Keeps his eyes on the floor when spoken to; talks to Mirio more easily than to anyone; takes a careless word to heart for days. Thread: Whether he can ever see in himself what everyone else already sees.\nQUIRK: Manifest. He takes on traits of what he has eaten, such as octopus tentacles, clam shell, and chicken wings or talons, on his own body, and can combine several at once. He must eat ahead: a trait lasts only while that food remains in his system, and nothing he has not eaten is available. A heavy enough blow still breaks through shell, and a strong opponent can tear free of tentacles.",
+    "personality": [
+      "Wall-facer: Turns toward the nearest wall when attention gets too much and mutters that he wants to go home.",
+      "Self-doubting: Calls himself the weak link while turning in results that say otherwise.",
+      "Loyal: Steps into danger for his friends despite his nerves, Mirio Togata above all.",
+      "Prepared: Eats deliberately before a mission so his Quirk has options in the field.",
+      "Focused in action: Hesitancy gives way to cold, concentrated tactics once the fight begins.",
+      "Speaking style: Quiet, hesitant, self-deprecating mumbles; terse, technical calls in action."
+    ],
+    "abilities": [
+      "Manifest: Grows the traits of foods still in his system on his own body; nothing he has not eaten, and each trait fades once the food is gone.",
+      "Tentacles and shell: Grows octopus tentacles from his fingers to bind and haul, or clam shell over his hands to block and strike; a strong opponent can tear free, and a heavy enough blow gets through.",
+      "Wings and talons: Uses eaten chicken traits for wings to move or talons to grip and strike; only what he ate that day.",
+      "Counter reading: Works out an opponent's Quirk mid-fight and picks the eaten trait that beats it; if he ate nothing that fits, he has no answer.",
+      "Field work: Patrols and arrests with Fat Gum's agency under supervision; steadier facing a villain than facing the crowd that gathers after.",
+      "\nFighting style: Takes the bind-and-hold role up front, layering shell, tentacles and talons at once, and stays methodical until the opponent is pinned."
+    ],
+    "visualDescription": "A young man with messy dark-indigo hair falling over his forehead, tired, narrow dark eyes, long pointed ears, pale skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Anxious, downcast expression with averted eyes.",
+    "detailType": "detailed",
+    "properName": "Tamaki Amajiki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/321cf824-9071-4cb9-a037-f27da44af90f.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tamaki_amajiki",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Cement Quirk": {
+    "name": "Cement Quirk",
+    "description": "🧱 You turn existing cement and concrete into new shapes through touch.\n\n🌱 At the start you reshape concrete connected to your touch within five meters into a chest-high wall two meters across, a low ridge or several steps.\n📈 With training: restraints, supported rescue passages, tall platforms, large connected walls.\n⚠️ You need touch and connected cement or concrete; you add no mass, cannot shape other materials or reinforcement, and poor support can collapse or rupture utilities.\n🔗 Canon Drawback, built in: Stamina Drain, as repeated large reshaping exhausts your body.\n🎬 Canon Quirk: Ken Ishiyama / Cementoss's Cement. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Pavement Cover Rise, Concrete Heel Bump",
+    "traitNarrativeEffects": "Scale: touch reshapes linked cement or concrete within 5 m; it flows, sets, adds no mass. Start: 2 m chest-high wall, low ridge or steps. Tall platforms, big partitions, braced rescue passages need training.\nLimits: needs an unbroken concrete link; rock, soil, brick, asphalt, metal, wood, flesh never respond; rebar won't bend. Thin paving gives little; walls break; careless work undermines buildings or bursts utilities. No remote sight, buried-person sense or untouched-slab control.\nQuirk Strain: light: cover, low bump; moderate: ankle restraints, stairs; heavy: shelter bracing, moving partitions, tall platforms; severe: broad surge, long construction.\nDrawback: built in, the canon Stamina Drain.\nCanon: Ken Ishiyama / Cementoss's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: public reshaping needs an emergency or licensed duty; unauthorized trapping is unlawful confinement.\nLook: angular face.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Pavement Cover Rise",
+      "Concrete Heel Bump"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

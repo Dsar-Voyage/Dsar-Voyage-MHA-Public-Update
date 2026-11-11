@@ -1,0 +1,40 @@
+{
+  "Trait Manifestation Quirk": {
+    "name": "Trait Manifestation Quirk",
+    "description": "🦀 Your body grows the features of what you have eaten. What you ate today decides your toolkit.\n\n🌱 At the start you turn a hand into a crab's claw, stretch fingers into octopus tentacles, or grow another feature from recent meals, one limb in size, for a few minutes.\n📈 With training: a shell for you and someone you hold, wings, squid ink, horns through a wall, a steel-shearing claw, all meals in one form, a crowd caught on tentacles.\n🔗 Common drawback pairing: Finite Fuel, as each feature burns the meal it came from.\n🎬 Similar canon Quirks: Tamaki Amajiki (Manifest).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Cooking +5\n⚡ Starting techniques: Pincer Snap, Suckerline Reach",
+    "traitNarrativeEffects": "Scale: the user grows features of animals, fish, shellfish and plants eaten within about a day: claws, shells, tentacles, wings, horns, ink sacs. A new adult user grows one at a time, sized to one body part (forearm-sized claw, tentacles about two meters, wings that glide but cannot climb), holds it a few minutes and switches in a breath. Bigger feats need techniques. If meals were never stated, assume shrimp and squid. Limits: no meal, no feature; hard use burns a meal within the hour. Features keep their creature's weaknesses (shells crack, tentacles tear). It never copies a Quirk and draws nothing from people. Quirk Strain: light: one small feature; moderate: shell, wings, ink, whole limb; heavy: horns, giant claw; severe: every meal at once, dozens of tentacles. Type: Transformation. Law: a grown claw or horn is Quirk use; using one on a person unlicensed is assault. Look: a part reshapes in a second into the creature's real color and texture, tearing sleeves.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Cooking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Pincer Snap",
+      "Suckerline Reach"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

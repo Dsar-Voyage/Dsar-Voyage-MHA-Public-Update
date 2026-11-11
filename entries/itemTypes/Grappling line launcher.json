@@ -1,0 +1,20 @@
+{
+  "Grappling line launcher": {
+    "name": "Grappling line launcher",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Parkour",
+        "value": 5
+      }
+    ],
+    "description": "A wrist-mounted launcher that fires a hooked anchor on thin high-tension line and reels it back in with a motor. It pulls the wearer up a wall, across a gap or out of a fall, provided the anchor catches on something solid. [ Support Gear | About ¥95,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/da5ba8c3-677c-4142-8136-0e8302158158.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

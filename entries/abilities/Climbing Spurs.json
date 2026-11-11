@@ -1,0 +1,20 @@
+{
+  "Climbing Spurs": {
+    "name": "Climbing Spurs",
+    "description": "Short spurs grow from the user's palms, knees and toes and bite into brick, concrete or wood with every move. The user climbs a sheer wall or crosses a ceiling at a run and can anchor in place against wind, water or a pull; while anchored they can catch and hold a falling person, and neither of them falls. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

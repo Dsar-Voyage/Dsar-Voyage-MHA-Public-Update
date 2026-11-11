@@ -1,0 +1,20 @@
+{
+  "Sole Vent Dash": {
+    "name": "Sole Vent Dash",
+    "description": "The user expels a short burst from both soles and crosses ten meters to a visible open landing before the end of this turn. The user clears a low obstacle or escapes a closing grip before it catches; sealed footwear blocks the vents, and another burst requires enough stored breath and space to brake. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

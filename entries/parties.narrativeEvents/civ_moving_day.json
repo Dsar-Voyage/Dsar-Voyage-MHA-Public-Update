@@ -1,0 +1,15 @@
+{
+  "civ_moving_day": {
+    "title": "Moving Day",
+    "beats": "The first days of April and of the new fiscal year, a weekday from morning into evening. Cherry trees bloom, new hires in stiff suits pack the trains, and reporters still camp at U.A. Academy's gate for a glimpse of All Might. Today the player moves into a new apartment in their own city, a short ride from work, wherever the Background puts home. If the Background has the player settled for years, the move belongs to a new neighbor across the hall who has buried the corridor in boxes, and the player is the helper.\n\nWho is there: the landlord, Mrs. Setsuko Haraguchi, a brisk retired bookkeeper on the ground floor who carries the garbage calendar in a plastic sleeve; two tired movers; the upstairs neighbor, Daichi Ono, a night-shift nurse whose Quirk lets him hear a dropped coin through two floors and who wants quiet above all; down the hall, Mrs. Kinue Abe, whose mild magnetic Quirk keeps teaspoons stuck to her palm, bringing tea unasked. Mr. Tatsuya Moriwaki runs the corner store at the end of the block and knows every resident's complaints.\n\nThe default course, as pressure the player can change: the truck arrives an hour early while the keys are still with Mrs. Haraguchi, the stairs are the only way up, and the box with the kettle and the bedding went onto the wrong truck. The landlord walks through burnable, non-burnable and bottle days and mentions that the last tenant left over noise. At noon Daichi comes down, sleepless, about the stairs. Neighbors expect a small greeting gift, and Moriwaki sells boxed towels and soba for exactly that. A Quirk inside the building is a private matter; one used on the street out front can still bring a fine. In Tokyo the room is smaller, the rent higher and the landlord a management company on the phone.\n\nThe event is complete when the last box is inside, the missing box is found or written off, and the player has met the landlord and at least one neighbor, or leaves the unpacking for another day.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_civ_moving_day",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Compression Quirk": {
+    "name": "Compression Quirk",
+    "description": "🔮 You shrink what you touch into a small glassy sphere and restore it at will. It is a showman's Quirk.\n\n🌱 At the start you palm a weapon, a crate or a motorcycle into a marble-sized sphere in an instant, and feel through your palm what a wall or a rubble pile hides.\n📈 With training: people carried out sealed safely inside, stored walls dropped in place, pocket ladders, villains removed, gangs disarmed at once, a falling tower pocketed.\n🔗 Common drawback pairing: Cognitive Fade, as tracking every sphere wears on your mind.\n🎬 Similar canon Quirks: Mr. Compress (Compress).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Analysis +10, Sleight of Hand +5\n⚡ Starting techniques: Disappearing Prop, Palm Survey",
+    "traitNarrativeEffects": "Scale: the palm shrinks what it touches into a marble-sized sphere (or a player-picked shape) and snaps it back within about ten meters. A new adult user takes up to a motorcycle's size in a second, carries a handful of weightless spheres, and feels the shape of what the palm touches. People and bigger feats need techniques. Limits: no touch, no compression; walls, floors and fixed doors stay put. It never harms its contents; a person inside feels no time pass and comes out unhurt on their own within minutes. A broken sphere frees what it holds. Quirk Strain: light: an object in or out, reading a volume; moderate: a willing person, ranged release, climbing released objects; heavy: a resister, disarming a group; severe: signature, touchless compression. Type: Emitter. Law: compressing a person without consent is abduction; hiding goods in spheres is smuggling; licensed users take people only to rescue or arrest. Look: a blurred miniature inside; release pops.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Sleight of Hand",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Disappearing Prop",
+      "Palm Survey"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

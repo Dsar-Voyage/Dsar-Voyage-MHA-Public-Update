@@ -1,0 +1,22 @@
+{
+  "Items: one Support boots": {
+    "name": "Items: one Support boots",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Support boots",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Support boots",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

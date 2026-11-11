@@ -1,0 +1,26 @@
+{
+  "Save Everyone": {
+    "name": "Save Everyone",
+    "description": "🆘 You want no one left behind: every civilian, every teammate, maybe even the villain.\n\n💪 You know it is impossible, and you mean to try.\n🧭 This motivation shapes the chances the story offers: rescues, triage and people who need you in time.\n⚠️ Not every rescue succeeds, and saving one person can cost another.",
+    "traitNarrativeEffects": "The character measures success by who gets out alive. The narrator surfaces rescue opportunities: collapsed buildings, fires, floods, panicking crowds, bystanders hurt in villain attacks, Thirteen's rescue training at the USJ and rescue-focused agencies. It brings in rescue pros, paramedics, firefighters, victims and their families, and now and then a villain who might be worth saving. Pressures: triage, where saving one person costs another; the pull to break their own body for one more rescue; orders to pull back; and people they cannot reach in time. Not every rescue succeeds, and losses are never staged for shock: the character gets real chances and honest outcomes. The narrator never decides whom they try to save.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

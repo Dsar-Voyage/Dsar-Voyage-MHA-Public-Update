@@ -1,0 +1,24 @@
+{
+  "From Musutafu": {
+    "name": "From Musutafu",
+    "description": "🏙️ You grew up in Musutafu, the city around U.A.\n\n🗺️ You know its train lines, back streets and shopping arcades.\n🦸 Pro heroes on patrol were part of your ordinary week.\n\n📈 Grants: Navigation +5, Hero Industry +5",
+    "traitNarrativeEffects": "A Musutafu local: standard Japanese, no regional accent; locals hear them as one of their own. How Musutafu treats them: as a neighbor; what they do in town reaches their family fast; at U.A., locals take pride in them and watch them closely; villain attacks on U.A. or the city are personal (family and friends live nearby). How Tokyo treats them: as someone from U.A.'s city, asked about the school and its people. Who they know: old classmates (some failed the U.A. exam and now study or work in town), shopkeepers who knew them as a child, the officer at their old police box, neighbors close to their family; the narrator may make one a named original local contact. Local knowledge: the train lines and the station nearest U.A., back streets that avoid crowds, the shopping arcades, Dagobah Municipal Beach Park, late-open food counters, streets reporters fill when U.A. is news. Grew up with the Sports Festival on TV each spring and pros patrolling near the station.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Navigation",
+        "modifier": 5
+      },
+      {
+        "skill": "Hero Industry",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

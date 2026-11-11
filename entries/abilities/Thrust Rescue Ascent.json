@@ -1,0 +1,24 @@
+{
+  "Thrust Rescue Ascent": {
+    "name": "Thrust Rescue Ascent",
+    "description": "The user directs strong flame jets away from one adult held against their chest and flies thirty meters to a clear landing by the end of the user's next turn. The user keeps the passenger outside every exhaust path; tight corridors prevent safe use, and the accumulated heat forces a turn without flames after landing. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

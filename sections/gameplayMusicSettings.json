@@ -1,0 +1,426 @@
+{
+  "characterCreationTrackId": "CharacterCreationMHA",
+  "tracks": {
+    "Apprehensive": {
+      "matchTags": [
+        "dread",
+        "ominous",
+        "lurking",
+        "danger",
+        "warning",
+        "threatening",
+        "tense",
+        "anxious",
+        "uneasy",
+        "foreboding",
+        "suspicious",
+        "nervous"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/e4e5228e-e3e6-46d5-afe9-b389a3768438.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/1a34573e-35d3-4589-8220-c008d5a4f549.mp3"
+        }
+      ]
+    },
+    "Awestruck": {
+      "matchTags": [
+        "wonder",
+        "magnificent",
+        "ancient",
+        "revelation",
+        "sacred",
+        "overwhelming",
+        "majestic",
+        "vast",
+        "breathtaking",
+        "awe",
+        "mystical",
+        "divine",
+        "grandeur",
+        "discovery"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/3b613b1a-5eb2-40b7-97b6-232db752d0d8.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/644a0718-979f-4d7b-ab81-147e38b636fd.mp3"
+        }
+      ]
+    },
+    "Fighting": {
+      "matchTags": [
+        "combat",
+        "battle",
+        "fighting",
+        "attack",
+        "clash",
+        "warfare",
+        "strike",
+        "assault"
+      ],
+      "cues": [
+        "combat"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/fa1c97b9-4088-4022-a8ca-e13da9f384b7.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/d35adcaa-047d-47c8-b0a0-d912e3b93ff3.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/28687c98-6e8e-4895-ac3b-ea65bd1c8a0c.mp3"
+        }
+      ]
+    },
+    "CharacterCreationMHA": {
+      "cues": [
+        "character-creation"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/4af3e62b-a739-49e2-b79d-47201168a6d7.mp3"
+        }
+      ]
+    },
+    "Calm": {
+      "matchTags": [
+        "peaceful",
+        "safe",
+        "rest",
+        "serene",
+        "tranquil",
+        "relaxed",
+        "shelter",
+        "stillness",
+        "meditative",
+        "comfort"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/41b284b8-cb26-4e0d-813c-c69999e16773.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/0d7a6802-f7c9-4610-8bf3-c4e07bb4a856.mp3"
+        }
+      ]
+    },
+    "Dead": {
+      "matchTags": [
+        "death",
+        "killed",
+        "fallen",
+        "tragedy",
+        "grief",
+        "devastating",
+        "perished",
+        "fatal"
+      ],
+      "cues": [
+        "dead"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/95e80b85-4d00-4367-88b4-fe1b47f6133e.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/6dd432cf-0e0d-4041-9b76-863491761f1c.mp3"
+        }
+      ]
+    },
+    "Distraught": {
+      "matchTags": [
+        "distress",
+        "turmoil",
+        "betrayal",
+        "anguish",
+        "conflict",
+        "desperate",
+        "troubled",
+        "dilemma",
+        "confrontation",
+        "argument",
+        "tension",
+        "accusation",
+        "rejection",
+        "bitter"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/6b2788a2-71e2-4702-9f3e-79283adcf2d9.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/ec1acef4-0ece-45ef-b1a7-2545ea37c427.mp3"
+        }
+      ]
+    },
+    "Dying": {
+      "cues": [
+        "dying"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/c3c8bc56-a501-44be-a5d3-d9ee59ef1099.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/67efd693-f1d6-4547-bf7d-8acbbdb6fa59.mp3"
+        }
+      ]
+    },
+    "Eulogizing": {
+      "matchTags": [
+        "mourning",
+        "memorial",
+        "funeral",
+        "tribute",
+        "remembrance",
+        "farewell",
+        "honoring",
+        "grave"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/4d9dc72d-7b56-4448-9438-07de5d4ca46b.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/14f223ae-e70c-468f-be13-8d55bbe0678c.mp3"
+        }
+      ]
+    },
+    "Exuberant": {
+      "matchTags": [
+        "excitement",
+        "energetic",
+        "wild",
+        "celebration",
+        "dancing",
+        "festival",
+        "jubilant",
+        "excited",
+        "revelry",
+        "exhilarating",
+        "raucous",
+        "festive"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/faeedeb7-98ea-4ebe-9373-8d6580cf33d1.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/9fc40f16-235b-49c5-8312-377170b2584b.mp3"
+        }
+      ]
+    },
+    "Happy": {
+      "matchTags": [
+        "cheerful",
+        "pleasant",
+        "friendly",
+        "lighthearted",
+        "warm",
+        "kind",
+        "reunion",
+        "welcome",
+        "hopeful",
+        "gentle",
+        "tender"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/3ea23048-b1c9-4d5c-b1e2-8526ee58f8cd.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/f42b249e-f312-4b36-b972-277151c4f149.mp3"
+        }
+      ]
+    },
+    "Investigatory": {
+      "matchTags": [
+        "investigation",
+        "searching",
+        "clues",
+        "hidden",
+        "sneaking",
+        "spying",
+        "detective",
+        "tracking"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/dfe000ab-5a7b-48ed-802b-38d4cbc84005.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/5f948263-35b2-47b7-91fa-d568151367aa.mp3"
+        }
+      ]
+    },
+    "Morose": {
+      "matchTags": [
+        "melancholy",
+        "somber",
+        "gloomy",
+        "lonely",
+        "bleak",
+        "empty",
+        "weary",
+        "sorrowful",
+        "resigned",
+        "loss",
+        "regret",
+        "desolate"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/a818c18e-3461-4c1b-b9a7-3fb88a444584.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/e025b851-284b-45b7-9243-49b3a17d5c43.mp3"
+        }
+      ]
+    },
+    "Near_Dead": {
+      "cues": [
+        "near-death"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/1beec331-bf54-4a11-b507-a6c2a567bb34.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/6c2467d7-e3f3-47f2-82b4-afcdc93ee1b0.mp3"
+        }
+      ]
+    },
+    "Pursued": {
+      "matchTags": [
+        "chase",
+        "fleeing",
+        "escape",
+        "pursuit",
+        "hunted",
+        "running",
+        "urgent",
+        "panic",
+        "frantic"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/37e34e9b-a8b0-462a-9383-cffbe24c45c8.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/bf9523c8-472d-4298-a88b-4a367e403edf.mp3"
+        }
+      ]
+    },
+    "Recover": {
+      "cues": [
+        "recovery"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/e753c066-0902-4578-bdf8-68073f9b9245.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/f5615712-52ba-47a4-9ca9-318a32e1c247.mp3"
+        }
+      ]
+    },
+    "Spooked": {
+      "matchTags": [
+        "horror",
+        "supernatural",
+        "haunted",
+        "eerie",
+        "ghost",
+        "creepy",
+        "cursed",
+        "unnatural",
+        "sinister",
+        "macabre",
+        "unsettling"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/096a518c-cf60-4895-a50c-26aeec4966b9.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/b6136a18-b632-446c-9403-13edd21efbd2.mp3"
+        }
+      ]
+    },
+    "Travelling": {
+      "matchTags": [
+        "journey",
+        "travel",
+        "road",
+        "adventure",
+        "exploring",
+        "trek",
+        "wandering",
+        "path",
+        "expedition",
+        "voyage",
+        "roaming"
+      ],
+      "cues": [
+        "travel"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/dc00c664-e8d2-4a0a-b3fc-dff64fba018a.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/53137d97-1b98-47d1-9e79-9d35f66d30e2.mp3"
+        }
+      ]
+    },
+    "Triumphant": {
+      "matchTags": [
+        "victory",
+        "triumph",
+        "heroic",
+        "conquered",
+        "achievement",
+        "glory",
+        "champion",
+        "winning",
+        "victorious",
+        "glorious",
+        "legendary",
+        "celebrated"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/73383bdf-7cf9-4e97-9202-2d062971ce14.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/ce63e7bf-7743-4736-8574-dc3fe611e898.mp3"
+        }
+      ]
+    },
+    "Unconscious": {
+      "matchTags": [
+        "dream",
+        "unconscious",
+        "vision",
+        "trance",
+        "ethereal",
+        "floating",
+        "surreal",
+        "sleep"
+      ],
+      "variants": [
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/0f940c3a-9bcc-476d-acd7-743edc2da0e3.mp3"
+        },
+        {
+          "url": "https://images.aidungeon.com/user_content/65802571/music/uploads/5daedc30-5b9f-4ba5-8e22-1c285e717198.mp3"
+        }
+      ]
+    }
+  }
+}

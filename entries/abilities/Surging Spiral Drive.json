@@ -1,0 +1,25 @@
+{
+  "Surging Spiral Drive": {
+    "name": "Surging Spiral Drive",
+    "description": "The user gathers a large wave and drives it into one target within a short street. The impact deals severe bludgeoning damage; held back, a broader push knocks the target down without a crushing blow. The spiral takes a moment to arrive, and the release leaves the user too drained to fly until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

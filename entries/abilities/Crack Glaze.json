@@ -1,0 +1,20 @@
+{
+  "Crack Glaze": {
+    "name": "Crack Glaze",
+    "description": "The user presses both palms to a cracking wall, a sagging ceiling or a split pipe and pours glass into every crack, where it sets as seams and braces. Through the glass they feel each point of strain, so they know which parts are about to fail. For the rest of the scene that structure cannot fall or burst any further, though a blast or a fire that heats the glass can still crack it open. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

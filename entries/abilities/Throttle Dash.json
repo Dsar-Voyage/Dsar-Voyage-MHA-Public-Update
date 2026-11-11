@@ -1,0 +1,20 @@
+{
+  "Throttle Dash": {
+    "name": "Throttle Dash",
+    "description": "The user opens the engines to full and races up to a city block in a straight line or a wide curve, outpacing cars on a city street. They arrive before anyone there can act, can snatch up an object or a light person on the way, and need a long skid to stop. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Propulsion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

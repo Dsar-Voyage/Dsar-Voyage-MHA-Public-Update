@@ -1,0 +1,15 @@
+{
+  "mha_nejire_hado": {
+    "label": "Nejire Hado",
+    "voiceTag": "female melodic bright",
+    "instructions": "Light, airy, high young woman's voice, dreamy and sing-song, bubbling with curiosity. Rapid, breathless strings of questions, hopping topics mid-sentence with a lilting rise; bright and focused in battle. Never flat, slow, whispery or harsh.",
+    "speed": 1.1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

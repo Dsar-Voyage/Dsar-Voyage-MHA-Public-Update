@@ -1,0 +1,30 @@
+{
+  "Place Light: story note Deika City": {
+    "name": "Place Light: story note Deika City",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Deika City"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_deika_liberation",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": ".*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: since the battle against the Meta Liberation Army, a wide swath of Deika City is gone, decayed to dust by Tomura Shigaraki: flattened blocks that end in sharp edges, half-dissolved buildings, a damaged tower, and the untouched districts beyond, where survivors and relief crews work. Describe it that way, never as the intact city."
+      }
+    ]
+  }
+}

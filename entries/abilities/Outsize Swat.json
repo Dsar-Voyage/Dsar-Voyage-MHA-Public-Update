@@ -1,0 +1,20 @@
+{
+  "Outsize Swat": {
+    "name": "Outsize Swat",
+    "description": "The user's hand swells to the size of a car door mid-swing and swats a target within a few strides. It deals bludgeoning damage and knocks the target and anyone beside them off their feet; held back to an open-palmed shove, it only puts them flat on the ground without injury. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

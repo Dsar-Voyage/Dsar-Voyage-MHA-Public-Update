@@ -1,0 +1,20 @@
+{
+  "Snatch-Back": {
+    "name": "Snatch-Back",
+    "description": "When a villain drags or carries someone off (a kidnapping, a mugging, a hostage grab), the user cuts them off through the alleys and takes the victim back. The victim ends up free and behind the user, unharmed by the grab, and the villain has to fight or flee without them. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vigilante",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Search and Rescue",
+        "amount": 10
+      }
+    ],
+    "bonus": 45,
+    "cooldown": 2
+  }
+}

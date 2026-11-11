@@ -1,0 +1,20 @@
+{
+  "Umbral Band": {
+    "name": "Umbral Band",
+    "description": "The user lifts the shadow under a target within five meters into flat black bands edged with thin smoked glass that wrap their ankles or wrists without cutting. The target cannot walk away or swing the held limb until they break free with a hard effort, a bright light thins the band or the end of the user's next turn; on shadowless ground it fails unless a standing shard casts shade there. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duskglass Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

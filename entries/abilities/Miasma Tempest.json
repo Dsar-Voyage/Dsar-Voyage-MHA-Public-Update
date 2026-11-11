@@ -1,0 +1,25 @@
+{
+  "Miasma Tempest": {
+    "name": "Miasma Tempest",
+    "description": "The user's signature move: they empty every reserve at once, and a towering storm of churning gas rolls out across a whole city block. Everyone inside without a sealed mask, allies included, takes massive toxic damage and collapses coughing, unable to stand, attack or use a Quirk until the end of their next turn; afterward the user cannot release gas until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

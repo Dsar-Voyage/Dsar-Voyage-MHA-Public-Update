@@ -1,0 +1,20 @@
+{
+  "Safe Rebound": {
+    "name": "Safe Rebound",
+    "description": "The user places a line of balls across a damaged hallway or narrow roof and rebounds from one to the next, crossing without touching the hazard between them. They can carry a child or a small rescue bundle. A missed landing ends the route, and the balls left behind remain hazards for everyone else. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

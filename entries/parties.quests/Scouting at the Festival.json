@@ -1,0 +1,17 @@
+{
+  "Scouting at the Festival": {
+    "name": "Scouting at the Festival",
+    "questSource": "U.A. Stadium",
+    "questStatement": "The U.A. Sports Festival is where Japan's pros find their next interns, and every agency in the country has a seat in the stands. Yours can afford exactly one internship offer. The big agencies will bid on the obvious stars; somewhere in the first-year events is a student whose Quirk and nerve would fit a small agency like yours, if you can spot them before anyone else does.",
+    "mainObjective": "Watch the first-year Sports Festival from the pros' stands and send one internship offer to the student your agency should train.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has watched the Sports Festival as a pro scout and has sent an internship offer to a student, or has clearly chosen to send none."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Stadium",
+    "questDesignBrief": "Hero industry seen from the stands. Pros talk shop around the PC: rankings, sponsors, which students the top agencies want. The canon events and results belong to the Sports Festival event; the quest is about what the PC notices and decides. The chosen student (canon or original) can arrive for Internship Week later. Failure: an offer to a student who turns it down for a bigger agency, or a missed talent the PC regrets.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Day Plan: day 2 [1-A]": {
+    "name": "Day Plan: day 2 [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the first morning: homeroom roll call in Class 1-A; instead of the entrance ceremony, Shota Aizawa hands out gym uniforms and sends the class to the locker rooms to change, then out to the athletics field beside the main building for a Quirk assessment of eight events, everyone in gym uniforms. The afternoon is homeroom guidance and the curriculum handout. Regular lessons begin tomorrow."
+      }
+    ]
+  }
+}

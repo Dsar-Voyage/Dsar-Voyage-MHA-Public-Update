@@ -1,0 +1,15 @@
+{
+  "Rebound Landing": {
+    "name": "Rebound Landing",
+    "description": "Sent flying by a blow or a blast, the user twists in midair, lands feet-first on a wall, a car or the ground and springs off it. The user takes no extra injury from the landing or from hitting anything, and can spend the rebound on an immediate attack or escape before the attacker recovers. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Acrobatics",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sup_costume_rush": {
+    "title": "Costume Upgrade Rush",
+    "beats": "Late summer at U.A. Academy, the weeks before the Provisional License Exam. Class 1-A is developing special moves all day, and every new move breaks something: a glove, a boot, a seam, a sensor. The Hero Course arrives at the Development Studio in a steady line, change-request forms in hand, and Power Loader vanishes behind a stack of paperwork that grows faster than he can sign it.\n\nDefault course, as pressure the player can change: Mei Hatsume is delighted. Every request is a chance to build, and every visitor is a customer and a test pilot at once. Izuku Midoriya comes in with Tenya Iida and Ochaco Uraraka to ask about protecting his arms and putting more power into his kicks; by canon default the studio fits him with forearm guards and iron soles for his boots. One of Hatsume's other babies goes off as they arrive, the door blows open and she lands on Izuku in the smoke, reciting specs before she stands up; Iida lectures on safety, Uraraka cannot stop laughing, and Power Loader sighs and fishes the parts out of the hallway. Behind them the requests stack up: fabric that will not tear in a fall, a sensor that warns of overheating, a strap that holds under a weight-changing Quirk.\n\nA Support Course party gets a real client: one request off the pile, from a Hero Course student who needs it before the exam. It can take measurements, ask how the student's Quirk actually moves, which is always Power Loader's first question, and build something that holds up on exam day. It can help Hatsume with the iron soles, stop her from turning a simple brace into a rocket, or help Power Loader clear the forms, which earns his trust faster than any invention.\n\nThe event is complete when the party's commission passes its first test in the cage and the client signs for it.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_sup_costume_rush",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

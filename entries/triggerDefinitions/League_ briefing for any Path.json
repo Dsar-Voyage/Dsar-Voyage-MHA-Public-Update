@@ -1,0 +1,53 @@
+{
+  "League: briefing for any Path": {
+    "name": "League: briefing for any Path",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "lg_start",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-traits",
+        "operator": "notContains",
+        "value": "League of Villains Recruit"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 123
+      },
+      {
+        "type": "read-boolean",
+        "key": "live_v_vanguard_briefing",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_v_vanguard_briefing",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "v_vanguard_briefing"
+      },
+      {
+        "type": "write-boolean",
+        "key": "live_v_vanguard_briefing",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: this turn's first lines: Kurogiri's gate opens beside the Bar Counter and Mustard, Muscular and Moonfish step through, each called by name, and Tomura starts the briefing at once (no waiting for a set hour). The side event \"The Vanguard Action Squad\" begins now and this turn's scene is that event, at the League Hideout Bar with the party present, on a late-July night a week before U.A. Academy's Hero Course leaves for summer camp. The raid is the evening of Saturday, August 3."
+      }
+    ]
+  }
+}

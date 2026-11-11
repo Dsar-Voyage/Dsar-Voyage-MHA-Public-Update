@@ -1,0 +1,25 @@
+{
+  "Nightfall Reach": {
+    "name": "Nightfall Reach",
+    "description": "At night or in a blackout, the shadow spreads through every unlit space across several city blocks for the rest of the scene and can rise out of any patch of darkness there. It pins enemies in alleys until they break free with a hard effort or a bright light falls on it, catches falling people and hauls the trapped out of dark rubble, and strikes for heavy slashing damage on command; held back, it only pins. Each turn it is spread, the user must rein it in with a hard effort of will or it lashes at whoever is nearest, allies included. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Shadow Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

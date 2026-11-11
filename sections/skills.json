@@ -1,0 +1,464 @@
+{
+  "Athletics": {
+    "name": "Athletics",
+    "attribute": "power",
+    "type": "utility",
+    "description": "Covers: lifting, pushing, carrying, jumping, throwing heavy objects and forcing doors through bodily strength. Not: scaling walls, which is Climbing. Primary attribute: Power.",
+    "startingItems": []
+  },
+  "Climbing": {
+    "name": "Climbing",
+    "attribute": "power",
+    "type": "utility",
+    "description": "Covers: scaling walls, cliffs, rubble and structures by grip and strength, with or without rope. Not: free-running across obstacles at speed, which is Parkour. Primary attribute: Power.",
+    "startingItems": []
+  },
+  "Swimming": {
+    "name": "Swimming",
+    "attribute": "endurance",
+    "type": "utility",
+    "description": "Covers: moving and staying afloat in water, diving, holding breath and surface rescue swims. Not: rescue work on land, which is Search and Rescue. Primary attribute: Endurance.",
+    "startingItems": []
+  },
+  "Running": {
+    "name": "Running",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: sprints, chases and distance running on foot. Not: vaulting obstacles mid-run, which is Parkour; moving by Quirk, which is Quirk Mobility. Primary attribute: Speed.",
+    "startingItems": []
+  },
+  "Parkour": {
+    "name": "Parkour",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: free-running over rooftops, walls, railings and urban obstacles at speed, including safe landings. Not: slow vertical ascents, which is Climbing. Primary attribute: Speed.",
+    "startingItems": []
+  },
+  "Acrobatics": {
+    "name": "Acrobatics",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: balance, tumbling, flips, rolling out of falls and twisting in midair. Not: evading an incoming attack, which is Dodging. Primary attribute: Speed.",
+    "startingItems": []
+  },
+  "Stealth": {
+    "name": "Stealth",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: moving unseen and unheard, hiding, and slipping past people in the moment. Not: watching a target over time, which is Surveillance; locks and alarms, which is Infiltration. Primary attribute: Speed.",
+    "startingItems": []
+  },
+  "Conditioning": {
+    "name": "Conditioning",
+    "attribute": "endurance",
+    "type": "utility",
+    "description": "Covers: sustained exertion, enduring heat, cold, pain and hunger, staying conscious through injury and recovering breath. Not: resisting fear or mind control, which is Willpower. Primary attribute: Endurance.",
+    "startingItems": []
+  },
+  "Striking": {
+    "name": "Striking",
+    "attribute": "power",
+    "type": "combat",
+    "description": "Covers: unarmed blows: punches, kicks, elbows, knees and headbutts with footwork and guard. Not: holds and throws, which is Grappling; blows driven by a Quirk, which is Quirk Output. Primary attribute: Power.",
+    "startingItems": []
+  },
+  "Grappling": {
+    "name": "Grappling",
+    "attribute": "technique",
+    "type": "combat",
+    "description": "Covers: holds, throws, takedowns, joint locks, pins and escaping them. Not: binding a subdued person with tape or cuffs, which is Capture. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Melee Weapons": {
+    "name": "Melee Weapons",
+    "attribute": "technique",
+    "type": "combat",
+    "description": "Covers: fighting with hand weapons: batons, staves, knives, blades, chains and improvised clubs. Not: thrown or fired weapons, which is Marksmanship. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Marksmanship": {
+    "name": "Marksmanship",
+    "attribute": "technique",
+    "type": "combat",
+    "description": "Covers: aiming and firing guns, launchers and support-gear projectiles, and throwing weapons accurately. Not: aiming a Quirk, which is Quirk Output or Quirk Control. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Capture": {
+    "name": "Capture",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: restraining a subdued or cornered person safely with capture tape, cuffs, zip ties, binding cloth or nets, and keeping them restrained. Not: winning the fight first, which is Grappling or Striking. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Dodging": {
+    "name": "Dodging",
+    "attribute": "speed",
+    "type": "utility",
+    "description": "Covers: evading attacks, projectiles and falling debris the character can see coming. Not: absorbing a hit on a guard or shield, which is Blocking. Primary attribute: Speed.",
+    "startingItems": []
+  },
+  "Blocking": {
+    "name": "Blocking",
+    "attribute": "endurance",
+    "type": "utility",
+    "description": "Covers: taking a hit on a guard, arms, shield or hardened body and staying on one's feet. Not: getting out of the way, which is Dodging. Primary attribute: Endurance.",
+    "startingItems": []
+  },
+  "Combat Tactics": {
+    "name": "Combat Tactics",
+    "attribute": "intelligence",
+    "type": "utility",
+    "description": "Covers: reading a fight, spotting openings and weaknesses, positioning, terrain use and planning an engagement. Not: directing teammates, which is Team Coordination or Leadership. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Team Coordination": {
+    "name": "Team Coordination",
+    "attribute": "cooperativeness",
+    "type": "utility",
+    "description": "Covers: fighting and working beside others: combination moves, covering a partner, formations, relaying signals and timing Quirks together. Not: giving orders to a group, which is Leadership. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Quirk Control": {
+    "name": "Quirk Control",
+    "attribute": "technique",
+    "type": "quirk",
+    "description": "Covers: precise, safe and partial use of the character's own Quirk: fine targeting, holding back, shaping, utility and nonlethal use. Easy: a practiced everyday use. Hard: precise use in chaos or near civilians. Exceptional: a fine feat at the edge of the Quirk's scale. Not: raw force or damage, which is Quirk Output. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Quirk Output": {
+    "name": "Quirk Output",
+    "attribute": "power",
+    "type": "combat",
+    "description": "Covers: the force, damage, area and range of the character's own Quirk when used to attack or to move something heavy. Easy: a standard attack. Hard: overpowering a strong opponent or obstacle. Exceptional: a blow at the very top of the Quirk's scale. Not: precision and restraint, which is Quirk Control. Primary attribute: Power.",
+    "startingItems": []
+  },
+  "Quirk Stamina": {
+    "name": "Quirk Stamina",
+    "attribute": "endurance",
+    "type": "quirk",
+    "description": "Covers: keeping a Quirk active for a long time, using it again and again, pushing through its drawback and holding on at high Quirk Strain. Easy: a long practice session. Hard: a full fight at high Strain. Exceptional: staying functional past the Drawback's limit. Not: general bodily endurance, which is Conditioning. Primary attribute: Endurance.",
+    "startingItems": []
+  },
+  "Quirk Mobility": {
+    "name": "Quirk Mobility",
+    "attribute": "speed",
+    "type": "quirk",
+    "description": "Covers: moving by means of the character's own Quirk: flight, propulsion, leaps, swinging, gliding, sliding and burrowing, including landings and carrying a passenger. Easy: a practiced route. Hard: a pursuit through a city or a passenger in danger. Exceptional: a maneuver at the Quirk's limit. Not: moving on foot, which is Running or Parkour. Primary attribute: Speed.",
+    "startingItems": []
+  },
+  "Quirk Analysis": {
+    "name": "Quirk Analysis",
+    "attribute": "intelligence",
+    "type": "quirk",
+    "description": "Covers: working out how a Quirk works from what is seen, spotting its limits and counters, and using sensing or detection Quirks well. Easy: identifying a common Quirk type. Hard: reading an unfamiliar Quirk mid-fight. Exceptional: predicting a Quirk's hidden condition. Not: knowledge of famous heroes, which is Hero Industry. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "First Aid": {
+    "name": "First Aid",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: emergency care in the field: bleeding control, splinting, burns, CPR, the recovery position, shock and moving the injured safely. Not: diagnosis and hospital treatment, which is Medicine. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Search and Rescue": {
+    "name": "Search and Rescue",
+    "attribute": "power",
+    "type": "utility",
+    "description": "Covers: finding and extracting trapped or injured people: clearing rubble, shoring structures, rope, water and fire rescue, and carrying the injured. Not: moving crowds out of danger, which is Evacuation. Primary attribute: Power.",
+    "startingItems": []
+  },
+  "Evacuation": {
+    "name": "Evacuation",
+    "attribute": "cooperativeness",
+    "type": "utility",
+    "description": "Covers: getting crowds and bystanders out of danger: calming them, directing exits, keeping order and reassuring victims. Not: extracting one trapped person, which is Search and Rescue. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Perception": {
+    "name": "Perception",
+    "attribute": "intelligence",
+    "type": "utility",
+    "description": "Covers: noticing things with the senses: details, ambushes, hidden people, sounds and changes in a room. Not: drawing conclusions from evidence, which is Investigation. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Investigation": {
+    "name": "Investigation",
+    "attribute": "intelligence",
+    "type": "utility",
+    "description": "Covers: examining scenes and evidence, interviewing witnesses, following leads and working out what happened. Not: watching a target over time, which is Surveillance. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Surveillance": {
+    "name": "Surveillance",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: watching people and places over time, stakeouts, tailing through a city, observation with cameras and spotting someone watching back. Not: moving unseen in the moment, which is Stealth. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Persuasion": {
+    "name": "Persuasion",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: convincing people honestly: appeals, reasoning, encouragement and talking someone down. Not: lying, which is Deception; bargaining terms, which is Negotiation. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Insight": {
+    "name": "Insight",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: reading people: emotions, intentions, lies, discomfort and what someone needs. Not: clinical assessment, which is Psychology. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Deception": {
+    "name": "Deception",
+    "attribute": "intelligence",
+    "type": "social",
+    "description": "Covers: lying, bluffing, misdirection, keeping a cover story and holding a false identity in conversation. Not: physical disguise, which is Disguise. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Intimidation": {
+    "name": "Intimidation",
+    "attribute": "power",
+    "type": "social",
+    "description": "Covers: frightening, pressuring or cowing people through presence, threats and displays of strength. Not: honest persuasion, which is Persuasion. Primary attribute: Power.",
+    "startingItems": []
+  },
+  "Leadership": {
+    "name": "Leadership",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: directing a group, giving orders in a crisis, keeping morale and taking responsibility, from class representative to agency team lead. Not: fighting in sync with a partner, which is Team Coordination. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Media Presence": {
+    "name": "Media Presence",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: being in public view: interviews, press conferences, fans, hero image, social media and public speaking. Not: producing footage, which is Media Production. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Etiquette": {
+    "name": "Etiquette",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: manners and protocol: formal Japanese speech and honorifics, business and agency meetings, ceremonies, and behaving well among the wealthy and powerful. Not: winning an argument, which is Persuasion. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Negotiation": {
+    "name": "Negotiation",
+    "attribute": "intelligence",
+    "type": "social",
+    "description": "Covers: bargaining terms: contracts, sidekick and agency deals, prices, broker fees, ransoms and hostage talks. Not: lying, which is Deception. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Streetwise": {
+    "name": "Streetwise",
+    "attribute": "intelligence",
+    "type": "social",
+    "description": "Covers: the street and the underworld: finding brokers and black markets, reading gang territory, hearing rumors and knowing who to avoid. Not: the law, which is Hero Law. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Hospitality": {
+    "name": "Hospitality",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: service work: waiting tables, retail, convenience stores, cafes, customer handling and running an event. Not: cooking the food, which is Cooking. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Teaching": {
+    "name": "Teaching",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: instructing, coaching and mentoring: lessons, drills, feedback, exams and helping a student improve. Not: looking after young children, which is Childcare. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Childcare": {
+    "name": "Childcare",
+    "attribute": "cooperativeness",
+    "type": "social",
+    "description": "Covers: looking after children: comfort, play, safety, routines and earning a frightened child's trust. Not: medical treatment, which is First Aid or Medicine. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Hero Law": {
+    "name": "Hero Law",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: Quirk and hero law: licensing, permitted Quirk use, self-defense, jurisdiction, arrest powers, use of force, liability and police procedure. Not: the business of agencies, which is Hero Industry. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Hero Industry": {
+    "name": "Hero Industry",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: the hero world: rankings, agencies, famous heroes and their public Quirks, sidekick contracts, merchandise and hero history. Not: legal rules, which is Hero Law. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Medicine": {
+    "name": "Medicine",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: diagnosis, treatment, pharmacology, surgical support and recovery care in a clinic or hospital. Not: emergency field care, which is First Aid. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Science": {
+    "name": "Science",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: physics, chemistry, biology and Quirk science, including Quirk genetics and lab research. Not: building devices, which is Support Engineering. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Academics": {
+    "name": "Academics",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: academy coursework: mathematics, literature, history, modern Japanese, study habits and written exams. Not: foreign languages, which is Languages. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Business": {
+    "name": "Business",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: running an agency or company: budgets, marketing, accounting, management and brand strategy. Not: bargaining a single deal, which is Negotiation. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Navigation": {
+    "name": "Navigation",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: finding the way: city layouts, trains and transfers, maps, shortcuts and orienting in unfamiliar places. Not: living in the wild, which is Survival. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Psychology": {
+    "name": "Psychology",
+    "attribute": "cooperativeness",
+    "type": "knowledge",
+    "description": "Covers: counseling, trauma care, profiling and understanding behavior, from a guidance office to a villain profile. Not: reading someone in the moment, which is Insight. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Languages": {
+    "name": "Languages",
+    "attribute": "intelligence",
+    "type": "knowledge",
+    "description": "Covers: foreign languages, English classes, translation and talking with visitors from overseas. Not: Japanese coursework, which is Academics. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Willpower": {
+    "name": "Willpower",
+    "attribute": "endurance",
+    "type": "utility",
+    "description": "Covers: resisting fear, panic, intimidation, interrogation and mind-affecting Quirks, and holding to a decision under pressure. Not: physical endurance, which is Conditioning. Primary attribute: Endurance.",
+    "startingItems": []
+  },
+  "Support Engineering": {
+    "name": "Support Engineering",
+    "attribute": "intelligence",
+    "type": "technical",
+    "description": "Covers: designing, building, tuning and repairing support gear and hero-costume systems, and diagnosing faulty equipment. Not: hands-on metalwork and assembly, which is Fabrication. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Fabrication": {
+    "name": "Fabrication",
+    "attribute": "technique",
+    "type": "technical",
+    "description": "Covers: hands-on making and repair: machining, welding, wiring, sewing heavy materials and assembling parts. Not: designing the system, which is Support Engineering. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Computing": {
+    "name": "Computing",
+    "attribute": "intelligence",
+    "type": "technical",
+    "description": "Covers: software, networks, data recovery, security systems and intrusion. Not: building physical gadgets, which is Support Engineering. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Driving": {
+    "name": "Driving",
+    "attribute": "speed",
+    "type": "technical",
+    "description": "Covers: driving cars, vans, motorcycles and trucks, including pursuit and evasive driving. Not: moving under one's own Quirk, which is Quirk Mobility. Primary attribute: Speed.",
+    "startingItems": []
+  },
+  "Costume Design": {
+    "name": "Costume Design",
+    "attribute": "technique",
+    "type": "technical",
+    "description": "Covers: designing hero costumes and outfits: materials, function, Quirk compatibility, image and the support-company request process. Not: building powered gear, which is Support Engineering. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Media Production": {
+    "name": "Media Production",
+    "attribute": "technique",
+    "type": "technical",
+    "description": "Covers: filming, photography, editing, broadcasting and producing content. Not: appearing on camera, which is Media Presence. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Demolition": {
+    "name": "Demolition",
+    "attribute": "intelligence",
+    "type": "combat",
+    "description": "Covers: explosives, breaching charges, controlled collapses, finding a structure's weak points and bomb disposal. Not: explosions made by a Quirk, which is Quirk Output. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Infiltration": {
+    "name": "Infiltration",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: getting into places: locks, alarms, keycards, security routines and secured buildings. Not: moving unseen once inside, which is Stealth. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Disguise": {
+    "name": "Disguise",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: changing appearance: costumes, makeup, wigs, forged papers and holding a false look. Not: lying in conversation, which is Deception. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Sleight of Hand": {
+    "name": "Sleight of Hand",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: palming, pickpocketing, planting objects, card tricks and quick hidden hand work. Not: breaking into places, which is Infiltration. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Performance": {
+    "name": "Performance",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: music, singing, dance, acting and stage shows. Not: hero interviews, which is Media Presence. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Visual Arts": {
+    "name": "Visual Arts",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: drawing, painting, graphic design and illustration. Not: designing hero costumes, which is Costume Design. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Cooking": {
+    "name": "Cooking",
+    "attribute": "technique",
+    "type": "utility",
+    "description": "Covers: cooking and baking, from dorm meals to a restaurant kitchen. Not: serving customers, which is Hospitality. Primary attribute: Technique.",
+    "startingItems": []
+  },
+  "Writing": {
+    "name": "Writing",
+    "attribute": "intelligence",
+    "type": "utility",
+    "description": "Covers: reports, essays, journalism, scripts, notes and persuasive writing. Not: coursework knowledge, which is Academics. Primary attribute: Intelligence.",
+    "startingItems": []
+  },
+  "Animal Handling": {
+    "name": "Animal Handling",
+    "attribute": "cooperativeness",
+    "type": "utility",
+    "description": "Covers: calming, handling, training and caring for animals, including police dogs and wildlife. Not: Quirks that command animals, which is Quirk Control. Primary attribute: Cooperativeness.",
+    "startingItems": []
+  },
+  "Survival": {
+    "name": "Survival",
+    "attribute": "endurance",
+    "type": "utility",
+    "description": "Covers: living in the wild: forests, mountains, camping, foraging, weather, shelter and finding water. Not: city routes, which is Navigation. Primary attribute: Endurance.",
+    "startingItems": []
+  }
+}

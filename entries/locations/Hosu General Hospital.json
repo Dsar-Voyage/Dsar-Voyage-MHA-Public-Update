@@ -1,0 +1,65 @@
+{
+  "Hosu General Hospital": {
+    "name": "Hosu General Hospital",
+    "basicInfo": "Hosu General Hospital is the city's main public hospital, a pale multi-story block about 4 km north-northwest of Hosu Station with an ambulance bay on one side and a bus stop on the other. It has an emergency department, surgical and general wards, and staff used to Quirk injuries: burns, crush wounds, poisonings and the side effects of overused Quirks. The city runs it; hospital security controls access, and the wards are open to visitors only during visiting hours, which end at eight in the evening; after that only the emergency entrance stays open. Doctors and nurses work rotating shifts around the clock, and ambulances arrive day and night, busiest after the evening rush. Outpatients fill the lobby in the morning, visitors in the evening. Police officers come to take statements from injured victims and suspects, and heroes stop by to check on people they rescued, which brings fans and the occasional photographer to the doors. A player can be treated, recover, visit a patient, take a hospital job as a porter, cleaner or clerk (or as a nurse or doctor with a license), or ask the staff about recent injuries, though they guard patient details closely. A bus line connects the hospital to Hosu Station, and the downtown agencies are a few minutes away by car. The building is pale and quiet, and the lobby smells of disinfectant and canned coffee.",
+    "hiddenInfo": "Someone on the night shift sells word to tabloid reporters: when a pro hero is admitted, the gossip sites know within the hour, and the administration is hunting for the leak. This week it has quietly given slightly different admission details to different night staff, to see which version reaches the gossip sites first, and the night nurses have started to notice that their notes do not match. The emergency department is short of staff, and on bad nights patients with minor injuries wait in the lobby for hours, which has started shouting matches at the reception counter. One room on the ward is kept for injured suspects in police custody, with an officer on the door; detectives use it to question people before they are fit to leave. At the moment it holds a purse-snatcher who broke his wrist running from Native, and the officer on the door is bored enough to chat with anyone who brings coffee. Heroes who bring in a patient usually leave before the paperwork starts, and the staff resent it; the few who stay to fill in the forms, Manual among them, are remembered and treated well. The hospital has no hero on call, and if trouble breaks out inside it, security phones the police box downtown and waits.",
+    "x": 5.01,
+    "y": 14.37,
+    "radius": 1,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Hospital Lobby": {
+        "description": "A wide, bright lobby with a reception counter, rows of padded benches, a pharmacy window and a convenience store by the doors. A ticket machine hands out numbers, and a screen calls them with a soft chime. Outpatients wait here through the morning, elderly regulars greeting one another by name; in the evening the lobby fills with visitors and families carrying fruit and flowers, and police officers wait by the elevators to see a patient. After eight only the emergency entrance is open, and the benches hold people waiting on someone in surgery. Security guards stop reporters at the entrance and check every visitor against the ward list. A wall TV runs the news with the sound off, and when a hero appears on it the whole room looks up. Elevators and stairs lead up to the Hospital Ward.",
+        "paths": [
+          "Hospital Ward"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/49fb5d4a-b52e-43e5-a357-b066e5b1f1da.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hospital Ward": {
+        "description": "A long corridor of shared rooms, four beds to a room, each bed behind a curtain and the window beds the most wanted. Nurses make rounds at set hours and check on patients through the night; doctors come through in the morning with a trail of residents. Visiting hours end at eight in the evening, and the nurses enforce it. Patients recovering from Quirk injuries trade stories, compare scars and watch hero news on the day room's TV, arguing over the rankings. Near the far end, one door has a uniformed officer on a folding chair beside it, and the nurses walk past without looking in. At night the ward is quiet except for monitors beeping, a cough down the corridor and soft footsteps at the nurses' station, where a kettle is always warm. The elevators lead back down to the Hospital Lobby.",
+        "paths": [
+          "Hospital Lobby"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d65441b-dbb6-4d9f-be9b-bc67c75d2792.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8ebaae2e-65f9-478c-b5a3-0d5d1a1aa04f.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

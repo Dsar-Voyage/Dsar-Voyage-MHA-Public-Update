@@ -1,0 +1,25 @@
+{
+  "Brass knuckles": {
+    "name": "Brass knuckles",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Striking",
+        "value": 3
+      }
+    ],
+    "description": "A brass bar with four finger holes that sits across the knuckles and puts hard metal behind every punch, enough to crack bone. Owning a pair is legal, but carrying them hidden without a legitimate reason breaks the Minor Offenses Act, and police treat a pair in a pocket as a sign that someone came looking for a fight. [ Weapon | About ¥3,000; carrying them is illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9b1074ed-48cc-404e-95d6-a36f6c392108.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Floorbeat Breaker": {
+    "name": "Floorbeat Breaker",
+    "description": "The user's signature move: both amplified jacks drive a sustained heartbeat into the ground, splitting a narrow strip of pavement beneath one advancing group. Targets fall and take heavy force damage; held back, the user cracks only their footing to stop the charge. The amplifiers must remain connected, and the user's ears bleed after the pulse. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

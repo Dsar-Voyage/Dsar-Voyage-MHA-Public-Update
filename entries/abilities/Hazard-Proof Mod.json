@@ -1,0 +1,20 @@
+{
+  "Hazard-Proof Mod": {
+    "name": "Hazard-Proof Mod",
+    "description": "The user reworks a costume or support item in the field against one hazard: sealing it against gas or acid, lining it against heat or cold, or grounding it against electricity. For the rest of the scene, injuries its wearer takes from that one damage type (toxic, corrosive, fire, cold or electric) are a category lighter. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "U.A. Support Course",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Fabrication",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

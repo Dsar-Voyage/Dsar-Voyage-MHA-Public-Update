@@ -1,0 +1,44 @@
+{
+  "Ice Quirk": {
+    "name": "Ice Quirk",
+    "description": "❄️ You make ice and frost from your body.\n\n🌱 At the start it spreads from your hands and feet along the ground out to about ten meters: a surge that slows a foe, a slick sheet across a room, a head-high wall.\n📈 With training: restraints that hold without harm, bullet-stopping ice, slide ramps, shoring that holds up a collapse, armor-shattering frost, a frozen city block.\n🔗 Common drawback pairing: Overheating, which runs cold for an ice Quirk, so frost and numbness creep into your own limbs.\n🎬 Similar canon Quirks: Shoto Todoroki (Half-Cold Half-Hot, cold side).\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Control +10, Combat Tactics +5\n⚡ Starting techniques: Rime Rush, Black Ice Spread\n🛡️ Resists: cold",
+    "traitNarrativeEffects": "Scale: the user makes ice from the skin and spreads it along touched surfaces, or breathes frost (player's choice). A new adult user glazes a room's floor, raises a head-high wall or sends a frozen line about ten meters along the ground in a second or two; made ice is ordinary ice. Bigger feats need techniques. Limits: heat melts it, heavy blows crack it, allies slip too; it grows from surfaces, so fliers and leapers are hard to catch; ice left on a person too long causes frostbite. Quirk Strain: light: frost, slick floor, ground surge; moderate: restraint, wall, ramp; heavy: shoring a structure, shattering armor; severe: signature move, freezing a whole scene. Type: Emitter (also fits Mutant). Law: freezing a person without a license is assault; whoever ices a road answers for the crashes. Look: cool skin; in use, frost climbs the arm from the working hand, ice grows in blue-white sheets; as Mutant, a permanent feature such as frosted hair or shoulder crystals.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Combat Tactics",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rime Rush",
+      "Black Ice Spread"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "cold"
+    ]
+  }
+}

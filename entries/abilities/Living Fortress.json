@@ -1,0 +1,24 @@
+{
+  "Living Fortress": {
+    "name": "Living Fortress",
+    "description": "The user plants themselves at one spot and hardens into cover for a whole crowd. For the rest of the scene, as long as they stay on that spot, gunfire, blasts, falling rubble and charging attackers aimed at anyone sheltering behind them strike the user instead, and only the heaviest blows can crack their skin. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Go-bag": {
+    "name": "Go-bag",
+    "category": "Tool",
+    "slot": "Carried",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Survival",
+        "value": 1
+      }
+    ],
+    "description": "A plain black backpack packed to leave in a hurry: a change of clothes, cash, a spare burner SIM, a first aid pouch and nothing with a name on it. [ Tool | Assembled, never bought ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8a1e39a6-3b9e-4ff9-984a-1b770eb9d386.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

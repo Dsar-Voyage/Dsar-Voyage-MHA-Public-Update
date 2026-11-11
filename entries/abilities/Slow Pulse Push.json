@@ -1,0 +1,20 @@
+{
+  "Slow Pulse Push": {
+    "name": "Slow Pulse Push",
+    "description": "The user sends a broad, slow spiral wave across a room to drive one opponent back from a doorway or a person they are threatening. It deals moderate bludgeoning damage; held back, it only knocks the opponent off balance until the end of their next turn. The visible wave gives a mobile target time to sidestep. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wave Motion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

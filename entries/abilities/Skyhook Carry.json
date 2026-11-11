@@ -1,0 +1,20 @@
+{
+  "Skyhook Carry": {
+    "name": "Skyhook Carry",
+    "description": "The user swoops down, catches a single person from a window ledge, a rooftop, a river or the middle of a fall, and flies them anywhere in sight. The passenger takes no damage from the fall or the flight, and the user cannot attack while carrying them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

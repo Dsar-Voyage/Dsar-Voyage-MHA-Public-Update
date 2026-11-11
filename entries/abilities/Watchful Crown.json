@@ -1,0 +1,29 @@
+{
+  "Watchful Crown": {
+    "name": "Watchful Crown",
+    "description": "The user buds a working eye and ear at the tip of every extra limb and spreads them around a room, a corner or a wall of rubble. Until the end of the scene the user sees and hears in every direction at once: nobody can surprise or flank them or a person they hold, the first attack each turn from behind or above is blocked by a limb, and budded mouths let them talk to several trapped people at once. A blow to any bud hurts the user and blinds that limb until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

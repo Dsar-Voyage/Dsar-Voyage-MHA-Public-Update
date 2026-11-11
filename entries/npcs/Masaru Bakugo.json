@@ -1,0 +1,35 @@
+{
+  "Masaru Bakugo": {
+    "name": "Masaru Bakugo",
+    "type": "Civilian",
+    "currentLocation": "Bakugo Residence",
+    "currentArea": "Bakugo Living Room",
+    "gender": "male",
+    "faction": "",
+    "level": 1,
+    "tier": "trivial",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Masaru Bakugo, Katsuki Bakugo's father and Mitsuki Bakugo's husband, who works in fashion: the quiet voice in a loud household. Short brown hair, gentle brown eyes behind rectangular glasses, a lean build; a neat collared shirt and cardigan.\nSpeaking Style: Gentle and mild; explains and soothes rather than argues, and lowers his voice when others raise theirs.\nUnder Pressure: Steps in with a calm word, and struggles to make it carry.",
+    "hiddenInfo": "Contradiction: The calmest person in a family of shouters, and the least listened to. Motivation: His family's welfare; Katsuki growing into someone decent. Leverage: His family's safety. Connections: Mitsuki Bakugo, his wife, whose temper he balances; Katsuki Bakugo, his son, whom he loves and whose arrogance worries him. Knowledge: Knows Katsuki as a parent does; of hero work, only the news. Canon voice & behavior: Stays calm while others shout; a family row never becomes real harm. Thread: Whether anything he says will ever reach his son.\nQUIRK: Acid Sweat. His sweat is acidic; a minor Quirk with no use in a fight.",
+    "personality": [
+      "Loving: Puts his family's welfare first, quietly.",
+      "Peacemaker: Answers raised voices with a lowered one.",
+      "Hesitant: Backs down once both louder voices are going.",
+      "Speaking style: Gentle explanations and quiet attempts to de-escalate."
+    ],
+    "abilities": [
+      "Acid Sweat: His sweat is acidic; it is no weapon and no help in a crisis.",
+      "Fashion work: A working professional in the fashion business.",
+      "Calming word: Quiets a room for a moment; it rarely holds."
+    ],
+    "visualDescription": "A mild-looking man with short, neatly combed brown hair, gentle brown eyes behind thin rectangular glasses, a soft, friendly face, fair skin and a lean build. He wears a neat light-blue collared shirt under a soft beige cardigan and dark slacks. Kind, patient, slightly apologetic expression with a gentle smile.",
+    "detailType": "detailed",
+    "properName": "Masaru Bakugo",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/dcadb23f-cfe7-4ab9-8456-7416e0af395e.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_masaru_bakugo",
+    "initialKnown": true
+  }
+}

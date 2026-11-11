@@ -1,0 +1,20 @@
+{
+  "Careful Thaw": {
+    "name": "Careful Thaw",
+    "description": "The user holds their left hand near ice within arm's reach and releases measured heat for one turn, freeing one person's frozen boots or clearing a doorway. The user stops before the ice against skin becomes hot and helps the person step clear. Steam obscures that doorway until the end of the turn, and the heat cannot repair frostbite or other injuries. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

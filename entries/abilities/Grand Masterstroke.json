@@ -1,0 +1,25 @@
+{
+  "Grand Masterstroke": {
+    "name": "Grand Masterstroke",
+    "description": "The user's signature move: in one sweeping drawing they lay a great beast across a wall or the street, and it rears up taller than a truck. It strikes a target once for massive bludgeoning and slashing damage and pins them under its weight, unable to act until the end of their next turn; held back, it only bowls them over and pins them. Then it splashes into ink, and the user cannot draw until the end of their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

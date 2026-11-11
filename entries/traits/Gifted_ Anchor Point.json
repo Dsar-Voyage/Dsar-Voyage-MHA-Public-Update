@@ -1,0 +1,32 @@
+{
+  "Gifted: Anchor Point": {
+    "name": "Gifted: Anchor Point",
+    "description": "🧬 Anchor Point, as an extra Quirk put into your body.\n\n🌱 Hold up to three anchors, always sensing each, and snap to any within your city district, arriving at rest whatever your speed, so a snap ends a fall.\n📈 Training adds strike-and-snap, sending a touched person to safety, delivering a villain to a police van, tagging a car, shuttling people from fires and up to six anchors.\n⚠️ Only you and what you wear and carry make the trip: a grip on you is left holding air, and an anchor someone stands on puts you down beside them.\n🔗 Common drawback pairing: Sensory Overload, as each snap leaves you dizzy and half-deaf for a breath.\n🎬 Similar canon Quirks: none close.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Anchor Point family): Scale: a bare palm held a moment on a fixed spot plants an anchor. New adult user: up to three, each lasting about a day, always sensing direction and distance; focus snaps them to any anchor within about 2 km, arriving at rest, so a snap ends a fall. Carrying or sending others, moving or extra anchors need techniques. Limits: only body and gear go; grippers hold air; a chained rope or cuff stays, wrenching the wrist. Anchors: non-living fixed spots only, lost if moved. Occupied: arrive beside them; sealed, flooded or buried: snap fails. No snap unconscious or panicking. Quirk Strain: light: snap, strike-and-recall; moderate: send or carry one, tag a vehicle; heavy: shuttle several, three-sided rush; severe: signature throw, six anchors. Type: Emitter. Law: snapping into a locked home or office is trespass; warrantless anchoring of a stranger's car to tail it is stalking.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Navigation",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

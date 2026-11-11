@@ -1,0 +1,49 @@
+{
+  "Half-Cold Half-Hot Quirk": {
+    "name": "Half-Cold Half-Hot Quirk",
+    "description": "🔥 You make ice from your right side and fire from your left.\n\n🌱 At the start you raise waist-high ice cover a few meters wide, freeze five meters of floor or send a short flame jet.\n📈 With training: safe restraints, ice slides, careful thawing, larger walls, concentrated fire, cold flames circulated through your body.\n⚠️ Ice chills and stiffens you; fire overheats you, and alternating restores balance without restoring stamina or healing injuries.\n🔗 Canon Drawback, built in: Overheating, as either half shifts your body temperature.\n🎬 Canon Quirk: Shoto Todoroki's Half-Cold Half-Hot. You are not related to him; people who know his Quirk notice the resemblance.\n🎒 Starts with: Cooling vest\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Ice Sill, Leftward Flare\n🛡️ Resists: fire, cold",
+    "traitNarrativeEffects": "Scale: ice from the right side, fire from the left. Start: waist-high barrier a few meters wide, 5 m floor ice or a short jet; bigger attacks and combined circulation need training.\nLimits: ice chills into movement-slowing frost and stiffness; long fire overheats; the other half restores balance, not stamina or injuries. No control of other fires or floating ice. Ice melts, breaks, blocks allies; focused fire burns people and buildings.\nQuirk Strain: light: small cover, short jet; moderate: restraints, sliding, thawing, alternating attacks; heavy: big ice surge; severe: pressure blast, long focused fire, circulating cold flames.\nDrawback: built in, the canon Overheating.\nCanon: Shoto Todoroki's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: public combat or road blocking needs a license; freezing or burning outside lawful defense is assault.\nLook: ice right, flames left; own hair, eyes, scars.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Ice Sill",
+      "Leftward Flare"
+    ],
+    "startingItems": [
+      {
+        "item": "Cooling vest",
+        "quantity": 1
+      }
+    ],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "fire",
+      "cold"
+    ]
+  }
+}

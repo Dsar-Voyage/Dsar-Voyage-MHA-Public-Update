@@ -1,0 +1,20 @@
+{
+  "Bare-Hand Catch": {
+    "name": "Bare-Hand Catch",
+    "description": "The user grabs a blade, a bat or a fist barehanded and takes the cut or the impact; a cut palm heals shut around the blade and locks it in place. The attacker cannot pull free or use that hand or weapon until they let go of the weapon, break free with a hard effort or the user releases them, and the user's hand heals as soon as the grip ends. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

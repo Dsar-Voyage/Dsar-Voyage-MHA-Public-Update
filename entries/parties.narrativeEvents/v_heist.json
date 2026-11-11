@@ -1,0 +1,15 @@
+{
+  "v_heist": {
+    "title": "The Armored Car Job",
+    "beats": "Early summer in Kamino Ward, between first light and evening. An armored car carries the takings of a chain of pachinko parlors along the elevated ring road that loops the ward's industrial lots, and a crew means to take it. The guards, drivers, crew and inside man are generated people.\n\nThe job is today and the plan is already made: the party is picked up in a stolen van an hour before the hit and hears it once on the way (the minute the car slows at a ramp, masks, and the inside man, a young guard with gambling debts who will leave the rear door unlocked). The planner wants the party for what its Quirk can do; the take is split by shares. The hit happens in this scene and is never moved to another day: no tryouts, no rehearsal, no \"come back later\".\n\nDefault course, as pressure the party can change: the hit goes almost to plan. The van blocks the ramp, the rear door opens, the cases come out. Then the inside man panics, a second guard with skin-hardening fights back, a passing driver films everything and sirens start within minutes. Too early, Rock Lock, a local pro, arrives from a nearby call, touches the van and locks it in place. Getting away means leaving the van, the cases or a crew member behind. Rock Lock is not killed or crippled; he holds the scene for the police.\n\nAn independent villain came through a broker's introduction, owes the broker a cut and has nobody to call if it goes wrong. A League of Villains recruit was sent by Kurogiri because Giran's fees are due; Kurogiri opens a gate at an agreed spot after the job, never in sight of a hero or a police car.\n\nThis job draws attention no matter what. Masks, a clean exit and nobody hurt keep it a robbery the police file away; hurting the guards, a fight with Rock Lock on camera or a crew member caught alive puts the party's description in every briefing. Lying low after the split cools it.\n\nThe event is complete when the crew escapes with the cases, loses them or is caught, and the take is split or gone.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_v_heist",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

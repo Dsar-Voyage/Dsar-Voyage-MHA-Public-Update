@@ -1,0 +1,20 @@
+{
+  "Studied: First Aid": {
+    "name": "Studied: First Aid",
+    "description": "🩹 Before this year you trained in emergency care: a fire department life-saving course, lifeguard certification or first-aid shifts at events.\n\n🌱 Bleeding control, CPR and the AED, splints, burns and the recovery position. You work in order: make it safe, check breathing, call help, treat.\n⚠️ Crush injuries, Quirk-caused wounds and many casualties at once still overwhelm you.\n⚖️ You are no paramedic, nurse or doctor: no prescription drugs or procedures, and you hand patients over when professionals arrive.\n🏫 It shows in gloves kept in your bag, a calm voice and a habit of watching everyone's breathing.\n\n📈 Grants: First Aid +15",
+    "traitNarrativeEffects": "The character has trained in field first aid: bleeding control, CPR and the AED, splints, burn care, the recovery position and moving an injured person without making the injury worse. At an accident they work in order: make the scene safe, check breathing, call for help, treat. Prior study, not mastery: crush injuries, Quirk-caused wounds and many casualties at once still overwhelm them. Not a license: they are no paramedic, nurse or doctor, cannot give prescription drugs or perform procedures, and hand patients over when professionals arrive. It shows in gloves kept in a bag, a calm voice and a habit of watching everyone's breathing.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "First Aid",
+        "modifier": 15
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

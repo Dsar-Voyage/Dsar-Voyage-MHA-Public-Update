@@ -1,0 +1,30 @@
+{
+  "Miyoshi": {
+    "name": "Miyoshi",
+    "basicInfo": "Miyoshi is the high basin country of northern Hiroshima Prefecture, where the Chugoku Mountains spread into rolling plateaus, river valleys and the forested peaks of the Hiba Mountains along the Shimane border. It is all land, far from any coast. In the southwest, the river town of Miyoshi sits where three rivers meet to form the Gonokawa, and in summer cormorant fishers work the river at night by firelight; in the center, Shobara spreads across a farming basin, and to the north the wooded ridges of Hiba-Dogo-Taishaku Quasi-National Park climb toward Mount Hiba, said in old myth to hold the grave of the goddess Izanami, and Mount Dogo. Across the northern edge lie the Shimane uplands of Iinan and Okuizumo, old tatara iron-smelting country of terraced paddies and cedar. The climate is inland and sharp: snowy winters with ski slopes at Hiba and Dogo, warm summers, and in autumn the famous sea of fog that fills the Miyoshi basin before dawn, seen from hilltop lookouts. People farm rice, grapes and pears, raise Hiba beef cattle, cut timber and work in small factories along the expressways. Miyoshi is a town of a few tens of thousands with an old merchant street, a winery, kagura stages and a museum of yokai and spirit stories; Shobara has hot springs, a big prefectural park and the scattered villages of Saijo, Tojo and Takano. The Chugoku Expressway runs east-west through both towns and crosses the Onomichi-Matsue Expressway at Miyoshi, a crossroads for trucks and buses: about an hour and a half to Hiroshima, an hour to Onomichi on the Inland Sea. The Geibi Line runs from Hiroshima through Miyoshi and Bingo-Ochiai toward Niimi, the Fukuen Line comes up from Fukuyama, and the Kisuki Line climbs north through switchbacks into Okuizumo. From Musutafu it is about five hours by shinkansen to Hiroshima or Fukuyama and a bus or local train inland. Visitors watch cormorant fishing, hike Hiba, ski and soak in valley onsen. Each town has police boxes and one small hero office covering a huge rural district, farmers with weather-sense or strength Quirks are valued at harvest, and sidekicks patrol the summer river festival and the expressway rest stops.",
+    "hiddenInfo": "This is hollowing-out country: aging farmers, closed schools, rail lines with three trains a day and talk of cutting more. Hikers still report the Hibagon, the shaggy ape-man of old Mount Hiba sightings; today people blame mutant-type hermits or nobody at all, and it draws curious visitors. Small-time trouble is theft from expressway rest stops and truck lots, illegal dumping in the forests, cattle and fruit theft at night, and Quirk-assisted poaching. Serious hero backup comes from Hiroshima, an hour and a half south.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -11,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/19ac0e76-9761-411f-903e-bdf07219aaf4.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Burrow Search": {
+    "name": "Burrow Search",
+    "description": "The user sends the rats, cats and dogs of the area into a collapsed building, a flooded underpass or a landslide to search by scent. The animals find every trapped person they can reach and lead rescuers to each one, and rats drag a light line, a flashlight or a phone through gaps too small for a person. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Voice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

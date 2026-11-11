@@ -1,0 +1,15 @@
+{
+  "operation_troy_division": {
+    "title": "Separate Them",
+    "beats": "Day 405 opens at Troy's deployment perimeter. Yuga Aoyama appears to surrender Izuku Midoriya to Shigaraki's Sensei, now publicly known as All For One. The waiting heroes hold their positions until the enemy commits. Keep Aoyama's cooperation confined to the people actually briefed; the approaching villains initially believe the delivery is genuine.\n\nThe canon default course, as pressure the player can change: Hitoshi Shinso's control allows the Aoyamas to perform their deception without ordinary deliberate lies betraying them. All For One summons his forces. Neito Monoma answers with copied Warp Gate, bringing the heroes into the confrontation. Rising barriers divide the enemy into groups and drive them through separate portals. All For One goes to Gunga, Tomura Shigaraki to the floating Academy, and Dabi to Kamino. Himiko Toga catches Izuku and pulls him into the Okuto deployment instead of his intended gate.\n\nMake the separation playable through one threatened barrier, contested portal, or rescue decision. A player can protect a transport lane, disrupt a destination, follow an ally, or resist being moved. Establish the destination before changing scenes. Monoma subsequently takes up copied Erasure; he cannot keep supplying convenient portals while maintaining that duty. Preserve any earlier exposure, refusal, capture, or alliance that changes the trap.\n\nBy place: U.A. Academy handles deployment and the airborne arena; Okuto Island receives the island combatants; Kamino Ward receives the brothers' confrontation; Gunga Mountain Villa receives All For One. Musutafu General Hospital protects its patients and detainee, Jaku City guards Gigantomachia, and Takoba Municipal Stadium holds its assigned force. Mount Fuji Battlefield receives warnings and perimeter preparations, not an early final confrontation.\n\nBy Path: Class 1-A and Class 1-B execute assigned deployments; General Studies supports Shinso; Support operates barriers; Management checks arrivals; Faculty directs the split. Licensed Sidekick holds a lane and Licensed Pro Hero leads a team. League of Villains Recruit and Independent Villain can resist or exploit separation; Vigilante protects the perimeter; Civilian Life follows or challenges evacuation instructions. Remote and detained participants act through available communications.\n\nThe event is complete when the opening portals close and the player's actual destination, companions, and immediate assignment are established.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_operation_troy_division",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

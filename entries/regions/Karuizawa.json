@@ -1,0 +1,30 @@
+{
+  "Karuizawa": {
+    "name": "Karuizawa",
+    "basicInfo": "Eastern Nagano and the Gunma border around Mount Asama: the resort highland of Karuizawa, the Saku and Ueda basins along the Chikuma River, and in the south the Kirigamine and Tateshina plateaus. No coast. Mount Asama, an active volcano of about two and a half thousand meters, dominates the north, usually trailing a thin plume, with the black lava fields of Onioshidashi on its Gunma flank. Southwest of it the Chikuma River runs northwest through the basins of Saku, Komoro and Ueda; the Usui pass on the eastern edge drops steeply toward Gunma past a red-brick railway viaduct; the south rises to the Yatsugatake's northern peaks and the meadows of Kirigamine around Lake Shirakaba. Winters are cold and clear with little snow; summers are cool, foggy and green, which is why Tokyo's wealthy have kept villas here for more than a century. Karuizawa is a forest town of villas, churches, an old shopping street, a big outlet mall south of the station, golf, waterfalls and luxury hotels; in winter it skates and curls. Saku is a carp-eating city with a star-shaped fort and a deep-space antenna in its southern hills; Komoro has castle ruins and wineries; Ueda is a castle town of the Sanada clan with garlic-soy yakitori; Unno-juku is a preserved post town on the old Hokkoku Kaido road. Local food includes soba, carp, dairy, highland vegetables and jam. The Hokuriku Shinkansen stops at Karuizawa, Sakudaira and Ueda; Karuizawa is about an hour from Tokyo and about two hours from Musutafu. The Shinano Railway runs Karuizawa to Komoro and Ueda, the Koumi Line goes south from Komoro, and the Joshin-etsu and Chubu-Odan expressways cross the basin; buses run to Kusatsu. Visitors cycle forest lanes, shop, hike Asama's outer slopes and the Kirigamine meadows, and soak in onsen. In summer extra hero patrols cover Karuizawa for the villa crowd; Saku and Ueda keep small offices, and wealthy families quietly hire licensed sidekicks for estate security.",
+    "hiddenInfo": "Karuizawa's divide between rich villa owners and year-round workers shows in rents and tempers. Winter empties the villas, and burglary follows. Asama's eruption warnings close the summit zone, and tourists keep ignoring them. Hero help is good in Karuizawa summer, thin in winter; Nagano city or Tokyo is under an hour by shinkansen. Villainy: villa break-ins, outlet-mall shoplifting rings, reckless driving on the Usui pass, and bar fights in Ueda and Saku.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -1,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/391e13bf-44fb-48e5-967b-1e72540a6f03.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Freefall Plunge": {
+    "name": "Freefall Plunge",
+    "description": "The user hardens and drops from a height of several stories, or stamps straight down through a floor to the level below, and lands unhurt. Everyone close to the landing point is knocked off their feet, and a hole punched through a floor gives rescuers a way down to people trapped beneath. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hardening Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

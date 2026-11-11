@@ -1,0 +1,24 @@
+{
+  "Mercy Blaze": {
+    "name": "Mercy Blaze",
+    "description": "The user floods a room or a street with flame that bends around every person they choose to spare. Each enemy inside takes fire damage and is knocked to the ground, while hostages, allies and bystanders in the same space take none and are left a clear path out. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

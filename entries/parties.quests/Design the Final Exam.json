@@ -1,0 +1,17 @@
+{
+  "Design the Final Exam": {
+    "name": "Design the Final Exam",
+    "questSource": "Principal Nezu",
+    "questStatement": "The League of Villains has made the news, and Principal Nezu has decided the practical final exam can no longer be a fight against robots. This year each pair of first-years will face a teacher. He asks you to design one matchup: which two students, against which teacher, on which ground and with which win conditions, built to test exactly what those students avoid.",
+    "mainObjective": "Design one practical exam matchup and win Principal Nezu's approval for it.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has designed a pair-versus-teacher matchup for the final exam practical, with ground, rules and a safety plan, and Principal Nezu has approved it."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Faculty strategy. Nezu, Shota Aizawa and the others debate pairs that clash; canon defaults as pressure: Izuku Midoriya and Katsuki Bakugo against All Might, Momo Yaoyorozu and Shoto Todoroki against Aizawa. The PC's design needs the student files, a weighted handicap for the teacher, capture-cuff and escape-gate rules, and a stop condition Recovery Girl accepts. If the PC is the teacher in the matchup, they must test the pair without crushing it. The exam itself runs as the final exams event; this quest only designs and approves one matchup. Failure: Nezu sends a lazy or cruel design back with one question.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

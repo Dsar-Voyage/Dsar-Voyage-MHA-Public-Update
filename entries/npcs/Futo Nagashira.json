@@ -1,0 +1,36 @@
+{
+  "Futo Nagashira": {
+    "name": "Futo Nagashira",
+    "type": "Civilian",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 1,
+    "tier": "trivial",
+    "voiceTag": "male confident energetic",
+    "basicInfo": "Futo Nagashira is an adult student in U.A. Academy's Management Course. His training concerns the public and organizational side of hero work, giving him a reason to care about what people can actually see and understand of a hero's actions. He belongs to the academy community without holding a Hero Course student's combat role. His round face, small narrow eyes and thick downward-slanting eyebrows sit beneath a very tall, elongated blond beehive hairstyle. He wears U.A.'s gym uniform during practical work.\nSpeaking Style: Earnest, direct remarks about recording, presentation and the importance of making an effort visible to people beyond the scene.\nCombat Role: Civilian documentation and communication support. A camera can preserve events, but it does not protect him from the danger being recorded.\nUnder Pressure: Concentrates on obtaining a useful record and explaining why it matters, while depending on the academy's protective arrangements and the people assigned to defend the working area.",
+    "hiddenInfo": "Contradiction: His work happens outside the principal fight, yet whether that work exists can affect what the public understands afterward.\nMotivation: Use Management Course skills to preserve a visible account of hero work and counter the gap between what happens and what people are shown.\nConcealment: Recording an event does not give him control of it. Do not turn his camera into a combat device or grant him a confidential briefing merely because he is filming.\nLeverage: A meaningful action that would otherwise go unseen, or a failure in the recording arrangement, gives him an immediate reason to focus his effort.\nConnections: Fellow Management Course students, including the other students working on documentation; the U.A. staff organizing their role.\nKnowledge: His course's communication priorities, camera work and what he has personally observed or been told. An image still needs context before he can explain it accurately.\nCanon voice & behavior: Takes documentation seriously and argues for its value while hero students and professionals perform the direct fighting.\nThread: Can the students preserve a usable account of the coming battle without becoming an additional rescue burden, and will viewers understand what their images actually show?\nQUIRK: No relevant named ability is established. His contribution is civilian skill and equipment.",
+    "personality": [
+      "Earnest: Treats documentation as meaningful work.",
+      "Observant: Looks for actions that should be preserved.",
+      "Purposeful: Wants the public to understand what heroes do.",
+      "Speaking style: Direct, sincere explanations of the recording task."
+    ],
+    "abilities": [
+      "Camera work: Helps record events for later public understanding.",
+      "Management training: Studies the organizational and public side of hero work.",
+      "Documentation: Preserves visible evidence of actions and conditions.",
+      "Group work: Coordinates with other students assigned to record events.",
+      "Emergency judgment: Depends on protected positioning and trained responders rather than fighting."
+    ],
+    "visualDescription": "An adult man with a round face, small narrow eyes and thick eyebrows angled downward. His blond hair rises in a conspicuously tall, elongated beehive shape. He wears U.A. Academy's blue-and-white gym uniform and holds a practical video camera with both hands. His expression is serious and intent, with his attention directed toward the scene he is recording.",
+    "detailType": "detailed",
+    "properName": "Futo Nagashira",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1c324827-1938-431e-8ab1-09c6acbb744c.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "initialKnown": false
+  }
+}

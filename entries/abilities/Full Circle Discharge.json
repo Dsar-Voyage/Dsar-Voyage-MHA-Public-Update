@@ -1,0 +1,25 @@
+{
+  "Full Circle Discharge": {
+    "name": "Full Circle Discharge",
+    "description": "The user's signature move: the user releases their maximum safe charge in a broad circle across a large room. Every uninsulated person caught inside takes heavy electric damage and is stunned until the end of their next turn; held back, the user stops after the stun. Allies are equally vulnerable, and the release leaves the user's thoughts scrambled until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electrification Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

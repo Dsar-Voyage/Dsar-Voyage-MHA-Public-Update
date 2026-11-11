@@ -1,0 +1,24 @@
+{
+  "Prism Rain": {
+    "name": "Prism Rain",
+    "description": "The user throws a fan of light overhead that splits into a rain of hair-thin rays across a city block, each aimed by the user. Every gun, blade and support gadget an enemy holds is cut apart or fused useless, every enemy camera and scope goes blind, and each armed enemy takes light damage to the hands and drops what they hold; nobody else in the area is touched. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Light Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

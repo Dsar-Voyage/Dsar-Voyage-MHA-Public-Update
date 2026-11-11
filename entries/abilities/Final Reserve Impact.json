@@ -1,0 +1,25 @@
+{
+  "Final Reserve Impact": {
+    "name": "Final Reserve Impact",
+    "description": "The user spends a full breath on a maximum acceleration strike against one target within twenty meters, dealing massive bludgeoning damage this turn. Held back, the user brakes into a sweeping trip instead of a direct collision. The user needs a clear run and landing and cannot propel again until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Jet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

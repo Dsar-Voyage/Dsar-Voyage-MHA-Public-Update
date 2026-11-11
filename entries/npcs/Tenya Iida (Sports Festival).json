@@ -1,0 +1,44 @@
+{
+  "Tenya Iida (Sports Festival)": {
+    "name": "Tenya Iida (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 10,
+    "tier": "elite",
+    "voiceTag": "male commanding blunt",
+    "basicInfo": "Tenya Iida, hero name Tenya, class representative of Class 1-A in U.A. Academy's Hero Course. At the Sports Festival his Recipro Burst won the cavalry battle for Shoto Todoroki's team and he reached the semifinals; he left before the award ceremony when word came that the Hero Killer Stain had attacked his brother, Ingenium. Dark-blue hair, rectangular glasses, a tall build; the U.A. uniform.\nSpeaking Style: Formal, loud and earnest; corrects on the spot and chops the air.\nCombat Role: Straight-line speed fighter with one decisive burst; needs a run-up, braking room and open exhausts.\nUnder Pressure: Holds to procedure and keeps his own feelings out of his voice.",
+    "hiddenInfo": "Contradiction: He has always trusted rules to set things right, and no rule sets right what happened to his brother. Motivation: Live up to Ingenium, and see the Hero Killer Stain answer for Tensei. Concealment: The depth of his anger; classmates get the polite version. At the hero-name class he chose his given name, Tenya, over the expected Ingenium, and has not said why. Connections: Tensei Iida, alive but badly hurt, his career in doubt. Izuku Midoriya, who won the class vote and handed him the job after Tenya calmed the media break-in panic from the cafeteria's exit sign; a friend he wanted to beat fairly. Ochaco Uraraka, who checks on him. Shoto Todoroki, who froze his engines in the semifinal. Knowledge: Knows the League of Villains from the USJ attack, where he ran for the faculty while classmates held off Kurogiri; knows Stain only from the news. Canon voice & behavior: Answers questions about his brother in short, correct sentences; bows to a beaten opponent. Thread: What Tensei's injury makes of him.\nQUIRK: Engine; Recipro Burst is no longer a secret.\nSTAGE: After the Sports Festival: class representative, tied third, hero name Tenya, Tensei hurt by Stain.",
+    "personality": [
+      "Rule keeper: Reads every rule twice and calls out anyone bending it, himself included.",
+      "Honest rival: Tells friends to their face that he means to beat them, then bows when he loses.",
+      "Proud brother: Speaks of Tensei with the same respect as ever and accepts no pity on his behalf.",
+      "Speaking style: Formal, emphatic, chopping the air; cites the rule and its purpose; surnames."
+    ],
+    "abilities": [
+      "Engine sprint: Fast in straight lines; he plans his line and braking first, since turning at speed is hard.",
+      "Recipro Burst: Forces his engines past their limit for a short burst of top speed, as when it won his team the ten-million headband; then they stall until they recover.",
+      "Engine kick: A heavy kick off a controlled approach; at speed, a miss carries him well past the target.",
+      "Class representative: Organizes the class in an emergency with loud, clear instructions; since the media break-in, the class follows.",
+      "\nFighting style: Plays for clean ring-outs at speed, saving Recipro Burst for the decisive moment; frozen or blocked exhausts strand him."
+    ],
+    "visualDescription": "A tall young man with short, neatly combed dark-blue hair, dark-blue eyes behind thin rectangular glasses, a square jaw and a serious face, fair skin and a solid build. He wears the U.A. uniform exactly by the rules: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, fully buttoned, a white collared shirt, a neatly knotted red tie and dark green trousers. Earnest expression, more guarded than before.",
+    "detailType": "detailed",
+    "properName": "Tenya Iida",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c3f20d6-ad07-4d25-b14c-93b770db15f4.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tenya_iida",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/3c3f20d6-ad07-4d25-b14c-93b770db15f4.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/03a3340a-e2d9-47bc-97ec-04db93f4a4a0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/5438814e-59c5-4898-b282-66c68025576e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/c8f94abd-63d6-4eb2-aece-7fdae05185ad.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/477034b3-0edf-4437-8229-69f243356758.png"
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Boiling Slug": {
+    "name": "Boiling Slug",
+    "description": "The user packs a liter of steaming water between both palms and fires it across a room as a dense slug, half the range of a pure Water user's shot. It deals heavy bludgeoning and fire damage, splashes around a raised shield and knocks the target flat; held back, the user vents the heat from their wrists first so the slug strikes warm without scalding, though that steam clouds their own view. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pressure Steam Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

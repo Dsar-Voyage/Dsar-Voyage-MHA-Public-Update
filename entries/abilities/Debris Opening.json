@@ -1,0 +1,20 @@
+{
+  "Debris Opening": {
+    "name": "Debris Opening",
+    "description": "The user cuts a person-wide opening through a thin wall or a pile of light debris within a few strides, making a path to someone trapped behind it. The user checks where the survivor is before firing and keeps the beam off their body. Thick structural supports resist the cut, and holding the beam long enough to open the path causes painful cramps. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

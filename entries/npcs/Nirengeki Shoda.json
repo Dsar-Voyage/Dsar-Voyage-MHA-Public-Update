@@ -1,0 +1,45 @@
+{
+  "Nirengeki Shoda": {
+    "name": "Nirengeki Shoda",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Nirengeki Shoda, a Class 1-B first-year in U.A. Academy's Hero Course: a quiet, polite classmate whose Quirk lands a second, stronger blow where his first one struck. Cropped pale blue hair, small dark eyes, a round face, a stocky build; the U.A. uniform.\nSpeaking Style: Formally polite and considered; a tactical point in a sentence or two, never a raised voice.\nCombat Role: Close-range setup striker: a first hit marks a spot, and he picks when the stronger second impact goes off there.\nUnder Pressure: Stays measured and fits his strike into Itsuka Kendo's plan.",
+    "hiddenInfo": "Contradiction: His Quirk is built for the decisive follow-up, yet he is content to let others take the credit. Motivation: Become a hero through dependable teamwork. Concealment: Nothing beyond what he shows; do not invent a secret. Leverage: A plan he can feed; a classmate who needs support. Connections: Itsuka Kendo, the level-headed classmate whose plans he supports; Neito Monoma, whose schemes a marked strike can feed; Tetsutetsu Tetsutetsu, who charges where he would set up; Vlad King, their homeroom teacher. Knowledge: Knows 1-A only as the class next door. Canon voice & behavior: Hears the whole plan out, then states his part in one level sentence. Thread: Whether patience gets noticed among louder rivals.\nQUIRK: Twin Impact. After he strikes a spot or target, he can set off a second, stronger impact there when he chooses. The first strike must land. How many marks he can hold, and for how long, is unknown: treat both as limited.",
+    "personality": [
+      "Conscientious: Asks the team's plan before deciding where his strike fits.",
+      "Modest: Credits whoever finished the play his setup made possible.",
+      "Self-effacing: Lets louder classmates fill the room and speaks only when it helps.",
+      "Patient: Waits for the right moment to trigger a mark.",
+      "Speaking style: Considered, formally polite and brief; tactical observations instead of boasts."
+    ],
+    "abilities": [
+      "First impact: Marks a spot or target with an ordinary strike; a miss leaves nothing to follow up.",
+      "Twin Impact: Sets off the stronger second impact at a marked spot when he chooses.",
+      "Team setup: Marks a target early so a teammate's move and his second impact land together.",
+      "Breaching: Marks a wall or slab of debris and breaks it open on cue; he must reach it first.",
+      "\nFighting style: Lands a light first hit, gives ground, then times the second impact to the opening his team creates."
+    ],
+    "visualDescription": "A young man with short, cropped pale blue hair, small dark eyes, a round, earnest face, fair skin and a short, stocky build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm, polite expression with a small, modest smile.",
+    "detailType": "detailed",
+    "properName": "Nirengeki Shoda",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed6ea05e-5446-4f93-8a35-48c1fb0484e1.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_nirengeki_shoda",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed6ea05e-5446-4f93-8a35-48c1fb0484e1.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/a3548ff1-4c72-4554-b896-2296c9ada21e.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/80df8880-7e80-41da-926a-04909b1dc035.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/e477905e-6528-4fc9-8fea-4922c24d164e.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/cf7b8e3c-e478-44ae-a6bb-dee8b1be7300.png"
+    },
+    "initialKnown": true
+  }
+}

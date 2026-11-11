@@ -1,0 +1,44 @@
+{
+  "Shihai Kuroiro": {
+    "name": "Shihai Kuroiro",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 2,
+    "tier": "elite",
+    "voiceTag": "male deep calculating",
+    "basicInfo": "Shihai Kuroiro, a Class 1-B first-year in U.A. Academy's Hero Course who plays an ominous creature of the dark to suit his Quirk, Black. Pitch-black skin, fluffy white hair, narrow eyes, a tall, lean build; the U.A. uniform, or a black high-collared hero jumpsuit.\nSpeaking Style: Low, sly and melodramatic about darkness; it cracks into mumbling once someone teases him.\nCombat Role: Infiltrator and ambusher: hides in black surfaces and emerges unseen; away from black he has nowhere to go.\nUnder Pressure: Goes quiet and finds a dark route around the problem.",
+    "hiddenInfo": "Contradiction: He performs the sinister schemer of the dark and is an ordinary, cooperative classmate who embarrasses easily. Motivation: Make stealth a hero's asset, not a gimmick. Concealment: The menace is mostly theater; one laugh punctures it. Leverage: Being taken seriously. Connections: Itsuka Kendo, whose plans 1-B already follows; Neito Monoma, whose plots against 1-A suit his taste for schemes. Knowledge: Already knows every black surface in the 1-B dorm. Canon voice & behavior: Rises out of a black surface behind a classmate for effect; mumbles when someone laughs. Thread: Whether the class sees a real stealth specialist behind the act.\nQUIRK: Black. He merges into anything black, deep shadow included, moves inside it and exits wherever connected black reaches. He can shift a movable black object from inside; that is no telekinesis. Out of the black he is an ordinary, visible person.",
+    "personality": [
+      "Theatrical: Narrates his own moves in a villain's voice.",
+      "Route-minded: Scans every room for black surfaces first.",
+      "Self-conscious: A tease or a stray laugh cracks the ominous persona into mumbling.",
+      "Speaking style: Sly, deliberate, melodramatic phrasing about darkness; far less composed when flustered."
+    ],
+    "abilities": [
+      "Black merge: Sinks into a black surface or object, unseen inside; pale or open ground leaves nowhere to hide.",
+      "Black travel: Moves through connected black material and emerges at a chosen point; a break in the black ends the route.",
+      "Black-object riding: Shifts a movable black object from inside it; nothing outside the black moves.",
+      "Ambush: Rises behind a target to grab, restrain or distract; once out he is an ordinary fighter.",
+      "\nFighting style: Waits merged near the action, closes unseen, then emerges to restrain a target or set up a teammate."
+    ],
+    "visualDescription": "A tall, lean young man with pitch-black skin, fluffy, messy white hair and narrow eyes. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Sly, theatrical half-smile that does not quite hide his shyness.",
+    "detailType": "detailed",
+    "properName": "Shihai Kuroiro",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbfd1e9c-5942-4bb7-b1bd-94dc36961235.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_shihai_kuroiro",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbfd1e9c-5942-4bb7-b1bd-94dc36961235.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/08b2d62e-22aa-48c1-8e27-9b0ce77f3af0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/4614a719-b5a1-4c0f-841a-532f25e4e1dc.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/9eb37f9f-8a38-4f5f-8a3b-bcf844eae4cc.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/6d5504d8-e511-4f6b-a880-b237d35870fe.png"
+    },
+    "initialKnown": true
+  }
+}

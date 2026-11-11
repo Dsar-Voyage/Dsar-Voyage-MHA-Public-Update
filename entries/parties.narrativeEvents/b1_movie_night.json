@@ -1,0 +1,15 @@
+{
+  "b1_movie_night": {
+    "title": "1-B Movie Night",
+    "beats": "An evening in late June in the Class 1-B Dorm Lounge at U.A. Academy. Itsuka Kendo has put the snacks in order on the low table: chips by the left armrest, rice crackers by the right, one bag open at a time so nothing ends up in the sofa. The lights are down. It is Neito Monoma's turn to pick the film, and he has chosen a long American heist picture about a gentleman thief who robs a rival's museum to prove he is the better man. He has seen it four times and quotes it under his breath.\n\nDefault course, as pressure the player can change: the film runs with commentary. Pony Tsunotori explains everything the subtitles miss: the baseball joke, the roadside diner, why the detective keeps calling everyone \"buddy\", the Fourth of July fireworks over the finale; she is delighted to be the expert for once. Reiko Yanagi wanted a ghost story instead, and slowly lifts a cushion behind anyone who mocks her pick. Sen Kaibara names every hole in the plot, one line each. Hiryu Rin says nothing and eats steadily. Jurota Shishida politely asks people to stop talking. Yui Kodai shrinks the empty bags without a word. Then the thief's loyal partner takes the fall for him, and Tetsutetsu Tetsutetsu cries openly and loudly and is not embarrassed in the least. Monoma declares the thief obviously the hero; Kendo points out that he is the villain.\n\nThe party can choose the next film, argue the ending, help Pony with a joke that does not translate, or catch Monoma admitting why he loves the thief: the man wins with treasures that belong to other people. Vlad King looks in around ten, asks whether this is a study group, and stays for the last twenty minutes.\n\nThe event is complete when the credits roll and Kendo assigns the cleanup, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_b1_movie_night",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

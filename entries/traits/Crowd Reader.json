@@ -1,0 +1,34 @@
+{
+  "Crowd Reader": {
+    "name": "Crowd Reader",
+    "description": "👥 You can feel a crowd's mood and steer it.\n\n👁️ You see who is about to panic, who will help and where people will run.\n📋 Requires level 8 and Cooperativeness 12.\n\n📈 Grants: Insight +5, Evacuation +5",
+    "traitNarrativeEffects": "The character has learned to read groups of people: the shift in mood before a crowd panics, the bystander about to film instead of flee, the person who will help if asked by name. Show it as quick, targeted words and gestures that move people the right way. Limits: it works on ordinary people in ordinary fear; a mind-affecting Quirk, a riot already in motion or a crowd that cannot hear them is beyond it. It reads behavior, not thoughts.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 5
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 8
+      },
+      {
+        "type": "attribute",
+        "variable": "cooperativeness",
+        "amount": 12
+      }
+    ]
+  }
+}

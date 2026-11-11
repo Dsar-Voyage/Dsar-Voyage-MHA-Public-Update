@@ -1,0 +1,20 @@
+{
+  "Girder Glide": {
+    "name": "Girder Glide",
+    "description": "The user marks themselves with a pole and rides the pull toward steel: up a steel-framed building, along a rail or a girder, across a street to a lamppost or a bus. They can carry a passenger, and by pushing off the steel in the ground or the frame below they turn any fall into a soft landing. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Magnetism Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

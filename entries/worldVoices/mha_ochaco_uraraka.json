@@ -1,0 +1,15 @@
+{
+  "mha_ochaco_uraraka": {
+    "label": "Ochaco Uraraka",
+    "voiceTag": "female warm friendly",
+    "instructions": "Sweet, bright young woman's voice, mid-high and warm, casual and cheerful with an easy laugh. Wide-eyed squeaks at anything expensive, flustered stammers at compliments; firm and clear when determined. Never cold, smoky or posh.",
+    "speed": 1.04,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

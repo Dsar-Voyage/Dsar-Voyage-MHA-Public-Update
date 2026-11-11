@@ -1,0 +1,24 @@
+{
+  "Filter-Eater Haze": {
+    "name": "Filter-Eater Haze",
+    "description": "The user pushes out a gas fine enough to slip through mask filters, visor seals and the joints of armor, and breathes it straight at a single target. It deals heavy toxic damage that ignores masks, respirators and worn armor; held back, it deals no damage and leaves the target too dizzy to stand until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Toxic Gas Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

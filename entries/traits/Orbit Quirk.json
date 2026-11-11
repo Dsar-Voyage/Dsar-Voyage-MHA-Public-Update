@@ -1,0 +1,40 @@
+{
+  "Orbit Quirk": {
+    "name": "Orbit Quirk",
+    "description": "🪐 Anything you touch and let go falls into a circle around your body and comes back to your hand when you call it.\n\n🌱 Keep a few small objects circling within arm's reach to knock attacks aside, and fling one off its circle as a sling shot.\n📈 Training adds a circling cord, a gravel ring, a filming loop, catching falling people, a debris shield and, at the top, every thrown thing pulled into your ring.\n⚠️ Objects only circle you and never hang still, and a wall or a body in their path knocks them out of orbit.\n🔗 Common drawback pairing: Stamina Drain, as every object you keep circling draws on your breath.\n🎬 Similar canon Quirks: none close.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Marksmanship +5\n⚡ Starting techniques: Circling Guard, Tangent Shot",
+    "traitNarrativeEffects": "Scale: touched-and-released objects circle the user instead of dropping, returning to hand when called. A new adult user keeps up to about five brick-weight objects circling, arm's length to about three meters out, for about a minute; a released one flies straight on at circling speed. Heavier objects, wider rings, people and debris shields need techniques. Limits: orbits center only on the user and move with them; nothing hangs still. A wall, ceiling or body in the path knocks an object down: cramped in corridors, risky in crowds. If the user is knocked out, all fly off along their paths. Any material; weight unchanged. Quirk Strain: light: a few small objects, one sling shot; moderate: circling cord, gravel ring, scouting loop; heavy: catching a falling person, debris shield; severe: signature throw, gathering all thrown at the user. Type: Emitter. Law: a sling shot is a thrown weapon; a lost orbit in a crowd is the user's Quirk use. Look: circling objects hum.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Circling Guard",
+      "Tangent Shot"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

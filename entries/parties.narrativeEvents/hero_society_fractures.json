@@ -1,0 +1,15 @@
+{
+  "hero_society_fractures": {
+    "title": "Who Still Answers?",
+    "beats": "On April 1, Musutafu Station District faces another emergency with too few responders. Frightened residents carry support weapons, abandoned patrol calls accumulate at Hero Agency Row and U.A. Academy receives more shelter requests. Tokyo Broadcasting Center prepares coverage of the remaining leading heroes' response. Let the local crisis and its follow-up unfold through April 5 rather than compressing every resignation into one street encounter.\n\nThe canon default course, as pressure the player can change: residents trying to defend themselves injure neighbors or damage escape routes through poorly controlled attacks. Remaining heroes still rescue them despite abuse and distrust. Resignations leave further gaps, including Yoroi Musha's retirement. Endeavor, Hawks and Best Jeanist answer publicly for the crisis: Endeavor accepts responsibility for his family's suffering, Hawks addresses his actions and background, and Best Jeanist's survival refutes the allegation that Hawks murdered him. Their promise is continued action, not instant restoration of public confidence.\n\nThe player can disarm an unsafe confrontation, persuade holdouts to accept help, keep an agency operating or demand a credible protection plan. Demonstrate the cost of each choice through staffing, shelter capacity and medical needs. Rumors about One For All can circulate, but a resident's question does not supply its transfer history or Izuku's location. Private planning and patient information remain restricted. A prevented retirement changes coverage; it cannot fill every empty agency by itself.\n\nBy Path: at Musutafu Station District, Class 1-A and Class 1-B undertake supervised rescue, Vigilante intervenes in armed disorder and Civilian Life decides how to assist neighbors. At U.A. Academy, General Studies manages intake, Support repairs defenses, Management verifies announcements and Faculty organizes shelter capacity. At Hero Agency Row, Licensed Sidekick handles abandoned calls while Licensed Pro Hero commits actual staff and resources. At Tokyo Broadcasting Center, authorized participants can challenge claims or protect accurate reporting. League of Villains Recruit and Independent Villain can recruit, exploit the shortage or protect a district from their current site; they do not receive the heroes' private conference.\n\nThe event is complete when the immediate neighborhood emergency is resolved and a named service, shelter or local group has accepted the continuing protection duties.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_hero_society_fractures",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

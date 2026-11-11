@@ -1,0 +1,24 @@
+{
+  "Forty Piece Sweep": {
+    "name": "Forty Piece Sweep",
+    "description": "The user divides most of their body into dozens of flying pieces and sweeps them through a hall or street to find people, block exits and distract one opponent until the end of the user's next turn. A clustered strike deals moderate bludgeoning damage; held back, the pieces only shove. The exposed central portion cannot move far while the pieces are spread. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Lizard Tail Splitter Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

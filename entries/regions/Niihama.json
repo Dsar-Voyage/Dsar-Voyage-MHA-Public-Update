@@ -1,0 +1,30 @@
+{
+  "Niihama": {
+    "name": "Niihama",
+    "basicInfo": "Niihama is the eastern Ehime coast and the western tip of Kagawa, a strip of plain under steep mountains facing the Hiuchi-nada sea; about two fifths of the cell is water, the Inland Sea filling the north, and the land runs from Niihama in the west to Kanonji in the northeast, with the Shikoku Mountains rising sharply to the south. Niihama grew up around the Besshi copper mine, whose ruins high in the mountains, terraced stone buildings in the forest, are a heritage park; the city is still a metals and chemicals town. It is famous for its October drum-float festival, when huge Taiko-dai floats carried by teams of over a hundred clash in the streets. East of it, Shikokuchuo is Japan's paper city, its mills turning out tissue and paper products under the hills, with tea from the hamlet of Shingu. Kanonji, in Kagawa, has a giant coin-shaped sand drawing on its beach, two pilgrimage temples on one hill and the dried-sardine island of Ibukijima offshore, and Mitoyo's Chichibugahama beach turns into a mirror at low tide at sunset. The mountains behind rise into the Ishizuchi range and over the ridge into Kochi Prefecture on the southern edge, a quiet land of steep cedar slopes and gorges. The climate is mild Setouchi on the coast, with snow in the mountains. The JR Yosan Line follows the coast, with the Shiokaze and Ishizuchi limited expresses linking Okayama, Takamatsu and Matsuyama, and at Kawanoe the expressways from Matsuyama, Takamatsu, Kochi and Tokushima meet. From Musutafu it is about four to four and a half hours by shinkansen to Okayama and the Shiokaze. Visitors see the drum-float festival, walk the mine ruins, take photos at Chichibugahama and eat udon. Each town has police boxes and a small hero agency, mill and plant workers with heat or strength Quirks work under license, and sidekicks patrol the festivals.",
+    "hiddenInfo": "The drum-float festival is famous for clashes between neighborhood teams, and every year police and heroes break up fights and keep crowds back. Small-time trouble is metal theft, illegal dumping, and Quirk-users poaching game in the mountains. Hero help comes from Niihama and Matsuyama, about an hour away; in the mountains, a car and a long walk are the only way in.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -10,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/27bd8f5d-f9d5-4955-8dc6-0b4a97c631fd.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

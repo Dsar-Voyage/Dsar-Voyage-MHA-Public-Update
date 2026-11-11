@@ -1,0 +1,20 @@
+{
+  "Elbow Strip Shot": {
+    "name": "Elbow Strip Shot",
+    "description": "The user fires one strip from an elbow to stick to a small object or reachable surface several meters away. They pull the object into hand or use the line to steady themselves until the end of their next turn. A heavy object may pull the user instead, and dust, oil or loose plaster can make the tape peel away. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

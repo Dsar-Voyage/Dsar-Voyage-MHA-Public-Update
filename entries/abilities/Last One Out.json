@@ -1,0 +1,20 @@
+{
+  "Last One Out": {
+    "name": "Last One Out",
+    "description": "After the others have fled, the user goes back into the danger zone alone and checks every place a person could still be: under desks, behind counters, beside the injured. The user finds everyone still inside, including people hiding, unconscious or too frightened to answer, and gets them all out; attacks and falling debris aimed at the user or the people they lead miss, and the user leaves last. Stamina: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Non-Combatant",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Dodging",
+        "amount": 32
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 3
+  }
+}

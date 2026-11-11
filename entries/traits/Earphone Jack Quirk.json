@@ -1,0 +1,40 @@
+{
+  "Earphone Jack Quirk": {
+    "name": "Earphone Jack Quirk",
+    "description": "🎧 You have plug-tipped earlobes that hear and carry vibrations.\n\n🌱 At the start you extend two jacks several meters, plug into a surface to hear nearby footsteps or send a modest heartbeat vibration, and jab a close target.\n📈 With training: finer searches, stronger heartbeat pulses, amplified ground shocks, amplified attacks that protect an exit.\n⚠️ You need a connected surface and amplifiers for wide attacks; pulls and damaging noise hurt your jacks, and heavy output leaves your ears ringing or bleeding.\n🔗 Canon Drawback, built in: Bodily Toll, as heavy use hurts your ears.\n🎬 Canon Quirk: Kyoka Jiro's Earphone Jack. You are not related to her; people who know her Quirk notice the resemblance.\n\n📈 Grants: Technique +1, Quirk Analysis +10, Quirk Output +10, Perception +5\n⚡ Starting techniques: Plugside Listen, Close Jack Jab",
+    "traitNarrativeEffects": "Scale: plug-tipped earlobes. Start: a jack reaches several meters into walls, floors or sockets to hear steps, voices, machines, send a modest heartbeat pulse, or jab and hook. Training, amplifier gear: finer searches, stronger beats, directed sound.\nLimits: grabs, pulls, strikes or harsh noise on a jack hurt the ear. Only vibration through the connected material: no thoughts, no reach across unrelated surfaces. Wide attacks need amplifier, connected surface, clear path; no shouted blasts. Heavy output makes ears ring or bleed.\nQuirk Strain: light: listen, jab; moderate: long search, trip, focused pulse; heavy: amplified ground or air pulses; severe: repeated full-output pulses.\nDrawback: built in, the canon Bodily Toll.\nCanon: Kyoka Jiro's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Mutant.\nLaw: unpermitted private-wall listening can breach privacy; user answers for harmful public sound.\nLook: plugs.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Perception",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Plugside Listen",
+      "Close Jack Jab"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

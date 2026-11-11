@@ -1,0 +1,25 @@
+{
+  "Great Bell Toll": {
+    "name": "Great Bell Toll",
+    "description": "The user builds a single note until the ground hums, then releases it in a ring that rolls out across a whole city district in every direction. Every enemy in the open within that district takes heavy sonic damage, is knocked off their feet and cannot hear until the end of the scene; held back, the ring only drops them and deafens them for a minute. Every window in the district shatters, allies without ear protection are deafened with the enemies, and the user cannot make sound with the Quirk for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

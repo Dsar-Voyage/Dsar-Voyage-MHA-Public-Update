@@ -1,0 +1,102 @@
+{
+  "Roll Call: Quirk test (action) part 1": {
+    "name": "Roll Call: Quirk test (action) part 1",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-boolean",
+        "key": "fdField1A",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Aa]thletic|[Ff]ield|[Tt]rack|[Qq]uirk [Aa]ssessment|[Qq]uirk [Tt]est"
+      }
+    ],
+    "effects": [
+      {
+        "type": "npc-placement",
+        "npc": "Izuku Midoriya",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Ochaco Uraraka",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Katsuki Bakugo",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Eijiro Kirishima",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Shoto Todoroki",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Tenya Iida",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Momo Yaoyorozu",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Kyoka Jiro",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Tsuyu Asui",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      },
+      {
+        "type": "npc-placement",
+        "npc": "Fumikage Tokoyami",
+        "operation": "moveTo",
+        "location": "U.A. Academy",
+        "area": "Athletics Field"
+      }
+    ]
+  }
+}

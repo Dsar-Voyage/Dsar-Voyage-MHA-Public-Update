@@ -1,0 +1,29 @@
+{
+  "Slipstream Conduit": {
+    "name": "Slipstream Conduit",
+    "description": "The user threads dozens of thin wind channels through a building or street for the rest of the scene, turning the air into insulated wiring. They can steer lightning paths around corners and past hostages to hit chosen foes for heavy electric and force damage, catch any live current in the area and ground it safely, or pipe fresh air to trapped people; held back, the arcs only numb and disarm. The user must stand still to hold the channels, and moving snaps the charge back to stun them until their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Thunderhead Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

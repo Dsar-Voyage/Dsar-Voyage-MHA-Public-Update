@@ -1,0 +1,37 @@
+{
+  "Fourth Kind": {
+    "name": "Fourth Kind",
+    "type": "Pro Hero",
+    "currentLocation": "Hero Agency Row",
+    "currentArea": "Ready Room",
+    "gender": "male",
+    "faction": "",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "male commanding intense",
+    "basicInfo": "Fourth Kind, a stern, impatient pro hero with an agency on Hero Agency Row who fights hand to hand with four powerful arms. Close-cropped gray-brown hair, a scar over his left eye, a broad, muscular build; a dark four-sleeved suit, a cyan tie, yellow diamond marks.\nSpeaking Style: Terse: short orders, no small talk, open irritation at excuses.\nCombat Role: Grappler; four arms, but only arm's length of reach.\nUnder Pressure: Gets sterner and faster, and expects everyone to keep up.",
+    "hiddenInfo": "Contradiction: The pro with the least patience for others holds himself to the hardest standard of all. Motivation: Do the job properly and make sure anyone beside him does too. Leverage: Visible effort; a quick, sound decision. Canon voice & behavior: Cuts a rambling report short; gives an order once. Thread: Who can keep up with him.\nQUIRK: Four strong arms instead of two; they add no reach.",
+    "personality": [
+      "Stern: Expects professionalism and says so, once.",
+      "Impatient: Cuts off hesitation and excuses.",
+      "Exacting: Holds himself to the standard he demands.",
+      "Speaking style: Terse and brief; orders, not requests."
+    ],
+    "abilities": [
+      "Four arms: Block, grab and strike at once; no extra reach.",
+      "Grappling: Two arms pin while two disarm; a far stronger foe breaks out.",
+      "Arrest work: Takes a struggling villain down without serious injury.",
+      "Street sense: Knows his district's everyday calls.",
+      "\nFighting style: Closes fast; four-armed grapples and short strikes, capture over damage."
+    ],
+    "visualDescription": "A broad, heavily muscled man with four strong arms, close-cropped gray-brown hair, a square, hard-set face with a scar over his left eye, and light skin. He wears his hero costume: a dark, close-fitting suit tailored with four sleeves, a cyan tie and yellow diamond-shaped marks. Stern, impatient expression with a hard stare.",
+    "detailType": "detailed",
+    "properName": "Fourth Kind",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/792d602d-d1cd-45f2-aa54-4bb1cf5d637d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_fourth_kind",
+    "initialKnown": true
+  }
+}

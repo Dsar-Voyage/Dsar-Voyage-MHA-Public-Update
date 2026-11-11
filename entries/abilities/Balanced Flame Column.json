@@ -1,0 +1,24 @@
+{
+  "Balanced Flame Column": {
+    "name": "Balanced Flame Column",
+    "description": "The user concentrates left-side fire into a jet reaching fifteen meters while cooling their body with right-side ice for up to three turns. It deals heavy fire damage each turn; held back, it cuts off an empty approach instead of striking people. Cooling delays overheating but does not prevent it, and the user needs a clear firing lane free of allies. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

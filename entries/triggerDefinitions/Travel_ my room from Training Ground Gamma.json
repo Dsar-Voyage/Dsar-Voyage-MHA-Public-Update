@@ -1,0 +1,30 @@
+{
+  "Travel: my room from Training Ground Gamma": {
+    "name": "Travel: my room from Training Ground Gamma",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Training Ground Gamma"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Gg]o|[Hh]ead|[Ww]alk|[Rr]eturn|[Bb]ack)\\w*\\b[^.;!?]{0,30}\\b[Mm]y (own |dorm )?room\\b"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-location",
+        "operator": "set",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Your Dorm Room"
+      }
+    ]
+  }
+}

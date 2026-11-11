@@ -1,0 +1,15 @@
+{
+  "Stairwell Clear": {
+    "name": "Stairwell Clear",
+    "description": "The user plants themselves at the choke point of a stairwell, corridor or exit and sorts a panicking crowd into a moving line with short, loud commands. Everyone in that crowd gets through without anyone being trampled or crushed, as long as the user holds the choke point and does nothing else. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Evacuation",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 0
+  }
+}

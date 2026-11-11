@@ -1,0 +1,15 @@
+{
+  "nagant_and_the_mansion_trap": {
+    "title": "The Price of Changing Sides",
+    "beats": "As the confrontation's immediate aftermath reaches April 24, Lady Nagant is still above Hosu Downtown when concealed enemy punishment threatens her. Izuku Midoriya is close enough to attempt a rescue; Hawks approaches the fall. Musutafu General Hospital receives an emergency request, while Endeavor Hero Agency becomes a coordination point for acting on any intelligence Nagant can provide. Carry forward a different allegiance or custody outcome from the previous encounter.\n\nThe canon default course, as pressure the player can change: Nagant's body erupts after she turns toward cooperation. Hawks catches her and the heroes obtain emergency treatment. Keep the warning, fall and transfer playable; intervention may reduce the injuries or prevent the detonation if the story establishes a credible means. By default she survives with extensive burns and other severe injuries. Overhaul is secured separately, still armless, and Izuku challenges his selective desire to apologize without treating it as forgiveness for his abuse.\n\nNagant's information leads the pursuit team to a remote mansion. Their search finds a recorded message from All For One rather than the man himself, followed by a destructive explosion. The player participates there only through an established journey with the team; otherwise the approach, warning and aftermath arrive through authorized communications at the event's sites. Do not substitute Gunga Mountain Villa for this separate hideout. A successful search can preserve evidence, evacuate teammates or defeat the trap, but the recorded speaker does not become physically present. The attack increases Izuku's fear that anyone near him will be hurt, unless effective support changes that response.\n\nBy Path: at Hosu Downtown, Licensed Sidekick, Licensed Pro Hero and Vigilante can catch, shield or extract casualties; Civilian Life assists emergency access. At Musutafu General Hospital, Class 1-A and Class 1-B support approved response duties, General Studies tracks transfers and Faculty protects treatment. At Endeavor Hero Agency, Support inspects communications and Management preserves verified intelligence. League of Villains Recruit and Independent Villain can assess the treatment of defectors, recover evidence or withhold warnings through existing contacts. None of these roles grants Nagant's private history automatically.\n\nThe event is complete when patients and detainees are handed over and a direct or confirmed report establishes the mansion's trap, casualties and usable evidence.",
+    "targetTurns": 40,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_nagant_and_the_mansion_trap",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

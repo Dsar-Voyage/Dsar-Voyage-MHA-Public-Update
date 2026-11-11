@@ -1,0 +1,20 @@
+{
+  "Ignition Vault": {
+    "name": "Ignition Vault",
+    "description": "Flame bursts from the user's palms and soles and throws them up a building face, across a street-wide gap or out of a fall into a controlled landing. The user can bring a single passenger along, who takes no fire damage as long as the user holds them clear of the jets. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "Items: order Noise-filtering earpieces": {
+    "name": "Items: order Noise-filtering earpieces",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^(?!.*(\\w+n't|\\b[Nn]ot\\b|\\b[Nn]ever\\b)).*\\b([Oo]rder\\w*|[Bb]uys?|[Pp]urchas\\w*)\\b"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Nn]oise.filtering earpieces|[Ee]ar ?plugs)\\b"
+      },
+      {
+        "type": "read-boolean",
+        "key": "gearLicensed",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-item",
+        "item": "Yen",
+        "operator": "greaterThanOrEqual",
+        "value": 25000
+      },
+      {
+        "type": "read-number",
+        "key": "order_earplugs",
+        "operator": "equals",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "order_earplugs",
+        "operator": "set",
+        "value": 1
+      },
+      {
+        "type": "write-boolean",
+        "key": "gearPending",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the character orders Noise-filtering earpieces from a support company with their registration papers and pays ¥25,000. Delivery takes three days; it is not in hand yet."
+      }
+    ],
+    "recurring": true,
+    "script": "const N=v=>typeof v==='number'?v:Array.isArray(v)?v.reduce((a,b)=>a+N(b),0):(v&&typeof v==='object'?(typeof v.quantity==='number'?v.quantity:Object.values(v).reduce((a,b)=>a+N(b),0)):0);const y=N(check({type:'player-item',item:'Yen'})),h=N(check({type:'player-item',item:\"Noise-filtering earpieces\"}));storage['od_earplugs']=check({type:'read-number',key:'currentDay'})||1;storage['oc_earplugs']=h;storage.shopP={y:y-25000,it:[[\"Noise-filtering earpieces\",h]]};effects.push({type:'write-boolean',key:'shopSettle',operator:'set',value:true});"
+  }
+}

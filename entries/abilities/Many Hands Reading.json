@@ -1,0 +1,24 @@
+{
+  "Many Hands Reading": {
+    "name": "Many Hands Reading",
+    "description": "The user takes the hands of up to five people in a line, meeting each one's eyes in turn, and sees about an hour of each of their coming lives at once. Where their paths cross, the user sees how those meetings go, so a team learns who will be hurt, a family learns whose route passes the danger and a hostage negotiator learns who will panic. The flood of scenes leaves the user unable to read anyone for the rest of the day. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Prognostication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "Portrait Swap: kyoka_prosthetic_ear": {
+    "name": "Portrait Swap: kyoka_prosthetic_ear",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_hospital_after_victory",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/698ae10c-8cbd-42a1-b90f-7f700a483aae.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/698ae10c-8cbd-42a1-b90f-7f700a483aae.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/698ae10c-8cbd-42a1-b90f-7f700a483aae.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Kyoka Jiro (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/698ae10c-8cbd-42a1-b90f-7f700a483aae.png"
+      }
+    ]
+  }
+}

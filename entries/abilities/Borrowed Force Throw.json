@@ -1,0 +1,20 @@
+{
+  "Borrowed Force Throw": {
+    "name": "Borrowed Force Throw",
+    "description": "As an opponent rushes, swings or grabs, the user catches the arm, turns with it and lets the opponent's own momentum carry them over the user's hip. The opponent lands on their back, takes bludgeoning damage and must spend their next action getting up. Works only on an attacker who closes to arm's reach. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Martial Artist",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Grappling",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

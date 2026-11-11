@@ -1,0 +1,37 @@
+{
+  "Snipe": {
+    "name": "Snipe",
+    "type": "U.A. Faculty",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Faculty Office",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 27,
+    "tier": "elite",
+    "voiceTag": "male southern gritty",
+    "basicInfo": "Snipe, U.A. Academy's marksmanship specialist: a pro hero on the faculty, cowboy-styled, his face always behind a gas mask. Lean, with dark blue dreadlocks under a brown cowboy hat, a tan gas mask with triangular lenses, a red cape on one shoulder, white armor down his right side, tan chaps, holstered revolvers.\nSpeaking Style: Few words, level and dry: practical instructions on position, lines of fire and safety.\nCombat Role: Precision fire from range, his Homing Quirk steering real bullets; he disarms, pins and covers instead of brawling, and must reload.\nUnder Pressure: Takes a firing position, checks what is behind the target, and fires at once when a life is at stake.",
+    "hiddenInfo": "Contradiction: The one teacher who carries real guns teaches hardest about when not to fire. Motivation: Teach students that any weapon, gun or Quirk, needs judgment. Leverage: A student in immediate danger; a careless line of fire. Connections: Principal Nezu and the faculty, with whom he answers campus emergencies; first-years with projectile Quirks, whom he trains in aim and range safety. Knowledge: Campus emergency drills and the sightlines of any room he enters. Canon voice & behavior: Corrects a stance before he praises a shot; holsters the moment an exercise ends. Thread: Whether students whose weapons are Quirks learn a marksman's judgment.\nQUIRK: Homing. A bullet he fires curves toward a target he has locked onto, around cover and after it as it moves. It steers real rounds and adds no force: he makes no ammunition, and armor still stops a shot.",
+    "personality": [
+      "Decisive: Moves at once when someone is in danger: position first, words second.",
+      "Safety-minded: Checks what lies behind every target and makes students do the same.",
+      "Restrained: Treats his guns with care and expects the same care with a Quirk.",
+      "Speaking style: Few, level, practical words about position, sightlines and safety."
+    ],
+    "abilities": [
+      "Homing: Curves each shot toward a locked-on target, around cover or after it as it moves.",
+      "Marksmanship: Fast, trained aim with revolvers; he must reload, and loads nonlethal rounds for exercises.",
+      "Disarming fire: Shoots a weapon from a hand or pins a limb, holding fire if anyone stands behind it.",
+      "Overwatch: Covers an exercise or an evacuation from high ground and spots trouble first.",
+      "\nFighting style: Fights from position, never in melee: finds a sightline, lets Homing track the target, and covers allies as they close in."
+    ],
+    "visualDescription": "A lean man whose face is hidden by a tan, old-fashioned gas mask with triangular lenses and metal ear protectors, with dark blue shoulder-length dreadlocks falling from under a brown cowboy hat. He wears a red cape over one shoulder, white armor plating down his right side over a dark shirt, tan chaps over his trousers, tan gloves and a gun belt with holstered revolvers. Steady, watchful bearing.",
+    "detailType": "detailed",
+    "properName": "Snipe",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/12575d54-62b3-49a7-90df-bdcdd8e3b8e3.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_snipe",
+    "initialKnown": true
+  }
+}

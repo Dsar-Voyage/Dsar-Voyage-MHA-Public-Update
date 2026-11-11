@@ -1,0 +1,28 @@
+{
+  "Sea off Tango": {
+    "name": "Sea off Tango",
+    "basicInfo": "Open Sea of Japan north of the Tango Peninsula, off Kyoto Prefecture's only coastline. There is no land inside it; to the south the peninsula's cliffs and the white lighthouse on Cape Kyoga stand out on clear days, and the Tajima coast of Hyogo runs off to the southwest. The water is shelf sea, one to a few hundred meters deep, a clean deep blue in summer and slate gray in winter, carried northeast by the Tsushima Warm Current. Summer is mostly calm, with squid boats lighting the horizon at night. From November the northwest monsoon takes over, with heavy swells, snow showers and gales that close the small harbors for days. These are snow crab grounds: boats from Taiza and Kasumi go out for the November-to-March season, and Taiza crab carries a tag of its own in Kyoto markets. Flatfish, squid and yellowtail are caught year-round. The overnight car ferry from Maizuru to Otaru in Hokkaido heads north through these waters. The Japan Coast Guard's regional headquarters for this coast is at Maizuru, and ships from the Maritime Self-Defense Force base there pass through on exercises. A party could be aboard the Hokkaido ferry, on a crab boat out of Taiza, or carried by a flying hero; the Tango coast is about two and a half hours from Shin-Osaka, and close to five from Musutafu.",
+    "hiddenInfo": "Crab season brings the only real friction: poaching boats working closed grounds at night, and crews squabbling over tags and quotas. The naval and coast guard presence at Maizuru keeps serious smuggling rare. A rescue out here is an hour or more for a patrol boat; the nearest hero agencies are in Maizuru and Toyooka, with few sea-capable members.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -7,
+    "y": 2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/79eddacb-f7b8-4c3c-9d63-5f7d88b92b8d.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

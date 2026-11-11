@@ -1,0 +1,20 @@
+{
+  "Drone Errand": {
+    "name": "Drone Errand",
+    "description": "The user holds a drone or a remote-control car for a moment, then sends it out as far as a few city blocks. For the rest of the scene they steer it without the controller, feel what its camera picks up and can have it carry a phone or a rope to trapped people. The user must stay still with eyes closed while steering, and if the machine is smashed the jolt keeps them from using the Quirk until the end of their next turn. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

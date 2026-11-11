@@ -1,0 +1,29 @@
+{
+  "Shelter of Hands": {
+    "name": "Shelter of Hands",
+    "description": "The user branches their extra arms into many shorter gripping limbs around a group within one room, holding people steady and catching loose debris while guiding them toward an exit. The protection lasts until the end of the user's next turn and stops impacts the limbs can physically reach. Each caught blow hurts the user, and they must remain anchored in the room; afterward the injured arms need rest. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Dupli-Arms Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

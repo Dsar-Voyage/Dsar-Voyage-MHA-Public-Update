@@ -1,0 +1,25 @@
+{
+  "Tanglestorm": {
+    "name": "Tanglestorm",
+    "description": "The user's signature move: they swing a full circle around the scene on a flurry of lines, wrapping every enemy they pass. Each enemy in a wide area ends bound from shoulders to knees and glued to the ground, a wall or a lamppost, unable to move or use their hands until cut free or until they tear loose with a great effort; afterward the user's skin is spent and makes no adhesive until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

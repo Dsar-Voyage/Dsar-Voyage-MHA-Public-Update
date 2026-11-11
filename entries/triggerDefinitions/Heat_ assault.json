@@ -1,0 +1,27 @@
+{
+  "Heat: assault": {
+    "name": "Heat: assault",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "villainPath",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Aa]ssault|[Bb]eat \\w+ up|[Bb]low \\w+ up|[Aa]ttack\\w* (the|a|him|her|them|police|heroe?s?))"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "heat",
+        "operator": "add",
+        "value": 12
+      }
+    ]
+  }
+}

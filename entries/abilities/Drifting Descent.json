@@ -1,0 +1,20 @@
+{
+  "Drifting Descent": {
+    "name": "Drifting Descent",
+    "description": "The user turns light and steps off a roof, a bridge or a high window. They fall slowly enough to land unhurt from any height, glide along a breeze across a street-wide gap or leap from the street to a third-floor ledge. A strong gust carries them off course, and anything they carry keeps its full weight, so they can bring down no more than a small child with them. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Density Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

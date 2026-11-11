@@ -1,0 +1,20 @@
+{
+  "Opening Measure": {
+    "name": "Opening Measure",
+    "description": "The user sings or taps a steady beat within six meters. Until the end of the user's next turn, two willing listeners keep their footing through ordinary jostling, or one opponent's next step pulls sideways and spoils a charge. The pressure moves feet, never decisions, and blocked hearing defeats it. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

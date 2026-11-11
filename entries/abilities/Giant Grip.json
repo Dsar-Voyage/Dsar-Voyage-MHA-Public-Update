@@ -1,0 +1,20 @@
+{
+  "Giant Grip": {
+    "name": "Giant Grip",
+    "description": "The user's hand swells around a target within a few strides and closes with just enough pressure to hold. The target cannot move their arms or legs or reach anything until they break free with a hard effort or the user lets go, and the user can lift and carry them in that hand. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Size Change Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Shy": {
+    "name": "Shy",
+    "description": "🫣 New people and big rooms make you go quiet, and your voice gets smaller when everyone looks at you.\n\n🤫 People forget you are there, which lets you slip past and overhear more than you should.\n💛 Once someone earns your trust, you are fiercely warm with them.\n⚠️ Speaking up in class, on camera or to a stranger costs you; the words come late or not at all.\n⚠️ You let others take credit, and people mistake your silence for not caring.\n🔀 If you are also Theatrical, you hide behind a costume persona and are bold only in it.\n\n📈 Grants: Stealth +5",
+    "traitNarrativeEffects": "The character is shy: quiet with strangers, slow to speak in groups, flustered when attention lands on them, and visibly relieved when it moves on. People overlook them, so they slip past and overhear things. With the few people they trust they are warm, funny and loyal. Weakness: speaking up costs them. They freeze when called on, mumble on camera, let others take credit and get read as aloof. If the character is also Theatrical, the boldness lives only in a costume persona. The narrator offers moments where speaking up would matter; whether the character does is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Stealth",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Surface Sprint": {
+    "name": "Surface Sprint",
+    "description": "The user runs fast enough to keep going where a runner should fall: straight up a building face to the roof, along a wall over a gap, or across open water for about a street's length. If they slow down partway, they drop or sink. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

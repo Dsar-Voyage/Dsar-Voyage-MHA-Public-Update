@@ -1,0 +1,20 @@
+{
+  "Ink Bulwark": {
+    "name": "Ink Bulwark",
+    "description": "The user spends a full turn drawing a tall shield on a wall or the floor with careful strokes, and it peels up as a slab of ink taller than a person that stands where the user points. Blows, thrown objects and pistol rounds from the front cannot pass it until a heavy blow breaks it, but a hose or a burst pipe washes it away at once, and it fades after a few minutes. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "Scattered After Kamino": {
+    "name": "Scattered After Kamino",
+    "questSource": "Giran",
+    "questStatement": "The bar is gone. Heroes raided the League's hideout at Kamino, and whoever got away has gone to ground. Your burner phone has been silent since that night. The one person who might know where the League is hiding is Giran, the broker who sold it most of its help, and Giran is nervous: the police are hunting anyone tied to the League, and he does not sell information cheaply.",
+    "mainObjective": "Find the hidden League of Villains again through Giran without leading the police to them.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has located the League's new hiding place, through Giran or otherwise, and has rejoined it, been turned away, walked away or sold it out."
+    },
+    "detailType": "detailed",
+    "questLocation": "Yokohama Harbor District",
+    "questDesignBrief": "Paranoid aftermath: brokers are spooked, police raid known fences, and the news replays Kamino. Unless the story has established otherwise, Tomura Shigaraki and the members who escaped are hiding in Giran's safe rooms, and Shigaraki is quieter, colder and planning on his own for the first time. Giran wants payment or a favor, and proof the PC was not followed. Whoever of the League is still free decides how to receive the PC; a recruit who vanished during the raid is suspected. The quest stages no new operation and does not lead to Deika City; it ends when the PC finds the League or gives it up. Failure: the PC leads police to a safe room, or is cut off for good.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

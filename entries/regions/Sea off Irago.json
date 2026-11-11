@@ -1,0 +1,28 @@
+{
+  "Sea off Irago": {
+    "name": "Sea off Irago",
+    "basicInfo": "Open Pacific south of the Atsumi Peninsula and the Irago Channel, where the shipping approaches to Ise Bay and Mikawa Bay meet the ocean. Beyond sight of the beaches the water is deep blue and heaves with long swells, sloping down toward the Nankai Trough, while the warm Kuroshio runs farther out. This is one of the busiest sea lanes in Japan: tankers, container ships and bulk carriers bound for Nagoya and Yokkaichi, and huge car carriers sailing from Mikawa Bay, all funnel toward the channel, and pilot boats meet them off the cape. The long-distance car ferry from Nagoya to Sendai and Hokkaido heads out through here and turns east. Fishing boats from Atsumi and Shima work the grounds for bonito, horse mackerel and puffer, keeping clear of the big ships. On clear days the Irago lighthouse and the hills of Shima show to the north, and nothing else but sea to the south. Winter westerlies, summer southerly swell and late-summer typhoons can close the lane. Coast guard patrol boats keep traffic in order, and maritime heroes are called out for collisions and fires at sea. A party could be out here on the ferry, a freighter, a fishing boat, or carried by a flying hero.",
+    "hiddenInfo": "Heavy traffic means near-misses and the occasional collision, and crews on long voyages sometimes slip goods to small boats that meet them off the cape. Help comes from the coast guard or maritime heroes out of Toba and Nagoya, an hour or more away.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -3,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ae1ca0d1-bd77-4c94-b08e-b028812855f9.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

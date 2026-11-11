@@ -1,0 +1,43 @@
+{
+  "Magma Heart Quirk": {
+    "name": "Magma Heart Quirk",
+    "description": "🌋 Stone you raise arrives hot, and heat you make melts rock: you turn stone into slag and back again.\n\n🧬 A Fusion Quirk of Earth and Fire: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you tip up a waist-high slab of hot pavement for cover and blister the stone under a foe's feet.\n📈 With training: smoking ridges, locks melted by touch, hot mud traps, poured rock cooled into cuffs and barricades, rubble fused into a glassy rescue ramp, and a heated floor.\n⚠️ Heat lingers in every surface you work: cool it before civilians touch it.\n🔗 Common drawback pairing: Overheating, as heat builds inside your palms and chest.\n🎬 Similar canon Quirks: Cementoss (Cement), for shaping only.\n\n📈 Grants: Power +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Warm Slab, Slag Glaze\n🛡️ Resists: fire",
+    "traitNarrativeEffects": "Scale: the user heats and shapes stone, concrete, brick and asphalt by touch. A new adult user moves half a car's weight of stone within two meters in a couple of seconds and can cool it back to touchable. Limits: touch on stone, concrete or soil only; wood, glass, metal and air never answer (steel decks, midair). Worked stone stays hot for minutes unless quenched, burning civilians; quenching dumps heat into the user. Quirk Strain: light: warm slab, blistered floor; moderate: smoking ridge, melted lock, hot mud trap, cooled cuffs, glassy ramp; heavy: clamping slabs; severe: signature wave, heated courtyard. Fusion: Earth plus Fire; half an Earth user's reach and volume; no flames or ranged blasts (heat moves only through rock); only the fusion melts stone to slag, fuses rubble to glass and quenches it solid. Type: Emitter. Law: unlicensed melting of roads or walls is property damage; hot stone left for the public is negligence. Look: orange-veined, hissing rock.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Warm Slab",
+      "Slag Glaze"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "fire"
+    ]
+  }
+}

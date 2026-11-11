@@ -1,0 +1,25 @@
+{
+  "Riot shield": {
+    "name": "Riot shield",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "skill",
+        "variable": "Blocking",
+        "value": 5
+      },
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 20
+      }
+    ],
+    "description": "A tall, clear polycarbonate shield with a padded forearm grip that riot police use to hold a line against thrown objects, blows and small Quirk blasts. Its holder can see through it while crouching behind it. [ Support Gear | Police-issue only ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9152f72d-2faf-45d4-b46c-dedb40dc59e4.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

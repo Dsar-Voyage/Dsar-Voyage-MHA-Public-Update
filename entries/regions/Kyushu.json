@@ -1,0 +1,31 @@
+{
+  "Kyushu": {
+    "name": "Kyushu",
+    "basicInfo": "Kyushu here is the island's north coast, where the shinkansen line from Tokyo ends. Fukuoka, a big port city on Hakata Bay, fills the coastal plain between the water and a ring of green hills: the Naka River runs through its center past the Tenjin shopping district, high-rises line the harbor, and Hakata Station is the island's main rail hub. At night, food stalls light up the riverbanks in Nakasu, the entertainment island between two channels of the river. Behind the city the hills rise toward farmland, orchards and hot-spring towns, and fishing ports and beaches run along the coast in both directions. The climate is warm and wet, with an early spring, a long rainy season, typhoons in late summer that close the port and stop the trains for a day or two, and mild winters. Locals speak Hakata dialect, argue about ramen, celebrate their summer festival with men racing decorated floats through the streets at dawn, and feel well protected: Hawks, the Number Three hero at the start of the year, works out of Fukuoka and is known for ending cases before other heroes arrive. The economy is the port, retail, food, offices and a busy airport close to the center; ferries leave the harbor for the outlying islands, and container ships come and go around the clock. Downtown Fukuoka spreads along the bay with Tenjin, Nakasu and the harbor towers; Hakata Station lies about 4 km east of it; the Hawks Hero Agency keeps a small modern office about 4 km northeast of downtown, north of the station. A few smaller local agencies and the Fukuoka prefectural police handle what Hawks leaves, and police boxes stand at the main crossings and at the station. Ms. Joke, the Smile Hero, who also teaches the hero course at Ketsubutsu Academy, is a familiar face around Tenjin. People ride the subway, city buses and bicycles, and taxis wait at every hotel. From Hakata the shinkansen reaches Osaka in about 2.5 hours, Musutafu in about 4.5 and Tokyo in about 5, and a short flight connects Fukuoka with Tokyo. A visitor can eat at the yatai stalls, shop Tenjin, work at the port or a ramen counter, patrol with a local agency, apply to Hawks' agency, or spend an afternoon staring at the sky hoping to see red wings.",
+    "hiddenInfo": "Fukuoka has grown used to one hero solving everything. Hawks' speed keeps street crime low and starves the smaller agencies of visible cases, so their rankings and income are slipping and some of their sidekicks sell reporters tips about where he will appear. The port is the city's soft spot: unregistered support gear comes in hidden among legal cargo, and Trigger is rumored to be arriving from Osaka by night bus. Hawks himself is busier than his public schedule shows, and few people ask where he goes.",
+    "x": -16,
+    "y": -4,
+    "realm": "Japan",
+    "factions": [
+      "Hawks Hero Agency",
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 10,
+      "max": 50
+    },
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/8b646ff1-a056-4b49-ab62-6f33ac2b38ad.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

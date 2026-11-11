@@ -1,0 +1,17 @@
+{
+  "The Hero Killer's Shadow": {
+    "name": "The Hero Killer's Shadow",
+    "questSource": "Naomasa Tsukauchi",
+    "questStatement": "Since Hosu, footage of the Hero Killer Stain has made him a hero to the wrong people. Someone in Hosu has started attacking minor heroes at night and scratching Stain's words on the wall beside them. Nobody has died yet. Detective Naomasa Tsukauchi has come from Musutafu to work the case, and the copycat's next target is out there somewhere. Find them before the attacks become killings.",
+    "mainObjective": "Track down Hosu's Stain copycat and stop them before they kill someone.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The Stain copycat in Hosu has been identified and stopped through the PC's actions: captured, turned in or talked down."
+    },
+    "detailType": "detailed",
+    "questLocation": "Hosu Downtown",
+    "questDesignBrief": "A dark investigation about ideals and imitation. The copycat is a generated person, bitter and sincere, with a minor Quirk and a homemade blade, who targets low-ranked heroes they call fake. A vigilante hunting the copycat must face the question asked back: what makes the PC's lawbreaking different. Naomasa Tsukauchi works by evidence and lie detection, may notice the vigilante on the same case, and does not look away from unlicensed Quirk use. Stain himself does not appear. Unless the story has established otherwise, Stain is in custody; if he is free, the copycat imitates a living man. Failure: a hero is badly hurt and the copycat's video spreads.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

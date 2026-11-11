@@ -1,0 +1,17 @@
+{
+  "General Studies Festival Stall": {
+    "name": "General Studies Festival Stall",
+    "questSource": "Present Mic",
+    "questStatement": "The School Festival is going ahead, barely. Under this year's tight campus security every class stall needs a written plan, a safety check and a teacher's signature, and General Studies has Present Mic. The class is split: half want to boycott a festival they blame the Hero Course for, half want a stall that draws the whole campus. You have to get something planned, approved, built and staffed in time.",
+    "mainObjective": "Get your class's School Festival stall planned, approved, built and staffed in time.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC's General Studies class has a School Festival stall that Present Mic signed and the security check passed, built and staffed for festival day."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "Comedy of logistics over real resentment. Present Mic signs at full volume and turns plain over security: no open flames without approval, guest-flow plans, no hidden spaces. Hitoshi Shinso keeps his distance or helps quietly. Classmates fight over the boycott and the budget; Mei Hatsume offers lighting nobody should accept. The stall idea is the PC's. Failure: a refused plan goes back for a rewrite, and the stall can open smaller or not at all. Nothing here stages the festival day, Class 1-A's show or any break-in attempt.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

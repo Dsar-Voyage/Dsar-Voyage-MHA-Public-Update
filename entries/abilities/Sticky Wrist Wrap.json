@@ -1,0 +1,20 @@
+{
+  "Sticky Wrist Wrap": {
+    "name": "Sticky Wrist Wrap",
+    "description": "The user shoots a short strip around one nearby person's wrists and fixes it to itself or a firm surface. Their hands stay bound until they tear the tape free or someone cuts it; held back, the wrap leaves room to avoid injury. The user needs a clear line to the wrists, and a powerful target can break the strip. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

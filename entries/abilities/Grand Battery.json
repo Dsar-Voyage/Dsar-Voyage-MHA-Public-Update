@@ -1,0 +1,25 @@
+{
+  "Grand Battery": {
+    "name": "Grand Battery",
+    "description": "The user's signature move: they spend their reserves at once on a ring of loaded cannons that pour from their back and arms and turn on every enemy in sight. Each enemy takes massive bludgeoning damage and is knocked flat, or takes a net round instead and stays pinned to the ground until they tear free with a hard effort or are cut loose; afterward the user cannot make anything until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

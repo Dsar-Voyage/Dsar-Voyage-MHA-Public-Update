@@ -1,0 +1,30 @@
+{
+  "Kurashiki": {
+    "name": "Kurashiki",
+    "basicInfo": "Kurashiki is the coast of eastern Hiroshima and western Okayama, from Fukuyama in the west to Kurashiki on the eastern edge, with the low hills of the Kibi plateau to the north and the Hiuchi-nada sea to the south. A broad plain of rice fields, reclaimed land and factory zones runs along the coast, rivers such as the Takahashi and Ashida come down from the hills, and offshore the Kasaoka islands lie scattered across the sea; nearly half the cell is water, the Inland Sea filling the south. Fukuyama, a steel city of over four hundred thousand, has a castle right next to the shinkansen platforms, rose gardens and a May rose festival, and one of the country's largest steelworks on the shore; south of it, the old port of Tomonoura has stone lanterns, wooden warehouses, a famous sea bream net-fishing show in May and a sweet herbal liqueur. Kurashiki, another big city, is known for the Bikan Historical Quarter, where white-walled storehouses and willows line a canal, a fine Western art museum, ivy-covered brick mills and denim shops; its Mizushima coast is a huge petrochemical and steel complex lit up at night. Between them lie Kasaoka, a port with horseshoe crabs on its tidal flats, Ibara, a denim town, Yakage's old post town and Soja, with the five-story pagoda of Bitchu Kokubunji standing in fields. The climate is sunny Setouchi, mild winters and hot summers. The Sanyo shinkansen stops at Fukuyama, a Nozomi stop about three hours from Musutafu, and at Shin-Kurashiki; the Sanyo Main Line runs along the plain, the Hakubi Line goes north from Kurashiki, the Fukuen Line from Fukuyama, and small lines serve Ibara and Mizushima. The Sanyo Expressway crosses the region and the Seto-Chuo Expressway turns south toward the Seto Ohashi bridges just east of the cell. Okayama is fifteen minutes east of Kurashiki. Visitors punt on the Bikan canal, buy jeans, eat sea bream at Tomonoura and ferry out to the islands. Both cities have hero agencies and police stations, factory crews with heat or strength Quirks work under license, and sidekicks patrol the festival crowds and the canal district.",
+    "hiddenInfo": "Industrial cities with industrial tensions: night shifts, foreign workers, and labor disputes at the big plants. Small-time trouble is copper and scrap theft from factory zones, shoplifting and pickpockets among tourists in the Bikan quarter, bike gangs on the coast roads, and Quirk-users doing unlicensed work. Industrial accidents are a constant risk. Hero coverage is solid in Fukuyama and Kurashiki but thinner on the islands and in the hills.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -10,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/393fbedc-0a8e-4f02-bf0d-d511ac19dfbe.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

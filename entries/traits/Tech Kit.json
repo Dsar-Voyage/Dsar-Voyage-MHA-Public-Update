@@ -1,0 +1,28 @@
+{
+  "Tech Kit": {
+    "name": "Tech Kit",
+    "description": "🔌 You carry tools for building, fixing and coding.\n\n⚖️ All of it is legal to own, but breaking into systems with the laptop is a crime.\n⚠️ Modifying someone's support gear without permission can void its approval and make you answerable for any failure.\n🔄 Spare parts run low with heavy use and are restocked at electronics shops or a support workshop.\n\n🎒 Starts with: Laptop, Support toolkit, Energy drink ×3",
+    "traitNarrativeEffects": "The character owns a portable computer set up for coding and design, a support toolkit with drivers, a multimeter, a soldering iron and spare parts, and a few cans of energy drink for late nights. All of it is legal. Breaking into systems with the laptop is a crime, and modifying someone's support gear without permission can void its approval and make the character answerable for any failure. Spare parts run low with heavy use and are restocked at electronics shops or a support workshop.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [
+      {
+        "item": "Laptop",
+        "quantity": 1
+      },
+      {
+        "item": "Support toolkit",
+        "quantity": 1
+      },
+      {
+        "item": "Energy drink",
+        "quantity": 3
+      }
+    ],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

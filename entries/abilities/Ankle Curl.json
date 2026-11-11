@@ -1,0 +1,20 @@
+{
+  "Ankle Curl": {
+    "name": "Ankle Curl",
+    "description": "The user hooks their tail behind one opponent's ankles within two meters and pulls while pressing forward with their stance. The opponent falls if their footing gives way and must spend their next movement getting up. A planted heavier target can resist, and the user releases the hook before it twists a knee. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

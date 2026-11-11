@@ -1,0 +1,20 @@
+{
+  "Impact armor plates": {
+    "name": "Impact armor plates",
+    "category": "Support Gear",
+    "slot": "Support Gear",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 30
+      }
+    ],
+    "description": "Curved composite plates in a strap harness that sit over the chest and back and spread the force of a blow or a fall. They fit over or under most costumes and add weight the wearer feels on a long run. [ Support Gear | About ¥75,000 ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6b216292-01a6-4e31-82d9-21c68048ab65.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "special"
+  }
+}

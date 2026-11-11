@@ -1,0 +1,29 @@
+{
+  "Threaded Passage": {
+    "name": "Threaded Passage",
+    "description": "The user controls the beam in a succession of short, exact cuts while turning their body, opening locks, restraints and debris around several visible people inside one building. Each cut follows a straight line from the navel, and each person is freed without a direct hit. The user must see every intended surface; one obscured cut is skipped. When the work ends, cramps prevent another laser use until the end of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

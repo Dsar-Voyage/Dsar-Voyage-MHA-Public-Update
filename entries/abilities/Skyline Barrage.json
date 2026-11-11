@@ -1,0 +1,25 @@
+{
+  "Skyline Barrage": {
+    "name": "Skyline Barrage",
+    "description": "The user rises above the rooftops on a column of blasts and rains detonations down across a whole city block for up to a minute. Every enemy in the open there takes heavy explosive damage at the end of each of their turns and cannot stand; held back, the blasts land beside them and only throw them flat. Windows shatter and loose rubble falls across the whole block, so bystanders must be sheltered first, and afterward both of the user's arms are numb and cannot fire for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

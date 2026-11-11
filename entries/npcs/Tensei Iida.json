@@ -1,0 +1,37 @@
+{
+  "Tensei Iida": {
+    "name": "Tensei Iida",
+    "type": "Pro Hero",
+    "currentLocation": "Hosu Downtown",
+    "currentArea": "Station Plaza",
+    "gender": "male",
+    "faction": "",
+    "level": 28,
+    "tier": "elite",
+    "voiceTag": "male confident warm",
+    "basicInfo": "Tensei Iida, the Turbo Hero Ingenium: Tenya Iida's older brother, heir to a family of heroes and the popular head of Team Idaten, his agency of sixty-five sidekicks, known for rescue-first work and an easygoing manner. Short dark blue-black hair, dark eyes, a tall build, exhaust pipes at his elbows; on duty, white Ingenium armor.\nSpeaking Style: Warm, relaxed, straightforward; laughs easily and teases his little brother gently, calling him Tenya.\nCombat Role: On duty, a fast lead hero: elbow engines give bursts of speed for pursuit and strikes.\nUnder Pressure: Takes the dangerous position and sends his team to the people who need help.",
+    "hiddenInfo": "Contradiction: Tenya sees him as the perfect hero; Tensei cares less about status than about the person being rescued. Motivation: Help actual people, and pass that spirit on to Tenya. Connections: Tenya Iida, his younger brother, a Class 1-A first-year who idolizes him; Tensei answers with warmth and teasing and hears about Heights Alliance by phone. His Team Idaten sidekicks, who follow him gladly. Knowledge: The hero business from the top of a large agency; of U.A., only what Tenya tells him. Canon voice & behavior: Laughs off Tenya's stiff formality; turns praise of himself into a point about the people helped. Thread: Whether Tenya will become a hero for the people he saves or for the family name.\nQUIRK: Engine, in his elbows rather than Tenya's calves: powerful straight-line bursts of propulsion; tight spaces blunt them.",
+    "personality": [
+      "Supportive: Encourages heroism aimed at the people being helped, not at the hero's reputation.",
+      "Approachable: Makes the job feel human; sidekicks and civilians talk to him easily.",
+      "Big brother: Loosens Tenya's rigid seriousness with gentle teasing and honest advice.",
+      "Speaking style: Warm, straightforward encouragement, especially for Tenya, whom he calls by name."
+    ],
+    "abilities": [
+      "Engine dash: Elbow engines throw him forward in powerful bursts for pursuit and rescue; tight spaces blunt them.",
+      "Engine strike: Turns a burst into a driving blow or tackle; he holds it back near bystanders.",
+      "Agency leadership: Directs sixty-five sidekicks in rescue, pursuit and crowd protection.",
+      "Easy trust: Civilians and younger heroes open up to him fast, and his calm steadies a frightened crowd.",
+      "\nFighting style: Leads with speed, an elbow-boosted dash to cut off a threat, then hands rescue and capture to his sidekicks."
+    ],
+    "visualDescription": "A tall young man with short dark blue-black hair, dark eyes, light skin and a friendly, open face. He wears his Ingenium hero armor: a sleek, streamlined white armored suit with exhaust pipes jutting back from both elbows; the visored white helmet is off, leaving his face bare. Warm, easygoing smile.",
+    "detailType": "detailed",
+    "properName": "Tensei Iida",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/721fccf0-ef8d-473b-833d-e6450e461e3a.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_tensei_iida",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Pony Tsunotori (Provisional License)": {
+    "name": "Pony Tsunotori (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "female",
+    "faction": "U.A. Academy",
+    "level": 22,
+    "tier": "elite",
+    "voiceTag": "female warm friendly",
+    "basicInfo": "Pony Tsunotori, hero name Rocketti, a Class 1-B first-year in U.A. Academy's Hero Course from the United States who holds a provisional hero license: 1-B took the exam at a different venue from 1-A, and the whole class passed. Long wavy blond hair, large dark eyes, two tall horns, hooves; the U.A. uniform or her orange jockey-style hero costume.\nSpeaking Style: Bright and earnest; surer Japanese, English for surprise.\nCombat Role: Aerial extraction and capture support; still four horns at most.\nUnder Pressure: Flies the injured out first and acts on her license in an emergency.",
+    "hiddenInfo": "Contradiction: The summer made heroics real; she answers with harder work, not less cheer. Motivation: Turn the license into rescues she can be proud of. Concealment: Worry since the summer, kept behind her cheer. Connections: Neito Monoma, who keeps reminding 1-A that every 1-B student passed. Thread: What kind of hero the license makes of her.\nQUIRK: Horn Cannon: practiced, coordinated control; four is still the cap.\nSTAGE: After the provisional license exam: passed; holds a provisional license. All Might retired after Kamino.",
+    "personality": [
+      "Friendly: Keeps the 1-B dorm cheerful and draws the quiet ones in.",
+      "Practical: Thinks of her horns as rescue tools first, weapons second.",
+      "Careful: Double-checks orders, knowing confident wording can fool her.",
+      "Speaking style: Bright and earnest; English when Japanese runs out, idioms taken literally."
+    ],
+    "abilities": [
+      "Horn Cannon: Fast, solid horn shots that grow back; four in the air at most.",
+      "Aerial extraction: Flies casualties out on her horns; a carrying horn cannot strike or block.",
+      "Provisional license: May act with her Quirk in an emergency; it does not make her a pro.",
+      "English: Can calm and direct foreign tourists in an emergency.",
+      "\nFighting style: Spots from the air, pins or blocks while a teammate closes in, and turns every horn to rescue the hurt."
+    ],
+    "visualDescription": "A young woman with long, wavy light-blond hair and full straight bangs, large round dark blue-gray eyes, a small, plain nose, fair skin and a medium build. Two large ivory horns with faint ring ridges curve outward and up from the top of her head. She stands on two legs that end in hooves. She wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and a dark green pleated skirt. Warm, confident expression with a bright smile.",
+    "detailType": "detailed",
+    "properName": "Pony Tsunotori",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_pony_tsunotori",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/4a1ada9a-a159-47e6-af84-ce622cf53dbf.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/49cc5352-0af0-4a38-969b-ea833ecb8d07.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/3519c7b9-19f4-4545-847c-403bd52d5e78.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/bb6d0a48-0d13-4124-ace8-8dca9c73bb4f.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/bc8951d5-c27c-4905-93bf-6ab2ed860f0d.png"
+    },
+    "initialKnown": false
+  }
+}

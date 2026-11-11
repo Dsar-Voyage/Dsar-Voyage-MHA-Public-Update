@@ -1,0 +1,30 @@
+{
+  "Place Light: story note Jaku City": {
+    "name": "Place Light: story note Jaku City",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Jaku City"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_paranormal_liberation_war",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": ".*"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: since the Paranormal Liberation War much of Jaku City lies in ruins: Shigaraki's decay and the fighting leveled whole districts, the rest is evacuated or under repair, with cordons, shelters and rebuilding crews. Describe it that way, never as the intact city."
+      }
+    ]
+  }
+}

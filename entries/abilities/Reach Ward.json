@@ -1,0 +1,20 @@
+{
+  "Reach Ward": {
+    "name": "Reach Ward",
+    "description": "The user holds the weapon point-first between the user and the opponent and snaps a strike at anyone who steps inside its reach. An opponent who tries to close to fist or grappling range this turn is struck first, taking bludgeoning damage from a blunt weapon or slashing or piercing damage from a blade, and is stopped at weapon length. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blade and Baton",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

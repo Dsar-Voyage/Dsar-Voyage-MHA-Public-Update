@@ -1,0 +1,29 @@
+{
+  "Twin Pulse Barrage": {
+    "name": "Twin Pulse Barrage",
+    "description": "With two working amplifiers, the user sends repeated heartbeat pulses along a connected street or hall for the rest of the scene. Each pulse knocks advancing opponents back and deals heavy sonic damage; held back, it breaks their footing without striking their bodies directly. The pulses travel through the chosen surface and can endanger allies standing on it. The user's ears bleed, and the technique ends if either jack or amplifier is damaged. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Wall-Hum Echo": {
+    "name": "Wall-Hum Echo",
+    "description": "The user hums a low note against a wall or across a smoky room, and the vibration travels through solid masonry and returns as an echo they feel in their jaw. It maps one room beyond a wall or through thick smoke, revealing where each person stands, hides or lies trapped. It reaches half as far as a pure floor reading, and soft insulation, thick carpets or running engines smother the return. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Echo Pulse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

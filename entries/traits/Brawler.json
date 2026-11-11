@@ -1,0 +1,31 @@
+{
+  "Brawler": {
+    "name": "Brawler",
+    "description": "👊 You fight with fists, elbows and raw strength, and you turn whatever is around you into a weapon.\n\n🌱 Learned in boxing gyms, street fights or years of hard physical work. Works with any Quirk or none.\n⚠️ Your blows do not get through armor or a hardened body, and long exchanges tire you fast.\n📈 You learn more techniques as your Striking and Athletics improve.\n⚖️ Learning to fight is legal, but hitting someone outside self-defense is assault, and a street fight brings the police.\n🎯 Agencies hire brawlers as frontline sidekicks; villain crews hire them as muscle.\n\n📈 Grants: Power +1, Striking +15, Athletics +10\n⚡ Starting technique: Gut Check Hook",
+    "traitNarrativeEffects": "Fights with fists, elbows, knees, shoulders and strength: heavy, committed blows, taking hits to land their own, turning surroundings (walls, chairs, signs) into weapons. At start they beat untrained thugs and trade evenly with a trained fighter of similar build, but their blows do not get through armor or a hardened body unless a technique says so, and long exchanges tire them fast. Not covered: holds and throws, weapons, ranged attacks. Pure training, same if Quirkless; techniques cost stamina, never Quirk Strain. Legal and social treatment: learning to fight is legal, but hitting a person outside self-defense is assault, and a street fight that damages property brings police, Quirk or not. Hero students use it in supervised training, licensed heroes at work. Media read brawlers as rough; agencies hire them as frontline sidekicks, villain crews as muscle. How it looks: squared stance, chin tucked, taped or scarred knuckles, old bruises, arm-free clothes.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Striking",
+        "modifier": 15
+      },
+      {
+        "skill": "Athletics",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Gut Check Hook"
+    ],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

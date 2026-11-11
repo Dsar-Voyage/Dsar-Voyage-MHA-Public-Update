@@ -1,0 +1,20 @@
+{
+  "Familiar Guide": {
+    "name": "Familiar Guide",
+    "description": "Using a sample from someone a frightened group trusts, such as a parent, a teacher or a hero they know, the user takes that person's face and voice. Panicking people stop, listen and follow the user's directions until they reach safety, and anyone hiding or refusing to move comes out to the user. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

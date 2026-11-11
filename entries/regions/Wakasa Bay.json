@@ -1,0 +1,28 @@
+{
+  "Wakasa Bay": {
+    "name": "Wakasa Bay",
+    "basicInfo": "The outer and middle reaches of Wakasa Bay, the wide bight of the Sea of Japan between the Tango Peninsula and Cape Echizen. The water is sheltered and fairly shallow, mostly under a hundred meters, clear blue-green in summer and calm enough for kayaks along the shore. A sliver of land shows at the edges: the forested tip of the Tsunegami Peninsula in the southeast and the western shore of the Tsuruga Peninsula on the eastern rim, while the bird island of Kanmurijima rises near the western edge off Maizuru. The inner bay's ria coast, with its drowned inlets and the towns of Obama and Takahama, lies just to the south. Winter winds bring snow and short, steep waves. The bay is known for Wakasa tilefish, mackerel, oysters and, in winter, snow crab; set-nets and small trawlers work out of Obama, Takahama and Mihama. Overnight car ferries from Tsuruga and Maizuru to Hokkaido cross the bay mouth. The coast guard's regional headquarters and a Maritime Self-Defense Force base sit at Maizuru, so gray ships and patrol boats are a common sight. A party could be on a sightseeing boat from Obama, a ferry, a fishing boat or a sea kayak, or flying with a hero; Obama is about three and a half hours from Musutafu.",
+    "hiddenInfo": "Everywhere else is sleepy. Trouble is poaching from shellfish beds, quarrels over set-net rights, and summer boating accidents. Help comes from Maizuru, Tsuruga or Obama within the hour.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -6,
+    "y": 1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d1034275-b059-46e8-9f7b-2c9e5751bb59.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

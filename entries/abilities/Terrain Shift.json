@@ -1,0 +1,20 @@
+{
+  "Terrain Shift": {
+    "name": "Terrain Shift",
+    "description": "The user takes a short drop, slips on a wall or plunges into water, and by the end of their next turn coarse grip pads swell on palms and soles, heels thicken or webbing joins their digits. For the rest of the scene they scale sheer walls, drop three stories unhurt or swim swift currents at a run, though thickened hands cannot work keys, phones or fine tools. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adaptation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

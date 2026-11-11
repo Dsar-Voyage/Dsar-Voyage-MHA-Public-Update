@@ -1,0 +1,20 @@
+{
+  "Homemade vigilante costume": {
+    "name": "Homemade vigilante costume",
+    "category": "Armor",
+    "slot": "Outfit",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "armor",
+        "value": 20
+      }
+    ],
+    "description": "A costume pieced together from sports padding, a hooded jacket and a mask, with tape where the seams have given out. It blunts punches and scrapes but stops no blade, and fighting crime in it without a hero license is vigilantism, an arrestable offense. [ Armor | About ¥15,000 in parts ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4c37569a-974d-4522-9486-3c1ee38fb881.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Abyssal Descent": {
+    "name": "Abyssal Descent",
+    "description": "The user dives to any depth, down to the floor of the bay, without pressure, cold or darkness slowing them, and can stay there for the rest of the scene. They reach a sunken ferry, submarine or car, ram open its weakest seam and bring every person aboard to the surface fast enough that none of them drowns, and nobody they carry up takes damage from the pressure. Against a diver or a submerged villain, the ram deals heavy bludgeoning damage. Afterward the user must rest in water for a full night before they can dash again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Floating Ankles Bind": {
+    "name": "Floating Ankles Bind",
+    "description": "The user touches one opponent with all five fingertip pads and pushes them just above the floor, denying firm footing until release. The user can secure their wrists with a carried restraint while they drift. This is not paralysis: the target can still attack, use a Quirk or pull themselves to a nearby handhold, so the user must stay outside their reach. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Running Wrist Escort": {
+    "name": "Running Wrist Escort",
+    "description": "The user overtakes a fleeing opponent within twenty meters, brakes beside them and catches their wrist and upper arm. The hold prevents another running start until the target breaks the user's grip or the user lets go. The user escorts them at walking pace rather than dragging them at engine speed; a much stronger opponent can wrench free. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

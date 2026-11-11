@@ -1,0 +1,20 @@
+{
+  "Wreck Carver": {
+    "name": "Wreck Carver",
+    "description": "The user carves through a crushed car roof, a jammed steel door or a heap of beams and drywall around a trapped person, shaping each cut so nothing shifts onto them. In moments there is a gap wide enough to pull the person out, and they take no harm from the cuts or from the debris settling. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Body Blades Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

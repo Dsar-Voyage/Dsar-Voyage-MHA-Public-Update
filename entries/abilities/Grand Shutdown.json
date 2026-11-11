@@ -1,0 +1,25 @@
+{
+  "Grand Shutdown": {
+    "name": "Grand Shutdown",
+    "description": "The user's signature move: they slam a palm onto any machine and their order runs through every machine within a street's width at once. Every enemy wearing or riding powered gear there is locked inside it and cannot act until the end of their next turn, every vehicle stops dead, and every electronic door the user names opens or seals. Afterward the user's hands shake and they cannot use the Quirk until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

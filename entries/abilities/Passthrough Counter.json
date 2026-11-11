@@ -1,0 +1,20 @@
+{
+  "Passthrough Counter": {
+    "name": "Passthrough Counter",
+    "description": "The user lets an opponent's strike pass through them and turns solid inside the opponent's reach, where the opponent cannot guard. The strike misses, and the user's counterblow deals bludgeoning damage and knocks the opponent off their feet. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Phasing Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

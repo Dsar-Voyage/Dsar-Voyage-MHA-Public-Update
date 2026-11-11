@@ -1,0 +1,20 @@
+{
+  "False Start Feint": {
+    "name": "False Start Feint",
+    "description": "The user starts a visible Quirk activation on one side (a flare, a flex, a twitch of a Mutant feature), then strikes from the other. The opponent reacts to the false start and cannot dodge or block the real blow, which deals bludgeoning damage, or the Quirk's own damage type when the Quirk powers the strike. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Quirk-Centered Fighter",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 0
+  }
+}

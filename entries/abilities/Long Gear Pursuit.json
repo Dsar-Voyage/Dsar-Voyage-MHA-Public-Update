@@ -1,0 +1,24 @@
+{
+  "Long Gear Pursuit": {
+    "name": "Long Gear Pursuit",
+    "description": "The user runs at sustained high output for up to three minutes along streets they can see, pursuing a vehicle or reaching a distant emergency. Stronger exhausts regrown through prior training are required. Traffic and blind corners still force braking, and the engines stall when the run ends and need several minutes of cooling before further powered movement. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Engine Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

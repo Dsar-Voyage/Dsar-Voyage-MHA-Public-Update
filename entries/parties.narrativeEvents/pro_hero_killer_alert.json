@@ -1,0 +1,15 @@
+{
+  "pro_hero_killer_alert": {
+    "title": "Hero Killer Alert",
+    "beats": "The nights after the Hosu Incident, evening into late night. The scene reaches the party wherever it is: the Commission's incident app pushes a notice, and the agency radio repeats it. The Hero Killer alert issued after Ingenium was cut down in Hosu on Sports Festival day stays in force for the week: pros patrol in pairs after dark, check in by radio every twenty minutes and stay off lone rooftops.\n\nBy canon default, unless the story changed it, Stain was captured in Hosu and the official account credits Endeavor; the alert stands because footage of Stain demanding true heroes spreads faster than the police can pull it, and the Commission fears his admirers. If the story left Stain free, the alert is for him, and he is not caught tonight: whoever glimpses him sees a ragged red scarf on a far roofline, gone before backup arrives.\n\nThe default course, as pressure the player can change: a quiet paired patrol, a partner's check-in missed with no answer, and a run to the last reported spot. The cause is ordinary, a dead radio battery or a fall on a fire escape, and the scare that follows is not: a bitter young man in a red scarf, a kitchen knife in his hand, quoting the footage at a pro on a back street. He can be talked down, restrained or lost in the alleys; nobody here is the Hero Killer.\n\nAn agency head writes the pairing roster, takes a pair or sends the sidekick out, and answers to the Commission for every missed check-in. A sidekick works for someone: the boss sets the pair and the route, and the sidekick either reports the missed check-in up the chain or goes first and explains in the report. On Hero Agency Row, Death Arms and Backdraft pair by habit, and the roster puts the party beside a neighboring agency's sidekick. In Tokyo the alert sits heavier, with Hosu a short train ride north.\n\nThe event is complete when the night's patrol ends with every pair checked in and the scare answered, or the alert is lifted.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_hero_killer_alert",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

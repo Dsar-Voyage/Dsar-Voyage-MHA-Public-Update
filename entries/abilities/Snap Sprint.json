@@ -1,0 +1,20 @@
+{
+  "Snap Sprint": {
+    "name": "Snap Sprint",
+    "description": "The user bursts into motion and crosses a room or a stretch of street before anyone can react, stopping at a chosen spot such as cover, a doorway or an ally's side. Any attack aimed at the user during the dash misses, and nobody can step in to block their path in time. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Speed Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

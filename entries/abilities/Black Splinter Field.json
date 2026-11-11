@@ -1,0 +1,24 @@
+{
+  "Black Splinter Field": {
+    "name": "Black Splinter Field",
+    "description": "The user hardens every shadow in a room or across a street's width into a bed of dark glass splinters that bursts upward. Every enemy standing in shadow there takes heavy piercing damage and is caught among the splinters, unable to move their legs until they break free with a hard effort; held back, the splinters stay blunt and only cage their legs. Enemies standing in full light are out of reach. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Shadow Manipulation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Tailwind Takeoff": {
+    "name": "Tailwind Takeoff",
+    "description": "The user spreads their wings and a pocket of wind forms under the primary feathers, lifting them in a single beat onto a low roof, across a narrow street or clear of an incoming attack, which misses them. It reaches half the height of a full wing launch, the user must land by the end of their turn, and soaked or pinned feathers cannot catch the draft. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

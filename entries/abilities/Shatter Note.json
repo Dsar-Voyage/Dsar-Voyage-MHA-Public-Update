@@ -1,0 +1,20 @@
+{
+  "Shatter Note": {
+    "name": "Shatter Note",
+    "description": "The user taps a wall, a vehicle or a suit of armor, hears the pitch it rings at and hits that note at full strength. Glass, concrete, locks and rigid armor in the target crack apart, and a person struck takes sonic damage that ignores worn armor. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

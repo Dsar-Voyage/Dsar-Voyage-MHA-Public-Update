@@ -1,0 +1,30 @@
+{
+  "Strong Quirk": {
+    "name": "Strong Quirk",
+    "description": "💪 Your Quirk works exactly as its card describes, with ordinary strain.\n\n📏 The reach, force and limits on your Quirk's card are yours from the start.\n🎯 A dependable baseline for any path.\n🔋 Quirk Strain per use is ordinary.\n\n📈 Grants: Quirk Control +5, Quirk Output +5",
+    "traitNarrativeEffects": "The Quirk works at its family's full starting scale, as the family describes it, with the usual Quirk Strain per use; the drawback shows at 60, turns active at 80 and peaks at 100. This is the common profile among hero course students, licensed heroes and capable villains: strong enough to matter in a fight or a rescue, ordinary enough not to draw special notice. Growth follows the user's Quirk skills and any Quirk Breakthrough. People judge the user by how they use the Quirk rather than by its size. If the character chose Quirkless, this trait does not apply: they have no Quirk, never gain Quirk Strain, and the narrator ignores it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

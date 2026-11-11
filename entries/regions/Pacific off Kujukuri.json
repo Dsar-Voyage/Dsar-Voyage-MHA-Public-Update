@@ -1,0 +1,28 @@
+{
+  "Pacific off Kujukuri": {
+    "name": "Pacific off Kujukuri",
+    "basicInfo": "The open Pacific forty to ninety kilometers off Kujukuri beach, a wide, empty reach of deep-blue ocean east of the Boso Peninsula. The coast is below the horizon, and only cloud over the land marks where it lies. The bottom is far down, beyond the shelf and slope, more than a kilometer deep across most of the cell. The warm Kuroshio swings northeast through here, bringing bonito and flying fish in spring and summer, and long swells roll in steadily from the southeast. Typhoons cross in late summer and autumn, and winter brings strong northwest winds and short, steep seas. Purse seiners from Katakai and Choshi chase sardines, and bonito boats from Katsuura and Ohara work the edges of the current. Cargo ships bound for Tokyo Bay and the northern ports pass in steady lines. The coast guard watches from the air and from patrol boats out of Choshi and Tateyama, with maritime heroes on call. A party could be out here on a passing ship, a deep-sea fishing boat, or carried by a flying hero.",
+    "hiddenInfo": "Little happens out here: the danger is weather, fatigue and collisions in poor visibility. Help is the coast guard, an hour or more away by sea and quicker by helicopter. Small-time villainy at sea means illegal dumping from ships and boats fishing out of season.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": 4,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/9913c913-49f1-46fe-a52d-d4e7a7977d89.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

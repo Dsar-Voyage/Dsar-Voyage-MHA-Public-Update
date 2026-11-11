@@ -1,0 +1,15 @@
+{
+  "mha_recovery_girl": {
+    "label": "Recovery Girl",
+    "voiceTag": "female gentle grounded",
+    "instructions": "An elderly woman's creaky, slightly raspy, higher voice, grandmotherly and blunt, plain American speech. Brisk scolding while she works, a drawn-out \"chiyuuu\" for her healing kiss, kindly warmth with gummies.",
+    "speed": 0.93,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

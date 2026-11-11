@@ -1,0 +1,43 @@
+{
+  "Electrification Quirk": {
+    "name": "Electrification Quirk",
+    "description": "⚡ You make electricity and release it from your body.\n\n🌱 At the start you stun one adult by touch or shock people within a few steps, with a broad discharge that can also hit allies.\n📈 With training: stunning holds, small device charges, absorbed electrical attacks, stronger aimed discharges through conductors or placed targeting gear.\n⚠️ You cannot pick distant targets by sight; insulation blocks contact shocks, water and metal spread them, and overload leaves you confused until recovery.\n🔗 Canon Drawback, built in: Cognitive Fade, as overloads temporarily scramble your thinking.\n🎬 Canon Quirk: Denki Kaminari's Electrification. You are not related to him; people who know his Quirk notice the resemblance.\n\n📈 Grants: Endurance +1, Quirk Output +10, Quirk Control +10, Blocking +5\n⚡ Starting techniques: Palm Contact Spark, Short Range Flash\n🛡️ Resists: electric",
+    "traitNarrativeEffects": "Scale: electricity by touch or released around. Start: stun by touch or shock several within a few steps; unaided bursts spread to allies; own body takes normal output. Reach, aim need training, conductive routes or targeting gear.\nLimits: finite charge; overuse short-circuits the brain: confused, slow, Quirk unreliable until recovered. Water, metal carry current to others; insulation blocks touch. No aiming by sight; gear markers must be placed first, can be removed. No data or machine control.\nQuirk Strain: light: touch, small flash; moderate: sustained hold, device charge, caught electric attack; heavy: directed multi-target discharge; severe: max output, repeated big releases.\nDrawback: built in, the canon Cognitive Fade.\nCanon: Denki Kaminari's Quirk; user is unrelated, no tie unless the story makes one; those who know it see the resemblance.\nType: Emitter.\nLaw: user answers for discharges hitting bystanders or wiring, even aimed at villains.\nLook: sparks.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Palm Contact Spark",
+      "Short Range Flash"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "electric"
+    ]
+  }
+}

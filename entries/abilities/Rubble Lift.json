@@ -1,0 +1,20 @@
+{
+  "Rubble Lift": {
+    "name": "Rubble Lift",
+    "description": "The user bulks through the back and legs and lifts what no unboosted person could: a fallen beam, a concrete slab, the front end of a car. They hold it up until the end of their next turn or until they set it down safely, so anyone trapped beneath can crawl out or be pulled free. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

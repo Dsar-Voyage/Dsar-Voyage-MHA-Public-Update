@@ -1,0 +1,28 @@
+{
+  "Mouth of Suruga Bay": {
+    "name": "Mouth of Suruga Bay",
+    "basicInfo": "The open mouth of Suruga Bay, Japan's deepest bay, where the water between Cape Omaezaki on the west and the cliffs of the western Izu Peninsula on the east falls away into the Suruga Trough, more than 2,000 m deep a short way offshore. The water is dark blue and cold below, warmed at the surface by branches of the Kuroshio current curling in from the south. On clear days Mt. Fuji stands over the head of the bay to the north, white from autumn to spring, and the Omaezaki lighthouse marks the western shore. Freighters and container ships run in and out to the port of Shimizu, deep-sea tuna boats head out from Yaizu, and small boats from the Shizuoka coast fish for bonito and horse mackerel, while the pink sakura shrimp fleets work the inner bay farther north. Winter brings strong westerlies, early summer brings fog, and typhoons come late summer and autumn. Coast guard patrol boats from Shimizu and Shimoda keep watch, and a few maritime heroes with water or flight Quirks work the bay. Far off to the southeast, beyond the peninsula's tip, police boats patrol the restricted exclusion zone around the prison island, and local boats keep well clear. A party could be out here on a fishing boat from Omaezaki, a charter, a passing freighter, or carried by a flying hero.",
+    "hiddenInfo": "The bay drops so deep so fast that anything lost here is gone for good, and some people rely on that. Small boats run cash cargo along the coast at night, and fishermen complain of nets cut by strangers. Hero help is a coast guard cutter or a maritime hero from the bay ports, thirty minutes to an hour out.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -1,
+    "y": -2,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c0e67131-8a1f-4021-a6f8-e2d8de636499.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

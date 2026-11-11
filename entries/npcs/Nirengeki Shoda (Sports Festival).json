@@ -1,0 +1,44 @@
+{
+  "Nirengeki Shoda (Sports Festival)": {
+    "name": "Nirengeki Shoda (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 9,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Nirengeki Shoda, hero name Mines, a Class 1-B first-year in U.A. Academy's Hero Course. At the Sports Festival he was on Hitoshi Shinso's cavalry team with no memory of the battle, and withdrew from the final tournament beside Mashirao Ojiro rather than keep a place he had not earned. Cropped pale blue hair, small dark eyes, a stocky build; the U.A. uniform.\nSpeaking Style: Formally polite; a short tactical remark, never a boast.\nCombat Role: Setup striker: a first hit, then the stronger second impact.\nUnder Pressure: Stays level and does what is fair, whatever it costs him.",
+    "hiddenInfo": "Contradiction: The one time the country watched him, he stepped aside, and would again. Motivation: Earn a place by his own work. Connections: Hitoshi Shinso, the General Studies first-year whose Brainwashing held him through the battle; Shoda is courteous and careful with him. Mashirao Ojiro, who withdrew for the same reason. Knowledge: Knows the USJ attack on 1-A from the news and campus talk. Thread: Whether patience gets noticed on a stage built for highlights.\nQUIRK: Twin Impact, unchanged.\nSTAGE: After the Sports Festival: hero name Mines; withdrew from the final tournament.",
+    "personality": [
+      "Fair play: Explains the withdrawal once, calmly, to anyone who asks.",
+      "Modest: Lets teammates take the cheers for a play he set up.",
+      "Steady: Unrattled by stadium noise, cameras or the referee's call.",
+      "Speaking style: Considered, formally polite and brief; tactical observations instead of boasts."
+    ],
+    "abilities": [
+      "First impact: Marks a spot or target with a strike; no hit, no follow-up.",
+      "Twin Impact: Sets off the stronger second impact at the mark when he chooses.",
+      "Team setup: Marks a target so his follow-up lands with a teammate's move.",
+      "Breaching: Marks debris or a barrier and breaks it open on cue.",
+      "\nFighting style: A quick marking touch in the scramble, then the second impact to break a formation."
+    ],
+    "visualDescription": "A young man with short, cropped pale blue hair, small dark eyes, a round, earnest face, fair skin and a short, stocky build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Composed, serious expression.",
+    "detailType": "detailed",
+    "properName": "Nirengeki Shoda",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed6ea05e-5446-4f93-8a35-48c1fb0484e1.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_nirengeki_shoda",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/ed6ea05e-5446-4f93-8a35-48c1fb0484e1.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/a3548ff1-4c72-4554-b896-2296c9ada21e.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/80df8880-7e80-41da-926a-04909b1dc035.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/e477905e-6528-4fc9-8fea-4922c24d164e.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/cf7b8e3c-e478-44ae-a6bb-dee8b1be7300.png"
+    },
+    "initialKnown": false
+  }
+}

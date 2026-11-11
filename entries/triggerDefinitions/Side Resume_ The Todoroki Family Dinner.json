@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Todoroki Family Dinner": {
+    "name": "Side Resume: The Todoroki Family Dinner",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_todoroki_dinner",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_todoroki_dinner",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_todoroki_dinner",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_todoroki_dinner"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_todoroki_dinner",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Todoroki Family Dinner\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Mid-December, evening, a few days into the winter work-study with Endeavor and the night before the Ending incident."
+      }
+    ]
+  }
+}

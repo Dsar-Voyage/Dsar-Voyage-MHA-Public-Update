@@ -1,0 +1,30 @@
+{
+  "attributeNames": [
+    "power",
+    "speed",
+    "technique",
+    "intelligence",
+    "cooperativeness",
+    "endurance"
+  ],
+  "lowAttributeTraits": {},
+  "maxStartingAttribute": 16,
+  "lowAttributeThreshold": 2,
+  "attributeBonusModifier": 2.5,
+  "attributeStatModifiers": {
+    "endurance": {
+      "variable": "health",
+      "amount": 5
+    }
+  },
+  "attributeDamageModifiers": {
+    "power": 1.5,
+    "technique": 0.5
+  },
+  "attributeDamageReductionModifiers": {
+    "endurance": 1,
+    "speed": 0.5
+  },
+  "startingAttributeValue": 10,
+  "startingAttributePoints": 0
+}

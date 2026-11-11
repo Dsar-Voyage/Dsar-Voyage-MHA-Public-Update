@@ -1,0 +1,20 @@
+{
+  "Name on the Door": {
+    "name": "Name on the Door",
+    "description": "The user names their agency and stands on its record. Civilians, shop owners, building managers and junior officers who have heard of it cooperate: they open doors, share camera footage and answer questions without a warrant for the rest of the scene. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Licensed Pro Hero",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Hero Industry",
+        "amount": 10
+      }
+    ],
+    "bonus": 25,
+    "cooldown": 1
+  }
+}

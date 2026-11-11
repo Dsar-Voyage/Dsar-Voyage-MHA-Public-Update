@@ -1,0 +1,15 @@
+{
+  "mha_izuku_midoriya": {
+    "label": "Izuku Midoriya",
+    "voiceTag": "male grounded conversational",
+    "instructions": "Light, earnest young man's tenor, soft and a little breathy. Talks fast, stammers and apologizes when nervous, mutters rapidly while analyzing; in a rescue turns loud and clear, with raw, cracking shouts. Emotion comes easily. Never smug or deep.",
+    "speed": 1.08,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

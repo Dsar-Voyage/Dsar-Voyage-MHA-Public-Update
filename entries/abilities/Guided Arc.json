@@ -1,0 +1,20 @@
+{
+  "Guided Arc": {
+    "name": "Guided Arc",
+    "description": "The user flicks a coin, a wire or a spray of water toward a target across a room or a street and sends a bolt along it. It deals electric damage to that target alone, and nobody around them is hit, even in a crowd or in standing water. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

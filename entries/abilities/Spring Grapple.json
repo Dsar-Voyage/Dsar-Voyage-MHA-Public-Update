@@ -1,0 +1,20 @@
+{
+  "Spring Grapple": {
+    "name": "Spring Grapple",
+    "description": "The user forms a spring-loaded launcher with a hooked line and fires it at a ledge, a beam or a rooftop. They reel themselves up a building face or swing across a street-wide gap carrying a passenger, then leave the line anchored as a zip line that lowers trapped people to the ground one after another. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

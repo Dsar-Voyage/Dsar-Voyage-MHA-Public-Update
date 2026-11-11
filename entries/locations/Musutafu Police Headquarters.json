@@ -1,0 +1,86 @@
+{
+  "Musutafu Police Headquarters": {
+    "name": "Musutafu Police Headquarters",
+    "basicInfo": "The city's main police station, a plain six-story concrete building on Musutafu's northwestern edge, about 3.5 km northwest of the station, run by the prefectural police. It handles patrols, investigations, custody and the paperwork behind every arrest a hero makes in the city: officers investigate and hold suspects, while violent Quirk crime is left to licensed heroes, who hand captured villains over here. The front desk is open around the clock to anyone; the upper floors are staff only, and visitors go up only with an officer as escort. Patrol cars leave from the yard at the back, and a city bus stop sits out front. Detective Naomasa Tsukauchi, whose Quirk tells him when someone is lying, works major cases from here and knows many pros personally; Sansa Tamakawa, a cat-headed officer, is often at his side. Shifts change at eight in the morning and eight at night, and the night shift is thin. The building also holds the traffic division, the community affairs office that runs neighborhood police boxes across the city, and a records room for Quirk registrations. Officers do not use their Quirks as weapons on duty, and heroes who bring a villain in give a statement before they leave. A player can report a crime, give a statement, hand over a captured villain, help an investigation, or visit someone in custody. Phones ring, printers run, and the lobby smells of floor wax and vending-machine coffee.",
+    "hiddenInfo": "The detectives' office always has more files than time, and Tsukauchi keeps his own short list of cases he will not let go. Morale on the night shift is low; officers do the paperwork while heroes collect the credit and the pay for each arrest, and some resent it. The holding cells are built for ordinary prisoners. Anyone with a strong or dangerous Quirk is supposed to be moved to a secure facility within a day, and a weekend with a strong Quirk user in the basement is when things go wrong. Tsukauchi's Lie Detector tells him only that he has heard a lie, never what the truth is, and the officers who work with him know a short pause before his next question means he caught one. When something touches U.A. Academy, Principal Nezu calls Tsukauchi first, and Tsukauchi calls All Might.",
+    "x": -8.37,
+    "y": -18.648,
+    "radius": 0.8,
+    "region": "U.A. Campus",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Front Desk": {
+        "description": "The ground-floor lobby: a long counter behind scratched acrylic panels, rows of plastic chairs, wanted posters, Quirk-registration forms and a number-ticket machine. Desk officers take lost-and-found reports, traffic complaints, crime reports and walk-ins who just want to talk to someone, and Sansa Tamakawa takes statements here between cases, writing everything down. Heroes bring captured villains through the side door and sign them over here; the stairs up to the Detectives' Office and down to the Holding Cells are behind a locked door at the end of the counter. Mornings are busy with paperwork; nights bring drunks, worried parents and the occasional hero still in costume. A wide chair at one end is built for larger heteromorph visitors. Raised voices get exactly one warning.",
+        "paths": [
+          "Detectives' Office",
+          "Holding Cells"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0824321b-7170-4d65-a17a-33118ec27eab.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Detectives' Office": {
+        "description": "An open-plan room on the third floor with desks pushed together in pairs, whiteboards covered in photos and arrows, filing cabinets and a coffee machine nobody cleans. Detectives work here from morning until late, interviewing witnesses in two small side rooms and calling hero agencies for statements. Tsukauchi's desk sits by the window, unusually tidy, with a single folder he keeps closed when visitors are near. Visitors come up only with an escort, by the stairs from the Front Desk. Case files on Quirk crimes are stacked by date, the oldest on top of the cabinets in boxes, and a wall map of Musutafu bristles with pins. The evening shift orders noodles from the same shop every night. The phones never stop ringing, and nobody lies to Tsukauchi twice.",
+        "paths": [
+          "Front Desk"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/bd986723-cde7-43be-afac-28d4c9bc13cb.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Holding Cells": {
+        "description": "A basement corridor of short-term cells with steel doors, bare benches and cameras in every corner, plus one reinforced cell lined with thick steel for detainees with strong Quirks. Suspects wait here for questioning, transfer or release, usually overnight, and each is logged in and out by the minute. Two officers watch the monitors at all times, and detainees with dangerous Quirks wear heavy restraint cuffs. Belongings go into numbered plastic trays in a locker by the stairs and come back only on release. Visits happen through a window at the end of the corridor, by appointment from the Front Desk upstairs, and they end the moment anyone raises a voice. The lights stay on all night, the air smells of disinfectant, and every cough echoes down the corridor.",
+        "paths": [
+          "Front Desk"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/5ec5a7ed-752d-4850-9b58-170dc5cc9200.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d5ffb0c6-3595-47fd-9e7b-70d9883d0981.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

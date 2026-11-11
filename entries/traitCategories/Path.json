@@ -1,0 +1,59 @@
+{
+  "Path": {
+    "name": "Path",
+    "maxSelections": 1,
+    "traits": [
+      "U.A. Hero Course (Class 1-A)",
+      "U.A. Hero Course (Class 1-B)",
+      "U.A. General Studies",
+      "U.A. Support Course",
+      "U.A. Management Course",
+      "U.A. Faculty",
+      "Licensed Pro Hero",
+      "Licensed Sidekick",
+      "League of Villains Recruit",
+      "Independent Villain",
+      "Vigilante",
+      "Civilian Life"
+    ],
+    "description": "🧭 Who are you this year? Your Path decides your life at the start: school, a faculty post, an agency, the streets or the League. Every later step adjusts to it.",
+    "subcategories": [
+      {
+        "name": "U.A. students",
+        "description": "🎓 U.A. Academy: its students and its teachers.",
+        "traits": [
+          "U.A. Hero Course (Class 1-A)",
+          "U.A. Hero Course (Class 1-B)",
+          "U.A. General Studies",
+          "U.A. Support Course",
+          "U.A. Management Course",
+          "U.A. Faculty"
+        ]
+      },
+      {
+        "name": "Working heroes",
+        "description": "🦸 Licensed pros working the streets.",
+        "traits": [
+          "Licensed Pro Hero",
+          "Licensed Sidekick"
+        ]
+      },
+      {
+        "name": "Villains",
+        "description": "🦹 The other side.",
+        "traits": [
+          "League of Villains Recruit",
+          "Independent Villain"
+        ]
+      },
+      {
+        "name": "Outside the system",
+        "description": "🌆 No license, no academy.",
+        "traits": [
+          "Vigilante",
+          "Civilian Life"
+        ]
+      }
+    ]
+  }
+}

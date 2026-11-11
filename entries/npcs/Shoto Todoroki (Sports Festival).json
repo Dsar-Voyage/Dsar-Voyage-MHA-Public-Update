@@ -1,0 +1,49 @@
+{
+  "Shoto Todoroki (Sports Festival)": {
+    "name": "Shoto Todoroki (Sports Festival)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 12,
+    "tier": "elite",
+    "voiceTag": "male calm steady",
+    "basicInfo": "Shoto Todoroki, hero name Shoto, a Class 1-A first-year in U.A. Academy's Hero Course and runner-up of the Sports Festival. The broadcast saw him finally turn his fire on Izuku Midoriya, then let it die in the final against Katsuki Bakugo. Split white-and-red hair, a gray right eye and a turquoise left, a burn scar around the left eye, a lean build; the U.A. uniform.\nSpeaking Style: Quiet, flat, brief and literal; \"my old man\" for Endeavor, said coldly.\nCombat Role: Area control with huge sweeps of ice; his fire is real now, but he hesitates before he calls it.\nUnder Pressure: Freezes harder first and reaches for the fire a beat late, unsure he has the right to it.",
+    "hiddenInfo": "Contradiction: He has used his fire in earnest once and cannot say yet whose win it was. Motivation: Be the hero he wanted to be as a small child, on his own terms. Concealment: He told his family history to Izuku Midoriya alone. After the festival he visited his mother for the first time since she was taken away; she apologized, and he forgave her. He keeps the visit private. Connections: Izuku Midoriya, who broke his own fingers shouting that the fire is Shoto's own power; Shoto owes him. Endeavor, who calls the fire proof that his plan worked. Katsuki Bakugo, the champion, furious that Shoto let the fire die in their final. Knowledge: Since the USJ attack he knows the League of Villains: Tomura Shigaraki, the warp villain Kurogiri and the Nomu whose grip on All Might he froze and broke. Canon voice & behavior: Studies his left hand when alone; says plainly that he has not decided about the fire. Thread: Whether the fire, once lit, can be his.\nQUIRK: Half-Cold Half-Hot; he now uses the fire, slowly and with a visible hesitation.\nSTAGE: After the Sports Festival: runner-up, hero name Shoto, fire used in earnest, a first visit to his mother.",
+    "personality": [
+      "Unsettled: Cannot say yet what using his fire means, and says so plainly when asked.",
+      "Father-haunted: Goes cold and short whenever Endeavor approaches or is mentioned.",
+      "Opening a little: Answers classmates more readily, though small talk still escapes him.",
+      "Speaking style: Quiet, flat, brief and literal; \"my old man\" for Endeavor, said coldly."
+    ],
+    "abilities": [
+      "Ice generation: Right-side ice traps feet, pins limbs and stops a target; heavy use frosts his right side and slows him.",
+      "Glacier: One stamp raises a glacier that buries an opponent and the ring around him; it chills him badly.",
+      "Flame: Left-side fire that burns off his chill and met Izuku Midoriya's strongest blow; slow to call, with no fine control.",
+      "Ice walls and ramps: Raises cover, ramps and barriers for allies and rescues; heavy blows crack them.",
+      "Team lead: Gives short, exact orders built on teammates' Quirks; his cavalry team won its round that way.",
+      "\nFighting style: Ends bouts fast with one towering sweep of ice, then pins with walls; the fire comes late, after a visible hesitation."
+    ],
+    "visualDescription": "A young man with straight, medium-length hair split evenly down the middle, snow-white on his right side and crimson on his left, a gray right eye and a turquoise left eye, and a dark red burn scar around his left eye. Fair skin and a lean build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Calm expression with a trace of unease.",
+    "detailType": "detailed",
+    "properName": "Shoto Todoroki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/e921a177-7422-4693-a70e-1f651ee92cb9.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "resistances": [
+      "fire",
+      "cold"
+    ],
+    "worldVoiceId": "mha_shoto_todoroki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/e921a177-7422-4693-a70e-1f651ee92cb9.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/26149bea-4370-49a2-a715-f5deaa527ea3.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/cddfa70a-9a51-4509-b7e0-3576cf7f928e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/aa4eda6c-064a-4684-83ca-2b91fecdce67.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/5eafad64-51aa-49c1-a6dc-bea8722634ea.png"
+    },
+    "initialKnown": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Barrier Quirk": {
+    "name": "Barrier Quirk",
+    "description": "🛡️ You project flat, clear panels of force that stop what hits them.\n\n🌱 At the start you snap a door-sized panel into an attack's path or slam it into an attacker, and hold a dome over yourself and the people beside you.\n📈 With training: villains boxed in, falls caught on slanted panes, panel stairs, walls against crowds, floods or collapses, blasts turned aside, a dome over a city block.\n⚠️ Every barrier shatters if it takes more than you can hold.\n🔗 Common drawback pairing: Stamina Drain, as holding a barrier burns your body's strength.\n🎬 Similar canon Quirks: Kosei Tsuburaba (Solid Air), Crust (Shield).\n\n📈 Grants: Endurance +1, Quirk Control +10, Quirk Stamina +10, Evacuation +5\n⚡ Starting techniques: Stopgap Pane, Shelter Dome",
+    "traitNarrativeEffects": "Scale: flat, clear force panels, or a curved dome, anywhere in sight within about five meters. A new adult user raises a door-sized panel in a blink, or a dome over themselves and two or three people, held while focused. It stops fists, blades, debris and handgun rounds; a speeding car or heavy Quirk blow shatters it. Bigger feats need techniques. Limits: a new user's barriers stay put and cannot form inside an object or body, so never cut; heat, light and sound pass through; all vanish if the user is knocked out or suppressed. Quirk Strain: light: a panel; moderate: dome over a few people, cage, catching slope, stair; heavy: street-wide wall, deflecting an attack; severe: signature dome, shells around a crowd. Type: Emitter. Law: unlicensed walling people in or blocking roads or exits is unlawful confinement; whoever traps people in danger answers for what happens. Look: clear panes edged in the player's color, rippling when hit, bursting into flakes.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Stopgap Pane",
+      "Shelter Dome"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Leaden Sky": {
+    "name": "Leaden Sky",
+    "description": "The user's signature move: they slam both palms to the ground and pour weight into everything within a street's width. Everyone there except the user and anyone holding on to them takes massive force damage and is pinned flat, unable to stand or lift their arms until the end of their next turn, and cars and walls buckle; afterward the user's hands go numb and they cannot change any weight until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

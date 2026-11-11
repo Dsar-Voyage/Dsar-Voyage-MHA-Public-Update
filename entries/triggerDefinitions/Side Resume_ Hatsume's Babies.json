@@ -1,0 +1,42 @@
+{
+  "Side Resume: Hatsume's Babies": {
+    "name": "Side Resume: Hatsume's Babies",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "sup_hatsume_babies",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_sup_hatsume_babies",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_sup_hatsume_babies",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "sup_hatsume_babies"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_sup_hatsume_babies",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Hatsume's Babies\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The Support Course's first full week of real workshop time at U.A."
+      }
+    ]
+  }
+}

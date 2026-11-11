@@ -1,0 +1,24 @@
+{
+  "Music Club": {
+    "name": "Music Club",
+    "description": "🎸 You played in the light music club and a garage band.\n\n🎤 You still remember every second of your school festival stage.\n🎛️ You know your way around recording gear.\n\n📈 Grants: Performance +5, Media Production +5",
+    "traitNarrativeEffects": "The character played in a band through high school: rehearsals, small gigs and recording sessions. They are comfortable on a stage, keep rhythm with a team and know their way around a mixing desk and a camera.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Performance",
+        "modifier": 5
+      },
+      {
+        "skill": "Media Production",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Growing Palm Strike": {
+    "name": "Growing Palm Strike",
+    "description": "The user enlarges one hand and drives an open palm into a target within two meters, dealing moderate bludgeoning damage and pushing them back a step. Held back, it moves the target aside without a full swing. The enlarged hand needs room to pass, and striking a hard surface can injure the fingers. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Big Fist Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

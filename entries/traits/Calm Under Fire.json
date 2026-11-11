@@ -1,0 +1,20 @@
+{
+  "Calm Under Fire": {
+    "name": "Calm Under Fire",
+    "description": "🧊 When things go wrong, you get quieter and clearer.\n\n🌱 In danger you slow down: a level voice, short sentences and eyes on what matters.\n🧠 Panic and threats have a hard time taking your focus.\n⚠️ The fear waits until the crisis is over, then returns: a sleepless night, shaking hands, a short temper or numbness.\n⚠️ Others can read your calm as coldness, especially at a hospital bed or a funeral.\n🔀 If you are also Hot-Blooded, you flare up over small things in daily life and go quiet in real danger.\n\n📈 Grants: Willpower +5",
+    "traitNarrativeEffects": "In danger the character slows down: a level voice, short sentences, eyes on what matters. Panicking civilians and nervous teammates settle around them, and threats get less grip on them. Weakness: the calm has a cost. They push fear and grief down during the crisis and it returns afterward, once everyone is safe: a sleepless night, shaking hands, a short temper or numbness. Others can read the calm as coldness, especially at a hospital bed or a funeral. If the character is also Hot-Blooded, they flare up over small things in daily life and go quiet in real danger. The narrator shows the aftershock; how the character handles it, and who gets to see it, is up to the player.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Willpower",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

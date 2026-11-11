@@ -1,0 +1,32 @@
+{
+  "Gifted: Beast Form": {
+    "name": "Gifted: Beast Form",
+    "description": "🧬 Beast Form, as an extra Quirk put into your body.\n\n🌱 At the start claws come in an instant and the full form in seconds: the size of a large bear, strong enough to push a car aside, with senses far past any person's.\n📈 With training: tracking by scent, pinning a villain under your weight, bounding up buildings with people, sheltering people under you, a freezing roar, house size.\n⚠️ Pain, fear and anger pull you toward instinct.\n🔗 Common drawback pairing: Loss of Control, as the beast pushes back under stress.\n🎬 Similar canon Quirks: Ryukyu (Dragon), Jurota Shishida (Beast).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Beast Form family): Scale: the user changes into one beast form picked at creation (bear, big cat, wolf, boar, dragon) and back. At first: claws at once, full form in seconds, about large-bear size, pushes a car aside, tracks a fresh scent across several blocks, held about ten minutes; wings only glide. More needs learned techniques. Limits: the hide turns fists and knives, not bullets. The form cannot use tools, fit through doors or say more than a few rough words; strong smells and loud noise overwhelm it. Pain, fear and rage pull the user toward instinct; clothes tear. Quirk Strain: light: claws, sharper senses; moderate: full form, tracking, a pounce, a climb; heavy: sheltering people, a roar, a long fight; severe: the rampage, the greater form. Type: Transformation. Law: the full form in public draws police at once; an unlicensed claw or bite wound counts as assault with a weapon.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Intimidation",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

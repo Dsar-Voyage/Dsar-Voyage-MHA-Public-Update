@@ -1,0 +1,20 @@
+{
+  "Numbing Grip": {
+    "name": "Numbing Grip",
+    "description": "The user grabs an opponent's arm or leg and sends a steady buzzing shake into it. The limb goes numb: a held weapon drops, and the opponent cannot use that limb until the end of their next turn, or for as long as the user keeps hold. Thick armor or hardened skin dulls the shake to a tremble, and the user's own hand is tied up while they keep the grip. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vibration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

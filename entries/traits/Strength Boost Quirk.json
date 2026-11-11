@@ -1,0 +1,45 @@
+{
+  "Strength Boost Quirk": {
+    "name": "Strength Boost Quirk",
+    "description": "💪 Your muscles swell on command for bursts of strength far past human.\n\n🌱 At the start a boost lasts about a minute: lift about a ton, punch through a cinder-block wall, throw an adult several meters, hold a fallen beam off a trapped person.\n📈 With training: steel doors torn open, crushing holds, rooftop leaps, a collapsing ceiling held up, a speeding truck stopped and, at your peak, an overpass lifted.\n⚠️ Swollen hands fumble locks, triggers and injured people.\n🔗 Common drawback pairings: Stamina Drain or Finite Fuel, as each boost burns your energy or the fuel you carry.\n🎬 Similar canon Quirks: Rikido Sato (Sugar Rush), Muscular (Muscle Augmentation).\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Stamina +10, Athletics +5, Stamina +10\n⚡ Starting techniques: Sledge Blow, Rubble Lift",
+    "traitNarrativeEffects": "Scale: muscles swell on command for strength far past human. A new adult user bulks up in about a second and, for about a minute per boost, lifts about a ton, punches through a cinder-block wall and throws an adult several meters. Bigger feats need techniques. Limits: strength, not toughness: punching steel still breaks knuckles; blades and bullets cut as deep. No added speed; swollen hands fumble locks, triggers and injured people. Range and an early grapple counter it. Quirk Strain: light: boosted blow; moderate: lift, breach, hold, leap; heavy: holding up a structure, stopping a vehicle; severe: signature blow, lifting an overpass. Type: Transformation. Law: a boosted punch can kill, so police treat an unlicensed user who bulks up in a fight as armed; every injury is judged by the force chosen. Look: the chosen build; in use, arms, shoulders and back swell, veins stand out, sleeves split.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 10
+      },
+      {
+        "skill": "Athletics",
+        "modifier": 5
+      }
+    ],
+    "resources": [
+      {
+        "resource": "stamina",
+        "modifier": 10
+      }
+    ],
+    "abilities": [
+      "Sledge Blow",
+      "Rubble Lift"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

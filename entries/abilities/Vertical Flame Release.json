@@ -1,0 +1,25 @@
+{
+  "Vertical Flame Release": {
+    "name": "Vertical Flame Release",
+    "description": "The user releases maximum flame upward around a target within reach, dealing massive fire damage through a column twenty meters high this turn. Held back, the user directs the column into empty space to deny an approach. The user checks overhead clearance first and cannot emit more flame until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Hellflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

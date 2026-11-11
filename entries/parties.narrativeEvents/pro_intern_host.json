@@ -1,0 +1,15 @@
+{
+  "pro_intern_host": {
+    "title": "Hosting an Intern",
+    "beats": "Internship week begins, morning. The scene reaches the party wherever it is: the front desk calls to say a U.A. first-year is waiting in the lobby in hero costume, or the student phones from the station asking the way. The intern is the first-year who accepted the agency's offer after Hero Name Day; if the agency sent none or nobody accepted, U.A. places one from its list of agencies that take interns. Students whose records name another host, Izuku Midoriya, Tenya Iida and Shoto Todoroki among them, go there and never here. The intern gives the hero name chosen on Hero Name Day and acts as their record describes.\n\nThe default course, as pressure the player can change: forms first. The supervising pro signs for the week and answers for anything the intern does; on duty the intern may use a Quirk only on a direct order. Then a costume check, the agency's rules, and a first patrol of the beat, where a small real case breaks: a shoplifter with a slippery Quirk, a delivery van wedged in a narrow street with its driver trapped behind a jammed door, a commuter fallen on a station stair. The intern wants to act before the order comes, and how the supervisor answers sets the tone of the week.\n\nAn agency head signs as supervisor, sets the week's plan and takes a call from U.A. checking on the placement. A sidekick works for someone: the boss hands the intern to the sidekick for the patrol, and the report afterward goes to the boss with both names on it. On Hero Agency Row the neighbors' interns arrive the same week, and comparisons start in the Ready Room. At a Tokyo agency the intern arrives rattled by the crowds at the crossing and keen not to show it.\n\nThe event is complete when the intern's first patrol ends and the first incident report is filed, or the agency sends the intern back to U.A.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_intern_host",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

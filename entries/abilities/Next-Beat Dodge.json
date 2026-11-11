@@ -1,0 +1,20 @@
+{
+  "Next-Beat Dodge": {
+    "name": "Next-Beat Dodge",
+    "description": "The user sees the next attack aimed at them about three seconds before it comes and is already moving. Until the end of the user's next turn, the first melee or thrown attack against the user from someone in their sight misses completely. An attack from behind, out of sight or through a wall still lands, and a brawl of many attackers gives the user only a blur. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

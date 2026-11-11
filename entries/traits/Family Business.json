@@ -1,0 +1,29 @@
+{
+  "Family Business": {
+    "name": "Family Business",
+    "description": "🏮 Your family runs a small business: a shop, a restaurant or a workshop.\n\n🧾 You grew up behind the counter, serving customers and bargaining with suppliers.\n🛠️ You learned the work with your hands.\n\n📈 Grants: Technique +1, Hospitality +5, Negotiation +5",
+    "traitNarrativeEffects": "Family runs a small business; player picks the kind (shop, restaurant or workshop) and place, default a small restaurant in an older Musutafu shopping arcade. Both are original characters. In play: a place to return to, work a shift, hear local news, bring classmates; regulars are ordinary people, sometimes a local pro or police officer. Risks: rent, chain stores, slow seasons, villain fights wrecking the street, who pays hero property damage, thugs selling protection. Pressure: help expected when short-staffed; the family may hope they take over. Shifts earn meals and goodwill, not wages; money is tight. A business crisis is a story opportunity the narrator may raise, with time to act. Paths: a hero who saves the street earns loyal neighbors; a villain or vigilante brings risk to the family's door. Childhood: after-school and weekend shifts, difficult customers, supplier bargaining, late closing; hands trained by knife work, repairs, wrapping, stocking.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Hospitality",
+        "modifier": 5
+      },
+      {
+        "skill": "Negotiation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

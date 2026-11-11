@@ -1,0 +1,20 @@
+{
+  "Bank Shot": {
+    "name": "Bank Shot",
+    "description": "The user angles a shot or a thrown blade off a wall, pillar or car body to strike a target behind cover. The target gets no protection from their cover and takes piercing damage (bludgeoning damage from rubber rounds), and because they cannot tell where the shot came from, they cannot target the user on their next action. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Marksman",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Marksmanship",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

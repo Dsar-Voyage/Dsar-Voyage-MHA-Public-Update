@@ -1,0 +1,20 @@
+{
+  "Backward Lift": {
+    "name": "Backward Lift",
+    "description": "The user aims the beam down and behind them for a brief push, clearing a gap of several strides or rising to a nearby ledge. They can reach someone stranded above street level but cannot carry another adult during the lift. The beam scorches the surface below, and sustained thrust brings abdominal pain before the user can hover. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Navel Laser Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

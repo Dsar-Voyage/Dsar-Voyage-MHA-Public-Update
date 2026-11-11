@@ -1,0 +1,20 @@
+{
+  "Slickskin Slip": {
+    "name": "Slickskin Slip",
+    "description": "The user's skin flushes with a thick, slick coat. They slide out of any grab, hold, handcuffs, rope or capture tape at once, and until the end of their next turn nobody can get a grip on them; on wet or smooth ground they can slide on their belly at a sprinter's speed. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Aquatic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

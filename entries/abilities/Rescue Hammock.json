@@ -1,0 +1,20 @@
+{
+  "Rescue Hammock": {
+    "name": "Rescue Hammock",
+    "description": "The user stretches a wide elastic canopy across a street, a stairwell or the open air beneath a balcony. For the rest of the scene, every person and object that falls into it is caught unhurt and lowered to the ground, so people trapped on an upper floor can jump to safety. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Elasticity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

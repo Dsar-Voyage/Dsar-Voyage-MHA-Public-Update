@@ -1,0 +1,29 @@
+{
+  "Locked Penumbra": {
+    "name": "Locked Penumbra",
+    "description": "The user hangs a bead of light over up to five targets in sight for the rest of the scene, casting a sharp shadow beneath each one that follows them even under floodlights or in midair. Once per turn the user can strobe any bead to disorient its target and snap the cast shadow upward for heavy light and piercing damage while pinning them in place; held back, it only dazzles and binds them without injury, or steps the user or an ally between two linked shadows. Each use burns stamina and consumes part of the user's own shadow until none remains. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Eclipse Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

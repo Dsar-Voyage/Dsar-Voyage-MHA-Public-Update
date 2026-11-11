@@ -1,0 +1,28 @@
+{
+  "Sea off Oki Dozen": {
+    "name": "Sea off Oki Dozen",
+    "basicInfo": "Open Sea of Japan north of the Dozen islands of Oki, deep blue water that falls away from the island shelf past a hundred meters toward the deeper basin to the north. The warm Tsushima Current flows northeast through here and keeps the water clear and mild. In summer the sea is calm and glassy; in winter the northwest monsoon piles up gray swells and snow squalls that stop the island ferries for days. On clear days the cliffs of Nishinoshima's Kuniga coast and the hills of Nakanoshima stand low on the southern horizon, with Dogo's ridges farther to the southeast. These are squid grounds: on summer nights lamp boats out of Urago and Beppu hang strings of bright lights over the water, visible from the island clifftops, and longliners and small trawlers chase yellowtail, mackerel and flying fish. There are no islands inside the cell and no ferry route crosses it, only fishing boats and the occasional coastal freighter. The Japan Coast Guard patrols from its Oki station at Saigo and its Sakaiminato office, and the licensed hero who covers the Dozen islands can be raised by radio. A party could be out here aboard a chartered fishing boat from Nishinoshima, crewing a squid boat for a night, or riding with a flying or swimming hero.",
+    "hiddenInfo": "The fishing grounds are quietly contested: boats from outside the area sometimes slip in to fish, and the island fleets resent it. Help is far, an hour or more by patrol boat from Saigo and longer from Sakaiminato, and in winter storms rescue may simply wait until the weather breaks. Small villainy out here is illegal fishing, dumped gear and the odd stolen boat.",
+    "realm": "Japan",
+    "factions": [],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 25
+    },
+    "x": -11,
+    "y": 3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/37f8eec6-a5fe-4804-9f75-c814a91f85d7.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

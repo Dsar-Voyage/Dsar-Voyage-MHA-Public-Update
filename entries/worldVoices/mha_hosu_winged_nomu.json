@@ -1,0 +1,24 @@
+{
+  "mha_hosu_winged_nomu": {
+    "label": "Hosu Winged Nomu",
+    "voiceTag": "male monster growly",
+    "instructions": "No words at all: a high, piercing, rasping screech, clicking hisses and harsh breathing through a mask-like mouth plate. Short shrieks when diving, ragged panting when grounded. Inhuman and animal, never speech.",
+    "speed": 1,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      },
+      "reverb": {
+        "enabled": true,
+        "space": "hall",
+        "mix": 0.15
+      },
+      "distortion": {
+        "enabled": true,
+        "drive": 0.1
+      }
+    }
+  }
+}

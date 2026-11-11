@@ -1,0 +1,30 @@
+{
+  "Iida": {
+    "name": "Iida",
+    "basicInfo": "Iida is the cell of the southern Ina valley in southern Nagano, where the Tenryu River runs south between two walls of mountains: the tail of the Central Alps and the Kiso hills on the west, and the high Southern Alps on the east, where Mount Akaishi, Mount Hijiri and Mount Arakawa top 3,000 meters along the Shizuoka border. Iida city sits on river terraces in the northwest; south of it the Tenryu enters long gorges past Tenryukyo and the hamlets of Tenryu village before the valley narrows toward the dam country of the Aichi-Shizuoka border. The east is roadless high forest: the Toyama valley at the foot of the Alps, the Shimoguri hamlet perched on steep slopes, the Shirabiso highland with its views of the range, and the upper Oi River country on the Shizuoka side. The air is clear and dry, summers warm, winters cold with little snow in the valley floor; Achi village to the southwest is known for some of the darkest night skies in Japan. Iida is a small city of apple-tree avenues, a castle-town grid rebuilt after a great fire, and crafts: it makes most of Japan's mizuhiki paper cord for gift wrapping, holds a summer puppet theater festival, and keeps more barbecue restaurants per head than almost anywhere. The countryside grows apples, pears and ichida persimmons that hang drying from farmhouse eaves in autumn. In December the Toyama valley's Shimotsuki festival boils water in iron cauldrons all night while masked gods dance through the steam. The JR Iida Line winds through the valley from Toyohashi to Okaya, slow and full of remote stations; the Chuo Expressway reaches Iida from Nagoya, expressway buses run to Nagoya in about two hours and Tokyo in about four, and a new maglev station is being built near the city. Musutafu is about four hours away by shinkansen to Toyohashi and the Iida Line, or by road via Nagoya. Visitors ride boats down the Tenryu gorge, stargaze at Achi, soak at the Hirugami hot springs and climb the Southern Alps. Iida has a police station and a couple of small hero offices that cover enormous districts; heroes with flight or speed Quirks are prized here, and orchard growers with plant Quirks work under permits.",
+    "hiddenInfo": "Iida's undercurrent is distance: the eastern and southern valleys are among the emptiest in Honshu, landslides close roads, and elders live alone far from clinics. Crime is quiet, mostly theft from vacant houses, phone frauds and the occasional fugitive who thinks the valley a good place to vanish. Climbers in the Southern Alps need rescue every season. Hero help from Iida takes an hour or more to reach the far hamlets; larger response comes from Nagoya or Matsumoto.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -2,
+    "y": 0,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b2882081-2915-491b-a984-9a490776f25d.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

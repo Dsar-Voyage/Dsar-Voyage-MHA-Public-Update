@@ -1,0 +1,20 @@
+{
+  "Broker's Number": {
+    "name": "Broker's Number",
+    "description": "The user calls a broker or fixer who knows their name and what they can do. Before the next day ends, the broker comes through with one thing: a paying job that fits the user's skills, a safe room for the night, or the name of whoever has been asking about the user. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Independent Villain",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Streetwise",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

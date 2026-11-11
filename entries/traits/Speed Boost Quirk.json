@@ -1,0 +1,45 @@
+{
+  "Speed Boost Quirk": {
+    "name": "Speed Boost Quirk",
+    "description": "💨 You speed up your own body: legs, arms and reflexes.\n\n🌱 At the start you match city traffic for a few seconds per burst, throw several punches in the time of one and react to a thrown punch before it lands.\n📈 With training: weapons snatched in passing, people carried from harm, wall and water runs, a smoky stairwell cleared, a group struck at once, a falling building emptied.\n⚠️ Stopping takes about ten meters.\n🔗 Common drawback pairing: Overheating, as friction and effort build heat in your body.\n🎬 Similar canon Quirks: Kendo Rappa (Strongarm) for rapid fists; hyper-speed Quirks also turn up among working pros.\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Output +10, Running +5, Stamina +10\n⚡ Starting techniques: Snap Sprint, Drumroll Barrage",
+    "traitNarrativeEffects": "Scale: the user speeds up their own legs, arms, nerves and reflexes. At first: about sixty kilometers an hour for a few seconds per burst, several punches in the time of one, reacting to a thrown punch. More, and clean stops, need learned techniques. Limits: at full speed braking takes about ten meters and a sharp turn throws them off their feet. Senses lag behind legs, so crowds, stairs, wet floors and darkness cause crashes. Speed adds no weight to a blow except at a run, cannot outrun bullets and gives no flight; friction burns through ordinary soles. Quirk Strain: light: dash, burst of punches; moderate: snatch, rescue carry, wall or water run; heavy: clearing smoke, striking a group; severe: signature strike, emptying a building. Type: Transformation. Law: unlicensed racing through crowds or traffic is reckless endangerment; an injuring high-speed collision is charged as assault. Look: a blur; dust and paper whip up behind; hard starts crack the air.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Running",
+        "modifier": 5
+      }
+    ],
+    "resources": [
+      {
+        "resource": "stamina",
+        "modifier": 10
+      }
+    ],
+    "abilities": [
+      "Snap Sprint",
+      "Drumroll Barrage"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

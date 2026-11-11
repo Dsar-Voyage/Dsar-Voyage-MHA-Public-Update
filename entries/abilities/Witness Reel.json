@@ -1,0 +1,20 @@
+{
+  "Witness Reel": {
+    "name": "Witness Reel",
+    "description": "The user projects up to ten minutes of what they saw, life-size and in full color, a few strides away. Police see the suspect's face, the license plate and the route taken; before a breach, teammates see the room the user glimpsed, with every guard and hostage in place. The reel shows only what the user's own eyes saw, from their angle, and carries no sound, so anything said must be told. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

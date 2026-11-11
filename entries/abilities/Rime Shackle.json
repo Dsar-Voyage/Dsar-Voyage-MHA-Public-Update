@@ -1,0 +1,20 @@
+{
+  "Rime Shackle": {
+    "name": "Rime Shackle",
+    "description": "The user grips a target or sends frost along the ground to them and locks whichever limbs the user chooses in thick ice. The target cannot move those limbs until they break free with a hard effort, the ice is melted or the user lets it go, and the skin under the ice takes no harm. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ice Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

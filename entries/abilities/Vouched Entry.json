@@ -1,0 +1,15 @@
+{
+  "Vouched Entry": {
+    "name": "Vouched Entry",
+    "description": "The user calls in favors and gets vouched for to reach people who never talk to strangers: a forger, a fixer, a dealer in illegal support gear. The user gets a meeting with an underworld broker who can supply a specific illegal item, service or piece of information, and the broker does not suspect the user is police or a hero unless the user gives it away. Cost: none.",
+    "requirements": [
+      {
+        "type": "skill",
+        "variable": "Streetwise",
+        "amount": 28
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 2
+  }
+}

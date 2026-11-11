@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: mirio_final_war": {
+    "name": "Portrait Swap: mirio_final_war",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_final_war_workshop",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Mirio Togata",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/2a6831f6-b010-46bd-b36d-f138c2ac2819.png"
+      }
+    ]
+  }
+}

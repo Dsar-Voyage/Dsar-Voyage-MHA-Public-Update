@@ -1,0 +1,15 @@
+{
+  "tenko_and_the_stolen_life": {
+    "title": "The Child Inside",
+    "beats": "Immediately after the transfer assault on day 405, Izuku Midoriya reaches the memories behind Tomura Shigaraki's hatred. Their bodies remain at Mount Fuji Battlefield while the encounter unfolds inwardly. Begin from the powers actually transferred and the contact actually achieved. A player outside that contact sees a vulnerable combatant and a changing enemy, not a shared view of the memories.\n\nThe canon default course, as pressure the player can change: Izuku witnesses Tenko's family tragedy and reaches toward the child nobody helped. Present those memories through abandonment, grief, and the attempt to offer a hand rather than graphic spectacle. Nana and the remaining vestiges participate only within their established spiritual connection. All For One's manipulation becomes clear to the participants: he shaped Tenko's life, removed his original Quirk, and arranged the destructive ability that became Decay. As Tenko's inner defenses change, All For One's remaining presence reasserts control of Shigaraki's body.\n\nIzuku returns to physical awareness without both arms in the default course. His full inherited power has been sacrificed, leaving residual embers rather than a complete set of usable Quirks. Keep an opportunity for a credible intervention to alter the contact, injury, or takeover; do not restore the default by silently undoing it. The armless Izuku needs immediate shielding and stabilization. The enemy's changed control must be established through behavior and what participants can communicate, not a universal announcement of private history.\n\nBy place: Mount Fuji Battlefield stages the physical emergency and any legitimately shared inward contact. Musutafu General Hospital prepares catastrophic-injury care. U.A. Academy, Okuto Island, Kamino Ward, Gunga Mountain Villa, Jaku City, and Takoba Municipal Stadium receive requests for reinforcement or medical support through surviving communications. A remote player can secure a route, prepare stabilization, or challenge a false victory report without gaining access to Tenko's memories.\n\nBy Path: Class 1-A and Class 1-B shield Izuku if physically present; General Studies routes aid; Support prepares stabilization equipment. Management prevents false victory claims and Faculty coordinates rescue. Licensed Sidekick protects casualties; Licensed Pro Hero delays the controlled body. League of Villains Recruit chooses between Tomura and All For One; Independent Villain exploits or opposes the takeover. Vigilante seeks extraction access; Civilian Life assists evacuation and emergency reception.\n\nThe event is complete when Izuku's actual injuries and remaining power, the enemy body's controlling identity, and the knowledge limited to the inward encounter are explicit.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_tenko_and_the_stolen_life",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

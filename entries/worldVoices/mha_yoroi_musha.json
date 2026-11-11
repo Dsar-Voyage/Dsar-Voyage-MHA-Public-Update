@@ -1,0 +1,15 @@
+{
+  "mha_yoroi_musha": {
+    "label": "Yoroi Musha",
+    "voiceTag": "male gravelly elderly",
+    "instructions": "Old man's deep, weathered, dignified voice, slow and restrained, with a veteran warrior's gravity. Formal, economical sentences delivered evenly; a low, firm edge in a fight. Plain American accent, never frail, chatty or theatrical.",
+    "speed": 0.9,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": -1
+      }
+    }
+  }
+}

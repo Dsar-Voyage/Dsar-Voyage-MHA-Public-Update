@@ -1,0 +1,145 @@
+{
+  "Fukuoka Downtown": {
+    "name": "Fukuoka Downtown",
+    "basicInfo": "Downtown Fukuoka is the center of Kyushu's largest city, a port spread along a wide bay: the Tenjin shopping district of department stores and an underground mall, the Nakasu riverside with its evening food stalls and bars, and high-rises along the harbor. It is Hawks' city. Number Three on the chart at the start of the year, he patrols it from the air and is often over a crime before anyone has reported it, so street crime is low, and the local agencies and police handle what he leaves: traffic accidents, lost tourists, drunk fights at closing time. Ms. Joke, the Smile Hero, who also teaches the hero course at Ketsubutsu Academy, is a familiar face in Tenjin, and her student Yo Shindo, quick with a handshake, is often with her. Days are for offices, shoppers and students; the food stalls open at dusk and run past midnight; the port works around the clock. Every street is public and open at all hours; the department stores close at eight, the underground mall's shutters come down with them, and the harbor towers' roofs are reached only through staff access doors. A player can shop, find work in restaurants or at the port, take patrol shifts with a local agency, or hope to catch sight of Hawks. Hakata Station, about 4 km east, has the shinkansen east to Osaka (about 2.5 hours) and Tokyo (about 5 hours); the Hawks Hero Agency is about 4 km northeast. Locals are proud, friendly and loud about their ramen, and they will tell a stranger which stall is best before being asked. The feeling is easy and warm: a big city with a hometown's manners, sure that someone fast is watching over it.",
+    "hiddenInfo": "Hawks' speed has a cost nobody mentions on camera. Fukuoka's smaller agencies resent that Hawks takes every visible case; their rankings and income are falling, and a few of their sidekicks sell reporters tips about where he will appear next. In the port, unregistered support gear comes in hidden among legal cargo, and there are rumors that Trigger has started arriving from Osaka. Right now the container yard on the east side of the harbor has a forwarding company that declares machine parts and ships out boxes of gauntlets, grapple guns and Quirk-dampening collars to buyers who pay through a broker in a Nakasu bar; a night-shift crane operator has seen the crates opened and is deciding whether to tell anyone. On weekend nights, street racers with speed Quirks run the harbor expressway after midnight and bet on whether Hawks will come for them; so far he has not bothered, and the bets are getting bigger and the racers bolder. Last weekend one of them clipped a taxi. The food-stall owners' association looks after its own members and has its own ways of dealing with troublemakers: a stall owner who brings in a dealer loses his pitch, and an outsider who causes trouble finds every stall full. Ms. Joke has noticed how little the local pros get to do and teases them about it, and she would happily lend her students to a smaller agency that wanted a real case. The city police are comfortable and slow, used to Hawks finishing their work before the paperwork starts.",
+    "x": 12.86,
+    "y": 3.19,
+    "radius": 1.5,
+    "region": "Kyushu",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Nakasu Riverside": {
+        "description": "The riverbank facing the Nakasu entertainment island, where dozens of yatai food stalls set up every evening: wooden carts with plastic curtains and a handful of stools, serving pork-bone ramen, yakitori, oden and beer. The stall owners tow their carts in at dusk, light the lanterns and set out their stools in the same spots every night, and each stall has its regulars and its argument about whose broth is best. Office workers and tourists queue from dusk; after the clubs close, hosts, hostesses and taxi drivers eat here before going home, and the stalls vanish before dawn, leaving the bank swept. Across the water, Nakasu's bars and clubs glow until the small hours. Broth steam hangs over the water, neon reflects off the river, and the rule is to eat, drink and give up your stool when someone is waiting. Strangers end up talking shoulder to shoulder, and a stall owner hears more gossip in a night than a detective does in a week. The riverside walk leads up to the Tenjin Shopping District.",
+        "paths": [
+          "Tenjin Shopping District",
+          "Riverside Yatai Stalls"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a1bfb12-f455-4906-9e62-d40d74460c74.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Tenjin Shopping District": {
+        "description": "Fukuoka's main shopping center: department stores, fashion buildings, a bus terminal and an underground mall of hundreds of small shops running beneath the main avenue. Students and shoppers fill it from mid-morning; when the stores close at eight, the crowds move to the bars and the underground mall's shutters come down. Hero merch shops sell Hawks goods faster than any other hero's: feather keychains, wing hoodies, and posters of him eating fried chicken. A giant screen at the main crossing plays hero news, and people stop to watch whenever a Hawks clip comes on. Ms. Joke turns up here with Yo Shindo and other Ketsubutsu students, cracking jokes at the crossing and drawing a crowd of her own. Local agency patrols walk the avenue at set hours. Below ground the lighting is dim and the floors are patterned stone, cooler and quieter than the street, and the underground mall smells of coffee and pastry. The avenue leads down to the Nakasu Riverside, and service stairs in the harbor towers climb to the Harbor Rooftops.",
+        "paths": [
+          "Nakasu Riverside",
+          "Harbor Rooftops",
+          "Riverside Yatai Stalls",
+          "Tenjin Underground Mall",
+          "Daimyo Cafe Street"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/29a22b67-d641-4191-a4eb-8fbffab0b12d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Harbor Rooftops": {
+        "description": "The flat roofs of the office towers and hotels along the harbor: water tanks, antenna masts, helipads and the bay spread out below, with container cranes to one side and the ferry piers to the other. Hawks perches up here between calls, where he can see most of downtown; window cleaners, maintenance crews and the odd photographer hunting for him come through the access doors, which are locked to the public and opened with a staff key or a building pass. In the mornings the window-cleaning gondolas hang off the edges; at night red warning lights blink on every mast and the city is a carpet of lights. Heroes with flight or climbing Quirks cross from roof to roof here. The wind off the bay never stops, anything dropped goes over the edge, and a red feather caught on a railing means Hawks was here. The only way down is back through the towers to the Tenjin Shopping District.",
+        "paths": [
+          "Tenjin Shopping District"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/94499d1e-485d-4150-aacd-22bb6b3cd584.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Riverside Yatai Stalls": {
+        "description": "Upstream of the main Nakasu row, a quieter line of yatai stands under the willows on the Tenjin bank, a dozen carts along the river wall: each a wooden counter behind a plastic curtain, a gas burner, a pot of cloudy pork-bone broth and eight stools that fill knee to knee. The menus here run past ramen: grilled mentaiko, skillet gyoza, oden and tempura, and one stall is run by a four-armed heteromorph cook who works two grills at once. Ramen is 700 yen, skewers 150 to 300, a beer 600, cash only. Owners light up at six and close past two, and the local rule is one drink, one dish, then give up the stool so the queue can sit. Office workers and couples come early, and Ketsubutsu students share bowls at the end of a patrol. The owners keep a quiet eye on who brings trouble: a stranger who makes a scene finds every stool along the river suddenly taken. Lanterns glow through the curtains, broth steam drifts over the water, the river reflects Nakasu's neon, and everyone looks up when a shadow with red wings crosses the sky. The walk downstream leads to Nakasu Riverside, and a stair by the bridge climbs to the Tenjin Shopping District.",
+        "paths": [
+          "Nakasu Riverside",
+          "Tenjin Shopping District"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c6759641-d6b7-43bc-8dbc-6bc87ade0c8d.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Tenjin Underground Mall": {
+        "description": "Beneath the main avenue, the underground mall runs about six hundred meters north to south in two parallel corridors: patterned stone floors, dark painted cast-iron arches, low warm lamps and hundreds of small shops on both sides selling clothes, cosmetics, sweets and coffee. The lighting is kept dim on purpose, so the corridors feel like an old European street at dusk. Commuters cut through from the subway in the morning; shoppers and students fill it from mid-morning until eight, when the shutters come down with the department stores. Hero goods kiosks sell Hawks feather keychains by the bucket, and a bakery near the middle makes a wing-shaped pastry that is gone by noon. Ramps and elevators serve wheelchairs and big-bodied heteromorphs, and a security guard with a tracking Quirk reunites lost toddlers with their parents faster than the announcements can. Signs at every entrance ban Quirk use and skateboards in the same breath. The air smells of coffee, perfume and fresh pastry, footsteps echo softly on the stone, and a recorded chime marks every half hour. Stairs along its length climb back up to the Tenjin Shopping District.",
+        "paths": [
+          "Tenjin Shopping District"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/84a9f682-db52-409e-a676-178953eb0236.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Daimyo Cafe Street": {
+        "description": "A grid of narrow streets just west of Tenjin's department stores, lined with old wooden houses and low concrete buildings turned into cafes, vintage clothing shops, record stores and tiny galleries. The cafes come in every style: a roastery with a long bar and burlap sacks stacked by the door, a pancake shop with a line down the block on Saturdays, and a quiet second-floor shop where students study for hours over one 550-yen latte. Mornings are slow and smell of roasting beans; lunch fills with office workers; afternoons and weekends bring students, couples and hero fans hunting photo spots. Baristas compete on latte art, and the most requested design is a pair of red wings. Many cafes keep a counter and chairs built higher, lower or wider for heteromorph customers, and some post a sign asking that no Quirks be used on the coffee. Patrols rarely come here, but people still glance up whenever a shadow crosses the rooftops, hoping it is Hawks. Ketsubutsu students hang out here after class. In the evening the cafes turn into wine bars under string lights. The streets lead east back to the Tenjin Shopping District.",
+        "paths": [
+          "Tenjin Shopping District"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/4faef35c-d359-4c05-bf50-7c8212938a4a.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Hawks Hero Agency"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/0300f75c-719d-4514-aff9-60e3336c3253.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

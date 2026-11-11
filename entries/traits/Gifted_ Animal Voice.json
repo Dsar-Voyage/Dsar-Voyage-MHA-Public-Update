@@ -1,0 +1,32 @@
+{
+  "Gifted: Animal Voice": {
+    "name": "Gifted: Animal Voice",
+    "description": "🧬 Animal Voice, as an extra Quirk put into your body.\n\n🌱 At the start any animal within shouting distance grasps simple requests and answers in its own terms. Ask an animal a favor, or ask strays what they saw.\n📈 With training you calm a dog mid-attack, send crows to scout, follow alley cats along hidden routes, find trapped survivors and call a district's animals to you.\n⚠️ Animals are not soldiers: they refuse real danger and never fight to the death for you.\n🔗 Common drawback pairing: Sensory Overload, as animal voices crowd your hearing.\n🎬 Similar canon Quirks: Koji Koda (Anivoice).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Animal Voice family): Scale: the user speaks so animals understand and hears what they mean. A new adult user reaches any animal within about fifty meters, talks to a few at once and makes simple requests (come, follow, look, fetch, warn me). Answers come in smells, sizes, colors, noise and fear, never names or written words. Bigger feats need techniques. Limits: it asks, not commands. Animals refuse fire, gunfire and fights, flee when hurt, forget long tasks; police dogs obey handlers first; insects grasp only gather and scatter. Never on people: animal-featured heteromorphs hear plain speech; treating them as animals insults them. Quirk Strain: light: talk, asking what they saw; moderate: calming, sending scouts, an alley guide; heavy: rubble search, setting a flock on people; severe: signature call, district-wide watch. Type: Emitter. Law: a crime done through an animal is the user's; sending animals into harm brings animal-welfare charges.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Animal Handling",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

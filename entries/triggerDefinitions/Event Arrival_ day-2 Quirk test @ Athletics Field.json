@@ -1,0 +1,39 @@
+{
+  "Event Arrival: day-2 Quirk test @ Athletics Field": {
+    "name": "Event Arrival: day-2 Quirk test @ Athletics Field",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "lessThan",
+        "value": 2
+      },
+      {
+        "type": "read-boolean",
+        "key": "fdField1A",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Athletics Field"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "currentBandIndex",
+        "operator": "set",
+        "value": 2
+      }
+    ]
+  }
+}

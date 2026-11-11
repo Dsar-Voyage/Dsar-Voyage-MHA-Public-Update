@@ -1,0 +1,20 @@
+{
+  "Scarlet Quills": {
+    "name": "Scarlet Quills",
+    "description": "The user flicks blood from a nicked fingertip and hardens the drops in flight into thin needles aimed at a target within a few strides. They deal piercing damage; held back, they only pin the target's sleeve, hem or bag strap to the wall or floor, and the target must tear free before moving away. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

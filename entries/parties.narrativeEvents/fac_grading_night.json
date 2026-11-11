@@ -1,0 +1,15 @@
+{
+  "fac_grading_night": {
+    "title": "Grading Night",
+    "beats": "Night in the Teachers' Lounge at U.A. Academy, in the days after the final exams. Score sheets, monitor footage and cold coffee cover every table, beside a tray from Lunch Rush that nobody has touched. The faculty grades the practical pair by pair before results go out.\n\nBy canon default, unless the exams went otherwise: Eijiro Kirishima and Rikido Sato failed against Cementoss, who says calmly that they never once tried to go around his walls; Denki Kaminari and Mina Ashido failed against Principal Nezu, who is still pleased with how Training Ground Gamma came down; Hanta Sero slept through Midnight's aroma while Minoru Mineta passed. Vlad King reports that Class 1-B passed except for Neito Monoma, and takes it personally. The loudest argument is All Might's match against Izuku Midoriya and Katsuki Bakugo: Recovery Girl wants to know why one student came through the gate unconscious, Snipe and Ectoplasm call it the closest thing to a real fight in the whole exam, and All Might, rubbing his neck, insists the two earned the pass together.\n\nThen Aizawa says what he planned all along: everyone goes to the summer camp, failures included, with extra lessons at night. He calls the threat of staying behind a logical ruse. Vlad King objects that it rewards failure; Present Mic laughs until he coughs; Cementoss asks only that the extra lessons be real; Thirteen and Power Loader want their own pairs' marks read into the record first.\n\nThe default course, as pressure the player can change: the grades are argued and signed tonight. A faculty party graded a pair of its own and must defend the mark, can push a borderline pass or fail, and can side with Aizawa's ruse or against it. Nezu has the last word and the last cup of tea.\n\nThe event is complete when every practical grade is signed and the camp roster is set, or the party leaves the lounge.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_fac_grading_night",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

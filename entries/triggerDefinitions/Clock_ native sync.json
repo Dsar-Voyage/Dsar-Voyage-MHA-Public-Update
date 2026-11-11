@@ -1,0 +1,15 @@
+{
+  "Clock: native sync": {
+    "name": "Clock: native sync",
+    "recurring": true,
+    "effects": [],
+    "script": "const TOD=[\"morning\", \"morning\", \"morning\", \"noon\", \"afternoon\", \"afternoon\", \"evening\", \"evening\", \"night\", \"midnight\"];const d=check({type:'read-number',key:'currentDay'})||1;const b=Math.max(0,Math.min(9,check({type:'read-number',key:'currentBandIndex'})||0));effects.push({type:'day',operator:'set',value:d},{type:'time-of-day',operator:'set',value:TOD[b]});storage.nsK=d+'|'+b;",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": ".*"
+      }
+    ]
+  }
+}

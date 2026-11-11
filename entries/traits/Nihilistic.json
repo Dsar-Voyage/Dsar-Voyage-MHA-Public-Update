@@ -1,0 +1,20 @@
+{
+  "Nihilistic": {
+    "name": "Nihilistic",
+    "description": "🕳️ Nothing means anything, so nothing holds you back.\n\n🧷 Fear, rules and rankings do not move you; you are hard to threaten and hard to bribe.\n⚠️ You struggle to care, even when it matters, and people who need you feel it.\n⚠️ Without something to want, you drift.\n🔀 If you are also Cheerful, you laugh because nothing matters.\n\n📈 Grants: Streetwise +5",
+    "traitNarrativeEffects": "The character is nihilistic: they believe nothing ultimately matters, so fear, rules, rankings and bribes have little hold on them and they know the street from the bottom. Weakness: they struggle to care even when it matters, the people who need them feel it, and without something to want they drift. If the character is also Cheerful, they laugh because nothing matters. The narrator offers things worth caring about; whether anything matters to the character is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

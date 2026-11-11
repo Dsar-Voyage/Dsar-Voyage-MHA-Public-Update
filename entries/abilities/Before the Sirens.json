@@ -1,0 +1,20 @@
+{
+  "Before the Sirens": {
+    "name": "Before the Sirens",
+    "description": "The user cuts across rooftops, walls and alleys toward trouble they can hear or see in their own neighborhood. They reach the scene ahead of police and heroes, with time for one action before anyone official arrives. Stamina: demanding.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vigilante",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Parkour",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

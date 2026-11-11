@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Recruitment Drive": {
+    "name": "__generated_quest_progress__/Recruitment Drive",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has met the League's new candidates, judged what each one wants, and given Kurogiri or Tomura Shigaraki a recommendation, honest or not."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Recruitment Drive"
+      }
+    ]
+  }
+}

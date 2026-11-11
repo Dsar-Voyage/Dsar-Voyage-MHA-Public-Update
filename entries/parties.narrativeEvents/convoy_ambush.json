@@ -1,0 +1,15 @@
+{
+  "convoy_ambush": {
+    "title": "The Convoy Ambush",
+    "beats": "Day 205, early evening after the Hassaikai raid. At Shie Hassaikai Compound, police prepare Overhaul and the seized evidence for guarded transport.The canon default course, as pressure the player can change: Tomura Shigaraki and Mr. Compress strike the convoy with Dabi. Snatch shields officers and challenges the attackers. Dabi's flames and Compress's attempt to confine him place him in mortal danger; by default he is killed unless a party's protection, extraction or treatment saves him. Keep a rescue opening before his death is established. Mr. Compress seizes the remaining Quirk-destroying bullets and their serum.Do not treat either captive as dead. Emergency care and guarded hospital wards follow the mutilations, and a party can prevent or limit them by defending the prisoners or stopping the attackers.\n\nOverhaul must actually have been captured in the raid for his transfer to occur. Respect a changed raid result: if he escaped or the ammunition was secured elsewhere, the League must pursue a real surviving target or abandon the attack. Evidence stolen here is no longer available to police in the next scene. The ambush seeks revenge and valuable material, not a replay of the compound battle, and it does not settle Sir Nighteye's medical outcome.\n\nBy Path and place: a pro or sidekick party at Shie Hassaikai Compound can escort, guard evidence or remain with casualties; licensed work-study students act under orders and may be kept away from transport. Other students and civilians encounter a cordon, traffic disruption or later reports. In Yokohama Harbor District, a League recruit can join a credible rendezvous at Container Docks or receive the returning attackers in Dockside Safehouse. Independent Villains and vigilantes can intervene through an actual sighting, not an unexplained tip about the route. Give defenders choices between escort protection, Snatch's rescue, pursuit and evidence recovery. Criminal plans and the bullets' capabilities remain restricted to witnesses.\n\nThe event is complete when the convoy attack or its prevented alternative has ended, surviving casualties are in care, and custody of the prisoners, bullets and serum is established.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_convoy_ambush",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Event Lazy: materialize": {
+    "name": "Event Lazy: materialize",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "read-string",
+        "key": "ev_lazy_event",
+        "operator": "notEquals",
+        "value": ""
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "phase": "state",
+    "script": "(function(){const tk=check({type:'game-tick'})||0;if(check({type:'read-number',key:'ev_lazy_tick'})===tk){skip=true;return;}const C=[\"media_break_in\",\"usj_attack\",\"sports_festival\",\"hero_names\",\"hosu_incident\",\"final_exams\",\"forest_camp_arrival\",\"forest_camp_raid\",\"camp_aftermath\",\"kamino_incident\",\"symbol_of_peace_retires\",\"provisional_license_exam\",\"deku_vs_kacchan_2\",\"league_meets_overhaul\",\"eri_first_encounter\",\"case_conference\",\"shie_hassaikai_raid\",\"convoy_ambush\",\"nighteye_farewell\",\"kurogiri_captured\",\"license_remedial_course\",\"school_festival\",\"billboard_chart\",\"high_end_attack\",\"deika_liberation\",\"joint_training\",\"licenses_cider_house\",\"garaki_procedure\",\"ending_natsuo\",\"kurogiri_is_oboro\",\"war_dawn\",\"war_villa\",\"war_jaku\",\"war_march\",\"war_dabi\",\"paranormal_liberation_war\",\"war_casualty_roll\",\"tartarus_falls\",\"todoroki_hospital_reckoning\",\"hero_society_fractures\",\"last_bearer_leaves_home\",\"muscular_returns\",\"rain_patrols\",\"lady_nagant_contract\",\"nagant_and_the_mansion_trap\",\"dictator_and_the_lost_hero\",\"deku_versus_class_a\",\"ua_gate_appeal\",\"stain_and_the_return_home\",\"star_and_stripe_last_order\",\"aoyama_exposed\",\"aoyama_second_chance\",\"final_war_workshop\",\"league_before_the_end\",\"leave_for_troy\",\"operation_troy_division\",\"sky_coffin_first_contact\",\"okuto_wrong_destination\",\"kamino_phosphor\",\"gunga_break_the_mask\",\"bakugo_heart_stops\",\"deku_reaches_the_coffin\",\"central_hospital_uprising\",\"jaku_machia_custody\",\"warp_gates_and_twice\",\"save_the_falling_academy\",\"gunga_last_reinforcements\",\"evacuation_routes_under_attack\",\"todoroki_family_stops_dabi\",\"ochaco_reaches_toga\",\"troy_kunieda_bloom\",\"takoba_gashly_front\",\"armored_all_might\",\"bakugo_saves_all_might\",\"bakugo_ends_original_afo\",\"deku_gives_up_one_for_all\",\"tenko_and_the_stolen_life\",\"eri_horn_and_open_gates\",\"everyone_clears_the_way\",\"hospital_after_victory\",\"delayed_graduation_new_class\",\"todoroki_final_visit\",\"pardons_and_accountability\",\"spinner_hears_the_message\",\"ochaco_after_toga\",\"someone_takes_the_childs_hand\",\"embers_through_graduation\",\"teacher_deku_and_dai\",\"deku_armor_return\",\"more_quirk_counseling\",\"more_class_reunion\",\"more_choose_a_personal_future\"],D=[],A=[],resident=new Set();let first,wait=false;for(const id of C){if(check({type:'read-boolean',key:'done_'+id})===true)continue;if(first===undefined)first=id;const s=check({type:'narrative-event-status',eventId:id});if(s==='active'||s==='stopped')A.push(id);}D.push(...A);if(first!==undefined&&D.indexOf(first)<0)D.push(first);const P=[];for(const n of Object.keys(triggers)){if(!n.startsWith('Event Outcome: ')&&!n.startsWith('Event Wrap: ')&&!n.startsWith('Event Settle: '))continue;for(const c of triggers[n].conditions||[])if(c.type==='narrative-event-status'&&C.indexOf(c.eventId)>=0)resident.add(c.eventId);}for(const id of D){if(P.indexOf(id)>=0)continue;const v=storage['L_ev_'+id];if(typeof v!=='string'||v.indexOf('\\0')>=0){wait=true;continue;}let R;try{R=JSON.parse(v);}catch(e){wait=true;continue;}if(!Array.isArray(R)||R.some(r=>!Array.isArray(r)||r.length!==3||!r[2]||r[1]!==r[2].name)){wait=true;continue;}if(R.some(r=>!Object.prototype.hasOwnProperty.call(triggers,r[1]))){if(!resident.has(id)&&resident.size>=2&&A.indexOf(id)<0){wait=true;continue;}for(const [,n,t] of R)if(!Object.prototype.hasOwnProperty.call(triggers,n))triggers[n]=t;effects.push({type:'write-number',key:'ev_lazy_tick',operator:'set',value:tk},{type:'write-boolean',key:'ev_lazy_active',operator:'set',value:true});return;}}if(!wait)effects.push({type:'write-string',key:'ev_lazy_event',operator:'set',value:''});else skip=true;})();"
+  }
+}

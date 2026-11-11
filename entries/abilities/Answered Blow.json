@@ -1,0 +1,20 @@
+{
+  "Answered Blow": {
+    "name": "Answered Blow",
+    "description": "The user sees where an opponent within reach will be a beat from now and strikes that spot first. The blow lands before the opponent can guard and deals bludgeoning damage; held back, it is a palm strike that knocks the wind out of them. The user commits fully to the read, so any other attacker gets a clear opening on the user until the end of the user's next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Precognition Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

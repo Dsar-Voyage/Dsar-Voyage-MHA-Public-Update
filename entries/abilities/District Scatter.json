@@ -1,0 +1,25 @@
+{
+  "District Scatter": {
+    "name": "District Scatter",
+    "description": "The user scatters balls across several connected streets from a high position, turning entrances, vehicle paths and escape lanes into sticky obstacles for the rest of the scene. People caught by a ball must free themselves or wait for its hold to fade. The user leaves a clearly marked evacuation lane, but cannot make the balls spare an unmarked civilian; the mass plucking draws blood and ends further ball use. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Pop Off Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

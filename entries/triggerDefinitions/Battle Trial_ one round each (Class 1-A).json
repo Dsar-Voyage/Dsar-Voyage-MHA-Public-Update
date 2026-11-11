@@ -1,0 +1,30 @@
+{
+  "Battle Trial: one round each (Class 1-A)": {
+    "name": "Battle Trial: one round each (Class 1-A)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, Battle Trial rule (Class 1-A with All Might; Class 1-B is not here; All Might runs every round). The lottery's teams and the order of the five rounds are already set: 1. Team A vs Team D; 2. Team J vs Team E; 3. Team B vs Team I; 4. Team H vs Team C; 5. Team G vs Team F. The player is the third member of Team J (round 2); the teams are never split or reshuffled. Each team fights ONE round; a team whose round is over is never sent in again, and nobody fights twice. Every turn a note says which round is on; announce and play exactly that matchup, one round at a time, never a different one and never two at once. At the lottery the player's own slip reads Team J, and only round 1's two teams are named. The rest of the class watches from the Monitoring Room. After the fifth round the exercise is over."
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Items: one Hero license": {
+    "name": "Items: one Hero license",
+    "conditions": [
+      {
+        "type": "player-item",
+        "item": "Hero license",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "item-remove",
+        "item": "Hero license",
+        "quantity": 1,
+        "target": "satisfyingPlayers"
+      }
+    ],
+    "recurring": true
+  }
+}

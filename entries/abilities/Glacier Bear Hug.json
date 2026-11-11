@@ -1,0 +1,20 @@
+{
+  "Glacier Bear Hug": {
+    "name": "Glacier Bear Hug",
+    "description": "The user wraps both plated arms around a target within reach and fuses the overlapping ice plates into a stone-hard ring. The cold bear-hug restraint deals cold damage and locks the target's arms and torso until they break free with a hard effort, heat melts the ring or the user lets go; held back, it holds without frostbite. Running both natures chills the user's chest and slows them to a walk. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Glacier Hide Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

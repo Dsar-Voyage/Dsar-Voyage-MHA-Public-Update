@@ -1,0 +1,24 @@
+{
+  "District Line Rig": {
+    "name": "District Line Rig",
+    "description": "The user strings tape among roofs, poles and firm walls across several connected streets for the rest of the scene. Allies can follow marked safe crossings, while pursuers meet visible wraps and trip lines at chosen approaches. Every line needs a real anchor, and the long output dries the user's elbows until fresh tape becomes difficult to produce. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tape Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

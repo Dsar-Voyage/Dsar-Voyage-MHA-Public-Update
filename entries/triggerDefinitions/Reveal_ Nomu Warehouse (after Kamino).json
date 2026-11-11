@@ -1,0 +1,22 @@
+{
+  "Reveal: Nomu Warehouse (after Kamino)": {
+    "name": "Reveal: Nomu Warehouse (after Kamino)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [
+      {
+        "type": "location-hidden",
+        "location": "Nomu Warehouse",
+        "operator": "set",
+        "value": false
+      }
+    ]
+  }
+}

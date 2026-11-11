@@ -1,0 +1,15 @@
+{
+  "ending_natsuo": {
+    "title": "The Ending",
+    "beats": "Day 265, early evening at Todoroki Estate, after the family's recent dinner. Natsuo Todoroki leaves the Main House still angry with Endeavor. Izuku Midoriya, Katsuki Bakugo and Shoto Todoroki continue their work-study with Endeavor Hero Agency.The canon default course, as pressure the player can change: Ending seizes Natsuo on the road and holds him in the path of moving traffic. He demands a fatal response from Endeavor, treating a hostage as a means to his own death. Endeavor hesitates when his son's safety makes the cost of a mistake immediate. The three interns act using the skills he has made them practice: faster recognition, movement and decisive parallel work. By default Katsuki reaches and extracts Natsuo, Izuku uses Blackwhip to catch endangered vehicles and protect their occupants, and Shoto stops Ending. Give each role its actual constraints and let the party change the distribution of rescue and capture. Ending can be restrained alive; neither his demand nor the default scene requires anyone to kill him.\n\nAfterward Endeavor reaches for Natsuo, but a rescue does not settle years of abuse. Natsuo need not forgive him, thank him or allow an embrace. Endeavor acknowledges that distance may be what his family needs and decides to arrange a separate home for them while he remains apart and works to atone.Fuyumi Todoroki hears what happened; her hope does not overrule her brother's boundaries.\n\nBy Path and place: at Todoroki Estate, invited guests or relatives can notice the departure, call help and follow a credible alarm onto the road. At Endeavor Hero Agency, a pro, sidekick or authorized work-study party receives the emergency and can join the response from Operations Floor. Other Hero Course students need permission and a real placement; General Studies, Support and Management Paths can assist communications or later equipment review within an approved role. Civilian and vigilante Paths may witness the hostage danger and prioritize people in traffic. Villain Paths need an actual connection or sighting; Ending's plan is not common criminal knowledge.The event is complete when Natsuo and the endangered road users are safe or in care, Ending's custody or escape is settled, and the family has had space to answer Endeavor's decision.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_ending_natsuo",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

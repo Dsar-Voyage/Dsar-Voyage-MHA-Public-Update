@@ -1,0 +1,29 @@
+{
+  "Standing Imprint": {
+    "name": "Standing Imprint",
+    "description": "The user fixes a projected image to a spot and walks away from it, and it keeps playing on its own for up to a day: a replay of a crime on loop for investigators, a decoy of the user standing guard at a window, lit arrows down a stairwell to the exit or a closed shutter across an alley. They can leave up to three at once anywhere they have stood that day and end any of them from any distance. Each still has no weight, sound, touch or shadow, and while any of them stands the user's eyes store nothing new. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Afterimage Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

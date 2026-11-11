@@ -1,0 +1,20 @@
+{
+  "Vine Ladder Ascent": {
+    "name": "Vine Ladder Ascent",
+    "description": "The user loops vine bundles around a sturdy railing up to five meters above and pulls upward while climbing with hands and feet. The ascent takes one turn and needs a clear path and an anchor that bears the user's weight. A failed anchor or severed bundle drops the user, and the pull strains the scalp and neck. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Vines Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

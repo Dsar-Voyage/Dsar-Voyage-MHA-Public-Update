@@ -1,0 +1,20 @@
+{
+  "Synapse Sprint": {
+    "name": "Synapse Sprint",
+    "description": "The user drives electricity through their own nerves and moves in a crackling blur across a room or down a street before anyone can react. During the move they can pull a person out of the path of an attack, which then misses both of them, or reach a target before they can act. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

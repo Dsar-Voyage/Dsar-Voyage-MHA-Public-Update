@@ -1,0 +1,29 @@
+{
+  "Hidden Tongue Escort": {
+    "name": "Hidden Tongue Escort",
+    "description": "The user keeps their skin and extended tongue camouflaged against changing surroundings while moving along a wall for three turns. Each turn the user can secure one person within twenty meters, draw them behind cover and loosen the tongue without dropping them, or hold one opponent's arms with the same careful coil. The carried person remains visible; sound, touch and damaged surfaces reveal the approach. Afterward tongue cramps prevent further tongue techniques for the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frog Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

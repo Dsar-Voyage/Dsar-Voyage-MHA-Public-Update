@@ -1,0 +1,15 @@
+{
+  "pro_spring_chart": {
+    "title": "The Spring Billboard Release",
+    "beats": "The spring Hero Billboard Chart JP release, at the turn of May into June, late afternoon into night. The scene reaches the party wherever it is: phones buzz at once with the Commission's release, and every screen and radio carries it. The chart ranks heroes by incidents resolved, public approval and social contribution, and its top holds no surprise: All Might Number One, Endeavor Number Two for yet another half year, Hawks third and Best Jeanist fourth. Commentators spend the evening on whether anyone will ever close the gap at the top.\n\nThe agency's own place sits deep in the lower pages, and it moves only through what the party actually did since the start of the year: captures, rescues, any drill grade, complaints on file. A new agency's first appearance counts, and so does a drop. The default course, as pressure the player can change: within the hour two sponsors call about the number, one to raise a fee and one to ask about a clause; a local reporter wants a comment by morning; and a box of fan mail arrives with a crayon drawing of the costume among the letters.\n\nAn agency head takes the sponsor calls and decides what to say to the reporter and what to tell the sidekick. A sidekick works for someone: the chart ranks the hero on the door, not the sidekick, yet one letter in the box is addressed to the sidekick by hero name, and the boss's mood after the number follows the sidekick through the evening shift. On Hero Agency Row the Ready Room compares ranks: Kamui Woods' steady rise draws a loud reply from Mount Lady, and Fourth Kind says one word about his own number. A Tokyo agency measures its rank against the agencies it fights for camera time.\n\nThe event is complete when the chart is out, the agency has answered its first sponsor call about it, and the evening's mail is read or left for morning.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_pro_spring_chart",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Self-Made Vigilante": {
+    "name": "Self-Made Vigilante",
+    "description": "🌙 You took to the streets on your own: no license, no record, nobody's permission.\n\n📈 Grants: Streetwise +5, Stealth +5",
+    "traitNarrativeEffects": "The character became a vigilante without a criminal past: no record, no license, no file with the police except rumors of a masked helper.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Vigilante"
+    ],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

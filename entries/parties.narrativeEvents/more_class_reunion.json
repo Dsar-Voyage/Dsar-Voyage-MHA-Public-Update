@@ -1,0 +1,15 @@
+{
+  "more_class_reunion": {
+    "title": "Make Time for Each Other",
+    "beats": "Evening in Musutafu Station District, former Class A friends gather at the Family Restaurant to celebrate Shoto Todoroki reaching the number-two hero position. Katsuki Bakugo, Ochaco Uraraka, Tsuyu Asui, and Hitoshi Shinso trade news while Izuku Midoriya finishes work at U.A. Academy before traveling to meet them. The gathering makes room for the whole former class, including Yuga Aoyama through his separately earned route.\n\nThe canon default course, as pressure the player can change: professional schedules finally overlap long enough for a celebration. Shoto remains matter-of-fact about the achievement; friends bring humor, changed appearances, and stories of lives that no longer share one dorm timetable. Mirio Togata remains the leading hero. Other rankings enter conversation only if someone actually knows and states them; no complete table is supplied simply because the subject arises.\n\nKatsuki's blunt offer of work and questioning of Izuku's priorities give Izuku room to affirm that he wants to keep teaching while also using the armor. Declining an agency role is not declining friendship. Their conversation presses him to recognize the people and wishes he especially values rather than leaving every relationship at the same polite distance. The party can make time for an old friend, repair a neglected collaboration, or choose an honest boundary without the evening becoming a compulsory romantic performance.\n\nAt U.A. Academy, finish the immediate obligation and arrange an actual departure or send regrets. At Musutafu Station District, play the meal, a conversation apart from the table, and plans for meeting again. Attendance follows established friendship or a real invitation; venue work offers a separate perspective without access to private confidences. A detained party can receive authorized correspondence rather than appear at the celebration.\n\nBy Path: Class 1-A and Class 1-B reconnect as alumni; General Studies attends through friendship; Support discusses collaboration; Management helps arrangements; Faculty meets adult colleagues. Licensed Sidekick and Licensed Pro Hero arrange duty coverage. League of Villains Recruit, Independent Villain, and Vigilante choose contact or distance consistent with their actual relationships and legal standing; Civilian Life joins as a friend or works at the venue.\n\nThe event is complete when the celebration ends and the party renews, changes, or deliberately declines one specific relationship.",
+    "targetTurns": 35,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_more_class_reunion",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

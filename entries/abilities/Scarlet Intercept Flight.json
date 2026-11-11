@@ -1,0 +1,24 @@
+{
+  "Scarlet Intercept Flight": {
+    "name": "Scarlet Intercept Flight",
+    "description": "The user folds their wings into a fast dive across fifty meters and spreads them to catch one falling adult before landing at a visible clear spot this turn. The user needs height and most flight feathers attached; the passenger's weight prevents a sharp second turn, and a blocked landing forces an early drop to a lower ledge. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Fierce Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

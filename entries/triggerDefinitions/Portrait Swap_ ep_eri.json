@@ -1,0 +1,22 @@
+{
+  "Portrait Swap: ep_eri": {
+    "name": "Portrait Swap: ep_eri",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Eri",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0f6797fb-0880-4e1b-b861-6d7d4bdbddc3.png"
+      }
+    ]
+  }
+}

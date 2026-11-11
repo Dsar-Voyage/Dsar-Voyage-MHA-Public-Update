@@ -1,0 +1,30 @@
+{
+  "Command Presence": {
+    "name": "Command Presence",
+    "description": "📣 People listen when you give an order in a crisis.\n\n🎯 Good for team leaders, teachers and agency heads.\n📋 Requires level 16 and Leadership 15.\n\n📈 Grants: Leadership +10",
+    "traitNarrativeEffects": "The character has led people through danger and it shows: their orders are short and clear, they assign tasks by people's strengths and they take responsibility when it goes wrong. In a crisis, classmates, sidekicks, bystanders or gang members turn to them for direction. Show it in decisive calls and a voice that carries. Limits: authority still comes from rank and law; a pro at the scene, a teacher or a superior in their organization outranks them, and people follow bad orders less willingly each time.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Leadership",
+        "modifier": 10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [
+      {
+        "type": "characterLevel",
+        "amount": 16
+      },
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 15
+      }
+    ]
+  }
+}

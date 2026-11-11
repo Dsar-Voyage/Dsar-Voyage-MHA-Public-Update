@@ -1,0 +1,20 @@
+{
+  "Harbor Send": {
+    "name": "Harbor Send",
+    "description": "The user touches a person in danger, trapped in a crushed car, cornered on a burning ledge or caught in a crowd crush, and sends them alone to one of the user's anchors, where they arrive at rest and unhurt; whatever pinned them is left behind. One person goes per use, a person who resists cannot be sent, and the user stays where they are, still in the danger. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

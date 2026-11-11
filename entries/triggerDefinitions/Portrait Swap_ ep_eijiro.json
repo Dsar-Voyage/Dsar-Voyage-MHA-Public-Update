@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_eijiro": {
+    "name": "Portrait Swap: ep_eijiro",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Eijiro Kirishima (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/098ee53f-03e0-436c-8160-c9f2b7aab5d5.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Eijiro Kirishima",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/098ee53f-03e0-436c-8160-c9f2b7aab5d5.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Eijiro Kirishima (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/098ee53f-03e0-436c-8160-c9f2b7aab5d5.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Eijiro Kirishima (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/098ee53f-03e0-436c-8160-c9f2b7aab5d5.png"
+      }
+    ]
+  }
+}

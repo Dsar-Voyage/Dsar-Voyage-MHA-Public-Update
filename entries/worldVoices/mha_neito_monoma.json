@@ -1,0 +1,15 @@
+{
+  "mha_neito_monoma": {
+    "label": "Neito Monoma",
+    "voiceTag": "male sly manipulative",
+    "instructions": "Smooth mid-range young man's voice, theatrical and sneering, with exaggerated mock courtesy and a high, manic laugh that runs too long; pitch swoops for drama. With his own class, quick, sharp and practical. Never slow, deep or menacing.",
+    "speed": 1.05,
+    "exposeInCharacterCreation": false,
+    "effects": {
+      "pitch": {
+        "enabled": true,
+        "semitones": 1
+      }
+    }
+  }
+}

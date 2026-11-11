@@ -1,0 +1,20 @@
+{
+  "Sarcastic": {
+    "name": "Sarcastic",
+    "description": "😏 Your humor is dry and your comebacks are fast; most of what you say means a little more than it says.\n\n🔍 You see through pretension and say what others are only thinking.\n⚠️ Your jokes land on people who did not deserve them, and sincere moments are hard for you.\n⚠️ Authority figures rarely enjoy being the punchline.\n🔀 If you are also Kind-Hearted, the sarcasm is armor and the help comes anyway.\n\n📈 Grants: Insight +5",
+    "traitNarrativeEffects": "The character is sarcastic: dry humor, fast comebacks, deadpan remarks that puncture pretension and say what others only think. They read people well enough to know where the joke lands. Weakness: the jokes hurt people who did not deserve it, sincerity comes hard and teachers, bosses and officers dislike being the punchline. If the character is also Kind-Hearted, the sarcasm is armor and the help comes anyway. The narrator gives them openings for a line; whether to take it is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Insight",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

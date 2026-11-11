@@ -1,0 +1,22 @@
+{
+  "World Note: symbol_of_peace_retires": {
+    "name": "World Note: symbol_of_peace_retires",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_symbol_of_peace_retires",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "script": "(function(){/*storage_pack:v1:[true,[[664,1]]]*/const __pr=[[664,1]],__pc={};function __pg(n){for(const [s,c] of __pr)if(n>=s&&n<s+c){let a=__pc[s];if(!a){const v=storage['L_p'+s];if(v===undefined)return;a=__pc[s]=JSON.parse(v);}const v=a[n-s];return v===null?undefined:v;}}/*storage_trim:v1:[\"wrapped\",[[664,1,0,false]]]*/const __hv=n=>__pg(n),__hc=x=>JSON.parse(JSON.stringify(x));if(__hv(664)===undefined){skip=true;return;}const __HT0=__hc(__hv(664));const E=\"symbol_of_peace_retires\",X=__HT0;const d=check({type:'read-number',key:'currentDay'})||1;const S=storage.worldNoteDay||{};if(S[E]===undefined)S[E]=[d,-1];if(d-S[E][0]>10||S[E][1]===d){storage.worldNoteDay=S;skip=true;return;}S[E][1]=d;storage.worldNoteDay=S;effects.push({type:'story',instruction:X});})();"
+  }
+}

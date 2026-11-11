@@ -1,0 +1,20 @@
+{
+  "Ice Sill": {
+    "name": "Ice Sill",
+    "description": "The user raises a waist-high ridge of ice from their right side across three meters of ground within reach. The ridge stops thrown objects and light blows from the front until it breaks or melts, and remains after the user moves. It needs a clear path across the surface and repeated use chills the user's right side. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Half-Cold Half-Hot Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

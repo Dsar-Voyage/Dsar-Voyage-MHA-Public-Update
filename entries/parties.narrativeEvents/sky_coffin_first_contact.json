@@ -1,0 +1,15 @@
+{
+  "sky_coffin_first_contact": {
+    "title": "Hold Without Deku",
+    "beats": "On day 405, Tomura Shigaraki strikes the floating arena at U.A. Academy before its defenders receive Izuku Midoriya. Katsuki Bakugo, Best Jeanist, Mirko, Edgeshot, and the Big Three confront him. Above their protected position, Neito Monoma holds copied Erasure under Shota Aizawa's supervision while Manual keeps his eyes moistened. If the opening deployment changed, use the defenders and opponent who actually arrived.\n\nThe canon default course, as pressure the player can change: Shigaraki produces an enormous mass of fingers and attacks with overwhelming physical strength despite Erasure. His bodily adaptation is not an ordinary activated Quirk that Monoma can simply cancel. The arena's electrified defenses and replaceable floor keep the threat contained only while the teams below maintain them. Momo Yaoyorozu supplies replacement material, Mei Hatsume's crews service the mechanisms, and Denki Kaminari helps sustain power.\n\nChoose one immediate failure point: a damaged floor section, an exposed maintenance crew, or an approaching attack on the observers. Let the player's contribution buy measurable time or create a specific breach. Electricity does not make the enclosure invulnerable, and replacement panels do not appear without material and labor. Monoma cannot abandon Erasure to transport Izuku without releasing the enemy's suppressed powers. Injured defenders remain reachable for extraction rather than disappearing from the fight.\n\nBy place: at U.A. Academy, stage the arena or the maintenance compartment appropriate to the party. Okuto Island, Kamino Ward, and Gunga Mountain Villa receive urgent requests through battle communications. Musutafu General Hospital prepares casualty reception; Jaku City and Takoba Municipal Stadium retain their own opponents. Mount Fuji Battlefield handles falling-debris warnings and ground safety. Nobody crosses these distances through a radio exchange.\n\nBy Path: Class 1-A defends or powers the enclosure; Class 1-B protects replacement supplies. General Studies moves equipment, Support repairs machinery, Management prioritizes shortages, and Faculty coordinates the compartments. Licensed Sidekick shields crews; Licensed Pro Hero confronts Shigaraki. League of Villains Recruit and Independent Villain can attack or assist containment. Vigilante protects the ground perimeter; Civilian Life supports evacuation and emergency reception.\n\nThe event is complete when the first assault is contained or a specific section fails, and the surviving defenses, injuries, and immediate response are established.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_sky_coffin_first_contact",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

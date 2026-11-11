@@ -1,0 +1,20 @@
+{
+  "Pillar of Arms": {
+    "name": "Pillar of Arms",
+    "description": "The user plants their feet and braces a sagging ceiling, a fallen girder or an overturned car on their extra limbs, holding it off the people beneath. Until the user lets go, moves or is knocked down, nothing they hold sinks further, falling debris strikes the user's limbs instead of the people under them, and the user's own hands stay free to pull people out. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Extra Limbs Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

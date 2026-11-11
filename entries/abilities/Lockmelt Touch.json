@@ -1,0 +1,20 @@
+{
+  "Lockmelt Touch": {
+    "name": "Lockmelt Touch",
+    "description": "The user lays a hand on a lock, a chain, handcuffs, a seat belt or a jammed car door and dissolves just that part in moments, leaving everything around it unharmed. Cuffs and zip ties fall away, doors swing open, and people pinned in wreckage can be pulled out without cutting tools. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Acid Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

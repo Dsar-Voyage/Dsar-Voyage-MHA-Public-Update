@@ -1,0 +1,25 @@
+{
+  "Three-Anchor Throw": {
+    "name": "Three-Anchor Throw",
+    "description": "The user's signature move: they grip a target and snap with them through all three anchors in a single heartbeat and hurl them down at the last. The target takes massive bludgeoning damage from the throw and the wrenching snaps and is too dizzy to stand or act until the end of their next turn; held back, the throw is a controlled takedown. Afterward the user cannot snap until the end of their next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Anchor Point Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

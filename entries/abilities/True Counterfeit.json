@@ -1,0 +1,29 @@
+{
+  "True Counterfeit": {
+    "name": "True Counterfeit",
+    "description": "From a full vial of a person's fresh blood, the user takes their form down to blood, scent, fingerprints and voiceprint. Until the sample runs out after about an hour, blood tests, DNA scanners and tracking dogs confirm the user as that person. The user still gains none of their Quirk, memories or skills, so a personal question exposes them, and heroes may do this only with consent or an authorized undercover operation. When the form ends the user cannot change form for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Mimicry Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

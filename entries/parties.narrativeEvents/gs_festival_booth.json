@@ -1,0 +1,15 @@
+{
+  "gs_festival_booth": {
+    "title": "The Cultural Festival Booth",
+    "beats": "The last week before the U.A. School Festival. After classes the General Studies Classrooms at U.A. Academy are full of cardboard, paint and argument: Class 1-C has a booth to build and no agreement on what it is. Security frames everything. Guests will be screened at the Main Gate, the barrier stays up, and the teachers have said it plainly: one alarm ends the day for everyone. The rules arrive in a stack: no open flames, no smoke machines, no sirens or flashing lights that could be mistaken for an alert, every electrical item checked by the Development Studio, every decoration approved.\n\nDefault course, as pressure the player can change: half the class wants a haunted house, half wants a cafe, and a loud few want a quiz show on pro heroes' Quirks. The Courtyard has the best foot traffic, and 1-C's stretch of it is double-booked: Mina Ashido has been drilling Class 1-A's dancers through the same eight counts on that paving every afternoon, and the band's rehearsals carry across campus. Some of 1-C grumble that the Hero Course caused the security and now takes the spotlight too; others admit the show sounds good. Hitoshi Shinso agrees to whatever is decided, does his share of cutting and painting, and leaves early every evening without saying where he goes.\n\nUnder the cardboard sits the real question: what kind of class 1-C wants guests to see when most of them come for the Hero Course. Extras, rivals, or something that stands on its own.\n\nIn the classroom, the party can broker a booth everyone will actually work on, take charge of the build, or carry the rules fight to the faculty. In the Courtyard, it can negotiate with Ashido for the space, which she trades cheerfully for help with the dance's props, or pick a fight that feeds the grumbling. The festival itself, and what happens on its day, is not part of this scene.\n\nThe event is complete when the booth is chosen, the space is settled and the first wall of it is standing.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_gs_festival_booth",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "Yosetsu Awase (Summer Training)": {
+    "name": "Yosetsu Awase (Summer Training)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 15,
+    "tier": "elite",
+    "voiceTag": "male confident casual",
+    "basicInfo": "Yosetsu Awase, hero name Welder, a Class 1-B first-year in U.A. Academy's Hero Course. Since the festival he has interned for a week, sat the final exams and trained at the forest camp beside 1-A, where he lived through the League of Villains' attack. Black hair under a striped headband, gray eyes, a sturdy build; the U.A. uniform or his burgundy hero costume.\nSpeaking Style: Direct and informal; quick warnings.\nCombat Role: Hands-on support with quicker welds; still contact-only.\nUnder Pressure: Warns his side and braces what is failing.",
+    "hiddenInfo": "Contradiction: Camp rewarded raw output; his strength is choosing the right bond, so he trained speed without skipping the check. Motivation: Be the classmate who makes a bad situation hold together. Connections: Itsuka Kendo and Tetsutetsu Tetsutetsu, who stopped the villain flooding the forest with gas. Knowledge: Knows the attack from inside the forest; Katsuki Bakugo's kidnapping, Kamino and All Might's retirement from the news.\nQUIRK: Weld: faster since camp; still contact-only.\nSTAGE: After the summer camp and Kamino; U.A. locked down.",
+    "personality": [
+      "Helpful: Helps a struggling classmate the moment he sees a practical way.",
+      "Pragmatic: Treats each drill as a problem of what to join, brace or anchor.",
+      "Careful bonder: Checks a weld will not trap an ally, even at drill speed.",
+      "Speaking style: Direct, informal warnings; short and practical, no speeches."
+    ],
+    "abilities": [
+      "Weld: Fuses touched objects into one piece, faster since camp; contact only, no undoing from afar.",
+      "Capture weld: Fixes a restraint onto a target to pin them; he must reach them first.",
+      "Emergency bracing: Bonds loose material into a temporary support, only as strong as the material.",
+      "Practical eye: Spots anchor points and load-bearing pieces at a glance.",
+      "\nFighting style: Closes to touch range and welds an opponent in place; at range he relies on cover and teammates."
+    ],
+    "visualDescription": "A young man with black hair swept up and back under a striped headband, gray eyes, fair skin and a sturdy build. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Focused, practical expression.",
+    "detailType": "detailed",
+    "properName": "Yosetsu Awase",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/49488a64-9cb6-453d-92eb-29e8d7d1f636.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_yosetsu_awase",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/49488a64-9cb6-453d-92eb-29e8d7d1f636.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/e5fc26c0-c8a2-49b7-95de-f7ab80f8077c.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/97dcd4b4-edfd-43fd-9d4d-d9a014259582.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/fbd737c9-8a46-4ed8-9f6c-380716f10ea9.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/34d96f02-17ec-48d2-928b-ada15f2ddfaa.png"
+    },
+    "initialKnown": false
+  }
+}

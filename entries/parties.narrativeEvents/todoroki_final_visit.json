@@ -1,0 +1,15 @@
+{
+  "todoroki_final_visit": {
+    "title": "Soba",
+    "beats": "At Musutafu General Hospital, a guarded medical room opens for the Todoroki family's short visit. Dabi, publicly known as Toya Todoroki, survives inside life-support equipment. Endeavor arrives with Rei Todoroki, Fuyumi Todoroki, Natsuo Todoroki, and Shoto Todoroki. The appointment ends when the medical staff say it must; the family's need to speak cannot extend Toya's physical endurance.\n\nThe canon default course, as pressure the player can change: Endeavor retires from hero work and commits to facing Toya repeatedly rather than treating this visit as a final duty. His burns, lost arm, and limited mobility remain visible. Toya is alive but terminally injured, and speech is painfully limited. Natsuo explains that he will marry and build a life separate from his father. Endeavor accepts that boundary without demanding an invitation or forgiveness. Fuyumi and Rei retain their own choices instead of being assigned responsibility for repairing him.\n\nShoto uses the little time available to ask what food Toya likes. The answer, soba, gives the brothers a small point of recognition; Toya's halting apology does not settle the family's history. Allow a player intervention to change who speaks first, obtain a later visit, or support a relative's boundary. Medical help can be pursued honestly, but no conversation automatically cures Toya, and no death occurs merely because this scene ends. If earlier rescue changed his injuries, the family faces that real prognosis.\n\nBy Path at Musutafu General Hospital: Class 1-A supports Shoto with his consent; Class 1-B covers recovery duties; General Studies helps arrange visits; Support improves accessibility; Management protects privacy; Faculty grants compassionate absence. Licensed Sidekick guards authorized access; Licensed Pro Hero addresses the retired agency's transition through communications. League of Villains Recruit may request contact or testimony; Independent Villain must choose what to do with information lawfully received; Vigilante discourages harassment; Civilian Life supports a relative. Nobody gains family-room access solely by choosing a Path.\n\nThe event is complete when the visit closes, Toya's current medical condition is clear, and the family's separate commitments and boundaries are stated.",
+    "targetTurns": 30,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_todoroki_final_visit",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

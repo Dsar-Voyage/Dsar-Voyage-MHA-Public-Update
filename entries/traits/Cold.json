@@ -1,0 +1,20 @@
+{
+  "Cold": {
+    "name": "Cold",
+    "description": "❄️ Feelings stay behind glass. You decide with your head and show nothing.\n\n🧊 Threats, tears and pleas do not move you, and you watch everything.\n⚠️ People find you unreadable and unsettling, and few get close.\n⚠️ You miss what people feel until it is too late.\n🔀 If you are also Kind-Hearted, the warmth shows only in what you do, never on your face.\n\n📈 Grants: Surveillance +5",
+    "traitNarrativeEffects": "The character is cold: they keep their feelings hidden, decide with their head and show little; threats, tears and pleas do not move them, and they watch everything. Weakness: people find them unreadable and unsettling, few get close, and they miss what others feel until it is too late. If the character is also Kind-Hearted, the warmth shows only in actions. The narrator shows what others feel; what the character feels is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Surveillance",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

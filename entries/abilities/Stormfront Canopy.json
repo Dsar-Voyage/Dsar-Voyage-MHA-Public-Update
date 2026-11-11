@@ -1,0 +1,25 @@
+{
+  "Stormfront Canopy": {
+    "name": "Stormfront Canopy",
+    "description": "The user releases their charge upward until it hangs as a crackling cloud over a whole city district, and for the rest of the scene they call bolts down from it onto any enemy in that district they can see. Each enemy struck takes heavy electric damage and cannot act until the end of their next turn; held back, a bolt only knocks them down. Every unshielded phone, camera and radio under the cloud burns out, the user's own and the responders' included, and the user cannot move faster than a walk while the cloud holds. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Electricity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

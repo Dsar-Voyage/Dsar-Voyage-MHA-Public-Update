@@ -1,0 +1,20 @@
+{
+  "Metallic Brace": {
+    "name": "Metallic Brace",
+    "description": "The user transforms into steel and covers their head and chest until the end of their next turn, reducing ordinary punches, cuts and handgun hits to bruising impacts. Concentrated heavy blows can still injure them and drain the form quickly. Smoke and poison gas still enter their lungs. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Steel Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

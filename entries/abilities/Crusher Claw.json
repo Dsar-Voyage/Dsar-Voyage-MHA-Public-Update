@@ -1,0 +1,24 @@
+{
+  "Crusher Claw": {
+    "name": "Crusher Claw",
+    "description": "One arm swells into a crusher claw the size of the user's torso, grown from crab or lobster eaten that day. It deals heavy bludgeoning damage that ignores worn armor, shields and hardened skin, and it shears through steel bars, car doors and rebar, so it can cut trapped people out of a wreck in moments. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Trait Manifestation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

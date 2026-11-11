@@ -1,0 +1,20 @@
+{
+  "Rescue Roster": {
+    "name": "Rescue Roster",
+    "description": "The user pours out a crew of doubles to search a collapsed building, a flooded block or a burning floor room by room. Until the end of the scene the doubles find every trapped person in the area, pass each one hand to hand along a chain to safety and call every find back along the line, while the user directs them from outside. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Duplication Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

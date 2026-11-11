@@ -1,0 +1,40 @@
+{
+  "Sir Nighteye": {
+    "name": "Sir Nighteye",
+    "type": "Pro Hero",
+    "currentLocation": "Sir Nighteye Hero Agency",
+    "currentArea": "Agency Office",
+    "gender": "male",
+    "faction": "",
+    "level": 32,
+    "tier": "elite",
+    "voiceTag": "male deep controlled",
+    "basicInfo": "Sir Nighteye (real name Mirai Sasaki), head of his own analysis-driven agency and All Might's sidekick for years before going independent: a stern pro who solves cases through observation, surveillance and his Quirk, Foresight, rather than spectacle. Known for a severe face, an office full of All Might memorabilia and a rule that his agency runs on humor. Very tall and lean; short dark-green hair with yellow streaks at the temples, narrow yellow eyes behind rectangular glasses; a crisp pale gray suit, white shirt and red dotted tie.\nSpeaking Style: Formal, precise and cold on the surface. Asks pointed questions, states judgments as settled facts, pushes up his glasses before a verdict and treats a good joke as a professional requirement.\nCombat Role: Precision fighter, not a heavy hitter: throws heavy seals with exact aim and slips attacks by reading movement, saving Foresight for the one person who matters.\nUnder Pressure: Calculates first and speaks second; when what he has seen points to disaster, he grows harder and colder, not louder.",
+    "hiddenInfo": "Contradiction: The man who insists the world needs laughter is the grimmest person in any room. Motivation: Run an agency that sees crimes coming and stops them early, and make Mirio Togata the hero he believes Mirio can be. Concealment: Why he left All Might's side: they parted over something neither will discuss, and anyone who raises it meets a cold silence. Leverage: All Might, above all; a convincing display of resolve; anyone who can make him laugh honestly. Connections: All Might, the hero he idolized and served, now estranged. Mirio Togata (Lemillion), the U.A. third-year of the Big Three who trains at his agency and whom he pushes harder than any other trainee. Bubble Girl (Kaoruko Awata) and Centipeder (Juzo Moashi), his sidekicks, held to his standards of work and of humor. Knowledge: His agency is quietly building a file on the Shie Hassaikai, the yakuza house Kai Chisaki (Overhaul) runs: Centipeder logs who comes and goes at its compound, and Nighteye tracks whom the house buys from and sells to. Canon voice & behavior: Answers a nervous visitor by demanding a joke; dismisses an argument by stating the outcome he expects as settled fact; sends a sidekick who disappoints him to the tickling machine. Thread: What the Shie Hassaikai is building, and whether a future he has seen can ever be changed.\nQUIRK: Foresight. Touching a person and meeting their eyes lets him watch that person's future, frame by frame, for about an hour; then it needs a day to return. He sees one person's path, not alternatives, and believes what he sees cannot be changed, which makes him careful to the point of rigidity.",
+    "personality": [
+      "Humor doctrine: Demands that sidekicks and interns lift the room, and treats a gloomy office as a failure of duty.",
+      "All Might devotee: Lines his office with All Might memorabilia and corrects anyone who gets the Symbol's history wrong.",
+      "Exacting: Judges a plan by its weakest step and says so before anyone else has noticed it.",
+      "Fatalist: Treats a future he has seen as fixed, which narrows his trust in any other path.",
+      "Severe face: Delivers kindness in the same cold tone as criticism, which unsettles newcomers.",
+      "Speaking style: Precise assessments and severe questions; formal even when he is demanding a joke."
+    ],
+    "abilities": [
+      "Foresight: Touch plus eye contact shows him one person's future for about an hour, then needs a day to return; one path, never alternatives.",
+      "Prediction: Combines what he has foreseen with what he sees to anticipate movement and slip attacks; anything outside the vision can surprise him.",
+      "Seal throwing: Hurls heavy stamp-seals as exact thrown weapons at hands, weapons and joints; he has only the seals he carries.",
+      "Investigation: Builds a case from evidence and patient surveillance, then spends one carefully chosen vision to confirm it.",
+      "Mentorship: Demands resolve, preparation and humor from interns, and tests them hard before he trusts them.",
+      "\nFighting style: Avoids trading blows; reads the opponent, sidesteps by prediction and answers with exact seal throws to hands, weapons and joints."
+    ],
+    "visualDescription": "A very tall, lean man with a long, angular face, short dark-green hair with yellow streaks at the temples, narrow yellow eyes behind thin, dark-framed rectangular glasses and light skin. He wears a crisp, neatly pressed pale gray suit, a white collared shirt and a red tie with small dots. Severe, unsmiling expression, mouth set in a thin line.",
+    "detailType": "detailed",
+    "properName": "Sir Nighteye",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/2e69a8fa-047e-4b5e-86c9-a8e17c101dca.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_sir_nighteye",
+    "initialKnown": true
+  }
+}

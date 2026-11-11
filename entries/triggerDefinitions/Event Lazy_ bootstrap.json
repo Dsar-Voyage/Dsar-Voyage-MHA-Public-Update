@@ -1,0 +1,23 @@
+{
+  "Event Lazy: bootstrap": {
+    "name": "Event Lazy: bootstrap",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-string",
+        "key": "ev_lazy_event",
+        "operator": "set",
+        "value": "*"
+      }
+    ],
+    "recurring": false,
+    "phase": "state",
+    "script": "(function(){delete triggers[\"Event Lazy: bootstrap\"];})();"
+  }
+}

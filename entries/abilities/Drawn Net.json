@@ -1,0 +1,20 @@
+{
+  "Drawn Net": {
+    "name": "Drawn Net",
+    "description": "The user sweeps a net across a wall or the floor in broad strokes, and it lifts off and drops over a target within a few strides. The target is tangled and cannot run, fight or reach their pockets until they tear free with a hard effort, the net fades after a few minutes or water dissolves it. A net drawn in haste tears at the first hard pull. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Living Ink Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

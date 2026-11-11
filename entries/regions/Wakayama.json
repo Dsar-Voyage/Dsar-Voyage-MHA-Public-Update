@@ -1,0 +1,30 @@
+{
+  "Wakayama": {
+    "name": "Wakayama",
+    "basicInfo": "The western coast of the Kii Peninsula in Wakayama Prefecture, from the city of Wakayama at the mouth of the Kino River south along a coast of bays, orange-terraced hills and fishing towns to the cape at Hinomisaki, with the Kii Channel filling the western half of the cell. Wakayama city is a prefectural capital of modest size, centered on the white keep of Wakayama Castle on its wooded hill, which sits right at the northern edge. South of it lie the scenic bay of Wakanoura and the hillside temple of Kimii-dera, then the lacquerware and factory town of Kainan and a resort on a reclaimed island. Beyond, the coast turns rugged: Arida's valley is terraced into mikan orange groves that turn the hillsides orange in late autumn; Yuasa, a small town of lattice-fronted breweries, claims to be the birthplace of Japanese soy sauce; and Yura's Kokoku-ji is the temple of the wandering bamboo-flute monks and the origin of kinzanji miso. Gobo, on the Hidaka River, keeps Dojo-ji temple and its legend of the woman who became a serpent. Hinomisaki, the westernmost point of the peninsula, has cliffs, a lighthouse and a view across the channel toward Shikoku. Inland, steep orange and plum orchards climb into the mountains. The climate is warm and sunny, wet in typhoon season. Food is Wakayama ramen in soy-and-pork broth, mikan, pickled ume, whitebait and sea bream. The JR Kisei line runs along the coast, with the Kuroshio limited express reaching Wakayama from Shin-Osaka in about an hour and Gobo in under two; the Nankai line reaches Wakayama from Namba, the little Kishigawa line keeps a cat stationmaster at Kishi, and the Hanwa Expressway runs south. A ferry links Wakayama port with Tokushima. Musutafu is about three hours from Wakayama city. Wakayama has hero agencies and police boxes; licensed heroes cover the coast towns, and orchard workers with climbing or long-reach Quirks are in demand at harvest.",
+    "hiddenInfo": "The coast is easygoing, but the prefecture is aging and the fishing towns are shrinking. Trouble is theft from orchards at harvest, illegal fishing and drunk driving on the coast road. Typhoon floods and landslides are the real emergencies, and the expected Nankai Trough earthquake is always on people's minds. Osaka's agencies are an hour north; the southern towns rely on a few local heroes.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 1,
+      "max": 30
+    },
+    "x": -7,
+    "y": -3,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/feff00b9-8847-43a4-bbe9-bde9a0fbbf23.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

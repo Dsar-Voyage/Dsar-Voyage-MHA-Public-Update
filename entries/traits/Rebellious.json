@@ -1,0 +1,20 @@
+{
+  "Rebellious": {
+    "name": "Rebellious",
+    "description": "✊ Rules made by other people are suggestions to you, and orders without reasons get ignored.\n\n🗝️ You find the side door, the gap in the fence and the way around the official route.\n⚠️ Teachers, agencies and the Commission take note, and discipline follows you.\n⚠️ You push back on good advice just because it came as an order.\n🔀 If you are also Loyal, you break rules for your people and never against them.\n\n📈 Grants: Infiltration +5",
+    "traitNarrativeEffects": "The character is rebellious: they question rules, ignore orders that come without reasons and find the side door around official routes. Weakness: authority notices. Teachers, agencies, police and the Commission keep records, discipline follows them, and they reject good advice because it came as an order. If the character is also Loyal, the rule-breaking is for their people and never against them. The narrator shows the rules and what breaking them would cost; whether to break them is the player's decision.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Infiltration",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

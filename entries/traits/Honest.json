@@ -1,0 +1,20 @@
+{
+  "Honest": {
+    "name": "Honest",
+    "description": "💬 You tell the truth, even when it costs you.\n\n🤝 People believe you, and your word carries weight with teachers, officers and strangers.\n⚠️ You are a terrible liar: lying, bluffing and holding a cover story are hard Deception checks for you.\n⚠️ Keeping secrets strains you, and you say hard truths at the wrong time.\n\n📈 Grants: Persuasion +5",
+    "traitNarrativeEffects": "The character tells the truth plainly. People believe them, and their word carries weight with teachers, officers and strangers. Weakness: they lie badly. Lying, bluffing and holding a cover story are hard Deception checks for them, and their face often gives them away. Keeping someone else's secret strains them. They say hard things people did not want to hear, sometimes at the wrong time, and tact takes effort. When a situation calls for a lie, the narrator gives honest approaches a fair chance and lets the hard check decide a dishonest one. Whether to lie at all, or to keep a secret, is the player's choice.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Persuasion",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

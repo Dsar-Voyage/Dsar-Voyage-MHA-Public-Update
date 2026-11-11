@@ -1,0 +1,24 @@
+{
+  "Payload Pitch": {
+    "name": "Payload Pitch",
+    "description": "The user floats a car, a vending machine or a steel beam, hurls it with a single hand while it weighs nothing, and gives its full weight back the instant it strikes. It deals heavy bludgeoning damage and knocks the target and anyone beside them flat; returning only part of the weight instead pins the target against a wall or the ground, unhurt, until they heave it off with a hard effort or the user lifts it away. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

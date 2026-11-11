@@ -1,0 +1,20 @@
+{
+  "Quiet Room Count": {
+    "name": "Quiet Room Count",
+    "description": "The user listens through a wall, floor or heavy door to count breathing people in a nearby closed room. They can direct a rescue team toward a trapped person and distinguish a moving person from machinery until the end of the user's next turn. A silent, unconscious person may be missed, and drilling or sirens can drown out the reading. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

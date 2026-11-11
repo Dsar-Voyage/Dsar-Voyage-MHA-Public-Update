@@ -1,0 +1,17 @@
+{
+  "Recovery Girl's Errand": {
+    "name": "Recovery Girl's Errand",
+    "questSource": "Recovery Girl",
+    "questStatement": "Recovery Girl's infirmary is busy after every hard week of training, and she has drafted you to help: carry a supply delivery in from the Main Gate, sort it the way she likes, and sit with a patient who has been told to rest and keeps trying to leave. She hands out gummies and orders in equal measure, and if you ask the right questions, she will tell you what her healing can and cannot do.",
+    "mainObjective": "Run Recovery Girl's errands, keep her patient in bed and learn the limits of her healing.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has finished Recovery Girl's errands, kept the patient resting until she released them, and heard from her what her Quirk costs and cannot fix."
+    },
+    "detailType": "detailed",
+    "questLocation": "U.A. Academy",
+    "questDesignBrief": "A warm, teaching quest. Recovery Girl is grandmotherly and blunt: her kiss speeds natural healing and spends the patient's stamina; she cannot regrow limbs, raise the dead or undo old damage, and bones broken again and again do not heal the same. The patient is whoever the story hurt most recently in training; if nobody, a Support Course student burned by a prototype in the Development Studio. She keeps every patient's records private and tells the PC nothing about another student's medical history. A teacher may drop in to be scolded. Failure: the patient slips out and gets worse, and Recovery Girl is disappointed in the PC.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Hydrant Shot": {
+    "name": "Hydrant Shot",
+    "description": "The user fires a hard jet of water from the palm at a target within a few strides. It deals bludgeoning damage and knocks them back a step; held back, it only drenches them and washes into their eyes, so they cannot aim until the end of their next turn. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Water Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

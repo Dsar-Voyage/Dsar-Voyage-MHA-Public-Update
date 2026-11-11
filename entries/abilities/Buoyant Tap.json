@@ -1,0 +1,20 @@
+{
+  "Buoyant Tap": {
+    "name": "Buoyant Tap",
+    "description": "With a rubbery fingertip tap, the user halves the weight of a person or an object up to a scooter's weight and gives their step a gentle spring until a release gesture. A lightened ally bounds across gaps and lands softly from two stories up, while a lightened enemy loses footing and cannot brace for a heavy swing. It needs bare skin contact and reaches half a pure gravity user's load. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Rebound Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

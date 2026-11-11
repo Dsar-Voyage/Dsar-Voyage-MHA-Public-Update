@@ -1,0 +1,18 @@
+{
+  "__generated_quest_progress__/Grading the Battle Trial": {
+    "name": "__generated_quest_progress__/Grading the Battle Trial",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "story",
+        "query": "The PC has supervised Battle Trial rounds from the Ground Beta monitor room, judged when to stop a round, and delivered grades with reasons to the students."
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-progress",
+        "questId": "Grading the Battle Trial"
+      }
+    ]
+  }
+}

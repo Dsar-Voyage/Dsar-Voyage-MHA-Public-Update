@@ -1,0 +1,20 @@
+{
+  "Proud": {
+    "name": "Proud",
+    "description": "🦁 You hold yourself to a high standard and carry yourself that way.\n\n👑 People feel your presence when you enter a room, and some step aside.\n⚠️ You hate looking weak: you refuse help, hide injuries and apologize with difficulty.\n⚠️ Losing in public cuts deep, and a rival can provoke you by questioning your skill.\n\n📈 Grants: Intimidation +5",
+    "traitNarrativeEffects": "The character carries themselves with confidence: straight back, firm voice, high standards for themselves and everyone near them. People notice when they enter a room, and some step aside. Weakness: they hate looking weak. They refuse help, hide injuries, apologize with difficulty and take any doubt about their skill as an insult. Losing in public cuts deep, and a rival can provoke them by questioning their ability. The narrator lets pride carry them through hard moments and lets it isolate them when they need someone. Whether they accept help, admit an injury or rise to a challenge to their skill is the player's choice.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Intimidation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

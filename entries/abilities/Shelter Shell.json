@@ -1,0 +1,20 @@
+{
+  "Shelter Shell": {
+    "name": "Shelter Shell",
+    "description": "The user kneels, spreads both arms and pours out a dome of foam-lined steel over themselves and the people beside them, wide enough for a small group. Until it is cut or blasted open, gunfire, falling debris, flame and smoke cannot reach anyone inside, a collapse cannot crush them, and the user can open a hatch in it from within. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Creation Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Stamina",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

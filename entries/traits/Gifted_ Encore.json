@@ -1,0 +1,32 @@
+{
+  "Gifted: Encore": {
+    "name": "Gifted: Encore",
+    "description": "🧬 Encore, as an extra Quirk put into your body.\n\n🌱 Start within six meters: steady allies, upset an opponent's step, supply music and a soft spotlight, and physically repeat a simple move with \"Encore\".\n📈 Attention stores power. Training adds capture footwork, leaps, crowd evacuation and stronger audience flourishes; replays never reverse time or copy another Quirk.\n⚠️ Silence, being ignored and noise that buries your beat weaken you. Common drawback pairing: Stamina Drain, from performing and repeating moves.\n⚖️ Venues may require permission; forced movement needs self-defense or licensed duty. Nobody must sing, dance or follow orders.\n🎬 Similar canon Quirks: Present Mic (Voice), for vocal delivery only.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Encore family): Scale: sound organs give rhythmic pressure, tones, a soft glow. New adult user, six meters: steadies two willing allies or unbalances a listener's step; \"Encore\" re-performs a simple move bodily; training widens it. Limits: bodies only, not minds or Quirk activation; nobody must sing or dance; no free sound or solid light. Earplugs, soundproofing, silence or louder noise stop it. Charges: +1 per turn with an attentive live observer (any side) in hearing, max 3; crowds, recordings, being ignored: none; a broken beat clears all; never replaces stamina. Replays undo, restore and copy nothing. Quirk Strain: light: opening beat; moderate: reprise, capture footwork, palm strike, leap; heavy: evacuation, audience flourish; severe: signature formation, company rhythm, awakened performances; reprises: double exertion. Type: Emitter. Law: venue permits where required; forced movement or restraint outside self-defense or licensed duty is assault.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Stamina",
+        "modifier": 5
+      },
+      {
+        "skill": "Media Presence",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

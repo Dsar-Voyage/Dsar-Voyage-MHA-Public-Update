@@ -1,0 +1,20 @@
+{
+  "Agency Dispatch": {
+    "name": "Agency Dispatch",
+    "description": "The user calls their agency's dispatch and the police band with what they see. Their sidekick or the nearest allied pro is sent to a point the user names and arrives within a few minutes, and police set up behind the user's lead. Cost: none.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Licensed Pro Hero",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Leadership",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

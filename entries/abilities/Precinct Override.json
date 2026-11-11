@@ -1,0 +1,25 @@
+{
+  "Precinct Override": {
+    "name": "Precinct Override",
+    "description": "The user lays a hand on a traffic signal box or a rail switch, and every machine joined to the city's network across several city blocks answers them for the rest of the scene. They turn every signal to clear a lane for ambulances, bring every train to a gentle stop at a platform, hold every elevator at a floor, open or seal any electronic door and stall every vehicle a villain is using. Ordinary drivers and passengers are stranded too, so the user must keep naming the machines that have to keep running, and they cannot move or defend themselves while they hold. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Machine Whisper Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

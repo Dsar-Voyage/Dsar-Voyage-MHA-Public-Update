@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Day After the USJ": {
+    "name": "Side Resume: The Day After the USJ",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "b1_day_after_usj",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_b1_day_after_usj",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_b1_day_after_usj",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "b1_day_after_usj"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_b1_day_after_usj",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Day After the USJ\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The day after the attack on the USJ, at U.A."
+      }
+    ]
+  }
+}

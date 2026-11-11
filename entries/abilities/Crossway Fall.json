@@ -1,0 +1,29 @@
+{
+  "Crossway Fall": {
+    "name": "Crossway Fall",
+    "description": "The user touches a person, a vehicle or a slab and turns the direction of its weight toward any side they choose for the rest of the scene. A touched enemy falls hard into the nearest wall or ceiling, taking heavy force damage and staying pinned there until the user lets go; held back, they only slide into it and stick. Touched allies can walk up walls and across ceilings. Each touch counts against the user's total weight, and a turned car or slab hurtles along its new fall until it hits something unless the user turns it back. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

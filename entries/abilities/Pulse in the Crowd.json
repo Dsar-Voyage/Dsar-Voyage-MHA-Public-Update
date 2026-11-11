@@ -1,0 +1,20 @@
+{
+  "Pulse in the Crowd": {
+    "name": "Pulse in the Crowd",
+    "description": "The user filters a busy scene down to a single person within a street's distance and tracks their words, breathing, pulse and sweat over the noise. Until the end of the scene the user can follow them through the crowd and notices each time their pulse jumps or their breath catches at something said, which shows stress, not truth. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Enhanced Senses Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Tack Shot": {
+    "name": "Tack Shot",
+    "description": "The user flicks a glob or strip of tape at a target across a room and glues whatever they aim at: a hand to what it holds or to the target's side, a foot to the ground, a weapon into its holster. That part cannot move until the target tears free with a hard effort or cuts it loose, and the shot causes no injury. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Adhesive Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

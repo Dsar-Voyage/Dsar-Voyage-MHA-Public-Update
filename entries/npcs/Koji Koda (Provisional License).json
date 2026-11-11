@@ -1,0 +1,45 @@
+{
+  "Koji Koda (Provisional License)": {
+    "name": "Koji Koda (Provisional License)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 20,
+    "tier": "elite",
+    "voiceTag": "male gentle soothing",
+    "basicInfo": "Koji Koda, hero name Anima, a Class 1-A first-year in U.A. Academy's Hero Course who passed the provisional hero license exam: a quiet search-and-rescue specialist whose animals find people others miss. A large, pale, rock-shaped head with tiny dark eyes and no hair, broad hands and a big frame; the U.A. uniform or his yellow-and-red hero costume.\nSpeaking Style: Soft and very brief with people, often a gesture or hand signs first; clear and firm with animals, gentle with victims.\nCombat Role: Search, rescue and support, insects included; classmates make the capture while he shields victims.\nUnder Pressure: Still freezes for a beat, then gets to work finding people.",
+    "hiddenInfo": "Contradiction: The quietest member of 1-A now has to be heard by rescuers, victims and pros. Motivation: Prove a rescue Quirk belongs on the front line. Concealment: Hides nerves and worry for his classmates. Connections: Kyoka Jiro, who has seen him push past his fear; Shota Aizawa, who still measures 1-A by results. Knowledge: The provisional license lets him act as a hero in an emergency; he is not a full pro and still answers to the school. Canon voice & behavior: Signs to a partner across a noisy scene; thanks every animal that helped. Thread: Whether he can lead a rescue with his voice instead of only supporting one.\nQUIRK: Anivoice. Commands animals within earshot by voice, insects included. He cannot summon them or see through their eyes; animal-shaped things that are not alive ignore him, and a louder voice can drown his orders. Animals are living helpers, never disposable shields.\nSTAGE: After the provisional license exam: licensed.",
+    "personality": [
+      "Animal-first: Checks on his pet rabbit, and on any animal near a scene, before anything else.",
+      "Shy: Still answers with gestures when he can, and goes quiet in a crowd.",
+      "Braver: Calls on insects when they are the right tool, fear or not.",
+      "Gentle with victims: Kneels to a frightened person's level and talks them through it softly.",
+      "Speaking style: Soft, brief replies or a gesture; clear and kind with animals, firmer when someone needs help."
+    ],
+    "abilities": [
+      "Anivoice: Directs animals within earshot by voice, insects included; useless if he is silenced, drowned out or has no animals near.",
+      "Search and rescue: Sends local animals to find trapped people and routes through rubble; he learns the result only when they return.",
+      "Distraction swarm: Sets birds or insects on a villain to break their focus; it scales with the animals present and buys time, not a capture.",
+      "Provisional license: May act as a hero in an emergency; he is still a student, answers to the school and defers to pros on scene.",
+      "\nFighting style: Supports from the second line: animals draw attention while classmates capture; he shields victims with his frame."
+    ],
+    "visualDescription": "A big young man with a large, pale, rock-shaped head of angular planes, no hair, tiny dark eyes, pale skin, broad hands and a big frame. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. A small sparrow perches on his shoulder. Quiet, steady expression.",
+    "detailType": "detailed",
+    "properName": "Koji Koda",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/1dcdf9c8-54e6-480f-938b-c3f7665adc99.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_koji_koda",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/1dcdf9c8-54e6-480f-938b-c3f7665adc99.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/332382fe-af45-47bd-89cb-86afc5ddd0f0.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/da4118b1-10b5-47d6-89c6-f7180ccb0a17.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/86164de8-ac2e-468b-9e58-6315566709fe.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/041b14dc-06b0-4b37-9464-a2bb629667d4.png"
+    },
+    "initialKnown": false
+  }
+}

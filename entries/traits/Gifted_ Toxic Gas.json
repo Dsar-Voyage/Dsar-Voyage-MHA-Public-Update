@@ -1,0 +1,35 @@
+{
+  "Gifted: Toxic Gas": {
+    "name": "Gifted: Toxic Gas",
+    "description": "🧬 Toxic Gas, as an extra Quirk put into your body.\n\n🌱 At the start you spit a stinging irritant into a foe's face and fill a room with thick, harmless smoke that hides you and the people you protect.\n📈 With training: sleep gas, trace gas that finds survivors in rubble, crowd-flooring nausea, a smothered fire, gas through masks, a building put to sleep with no one hurt.\n⚠️ Gas hits whoever breathes it, so where you release it matters most.\n🔗 Common drawback pairing: Bodily Toll, as your lungs and throat burn raw.\n🎬 Similar canon Quirks: Mustard (Gas).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Toxic Gas family): Scale: the user exhales body-made gas (or sweats it from the palms), one blend per release; at the start, stinging irritant or thick harmless smoke. A new adult user fills a room about five meters wide in a few seconds or sends a jet a few strides; a cloud lingers a few minutes in still air. Own gas never harms them. Knockout and stronger blends need techniques. Limits: wind, rain and water spray scatter it; sealed masks and held breath keep it out; it drifts onto allies, hostages and bystanders downwind. It takes a few breaths, cannot be recalled, and in a sealed room builds to a breath-stopping dose. Quirk Strain: light: irritant jet, smoke; moderate: knockout cloud, trace gas; heavy: nausea front, smothering a fire, mask-piercing dose; severe: signature storm, dosing a building. Type: Emitter. Law: unlicensed gassing is assault; licensed heroes using knockout gas in arrests answer for all who breathe it.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "toxic"
+    ]
+  }
+}

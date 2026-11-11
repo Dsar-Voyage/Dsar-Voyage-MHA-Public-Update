@@ -1,0 +1,20 @@
+{
+  "Dazzle Burst": {
+    "name": "Dazzle Burst",
+    "description": "The user claps both palms together on a blast tuned for light and noise instead of force. Everyone facing the user within a room's width is blinded and deafened until the end of their next turn: they cannot aim, read signals or hear orders, but take no damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Explosion Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

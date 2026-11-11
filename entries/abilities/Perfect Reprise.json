@@ -1,0 +1,29 @@
+{
+  "Perfect Reprise": {
+    "name": "Perfect Reprise",
+    "description": "The user spends three attention charges and calls \"Encore\" to physically repeat the last ordinary Encore technique they completed this scene, at its original range and strength, despite its cooldown. The user pays twice its normal exertion and performs every motion again; targets can react afresh. The user cannot repeat an Ultimate, awakened ability or reprise, and cannot use the Quirk for the rest of the scene afterward. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

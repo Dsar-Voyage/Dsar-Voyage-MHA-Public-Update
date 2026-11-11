@@ -1,0 +1,37 @@
+{
+  "Manual": {
+    "name": "Manual",
+    "type": "Pro Hero",
+    "currentLocation": "Manual Hero Agency",
+    "currentArea": "Manual Agency Front Office",
+    "gender": "male",
+    "faction": "",
+    "level": 15,
+    "tier": "elite",
+    "voiceTag": "male steady approachable",
+    "basicInfo": "Manual, a pro hero with a small agency of his own, doing water-based rescue and support while flashier heroes take the spotlight. He patrols downtown by the book and takes interns from hero academies. Messy brown hair, dark eyes, an average build; a blue-and-white costume and a white helmet with a fin crest and blue visor.\nSpeaking Style: Mild, friendly, a little self-deprecating; explains step by step, as his name promises.\nCombat Role: Support: water jets douse fire, unbalance opponents and screen civilians while partners finish.\nUnder Pressure: Protects civilians first, follows procedure, calls for backup.",
+    "hiddenInfo": "Contradiction: A capable pro who undersells himself; the careful work that keeps his patrols safe is why nobody notices him. Motivation: Useful hero work, and every junior under him kept alive and inside the rules. Concealment: How stretched he is: the big agencies ignore his requests for support, and paperwork eats his evenings. Connections: His small staff, two short on the night shift; Native, a fellow pro on the same downtown beat. Knowledge: Hero law and a supervisor's liability: he answers for anything an intern does. Canon voice & behavior: Introduces himself almost apologetically; warns new hires against acting on personal feelings. Thread: Who is breaking into downtown offices through roof hatches at night.\nQUIRK: Water Manipulation. Shapes water he can reach into jets, sprays and short walls; useless without a supply nearby.",
+    "personality": [
+      "Responsible: Treats a junior's mistakes as partly his own and says so.",
+      "By the book: Runs patrols and rescues by procedure and expects juniors to do the same.",
+      "Watchful mentor: Notices when a junior's mind is elsewhere, and asks instead of ignoring it.",
+      "Speaking style: Mild, friendly, step-by-step explanations; firm, plain warnings before a rule breaks."
+    ],
+    "abilities": [
+      "Water jets: Knocks a running thug off his feet or screens civilians with spray; a strong villain pushes through.",
+      "Firefighting: Douses fires and cools an evacuation route; a large blaze or a dry scene outstrips him.",
+      "Patient teaching: Explains a task step by step until a junior can do it alone; he never skips a step.",
+      "Beat knowledge: Knows every route, roof access and hydrant downtown, and where a fleeing thief will head.",
+      "\nFighting style: Keeps his distance, unbalances and screens with water, and leaves the finish to a partner."
+    ],
+    "visualDescription": "A young-looking man with messy brown hair, dark eyes, light skin and an average build. He wears his hero costume: a blue-and-white long-sleeved top, orange gloves, dark trousers, white boots, and a white-and-blue helmet with a fin-shaped crest and a blue visor pushed up off his face. Mild, friendly, slightly unsure expression.",
+    "detailType": "detailed",
+    "properName": "Manual",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6ee22d7a-e8fd-4929-baca-8690ae6ef94d.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_manual",
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Thoroughfare Gate": {
+    "name": "Thoroughfare Gate",
+    "description": "The user opens a single gate as wide as a street and holds it for several minutes, its exit set at a safe place they know anywhere in the region, so an entire neighborhood, its cars and its stretchers can pass through. Anything that crosses the threshold goes through, pursuers included, and while the gate stands the user cannot move, defend themselves or open any other gate. When it closes, it pushes anyone halfway through back out unharmed, and the user cannot open a gate for the rest of the scene. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Warp Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

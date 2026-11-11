@@ -1,0 +1,17 @@
+{
+  "Vlad King's Orientation Drills": {
+    "name": "Vlad King's Orientation Drills",
+    "questSource": "Vlad King",
+    "questStatement": "Class 1-B sits through the entrance ceremony with every other class, and by lunch the rumor is everywhere: next door, Shota Aizawa skipped it to test Class 1-A on the spot. Vlad King has no intention of letting his class fall behind. He has booked Gym Gamma for Monday afternoon (Tuesday's lesson is the Battle Trial at Ground Beta) and announced conditioning and teamwork drills built around every Quirk in 1-B, with himself shouting surnames from the sideline. He wants to see who carries the class and who hides.",
+    "mainObjective": "Complete Vlad King's Monday drills in Gym Gamma and show him what you bring to Class 1-B.",
+    "completionCondition": {
+      "type": "story",
+      "query": "The PC has finished Vlad King's Monday drills in Gym Gamma and heard his verdict on the role they play in Class 1-B's team."
+    },
+    "detailType": "detailed",
+    "questLocation": "Gym Gamma",
+    "questDesignBrief": "Loud, warm and sweaty. Vlad King runs relay sprints, escape drills from loose Blood Control restraints that pairs must break together, and a team carry in which 1-B moves the whole class across Gym Gamma by Quirks alone. Cementoss raises obstacles on request. Itsuka Kendo organizes, Neito Monoma narrates 1-A's rumored test with theatrical scorn, and Tetsutetsu Tetsutetsu tries to win every drill. Nobody is expelled here: a weak showing earns extra evening drills and a partner assigned to fix the weak spot. Supervised and nonlethal; Recovery Girl treats injuries. Nothing in these drills stages any later canon event.",
+    "conclusive": false,
+    "status": "hidden"
+  }
+}

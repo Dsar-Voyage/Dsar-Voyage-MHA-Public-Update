@@ -1,0 +1,25 @@
+{
+  "Null Horizon": {
+    "name": "Null Horizon",
+    "description": "The user's signature move: their eyes blaze and the look takes in the whole scene at once. Until the end of the user's next turn, every person in sight, allies included, loses their Emitter and Transformation Quirks, transformations collapse and every barrier, portal or construct a Quirk is holding up drops; when it ends the user's eyes are spent, and the Quirk does not work through their following turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Suppression Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

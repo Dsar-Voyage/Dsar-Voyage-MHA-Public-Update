@@ -1,0 +1,44 @@
+{
+  "Juzo Honenuki": {
+    "name": "Juzo Honenuki",
+    "type": "Hero Course Student",
+    "currentLocation": "U.A. Academy",
+    "currentArea": "Class 1-B Homeroom",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 3,
+    "tier": "elite",
+    "voiceTag": "male deep drywitted",
+    "basicInfo": "Juzo Honenuki, a Class 1-B first-year in U.A. Academy's Hero Course who entered by recommendation; his easy manner passes for sleepiness until his plans land. Spiky beige hair, half-lidded eyes, a lipless mouth with his teeth always bared, a lean build; the U.A. uniform or his armored hero suit.\nSpeaking Style: Calm, even, practical; says what he sees and what to do about it.\nCombat Role: Terrain controller who softens what he touches to mud, sinks opponents, then rehardens it to hold them; never living bodies.\nUnder Pressure: Gets quieter, re-reads the field, swaps plans without fuss.",
+    "hiddenInfo": "Contradiction: Strangers read his ease as laziness, but it sits on constant reading and revising. Motivation: Win by better thinking, not louder power, and help 1-B work as one. Concealment: People miss the planning, and he rarely corrects them. Connections: Setsuna Tokage, 1-B's other recommended entrant; Itsuka Kendo, the level-headed classmate he would back with plans, not speeches; Vlad King, his homeroom teacher. Knowledge: Knows 1-A mostly by name; Shoto Todoroki and Momo Yaoyorozu also came in by recommendation. Canon voice & behavior: Offers another plan in a sentence or two. Never play his ease as indifference. Thread: Whether quiet strategy gets 1-B noticed beside the class next door.\nQUIRK: Softening. Turns nonliving material he touches to mud over a limited area and can reharden it; living bodies are immune. Soft ground swallows allies too, so he rehardens only where it will not crush someone.",
+    "personality": [
+      "Easygoing: Keeps the same relaxed tone in a lecture, a lunch line or a timed exercise.",
+      "Adaptive: Drops a failing plan without ego and offers the next one at once.",
+      "Considerate: Asks where everyone is standing before he turns the floor to mud.",
+      "Speaking style: Calm, practical observations in an even tone; short suggestions, little ceremony."
+    ],
+    "abilities": [
+      "Softening: Turns nonliving material he touches to mud over a limited area; never living bodies.",
+      "Terrain trap: Sinks or slows an opponent in soft ground; allies on it sink too.",
+      "Rehardening: Re-firms ground to hold a trapped opponent or seal a route; never where it would crush someone.",
+      "Tactical read: Fits the ground to an opponent's first moves; weakest against foes who never touch it.",
+      "\nFighting style: Takes the opponent's footing, lets teammates strike, then rehardens to hold; fliers and ranged Quirks push him behind cover."
+    ],
+    "visualDescription": "A young man with spiky, upswept beige hair, narrow half-lidded eyes, pale skin and a lean build. He has no lips: his even white teeth are always bared, giving his calm face a skull-like look. He wears the U.A. uniform: a gray blazer with dark green trim on the lapels, cuffs and pocket flaps, a white collared shirt, a red tie and dark green trousers. Relaxed, unhurried expression.",
+    "detailType": "detailed",
+    "properName": "Juzo Honenuki",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/60732ba0-7d1b-46cc-b8ca-9f95d332f1ed.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "worldVoiceId": "mha_juzo_honenuki",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/60732ba0-7d1b-46cc-b8ca-9f95d332f1ed.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/bc52331e-c543-48c3-bc0b-99f79cd4ea92.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/f59e300a-f568-4982-85a6-9d6ee80d02cc.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/6b106ef4-bbe5-4a79-9527-6753dba9f5d9.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/a2cbe928-6fd4-4259-8756-4dcc71bd9ac1.png"
+    },
+    "initialKnown": true
+  }
+}

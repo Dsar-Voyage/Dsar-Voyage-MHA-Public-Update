@@ -1,0 +1,24 @@
+{
+  "Eddy Plumes": {
+    "name": "Eddy Plumes",
+    "description": "The user sheds a handful of stiff primary feathers that ride small pockets of wind around a target within half a street's width. The swirling plumes deal slashing damage or pin the target's coat and sleeves to a wall or floor so they cannot move until they tear free. It covers half the range and feather count of a pure wing volley, and the thinned wings cannot lift the user until the end of their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Gale Wings Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

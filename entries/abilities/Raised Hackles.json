@@ -1,0 +1,20 @@
+{
+  "Raised Hackles": {
+    "name": "Raised Hackles",
+    "description": "The user's animal instincts flag danger a heartbeat early. Until the start of their next turn, neither they nor a person beside them can be caught by surprise, and the first attack aimed at either of them, even a sniper's shot or an ambush from behind, misses as the user pulls them both clear. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Animal Heteromorph Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

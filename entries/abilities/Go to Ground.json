@@ -1,0 +1,20 @@
+{
+  "Go to Ground": {
+    "name": "Go to Ground",
+    "description": "The user pulls the people nearby into a doorway, under a car, behind a counter or into a crowd and keeps them silent. Villains and other searchers pass over the hidden group until one of them moves or makes a noise; a sensing Quirk or a close search can still find them. Stamina: brief.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Non-Combatant",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Evacuation",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 1
+  }
+}

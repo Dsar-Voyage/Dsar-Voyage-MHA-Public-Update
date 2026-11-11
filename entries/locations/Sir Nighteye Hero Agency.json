@@ -1,0 +1,65 @@
+{
+  "Sir Nighteye Hero Agency": {
+    "name": "Sir Nighteye Hero Agency",
+    "basicInfo": "Sir Nighteye's agency fills two floors of an office building about 7 km northwest of downtown Osaka, west of Shin-Osaka Station. Sir Nighteye (Mirai Sasaki) was All Might's sidekick for years before going independent; tall, thin and severe, he runs a precise, analysis-driven agency that takes investigations, surveillance and long cases other agencies drop. His Quirk, Foresight, lets him see a person's future after touching them and meeting their eyes, and he uses it sparingly. His sidekicks are Bubble Girl, upbeat and loud, whose bubbles burst with any scent she has smelled before, and Centipeder, a courteous, centipede-featured man who handles surveillance and restraints. Mirio Togata, a U.A. Academy third-year and one of its Big Three, does his work-study here. The office is full of All Might memorabilia, and Nighteye insists his staff keep a sense of humor; staff who disappoint him end up in his tickling machine. Office hours are nine to six, but investigations run late, and someone is usually at a desk until midnight. Visitors enter through the building's lobby and ride up to a reception counter where Bubble Girl or a clerk asks their business; nobody goes past the counter without an appointment or a case worth hearing, and the case files never leave the office. Applicants are expected to make Nighteye laugh, or at least to try. A player can apply as an intern or sidekick, bring a case, or join a team-up. The agency's reputation is for patience: it rarely makes headlines, but the cases it takes end in arrests that stick. The feeling is a quiet library with a manic streak, where a stern man in glasses watches every visitor from behind a wall of smiling All Might posters.",
+    "hiddenInfo": "Nighteye has not spoken with All Might in years; they parted over something neither will discuss, and anyone who raises it meets a cold silence. The truth is that Nighteye once used Foresight on All Might, saw what he saw, and begged him to retire; All Might refused, and Nighteye left. He is one of very few people who know how badly All Might was wounded years ago and how short his fighting hours have become, and he guards that secret absolutely. He believes the future he sees cannot be changed, which makes him careful to the point of rigidity, and he pushes Mirio harder than any other trainee because he believes Mirio can become the next Symbol of Peace. Foresight works on one person at a time for about an hour once he activates it, and he will not waste it. Right now the agency is quietly building a file on the Shie Hassaikai: Centipeder has been logging who comes and goes at its compound from a rented room across the street, and Nighteye is tracking who the group buys from and sells to. The file holds two odd threads he cannot yet explain: the house buys sterile gloves, antiseptic and medical supplies by the crate through a supplier in another prefecture, far more than one comatose old man needs, and its members have started meeting underworld brokers in Osaka bars. The police know about the file and want to hear the moment it holds evidence. Nighteye wants to touch Chisaki and look at his future, but a hero who lays a hand on a member of a watched group without cause hands the house a complaint, so he waits for a reason.",
+    "x": -18.05,
+    "y": -16.58,
+    "radius": 0.8,
+    "region": "Osaka North",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Agency Office": {
+        "description": "An open-plan office of neat desks, filing cabinets and case boards, under walls and shelves covered in All Might memorabilia: posters from every year of his career, figures in glass cases, signed photos and rare limited goods, all dusted and arranged with care. Bubble Girl and Centipeder work here between patrols, and Mirio comes in on work-study days, cheerful and loud enough to break the hush. Nighteye's desk faces the door, so he sees every visitor before they see him; the tickling machine stands in one corner, a padded chair with restraints and feather arms that every staff member has sat in at least once. The reception counter by the elevator is where visitors wait to be seen, and Centipeder's surveillance desk by the window holds a row of monitors and stacked logbooks. Mornings are for reports and filing; afternoons for patrol and fieldwork; evenings for the long cases. The room is silent but for keyboards and the occasional forced joke, and the house rule is that anyone who touches an All Might figure without asking will regret it. A door at the back leads to the Meeting Room.",
+        "paths": [
+          "Meeting Room"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f47e0312-1083-44aa-9e08-e54d4ec41087.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Meeting Room": {
+        "description": "A long conference room with a table for twenty, a projector, whiteboards and a wall of case maps marked with pins and string. Nighteye briefs police and visiting heroes here and plans team-ups; on quiet days he reviews footage frame by frame, and Bubble Girl brings him tea he forgets to drink. The current map is of southeastern Osaka, with surveillance photos and car plates pinned in neat rows. The blinds stay closed, a single framed All Might poster faces his chair, and the unwritten rule is that everyone has read the file before sitting down: anyone who has not is asked to leave and come back when they have. The only door leads back to the Agency Office.",
+        "paths": [
+          "Agency Office"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/ab6bfc26-a0b4-462f-bd83-e67b5e5d61bf.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/423d900f-1308-4a5b-8fcf-91e0fac04621.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Ise Bay": {
+    "name": "Ise Bay",
+    "basicInfo": "Ise Bay is the cell where the Nobi plain meets the sea: the head of Ise Bay and the port of Nagoya at the north, the Mie shore of Kuwana, Yokkaichi and Suzuka along the west, the long Chita Peninsula reaching south down the middle, and the western arm of Mikawa Bay with Hekinan and Nishio on the east. Ise Bay is the open water west of Chita; Mikawa Bay is the sheltered water east of it. Both are shallow, greenish and crowded with ships, the islands of Himaka and Shinojima sit near the southern edge, and the Suzuka mountains rise behind the Mie coast. Summers are hot, with late typhoons; winters dry and windy. The northern shore belongs to Nagoya's southern wards: Atsuta Shrine, one of Japan's most important, in its grove of giant camphors; the container and car terminals of the country's busiest cargo port; the aquarium at the Garden Pier; and steel and chemical works on reclaimed land. Across the water, Kuwana is known for grilled clams and the outlet and amusement complex at Nagashima, Yokkaichi for its petrochemical complex whose lit towers draw night-view cruises and for thick tonteki pork steaks, and Suzuka for its motor-racing circuit and its old Tsubaki shrine. On Chita, Tokoname has a pottery path of brick kiln chimneys and walls of old jars and pipes, Handa has black-walled vinegar and sake breweries along a canal, and Chubu Centrair airport stands on an artificial island offshore; farther south are beaches, fishing harbors, and octopus and fugu on the islands. On the Mikawa side, Hekinan and Takahama fire roof tiles, Nishio grows much of Japan's matcha tea, and Isshiki raises eels. The Isewangan Expressway crosses the port on three cable-stayed bridges, Meitetsu lines run down Chita to the airport and the southern tip, Kintetsu and JR follow the Mie coast, and small ferries cross to the islands. Musutafu is about an hour and a half away by shinkansen to Nagoya and a train south; Osaka is about an hour and a half by Kintetsu. Hero coverage is dense on the Nagoya waterfront and in the Mie cities, maritime heroes and the coast guard watch the shipping lanes, and dock workers with lifting Quirks hold harbor licenses.",
+    "hiddenInfo": "Ise Bay's undercurrent is the port: theft from container yards, smuggled goods moving through car terminals and fishing harbors, and day laborers drawn into small rackets. The petrochemical belt worries residents with leaks and fires that can grow into major emergencies quickly. Southern Chita's quiet harbors and the islands see poaching and boat theft. Police and hero response is fast around Nagoya port and Yokkaichi, slower on southern Chita and the islands, where the coast guard or a maritime hero may be the nearest help.",
+    "realm": "Japan",
+    "factions": [
+      "Japanese Police"
+    ],
+    "npcLevelRange": {
+      "min": 5,
+      "max": 40
+    },
+    "x": -4,
+    "y": -1,
+    "images": {
+      "map": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/6e6cfb0b-2545-4a83-9c51-4c9ad1c20734.jpg",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

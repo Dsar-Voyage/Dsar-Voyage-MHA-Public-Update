@@ -1,0 +1,20 @@
+{
+  "Weightless Shoulder Throw": {
+    "name": "Weightless Shoulder Throw",
+    "description": "The user touches an opponent within reach with all five fingertip pads, floats them and pulls their arm into a shoulder throw. A low release deals light bludgeoning damage; held back, the user guides them onto their back without a drop. The user needs a secure grip, and a target who breaks contact before all pads land avoids activation. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Zero Gravity Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 1
+  }
+}

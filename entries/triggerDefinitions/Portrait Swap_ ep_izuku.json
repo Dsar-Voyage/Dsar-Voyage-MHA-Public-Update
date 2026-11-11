@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_izuku": {
+    "name": "Portrait Swap: ep_izuku",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/d2255e4b-770b-4d51-b3bd-df6fcd2f452c.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/d2255e4b-770b-4d51-b3bd-df6fcd2f452c.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/d2255e4b-770b-4d51-b3bd-df6fcd2f452c.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Izuku Midoriya (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/d2255e4b-770b-4d51-b3bd-df6fcd2f452c.png"
+      }
+    ]
+  }
+}

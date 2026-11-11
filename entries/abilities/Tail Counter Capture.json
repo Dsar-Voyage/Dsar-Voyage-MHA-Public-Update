@@ -1,0 +1,29 @@
+{
+  "Tail Counter Capture": {
+    "name": "Tail Counter Capture",
+    "description": "The user combines a hand parry, a tail hook and a hip turn against one visible attacker within two meters, redirecting the attack into a controlled ground hold without a crushing strike. The tail holds the opponent until they overpower it or the user releases them. The sequence requires firm footing and a readable close attack; afterward the tail trembles and cannot strike until the end of the user's next turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Tail Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Lens Point": {
+    "name": "Lens Point",
+    "description": "The user cups the light gathered through their body into a single white-hot point and holds it on a target. It deals heavy light damage that burns through worn armor and padding, and within moments it cuts rope, zip ties, cuffs or a padlock without harming the person bound by them. It needs daylight or bright lamps to draw on. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Invisibility Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 50,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "Telescoping baton": {
+    "name": "Telescoping baton",
+    "category": "Weapon",
+    "slot": "Weapon",
+    "bonuses": [
+      {
+        "type": "stat",
+        "variable": "damage",
+        "value": 2
+      },
+      {
+        "type": "skill",
+        "variable": "Melee Weapons",
+        "value": 3
+      }
+    ],
+    "description": "A steel baton that snaps out to full length with a flick of the wrist and collapses back to pocket size. Police and security guards carry them on duty; anyone else who carries one hidden without a legitimate reason breaks the Minor Offenses Act, and police confiscate it. [ Weapon | About ¥7,000; carrying one without reason is illegal ]",
+    "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/28b16dad-96dc-47f6-8a4d-7505f4afed7f.png",
+    "imageFocusX": 50,
+    "imageFocusY": 50,
+    "imageZoom": 100,
+    "tier": "artisan"
+  }
+}

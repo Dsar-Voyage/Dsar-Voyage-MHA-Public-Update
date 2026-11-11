@@ -1,0 +1,20 @@
+{
+  "Plugside Listen": {
+    "name": "Plugside Listen",
+    "description": "The user plugs one jack into a wall or floor and listens for footsteps, voices and moving machinery on the connected side. Until the end of the user's next turn, they can point out one nearby person's position or warn allies that someone approaches. A quiet, motionless target may go unheard, and loud machinery can mask softer sounds. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Earphone Jack Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

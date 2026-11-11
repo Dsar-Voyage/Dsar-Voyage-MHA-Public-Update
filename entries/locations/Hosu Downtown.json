@@ -1,0 +1,166 @@
+{
+  "Hosu Downtown": {
+    "name": "Hosu Downtown",
+    "basicInfo": "Hosu Downtown is the commercial heart of Hosu, a dense commuter city about 30 km north of Tokyo Station. Elevated rail lines cross the district on concrete overpasses, and Main Street runs north from Hosu Station between office towers, banks, a department store, chain restaurants, pachinko parlors and electronics shops. Offices keep nine-to-six hours; the station floods with commuters at both ends of the day, lunch crowds pack the noodle counters at noon, and izakaya and karaoke bars keep the side streets busy until the last train, after which the avenue empties fast. The Hosu police, under Chief Kenji Tsuragamae, staff a police box on the Station Plaza, and pro heroes from local agencies patrol the streets on foot and the rooftops by Quirk: Native walks Main Street most days, Manual's small agency runs fixed day and night routes, and the popular Ingenium, Tensei Iida of Team Idaten, is often on the plaza, where fans crowd him for photos. The streets and the plaza are open to anyone at any hour; the office roofs are not, because building managers keep the roof doors locked. A player can shop, find office or restaurant work, meet contacts in the cafes around the station, report trouble at the police box, or follow the rooftop routes heroes use. Express trains run from Hosu Station toward central Tokyo in about half an hour; a local line reaches the Back Alleys, about 4 km southwest, in five minutes; buses run to Hosu General Hospital, about 4 km north-northwest; Manual's office is about 3 km east-northeast; and U.A. Academy is about 105 km to the southwest. Station chimes and the rumble of trains on the overpasses carry across the whole district.",
+    "hiddenInfo": "Someone has been breaking into offices along Main Street at night, coming in through roof hatches and leaving across the rooftops. The police suspect a thief with a climbing or leaping Quirk, and Manual has added rooftop checks to his night patrol, which thins his street routes. Native keeps a list of every forced hatch and has noticed that the thief takes only cash and small electronics and is always gone before the night patrol's first roof check. Hosu has few heroes for its size: the big agencies sit in central Tokyo, a call from downtown can wait ten minutes or more for a pro, and shop owners complain about it openly. Local heroes follow every report about the Hero Killer Stain. At the start of the year, unknown to any of them, he is already here: for several nights he has crouched among the billboard frames on the downtown rooftops, studying how Hosu's heroes work: Native's beat, Manual's night routes, the crowds around Ingenium on the plaza, how long a call takes to answer. He has chosen no one, and whether he ever does depends on what he sees. The burglar has twice glimpsed a motionless figure in a long red scarf on a neighboring roof and fled empty-handed, and a building manager found a cut padlock on a roof door where nothing was taken. The station's security office keeps camera footage for only a week, and its cameras do not cover the roofs, so anyone who wants to know who walks up there has to go up and look.",
+    "x": 5.82,
+    "y": 11.13,
+    "radius": 1.5,
+    "region": "Greater Tokyo",
+    "complexityType": "complex",
+    "detailType": "detailed",
+    "areas": {
+      "Main Street": {
+        "description": "A wide four-lane avenue running north from Hosu Station between glass office towers, with a department store, banks, chain restaurants, electronics shops and pachinko parlors at street level and office lobbies behind revolving doors. Office workers crowd the sidewalks at lunch and after six; delivery vans double-park all morning, and smokers cluster in the marked corners outside the convenience stores. Heroes on patrol pass several times a day, Native on foot most of all, and fans stop them for photos and autographs while shopkeepers corner them about the latest break-in. At night the towers go dark floor by floor until only the security desks and the pachinko signs are lit. Halfway up, the avenue runs under an elevated rail line, and every few minutes a passing train drowns out every conversation beneath it; regulars simply stop talking and wait. The Station Plaza opens at the avenue's south end, and service stairwells in the older buildings climb to the Downtown Rooftops.",
+        "paths": [
+          "Station Plaza",
+          "Downtown Rooftops",
+          "Izakaya Street",
+          "Hosu Karaoke Box",
+          "All-Night Convenience Store"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/36a40009-68c4-4c25-a469-2e52f933f4d4.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Station Plaza": {
+        "description": "The paved plaza in front of Hosu Station: a bus terminal, a taxi rank, bicycle racks, the police box and a giant screen on the station front looping hero news, ranking updates and ads. Commuters pour through at morning and evening rush, thousands crossing in a few minutes; in between, the plaza belongs to students, street musicians, people handing out flyers and people waiting to meet someone by the big screen. Chief Kenji Tsuragamae is often at the police box in his dark suit, and Ingenium stops here between calls, laughing with fans while his sidekicks keep the crowd out of the bus lane. After the last train the plaza empties to taxis, a few drunks and the officer on night duty. Departure chimes and platform announcements carry across the plaza all day, the officers in the police box know the regulars by sight, and the smell of grilled corn drifts from a cart by the bus stops. Main Street runs north from the plaza.",
+        "paths": [
+          "Main Street",
+          "Chain Coffee Shop",
+          "All-Night Convenience Store"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/216b91bc-b1fa-479c-97e8-4564fbbf50fa.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Downtown Rooftops": {
+        "description": "Flat office roofs ten to twenty stories up, crowded with air-conditioning units, antenna masts, billboard frames, water tanks and window-cleaning rigs. Building managers keep the roof doors locked, so the people up here are maintenance crews with keys, patrolling heroes with movement Quirks who use the roofs as shortcuts, and now and then someone who has no business here. On the older blocks the gaps between buildings are narrow enough to jump; on the newer ones they are not, and the edge drops straight to the traffic. By day the roofs are hot, bright and empty but for an office worker sneaking a cigarette; at night the city spreads out below in lines of light along the overpasses, and a figure standing still against a billboard frame is easy to miss. The wind is hard and steady, the street noise thins to a hum, and the elevated trains pass close enough to some roofs to shake the gravel. Without a movement Quirk, the only way down is a service stairwell to Main Street.",
+        "paths": [
+          "Main Street"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c95972c6-4a33-42fc-a018-b2e0b8051710.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Izakaya Street": {
+        "description": "A side street off Main Street running under the elevated rail line, where izakaya fill the arches and the ground floors on both sides: chain places with all-you-can-drink deals, family counters with red lanterns, a smoky skewer bar and an oden stand with steaming pots. After six, office workers pour out of the towers and in through the cloth curtains; by eight every counter is full of beer, highballs and skewers at about 150 yen each, and staff bellow a welcome at every arrival. Touts with laminated menus work both ends of the street, promising cheap courses and skipping anyone who looks local. Trains overhead rattle the glasses every few minutes, and regulars pause mid-sentence until they pass. Talk at the counters this spring is the break-ins on Main Street, the Hero Killer reports from other cities and how long a pro takes to come when you call; the owners keep the police box number taped by the phone. Closing time near the last train brings the street's only regular trouble, shoving matches on the curb that usually end before an officer arrives. Smoke, soy and beer hang under the arches. The street opens back onto Main Street.",
+        "paths": [
+          "Main Street",
+          "Hosu Karaoke Box"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/d42d41a6-c5d7-474d-a31b-1c16312636d7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Hosu Karaoke Box": {
+        "description": "A narrow karaoke building at the corner where the izakaya street meets Main Street, its glowing sign stacked floor by floor and a staff member handing out discount tickets outside. The ground-floor desk rents rooms by the half hour, about 400 yen a head on weekday afternoons and more after six, with all-you-can-drink plans and an all-night package from eleven to five that fills with office workers who missed the last train. Upstairs, rooms of every size have padded benches, two microphones, a touch-pad song list and a phone for ordering food. Afternoons belong to students and retirees practicing enka; after six, office teams arrive from the izakaya for after-parties, and the bosses sing first. The locals request the song from Team Idaten's recruiting ad whenever Ingenium is on the news. The doors have glass panels so the staff can check the rooms, and a notice at the desk asks customers to leave their Quirks out of the microphones. The night clerk calls the police box only when a fight spills into the hall. Bass and off-key choruses leak through every wall. The entrance opens onto Main Street, a few steps from the Izakaya Street.",
+        "paths": [
+          "Main Street",
+          "Izakaya Street"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/c5dee577-ad3b-4dce-b61a-c28d81069fb7.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Chain Coffee Shop": {
+        "description": "A two-floor chain coffee shop on a corner of the Station Plaza, with a counter and pastry case downstairs and an upstairs room of small tables and a window bar that looks straight across the plaza at the big screen and the police box. It opens at seven, and the morning line of commuters runs out the door; mid-morning, salespeople hold meetings over laptops and job seekers polish their résumés; at lunch, office workers carry their sandwiches up the stairs; after classes, local students study at the window until the staff start mopping at ten. A drip coffee costs about 350 yen and a seasonal sweet drink about 600. The window bar is a good place to wait for someone, to watch the fans gather when Ingenium stops by the screen, or to see who goes in and out of the police box, and regulars report the day's hero sightings to each other as if reading the news. Staff keep a wide chair for heteromorph customers, and a sign by the lids asks customers not to use Quirks to chill or heat their own drinks. It smells of espresso and cinnamon, and departure chimes from the station carry through the glass. The door opens onto the Station Plaza.",
+        "paths": [
+          "Station Plaza"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/72026a60-173d-4c0c-a96b-b998d0d831bf.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "All-Night Convenience Store": {
+        "description": "A twenty-four-hour convenience store where Main Street meets the Station Plaza, with bright glass walls, a magazine rack along the front window, shelves of rice balls, boxed meals and instant noodles, a hot case of fried chicken and a pot of oden by the register, an ATM, a copier and recycling bins outside. Commuters grab coffee and rice balls before the morning trains; office workers buy lunch and pay bills at noon; after the bars close, drunks buy water and the last of the fried chicken, taxi drivers stock up, and a few homeless regulars warm up by the door until the clerk asks them to move on. Night shifts are thin, one or two part-timers, and the store has had two late-night shoplifting runs this month; the manager keeps a slip behind the register noting the times a hero last walked past, and on most nights it has long gaps. The night officer from the police box comes in for coffee around two. A small TV over the counter runs hero news, the fridges hum, and the door chime rings every few seconds until long after midnight. It smells of fryer oil and simmering dashi. The doors open onto the Station Plaza and Main Street.",
+        "paths": [
+          "Station Plaza",
+          "Main Street"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/882faf60-7943-4bca-a998-0227bf2f5273.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      }
+    },
+    "factions": [
+      "Japanese Police"
+    ],
+    "images": {
+      "establishingShot": {
+        "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/b73520e8-0316-49f8-a89e-69c96687623c.png",
+        "crop": {
+          "focus": {
+            "x": 50,
+            "y": 50
+          },
+          "zoom": 100
+        }
+      }
+    },
+    "initialKnown": true
+  }
+}

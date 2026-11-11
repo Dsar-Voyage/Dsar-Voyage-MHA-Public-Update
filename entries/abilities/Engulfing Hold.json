@@ -1,0 +1,20 @@
+{
+  "Engulfing Hold": {
+    "name": "Engulfing Hold",
+    "description": "The user presses into a target, or lets a punch or kick land, and draws the arm or leg deep into their soft body before clamping down. The target cannot pull free, strike with that limb or run until they break free with a hard effort or the user lets go, and the hold does them no harm. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Impact Absorption Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

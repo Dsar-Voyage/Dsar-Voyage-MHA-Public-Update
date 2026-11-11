@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: ep_minoru": {
+    "name": "Portrait Swap: ep_minoru",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Minoru Mineta (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b9f5b8e7-48cb-46bc-b750-72405b27ab19.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Minoru Mineta",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b9f5b8e7-48cb-46bc-b750-72405b27ab19.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Minoru Mineta (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b9f5b8e7-48cb-46bc-b750-72405b27ab19.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Minoru Mineta (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/b9f5b8e7-48cb-46bc-b750-72405b27ab19.png"
+      }
+    ]
+  }
+}

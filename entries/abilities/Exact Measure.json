@@ -1,0 +1,29 @@
+{
+  "Exact Measure": {
+    "name": "Exact Measure",
+    "description": "For the rest of the scene the user swells only the muscles a task needs, by the amount it needs, and their hands keep fine touch while boosted. They tear a crushed car apart around the people inside, open a bomb casing without jarring it, pry a hostage out of a grappler's grip, or land a blow that deals heavy bludgeoning damage to armor, a shield or a held weapon and none to the body beneath. Each use drains the user's reserves, so when the scene ends they crash for an hour instead of minutes. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Strength Boost Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

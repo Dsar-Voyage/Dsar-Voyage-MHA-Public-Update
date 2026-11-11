@@ -1,0 +1,33 @@
+{
+  "Event Start: Finish What We Started": {
+    "name": "Event Start: Finish What We Started",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 451
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_someone_takes_the_childs_hand",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Gg]raduat|[Tt]ime skip|[Ss]kip to the end|[Ee]nd of (school|the year|the story)"
+      }
+    ],
+    "effects": [],
+    "recurring": false,
+    "script": "(function(){const S=[\"U.A. Academy\", \"Hero Agency Row\"];/*eg*/const UA=check({type:'read-boolean',key:'offCampus'})!==true&&/\"U\\.A\\. /.test(JSON.stringify(check({type:'player-traits'})||''));const AUD=(UA);const LOC=check({type:'party-location'})||'',OFF=S.indexOf(LOC)<0;if(UA&&!AUD&&(OFF||LOC==='U.A. Academy')){skip=true;return;}if(OFF&&!AUD){skip=true;return;}if(OFF)effects.push({\"type\": \"story\", \"instruction\": \"Narrator only: Finish What We Started happens today and the player is part of it as the event describes. Wherever they are (a hospital bed, home, across town), bring them into it this morning: a teacher calls them in, Recovery Girl or the doctors clear them, the class collects them. Never skip it or report it as news.\"});effects.push(...[{\"type\": \"narrative-event-start\", \"eventId\": \"embers_through_graduation\"}, {\"type\": \"write-boolean\", \"key\": \"live_embers_through_graduation\", \"operator\": \"set\", \"value\": true}, {\"type\": \"write-number\", \"key\": \"currentDay\", \"operator\": \"set\", \"value\": 1090}, {\"type\": \"write-number\", \"key\": \"currentBandIndex\", \"operator\": \"set\", \"value\": 1}]);for(const e of effects)if(e.type==='narrative-event-start')effects.push({type:'write-string',key:'ev_lazy_event',operator:'set',value:e.eventId});})();"
+  }
+}

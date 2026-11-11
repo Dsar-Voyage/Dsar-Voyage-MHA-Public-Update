@@ -1,0 +1,25 @@
+{
+  "Finale Formation": {
+    "name": "Finale Formation",
+    "description": "The user spends three attention charges on a signature musical sequence within fifteen meters. Until the end of the user's next turn, up to six hearing opponents have their feet pressed together for capture; a hard effort breaks each hold. The user must stand and perform throughout, then cannot set a beat for two turns. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Encore Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

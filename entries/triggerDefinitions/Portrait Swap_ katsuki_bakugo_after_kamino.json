@@ -1,0 +1,40 @@
+{
+  "Portrait Swap: katsuki_bakugo_after_kamino": {
+    "name": "Portrait Swap: katsuki_bakugo_after_kamino",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_kamino_incident",
+        "operator": "equals",
+        "value": true
+      }
+    ],
+    "recurring": false,
+    "effects": [
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Sports Festival)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a2f2386-d178-4c63-bfca-cce507bc416e.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Summer Training)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a2f2386-d178-4c63-bfca-cce507bc416e.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a2f2386-d178-4c63-bfca-cce507bc416e.png"
+      },
+      {
+        "type": "npc-portrait",
+        "npc": "Katsuki Bakugo (Provisional License)",
+        "operator": "set",
+        "value": "https://images.aidungeon.com/user_content/65802571/images/uploads/0a2f2386-d178-4c63-bfca-cce507bc416e.png"
+      }
+    ]
+  }
+}

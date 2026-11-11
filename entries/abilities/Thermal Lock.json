@@ -1,0 +1,20 @@
+{
+  "Thermal Lock": {
+    "name": "Thermal Lock",
+    "description": "The user touches an object or a five-meter patch of ground and holds it at a steady heat or freeze for the rest of the scene, keeping a hot door cool for rescuers, holding a floor slick with ice, or forcing a foe to drop a freezing weapon. At any moment the user can flip that extreme to crack a metal lock, stone slab or ice barrier via thermal shock, which leaves the user's hands numb until their next turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Frostfire Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

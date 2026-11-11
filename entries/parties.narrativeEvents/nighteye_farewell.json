@@ -1,0 +1,15 @@
+{
+  "nighteye_farewell": {
+    "title": "Sir Nighteye's Farewell",
+    "beats": "Day 206, mid morning at Musutafu General Hospital. Sir Nighteye remains in Patient Rooms after emergency treatment for the raid's critical injuries. Mirio Togata, Izuku Midoriya, Bubble Girl and Centipeder wait for the doctors' permission to visit. All Might comes to the bedside. Eri receives protective pediatric care elsewhere in the hospital, with access controlled by staff; she is not brought in to repair an adult's body.\n\nThe canon default course, as pressure the player can change: if Nighteye suffered the raid's grave wounds and no successful intervention has changed his prognosis, the doctors cannot save him. His final hours remain playable before death is resolved. All Might and his former sidekick reconcile after years of disagreement. Nighteye acknowledges that the outcome he foresaw was changed and begins to believe that human effort can alter a future he had treated as fixed. Narrator only, private to the bedside's established confidants: any discussion of All Might's predicted fate or Izuku's inherited power stays within its existing knowledge boundaries. Visitors do not acquire One For All merely by hearing a farewell.\n\nMirio reaches his mentor despite his own loss. By default Nighteye uses Foresight on him and offers hope for the hero he can become, asking him to keep smiling. Nighteye dies only as the preventable canon default, after farewells and any real chance of care have resolved. If the raid already spared him, or credible treatment here stabilizes him, replace the deathbed ending with a difficult recovery and the same honest reconciliation. No miraculous cure is granted merely for asking, and Recovery Girl's stamina limits still apply if help is sought. Survival does not restore Mirio's Quirk.\n\nBy Path and place: at Musutafu General Hospital, work-study companions and approved visitors can support Mirio, arrange a final visit or help doctors obtain actual resources. Faculty, Licensed Pro Hero and Licensed Sidekick parties coordinate care and protect privacy; students from other courses have the access their relationships justify. Civilian relatives and staff can comfort, relay messages or work within their qualifications. Vigilante and villain Paths encounter hospital security unless an established relationship or infiltration gives access. Eri remains a protected child and is never pressed to witness death or use Rewind.\n\nThe event is complete when the farewells have resolved and Nighteye's death or medically established survival has been recorded, with Eri's protective care continuing.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_nighteye_farewell",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

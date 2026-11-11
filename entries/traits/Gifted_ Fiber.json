@@ -1,0 +1,32 @@
+{
+  "Gifted: Fiber": {
+    "name": "Gifted: Fiber",
+    "description": "🧬 Fiber, as an extra Quirk put into your body.\n\n🌱 At the start you pull a person's own sleeves or pant legs tight to bind them, and feel through fabric where people are and what they carry.\n📈 With training: people hauled by their clothes, curtain nets, rope swings, woven armor unpicked, cloth roofs over a street, every foe in sight held, armored clothing.\n⚠️ Where nobody wears fabric, it has little to grip.\n🔗 Common drawback pairing: Activation Condition, since you must see or touch the fabric you move.\n🎬 Similar canon Quirks: Best Jeanist (Fiber Master).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Fiber family): Scale: the user moves fibers touched or seen within about ten meters: thread, cloth, rope, felt, carpet. A new adult user grips clothing with a firm hand's strength (enough to pin arms or lock legs), spins cloth into a line that holds an adult, and feels through fabric where it is worn or weighted. More needs techniques. Limits: never hair, skin, wire, leather or rubber, so swimwear or hard armor gives little hold; blades cut threads, fire burns them, strong people tear free; cloth tight at the throat can choke, so trained users never bind there. Quirk Strain: light: binding a person, reading cloth; moderate: hauling someone clear, net, swing line; heavy: unweaving a room's woven guards, weaving a canopy; severe: signature hold, hardening a crowd's clothing. Type: Emitter. Law: unlicensed binding by clothing is unlawful restraint; police treat use to rob or trap as assault.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Analysis",
+        "modifier": 5
+      },
+      {
+        "skill": "Capture",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}
