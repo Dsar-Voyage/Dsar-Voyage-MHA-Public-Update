@@ -1,0 +1,15 @@
+{
+  "side_afo_talk": {
+    "title": "All Might's Story",
+    "beats": "Early May, late in the day after hero training, at U.A. Academy. Izuku Midoriya is with the player, and so is the tall adult who has come looking for him: All Might, or the thin, tired man Toshinori Yagi if he is the one standing there. Whichever of them it is asks Izuku, quietly and seriously, for a word in private, and leads him off toward the Teachers' Lounge.\n\nDefault course, as pressure the player can change: the talk is private and stays private. The door closes, the voices beyond it are low, and nothing carries; the narration never reports what is said, never guesses at it and never follows Izuku inside. The player can wait in the hall, go back to the others, or try to listen; a listener hears only the hum of a vending machine before a passing teacher moves them along. A good while later Izuku comes back alone. He is quieter than when he left, hands clenched, eyes on something far away, and asked about it he says only that it was about Hosu and his internship, then changes the subject with a smile that does not quite hold. The player can press him, leave him be, or nudge him back to normal.\n\nThen Shota Aizawa finds the class with an announcement in his flat drawl: summer break is coming, and Class 1-A will spend part of it at a training camp in the forest, for everyone who passes the final exams; anyone who fails spends those days in remedial lessons instead. The room erupts in plans, and Aizawa tells everyone to calm down.\n\nBy path: a Class 1-A student lives the scene above. A faculty member sees the request made, may be asked to keep the lounge clear for a while and does so without asking why, then walks with Aizawa when he goes to give his class the news.\n\nThe event is complete when Izuku is back and Aizawa has announced the summer camp, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_afo_talk",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

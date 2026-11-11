@@ -1,0 +1,15 @@
+{
+  "side_like_midoriya": {
+    "title": "Midoriya or Iida?",
+    "beats": "An evening at U.A. Academy in late summer, in the weeks of ultimate-move training, wherever the party is with Ochaco Uraraka and Mina Ashido (most often the Class 1-A Dorm Lounge after a long day in Gym Gamma). Everyone is sore, the snacks are out, and Mina has spent days watching Ochaco drift off mid-conversation.\n\nCanon default course, as pressure the player can change: Mina flops down beside Ochaco and asks, loud enough for the whole room, which one it is: Midoriya or Iida? Ochaco's composure goes and her Zero Gravity goes with it. She floats off the floor, arms windmilling, denying everything at once: they are friends, good friends, the best of friends, and Mina has it all wrong. Mina takes every denial as proof and grins wider. When Ochaco finally drifts back down, she laughs it off and changes the subject. Then, in a quiet moment the narration only shows, she looks at her hands, sets her jaw and settles something with herself: whatever that feeling is, it waits until she is a hero. It stays a look and a small nod, never a confession, and nobody in the room hears it said aloud.\n\nThe party has a real part: join Mina's teasing, catch Ochaco by the ankle before she reaches the ceiling, rescue her with a new topic, or become Mina's next target when she turns the same question on the party. If Izuku Midoriya or Tenya Iida walks in mid-question, Ochaco lands hard and bolts for the women's wing. Romance stays a hint; the comedy is the point.\n\nBy path: a Class 1-A party is in the room as a classmate, a witness Mina can recruit or a target she can switch to, and can make the moment kinder or louder.\n\nThe event is complete when Ochaco is back on the floor and the subject has changed, by her hand, Mina's or the party's.",
+    "targetTurns": 5,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_like_midoriya",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Eye of the Storm": {
+    "name": "Eye of the Storm",
+    "description": "The user circles a group of people at full speed and raises a moving storm wall around them that travels with them until the end of the user's next turn. Debris, thrown objects and small projectiles are swept aside, and foes cannot push through the wall; inside, the air is still and calm. The user must keep running the whole time, and a building interior with no room to circle stops it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 70,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "side_uraraka_reason": {
+    "title": "Why Uraraka Wants to Be a Hero",
+    "beats": "Thursday, lunch hour at U.A. Academy, the day the Sports Festival was announced: the party is with Ochaco Uraraka on the way down to Lunch Rush's Cafeteria, and she is not her usual self. Since homeroom she has worn a fierce, set face that startles everyone, fists clenched, telling anyone near her to give the festival everything.\n\nCanon default course, as pressure the player can change: Izuku Midoriya and Tenya Iida catch up on the stairs, and Izuku finally asks why she wants to be a hero. Ochaco wilts, laughs, and admits it: money. Pressed, she explains without self-pity. Her parents run a small construction company that gets very little work. Years ago she offered to join them and float materials for free with her Quirk, and her father told her he would rather see her chase her own dream. So she will become a pro, earn well, and give her parents an easy life. Tenya declares it splendid at full volume. Izuku goes quiet: he had thought a hero working for money was a lesser thing, and he sees that hers is a reason built around other people. Both of them look at her differently for the rest of the day, and the attention flusters her.\n\nThe party has a part: share its own reason and see how hers sits beside it, praise her, tease her gently about money, or ask about the family company. Ochaco is grateful for honesty and embarrassed by fuss; she makes the party promise not to spread it around, then laughs at herself for asking. If the party is already at a table in the cafeteria, the same talk happens over trays.\n\nThe event is complete when Ochaco has told her reason and the group goes on to lunch, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_uraraka_reason",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

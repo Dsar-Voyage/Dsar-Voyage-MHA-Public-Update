@@ -1,0 +1,20 @@
+{
+  "Updraft Stride": {
+    "name": "Updraft Stride",
+    "description": "Riding a rising gust, the user runs up a wall to a second-story ledge, across a gap of a few meters or along a narrow beam without slowing, and can drop back down cushioned by the same wind. The stride lasts only until the end of the turn; a wet wall or a downdraft drops them early. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

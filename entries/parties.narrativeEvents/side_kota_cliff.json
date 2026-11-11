@@ -1,0 +1,15 @@
+{
+  "side_kota_cliff": {
+    "title": "Kota's Secret Cliff",
+    "beats": "The second night of the forest training camp, after the curry dinner, around the Wild Wild Pussycats Lodge and the woods above it. Kota Izumi, a small child, skipped the meal and slipped away, and Izuku Midoriya noticed. He fills a plate and sets off up the Hidden Cliff Path after him, toward the rock ledge Kota thinks nobody knows about.\n\nDefault course, as pressure the player can change: if the player is with Izuku, they can go with him, carry a second plate, or let him go alone and wait. At Kota's Rock Ledge the child sits with his back to the camp, watching the mountains in the dusk. He wants neither the curry nor the company. He tells Izuku to go away, and then, bitter, that heroes and villains are all the same: people showing off their Quirks, and his parents died for nothing because of it. Izuku does not argue with the grief. He tells Kota about a friend of his who was born without a Quirk, who was told all his life that he could never be a hero, and who wanted it anyway. Kota does not answer. Izuku sets the plate on the rock, says it is there if he gets hungry, and walks back down. The narration never says who the friend was.\n\nIf the player is with Kota instead, they found his ledge first or followed him up; Kota is curt and wants them gone, and Izuku arrives with the plate soon after. The player can stay quiet, speak up for Kota or for Izuku, or leave him in peace.\n\nKota is a child throughout: the ledge is his safe spot, nobody grabs him or frightens him, and nothing dangerous happens tonight.\n\nThe event is complete when Izuku has left the curry and walked back down to the lodge, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_kota_cliff",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

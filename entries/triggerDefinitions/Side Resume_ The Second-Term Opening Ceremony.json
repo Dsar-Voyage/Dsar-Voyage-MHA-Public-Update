@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Second-Term Opening Ceremony": {
+    "name": "Side Resume: The Second-Term Opening Ceremony",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_second_term",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_second_term",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_second_term",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_second_term"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_second_term",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Second-Term Opening Ceremony\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The morning of the first day of the second term at U.A."
+      }
+    ]
+  }
+}

@@ -34,6 +34,13 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_hitoshi_shinso",
+    "portraits": {
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/f13965eb-e6fc-42dd-87d4-53aa3a7535e9.png",
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/08d55caa-2687-42ca-a9e2-c812e3d2db65.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/829540d8-637a-4cf6-ad84-e2379a8ea770.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/ee0fe1e1-4caf-4d03-acf4-a4d6d73da212.png",
+      "winter": "https://images.aidungeon.com/user_content/65802571/images/uploads/b53da79e-a0ec-4980-bec1-b86960f3e02d.png"
+    },
     "initialKnown": true
   }
 }

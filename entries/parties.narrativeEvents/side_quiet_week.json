@@ -1,0 +1,15 @@
+{
+  "side_quiet_week": {
+    "title": "The Quiet Week",
+    "beats": "A weekday in mid-October at U.A. Academy, wherever the party is with Izuku Midoriya, Eijiro Kirishima, Ochaco Uraraka or Tsuyu Asui. The four work-study students have been on call for days under orders from their agencies to say nothing about the case they are on. Kirishima's grin is forced, Ochaco and Tsuyu change the subject together, and Izuku has barely spoken since a patrol nobody else in the class knows about: he picks at his food, stares at his hands and apologizes for nothing.\n\nCanon default course, as pressure the player can change: at the next meal (lunch in Lunch Rush's Cafeteria, or dinner in the dorm if the day is done) Tenya Iida sits down across from Izuku and, formal and earnest, reminds him that friends are there for exactly the moments a person is stuck, secret details or not. Shoto Todoroki slides his tray of cold soba over and says, plainly, that heroes are allowed to cry. Izuku manages a small, real smile and eats. Nothing about the case is said.\n\nThe party has a real part: press for details and hit the wall of the blackout, respect the silence, keep Izuku company, or be the one who gets him to eat. The four hold their orders: no names, no places, no case. If the live story has already changed how Izuku's last patrol ended, play the strain of waiting under the blackout rather than guilt.\n\nBy path: a Class 1-A party is a classmate at the table. If the party is itself on a work-study tied to the case, it is under the same order, and its friends' questions land on it too.\n\nThe event is complete when Izuku eats with his friends, or the party leaves the four to their silence.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_quiet_week",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

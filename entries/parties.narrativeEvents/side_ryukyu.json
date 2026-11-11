@@ -1,0 +1,15 @@
+{
+  "side_ryukyu": {
+    "title": "Ryukyu Says Yes",
+    "beats": "A late-September day, wherever the party is with Ochaco Uraraka, Tsuyu Asui or Nejire Hado. The two first-years' old internship hosts have passed on taking them for work-studies, so Nejire has done what she does best: asked questions until she found an answer. Her own agency head, the Dragoon Hero Ryukyu, has come to look the two over in person, and the meeting is under way where they are: Ryukyu calm and polite, Nejire firing questions, Ochaco and Tsuyu trying very hard to be impressive.\n\nCanon default course, as pressure the player can change: Ryukyu is kind and not yet convinced; she already has one student and takes the job of raising young heroes seriously. Then an alarm breaks the talk: in the Musutafu Station District near U.A. (its Station Concourse and the Hero Merch Arcade, a short walk from campus; this is Musutafu, not Hosu) two villains with Gigantification swell to building height and start tearing at the storefronts. Ryukyu clears civilians and watches. Nejire takes the air, Ochaco floats debris and a stalled car clear, Tsuyu pulls people out of the way with her tongue, and together the three bring both giants down. Afterward Ryukyu says yes to both of them.\n\nThe party can fight beside them, cover the civilians, take one giant alone or hold back and let the students prove themselves. If the party does not go with them, the moment passes and the news comes back that evening.\n\nBy path: a Class 1-A party with a provisional license acts under Ryukyu's eye; if it has no placement yet, she may weigh the party as well. A Licensed Pro Hero party is a working pro on that street and can take command or let the students handle it, and Ryukyu asks the party's read on them afterward. A Licensed Sidekick party is on its agency's beat and works the scene beside them as an equal.\n\nThe event is complete when both giants are down and Ryukyu has given her answer, or the party parts from the three before the trouble starts.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_ryukyu",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

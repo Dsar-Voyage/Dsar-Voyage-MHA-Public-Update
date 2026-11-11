@@ -1,0 +1,42 @@
+{
+  "Side Resume: Shoto Visits His Mother": {
+    "name": "Side Resume: Shoto Visits His Mother",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_shoto_mother",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_shoto_mother",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_shoto_mother",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_shoto_mother"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_shoto_mother",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Shoto Visits His Mother\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Late April, on one of the two days off after the Sports Festival, wherever the party is with Shoto Todoroki: he has been quieter than usual since the festival, and today he says, without being asked, that he is going to see his mother."
+      }
+    ]
+  }
+}

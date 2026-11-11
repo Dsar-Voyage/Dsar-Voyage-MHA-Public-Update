@@ -1,0 +1,30 @@
+{
+  "Day Plan: day 37 [1-A]": {
+    "name": "Day Plan: day 37 [1-A]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 37
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the first school day back after Internship Week, which is over: the class trades stories from the agencies in homeroom before lessons."
+      }
+    ]
+  }
+}

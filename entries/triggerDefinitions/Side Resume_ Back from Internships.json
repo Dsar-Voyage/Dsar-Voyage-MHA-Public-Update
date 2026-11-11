@@ -1,0 +1,42 @@
+{
+  "Side Resume: Back from Internships": {
+    "name": "Side Resume: Back from Internships",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_back_from_internships",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_back_from_internships",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_back_from_internships",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_back_from_internships"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_back_from_internships",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Back from Internships\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Early May, the first school day after Internship Week, wherever the player is on the grounds of U.A."
+      }
+    ]
+  }
+}

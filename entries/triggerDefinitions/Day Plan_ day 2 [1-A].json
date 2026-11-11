@@ -16,8 +16,8 @@
       },
       {
         "type": "action-text",
-        "operator": "regex",
-        "value": "[\\s\\S]*"
+        "operator": "notContains",
+        "value": "kip"
       }
     ],
     "effects": [

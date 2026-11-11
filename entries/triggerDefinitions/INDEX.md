@@ -1,4 +1,4 @@
-# triggerDefinitions: 821 entries (11.02)
+# triggerDefinitions: 874 entries (11.11)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -64,6 +64,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Start | `Clock: Start` | [Clock_ Start.json](<Clock_ Start.json>) |
 | Clock: Stated Time | `Clock: Stated Time` | [Clock_ Stated Time.json](<Clock_ Stated Time.json>) |
 | Clock: Time Cue | `Clock: Time Cue` | [Clock_ Time Cue.json](<Clock_ Time Cue.json>) |
+| Clock: Time Line | `Clock: Time Line` | [Clock_ Time Line.json](<Clock_ Time Line.json>) |
+| Clock: Time Line Note | `Clock: Time Line Note` | [Clock_ Time Line Note.json](<Clock_ Time Line Note.json>) |
 | Companions: downed companion lives | `Companions: downed companion lives` | [Companions_ downed companion lives.json](<Companions_ downed companion lives.json>) |
 | Companions: nobody dies at Hosu | `Companions: nobody dies at Hosu` | [Companions_ nobody dies at Hosu.json](<Companions_ nobody dies at Hosu.json>) |
 | Companions: nobody dies at the USJ | `Companions: nobody dies at the USJ` | [Companions_ nobody dies at the USJ.json](<Companions_ nobody dies at the USJ.json>) |
@@ -79,6 +81,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Day Plan: day 10 [1-A] | `Day Plan: day 10 [1-A]` | [Day Plan_ day 10 [1-A].json](<Day Plan_ day 10 [1-A].json>) |
 | Day Plan: day 10 [Faculty] | `Day Plan: day 10 [Faculty]` | [Day Plan_ day 10 [Faculty].json](<Day Plan_ day 10 [Faculty].json>) |
 | Day Plan: day 10 [League] | `Day Plan: day 10 [League]` | [Day Plan_ day 10 [League].json](<Day Plan_ day 10 [League].json>) |
+| Day Plan: day 11 [1-A] | `Day Plan: day 11 [1-A]` | [Day Plan_ day 11 [1-A].json](<Day Plan_ day 11 [1-A].json>) |
+| Day Plan: day 11 [1-B] | `Day Plan: day 11 [1-B]` | [Day Plan_ day 11 [1-B].json](<Day Plan_ day 11 [1-B].json>) |
+| Day Plan: day 11 [General Studies] | `Day Plan: day 11 [General Studies]` | [Day Plan_ day 11 [General Studies].json](<Day Plan_ day 11 [General Studies].json>) |
+| Day Plan: day 11 [Management] | `Day Plan: day 11 [Management]` | [Day Plan_ day 11 [Management].json](<Day Plan_ day 11 [Management].json>) |
+| Day Plan: day 11 [Support] | `Day Plan: day 11 [Support]` | [Day Plan_ day 11 [Support].json](<Day Plan_ day 11 [Support].json>) |
 | Day Plan: day 124 [1-A] | `Day Plan: day 124 [1-A]` | [Day Plan_ day 124 [1-A].json](<Day Plan_ day 124 [1-A].json>) |
 | Day Plan: day 124 [1-B] | `Day Plan: day 124 [1-B]` | [Day Plan_ day 124 [1-B].json](<Day Plan_ day 124 [1-B].json>) |
 | Day Plan: day 124 [Faculty] | `Day Plan: day 124 [Faculty]` | [Day Plan_ day 124 [Faculty].json](<Day Plan_ day 124 [Faculty].json>) |
@@ -100,6 +107,16 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Day Plan: day 248 [1-A] | `Day Plan: day 248 [1-A]` | [Day Plan_ day 248 [1-A].json](<Day Plan_ day 248 [1-A].json>) |
 | Day Plan: day 248 [1-B] | `Day Plan: day 248 [1-B]` | [Day Plan_ day 248 [1-B].json](<Day Plan_ day 248 [1-B].json>) |
 | Day Plan: day 248 [Faculty] | `Day Plan: day 248 [Faculty]` | [Day Plan_ day 248 [Faculty].json](<Day Plan_ day 248 [Faculty].json>) |
+| Day Plan: day 25 [1-A] | `Day Plan: day 25 [1-A]` | [Day Plan_ day 25 [1-A].json](<Day Plan_ day 25 [1-A].json>) |
+| Day Plan: day 25 [1-B] | `Day Plan: day 25 [1-B]` | [Day Plan_ day 25 [1-B].json](<Day Plan_ day 25 [1-B].json>) |
+| Day Plan: day 25 [General Studies] | `Day Plan: day 25 [General Studies]` | [Day Plan_ day 25 [General Studies].json](<Day Plan_ day 25 [General Studies].json>) |
+| Day Plan: day 25 [Management] | `Day Plan: day 25 [Management]` | [Day Plan_ day 25 [Management].json](<Day Plan_ day 25 [Management].json>) |
+| Day Plan: day 25 [Support] | `Day Plan: day 25 [Support]` | [Day Plan_ day 25 [Support].json](<Day Plan_ day 25 [Support].json>) |
+| Day Plan: day 26 [1-A] | `Day Plan: day 26 [1-A]` | [Day Plan_ day 26 [1-A].json](<Day Plan_ day 26 [1-A].json>) |
+| Day Plan: day 26 [1-B] | `Day Plan: day 26 [1-B]` | [Day Plan_ day 26 [1-B].json](<Day Plan_ day 26 [1-B].json>) |
+| Day Plan: day 26 [General Studies] | `Day Plan: day 26 [General Studies]` | [Day Plan_ day 26 [General Studies].json](<Day Plan_ day 26 [General Studies].json>) |
+| Day Plan: day 26 [Management] | `Day Plan: day 26 [Management]` | [Day Plan_ day 26 [Management].json](<Day Plan_ day 26 [Management].json>) |
+| Day Plan: day 26 [Support] | `Day Plan: day 26 [Support]` | [Day Plan_ day 26 [Support].json](<Day Plan_ day 26 [Support].json>) |
 | Day Plan: day 27 [1-A] | `Day Plan: day 27 [1-A]` | [Day Plan_ day 27 [1-A].json](<Day Plan_ day 27 [1-A].json>) |
 | Day Plan: day 27 [1-B] | `Day Plan: day 27 [1-B]` | [Day Plan_ day 27 [1-B].json](<Day Plan_ day 27 [1-B].json>) |
 | Day Plan: day 27 [Faculty] | `Day Plan: day 27 [Faculty]` | [Day Plan_ day 27 [Faculty].json](<Day Plan_ day 27 [Faculty].json>) |
@@ -112,6 +129,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Day Plan: day 363 [League] | `Day Plan: day 363 [League]` | [Day Plan_ day 363 [League].json](<Day Plan_ day 363 [League].json>) |
 | Day Plan: day 363 [Pro] | `Day Plan: day 363 [Pro]` | [Day Plan_ day 363 [Pro].json](<Day Plan_ day 363 [Pro].json>) |
 | Day Plan: day 363 [Sidekick] | `Day Plan: day 363 [Sidekick]` | [Day Plan_ day 363 [Sidekick].json](<Day Plan_ day 363 [Sidekick].json>) |
+| Day Plan: day 37 [1-A] | `Day Plan: day 37 [1-A]` | [Day Plan_ day 37 [1-A].json](<Day Plan_ day 37 [1-A].json>) |
+| Day Plan: day 37 [1-B] | `Day Plan: day 37 [1-B]` | [Day Plan_ day 37 [1-B].json](<Day Plan_ day 37 [1-B].json>) |
 | Day Plan: day 5 [1-A] | `Day Plan: day 5 [1-A]` | [Day Plan_ day 5 [1-A].json](<Day Plan_ day 5 [1-A].json>) |
 | Day Plan: day 5 [1-B] | `Day Plan: day 5 [1-B]` | [Day Plan_ day 5 [1-B].json](<Day Plan_ day 5 [1-B].json>) |
 | Day Plan: day 5 [Faculty] | `Day Plan: day 5 [Faculty]` | [Day Plan_ day 5 [Faculty].json](<Day Plan_ day 5 [Faculty].json>) |
@@ -220,6 +239,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Event Start: Can I Become a Hero? | `Event Start: Can I Become a Hero?` | [Event Start_ Can I Become a Hero_.json](<Event Start_ Can I Become a Hero_.json>) |
 | Event Start: Finish What We Started | `Event Start: Finish What We Started` | [Event Start_ Finish What We Started.json](<Event Start_ Finish What We Started.json>) |
 | Event Wrap: side dispatcher 1 | `Event Wrap: side dispatcher 1` | [Event Wrap_ side dispatcher 1.json](<Event Wrap_ side dispatcher 1.json>) |
+| Event Wrap: side dispatcher 10 | `Event Wrap: side dispatcher 10` | [Event Wrap_ side dispatcher 10.json](<Event Wrap_ side dispatcher 10.json>) |
+| Event Wrap: side dispatcher 11 | `Event Wrap: side dispatcher 11` | [Event Wrap_ side dispatcher 11.json](<Event Wrap_ side dispatcher 11.json>) |
 | Event Wrap: side dispatcher 2 | `Event Wrap: side dispatcher 2` | [Event Wrap_ side dispatcher 2.json](<Event Wrap_ side dispatcher 2.json>) |
 | Event Wrap: side dispatcher 3 | `Event Wrap: side dispatcher 3` | [Event Wrap_ side dispatcher 3.json](<Event Wrap_ side dispatcher 3.json>) |
 | Event Wrap: side dispatcher 4 | `Event Wrap: side dispatcher 4` | [Event Wrap_ side dispatcher 4.json](<Event Wrap_ side dispatcher 4.json>) |
@@ -227,6 +248,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Event Wrap: side dispatcher 6 | `Event Wrap: side dispatcher 6` | [Event Wrap_ side dispatcher 6.json](<Event Wrap_ side dispatcher 6.json>) |
 | Event Wrap: side dispatcher 7 | `Event Wrap: side dispatcher 7` | [Event Wrap_ side dispatcher 7.json](<Event Wrap_ side dispatcher 7.json>) |
 | Event Wrap: side dispatcher 8 | `Event Wrap: side dispatcher 8` | [Event Wrap_ side dispatcher 8.json](<Event Wrap_ side dispatcher 8.json>) |
+| Event Wrap: side dispatcher 9 | `Event Wrap: side dispatcher 9` | [Event Wrap_ side dispatcher 9.json](<Event Wrap_ side dispatcher 9.json>) |
 | Follow: 1-A part 1 (before the story) | `Follow: 1-A part 1 (before the story)` | [Follow_ 1-A part 1 (before the story).json](<Follow_ 1-A part 1 (before the story).json>) |
 | Follow: 1-A part 2 (before the story) | `Follow: 1-A part 2 (before the story)` | [Follow_ 1-A part 2 (before the story).json](<Follow_ 1-A part 2 (before the story).json>) |
 | Follow: 1-B part 1 (before the story) | `Follow: 1-B part 1 (before the story)` | [Follow_ 1-B part 1 (before the story).json](<Follow_ 1-B part 1 (before the story).json>) |
@@ -279,20 +301,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Items: hero license trait [1-A] | `Items: hero license trait [1-A]` | [Items_ hero license trait [1-A].json](<Items_ hero license trait [1-A].json>) |
 | Items: hero license trait [1-B] | `Items: hero license trait [1-B]` | [Items_ hero license trait [1-B].json](<Items_ hero license trait [1-B].json>) |
 | Items: one Agency phone | `Items: one Agency phone` | [Items_ one Agency phone.json](<Items_ one Agency phone.json>) |
-| Items: one Capture weapon | `Items: one Capture weapon` | [Items_ one Capture weapon.json](<Items_ one Capture weapon.json>) |
-| Items: one Comms earpiece | `Items: one Comms earpiece` | [Items_ one Comms earpiece.json](<Items_ one Comms earpiece.json>) |
-| Items: one Cooling vest | `Items: one Cooling vest` | [Items_ one Cooling vest.json](<Items_ one Cooling vest.json>) |
-| Items: one Grappling line launcher | `Items: one Grappling line launcher` | [Items_ one Grappling line launcher.json](<Items_ one Grappling line launcher.json>) |
-| Items: one Grip gloves | `Items: one Grip gloves` | [Items_ one Grip gloves.json](<Items_ one Grip gloves.json>) |
 | Items: one Hero license | `Items: one Hero license` | [Items_ one Hero license.json](<Items_ one Hero license.json>) |
-| Items: one Impact armor plates | `Items: one Impact armor plates` | [Items_ one Impact armor plates.json](<Items_ one Impact armor plates.json>) |
-| Items: one Noise-filtering earpieces | `Items: one Noise-filtering earpieces` | [Items_ one Noise-filtering earpieces.json](<Items_ one Noise-filtering earpieces.json>) |
 | Items: one Provisional hero license | `Items: one Provisional hero license` | [Items_ one Provisional hero license.json](<Items_ one Provisional hero license.json>) |
-| Items: one Respirator mask | `Items: one Respirator mask` | [Items_ one Respirator mask.json](<Items_ one Respirator mask.json>) |
 | Items: one Second hero costume | `Items: one Second hero costume` | [Items_ one Second hero costume.json](<Items_ one Second hero costume.json>) |
 | Items: one Student hero costume | `Items: one Student hero costume` | [Items_ one Student hero costume.json](<Items_ one Student hero costume.json>) |
-| Items: one Support boots | `Items: one Support boots` | [Items_ one Support boots.json](<Items_ one Support boots.json>) |
-| Items: one Support goggles | `Items: one Support goggles` | [Items_ one Support goggles.json](<Items_ one Support goggles.json>) |
 | Items: order Capture weapon | `Items: order Capture weapon` | [Items_ order Capture weapon.json](<Items_ order Capture weapon.json>) |
 | Items: order Comms earpiece | `Items: order Comms earpiece` | [Items_ order Comms earpiece.json](<Items_ order Comms earpiece.json>) |
 | Items: order Cooling vest | `Items: order Cooling vest` | [Items_ order Cooling vest.json](<Items_ order Cooling vest.json>) |
@@ -462,6 +474,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Pack: load 8 | `Pack: load 8` | [Pack_ load 8.json](<Pack_ load 8.json>) |
 | Pack: load 80 | `Pack: load 80` | [Pack_ load 80.json](<Pack_ load 80.json>) |
 | Pack: load 81 | `Pack: load 81` | [Pack_ load 81.json](<Pack_ load 81.json>) |
+| Pack: load 82 | `Pack: load 82` | [Pack_ load 82.json](<Pack_ load 82.json>) |
+| Pack: load 83 | `Pack: load 83` | [Pack_ load 83.json](<Pack_ load 83.json>) |
 | Pack: load 9 | `Pack: load 9` | [Pack_ load 9.json](<Pack_ load 9.json>) |
 | Path: off campus [Civilian Life] | `Path: off campus [Civilian Life]` | [Path_ off campus [Civilian Life].json](<Path_ off campus [Civilian Life].json>) |
 | Path: off campus [Independent Villain] | `Path: off campus [Independent Villain]` | [Path_ off campus [Independent Villain].json](<Path_ off campus [Independent Villain].json>) |
@@ -494,6 +508,9 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Place Note: Nomu Warehouse (after Kamino) | `Place Note: Nomu Warehouse (after Kamino)` | [Place Note_ Nomu Warehouse (after Kamino).json](<Place Note_ Nomu Warehouse (after Kamino).json>) |
 | Place Note: Nomu Warehouse (before the USJ) | `Place Note: Nomu Warehouse (before the USJ)` | [Place Note_ Nomu Warehouse (before the USJ).json](<Place Note_ Nomu Warehouse (before the USJ).json>) |
 | Place Note: Yokohama Harbor District (the League in hiding) | `Place Note: Yokohama Harbor District (the League in hiding)` | [Place Note_ Yokohama Harbor District (the League in hiding).json](<Place Note_ Yokohama Harbor District (the League in hiding).json>) |
+| Place Sync: camp | `Place Sync: camp` | [Place Sync_ camp.json](<Place Sync_ camp.json>) |
+| Place Sync: home from camp | `Place Sync: home from camp` | [Place Sync_ home from camp.json](<Place Sync_ home from camp.json>) |
+| Place Sync: skip landing | `Place Sync: skip landing` | [Place Sync_ skip landing.json](<Place Sync_ skip landing.json>) |
 | Placement: intern 1 | `Placement: intern 1` | [Placement_ intern 1.json](<Placement_ intern 1.json>) |
 | Placement: intern 2 | `Placement: intern 2` | [Placement_ intern 2.json](<Placement_ intern 2.json>) |
 | Placement: intern 3 | `Placement: intern 3` | [Placement_ intern 3.json](<Placement_ intern 3.json>) |
@@ -658,6 +675,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Roll Call: Quirk test part 1 | `Roll Call: Quirk test part 1` | [Roll Call_ Quirk test part 1.json](<Roll Call_ Quirk test part 1.json>) |
 | Roll Call: Quirk test part 2 | `Roll Call: Quirk test part 2` | [Roll Call_ Quirk test part 2.json](<Roll Call_ Quirk test part 2.json>) |
 | Roll Call: Quirk test part 3 | `Roll Call: Quirk test part 3` | [Roll Call_ Quirk test part 3.json](<Roll Call_ Quirk test part 3.json>) |
+| Room King: tour count | `Room King: tour count` | [Room King_ tour count.json](<Room King_ tour count.json>) |
+| Room King: your door | `Room King: your door` | [Room King_ your door.json](<Room King_ your door.json>) |
 | School Day: class at the player's spot part 1 | `School Day: class at the player's spot part 1` | [School Day_ class at the player's spot part 1.json](<School Day_ class at the player's spot part 1.json>) |
 | School Day: class at the player's spot part 2 | `School Day: class at the player's spot part 2` | [School Day_ class at the player's spot part 2.json](<School Day_ class at the player's spot part 2.json>) |
 | School Day: private session | `School Day: private session` | [School Day_ private session.json](<School Day_ private session.json>) |
@@ -681,9 +700,14 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Cast: dispatcher 3 | `Side Cast: dispatcher 3` | [Side Cast_ dispatcher 3.json](<Side Cast_ dispatcher 3.json>) |
 | Side Cast: dispatcher 4 | `Side Cast: dispatcher 4` | [Side Cast_ dispatcher 4.json](<Side Cast_ dispatcher 4.json>) |
 | Side Cast: dispatcher 5 | `Side Cast: dispatcher 5` | [Side Cast_ dispatcher 5.json](<Side Cast_ dispatcher 5.json>) |
+| Side Cast: dispatcher 6 | `Side Cast: dispatcher 6` | [Side Cast_ dispatcher 6.json](<Side Cast_ dispatcher 6.json>) |
+| Side Cast: dispatcher 7 | `Side Cast: dispatcher 7` | [Side Cast_ dispatcher 7.json](<Side Cast_ dispatcher 7.json>) |
 | Side Event: starts 1 | `Side Event: starts 1` | [Side Event_ starts 1.json](<Side Event_ starts 1.json>) |
 | Side Event: starts 2 | `Side Event: starts 2` | [Side Event_ starts 2.json](<Side Event_ starts 2.json>) |
 | Side Event: starts 3 | `Side Event: starts 3` | [Side Event_ starts 3.json](<Side Event_ starts 3.json>) |
+| Side Event: starts 4 | `Side Event: starts 4` | [Side Event_ starts 4.json](<Side Event_ starts 4.json>) |
+| Side Event: starts 5 | `Side Event: starts 5` | [Side Event_ starts 5.json](<Side Event_ starts 5.json>) |
+| Side Event: starts 6 | `Side Event: starts 6` | [Side Event_ starts 6.json](<Side Event_ starts 6.json>) |
 | Side Lapse: dispatcher 1 | `Side Lapse: dispatcher 1` | [Side Lapse_ dispatcher 1.json](<Side Lapse_ dispatcher 1.json>) |
 | Side Outfit: dispatcher 1 | `Side Outfit: dispatcher 1` | [Side Outfit_ dispatcher 1.json](<Side Outfit_ dispatcher 1.json>) |
 | Side Outfit: dispatcher 2 | `Side Outfit: dispatcher 2` | [Side Outfit_ dispatcher 2.json](<Side Outfit_ dispatcher 2.json>) |
@@ -697,13 +721,23 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: After the Joint Training | `Side Resume: After the Joint Training` | [Side Resume_ After the Joint Training.json](<Side Resume_ After the Joint Training.json>) |
 | Side Resume: After the War | `Side Resume: After the War` | [Side Resume_ After the War.json](<Side Resume_ After the War.json>) |
 | Side Resume: Agency Office Placement | `Side Resume: Agency Office Placement` | [Side Resume_ Agency Office Placement.json](<Side Resume_ Agency Office Placement.json>) |
+| Side Resume: Aizawa Returns in Bandages | `Side Resume: Aizawa Returns in Bandages` | [Side Resume_ Aizawa Returns in Bandages.json](<Side Resume_ Aizawa Returns in Bandages.json>) |
+| Side Resume: All Might's Story | `Side Resume: All Might's Story` | [Side Resume_ All Might's Story.json](<Side Resume_ All Might's Story.json>) |
+| Side Resume: At Tensei's Bedside | `Side Resume: At Tensei's Bedside` | [Side Resume_ At Tensei's Bedside.json](<Side Resume_ At Tensei's Bedside.json>) |
+| Side Resume: Back from Internships | `Side Resume: Back from Internships` | [Side Resume_ Back from Internships.json](<Side Resume_ Back from Internships.json>) |
+| Side Resume: Bakugo at the Gate | `Side Resume: Bakugo at the Gate` | [Side Resume_ Bakugo at the Gate.json](<Side Resume_ Bakugo at the Gate.json>) |
+| Side Resume: Bakugo Joins the Talks | `Side Resume: Bakugo Joins the Talks` | [Side Resume_ Bakugo Joins the Talks.json](<Side Resume_ Bakugo Joins the Talks.json>) |
 | Side Resume: Broke and Hunted | `Side Resume: Broke and Hunted` | [Side Resume_ Broke and Hunted.json](<Side Resume_ Broke and Hunted.json>) |
 | Side Resume: Careers Day | `Side Resume: Careers Day` | [Side Resume_ Careers Day.json](<Side Resume_ Careers Day.json>) |
+| Side Resume: Cheese at the Door | `Side Resume: Cheese at the Door` | [Side Resume_ Cheese at the Door.json](<Side Resume_ Cheese at the Door.json>) |
 | Side Resume: Club Recruitment Week | `Side Resume: Club Recruitment Week` | [Side Resume_ Club Recruitment Week.json](<Side Resume_ Club Recruitment Week.json>) |
 | Side Resume: Copycats | `Side Resume: Copycats` | [Side Resume_ Copycats.json](<Side Resume_ Copycats.json>) |
 | Side Resume: Costume Upgrade Rush | `Side Resume: Costume Upgrade Rush` | [Side Resume_ Costume Upgrade Rush.json](<Side Resume_ Costume Upgrade Rush.json>) |
 | Side Resume: Crisis PR After Kamino | `Side Resume: Crisis PR After Kamino` | [Side Resume_ Crisis PR After Kamino.json](<Side Resume_ Crisis PR After Kamino.json>) |
+| Side Resume: Curry Night | `Side Resume: Curry Night` | [Side Resume_ Curry Night.json](<Side Resume_ Curry Night.json>) |
 | Side Resume: Destro's Book | `Side Resume: Destro's Book` | [Side Resume_ Destro's Book.json](<Side Resume_ Destro's Book.json>) |
+| Side Resume: Do-or-Die Survival Training | `Side Resume: Do-or-Die Survival Training` | [Side Resume_ Do-or-Die Survival Training.json](<Side Resume_ Do-or-Die Survival Training.json>) |
+| Side Resume: Eri Visits U.A. | `Side Resume: Eri Visits U.A.` | [Side Resume_ Eri Visits U.A.json](<Side Resume_ Eri Visits U.A.json>) |
 | Side Resume: Festival Fever | `Side Resume: Festival Fever` | [Side Resume_ Festival Fever.json](<Side Resume_ Festival Fever.json>) |
 | Side Resume: Festival Marketing | `Side Resume: Festival Marketing` | [Side Resume_ Festival Marketing.json](<Side Resume_ Festival Marketing.json>) |
 | Side Resume: Festival Showcase Prep | `Side Resume: Festival Showcase Prep` | [Side Resume_ Festival Showcase Prep.json](<Side Resume_ Festival Showcase Prep.json>) |
@@ -722,11 +756,15 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: Internship Week: Day One | `Side Resume: Internship Week: Day One` | [Side Resume_ Internship Week_ Day One.json](<Side Resume_ Internship Week_ Day One.json>) |
 | Side Resume: Internship Week: Night Patrol | `Side Resume: Internship Week: Night Patrol` | [Side Resume_ Internship Week_ Night Patrol.json](<Side Resume_ Internship Week_ Night Patrol.json>) |
 | Side Resume: Internship Week: The Evaluation | `Side Resume: Internship Week: The Evaluation` | [Side Resume_ Internship Week_ The Evaluation.json](<Side Resume_ Internship Week_ The Evaluation.json>) |
+| Side Resume: Is There a Traitor? | `Side Resume: Is There a Traitor?` | [Side Resume_ Is There a Traitor_.json](<Side Resume_ Is There a Traitor_.json>) |
 | Side Resume: Joint Sparring Day | `Side Resume: Joint Sparring Day` | [Side Resume_ Joint Sparring Day.json](<Side Resume_ Joint Sparring Day.json>) |
 | Side Resume: Kendo's Study Session | `Side Resume: Kendo's Study Session` | [Side Resume_ Kendo's Study Session.json](<Side Resume_ Kendo's Study Session.json>) |
+| Side Resume: Kota's Secret Cliff | `Side Resume: Kota's Secret Cliff` | [Side Resume_ Kota's Secret Cliff.json](<Side Resume_ Kota's Secret Cliff.json>) |
 | Side Resume: License Exam Lesson Plans | `Side Resume: License Exam Lesson Plans` | [Side Resume_ License Exam Lesson Plans.json](<Side Resume_ License Exam Lesson Plans.json>) |
 | Side Resume: License Exam Prep | `Side Resume: License Exam Prep` | [Side Resume_ License Exam Prep.json](<Side Resume_ License Exam Prep.json>) |
+| Side Resume: Lunch with All Might | `Side Resume: Lunch with All Might` | [Side Resume_ Lunch with All Might.json](<Side Resume_ Lunch with All Might.json>) |
 | Side Resume: Manhunt | `Side Resume: Manhunt` | [Side Resume_ Manhunt.json](<Side Resume_ Manhunt.json>) |
+| Side Resume: Midoriya or Iida? | `Side Resume: Midoriya or Iida?` | [Side Resume_ Midoriya or Iida_.json](<Side Resume_ Midoriya or Iida_.json>) |
 | Side Resume: Monoma's Provocation | `Side Resume: Monoma's Provocation` | [Side Resume_ Monoma's Provocation.json](<Side Resume_ Monoma's Provocation.json>) |
 | Side Resume: Moving Day | `Side Resume: Moving Day` | [Side Resume_ Moving Day.json](<Side Resume_ Moving Day.json>) |
 | Side Resume: New Faces at the Bar | `Side Resume: New Faces at the Bar` | [Side Resume_ New Faces at the Bar.json](<Side Resume_ New Faces at the Bar.json>) |
@@ -735,11 +773,14 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: Nighteye's Stamp Test | `Side Resume: Nighteye's Stamp Test` | [Side Resume_ Nighteye's Stamp Test.json](<Side Resume_ Nighteye's Stamp Test.json>) |
 | Side Resume: Poached | `Side Resume: Poached` | [Side Resume_ Poached.json](<Side Resume_ Poached.json>) |
 | Side Resume: Pool Day | `Side Resume: Pool Day` | [Side Resume_ Pool Day.json](<Side Resume_ Pool Day.json>) |
+| Side Resume: Quirk Boot Camp | `Side Resume: Quirk Boot Camp` | [Side Resume_ Quirk Boot Camp.json](<Side Resume_ Quirk Boot Camp.json>) |
 | Side Resume: Rent Day | `Side Resume: Rent Day` | [Side Resume_ Rent Day.json](<Side Resume_ Rent Day.json>) |
 | Side Resume: Rescue Training Day | `Side Resume: Rescue Training Day` | [Side Resume_ Rescue Training Day.json](<Side Resume_ Rescue Training Day.json>) |
 | Side Resume: Rooftop Rounds | `Side Resume: Rooftop Rounds` | [Side Resume_ Rooftop Rounds.json](<Side Resume_ Rooftop Rounds.json>) |
+| Side Resume: Ryukyu Says Yes | `Side Resume: Ryukyu Says Yes` | [Side Resume_ Ryukyu Says Yes.json](<Side Resume_ Ryukyu Says Yes.json>) |
 | Side Resume: Scouting the Sports Festival | `Side Resume: Scouting the Sports Festival` | [Side Resume_ Scouting the Sports Festival.json](<Side Resume_ Scouting the Sports Festival.json>) |
 | Side Resume: Shinso's Night Training | `Side Resume: Shinso's Night Training` | [Side Resume_ Shinso's Night Training.json](<Side Resume_ Shinso's Night Training.json>) |
+| Side Resume: Shoto Visits His Mother | `Side Resume: Shoto Visits His Mother` | [Side Resume_ Shoto Visits His Mother.json](<Side Resume_ Shoto Visits His Mother.json>) |
 | Side Resume: Talk Show Appearance | `Side Resume: Talk Show Appearance` | [Side Resume_ Talk Show Appearance.json](<Side Resume_ Talk Show Appearance.json>) |
 | Side Resume: The 1-B Shopping Trip | `Side Resume: The 1-B Shopping Trip` | [Side Resume_ The 1-B Shopping Trip.json](<Side Resume_ The 1-B Shopping Trip.json>) |
 | Side Resume: The Armored Car Job | `Side Resume: The Armored Car Job` | [Side Resume_ The Armored Car Job.json](<Side Resume_ The Armored Car Job.json>) |
@@ -747,21 +788,29 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: The Bar After the USJ | `Side Resume: The Bar After the USJ` | [Side Resume_ The Bar After the USJ.json](<Side Resume_ The Bar After the USJ.json>) |
 | Side Resume: The Big Three | `Side Resume: The Big Three` | [Side Resume_ The Big Three.json](<Side Resume_ The Big Three.json>) |
 | Side Resume: The Charity Gala | `Side Resume: The Charity Gala` | [Side Resume_ The Charity Gala.json](<Side Resume_ The Charity Gala.json>) |
+| Side Resume: The Crowd at Class 1-A's Door | `Side Resume: The Crowd at Class 1-A's Door` | [Side Resume_ The Crowd at Class 1-A's Door.json](<Side Resume_ The Crowd at Class 1-A's Door.json>) |
 | Side Resume: The Cultural Festival Booth | `Side Resume: The Cultural Festival Booth` | [Side Resume_ The Cultural Festival Booth.json](<Side Resume_ The Cultural Festival Booth.json>) |
 | Side Resume: The Cultural Festival Rivalry | `Side Resume: The Cultural Festival Rivalry` | [Side Resume_ The Cultural Festival Rivalry.json](<Side Resume_ The Cultural Festival Rivalry.json>) |
 | Side Resume: The Day After the USJ | `Side Resume: The Day After the USJ` | [Side Resume_ The Day After the USJ.json](<Side Resume_ The Day After the USJ.json>) |
 | Side Resume: The Dorm Room King Contest | `Side Resume: The Dorm Room King Contest` | [Side Resume_ The Dorm Room King Contest.json](<Side Resume_ The Dorm Room King Contest.json>) |
+| Side Resume: The First Ordinary Lessons | `Side Resume: The First Ordinary Lessons` | [Side Resume_ The First Ordinary Lessons.json](<Side Resume_ The First Ordinary Lessons.json>) |
 | Side Resume: The First Staff Meeting | `Side Resume: The First Staff Meeting` | [Side Resume_ The First Staff Meeting.json](<Side Resume_ The First Staff Meeting.json>) |
 | Side Resume: The Giant | `Side Resume: The Giant` | [Side Resume_ The Giant.json](<Side Resume_ The Giant.json>) |
 | Side Resume: The Heights Alliance Christmas Party | `Side Resume: The Heights Alliance Christmas Party` | [Side Resume_ The Heights Alliance Christmas Party.json](<Side Resume_ The Heights Alliance Christmas Party.json>) |
 | Side Resume: The Hero Killer at the Bar | `Side Resume: The Hero Killer at the Bar` | [Side Resume_ The Hero Killer at the Bar.json](<Side Resume_ The Hero Killer at the Bar.json>) |
+| Side Resume: The Hot Spring Wall | `Side Resume: The Hot Spring Wall` | [Side Resume_ The Hot Spring Wall.json](<Side Resume_ The Hot Spring Wall.json>) |
+| Side Resume: The Interns Come Home | `Side Resume: The Interns Come Home` | [Side Resume_ The Interns Come Home.json](<Side Resume_ The Interns Come Home.json>) |
 | Side Resume: The Kiyashi Mall Trip | `Side Resume: The Kiyashi Mall Trip` | [Side Resume_ The Kiyashi Mall Trip.json](<Side Resume_ The Kiyashi Mall Trip.json>) |
 | Side Resume: The License Audit | `Side Resume: The License Audit` | [Side Resume_ The License Audit.json](<Side Resume_ The License Audit.json>) |
 | Side Resume: The Number Two | `Side Resume: The Number Two` | [Side Resume_ The Number Two.json](<Side Resume_ The Number Two.json>) |
 | Side Resume: The Offer Board | `Side Resume: The Offer Board` | [Side Resume_ The Offer Board.json](<Side Resume_ The Offer Board.json>) |
 | Side Resume: The Paranormal Liberation Front | `Side Resume: The Paranormal Liberation Front` | [Side Resume_ The Paranormal Liberation Front.json](<Side Resume_ The Paranormal Liberation Front.json>) |
+| Side Resume: The Peephole | `Side Resume: The Peephole` | [Side Resume_ The Peephole.json](<Side Resume_ The Peephole.json>) |
+| Side Resume: The Quiet Week | `Side Resume: The Quiet Week` | [Side Resume_ The Quiet Week.json](<Side Resume_ The Quiet Week.json>) |
 | Side Resume: The Rebuke | `Side Resume: The Rebuke` | [Side Resume_ The Rebuke.json](<Side Resume_ The Rebuke.json>) |
 | Side Resume: The Regional Disaster Drill | `Side Resume: The Regional Disaster Drill` | [Side Resume_ The Regional Disaster Drill.json](<Side Resume_ The Regional Disaster Drill.json>) |
+| Side Resume: The Rescue Plan | `Side Resume: The Rescue Plan` | [Side Resume_ The Rescue Plan.json](<Side Resume_ The Rescue Plan.json>) |
+| Side Resume: The Second-Term Opening Ceremony | `Side Resume: The Second-Term Opening Ceremony` | [Side Resume_ The Second-Term Opening Ceremony.json](<Side Resume_ The Second-Term Opening Ceremony.json>) |
 | Side Resume: The Spring Billboard Release | `Side Resume: The Spring Billboard Release` | [Side Resume_ The Spring Billboard Release.json](<Side Resume_ The Spring Billboard Release.json>) |
 | Side Resume: The Support Expo | `Side Resume: The Support Expo` | [Side Resume_ The Support Expo.json](<Side Resume_ The Support Expo.json>) |
 | Side Resume: The Tartarus Transfer Escort | `Side Resume: The Tartarus Transfer Escort` | [Side Resume_ The Tartarus Transfer Escort.json](<Side Resume_ The Tartarus Transfer Escort.json>) |
@@ -772,10 +821,14 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: The Transfer Trial Eve | `Side Resume: The Transfer Trial Eve` | [Side Resume_ The Transfer Trial Eve.json](<Side Resume_ The Transfer Trial Eve.json>) |
 | Side Resume: The Vanguard Action Squad | `Side Resume: The Vanguard Action Squad` | [Side Resume_ The Vanguard Action Squad.json](<Side Resume_ The Vanguard Action Squad.json>) |
 | Side Resume: Toga's Dress Rehearsal | `Side Resume: Toga's Dress Rehearsal` | [Side Resume_ Toga's Dress Rehearsal.json](<Side Resume_ Toga's Dress Rehearsal.json>) |
+| Side Resume: Tokoyami at Hawks's Agency | `Side Resume: Tokoyami at Hawks's Agency` | [Side Resume_ Tokoyami at Hawks's Agency.json](<Side Resume_ Tokoyami at Hawks's Agency.json>) |
+| Side Resume: Tokoyami's Winter Work-Study | `Side Resume: Tokoyami's Winter Work-Study` | [Side Resume_ Tokoyami's Winter Work-Study.json](<Side Resume_ Tokoyami's Winter Work-Study.json>) |
 | Side Resume: Training of the Dead | `Side Resume: Training of the Dead` | [Side Resume_ Training of the Dead.json](<Side Resume_ Training of the Dead.json>) |
 | Side Resume: Unbreakable | `Side Resume: Unbreakable` | [Side Resume_ Unbreakable.json](<Side Resume_ Unbreakable.json>) |
 | Side Resume: Valentine's Day | `Side Resume: Valentine's Day` | [Side Resume_ Valentine's Day.json](<Side Resume_ Valentine's Day.json>) |
+| Side Resume: Walking Back with Iida and Uraraka | `Side Resume: Walking Back with Iida and Uraraka` | [Side Resume_ Walking Back with Iida and Uraraka.json](<Side Resume_ Walking Back with Iida and Uraraka.json>) |
 | Side Resume: White Day | `Side Resume: White Day` | [Side Resume_ White Day.json](<Side Resume_ White Day.json>) |
+| Side Resume: Why Uraraka Wants to Be a Hero | `Side Resume: Why Uraraka Wants to Be a Hero` | [Side Resume_ Why Uraraka Wants to Be a Hero.json](<Side Resume_ Why Uraraka Wants to Be a Hero.json>) |
 | Side Resume: Winter Work-Study | `Side Resume: Winter Work-Study` | [Side Resume_ Winter Work-Study.json](<Side Resume_ Winter Work-Study.json>) |
 | Side Resume: Work-Study: First Shift | `Side Resume: Work-Study: First Shift` | [Side Resume_ Work-Study_ First Shift.json](<Side Resume_ Work-Study_ First Shift.json>) |
 | Side Resume: Workshop Overnight | `Side Resume: Workshop Overnight` | [Side Resume_ Workshop Overnight.json](<Side Resume_ Workshop Overnight.json>) |

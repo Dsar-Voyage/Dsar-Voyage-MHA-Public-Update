@@ -1,0 +1,42 @@
+{
+  "Side Resume: Do-or-Die Survival Training": {
+    "name": "Side Resume: Do-or-Die Survival Training",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_survival_training",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_survival_training",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_survival_training",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_survival_training"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_survival_training",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Do-or-Die Survival Training\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: A late-summer day at Ground Beta, in the weeks before the provisional license exam, wherever on the mock city the party is with Class 1-A."
+      }
+    ]
+  }
+}

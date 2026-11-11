@@ -1,0 +1,25 @@
+{
+  "Tempest Circuit": {
+    "name": "Tempest Circuit",
+    "description": "The user runs a circuit around a whole city block for the rest of the scene, and the block becomes their wind. Each turn they can be anywhere on the circuit in an instant, sweep every civilian in the block to the edge inside pockets of still air, or slam one foe for heavy force damage with the full weight of the circling gale, knocking them flat; held back, the gale only pins foes in place. The circuit breaks if the user stops running, and holding both natures at this scale triggers the user's Drawback at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 65,
+    "cooldown": 4
+  }
+}

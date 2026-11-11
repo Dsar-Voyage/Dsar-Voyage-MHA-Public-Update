@@ -1,0 +1,15 @@
+{
+  "side_shoto_mother": {
+    "title": "Shoto Visits His Mother",
+    "beats": "Late April, on one of the two days off after the Sports Festival, wherever the party is with Shoto Todoroki: he has been quieter than usual since the festival, and today he says, without being asked, that he is going to see his mother. He has not seen her in years.\n\nCanon default course, as pressure the player can change: Shoto is heading for Musutafu General Hospital, where she has lived in a private room for a long time. He says he has to talk with her before he can face his own power and become the hero he wants to be, one of his own choosing. He explains no more than he has already told the party; the rest is his. If the player offers to come, he thinks it over and allows only as far as he can bear: the hospital entrance, the lobby, or the corridor outside her door. He goes in alone, and the narration stays outside with the party. After a long while he comes out with red-rimmed eyes and a face the party has not seen on him before. He says only that she cried, that she apologized, that she welcomed him and even smiled, and that he will come back.\n\nThe party can walk with him in silence, wait outside without a single question, buy him a drink from the vending machine after, or decide this is not its place and let him go alone, which he thanks the party for. Pressing for details shuts him down; patience earns one more sentence later, about the All Might videos his mother once watched with him. If the festival went differently and Shoto never faced his fire there, he still goes: something at the festival made him think of her, and that is enough.\n\nThe event is complete when Shoto has seen his mother and left the hospital, or he heads off alone and the party lets him go.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_shoto_mother",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

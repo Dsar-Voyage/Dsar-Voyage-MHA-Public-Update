@@ -1,0 +1,15 @@
+{
+  "side_interns_home": {
+    "title": "The Interns Come Home",
+    "beats": "Late at night in late October at Heights Alliance, two or three days after the Shie Hassaikai raid, wherever the party is with Izuku Midoriya, Eijiro Kirishima, Ochaco Uraraka or Tsuyu Asui. The four work-study students have just come back through the dorm door after hospital waiting rooms, paperwork and hours of police questions. The lounge lights are still on, and Class 1-A has been waiting up.\n\nCanon default course, as pressure the player can change: the class surrounds them at once. Mina Ashido is close to tears, everyone talks over everyone, and there are too many questions and too much relief for one room. Tenya Iida raises his hand, class rep to the end, and asks everyone to be considerate: they are exhausted, so no interrogations tonight. Kirishima laughs and takes the back slaps; Ochaco and Tsuyu lean on each other; Izuku, bandaged, insists he is fine, and keeps insisting. What the four say about the raid stays within what the news and the live story have made known; the narration does not add losses or wounds the live story has not given them.\n\nThe party has a real part: welcome them, make tea, press with questions (Iida intervenes), notice that Izuku is not fine, or simply sit with whoever looks the most tired. A party that pushes too hard gets a tired look and the end of the conversation.\n\nBy path: a Class 1-A party that stayed on campus is one of the welcoming crowd. A party that was on the raid through its own work-study comes home with the four, gets surrounded too, and can answer, deflect or go straight to bed.\n\nThe event is complete when Iida sends everyone to bed, or the party leaves the lounge.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_interns_home",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

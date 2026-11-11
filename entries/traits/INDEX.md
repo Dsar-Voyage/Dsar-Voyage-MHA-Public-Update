@@ -1,4 +1,4 @@
-# traits: 1138 entries (11.02)
+# traits: 1139 entries (11.11)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -969,6 +969,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Slate Skin | `Slate Skin` | [Slate Skin.json](<Slate Skin.json>) |
 | Slicked-Back Hair | `Slicked-Back Hair` | [Slicked-Back Hair.json](<Slicked-Back Hair.json>) |
 | Slim Build | `Slim Build` | [Slim Build.json](<Slim Build.json>) |
+| Slipstream Quirk | `Slipstream Quirk` | [Slipstream Quirk.json](<Slipstream Quirk.json>) |
 | Smoke Gray Eyes | `Smoke Gray Eyes` | [Smoke Gray Eyes.json](<Smoke Gray Eyes.json>) |
 | Smoke Gray Hair | `Smoke Gray Hair` | [Smoke Gray Hair.json](<Smoke Gray Hair.json>) |
 | Soft Black Hair | `Soft Black Hair` | [Soft Black Hair.json](<Soft Black Hair.json>) |

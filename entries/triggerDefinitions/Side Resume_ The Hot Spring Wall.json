@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Hot Spring Wall": {
+    "name": "Side Resume: The Hot Spring Wall",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_hot_spring_wall",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_hot_spring_wall",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_hot_spring_wall",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_hot_spring_wall"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_hot_spring_wall",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Hot Spring Wall\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The first night of the forest training camp, bath time at the Wild Wild Pussycats Lodge."
+      }
+    ]
+  }
+}

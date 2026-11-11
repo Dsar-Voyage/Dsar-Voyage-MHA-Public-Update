@@ -1,0 +1,15 @@
+{
+  "side_boot_camp": {
+    "title": "Quirk Boot Camp",
+    "beats": "The second day of the forest training camp, in the training grounds of the Wild Wild Pussycats Lodge. From first light Shota Aizawa and Vlad King have both classes in the Training Clearing, and the rule is simple: push a Quirk past its limit, again and again, until the limit moves. Pixie-Bob raises terrain on demand, Ragdoll's Search tracks every student at once and gleefully calls out weak points, Mandalay's Telepathy relays orders, and Tiger drills anyone with a body-strengthening Quirk in close combat until they drop.\n\nDefault course, as pressure the player can change: the clearing becomes a festival of suffering. Katsuki Bakugo plunges his hands into near-boiling water between blasts. Shoto Todoroki stands in a drum bath, trading ice and fire to keep the water bearable. Ochaco Uraraka rolls herself around inside a huge ball to beat her own nausea, until she is sick in the bushes. Eijiro Kirishima and Tetsutetsu Tetsutetsu harden side by side while being struck, racing to crack last. Yuga Aoyama fires his laser until his stomach gives out. Denki Kaminari draws current from an enormous battery. Rikido Sato studies while eating sugar by the fistful. Koji Koda calls animals until he is hoarse. The player gets a drill of their own, built on their Quirk's real weak point: they can throw themselves into it, find a smarter angle, help a classmate through theirs, or complain, which only earns another set.\n\nBefore the day ends, Aizawa reminds the students headed for remedial lessons (by default Kaminari, Mina Ashido, Kirishima, Sato and Hanta Sero, unless the exams went differently) that their extra lessons start tonight, with Neito Monoma joining from Class 1-B. A player who failed joins them.\n\nBy path: a Class 1-A student trains under Aizawa's eye; a Class 1-B student trains under Vlad King's beside the 1-A rivals, with Itsuka Kendo keeping her class in line.\n\nThe event is complete when the drills end for the day and the remedial list has been read, or the party leaves.",
+    "targetTurns": 20,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_boot_camp",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

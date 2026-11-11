@@ -1,0 +1,20 @@
+{
+  "Sheltered Carry": {
+    "name": "Sheltered Carry",
+    "description": "The user scoops up one person and carries them out of danger at full speed inside a pocket of still air, so heat, smoke, debris and wind never touch the passenger. Together they cover a street's length in a moment and land gently. The carried person must be within reach and no heavier than about two adults. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

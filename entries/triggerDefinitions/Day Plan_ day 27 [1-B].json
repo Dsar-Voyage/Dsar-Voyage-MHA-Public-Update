@@ -22,14 +22,14 @@
       },
       {
         "type": "action-text",
-        "operator": "regex",
-        "value": "[\\s\\S]*"
+        "operator": "notContains",
+        "value": "kip"
       }
     ],
     "effects": [
       {
         "type": "story",
-        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): after lunch Class 1-B has the hero-name lesson with Midnight in Class 1-B Homeroom; play it as it happens."
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): after lunch Class 1-B has the hero-name lesson with Nemuri Kayama in Class 1-B Homeroom; play it as it happens."
       }
     ]
   }

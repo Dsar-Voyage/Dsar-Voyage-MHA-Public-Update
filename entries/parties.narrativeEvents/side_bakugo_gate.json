@@ -1,0 +1,15 @@
+{
+  "side_bakugo_gate": {
+    "title": "Bakugo at the Gate",
+    "beats": "Tuesday, late afternoon at U.A. Academy, after the Battle Trial: the party is out on the grounds near the Main Gate with Izuku Midoriya, his arm freshly bandaged by Recovery Girl, and Katsuki Bakugo, who walked out of class without a word and has stopped only because Izuku shouted 'Kacchan!' after him. By canon default Izuku's team beat Katsuki's today; if the trial went otherwise, Katsuki's fury fixes on whoever beat him or showed him up.\n\nCanon default course, as pressure the player can change: Izuku lowers his voice and half-confesses that his power was given to him by someone, that he cannot say more, and that he was never deceiving Katsuki all those years; one day he will make it his own and win with it. A player standing close hears only that much, never a name or a how, and asking later gets a stammer and a change of subject. Katsuki barely takes it in. Shaking, eyes wet with rage, he says today stands as a loss: he watched Shoto Todoroki's ice and knew he could not beat it, he heard Momo Yaoyorozu's analysis and agreed with every word. Then he swears to beat every one of them from here on and become Number One. All Might bounds up the path with a booming 'Young Bakugo!' to encourage him; Katsuki shrugs off the hand on his shoulder and says he will surpass All Might too.\n\nThe party can step back and leave the two of them the gate, stand at Izuku's side, push Katsuki and get snarled at, or offer him a word he throws back. A challenge from the player becomes part of the vow: Katsuki adds the player by name to the list of people he will beat. Once he stalks off, All Might thanks the party for being there, a little sheepishly.\n\nThe event is complete when Katsuki has made his vow and walked off, or the party leaves them.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_bakugo_gate",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

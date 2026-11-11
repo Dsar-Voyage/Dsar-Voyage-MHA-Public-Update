@@ -1,0 +1,15 @@
+{
+  "side_aoyama_cheese": {
+    "title": "Cheese at the Door",
+    "beats": "An evening at U.A. Academy in early November, in the busy week of festival preparations, wherever the party is with Izuku Midoriya or Yuga Aoyama. For days Aoyama has been strange around Izuku: at lunch he shoved a piece of cheese into Izuku's mouth without a word and swept away, at night he watches from the dorm balcony, and tonight Izuku found cheese laid out at his door to spell two words: I know.\n\nCanon default course, as pressure the player can change: Izuku is baffled and a little alarmed. After the evening's training and rehearsal for Class 1-A's festival show, where Aoyama has the sparkling centerpiece, too much Navel Laser doubles him over with stomach pain; he tries to hide it behind a pose. Izuku helps him somewhere quiet (a bench in the Heights Alliance Yard or an empty hallway). There, pale and plain-spoken for once, Aoyama explains: when he was very young his body could not handle his Quirk, every beam hurt, and the belt is what made it usable. He says he sees the same in Izuku, a power the body has to fight to hold, and the cheese was his clumsy way of saying so. Izuku takes it as an odd kindness, and the two agree to shine at the festival.\n\nThe party has a real part: laugh about the cheese with Izuku, help Aoyama to the bench, stand guard, or tease him. If the party presses on what I know means, Aoyama sparkles, says non, non, and changes the subject. The narration never explains how he could know anything, never links him to anyone outside U.A., and never hints at more than odd behavior.\n\nBy path: a Class 1-A party is a classmate who saw the cheese, the pain or both.\n\nThe event is complete when Aoyama's pain eases and he and Izuku part on good terms, or the party leaves them to it.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_aoyama_cheese",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

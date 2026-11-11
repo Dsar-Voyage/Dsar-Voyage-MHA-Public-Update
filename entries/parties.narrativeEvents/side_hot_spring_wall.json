@@ -1,0 +1,15 @@
+{
+  "side_hot_spring_wall": {
+    "title": "The Hot Spring Wall",
+    "beats": "The first night of the forest training camp, bath time at the Wild Wild Pussycats Lodge. The classes have survived Beast's Forest and dinner, and the outdoor Hot Spring Bath is split down the middle by a tall wooden divider, the men on one side and the women on the other. Minoru Mineta is with the player and has been eyeing that divider since he arrived.\n\nDefault course, as pressure the player can change: Mineta announces his plan, plucks his sticky spheres and starts to climb. On top of the divider sits Kota Izumi, a small child, fully dressed and posted there as a lookout by the Pussycats; he saw this coming. With one scornful word he shoves Mineta off, and Mineta drops back into the water on the men's side with a huge splash. Nobody sees anything over the wall, and the narration never looks over it. A cheer of thanks goes up from the women's side, Kota startles, his foot slips on the wet top of the wall, and he tips backward toward the stones. Izuku Midoriya is already moving: he flares Full Cowl and catches him clean out of the air. Kota is unhurt; he only goes still and pale for a moment. Izuku hurries him to Mandalay in the Lodge Hall, and she thanks him and keeps Kota close.\n\nA man in the class can try to talk Mineta down before he starts, pull him off the wall, or help steady the catch; nobody is ever in more danger than that one slip. If the player is a woman, she is on the other side of the divider: she hears Mineta's scheme, Kota's sharp voice and the splash, joins the thanks or not, and hears about the catch afterward.\n\nThe event is complete when Kota is safe with Mandalay and Mineta has been fished out and scolded, or the party leaves.",
+    "targetTurns": 5,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_hot_spring_wall",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

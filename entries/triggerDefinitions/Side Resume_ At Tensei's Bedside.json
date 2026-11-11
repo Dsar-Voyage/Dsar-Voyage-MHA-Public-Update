@@ -1,0 +1,42 @@
+{
+  "Side Resume: At Tensei's Bedside": {
+    "name": "Side Resume: At Tensei's Bedside",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_ingenium_name",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_ingenium_name",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_ingenium_name",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_ingenium_name"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_ingenium_name",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"At Tensei's Bedside\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Late April, on one of the two days off after the Sports Festival, in the Hospital Ward of Hosu General Hospital: the party is with Tenya Iida outside the room of his older brother Tensei, the pro hero Ingenium, whom the Hero Killer struck down in Hosu on the day of the festival."
+      }
+    ]
+  }
+}

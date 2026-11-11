@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Interns Come Home": {
+    "name": "Side Resume: The Interns Come Home",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_interns_home",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_interns_home",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_interns_home",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_interns_home"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_interns_home",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Interns Come Home\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Late at night in late October at Heights Alliance, two or three days after the Shie Hassaikai raid, wherever the party is with Izuku Midoriya, Eijiro Kirishima, Ochaco Uraraka or Tsuyu Asui."
+      }
+    ]
+  }
+}

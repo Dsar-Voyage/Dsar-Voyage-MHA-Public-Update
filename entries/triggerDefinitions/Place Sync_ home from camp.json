@@ -1,0 +1,21 @@
+{
+  "Place Sync: home from camp": {
+    "name": "Place Sync: home from camp",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){if(storage.homeCamp){skip=true;return;}if([\"Wild Wild Pussycats Lodge\", \"Beast's Forest\", \"Kota's Secret Hideout\"].indexOf(check({type:'party-location'})||'')<0){skip=true;return;}if(!/\"U\\.A\\. /.test(JSON.stringify(check({type:'player-traits'})||''))){skip=true;return;}storage.homeCamp=1;effects.push({type:'party-location',operator:'set',value:'U.A. Academy'},{type:'party-area',operator:'set',value:'Heights Alliance Yard'},{type:'story',instruction:\"Narrator only: the summer camp is over; the party is back at U.A. Academy, brought down from the mountains after the raid.\"});})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 127
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ]
+  }
+}

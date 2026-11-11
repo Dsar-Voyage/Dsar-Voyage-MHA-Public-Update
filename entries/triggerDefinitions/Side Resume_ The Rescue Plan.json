@@ -1,0 +1,42 @@
+{
+  "Side Resume: The Rescue Plan": {
+    "name": "Side Resume: The Rescue Plan",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_rescue_plan",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_rescue_plan",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_rescue_plan",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_rescue_plan"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_rescue_plan",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"The Rescue Plan\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Early August, a few days after the forest camp raid, at Musutafu General Hospital."
+      }
+    ]
+  }
+}

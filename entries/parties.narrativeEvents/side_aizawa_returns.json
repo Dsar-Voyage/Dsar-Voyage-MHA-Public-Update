@@ -1,0 +1,15 @@
+{
+  "side_aizawa_returns": {
+    "title": "Aizawa Returns in Bandages",
+    "beats": "Thursday morning at U.A. Academy, the first class day after the attack on the USJ: the party is with classmates, by canon default in the Class 1-A Homeroom before the bell, where Tenya Iida chops the air and orders everyone into their seats. The room is tense: the news still shows the dome, and nobody knows who will take homeroom.\n\nCanon default course, as pressure the player can change: the door slides open and Shota Aizawa shuffles in, wrapped in bandages from scalp to elbows, both arms in casts, only his eyes and hair showing. The class shouts his name, and Tenya asks whether he should even be standing. Aizawa says his health is irrelevant and that the fight is not over. The room braces for more villains, and he announces the U.A. Sports Festival in two weeks. Relief turns into a roar, then into doubt: Minoru Mineta and others ask whether a festival right after a villain attack is wise. Aizawa answers flatly that security will be stronger than ever and that the festival shows the school is not shaken. Every pro agency in the country scouts it and the whole nation watches; a student gets only three in a career, and anyone who wants to go pro cannot waste one.\n\nIf the party is elsewhere on campus with classmates when the morning starts, Aizawa finds the group on his way in and says the same in fewer words. The party can greet him, ask about Thirteen (stable and recovering, nothing more), ask what the festival will demand, or say what the USJ cost it. A player who fought at the USJ gets one long, silent look from him that passes for thanks.\n\nThe event is complete when the Sports Festival is announced and homeroom moves on to the day's lessons, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_aizawa_returns",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

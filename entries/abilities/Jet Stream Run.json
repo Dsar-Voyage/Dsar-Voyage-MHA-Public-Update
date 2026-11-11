@@ -1,0 +1,25 @@
+{
+  "Jet Stream Run": {
+    "name": "Jet Stream Run",
+    "description": "Signature. The user lays a long tailwind corridor across a street or a collapsing building and runs it again and again in one turn, carrying or sweeping a whole group of up to ten people out of danger to a safe point, each inside a pocket of still air. Foes caught in the corridor are knocked flat. The run fails in a space too cramped to turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 10
+      }
+    ],
+    "bonus": 55,
+    "cooldown": 6
+  }
+}

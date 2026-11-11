@@ -1,4 +1,4 @@
-# abilities: 1304 entries (11.02)
+# abilities: 1315 entries (11.11)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -262,6 +262,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Cut-In Save | `Cut-In Save` | [Cut-In Save.json](<Cut-In Save.json>) |
 | Cutoff Glance | `Cutoff Glance` | [Cutoff Glance.json](<Cutoff Glance.json>) |
 | Cyclone Cage | `Cyclone Cage` | [Cyclone Cage.json](<Cyclone Cage.json>) |
+| Cyclone Circle | `Cyclone Circle` | [Cyclone Circle.json](<Cyclone Circle.json>) |
+| Cyclone Kick | `Cyclone Kick` | [Cyclone Kick.json](<Cyclone Kick.json>) |
 | Dark Crossing | `Dark Crossing` | [Dark Crossing.json](<Dark Crossing.json>) |
 | Day Ahead | `Day Ahead` | [Day Ahead.json](<Day Ahead.json>) |
 | Daybreak Cannon | `Daybreak Cannon` | [Daybreak Cannon.json](<Daybreak Cannon.json>) |
@@ -346,6 +348,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Express Carry | `Express Carry` | [Express Carry.json](<Express Carry.json>) |
 | Extra Arm Shield | `Extra Arm Shield` | [Extra Arm Shield.json](<Extra Arm Shield.json>) |
 | Extreme Stillpoint | `Extreme Stillpoint` | [Extreme Stillpoint.json](<Extreme Stillpoint.json>) |
+| Eye of the Storm | `Eye of the Storm` | [Eye of the Storm.json](<Eye of the Storm.json>) |
 | Eye-Level Burst | `Eye-Level Burst` | [Eye-Level Burst.json](<Eye-Level Burst.json>) |
 | Facade Sprint | `Facade Sprint` | [Facade Sprint.json](<Facade Sprint.json>) |
 | Faceted Umbra Weave | `Faceted Umbra Weave` | [Faceted Umbra Weave.json](<Faceted Umbra Weave.json>) |
@@ -559,6 +562,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Ironweave Guard | `Ironweave Guard` | [Ironweave Guard.json](<Ironweave Guard.json>) |
 | Ironwood Ram | `Ironwood Ram` | [Ironwood Ram.json](<Ironwood Ram.json>) |
 | Jackline Trip | `Jackline Trip` | [Jackline Trip.json](<Jackline Trip.json>) |
+| Jet Stream Run | `Jet Stream Run` | [Jet Stream Run.json](<Jet Stream Run.json>) |
 | Jetstream Rider | `Jetstream Rider` | [Jetstream Rider.json](<Jetstream Rider.json>) |
 | Jolt Clasp | `Jolt Clasp` | [Jolt Clasp.json](<Jolt Clasp.json>) |
 | Just Another Student | `Just Another Student` | [Just Another Student.json](<Just Another Student.json>) |
@@ -749,6 +753,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Party Line | `Party Line` | [Party Line.json](<Party Line.json>) |
 | Passenger Steady Run | `Passenger Steady Run` | [Passenger Steady Run.json](<Passenger Steady Run.json>) |
 | Passing Guard | `Passing Guard` | [Passing Guard.json](<Passing Guard.json>) |
+| Passing Gust | `Passing Gust` | [Passing Gust.json](<Passing Gust.json>) |
 | Passing Snatch | `Passing Snatch` | [Passing Snatch.json](<Passing Snatch.json>) |
 | Passthrough Counter | `Passthrough Counter` | [Passthrough Counter.json](<Passthrough Counter.json>) |
 | Patchwork Canopy | `Patchwork Canopy` | [Patchwork Canopy.json](<Patchwork Canopy.json>) |
@@ -962,6 +967,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Shelter Gel Network | `Shelter Gel Network` | [Shelter Gel Network.json](<Shelter Gel Network.json>) |
 | Shelter of Hands | `Shelter of Hands` | [Shelter of Hands.json](<Shelter of Hands.json>) |
 | Shelter Shell | `Shelter Shell` | [Shelter Shell.json](<Shelter Shell.json>) |
+| Sheltered Carry | `Sheltered Carry` | [Sheltered Carry.json](<Sheltered Carry.json>) |
 | Shifted Center | `Shifted Center` | [Shifted Center.json](<Shifted Center.json>) |
 | Short Range Flash | `Short Range Flash` | [Short Range Flash.json](<Short Range Flash.json>) |
 | Shoulder Breach | `Shoulder Breach` | [Shoulder Breach.json](<Shoulder Breach.json>) |
@@ -1133,6 +1139,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Tail Hammer | `Tail Hammer` | [Tail Hammer.json](<Tail Hammer.json>) |
 | Tail Mark | `Tail Mark` | [Tail Mark.json](<Tail Mark.json>) |
 | Tail Rescue Hook | `Tail Rescue Hook` | [Tail Rescue Hook.json](<Tail Rescue Hook.json>) |
+| Tailwind Burst | `Tailwind Burst` | [Tailwind Burst.json](<Tailwind Burst.json>) |
 | Tailwind Takeoff | `Tailwind Takeoff` | [Tailwind Takeoff.json](<Tailwind Takeoff.json>) |
 | Tangent Shot | `Tangent Shot` | [Tangent Shot.json](<Tangent Shot.json>) |
 | Tangle Shot | `Tangle Shot` | [Tangle Shot.json](<Tangle Shot.json>) |
@@ -1141,6 +1148,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Taproot Listening | `Taproot Listening` | [Taproot Listening.json](<Taproot Listening.json>) |
 | Team-Up Request | `Team-Up Request` | [Team-Up Request.json](<Team-Up Request.json>) |
 | Tectonic Haymaker | `Tectonic Haymaker` | [Tectonic Haymaker.json](<Tectonic Haymaker.json>) |
+| Tempest Circuit | `Tempest Circuit` | [Tempest Circuit.json](<Tempest Circuit.json>) |
 | Ten Minute Dispatch | `Ten Minute Dispatch` | [Ten Minute Dispatch.json](<Ten Minute Dispatch.json>) |
 | Ten Second Overdrive | `Ten Second Overdrive` | [Ten Second Overdrive.json](<Ten Second Overdrive.json>) |
 | Ten-Second Horizon | `Ten-Second Horizon` | [Ten-Second Horizon.json](<Ten-Second Horizon.json>) |
@@ -1225,9 +1233,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Untethered Shade | `Untethered Shade` | [Untethered Shade.json](<Untethered Shade.json>) |
 | Untraceable Job | `Untraceable Job` | [Untraceable Job.json](<Untraceable Job.json>) |
 | Updraft Bound | `Updraft Bound` | [Updraft Bound.json](<Updraft Bound.json>) |
+| Updraft Stride | `Updraft Stride` | [Updraft Stride.json](<Updraft Stride.json>) |
 | Uproar | `Uproar` | [Uproar.json](<Uproar.json>) |
 | Upturned Slab | `Upturned Slab` | [Upturned Slab.json](<Upturned Slab.json>) |
 | Upward Rescue Stream | `Upward Rescue Stream` | [Upward Rescue Stream.json](<Upward Rescue Stream.json>) |
+| Vacuum Wake | `Vacuum Wake` | [Vacuum Wake.json](<Vacuum Wake.json>) |
 | Valve Screen | `Valve Screen` | [Valve Screen.json](<Valve Screen.json>) |
 | Vanished Avenue | `Vanished Avenue` | [Vanished Avenue.json](<Vanished Avenue.json>) |
 | Vanishing Shift | `Vanishing Shift` | [Vanishing Shift.json](<Vanishing Shift.json>) |
@@ -1247,6 +1257,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Vitrified Ramp | `Vitrified Ramp` | [Vitrified Ramp.json](<Vitrified Ramp.json>) |
 | Voice on the Line | `Voice on the Line` | [Voice on the Line.json](<Voice on the Line.json>) |
 | Volley Weave | `Volley Weave` | [Volley Weave.json](<Volley Weave.json>) |
+| Vortex Lance | `Vortex Lance` | [Vortex Lance.json](<Vortex Lance.json>) |
 | Vouched Entry | `Vouched Entry` | [Vouched Entry.json](<Vouched Entry.json>) |
 | Waiting Lock | `Waiting Lock` | [Waiting Lock.json](<Waiting Lock.json>) |
 | Waiting Trap | `Waiting Trap` | [Waiting Trap.json](<Waiting Trap.json>) |

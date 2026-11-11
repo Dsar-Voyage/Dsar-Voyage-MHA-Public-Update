@@ -1,4 +1,4 @@
-# regionArchetypes: 23 entries (11.02)
+# regionArchetypes: 23 entries (11.11)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

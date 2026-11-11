@@ -1,0 +1,15 @@
+{
+  "side_tokoyami_hawks": {
+    "title": "Tokoyami at Hawks's Agency",
+    "beats": "Internship week, at the turn of April into May, at Hawks Hero Agency in Fukuoka: the party is with Fumikage Tokoyami, who took Hawks's offer and is still waiting to be shown anything. Hawks drifts in, wings folded, coffee in hand, and says they might as well come along.\n\nCanon default course, as pressure the player can change: a call comes in and Hawks is gone before anyone stands. By the time Tokoyami and the party reach the street, the purse snatcher is pinned under a feather, the crash victims are sitting on the curb, and Hawks is chatting with a police officer. It happens three times before lunch. His sidekicks arrive after him every time, carry the paperwork and the cleanup, and none of them seems surprised. Hawks is friendly, quick and impossible to pin down: heroes should be so fast they have free time, he says, and the slow ones should work on catching up. Over lunch he asks Tokoyami, casually, about the USJ: how many villains, what the man covered in hands said, what the warp gate could do, whether anyone named who they answer to. Tokoyami tells what he knows while Dark Shadow chatters. Hawks never says why he asks. By evening Tokoyami says, low, that he has learned nothing here except how far behind he is.\n\nBy path: a Class 1-A intern runs beside Tokoyami and can try to keep up, ask Hawks for an actual lesson, or answer his questions about the USJ from its own memory; the narration never explains his interest. A Licensed Pro or Licensed Sidekick on a team-up with Hawks this week sees it from the staff side: the cleanup lands on the party, Hawks praises it in passing, and asking why he took an intern who cannot fly earns a grin and a joke.\n\nThe event is complete when the day's calls are done and Tokoyami has said what the week is teaching him, or the party leaves the agency.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_tokoyami_hawks",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

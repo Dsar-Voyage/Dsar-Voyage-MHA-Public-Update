@@ -1,0 +1,42 @@
+{
+  "Side Resume: Cheese at the Door": {
+    "name": "Side Resume: Cheese at the Door",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_aoyama_cheese",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_aoyama_cheese",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_aoyama_cheese",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_aoyama_cheese"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_aoyama_cheese",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Cheese at the Door\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: An evening at U.A."
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-# parties.narrativeEvents: 185 entries (11.02)
+# parties.narrativeEvents: 214 entries (11.11)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -20,20 +20,30 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | After the Joint Training | `b1_after_joint_training` | [b1_after_joint_training.json](<b1_after_joint_training.json>) |
 | After the War | `v_war_aftermath` | [v_war_aftermath.json](<v_war_aftermath.json>) |
 | Agency Office Placement | `man_agency_placement` | [man_agency_placement.json](<man_agency_placement.json>) |
+| Aizawa Returns in Bandages | `side_aizawa_returns` | [side_aizawa_returns.json](<side_aizawa_returns.json>) |
+| All Might's Story | `side_afo_talk` | [side_afo_talk.json](<side_afo_talk.json>) |
 | Aoyama Holds His Ground | `troy_kunieda_bloom` | [troy_kunieda_bloom.json](<troy_kunieda_bloom.json>) |
 | Arrival at the Forest Camp | `forest_camp_arrival` | [forest_camp_arrival.json](<forest_camp_arrival.json>) |
+| At Tensei's Bedside | `side_ingenium_name` | [side_ingenium_name.json](<side_ingenium_name.json>) |
+| Back from Internships | `side_back_from_internships` | [side_back_from_internships.json](<side_back_from_internships.json>) |
+| Bakugo at the Gate | `side_bakugo_gate` | [side_bakugo_gate.json](<side_bakugo_gate.json>) |
+| Bakugo Joins the Talks | `side_ofa_three` | [side_ofa_three.json](<side_ofa_three.json>) |
 | Break the Wound Open | `deku_gives_up_one_for_all` | [deku_gives_up_one_for_all.json](<deku_gives_up_one_for_all.json>) |
 | Broke and Hunted | `v_league_broke` | [v_league_broke.json](<v_league_broke.json>) |
 | Build a Battlefield | `final_war_workshop` | [final_war_workshop.json](<final_war_workshop.json>) |
 | Can I Become a Hero? | `teacher_deku_and_dai` | [teacher_deku_and_dai.json](<teacher_deku_and_dai.json>) |
 | Careers Day | `gs_careers_day` | [gs_careers_day.json](<gs_careers_day.json>) |
+| Cheese at the Door | `side_aoyama_cheese` | [side_aoyama_cheese.json](<side_aoyama_cheese.json>) |
 | Club Recruitment Week | `side_club_week` | [side_club_week.json](<side_club_week.json>) |
 | Control Your Heart | `deku_reaches_the_coffin` | [deku_reaches_the_coffin.json](<deku_reaches_the_coffin.json>) |
 | Copycats | `v_copycats` | [v_copycats.json](<v_copycats.json>) |
 | Costume Upgrade Rush | `sup_costume_rush` | [sup_costume_rush.json](<sup_costume_rush.json>) |
 | Crisis PR After Kamino | `man_crisis_pr` | [man_crisis_pr.json](<man_crisis_pr.json>) |
+| Curry Night | `side_curry_night` | [side_curry_night.json](<side_curry_night.json>) |
 | Deku vs. Kacchan, Part 2 | `deku_vs_kacchan_2` | [deku_vs_kacchan_2.json](<deku_vs_kacchan_2.json>) |
 | Destro's Book | `v_mla_pamphlets` | [v_mla_pamphlets.json](<v_mla_pamphlets.json>) |
+| Do-or-Die Survival Training | `side_survival_training` | [side_survival_training.json](<side_survival_training.json>) |
+| Eri Visits U.A. | `side_eri_tour` | [side_eri_tour.json](<side_eri_tour.json>) |
 | Everyone Against All For One | `gunga_last_reinforcements` | [gunga_last_reinforcements.json](<gunga_last_reinforcements.json>) |
 | Festival Fever | `civ_festival_fever` | [civ_festival_fever.json](<civ_festival_fever.json>) |
 | Festival Marketing | `man_festival_marketing` | [man_festival_marketing.json](<man_festival_marketing.json>) |
@@ -61,15 +71,19 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Internship Week: Day One | `side_intern_day_one` | [side_intern_day_one.json](<side_intern_day_one.json>) |
 | Internship Week: Night Patrol | `side_intern_patrol` | [side_intern_patrol.json](<side_intern_patrol.json>) |
 | Internship Week: The Evaluation | `side_intern_evaluation` | [side_intern_evaluation.json](<side_intern_evaluation.json>) |
+| Is There a Traitor? | `side_traitor_meeting` | [side_traitor_meeting.json](<side_traitor_meeting.json>) |
 | Jaku | `war_jaku` | [war_jaku.json](<war_jaku.json>) |
 | Joint Sparring Day | `b1_joint_sparring` | [b1_joint_sparring.json](<b1_joint_sparring.json>) |
 | Keep the Shelters Moving | `evacuation_routes_under_attack` | [evacuation_routes_under_attack.json](<evacuation_routes_under_attack.json>) |
 | Kendo's Study Session | `b1_kendo_study` | [b1_kendo_study.json](<b1_kendo_study.json>) |
+| Kota's Secret Cliff | `side_kota_cliff` | [side_kota_cliff.json](<side_kota_cliff.json>) |
 | Kurogiri Captured | `kurogiri_captured` | [kurogiri_captured.json](<kurogiri_captured.json>) |
 | License Exam Lesson Plans | `fac_license_plans` | [fac_license_plans.json](<fac_license_plans.json>) |
 | License Exam Prep | `b1_license_prep` | [b1_license_prep.json](<b1_license_prep.json>) |
+| Lunch with All Might | `side_all_might_lunch` | [side_all_might_lunch.json](<side_all_might_lunch.json>) |
 | Make Time for Each Other | `more_class_reunion` | [more_class_reunion.json](<more_class_reunion.json>) |
 | Manhunt | `v_manhunt` | [v_manhunt.json](<v_manhunt.json>) |
+| Midoriya or Iida? | `side_like_midoriya` | [side_like_midoriya.json](<side_like_midoriya.json>) |
 | Monoma's Provocation | `b1_monoma_provocation` | [b1_monoma_provocation.json](<b1_monoma_provocation.json>) |
 | More | `more_choose_a_personal_future` | [more_choose_a_personal_future.json](<more_choose_a_personal_future.json>) |
 | Moving Day | `civ_moving_day` | [civ_moving_day.json](<civ_moving_day.json>) |
@@ -81,13 +95,16 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | One Last Night Before Deployment | `leave_for_troy` | [leave_for_troy.json](<leave_for_troy.json>) |
 | Poached | `pro_sidekick_poaching` | [pro_sidekick_poaching.json](<pro_sidekick_poaching.json>) |
 | Pool Day | `side_pool_day` | [side_pool_day.json](<side_pool_day.json>) |
+| Quirk Boot Camp | `side_boot_camp` | [side_boot_camp.json](<side_boot_camp.json>) |
 | Reach Out Again | `deku_armor_return` | [deku_armor_return.json](<deku_armor_return.json>) |
 | Rent Day | `pro_rent_day` | [pro_rent_day.json](<pro_rent_day.json>) |
 | Rescue Training Day | `side_rescue_training` | [side_rescue_training.json](<side_rescue_training.json>) |
 | Rooftop Rounds | `v_rooftop_rounds` | [v_rooftop_rounds.json](<v_rooftop_rounds.json>) |
+| Ryukyu Says Yes | `side_ryukyu` | [side_ryukyu.json](<side_ryukyu.json>) |
 | Scouting the Sports Festival | `pro_festival_scouting` | [pro_festival_scouting.json](<pro_festival_scouting.json>) |
 | Separate Them | `operation_troy_division` | [operation_troy_division.json](<operation_troy_division.json>) |
 | Shinso's Night Training | `gs_shinso_training` | [gs_shinso_training.json](<gs_shinso_training.json>) |
+| Shoto Visits His Mother | `side_shoto_mother` | [side_shoto_mother.json](<side_shoto_mother.json>) |
 | Sir Nighteye's Farewell | `nighteye_farewell` | [nighteye_farewell.json](<nighteye_farewell.json>) |
 | Soba | `todoroki_final_visit` | [todoroki_final_visit.json](<todoroki_final_visit.json>) |
 | Take Our Hands | `deku_versus_class_a` | [deku_versus_class_a.json](<deku_versus_class_a.json>) |
@@ -105,6 +122,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | The Charity Gala | `pro_charity_gala` | [pro_charity_gala.json](<pro_charity_gala.json>) |
 | The Child Inside | `tenko_and_the_stolen_life` | [tenko_and_the_stolen_life.json](<tenko_and_the_stolen_life.json>) |
 | The Convoy Ambush | `convoy_ambush` | [convoy_ambush.json](<convoy_ambush.json>) |
+| The Crowd at Class 1-A's Door | `side_door_crowd` | [side_door_crowd.json](<side_door_crowd.json>) |
 | The Cultural Festival Booth | `gs_festival_booth` | [gs_festival_booth.json](<gs_festival_booth.json>) |
 | The Cultural Festival Rivalry | `b1_festival_rivalry` | [b1_festival_rivalry.json](<b1_festival_rivalry.json>) |
 | The Dawn Raids | `war_dawn` | [war_dawn.json](<war_dawn.json>) |
@@ -120,6 +138,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | The Fight He Must Leave | `okuto_wrong_destination` | [okuto_wrong_destination.json](<okuto_wrong_destination.json>) |
 | The Final Assessment | `licenses_cider_house` | [licenses_cider_house.json](<licenses_cider_house.json>) |
 | The Final Exams | `final_exams` | [final_exams.json](<final_exams.json>) |
+| The First Ordinary Lessons | `side_first_lessons` | [side_first_lessons.json](<side_first_lessons.json>) |
 | The First Staff Meeting | `fac_staff_meeting` | [fac_staff_meeting.json](<fac_staff_meeting.json>) |
 | The Forest Camp Raid | `forest_camp_raid` | [forest_camp_raid.json](<forest_camp_raid.json>) |
 | The Friend in the Woods | `aoyama_exposed` | [aoyama_exposed.json](<aoyama_exposed.json>) |
@@ -132,6 +151,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | The Hero Killer at the Bar | `v_stain_meets_league` | [v_stain_meets_league.json](<v_stain_meets_league.json>) |
 | The High-End in Fukuoka | `high_end_attack` | [high_end_attack.json](<high_end_attack.json>) |
 | The Hosu Incident | `hosu_incident` | [hosu_incident.json](<hosu_incident.json>) |
+| The Hot Spring Wall | `side_hot_spring_wall` | [side_hot_spring_wall.json](<side_hot_spring_wall.json>) |
+| The Interns Come Home | `side_interns_home` | [side_interns_home.json](<side_interns_home.json>) |
 | The Joint Training Battle | `joint_training` | [joint_training.json](<joint_training.json>) |
 | The Kamino Incident | `kamino_incident` | [kamino_incident.json](<kamino_incident.json>) |
 | The Kiyashi Mall Trip | `side_mall_trip` | [side_mall_trip.json](<side_mall_trip.json>) |
@@ -144,14 +165,18 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | The Number Two | `v_hawks_joins` | [v_hawks_joins.json](<v_hawks_joins.json>) |
 | The Offer Board | `man_offer_board` | [man_offer_board.json](<man_offer_board.json>) |
 | The Paranormal Liberation Front | `v_plf_founding` | [v_plf_founding.json](<v_plf_founding.json>) |
+| The Peephole | `side_peephole` | [side_peephole.json](<side_peephole.json>) |
 | The People Between Shelters | `rain_patrols` | [rain_patrols.json](<rain_patrols.json>) |
 | The People They Mean to Destroy | `league_before_the_end` | [league_before_the_end.json](<league_before_the_end.json>) |
 | The Price of Changing Sides | `nagant_and_the_mansion_trap` | [nagant_and_the_mansion_trap.json](<nagant_and_the_mansion_trap.json>) |
 | The Prison Opens | `tartarus_falls` | [tartarus_falls.json](<tartarus_falls.json>) |
 | The Provisional License Exam | `provisional_license_exam` | [provisional_license_exam.json](<provisional_license_exam.json>) |
+| The Quiet Week | `side_quiet_week` | [side_quiet_week.json](<side_quiet_week.json>) |
 | The Rebuke | `side_kamino_reckoning` | [side_kamino_reckoning.json](<side_kamino_reckoning.json>) |
 | The Regional Disaster Drill | `pro_disaster_drill` | [pro_disaster_drill.json](<pro_disaster_drill.json>) |
+| The Rescue Plan | `side_rescue_plan` | [side_rescue_plan.json](<side_rescue_plan.json>) |
 | The Rule That Fights Back | `star_and_stripe_last_order` | [star_and_stripe_last_order.json](<star_and_stripe_last_order.json>) |
+| The Second-Term Opening Ceremony | `side_second_term` | [side_second_term.json](<side_second_term.json>) |
 | The Shie Hassaikai Raid | `shie_hassaikai_raid` | [shie_hassaikai_raid.json](<shie_hassaikai_raid.json>) |
 | The Spring Billboard Release | `pro_spring_chart` | [pro_spring_chart.json](<pro_spring_chart.json>) |
 | The Support Expo | `sup_support_expo` | [sup_support_expo.json](<sup_support_expo.json>) |
@@ -171,17 +196,21 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | The Work After Rescue | `more_quirk_counseling` | [more_quirk_counseling.json](<more_quirk_counseling.json>) |
 | This Time, Someone Stops | `someone_takes_the_childs_hand` | [someone_takes_the_childs_hand.json](<someone_takes_the_childs_hand.json>) |
 | Toga's Dress Rehearsal | `v_toga_rehearsal` | [v_toga_rehearsal.json](<v_toga_rehearsal.json>) |
+| Tokoyami at Hawks's Agency | `side_tokoyami_hawks` | [side_tokoyami_hawks.json](<side_tokoyami_hawks.json>) |
+| Tokoyami's Winter Work-Study | `side_tokoyami_winter` | [side_tokoyami_winter.json](<side_tokoyami_winter.json>) |
 | Too Tired to Stand | `dictator_and_the_lost_hero` | [dictator_and_the_lost_hero.json](<dictator_and_the_lost_hero.json>) |
 | Toya Todoroki | `war_dabi` | [war_dabi.json](<war_dabi.json>) |
 | Training of the Dead | `side_training_of_the_dead` | [side_training_of_the_dead.json](<side_training_of_the_dead.json>) |
 | Two Brothers' Fire | `kamino_phosphor` | [kamino_phosphor.json](<kamino_phosphor.json>) |
 | Unbreakable | `side_fat_gum_patrol` | [side_fat_gum_patrol.json](<side_fat_gum_patrol.json>) |
 | Valentine's Day | `side_valentines` | [side_valentines.json](<side_valentines.json>) |
+| Walking Back with Iida and Uraraka | `side_walk_home_deku` | [side_walk_home_deku.json](<side_walk_home_deku.json>) |
 | What Did We Save? | `hospital_after_victory` | [hospital_after_victory.json](<hospital_after_victory.json>) |
 | What Remains of All Might | `stain_and_the_return_home` | [stain_and_the_return_home.json](<stain_and_the_return_home.json>) |
 | White Day | `side_white_day` | [side_white_day.json](<side_white_day.json>) |
 | Who Still Answers? | `hero_society_fractures` | [hero_society_fractures.json](<hero_society_fractures.json>) |
 | Whose Anger Is This? | `central_hospital_uprising` | [central_hospital_uprising.json](<central_hospital_uprising.json>) |
+| Why Uraraka Wants to Be a Hero | `side_uraraka_reason` | [side_uraraka_reason.json](<side_uraraka_reason.json>) |
 | Winter Work-Study | `side_winter_work_study` | [side_winter_work_study.json](<side_winter_work_study.json>) |
 | Work-Study: First Shift | `side_work_study_first_shift` | [side_work_study_first_shift.json](<side_work_study_first_shift.json>) |
 | Workshop Overnight | `sup_workshop_overnight` | [sup_workshop_overnight.json](<sup_workshop_overnight.json>) |

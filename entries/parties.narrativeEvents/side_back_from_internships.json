@@ -1,0 +1,15 @@
+{
+  "side_back_from_internships": {
+    "title": "Back from Internships",
+    "beats": "Early May, the first school day after Internship Week, wherever the player is on the grounds of U.A. Academy. The agency week is over and the classmates around the player are trading stories before lessons. Then Katsuki Bakugo walks in with his hair combed flat and parted in a prim, glossy eight-to-two line, the work of Best Jeanist, who spent the week correcting his manners and his look. Eijiro Kirishima takes one look and doubles over; Hanta Sero joins him until both are wheezing. Bakugo says it will not go back and that he will kill them both.\n\nDefault course, as pressure the player can change: the stories go around. Ochaco Uraraka, back from Gunhead's agency, drops into a crisp martial-arts stance and breathes out slow and steady, and the people beside her step back. Minoru Mineta, back from Mount Lady, stares at nothing and announces that women are scary, which earns him no sympathy. Momo Yaoyorozu, a little embarrassed, explains that she and Itsuka Kendo of Class 1-B spent much of the week filming a commercial with Uwabami. Tsuyu Asui mentions in one sentence that she was out on a sea patrol with Selkie. Shoto Todoroki, asked about Hosu, keeps to the official story: Endeavor arrived and dealt with the Hero Killer, and says nothing more. The player can share their own week, tease Bakugo, defend him, or keep the Hosu story straight.\n\nBefore the bell the laughter goes one beat too far: Bakugo's temper flares, a small blast pops off his scalp, and the neat part springs back into its usual spikes in a puff of smoke. Kirishima calls it a relief; Bakugo calls him something worse.\n\nBy path: a Class 1-A student is in the thick of it. A Class 1-B student catches it from the corridor or with Kendo, who tells the commercial from her side and admits the camera crew was harder on her than any drill, while Neito Monoma sniffs at all the attention 1-A gets.\n\nThe event is complete when Bakugo's hair has blown back into spikes and the lessons begin, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_back_from_internships",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -22,14 +22,14 @@
       },
       {
         "type": "action-text",
-        "operator": "regex",
-        "value": "[\\s\\S]*"
+        "operator": "notContains",
+        "value": "kip"
       }
     ],
     "effects": [
       {
         "type": "story",
-        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the first lesson of the morning in Class 1-A Homeroom is hero names: Midnight judges each student's name one by one at the lectern, and the internship offers go up. Play it as it happens, student by student; do not summarize it or skip ahead to lunch. Class 1-B has the same lesson after lunch."
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the first lesson of the morning in Class 1-A Homeroom is hero names: Nemuri Kayama judges each student's name one by one at the lectern, and the internship offers go up. Play it as it happens, student by student; do not summarize it or skip ahead to lunch. Class 1-B has the same lesson after lunch."
       }
     ]
   }

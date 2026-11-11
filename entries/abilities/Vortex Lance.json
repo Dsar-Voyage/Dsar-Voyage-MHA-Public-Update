@@ -1,0 +1,29 @@
+{
+  "Vortex Lance": {
+    "name": "Vortex Lance",
+    "description": "The user runs a long straight line at full speed and drags the wind behind them into a horizontal tornado that keeps going after they stop, tearing down the line for a full street's length. Every foe in its path takes heavy force damage and is hurled aside, and it rips smoke, gas and loose debris out of the street; held back, it only knocks foes flat and clears the air. It needs a long straight run, and the user cannot change direction once it starts. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 85,
+    "cooldown": 6
+  }
+}

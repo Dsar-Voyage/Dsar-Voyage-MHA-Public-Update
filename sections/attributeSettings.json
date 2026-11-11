@@ -12,10 +12,12 @@
   "lowAttributeThreshold": 2,
   "attributeBonusModifier": 2.5,
   "attributeStatModifiers": {
-    "endurance": {
-      "variable": "health",
-      "amount": 5
-    }
+    "endurance": [
+      {
+        "amount": 5,
+        "variable": "health"
+      }
+    ]
   },
   "attributeDamageModifiers": {
     "power": 1.5,

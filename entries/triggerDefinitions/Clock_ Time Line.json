@@ -1,0 +1,16 @@
+{
+  "Clock: Time Line": {
+    "name": "Clock: Time Line",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const tk=check({type:'game-tick'})||0;if([storage.cueTick,storage.sleepTick,storage.skipTick].indexOf(tk)>=0){skip=true;return;}const N=k=>typeof storage[k]==='number'?storage[k]:(check({type:'read-number',key:k})||0);const b=N('currentBandIndex'),d=N('currentDay')||1;const QC=check({type:'quests-completed'})||[],TR=JSON.stringify(check({type:'player-traits'})||{});if(d===2&&TR.indexOf('U.A. Hero Course (Class 1-A)')>=0&&QC.indexOf('The First-Day Quirk Assessment')<0||d===3&&check({type:'party-location'})==='Ground Beta'&&QC.indexOf('Battle Trial: Heroes and Villains')<0){skip=true;return;}const tx=String(check({type:'story-text'})||'');const re=/(?:^|\\n)(?:narrator:\\s*)?[\\s*_>#\"“]*(sunday|monday|tuesday|wednesday|thursday|friday|saturday),?\\s+([a-z]+)\\s+(\\d{1,2})(?:st|nd|rd|th)?,?\\s*[—–-]+\\s*(?:(\\d{1,2})(?::([0-5]\\d))?\\s*([ap])\\.?\\s?m\\b|(early morning|mid[- ]?morning|late morning|early afternoon|mid[- ]?afternoon|late afternoon|early evening|late evening|late night|night))/gi;let m,L=null;while((m=re.exec(tx)))L=m;if(!L||L.index<tx.length-700){skip=true;return;}const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]];let r=(Math.max(1,d)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}if((L[1]+' '+L[2]+' '+(+L[3])).toLowerCase()!==(WD[(Math.max(1,d)-1)%7]+' '+MO[i][0]+' '+(r+1)).toLowerCase()){skip=true;return;}const BN=['early morning','mid morning','late morning','early afternoon','mid afternoon','late afternoon','early evening','late evening','night','late night'];let v;if(L[7]){v=BN.indexOf(L[7].toLowerCase().replace(/mid[- ]?/,'mid '));}else{const h=(+L[4]%12)+(L[6].toLowerCase()==='p'?12:0);v=h<5?9:h<8?0:h<10?1:h<12?2:h<14?3:h<16?4:h<18?5:h<20?6:h<22?7:8;}if(v<0){skip=true;return;}storage.cueTick=tk;storage.currentBandIndex=v;effects.push({type:'write-number',key:'currentBandIndex',operator:'set',value:v});})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ]
+  }
+}

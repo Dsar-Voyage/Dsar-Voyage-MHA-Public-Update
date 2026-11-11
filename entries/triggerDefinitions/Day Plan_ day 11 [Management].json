@@ -1,0 +1,30 @@
+{
+  "Day Plan: day 11 [Management]": {
+    "name": "Day Plan: day 11 [Management]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 11
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Management Course"
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): a day off: U.A. Academy is closed for classes the day after the attack on the USJ while the police and the teachers deal with it; no lessons, the dorms are quiet."
+      }
+    ]
+  }
+}

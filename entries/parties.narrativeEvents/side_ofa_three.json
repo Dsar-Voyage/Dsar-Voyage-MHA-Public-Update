@@ -1,0 +1,15 @@
+{
+  "side_ofa_three": {
+    "title": "Bakugo Joins the Talks",
+    "beats": "Early December at U.A. Academy, a few days after the Joint Training, wherever the party is with Izuku Midoriya and Katsuki Bakugo, on the Gym Gamma Training Floor or anywhere on campus with room to move. Since the training, when black tendrils lashed out of Izuku's arms in front of both classes, Bakugo has watched him with narrowed eyes. Today he has run out of patience: he wants to see it again.\n\nCanon default course, as pressure the player can change: Bakugo forces a spar (if they are indoors, he drags Izuku out to the Heights Alliance Yard or the gym floor). They go at it hard; Izuku reaches for the tendrils and gets a flicker, then nothing, and Bakugo pushes harder. Then All Might, thin and retired, arrives and stops it with a single raised voice: Young Midoriya, Young Bakugo, enough. He asks them both to come with him, and the three talk apart, behind the glass of the Gym Gamma Observation Deck or out of earshot across the yard.\n\nThe party watches from a distance: Izuku talking with his hands, Bakugo scowling, then very still, All Might grave. What is said stays theirs. The narration never voices it, never names a Quirk's history and never explains the tendrils. If the party tries to follow or listen, All Might kindly asks for privacy, and Bakugo far less kindly. When they come back, Izuku looks lighter, and Bakugo tells anyone who asks to butt out.\n\nThe party has a real part before that: spar with them, referee, call for a teacher, or step back.\n\nBy path: a Class 1-A party is a classmate who saw the tendrils at the Joint Training and can be the one who asks, or the one who chooses not to.\n\nThe event is complete when the three come back from their private talk, or the party leaves before All Might arrives.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_ofa_three",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

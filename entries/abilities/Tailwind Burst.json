@@ -1,0 +1,20 @@
+{
+  "Tailwind Burst": {
+    "name": "Tailwind Burst",
+    "description": "The user bursts forward on a tailwind and crosses up to a short street's length in a blink, slipping past one foe or reaching a person in danger before anyone else moves. Anyone they pass is buffeted a step aside. A tight corner, a slick floor or a crowd shortens the dash to a few strides. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 0
+  }
+}

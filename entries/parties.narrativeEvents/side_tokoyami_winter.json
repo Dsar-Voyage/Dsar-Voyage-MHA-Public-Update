@@ -1,0 +1,15 @@
+{
+  "side_tokoyami_winter": {
+    "title": "Tokoyami's Winter Work-Study",
+    "beats": "A December day at the Hawks Hero Agency in Fukuoka, during the winter work-studies, wherever in the agency the party is with Fumikage Tokoyami. Tokoyami, hero name Tsukuyomi, has come back for the winter. Last time Hawks cleared every incident before he could arrive; this time Hawks is hardly here, busy elsewhere, and the agency's sidekicks run the shifts. Tokoyami works as one of them: callouts in the Hawks Agency Operations Room, launches from the Hawks Agency Rooftop, and fast flights over the city with Dark Shadow.\n\nCanon default course, as pressure the player can change: a callout comes in (a worker stranded on a high ledge, or a thief running the rooftops) and the sidekicks give it to Tokoyami with the party. He handles it cleanly, Dark Shadow muttering commentary. Back on the rooftop, Hawks drops in between errands, hears the report, and for the first time talks to Tokoyami as a partner: he asks for his read, hands him a task of his own and calls him Tsukuyomi. Then he is gone again. Where Hawks goes and why stays his business; the narration does not explain or hint.\n\nThe party has a real part: fly the callout with Tokoyami, cover him from the ground, argue a better plan, or let him lead and watch him grow.\n\nBy path: a Class 1-A party is also on work-study at the agency and shares the shifts, part rival and part partner. A Licensed Pro Hero party is a visiting pro with business at the agency or on a joint operation; Hawks may ask its honest read of his work-study student. A Licensed Sidekick party is one of the agency's sidekicks, or one on loan from another agency, and works beside Tokoyami as an equal.\n\nThe event is complete when Hawks has dropped in, spoken to Tokoyami as a partner and left again, or when the party leaves the agency at the end of that day.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_tokoyami_winter",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

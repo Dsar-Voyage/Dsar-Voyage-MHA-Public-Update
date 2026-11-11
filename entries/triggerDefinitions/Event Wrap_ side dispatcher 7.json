@@ -3,19 +3,19 @@
     "name": "Event Wrap: side dispatcher 7",
     "recurring": true,
     "effects": [],
-    "script": "const E=[\"side_festival_rehearsal\", \"v_mla_pamphlets\", \"v_gigantomachia_trials\", \"gs_transfer_trial_eve\", \"b1_after_joint_training\", \"side_first_snow\", \"pro_sidekick_poaching\", \"sup_workshop_overnight\", \"civ_holiday_rush\", \"b1_hot_pot\", \"side_winter_work_study\", \"v_plf_founding\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
+    "script": "const E=[\"sup_costume_rush\", \"fac_license_plans\", \"side_survival_training\", \"pro_charity_gala\", \"v_toga_rehearsal\", \"b1_license_prep\", \"man_agency_placement\", \"side_second_term\", \"side_big_three\", \"side_training_of_the_dead\", \"side_ryukyu\", \"side_nighteye_stamp\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
     "conditions": [
       {
         "type": "read-number",
         "key": "currentDay",
         "operator": "greaterThanOrEqual",
-        "value": 217
+        "value": 150
       },
       {
         "type": "read-number",
         "key": "currentDay",
         "operator": "lessThanOrEqual",
-        "value": 365
+        "value": 285
       }
     ]
   }

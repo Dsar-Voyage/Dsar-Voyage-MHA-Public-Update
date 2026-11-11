@@ -1,0 +1,15 @@
+{
+  "side_walk_home_deku": {
+    "title": "Walking Back with Iida and Uraraka",
+    "beats": "Monday, late afternoon at U.A. Academy, the first day of classes: the party is walking back across the grounds toward Heights Alliance with Izuku Midoriya and Ochaco Uraraka after the Quirk Apprehension Test. Izuku's swollen finger is freshly bandaged by Recovery Girl, and all of them are still recovering from Shota Aizawa's parting words: nobody is expelled, the threat was a logical ruse. Tenya Iida catches up at a brisk walk and falls into step, chopping the air.\n\nCanon default course, as pressure the player can change: Tenya admits, stiff with embarrassment, that he swallowed the ruse whole; it never crossed his mind that a U.A. teacher would lie to a class, and he cannot decide whether to be shocked or impressed. He asks about Izuku's finger and how a Quirk can hit that hard and break its owner; Izuku dodges with a nervous laugh and a mutter about control. Then Ochaco remembers the name Katsuki Bakugo yelled across the field and asks whether Izuku is called Deku. He explains that his name is Izuku and that Deku is Katsuki's insult for him: useless. Ochaco decides she likes it anyway, because to her ear it echoes 'dekiru', the word for being able to do a thing: a name that says 'can do!' Izuku goes scarlet to the ears and blurts that Deku is fine, while Tenya protests that an insult cannot possibly be fine.\n\nThe party has a real voice: tell the story of its own test, take Tenya's side or Ochaco's on the name, tease Izuku while he glows, suggest a nickname of its own, or simply walk along and listen. A player who placed near the bottom of the test gets honest relief from all three.\n\nThe event is complete when Ochaco has given 'Deku' its new meaning and the group reaches Heights Alliance, or the party splits off from them.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_walk_home_deku",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

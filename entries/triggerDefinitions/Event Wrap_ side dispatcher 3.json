@@ -3,19 +3,19 @@
     "name": "Event Wrap: side dispatcher 3",
     "recurring": true,
     "effects": [],
-    "script": "const E=[\"side_intern_evaluation\", \"v_new_recruits\", \"gs_shinso_training\", \"pro_disaster_drill\", \"side_rescue_training\", \"pro_spring_chart\", \"v_tsukauchi_questions\", \"b1_joint_sparring\", \"pro_talk_show\", \"v_heist\", \"b1_movie_night\", \"side_study_group\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
+    "script": "const E=[\"side_ingenium_name\", \"pro_intern_host\", \"civ_festival_fever\", \"b1_monoma_provocation\", \"side_intern_day_one\", \"side_full_cowl\", \"side_tokoyami_hawks\", \"side_intern_patrol\", \"v_stain_meets_league\", \"pro_hero_killer_alert\", \"side_intern_evaluation\", \"v_new_recruits\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
     "conditions": [
       {
         "type": "read-number",
         "key": "currentDay",
         "operator": "greaterThanOrEqual",
-        "value": 34
+        "value": 25
       },
       {
         "type": "read-number",
         "key": "currentDay",
         "operator": "lessThanOrEqual",
-        "value": 188
+        "value": 135
       }
     ]
   }

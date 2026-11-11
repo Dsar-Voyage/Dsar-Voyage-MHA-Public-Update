@@ -1,0 +1,15 @@
+{
+  "side_first_lessons": {
+    "title": "The First Ordinary Lessons",
+    "beats": "Tuesday morning at U.A. Academy, the first ordinary day of the timetable: the party is with classmates in its homeroom, and the famous Hero Course's core classes turn out to be plain school. Present Mic bounds in for English at full broadcast volume, calls the room his listeners, demands a big 'YEAH!' and gets near silence, then writes a dry grammar drill on the board: four sentences, one wrong relative pronoun, find it. Someone mutters that the most surprising thing at U.A. so far is how normal this is.\n\nCanon default course, as pressure the player can change: Present Mic calls on the party. The player can answer, get it wrong with style, give his call-and-response the volume he wants, or ask what grammar has to do with heroics (he has a loud answer about reports, interviews and overseas team-ups). At noon the class pours into Lunch Rush's Cafeteria. Lunch Rush serves first-rate rice, grilled fish, curry and soba at student prices, with a few courteous words from behind his mask, and the first bite silences the table. Talk turns to the afternoon: hero training, and nobody knows yet what it will be.\n\nBy path: Class 1-A has heard a famous teacher will take its afternoon lesson and speculates loudly. Class 1-B has its own English hour with Present Mic in the Class 1-B Homeroom, then its own afternoon of hero training, and its table trades notes with 1-A across the aisle. If the event opens at lunch, the morning's drill comes up as a story over trays, and Present Mic passes with his own tray and quizzes the table. The party can pick a table, share a dish, argue for the best thing on the menu or guess at the afternoon.\n\nThe event is complete when lunch is over and the class heads off to the afternoon's hero training, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_first_lessons",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

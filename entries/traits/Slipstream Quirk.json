@@ -1,0 +1,41 @@
+{
+  "Slipstream Quirk": {
+    "name": "Slipstream Quirk",
+    "description": "🌪️ Your legs burst with speed and the wind runs with you: a tailwind of your own that keeps you fast.\n\n🧬 A Fusion Quirk of Speed Boost and Wind: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you blink across a short street and knock a foe off balance with the wind of your passing.\n📈 With training: wall runs and gap jumps on a riding gust, carrying someone out of danger in a pocket of still air, a blinding vortex around a foe, a wake that pulls smoke out of a corridor, and a cyclone-wrapped flying kick.\n⚠️ Tight indoor turns, heavy rain and slick floors cut your speed.\n🔗 Common drawback pairing: Stamina Drain, as bursting and steering wind together burns energy fast.\n🎬 Similar canon Quirks: Tenya Iida (Engine), Inasa Yoarashi (Whirlwind).\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Control +10, Evacuation +5\n⚡ Starting techniques: Tailwind Burst, Passing Gust",
+    "traitNarrativeEffects": "Scale: bursts of speed through the legs with a self-made tailwind wrapped around the body. New adult user: blinks across a short street, keeps a sprint's pace through a long run on the tailwind, and the wind of their passing shoves an adult off balance. More needs techniques. Limits: tight indoor turns, heavy rain, slick floors and strong headwinds cut the speed; no flight, air blades or storm-scale wind yet. Quirk Strain: light: burst, passing gust; moderate: wall run, sheltered carry, vortex circle; heavy: smoke-clearing wake, cyclone kick; severe: signature jet-stream evacuation or a moving storm wall. Fusion: Speed Boost plus Wind, each about half single-nature range and force; no engine-level top speed or district-wide winds; only it rides its own tailwind and drags a pulling wake behind it. Type: Emitter and Transformation. Law: unlicensed public speeding or gusts are a Quirk offense; a knocked-down pedestrian is assault. Look: streaming hair, a whistling wake.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Evacuation",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Tailwind Burst",
+      "Passing Gust"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

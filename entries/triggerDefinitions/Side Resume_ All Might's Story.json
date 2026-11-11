@@ -1,0 +1,42 @@
+{
+  "Side Resume: All Might's Story": {
+    "name": "Side Resume: All Might's Story",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_afo_talk",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_afo_talk",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_afo_talk",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_afo_talk"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_afo_talk",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"All Might's Story\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Early May, late in the day after hero training, at U.A."
+      }
+    ]
+  }
+}

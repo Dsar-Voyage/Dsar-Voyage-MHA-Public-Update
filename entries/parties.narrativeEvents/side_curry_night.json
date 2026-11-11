@@ -1,0 +1,15 @@
+{
+  "side_curry_night": {
+    "title": "Curry Night",
+    "beats": "The second day of the forest training camp, late afternoon at the Wild Wild Pussycats Lodge. Around four o'clock the drills are done, both classes are starving, and Pixie-Bob and Ragdoll herd everyone to the Outdoor Kitchen with a cheerful announcement: last night's dinner was the only one the Pussycats cook. From now on the students make their own, and tonight it is curry.\n\nDefault course, as pressure the player can change: Tenya Iida turns it into a lesson at once, declaring that feeding people in a disaster zone is hero work too, and starts assigning stations. Shoto Todoroki lights every stove with a flick of fire and keeps being asked to light more. Katsuki Bakugo chops vegetables with alarming speed and precision and snarls at anyone who looks surprised. Momo Yaoyorozu creates whatever utensil is missing, Ochaco Uraraka floats the heaviest pots, someone burns the rice and someone else saves it. Class 1-B has its own pots going a few tables down, and the rivalry carries straight into whose curry is better. The player can cook, run a station, mess with a rival pot in fun, or watch Bakugo's knife work in silent awe.\n\nThe default ending: plates full under the trees as the light goes, both classes too tired to talk, and everyone agreeing it is the best meal of their lives.\n\nBy path: a Class 1-A student cooks under Iida's stations and beside Bakugo's knife; a Class 1-B student cooks with Itsuka Kendo keeping order and Neito Monoma insisting 1-B's curry is the refined one.\n\nThe event is complete when the curry is served and eaten, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_curry_night",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "side_traitor_meeting": {
+    "title": "Is There a Traitor?",
+    "beats": "The day after the villain attack on the forest training camp, at U.A. Academy. The faculty with the player have gathered behind a closed door, in the Teachers' Lounge or wherever they stand, worn out from the hospital, the police and the phones. Katsuki Bakugo is in the League's hands unless the raid ended differently, and the question in the room is how the League knew where to strike.\n\nDefault course, as pressure the player can change: Present Mic says out loud what several of them are thinking: the camp's location was kept quiet, so it may have leaked from inside. Snipe pushes back hard: start a mole hunt among colleagues and students now, and the school tears itself apart at the worst possible moment. Voices rise. Principal Nezu lets them run for a while, then says calmly that he trusts everyone in this room, and that the work in front of them is getting the students back and keeping the rest safe. Before anyone can answer, a phone call comes for All Might: if he is in the room he steps out to take it, and if not, word arrives that the police have called him and he has gone. The meeting loses its thread.\n\nThe player is a member of the faculty with a real voice here: they can argue for a quiet inquiry, side with Snipe, propose concrete security steps, back Nezu, or ask about the call (the answer is only that the police are moving). No traitor is named, no suspect is singled out and nobody accuses a student; the question stays open. If Shota Aizawa, Vlad King or Nemuri Kayama are in the room, they say little and are visibly short of sleep.\n\nThe event is complete when the call has broken up the meeting and the question is left open, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_traitor_meeting",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

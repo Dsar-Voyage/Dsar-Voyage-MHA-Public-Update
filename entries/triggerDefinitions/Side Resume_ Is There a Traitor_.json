@@ -1,0 +1,42 @@
+{
+  "Side Resume: Is There a Traitor?": {
+    "name": "Side Resume: Is There a Traitor?",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_traitor_meeting",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_traitor_meeting",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_traitor_meeting",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_traitor_meeting"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_traitor_meeting",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Is There a Traitor?\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: The day after the villain attack on the forest training camp, at U.A."
+      }
+    ]
+  }
+}

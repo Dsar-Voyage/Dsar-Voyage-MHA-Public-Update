@@ -61,16 +61,16 @@
   },
   "Choosing a Hero Name": {
     "name": "Choosing a Hero Name",
-    "questSource": "Midnight",
-    "questStatement": "The Sports Festival is over and the agencies have spoken: the internship offers are pinned to the homeroom board, some names stacked with offers and some with none. Before anyone chooses an agency, Midnight takes the class. Every Hero Course student writes a hero name on a board and presents it to the room, and she approves it or sends it back. The name goes on the internship paperwork, and perhaps on a whole career.",
-    "mainObjective": "Choose a hero name, present it to Midnight and the class, and get it approved.",
+    "questSource": "Nemuri Kayama",
+    "questStatement": "The Sports Festival is over and the agencies have spoken: the internship offers are pinned to the homeroom board, some names stacked with offers and some with none. Before anyone chooses an agency, Nemuri Kayama takes the class. Every Hero Course student writes a hero name on a board and presents it to the room, and she approves it or sends it back. The name goes on the internship paperwork, and perhaps on a whole career.",
+    "mainObjective": "Choose a hero name, present it to Nemuri Kayama and the class, and get it approved.",
     "completionCondition": {
       "type": "story",
-      "query": "The PC has presented a hero name to the class and Midnight has approved it, or the PC has deliberately kept their own name and Midnight has accepted that."
+      "query": "The PC has presented a hero name to the class and Nemuri Kayama has approved it, or the PC has deliberately kept their own name and Nemuri Kayama has accepted that."
     },
     "detailType": "detailed",
     "questLocation": "U.A. Academy",
-    "questDesignBrief": "Light, personal and loud. Midnight squeals at ambition and rejects a sloppy or troubling name in one crisp sentence; Shota Aizawa naps in a corner of the room. Canon defaults for NPCs as pressure: Katsuki Bakugo's furious names are rejected twice, Ochaco Uraraka becomes Uravity, Tenya Iida and Shoto Todoroki keep their own names, and Izuku Midoriya takes Deku and turns the insult around. Class 1-B runs the same lesson; Itsuka Kendo becomes Battle Fist. Offers on the board follow the Festival as it was actually played. A rejected name means a rewrite before the bell; a name the class laughs at can still be approved.",
+    "questDesignBrief": "Light, personal and loud. Nemuri Kayama squeals at ambition and rejects a sloppy or troubling name in one crisp sentence; Shota Aizawa naps in a corner of the room. Canon defaults for NPCs as pressure: Katsuki Bakugo's furious names are rejected twice, Ochaco Uraraka becomes Uravity, Tenya Iida and Shoto Todoroki keep their own names, and Izuku Midoriya takes Deku and turns the insult around. Class 1-B runs the same lesson; Itsuka Kendo becomes Battle Fist. Offers on the board follow the Festival as it was actually played. A rejected name means a rewrite before the bell; a name the class laughs at can still be approved.",
     "conclusive": false,
     "status": "hidden"
   },
@@ -295,7 +295,7 @@
     },
     "detailType": "detailed",
     "questLocation": "U.A. Academy",
-    "questDesignBrief": "Politics over tea. Principal Nezu tests every claim with a question; Naomasa Tsukauchi speaks for the police and wants guest lists; Present Mic and Midnight can front the publicity. Students in the other courses resent the Hero Course and the tighter rules; Class 1-A's planned stage show is a selling point if the PC can get Kyoka Jiro's group on board. Never promise the festival will be safe. Any child guest is private and stays out of the campaign. Failure: a weak plan lets Nezu shrink the festival to students only, and a public gaffe makes the news. Nothing here stages the festival day, a break-in attempt or the show.",
+    "questDesignBrief": "Politics over tea. Principal Nezu tests every claim with a question; Naomasa Tsukauchi speaks for the police and wants guest lists; Present Mic and Nemuri Kayama can front the publicity. Students in the other courses resent the Hero Course and the tighter rules; Class 1-A's planned stage show is a selling point if the PC can get Kyoka Jiro's group on board. Never promise the festival will be safe. Any child guest is private and stays out of the campaign. Failure: a weak plan lets Nezu shrink the festival to students only, and a public gaffe makes the news. Nothing here stages the festival day, a break-in attempt or the show.",
     "conclusive": false,
     "status": "hidden"
   },

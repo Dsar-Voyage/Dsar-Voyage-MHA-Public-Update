@@ -1,4 +1,4 @@
-# npcs: 295 entries (11.02)
+# npcs: 295 entries (11.11)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -143,7 +143,6 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Mezo Shoji (Provisional License) | `Mezo Shoji (Provisional License)` | [Mezo Shoji (Provisional License).json](<Mezo Shoji (Provisional License).json>) |
 | Mezo Shoji (Sports Festival) | `Mezo Shoji (Sports Festival)` | [Mezo Shoji (Sports Festival).json](<Mezo Shoji (Sports Festival).json>) |
 | Mezo Shoji (Summer Training) | `Mezo Shoji (Summer Training)` | [Mezo Shoji (Summer Training).json](<Mezo Shoji (Summer Training).json>) |
-| Midnight | `Midnight` | [Midnight.json](<Midnight.json>) |
 | Mimic | `Mimic` | [Mimic.json](<Mimic.json>) |
 | Mina Ashido | `Mina Ashido` | [Mina Ashido.json](<Mina Ashido.json>) |
 | Mina Ashido (Provisional License) | `Mina Ashido (Provisional License)` | [Mina Ashido (Provisional License).json](<Mina Ashido (Provisional License).json>) |
@@ -178,6 +177,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Neito Monoma (Sports Festival) | `Neito Monoma (Sports Festival)` | [Neito Monoma (Sports Festival).json](<Neito Monoma (Sports Festival).json>) |
 | Neito Monoma (Summer Training) | `Neito Monoma (Summer Training)` | [Neito Monoma (Summer Training).json](<Neito Monoma (Summer Training).json>) |
 | Nejire Hado | `Nejire Hado` | [Nejire Hado.json](<Nejire Hado.json>) |
+| Nemuri Kayama | `Nemuri Kayama` | [Nemuri Kayama.json](<Nemuri Kayama.json>) |
 | Nirengeki Shoda | `Nirengeki Shoda` | [Nirengeki Shoda.json](<Nirengeki Shoda.json>) |
 | Nirengeki Shoda (Provisional License) | `Nirengeki Shoda (Provisional License)` | [Nirengeki Shoda (Provisional License).json](<Nirengeki Shoda (Provisional License).json>) |
 | Nirengeki Shoda (Sports Festival) | `Nirengeki Shoda (Sports Festival)` | [Nirengeki Shoda (Sports Festival).json](<Nirengeki Shoda (Sports Festival).json>) |

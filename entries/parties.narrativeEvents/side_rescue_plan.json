@@ -1,0 +1,15 @@
+{
+  "side_rescue_plan": {
+    "title": "The Rescue Plan",
+    "beats": "Early August, a few days after the forest camp raid, at Musutafu General Hospital. Class 1-A has come to see the classmates still laid up from the raid, Izuku Midoriya among them with both arms bandaged, and Eijiro Kirishima is with the player. He has not been himself since the camp: he keeps going back to the moment Katsuki Bakugo was carried off and his own hand closed on empty air. If the raid ended with nobody taken, the scene is only Kirishima admitting how close it came, and no plan forms.\n\nDefault course, as pressure the player can change: with the door shut, in Izuku's room in the Patient Rooms or wherever the visitors have gathered, Kirishima says it plainly: the pros are on it, but he cannot sit and wait; he wants to go and get Bakugo back. Shoto Todoroki stands with him. Then Momo Yaoyorozu, still recovering from the raid, reveals that during the fight she created a tracker and Yosetsu Awase welded it onto the Nomu that attacked them; the police know, and she could build a receiver for its signal. The room goes quiet. Tenya Iida stands against it, firmly: they are students without licenses, the pros and police already have this, and charging in is how more classmates get hurt. Tsuyu Asui agrees with him, frank and shaken, and most of the class sides with Iida. Kirishima does not back down; he says he will leave from the hospital tomorrow night with anyone willing, and asks Momo to think about the receiver.\n\nThe player has a real voice: back Kirishima, object with Iida and Tsuyu, look for a middle path, or say nothing. Telling a teacher is the player's call; by default the students keep it among themselves. Nobody leaves today: the departure belongs to tomorrow night.\n\nThe event is complete when the argument ends with Kirishima's plan on the table and the class divided, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_rescue_plan",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

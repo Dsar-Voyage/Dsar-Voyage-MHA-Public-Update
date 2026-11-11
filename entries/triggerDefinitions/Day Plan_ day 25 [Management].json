@@ -1,0 +1,30 @@
+{
+  "Day Plan: day 25 [Management]": {
+    "name": "Day Plan: day 25 [Management]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 25
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Management Course"
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): a day off: the first of the two days off after the Sports Festival; no classes for any first-year today or tomorrow. Free time: rest, family, town."
+      }
+    ]
+  }
+}

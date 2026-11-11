@@ -1,0 +1,20 @@
+{
+  "Vacuum Wake": {
+    "name": "Vacuum Wake",
+    "description": "The user sprints the length of a corridor, a stairwell or a street and the pulling wake behind them drags smoke, gas or dust out with them, clearing a path for others to breathe and see until the end of the next turn. The same wake can tug loose light objects and a stumbling person a few meters in the user's direction. A sealed room with no exit for the air leaves the wake nowhere to go. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 35,
+    "cooldown": 2
+  }
+}

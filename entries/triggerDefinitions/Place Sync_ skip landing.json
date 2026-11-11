@@ -1,0 +1,21 @@
+{
+  "Place Sync: skip landing": {
+    "name": "Place Sync: skip landing",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const tk=check({type:'game-tick'})||0;if(storage.skipTick!==tk){skip=true;return;}if(check({type:'read-boolean',key:'offCampus'})===true){skip=true;return;}const TR=JSON.stringify(check({type:'player-traits'})||'');if(!/\"U\\.A\\. /.test(TR)){skip=true;return;}const d=typeof storage.currentDay==='number'?storage.currentDay:(check({type:'read-number',key:'currentDay'})||1);if(d>=28&&d<=35){skip=true;return;}const P=(l,a)=>effects.push({type:'party-location',operator:'set',value:l},{type:'party-area',operator:'set',value:a});if(d>=125&&d<=126&&/Class 1-[AB]\\)|U\\.A\\. Faculty/.test(TR)){P(\"Wild Wild Pussycats Lodge\",\"Lodge Hall\");return;}P('U.A. Academy',TR.indexOf('U.A. Faculty')>=0?'Faculty Residence':'Your Dorm Room');})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Ss]kip|[Ll]ater|[Pp]ass|[Gg]oe?s? by|[Ww]ent by|[Ff]ast|[Jj]ump|[Ss]pen[dt]|[Ff]l(y|ies) by"
+      }
+    ]
+  }
+}

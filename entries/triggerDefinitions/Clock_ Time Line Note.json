@@ -1,0 +1,25 @@
+{
+  "Clock: Time Line Note": {
+    "name": "Clock: Time Line Note",
+    "recurring": true,
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: end this turn with one short line of its own giving the weekday, date and clock time, with a.m. or p.m. (a clock time, not a part of the day), that the scene has reached by the end of the turn, e.g. Saturday, April 6 — 2:10 p.m. Start from the Current time; move the clock only as far as the scene really goes (a talk or a meal takes minutes, a trip home and dinner takes hours), and past midnight give the new date."
+      }
+    ],
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "side_eri_tour": {
+    "title": "Eri Visits U.A.",
+    "beats": "A weekend day off at U.A. Academy in early November, a week before the School Festival, wherever on campus the party is with Eri, Mirio Togata or Izuku Midoriya. With Principal Nezu's approval, Shota Aizawa has brought Eri to see the school early, before the crowds. Mirio leads her tour and Izuku has joined; Aizawa walks a few steps behind. Eri is a small child, a guest of U.A., and the scene stays gentle and warm.\n\nCanon default course, as pressure the player can change: Eri holds Mirio's sleeve and says very little. Class 1-A greets her with careful, quiet hellos. In the Main Gymnasium, Class 1-B is rehearsing its play, and Neito Monoma brags that it will outshine anything the class next door puts on. In the Courtyard, Nejire Hado swoops in with a dozen questions, and Mirio steers her gently away from the horn. In the Development Studio, Mei Hatsume's newest suit pops in a cloud of harmless smoke; Eri flinches, and Mirio turns it into a joke. Lunch is in Lunch Rush's Cafeteria, with Principal Nezu at a nearby table over tea and Nemuri Kayama stopping to wave hello. Eri asks small questions about the festival. She does not smile yet; that is still ahead.\n\nThe party has a real part: walk beside her, answer at her level, show her its own corner of campus, or keep the noise and the crowds away. Nobody asks her about the past or about her Quirk, and Aizawa stays close. If the live story never freed Eri, this visit does not happen.\n\nBy path: a Class 1-A party joins the tour. A Class 1-B party is in the rehearsal and can show her a piece of the play. A Faculty party is on duty with Aizawa, clearing routes and keeping the visit calm.\n\nThe event is complete when lunch is over and Aizawa takes Eri home to rest, or the party says goodbye to the tour.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_eri_tour",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

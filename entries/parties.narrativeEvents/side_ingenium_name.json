@@ -1,0 +1,15 @@
+{
+  "side_ingenium_name": {
+    "title": "At Tensei's Bedside",
+    "beats": "Late April, on one of the two days off after the Sports Festival, in the Hospital Ward of Hosu General Hospital: the party is with Tenya Iida outside the room of his older brother Tensei, the pro hero Ingenium, whom the Hero Killer struck down in Hosu on the day of the festival. Tenya left the festival for this bedside and has hardly slept.\n\nCanon default course, as pressure the player can change: Tensei lies bandaged in bed, but he smiles when Tenya comes in and teases him gently for the frown. Tenya may ask the party to wait in the corridor; Tensei, hearing a friend came along, asks to meet them, and the player can stay by the door or take the chair. Tensei says the doctors have told him plainly that his legs will not recover and his hero career is over. He apologizes for falling short as a big brother and tells Tenya he has always been a brilliant younger one. Then he asks Tenya to take on the name Ingenium and carry it forward. Tenya cannot answer. He grips the bed rail, says he needs time, and does not accept; the name stays unclaimed.\n\nThe party can comfort Tenya in the corridor, tell Tensei what his brother did at the festival, keep a respectful silence, or notice what Tenya keeps asking the nurses: which street it happened on, whether the man has been caught. He leaves with his jaw set and his voice far too even, and turns aside any offer of help with polite thanks.\n\nIf the story has already changed what happened to Tensei, the talk follows his real condition instead, and the name is only a hope for the future.\n\nThe event is complete when Tensei has asked Tenya to carry the name and Tenya has left the room without accepting it, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_ingenium_name",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

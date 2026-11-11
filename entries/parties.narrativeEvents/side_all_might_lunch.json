@@ -1,0 +1,15 @@
+{
+  "side_all_might_lunch": {
+    "title": "Lunch with All Might",
+    "beats": "Thursday, lunch hour at U.A. Academy, the day the Sports Festival was announced: the party is with Izuku Midoriya in a corridor on the way to lunch when All Might fills the passage. He holds out a lunch box that looks tiny in his enormous hands and, swaying shyly, asks in a coy little voice whether Young Midoriya would care to have lunch with him.\n\nCanon default course, as pressure the player can change: Ochaco Uraraka, beside them or passing by, dissolves into helpless laughter and cannot stop; Izuku is mortified, then thrilled. All Might, back at full volume, steers him off toward the Teachers' Lounge. The party can laugh along, ask to come too (All Might apologizes warmly: this is a teacher's talk with one student, and he promises the party its own turn another day), tease Izuku about being the favorite, or walk them to the lounge door. The door closes and the narration stays outside: what is said in there is private between All Might and Izuku.\n\nWhen Izuku comes out he is lit up with resolve and says only that All Might wants him to use the festival to show the whole country who he is, to stand up and tell the world he is here. Asked why All Might keeps picking him, Izuku stammers something about the entrance exam and changes the subject; pressing gets nothing more. Ochaco, still giggling, wants to know whether the tiny lunch box had a pattern on it.\n\nThe event is complete when Izuku has gone to lunch with All Might and come back fired up for the festival, or the party leaves.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_all_might_lunch",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

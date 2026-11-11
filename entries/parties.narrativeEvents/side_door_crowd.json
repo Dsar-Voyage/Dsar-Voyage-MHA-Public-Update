@@ -1,0 +1,15 @@
+{
+  "side_door_crowd": {
+    "title": "The Crowd at Class 1-A's Door",
+    "beats": "Thursday, after the last bell at U.A. Academy, the day the Sports Festival was announced: the party is at the door of the Class 1-A Homeroom, or wherever Class 1-A is leaving from, and the way out is jammed. Students from General Studies, Support, Management and Class 1-B have come to look at the class that survived the villains, and nobody in 1-A can get past them.\n\nCanon default course, as pressure the player can change: a 1-A classmate asks what is going on, and Minoru Mineta wails that he cannot get out. Katsuki Bakugo shoulders to the front, tells the crowd that scouting the competition is pointless and that they should move, extras. Tenya Iida scolds him for insulting the whole school. Hitoshi Shinso slips to the front, unhurried and tired-eyed, and says he expected more from the Hero Course. Calmly, he explains that festival results can move people from General Studies into the Hero Course, and the other way around; he did not come to look, he came to declare war. He does not use his Quirk here. From the back, Tetsutetsu Tetsutetsu of Class 1-B bellows that he came to say something too: 1-A is getting cocky after one fight, they had better not embarrass the school, and 1-B is coming for them. Katsuki pushes through the crowd, says only first place counts, and leaves the rest of 1-A groaning that every course now hates them.\n\nBy path: a Class 1-A player is inside the room and can answer the crowd, back Katsuki, apologize for him or take Shinso's challenge personally. A General Studies player stands beside Shinso and can join the declaration, call it out or meet a 1-A student's eye. A Class 1-B player is at the back with Tetsutetsu and can add a challenge of its own or hold him back. Shinso remembers anyone who stands up to him.\n\nThe event is complete when the crowd breaks up and the challenges stand, or the party leaves.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_door_crowd",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

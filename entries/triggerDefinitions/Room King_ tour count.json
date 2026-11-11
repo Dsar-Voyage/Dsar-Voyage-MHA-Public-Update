@@ -1,0 +1,22 @@
+{
+  "Room King: tour count": {
+    "name": "Room King: tour count",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_room_king",
+        "operator": "equals",
+        "value": "active"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-number",
+        "key": "rkTurns",
+        "operator": "add",
+        "value": 1
+      }
+    ]
+  }
+}

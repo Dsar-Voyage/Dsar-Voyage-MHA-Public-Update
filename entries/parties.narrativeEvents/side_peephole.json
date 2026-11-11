@@ -1,0 +1,15 @@
+{
+  "side_peephole": {
+    "title": "The Peephole",
+    "beats": "Early May, late afternoon after hero training, by the locker rooms at U.A. Academy. The class has come in hot and tired from the training ground, and Minoru Mineta is with the player as everyone splits up to change.\n\nDefault course, as pressure the player can change: in the Men's Locker Room, Mineta finds a small hole bored through the shared wall, and his excitement fills the room. Tenya Iida orders him to stop at once; Mineta declares the hole a treasure left by the students who came before and leans in. He never gets a look. Before his eye reaches it, Kyoka Jiro's earphone jack shoots through the hole from the far side and jabs him square in the eye. Mineta drops to the floor howling, and through the wall Jiro's flat voice says the hole is taken care of.\n\nA man in the class can try to drag Mineta away first, back Iida, block the hole with a towel or a locker, or simply watch the punishment land. Whatever he does, nobody sees anything through the wall and the narration never describes the other side.\n\nIf the player is a woman, she is on the other side, changing with Jiro in the Women's Locker Room: she hears Mineta's muffled boasting through the wall, sees Jiro's jack slide into the little hole, and hears the yelp. She can help plug the hole for good and decide whether to report it to Shota Aizawa.\n\nMineta recovers with a watering eye, a long sulk and no sympathy from anyone.\n\nThe event is complete when Mineta has been stopped and the hole is plugged or reported, or the party leaves.",
+    "targetTurns": 5,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_peephole",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

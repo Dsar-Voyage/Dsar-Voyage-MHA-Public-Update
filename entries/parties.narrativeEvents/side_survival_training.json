@@ -1,0 +1,15 @@
+{
+  "side_survival_training": {
+    "title": "Do-or-Die Survival Training",
+    "beats": "A late-summer day at Ground Beta, in the weeks before the provisional license exam, wherever on the mock city the party is with Class 1-A. Shota Aizawa is running a rescue exercise beneath it: a damaged six-floor underground mall built for disaster drills, entered through a hatch by the Mock City Central Plaza, with dummies for casualties and a hard clock. Team A goes down first: Izuku Midoriya, Katsuki Bakugo, Shoto Todoroki, Tenya Iida, Ochaco Uraraka and more of the class. The rest wait on the surface as Team B, and Aizawa watches the feeds from the Monitoring Room.\n\nCanon default course, as pressure the player can change: the drill runs well until a real collapse nobody planned. Stairwells fold, the radios die and Team A is cut off several floors down. Iida is hurt in the collapse and has to be carried. Ochaco floats rubble aside, and the others shore up the ceiling and scout the dark. Then a broken water main floods the lower floors. The team carries Iida up the last open route, and Izuku, Bakugo and Todoroki, the final three below, ride the pressurized water up a shaft and burst out onto the surface. Nobody dies, and every injury heals later in the infirmary.\n\nThe collapse always comes; how they get out is up to the party: carry Iida, find the route, hold the water back, take the last ride up, or (on the surface) dig, relay and guide the rescue with Aizawa.\n\nBy path: a Class 1-A party chooses its team at the hatch. On Team A it is trapped with them; on Team B it is the rescue from above, and the stakes are the same.\n\nThe event is complete when every student is back on the surface and Aizawa calls the exercise, or the party leaves Ground Beta before the collapse.",
+    "targetTurns": 25,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_survival_training",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

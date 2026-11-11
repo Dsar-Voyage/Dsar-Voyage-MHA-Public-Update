@@ -1,0 +1,27 @@
+{
+  "Place Sync: camp": {
+    "name": "Place Sync: camp",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;if(d===124&&b<3){skip=true;return;}if(check({type:'read-boolean',key:'live_forest_camp_arrival'})!==true){skip=true;return;}const TR=JSON.stringify(check({type:'player-traits'})||'');if(![\"U.A. Hero Course (Class 1-A)\", \"U.A. Hero Course (Class 1-B)\", \"U.A. Faculty\"].some(t=>TR.indexOf(t)>=0)){skip=true;return;}if([\"Wild Wild Pussycats Lodge\", \"Beast's Forest\", \"Kota's Secret Hideout\"].indexOf(check({type:'party-location'})||'')>=0){skip=true;return;}effects.push({type:'party-location',operator:'set',value:\"Wild Wild Pussycats Lodge\"},{type:'party-area',operator:'set',value:\"Lodge Hall\"},{type:'story',instruction:\"Narrator only: the party is at the Wild Wild Pussycats' lodge in the mountains for the Hero Course summer camp (the lodge, Beast's Forest around it); it stays there until the camp ends.\"});})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 124
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 126
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[\\s\\S]*"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "Room King: your door": {
+    "name": "Room King: your door",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_room_king",
+        "operator": "equals",
+        "value": "active"
+      },
+      {
+        "type": "read-number",
+        "key": "rkTurns",
+        "operator": "greaterThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: the Room King tour now reaches the player character's own room. The judges knock on that door next, before any other room: the player shows it off or tries to hide it, and the judges score it aloud with the same fun as every other room. When the crown is decided, the judges ask the player character for their vote and count it."
+      }
+    ]
+  }
+}

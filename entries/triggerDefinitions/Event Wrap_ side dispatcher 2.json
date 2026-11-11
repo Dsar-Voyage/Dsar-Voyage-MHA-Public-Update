@@ -3,13 +3,13 @@
     "name": "Event Wrap: side dispatcher 2",
     "recurring": true,
     "effects": [],
-    "script": "const E=[\"sup_showcase_prep\", \"v_manhunt\", \"pro_festival_scouting\", \"man_offer_board\", \"pro_intern_host\", \"civ_festival_fever\", \"b1_monoma_provocation\", \"side_intern_day_one\", \"side_full_cowl\", \"side_intern_patrol\", \"v_stain_meets_league\", \"pro_hero_killer_alert\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
+    "script": "(function(){const E=[\"man_pr_101\", \"side_aizawa_returns\", \"side_uraraka_reason\", \"side_all_might_lunch\", \"side_door_crowd\", \"v_rooftop_rounds\", \"v_hired_muscle\", \"sup_showcase_prep\", \"v_manhunt\", \"pro_festival_scouting\", \"man_offer_board\", \"side_shoto_mother\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;})();",
     "conditions": [
       {
         "type": "read-number",
         "key": "currentDay",
         "operator": "greaterThanOrEqual",
-        "value": 18
+        "value": 12
       },
       {
         "type": "read-number",

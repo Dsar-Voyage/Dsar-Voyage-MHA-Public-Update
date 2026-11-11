@@ -1,0 +1,42 @@
+{
+  "Side Resume: Why Uraraka Wants to Be a Hero": {
+    "name": "Side Resume: Why Uraraka Wants to Be a Hero",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_uraraka_reason",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_uraraka_reason",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_uraraka_reason",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_uraraka_reason"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_uraraka_reason",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Why Uraraka Wants to Be a Hero\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Thursday, lunch hour at U.A."
+      }
+    ]
+  }
+}

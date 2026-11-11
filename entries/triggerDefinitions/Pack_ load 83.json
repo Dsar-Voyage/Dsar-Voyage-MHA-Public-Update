@@ -1,0 +1,16 @@
+{
+  "Pack: load 83": {
+    "name": "Pack: load 83",
+    "conditions": [
+      {
+        "type": "game-tick",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "recurring": true,
+    "phase": "state",
+    "script": "(function(){/*storage_pack_load:v1:[[[\"Trim: load 19\",114,4],[\"Trim: load 20\",118,7],[\"Trim: load 21\",125,11],[\"Trim: load 22\",136,10],[\"Trim: load 23\",146,11],[\"Trim: load 24\",157,12],[\"Trim: load 25\",169,12],[\"Trim: load 26\",181,12],[\"Trim: load 27\",193,12],[\"Trim: load 28\",205,13],[\"Trim: load 29\",218,13],[\"Trim: load 30\",231,13],[\"Trim: load 31\",244,13],[\"Trim: load 32\",257,8],[\"Trim: load 33\",265,15],[\"Trim: load 34\",280,7],[\"Trim: load 35\",287,22],[\"Trim: load 36\",309,35],[\"Trim: load 37\",344,32],[\"Trim: load 38\",376,1],[\"Trim: load 39\",377,3],[\"Trim: load 40\",380,14],[\"Trim: load 41\",394,23],[\"Trim: load 42\",417,37],[\"Trim: load 43\",454,33],[\"Trim: load 44\",487,19],[\"Trim: load 45\",506,27],[\"Trim: load 46\",533,34],[\"Trim: load 47\",567,51],[\"Trim: load 48\",618,47],[\"Trim: load 49\",665,39],[\"Trim: load 50\",704,38],[\"Trim: load 51\",742,37],[\"Trim: load 52\",779,33],[\"Trim: load 53\",812,36],[\"Trim: load 54\",848,34],[\"Trim: load 55\",882,24],[\"Trim: load 56\",906,5],[\"Trim: load 57\",911,11],[\"Trim: load 58\",922,73],[\"Trim: load 59\",995,63],[\"Trim: load 60\",1058,32],[\"Trim: load 61\",1090,1],[\"Trim: load 62\",1091,1],[\"Trim: load 63\",1092,1],[\"Trim: load 64\",1093,1],[\"Trim: load 65\",1094,2]],[]]*/const D={};let changed=false;for(const k of Object.keys(D)){if(storage[k]!==D[k]){storage[k]=D[k];changed=true;}}if(!changed)delete triggers[\"Pack: load 83\"];})();"
+  }
+}

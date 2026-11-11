@@ -1,0 +1,15 @@
+{
+  "side_second_term": {
+    "title": "The Second-Term Opening Ceremony",
+    "beats": "The morning of the first day of the second term at U.A. Academy, in mid-September, when the bell calls every course out to the Athletics Field for the opening ceremony. The Hero Course, General Studies, the Support Course and the Management Course form their lines on the field, with the faculty along the side of the stage. Class 1-A's line has two gaps: Izuku Midoriya and Katsuki Bakugo fought on campus last night and are confined to the dorm, and neither appears at the ceremony at all.\n\nCanon default course, as pressure the player can change: in Class 1-B's line, Neito Monoma leans across the gap to gloat that Class 1-A lost two of its own at the license exam, Bakugo and Todoroki, while every member of 1-B passed; Itsuka Kendo cuts him off with a chop. Shoto Todoroki stands in 1-A's line and takes it without a word. On the stage, Principal Nezu's speech wanders from the dorms and the year's hard news into how his diet and daily routine have been off since the summer, before he finds his point: U.A. must keep the public's trust, and every student carries a share of it. Then Hound Dog steps up about last night's fight. He starts in calm words, his anger climbs and the rest comes out as growls and barks; another teacher gives the short version: no fighting, and follow the dorm rules.\n\nBy path: a Class 1-A party stands beside the gaps, fields questions about them and can answer Monoma, back Todoroki or keep quiet. A Class 1-B party is in Monoma's line and can egg him on or help Kendo stop him. A General Studies party watches the Hero Course bicker from outside, Hitoshi Shinso dry beside it. A Support Course or Management Course party hears the rumors in the back rows and can trade theories or spot the story in two empty places. A Faculty party stands with the teachers and may be the one who translates Hound Dog.\n\nThe event is complete when the ceremony ends and the courses are dismissed to their homerooms.",
+    "targetTurns": 10,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_second_term",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

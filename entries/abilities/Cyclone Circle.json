@@ -1,0 +1,20 @@
+{
+  "Cyclone Circle": {
+    "name": "Cyclone Circle",
+    "description": "The user runs tight circles around one foe and spins a vortex of dust and wind around them until the end of the user's next turn. The foe is blinded, cannot advance out of the ring without being shoved back, and has a harder time hitting anyone outside it. An indoor room with clutter or a strong crosswind breaks the ring early. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Slipstream Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      }
+    ],
+    "bonus": 20,
+    "cooldown": 1
+  }
+}

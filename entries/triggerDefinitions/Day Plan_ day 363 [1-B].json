@@ -22,14 +22,14 @@
       },
       {
         "type": "action-text",
-        "operator": "regex",
-        "value": "[\\s\\S]*"
+        "operator": "notContains",
+        "value": "kip"
       }
     ],
     "effects": [
       {
         "type": "story",
-        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the Paranormal Liberation War: before dawn the licensed Hero Course students are woken and sent out with the pros for a nationwide raid, briefed on the way: most hold the Gunga Mountain Villa perimeter under Midnight and the raid's heroes, others help evacuate Jaku City. There are no classes; a student without a license stays at U.A., which is locked down."
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): the Paranormal Liberation War: before dawn the licensed Hero Course students are woken and sent out with the pros for a nationwide raid, briefed on the way: most hold the Gunga Mountain Villa perimeter under Nemuri Kayama and the raid's heroes, others help evacuate Jaku City. There are no classes; a student without a license stays at U.A., which is locked down."
       }
     ]
   }

@@ -3,19 +3,19 @@
     "name": "Event Wrap: side dispatcher 6",
     "recurring": true,
     "effects": [],
-    "script": "const E=[\"side_nighteye_stamp\", \"sup_support_expo\", \"civ_fan_convention\", \"pro_tartarus_escort\", \"side_work_study_first_shift\", \"side_fat_gum_patrol\", \"v_gentle_video\", \"pro_license_audit\", \"side_eri_visit\", \"gs_festival_booth\", \"man_festival_marketing\", \"b1_festival_rivalry\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
+    "script": "const E=[\"side_kota_cliff\", \"side_traitor_meeting\", \"side_rescue_plan\", \"man_crisis_pr\", \"civ_after_kamino\", \"side_kamino_reckoning\", \"fac_night_rounds\", \"v_copycats\", \"gs_careers_day\", \"side_like_midoriya\", \"side_hero_league_baseball\", \"v_league_broke\"];for(const id of E){if(effects.length>=10)break;if(storage['rs_'+id]!==true||storage['done_'+id]===true)continue;if(check({type:'narrative-event-status',eventId:id})!=='stopped')continue;effects.push({type:'write-boolean',key:'done_'+id,operator:'set',value:true});}if(!effects.length)skip=true;",
     "conditions": [
       {
         "type": "read-number",
         "key": "currentDay",
         "operator": "greaterThanOrEqual",
-        "value": 179
+        "value": 125
       },
       {
         "type": "read-number",
         "key": "currentDay",
         "operator": "lessThanOrEqual",
-        "value": 313
+        "value": 255
       }
     ]
   }
