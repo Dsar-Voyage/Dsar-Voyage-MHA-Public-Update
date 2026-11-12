@@ -14,7 +14,7 @@ Full per-entry list: [`releases/11.11.changes.md`](releases/11.11.changes.md).
 
 | Section | What changed | Copy |
 |---|---|---|
-| `triggerDefinitions` | The skip, calendar and clock system (skips stop at canon events, the closing time line, Date Sync, waking at home), 29 new side-event starts and wraps, Miss Midnight, private sessions, Room King, wardrobe (Shinso). 63 added, 10 removed, 311 changed. | **Whole section** recommended: most of it changed |
+| `triggerDefinitions` | The skip, calendar and clock system (skips stop at canon events, the closing time line, Date Sync, waking at home), 29 new side-event starts and wraps, Miss Midnight, private sessions, Room King, wardrobe (Shinso). 63 added, 10 removed, 311 changed. | **Remix:** replace the whole section. **Running save:** copy the listed entries one by one into *parties → (your party) → triggers*, never the whole section (see [UPDATE_GUIDE.md](UPDATE_GUIDE.md)); with this many changes, a new game is easier |
 | `parties.narrativeEvents` | 29 new canon moments (G1-G29) added; 15 events adjusted. | the 29 added + 15 modified entries |
 | `npcs` | **Midnight is now "Nemuri Kayama"** (the old `Midnight` record is removed and a new one added: replace it, don't keep both). Shinso's looks, festival and camp stage records, Present Mic, Nezu, Recovery Girl. | 1 added, 1 removed, 9 modified |
 | `traits` | Slipstream Fusion Quirk added; Class 1-A/1-B "Quirkless" wording; Path texts. | 1 added, 16 modified |
@@ -24,8 +24,8 @@ Full per-entry list: [`releases/11.11.changes.md`](releases/11.11.changes.md).
 | `attributeSettings` | Voyage's own format change (a stat modifier stored as a list; same values). | whole section |
 | `compatibilityRevision` | Meta: Voyage layout revision. | **do not copy** |
 
-**Best on a new game:** this update rebuilt the skip and clock triggers; a save in progress can take them, but
-canon moments whose day has already passed won't start.
+**Best on a new game:** this update rebuilt the skip and clock triggers; a save in progress can take them entry by
+entry ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)), but canon moments whose day has already passed won't start.
 
 ---
 
