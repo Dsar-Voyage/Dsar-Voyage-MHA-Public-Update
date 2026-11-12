@@ -26,24 +26,18 @@ triggers, arcs and narrative events are inside `parties` (the files `parties.que
 
 ## Updating your own save or remix
 
-**The easiest way to get an update is to start a new game.** Use this repository when you want to keep a
-save going, or when you've customized your own remix and only want the parts that changed.
+**The easiest way to get an update is to start a new game.** To keep a save going, or to update your own remix,
+follow the tested step-by-step guide with its diagram: **[UPDATE_GUIDE.md](UPDATE_GUIDE.md)**.
 
-1. **Back up first.** Copy your save's or remix's world JSON somewhere safe before you change anything.
-2. Open [`CHANGES.md`](CHANGES.md) and find every update newer than the one your save started on.
-3. For each changed section, copy from this repository into the same place in your save or remix:
-   - a section marked **whole section** → copy `sections/<section>.json` over that section;
-   - a section with **Added / Modified** entries → open `entries/<section>/INDEX.md`, find the entry, and copy its file's value into the entry with the same key (or add it, if it's new);
-   - **Removed** entries → delete that key from your save.
-4. Only copy **content** and **settings** sections (see [`SECTIONS.md`](SECTIONS.md)). Leave **meta**
-   sections such as `compatibilityRevision` and `heroesVersion` alone.
-5. Updates that change many triggers work best on a new game: triggers keep their own state, and a running
-   save may already be past the moment a new trigger looks for.
-
-Where to edit:
-- **A remix:** open it in Voyage Studio and paste into the matching section of the world JSON.
-- **A running game:** Settings → Creator Tools → **State Editor** (search for the entry's name; triggers
-  appear under *Parties → Triggers*).
+The short version:
+1. **Back up** your save's or remix's JSON.
+2. Check [`CHANGES.md`](CHANGES.md) for every update newer than your save.
+3. In a running game, open **Settings → Creator Tools → State Editor**. Sections have the same names as the files in
+   [`sections/`](sections/), except triggers, quests, quest triggers, arcs and narrative events, which live under
+   **parties → (your party)**.
+4. In a running save, copy **trigger, quest and event entries one by one** (from `entries/`), never the whole
+   `parties` section: it holds your game's own progress. Other sections can be pasted whole.
+5. **Review changes**, **Save changes**, reload, and play a turn.
 
 ## Rules for this repository
 

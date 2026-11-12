@@ -20,7 +20,7 @@ flowchart TD
     G -->|triggerDefinitions,<br/>parties.quests, parties.questTriggers,<br/>parties.arcs, parties.narrativeEvents| H[In the save these live under<br/>parties → your party → triggers / quests /<br/>questTriggers / arcs / narrativeEvents]
     G -->|Any other content or settings section<br/>npcs, traits, abilities, aiInstructions ...| I[Same name in the sidebar:<br/>npcs, traits, aiInstructions ...]
 
-    H --> J[Copy ENTRY BY ENTRY:<br/>open entries/section/INDEX.md, find the name,<br/>paste its file's value over the entry with the same key;<br/>add new keys, delete removed ones]
+    H --> J[Copy ENTRY BY ENTRY:<br/>open entries/section/INDEX.md, find the name,<br/>paste its file's value over the entry with the same key,<br/>add new keys, delete removed ones]
     I --> K{Small change or whole section?}
     K -->|A few entries| J
     K -->|Whole section changed| L[Select all in that section,<br/>paste sections/section.json]
@@ -30,12 +30,12 @@ flowchart TD
     M --> S[Save changes]
     S --> T[Reload the game, play one turn]
     T --> V{Did it take?}
-    V -->|Yes| W([Done 🎉])
+    V -->|Yes| W([Done])
     V -->|Not sure| X[Settings → Creator Tools → Logs:<br/>search the trigger name, look for<br/>effect applied]
     X --> W
     V -->|Something broke| Y[Restore your backup,<br/>or send /feedback in game on that turn]
 
-    R --> R1[Replace whole sections from sections/<br/>or single entries from entries/;<br/>triggerDefinitions can be replaced whole here]
+    R --> R1[Replace whole sections from sections/<br/>or single entries from entries/,<br/>triggerDefinitions can be replaced whole here]
     R1 --> R2[Save, then start a new game on your remix]
     R2 --> W
 
