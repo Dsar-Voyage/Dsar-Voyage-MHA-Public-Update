@@ -1,0 +1,21 @@
+{
+  "Mechanics: level cap path Licensed Sidekick": {
+    "name": "Mechanics: level cap path Licensed Sidekick",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "proPath",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

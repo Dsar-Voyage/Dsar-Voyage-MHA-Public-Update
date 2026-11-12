@@ -3,7 +3,7 @@
     "name": "Clock: native sync",
     "recurring": true,
     "effects": [],
-    "script": "const TOD=[\"morning\", \"morning\", \"morning\", \"noon\", \"afternoon\", \"afternoon\", \"evening\", \"evening\", \"night\", \"midnight\"];const d=check({type:'read-number',key:'currentDay'})||1;const b=Math.max(0,Math.min(9,check({type:'read-number',key:'currentBandIndex'})||0));{const K=String(storage.nsK||'').split('|');if(K.length===2){if(d!==+K[0])storage.currentDay=d;if(b!==+K[1])storage.currentBandIndex=b;}}effects.push({type:'day',operator:'set',value:d},{type:'time-of-day',operator:'set',value:TOD[b]});storage.nsK=d+'|'+b;",
+    "script": "/*strain_guard*/{const R=check({type:'player-resource',resource:'Quirk Strain'});const vs=R&&typeof R==='object'?Object.values(R).map(x=>+x||0):[+R||0];const v=vs.length?Math.max(...vs):0;const p=storage.sPv;if(typeof p==='number'){const TR=JSON.stringify(check({type:'player-traits'})||'');const cap=(TR.match(/Gifted: /g)||[]).length>=2?60:(TR.indexOf('Exceptional Quirk')>=0?37:25);if(v-p>cap){const nv=Math.min(100,p+cap);effects.push({type:'player-resource',resource:'Quirk Strain',operator:'set',value:nv},{type:'story',instruction:'Narrator only: Quirk Strain is '+nv+'/100. One turn of Quirk use adds at most +'+cap+' Strain; describe it at that level.'});storage.sPv=nv;}else storage.sPv=v;}else storage.sPv=v;}const TOD=[\"morning\", \"morning\", \"morning\", \"noon\", \"afternoon\", \"afternoon\", \"evening\", \"evening\", \"night\", \"midnight\"];const d=check({type:'read-number',key:'currentDay'})||1;const b=Math.max(0,Math.min(9,check({type:'read-number',key:'currentBandIndex'})||0));{const K=String(storage.nsK||'').split('|');if(K.length===2){if(d!==+K[0])storage.currentDay=d;if(b!==+K[1])storage.currentBandIndex=b;}}effects.push({type:'day',operator:'set',value:d},{type:'time-of-day',operator:'set',value:TOD[b]});storage.nsK=d+'|'+b;",
     "conditions": [
       {
         "type": "action-text",
@@ -683,7 +683,7 @@
     ],
     "effects": [],
     "recurring": true,
-    "script": "(function(){const BANDS=[\"Early Morning\", \"Mid Morning\", \"Late Morning\", \"Early Afternoon\", \"Mid Afternoon\", \"Late Afternoon\", \"Early Evening\", \"Late Evening\", \"Night\", \"Late Night\"];const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];const MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]];function dateOf(d){let r=(Math.max(1,d)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}return WD[(Math.max(1,d)-1)%7]+', '+MO[i][0]+' '+(r+1);}const tks=check({type:'game-tick'})||0;if(storage.skipTick===tks){skip=true;return;}const d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;let GAP='';{const tx=String(check({type:'story-text'})||'');const re=/(?:^|\\n|\\bit is |\\bit's |\\bit’s )(?:narrator:\\s*)?[\\s*_>#\\\"“]*(?:sunday|monday|tuesday|wednesday|thursday|friday|saturday),?\\s+([a-z]+)\\s+(\\d{1,2})(?:st|nd|rd|th)?\\b/gi;let m,L=null;while((m=re.exec(tx)))L=m;if(L&&L.index>=tx.length-900){const i=MO.findIndex(x=>x[0].toLowerCase()===L[1].toLowerCase());if(i>=0){let o=+L[2]-1;for(let j=0;j<i;j++)o+=MO[j][1];const g=((Math.max(1,d)+29)%365-o+365)%365;if(g>=2&&g<200)GAP='Narrator only: the story last stood on '+MO[i][0]+' '+(+L[2])+', but the player skipped ahead: it is now '+dateOf(d)+'. Open this turn on '+dateOf(d)+' with one short line that '+g+' days have passed, and do not continue the old scene. ';else if(g>=200)GAP='Narrator only: the story named '+MO[i][0]+' '+(+L[2])+', but the calendar never moved there: it is '+dateOf(d)+'. Never repeat that later date; play on from '+dateOf(d)+' as it is, and anything not yet played today has not happened. ';}}}effects.push({type:'story',instruction:GAP+'Current time: '+dateOf(d)+', '+BANDS[Math.max(0,Math.min(9,b))]+'. Weekdays hold classes and work; weekends are free time. Day N in the header counts days from move-in; the date is only this line. A talk, a meal, a short walk or a heal takes minutes: no hours later and no wrap-up of the day unless the player skips, sleeps, travels far or names a later time, and nobody ends a talk with meal or bedtime filler. People know only what they saw, were told on-screen or heard as news; what the player does alone or says in private stays private. A remark never reopens a healed injury or adds a penalty, and students and the player get the same treatment for the same hurt; once healed, someone tells the player plainly they are cleared. Classes 1-A and 1-B hold only their canon students plus the player; never invent a classmate. Name the teacher Nemuri Kayama or Miss Midnight; Miss Midnight or Midnight said about her is her name, never the hour.'+(b<8&&/midnight/i.test(String((check({type:'action-text'})||[]).slice(-1)))?' Miss Midnight here is the teacher Nemuri Kayama, never the hour; the time stays as given.':'')});})();"
+    "script": "(function(){const BANDS=[\"Early Morning\", \"Mid Morning\", \"Late Morning\", \"Early Afternoon\", \"Mid Afternoon\", \"Late Afternoon\", \"Early Evening\", \"Late Evening\", \"Night\", \"Late Night\"];const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];const MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]];function dateOf(d){let r=(Math.max(1,d)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}return WD[(Math.max(1,d)-1)%7]+', '+MO[i][0]+' '+(r+1);}const tks=check({type:'game-tick'})||0;if(storage.skipTick===tks){skip=true;return;}const d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;let GAP='';{const tx=String(check({type:'story-text'})||'');const re=/(?:^|\\n|\\bit is |\\bit's |\\bit’s )(?:narrator:\\s*)?[\\s*_>#\\\"“]*(?:sunday|monday|tuesday|wednesday|thursday|friday|saturday),?\\s+([a-z]+)\\s+(\\d{1,2})(?:st|nd|rd|th)?\\b/gi;const MI=x=>MO.findIndex(y=>y[0].toLowerCase()===x[1].toLowerCase()),GG=x=>{const i=MI(x);if(i<0)return -1;let o=+x[2]-1;for(let j=0;j<i;j++)o+=MO[j][1];return ((Math.max(1,d)+29)%365-o+365)%365;},NM=x=>MO[MI(x)][0]+' '+(+x[2]);let m,L=null,A=null;while((m=re.exec(tx))){L=m;if(m.index>=tx.length-2500&&GG(m)>=200)A=m;}const g=L&&L.index>=tx.length-900?GG(L):-1;if(g>=2&&g<200)GAP='Narrator only: the story last stood on '+NM(L)+', but the player skipped ahead: it is now '+dateOf(d)+'. Open this turn on '+dateOf(d)+' with one short line that '+g+' days have passed, and do not continue the old scene. ';else if(A)GAP='Narrator only: the story named '+NM(A)+', but the calendar never moved there: it is '+dateOf(d)+'. Never repeat that later date; play on from '+dateOf(d)+' as it is, and anything not yet played today has not happened. ';}{const at=String(check({type:'action-text'})||'');if(/\\b(not hungry|no,? thanks|i['’]?m (full|fine|good|ok)|already (ate|eaten|had)|i (eat|ate|have|had|grab|finish) (my |a |some )?(lunch|dinner|breakfast|meal|bite|food|snack))\\b/i.test(at))storage.fN=d;if(storage.fN===d)GAP+='Nobody offers the player food, tea or rest again today, and nobody remarks on what they eat. ';}effects.push({type:'story',instruction:GAP+'Current time: '+dateOf(d)+', '+BANDS[Math.max(0,Math.min(9,b))]+'. Weekdays hold classes and work; weekends are free time. Day N in the header counts days from move-in; the date is only this line. A talk, a meal, a short walk or a heal takes minutes: no hours later and no wrap-up of the day unless the player skips, sleeps, travels far or names a later time, and nobody ends a talk with meal or bedtime filler. People know only what they saw, were told on-screen or heard as news; what the player does alone or says in private stays private. Once the story shows an injury healed, it is gone: no pain, limp, bandage, careful step or check-in about it unless it is hurt again. A remark never reopens a healed injury or adds a penalty, and students and the player get the same treatment for the same hurt; once healed, someone tells the player plainly they are cleared. Yen changes only when the player pays, buys, sells, is paid, or loses a bet they placed themselves; a bet they refused or stayed out of never costs them, and nobody asks them to pay it. Classes 1-A and 1-B hold only their canon students plus the player; never invent a classmate. Name the teacher Nemuri Kayama or Miss Midnight; Miss Midnight or Midnight said about her is her name, never the hour.'+(b<8&&/midnight/i.test(String((check({type:'action-text'})||[]).slice(-1)))?' Miss Midnight here is the teacher Nemuri Kayama, never the hour; the time stays as given.':'')});})();"
   },
   "Clock: Time Line Note": {
     "name": "Clock: Time Line Note",
@@ -901,7 +901,7 @@
     ],
     "effects": [],
     "recurring": true,
-    "script": "(function(){const EVY=[];{const VS=[73510, 38972, 9976];for(let i=0;i<VS.length;i++){if(storage['evyV'+(i+1)]!==VS[i]){skip=true;return;}for(const x of storage['EVY'+(i+1)])EVY.push(x.slice());}}const CV=[\"case_conference\", \"eri_first_encounter\", \"garaki_procedure\", \"kurogiri_is_oboro\", \"league_meets_overhaul\"];for(const x of EVY)if(!x[2])x[2]=x[4];const BANDS=[\"Early Morning\", \"Mid Morning\", \"Late Morning\", \"Early Afternoon\", \"Mid Afternoon\", \"Late Afternoon\", \"Early Evening\", \"Late Evening\", \"Night\", \"Late Night\"];const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];const MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]];function dateOf(d){let r=(Math.max(1,d)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}return WD[(Math.max(1,d)-1)%7]+', '+MO[i][0]+' '+(r+1);}const tk0=check({type:'game-tick'})||0;if(storage.skipTick===tk0){skip=true;return;}const A=check({type:'action-text'})||[];const tx=String(Array.isArray(A)?(A[A.length-1]||''):A).toLowerCase();const NUM={a:1,an:1,one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,thirteen:13,fourteen:14,fifteen:15,sixteen:16,seventeen:17,eighteen:18,nineteen:19,twenty:20};const d=check({type:'read-number',key:'currentDay'})||1;let n=0;if(/\\b(same day|today|tonight|later today|this (morning|afternoon|evening))\\b/.test(tx)&&!/\\b(tomorrow|\\d+ (days?|weeks?)|(one|two|three|four|five|six|seven|a|an) (days?|weeks?))\\b/.test(tx)){skip=true;return;}const t2=tx.replace(/twenty[- ]one/g,'21').replace(/twenty[- ]two/g,'22').replace(/\\bu\\.a\\./g,'ua').replace(/\\b([ap])\\.m\\./g,'$1m');const NW='(\\\\d+|'+Object.keys(NUM).join('|')+')',U='\\\\s+(days?|weeks?)\\\\b';const R=[new RegExp('\\\\b(skips?|skipping|jumps?|fast[- ]?forward)\\\\b[^.!?]{0,25}?\\\\b'+NW+U),new RegExp('\\\\b'+NW+U+'(\\\\s+of\\\\s+[a-z ,]{1,40}?)?\\\\s+(later|pass|passes|passed|go by|goes by|went by|fly by|flies by|have passed|has passed)\\\\b'),new RegExp('\\\\b(spend|spends|spent|spending)\\\\s+'+NW+U)];let m=null;for(const r of R){m=t2.match(r);if(m)break;}if(m){const g=m[0].match(new RegExp(NW+U));const k=NUM[g[1]]!==undefined?NUM[g[1]]:parseInt(g[1],10);n=/week/.test(g[2])?k*7:k;}const WDN=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];const sm=t2.match(/\\b(skips?|skipping|jumps?|fast[- ]?forward)\\b([^.!?]{0,90})/);if(sm)for(const M of sm[2].matchAll(/\\b([a-z]{3,9}) (\\d{1,2})\\b/g)){const i=MO.findIndex(x=>!x[0].toLowerCase().indexOf(M[1]));if(i>=0){let r=+M[2]-1;for(let j=0;j<i;j++)r+=MO[j][1];let t=r-29;while(t<d&&t+365-d<=60)t+=365;if(t>d)n=t-d;else if(t===d)n=-1;break;}}if(!n&&sm){const w=/\\b(?:(?:to|until|till|on|of) (?:the )?(?:next |following |coming |this )?|next )(\\w+day)\\b/g;let x,l=null;while((x=w.exec(sm[2])))if(WDN.indexOf(x[1])>=0)l=x;if(l)n=(WDN.indexOf(l[1])-(d-1)%7+7)%7||(/noon|evening|night/.test(sm[2])?-1:7);}if(!n&&(/\\brest of the week\\b[^.!?]{0,20}\\b(pass\\w*|go(es)? by|went by)\\b/.test(t2)||/\\bskip\\w*\\b[^.!?]{0,25}\\b(rest of the week|weekend)\\b/.test(t2))){const cur=(d-1)%7;n=(6-cur+7)%7||7;}if(!n&&/\\bskip\\w*\\b[^.!?]{0,25}\\bnext week\\b/.test(t2)){const cur=(d-1)%7;n=(8-cur)%7||7;}if(!n&&sm){const s=sm[2];if(/\\b(to|until|till)\\s+(the\\s+)?(next day|tomorrow|(next|following|tomorrow) morning)\\b/.test(s))n=1;else if(typeof EVY==='object')for(const x of EVY){if(x[1]<=d||CV.indexOf(x[0])>=0)continue;let c=String(x[4]).toLowerCase();const k=c.lastIndexOf(' at ');if(k>0)c=c.slice(0,k);c=c.replace(/^the /,'').replace(/^u\\.a\\. /,'');let j=c.indexOf(' ')>0&&c.length>7?s.indexOf(c):-1;const c2=c.replace(/^arrival at (the )?/,'');if(j<0&&c2!==c&&c2.length>7)j=s.indexOf(c2);if(j<0&&x[0]==='usj_attack')j=s.search(/\\busj\\b/);if(j>=0&&check({type:'read-boolean',key:'done_'+x[0]})!==true){var TT=String(x[4]);const kk=TT.lastIndexOf(' at ');if(kk>0)TT=TT.slice(0,kk);n=x[1]-d+(/\\b(after|past)\\s+(the\\s+)?(ua\\s+)?$/.test(s.slice(0,j))?1:0);break;}}}if(n<1){skip=true;return;}const WN=(k,v)=>({type:'write-number',key:k,operator:'set',value:v});let q=n;n=Math.max(1,Math.min(21,n));{const TR=JSON.stringify(check({type:'player-traits'})||''),A1=TR.indexOf('Class 1-A')>=0,HC=A1||TR.indexOf('Class 1-B')>=0||TR.indexOf('U.A. Faculty')>=0,GS=TR.indexOf('U.A. General Studies')>=0;const ST=v=>v===1&&TR.indexOf('\"U.A. ')>=0||v===2&&A1||v===3&&HC||v===4&&(HC||GS)||v===6&&(A1||TR.indexOf('U.A. Faculty')>=0)||v===9;const QC0=check({type:'quests-completed'})||[];const QZ=[[2,'The First-Day Quirk Assessment',A1,'the Quirk Assessment (Athletics Field)'],[3,'Battle Trial: Heroes and Villains',HC&&TR.indexOf('Faculty')<0,'the Battle Trial (Ground Beta)']].filter(q=>q[2]&&QC0.indexOf(q[1])<0).map(q=>['q'+q[0],q[0],'',0,q[3],9]);const z=QZ.concat(EVY).find(x=>x[5]&&(x[1]>d||x[1]===d&&ST(x[5])&&(storage['sh_'+x[0]]||0)<2)&&x[1]<d+n&&(x[5]===9||!check({type:'read-boolean',key:'done_'+x[0]})&&['completed','active'].indexOf(check({type:'narrative-event-status',eventId:x[0]}))<0&&check({type:'read-boolean',key:'live_'+x[0]})!==true));const hk='sh_'+(z?z[0]:''),hc=z&&z[1]===d?(storage[hk]||0)+1:0;if(z&&z[1]===d)storage[hk]=hc;if(z){if(z[1]===d){storage.sS=tk0;effects.push({type:'story',instruction:'Narrator only, first rule: the skip is REFUSED. No time passes and today\\'s event has not happened yet: today is '+z[4]+'. Do not recap or summarize it; tell the player where it takes place so they can go there. It is still '+dateOf(d)+'; never name a later date.'});return;}var SE=dateOf(d+q),SEV=z[4];q=n=z[1]-d;storage.sS=tk0;effects.push({type:'story',instruction:'Out of character: the skip stops early: it is now '+dateOf(z[1])+', early morning, the day of '+z[4]+'. Name that date (not the date the player named), narrate only up to that morning and end there. The event plays next.'});}}let LA2=0;const LIVE=EVY.find(x=>{if(x[1]>d||d-x[1]>60)return false;const s=check({type:'narrative-event-status',eventId:x[0]}),h=storage['sh2_'+x[0]],f=storage['sf_'+x[0]];if(s==='active'){const r=!(typeof f==='number'&&tk0-f>=12);if(r)LA2=1;return r;}return (s==='stopped'&&d-x[1]<2&&!check({type:'read-boolean',key:'done_'+x[0]}))&&!(typeof h==='number'&&h>1&&tk0-h<=6);});if(LIVE){storage['sh2_'+LIVE[0]]=tk0;if(typeof storage['sf_'+LIVE[0]]!=='number')storage['sf_'+LIVE[0]]=tk0;}if(LIVE){storage.sS=tk0;effects.length=0;effects.push({type:'story',instruction:'Narrator only, first rule: the skip is REFUSED. '+LIVE[4]+' is under way: do not summarize, finish or recap it. Do not advance time: it is still '+dateOf(d)+', and no later date is named, and nobody travels anywhere; play its very next moment and tell the player the skip comes after it'+(LA2?'':', or right away if they ask once more')+'.'});return;}storage.currentDay=d+n;storage.currentBandIndex=0;storage.skipTick=tk0;storage.skipTo=d+n;effects.push(WN('currentDay',d+n),WN('currentBandIndex',0));effects.push({type:'player-resource',resource:'Quirk Strain',operator:'set',value:0},{type:'player-resource',resource:'stamina',operator:'add',value:999});const dn=x=>check({type:'read-boolean',key:'done_'+x[0]});const hapE=EVY.filter(x=>x[1]<d+n&&!dn(x));const hap=hapE.filter(x=>CV.indexOf(x[0])<0).map(x=>x[2]);const tdy=EVY.filter(x=>x[1]===d+n&&!dn(x)&&CV.indexOf(x[0])<0).map(x=>x[4]);const sg0=check({type:'read-number',key:'studentStage'})||0;let stg=sg0;for(const x of hapE){storage['done_'+x[0]]=true;if(x[3]>stg)stg=x[3];}if(stg>sg0)effects.push(WN('studentStage',stg));if(hapE.some(x=>x[0]==='provisional_license_exam')&&!check({type:'read-boolean',key:'licenseGranted'})&&/Hero Course/.test(JSON.stringify(check({type:'player-traits'})||''))){effects.push({type:'player-traits',operator:'add',value:'Provisional Hero License'},...(((c=>typeof c==='number'?c:(c&&typeof c==='object'?Object.values(c).reduce((a,b)=>a+(+b||0),0):0))(check({type:'player-item',item:'Provisional hero license'})))<1?[{type:'item-add',item:'Provisional hero license',quantity:1}]:[]),{type:'write-boolean',key:'licenseGranted',operator:'set',value:true});}effects.unshift({type:'story',instruction:'This skip goes through. The calendar has moved on: it is now '+dateOf(d+n)+', Early Morning, and the last scene ended '+n+' day'+(n>1?'s':'')+' ago. '+(q>n?'The player asked for '+dateOf(d+q)+'; a skip moves at most 21 days: say so out of character. '+'Today is an ordinary day; nothing planned for '+dateOf(d+q)+' or later happens today'+(typeof TT==='string'?' (not '+TT+'; the party stays where its days are and does not travel toward it)':'')+'. ':'')+(typeof SE==='string'?'The player asked for '+SE+', but the days stop at '+SEV+', which is played first: '+'never write '+SE+(typeof TT==='string'?' or '+TT:'')+'; end with one short out-of-character line saying the skip stopped for '+SEV+'. ':'')+'The turn begins with the words \"'+(n>1?n+' days pass.':'A day passes.')+' It is '+dateOf(d+n)+'.\" Then a sentence or two of the character’s actual life (nothing is bought, sold or handed over in the skipped days)'+'; what the scene left open was settled'+(hap.length?'. These canon events happened meanwhile (canon default unless play changed them); name them: '+hap.slice(-4).join(' ')+' No other canon event has happened yet':'; no canon event happened meanwhile')+'; then play the new morning from what they are doing'+(tdy.length?'. Today is the day of '+tdy.join(' and ')+'; the morning is its run-up':'')+'. This replaces other time notes.'});})();"
+    "script": "(function(){const EVY=[];{const VS=[73510, 38972, 9976];for(let i=0;i<VS.length;i++){if(storage['evyV'+(i+1)]!==VS[i]){skip=true;return;}for(const x of storage['EVY'+(i+1)])EVY.push(x.slice());}}const CV=[\"case_conference\", \"eri_first_encounter\", \"garaki_procedure\", \"kurogiri_is_oboro\", \"league_meets_overhaul\"];for(const x of EVY)if(!x[2])x[2]=x[4];const BANDS=[\"Early Morning\", \"Mid Morning\", \"Late Morning\", \"Early Afternoon\", \"Mid Afternoon\", \"Late Afternoon\", \"Early Evening\", \"Late Evening\", \"Night\", \"Late Night\"];const WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];const MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]];function dateOf(d){let r=(Math.max(1,d)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}return WD[(Math.max(1,d)-1)%7]+', '+MO[i][0]+' '+(r+1);}const tk0=check({type:'game-tick'})||0;if(storage.skipTick===tk0){skip=true;return;}const A=check({type:'action-text'})||[];const tx=String(Array.isArray(A)?(A[A.length-1]||''):A).toLowerCase();const NUM={a:1,an:1,one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8,nine:9,ten:10,eleven:11,twelve:12,thirteen:13,fourteen:14,fifteen:15,sixteen:16,seventeen:17,eighteen:18,nineteen:19,twenty:20};const d=check({type:'read-number',key:'currentDay'})||1;let n=0;if(/\\b(same day|today|tonight|later today|this (morning|afternoon|evening))\\b/.test(tx)&&!/\\b(tomorrow|\\d+ (days?|weeks?)|(one|two|three|four|five|six|seven|a|an) (days?|weeks?))\\b/.test(tx)){skip=true;return;}const t2=tx.replace(/twenty[- ]one/g,'21').replace(/twenty[- ]two/g,'22').replace(/\\bu\\.a\\./g,'ua').replace(/\\b([ap])\\.m\\./g,'$1m');const NW='(\\\\d+|'+Object.keys(NUM).join('|')+')',U='\\\\s+(days?|weeks?)\\\\b';const R=[new RegExp('\\\\b(skips?|skipping|jumps?|fast[- ]?forward)\\\\b[^.!?]{0,25}?\\\\b'+NW+U),new RegExp('\\\\b'+NW+U+'(\\\\s+of\\\\s+[a-z ,]{1,40}?)?\\\\s+(later|pass|passes|passed|go by|goes by|went by|fly by|flies by|have passed|has passed)\\\\b'),new RegExp('\\\\b(spend|spends|spent|spending)\\\\s+'+NW+U)];let m=null;for(const r of R){m=t2.match(r);if(m)break;}if(m){const g=m[0].match(new RegExp(NW+U));const k=NUM[g[1]]!==undefined?NUM[g[1]]:parseInt(g[1],10);n=/week/.test(g[2])?k*7:k;}const WDN=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];const sm=t2.match(/\\b(skips?|skipping|jumps?|fast[- ]?forward)\\b([^.!?]{0,90})/);if(sm)for(const M of sm[2].matchAll(/\\b([a-z]{3,9}) (\\d{1,2})\\b/g)){const i=MO.findIndex(x=>!x[0].toLowerCase().indexOf(M[1]));if(i>=0){let r=+M[2]-1;for(let j=0;j<i;j++)r+=MO[j][1];let t=r-29;while(t<d&&t+365-d<=60)t+=365;if(t>d)n=t-d;else if(t===d)n=-1;break;}}if(!n&&sm){const w=/\\b(?:(?:to|until|till|on|of) (?:the )?(?:next |following |coming |this )?|next )(\\w+day)\\b/g;let x,l=null;while((x=w.exec(sm[2])))if(WDN.indexOf(x[1])>=0)l=x;if(l)n=(WDN.indexOf(l[1])-(d-1)%7+7)%7||(/noon|evening|night/.test(sm[2])?-1:7);}if(!n&&(/\\brest of the week\\b[^.!?]{0,20}\\b(pass\\w*|go(es)? by|went by)\\b/.test(t2)||/\\bskip\\w*\\b[^.!?]{0,25}\\b(rest of the week|weekend)\\b/.test(t2))){const cur=(d-1)%7;n=(6-cur+7)%7||7;}if(!n&&/\\bskip\\w*\\b[^.!?]{0,25}\\bnext week\\b/.test(t2)){const cur=(d-1)%7;n=(8-cur)%7||7;}if(!n&&sm){const s=sm[2];if(/\\b(to|until|till)\\s+(the\\s+)?(next day|tomorrow|(next|following|tomorrow) morning)\\b/.test(s))n=1;else if(typeof EVY==='object')for(const x of EVY){if(x[1]<=d||CV.indexOf(x[0])>=0)continue;let c=String(x[4]).toLowerCase();const k=c.lastIndexOf(' at ');if(k>0)c=c.slice(0,k);c=c.replace(/^the /,'').replace(/^u\\.a\\. /,'');let j=c.indexOf(' ')>0&&c.length>7?s.indexOf(c):-1;const c2=c.replace(/^arrival at (the )?/,'');if(j<0&&c2!==c&&c2.length>7)j=s.indexOf(c2);if(j<0&&x[0]==='usj_attack')j=s.search(/\\busj\\b/);if(j>=0&&check({type:'read-boolean',key:'done_'+x[0]})!==true){var TT=String(x[4]);const kk=TT.lastIndexOf(' at ');if(kk>0)TT=TT.slice(0,kk);n=x[1]-d+(/\\b(after|past)\\s+(the\\s+)?(ua\\s+)?$/.test(s.slice(0,j))?1:0);break;}}}if(n<1){skip=true;return;}const WN=(k,v)=>({type:'write-number',key:k,operator:'set',value:v});let q=n;n=Math.max(1,Math.min(21,n));{const TR=JSON.stringify(check({type:'player-traits'})||''),A1=TR.indexOf('Class 1-A')>=0,HC=A1||TR.indexOf('Class 1-B')>=0||TR.indexOf('U.A. Faculty')>=0,GS=TR.indexOf('U.A. General Studies')>=0;const ST=v=>v===1&&TR.indexOf('\"U.A. ')>=0||v===2&&A1||v===3&&HC||v===4&&(HC||GS)||v===6&&(A1||TR.indexOf('U.A. Faculty')>=0)||v===9;const QC0=check({type:'quests-completed'})||[];var QZ=[[2,'The First-Day Quirk Assessment',A1,'the Quirk Assessment (Athletics Field)'],[3,'Battle Trial: Heroes and Villains',HC&&TR.indexOf('Faculty')<0,'the Battle Trial (Ground Beta)']].filter(q=>q[2]&&QC0.indexOf(q[1])<0).map(q=>['q'+q[0],q[0],'',0,q[3],9]);const z=QZ.concat(EVY).find(x=>x[5]&&(x[1]>d||x[1]===d&&ST(x[5])&&(storage['sh_'+x[0]]||0)<2)&&x[1]<d+n&&(x[5]===9||!check({type:'read-boolean',key:'done_'+x[0]})&&['completed','active'].indexOf(check({type:'narrative-event-status',eventId:x[0]}))<0&&check({type:'read-boolean',key:'live_'+x[0]})!==true));const hk='sh_'+(z?z[0]:''),hc=z&&z[1]===d?(storage[hk]||0)+1:0;if(z&&z[1]===d)storage[hk]=hc;if(z){if(z[1]===d){storage.sS=tk0;effects.push({type:'story',instruction:'Narrator only, first rule: the skip is REFUSED. No time passes and today\\'s event has not happened yet: today is '+z[4]+'. Do not recap or summarize it; tell the player where it takes place so they can go there. It is still '+dateOf(d)+'; never name a later date.'});return;}var SE=dateOf(d+q),SEV=z[4];q=n=z[1]-d;storage.sS=tk0;effects.push({type:'story',instruction:'Out of character: the skip stops early: it is now '+dateOf(z[1])+', early morning, the day of '+z[4]+'. Name that date (not the date the player named), narrate only up to that morning and end there. The event plays next.'});}}let LA2=0;const LIVE=EVY.find(x=>{if(x[1]>d||d-x[1]>60)return false;const s=check({type:'narrative-event-status',eventId:x[0]}),h=storage['sh2_'+x[0]],f=storage['sf_'+x[0]];if(s==='active'){const r=!(typeof f==='number'&&tk0-f>=12);if(r)LA2=1;return r;}return (s==='stopped'&&d-x[1]<2&&!check({type:'read-boolean',key:'done_'+x[0]}))&&!(typeof h==='number'&&h>1&&tk0-h<=6);});if(LIVE){storage['sh2_'+LIVE[0]]=tk0;if(typeof storage['sf_'+LIVE[0]]!=='number')storage['sf_'+LIVE[0]]=tk0;}if(LIVE){storage.sS=tk0;effects.length=0;effects.push({type:'story',instruction:'Narrator only, first rule: the skip is REFUSED. '+LIVE[4]+' is under way: do not summarize, finish or recap it. Do not advance time: it is still '+dateOf(d)+', and no later date is named, and nobody travels anywhere; play its very next moment and tell the player the skip comes after it'+(LA2?'':', or right away if they ask once more')+'.'});return;}storage.currentDay=d+n;storage.currentBandIndex=0;storage.skipTick=tk0;storage.skipTo=d+n;effects.push(WN('currentDay',d+n),WN('currentBandIndex',0));effects.push({type:'player-resource',resource:'Quirk Strain',operator:'set',value:0},{type:'player-resource',resource:'stamina',operator:'add',value:999});const dn=x=>check({type:'read-boolean',key:'done_'+x[0]});const hapE=EVY.filter(x=>x[1]<d+n&&!dn(x));const hap=hapE.filter(x=>CV.indexOf(x[0])<0).map(x=>x[2]);QZ.map(x=>x[1]<d+n&&hap.push(x[4]+' was held.'));const tdy=EVY.filter(x=>x[1]===d+n&&!dn(x)&&CV.indexOf(x[0])<0).map(x=>x[4]);const sg0=check({type:'read-number',key:'studentStage'})||0;let stg=sg0;for(const x of hapE){storage['done_'+x[0]]=true;if(x[3]>stg)stg=x[3];}if(stg>sg0)effects.push(WN('studentStage',stg));if(hapE.some(x=>x[0]==='provisional_license_exam')&&!check({type:'read-boolean',key:'licenseGranted'})&&/Hero Course/.test(JSON.stringify(check({type:'player-traits'})||''))){effects.push({type:'player-traits',operator:'add',value:'Provisional Hero License'},...(((c=>typeof c==='number'?c:(c&&typeof c==='object'?Object.values(c).reduce((a,b)=>a+(+b||0),0):0))(check({type:'player-item',item:'Provisional hero license'})))<1?[{type:'item-add',item:'Provisional hero license',quantity:1}]:[]),{type:'write-boolean',key:'licenseGranted',operator:'set',value:true});}effects.unshift({type:'story',instruction:'This skip goes through. The calendar has moved on: it is now '+dateOf(d+n)+', Early Morning, and the last scene ended '+n+' day'+(n>1?'s':'')+' ago. '+(q>n?'The player asked for '+dateOf(d+q)+'; a skip moves at most 21 days: say so out of character. '+'Today is an ordinary day; nothing planned for '+dateOf(d+q)+' or later happens today'+(typeof TT==='string'?' (not '+TT+'; the party stays where its days are and does not travel toward it)':'')+'. ':'')+(typeof SE==='string'?'The player asked for '+SE+', but the days stop at '+SEV+', which is played first: '+'never write '+SE+(typeof TT==='string'?' or '+TT:'')+'; end with one short out-of-character line saying the skip stopped for '+SEV+'. ':'')+'The turn begins with the words \"'+(n>1?n+' days pass.':'A day passes.')+' It is '+dateOf(d+n)+'.\" Then a sentence or two of the character’s actual life (nothing changes hands in the skipped days)'+'; what the scene left open was settled'+(hap.length?'. These canon events happened meanwhile (by canon unless play changed them): '+hap.slice(-4).join(' ')+' No other canon event has happened yet':'; no canon event happened')+'; then play the morning from what they are doing'+(tdy.length?'. Today is the day of '+tdy.join(' and ')+'; the morning is its run-up':'')+'. This replaces other time notes.'});})();"
   },
   "Clock: Date Sync": {
     "name": "Clock: Date Sync",
@@ -915,7 +915,7 @@
       }
     ],
     "effects": [],
-    "script": "(function(){const RN=k=>check({type:'read-number',key:k}),RB=k=>check({type:'read-boolean',key:k}),WN=(k,v)=>({type:'write-number',key:k,operator:'set',value:v}),ES=e=>check({type:'narrative-event-status',eventId:e});const TR=JSON.stringify(check({type:'player-traits'})||''),A1=TR.indexOf('Class 1-A')>=0,HC=A1||TR.indexOf('Class 1-B')>=0||TR.indexOf('U.A. Faculty')>=0,GS=TR.indexOf('U.A. General Studies')>=0;const ST=v=>v===1||v===2&&A1||v===3&&HC||v===4&&(HC||GS)||v>4&&v<7;const EV=[];for(let i=1;storage['EVY'+i];i++)for(const x of storage['EVY'+i])EV.push([x[0],x[1],x[3],String(x[4]).split(' at ')[0],ST(x[5])?1:0]);if(!EV.length){skip=true;return;}{const QC=check({type:'quests-completed'})||[];if(TR.indexOf('Hero Course')>=0&&QC.indexOf('Battle Trial: Heroes and Villains')<0)EV.push(['@b',3,0,'the Battle Trial',1]);}const MN='march april may june july august september october november december january february'.split(' '),ML=[31,30,31,30,31,31,30,31,30,31,31,28];const tk=check({type:'game-tick'})||0,AX=check({type:'action-text'})||[];const asked=(typeof storage.skipAsk==='number'&&tk-storage.skipAsk<=1)||/\\bskip|days? pass|weeks? pass/i.test((Array.isArray(AX)?AX.slice(-2):[AX]).join(' '));{const P=storage.dsPend;if(P&&P.t>0){const d1=RN('currentDay')||1;if(P.t<=d1||tk-P.k>12||storage.skipTick>P.k)storage.dsPend=null;else if(storage['done_'+P.e]||(P.e[0]==='@'?0:ES(P.e))==='completed'){let t2=P.t,ln='';for(const x of EV)if(x[4]&&x[1]>d1&&x[1]<t2&&!storage['done_'+x[0]]){t2=x[1];ln=x[3];}const b2=ln?0:1;storage.dsPend=null;storage.currentDay=storage.dsDay=t2;storage.currentBandIndex=b2;let r=(t2+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=MN[i]+' '+(r+1);effects.push(WN('currentDay',t2),WN('currentBandIndex',b2),{type:'story',instruction:'Narrator only: the calendar catches up: it is '+ds+(ln?', the morning of '+ln+', not played yet: open on it and play it.':'.')});log('date catch-up '+d1+' -> '+t2);return;}}}if(/\\bskip|days? pass|weeks? pass/i.test(String(Array.isArray(AX)?(AX[AX.length-1]||''):AX)))storage.skipAsk=tk;storage.prevLoc=check({type:'party-location'})||'';const PS=String(check({type:'story-text'})||'').split(/\\n\\s*\\n/).map(p=>{const m=/^\\s*([A-Za-z .'-]{1,40}):\\s*/.exec(p);if(m&&m[1].trim().toLowerCase()!=='narrator')return '';return (m?p.slice(m[0].length):p).replace(/<[^>]*>/g,'').trim().toLowerCase();}).filter(Boolean);const S=PS.join('\\n\\n').slice(0,600);storage.skipBlock=false;if(storage.skipTick===tk&&typeof storage.skipTo==='number'&&typeof storage.dsDay==='number'&&storage.dsDay<storage.skipTo){const p=storage.dsDay,q=storage.skipTo;let r=(q+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const md=MN[i]+' '+(r+1),S4=PS.join(' ').slice(0,1500);const nay=/\\bno skip|\\b(a|the) (day|week|night) (does not|doesn't|will not|won't) (pass|come|end)|\\b(holds?|keeps?) (him|her|them|you) (where|in place|here|there)\\b|\\brefuses? to (move|turn|pass)|\\b(calendar|clock|skip|time)\\b[^.!?]{0,40}\\b(will not|won't|refuses?|holds?|stays?|does not|doesn't|fails?|cannot|isn't)\\b/.test(S4);const dt=S.indexOf(md)>=0,ps=/\\b(\\d+|[a-z]+(-[a-z]+)?) (days?|weeks?) (pass|later)|\\ba (day|week) passes/.test(S4);if(nay&&!ps){storage.dsDay=p;let st=0,up=0;effects.push(WN('currentDay',p),WN('currentBandIndex',typeof storage.dsBand==='number'?storage.dsBand:0));for(const x of EV){if(x[1]>p&&x[1]<q){storage['done_'+x[0]]=false;if(x[2]>0)up=1;}else if(x[1]<=p&&x[2]>st)st=x[2];}if(up)effects.push(WN('studentStage',st));storage.currentDay=p;storage.skipTick=-1;storage.skipTo=null;log('skip undone '+q+' -> '+p);return;}}storage.dsBand=RN('currentBandIndex')||0;const d0=RN('currentDay')||1;if(typeof storage.skipTick==='number'&&tk-storage.skipTick===1&&typeof storage.dsDay==='number'&&d0>storage.dsDay&&!/\\b(?:(?:\\d+|[a-z]+(?:-[a-z]+)?) (?:days?|weeks?) pass|a (?:day|week) passes)/.test(S)){let r=(d0+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][(d0-1)%7]+', '+MN[i].charAt(0).toUpperCase()+MN[i].slice(1)+' '+(r+1);storage.dsDay=d0;effects.push({type:'story',instruction:'Narrator only: the skip the player asked for has already happened in the calendar: it is now '+ds+'. Close the current scene in one line and open this turn with the words \"It is '+ds+'.\", then play that morning.'});return;}storage.dsDay=d0;const M=/\\b(?:(?:\\d+|[a-z]+(?:-[a-z]+)?) days pass|a day passes)\\.?\\s+it is (?:[a-z]+day,? )?([a-z]+) (\\d{1,2})\\b/.exec(S);const W=M?null:(R=>{for(let i=PS.length-1;i>=0;i--){const w=R.exec(PS[i].slice(0,160));if(w)return w;}return null;})(/^[^a-z]{0,6}(?:[a-z]+ ){0,3}?(?:(sunday|monday|tuesday|wednesday|thursday|friday|saturday),? )?(january|february|march|april|may|june|july|august|september|october|november|december) (\\d{1,2})\\b/);const WDL=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];let Z=null;if(!M&&!W&&asked)for(let k=PS.length-1;k>=0&&!Z;k--){const z=/^[^a-z]{0,6}(?:it is |it's |by |on |come )?(sunday|monday|tuesday|wednesday|thursday|friday|saturday)\\b(?!')/.exec(PS[k]);if(z)Z=z[1];}if(W&&!W[1]&&!asked){skip=true;return;}const X=M||W,mo=M?M[1]:W&&W[2],dt=M?M[2]:W&&W[3];const d=RN('currentDay')||1;let tg;if(Z){const zd=(WDL.indexOf(Z)-(d-1)%7+7)%7;if(zd===0&&!/\\b(next (sunday|monday|tuesday|wednesday|thursday|friday|saturday)|next week|a week|one week|7 days|seven days|(\\d+|two|three|four|five|six) weeks)\\b/.test(String(Array.isArray(AX)?(AX[AX.length-1]||''):AX).toLowerCase())){skip=true;return;}tg=d+(zd||7);}else{const i=X?MN.indexOf(mo):-1;if(i<0){skip=true;return;}let r=+dt-1;for(let j=0;j<i;j++)r+=ML[j];tg=r-29;while(tg<d&&tg+365-d<=60)tg+=365;}if(tg<=d||tg-d>(M||asked?31:7)){skip=true;return;}if(W&&!asked&&WDL[(tg-1)%7]!==W[1]){skip=true;return;}if(!asked){const ax=String(Array.isArray(AX)?(AX[AX.length-1]||''):AX).toLowerCase().replace(/\\b(out of bed|get(s|ting)? up|got up|wak(e|es|ing|en\\w*) up|woke( up)?)\\b/g,' ');const TP=/\\b(sleep\\w*|slept|nap\\w*|bed|bedtime|turn\\w* in|lights out|tomorrow|next (day|morning)|following (day|morning)|overnight|all night|wait\\w* (until|till|for (the|a))|rest\\w* (up|until|for (the|a))|for the night|good ?night|call it a night)\\b/.test(ax);const b0=RN('currentBandIndex')||0;const SL=/\\b(asleep|to bed|into bed|turns? in for the night|lights out|goes to sleep|went to sleep|drifts? off|sleeps?|slept|dozes? off|dozed off)\\b/.test(PS.join('\\n').replace(/\\b(last|yesterday|previous) (evening|night)[^.]*\\./g,''));if(!TP&&!(tg-d===1&&b0>=8&&SL)){let r=(d+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=WDL[(d-1)%7].charAt(0).toUpperCase()+WDL[(d-1)%7].slice(1)+', '+MN[i].charAt(0).toUpperCase()+MN[i].slice(1)+' '+(r+1);effects.push({type:'story',instruction:'Narrator only: no days have passed. It is still '+ds+'; continue the same day from what the player just did. Days pass only when the player sleeps or asks to skip.'});log('date sync held '+d+' (narration said '+tg+')');skip=false;return;}}{const UA0=RB('offCampus')!==true;const AV=EV.filter(x=>storage['live_'+x[0]]===true&&storage['done_'+x[0]]!==true&&(x[0][0]==='@'?0:ES(x[0]))==='active');if(AV.length&&(!asked||(UA0&&AV.some(x=>x[4])))){if(asked)effects.push({type:'story',instruction:'Narrator only: '+AV[0][3]+' is still underway today and the player is part of it. No time passes until it is played out: bring the player into it now and play it.'});if(tg>(RN('currentDay')||1))storage.dsPend={t:tg,k:tk,e:AV[0][0]};skip=true;return;}}const UAs=RB('offCampus')!==true;if(!asked||UAs){let lm=null;for(const x of EV)if((!asked||x[4])&&x[1]>=d&&x[1]<tg&&!RB('done_'+x[0])&&(x[0][0]==='@'?0:ES(x[0]))!=='active'&&(!lm||x[1]<lm[1]))lm=x;if(lm){if(lm[1]<d){skip=true;return;}if(lm[1]===d){let r=(d+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=WDL[(d-1)%7].charAt(0).toUpperCase()+WDL[(d-1)%7].slice(1)+', '+MN[i].charAt(0).toUpperCase()+MN[i].slice(1)+' '+(r+1);effects.push({type:'story',instruction:'Narrator only: no days have passed. It is still '+ds+', the day of '+lm[3]+', which has not been played yet. Whatever the last turn said about days passing, open this turn on '+ds+', bring the player to it and play it; the skip continues after it.'});storage.dsPend={t:tg,k:tk,e:lm[0]};log('date sync hold '+d+' for '+lm[0]);return;}tg=lm[1];effects.push({type:'story',instruction:'Narrator only: the days do not run past a scheduled event. The calendar stops on the morning of '+lm[3]+', which is today: open on that morning and play it, whatever the last turn said about days passing.'});}}storage.currentDay=tg;storage.currentBandIndex=0;effects.push(WN('currentDay',tg),WN('currentBandIndex',0));let st=RN('studentStage')||0;const st0=st;for(const x of EV)if(x[1]<tg&&!RB('done_'+x[0])){storage['done_'+x[0]]=true;if(x[2]>st)st=x[2];if(x[0]==='provisional_license_exam'&&!RB('licenseGranted')&&/Hero Course/.test(JSON.stringify(check({type:'player-traits'})||'')))effects.push({type:'player-traits',operator:'add',value:'Provisional Hero License'},...(((c=>typeof c==='number'?c:(c&&typeof c==='object'?Object.values(c).reduce((a,b)=>a+(+b||0),0):0))(check({type:'player-item',item:'Provisional hero license'})))<1?[{type:'item-add',item:'Provisional hero license',quantity:1}]:[]),{type:'write-boolean',key:'licenseGranted',operator:'set',value:true});}if(st>st0)effects.push(WN('studentStage',st));log('date sync '+d+' -> '+tg);})();"
+    "script": "(function(){const RN=k=>check({type:'read-number',key:k}),RB=k=>check({type:'read-boolean',key:k}),WN=(k,v)=>({type:'write-number',key:k,operator:'set',value:v}),ES=e=>check({type:'narrative-event-status',eventId:e});const TR=JSON.stringify(check({type:'player-traits'})||''),A1=TR.indexOf('Class 1-A')>=0,HC=A1||TR.indexOf('Class 1-B')>=0||TR.indexOf('U.A. Faculty')>=0,GS=TR.indexOf('U.A. General Studies')>=0;const ST=v=>v===1||v===2&&A1||v===3&&HC||v===4&&(HC||GS)||v>4&&v<7;const EV=[];for(let i=1;storage['EVY'+i];i++)for(const x of storage['EVY'+i])EV.push([x[0],x[1],x[3],String(x[4]).split(' at ')[0],ST(x[5])?1:0]);if(!EV.length){skip=true;return;}{const QC=check({type:'quests-completed'})||[];if(TR.indexOf('Hero Course')>=0&&QC.indexOf('Battle Trial: Heroes and Villains')<0)EV.push(['@b',3,0,'the Battle Trial',1]);}const MN='march april may june july august september october november december january february'.split(' '),ML=[31,30,31,30,31,31,30,31,30,31,31,28];const tk=check({type:'game-tick'})||0,AX=check({type:'action-text'})||[];const asked=(typeof storage.skipAsk==='number'&&tk-storage.skipAsk<=1)||/\\bskip|days? pass|weeks? pass/i.test((Array.isArray(AX)?AX.slice(-2):[AX]).join(' '));{const P=storage.dsPend;if(P&&P.t>0){const d1=RN('currentDay')||1;if(P.t<=d1||tk-P.k>12||storage.skipTick>P.k)storage.dsPend=null;else if(storage['done_'+P.e]||(P.e[0]==='@'?0:ES(P.e))==='completed'){let t2=P.t,ln='';for(const x of EV)if(x[4]&&x[1]>d1&&x[1]<t2&&!storage['done_'+x[0]]){t2=x[1];ln=x[3];}const b2=ln?0:1;storage.dsPend=null;storage.currentDay=storage.dsDay=t2;storage.currentBandIndex=b2;let r=(t2+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=MN[i]+' '+(r+1);effects.push(WN('currentDay',t2),WN('currentBandIndex',b2),{type:'story',instruction:'Narrator only: the calendar catches up: it is '+ds+(ln?', the morning of '+ln+', not played yet: open on it and play it.':'.')});log('date catch-up '+d1+' -> '+t2);return;}}}if(/\\bskip|days? pass|weeks? pass/i.test(String(Array.isArray(AX)?(AX[AX.length-1]||''):AX)))storage.skipAsk=tk;storage.prevLoc=check({type:'party-location'})||'';const PS=String(check({type:'story-text'})||'').split(/\\n\\s*\\n/).map(p=>{const m=/^\\s*([A-Za-z .'-]{1,40}):\\s*/.exec(p);if(m&&m[1].trim().toLowerCase()!=='narrator')return '';return (m?p.slice(m[0].length):p).replace(/<[^>]*>/g,'').trim().toLowerCase();}).filter(Boolean);const S=PS.join('\\n\\n').slice(0,600);storage.skipBlock=false;if(storage.skipTick===tk&&typeof storage.skipTo==='number'&&typeof storage.dsDay==='number'&&storage.dsDay<storage.skipTo){const p=storage.dsDay,q=storage.skipTo;let r=(q+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const md=MN[i]+' '+(r+1),S4=PS.join(' ').slice(0,1500);const nay=/\\bno skip|\\b(a|the) (day|week|night) (does not|doesn't|will not|won't) (pass|come|end)|\\b(holds?|keeps?) (him|her|them|you) (where|in place|here|there)\\b|\\brefuses? to (move|turn|pass)|\\b(calendar|clock|skip|time)\\b[^.!?]{0,40}\\b(will not|won't|refuses?|holds?|stays?|does not|doesn't|fails?|cannot|isn't)\\b/.test(S4);const dt=S.indexOf(md)>=0,ps=/\\b(\\d+|[a-z]+(-[a-z]+)?) (days?|weeks?) (pass|later)|\\ba (day|week) passes/.test(S4);const rel=storage['sh_q'+p]>=2||EV.some(x=>x[1]===p&&storage['sh_'+x[0]]>=2);if(nay&&!ps&&!rel){storage.dsDay=p;let st=0,up=0;effects.push(WN('currentDay',p),WN('currentBandIndex',typeof storage.dsBand==='number'?storage.dsBand:0));for(const x of EV){if(x[1]>p&&x[1]<q){storage['done_'+x[0]]=false;if(x[2]>0)up=1;}else if(x[1]<=p&&x[2]>st)st=x[2];}if(up)effects.push(WN('studentStage',st));storage.currentDay=p;storage.skipTick=-1;storage.skipTo=null;log('skip undone '+q+' -> '+p);return;}}storage.dsBand=RN('currentBandIndex')||0;const d0=RN('currentDay')||1;if(typeof storage.skipTick==='number'&&tk-storage.skipTick===1&&typeof storage.dsDay==='number'&&d0>storage.dsDay&&!/\\b(?:(?:\\d+|[a-z]+(?:-[a-z]+)?) (?:days?|weeks?) pass|a (?:day|week) passes)/.test(S)){let r=(d0+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'][(d0-1)%7]+', '+MN[i].charAt(0).toUpperCase()+MN[i].slice(1)+' '+(r+1);storage.dsDay=d0;effects.push({type:'story',instruction:'Narrator only: the skip the player asked for has already happened in the calendar: it is now '+ds+'. Close the current scene in one line and open this turn with the words \"It is '+ds+'.\", then play that morning.'});return;}storage.dsDay=d0;const M=/\\b(?:(?:\\d+|[a-z]+(?:-[a-z]+)?) days pass|a day passes)\\.?\\s+it is (?:[a-z]+day,? )?([a-z]+) (\\d{1,2})\\b/.exec(S);const W=M?null:(R=>{for(let i=PS.length-1;i>=0;i--){const w=R.exec(PS[i].slice(0,160));if(w)return w;}return null;})(/^[^a-z]{0,6}(?:[a-z]+ ){0,3}?(?:(sunday|monday|tuesday|wednesday|thursday|friday|saturday),? )?(january|february|march|april|may|june|july|august|september|october|november|december) (\\d{1,2})\\b/);const WDL=['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];let Z=null;if(!M&&!W&&asked)for(let k=PS.length-1;k>=0&&!Z;k--){const z=/^[^a-z]{0,6}(?:it is |it's |by |on |come )?(sunday|monday|tuesday|wednesday|thursday|friday|saturday)\\b(?!')/.exec(PS[k]);if(z)Z=z[1];}if(W&&!W[1]&&!asked){skip=true;return;}const X=M||W,mo=M?M[1]:W&&W[2],dt=M?M[2]:W&&W[3];const d=RN('currentDay')||1;let tg;if(Z){const zd=(WDL.indexOf(Z)-(d-1)%7+7)%7;if(zd===0&&!/\\b(next (sunday|monday|tuesday|wednesday|thursday|friday|saturday)|next week|a week|one week|7 days|seven days|(\\d+|two|three|four|five|six) weeks)\\b/.test(String(Array.isArray(AX)?(AX[AX.length-1]||''):AX).toLowerCase())){skip=true;return;}tg=d+(zd||7);}else{const i=X?MN.indexOf(mo):-1;if(i<0){skip=true;return;}let r=+dt-1;for(let j=0;j<i;j++)r+=ML[j];tg=r-29;while(tg<d&&tg+365-d<=60)tg+=365;}if(tg<=d||tg-d>(M||asked?31:7)){skip=true;return;}if(W&&!asked&&WDL[(tg-1)%7]!==W[1]){skip=true;return;}if(!asked){const ax=String(Array.isArray(AX)?(AX[AX.length-1]||''):AX).toLowerCase().replace(/\\b(out of bed|get(s|ting)? up|got up|wak(e|es|ing|en\\w*) up|woke( up)?)\\b/g,' ');const TP=/\\b(sleep\\w*|slept|nap\\w*|bed|bedtime|turn\\w* in|lights out|tomorrow|next (day|morning)|following (day|morning)|overnight|all night|wait\\w* (until|till|for (the|a))|rest\\w* (up|until|for (the|a))|for the night|good ?night|call it a night)\\b/.test(ax);const b0=RN('currentBandIndex')||0;const SL=/\\b(asleep|to bed|into bed|turns? in for the night|lights out|goes to sleep|went to sleep|drifts? off|sleeps?|slept|dozes? off|dozed off)\\b/.test(PS.join('\\n').replace(/\\b(last|yesterday|previous) (evening|night)[^.]*\\./g,''));if(!TP&&!(tg-d===1&&b0>=8&&SL)){let r=(d+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=WDL[(d-1)%7].charAt(0).toUpperCase()+WDL[(d-1)%7].slice(1)+', '+MN[i].charAt(0).toUpperCase()+MN[i].slice(1)+' '+(r+1);effects.push({type:'story',instruction:'Narrator only: no days have passed. It is still '+ds+'; continue the same day from what the player just did. Days pass only when the player sleeps or asks to skip.'});log('date sync held '+d+' (narration said '+tg+')');skip=false;return;}}{const UA0=RB('offCampus')!==true;const AV=EV.filter(x=>storage['live_'+x[0]]===true&&storage['done_'+x[0]]!==true&&(x[0][0]==='@'?0:ES(x[0]))==='active');if(AV.length&&(!asked||(UA0&&AV.some(x=>x[4])))){if(asked)effects.push({type:'story',instruction:'Narrator only: '+AV[0][3]+' is still underway today and the player is part of it. No time passes until it is played out: bring the player into it now and play it.'});if(tg>(RN('currentDay')||1))storage.dsPend={t:tg,k:tk,e:AV[0][0]};skip=true;return;}}const UAs=RB('offCampus')!==true;if(!asked||UAs){let lm=null;for(const x of EV)if((!asked||x[4])&&x[1]>=d&&x[1]<tg&&!RB('done_'+x[0])&&(x[0][0]==='@'?0:ES(x[0]))!=='active'&&(!lm||x[1]<lm[1]))lm=x;if(lm){if(lm[1]<d){skip=true;return;}if(lm[1]===d){let r=(d+29)%365,i=0;while(r>=ML[i]){r-=ML[i];i++;}const ds=WDL[(d-1)%7].charAt(0).toUpperCase()+WDL[(d-1)%7].slice(1)+', '+MN[i].charAt(0).toUpperCase()+MN[i].slice(1)+' '+(r+1);effects.push({type:'story',instruction:'Narrator only: no days have passed. It is still '+ds+', the day of '+lm[3]+', which has not been played yet. Whatever the last turn said about days passing, open this turn on '+ds+', bring the player to it and play it; the skip continues after it.'});storage.dsPend={t:tg,k:tk,e:lm[0]};log('date sync hold '+d+' for '+lm[0]);return;}tg=lm[1];effects.push({type:'story',instruction:'Narrator only: the days do not run past a scheduled event. The calendar stops on the morning of '+lm[3]+', which is today: open on that morning and play it, whatever the last turn said about days passing.'});}}storage.currentDay=tg;storage.currentBandIndex=0;effects.push(WN('currentDay',tg),WN('currentBandIndex',0));let st=RN('studentStage')||0;const st0=st;for(const x of EV)if(x[1]<tg&&!RB('done_'+x[0])){storage['done_'+x[0]]=true;if(x[2]>st)st=x[2];if(x[0]==='provisional_license_exam'&&!RB('licenseGranted')&&/Hero Course/.test(JSON.stringify(check({type:'player-traits'})||'')))effects.push({type:'player-traits',operator:'add',value:'Provisional Hero License'},...(((c=>typeof c==='number'?c:(c&&typeof c==='object'?Object.values(c).reduce((a,b)=>a+(+b||0),0):0))(check({type:'player-item',item:'Provisional hero license'})))<1?[{type:'item-add',item:'Provisional hero license',quantity:1}]:[]),{type:'write-boolean',key:'licenseGranted',operator:'set',value:true});}if(st>st0)effects.push(WN('studentStage',st));log('date sync '+d+' -> '+tg);})();"
   },
   "Placement: intern 1": {
     "name": "Placement: intern 1",
@@ -22278,12 +22278,757 @@
     "name": "Clock: native follow",
     "recurring": true,
     "effects": [],
-    "script": "(function(){const TOD=[\"morning\", \"morning\", \"morning\", \"noon\", \"afternoon\", \"afternoon\", \"evening\", \"evening\", \"night\", \"midnight\"];const N=(k)=>typeof storage[k]==='number'?storage[k]:(check({type:'read-number',key:k})||0);const d=N('currentDay');if(d<1){skip=true;return;}const b=Math.max(0,Math.min(9,N('currentBandIndex')));effects.push({type:'day',operator:'set',value:d},{type:'time-of-day',operator:'set',value:TOD[b]});storage.nsK=d+'|'+b;})();",
+    "script": "(function(){/*rooms*/{const pa=check({type:'party-area'})||'',pl=check({type:'party-location'})||'';if(pa&&storage.pA!==pa){storage.pA2=storage.pA;storage.pL2=storage.pL;storage.pA=pa;storage.pL=pl;}}const TOD=[\"morning\", \"morning\", \"morning\", \"noon\", \"afternoon\", \"afternoon\", \"evening\", \"evening\", \"night\", \"midnight\"];const N=(k)=>typeof storage[k]==='number'?storage[k]:(check({type:'read-number',key:k})||0);const d=N('currentDay');if(d<1){skip=true;return;}const b=Math.max(0,Math.min(9,N('currentBandIndex')));effects.push({type:'day',operator:'set',value:d},{type:'time-of-day',operator:'set',value:TOD[b]});storage.nsK=d+'|'+b;})();",
     "conditions": [
       {
         "type": "game-tick",
         "operator": "greaterThanOrEqual",
         "value": 0
+      }
+    ]
+  },
+  "Travel: leave (U.A.)": {
+    "name": "Travel: leave (U.A.)",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const at=String(check({type:'action-text'})||'').toLowerCase().replace(/[’]/g,\"'\");const m=at.match(/\\b(?:leave|leaving|exit|exiting|(?:step|walk|head|get|go)(?:s|ping|ing)? out(?: of)?)(?:\\s+(?:the|this|my|our|his|her|their)\\s+)?\\s*([a-z0-9' .-]{0,40}?)\\s*(?:[.!?,;]|\\band\\b|$)/);if(!m){skip=true;return;}const rest=at.slice(m.index);if(/\\b(to|toward|towards|into|onto|for|back)\\b/.test(rest)){skip=true;return;}const loc=check({type:'party-location'})||'',ar=check({type:'party-area'})||'';const M=({\"U.A. Academy\":\"Main Gate>1|Courtyard>0|Main Building Lobby>1|Class 1-A Homeroom>2|Class 1-B Homeroom>2|General Studies Classrooms>2|Management Course Classrooms>2|Faculty Office>2|Principal's Office>7|Recovery Girl's Infirmary>2|Development Studio>2|Library>1|Lunch Rush's Cafeteria>2|Heights Alliance Yard>15|Other Course Dorm Halls>13|Class 1-A Dorm Lounge>13|Class 1-B Dorm Lounge>13|Dorm Kitchen>15|Dorm Rooms>15|Athletics Field>1|Main Building Hallway>2|Men's Locker Room>20|Women's Locker Room>20|Men's Restroom>20|Women's Restroom>20|Class 1-A Men's Wing>15|Class 1-A Women's Wing>15|Class 1-A Men's Bath>15|Class 1-A Women's Bath>15|Class 1-A Laundry Room>15|Your Dorm Room>25|Izuku Midoriya's Room>25|Katsuki Bakugo's Room>25|Shoto Todoroki's Room>25|Tenya Iida's Room>25|Eijiro Kirishima's Room>25|Denki Kaminari's Room>25|Fumikage Tokoyami's Room>25|Mashirao Ojiro's Room>25|Hanta Sero's Room>25|Mezo Shoji's Room>25|Rikido Sato's Room>25|Koji Koda's Room>25|Yuga Aoyama's Room>25|Minoru Mineta's Room>25|Ochaco Uraraka's Room>26|Momo Yaoyorozu's Room>26|Tsuyu Asui's Room>26|Kyoka Jiro's Room>26|Mina Ashido's Room>26|Toru Hagakure's Room>26|Teachers' Lounge>20|Support Course Classrooms>20|Faculty Residence>1|Main Building Rooftop>20|Class 1-B Men's Wing>16|Class 1-B Women's Wing>16|Class 1-B Men's Bath>16|Class 1-B Women's Bath>16|Class 1-B Laundry Room>16|Neito Monoma's Room>55|Tetsutetsu Tetsutetsu's Room>55|Juzo Honenuki's Room>55|Togaru Kamakiri's Room>55|Hiryu Rin's Room>55|Jurota Shishida's Room>55|Yosetsu Awase's Room>55|Sen Kaibara's Room>55|Shihai Kuroiro's Room>55|Kojiro Bondo's Room>55|Kosei Tsuburaba's Room>55|Nirengeki Shoda's Room>55|Manga Fukidashi's Room>55|Itsuka Kendo's Room>56|Ibara Shiozaki's Room>56|Setsuna Tokage's Room>56|Pony Tsunotori's Room>56|Yui Kodai's Room>56|Kinoko Komori's Room>56|Reiko Yanagi's Room>56|Indoor Pool>19|Campus Store>2|Main Gymnasium>19|Lecture Hall>2|Science Labs>20|Music Room>20|Upper-Year Classrooms>20|Campus Bus Terminal>0\"})[loc];if(!M){skip=true;return;}const X=(m[1]||'').trim(),al=ar.toLowerCase();if(X&&!/\\b(here|room|place|apartment|studio|office|class|classroom|homeroom|building|hall|hallway|lounge|kitchen|bath|clinic|infirmary|ward|gym|store|shop|cafe|restaurant|bar|club|house|home|dorm|area|scene|lab|library|locker|corridor|wing|floor|booth|counter)\\b/.test(X)&&al.indexOf(X)<0){skip=true;return;}const L=M.split('|').map(x=>x.split('>')),N=L.map(x=>x[0]),i=N.indexOf(ar);if(i===0){skip=true;return;}const B=[[storage.pA,storage.pL],[storage.pA2,storage.pL2]].find(x=>x[1]===loc&&x[0]!==ar&&N.indexOf(x[0])>=0);const to=i<0?(B?B[0]:N[0]):N[+L[i][1]];if(!to||to===ar){skip=true;return;}effects.push({type:'party-area',operator:'set',value:to},{type:'story',instruction:'Narrator only: the player leaves '+(i<0?'that room (it is not one of the rooms of '+loc+')':ar)+' and steps out into '+to+'. Open this turn there with one short line about the way out; nobody blocks the door.'});})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Ll]eav|[Ee]xit|[Ss]tep out|[Ww]alk out|[Hh]ead out|[Gg]et out|[Gg]o out"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      }
+    ]
+  },
+  "Travel: leave (elsewhere)": {
+    "name": "Travel: leave (elsewhere)",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const at=String(check({type:'action-text'})||'').toLowerCase().replace(/[’]/g,\"'\");const m=at.match(/\\b(?:leave|leaving|exit|exiting|(?:step|walk|head|get|go)(?:s|ping|ing)? out(?: of)?)(?:\\s+(?:the|this|my|our|his|her|their)\\s+)?\\s*([a-z0-9' .-]{0,40}?)\\s*(?:[.!?,;]|\\band\\b|$)/);if(!m){skip=true;return;}const rest=at.slice(m.index);if(/\\b(to|toward|towards|into|onto|for|back)\\b/.test(rest)){skip=true;return;}const loc=check({type:'party-location'})||'',ar=check({type:'party-area'})||'';const M=({\"Training Ground Gamma\":\"Gamma Gate>1|Pipe Maze>2|Factory Floor>1|Control Tower>1\",\"Gym Gamma\":\"Gym Gamma Entrance>2|Gym Gamma Training Floor>2|Equipment Bay>1|Gym Gamma Observation Deck>1\",\"Musutafu Station District\":\"Station Concourse>1|Hero Merch Arcade>0|Convenience Store Corner>0|Back Alleys>1|Game Center>1|Karaoke Box>2|Station-Front Cafe>0|Ramen Counter>3|Izakaya Lane>3|Family Restaurant>2|Neighborhood Bathhouse>2|Coin Laundry>2\",\"Kiyashi Shopping Mall\":\"Main Atrium>1|Food Court>0|Fashion Floors>0|Cinema Complex>2|Bookstore and Manga Floor>0|Electronics Floor>0|Rooftop Amusement Deck>2\",\"Dagobah Municipal Beach Park\":\"Shoreline>1|Seawall Promenade>0|Beach Snack Shack>1\",\"Midoriya Residence\":\"Midoriya Living Room>1|Izuku's Old Bedroom>0|Midoriya Kitchen>0\",\"Bakugo Residence\":\"Bakugo Living Room>1|Katsuki's Old Bedroom>0|Bakugo Front Entry>0\",\"Aldera High School\":\"Aldera School Gate>1|Aldera Classroom>0|Aldera Rooftop>1\",\"Musutafu Police Headquarters\":\"Front Desk>1|Detectives' Office>0|Holding Cells>0\",\"Musutafu General Hospital\":\"Emergency Ward>1|Patient Rooms>0|Rooftop Garden>1\",\"Hero Agency Row\":\"Agency Offices>1|Ready Room>0|Patrol Garage>0|Agency Row Coffee Stand>2\",\"Endeavor Hero Agency\":\"Lobby>1|Operations Floor>0|Training Gym>1|Endeavor's Office>1\",\"Todoroki Estate\":\"Main House>1|Dojo>0|Garden>0\",\"Hero Public Safety Commission Headquarters\":\"Lobby>1|Licensing Bureau>0|Briefing Room>0|President's Office>2\",\"Best Jeanist Hero Agency\":\"Agency Lobby>1|Training Floor>0\",\"Central Tokyo Streets\":\"Scramble Crossing>1|Billboard Avenue>0|Department Stores>0|Underground Nightclub>1|Rooftop Bar>0|Theater Row>2|Hero Theme Cafe>1|Twenty-Four-Hour Manga Cafe>0|Ramen Alley>0\",\"Hero Billboard Chart Hall\":\"Stage>1|Press Gallery>0\",\"Tokyo Broadcasting Center\":\"Broadcast Center Lobby>1|Studio Floor>0|Newsroom>0\",\"Tokyo Station\":\"Marunouchi Concourse>1|Yaesu Underground Mall>0|Tokyo Shinkansen Platforms>0\",\"Hosu Downtown\":\"Main Street>1|Station Plaza>0|Downtown Rooftops>0|Izakaya Street>0|Hosu Karaoke Box>0|Chain Coffee Shop>1|All-Night Convenience Store>1\",\"Hosu Back Alleys\":\"Narrow Alley>1|Water Tank Rooftops>0|Hole-in-the-Wall Bar>0\",\"Manual Hero Agency\":\"Manual Agency Front Office>1|Manual Agency Locker Room>0\",\"Hosu General Hospital\":\"Hospital Lobby>1|Hospital Ward>0\",\"Gran Torino's Apartment\":\"Gran Torino's Main Room>1|Gran Torino's Kitchenette>0\",\"Kamino Ward\":\"Shopping Street>1|Backstreets>0|Snack Bar Row>1|Late-Night Diner>0|Black Market Basement>2|Kamino Safehouse>1|Trigger Dealer's Stairwell>1\",\"League Hideout Bar\":\"Bar Counter>1|Back Room>0|Alley Entrance>0|Corner Booth>0\",\"Nomu Warehouse\":\"Warehouse Loading Dock>1|Warehouse Storage Floor>0\",\"Yokohama Harbor District\":\"Harbor Promenade>1|Container Docks>0|Chinatown Streets>0|Harbor Jazz Bar>0|Waterfront Amusement Pier>0|Dockside Safehouse>1|Giran's Chinatown Office>2\",\"Takoba Municipal Stadium\":\"Exam Arena>1|Waiting Hall>0|Rescue Exercise Ruins>0\",\"Deika City\":\"Downtown Streets>1|City Hall Plaza>0|Deika Evening Market>0|Deika Station Cafe>0\",\"Gunga Mountain Villa\":\"Villa Grounds>1|Mountain Slopes>0|Villa Great Hall>0\",\"Jaku City\":\"Jaku Downtown>1|Residential Hills>0|Jaku Covered Arcade>0|Izakaya by the Tracks>0\",\"Jaku General Hospital\":\"Hospital Lobby>1|Patient Wards>0|Basement Service Levels>0\",\"Wild Wild Pussycats Lodge\":\"Lodge Hall>1|Outdoor Kitchen>0|Hot Spring Bath>0|Training Clearing>0|Men's Bunk Room>0|Women's Bunk Room>0\",\"Beast's Forest\":\"Forest Trailhead>1|Deep Forest>0|Forest Ravine>1\",\"Kota's Secret Hideout\":\"Hidden Cliff Path>1|Kota's Rock Ledge>0\",\"Osaka Downtown\":\"Dotonbori Canal>1|Covered Arcade>0|Back Streets>1|Namba Comedy Theater>1|Kushikatsu Alley>1|Electric Town Arcades>1|Amerikamura Club Street>0\",\"Fat Gum Hero Agency\":\"Fat Gum Agency Front Office>1|Fat Gum Agency Break Room>0|Fat Gum Agency Training Mat>0\",\"Sir Nighteye Hero Agency\":\"Agency Office>1|Meeting Room>0\",\"Shie Hassaikai Compound\":\"Main House>1|Underground Passages>0|Restricted Wing>1\",\"Fukuoka Downtown\":\"Nakasu Riverside>1|Tenjin Shopping District>0|Harbor Rooftops>1|Riverside Yatai Stalls>0|Tenjin Underground Mall>1|Daimyo Cafe Street>1\",\"Hawks Hero Agency\":\"Hawks Agency Lobby>1|Hawks Agency Operations Room>0|Hawks Agency Rooftop>1\",\"Hakata Station\":\"Hakata Station Concourse>1|Station Rooftop Garden>0|Hakata Exit Bus Terminal>0\",\"Tartarus\":\"Guard Control Center>1|Visitor Interview Room>0|Maximum-Security Cell Block>0\",\"Tartarus Transfer Port\":\"Port Security Gate>1|Transfer Waiting Hall>0|Transfer Pier>1\",\"Shin-Osaka Station\":\"Shin-Osaka Shinkansen Concourse>1|Station Food Hall>0|Shin-Osaka Taxi and Bus Rotary>0\",\"Kyoto Station\":\"Kyoto Central Concourse>1|Grand Stairway and Skyway>0|Karasuma Exit Bus Terminal>0\",\"Nagoya Station\":\"Nagoya Central Concourse>1|Nagoya Underground Mall>0|Taiko-dori Night Bus Stops>0\",\"Sannomiya Station\":\"Sannomiya Station Concourse>1|Center Street Arcade>0|Under-the-Tracks Shops>0\",\"Hiroshima Station\":\"Hiroshima Station Concourse>1|Streetcar Platform>0|North Exit Plaza>0\",\"Kanazawa Station\":\"Tsuzumi Gate Plaza>1|Kanazawa Station Concourse>0|Kanazawa West Exit>0\",\"Utsunomiya Station\":\"Utsunomiya Station Concourse>1|Gyoza Street>0|Utsunomiya West Exit Plaza>0\",\"Tokyo Bayside Mall\":\"All Might Statue Plaza>1|Bayside Food Hall>0|Hero Museum Shop>0|Arcade Floor>0|Bayside Ferris Wheel>0\",\"Umeda Station Complex\":\"Grand Atrium>1|Depachika Food Floor>0|Umeda Fashion Floors>0|Sky Garden Deck>0\",\"Hakata Canal Mall\":\"Fountain Stage>1|Canal Walk>0|Ramen Floor>0|Canal Theater Hall>0\",\"Musutafu Highway Outlets\":\"Outlet Gate and Bus Stop>1|Outlet Lanes>0|Sports and Hero Gear Outlets>0|Outlet Food Terrace>0\",\"Okuto Island\":\"Harbor and Breakwater>1|Coast Road>0|Island Interior>0\",\"Mount Fuji Battlefield\":\"Lava Plain>1|Pine Woods>0|Rest Stop Road>0\"})[loc];if(!M){skip=true;return;}const X=(m[1]||'').trim(),al=ar.toLowerCase();if(X&&!/\\b(here|room|place|apartment|studio|office|class|classroom|homeroom|building|hall|hallway|lounge|kitchen|bath|clinic|infirmary|ward|gym|store|shop|cafe|restaurant|bar|club|house|home|dorm|area|scene|lab|library|locker|corridor|wing|floor|booth|counter)\\b/.test(X)&&al.indexOf(X)<0){skip=true;return;}const L=M.split('|').map(x=>x.split('>')),N=L.map(x=>x[0]),i=N.indexOf(ar);if(i===0){skip=true;return;}const B=[[storage.pA,storage.pL],[storage.pA2,storage.pL2]].find(x=>x[1]===loc&&x[0]!==ar&&N.indexOf(x[0])>=0);const to=i<0?(B?B[0]:N[0]):N[+L[i][1]];if(!to||to===ar){skip=true;return;}effects.push({type:'party-area',operator:'set',value:to},{type:'story',instruction:'Narrator only: the player leaves '+(i<0?'that room (it is not one of the rooms of '+loc+')':ar)+' and steps out into '+to+'. Open this turn there with one short line about the way out; nobody blocks the door.'});})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Ll]eav|[Ee]xit|[Ss]tep out|[Ww]alk out|[Hh]ead out|[Gg]et out|[Gg]o out"
+      },
+      {
+        "type": "party-location",
+        "operator": "notEquals",
+        "value": "U.A. Academy"
+      }
+    ]
+  },
+  "Mechanics: level cap path U.A. Faculty": {
+    "name": "Mechanics: level cap path U.A. Faculty",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "proPath",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "Mechanics: level cap path Licensed Sidekick": {
+    "name": "Mechanics: level cap path Licensed Sidekick",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "proPath",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "Mechanics: level cap path Licensed Pro Hero": {
+    "name": "Mechanics: level cap path Licensed Pro Hero",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "proPath",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "Mechanics: level cap path checked": {
+    "name": "Mechanics: level cap path checked",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "capPathChecked",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "Mechanics: level cap stage 0": {
+    "name": "Mechanics: level cap stage 0",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "lessThan",
+        "value": 1
+      },
+      {
+        "type": "read-boolean",
+        "key": "proPath",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "capPathChecked",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 6
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 6,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 0 (U.A. Faculty)": {
+    "name": "Mechanics: level cap stage 0 (U.A. Faculty)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "lessThan",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 16
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 0 (Licensed Sidekick)": {
+    "name": "Mechanics: level cap stage 0 (Licensed Sidekick)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "lessThan",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 16
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 0 (Licensed Pro Hero)": {
+    "name": "Mechanics: level cap stage 0 (Licensed Pro Hero)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "lessThan",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 16
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 16,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 1": {
+    "name": "Mechanics: level cap stage 1",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 1
+      },
+      {
+        "type": "read-boolean",
+        "key": "proPath",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "capPathChecked",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 12
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 12,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 1 (U.A. Faculty)": {
+    "name": "Mechanics: level cap stage 1 (U.A. Faculty)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 22
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 22,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 1 (Licensed Sidekick)": {
+    "name": "Mechanics: level cap stage 1 (Licensed Sidekick)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 22
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 22,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 1 (Licensed Pro Hero)": {
+    "name": "Mechanics: level cap stage 1 (Licensed Pro Hero)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 1
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 22
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 22,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 2": {
+    "name": "Mechanics: level cap stage 2",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "read-boolean",
+        "key": "proPath",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "capPathChecked",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 19
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 19,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 2 (U.A. Faculty)": {
+    "name": "Mechanics: level cap stage 2 (U.A. Faculty)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 29
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 29,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 2 (Licensed Sidekick)": {
+    "name": "Mechanics: level cap stage 2 (Licensed Sidekick)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 29
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 29,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 2 (Licensed Pro Hero)": {
+    "name": "Mechanics: level cap stage 2 (Licensed Pro Hero)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 29
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 29,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 3": {
+    "name": "Mechanics: level cap stage 3",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "read-boolean",
+        "key": "proPath",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "capPathChecked",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 25
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 25,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 3 (U.A. Faculty)": {
+    "name": "Mechanics: level cap stage 3 (U.A. Faculty)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Faculty"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 35
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 35,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 3 (Licensed Sidekick)": {
+    "name": "Mechanics: level cap stage 3 (Licensed Sidekick)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 35
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 35,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  },
+  "Mechanics: level cap stage 3 (Licensed Pro Hero)": {
+    "name": "Mechanics: level cap stage 3 (Licensed Pro Hero)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Pro Hero"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 35
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 35,
+        "target": "satisfyingPlayers"
       }
     ]
   },
@@ -23549,7 +24294,7 @@
     "effects": [],
     "recurring": true,
     "phase": "state",
-    "script": "(function(){/*storage_pack_load:v1:[[],[[905,1],[906,1],[907,1],[908,1]]]*/const D={\"L_p905\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p906\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p907\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p908\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\"};let changed=false;for(const k of Object.keys(D)){if(storage[k]!==D[k]){storage[k]=D[k];changed=true;}}if(!changed)delete triggers[\"Pack: load 72\"];})();"
+    "script": "(function(){/*storage_pack_load:v1:[[],[[905,1],[906,1],[907,1],[908,1]]]*/const D={\"L_p905\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p906\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p907\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p908\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\"};let changed=false;for(const k of Object.keys(D)){if(storage[k]!==D[k]){storage[k]=D[k];changed=true;}}if(!changed)delete triggers[\"Pack: load 72\"];})();"
   },
   "Pack: load 73": {
     "name": "Pack: load 73",
@@ -23563,7 +24308,7 @@
     "effects": [],
     "recurring": true,
     "phase": "state",
-    "script": "(function(){/*storage_pack_load:v1:[[],[[909,1],[910,1],[911,1],[912,1]]]*/const D={\"L_p909\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p910\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p911\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p912\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\"};let changed=false;for(const k of Object.keys(D)){if(storage[k]!==D[k]){storage[k]=D[k];changed=true;}}if(!changed)delete triggers[\"Pack: load 73\"];})();"
+    "script": "(function(){/*storage_pack_load:v1:[[],[[909,1],[910,1],[911,1],[912,1]]]*/const D={\"L_p909\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p910\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p911\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p912\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\"};let changed=false;for(const k of Object.keys(D)){if(storage[k]!==D[k]){storage[k]=D[k];changed=true;}}if(!changed)delete triggers[\"Pack: load 73\"];})();"
   },
   "Pack: load 74": {
     "name": "Pack: load 74",
@@ -23577,7 +24322,7 @@
     "effects": [],
     "recurring": true,
     "phase": "state",
-    "script": "(function(){/*storage_pack_load:v1:[[],[[913,1],[914,1],[915,1]]]*/const D={\"L_p913\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p914\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p915\":\"[{\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\"}]\"};let changed=false;for(const k of Object.keys(D)){if(storage[k]!==D[k]){storage[k]=D[k];changed=true;}}if(!changed)delete triggers[\"Pack: load 74\"];})();"
+    "script": "(function(){/*storage_pack_load:v1:[[],[[913,1],[914,1],[915,1]]]*/const D={\"L_p913\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p914\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\",\"L_p915\":\"[{\\\"Itsuka Kendo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kyoka Jiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Juzo Honenuki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shihai Kuroiro\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Sen Kaibara\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kojiro Bondo\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Momo Yaoyorozu\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hanta Sero\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Koji Koda\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Hiryu Rin\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Katsuki Bakugo\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Togaru Kamakiri\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Jurota Shishida\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Eijiro Kirishima\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tetsutetsu Tetsutetsu\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yosetsu Awase\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Fumikage Tokoyami\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ibara Shiozaki\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Izuku Midoriya\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Tsuyu Asui\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Kinoko Komori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Denki Kaminari\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Reiko Yanagi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Shoto Todoroki\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Nirengeki Shoda\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Toru Hagakure\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Neito Monoma\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Setsuna Tokage\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Yuga Aoyama\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Ochaco Uraraka\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mina Ashido\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Pony Tsunotori\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Kosei Tsuburaba\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Tenya Iida\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mashirao Ojiro\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Minoru Mineta\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Yui Kodai\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Manga Fukidashi\\\":\\\"Class 1-B Dorm Lounge\\\",\\\"Rikido Sato\\\":\\\"Class 1-A Dorm Lounge\\\",\\\"Mezo Shoji\\\":\\\"Class 1-A Dorm Lounge\\\"}]\"};let changed=false;for(const k of Object.keys(D)){if(storage[k]!==D[k]){storage[k]=D[k];changed=true;}}if(!changed)delete triggers[\"Pack: load 74\"];})();"
   },
   "Pack: load 75": {
     "name": "Pack: load 75",

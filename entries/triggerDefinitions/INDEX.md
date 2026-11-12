@@ -1,4 +1,4 @@
-# triggerDefinitions: 874 entries (11.11)
+# triggerDefinitions: 896 entries (11.12)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -365,6 +365,26 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Mechanics: Canon Drawback Vines Quirk | `Mechanics: Canon Drawback Vines Quirk` | [Mechanics_ Canon Drawback Vines Quirk.json](<Mechanics_ Canon Drawback Vines Quirk.json>) |
 | Mechanics: Canon Drawback Wave Motion Quirk | `Mechanics: Canon Drawback Wave Motion Quirk` | [Mechanics_ Canon Drawback Wave Motion Quirk.json](<Mechanics_ Canon Drawback Wave Motion Quirk.json>) |
 | Mechanics: Canon Drawback Zero Gravity Quirk | `Mechanics: Canon Drawback Zero Gravity Quirk` | [Mechanics_ Canon Drawback Zero Gravity Quirk.json](<Mechanics_ Canon Drawback Zero Gravity Quirk.json>) |
+| Mechanics: level cap path checked | `Mechanics: level cap path checked` | [Mechanics_ level cap path checked.json](<Mechanics_ level cap path checked.json>) |
+| Mechanics: level cap path Licensed Pro Hero | `Mechanics: level cap path Licensed Pro Hero` | [Mechanics_ level cap path Licensed Pro Hero.json](<Mechanics_ level cap path Licensed Pro Hero.json>) |
+| Mechanics: level cap path Licensed Sidekick | `Mechanics: level cap path Licensed Sidekick` | [Mechanics_ level cap path Licensed Sidekick.json](<Mechanics_ level cap path Licensed Sidekick.json>) |
+| Mechanics: level cap path U.A. Faculty | `Mechanics: level cap path U.A. Faculty` | [Mechanics_ level cap path U.A. Faculty.json](<Mechanics_ level cap path U.A. Faculty.json>) |
+| Mechanics: level cap stage 0 | `Mechanics: level cap stage 0` | [Mechanics_ level cap stage 0.json](<Mechanics_ level cap stage 0.json>) |
+| Mechanics: level cap stage 0 (Licensed Pro Hero) | `Mechanics: level cap stage 0 (Licensed Pro Hero)` | [Mechanics_ level cap stage 0 (Licensed Pro Hero).json](<Mechanics_ level cap stage 0 (Licensed Pro Hero).json>) |
+| Mechanics: level cap stage 0 (Licensed Sidekick) | `Mechanics: level cap stage 0 (Licensed Sidekick)` | [Mechanics_ level cap stage 0 (Licensed Sidekick).json](<Mechanics_ level cap stage 0 (Licensed Sidekick).json>) |
+| Mechanics: level cap stage 0 (U.A. Faculty) | `Mechanics: level cap stage 0 (U.A. Faculty)` | [Mechanics_ level cap stage 0 (U.A. Faculty).json](<Mechanics_ level cap stage 0 (U.A. Faculty).json>) |
+| Mechanics: level cap stage 1 | `Mechanics: level cap stage 1` | [Mechanics_ level cap stage 1.json](<Mechanics_ level cap stage 1.json>) |
+| Mechanics: level cap stage 1 (Licensed Pro Hero) | `Mechanics: level cap stage 1 (Licensed Pro Hero)` | [Mechanics_ level cap stage 1 (Licensed Pro Hero).json](<Mechanics_ level cap stage 1 (Licensed Pro Hero).json>) |
+| Mechanics: level cap stage 1 (Licensed Sidekick) | `Mechanics: level cap stage 1 (Licensed Sidekick)` | [Mechanics_ level cap stage 1 (Licensed Sidekick).json](<Mechanics_ level cap stage 1 (Licensed Sidekick).json>) |
+| Mechanics: level cap stage 1 (U.A. Faculty) | `Mechanics: level cap stage 1 (U.A. Faculty)` | [Mechanics_ level cap stage 1 (U.A. Faculty).json](<Mechanics_ level cap stage 1 (U.A. Faculty).json>) |
+| Mechanics: level cap stage 2 | `Mechanics: level cap stage 2` | [Mechanics_ level cap stage 2.json](<Mechanics_ level cap stage 2.json>) |
+| Mechanics: level cap stage 2 (Licensed Pro Hero) | `Mechanics: level cap stage 2 (Licensed Pro Hero)` | [Mechanics_ level cap stage 2 (Licensed Pro Hero).json](<Mechanics_ level cap stage 2 (Licensed Pro Hero).json>) |
+| Mechanics: level cap stage 2 (Licensed Sidekick) | `Mechanics: level cap stage 2 (Licensed Sidekick)` | [Mechanics_ level cap stage 2 (Licensed Sidekick).json](<Mechanics_ level cap stage 2 (Licensed Sidekick).json>) |
+| Mechanics: level cap stage 2 (U.A. Faculty) | `Mechanics: level cap stage 2 (U.A. Faculty)` | [Mechanics_ level cap stage 2 (U.A. Faculty).json](<Mechanics_ level cap stage 2 (U.A. Faculty).json>) |
+| Mechanics: level cap stage 3 | `Mechanics: level cap stage 3` | [Mechanics_ level cap stage 3.json](<Mechanics_ level cap stage 3.json>) |
+| Mechanics: level cap stage 3 (Licensed Pro Hero) | `Mechanics: level cap stage 3 (Licensed Pro Hero)` | [Mechanics_ level cap stage 3 (Licensed Pro Hero).json](<Mechanics_ level cap stage 3 (Licensed Pro Hero).json>) |
+| Mechanics: level cap stage 3 (Licensed Sidekick) | `Mechanics: level cap stage 3 (Licensed Sidekick)` | [Mechanics_ level cap stage 3 (Licensed Sidekick).json](<Mechanics_ level cap stage 3 (Licensed Sidekick).json>) |
+| Mechanics: level cap stage 3 (U.A. Faculty) | `Mechanics: level cap stage 3 (U.A. Faculty)` | [Mechanics_ level cap stage 3 (U.A. Faculty).json](<Mechanics_ level cap stage 3 (U.A. Faculty).json>) |
 | Mechanics: level floor Licensed Pro Hero | `Mechanics: level floor Licensed Pro Hero` | [Mechanics_ level floor Licensed Pro Hero.json](<Mechanics_ level floor Licensed Pro Hero.json>) |
 | Mechanics: level floor Licensed Sidekick | `Mechanics: level floor Licensed Sidekick` | [Mechanics_ level floor Licensed Sidekick.json](<Mechanics_ level floor Licensed Sidekick.json>) |
 | Mechanics: level floor stage 1 | `Mechanics: level floor stage 1` | [Mechanics_ level floor stage 1.json](<Mechanics_ level floor stage 1.json>) |
@@ -853,6 +873,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Stage Swap: All Might (Retired) | `Stage Swap: All Might (Retired)` | [Stage Swap_ All Might (Retired).json](<Stage Swap_ All Might (Retired).json>) |
 | Stage Swap: Toshinori Yagi leaves | `Stage Swap: Toshinori Yagi leaves` | [Stage Swap_ Toshinori Yagi leaves.json](<Stage Swap_ Toshinori Yagi leaves.json>) |
 | Travel: far trip | `Travel: far trip` | [Travel_ far trip.json](<Travel_ far trip.json>) |
+| Travel: leave (elsewhere) | `Travel: leave (elsewhere)` | [Travel_ leave (elsewhere).json](<Travel_ leave (elsewhere).json>) |
+| Travel: leave (U.A.) | `Travel: leave (U.A.)` | [Travel_ leave (U.A.).json](<Travel_ leave (U.A.).json>) |
 | Travel: my room | `Travel: my room` | [Travel_ my room.json](<Travel_ my room.json>) |
 | Travel: my room from Ground Beta | `Travel: my room from Ground Beta` | [Travel_ my room from Ground Beta.json](<Travel_ my room from Ground Beta.json>) |
 | Travel: my room from Gym Gamma | `Travel: my room from Gym Gamma` | [Travel_ my room from Gym Gamma.json](<Travel_ my room from Gym Gamma.json>) |

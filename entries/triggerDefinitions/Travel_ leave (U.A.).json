@@ -1,0 +1,26 @@
+{
+  "Travel: leave (U.A.)": {
+    "name": "Travel: leave (U.A.)",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const at=String(check({type:'action-text'})||'').toLowerCase().replace(/[’]/g,\"'\");const m=at.match(/\\b(?:leave|leaving|exit|exiting|(?:step|walk|head|get|go)(?:s|ping|ing)? out(?: of)?)(?:\\s+(?:the|this|my|our|his|her|their)\\s+)?\\s*([a-z0-9' .-]{0,40}?)\\s*(?:[.!?,;]|\\band\\b|$)/);if(!m){skip=true;return;}const rest=at.slice(m.index);if(/\\b(to|toward|towards|into|onto|for|back)\\b/.test(rest)){skip=true;return;}const loc=check({type:'party-location'})||'',ar=check({type:'party-area'})||'';const M=({\"U.A. Academy\":\"Main Gate>1|Courtyard>0|Main Building Lobby>1|Class 1-A Homeroom>2|Class 1-B Homeroom>2|General Studies Classrooms>2|Management Course Classrooms>2|Faculty Office>2|Principal's Office>7|Recovery Girl's Infirmary>2|Development Studio>2|Library>1|Lunch Rush's Cafeteria>2|Heights Alliance Yard>15|Other Course Dorm Halls>13|Class 1-A Dorm Lounge>13|Class 1-B Dorm Lounge>13|Dorm Kitchen>15|Dorm Rooms>15|Athletics Field>1|Main Building Hallway>2|Men's Locker Room>20|Women's Locker Room>20|Men's Restroom>20|Women's Restroom>20|Class 1-A Men's Wing>15|Class 1-A Women's Wing>15|Class 1-A Men's Bath>15|Class 1-A Women's Bath>15|Class 1-A Laundry Room>15|Your Dorm Room>25|Izuku Midoriya's Room>25|Katsuki Bakugo's Room>25|Shoto Todoroki's Room>25|Tenya Iida's Room>25|Eijiro Kirishima's Room>25|Denki Kaminari's Room>25|Fumikage Tokoyami's Room>25|Mashirao Ojiro's Room>25|Hanta Sero's Room>25|Mezo Shoji's Room>25|Rikido Sato's Room>25|Koji Koda's Room>25|Yuga Aoyama's Room>25|Minoru Mineta's Room>25|Ochaco Uraraka's Room>26|Momo Yaoyorozu's Room>26|Tsuyu Asui's Room>26|Kyoka Jiro's Room>26|Mina Ashido's Room>26|Toru Hagakure's Room>26|Teachers' Lounge>20|Support Course Classrooms>20|Faculty Residence>1|Main Building Rooftop>20|Class 1-B Men's Wing>16|Class 1-B Women's Wing>16|Class 1-B Men's Bath>16|Class 1-B Women's Bath>16|Class 1-B Laundry Room>16|Neito Monoma's Room>55|Tetsutetsu Tetsutetsu's Room>55|Juzo Honenuki's Room>55|Togaru Kamakiri's Room>55|Hiryu Rin's Room>55|Jurota Shishida's Room>55|Yosetsu Awase's Room>55|Sen Kaibara's Room>55|Shihai Kuroiro's Room>55|Kojiro Bondo's Room>55|Kosei Tsuburaba's Room>55|Nirengeki Shoda's Room>55|Manga Fukidashi's Room>55|Itsuka Kendo's Room>56|Ibara Shiozaki's Room>56|Setsuna Tokage's Room>56|Pony Tsunotori's Room>56|Yui Kodai's Room>56|Kinoko Komori's Room>56|Reiko Yanagi's Room>56|Indoor Pool>19|Campus Store>2|Main Gymnasium>19|Lecture Hall>2|Science Labs>20|Music Room>20|Upper-Year Classrooms>20|Campus Bus Terminal>0\"})[loc];if(!M){skip=true;return;}const X=(m[1]||'').trim(),al=ar.toLowerCase();if(X&&!/\\b(here|room|place|apartment|studio|office|class|classroom|homeroom|building|hall|hallway|lounge|kitchen|bath|clinic|infirmary|ward|gym|store|shop|cafe|restaurant|bar|club|house|home|dorm|area|scene|lab|library|locker|corridor|wing|floor|booth|counter)\\b/.test(X)&&al.indexOf(X)<0){skip=true;return;}const L=M.split('|').map(x=>x.split('>')),N=L.map(x=>x[0]),i=N.indexOf(ar);if(i===0){skip=true;return;}const B=[[storage.pA,storage.pL],[storage.pA2,storage.pL2]].find(x=>x[1]===loc&&x[0]!==ar&&N.indexOf(x[0])>=0);const to=i<0?(B?B[0]:N[0]):N[+L[i][1]];if(!to||to===ar){skip=true;return;}effects.push({type:'party-area',operator:'set',value:to},{type:'story',instruction:'Narrator only: the player leaves '+(i<0?'that room (it is not one of the rooms of '+loc+')':ar)+' and steps out into '+to+'. Open this turn there with one short line about the way out; nobody blocks the door.'});})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Ll]eav|[Ee]xit|[Ss]tep out|[Ww]alk out|[Hh]ead out|[Gg]et out|[Gg]o out"
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      }
+    ]
+  }
+}

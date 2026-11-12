@@ -1,4 +1,4 @@
-# characterArchetypes: 22 entries (11.11)
+# characterArchetypes: 22 entries (11.12)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

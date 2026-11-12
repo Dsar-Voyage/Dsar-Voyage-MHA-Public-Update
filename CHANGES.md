@@ -6,6 +6,25 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.12 — Fixes and level caps (published 2026-11-12)
+
+Level caps by time of year and much slower leveling, "I leave" that works, no duplicate heroes when the story uses a
+real name, healed injuries that stay healed, items and bets that behave, and a Quirk Strain guard.
+Full per-entry list: [`releases/11.12.changes.md`](releases/11.12.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | **Level caps** (`Mechanics: level cap ...`, 20 added: the caps per period, the Path flags), **leaving rooms** (`Travel: leave (U.A.)`, `Travel: leave (elsewhere)`), the Strain guard and room memory (`Clock: native sync`, `Clock: native follow`), the third skip ask and date fixes (`Clock: Skip Days`, `Clock: Date Sync`), healed injuries, declined bets and food offers (`Clock: Show Time`), and the calendar data they load (`Pack: load 72`-`74`). 22 added, 8 changed. | **Remix:** replace the whole section. **Running save:** copy the listed entries one by one into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `npcs` | 33 heroes and villains get `properName` (their real name), so the story using it no longer creates a duplicate. | the 33 modified entries |
+| `aiInstructions` | Two names for one person (`generateNewNPC`), items kept and crafting (`ItemGenerationAndUsage`), room contents, settled bets and healed injuries (`summarization`). | 3 modified |
+| `progressionSettings`, `skillSettings` | Slower leveling: level 2 costs 1,000 XP (+300 per level), skills 100 + 40 per level, less XP per skill upgrade, new skill and new place. | whole section (each) |
+| `resourceSettings` | One line in Quirk Strain's rules: a turn adds at most +25 (+37 Exceptional, +60 two Gifted). | whole section |
+
+**Running saves:** the level caps also need storage `studentStage` (a save past the Sports Festival already has it).
+The new XP curve applies to levels you gain from now on.
+
+---
+
 ## 11.11 — Play the story (published 2026-11-11)
 
 29 new canon moments, skips that stop for every canon event, a clock that follows the story's own time line,

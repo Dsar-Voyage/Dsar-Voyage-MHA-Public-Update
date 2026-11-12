@@ -7,11 +7,11 @@
     "large": 100,
     "huge": 150
   },
-  "xpFromNewSkill": 200,
+  "xpFromNewSkill": 100,
   "trainingCooldown": 10,
   "skillBonusModifier": 1,
   "charXPPerSkillLevel": 5,
-  "baseXPFromSkillUpgrade": 125,
+  "baseXPFromSkillUpgrade": 50,
   "skillTypeDifficultyBonus": {
     "none": 0,
     "combat": 0,
@@ -21,9 +21,9 @@
     "social": 0,
     "technical": 0
   },
-  "startingXPToLevelUpSkill": 80,
+  "startingXPToLevelUpSkill": 100,
   "baseChanceToLearnNewSkill": 0.1,
   "skillLearningBonusModifier": 0.01,
-  "additionalXPRequiredPerSkillLevel": 8,
+  "additionalXPRequiredPerSkillLevel": 40,
   "newSkillGenerationEnabled": false
 }

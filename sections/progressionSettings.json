@@ -1,6 +1,6 @@
 {
-  "startingCharacterLevelUpRequirement": 600,
-  "extraRequiredXPPerCharacterLevel": 100,
+  "startingCharacterLevelUpRequirement": 1000,
+  "extraRequiredXPPerCharacterLevel": 300,
   "maxCharacterLevel": 60,
   "abilityPointEveryLevels": 2,
   "abilityPointsPerGrant": 1,
@@ -9,7 +9,7 @@
   "maxAttributeValue": 30,
   "traitPickEveryLevels": 8,
   "traitPicksPerGrant": 1,
-  "locationDiscoveryXP": 25,
+  "locationDiscoveryXP": 10,
   "levelUpTraitPool": [
     "Quirk Breakthrough",
     "Quirk Endurance",

@@ -1,0 +1,46 @@
+{
+  "Mechanics: level cap stage 2": {
+    "name": "Mechanics: level cap stage 2",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "read-boolean",
+        "key": "proPath",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "capPathChecked",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 19
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 19,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  }
+}

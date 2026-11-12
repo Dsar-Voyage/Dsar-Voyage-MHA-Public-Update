@@ -1,0 +1,39 @@
+{
+  "Mechanics: level cap stage 3 (Licensed Sidekick)": {
+    "name": "Mechanics: level cap stage 3 (Licensed Sidekick)",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "done_embers_through_graduation",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "studentStage",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Licensed Sidekick"
+      },
+      {
+        "type": "player-level",
+        "operator": "greaterThan",
+        "value": 35
+      }
+    ],
+    "effects": [
+      {
+        "type": "player-level",
+        "operator": "set",
+        "value": 35,
+        "target": "satisfyingPlayers"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Mechanics: level cap path checked": {
+    "name": "Mechanics: level cap path checked",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "write-boolean",
+        "key": "capPathChecked",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}
