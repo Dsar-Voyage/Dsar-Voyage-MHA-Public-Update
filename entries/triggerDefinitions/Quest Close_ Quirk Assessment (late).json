@@ -1,0 +1,36 @@
+{
+  "Quest Close: Quirk Assessment (late)": {
+    "name": "Quest Close: Quirk Assessment (late)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "The First-Day Quirk Assessment",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "greaterThanOrEqual",
+        "value": 5
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-complete",
+        "questId": "The First-Day Quirk Assessment"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: Aizawa's Quirk Assessment is over and done for today; it is never replayed, restarted or re-announced. If the player skips ahead, the skip goes on from here."
+      }
+    ]
+  }
+}

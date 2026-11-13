@@ -1,0 +1,26 @@
+{
+  "Quest Close: Battle Trial (rounds)": {
+    "name": "Quest Close: Battle Trial (rounds)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Battle Trial: Heroes and Villains",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "greaterThanOrEqual",
+        "value": 5
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-complete",
+        "questId": "Battle Trial: Heroes and Villains"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Battle Trial: round 3 (Class 1-A) [2v2 Kirishima]": {
+    "name": "Battle Trial: round 3 (Class 1-A) [2v2 Kirishima]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Battle Trial round 3 of 5 is on now: Team B (Shoto Todoroki and Mezo Shoji) as heroes against Team I (Mashirao Ojiro and Toru Hagakure) as villains. Only Mashirao Ojiro and Toru Hagakure are villains; nobody else joins them. Already fought, never again: Teams A, D, J, E. Announce and play only this matchup. When it ends, the next round is Team H (Fumikage Tokoyami and Tsuyu Asui) against Team C (Momo Yaoyorozu and Minoru Mineta); Teams A, D, J, E, B, I are then done and never drawn again. The exercise is NOT over after this round: 2 more rounds remain. If the story sums up the rest of the trial in one turn, the remaining rounds are exactly: 4. Tokoyami/Asui vs Yaoyorozu/Mineta; 5. Jiro/Kaminari vs Koda/Sato; Hanta Sero fights in none of them. Nobody else fights. When this round ends, close the turn with its result and a short review; announce the next round only on the following turn."
+      }
+    ]
+  }
+}

@@ -24,6 +24,12 @@
         "key": "btRound",
         "operator": "equals",
         "value": 1
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 0
       }
     ],
     "effects": [

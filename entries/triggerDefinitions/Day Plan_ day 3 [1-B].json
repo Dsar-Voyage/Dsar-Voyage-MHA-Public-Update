@@ -18,6 +18,12 @@
         "type": "action-text",
         "operator": "notContains",
         "value": "kip"
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 0
       }
     ],
     "effects": [

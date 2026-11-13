@@ -1,0 +1,36 @@
+{
+  "Quest Close: Battle Trial (late)": {
+    "name": "Quest Close: Battle Trial (late)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Battle Trial: Heroes and Villains",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "greaterThanOrEqual",
+        "value": 6
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-complete",
+        "questId": "Battle Trial: Heroes and Villains"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the Battle Trial is over and done for today; it is never replayed, restarted or re-announced. If the player skips ahead, the skip goes on from here."
+      }
+    ]
+  }
+}

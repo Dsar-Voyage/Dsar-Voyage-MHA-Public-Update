@@ -1,31 +1,56 @@
-# triggerDefinitions: 896 entries (11.12)
+# triggerDefinitions: 937 entries (11.13)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
 | Entry | Key | File |
 |---|---|---|
+| Battle Trial: lottery | `Battle Trial: lottery` | [Battle Trial_ lottery.json](<Battle Trial_ lottery.json>) |
 | Battle Trial: one round each (Class 1-A) | `Battle Trial: one round each (Class 1-A)` | [Battle Trial_ one round each (Class 1-A).json](<Battle Trial_ one round each (Class 1-A).json>) |
+| Battle Trial: one round each (Class 1-A) [2v2 Kirishima] | `Battle Trial: one round each (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ one round each (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ one round each (Class 1-A) [2v2 Kirishima].json>) |
+| Battle Trial: one round each (Class 1-A) [2v2 Sero] | `Battle Trial: one round each (Class 1-A) [2v2 Sero]` | [Battle Trial_ one round each (Class 1-A) [2v2 Sero].json](<Battle Trial_ one round each (Class 1-A) [2v2 Sero].json>) |
 | Battle Trial: one round each (Class 1-B) | `Battle Trial: one round each (Class 1-B)` | [Battle Trial_ one round each (Class 1-B).json](<Battle Trial_ one round each (Class 1-B).json>) |
+| Battle Trial: one round each (Class 1-B) [2v2 Tokage] | `Battle Trial: one round each (Class 1-B) [2v2 Tokage]` | [Battle Trial_ one round each (Class 1-B) [2v2 Tokage].json](<Battle Trial_ one round each (Class 1-B) [2v2 Tokage].json>) |
+| Battle Trial: one round each (Class 1-B) [2v2 Yanagi] | `Battle Trial: one round each (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ one round each (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ one round each (Class 1-B) [2v2 Yanagi].json>) |
 | Battle Trial: over (Class 1-A) | `Battle Trial: over (Class 1-A)` | [Battle Trial_ over (Class 1-A).json](<Battle Trial_ over (Class 1-A).json>) |
 | Battle Trial: over (Class 1-B) | `Battle Trial: over (Class 1-B)` | [Battle Trial_ over (Class 1-B).json](<Battle Trial_ over (Class 1-B).json>) |
 | Battle Trial: round 1 (Class 1-A) | `Battle Trial: round 1 (Class 1-A)` | [Battle Trial_ round 1 (Class 1-A).json](<Battle Trial_ round 1 (Class 1-A).json>) |
+| Battle Trial: round 1 (Class 1-A) [2v2 Kirishima] | `Battle Trial: round 1 (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ round 1 (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ round 1 (Class 1-A) [2v2 Kirishima].json>) |
+| Battle Trial: round 1 (Class 1-A) [2v2 Sero] | `Battle Trial: round 1 (Class 1-A) [2v2 Sero]` | [Battle Trial_ round 1 (Class 1-A) [2v2 Sero].json](<Battle Trial_ round 1 (Class 1-A) [2v2 Sero].json>) |
 | Battle Trial: round 1 (Class 1-B) | `Battle Trial: round 1 (Class 1-B)` | [Battle Trial_ round 1 (Class 1-B).json](<Battle Trial_ round 1 (Class 1-B).json>) |
+| Battle Trial: round 1 (Class 1-B) [2v2 Tokage] | `Battle Trial: round 1 (Class 1-B) [2v2 Tokage]` | [Battle Trial_ round 1 (Class 1-B) [2v2 Tokage].json](<Battle Trial_ round 1 (Class 1-B) [2v2 Tokage].json>) |
+| Battle Trial: round 1 (Class 1-B) [2v2 Yanagi] | `Battle Trial: round 1 (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ round 1 (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ round 1 (Class 1-B) [2v2 Yanagi].json>) |
 | Battle Trial: round 1 ends (Class 1-A) | `Battle Trial: round 1 ends (Class 1-A)` | [Battle Trial_ round 1 ends (Class 1-A).json](<Battle Trial_ round 1 ends (Class 1-A).json>) |
 | Battle Trial: round 1 ends (Class 1-B) | `Battle Trial: round 1 ends (Class 1-B)` | [Battle Trial_ round 1 ends (Class 1-B).json](<Battle Trial_ round 1 ends (Class 1-B).json>) |
 | Battle Trial: round 2 (Class 1-A) | `Battle Trial: round 2 (Class 1-A)` | [Battle Trial_ round 2 (Class 1-A).json](<Battle Trial_ round 2 (Class 1-A).json>) |
+| Battle Trial: round 2 (Class 1-A) [2v2 Kirishima] | `Battle Trial: round 2 (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ round 2 (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ round 2 (Class 1-A) [2v2 Kirishima].json>) |
+| Battle Trial: round 2 (Class 1-A) [2v2 Sero] | `Battle Trial: round 2 (Class 1-A) [2v2 Sero]` | [Battle Trial_ round 2 (Class 1-A) [2v2 Sero].json](<Battle Trial_ round 2 (Class 1-A) [2v2 Sero].json>) |
 | Battle Trial: round 2 (Class 1-B) | `Battle Trial: round 2 (Class 1-B)` | [Battle Trial_ round 2 (Class 1-B).json](<Battle Trial_ round 2 (Class 1-B).json>) |
+| Battle Trial: round 2 (Class 1-B) [2v2 Tokage] | `Battle Trial: round 2 (Class 1-B) [2v2 Tokage]` | [Battle Trial_ round 2 (Class 1-B) [2v2 Tokage].json](<Battle Trial_ round 2 (Class 1-B) [2v2 Tokage].json>) |
+| Battle Trial: round 2 (Class 1-B) [2v2 Yanagi] | `Battle Trial: round 2 (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ round 2 (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ round 2 (Class 1-B) [2v2 Yanagi].json>) |
 | Battle Trial: round 2 ends (Class 1-A) | `Battle Trial: round 2 ends (Class 1-A)` | [Battle Trial_ round 2 ends (Class 1-A).json](<Battle Trial_ round 2 ends (Class 1-A).json>) |
 | Battle Trial: round 2 ends (Class 1-B) | `Battle Trial: round 2 ends (Class 1-B)` | [Battle Trial_ round 2 ends (Class 1-B).json](<Battle Trial_ round 2 ends (Class 1-B).json>) |
 | Battle Trial: round 3 (Class 1-A) | `Battle Trial: round 3 (Class 1-A)` | [Battle Trial_ round 3 (Class 1-A).json](<Battle Trial_ round 3 (Class 1-A).json>) |
+| Battle Trial: round 3 (Class 1-A) [2v2 Kirishima] | `Battle Trial: round 3 (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ round 3 (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ round 3 (Class 1-A) [2v2 Kirishima].json>) |
+| Battle Trial: round 3 (Class 1-A) [2v2 Sero] | `Battle Trial: round 3 (Class 1-A) [2v2 Sero]` | [Battle Trial_ round 3 (Class 1-A) [2v2 Sero].json](<Battle Trial_ round 3 (Class 1-A) [2v2 Sero].json>) |
 | Battle Trial: round 3 (Class 1-B) | `Battle Trial: round 3 (Class 1-B)` | [Battle Trial_ round 3 (Class 1-B).json](<Battle Trial_ round 3 (Class 1-B).json>) |
+| Battle Trial: round 3 (Class 1-B) [2v2 Tokage] | `Battle Trial: round 3 (Class 1-B) [2v2 Tokage]` | [Battle Trial_ round 3 (Class 1-B) [2v2 Tokage].json](<Battle Trial_ round 3 (Class 1-B) [2v2 Tokage].json>) |
+| Battle Trial: round 3 (Class 1-B) [2v2 Yanagi] | `Battle Trial: round 3 (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ round 3 (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ round 3 (Class 1-B) [2v2 Yanagi].json>) |
 | Battle Trial: round 3 ends (Class 1-A) | `Battle Trial: round 3 ends (Class 1-A)` | [Battle Trial_ round 3 ends (Class 1-A).json](<Battle Trial_ round 3 ends (Class 1-A).json>) |
 | Battle Trial: round 3 ends (Class 1-B) | `Battle Trial: round 3 ends (Class 1-B)` | [Battle Trial_ round 3 ends (Class 1-B).json](<Battle Trial_ round 3 ends (Class 1-B).json>) |
 | Battle Trial: round 4 (Class 1-A) | `Battle Trial: round 4 (Class 1-A)` | [Battle Trial_ round 4 (Class 1-A).json](<Battle Trial_ round 4 (Class 1-A).json>) |
+| Battle Trial: round 4 (Class 1-A) [2v2 Kirishima] | `Battle Trial: round 4 (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ round 4 (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ round 4 (Class 1-A) [2v2 Kirishima].json>) |
+| Battle Trial: round 4 (Class 1-A) [2v2 Sero] | `Battle Trial: round 4 (Class 1-A) [2v2 Sero]` | [Battle Trial_ round 4 (Class 1-A) [2v2 Sero].json](<Battle Trial_ round 4 (Class 1-A) [2v2 Sero].json>) |
 | Battle Trial: round 4 (Class 1-B) | `Battle Trial: round 4 (Class 1-B)` | [Battle Trial_ round 4 (Class 1-B).json](<Battle Trial_ round 4 (Class 1-B).json>) |
+| Battle Trial: round 4 (Class 1-B) [2v2 Tokage] | `Battle Trial: round 4 (Class 1-B) [2v2 Tokage]` | [Battle Trial_ round 4 (Class 1-B) [2v2 Tokage].json](<Battle Trial_ round 4 (Class 1-B) [2v2 Tokage].json>) |
+| Battle Trial: round 4 (Class 1-B) [2v2 Yanagi] | `Battle Trial: round 4 (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ round 4 (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ round 4 (Class 1-B) [2v2 Yanagi].json>) |
 | Battle Trial: round 4 ends (Class 1-A) | `Battle Trial: round 4 ends (Class 1-A)` | [Battle Trial_ round 4 ends (Class 1-A).json](<Battle Trial_ round 4 ends (Class 1-A).json>) |
 | Battle Trial: round 4 ends (Class 1-B) | `Battle Trial: round 4 ends (Class 1-B)` | [Battle Trial_ round 4 ends (Class 1-B).json](<Battle Trial_ round 4 ends (Class 1-B).json>) |
 | Battle Trial: round 5 (Class 1-A) | `Battle Trial: round 5 (Class 1-A)` | [Battle Trial_ round 5 (Class 1-A).json](<Battle Trial_ round 5 (Class 1-A).json>) |
+| Battle Trial: round 5 (Class 1-A) [2v2 Kirishima] | `Battle Trial: round 5 (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ round 5 (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ round 5 (Class 1-A) [2v2 Kirishima].json>) |
+| Battle Trial: round 5 (Class 1-A) [2v2 Sero] | `Battle Trial: round 5 (Class 1-A) [2v2 Sero]` | [Battle Trial_ round 5 (Class 1-A) [2v2 Sero].json](<Battle Trial_ round 5 (Class 1-A) [2v2 Sero].json>) |
 | Battle Trial: round 5 (Class 1-B) | `Battle Trial: round 5 (Class 1-B)` | [Battle Trial_ round 5 (Class 1-B).json](<Battle Trial_ round 5 (Class 1-B).json>) |
+| Battle Trial: round 5 (Class 1-B) [2v2 Tokage] | `Battle Trial: round 5 (Class 1-B) [2v2 Tokage]` | [Battle Trial_ round 5 (Class 1-B) [2v2 Tokage].json](<Battle Trial_ round 5 (Class 1-B) [2v2 Tokage].json>) |
+| Battle Trial: round 5 (Class 1-B) [2v2 Yanagi] | `Battle Trial: round 5 (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ round 5 (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ round 5 (Class 1-B) [2v2 Yanagi].json>) |
 | Battle Trial: round 5 ends (Class 1-A) | `Battle Trial: round 5 ends (Class 1-A)` | [Battle Trial_ round 5 ends (Class 1-A).json](<Battle Trial_ round 5 ends (Class 1-A).json>) |
 | Battle Trial: round 5 ends (Class 1-B) | `Battle Trial: round 5 ends (Class 1-B)` | [Battle Trial_ round 5 ends (Class 1-B).json](<Battle Trial_ round 5 ends (Class 1-B).json>) |
 | Campus Schedule: 1A-1 | `Campus Schedule: 1A-1` | [Campus Schedule_ 1A-1.json](<Campus Schedule_ 1A-1.json>) |
@@ -66,6 +91,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Time Cue | `Clock: Time Cue` | [Clock_ Time Cue.json](<Clock_ Time Cue.json>) |
 | Clock: Time Line | `Clock: Time Line` | [Clock_ Time Line.json](<Clock_ Time Line.json>) |
 | Clock: Time Line Note | `Clock: Time Line Note` | [Clock_ Time Line Note.json](<Clock_ Time Line Note.json>) |
+| Companion: Dark Shadow | `Companion: Dark Shadow` | [Companion_ Dark Shadow.json](<Companion_ Dark Shadow.json>) |
 | Companions: downed companion lives | `Companions: downed companion lives` | [Companions_ downed companion lives.json](<Companions_ downed companion lives.json>) |
 | Companions: nobody dies at Hosu | `Companions: nobody dies at Hosu` | [Companions_ nobody dies at Hosu.json](<Companions_ nobody dies at Hosu.json>) |
 | Companions: nobody dies at the USJ | `Companions: nobody dies at the USJ` | [Companions_ nobody dies at the USJ.json](<Companions_ nobody dies at the USJ.json>) |
@@ -121,7 +147,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Day Plan: day 27 [1-B] | `Day Plan: day 27 [1-B]` | [Day Plan_ day 27 [1-B].json](<Day Plan_ day 27 [1-B].json>) |
 | Day Plan: day 27 [Faculty] | `Day Plan: day 27 [Faculty]` | [Day Plan_ day 27 [Faculty].json](<Day Plan_ day 27 [Faculty].json>) |
 | Day Plan: day 3 [1-A] | `Day Plan: day 3 [1-A]` | [Day Plan_ day 3 [1-A].json](<Day Plan_ day 3 [1-A].json>) |
+| Day Plan: day 3 [1-A] [2v2 Kirishima] | `Day Plan: day 3 [1-A] [2v2 Kirishima]` | [Day Plan_ day 3 [1-A] [2v2 Kirishima].json](<Day Plan_ day 3 [1-A] [2v2 Kirishima].json>) |
+| Day Plan: day 3 [1-A] [2v2 Sero] | `Day Plan: day 3 [1-A] [2v2 Sero]` | [Day Plan_ day 3 [1-A] [2v2 Sero].json](<Day Plan_ day 3 [1-A] [2v2 Sero].json>) |
 | Day Plan: day 3 [1-B] | `Day Plan: day 3 [1-B]` | [Day Plan_ day 3 [1-B].json](<Day Plan_ day 3 [1-B].json>) |
+| Day Plan: day 3 [1-B] [2v2 Tokage] | `Day Plan: day 3 [1-B] [2v2 Tokage]` | [Day Plan_ day 3 [1-B] [2v2 Tokage].json](<Day Plan_ day 3 [1-B] [2v2 Tokage].json>) |
+| Day Plan: day 3 [1-B] [2v2 Yanagi] | `Day Plan: day 3 [1-B] [2v2 Yanagi]` | [Day Plan_ day 3 [1-B] [2v2 Yanagi].json](<Day Plan_ day 3 [1-B] [2v2 Yanagi].json>) |
 | Day Plan: day 3 [Faculty] | `Day Plan: day 3 [Faculty]` | [Day Plan_ day 3 [Faculty].json](<Day Plan_ day 3 [Faculty].json>) |
 | Day Plan: day 363 [1-A] | `Day Plan: day 363 [1-A]` | [Day Plan_ day 363 [1-A].json](<Day Plan_ day 363 [1-A].json>) |
 | Day Plan: day 363 [1-B] | `Day Plan: day 363 [1-B]` | [Day Plan_ day 363 [1-B].json](<Day Plan_ day 363 [1-B].json>) |
@@ -549,6 +579,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Portrait Swap: best_jeanist_return | `Portrait Swap: best_jeanist_return` | [Portrait Swap_ best_jeanist_return.json](<Portrait Swap_ best_jeanist_return.json>) |
 | Portrait Swap: dabi_final | `Portrait Swap: dabi_final` | [Portrait Swap_ dabi_final.json](<Portrait Swap_ dabi_final.json>) |
 | Portrait Swap: dabi_plf | `Portrait Swap: dabi_plf` | [Portrait Swap_ dabi_plf.json](<Portrait Swap_ dabi_plf.json>) |
+| Portrait Swap: Dark Shadow (darkness) | `Portrait Swap: Dark Shadow (darkness)` | [Portrait Swap_ Dark Shadow (darkness).json](<Portrait Swap_ Dark Shadow (darkness).json>) |
+| Portrait Swap: Dark Shadow (light) | `Portrait Swap: Dark Shadow (light)` | [Portrait Swap_ Dark Shadow (light).json](<Portrait Swap_ Dark Shadow (light).json>) |
 | Portrait Swap: denki_post_war | `Portrait Swap: denki_post_war` | [Portrait Swap_ denki_post_war.json](<Portrait Swap_ denki_post_war.json>) |
 | Portrait Swap: edgeshot_after | `Portrait Swap: edgeshot_after` | [Portrait Swap_ edgeshot_after.json](<Portrait Swap_ edgeshot_after.json>) |
 | Portrait Swap: eijiro_kirishima_raid_injury | `Portrait Swap: eijiro_kirishima_raid_injury` | [Portrait Swap_ eijiro_kirishima_raid_injury.json](<Portrait Swap_ eijiro_kirishima_raid_injury.json>) |
@@ -644,6 +676,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Prune: done dispatcher 2 | `Prune: done dispatcher 2` | [Prune_ done dispatcher 2.json](<Prune_ done dispatcher 2.json>) |
 | Prune: path dispatcher 1 | `Prune: path dispatcher 1` | [Prune_ path dispatcher 1.json](<Prune_ path dispatcher 1.json>) |
 | Prune: path dispatcher 2 | `Prune: path dispatcher 2` | [Prune_ path dispatcher 2.json](<Prune_ path dispatcher 2.json>) |
+| Quest Close: Battle Trial (late) | `Quest Close: Battle Trial (late)` | [Quest Close_ Battle Trial (late).json](<Quest Close_ Battle Trial (late).json>) |
+| Quest Close: Battle Trial (rounds) | `Quest Close: Battle Trial (rounds)` | [Quest Close_ Battle Trial (rounds).json](<Quest Close_ Battle Trial (rounds).json>) |
+| Quest Close: Battle Trial (story) | `Quest Close: Battle Trial (story)` | [Quest Close_ Battle Trial (story).json](<Quest Close_ Battle Trial (story).json>) |
+| Quest Close: Quirk Assessment (late) | `Quest Close: Quirk Assessment (late)` | [Quest Close_ Quirk Assessment (late).json](<Quest Close_ Quirk Assessment (late).json>) |
+| Quest Close: Quirk Assessment (story) | `Quest Close: Quirk Assessment (story)` | [Quest Close_ Quirk Assessment (story).json](<Quest Close_ Quirk Assessment (story).json>) |
 | Quest Lapse: A General Studies Gamble | `Quest Lapse: A General Studies Gamble` | [Quest Lapse_ A General Studies Gamble.json](<Quest Lapse_ A General Studies Gamble.json>) |
 | Quest Lapse: Battle Trial: Heroes and Villains | `Quest Lapse: Battle Trial: Heroes and Villains` | [Quest Lapse_ Battle Trial_ Heroes and Villains.json](<Quest Lapse_ Battle Trial_ Heroes and Villains.json>) |
 | Quest Lapse: Chaperone the License Exam | `Quest Lapse: Chaperone the License Exam` | [Quest Lapse_ Chaperone the License Exam.json](<Quest Lapse_ Chaperone the License Exam.json>) |
@@ -697,6 +734,9 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Roll Call: Quirk test part 3 | `Roll Call: Quirk test part 3` | [Roll Call_ Quirk test part 3.json](<Roll Call_ Quirk test part 3.json>) |
 | Room King: tour count | `Room King: tour count` | [Room King_ tour count.json](<Room King_ tour count.json>) |
 | Room King: your door | `Room King: your door` | [Room King_ your door.json](<Room King_ your door.json>) |
+| Scene: changing rooms (action) | `Scene: changing rooms (action)` | [Scene_ changing rooms (action).json](<Scene_ changing rooms (action).json>) |
+| Scene: changing rooms (men's) | `Scene: changing rooms (men's)` | [Scene_ changing rooms (men's).json](<Scene_ changing rooms (men's).json>) |
+| Scene: changing rooms (women's) | `Scene: changing rooms (women's)` | [Scene_ changing rooms (women's).json](<Scene_ changing rooms (women's).json>) |
 | School Day: class at the player's spot part 1 | `School Day: class at the player's spot part 1` | [School Day_ class at the player's spot part 1.json](<School Day_ class at the player's spot part 1.json>) |
 | School Day: class at the player's spot part 2 | `School Day: class at the player's spot part 2` | [School Day_ class at the player's spot part 2.json](<School Day_ class at the player's spot part 2.json>) |
 | School Day: private session | `School Day: private session` | [School Day_ private session.json](<School Day_ private session.json>) |
@@ -895,6 +935,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Wardrobe: group 3 | `Wardrobe: group 3` | [Wardrobe_ group 3.json](<Wardrobe_ group 3.json>) |
 | Wardrobe: group 4 | `Wardrobe: group 4` | [Wardrobe_ group 4.json](<Wardrobe_ group 4.json>) |
 | Wardrobe: group 5 | `Wardrobe: group 5` | [Wardrobe_ group 5.json](<Wardrobe_ group 5.json>) |
+| Wardrobe: group 6 | `Wardrobe: group 6` | [Wardrobe_ group 6.json](<Wardrobe_ group 6.json>) |
 | World Move: League Regroups After Kamino | `World Move: League Regroups After Kamino` | [World Move_ League Regroups After Kamino.json](<World Move_ League Regroups After Kamino.json>) |
 | World Note: paranormal_liberation_war | `World Note: paranormal_liberation_war` | [World Note_ paranormal_liberation_war.json](<World Note_ paranormal_liberation_war.json>) |
 | World Note: shie_hassaikai_raid | `World Note: shie_hassaikai_raid` | [World Note_ shie_hassaikai_raid.json](<World Note_ shie_hassaikai_raid.json>) |

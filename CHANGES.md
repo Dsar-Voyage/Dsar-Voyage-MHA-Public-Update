@@ -6,6 +6,27 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.13 — Dark Shadow, the lottery and tougher NPCs (published 2026-11-13)
+
+Dark Shadow as his own character with his own art, a Battle Trial lottery that can give a fair 2v2, skips that never
+replay an event you already played, NPCs with about 2.6x the health, a school timetable, upper-year generated students,
+Quirk questions asked once, and changing rooms that stay separate.
+Full per-entry list: [`releases/11.13.changes.md`](releases/11.13.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | **Battle Trial lottery** (`Battle Trial: lottery` and the `[2v2 ...]` round, rule and Day Plan variants), **skips never replay** (`Quest Close: ...`, 5 added), **Dark Shadow** (`Companion: Dark Shadow`, `Portrait Swap: Dark Shadow (...)`, `Wardrobe: group 1`-`6`), **changing rooms** (`Scene: changing rooms (...)`), the timetable and Quirk-question rules (`Clock: Show Time`), and the data loaders they read (`Pack: load ...`, `Event Lazy: load ...`). 41 added, 94 changed. | **Remix:** replace the whole section. **Running save:** copy the listed entries one by one into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `npcs` | **Dark Shadow** and his three stage records (`(Festival Arc)`, `(Summer Arc)`, `(License Arc)`). | the 4 added entries |
+| `otherSettings` | NPC health: 20 per level + 180 (was 8 + 66). | whole section |
+| `aiInstructions` | Generated people get a want, a concrete Quirk and a voice; generated Hero Course students are upper-years; never a second Dark Shadow (`generateNewNPC`). | 1 modified |
+| `npcTypes` | Hero Course Student: generated ones are second- or third-years. | 1 modified |
+| `worldLore` | The weekday timetable with times. | 1 modified |
+
+**Running saves:** the lottery rolls on Day 2 or earlier, so a save already past that keeps the old 3v2. NPCs already
+met keep their old health until the engine recalculates them; a new game is the clean way to get the new pools.
+
+---
+
 ## 11.12 — Fixes and level caps (published 2026-11-12)
 
 Level caps by time of year and much slower leveling, "I leave" that works, no duplicate heroes when the story uses a

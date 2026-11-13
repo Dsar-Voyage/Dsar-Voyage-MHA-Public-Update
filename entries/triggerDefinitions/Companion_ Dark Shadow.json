@@ -1,0 +1,16 @@
+{
+  "Companion: Dark Shadow": {
+    "name": "Companion: Dark Shadow",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const STG=[\"\", \" (Sports Festival)\", \" (Summer Training)\", \" (Provisional License)\"],DSS=[\"\", \" (Festival Arc)\", \" (Summer Arc)\", \" (License Arc)\"];const sg=Math.max(0,Math.min(3,check({type:'read-number',key:'studentStage'})||0));let tl='',ta='',tj=0;for(let j=sg;j>=0;j--){const q=check({type:'npc-location',npc:'Fumikage Tokoyami'+STG[j]});if(typeof q==='string'&&q){tl=q;ta=String(check({type:'npc-area',npc:'Fumikage Tokoyami'+STG[j]})||'');tj=j;break;}}const PL=check({type:'party-location'})||'',PA=check({type:'party-area'})||'';const IN=check({type:'npc-in-scene',npc:'anySceneNPC'});const show=!!tl&&(tl!==PL||ta!==PA||!!(IN&&typeof IN==='object'&&IN['Fumikage Tokoyami'+STG[tj]]));const k=sg+'|'+tl+'|'+ta+'|'+show;if(storage.dsF===k){skip=true;return;}storage.dsF=k;const N='Dark Shadow'+DSS[sg],E=[];for(let j=0;j<4;j++){if(j===sg)continue;const o='Dark Shadow'+DSS[j],q=check({type:'npc-location',npc:o});if(typeof q==='string'&&q)E.push({type:'npc-placement',npc:o,operation:'moveAway'});if(check({type:'known-entity',entity:o})===true)E.push({type:'known-entity',entity:o,operator:'set',value:false});}if(show)E.push({type:'npc-placement',npc:N,operation:'moveTo',location:tl,area:ta});else{const q=check({type:'npc-location',npc:N});if(typeof q==='string'&&q)E.push({type:'npc-placement',npc:N,operation:'moveAway'});}if(check({type:'known-entity',entity:'Fumikage Tokoyami'+STG[tj]})===true&&check({type:'known-entity',entity:N})!==true)E.push({type:'known-entity',entity:N,operator:'set',value:true});if(!E.length){skip=true;return;}for(const e of E.slice(0,10))effects.push(e);})();"
+  }
+}

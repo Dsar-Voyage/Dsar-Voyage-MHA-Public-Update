@@ -1,0 +1,42 @@
+{
+  "Battle Trial: round 5 (Class 1-B) [2v2 Tokage]": {
+    "name": "Battle Trial: round 5 (Class 1-B) [2v2 Tokage]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 4
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Battle Trial round 5 of 5 is on now: Team I (Nirengeki Shoda and Kosei Tsuburaba) as heroes against Team J (Shihai Kuroiro and Manga Fukidashi) as villains. Only Shihai Kuroiro and Manga Fukidashi are villains; nobody else joins them. Already fought, never again: Teams E, F, A, B, C, D, G, H. Announce and play only this matchup. It is the last round and it has NOT been fought yet: play it now, even if someone already said the exercise was over. The exercise ends only after this round. Reiko Yanagi is not in it and fights no round today."
+      }
+    ]
+  }
+}

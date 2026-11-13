@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 3 [1-B] [2v2 Tokage]": {
+    "name": "Day Plan: day 3 [1-B] [2v2 Tokage]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): regular lessons begin; in the afternoon Vlad King takes Class 1-B by campus bus to Ground Beta for its first Foundational Hero Studies, a battle trial at the Training Building, the first time the class wears hero costumes: each student, the player character included, takes their own Student hero costume, made by a support company from the design request sent in with their application, from the numbered cases that slide out of the classroom wall, and changes into it; until then nobody in the class has one. The lottery's teams are already set: the player's slip reads Team E, heroes, with Setsuna Tokage only: two against two, and Reiko Yanagi drew the spare slip and watches from the Monitoring Room, and their round is the first, against Team F (Pony Tsunotori, Togaru Kamakiri) as villains."
+      }
+    ]
+  }
+}

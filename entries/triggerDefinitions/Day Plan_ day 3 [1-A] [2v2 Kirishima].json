@@ -1,0 +1,36 @@
+{
+  "Day Plan: day 3 [1-A] [2v2 Kirishima]": {
+    "name": "Day Plan: day 3 [1-A] [2v2 Kirishima]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "action-text",
+        "operator": "notContains",
+        "value": "kip"
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, today's plan (do not foreshadow anything beyond it): after the morning lessons, All Might teaches Class 1-A's first Foundational Hero Studies: a battle trial at Ground Beta's Training Building, the first time the class wears hero costumes. Before the trial each student, the player character included, takes their own Student hero costume, made by a support company from the design request sent in with their application, from the numbered cases that slide out of the classroom wall, and changes into it; until then nobody in the class has one. The lottery's teams are already set: the player's slip reads Team J, heroes, with Eijiro Kirishima only: two against two, and Hanta Sero drew the spare slip and watches from the Monitoring Room; round 1 is Team A (Izuku Midoriya, Ochaco Uraraka) as heroes against Team D (Katsuki Bakugo, Tenya Iida), and the player's team fights round 2."
+      }
+    ]
+  }
+}

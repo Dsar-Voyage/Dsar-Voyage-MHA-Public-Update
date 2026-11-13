@@ -1,0 +1,30 @@
+{
+  "Quest Close: Battle Trial (story)": {
+    "name": "Quest Close: Battle Trial (story)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "Battle Trial: Heroes and Villains",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "story",
+        "query": "In this turn's story the class's Battle Trial exercise ends: its last round is over and the teacher gives the closing review or dismisses the class. A single round ending with more still to fight, or a trial only mentioned as coming, does not count"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-complete",
+        "questId": "Battle Trial: Heroes and Villains"
+      }
+    ]
+  }
+}

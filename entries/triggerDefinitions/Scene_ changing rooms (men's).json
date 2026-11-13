@@ -1,0 +1,19 @@
+{
+  "Scene: changing rooms (men's)": {
+    "name": "Scene: changing rooms (men's)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-area",
+        "operator": "equals",
+        "value": "Men's Locker Room"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: locker rooms and bath changing rooms are split into men's and women's. Each person, the player included, changes in the one for their own gender as their character states; nobody walks into, follows anyone into or keeps talking inside the other one: a conversation pauses at the door and picks up again outside. A bare \"changing room\" or \"locker room\" means the player's own."
+      }
+    ]
+  }
+}

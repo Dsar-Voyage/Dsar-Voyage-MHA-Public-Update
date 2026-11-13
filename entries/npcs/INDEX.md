@@ -1,4 +1,4 @@
-# npcs: 295 entries (11.12)
+# npcs: 299 entries (11.13)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -19,6 +19,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Crust | `Crust` | [Crust.json](<Crust.json>) |
 | Dabi | `Dabi` | [Dabi.json](<Dabi.json>) |
 | Dai | `Dai` | [Dai.json](<Dai.json>) |
+| Dark Shadow | `Dark Shadow` | [Dark Shadow.json](<Dark Shadow.json>) |
+| Dark Shadow (Festival Arc) | `Dark Shadow (Festival Arc)` | [Dark Shadow (Festival Arc).json](<Dark Shadow (Festival Arc).json>) |
+| Dark Shadow (License Arc) | `Dark Shadow (License Arc)` | [Dark Shadow (License Arc).json](<Dark Shadow (License Arc).json>) |
+| Dark Shadow (Summer Arc) | `Dark Shadow (Summer Arc)` | [Dark Shadow (Summer Arc).json](<Dark Shadow (Summer Arc).json>) |
 | Death Arms | `Death Arms` | [Death Arms.json](<Death Arms.json>) |
 | Deidoro Sakaki | `Deidoro Sakaki` | [Deidoro Sakaki.json](<Deidoro Sakaki.json>) |
 | Denki Kaminari | `Denki Kaminari` | [Denki Kaminari.json](<Denki Kaminari.json>) |

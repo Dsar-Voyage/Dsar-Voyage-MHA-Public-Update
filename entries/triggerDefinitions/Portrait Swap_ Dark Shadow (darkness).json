@@ -1,0 +1,20 @@
+{
+  "Portrait Swap: Dark Shadow (darkness)": {
+    "name": "Portrait Swap: Dark Shadow (darkness)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "greaterThanOrEqual",
+        "value": 7
+      },
+      {
+        "type": "story",
+        "query": "In this turn's story Dark Shadow is out in darkness or deep shadow and grows huge, wild, fierce or hard for Tokoyami to control"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const NM=[\"Dark Shadow\", \"Dark Shadow (Festival Arc)\", \"Dark Shadow (Summer Arc)\", \"Dark Shadow (License Arc)\"];for(const n of NM)effects.push({type:'npc-portrait',npc:n,operator:'set',value:'darkness'});const WS=storage.wardrobeSet||{};for(const n of NM)WS[n]='';storage.wardrobeSet=WS;for(const k in storage)if(k.indexOf('wardStamp_')===0)storage[k]='';})();"
+  }
+}

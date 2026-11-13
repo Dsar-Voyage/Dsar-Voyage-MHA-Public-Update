@@ -1,0 +1,45 @@
+{
+  "Dark Shadow (License Arc)": {
+    "name": "Dark Shadow (License Arc)",
+    "type": "Hero Course Student",
+    "currentLocation": "",
+    "currentArea": "",
+    "gender": "male",
+    "faction": "U.A. Academy",
+    "level": 23,
+    "tier": "elite",
+    "voiceTag": "male child expressive",
+    "basicInfo": "Dark Shadow, the sentient shadow creature that is Fumikage Tokoyami's Quirk, partner to a Tokoyami who has passed the provisional license exam and may now act as a hero in an emergency. He is only ever present where Tokoyami is and cannot leave his body. His newest work is a close-range shadow armor, still in development: he wraps himself around Tokoyami's body so they can fight up close together, but they cannot hold it long yet. A dark purple shadow with a birdlike head, a pointed beak and small glowing yellow eyes.\nSpeaking Style: Loud, eager and childlike; a bright \"Aiyo!\" for every order, a whimper in strong light.\nCombat Role: Mid-range striker and guard who can now also cover Tokoyami up close as armor, briefly; bright light still weakens him.\nUnder Pressure: Pulls in close around Tokoyami rather than leave him exposed.",
+    "hiddenInfo": "Contradiction: His greatest power lives in the darkness that once turned him on his own side. Motivation: Be a real hero's partner, and earn the trust to be let loose. Concealment: Still nervous in deep darkness, and covers it with noise. Connections: Fumikage Tokoyami, partner and family, closer since the camp. Mezo Shoji, whom he guards fiercely. Hawks, whose speed they both still measure themselves against. Knowledge: A provisional license is not a full one; Tokoyami still works under licensed pros. Canon voice & behavior: Grumbles at practice but loves showing off a finished move; trades cheeky lines with Tokoyami mid-fight. Thread: Whether the unfinished shadow armor becomes mastery or one more risk.\nQUIRK: Dark Shadow is Fumikage Tokoyami's Quirk, a sentient shadow tethered to his body that strikes, guards and grabs at mid-range; bright light makes him timid, darkness makes him stronger and wilder. A close-range shadow armor, still in development, wraps him around Tokoyami's body; they cannot hold it long yet.\nSTAGE: After the provisional license exam: Tokoyami licensed as Tsukuyomi; the shadow armor still in development.",
+    "personality": [
+      "Eager to please: Answers \"Aiyo!\" and wants credit for every move that works.",
+      "Devoted: Fights in step with Tokoyami and wraps around him the moment an opponent closes in.",
+      "Show-off: Wants to unveil the shadow armor at every chance, ready or not.",
+      "Light-shy: Still shrinks and whimpers under bright light, flashes and flame.",
+      "Speaking style: Loud, childlike and eager; short exclamations and a bright \"Aiyo!\"; a whimper in strong light, a savage roar in deep darkness."
+    ],
+    "abilities": [
+      "Shadow armor (in development): Wraps around Tokoyami's body for close-range fighting; they hold it only briefly yet, and light still weakens it.",
+      "Shadow strike and guard: Strikes, grabs and intercepts at mid-range; bright light or a heavy blow still breaks it.",
+      "Shadow carry: Lifts people clear of danger or pins a target; strong light or force makes him let go.",
+      "Own eyes: Watches and reacts on his own; in bright light he cowers instead.",
+      "\nFighting style: Opens at mid-range, wraps Tokoyami as armor when an opponent closes, and fights as part of Tokoyami's team."
+    ],
+    "visualDescription": "A living shadow of deep indigo-black and dark purple with a crow's head like Fumikage Tokoyami's: a long, sharp beak and a crest of long, spiky points swept back from the top and back of the head. His small, narrow eyes are bright yellow and glow slightly. His body is semi-formless with ragged, wispy edges: a lean upper torso and long thin arms ending in sharp claws, no legs, narrowing into one continuous stream of shadow that pours out of Tokoyami's body. In ordinary light he is about Tokoyami's size or a bit bigger, looming over him; in bright light he shrinks small and wispy; in darkness he grows huge and jagged, his eyes narrowing to fierce glowing yellow slits.",
+    "detailType": "detailed",
+    "properName": "Dark Shadow",
+    "portraitUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/f9756261-bcce-4f99-a7d1-2163680eabdd.png",
+    "portraitFocusX": 50,
+    "portraitFocusY": 0,
+    "portraitZoom": 100,
+    "portraits": {
+      "costume": "https://images.aidungeon.com/user_content/65802571/images/uploads/b1fce6cd-0116-426e-8440-77faca99df80.png",
+      "casual": "https://images.aidungeon.com/user_content/65802571/images/uploads/d4c87124-fea4-424e-bc1b-e61738e40f0e.png",
+      "gym": "https://images.aidungeon.com/user_content/65802571/images/uploads/8f9ad03b-3224-4f6b-a9ae-45ca95b57faa.png",
+      "uniform": "https://images.aidungeon.com/user_content/65802571/images/uploads/f9756261-bcce-4f99-a7d1-2163680eabdd.png",
+      "darkness": "https://images.aidungeon.com/user_content/65802571/images/uploads/83f582b1-5395-42e0-9ea4-64594c2d5ac6.png",
+      "light": "https://images.aidungeon.com/user_content/65802571/images/uploads/53bdcf00-de29-4773-9378-cd3ff186f041.png"
+    },
+    "initialKnown": false
+  }
+}

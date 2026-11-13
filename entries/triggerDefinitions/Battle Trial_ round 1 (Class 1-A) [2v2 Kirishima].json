@@ -1,0 +1,42 @@
+{
+  "Battle Trial: round 1 (Class 1-A) [2v2 Kirishima]": {
+    "name": "Battle Trial: round 1 (Class 1-A) [2v2 Kirishima]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Battle Trial round 1 of 5 is on now: Team A (Izuku Midoriya and Ochaco Uraraka) as heroes against Team D (Katsuki Bakugo and Tenya Iida) as villains. Each slip shows its student's own team: A Midoriya/Uraraka, B Todoroki/Shoji, C Yaoyorozu/Mineta, D Bakugo/Iida, E Aoyama/Ashido, F Koda/Sato, G Jiro/Kaminari, H Tokoyami/Asui, I Ojiro/Hagakure, J Kirishima/player. Announce and play only this matchup. When it ends, the next round is Team J (Eijiro Kirishima and the player) against Team E (Yuga Aoyama and Mina Ashido), Team J being Eijiro Kirishima and the player; Teams A, D are then done and never drawn again. The exercise is NOT over after this round: 4 more rounds remain. When this round ends, close the turn with its result and a short review; announce the next round only on the following turn."
+      }
+    ]
+  }
+}

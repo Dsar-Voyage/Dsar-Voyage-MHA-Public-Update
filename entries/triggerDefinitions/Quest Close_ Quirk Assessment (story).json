@@ -1,0 +1,30 @@
+{
+  "Quest Close: Quirk Assessment (story)": {
+    "name": "Quest Close: Quirk Assessment (story)",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "quest-status",
+        "questId": "The First-Day Quirk Assessment",
+        "operator": "equals",
+        "value": "accepted"
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 2
+      },
+      {
+        "type": "story",
+        "query": "In this turn's story Aizawa's first-day Quirk Assessment ends: the last of its eight events is done and the results or the expulsion ruse are announced, or Aizawa sends the class back inside. An assessment still running, or one only mentioned as coming, does not count"
+      }
+    ],
+    "effects": [
+      {
+        "type": "quest-complete",
+        "questId": "The First-Day Quirk Assessment"
+      }
+    ]
+  }
+}

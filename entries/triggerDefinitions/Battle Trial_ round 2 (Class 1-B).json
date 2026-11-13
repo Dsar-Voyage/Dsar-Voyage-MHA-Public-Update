@@ -24,12 +24,18 @@
         "key": "btRound",
         "operator": "equals",
         "value": 1
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 0
       }
     ],
     "effects": [
       {
         "type": "story",
-        "instruction": "Narrator only: Battle Trial round 2 of 5 is on now: Team A (Itsuka Kendo and Kinoko Komori) as heroes against Team B (Tetsutetsu Tetsutetsu and Ibara Shiozaki) as villains. Only Tetsutetsu Tetsutetsu and Ibara Shiozaki are villains; nobody else joins them. Already fought, never again: Teams E, F. Announce and play only this matchup. When it ends, the next round is Team C (Neito Monoma and Sen Kaibara) against Team D (Yosetsu Awase and Kojiro Bondo); Teams E, F, A, B are then done and never drawn again. The exercise is NOT over after this round: 3 more rounds remain. When this round ends, close the turn with its result and a short review; announce the next round only on the following turn."
+        "instruction": "Narrator only: Battle Trial round 2 of 5 is on now: Team A (Itsuka Kendo and Kinoko Komori) as heroes against Team B (Tetsutetsu Tetsutetsu and Ibara Shiozaki) as villains. Only Tetsutetsu Tetsutetsu and Ibara Shiozaki are villains; nobody else joins them. Already fought, never again: Teams E, F. Announce and play only this matchup. When it ends, the next round is Team C (Neito Monoma and Sen Kaibara) against Team D (Yosetsu Awase and Kojiro Bondo); Teams E, F, A, B are then done and never drawn again. The exercise is NOT over after this round: 3 more rounds remain. If the story sums up the rest of the trial in one turn, the remaining rounds are exactly: 3. Monoma/Kaibara vs Awase/Bondo; 4. Honenuki/Shishida vs Rin/Kodai; 5. Shoda/Tsuburaba vs Kuroiro/Fukidashi. Nobody else fights. When this round ends, close the turn with its result and a short review; announce the next round only on the following turn."
       }
     ]
   }

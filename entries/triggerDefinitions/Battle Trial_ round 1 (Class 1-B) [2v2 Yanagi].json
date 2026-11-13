@@ -1,0 +1,42 @@
+{
+  "Battle Trial: round 1 (Class 1-B) [2v2 Yanagi]": {
+    "name": "Battle Trial: round 1 (Class 1-B) [2v2 Yanagi]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 0
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Battle Trial round 1 of 5 is on now: Team E (Reiko Yanagi and the player) as heroes against Team F (Pony Tsunotori and Togaru Kamakiri) as villains. The player fights in it with Reiko Yanagi as Team E, two against two; Setsuna Tokage is not in it and watches from the Monitoring Room. Each slip shows its student's own team: A Kendo/Komori, B Tetsutetsu/Shiozaki, C Monoma/Kaibara, D Awase/Bondo, E Yanagi/player, F Tsunotori/Kamakiri, G Honenuki/Shishida, H Rin/Kodai, I Shoda/Tsuburaba, J Kuroiro/Fukidashi. Announce and play only this matchup. When it ends, the next round is Team A (Itsuka Kendo and Kinoko Komori) against Team B (Tetsutetsu Tetsutetsu and Ibara Shiozaki); Teams E, F are then done and never drawn again. The exercise is NOT over after this round: 4 more rounds remain. When this round ends, close the turn with its result and a short review; announce the next round only on the following turn."
+      }
+    ]
+  }
+}

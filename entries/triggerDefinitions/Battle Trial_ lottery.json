@@ -1,0 +1,22 @@
+{
+  "Battle Trial: lottery": {
+    "name": "Battle Trial: lottery",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "btSet",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 2
+      }
+    ],
+    "effects": [],
+    "script": "(function(){if(storage.btSet===true||(check({type:'game-tick'})||0)<3){skip=true;return;}const tx=String(check({type:'story-text'})||'')+String(check({type:'action-text'})||'');let h=7;for(let i=0;i<tx.length;i++)h=(h*31+tx.charCodeAt(i))%1000003;const r=(h%1000/1000+Math.random())%1,m=r<0.5?0:(r<0.75?1:2);storage.btMode=m;storage.btSet=true;effects.push({type:'write-number',key:'btMode',operator:'set',value:m},{type:'write-boolean',key:'btSet',operator:'set',value:true});log('battle trial lottery '+m+' ('+h+')');})();"
+  }
+}
