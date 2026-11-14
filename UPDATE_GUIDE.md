@@ -57,15 +57,33 @@ flowchart TD
    events already ran, which loaders already unpacked, your storage values), so pasting a whole trigger list over
    it would reset your game. Replace only the entries the release lists: open `entries/<section>/INDEX.md`, find the
    entry by name, and paste its value over the entry with the same key. Add new keys; delete removed ones.
-6. **Other sections can be pasted whole** (for example `aiInstructions`, `npcs`, `traits`): select everything in that
+6. **Other sections can be pasted whole** (for example `aiInstructions`, `traits`): select everything in that
    section and paste `sections/<section>.json`. The editor compares by value, so an identical section shows
    "0 changes".
+   - **NPCs are different.** In a save every NPC carries a `"status"` field that the world files don't have. To
+     replace the whole `npcs` section, paste [`save/npcs.json`](save/npcs.json) (the same NPCs with `"status": ""`).
+     That also sends every NPC back to their home location and clears any status the story gave them. To keep those,
+     update one NPC at a time: open **NPCs → (name)** and replace only the text fields that changed (`basicInfo`,
+     `hiddenInfo`, `personality`, `abilities`, `visualDescription`, `portraits`), leaving `status`, the location and
+     health fields as they are. A brand-new NPC from `entries/npcs/` needs `"status": ""` added before you paste it.
+   - **Never paste a file from `releases/`.** The `*.hashes.json` files are fingerprints used to compute the change
+     lists. They look like sections but hold file names and hashes, not game data.
 7. **Review changes**, check that it lists only what you meant (a single trigger showed as
    "1 change across 1 section" with a before/after), then **Save changes**.
 8. **Reload and play a turn.** To confirm a trigger works, open **Logs**, search its name, and look for
    "effect applied".
 9. **Never copy meta sections** (`compatibilityRevision`, `heroesVersion`) and never paste over `characters`,
    `chatLog` or other save-only sections.
+
+## If the editor says "State edit did not save"
+
+| Error | Cause | Fix |
+|---|---|---|
+| `npcs > <name> > status: Expecting string ... but instead got: undefined` | `sections/npcs.json` was pasted into a save; save NPCs need `status`. | Discard, then paste [`save/npcs.json`](save/npcs.json), or update NPCs one at a time (step 6). |
+| `<section> > <name>: Expecting string ... but instead got: {"file": "<name>.json", "name": ..., "sha": ...}` | A file from `releases/` (a fingerprint list) was pasted. | Discard, then paste `sections/<section>.json` instead. |
+
+Nothing is saved when the editor shows this message, so your game is unchanged: press **Discard** and try again
+with the right file.
 
 ## Notes
 

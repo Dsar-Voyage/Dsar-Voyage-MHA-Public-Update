@@ -6,6 +6,14 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## Repository fix (2026-11-14): save-ready NPCs
+A player's State Editor refused an update with `npcs > ... > status: Expecting string` and
+`characterArchetypes > ...: Expecting string ... got {"file": ...}`. Two causes, both fixed in the guide:
+running saves need a `status` field on every NPC (new: [`save/npcs.json`](save/npcs.json)), and the
+`releases/*.hashes.json` fingerprint files were pasted as if they were sections (they now carry a "NOT game data"
+note). No world content changed: release 11.13 is the same. See the new table in
+[UPDATE_GUIDE.md](UPDATE_GUIDE.md#if-the-editor-says-state-edit-did-not-save).
+
 ## 11.13 — Dark Shadow, the lottery and tougher NPCs (published 2026-11-13)
 
 Dark Shadow as his own character with his own art, a Battle Trial lottery that can give a fair 2v2, skips that never

@@ -36,7 +36,9 @@ The short version:
    [`sections/`](sections/), except triggers, quests, quest triggers, arcs and narrative events, which live under
    **parties → (your party)**.
 4. In a running save, copy **trigger, quest and event entries one by one** (from `entries/`), never the whole
-   `parties` section: it holds your game's own progress. Other sections can be pasted whole.
+   `parties` section: it holds your game's own progress. **NPCs in a save need a `status` field**: paste
+   [`save/npcs.json`](save/npcs.json), never `sections/npcs.json`. Other sections can be pasted whole.
+   Never paste anything from `releases/`: those files are fingerprints, not game data.
 5. **Review changes**, **Save changes**, reload, and play a turn.
 
 ## Rules for this repository
