@@ -6,13 +6,13 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## Repository fix (2026-11-14): save-ready NPCs
+## Repository fix (2026-11-14): updating NPCs in a save
 A player's State Editor refused an update with `npcs > ... > status: Expecting string` and
-`characterArchetypes > ...: Expecting string ... got {"file": ...}`. Two causes, both fixed in the guide:
-running saves need a `status` field on every NPC (new: [`save/npcs.json`](save/npcs.json)), and the
-`releases/*.hashes.json` fingerprint files were pasted as if they were sections (they now carry a "NOT game data"
-note). No world content changed: release 11.13 is the same. See the new table in
-[UPDATE_GUIDE.md](UPDATE_GUIDE.md#if-the-editor-says-state-edit-did-not-save).
+`characterArchetypes > ...: Expecting string ... got {"file": ...}`. Two causes: a running save's NPCs carry a
+`status` field and include the people the story created, so the whole `npcs` section must never be pasted into a
+save (update NPCs field by field); and a `releases/*.hashes.json` fingerprint file was pasted as if it were a
+section (those files now say "NOT game data"). No world content changed: release 11.13 is the same. See the new
+table in [UPDATE_GUIDE.md](UPDATE_GUIDE.md#if-the-editor-says-state-edit-did-not-save).
 
 ## 11.13 — Dark Shadow, the lottery and tougher NPCs (published 2026-11-13)
 

@@ -60,12 +60,13 @@ flowchart TD
 6. **Other sections can be pasted whole** (for example `aiInstructions`, `traits`): select everything in that
    section and paste `sections/<section>.json`. The editor compares by value, so an identical section shows
    "0 changes".
-   - **NPCs are different.** In a save every NPC carries a `"status"` field that the world files don't have. To
-     replace the whole `npcs` section, paste [`save/npcs.json`](save/npcs.json) (the same NPCs with `"status": ""`).
-     That also sends every NPC back to their home location and clears any status the story gave them. To keep those,
-     update one NPC at a time: open **NPCs → (name)** and replace only the text fields that changed (`basicInfo`,
-     `hiddenInfo`, `personality`, `abilities`, `visualDescription`, `portraits`), leaving `status`, the location and
-     health fields as they are. A brand-new NPC from `entries/npcs/` needs `"status": ""` added before you paste it.
+   - **NPCs are different: never paste over a save's whole `npcs` section.** A running save also holds the
+     people your story created (a tested save had 319 NPCs against the world's 299) and gives every NPC a
+     `"status"` field the world files don't have, so a whole-section paste is refused, and if it went through it
+     would delete those people. Update NPCs **field by field**: type the NPC's name and the field in the State
+     Editor search (for example `Izuku Midoriya basic info`), open the result, and paste the new text from
+     `entries/npcs/` (`basicInfo`, `hiddenInfo`, `personality`, `abilities`, `visualDescription`, `portraits`).
+     Leave `status`, the location and the health fields alone. A brand-new NPC is easiest to meet in a new game.
    - **Never paste a file from `releases/`.** The `*.hashes.json` files are fingerprints used to compute the change
      lists. They look like sections but hold file names and hashes, not game data.
 7. **Review changes**, check that it lists only what you meant (a single trigger showed as
@@ -79,7 +80,7 @@ flowchart TD
 
 | Error | Cause | Fix |
 |---|---|---|
-| `npcs > <name> > status: Expecting string ... but instead got: undefined` | `sections/npcs.json` was pasted into a save; save NPCs need `status`. | Discard, then paste [`save/npcs.json`](save/npcs.json), or update NPCs one at a time (step 6). |
+| `npcs > <name> > status: Expecting string ... but instead got: undefined` | A whole `npcs` file was pasted into a save; save NPCs need `status`, and the save has NPCs of its own. | Discard. Update the NPCs field by field instead (step 6); never paste a whole `npcs` file into a save. |
 | `<section> > <name>: Expecting string ... but instead got: {"file": "<name>.json", "name": ..., "sha": ...}` | A file from `releases/` (a fingerprint list) was pasted. | Discard, then paste `sections/<section>.json` instead. |
 
 Nothing is saved when the editor shows this message, so your game is unchanged: press **Discard** and try again

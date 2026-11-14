@@ -187,7 +187,7 @@ def main():
     # 2026-11-14: a player pasted a hashes file into the State Editor ("characterArchetypes > Survivor: Expecting
     # string ... but instead got: {\"file\":\"Survivor.json\" ...}"), so every hashes file says what it is.
     hashes = {"_note": "Fingerprints for comparing releases. NOT game data: never paste this file into the State "
-                       "Editor or Studio. Copy from sections/, entries/ or save/ instead.",
+                       "Editor or Studio. Copy from sections/ or entries/ instead.",
               "label": a.label, "sections": {}, "entries": {}}
     rows = []
     for name in sorted(S):
@@ -218,22 +218,11 @@ def main():
             open(os.path.join(d, "INDEX.md"), "w", encoding="utf-8", newline="\n").write("\n".join(lines) + "\n")
         rows.append([name, SECTIONS[name][0], SECTIONS[name][1], len(txt.encode("utf-8")), n_entries])
 
-    # 2026-11-14: a running save's NPC records carry a "status" string (empty for most) that the world's NPC
-    # definitions do not have; pasting sections/npcs.json into a save fails with "npcs > <name> > status: Expecting
-    # string ... but instead got: undefined". save/npcs.json is the same section with "status": "" on every NPC.
+    # 2026-11-14: a running save's NPCs carry a "status" string the world files lack, and a save also holds the
+    # NPCs its story created (a tested save had 319 against the world's 299), so no NPC file here is ever pasted
+    # over a save's whole npcs section; the guide says to update NPCs field by field. save/ is not generated.
     if os.path.isdir(SAVE_DIR):
         shutil.rmtree(SAVE_DIR)
-    os.makedirs(SAVE_DIR)
-    if isinstance(S.get("npcs"), dict):
-        sv = {k: (dict(v, status=v.get("status", "")) if isinstance(v, dict) else v) for k, v in S["npcs"].items()}
-        open(os.path.join(SAVE_DIR, "npcs.json"), "w", encoding="utf-8", newline="\n").write(dump(sv))
-    open(os.path.join(SAVE_DIR, "README.md"), "w", encoding="utf-8", newline="\n").write(
-        f"# Save-ready sections ({a.label})\n\n"
-        "Sections whose records need extra fields inside a running save. Paste these in the in-game State Editor, not\n"
-        "the plain files in `sections/`.\n\n"
-        "- [`npcs.json`](npcs.json): every NPC with the `\"status\": \"\"` field a save requires. Pasting the whole\n"
-        "  section also puts every NPC back at its home location and clears any status the story gave them\n"
-        "  (for example an injury). To keep those, update one NPC at a time instead (see UPDATE_GUIDE.md).\n")
     prev = json.load(open(a.previous, encoding="utf-8")) if a.previous else None
     changed = {}
     if prev:
