@@ -34,6 +34,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_shigaraki_s_sensei",
+    "damageModifier": 75,
+    "damageReductionModifier": 50,
+    "successBonus": 50,
     "initialKnown": false
   }
 }

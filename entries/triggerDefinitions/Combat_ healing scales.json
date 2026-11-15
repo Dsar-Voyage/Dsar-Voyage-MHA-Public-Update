@@ -1,0 +1,21 @@
+{
+  "Combat: healing scales": {
+    "name": "Combat: healing scales",
+    "recurring": true,
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Hh]eal(s|ing)?|[Mm]end(s|ing)?|[Kk]nit|[Pp]atch|[Ss]tabili[sz]e|[Tt]reat)\\b"
+      },
+      {
+        "type": "action-success-level",
+        "operator": "greaterThanOrEqual",
+        "value": "Pulled It Off"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const __tk=check({type:'game-tick'})||0;let __W=storage.fw;if(!__W||__W.t!==__tk){const __c=check({type:'npc-in-combat',npc:'anySceneNPC'});const __on=__c===true||(__c&&typeof __c==='object'&&Object.values(__c).some(v=>v===true));const __h=Object.assign({},check({type:'npc-health',npc:'anySceneNPC'})||{});let __p=check({type:'player-resource',resource:'health'});if(__p&&typeof __p==='object')__p=Object.values(__p).find(x=>typeof x==='number');if(typeof __p==='number')__h['~PC']=__p;const __o={};String((__W&&__W.h)||'').split('|').forEach(e=>{const i=e.lastIndexOf(':');if(i>0)__o[e.slice(0,i)]=+e.slice(i+1);});const __hit=Object.keys(__h).some(k=>typeof __h[k]==='number'&&typeof __o[k]==='number'&&__h[k]<__o[k]);const __A=check({type:'action-text'});const __at=String(Array.isArray(__A)?(__A[__A.length-1]||''):(__A||''));const __fw=/\\b(punch|strike|attack|charge|hit|fight|spar|kick|blast|tackle|swing|shoot|counter|dodge|block|grapple)\\b/i.test(__at);__W=storage.fw={t:__tk,h:Object.keys(__h).filter(k=>typeof __h[k]==='number').map(k=>k+':'+__h[k]).join('|'),x:!!(__on&&(__hit||__fw))};if(__W.x)storage.fightT=__tk;}const __now=__W.x;const inFight=__now||(__tk-(typeof storage.fightT==='number'?storage.fightT:-99))<=3;if(!inFight){skip=true;return;}const tr=check({type:'player-traits'})||{};const all=Array.isArray(tr)?tr:[].concat(...Object.values(tr).filter(Array.isArray));if(!all.some(t=>/(Healing|Mending Bloom) Quirk|Gifted: (Healing|Mending)/.test(t))){skip=true;return;}const A=check({type:'action-text'});const t=String(Array.isArray(A)?(A[A.length-1]||''):(A||''));if(/\\b(not|never|don't|won't|refuse to)\\s+(\\w+\\s+){0,2}(heal|mend|patch|treat)/i.test(t)){skip=true;return;}const H=check({type:'npc-health',npc:'anySceneNPC'})||{};let P={};try{P=check({type:'npc-health-percent',npc:'anySceneNPC'})||{};}catch(e){P={};}const out=[],full=[];for(const n of Object.keys(H)){if(out.length>=2)break;const h=H[n],p=P[n];if(typeof h!=='number'||h<=0||typeof p!=='number')continue;const b=n.replace(/ \\([^)]*\\)$/,'');const ws=b.split(' ').filter(w=>w.length>=3&&/^[A-Z][A-Za-z'-]+$/.test(w));if(!ws.some(w=>new RegExp('\\\\b([Hh]eal(s|ing)?|[Mm]end(s|ing)?|[Kk]nit|[Pp]atch(es|ing)?( up)?|[Ss]tabili[sz]e|[Tt]reat)\\\\b[^.!?;]{0,40}\\\\b'+w+'\\\\b').test(t)))continue;if(p>=100){full.push(b);continue;}const mx=p>0?Math.round(h*100/p):h;const add=Math.min(mx-h,Math.max(30,Math.round(mx*0.15)));if(add<=0)continue;effects.push({type:'npc-health',npc:n,operator:'add',value:add});out.push(b+' +'+add);}if(!out.length){if(full.length)log('heal full '+full.join(', '));else skip=true;return;}effects.push({type:'story',instruction:'Narrator only: the healing takes real hold this turn ('+out.join(', ')+' health on top of the usual): show wounds closing, and the cost to the patient\\'s stamina.'});log('heal scaled '+out.join(', '));})();"
+  }
+}

@@ -1,10 +1,11 @@
-# traitCategories: 17 entries (11.13)
+# traitCategories: 18 entries (11.14)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
 | Entry | Key | File |
 |---|---|---|
 | Appearance Builder | `Appearance Builder` | [Appearance Builder.json](<Appearance Builder.json>) |
+| Challenge | `Challenge` | [Challenge.json](<Challenge.json>) |
 | Fighting Style | `Fighting Style` | [Fighting Style.json](<Fighting Style.json>) |
 | Gear Set | `Gear Set` | [Gear Set.json](<Gear Set.json>) |
 | Gifted Quirks | `Gifted Quirks` | [Gifted Quirks.json](<Gifted Quirks.json>) |

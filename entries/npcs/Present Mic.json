@@ -36,6 +36,9 @@
       "sonic"
     ],
     "worldVoiceId": "mha_present_mic",
+    "damageModifier": 25,
+    "damageReductionModifier": 20,
+    "successBonus": 20,
     "initialKnown": true
   }
 }

@@ -1,0 +1,36 @@
+{
+  "Challenge: Story (in a fight)": {
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "name": "Challenge: Story (in a fight)",
+    "description": "⚔️ Your Challenge setting, active while you fight.",
+    "traitNarrativeEffects": "",
+    "skills": [
+      {
+        "skill": "Striking",
+        "modifier": 8
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 8
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 8
+      },
+      {
+        "skill": "Dodging",
+        "modifier": 8
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 8
+      }
+    ]
+  }
+}

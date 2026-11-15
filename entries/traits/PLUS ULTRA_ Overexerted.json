@@ -1,0 +1,32 @@
+{
+  "PLUS ULTRA: Overexerted": {
+    "name": "PLUS ULTRA: Overexerted",
+    "description": "🥵 You pushed past your limit and your body is paying for it.\n\n📉 For a while: Quirk Output -10, Quirk Control -10, Striking -5, Dodging -5. Rest clears it.",
+    "traitNarrativeEffects": "The character pushed past their limit and is paying for it: shaking hands, slow reactions, the Drawback flaring at the smallest use. They cannot push like that again until they have rested.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": -10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": -10
+      },
+      {
+        "skill": "Striking",
+        "modifier": -5
+      },
+      {
+        "skill": "Dodging",
+        "modifier": -5
+      }
+    ]
+  }
+}

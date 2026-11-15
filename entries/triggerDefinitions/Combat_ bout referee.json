@@ -1,0 +1,17 @@
+{
+  "Combat: bout referee": {
+    "name": "Combat: bout referee",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const A=check({type:'action-text'});const t=String(Array.isArray(A)?(A[A.length-1]||''):(A||''));const tk=check({type:'game-tick'})||0;const B=storage.bout||(storage.bout={t:-99,hm:0,sm:0});if(/\\b(spar|spars|sparred|sparring|bout|duel|rematch|square off|practice match|mock battle)\\b/i.test(t))B.t=tk;else if(tk-B.t<=6&&/\\b(punch|hit|strike|kick|blast|attack|dodge|block|charge|swing|throw|counter|tackle|feint|guard|Quirk)\\b/i.test(t))B.t=tk;if(tk-B.t>6){skip=true;return;}const one=r=>{let v=check({type:'player-resource',resource:r});if(v&&typeof v==='object'){const xs=Object.values(v).filter(x=>typeof x==='number');v=xs.length?Math.min(...xs):null;}return typeof v==='number'?v:null;};const h=one('health'),s=one('stamina');if(h===null||s===null){skip=true;return;}const PH=storage.pcHurt||{};B.hm=Math.max(B.hm,h,PH.mx||0);B.sm=Math.max(B.sm,s,PH.smx||0);const hp=Math.round(h*100/(B.hm||1)),sp=Math.round(s*100/(B.sm||1));const floor=h<=Math.ceil((B.hm||1)*0.25);effects.push({type:'story',instruction:'Narrator only: if a supervised bout or spar is going on, the engine has the player character at '+hp+'% health and '+sp+'% stamina.'+(floor?' That is the safety floor: the referee steps in and stops the bout now.':' The referee lets it run until someone is beaten, out of stamina (under 15%), under 25% health or in real danger; nobody describes fatigue or injury these numbers do not show, and nobody calls the player a liar about them.')});log('bout referee '+hp+'% hp '+sp+'% st'+(floor?' floor':''));})();"
+  }
+}

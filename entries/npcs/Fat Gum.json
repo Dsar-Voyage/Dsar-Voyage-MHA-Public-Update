@@ -38,6 +38,9 @@
       "piercing"
     ],
     "worldVoiceId": "mha_fat_gum",
+    "damageModifier": 40,
+    "damageReductionModifier": 30,
+    "successBonus": 30,
     "initialKnown": true
   }
 }

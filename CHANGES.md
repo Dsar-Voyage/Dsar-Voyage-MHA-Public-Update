@@ -6,6 +6,35 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.14 — PLUS ULTRA combat (published 2026-11-14)
+
+A complete combat overhaul. Fights open on the ground and play out as wind-up, hit and cost; foes reach turning points
+as they get hurt (Pressed, Last Stand, Down) and are knocked out, not killed, unless you clearly go for the kill; the
+story follows you when you are badly hurt, go down and come back; a PLUS ULTRA limit break on the edge of a fight; an
+optional Challenge setting (Story +8 or Plus Ultra -8, fights only); healing that scales in fights; Transformation
+forms; teachers never attack students, sparring partners leave the party so their hits land, and referees stop bouts on
+real health and stamina. Classes, conversations and everyday life are unchanged.
+Full per-entry list: [`releases/11.14.changes.md`](releases/11.14.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | 11 added, all named `Combat: ...` (turning points, fight director, player badly hurt, spar opponent leaves the party, bout referee, Plus Ultra surge and aftermath, challenge in fights, healing scales, Quirk form on and upkeep), plus the changed data loaders (`Pack: load ...`, `Event Lazy: load ...`) and `Mechanics: player training safety net`. 11 added, 73 changed. | **Remix:** replace the whole section. **Running save:** copy the `Combat: ...` entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `traits` | 7 added: `PLUS ULTRA: Surge`, `PLUS ULTRA: Overexerted`, `Challenge: Story`, `Challenge: Plus Ultra`, their two `(in a fight)` twins, `Quirk Form: Active`. | the 7 added entries (needed by the triggers above) |
+| `traitCategories` | New optional `Challenge` group before Appearance Builder (character creation only). | new games only |
+| `npcs` | Rank modifiers for pros, villains and students (damage, damage reduction, success bonus); Vlad King lets fighters work between calls when he referees. | the changed entries, field by field (never the whole section) |
+| `abilities` | Move tiers rescaled (Technique, Special, Ultimate bonuses). | whole section for a remix; optional in a save |
+| `combatSettings`, `progressionSettings` | Ability tiers and cooldowns (Techniques none, Special 2, Ultimate 5), an ability point every level. | whole section |
+| `aiInstructions`, `gameModes` | Combat narration ("Combat Is the Engine's", "MHA Fights on Screen"), the In Combat intent rules, the fight-only teacher ban. | the modified entries |
+| `successLevelSettings` | Fight beats for each roll tier (Wipeout turns the tide, Go Beyond! close-up, PLUS ULTRA! highlight). | whole section |
+| `characterArchetypes` | An "In a fight:" line for each of the 22 archetypes. | the modified entries |
+| `resourceSettings`, `encounterElements`, `storyStarts`, `parties.narrativeEvents` | Health usage wording, encounter tuning, the Sidekick start's streamer talks less, the USJ Nomu beat. | the modified entries |
+
+**Running saves:** the Challenge setting is chosen at character creation, so an existing save plays the standard game
+unless you add a `Challenge: ...` trait yourself. Stage rank changes reach NPCs already met only when their records are
+updated. A new game is the clean way to get everything.
+
+---
+
 ## Repository fix (2026-11-14): updating NPCs in a save
 A player's State Editor refused an update with `npcs > ... > status: Expecting string` and
 `characterArchetypes > ...: Expecting string ... got {"file": ...}`. Two causes: a running save's NPCs carry a

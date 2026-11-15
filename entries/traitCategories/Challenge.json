@@ -1,0 +1,11 @@
+{
+  "Challenge": {
+    "name": "Challenge",
+    "maxSelections": 1,
+    "description": "🎚️ Optional: how hard fights are (fights only). Leave it empty for the standard game.",
+    "traits": [
+      "Challenge: Story",
+      "Challenge: Plus Ultra"
+    ]
+  }
+}

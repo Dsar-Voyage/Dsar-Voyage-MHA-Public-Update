@@ -31,6 +31,9 @@
     "portraitFocusX": 50,
     "portraitFocusY": 0,
     "portraitZoom": 100,
+    "damageModifier": 25,
+    "damageReductionModifier": 20,
+    "successBonus": 20,
     "initialKnown": false
   }
 }

@@ -1,0 +1,32 @@
+{
+  "PLUS ULTRA: Surge": {
+    "name": "PLUS ULTRA: Surge",
+    "description": "💥 PLUS ULTRA! You went past your limit at the edge of a fight.\n\n📈 For two turns: Quirk Output +25, Quirk Control +20, Striking +20, Willpower +15\n⚠️ Then the cost lands: Overexerted.",
+    "traitNarrativeEffects": "The character is in a Plus Ultra surge: past their limit for a short burst. Their Quirk hits harder than it ever has and they keep going on will alone, while the Drawback shows in full. It is a moment, not a new power: nothing their Quirk cannot do.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 25
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 20
+      },
+      {
+        "skill": "Striking",
+        "modifier": 20
+      },
+      {
+        "skill": "Willpower",
+        "modifier": 15
+      }
+    ]
+  }
+}

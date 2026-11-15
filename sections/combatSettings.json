@@ -1,7 +1,7 @@
 {
   "minCombatXP": 1,
   "baseCombatXP": 100,
-  "abilityCooldown": 10,
+  "abilityCooldown": 2,
   "abilityBonus": 10,
   "npcDailyHealingAmount": 120,
   "damageTypes": [
@@ -63,5 +63,30 @@
     "biological": {
       "emoji": "🧬"
     }
-  }
+  },
+  "abilityTiers": [
+    {
+      "id": "technique",
+      "name": "Technique",
+      "cooldown": 0,
+      "bonus": 5,
+      "guidance": "Never for a move taught by Special Move Training (that is a Special Move). A sharper everyday use of the character's own Quirk, training or gear: a new shape, range, rhythm or control of something they already do. Strain light or moderate (Stamina brief or demanding for trained techniques). Most learned moves are Techniques."
+    },
+    {
+      "id": "special",
+      "name": "Special Move",
+      "cooldown": 2,
+      "bonus": 10,
+      "guidance": "ALWAYS the tier of a move taught by Special Move Training (the first full success of the attempt), named \"Special Move: <name>\", and of any learned move that states an exact impact. Strain moderate or heavy."
+    },
+    {
+      "id": "ultimate",
+      "name": "Ultimate Move",
+      "cooldown": 5,
+      "bonus": 15,
+      "guidance": "Only for a character with the Quirk Breakthrough trait: their all-out finisher, at the edge of what their Quirk can do. Strain severe. Never from training alone."
+    }
+  ],
+  "defaultTierId": "technique",
+  "abilityLearningInterval": 6
 }

@@ -32,6 +32,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_rappa",
+    "damageModifier": 25,
+    "damageReductionModifier": 20,
+    "successBonus": 20,
     "initialKnown": false
   }
 }

@@ -34,6 +34,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_shota_aizawa",
+    "damageModifier": 40,
+    "damageReductionModifier": 30,
+    "successBonus": 30,
     "initialKnown": true
   }
 }

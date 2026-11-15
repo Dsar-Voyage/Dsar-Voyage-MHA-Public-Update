@@ -35,6 +35,9 @@
       "bludgeoning"
     ],
     "worldVoiceId": "mha_u_s_j_nomu",
+    "damageModifier": 40,
+    "damageReductionModifier": 30,
+    "successBonus": 30,
     "initialKnown": false
   }
 }

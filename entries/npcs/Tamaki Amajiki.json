@@ -35,6 +35,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_tamaki_amajiki",
+    "damageModifier": 10,
+    "damageReductionModifier": 10,
+    "successBonus": 10,
     "initialKnown": true
   }
 }

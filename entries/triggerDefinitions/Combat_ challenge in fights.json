@@ -1,0 +1,18 @@
+{
+  "Combat: challenge in fights": {
+    "name": "Combat: challenge in fights",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const tr=check({type:'player-traits'})||{};const all=Array.isArray(tr)?tr:[].concat(...Object.values(tr).filter(Array.isArray));const pick=all.find(t=>t==='Challenge: Story'||t==='Challenge: Plus Ultra');if(!pick){skip=true;return;}const __tk=check({type:'game-tick'})||0;let __W=storage.fw;if(!__W||__W.t!==__tk){const __c=check({type:'npc-in-combat',npc:'anySceneNPC'});const __on=__c===true||(__c&&typeof __c==='object'&&Object.values(__c).some(v=>v===true));const __h=Object.assign({},check({type:'npc-health',npc:'anySceneNPC'})||{});let __p=check({type:'player-resource',resource:'health'});if(__p&&typeof __p==='object')__p=Object.values(__p).find(x=>typeof x==='number');if(typeof __p==='number')__h['~PC']=__p;const __o={};String((__W&&__W.h)||'').split('|').forEach(e=>{const i=e.lastIndexOf(':');if(i>0)__o[e.slice(0,i)]=+e.slice(i+1);});const __hit=Object.keys(__h).some(k=>typeof __h[k]==='number'&&typeof __o[k]==='number'&&__h[k]<__o[k]);const __A=check({type:'action-text'});const __at=String(Array.isArray(__A)?(__A[__A.length-1]||''):(__A||''));const __fw=/\\b(punch|strike|attack|charge|hit|fight|spar|kick|blast|tackle|swing|shoot|counter|dodge|block|grapple)\\b/i.test(__at);__W=storage.fw={t:__tk,h:Object.keys(__h).filter(k=>typeof __h[k]==='number').map(k=>k+':'+__h[k]).join('|'),x:!!(__on&&(__hit||__fw))};if(__W.x)storage.fightT=__tk;}const __now=__W.x;const inFight=__now||(__tk-(typeof storage.fightT==='number'?storage.fightT:-99))<=3;const fight=inFight;const live=pick+' (in a fight)',has=all.indexOf(live)>=0;if(fight&&!has){effects.push({type:'player-traits',operator:'add',value:live,target:'satisfyingPlayers'});log('challenge on '+pick);return;}if(!fight&&has){effects.push({type:'player-traits',operator:'remove',value:live,target:'satisfyingPlayers'});log('challenge off');return;}skip=true;})();"
+  }
+}

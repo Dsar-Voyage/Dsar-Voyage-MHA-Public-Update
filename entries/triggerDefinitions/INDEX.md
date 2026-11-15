@@ -1,4 +1,4 @@
-# triggerDefinitions: 937 entries (11.13)
+# triggerDefinitions: 948 entries (11.14)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -91,6 +91,17 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Time Cue | `Clock: Time Cue` | [Clock_ Time Cue.json](<Clock_ Time Cue.json>) |
 | Clock: Time Line | `Clock: Time Line` | [Clock_ Time Line.json](<Clock_ Time Line.json>) |
 | Clock: Time Line Note | `Clock: Time Line Note` | [Clock_ Time Line Note.json](<Clock_ Time Line Note.json>) |
+| Combat: bout referee | `Combat: bout referee` | [Combat_ bout referee.json](<Combat_ bout referee.json>) |
+| Combat: challenge in fights | `Combat: challenge in fights` | [Combat_ challenge in fights.json](<Combat_ challenge in fights.json>) |
+| Combat: fight director | `Combat: fight director` | [Combat_ fight director.json](<Combat_ fight director.json>) |
+| Combat: healing scales | `Combat: healing scales` | [Combat_ healing scales.json](<Combat_ healing scales.json>) |
+| Combat: player badly hurt | `Combat: player badly hurt` | [Combat_ player badly hurt.json](<Combat_ player badly hurt.json>) |
+| Combat: Plus Ultra aftermath | `Combat: Plus Ultra aftermath` | [Combat_ Plus Ultra aftermath.json](<Combat_ Plus Ultra aftermath.json>) |
+| Combat: Plus Ultra surge | `Combat: Plus Ultra surge` | [Combat_ Plus Ultra surge.json](<Combat_ Plus Ultra surge.json>) |
+| Combat: Quirk form on | `Combat: Quirk form on` | [Combat_ Quirk form on.json](<Combat_ Quirk form on.json>) |
+| Combat: Quirk form upkeep | `Combat: Quirk form upkeep` | [Combat_ Quirk form upkeep.json](<Combat_ Quirk form upkeep.json>) |
+| Combat: spar opponent leaves the party | `Combat: spar opponent leaves the party` | [Combat_ spar opponent leaves the party.json](<Combat_ spar opponent leaves the party.json>) |
+| Combat: turning points | `Combat: turning points` | [Combat_ turning points.json](<Combat_ turning points.json>) |
 | Companion: Dark Shadow | `Companion: Dark Shadow` | [Companion_ Dark Shadow.json](<Companion_ Dark Shadow.json>) |
 | Companions: downed companion lives | `Companions: downed companion lives` | [Companions_ downed companion lives.json](<Companions_ downed companion lives.json>) |
 | Companions: nobody dies at Hosu | `Companions: nobody dies at Hosu` | [Companions_ nobody dies at Hosu.json](<Companions_ nobody dies at Hosu.json>) |

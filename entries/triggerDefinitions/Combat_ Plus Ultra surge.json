@@ -1,0 +1,17 @@
+{
+  "Combat: Plus Ultra surge": {
+    "name": "Combat: Plus Ultra surge",
+    "recurring": true,
+    "phase": "planning",
+    "scope": "player",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Pp][Ll][Uu][Ss] [Uu][Ll][Tt][Rr][Aa]|[Gg]o [Bb]eyond|[Aa]ll[- ][Oo]ut|[Ff]ull power|past my limit"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const C={\"surge\": \"PLUS ULTRA: Surge\", \"spent\": \"PLUS ULTRA: Overexerted\", \"strain\": \"Quirk Strain\", \"hp_edge\": 35, \"strain_edge\": 70, \"strain_cost\": 20, \"surge_turns\": 2, \"spent_turns\": 8, \"cooldown\": 20};const __tk=check({type:'game-tick'})||0;let __W=storage.fw;if(!__W||__W.t!==__tk){const __c=check({type:'npc-in-combat',npc:'anySceneNPC'});const __on=__c===true||(__c&&typeof __c==='object'&&Object.values(__c).some(v=>v===true));const __h=Object.assign({},check({type:'npc-health',npc:'anySceneNPC'})||{});let __p=check({type:'player-resource',resource:'health'});if(__p&&typeof __p==='object')__p=Object.values(__p).find(x=>typeof x==='number');if(typeof __p==='number')__h['~PC']=__p;const __o={};String((__W&&__W.h)||'').split('|').forEach(e=>{const i=e.lastIndexOf(':');if(i>0)__o[e.slice(0,i)]=+e.slice(i+1);});const __hit=Object.keys(__h).some(k=>typeof __h[k]==='number'&&typeof __o[k]==='number'&&__h[k]<__o[k]);const __A=check({type:'action-text'});const __at=String(Array.isArray(__A)?(__A[__A.length-1]||''):(__A||''));const __fw=/\\b(punch|strike|attack|charge|hit|fight|spar|kick|blast|tackle|swing|shoot|counter|dodge|block|grapple)\\b/i.test(__at);__W=storage.fw={t:__tk,h:Object.keys(__h).filter(k=>typeof __h[k]==='number').map(k=>k+':'+__h[k]).join('|'),x:!!(__on&&(__hit||__fw))};if(__W.x)storage.fightT=__tk;}const __now=__W.x;const inFight=__now||(__tk-(typeof storage.fightT==='number'?storage.fightT:-99))<=3;if(!inFight){skip=true;return;}const one=r=>{let v=check({type:'player-resource',resource:r});if(v&&typeof v==='object'){const xs=Object.values(v).filter(x=>typeof x==='number');v=xs.length?Math.min(...xs):null;}return typeof v==='number'?v:null;};const tk=check({type:'game-tick'})||0;const S=storage.pu||(storage.pu={t:-99,st:0,t2:-99});if(S.st!==0||tk-S.t<C.cooldown){effects.push({type:'story',instruction:'Narrator only: the player character reaches for another all-out push, but there is nothing past their limit left yet: the body refuses, and the attempt is an ordinary effort at best.'});log('pu locked');return;}const hp=one('health'),sr=one(C.strain);const mx=(storage.pcHurt&&storage.pcHurt.mx)||hp||1;const p=hp===null?100:Math.round(hp*100/mx);if(!(p<=C.hp_edge||(sr!==null&&sr>=C.strain_edge))){effects.push({type:'story',instruction:'Narrator only: the player character reaches for an all-out push, but they are not at the edge yet (their body is not in real danger and their Quirk is not near its limit): a strong effort, not a breakthrough.'});log('pu not ready '+p+'% hp strain '+sr);return;}S.t=tk;S.st=1;effects.push({type:'player-traits',operator:'add',value:C.surge,target:'satisfyingPlayers'});effects.push({type:'story',instruction:'PLUS ULTRA (narrator only): at the edge (about '+p+'% health'+(sr!==null?', Quirk Strain '+sr:'')+') the player character goes past their limit right now. The breakthrough ignites in their body this turn whatever this action does: even a stumble or a miss sets it off, the Drawback flaring and everyone watching. The surge carries their next two moves; afterwards the cost lands.'});log('pu surge '+p+'% hp strain '+sr);})();"
+  }
+}

@@ -37,6 +37,9 @@
       "fire"
     ],
     "worldVoiceId": "mha_endeavor",
+    "damageModifier": 55,
+    "damageReductionModifier": 40,
+    "successBonus": 40,
     "initialKnown": true
   }
 }

@@ -32,6 +32,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_rikiya_yotsubashi",
+    "damageModifier": 55,
+    "damageReductionModifier": 40,
+    "successBonus": 40,
     "initialKnown": true
   }
 }

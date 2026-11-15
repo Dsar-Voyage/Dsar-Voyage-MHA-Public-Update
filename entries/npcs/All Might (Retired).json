@@ -31,6 +31,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_all_might",
+    "damageModifier": 75,
+    "damageReductionModifier": 50,
+    "successBonus": 50,
     "initialKnown": false
   }
 }

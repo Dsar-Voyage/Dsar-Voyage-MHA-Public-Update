@@ -32,6 +32,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_shin_nemoto",
+    "damageModifier": 10,
+    "damageReductionModifier": 10,
+    "successBonus": 10,
     "initialKnown": false
   }
 }

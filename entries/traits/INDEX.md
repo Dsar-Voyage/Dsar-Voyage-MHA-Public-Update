@@ -1,4 +1,4 @@
-# traits: 1139 entries (11.13)
+# traits: 1146 entries (11.14)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -127,6 +127,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Cement Quirk | `Cement Quirk` | [Cement Quirk.json](<Cement Quirk.json>) |
 | Cerulean Eyes | `Cerulean Eyes` | [Cerulean Eyes.json](<Cerulean Eyes.json>) |
 | Chalk White Skin | `Chalk White Skin` | [Chalk White Skin.json](<Chalk White Skin.json>) |
+| Challenge: Plus Ultra | `Challenge: Plus Ultra` | [Challenge_ Plus Ultra.json](<Challenge_ Plus Ultra.json>) |
+| Challenge: Plus Ultra (in a fight) | `Challenge: Plus Ultra (in a fight)` | [Challenge_ Plus Ultra (in a fight).json](<Challenge_ Plus Ultra (in a fight).json>) |
+| Challenge: Story | `Challenge: Story` | [Challenge_ Story.json](<Challenge_ Story.json>) |
+| Challenge: Story (in a fight) | `Challenge: Story (in a fight)` | [Challenge_ Story (in a fight).json](<Challenge_ Story (in a fight).json>) |
 | Champagne Blonde Hair | `Champagne Blonde Hair` | [Champagne Blonde Hair.json](<Champagne Blonde Hair.json>) |
 | Champagne Eyes | `Champagne Eyes` | [Champagne Eyes.json](<Champagne Eyes.json>) |
 | Charcoal Eyes | `Charcoal Eyes` | [Charcoal Eyes.json](<Charcoal Eyes.json>) |
@@ -813,6 +817,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Platinum Blonde Hair | `Platinum Blonde Hair` | [Platinum Blonde Hair.json](<Platinum Blonde Hair.json>) |
 | Plum Eyes | `Plum Eyes` | [Plum Eyes.json](<Plum Eyes.json>) |
 | Plum Hair | `Plum Hair` | [Plum Hair.json](<Plum Hair.json>) |
+| PLUS ULTRA: Overexerted | `PLUS ULTRA: Overexerted` | [PLUS ULTRA_ Overexerted.json](<PLUS ULTRA_ Overexerted.json>) |
+| PLUS ULTRA: Surge | `PLUS ULTRA: Surge` | [PLUS ULTRA_ Surge.json](<PLUS ULTRA_ Surge.json>) |
 | Police Family | `Police Family` | [Police Family.json](<Police Family.json>) |
 | Pompadour | `Pompadour` | [Pompadour.json](<Pompadour.json>) |
 | Ponytail | `Ponytail` | [Ponytail.json](<Ponytail.json>) |
@@ -876,6 +882,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Quirk Awakening | `Quirk Awakening` | [Quirk Awakening.json](<Quirk Awakening.json>) |
 | Quirk Breakthrough | `Quirk Breakthrough` | [Quirk Breakthrough.json](<Quirk Breakthrough.json>) |
 | Quirk Endurance | `Quirk Endurance` | [Quirk Endurance.json](<Quirk Endurance.json>) |
+| Quirk Form: Active | `Quirk Form: Active` | [Quirk Form_ Active.json](<Quirk Form_ Active.json>) |
 | Quirk-Centered Fighter | `Quirk-Centered Fighter` | [Quirk-Centered Fighter.json](<Quirk-Centered Fighter.json>) |
 | Quirkless | `Quirkless` | [Quirkless.json](<Quirkless.json>) |
 | Railstorm Quirk | `Railstorm Quirk` | [Railstorm Quirk.json](<Railstorm Quirk.json>) |

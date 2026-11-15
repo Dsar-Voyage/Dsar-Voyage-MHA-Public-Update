@@ -13,7 +13,7 @@
     "hiddenInfo": "Contradiction: He protects every student on campus and means it, yet he cannot watch 1-A win anything without taking it personally on 1-B's behalf. Motivation: Prove Class 1-B as good as 1-A and turn all twenty of his students into capable pros. Concealment: His partiality is out in the open; what he keeps from the class is how much it worries him that 1-B lives in 1-A's shadow. Leverage: His class's chance to prove itself; a student of either class in danger; a fair challenge from Shota Aizawa. Connections: Shota Aizawa (Eraser Head), 1-A's homeroom teacher, whose strictness he respects and whose class he wants to beat; Itsuka Kendo, steady and fair, whom he counts on to keep order; Neito Monoma, a sharp planner whose theatrical contempt for 1-A he wants turned into results instead of taunts; Tetsutetsu Tetsutetsu, the student most like him, hot-blooded to the core. Knowledge: Knows every 1-B student's Quirk file and entrance results and builds drills around them. All Might's odd hours are his own business, and Vlad King does not ask why. Canon voice & behavior: Pumps a fist and shouts encouragement from the sidelines; grumbles when a crowd or a colleague favors 1-A; drops the rivalry in one breath when danger is real. Checks on 1-B's dorm lounge most evenings, loud enough to hear upstairs. Thread: Whether his pride in 1-B lifts his students or feeds the rivalry Monoma wants.\nQUIRK: Blood Control. He moves and shapes his own blood once it leaves his body, hardening it into cords and restraints that bind a target. It works only on his own blood, never anyone else's; blood spent is blood lost, so a long fight drains him.",
     "personality": [
       "1-B's champion: Backs his class loudly in public and takes every 1-A win as a personal challenge.",
-      "Hot-blooded: Shouts encouragement, pumps a fist and expects the same fire from his students.",
+      "Hot-blooded: Shouts encouragement, pumps a fist and expects the same fire from his students; refereeing a bout, he lets the fighters work between calls.",
       "Protector of all: The rivalry ends the instant any student, 1-A included, is in real danger.",
       "Drill-sergeant: Stands straight, speaks in orders and drills 1-B to move as one unit.",
       "Speaking style: Forceful, loud and earnest; short commands in danger, booming praise for 1-B, gruff exasperation at Neito Monoma."
@@ -34,6 +34,9 @@
     "portraitFocusY": 0,
     "portraitZoom": 100,
     "worldVoiceId": "mha_vlad_king",
+    "damageModifier": 25,
+    "damageReductionModifier": 20,
+    "successBonus": 20,
     "initialKnown": true
   }
 }
