@@ -1,4 +1,4 @@
-# triggerDefinitions: 948 entries (11.14)
+# triggerDefinitions: 957 entries (11.15)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -53,6 +53,12 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Battle Trial: round 5 (Class 1-B) [2v2 Yanagi] | `Battle Trial: round 5 (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ round 5 (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ round 5 (Class 1-B) [2v2 Yanagi].json>) |
 | Battle Trial: round 5 ends (Class 1-A) | `Battle Trial: round 5 ends (Class 1-A)` | [Battle Trial_ round 5 ends (Class 1-A).json](<Battle Trial_ round 5 ends (Class 1-A).json>) |
 | Battle Trial: round 5 ends (Class 1-B) | `Battle Trial: round 5 ends (Class 1-B)` | [Battle Trial_ round 5 ends (Class 1-B).json](<Battle Trial_ round 5 ends (Class 1-B).json>) |
+| Battle Trial: the player's match (Class 1-A) | `Battle Trial: the player's match (Class 1-A)` | [Battle Trial_ the player's match (Class 1-A).json](<Battle Trial_ the player's match (Class 1-A).json>) |
+| Battle Trial: the player's match (Class 1-A) [2v2 Kirishima] | `Battle Trial: the player's match (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ the player's match (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ the player's match (Class 1-A) [2v2 Kirishima].json>) |
+| Battle Trial: the player's match (Class 1-A) [2v2 Sero] | `Battle Trial: the player's match (Class 1-A) [2v2 Sero]` | [Battle Trial_ the player's match (Class 1-A) [2v2 Sero].json](<Battle Trial_ the player's match (Class 1-A) [2v2 Sero].json>) |
+| Battle Trial: the player's match (Class 1-B) | `Battle Trial: the player's match (Class 1-B)` | [Battle Trial_ the player's match (Class 1-B).json](<Battle Trial_ the player's match (Class 1-B).json>) |
+| Battle Trial: the player's match (Class 1-B) [2v2 Tokage] | `Battle Trial: the player's match (Class 1-B) [2v2 Tokage]` | [Battle Trial_ the player's match (Class 1-B) [2v2 Tokage].json](<Battle Trial_ the player's match (Class 1-B) [2v2 Tokage].json>) |
+| Battle Trial: the player's match (Class 1-B) [2v2 Yanagi] | `Battle Trial: the player's match (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ the player's match (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ the player's match (Class 1-B) [2v2 Yanagi].json>) |
 | Campus Schedule: 1A-1 | `Campus Schedule: 1A-1` | [Campus Schedule_ 1A-1.json](<Campus Schedule_ 1A-1.json>) |
 | Campus Schedule: 1A-2 | `Campus Schedule: 1A-2` | [Campus Schedule_ 1A-2.json](<Campus Schedule_ 1A-2.json>) |
 | Campus Schedule: 1B-1 | `Campus Schedule: 1B-1` | [Campus Schedule_ 1B-1.json](<Campus Schedule_ 1B-1.json>) |
@@ -65,6 +71,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Campus: off for the war | `Campus: off for the war` | [Campus_ off for the war.json](<Campus_ off for the war.json>) |
 | Canon Beat: Battle Trial: Heroes and Villains | `Canon Beat: Battle Trial: Heroes and Villains` | [Canon Beat_ Battle Trial_ Heroes and Villains.json](<Canon Beat_ Battle Trial_ Heroes and Villains.json>) |
 | Canon Beat: The First-Day Quirk Assessment | `Canon Beat: The First-Day Quirk Assessment` | [Canon Beat_ The First-Day Quirk Assessment.json](<Canon Beat_ The First-Day Quirk Assessment.json>) |
+| Canon Beat: USJ climax clock | `Canon Beat: USJ climax clock` | [Canon Beat_ USJ climax clock.json](<Canon Beat_ USJ climax clock.json>) |
 | Care Note: Hosu General Hospital | `Care Note: Hosu General Hospital` | [Care Note_ Hosu General Hospital.json](<Care Note_ Hosu General Hospital.json>) |
 | Care Note: Jaku General Hospital | `Care Note: Jaku General Hospital` | [Care Note_ Jaku General Hospital.json](<Care Note_ Jaku General Hospital.json>) |
 | Care Note: Musutafu General Hospital | `Care Note: Musutafu General Hospital` | [Care Note_ Musutafu General Hospital.json](<Care Note_ Musutafu General Hospital.json>) |
@@ -77,6 +84,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Calendar 2 | `Clock: Calendar 2` | [Clock_ Calendar 2.json](<Clock_ Calendar 2.json>) |
 | Clock: Calendar 3 | `Clock: Calendar 3` | [Clock_ Calendar 3.json](<Clock_ Calendar 3.json>) |
 | Clock: Date Sync | `Clock: Date Sync` | [Clock_ Date Sync.json](<Clock_ Date Sync.json>) |
+| Clock: day numbers in the player's words | `Clock: day numbers in the player's words` | [Clock_ day numbers in the player's words.json](<Clock_ day numbers in the player's words.json>) |
 | Clock: Dusk Cue | `Clock: Dusk Cue` | [Clock_ Dusk Cue.json](<Clock_ Dusk Cue.json>) |
 | Clock: native follow | `Clock: native follow` | [Clock_ native follow.json](<Clock_ native follow.json>) |
 | Clock: native sync | `Clock: native sync` | [Clock_ native sync.json](<Clock_ native sync.json>) |
@@ -727,6 +735,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Quest Offer: dispatcher 4 | `Quest Offer: dispatcher 4` | [Quest Offer_ dispatcher 4.json](<Quest Offer_ dispatcher 4.json>) |
 | Quest Offer: dispatcher 5 | `Quest Offer: dispatcher 5` | [Quest Offer_ dispatcher 5.json](<Quest Offer_ dispatcher 5.json>) |
 | Quest Offer: dispatcher 6 | `Quest Offer: dispatcher 6` | [Quest Offer_ dispatcher 6.json](<Quest Offer_ dispatcher 6.json>) |
+| Quirk: gives out at 100 | `Quirk: gives out at 100` | [Quirk_ gives out at 100.json](<Quirk_ gives out at 100.json>) |
 | Record Guard: All Might | `Record Guard: All Might` | [Record Guard_ All Might.json](<Record Guard_ All Might.json>) |
 | Record Guard: students (before the story) | `Record Guard: students (before the story)` | [Record Guard_ students (before the story).json](<Record Guard_ students (before the story).json>) |
 | Resources: stamina floor | `Resources: stamina floor` | [Resources_ stamina floor.json](<Resources_ stamina floor.json>) |

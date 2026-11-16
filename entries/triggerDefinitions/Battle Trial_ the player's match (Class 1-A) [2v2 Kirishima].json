@@ -1,0 +1,42 @@
+{
+  "Battle Trial: the player's match (Class 1-A) [2v2 Kirishima]": {
+    "name": "Battle Trial: the player's match (Class 1-A) [2v2 Kirishima]",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 3
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "Ground Beta"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "equals",
+        "value": 1
+      },
+      {
+        "type": "read-number",
+        "key": "btMode",
+        "operator": "equals",
+        "value": 1
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: this round is the player's own match. Play it over several turns, one stretch per turn (the plan at the start line, the approach, first contact, the fight for the bomb or the capture), and end each turn on something the player must answer. Never resolve the whole match in one turn, and teammates never finish it while the player only watches."
+      }
+    ]
+  }
+}

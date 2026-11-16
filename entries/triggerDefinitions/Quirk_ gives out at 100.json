@@ -1,0 +1,17 @@
+{
+  "Quirk: gives out at 100": {
+    "name": "Quirk: gives out at 100",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const one=r=>{let v=check({type:'player-resource',resource:r});if(v&&typeof v==='object'){const xs=Object.values(v).filter(x=>typeof x==='number');v=xs.length?Math.min(...xs):null;}return typeof v==='number'?v:null;};const s=one('Quirk Strain'),h=one('health');if(s===null||h===null){skip=true;return;}const Q=storage.qOut||(storage.qOut={o:0,mx:0});if(h>Q.mx)Q.mx=h;if(Q.o&&s<60){Q.o=0;log('quirk back '+Math.round(s));skip=true;return;}const cb=check({type:'npc-in-combat',npc:'anySceneNPC'}),fight=cb===true||(cb&&typeof cb==='object'&&Object.values(cb).some(v=>v===true));if(Q.o&&typeof Q.h==='number'&&h<Q.h&&!fight){const back=Q.h-h;effects.push({type:'player-resource',resource:'health',operator:'add',value:back,target:'satisfyingPlayers'});log('quirk out refund '+back);}else if(Q.o)Q.h=h;if(!Q.o&&s>=100){Q.o=1;const d=Math.min(h-1,Math.round(Math.max(Q.mx,(storage.pcHurt&&storage.pcHurt.mx)||0)*0.1));Q.h=h-Math.max(d,0);if(d>0)effects.push({type:'player-resource',resource:'health',operator:'subtract',value:d,target:'satisfyingPlayers'});effects.push({type:'story',instruction:'Narrator only: the player character\\'s Quirk has hit its limit (Quirk Strain 100) and gives out: show the power dying out mid-use and the limb going numb, shaking and useless, not a new wound or a break (the one injury it costs is already counted: no more health is lost for it). Until their Strain falls below 60, every attempt to use the Quirk fizzles, with no new injury.'});log('quirk out, give-out injury '+d);return;}if(Q.o){effects.push({type:'story',instruction:'Narrator only: the player character\\'s Quirk is still out (Quirk Strain '+Math.round(s)+'): any attempt to use it this turn fizzles; it costs no health and adds no injury.'});log('quirk still out '+Math.round(s));return;}skip=true;})();"
+  }
+}

@@ -6,6 +6,29 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.15 — Polish + Izuku Fix (published 2026-11-15)
+
+Downed fighters stay down (alive) until treated, and a downed party member leaves the party until they recover, which
+ends the loop where Izuku was knocked out, revived at 1 health and knocked out again. A player's own self-breaking Quirk
+costs Quirk Strain, never health; at 100 Strain it gives out once (one small injury, applied by a trigger) and fizzles
+until Strain falls below 60. The USJ climax keeps canon timing; your own Battle Trial match plays over several turns,
+round 5 ends, costumes show at Ground Beta; spars, referees and long fights read better; Dark Shadow stays with
+Tokoyami; "skip to day 3" means the header's Day 3; healing works on titled names.
+Full per-entry list: [`releases/11.15.changes.md`](releases/11.15.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | 9 added: `Quirk: gives out at 100`, `Canon Beat: USJ climax clock`, `Clock: day numbers in the player's words`, six `Battle Trial: the player's match ...`. Changed: `Combat: turning points` (stays down, out of the party), `Combat: fight director`, `Combat: bout referee`, `Combat: healing scales`, `Battle Trial: round 5 ends ...`, `Companion: Dark Shadow`, `Clock: Skip Days`, `Day Plan: after a skip`, plus the data loaders (`Pack: load ...`, `Event Lazy: load ...`, `Prune: ...`, `Wardrobe: ...`). | **Remix:** replace the whole section. **Running save:** copy the added entries and `Combat: turning points` into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `resourceSettings` | Health is never deducted for the character's own Quirk; Strain is the Quirk's only cost. | whole section |
+| `aiInstructions` | Drawback stages and Pushed Through in Action Resolution; a canon namesake's injuries never carry over; fight variety and referee pacing. | the modified entries |
+| `parties.narrativeEvents`, `parties.quests`, `parties.questTriggers` | The USJ Attack beats; Battle Trial objective "with your team". | the modified entries |
+| `npcs`, `storyStarts` | Vlad King referees quietly; the Sidekick start's commuter stays quiet. | the changed entries, field by field (never the whole section) |
+
+**Running saves:** the Quirk fix needs both the new `resourceSettings` and the `Quirk: gives out at 100` trigger. A new
+game is the clean way to get everything.
+
+---
+
 ## 11.14 — PLUS ULTRA combat (published 2026-11-14)
 
 A complete combat overhaul. Fights open on the ground and play out as wind-up, hit and cost; foes reach turning points

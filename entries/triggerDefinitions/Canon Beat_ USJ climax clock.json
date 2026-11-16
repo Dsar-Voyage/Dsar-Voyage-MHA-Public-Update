@@ -1,0 +1,17 @@
+{
+  "Canon Beat: USJ climax clock": {
+    "name": "Canon Beat: USJ climax clock",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "usj_attack",
+        "operator": "equals",
+        "value": "active"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const B=[[5, \"the Nomu overwhelms Shota Aizawa and pins him to the plaza; in the chaos Tenya Iida slips out through the doors to run for help\"], [8, \"All Might bursts through the USJ doors (\\\"I am here!\\\") and goes straight for the Nomu to free Aizawa and the students\"], [12, \"All Might drives the Nomu up through the dome roof into the sky; the clash ends there\"], [15, \"All Might's time runs out and he bluffs as Shigaraki advances; the faculty arrive with Iida, Snipe's shots stop Shigaraki, and Shigaraki and Kurogiri escape through the mist\"]];const tk=check({type:'game-tick'})||0;if(typeof storage.usjT!=='number')storage.usjT=tk;const age=tk-storage.usjT;const b=B.filter(x=>age>=x[0]&&age<=x[0]+1)[0];if(!b){skip=true;return;}effects.push({type:'story',instruction:'Narrator only, USJ pacing (canon default, pressure the player can change): unless the story already went past this beat or the player changed it, this turn '+b[1]+'. Play it on screen; do not stall on the previous beat.'});log('usj beat '+b[0]+' age '+age);})();"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "Clock: day numbers in the player's words": {
+    "name": "Clock: day numbers in the player's words",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b[Dd]ay ?[0-9]"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: \"Day N\" in the player's words is the day count in the header: Day 1 is Sunday, March 31, Day 2 is Monday, April 1, Day 3 is Tuesday, April 2, and so on. It never means the Nth of a month; name the weekday and date that match, and keep them the same in every line of the turn."
+      }
+    ]
+  }
+}
