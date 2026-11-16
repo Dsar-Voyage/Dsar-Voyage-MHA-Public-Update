@@ -1,4 +1,4 @@
-# traits: 1146 entries (11.15)
+# traits: 1147 entries (11.16)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -884,6 +884,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Quirk Endurance | `Quirk Endurance` | [Quirk Endurance.json](<Quirk Endurance.json>) |
 | Quirk Form: Active | `Quirk Form: Active` | [Quirk Form_ Active.json](<Quirk Form_ Active.json>) |
 | Quirk-Centered Fighter | `Quirk-Centered Fighter` | [Quirk-Centered Fighter.json](<Quirk-Centered Fighter.json>) |
+| Quirk: Given Out | `Quirk: Given Out` | [Quirk_ Given Out.json](<Quirk_ Given Out.json>) |
 | Quirkless | `Quirkless` | [Quirkless.json](<Quirkless.json>) |
 | Railstorm Quirk | `Railstorm Quirk` | [Railstorm Quirk.json](<Railstorm Quirk.json>) |
 | Rainbow Hair | `Rainbow Hair` | [Rainbow Hair.json](<Rainbow Hair.json>) |

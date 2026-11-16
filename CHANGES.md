@@ -6,6 +6,28 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.16 — Day One + Fight Polish (published 2026-11-16)
+
+No Battle Trial on day one: on Monday April 1 the clock note says the timetable does not run yet (no costumes, Hero
+Studies, Ground Beta or trial), both day-2 plans say so, and the Courtyard's bus line applies on lesson days only. A
+downed fighter cannot stand, reach for a weapon or crawl off, and is released once treated (5+ health) so they can
+rejoin the party; "fight ... with NAME" keeps an ally on your team (only spar/duel/bout wording makes an opponent). A
+"Quirk: Given Out" trait makes every use fizzle while the Quirk is out, Strain gained while out is taken back, health
+lost to your own Quirk outside fights is refunded, and four Drawbacks call the give-out "its one give-out injury".
+Fights stop closing every exchange on the same look or stance.
+Full per-entry list: [`releases/11.16.changes.md`](releases/11.16.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | `Clock: Show Time`, `Day Plan: day 2 [1-A]`, `Day Plan: day 2 [1-B]` (day one), `Combat: turning points`, `Combat: fight director`, `Combat: spar opponent leaves the party`, `Quirk: gives out at 100`, plus data loaders `Pack: load 72-74`. 10 changed. | **Running save:** copy the named entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `traits` | Added `Quirk: Given Out` (needed by the give-out trigger); `Drawback: Recoil`, `Overheating`, `Sensory Overload`, `Bodily Toll` reworded. | the added and modified entries |
+| `resourceSettings` | Quirk Strain: nothing added while the Quirk is out; no health cost at 80+ or 100. | whole section |
+| `locations` | U.A. Academy: the Courtyard's bus line (lesson days only). | field by field |
+
+**Running saves already past Monday April 1** don't need the day-one changes.
+
+---
+
 ## 11.15 — Polish + Izuku Fix (published 2026-11-15)
 
 Downed fighters stay down (alive) until treated, and a downed party member leaves the party until they recover, which

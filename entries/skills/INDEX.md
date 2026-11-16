@@ -1,4 +1,4 @@
-# skills: 66 entries (11.15)
+# skills: 66 entries (11.16)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
