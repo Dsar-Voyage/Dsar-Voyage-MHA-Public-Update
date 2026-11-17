@@ -6,6 +6,25 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.16.1 — Patch: Training + Fair Fights (published 2026-11-16)
+
+One training action is one drill or set unless the player asks for longer, and the body's toll follows Quirk Strain
+(below 60, no broken bones from ordinary training): one line in `generateStory` > MHA Days and Parties. New characters
+use the NPC health formula (health 200 at level 1, +20 per level; Endurance still adds on top); saves keep their own
+maximum. Parting words ("See you later, Kirishima", "I'm heading off alone") take the named party members out of the
+party, and a companion the story has not named for 5 turns goes their own way; a classmate in your room follows you only
+when the story ties them to the move. A second stage-record guard runs right after the story, so "(Summer Training)"
+copies never show for a turn. On move-in night the clock says Monday is the assessment and guidance only.
+Full per-entry list: [`releases/11.16.1.changes.md`](releases/11.16.1.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | Added `Party: parting and quiet companions`, `Record Guard: students (after the story)`; changed `Clock: Show Time`, the six `Follow: ... (before the story)` scripts. The `Pack: load` / `Event Lazy: load` changes are only re-packed data loaders. | **Running save:** copy the named entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `aiInstructions` | `generateStory` (MHA Days and Parties: training pace and the Path line). | whole `generateStory` entry |
+| `resourceSettings` | Health: initial 200, +20 per level. Affects new characters only. | whole section (optional for running saves) |
+
+---
+
 ## 11.16 — Day One + Fight Polish (published 2026-11-16)
 
 No Battle Trial on day one: on Monday April 1 the clock note says the timetable does not run yet (no costumes, Hero

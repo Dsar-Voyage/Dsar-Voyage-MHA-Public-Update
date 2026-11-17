@@ -1,4 +1,4 @@
-# triggerDefinitions: 957 entries (11.16)
+# triggerDefinitions: 959 entries (11.16.1)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -546,6 +546,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Pack: load 82 | `Pack: load 82` | [Pack_ load 82.json](<Pack_ load 82.json>) |
 | Pack: load 83 | `Pack: load 83` | [Pack_ load 83.json](<Pack_ load 83.json>) |
 | Pack: load 9 | `Pack: load 9` | [Pack_ load 9.json](<Pack_ load 9.json>) |
+| Party: parting and quiet companions | `Party: parting and quiet companions` | [Party_ parting and quiet companions.json](<Party_ parting and quiet companions.json>) |
 | Path: off campus [Civilian Life] | `Path: off campus [Civilian Life]` | [Path_ off campus [Civilian Life].json](<Path_ off campus [Civilian Life].json>) |
 | Path: off campus [Independent Villain] | `Path: off campus [Independent Villain]` | [Path_ off campus [Independent Villain].json](<Path_ off campus [Independent Villain].json>) |
 | Path: off campus [League of Villains Recruit] | `Path: off campus [League of Villains Recruit]` | [Path_ off campus [League of Villains Recruit].json](<Path_ off campus [League of Villains Recruit].json>) |
@@ -737,6 +738,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Quest Offer: dispatcher 6 | `Quest Offer: dispatcher 6` | [Quest Offer_ dispatcher 6.json](<Quest Offer_ dispatcher 6.json>) |
 | Quirk: gives out at 100 | `Quirk: gives out at 100` | [Quirk_ gives out at 100.json](<Quirk_ gives out at 100.json>) |
 | Record Guard: All Might | `Record Guard: All Might` | [Record Guard_ All Might.json](<Record Guard_ All Might.json>) |
+| Record Guard: students (after the story) | `Record Guard: students (after the story)` | [Record Guard_ students (after the story).json](<Record Guard_ students (after the story).json>) |
 | Record Guard: students (before the story) | `Record Guard: students (before the story)` | [Record Guard_ students (before the story).json](<Record Guard_ students (before the story).json>) |
 | Resources: stamina floor | `Resources: stamina floor` | [Resources_ stamina floor.json](<Resources_ stamina floor.json>) |
 | Reveal: Gunga Mountain Villa (after the war) | `Reveal: Gunga Mountain Villa (after the war)` | [Reveal_ Gunga Mountain Villa (after the war).json](<Reveal_ Gunga Mountain Villa (after the war).json>) |

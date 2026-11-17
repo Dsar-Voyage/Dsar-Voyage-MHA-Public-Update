@@ -1,13 +1,13 @@
-# Sections (11.16)
+# Sections (11.16.1)
 
 Every section of the world, as one file in [`sections/`](sections/). The big sections are also split
 into one file per entry in [`entries/`](entries/). **content** and **settings** sections are safe to
 copy into your own save; leave **meta** sections alone.
 
-| Section | Category | What it holds | Size | Entries | Changed in 11.16 |
+| Section | Category | What it holds | Size | Entries | Changed in 11.16.1 |
 |---|---|---|---|---|---|
 | [abilities](sections/abilities.json) · [entries](entries/abilities/INDEX.md) | content | Every Quirk technique and ability, with unlock levels and effects | 998,153 B | 1315 | no |
-| [aiInstructions](sections/aiInstructions.json) · [entries](entries/aiInstructions/INDEX.md) | settings | Narrator and engine instruction blocks (story, NPCs, encounters, starts) | 299,186 B | 18 | no |
+| [aiInstructions](sections/aiInstructions.json) · [entries](entries/aiInstructions/INDEX.md) | settings | Narrator and engine instruction blocks (story, NPCs, encounters, starts) | 299,186 B | 18 | **yes** |
 | [attributeSettings](sections/attributeSettings.json) | settings | Attributes and their modifiers | 602 B |  | no |
 | [authorSeeds](sections/authorSeeds.json) | content | Writing-style seeds for the narrator | 1,353 B |  | no |
 | [characterArchetypes](sections/characterArchetypes.json) · [entries](entries/characterArchetypes/INDEX.md) | content | Templates for generated characters | 8,480 B | 22 | no |
@@ -27,7 +27,7 @@ copy into your own save; leave **meta** sections alone.
 | [itemTypes](sections/itemTypes.json) · [entries](entries/itemTypes/INDEX.md) | content | Every item: gear, costumes, food, documents, currency | 59,984 B | 87 | no |
 | [locationArchetypes](sections/locationArchetypes.json) · [entries](entries/locationArchetypes/INDEX.md) | content | Templates for generated locations | 3,622 B | 11 | no |
 | [locationSettings](sections/locationSettings.json) | settings | Location rules | 261 B |  | no |
-| [locations](sections/locations.json) · [entries](entries/locations/INDEX.md) | content | Every place, its areas, pictures and hidden info | 696,621 B | 62 | **yes** |
+| [locations](sections/locations.json) · [entries](entries/locations/INDEX.md) | content | Every place, its areas, pictures and hidden info | 696,621 B | 62 | no |
 | [mods](sections/mods.json) | meta | Installed mods | 60 B |  | no |
 | [nameFilterSettings](sections/nameFilterSettings.json) | settings | Name filter rules | 2,749 B |  | no |
 | [narratorStyle](sections/narratorStyle.json) | settings | Narrator voice | 1,972 B |  | no |
@@ -53,7 +53,7 @@ copy into your own save; leave **meta** sections alone.
 | [successLevelSettings](sections/successLevelSettings.json) | settings | Success level narration | 3,258 B |  | no |
 | [tipSettings](sections/tipSettings.json) | settings | Loading tips | 2,029 B |  | no |
 | [traitCategories](sections/traitCategories.json) · [entries](entries/traitCategories/INDEX.md) | content | Trait categories (Paths, Quirk families, backgrounds ...) | 68,000 B | 18 | no |
-| [traits](sections/traits.json) · [entries](entries/traits/INDEX.md) | content | Every trait: Paths, Quirks, backgrounds and their narrator rules | 1,402,527 B | 1147 | **yes** |
-| [triggerDefinitions](sections/triggerDefinitions.json) · [entries](entries/triggerDefinitions/INDEX.md) | content | Every trigger: the clock, skips, events, wardrobe, travel ... | 2,626,538 B | 957 | **yes** |
+| [traits](sections/traits.json) · [entries](entries/traits/INDEX.md) | content | Every trait: Paths, Quirks, backgrounds and their narrator rules | 1,402,527 B | 1147 | no |
+| [triggerDefinitions](sections/triggerDefinitions.json) · [entries](entries/triggerDefinitions/INDEX.md) | content | Every trigger: the clock, skips, events, wardrobe, travel ... | 2,634,578 B | 959 | **yes** |
 | [worldLore](sections/worldLore.json) · [entries](entries/worldLore/INDEX.md) | content | World lore entries | 107,337 B | 93 | no |
 | [worldVoices](sections/worldVoices.json) · [entries](entries/worldVoices/INDEX.md) | settings | Voice assignments | 65,567 B | 147 | no |
