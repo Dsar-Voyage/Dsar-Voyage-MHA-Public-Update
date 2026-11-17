@@ -1,4 +1,4 @@
-# abilities: 1315 entries (11.16.1)
+# abilities: 1315 entries (11.17)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

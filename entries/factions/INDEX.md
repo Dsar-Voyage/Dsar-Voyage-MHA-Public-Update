@@ -1,4 +1,4 @@
-# factions: 11 entries (11.16.1)
+# factions: 11 entries (11.17)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

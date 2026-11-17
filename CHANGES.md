@@ -6,6 +6,23 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.17 — Bonds That Feel Like Bonds (published 2026-11-17)
+
+People at Close and above sometimes take the first step when they share a scene with you (a gym invite, a saved seat,
+a rematch); Trusted ones confide, come looking when you are hurt and take your side. An invitation, challenge or
+reminder you ignore or decline comes back at most once that day, never as an order. A knocked-out or downed foe stays
+flat even when you order them up. Recovery Girl's Errand completes once her errands and patient are handled and she has
+told you something her healing costs or cannot do. No new scores, stages or romance mechanics.
+Full per-entry list: [`releases/11.17.changes.md`](releases/11.17.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `aiInstructions` | `generateNPCIntents` (MHA Initiative and Bonds: the FRIENDSHIP AND BONDS and ROMANCE parts, and the one-more-time rule). | whole `generateNPCIntents` entry |
+| `triggerDefinitions` | `Combat: turning points` (downed and knocked-out foes stay flat when ordered up). The `Pack: load` / `Event Lazy: load` changes are only re-packed data loaders. | **Running save:** copy `Combat: turning points` into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `parties.quests`, `parties.questTriggers` | `Recovery Girl's Errand`: completion condition, objective and brief. | the quest's fields (keep its status) and its quest trigger |
+
+---
+
 ## 11.16.1 — Patch: Training + Fair Fights (published 2026-11-16)
 
 One training action is one drill or set unless the player asks for longer, and the body's toll follows Quirk Strain

@@ -1,4 +1,4 @@
-# traitCategories: 18 entries (11.16.1)
+# traitCategories: 18 entries (11.17)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
