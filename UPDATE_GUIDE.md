@@ -45,7 +45,8 @@ flowchart TD
 
 ## Step by step (running game)
 
-1. **Back up.** Copy your save's JSON before changing anything.
+1. **Back up.** In game, **Settings → Game → Save a Copy** (the copy appears on your home page), or copy your
+   save's JSON before changing anything.
 2. **Find what changed.** [`CHANGES.md`](CHANGES.md) lists every update; [`releases/<release>.changes.md`](releases/)
    names each added, modified and removed entry.
 3. **Open the editor.** In game: **Settings → Creator Tools → State Editor**. The sidebar lists the save's sections
@@ -57,6 +58,10 @@ flowchart TD
    events already ran, which loaders already unpacked, your storage values), so pasting a whole trigger list over
    it would reset your game. Replace only the entries the release lists: open `entries/<section>/INDEX.md`, find the
    entry by name, and paste its value over the entry with the same key. Add new keys; delete removed ones.
+   - **Adding a new trigger:** triggers run in the order they are listed, so put a new one where the release says
+     (for example `Combat: animals stay dead` goes right after `Combat: turning points`). Search the trigger it
+     follows, go to the `}` that closes it, type a comma, and paste the new entry as `"Name": { ... }`. Paste it
+     exactly as published: don't add fields such as `embeddingId`.
 6. **Other sections can be pasted whole** (for example `aiInstructions`, `traits`): select everything in that
    section and paste `sections/<section>.json`. The editor compares by value, so an identical section shows
    "0 changes".
@@ -82,6 +87,7 @@ flowchart TD
 |---|---|---|
 | `npcs > <name> > status: Expecting string ... but instead got: undefined` | A whole `npcs` file was pasted into a save; save NPCs need `status`, and the save has NPCs of its own. | Discard. Update the NPCs field by field instead (step 6); never paste a whole `npcs` file into a save. |
 | `<section> > <name>: Expecting string ... but instead got: {"file": "<name>.json", "name": ..., "sha": ...}` | A file from `releases/` (a fingerprint list) was pasted. | Discard, then paste `sections/<section>.json` instead. |
+| `parties > ... > systemResults > memory > playerMemories / relevantMemoryResults / storyMemoryResults > ... > embeddingId: Expecting string ... but instead got: undefined` | Not your edit. As of November 18, 2026 the editor on voyage.io rejects **any** change to `parties` because of the save's own memory lookup results (reproduced on a fresh 8-turn save). Adding `"embeddingId": ""` or a made-up id does **not** get past it. | In the same edit, empty the three lookup lists under `parties → (your party) → systemResults → memory`: `"playerMemories": {}`, `"relevantMemoryResults": { "memories": [] }`, and `"storyMemoryResults": { "memories": [] }` (keep any other keys inside them). Then Review changes → Save. These are the memories the game looked up for the last turn (every entry has a `score`); the game rebuilds all three on your next turn (tested: 4, 8 and the story list were back after one turn). Your story, summaries and relationships are stored elsewhere and are not touched. |
 
 Nothing is saved when the editor shows this message, so your game is unchanged: press **Discard** and try again
 with the right file.
