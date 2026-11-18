@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.18 — Friends Who Show Up (built 2026-11-18 from draft 754, ahead of the world publish)
+## 11.18 — Friends Who Show Up (published 2026-11-18, draft 754)
 
 Close friends come by once a day in free time (a knock or a text, never in class, fights or events). Heights Alliance
 follows Aizawa's canon floor plan with door numbers for every student (Class 1-B's numbers are the world's own; canon
