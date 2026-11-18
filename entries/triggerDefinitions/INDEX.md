@@ -1,4 +1,4 @@
-# triggerDefinitions: 977 entries (11.18)
+# triggerDefinitions: 978 entries (11.18)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -103,6 +103,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Time Line | `Clock: Time Line` | [Clock_ Time Line.json](<Clock_ Time Line.json>) |
 | Clock: Time Line Note | `Clock: Time Line Note` | [Clock_ Time Line Note.json](<Clock_ Time Line Note.json>) |
 | Clock: Your Own Start Date | `Clock: Your Own Start Date` | [Clock_ Your Own Start Date.json](<Clock_ Your Own Start Date.json>) |
+| Combat: animals stay dead | `Combat: animals stay dead` | [Combat_ animals stay dead.json](<Combat_ animals stay dead.json>) |
 | Combat: bout referee | `Combat: bout referee` | [Combat_ bout referee.json](<Combat_ bout referee.json>) |
 | Combat: challenge in fights | `Combat: challenge in fights` | [Combat_ challenge in fights.json](<Combat_ challenge in fights.json>) |
 | Combat: fight director | `Combat: fight director` | [Combat_ fight director.json](<Combat_ fight director.json>) |

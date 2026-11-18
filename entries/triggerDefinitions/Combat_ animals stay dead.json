@@ -1,0 +1,17 @@
+{
+  "Combat: animals stay dead": {
+    "name": "Combat: animals stay dead",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "npc-health",
+        "npc": "anySceneNPC",
+        "operator": "lessThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const T=storage.cbTP||{};const H=check({type:'npc-health',npc:'anySceneNPC'})||{};const AN=/\\b(birds?|crows?|pigeons?|pheasants?|gulls?|owls?|ducks?|deer|boars?|foxe?s?|tanuki|macaques?|monkeys?|bears?|rabbits?|hares?|wolf|wolves|snakes?|rats?|dogs?|cats?|animal|beast)\\b/i;const out=[];for(const n of Object.keys(H)){const b=n.replace(/ \\([^)]*\\)$/,'');if(!AN.test(b)||b==='Hound Dog')continue;const t=T[n];if(!t||t.s!==3||!t.r)continue;effects.push({type:'npc-health',npc:n,operator:'set',value:0});T[n]={s:3,t:t.t};out.push(b);}if(!out.length){skip=true;return;}effects.push({type:'story',instruction:'Narrator only: '+out.join(' and ')+(out.length>1?' are':' is')+' dead (an animal, not a knocked-out person; ignore any alive note for it): it does not get back up.'});log('animal dead '+out.join(', '));})();"
+  }
+}

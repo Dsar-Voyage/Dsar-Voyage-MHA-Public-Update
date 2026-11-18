@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.18 — Friends Who Show Up (built 2026-11-18 from draft 745, ahead of the world publish)
+## 11.18 — Friends Who Show Up (built 2026-11-18 from draft 754, ahead of the world publish)
 
 Close friends come by once a day in free time (a knock or a text, never in class, fights or events). Heights Alliance
 follows Aizawa's canon floor plan with door numbers for every student (Class 1-B's numbers are the world's own; canon
@@ -15,14 +15,19 @@ move-in night stays Sunday, one sleep = one day, a Write Your Own opening can na
 hold lets go after three held turns. Training shows measurable results and every third counted day on a skill raises it
 one level. Finished quests no longer leap a bond (the engine's +15 is trimmed to +4 / +1). New drawback: Emotional
 Swing. New people's Quirks have limits instead of default pain. The narrator never plays the player character. Items
-used up count once; quests close when really done; unnamed foes stay down.
+used up count once; quests close when really done; unnamed foes stay down. Smarter narration: the narrator style and
+the story task's turn structure were merged with Kokey [BIFS]'s template (who is here, turn boundaries, character
+behavior). Animals can die: a person at zero health is down, an animal at zero health is dead, and the knockout
+safety no longer brings an animal foe back on 1 HP.
 Full per-entry list: [`releases/11.18.changes.md`](releases/11.18.changes.md).
 
 | Section | What changed | Copy |
 |---|---|---|
-| `triggerDefinitions` | Added 18 (`Bonds: a close friend comes by`, `Bonds: quest rewards stay small`, `Clock: Battle Trial release`, `Clock: Your Own Start Date`, `Combat: the downed stay down`, `Dorms: room map note`, the three `Housing: ... player's places`, `Scene: changing rooms keep sides`, `Scene: dorms keep their class`, `Training: progress shows`, the three `Travel: my homeroom (...)` and three `Travel: my kitchen (...)`); changed `Canon Beat: The First-Day Quirk Assessment`, `Clock: Date Sync`, `Clock: Show Time`, `Clock: Skip Days`, `Clock: Sleep`, `Clock: Start`, `Combat: turning points`, `Mechanics: Quirkless cleanup`, `Prune: path dispatcher 1/2`, `Travel: leave (U.A.)`. The `Pack: load` / `Event Lazy: load` changes are only re-packed data loaders. | **Running save:** copy the named entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)); never re-add one-shot triggers your save already ran |
-| `aiInstructions` | 12 tasks: WORLD RULES (housing, Quirk limits) in all copies, `generateStory` (Player Agency, dialogue order, no faux profundity), `generateNewNPC` / `generateNPCDetails` (limits, not default pain), `generateNPCUpdates` (quest-sized bond gains), `ItemGenerationAndUsage` (one use, one unit). | whole entries |
+| `triggerDefinitions` | Added 19 (`Bonds: a close friend comes by`, `Bonds: quest rewards stay small`, `Clock: Battle Trial release`, `Clock: Your Own Start Date`, `Combat: animals stay dead` (place it right after `Combat: turning points`), `Combat: the downed stay down`, `Dorms: room map note`, the three `Housing: ... player's places`, `Scene: changing rooms keep sides`, `Scene: dorms keep their class`, `Training: progress shows`, the three `Travel: my homeroom (...)` and three `Travel: my kitchen (...)`); changed `Canon Beat: The First-Day Quirk Assessment`, `Clock: Date Sync`, `Clock: Show Time`, `Clock: Skip Days`, `Clock: Sleep`, `Clock: Start`, `Combat: turning points`, `Mechanics: Quirkless cleanup`, `Prune: path dispatcher 1/2`, `Travel: leave (U.A.)`. The `Pack: load` / `Event Lazy: load` changes are only re-packed data loaders. | **Running save:** copy the named entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)); never re-add one-shot triggers your save already ran |
+| `narratorStyle` | Merged narrator style (Kokey [BIFS]'s template plus ours). | whole section |
+| `aiInstructions` | 12 tasks: WORLD RULES (housing, Quirk limits) in all copies, `generateStory` (merged turn structure, who is here, turn boundaries, character behavior; Player Agency, dialogue order, no faux profundity), `generateNewNPC` / `generateNPCDetails` (limits, not default pain), `generateNPCUpdates` (quest-sized bond gains; zero health = dead for animals), `ItemGenerationAndUsage` (one use, one unit). | whole entries |
 | `locations` | `U.A. Academy`: dorm areas (room numbers, wing maps, Dorm Rooms plan, Your Dorm Room), separate 1-A/1-B kitchens, new `Other Course Common Kitchen`. | the `U.A. Academy` entry |
+| `npcTypes` | `Animal`: an animal brought to zero health dies. | the `Animal` entry |
 | `traits`, `traitCategories` | Added `Drawback: Emotional Swing`; `Quirk Drawback` group lists it and notes which drawbacks are limits. | both entries |
 | `parties.quests`, `parties.questTriggers` | `Giran's Supply Run`, `Paying the Broker`, `Power Loader's First Assignment` (completion), `The First Lecture` (Tuesday). | the quests' fields (keep status) and their quest triggers |
 | `storySettings`, `storyStarts`, `worldLore` | Quest generation guidance (bond rewards); `Write Your Own` card (start date); `Heights Alliance Dorms` (room plan). | whole entries |
