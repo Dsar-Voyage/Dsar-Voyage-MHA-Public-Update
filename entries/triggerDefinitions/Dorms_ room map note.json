@@ -1,0 +1,24 @@
+{
+  "Dorms: room map note": {
+    "name": "Dorms: room map note",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Rr]ooms?|[Ff]loors?|[Ww]ings?|[Dd]oors?|[Uu]pstairs|[Dd]ownstairs|[Dd]orms?)\\b"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: Heights Alliance rooms, floor + slot (men's wing x01-x04, women's wing x05-x08; rooms only on floors two to five, the ground floor is common space). Class 1-A: Mineta 201, Midoriya 202, Aoyama 203, Tokoyami 204, Koda 301, Kaminari 302, Iida 303, Ojiro 304, Jiro 305, Hagakure 308, Shoji 401, Kirishima 402, Bakugo 403, Uraraka 405, Ashido 408, Sato 502, Todoroki 503, Sero 504, Yaoyorozu 505, Asui 508. Class 1-B: Monoma 201, Tetsutetsu 202, Awase 203, Kaibara 204, Kendo 205, Shiozaki 206, Tokage 207, Tsunotori 208, Honenuki 301, Kamakiri 302, Rin 303, Shishida 304, Kodai 305, Komori 306, Yanagi 307, Kuroiro 401, Bondo 402, Tsuburaba 403, Shoda 404, Fukidashi 501. A new 1-A resident takes 404 if a man or 306 if a woman (never both); a new 1-B resident 502 or 308. Everyone knows their own door and where their friends live; never give anyone another number or floor."
+      }
+    ]
+  }
+}

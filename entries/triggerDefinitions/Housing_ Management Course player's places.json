@@ -1,0 +1,24 @@
+{
+  "Housing: Management Course player's places": {
+    "name": "Housing: Management Course player's places",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Management Course"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player character is a Management Course student. Their homeroom and classes are the Management Course Classrooms; they live in the Other Course Dorm Halls and cook and eat in the Other Course Common Kitchen. They never live, cook or take their own classes in Heights Alliance or a Hero Course homeroom (visiting is fine)."
+      }
+    ]
+  }
+}

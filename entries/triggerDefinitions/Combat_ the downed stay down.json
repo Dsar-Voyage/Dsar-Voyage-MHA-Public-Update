@@ -1,0 +1,16 @@
+{
+  "Combat: the downed stay down": {
+    "name": "Combat: the downed stay down",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Gg]et up|[Ss]tand up|[Oo]n your feet|[Uu]p you get|[Ss]it up|[Gg]et on your knees"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const A=check({type:'action-text'});const t=String(Array.isArray(A)?(A[A.length-1]||''):(A||'')).replace(/\\b(I|we)\\s+(\\w+\\s+){0,2}(get|stand|sit)\\s+up\\b/gi,' ');if(!/\\b(get up|stand up|on your feet|up you get|sit up|get on your knees)\\b/i.test(t)){skip=true;return;}effects.push({type:'story',instruction:'Narrator only: if someone the player orders up was knocked out or downed in a fight and has not been treated or rested since, named or not (a thug, a villain, a sparring partner), the body will not do it: they stay flat where they fell, at most a twitch or a groan; no sitting, kneeling or standing. Anyone not downed does as they choose.'});log('downed stay down: order up');})();\n"
+  }
+}

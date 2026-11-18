@@ -6,7 +6,7 @@
     "mainObjective": "Collect Giran's crate at the Container Docks and deliver it without drawing police or heroes.",
     "completionCondition": {
       "type": "story",
-      "query": "The PC has collected the crate from the Container Docks and delivered it where Giran asked, lost it or sold it out, and Giran knows which."
+      "query": "The crate from the Container Docks has left the PC's hands in this story: handed over to the receiver or Giran, seized or lost, or sold to someone else. Arriving at the drop point, gate or door without handing it over does not count."
     },
     "detailType": "detailed",
     "questLocation": "Yokohama Harbor District",

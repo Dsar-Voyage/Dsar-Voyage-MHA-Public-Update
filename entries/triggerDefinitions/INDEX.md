@@ -1,4 +1,4 @@
-# triggerDefinitions: 959 entries (11.17)
+# triggerDefinitions: 977 entries (11.18)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -59,6 +59,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Battle Trial: the player's match (Class 1-B) | `Battle Trial: the player's match (Class 1-B)` | [Battle Trial_ the player's match (Class 1-B).json](<Battle Trial_ the player's match (Class 1-B).json>) |
 | Battle Trial: the player's match (Class 1-B) [2v2 Tokage] | `Battle Trial: the player's match (Class 1-B) [2v2 Tokage]` | [Battle Trial_ the player's match (Class 1-B) [2v2 Tokage].json](<Battle Trial_ the player's match (Class 1-B) [2v2 Tokage].json>) |
 | Battle Trial: the player's match (Class 1-B) [2v2 Yanagi] | `Battle Trial: the player's match (Class 1-B) [2v2 Yanagi]` | [Battle Trial_ the player's match (Class 1-B) [2v2 Yanagi].json](<Battle Trial_ the player's match (Class 1-B) [2v2 Yanagi].json>) |
+| Bonds: a close friend comes by | `Bonds: a close friend comes by` | [Bonds_ a close friend comes by.json](<Bonds_ a close friend comes by.json>) |
+| Bonds: quest rewards stay small | `Bonds: quest rewards stay small` | [Bonds_ quest rewards stay small.json](<Bonds_ quest rewards stay small.json>) |
 | Campus Schedule: 1A-1 | `Campus Schedule: 1A-1` | [Campus Schedule_ 1A-1.json](<Campus Schedule_ 1A-1.json>) |
 | Campus Schedule: 1A-2 | `Campus Schedule: 1A-2` | [Campus Schedule_ 1A-2.json](<Campus Schedule_ 1A-2.json>) |
 | Campus Schedule: 1B-1 | `Campus Schedule: 1B-1` | [Campus Schedule_ 1B-1.json](<Campus Schedule_ 1B-1.json>) |
@@ -80,6 +82,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Care: meal manners | `Care: meal manners` | [Care_ meal manners.json](<Care_ meal manners.json>) |
 | Care: three-day recovery cap | `Care: three-day recovery cap` | [Care_ three-day recovery cap.json](<Care_ three-day recovery cap.json>) |
 | Clock: Advance Band | `Clock: Advance Band` | [Clock_ Advance Band.json](<Clock_ Advance Band.json>) |
+| Clock: Battle Trial release | `Clock: Battle Trial release` | [Clock_ Battle Trial release.json](<Clock_ Battle Trial release.json>) |
 | Clock: Calendar 1 | `Clock: Calendar 1` | [Clock_ Calendar 1.json](<Clock_ Calendar 1.json>) |
 | Clock: Calendar 2 | `Clock: Calendar 2` | [Clock_ Calendar 2.json](<Clock_ Calendar 2.json>) |
 | Clock: Calendar 3 | `Clock: Calendar 3` | [Clock_ Calendar 3.json](<Clock_ Calendar 3.json>) |
@@ -99,6 +102,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Time Cue | `Clock: Time Cue` | [Clock_ Time Cue.json](<Clock_ Time Cue.json>) |
 | Clock: Time Line | `Clock: Time Line` | [Clock_ Time Line.json](<Clock_ Time Line.json>) |
 | Clock: Time Line Note | `Clock: Time Line Note` | [Clock_ Time Line Note.json](<Clock_ Time Line Note.json>) |
+| Clock: Your Own Start Date | `Clock: Your Own Start Date` | [Clock_ Your Own Start Date.json](<Clock_ Your Own Start Date.json>) |
 | Combat: bout referee | `Combat: bout referee` | [Combat_ bout referee.json](<Combat_ bout referee.json>) |
 | Combat: challenge in fights | `Combat: challenge in fights` | [Combat_ challenge in fights.json](<Combat_ challenge in fights.json>) |
 | Combat: fight director | `Combat: fight director` | [Combat_ fight director.json](<Combat_ fight director.json>) |
@@ -109,6 +113,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Combat: Quirk form on | `Combat: Quirk form on` | [Combat_ Quirk form on.json](<Combat_ Quirk form on.json>) |
 | Combat: Quirk form upkeep | `Combat: Quirk form upkeep` | [Combat_ Quirk form upkeep.json](<Combat_ Quirk form upkeep.json>) |
 | Combat: spar opponent leaves the party | `Combat: spar opponent leaves the party` | [Combat_ spar opponent leaves the party.json](<Combat_ spar opponent leaves the party.json>) |
+| Combat: the downed stay down | `Combat: the downed stay down` | [Combat_ the downed stay down.json](<Combat_ the downed stay down.json>) |
 | Combat: turning points | `Combat: turning points` | [Combat_ turning points.json](<Combat_ turning points.json>) |
 | Companion: Dark Shadow | `Companion: Dark Shadow` | [Companion_ Dark Shadow.json](<Companion_ Dark Shadow.json>) |
 | Companions: downed companion lives | `Companions: downed companion lives` | [Companions_ downed companion lives.json](<Companions_ downed companion lives.json>) |
@@ -187,6 +192,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Day Plan: day 5 [Management] | `Day Plan: day 5 [Management]` | [Day Plan_ day 5 [Management].json](<Day Plan_ day 5 [Management].json>) |
 | Day Plan: day 5 [Support] | `Day Plan: day 5 [Support]` | [Day Plan_ day 5 [Support].json](<Day Plan_ day 5 [Support].json>) |
 | Day Plan: Quirk test turns [1-A] | `Day Plan: Quirk test turns [1-A]` | [Day Plan_ Quirk test turns [1-A].json](<Day Plan_ Quirk test turns [1-A].json>) |
+| Dorms: room map note | `Dorms: room map note` | [Dorms_ room map note.json](<Dorms_ room map note.json>) |
 | Event Ahead: Arrival at the Forest Camp | `Event Ahead: Arrival at the Forest Camp` | [Event Ahead_ Arrival at the Forest Camp.json](<Event Ahead_ Arrival at the Forest Camp.json>) |
 | Event Ahead: The Final Exams | `Event Ahead: The Final Exams` | [Event Ahead_ The Final Exams.json](<Event Ahead_ The Final Exams.json>) |
 | Event Ahead: The Joint Training Battle | `Event Ahead: The Joint Training Battle` | [Event Ahead_ The Joint Training Battle.json](<Event Ahead_ The Joint Training Battle.json>) |
@@ -331,6 +337,9 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Hide: Gunga Mountain Villa | `Hide: Gunga Mountain Villa` | [Hide_ Gunga Mountain Villa.json](<Hide_ Gunga Mountain Villa.json>) |
 | Hide: League Hideout Bar | `Hide: League Hideout Bar` | [Hide_ League Hideout Bar.json](<Hide_ League Hideout Bar.json>) |
 | Hide: Nomu Warehouse | `Hide: Nomu Warehouse` | [Hide_ Nomu Warehouse.json](<Hide_ Nomu Warehouse.json>) |
+| Housing: General Studies player's places | `Housing: General Studies player's places` | [Housing_ General Studies player's places.json](<Housing_ General Studies player's places.json>) |
+| Housing: Management Course player's places | `Housing: Management Course player's places` | [Housing_ Management Course player's places.json](<Housing_ Management Course player's places.json>) |
+| Housing: Support Course player's places | `Housing: Support Course player's places` | [Housing_ Support Course player's places.json](<Housing_ Support Course player's places.json>) |
 | Items: agency phone [Hero Work-Study] | `Items: agency phone [Hero Work-Study]` | [Items_ agency phone [Hero Work-Study].json](<Items_ agency phone [Hero Work-Study].json>) |
 | Items: agency phone [Internship Week] | `Items: agency phone [Internship Week]` | [Items_ agency phone [Internship Week].json](<Items_ agency phone [Internship Week].json>) |
 | Items: arrest confiscation | `Items: arrest confiscation` | [Items_ arrest confiscation.json](<Items_ arrest confiscation.json>) |
@@ -759,6 +768,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Scene: changing rooms (action) | `Scene: changing rooms (action)` | [Scene_ changing rooms (action).json](<Scene_ changing rooms (action).json>) |
 | Scene: changing rooms (men's) | `Scene: changing rooms (men's)` | [Scene_ changing rooms (men's).json](<Scene_ changing rooms (men's).json>) |
 | Scene: changing rooms (women's) | `Scene: changing rooms (women's)` | [Scene_ changing rooms (women's).json](<Scene_ changing rooms (women's).json>) |
+| Scene: changing rooms keep sides | `Scene: changing rooms keep sides` | [Scene_ changing rooms keep sides.json](<Scene_ changing rooms keep sides.json>) |
+| Scene: dorms keep their class | `Scene: dorms keep their class` | [Scene_ dorms keep their class.json](<Scene_ dorms keep their class.json>) |
 | School Day: class at the player's spot part 1 | `School Day: class at the player's spot part 1` | [School Day_ class at the player's spot part 1.json](<School Day_ class at the player's spot part 1.json>) |
 | School Day: class at the player's spot part 2 | `School Day: class at the player's spot part 2` | [School Day_ class at the player's spot part 2.json](<School Day_ class at the player's spot part 2.json>) |
 | School Day: private session | `School Day: private session` | [School Day_ private session.json](<School Day_ private session.json>) |
@@ -934,9 +945,16 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Stage Swap: 3 lane 5 | `Stage Swap: 3 lane 5` | [Stage Swap_ 3 lane 5.json](<Stage Swap_ 3 lane 5.json>) |
 | Stage Swap: All Might (Retired) | `Stage Swap: All Might (Retired)` | [Stage Swap_ All Might (Retired).json](<Stage Swap_ All Might (Retired).json>) |
 | Stage Swap: Toshinori Yagi leaves | `Stage Swap: Toshinori Yagi leaves` | [Stage Swap_ Toshinori Yagi leaves.json](<Stage Swap_ Toshinori Yagi leaves.json>) |
+| Training: progress shows | `Training: progress shows` | [Training_ progress shows.json](<Training_ progress shows.json>) |
 | Travel: far trip | `Travel: far trip` | [Travel_ far trip.json](<Travel_ far trip.json>) |
 | Travel: leave (elsewhere) | `Travel: leave (elsewhere)` | [Travel_ leave (elsewhere).json](<Travel_ leave (elsewhere).json>) |
 | Travel: leave (U.A.) | `Travel: leave (U.A.)` | [Travel_ leave (U.A.).json](<Travel_ leave (U.A.).json>) |
+| Travel: my homeroom (General Studies) | `Travel: my homeroom (General Studies)` | [Travel_ my homeroom (General Studies).json](<Travel_ my homeroom (General Studies).json>) |
+| Travel: my homeroom (Management Course) | `Travel: my homeroom (Management Course)` | [Travel_ my homeroom (Management Course).json](<Travel_ my homeroom (Management Course).json>) |
+| Travel: my homeroom (Support Course) | `Travel: my homeroom (Support Course)` | [Travel_ my homeroom (Support Course).json](<Travel_ my homeroom (Support Course).json>) |
+| Travel: my kitchen (General Studies) | `Travel: my kitchen (General Studies)` | [Travel_ my kitchen (General Studies).json](<Travel_ my kitchen (General Studies).json>) |
+| Travel: my kitchen (Management Course) | `Travel: my kitchen (Management Course)` | [Travel_ my kitchen (Management Course).json](<Travel_ my kitchen (Management Course).json>) |
+| Travel: my kitchen (Support Course) | `Travel: my kitchen (Support Course)` | [Travel_ my kitchen (Support Course).json](<Travel_ my kitchen (Support Course).json>) |
 | Travel: my room | `Travel: my room` | [Travel_ my room.json](<Travel_ my room.json>) |
 | Travel: my room from Ground Beta | `Travel: my room from Ground Beta` | [Travel_ my room from Ground Beta.json](<Travel_ my room from Ground Beta.json>) |
 | Travel: my room from Gym Gamma | `Travel: my room from Gym Gamma` | [Travel_ my room from Gym Gamma.json](<Travel_ my room from Gym Gamma.json>) |

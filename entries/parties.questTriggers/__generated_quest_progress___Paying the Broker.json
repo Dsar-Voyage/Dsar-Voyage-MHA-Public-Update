@@ -5,7 +5,7 @@
     "conditions": [
       {
         "type": "story",
-        "query": "The PC has settled the debt to Giran with a payment, a job done for him or a favor promised, or has broken with him and faced what follows."
+        "query": "Giran has said the PC's debt to him is settled: paid in full, cleared by a job for him that is finished, or cleared by a favor to be named later that he accepts in its place; or the PC has broken with Giran and faced what follows. Taking on a job not yet done, or a partial payment that leaves a balance, does not count."
       }
     ],
     "effects": [

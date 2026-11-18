@@ -297,7 +297,9 @@
       "Other Course Dorm Halls": {
         "description": "The larger shared dorm halls where General Studies, Support and Management students live, with all three courses mixed on every floor and separate men's and women's wings. They are bigger and busier than the Hero Course buildings: long corridors, a front desk with the sign-out sheet, and a notice board crowded with club flyers, study-group sign-ups and lost-and-found. Each hall has a common kitchen, laundry, quiet study rooms and a ventilated workroom where Support residents tinker until curfew. Hitoshi Shinso of General Studies and Mei Hatsume of the Support Course live here; Mei misses curfew more than anyone. Study groups fill the common rooms in the evenings, Management students rehearse presentations in the hallways, and the talk in the kitchens often turns to the Hero Course buildings across the yard. The smell of solder from the workroom reaches the stairwells, and now and then a small bang from it makes the whole floor look up. The only way out is back to Heights Alliance Yard.",
         "paths": [
-          "Heights Alliance Yard"
+          "Heights Alliance Yard",
+          "Your Dorm Room",
+          "Other Course Common Kitchen"
         ],
         "images": {
           "establishingShot": {
@@ -363,7 +365,7 @@
         }
       },
       "Dorm Kitchen": {
-        "description": "The full kitchen on the ground floor of each Hero Course dorm (1-A's and 1-B's are built the same): two stoves, a large oven, a rice cooker that is rarely off, two refrigerators and a long counter facing the dining table. Residents cook breakfast and dinner in shifts, a schedule that is always under dispute, and on weekends whoever has not gone home eats together here. Rikido Sato bakes whenever he has time, and the class eats the results; his chiffon cake is already famous on both wings. Ochaco Uraraka keeps a bag of rice and a stash of mochi on her shelf, Tsuyu Asui makes tea for whoever is up late, and Momo Yaoyorozu studies the dish rota with open fascination. It is busiest from six to eight in the morning and six to nine at night, when the whole floor smells of rice, frying oil and, more often than not, warm sugar. Tenya Iida's rule on the fridge door: label your food or lose it. In 1-B's, Tetsutetsu and Itsuka Kendo argue over the rice cooker. The doorway leads back to the class's own dorm lounge.",
+        "description": "The full kitchen on the ground floor of each Hero Course dorm: 1-A's and 1-B's are separate kitchens in separate buildings, built the same, and only that building's own class cooks and eats in it (students of other courses use the kitchens in the Other Course Dorm Halls). Two stoves, a large oven, a rice cooker that is rarely off, two refrigerators and a long counter facing the dining table. Residents cook breakfast and dinner in shifts, a schedule that is always under dispute, and on weekends whoever has not gone home eats together here. In 1-A's: Rikido Sato bakes whenever he has time and his chiffon cake is already famous, Ochaco Uraraka keeps rice and mochi on her shelf, Tsuyu Asui makes tea for whoever is up late, and Tenya Iida drafted the class rota. In 1-B's: Itsuka Kendo keeps 1-B's own rota and its label-your-food sign in her handwriting, Tetsutetsu and Kendo argue over the rice cooker, and Monoma critiques 1-A's cooking he has never tasted. It is busiest from six to eight in the morning and six to nine at night. The doorway leads back to the class's own dorm lounge.",
         "paths": [
           "Class 1-A Dorm Lounge",
           "Class 1-B Dorm Lounge"
@@ -382,7 +384,7 @@
         }
       },
       "Dorm Rooms": {
-        "description": "The upper stories of the Hero Course dorm buildings: carpeted halls of numbered doors, the men's wing on one side and the women's wing on the other, with a small sitting area by each elevator. Every resident has a private room with a bed, desk, closet and balcony, furnished however they please: Izuku Midoriya's is covered in All Might merchandise, and Shoto Todoroki rebuilt his as a tatami room on move-in day. Nameplates are hand-lettered, and the class compares whose room says the most about its owner. Residents are here from evening until they walk to homeroom, and visiting another room is fine until curfew. The unwritten rule on every floor is that you knock and wait, because nobody's room is a hallway. After lights-out the halls go quiet, and footsteps carry. The elevators lead down to the Class 1-A and Class 1-B dorm lounges.",
+        "description": "The upper stories of the Hero Course dorm buildings: carpeted halls of numbered doors, the men's wing on one side and the women's wing on the other, with a small sitting area by each elevator. Every resident has a private room with a bed, desk, closet and balcony, furnished however they please: Izuku Midoriya's is covered in All Might merchandise, and Shoto Todoroki rebuilt his as a tatami room on move-in day. Nameplates are hand-lettered, and the class compares whose room says the most about its owner. Residents are here from evening until they walk to homeroom, and visiting another room is fine until curfew. The unwritten rule on every floor is that you knock and wait, because nobody's room is a hallway. After lights-out the halls go quiet, and footsteps carry. The elevators lead down to the Class 1-A and Class 1-B dorm lounges. The men's and women's wings are separate halves of each building, so a voice through your wall is always someone from your own wing. Each class building has the same plan: the ground floor holds the lounge, kitchen and dining area, laundry and the separate men's and women's baths; floors two to five hold the rooms, four per wing on each floor, numbered by floor (201-204 the men's wing, 205-208 the women's wing, and so on up to 508). There are no other floors, and a door number never changes.",
         "paths": [
           "Class 1-A Dorm Lounge",
           "Class 1-B Dorm Lounge"
@@ -536,7 +538,7 @@
         }
       },
       "Class 1-A Men's Wing": {
-        "description": "The men's side of Class 1-A's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the men's rooms, a small sitting area by the elevator and a window at each end. Izuku Midoriya, Katsuki Bakugo, Shoto Todoroki, Tenya Iida, Eijiro Kirishima, Denki Kaminari, Fumikage Tokoyami, Mashirao Ojiro, Hanta Sero, Mezo Shoji, Rikido Sato, Koji Koda, Yuga Aoyama and Minoru Mineta live along these halls. Evenings are loud: Eijiro's door stands open, Denki's music leaks into the hall, Yuga's door glitters when it opens, and the smell of Rikido's baking drifts up from the kitchen. Katsuki's door is shut by nine, and anyone who forgets hears about it. Visiting is fine until curfew, and the house rule is to knock and wait for an answer. After lights-out the halls go quiet and footsteps carry. The hallways lead to every man's room on the side, to your own room if it is here, and down to the Class 1-A Dorm Lounge.",
+        "description": "The men's side of Class 1-A's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the men's rooms, a small sitting area by the elevator and a window at each end. Izuku Midoriya, Katsuki Bakugo, Shoto Todoroki, Tenya Iida, Eijiro Kirishima, Denki Kaminari, Fumikage Tokoyami, Mashirao Ojiro, Hanta Sero, Mezo Shoji, Rikido Sato, Koji Koda, Yuga Aoyama and Minoru Mineta live along these halls. Evenings are loud: Eijiro's door stands open, Denki's music leaks into the hall, Yuga's door glitters when it opens, and the smell of Rikido's baking drifts up from the kitchen. Katsuki's door is shut by nine, and anyone who forgets hears about it. Visiting is fine until curfew, and the house rule is to knock and wait for an answer. After lights-out the halls go quiet and footsteps carry. The hallways lead to every man's room on the side, to your own room if it is here, and down to the Class 1-A Dorm Lounge. Room map: second floor Mineta 201, Midoriya 202, Aoyama 203, Tokoyami 204; third floor Koda 301, Kaminari 302, Iida 303, Ojiro 304; fourth floor Shoji 401, Kirishima 402, Bakugo 403, 404 the new resident's; fifth floor 501 empty, Sato 502, Todoroki 503, Sero 504.",
         "paths": [
           "Class 1-A Dorm Lounge",
           "Your Dorm Room",
@@ -569,7 +571,7 @@
         }
       },
       "Class 1-A Women's Wing": {
-        "description": "The women's side of Class 1-A's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the women's rooms, a small sitting area by the elevator with a potted plant, and a window at each end. Ochaco Uraraka, Momo Yaoyorozu, Tsuyu Asui, Kyoka Jiro, Mina Ashido and Toru Hagakure live along these halls. With only six of them on the side, the sitting area has become a shared living room: Mina and Toru hold court there in the evenings, Momo brings tea, and Kyoka's bass hums faintly through her wall when she thinks nobody is listening. The hall smells of shampoo and someone's sweet hand cream. Visiting is fine until curfew, and every door gets a knock before it gets opened. After lights-out the halls go quiet and footsteps carry. The hallways lead to each woman's room on the side, to your own room if it is here, and down to the Class 1-A Dorm Lounge.",
+        "description": "The women's side of Class 1-A's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the women's rooms, a small sitting area by the elevator with a potted plant, and a window at each end. Ochaco Uraraka, Momo Yaoyorozu, Tsuyu Asui, Kyoka Jiro, Mina Ashido and Toru Hagakure live along these halls. With only six of them on the side, the sitting area has become a shared living room: Mina and Toru hold court there in the evenings, Momo brings tea, and Kyoka's bass hums faintly through her wall when she thinks nobody is listening. The hall smells of shampoo and someone's sweet hand cream. Visiting is fine until curfew, and every door gets a knock before it gets opened. After lights-out the halls go quiet and footsteps carry. The hallways lead to each woman's room on the side, to your own room if it is here, and down to the Class 1-A Dorm Lounge. Room map: second floor 205 empty, 206 empty, 207 empty, 208 empty; third floor Jiro 305, 306 the new resident's, 307 empty, Hagakure 308; fourth floor Uraraka 405, 406 empty, 407 empty, Ashido 408; fifth floor Yaoyorozu 505, 506 empty, 507 empty, Asui 508.",
         "paths": [
           "Class 1-A Dorm Lounge",
           "Your Dorm Room",
@@ -648,12 +650,13 @@
         }
       },
       "Your Dorm Room": {
-        "description": "The dorm room assigned to you in Heights Alliance: a standard single with about eight tatami mats of floor, a bed, a desk and chair, a closet, a small bookshelf, curtains and a door out to a narrow balcony that looks over the yard toward the forested hills. It started as bare walls and the smell of new carpet and fresh paint, and it becomes whatever its owner makes of it. Whatever you bring, hang or rearrange stays where you leave it: posters or none, a plant, a photo from home, gear piled in the corner. It is yours to make your own, and nobody comes in unless you let them; classmates knock and wait, and the walls are thin enough that a neighbor's laugh carries. The door opens onto your wing's hallway.",
+        "description": "The dorm room assigned to you: Hero Course students live on their own class's wing of Heights Alliance, while General Studies, Support and Management students live in the Other Course Dorm Halls across the yard. a standard single with about eight tatami mats of floor, a bed, a desk and chair, a closet, a small bookshelf, curtains and a door out to a narrow balcony that looks over the yard toward the forested hills. It started as bare walls and the smell of new carpet and fresh paint, and it becomes whatever its owner makes of it. Whatever you bring, hang or rearrange stays where you leave it: posters or none, a plant, a photo from home, gear piled in the corner. It is yours to make your own, and nobody comes in unless you let them; classmates knock and wait, and the walls are thin enough that a neighbor's laugh carries. The door opens onto your own wing's hallway, never into another class's dorm. In Class 1-A's building it is room 404 on the men's wing (beside Katsuki Bakugo's 403) or room 306 on the women's wing (beside Kyoka Jiro's 305); in Class 1-B's, 502 or 308; in the Other Course Dorm Halls, a room on your course's floor.",
         "paths": [
           "Class 1-A Men's Wing",
           "Class 1-A Women's Wing",
           "Class 1-B Men's Wing",
-          "Class 1-B Women's Wing"
+          "Class 1-B Women's Wing",
+          "Other Course Dorm Halls"
         ],
         "images": {
           "establishingShot": {
@@ -669,7 +672,7 @@
         }
       },
       "Izuku Midoriya's Room": {
-        "description": "Izuku Midoriya's dorm room on the men's side: every surface is All Might. Posters cover the walls, figures and collectible cards fill the shelves, All Might curtains frame the window, and an All Might clock ticks over a desk stacked with his numbered hero analysis notebooks, and more merchandise stored in boxes under the bed. A small row of weights sits under the bed. He is here late into the night, filling notebook pages on every Quirk he saw that day and muttering while he writes, and up early to work out. The room smells of pencil shavings and new vinyl figures. He is embarrassed by it and proud of it at the same time. Knock first: a knock sends him scrambling to cover the most embarrassing poster before he answers.",
+        "description": "Room 202, second floor, Class 1-A men's wing. Izuku Midoriya's dorm room on the men's side: every surface is All Might. Posters cover the walls, figures and collectible cards fill the shelves, All Might curtains frame the window, and an All Might clock ticks over a desk stacked with his numbered hero analysis notebooks, and more merchandise stored in boxes under the bed. A small row of weights sits under the bed. He is here late into the night, filling notebook pages on every Quirk he saw that day and muttering while he writes, and up early to work out. The room smells of pencil shavings and new vinyl figures. He is embarrassed by it and proud of it at the same time. Knock first: a knock sends him scrambling to cover the most embarrassing poster before he answers.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -687,7 +690,7 @@
         }
       },
       "Katsuki Bakugo's Room": {
-        "description": "Katsuki Bakugo's dorm room on the men's side: plain, tidy and spare. A neatly made bed, a desk with study books squared at the edge, a few pieces of climbing and training gear and a dumbbell rack, and nothing on the walls worth asking about; his boxes were unpacked and flattened on the first night. He does homework here straight after dinner, finishes it properly, and lifts before bed. A faint, sweet, burnt-sugar smell hangs around his training gloves. He is in bed by nine and does not want visitors. Knock first, and expect to be told to get lost; walking in without knocking is a mistake nobody makes twice.",
+        "description": "Room 403, fourth floor, Class 1-A men's wing. Katsuki Bakugo's dorm room on the men's side: plain, tidy and spare. A neatly made bed, a desk with study books squared at the edge, a few pieces of climbing and training gear and a dumbbell rack, and nothing on the walls worth asking about; his boxes were unpacked and flattened on the first night. He does homework here straight after dinner, finishes it properly, and lifts before bed. A faint, sweet, burnt-sugar smell hangs around his training gloves. He is in bed by nine and does not want visitors. Knock first, and expect to be told to get lost; walking in without knocking is a mistake nobody makes twice.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -705,7 +708,7 @@
         }
       },
       "Shoto Todoroki's Room": {
-        "description": "Shoto Todoroki's dorm room on the men's side, which he rebuilt on move-in day into a traditional Japanese room: tatami mats, sliding shoji screens, a low table, a floor cushion and a futon folded in the corner, with a plain hanging scroll and a simple flower arrangement. It reads as a room from an old Japanese house, not a dorm, and it is very quiet. He reads and studies at the low table in the evenings, alone by habit, and sleeps early. The room smells of fresh rush matting, and the shoji soften the light to a pale glow. Knock first; he slides the door open with a flat question and, if you have a reason to be there, lets you sit.",
+        "description": "Room 503, fifth floor, Class 1-A men's wing. Shoto Todoroki's dorm room on the men's side, which he rebuilt on move-in day into a traditional Japanese room: tatami mats, sliding shoji screens, a low table, a floor cushion and a futon folded in the corner, with a plain hanging scroll and a simple flower arrangement. It reads as a room from an old Japanese house, not a dorm, and it is very quiet. He reads and studies at the low table in the evenings, alone by habit, and sleeps early. The room smells of fresh rush matting, and the shoji soften the light to a pale glow. Knock first; he slides the door open with a flat question and, if you have a reason to be there, lets you sit.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -723,7 +726,7 @@
         }
       },
       "Tenya Iida's Room": {
-        "description": "Tenya Iida's dorm room on the men's side: orderly to the millimeter. Bookshelves of study guides and hero law, a desk with a schedule pinned square to the wall, a neatly made bed, a framed photo of his brother Ingenium, and a display shelf holding a long row of spare pairs of glasses. The window is opened for exactly ten minutes every morning. He studies here every evening, plans the floor's rotas nobody asked for, and rises before the rest of the floor. The room smells of floor polish and new paper. Knock first: he answers in full voice, chops the air as he greets you, and will remind you of the time before you ask.",
+        "description": "Room 303, third floor, Class 1-A men's wing. Tenya Iida's dorm room on the men's side: orderly to the millimeter. Bookshelves of study guides and hero law, a desk with a schedule pinned square to the wall, a neatly made bed, a framed photo of his brother Ingenium, and a display shelf holding a long row of spare pairs of glasses. The window is opened for exactly ten minutes every morning. He studies here every evening, plans the floor's rotas nobody asked for, and rises before the rest of the floor. The room smells of floor polish and new paper. Knock first: he answers in full voice, chops the air as he greets you, and will remind you of the time before you ask.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -741,7 +744,7 @@
         }
       },
       "Eijiro Kirishima's Room": {
-        "description": "Eijiro Kirishima's dorm room on the men's side, as manly as he could make it: a heavy punching bag hanging from the ceiling, a sandbag, dumbbells, a bold calligraphy banner about fighting spirit, and posters of the old hero Crimson Riot. He trains here before breakfast and after dinner, hardening his fists against the bag, and talks with anyone who wanders by. It smells faintly of liniment, and the thud of the bag carries down the hall. The door is usually open. Knock anyway, since that is the rule on every floor; he will shout for you to come in before your knuckles leave the frame and offer you a turn on the bag.",
+        "description": "Room 402, fourth floor, Class 1-A men's wing. Eijiro Kirishima's dorm room on the men's side, as manly as he could make it: a heavy punching bag hanging from the ceiling, a sandbag, dumbbells, a bold calligraphy banner about fighting spirit, and posters of the old hero Crimson Riot. He trains here before breakfast and after dinner, hardening his fists against the bag, and talks with anyone who wanders by. It smells faintly of liniment, and the thud of the bag carries down the hall. The door is usually open. Knock anyway, since that is the rule on every floor; he will shout for you to come in before your knuckles leave the frame and offer you a turn on the bag.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -759,7 +762,7 @@
         }
       },
       "Denki Kaminari's Room": {
-        "description": "Denki Kaminari's dorm room on the men's side: trendy and cluttered. Street-fashion posters, a dartboard, a skateboard against the wall, a speaker and game console under the television, string lights, and a little of everything he thought looked cool in the shop, half of it still in shopping bags. Something is always charging, and his phone, console and lights all crowd one power strip. He games here until his homework is due, then panics and asks the whole floor for help. Music thumps through the door most evenings. Knock first, and loud enough to be heard over the speaker; he answers with a peace sign.",
+        "description": "Room 302, third floor, Class 1-A men's wing. Denki Kaminari's dorm room on the men's side: trendy and cluttered. Street-fashion posters, a dartboard, a skateboard against the wall, a speaker and game console under the television, string lights, and a little of everything he thought looked cool in the shop, half of it still in shopping bags. Something is always charging, and his phone, console and lights all crowd one power strip. He games here until his homework is due, then panics and asks the whole floor for help. Music thumps through the door most evenings. Knock first, and loud enough to be heard over the speaker; he answers with a peace sign.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -777,7 +780,7 @@
         }
       },
       "Fumikage Tokoyami's Room": {
-        "description": "Fumikage Tokoyami's dorm room on the men's side: dark by design. Black walls and curtains, deep red accents, gothic ornaments, a skull or two on the shelves, candles on the desk and blackout curtains that keep the balcony light out. He calls it a sanctum and hates when anyone else uses the word. Dark Shadow is stronger in here, and on evenings when he reads or meditates in near darkness it drifts across the ceiling and chatters at anyone who comes in. The air smells of candle wax, and the one lamp he allows has a red shade. Knock first and wait; he opens the door only partway, so the hall light does not spill in.",
+        "description": "Room 204, second floor, Class 1-A men's wing. Fumikage Tokoyami's dorm room on the men's side: dark by design. Black walls and curtains, deep red accents, gothic ornaments, a skull or two on the shelves, candles on the desk and blackout curtains that keep the balcony light out. He calls it a sanctum and hates when anyone else uses the word. Dark Shadow is stronger in here, and on evenings when he reads or meditates in near darkness it drifts across the ceiling and chatters at anyone who comes in. The air smells of candle wax, and the one lamp he allows has a red shade. Knock first and wait; he opens the door only partway, so the hall light does not spill in.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -795,7 +798,7 @@
         }
       },
       "Mashirao Ojiro's Room": {
-        "description": "Mashirao Ojiro's dorm room on the men's side: perfectly ordinary. A made bed, a desk, a small bookshelf, a poster of a martial-arts tournament and a training mat rolled by the wall, unrolled every morning for forms and tail drills before homeroom. He worries it is too plain to say anything about him, and a little harder training that evening usually follows the thought. In the evenings he studies quietly and gives sensible advice to whoever drops in. It smells of clean laundry and nothing else. Knock first; he answers politely and offers you the chair.",
+        "description": "Room 304, third floor, Class 1-A men's wing. Mashirao Ojiro's dorm room on the men's side: perfectly ordinary. A made bed, a desk, a small bookshelf, a poster of a martial-arts tournament and a training mat rolled by the wall, unrolled every morning for forms and tail drills before homeroom. He worries it is too plain to say anything about him, and a little harder training that evening usually follows the thought. In the evenings he studies quietly and gives sensible advice to whoever drops in. It smells of clean laundry and nothing else. Knock first; he answers politely and offers you the chair.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -813,7 +816,7 @@
         }
       },
       "Hanta Sero's Room": {
-        "description": "Hanta Sero's dorm room on the men's side, decorated in a warm Asian style: woven rugs, carved wooden furniture, paper lanterns, hanging fabric and plants, more stylish than anyone expected. He likes to show it off and is good company in it, and most evenings a few classmates are sprawled on his rugs trading jokes over snacks while he plays host. The lanterns give the room a low, amber glow and a faint scent of sandalwood. He has already worked out where a tape line would anchor on the ceiling. Knock first; he answers with a grin, a nickname and an offer of the good cushion.",
+        "description": "Room 504, fifth floor, Class 1-A men's wing. Hanta Sero's dorm room on the men's side, decorated in a warm Asian style: woven rugs, carved wooden furniture, paper lanterns, hanging fabric and plants, more stylish than anyone expected. He likes to show it off and is good company in it, and most evenings a few classmates are sprawled on his rugs trading jokes over snacks while he plays host. The lanterns give the room a low, amber glow and a faint scent of sandalwood. He has already worked out where a tape line would anchor on the ceiling. Knock first; he answers with a grin, a nickname and an offer of the good cushion.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -831,7 +834,7 @@
         }
       },
       "Mezo Shoji's Room": {
-        "description": "Mezo Shoji's dorm room on the men's side: almost empty. A futon, a low table and very little else, with plenty of space for his arms. He likes it simple and does not explain it. He reads at the low table in the evenings and stretches all six arms before bed, and in the morning the futon is folded away before anyone else on the floor is up. The bare floor makes every footstep echo softly, and the room smells of clean straw matting. Knock first; when he is busy, an ear grows at the tip of one arm by the door to listen, and he answers in a few calm words.",
+        "description": "Room 401, fourth floor, Class 1-A men's wing. Mezo Shoji's dorm room on the men's side: almost empty. A futon, a low table and very little else, with plenty of space for his arms. He likes it simple and does not explain it. He reads at the low table in the evenings and stretches all six arms before bed, and in the morning the futon is folded away before anyone else on the floor is up. The bare floor makes every footstep echo softly, and the room smells of clean straw matting. Knock first; when he is busy, an ear grows at the tip of one arm by the door to listen, and he answers in a few calm words.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -849,7 +852,7 @@
         }
       },
       "Rikido Sato's Room": {
-        "description": "Rikido Sato's dorm room on the men's side: neat and homey, with a shelf of baking books, an apron on the hook and a cooling rack on the desk. It always smells of something sweet, because he bakes in the dorm kitchen and brings the results upstairs for anyone passing, chiffon cake most of all. He plans recipes here after training, copying them into a flour-dusted notebook, and keeps a tin of carefully measured sugar for his Quirk on the shelf. Evenings, his door is a stop on half the floor's walk to bed. Knock first; he usually opens the door holding a plate.",
+        "description": "Room 502, fifth floor, Class 1-A men's wing. Rikido Sato's dorm room on the men's side: neat and homey, with a shelf of baking books, an apron on the hook and a cooling rack on the desk. It always smells of something sweet, because he bakes in the dorm kitchen and brings the results upstairs for anyone passing, chiffon cake most of all. He plans recipes here after training, copying them into a flour-dusted notebook, and keeps a tin of carefully measured sugar for his Quirk on the shelf. Evenings, his door is a stop on half the floor's walk to bed. Knock first; he usually opens the door holding a plate.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -867,7 +870,7 @@
         }
       },
       "Koji Koda's Room": {
-        "description": "Koji Koda's dorm room on the men's side: gentle and full of plants, with a cozy rug, small animal figurines and a pen for his pet rabbit, Yuwai, who has the run of the floor. Birds come to the balcony rail when he opens the door, and he talks to them softly in the mornings while scattering seed, then waters the plants before homeroom. It smells of hay and green leaves. Visitors close the door quickly behind them so Yuwai does not escape into the hall. Knock softly first; he answers with a nod and a small gesture to come in, and he speaks more easily if the rabbit likes you.",
+        "description": "Room 301, third floor, Class 1-A men's wing. Koji Koda's dorm room on the men's side: gentle and full of plants, with a cozy rug, small animal figurines and a pen for his pet rabbit, Yuwai, who has the run of the floor. Birds come to the balcony rail when he opens the door, and he talks to them softly in the mornings while scattering seed, then waters the plants before homeroom. It smells of hay and green leaves. Visitors close the door quickly behind them so Yuwai does not escape into the hall. Knock softly first; he answers with a nod and a small gesture to come in, and he speaks more easily if the rabbit likes you.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -885,7 +888,7 @@
         }
       },
       "Yuga Aoyama's Room": {
-        "description": "Yuga Aoyama's dorm room on the men's side: dazzling. Mirrors, a mirror ball, glittering fabrics, sparkle in every color and a vanity of hair products, all arranged to catch the light. Being in it is like standing inside a disco ball, which is the point. He practices his poses and his hair here every morning and evening, and he lights up when someone actually comes to visit. The air smells of hairspray and expensive cologne, and light dances across the ceiling whenever the door moves. Knock first; he will open it with a pose and a breathy merci, and quietly hope you stay a while.",
+        "description": "Room 203, second floor, Class 1-A men's wing. Yuga Aoyama's dorm room on the men's side: dazzling. Mirrors, a mirror ball, glittering fabrics, sparkle in every color and a vanity of hair products, all arranged to catch the light. Being in it is like standing inside a disco ball, which is the point. He practices his poses and his hair here every morning and evening, and he lights up when someone actually comes to visit. The air smells of hairspray and expensive cologne, and light dances across the ceiling whenever the door moves. Knock first; he will open it with a pose and a breathy merci, and quietly hope you stay a while.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -903,7 +906,7 @@
         }
       },
       "Minoru Mineta's Room": {
-        "description": "Minoru Mineta's dorm room on the men's side: cramped and cluttered, with a low bed, a game console and stacks of magazines and idol posters he insists are tasteful; the ones he knows are not stay rolled up and hidden under the bed, and he panics if anyone looks there. Spare purple balls from his Quirk sit stuck to a bowl by the door, and visitors watch where they step. He games here late and complains about homework to anyone who will listen. It smells of instant noodles and the plastic of a new console still half in its box. Knock first, and he will scramble to tidy before answering.",
+        "description": "Room 201, second floor, Class 1-A men's wing. Minoru Mineta's dorm room on the men's side: cramped and cluttered, with a low bed, a game console and stacks of magazines and idol posters he insists are tasteful; the ones he knows are not stay rolled up and hidden under the bed, and he panics if anyone looks there. Spare purple balls from his Quirk sit stuck to a bowl by the door, and visitors watch where they step. He games here late and complains about homework to anyone who will listen. It smells of instant noodles and the plastic of a new console still half in its box. Knock first, and he will scramble to tidy before answering.",
         "paths": [
           "Class 1-A Men's Wing"
         ],
@@ -921,7 +924,7 @@
         }
       },
       "Ochaco Uraraka's Room": {
-        "description": "Ochaco Uraraka's dorm room on the women's side: simple and frugal. A bed, a desk, a low table, and only a few decorations, because she sends what she can home to her parents. A framed family photo sits where she can see it from her pillow. She studies at the low table in the evenings, counts her yen for the week, and some nights calls home in a quiet voice. A small rice cooker sits on the shelf beside a box of mochi, and the room smells of plain steamed rice. A paper chart of the month's budget is taped inside the closet door. Knock first; she will answer with a bright smile, whatever kind of day it has been.",
+        "description": "Room 405, fourth floor, Class 1-A women's wing. Ochaco Uraraka's dorm room on the women's side: simple and frugal. A bed, a desk, a low table, and only a few decorations, because she sends what she can home to her parents. A framed family photo sits where she can see it from her pillow. She studies at the low table in the evenings, counts her yen for the week, and some nights calls home in a quiet voice. A small rice cooker sits on the shelf beside a box of mochi, and the room smells of plain steamed rice. A paper chart of the month's budget is taped inside the closet door. Knock first; she will answer with a bright smile, whatever kind of day it has been.",
         "paths": [
           "Class 1-A Women's Wing"
         ],
@@ -939,7 +942,7 @@
         }
       },
       "Momo Yaoyorozu's Room": {
-        "description": "Momo Yaoyorozu's dorm room on the women's side, almost entirely taken up by the enormous canopy bed she had brought from home before she realized the room's size. Fine bedding, a few elegant books and a tea set are tucked into whatever space is left, and visitors end up sitting on the bed because there is nowhere else. She studies here late and makes tea for anyone who comes for help with homework. The room smells of good black tea, and the bed's canopy brushes the ceiling light. She is still a little embarrassed about the bed. Knock first; she answers formally, invites you in, and apologizes for the lack of chairs.",
+        "description": "Room 505, fifth floor, Class 1-A women's wing. Momo Yaoyorozu's dorm room on the women's side, almost entirely taken up by the enormous canopy bed she had brought from home before she realized the room's size. Fine bedding, a few elegant books and a tea set are tucked into whatever space is left, and visitors end up sitting on the bed because there is nowhere else. She studies here late and makes tea for anyone who comes for help with homework. The room smells of good black tea, and the bed's canopy brushes the ceiling light. She is still a little embarrassed about the bed. Knock first; she answers formally, invites you in, and apologizes for the lack of chairs.",
         "paths": [
           "Class 1-A Women's Wing"
         ],
@@ -957,7 +960,7 @@
         }
       },
       "Tsuyu Asui's Room": {
-        "description": "Tsuyu Asui's dorm room on the women's side: calm and Japanese in style, with tatami, a low table, a few frog plushies and green cushions, and a small humidifier to keep the air the way she likes it. A shallow stone basin of water with floating leaves sits by the window, a tiny pond of her own. The room has the feel of a family home. She writes to her family and does homework here in the evenings, and she is up early. The air is soft and damp, with the smell of wet leaves. Knock first; she will tell you plainly if it is a bad time, and offer you a cushion if it is not.",
+        "description": "Room 508, fifth floor, Class 1-A women's wing. Tsuyu Asui's dorm room on the women's side: calm and Japanese in style, with tatami, a low table, a few frog plushies and green cushions, and a small humidifier to keep the air the way she likes it. A shallow stone basin of water with floating leaves sits by the window, a tiny pond of her own. The room has the feel of a family home. She writes to her family and does homework here in the evenings, and she is up early. The air is soft and damp, with the smell of wet leaves. Knock first; she will tell you plainly if it is a bad time, and offer you a cushion if it is not.",
         "paths": [
           "Class 1-A Women's Wing"
         ],
@@ -975,7 +978,7 @@
         }
       },
       "Kyoka Jiro's Room": {
-        "description": "Kyoka Jiro's dorm room on the women's side: a musician's room. Guitars and a bass on wall stands, a drum pad, keyboard, amplifiers, speakers and a shelf of records and CDs. She shrugs it off as nothing special and lights up when someone notices. She plays here after dinner with the volume low, earphone jacks plugged into the amp, and goes red if she catches anyone listening at the door. The room smells of old record sleeves and warm amplifier dust, and a pick or two always turns up on the carpet. Knock first; she usually heard you coming down the hall already.",
+        "description": "Room 305, third floor, Class 1-A women's wing. Kyoka Jiro's dorm room on the women's side: a musician's room. Guitars and a bass on wall stands, a drum pad, keyboard, amplifiers, speakers and a shelf of records and CDs. She shrugs it off as nothing special and lights up when someone notices. She plays here after dinner with the volume low, earphone jacks plugged into the amp, and goes red if she catches anyone listening at the door. The room smells of old record sleeves and warm amplifier dust, and a pick or two always turns up on the carpet. Knock first; she usually heard you coming down the hall already.",
         "paths": [
           "Class 1-A Women's Wing"
         ],
@@ -993,7 +996,7 @@
         }
       },
       "Mina Ashido's Room": {
-        "description": "Mina Ashido's dorm room on the women's side: bright pink and purple, stylish and fun, with fashion posters, a big mirror, fairy lights and an overflowing closet. Music is usually playing and the door is usually open for whoever wants to talk. She practices breakdancing on a clear patch of floor every evening, puts off homework until it is due, and hosts whatever gathering the women's side is having tonight. The room smells of fruity body spray, and her scuffed dance sneakers sit by the door next to a pile of fashion magazines. Knock first anyway; she will drag you in and ask who you like.",
+        "description": "Room 408, fourth floor, Class 1-A women's wing. Mina Ashido's dorm room on the women's side: bright pink and purple, stylish and fun, with fashion posters, a big mirror, fairy lights and an overflowing closet. Music is usually playing and the door is usually open for whoever wants to talk. She practices breakdancing on a clear patch of floor every evening, puts off homework until it is due, and hosts whatever gathering the women's side is having tonight. The room smells of fruity body spray, and her scuffed dance sneakers sit by the door next to a pile of fashion magazines. Knock first anyway; she will drag you in and ask who you like.",
         "paths": [
           "Class 1-A Women's Wing"
         ],
@@ -1011,7 +1014,7 @@
         }
       },
       "Toru Hagakure's Room": {
-        "description": "Toru Hagakure's dorm room on the women's side: cute and bright, with pastel bedding, plush toys, a vanity and rows of clothes and accessories that only show what she looks like when she is wearing them. She tries on outfits here every evening and asks visitors to describe how they look on her. A floating sweater is often the first thing you see when the door opens. The room smells of sweet perfume, and a tall mirror stands ready so her outfits can at least see themselves. Knock first and say your name; she likes to know who is there before she bounces up to answer.",
+        "description": "Room 308, third floor, Class 1-A women's wing. Toru Hagakure's dorm room on the women's side: cute and bright, with pastel bedding, plush toys, a vanity and rows of clothes and accessories that only show what she looks like when she is wearing them. She tries on outfits here every evening and asks visitors to describe how they look on her. A floating sweater is often the first thing you see when the door opens. The room smells of sweet perfume, and a tall mirror stands ready so her outfits can at least see themselves. Knock first and say your name; she likes to know who is there before she bounces up to answer.",
         "paths": [
           "Class 1-A Women's Wing"
         ],
@@ -1104,7 +1107,7 @@
         }
       },
       "Class 1-B Men's Wing": {
-        "description": "The men's side of Class 1-B's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the men's rooms, each with a name card slid into a holder, a small sitting area by the elevator with two worn armchairs, and a window at each end looking out over the forested hills. Neito Monoma, Tetsutetsu Tetsutetsu, Juzo Honenuki, Togaru Kamakiri, Hiryu Rin, Jurota Shishida, Yosetsu Awase, Sen Kaibara, Shihai Kuroiro, Kojiro Bondo, Kosei Tsuburaba, Nirengeki Shoda and Manga Fukidashi live along these halls. In the evenings the halls fill with doors left open, music leaking from Tetsutetsu's room and somebody shouting down the corridor to borrow a phone charger. Visiting is fine until curfew, and the house rule is the same at every door: knock first. After lights-out the halls go quiet, faculty rounds pass through after dark, and footsteps carry. The stairs and elevator lead back down to the lounge.",
+        "description": "The men's side of Class 1-B's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the men's rooms, each with a name card slid into a holder, a small sitting area by the elevator with two worn armchairs, and a window at each end looking out over the forested hills. Neito Monoma, Tetsutetsu Tetsutetsu, Juzo Honenuki, Togaru Kamakiri, Hiryu Rin, Jurota Shishida, Yosetsu Awase, Sen Kaibara, Shihai Kuroiro, Kojiro Bondo, Kosei Tsuburaba, Nirengeki Shoda and Manga Fukidashi live along these halls. In the evenings the halls fill with doors left open, music leaking from Tetsutetsu's room and somebody shouting down the corridor to borrow a phone charger. Visiting is fine until curfew, and the house rule is the same at every door: knock first. After lights-out the halls go quiet, faculty rounds pass through after dark, and footsteps carry. The stairs and elevator lead back down to the lounge. Room map: second floor Monoma 201, Tetsutetsu 202, Awase 203, Kaibara 204; third floor Honenuki 301, Kamakiri 302, Rin 303, Shishida 304; fourth floor Kuroiro 401, Bondo 402, Tsuburaba 403, Shoda 404; fifth floor Fukidashi 501, 502 the new resident's, 503 empty, 504 empty.",
         "paths": [
           "Class 1-B Dorm Lounge",
           "Your Dorm Room",
@@ -1136,7 +1139,7 @@
         }
       },
       "Class 1-B Women's Wing": {
-        "description": "The women's side of Class 1-B's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the women's rooms, a name card in a holder on each, a sitting area by the elevator with a low table and a basket of shared magazines, and a window at each end looking out over the trees. Itsuka Kendo, Ibara Shiozaki, Setsuna Tokage, Pony Tsunotori, Yui Kodai, Kinoko Komori and Reiko Yanagi live along these halls. With seven of them it is the smaller, closer wing: doors stand open in the evening, Tokage's voice carries the length of the corridor, someone is always borrowing a hair dryer, and the faint earthy smell of Komori's humidifier drifts from her end of the hall. Visiting is fine until curfew, and every door follows the house rule: knock first and wait for an answer. After lights-out the halls go quiet, faculty rounds pass through after dark, and footsteps carry. The stairs and elevator lead back down to the lounge.",
+        "description": "The women's side of Class 1-B's dorm building above the lounge: a carpeted hallway on each floor lined with the doors of the women's rooms, a name card in a holder on each, a sitting area by the elevator with a low table and a basket of shared magazines, and a window at each end looking out over the trees. Itsuka Kendo, Ibara Shiozaki, Setsuna Tokage, Pony Tsunotori, Yui Kodai, Kinoko Komori and Reiko Yanagi live along these halls. With seven of them it is the smaller, closer wing: doors stand open in the evening, Tokage's voice carries the length of the corridor, someone is always borrowing a hair dryer, and the faint earthy smell of Komori's humidifier drifts from her end of the hall. Visiting is fine until curfew, and every door follows the house rule: knock first and wait for an answer. After lights-out the halls go quiet, faculty rounds pass through after dark, and footsteps carry. The stairs and elevator lead back down to the lounge. Room map: second floor Kendo 205, Shiozaki 206, Tokage 207, Tsunotori 208; third floor Kodai 305, Komori 306, Yanagi 307, 308 the new resident's; fourth floor 405 empty, 406 empty, 407 empty, 408 empty; fifth floor 505 empty, 506 empty, 507 empty, 508 empty.",
         "paths": [
           "Class 1-B Dorm Lounge",
           "Your Dorm Room",
@@ -1216,7 +1219,7 @@
         }
       },
       "Neito Monoma's Room": {
-        "description": "Neito Monoma's dorm room on the men's side: elegant and a little theatrical, with a polished wooden desk, a chess set mid-game, a velvet armchair and a framed class photo of 1-B on the wall. Pinned beside it is a tidy list of Class 1-A's names with notes under each one, half of them still blank, which he calls research. His books live in boxes under the bed, because the room has to look right first. He plans here in the evenings, playing both sides of the chess game, and rehearses his remarks for the class next door aloud. The air smells of furniture polish. House rule: knock first; he answers with the ceremony of a prince receiving a visitor.",
+        "description": "Room 201, second floor, Class 1-B men's wing. Neito Monoma's dorm room on the men's side: elegant and a little theatrical, with a polished wooden desk, a chess set mid-game, a velvet armchair and a framed class photo of 1-B on the wall. Pinned beside it is a tidy list of Class 1-A's names with notes under each one, half of them still blank, which he calls research. His books live in boxes under the bed, because the room has to look right first. He plans here in the evenings, playing both sides of the chess game, and rehearses his remarks for the class next door aloud. The air smells of furniture polish. House rule: knock first; he answers with the ceremony of a prince receiving a visitor.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1234,7 +1237,7 @@
         }
       },
       "Tetsutetsu Tetsutetsu's Room": {
-        "description": "Tetsutetsu Tetsutetsu's dorm room on the men's side: loud and manly, all steel gray and red. Dumbbells and a weight bench, a punching bag hung from a bracket he installed on day one, a bold banner about guts and never backing down, and sweat towels drying on every hook, with clothes heaped by the closet. He trains here before breakfast and after dinner, counting reps at full volume and testing his steel skin against the bag with a clang that rings down the hall. The door is open and the music is too loud. House rule still applies: knock first, even on the open door frame.",
+        "description": "Room 202, second floor, Class 1-B men's wing. Tetsutetsu Tetsutetsu's dorm room on the men's side: loud and manly, all steel gray and red. Dumbbells and a weight bench, a punching bag hung from a bracket he installed on day one, a bold banner about guts and never backing down, and sweat towels drying on every hook, with clothes heaped by the closet. He trains here before breakfast and after dinner, counting reps at full volume and testing his steel skin against the bag with a clang that rings down the hall. The door is open and the music is too loud. House rule still applies: knock first, even on the open door frame.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1252,7 +1255,7 @@
         }
       },
       "Juzo Honenuki's Room": {
-        "description": "Juzo Honenuki's dorm room on the men's side: calm and soft in earth tones, with a deep beanbag, a thick rug, a low futon, houseplants and a shelf of mystery novels. Everything in it is comfortable to sink into, which suits him. He keeps the room spare and is in no hurry to fill it. In the evenings he reads with his feet up, sometimes guessing the culprit aloud, and talks through tomorrow's training plans with whoever drops by in the same unhurried voice. The room smells of potting soil and green tea. The house rule is to knock first, and he answers with a relaxed come in.",
+        "description": "Room 301, third floor, Class 1-B men's wing. Juzo Honenuki's dorm room on the men's side: calm and soft in earth tones, with a deep beanbag, a thick rug, a low futon, houseplants and a shelf of mystery novels. Everything in it is comfortable to sink into, which suits him. He keeps the room spare and is in no hurry to fill it. In the evenings he reads with his feet up, sometimes guessing the culprit aloud, and talks through tomorrow's training plans with whoever drops by in the same unhurried voice. The room smells of potting soil and green tea. The house rule is to knock first, and he answers with a relaxed come in.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1270,7 +1273,7 @@
         }
       },
       "Togaru Kamakiri's Room": {
-        "description": "Togaru Kamakiri's dorm room on the men's side: sharp and spare, with angular black furniture, a carefully trimmed bonsai on the windowsill and a glass case of insect specimens, mantises at the center. A wooden practice post in the corner is scored with shallow, precise nicks where he drills stopping a blade a hair short of the wood. He keeps the curtains half drawn and does not like visitors touching anything. He trains here at night and trims the bonsai in the morning with the same narrow focus. It smells faintly of cut pine. The house rule is to knock first, and he expects it.",
+        "description": "Room 302, third floor, Class 1-B men's wing. Togaru Kamakiri's dorm room on the men's side: sharp and spare, with angular black furniture, a carefully trimmed bonsai on the windowsill and a glass case of insect specimens, mantises at the center. A wooden practice post in the corner is scored with shallow, precise nicks where he drills stopping a blade a hair short of the wood. He keeps the curtains half drawn and does not like visitors touching anything. He trains here at night and trims the bonsai in the morning with the same narrow focus. It smells faintly of cut pine. The house rule is to knock first, and he expects it.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1288,7 +1291,7 @@
         }
       },
       "Hiryu Rin's Room": {
-        "description": "Hiryu Rin's dorm room on the men's side: a martial artist's room with a wooden training dummy, a rolled floor mat, Chinese calligraphy scrolls on the wall, a tea set on a low table and a few kung-fu film posters. It is neat, quiet and smells of jasmine tea. He was unpacked by the second evening. Every morning before breakfast he unrolls the mat and runs his kung-fu forms slowly and properly, and at night the knock of palm on wood from the dummy is the only sound from his door. He pours tea for a guest without asking. House rule: knock first, and he will answer in one word.",
+        "description": "Room 303, third floor, Class 1-B men's wing. Hiryu Rin's dorm room on the men's side: a martial artist's room with a wooden training dummy, a rolled floor mat, Chinese calligraphy scrolls on the wall, a tea set on a low table and a few kung-fu film posters. It is neat, quiet and smells of jasmine tea. He was unpacked by the second evening. Every morning before breakfast he unrolls the mat and runs his kung-fu forms slowly and properly, and at night the knock of palm on wood from the dummy is the only sound from his door. He pours tea for a guest without asking. House rule: knock first, and he will answer in one word.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1306,7 +1309,7 @@
         }
       },
       "Jurota Shishida's Room": {
-        "description": "Jurota Shishida's dorm room on the men's side: a gentleman's study with tall bookshelves of classics, a record player and a stack of classical records, a large reading armchair with a lamp, and a careful row of grooming brushes for his fur. He has unpacked everything already, alphabetized. Each evening he reads with a record turning low, and each morning he brushes out his mane before a mirror with real seriousness, apologizing to anyone who has to wait. A faint scent of cedar and grooming oil hangs in the air. He offers visitors tea. House rule: knock first; he always answers formally.",
+        "description": "Room 304, third floor, Class 1-B men's wing. Jurota Shishida's dorm room on the men's side: a gentleman's study with tall bookshelves of classics, a record player and a stack of classical records, a large reading armchair with a lamp, and a careful row of grooming brushes for his fur. He has unpacked everything already, alphabetized. Each evening he reads with a record turning low, and each morning he brushes out his mane before a mirror with real seriousness, apologizing to anyone who has to wait. A faint scent of cedar and grooming oil hangs in the air. He offers visitors tea. House rule: knock first; he always answers formally.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1324,7 +1327,7 @@
         }
       },
       "Yosetsu Awase's Room": {
-        "description": "Yosetsu Awase's dorm room on the men's side: a builder's room with a workbench of model kits and small tools, a welded metal sculpture made from scrap on the shelf, and a beanbag in front of a game console. He is always halfway through fixing something: a classmate's lamp, a drawer runner, a chair he found in the yard. His welds are seamless, joined by touch, and the room smells faintly of metal and machine oil. Upturned crates double as side tables. In the evenings he games with whoever drops in, a project in his lap between rounds. House rule: knock first, then mind the parts on the floor.",
+        "description": "Room 203, second floor, Class 1-B men's wing. Yosetsu Awase's dorm room on the men's side: a builder's room with a workbench of model kits and small tools, a welded metal sculpture made from scrap on the shelf, and a beanbag in front of a game console. He is always halfway through fixing something: a classmate's lamp, a drawer runner, a chair he found in the yard. His welds are seamless, joined by touch, and the room smells faintly of metal and machine oil. Upturned crates double as side tables. In the evenings he games with whoever drops in, a project in his lap between rounds. House rule: knock first, then mind the parts on the floor.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1342,7 +1345,7 @@
         }
       },
       "Sen Kaibara's Room": {
-        "description": "Sen Kaibara's dorm room on the men's side: laid-back, with a turntable, a coiled hanging lamp, a rack of sneakers, a basketball and posters of street dancers. He likes things that spin and rooms where friends drop in and stay. A strip of floor stays clear for his drills, slow forearm rotations and short twisting punches in front of the closet mirror, worked through without his Quirk until the motion is clean. Evenings, a record turns and a few classmates sprawl on the floor while he spins the basketball on one finger and adds a flat remark now and then. The room smells of new rubber and sneaker cleaner. House rule: knock first.",
+        "description": "Room 204, second floor, Class 1-B men's wing. Sen Kaibara's dorm room on the men's side: laid-back, with a turntable, a coiled hanging lamp, a rack of sneakers, a basketball and posters of street dancers. He likes things that spin and rooms where friends drop in and stay. A strip of floor stays clear for his drills, slow forearm rotations and short twisting punches in front of the closet mirror, worked through without his Quirk until the motion is clean. Evenings, a record turns and a few classmates sprawl on the floor while he spins the basketball on one finger and adds a flat remark now and then. The room smells of new rubber and sneaker cleaner. House rule: knock first.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1360,7 +1363,7 @@
         }
       },
       "Shihai Kuroiro's Room": {
-        "description": "Shihai Kuroiro's dorm room on the men's side: everything is black, the walls, the bedding, the furniture and the blackout curtains, with shelves of horror manga and a single dim lamp. He covered the walls in black fabric on move-in day and keeps everything else in plain black storage bins. In the dark he is very hard to find in it, and he likes that: he reads in the gloom, practices slipping into the black surfaces, and greets visitors from somewhere they did not expect, in his most ominous voice. The air smells of new fabric and ink. House rule: knock first, and wait, because he may need a moment to come out of the wall.",
+        "description": "Room 401, fourth floor, Class 1-B men's wing. Shihai Kuroiro's dorm room on the men's side: everything is black, the walls, the bedding, the furniture and the blackout curtains, with shelves of horror manga and a single dim lamp. He covered the walls in black fabric on move-in day and keeps everything else in plain black storage bins. In the dark he is very hard to find in it, and he likes that: he reads in the gloom, practices slipping into the black surfaces, and greets visitors from somewhere they did not expect, in his most ominous voice. The air smells of new fabric and ink. House rule: knock first, and wait, because he may need a moment to come out of the wall.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1378,7 +1381,7 @@
         }
       },
       "Kojiro Bondo's Room": {
-        "description": "Kojiro Bondo's dorm room on the men's side: a crafter's room, with shelves of finished model kits, jars of glue and paint, a desk under a magnifying lamp and a corkboard of plans. Polite to the core, he keeps everything labeled and asks visitors to mind the drying parts. His big hands work with surprising care over the tiny pieces in the evenings, and he moves through his own room sideways so nothing gets knocked. Every storage box on his shelves is labeled. It smells of paint and model cement, the window cracked for air. House rule: knock first; he answers softly, a little surprised anyone came.",
+        "description": "Room 402, fourth floor, Class 1-B men's wing. Kojiro Bondo's dorm room on the men's side: a crafter's room, with shelves of finished model kits, jars of glue and paint, a desk under a magnifying lamp and a corkboard of plans. Polite to the core, he keeps everything labeled and asks visitors to mind the drying parts. His big hands work with surprising care over the tiny pieces in the evenings, and he moves through his own room sideways so nothing gets knocked. Every storage box on his shelves is labeled. It smells of paint and model cement, the window cracked for air. House rule: knock first; he answers softly, a little surprised anyone came.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1396,7 +1399,7 @@
         }
       },
       "Kosei Tsuburaba's Room": {
-        "description": "Kosei Tsuburaba's dorm room on the men's side: airy and open, with the window always cracked, wind chimes on the balcony, an air purifier humming, a few plants and very little furniture. The whole room is built around the air in it. He trains his breath here every morning, long inhales timed on his phone and air walls hardened over the desk to test how long they hold, and talks through the whole session to whoever is listening. He owns little and calls it his minimalist look. The chimes ring with every breeze. House rule: knock first, and he will have a story ready.",
+        "description": "Room 403, fourth floor, Class 1-B men's wing. Kosei Tsuburaba's dorm room on the men's side: airy and open, with the window always cracked, wind chimes on the balcony, an air purifier humming, a few plants and very little furniture. The whole room is built around the air in it. He trains his breath here every morning, long inhales timed on his phone and air walls hardened over the desk to test how long they hold, and talks through the whole session to whoever is listening. He owns little and calls it his minimalist look. The chimes ring with every breeze. House rule: knock first, and he will have a story ready.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1414,7 +1417,7 @@
         }
       },
       "Nirengeki Shoda's Room": {
-        "description": "Nirengeki Shoda's dorm room on the men's side: serious and orderly, with a neat desk of study books, a pair of focus mitts and a heavy bag in the corner, and a small shelf of strategy books. He keeps a training log open on the desk, written in small, careful handwriting. He finished unpacking the first night and folded the boxes flat. In the evenings he studies, then works the bag quietly, one strike and a pause, practicing the timing of his second impact. The room smells of fresh paper and tatami. House rule: knock first; he answers politely and offers the only chair.",
+        "description": "Room 404, fourth floor, Class 1-B men's wing. Nirengeki Shoda's dorm room on the men's side: serious and orderly, with a neat desk of study books, a pair of focus mitts and a heavy bag in the corner, and a small shelf of strategy books. He keeps a training log open on the desk, written in small, careful handwriting. He finished unpacking the first night and folded the boxes flat. In the evenings he studies, then works the bag quietly, one strike and a pause, practicing the timing of his second impact. The room smells of fresh paper and tatami. House rule: knock first; he answers politely and offers the only chair.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1432,7 +1435,7 @@
         }
       },
       "Manga Fukidashi's Room": {
-        "description": "Manga Fukidashi's dorm room on the men's side: floor-to-ceiling shelves of manga volumes, a drawing desk with pens and inked pages, and walls covered in comic panels and speech-bubble posters. His shelves of manga volumes are always being re-sorted. He narrates his own day out loud in sound effects, but in here he keeps them to a murmur so none of them turn solid and knock the shelves over. He draws in the evenings, the scratch of pen nibs and the smell of fresh ink filling the room, and acts out his replies with his whole body. House rule: knock first; the answer will be a cheerful sound effect.",
+        "description": "Room 501, fifth floor, Class 1-B men's wing. Manga Fukidashi's dorm room on the men's side: floor-to-ceiling shelves of manga volumes, a drawing desk with pens and inked pages, and walls covered in comic panels and speech-bubble posters. His shelves of manga volumes are always being re-sorted. He narrates his own day out loud in sound effects, but in here he keeps them to a murmur so none of them turn solid and knock the shelves over. He draws in the evenings, the scratch of pen nibs and the smell of fresh ink filling the room, and acts out his replies with his whole body. House rule: knock first; the answer will be a cheerful sound effect.",
         "paths": [
           "Class 1-B Men's Wing"
         ],
@@ -1450,7 +1453,7 @@
         }
       },
       "Itsuka Kendo's Room": {
-        "description": "Itsuka Kendo's dorm room on the women's side: tidy and welcoming, the room of the class's big sister, with martial-arts trophies on a shelf, a pair of training mitts, a big drawer of snacks to share and a low table where classmates come to talk things out. She unpacked in an afternoon and spent the next one helping others do the same. She stretches and runs her martial-arts forms here each morning, and in the evenings the low table holds whoever is homesick, stuck or annoyed with Monoma. The room smells of green tea and rice crackers. House rule: knock first; she always answers, and usually puts the kettle on.",
+        "description": "Room 205, second floor, Class 1-B women's wing. Itsuka Kendo's dorm room on the women's side: tidy and welcoming, the room of the class's big sister, with martial-arts trophies on a shelf, a pair of training mitts, a big drawer of snacks to share and a low table where classmates come to talk things out. She unpacked in an afternoon and spent the next one helping others do the same. She stretches and runs her martial-arts forms here each morning, and in the evenings the low table holds whoever is homesick, stuck or annoyed with Monoma. The room smells of green tea and rice crackers. House rule: knock first; she always answers, and usually puts the kettle on.",
         "paths": [
           "Class 1-B Women's Wing"
         ],
@@ -1468,7 +1471,7 @@
         }
       },
       "Ibara Shiozaki's Room": {
-        "description": "Ibara Shiozaki's dorm room on the women's side: green and peaceful, with vines and potted plants climbing the walls and windowsill, fresh flowers, a small corner for quiet prayer with a candle, and soft light through the curtains. She tends the plants every morning and prays at dawn and before sleep, lighting the candle only while she prays. Her few belongings are already put away with care. Visitors are welcome, but quietly; she speaks softly and asks the same of guests. The room smells of damp leaves and flowers. House rule: knock first, gently, and wait if she is at prayer.",
+        "description": "Room 206, second floor, Class 1-B women's wing. Ibara Shiozaki's dorm room on the women's side: green and peaceful, with vines and potted plants climbing the walls and windowsill, fresh flowers, a small corner for quiet prayer with a candle, and soft light through the curtains. She tends the plants every morning and prays at dawn and before sleep, lighting the candle only while she prays. Her few belongings are already put away with care. Visitors are welcome, but quietly; she speaks softly and asks the same of guests. The room smells of damp leaves and flowers. House rule: knock first, gently, and wait if she is at prayer.",
         "paths": [
           "Class 1-B Women's Wing"
         ],
@@ -1486,7 +1489,7 @@
         }
       },
       "Setsuna Tokage's Room": {
-        "description": "Setsuna Tokage's dorm room on the women's side: bright and lively, with fashion posters, a messy vanity, colorful cushions and a terrarium of small lizards by the window. Something is always out of place and she likes it that way. Things lie half put away everywhere, because she keeps starting something new mid-sentence. She talks to the lizards when nobody else is around and to everyone else the rest of the time, and evenings bring classmates to the cushions to hear her opinions on everything. The terrarium heat lamp keeps one corner warm. House rule: knock first, and expect to be talked at before you are in.",
+        "description": "Room 207, second floor, Class 1-B women's wing. Setsuna Tokage's dorm room on the women's side: bright and lively, with fashion posters, a messy vanity, colorful cushions and a terrarium of small lizards by the window. Something is always out of place and she likes it that way. Things lie half put away everywhere, because she keeps starting something new mid-sentence. She talks to the lizards when nobody else is around and to everyone else the rest of the time, and evenings bring classmates to the cushions to hear her opinions on everything. The terrarium heat lamp keeps one corner warm. House rule: knock first, and expect to be talked at before you are in.",
         "paths": [
           "Class 1-B Women's Wing"
         ],
@@ -1504,7 +1507,7 @@
         }
       },
       "Pony Tsunotori's Room": {
-        "description": "Pony Tsunotori's dorm room on the women's side: a little piece of America, with horse posters, a pair of cowboy boots by the door, a patchwork quilt, English-language books and photos of home, and a Japanese phrasebook full of notes. She has hung the ceiling lamp higher so her horns clear it, and her hooves click on the wooden floor as she moves. Evenings, she studies Japanese at the desk, reading phrases aloud and laughing when an idiom turns out not to mean what it says, and calls home late. Her storage boxes are labeled in English. House rule: knock first; she answers with a bright hello in English.",
+        "description": "Room 208, second floor, Class 1-B women's wing. Pony Tsunotori's dorm room on the women's side: a little piece of America, with horse posters, a pair of cowboy boots by the door, a patchwork quilt, English-language books and photos of home, and a Japanese phrasebook full of notes. She has hung the ceiling lamp higher so her horns clear it, and her hooves click on the wooden floor as she moves. Evenings, she studies Japanese at the desk, reading phrases aloud and laughing when an idiom turns out not to mean what it says, and calls home late. Her storage boxes are labeled in English. House rule: knock first; she answers with a bright hello in English.",
         "paths": [
           "Class 1-B Women's Wing"
         ],
@@ -1522,7 +1525,7 @@
         }
       },
       "Yui Kodai's Room": {
-        "description": "Yui Kodai's dorm room on the women's side: quiet and neat, with very little furniture and a glass shelf of carefully arranged miniatures, tiny furniture and models she can resize. She speaks little and the room says a lot. Everything was in place by the end of move-in day, each item squared to the edge of its shelf. She reads at the desk in the evenings and picks out the few small objects she will carry tomorrow, lining them up by the door. The room is so silent the clock is the loudest thing in it. House rule: knock first; she opens the door and nods.",
+        "description": "Room 305, third floor, Class 1-B women's wing. Yui Kodai's dorm room on the women's side: quiet and neat, with very little furniture and a glass shelf of carefully arranged miniatures, tiny furniture and models she can resize. She speaks little and the room says a lot. Everything was in place by the end of move-in day, each item squared to the edge of its shelf. She reads at the desk in the evenings and picks out the few small objects she will carry tomorrow, lining them up by the door. The room is so silent the clock is the loudest thing in it. House rule: knock first; she opens the door and nods.",
         "paths": [
           "Class 1-B Women's Wing"
         ],
@@ -1540,7 +1543,7 @@
         }
       },
       "Kinoko Komori's Room": {
-        "description": "Kinoko Komori's dorm room on the women's side: cozy and slightly damp, with a humidifier, mushroom plushies and mushroom lamps, a moss terrarium and soft pastel bedding. It smells of earth after rain. The humidifier runs day and night, because she likes the air the way her spores like it, and she checks the moss before class each morning. Storage boxes line the wall with a plushie perched on each. Evenings, she chats with whoever drops in, a mushroom pun in every other sentence. House rule: knock first, and do not leave the door open, because she has the humidity just right.",
+        "description": "Room 306, third floor, Class 1-B women's wing. Kinoko Komori's dorm room on the women's side: cozy and slightly damp, with a humidifier, mushroom plushies and mushroom lamps, a moss terrarium and soft pastel bedding. It smells of earth after rain. The humidifier runs day and night, because she likes the air the way her spores like it, and she checks the moss before class each morning. Storage boxes line the wall with a plushie perched on each. Evenings, she chats with whoever drops in, a mushroom pun in every other sentence. House rule: knock first, and do not leave the door open, because she has the humidity just right.",
         "paths": [
           "Class 1-B Women's Wing"
         ],
@@ -1558,7 +1561,7 @@
         }
       },
       "Reiko Yanagi's Room": {
-        "description": "Reiko Yanagi's dorm room on the women's side: spooky but cute, with dark drapes, candles, a shelf of ghost stories and horror novels, and pale paper lanterns. It is very quiet and things in it occasionally float, which is only her Quirk at work when she cannot be bothered to stand up. She reads ghost stories late into the evening and offers to lend one to anyone who looks curious. The candles stay unlit for safety; the lanterns give the room its pale glow. The air smells of old paper and dried lavender. House rule: knock first; the door may open on its own.",
+        "description": "Room 307, third floor, Class 1-B women's wing. Reiko Yanagi's dorm room on the women's side: spooky but cute, with dark drapes, candles, a shelf of ghost stories and horror novels, and pale paper lanterns. It is very quiet and things in it occasionally float, which is only her Quirk at work when she cannot be bothered to stand up. She reads ghost stories late into the evening and offers to lend one to anyone who looks curious. The candles stay unlit for safety; the lanterns give the room its pale glow. The air smells of old paper and dried lavender. House rule: knock first; the door may open on its own.",
         "paths": [
           "Class 1-B Women's Wing"
         ],
@@ -1716,6 +1719,24 @@
         "images": {
           "establishingShot": {
             "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/205325ab-5f31-4612-98e4-4cc1b8092085.png",
+            "crop": {
+              "focus": {
+                "x": 50,
+                "y": 50
+              },
+              "zoom": 100
+            }
+          }
+        }
+      },
+      "Other Course Common Kitchen": {
+        "description": "The common kitchen on the ground floor of the Other Course Dorm Halls, shared by the General Studies, Support and Management students who live there: four stoves in a row, two long tables, a wall of labeled cubbies and a fridge plastered with the halls' own sign-up sheets and study-group flyers. It is louder and busier than the Hero Course kitchens across the yard: Management students argue budgets over instant ramen, Support residents reheat dinner one-handed with a schematic in the other, and someone is always making tea for a study group. Hitoshi Shinso eats late and alone at the end of a table, and Mei Hatsume forgets her food in the microwave. Only the halls' own residents cook here; Hero Course students live and eat in their own buildings. The doorway leads back to the halls.",
+        "paths": [
+          "Other Course Dorm Halls"
+        ],
+        "images": {
+          "establishingShot": {
+            "imageUrl": "https://images.aidungeon.com/user_content/65802571/images/uploads/feec0b32-87cc-44b7-a12f-ac32849335b8.png",
             "crop": {
               "focus": {
                 "x": 50,

@@ -1,0 +1,31 @@
+{
+  "Travel: my homeroom (General Studies)": {
+    "name": "Travel: my homeroom (General Studies)",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. General Studies"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b[Mm]y (own )?(home ?room|class ?room|classes|class)\\b"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "General Studies Classrooms"
+      }
+    ]
+  }
+}

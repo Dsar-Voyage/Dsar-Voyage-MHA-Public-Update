@@ -1,4 +1,4 @@
-# traits: 1147 entries (11.17)
+# traits: 1148 entries (11.18)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -231,6 +231,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Drawback: Bodily Toll | `Drawback: Bodily Toll` | [Drawback_ Bodily Toll.json](<Drawback_ Bodily Toll.json>) |
 | Drawback: Cognitive Fade | `Drawback: Cognitive Fade` | [Drawback_ Cognitive Fade.json](<Drawback_ Cognitive Fade.json>) |
 | Drawback: Cooldown | `Drawback: Cooldown` | [Drawback_ Cooldown.json](<Drawback_ Cooldown.json>) |
+| Drawback: Emotional Swing | `Drawback: Emotional Swing` | [Drawback_ Emotional Swing.json](<Drawback_ Emotional Swing.json>) |
 | Drawback: Finite Fuel | `Drawback: Finite Fuel` | [Drawback_ Finite Fuel.json](<Drawback_ Finite Fuel.json>) |
 | Drawback: Loss of Control | `Drawback: Loss of Control` | [Drawback_ Loss of Control.json](<Drawback_ Loss of Control.json>) |
 | Drawback: Overheating | `Drawback: Overheating` | [Drawback_ Overheating.json](<Drawback_ Overheating.json>) |

@@ -1,0 +1,16 @@
+{
+  "Clock: Your Own Start Date": {
+    "name": "Clock: Your Own Start Date",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 0
+      }
+    ],
+    "effects": [],
+    "script": "(function(){if(storage.wyoDone===true||typeof storage.wyoTo!=='number'){skip=true;return;}const tk=check({type:'game-tick'})||0,tg=storage.wyoTo;const EV=[];for(let i=1;storage['EVY'+i];i++)for(const x of storage['EVY'+i])EV.push(x);if(!EV.length){if(tk-(storage.wyoT||0)>12)storage.wyoDone=true;skip=true;return;}const WN=(k,v)=>({type:'write-number',key:k,operator:'set',value:v});let st=check({type:'read-number',key:'studentStage'})||0;const s0=st;const HC=/Hero Course/.test(JSON.stringify(check({type:'player-traits'})||''));for(const x of EV)if(x[1]<tg&&storage['done_'+x[0]]!==true){storage['done_'+x[0]]=true;if(x[3]>st)st=x[3];if(x[0]==='provisional_license_exam'&&HC&&storage.licenseGranted!==true){storage.licenseGranted=true;effects.push({type:'player-traits',operator:'add',value:'Provisional Hero License'},{type:'item-add',item:'Provisional hero license',quantity:1},{type:'write-boolean',key:'licenseGranted',operator:'set',value:true});}}if(st>s0){storage.studentStage=st;effects.push(WN('studentStage',st));}storage.yearStamp=null;storage.wyoDone=true;log('own start date: events before day '+tg+' resolved');})();"
+  }
+}

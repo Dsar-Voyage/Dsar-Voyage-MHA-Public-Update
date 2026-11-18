@@ -1,0 +1,16 @@
+{
+  "Clock: Battle Trial release": {
+    "name": "Clock: Battle Trial release",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 3
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const tk=check({type:'game-tick'})||0;const P=storage.dsPend;if(storage.btRel===true||!P||P.e!=='@b'||P.k!==tk-1){skip=true;return;}storage.btH=storage.btHk===tk-1?(storage.btH||0)+1:1;storage.btHk=tk;if(storage.btH<3){skip=true;return;}storage.btRel=true;const Q='Battle Trial: Heroes and Villains';if(check({type:'quest-status',questId:Q,operator:'equals',value:'accepted'})===true)effects.push({type:'quest-complete',questId:Q});log('bt release after '+storage.btH+' held turns');})();"
+  }
+}

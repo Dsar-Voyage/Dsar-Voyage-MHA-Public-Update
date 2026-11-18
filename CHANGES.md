@@ -6,6 +6,29 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.18 — Friends Who Show Up (built 2026-11-18 from draft 745, ahead of the world publish)
+
+Close friends come by once a day in free time (a knock or a text, never in class, fights or events). Heights Alliance
+follows Aizawa's canon floor plan with door numbers for every student (Class 1-B's numbers are the world's own; canon
+has no 1-B plan), and General Studies, Support and Management students live, cook and study in their own halls. Clock:
+move-in night stays Sunday, one sleep = one day, a Write Your Own opening can name its start date, and the Battle Trial
+hold lets go after three held turns. Training shows measurable results and every third counted day on a skill raises it
+one level. Finished quests no longer leap a bond (the engine's +15 is trimmed to +4 / +1). New drawback: Emotional
+Swing. New people's Quirks have limits instead of default pain. The narrator never plays the player character. Items
+used up count once; quests close when really done; unnamed foes stay down.
+Full per-entry list: [`releases/11.18.changes.md`](releases/11.18.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | Added 18 (`Bonds: a close friend comes by`, `Bonds: quest rewards stay small`, `Clock: Battle Trial release`, `Clock: Your Own Start Date`, `Combat: the downed stay down`, `Dorms: room map note`, the three `Housing: ... player's places`, `Scene: changing rooms keep sides`, `Scene: dorms keep their class`, `Training: progress shows`, the three `Travel: my homeroom (...)` and three `Travel: my kitchen (...)`); changed `Canon Beat: The First-Day Quirk Assessment`, `Clock: Date Sync`, `Clock: Show Time`, `Clock: Skip Days`, `Clock: Sleep`, `Clock: Start`, `Combat: turning points`, `Mechanics: Quirkless cleanup`, `Prune: path dispatcher 1/2`, `Travel: leave (U.A.)`. The `Pack: load` / `Event Lazy: load` changes are only re-packed data loaders. | **Running save:** copy the named entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)); never re-add one-shot triggers your save already ran |
+| `aiInstructions` | 12 tasks: WORLD RULES (housing, Quirk limits) in all copies, `generateStory` (Player Agency, dialogue order, no faux profundity), `generateNewNPC` / `generateNPCDetails` (limits, not default pain), `generateNPCUpdates` (quest-sized bond gains), `ItemGenerationAndUsage` (one use, one unit). | whole entries |
+| `locations` | `U.A. Academy`: dorm areas (room numbers, wing maps, Dorm Rooms plan, Your Dorm Room), separate 1-A/1-B kitchens, new `Other Course Common Kitchen`. | the `U.A. Academy` entry |
+| `traits`, `traitCategories` | Added `Drawback: Emotional Swing`; `Quirk Drawback` group lists it and notes which drawbacks are limits. | both entries |
+| `parties.quests`, `parties.questTriggers` | `Giran's Supply Run`, `Paying the Broker`, `Power Loader's First Assignment` (completion), `The First Lecture` (Tuesday). | the quests' fields (keep status) and their quest triggers |
+| `storySettings`, `storyStarts`, `worldLore` | Quest generation guidance (bond rewards); `Write Your Own` card (start date); `Heights Alliance Dorms` (room plan). | whole entries |
+
+---
+
 ## 11.17 — Bonds That Feel Like Bonds (published 2026-11-17)
 
 People at Close and above sometimes take the first step when they share a scene with you (a gym invite, a saved seat,

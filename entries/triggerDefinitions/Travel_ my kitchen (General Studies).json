@@ -1,0 +1,31 @@
+{
+  "Travel: my kitchen (General Studies)": {
+    "name": "Travel: my kitchen (General Studies)",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. General Studies"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Kk]itchen|[Cc]ook\\w*|[Bb]reakfast)\\b"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Other Course Common Kitchen"
+      }
+    ]
+  }
+}

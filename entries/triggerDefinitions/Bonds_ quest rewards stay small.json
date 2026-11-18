@@ -1,0 +1,17 @@
+{
+  "Bonds: quest rewards stay small": {
+    "name": "Bonds: quest rewards stay small",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const tk=check({type:'game-tick'})||0;const d=check({type:'read-number',key:'currentDay'})||0;const QC=check({type:'quests-completed'})||[];const nq=Array.isArray(QC)?QC.length:0;const Q=storage.qbQ||(storage.qbQ={n:nq,t:-99});if(nq>Q.n)Q.t=tk;Q.n=nq;const R=storage.qbR||(storage.qbR={}),D=storage.qbD||(storage.qbD={});const SC=check({type:'npc-in-scene',npc:'anySceneNPC'});const IN=(SC&&typeof SC==='object')?Object.keys(SC).filter(k=>SC[k]===true):[];const N=new Set(IN);for(const k of Object.keys(R)){if(tk-R[k].t<=4)N.add(k);else delete R[k];}let n0=0;for(const n of N){if(++n0>24)break;const r=check({type:'npc-relationship',npc:n});if(typeof r!=='number')continue;const p=R[n]?R[n].v:null;if(typeof p==='number'&&r-p>=12&&tk-Q.t<=2){const al=D[n]===d?1:4;const cut=(r-p)-al;effects.push({type:'npc-relationship',npc:n,operator:'subtract',value:cut});D[n]=d;R[n]={v:p+al,t:tk};log('quest bond trim '+n+' '+p+'->'+r+' kept +'+al);}else R[n]={v:r,t:tk};}})();"
+  }
+}

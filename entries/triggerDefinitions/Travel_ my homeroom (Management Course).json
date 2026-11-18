@@ -1,0 +1,31 @@
+{
+  "Travel: my homeroom (Management Course)": {
+    "name": "Travel: my homeroom (Management Course)",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Management Course"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b[Mm]y (own )?(home ?room|class ?room|classes|class)\\b"
+      }
+    ],
+    "effects": [
+      {
+        "type": "party-area",
+        "operator": "set",
+        "value": "Management Course Classrooms"
+      }
+    ]
+  }
+}
