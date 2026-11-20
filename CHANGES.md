@@ -30,6 +30,7 @@ Full per-entry list: [`releases/11.20.changes.md`](releases/11.20.changes.md).
 | `aiInstructions` | `generateCharacterBackground` (two fields, five paragraphs, the Quirk paragraph explains the Quirk and adds no costs), `generateLearnedAbilities` (the Special Move rules now live in `custom`), `ItemGenerationAndUsage` (gear never changes a bar's maximum). | whole entries |
 | `storySettings` | `questGenerationGuidance`: admin work never creates, advances or completes a quest. | whole section |
 | `parties.quests` / `parties.questTriggers` | `First Patrol Report` fits a sidekick's first day. | the `First Patrol Report` entries (keep your quest status) |
+| `npcs`, `locations`, `premadeCharacters` (and image links inside triggers) | Image links only: 514 images were re-approved under the production world for Voyage 2.60.3's publish check. Same pictures; the old links keep working. | **optional**: no need to copy into a running save |
 
 ## 11.18 — Friends Who Show Up (published 2026-11-18, draft 754)
 
