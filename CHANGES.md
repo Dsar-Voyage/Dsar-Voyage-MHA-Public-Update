@@ -6,6 +6,31 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.20 — Night Owls & Special Moves (published 2026-11-20, draft 786)
+
+Special Moves work again: Voyage now files learned moves under the first tier, so every learned move is a Special Move
+(+10, 2-turn cooldown; the `special` tier reads "Special Move ★"), Special Move Training creates
+"Special Move: <name>" and recharges in 6 turns (was 30), and its card explains the 6-turn window between new moves.
+The character creator's background explains the Quirk and leaves the Drawback to its trait (no invented costs), in
+exactly five paragraphs with no headings. Clock: past midnight the date holds until sleep, dawn (5 a.m.) turns the day
+for an all-nighter, one sleep is one day even after midnight, and naps or "before turning in" never move the day.
+Skips wait during the Quirk Assessment and the player's own Battle Trial round and stop for the Media Break-In; skip to
+a time shows that time. The Sports Festival runs on a schedule. Other courses go to their own homeroom; move-in night
+names the player's room; Days 4-5 know whether the player fought in the Battle Trial. Narrator: vague errands never
+buy anything, the player stays where a shift or errand ends, questions wait for the player's answer, paperwork never
+makes a quest. Gear never changes a bar's maximum. Moving Day (An Ordinary Life) starts in the morning. Lighter
+scripts on the heaviest turns (Dark Shadow, quest bonds, event cleanup).
+Full per-entry list: [`releases/11.20.changes.md`](releases/11.20.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | Added 8 (`Battle Trial: done (Class 1-A/1-B)`, `Battle Trial: missed (Class 1-A/1-B)`, `Clock: Skip waits for class exercises` (place it right before `Clock: Skip Days`), `Dorms: the player's room on move-in night (Class 1-A/1-B)`, `Festival: the day's schedule`); changed `Bonds: quest rewards stay small`, `Clock: Calendar 1`, `Clock: Show Time`, `Clock: Skip Band`, `Clock: Skip Days`, `Clock: Sleep`, `Clock: Time Line`, `Clock: Time Line Note`, `Companion: Dark Shadow`, `Prune: done dispatcher 1/2`, `Prune: path dispatcher 1/2`, `Side Event: starts 1`, the three `Travel: my homeroom (...)`, `Year So Far`. The `Pack: load` / `Event Lazy: load` changes are only re-packed data loaders. | **Running save:** copy the named entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)); never re-add one-shot triggers your save already ran |
+| `combatSettings` | Learned-move tiers: `technique` = "Special Move" (+10, cooldown 2), `special` = "Special Move ★" (+10, cooldown 2). Already-learned moves pick up the new values. | whole section |
+| `abilities` | `Special Move Training`: cooldown 6, card text. | the `Special Move Training` entry |
+| `aiInstructions` | `generateCharacterBackground` (two fields, five paragraphs, the Quirk paragraph explains the Quirk and adds no costs), `generateLearnedAbilities` (the Special Move rules now live in `custom`), `ItemGenerationAndUsage` (gear never changes a bar's maximum). | whole entries |
+| `storySettings` | `questGenerationGuidance`: admin work never creates, advances or completes a quest. | whole section |
+| `parties.quests` / `parties.questTriggers` | `First Patrol Report` fits a sidekick's first day. | the `First Patrol Report` entries (keep your quest status) |
+
 ## 11.18 — Friends Who Show Up (published 2026-11-18, draft 754)
 
 Close friends come by once a day in free time (a knock or a text, never in class, fights or events). Heights Alliance

@@ -1,0 +1,42 @@
+{
+  "Battle Trial: done (Class 1-A)": {
+    "name": "Battle Trial: done (Class 1-A)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 4
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 5
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: All Might's Battle Trial finished on Tuesday, April 2 (Day 3), with every round played, the player's own included. It is over and complete: it is never announced, \"finished\", staged or replayed again, and a student who drew the spare slip and only watched is not owed a match. The next Hero class is different training."
+      }
+    ]
+  }
+}

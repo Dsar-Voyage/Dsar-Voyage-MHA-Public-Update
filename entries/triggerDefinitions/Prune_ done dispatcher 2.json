@@ -5,7 +5,7 @@
       {
         "type": "game-tick",
         "operator": "greaterThanOrEqual",
-        "value": 1
+        "value": 9
       }
     ],
     "effects": [],

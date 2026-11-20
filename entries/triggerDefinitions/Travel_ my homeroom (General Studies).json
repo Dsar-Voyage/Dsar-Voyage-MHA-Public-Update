@@ -25,6 +25,10 @@
         "type": "party-area",
         "operator": "set",
         "value": "General Studies Classrooms"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player goes to their OWN homeroom, the General Studies Classrooms of the General Studies. This turn's arrival is the General Studies Classrooms (write <arrival> General Studies Classrooms), with their own General Studies classmates and teacher; never the room of Class 1-A, Class 1-B, Support Course, Management Course."
       }
     ]
   }

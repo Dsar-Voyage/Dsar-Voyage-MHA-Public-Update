@@ -1,6 +1,4 @@
 {
-  "minCombatXP": 1,
-  "baseCombatXP": 100,
   "abilityCooldown": 2,
   "abilityBonus": 10,
   "npcDailyHealingAmount": 120,
@@ -67,14 +65,14 @@
   "abilityTiers": [
     {
       "id": "technique",
-      "name": "Technique",
-      "cooldown": 0,
-      "bonus": 5,
-      "guidance": "Never for a move taught by Special Move Training (that is a Special Move). A sharper everyday use of the character's own Quirk, training or gear: a new shape, range, rhythm or control of something they already do. Strain light or moderate (Stamina brief or demanding for trained techniques). Most learned moves are Techniques."
+      "name": "Special Move",
+      "cooldown": 2,
+      "bonus": 10,
+      "guidance": "Every learned move: a move taught by Special Move Training, or a sharper use of the character's own Quirk, training or gear earned on the page. Strain moderate or heavy (Stamina demanding or heavy for trained moves)."
     },
     {
       "id": "special",
-      "name": "Special Move",
+      "name": "Special Move ★",
       "cooldown": 2,
       "bonus": 10,
       "guidance": "ALWAYS the tier of a move taught by Special Move Training (the first full success of the attempt), named \"Special Move: <name>\", and of any learned move that states an exact impact. Strain moderate or heavy."
@@ -88,5 +86,14 @@
     }
   ],
   "defaultTierId": "technique",
-  "abilityLearningInterval": 6
+  "abilityLearningInterval": 6,
+  "tierXPRewards": {
+    "trivial": 10,
+    "weak": 50,
+    "average": 100,
+    "strong": 150,
+    "elite": 200,
+    "boss": 400,
+    "mythic": 1000
+  }
 }

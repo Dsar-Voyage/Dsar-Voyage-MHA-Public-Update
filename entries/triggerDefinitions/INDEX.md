@@ -1,10 +1,14 @@
-# triggerDefinitions: 978 entries (11.18)
+# triggerDefinitions: 986 entries (11.20)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
 | Entry | Key | File |
 |---|---|---|
+| Battle Trial: done (Class 1-A) | `Battle Trial: done (Class 1-A)` | [Battle Trial_ done (Class 1-A).json](<Battle Trial_ done (Class 1-A).json>) |
+| Battle Trial: done (Class 1-B) | `Battle Trial: done (Class 1-B)` | [Battle Trial_ done (Class 1-B).json](<Battle Trial_ done (Class 1-B).json>) |
 | Battle Trial: lottery | `Battle Trial: lottery` | [Battle Trial_ lottery.json](<Battle Trial_ lottery.json>) |
+| Battle Trial: missed (Class 1-A) | `Battle Trial: missed (Class 1-A)` | [Battle Trial_ missed (Class 1-A).json](<Battle Trial_ missed (Class 1-A).json>) |
+| Battle Trial: missed (Class 1-B) | `Battle Trial: missed (Class 1-B)` | [Battle Trial_ missed (Class 1-B).json](<Battle Trial_ missed (Class 1-B).json>) |
 | Battle Trial: one round each (Class 1-A) | `Battle Trial: one round each (Class 1-A)` | [Battle Trial_ one round each (Class 1-A).json](<Battle Trial_ one round each (Class 1-A).json>) |
 | Battle Trial: one round each (Class 1-A) [2v2 Kirishima] | `Battle Trial: one round each (Class 1-A) [2v2 Kirishima]` | [Battle Trial_ one round each (Class 1-A) [2v2 Kirishima].json](<Battle Trial_ one round each (Class 1-A) [2v2 Kirishima].json>) |
 | Battle Trial: one round each (Class 1-A) [2v2 Sero] | `Battle Trial: one round each (Class 1-A) [2v2 Sero]` | [Battle Trial_ one round each (Class 1-A) [2v2 Sero].json](<Battle Trial_ one round each (Class 1-A) [2v2 Sero].json>) |
@@ -96,6 +100,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Skip Band | `Clock: Skip Band` | [Clock_ Skip Band.json](<Clock_ Skip Band.json>) |
 | Clock: Skip Days | `Clock: Skip Days` | [Clock_ Skip Days.json](<Clock_ Skip Days.json>) |
 | Clock: Skip Held | `Clock: Skip Held` | [Clock_ Skip Held.json](<Clock_ Skip Held.json>) |
+| Clock: Skip waits for class exercises | `Clock: Skip waits for class exercises` | [Clock_ Skip waits for class exercises.json](<Clock_ Skip waits for class exercises.json>) |
 | Clock: Sleep | `Clock: Sleep` | [Clock_ Sleep.json](<Clock_ Sleep.json>) |
 | Clock: Start | `Clock: Start` | [Clock_ Start.json](<Clock_ Start.json>) |
 | Clock: Stated Time | `Clock: Stated Time` | [Clock_ Stated Time.json](<Clock_ Stated Time.json>) |
@@ -194,6 +199,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Day Plan: day 5 [Support] | `Day Plan: day 5 [Support]` | [Day Plan_ day 5 [Support].json](<Day Plan_ day 5 [Support].json>) |
 | Day Plan: Quirk test turns [1-A] | `Day Plan: Quirk test turns [1-A]` | [Day Plan_ Quirk test turns [1-A].json](<Day Plan_ Quirk test turns [1-A].json>) |
 | Dorms: room map note | `Dorms: room map note` | [Dorms_ room map note.json](<Dorms_ room map note.json>) |
+| Dorms: the player's room on move-in night (Class 1-A) | `Dorms: the player's room on move-in night (Class 1-A)` | [Dorms_ the player's room on move-in night (Class 1-A).json](<Dorms_ the player's room on move-in night (Class 1-A).json>) |
+| Dorms: the player's room on move-in night (Class 1-B) | `Dorms: the player's room on move-in night (Class 1-B)` | [Dorms_ the player's room on move-in night (Class 1-B).json](<Dorms_ the player's room on move-in night (Class 1-B).json>) |
 | Event Ahead: Arrival at the Forest Camp | `Event Ahead: Arrival at the Forest Camp` | [Event Ahead_ Arrival at the Forest Camp.json](<Event Ahead_ Arrival at the Forest Camp.json>) |
 | Event Ahead: The Final Exams | `Event Ahead: The Final Exams` | [Event Ahead_ The Final Exams.json](<Event Ahead_ The Final Exams.json>) |
 | Event Ahead: The Joint Training Battle | `Event Ahead: The Joint Training Battle` | [Event Ahead_ The Joint Training Battle.json](<Event Ahead_ The Joint Training Battle.json>) |
@@ -305,6 +312,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Event Wrap: side dispatcher 7 | `Event Wrap: side dispatcher 7` | [Event Wrap_ side dispatcher 7.json](<Event Wrap_ side dispatcher 7.json>) |
 | Event Wrap: side dispatcher 8 | `Event Wrap: side dispatcher 8` | [Event Wrap_ side dispatcher 8.json](<Event Wrap_ side dispatcher 8.json>) |
 | Event Wrap: side dispatcher 9 | `Event Wrap: side dispatcher 9` | [Event Wrap_ side dispatcher 9.json](<Event Wrap_ side dispatcher 9.json>) |
+| Festival: the day's schedule | `Festival: the day's schedule` | [Festival_ the day's schedule.json](<Festival_ the day's schedule.json>) |
 | Follow: 1-A part 1 (before the story) | `Follow: 1-A part 1 (before the story)` | [Follow_ 1-A part 1 (before the story).json](<Follow_ 1-A part 1 (before the story).json>) |
 | Follow: 1-A part 2 (before the story) | `Follow: 1-A part 2 (before the story)` | [Follow_ 1-A part 2 (before the story).json](<Follow_ 1-A part 2 (before the story).json>) |
 | Follow: 1-B part 1 (before the story) | `Follow: 1-B part 1 (before the story)` | [Follow_ 1-B part 1 (before the story).json](<Follow_ 1-B part 1 (before the story).json>) |

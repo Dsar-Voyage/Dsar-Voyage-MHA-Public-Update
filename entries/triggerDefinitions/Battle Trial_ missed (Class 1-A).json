@@ -1,0 +1,42 @@
+{
+  "Battle Trial: missed (Class 1-A)": {
+    "name": "Battle Trial: missed (Class 1-A)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 4
+      },
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "lessThanOrEqual",
+        "value": 5
+      },
+      {
+        "type": "read-number",
+        "key": "btRound",
+        "operator": "lessThan",
+        "value": 1
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-A)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: All Might's Battle Trial took place on Tuesday, April 2 (Day 3) without the player; Class 1-A fought it and it is over. It is never announced, staged or replayed again, and the next Hero class is different training. Classmates may mention how their own matches went."
+      }
+    ]
+  }
+}

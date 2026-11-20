@@ -1,0 +1,21 @@
+{
+  "Clock: Skip waits for class exercises": {
+    "name": "Clock: Skip waits for class exercises",
+    "recurring": true,
+    "effects": [],
+    "script": "(function(){const QC=check({type:'quests-completed'})||[],d=check({type:'read-number',key:'currentDay'})||1;const r=d===3&&check({type:'party-location'})==='Ground Beta'&&(storage.btRound||0)<5&&QC.indexOf('Battle Trial: Heroes and Villains')<0||d===2&&check({type:'party-area'})==='Athletics Field'&&QC.indexOf('The First-Day Quirk Assessment')<0;storage.skR=r;if(!r){skip=true;return;}effects.push({type:'story',instruction:\"Narrator only, first rule, overriding the rule that a skip always happens: this skip WAITS. The class exercise here is still under way; no time passes, nobody leaves, and nothing in it is summarized, skipped or decided for the player: never narrate the player's own round, match or event, or its result. Play its very next moment and say in one line that the skip comes after the exercise ends.\"});log('skip waits: exercise running');})();",
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Ss]kip|[Ll]ater|[Pp]ass|[Gg]oe?s? by|[Ww]ent by|[Ff]ast|[Jj]ump|[Ss]pen[dt]|[Ff]l(y|ies) by"
+      }
+    ]
+  }
+}

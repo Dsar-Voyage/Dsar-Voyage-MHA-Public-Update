@@ -25,6 +25,10 @@
         "type": "party-area",
         "operator": "set",
         "value": "Management Course Classrooms"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player goes to their OWN homeroom, the Management Course Classrooms of the Management Course. This turn's arrival is the Management Course Classrooms (write <arrival> Management Course Classrooms), with their own Management Course classmates and teacher; never the room of Class 1-A, Class 1-B, General Studies, Support Course."
       }
     ]
   }

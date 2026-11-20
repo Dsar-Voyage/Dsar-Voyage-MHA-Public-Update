@@ -1,4 +1,4 @@
-# npcs: 299 entries (11.18)
+# npcs: 299 entries (11.20)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

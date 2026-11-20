@@ -1,0 +1,31 @@
+{
+  "Festival: the day's schedule": {
+    "name": "Festival: the day's schedule",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 24
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Stadium"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_sports_festival",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only, the Sports Festival day runs on a real schedule: opening ceremony at 9:00; the obstacle race about 9:30 to 10:30; the cavalry battle about 11:00 to 12:00; the lunch break 12:00 to 13:00; then recreational games and the one-on-one tournament from about 13:30 into the evening, the final last. Each event takes the real time it needs: stamp story times to match this schedule (no event ends minutes after it starts), never call lunch before noon, and never move the time past the event still being played."
+      }
+    ]
+  }
+}

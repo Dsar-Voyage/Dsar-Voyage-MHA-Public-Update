@@ -1,0 +1,30 @@
+{
+  "Dorms: the player's room on move-in night (Class 1-B)": {
+    "name": "Dorms: the player's room on move-in night (Class 1-B)",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "equals",
+        "value": 1
+      },
+      {
+        "type": "party-location",
+        "operator": "equals",
+        "value": "U.A. Academy"
+      },
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "U.A. Hero Course (Class 1-B)"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player character's own room in Class 1-B's dorm is 502 on the men's wing if the player character is a man, or 308 on the women's wing if a woman; one room, never another number or floor. Rooms are on floors two to five; the ground floor is shared."
+      }
+    ]
+  }
+}

@@ -25,6 +25,10 @@
         "type": "party-area",
         "operator": "set",
         "value": "Support Course Classrooms"
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the player goes to their OWN homeroom, the Support Course Classrooms of the Support Course. This turn's arrival is the Support Course Classrooms (write <arrival> Support Course Classrooms), with their own Support Course classmates and teacher; never the room of Class 1-A, Class 1-B, General Studies, Management Course."
       }
     ]
   }
