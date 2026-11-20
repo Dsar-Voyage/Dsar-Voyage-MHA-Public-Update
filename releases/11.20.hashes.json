@@ -23,18 +23,18 @@
   "itemTypes": "443cb6281c126cc4e26cbe3c07411818c50c8c3c2828eb7fd7dca95791d28a5e",
   "locationArchetypes": "35c40b6bb05658026e86e0ced3510a3c8f7aa30120aa07ee95ab26d9856d6efa",
   "locationSettings": "6721a4087de6bb7a96bb185ca65e213068283848f2da5627c977e5277b6cf699",
-  "locations": "597bc8c8d07028d6e09ce7156741e85e5383caa1c958cb90a948b0023f8f4507",
+  "locations": "3fc47748acf796ca4573656110f4f652b4decaf2b05cd74f3b615624ee1a6995",
   "mods": "87069a626b4782a9304bb8802710719332027a56132ce2c3ad0797e23b183cf7",
   "nameFilterSettings": "5338e9d7dcae6df66a522b59eb7507dbe3558e9e1cc522a24ef4dd9cb5824f7b",
   "narratorStyle": "520766505ed5b523cb473c90a1928e4a67dbe5cd3d0f92bb85c6d8e8a1e7b0d3",
   "npcTypes": "7ff16e8055e5c97c5626616e49d26e1ea4f57ba3554fdd53887d645821477dd7",
-  "npcs": "9d2f763eece7ad51aeaeb93b8eb214067831c7764dc37490c7927e3fdf686eab",
+  "npcs": "e1460d149934f4549cb99f9603c6edf247895f620333137242761b3e9a915447",
   "otherSettings": "3267e1e14f31dad4c9046cebeba4dbfff2414c37330d3e5b54eb706c09b79658",
   "parties.arcs": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
   "parties.narrativeEvents": "474d6dd7c996fccfb0fdbdebabbcb1b1e22c793afa981bc2bc1f1fa895ff591e",
   "parties.questTriggers": "c34efb882ec96a967eb57d9170ccd83d49479228db2559e63d80b46e07593736",
   "parties.quests": "bdfc38948a3fa12d10f4941590d99be89a840c98f6d4a66c4bb3611595cf3f10",
-  "premadeCharacters": "dc3adcb1af274cd41518f2288d41e216c8ac65411a48731ed7eca8c911922fa9",
+  "premadeCharacters": "694c9fe9524f9493f2c4ca052a6c848aec465d891b9e0c5c58b29216b596a0ce",
   "progressionSettings": "0ae8308654adb8e2ea6a8f0b8774b5f44c67d0a5b78957d264d41ddd3968c3fa",
   "randomNames": "8d48b14c9cb4c24a1e882d78d11ad5d25b18851b3ce77e737e9a5ed042591c5c",
   "realms": "654e1c6a9f0437e7119d68ded72c1fc3e125ef726be36a1b29a2fe4e22540043",
@@ -50,7 +50,7 @@
   "tipSettings": "7db7e00eb20c5a61c37a03c51c2e57f404f255058753c71fbf572c8e1e5ef05f",
   "traitCategories": "300edfd7e3d70ecb2767fc7683d5eab3ba33607d36a20e765efb5fd2edba108f",
   "traits": "08d9c31165407892aee1ea6ce8c06911e00dc5d17d8263e483643e001004c320",
-  "triggerDefinitions": "acefeea197ffd3a158ab3f46832d0175a22bb5d97731bbd23c18e67af643a2ef",
+  "triggerDefinitions": "5edd3d9d46b5d16c6b78ddcced71ae171277a8e0e5e1b5166a738cfaf115dacd",
   "worldLore": "345b87df56cd0edfe8a44e9056c17d745c97fd9223698518ee8ef4134834c87f",
   "worldVoices": "6847273a9f45da109ce108b9c3483ccac507c94d996c48f542cfab49ff0966dc"
  },
@@ -7490,252 +7490,252 @@
    "U.A. Academy": {
     "file": "U.A. Academy.json",
     "name": "U.A. Academy",
-    "sha": "f4c8190f2f1b805914a4ea676d247295e448fdfaf9e504f61e62b71177074325"
+    "sha": "22a14fa09c26a2645e16fd335f63c9c663a03a116e7caf0938f784b7e4db4644"
    },
    "U.A. Stadium": {
     "file": "U.A. Stadium.json",
     "name": "U.A. Stadium",
-    "sha": "e7496181c667726bda5b22c43562fb4fa97bb99c668b40b42fa22a158369331c"
+    "sha": "4f14fe4fb47f172958704eb5e27c211926decac2b4fa327fb2299b31287cc3f6"
    },
    "Unforeseen Simulation Joint (USJ)": {
     "file": "Unforeseen Simulation Joint (USJ).json",
     "name": "Unforeseen Simulation Joint (USJ)",
-    "sha": "c662c64a31dff5d5c28fb894e2bd7e782f6c8a6296ad5b2f267049ebed7e0b1e"
+    "sha": "e42102d71e01de1fb68a30bdf6af9bb6e38fe79f73bf55b01ca1a867c665023d"
    },
    "Ground Beta": {
     "file": "Ground Beta.json",
     "name": "Ground Beta",
-    "sha": "cea8f1a74ecb8973196fe0930083f6bf9bbf1f1de4e3c0fdde9c0f6614627654"
+    "sha": "dea8deb408155cfb9d544a0ea2fdb5fbfe18809e636bb5abe237ac3113793ab7"
    },
    "Training Ground Gamma": {
     "file": "Training Ground Gamma.json",
     "name": "Training Ground Gamma",
-    "sha": "a5dbaf8dda9ef5319fa9536f324c107a40fc16720ce2ecbeed5fefa93e70dda4"
+    "sha": "76cea1fbd0ae54eaeae45ac6b6d4b483f42ea7291302543df3cc656dfc74a2db"
    },
    "Gym Gamma": {
     "file": "Gym Gamma.json",
     "name": "Gym Gamma",
-    "sha": "43b1ab65bede731dd0d3be25f3fbfb653b793f3b1480af3fb8ee3e2e6e7f9aa1"
+    "sha": "a5c90149e21804fe8199f10bc0cd18a95a078babeaa98191a32d905cb8428038"
    },
    "Musutafu Station District": {
     "file": "Musutafu Station District.json",
     "name": "Musutafu Station District",
-    "sha": "f7e4240515976a1997968eb2eb2b2364f4d23952fa81f8a282dc9fb71e46f7e2"
+    "sha": "f8b6bcfd2608fad96c2742b5416414ca34db2fd69fcf9198d712aef9bd8085fa"
    },
    "Kiyashi Shopping Mall": {
     "file": "Kiyashi Shopping Mall.json",
     "name": "Kiyashi Shopping Mall",
-    "sha": "729fd3fc39553de48de08c550b820c2851ac60244791a18306d2ea27290e4c44"
+    "sha": "adca7c35fcb4be2ee072a79939bca0137021eb3b3943f3340b82fd29bf7dba46"
    },
    "Dagobah Municipal Beach Park": {
     "file": "Dagobah Municipal Beach Park.json",
     "name": "Dagobah Municipal Beach Park",
-    "sha": "7294233be93b31a6625e425e9323f9758043ccbb48318776c0d68161010096cb"
+    "sha": "99af67240f74fd081531d46a39e6177a33b4f1cb5e25b94794e6b69e9a754318"
    },
    "Midoriya Residence": {
     "file": "Midoriya Residence.json",
     "name": "Midoriya Residence",
-    "sha": "d9518f11e1c34684671842eee7929e8f28e09b4141ea7c1ac7b8c96d26403d31"
+    "sha": "88dccdffbd289805e4a00dd2a6a7031d2461b67246e2627f56ef946fedfac66e"
    },
    "Bakugo Residence": {
     "file": "Bakugo Residence.json",
     "name": "Bakugo Residence",
-    "sha": "32cc984f625c7ea4fd8c473361801a5d59fe612e38b1e894badce2dffb68167d"
+    "sha": "1fbb9fa7b749c492a6d861dfa476db416e52f28c68b097652d8c9310e5a79124"
    },
    "Aldera High School": {
     "file": "Aldera High School.json",
     "name": "Aldera High School",
-    "sha": "3da296dda632584d3db47b2f678f1450466b2a624530710f210f958d5747e7e8"
+    "sha": "592b42c5b9b8a8a126d9faa4e463ea2cda1a2e5bf5e0b1c3f1695abb2981277b"
    },
    "Musutafu Police Headquarters": {
     "file": "Musutafu Police Headquarters.json",
     "name": "Musutafu Police Headquarters",
-    "sha": "a3394277a218ee99d0e6a4b27f8eee90e3182af51b509672bbdfecd7f2209ba7"
+    "sha": "e97002bfc38ebd08cc483f3680ce51faaa02bc0426ca6d63cab975ad5792dee1"
    },
    "Musutafu General Hospital": {
     "file": "Musutafu General Hospital.json",
     "name": "Musutafu General Hospital",
-    "sha": "6add6310e9188d5f9058fdbf60b84db9c2b46e70f6cd58ae5cc1c8f01194082d"
+    "sha": "7e4ab62e37cab595756d334b5750f9461e00f97e94506456184afe02e06367f2"
    },
    "Hero Agency Row": {
     "file": "Hero Agency Row.json",
     "name": "Hero Agency Row",
-    "sha": "87d6159f3e70c14001381d1fb12da1d47768e9f4c53ff8ff2adc8ccfd93f2620"
+    "sha": "aa57e8f84789e52b41d448be3a245df716ac02d9ed3195d0addeef091e172f6f"
    },
    "Endeavor Hero Agency": {
     "file": "Endeavor Hero Agency.json",
     "name": "Endeavor Hero Agency",
-    "sha": "d5b5b781249a143c62190866b994c24a87dc5dead5f0fe8f1122b8eb1620a214"
+    "sha": "fdf6e0480f2746bd1ced6d5a300269bbe78b4eac5eb6577fb0db6a5e37c9854e"
    },
    "Todoroki Estate": {
     "file": "Todoroki Estate.json",
     "name": "Todoroki Estate",
-    "sha": "7a85c08ed205413a977bac1357c213f8091da1d580f481696be26cb8eb0eda76"
+    "sha": "908d1c35a48761953988dcbdc16a826991a319a0d98ade9167ed93b00674c161"
    },
    "Hero Public Safety Commission Headquarters": {
     "file": "Hero Public Safety Commission Headquarters.json",
     "name": "Hero Public Safety Commission Headquarters",
-    "sha": "db6697ed035ab8cc462eda8eaf83cb7db02b222d234aee96cdd894bcfb3e31d6"
+    "sha": "99e7ccf0a3de3d162121c161ec8f2b73b0bfcae087e4d15d9093ea40916e00c2"
    },
    "Best Jeanist Hero Agency": {
     "file": "Best Jeanist Hero Agency.json",
     "name": "Best Jeanist Hero Agency",
-    "sha": "216a17453e2309f35479a2d1daed2402932d88f1bbde61bb6803a4877e54e9c2"
+    "sha": "d1b4e98c18629640e05b5c3f99dee5ddaa91023be15ba72f4f01d3af7fc2528f"
    },
    "Central Tokyo Streets": {
     "file": "Central Tokyo Streets.json",
     "name": "Central Tokyo Streets",
-    "sha": "02541e78858beaf7616b9352934c5bcc93756cd163af1b0eb1674fce62fb2b4d"
+    "sha": "1ecb906fb8d3319c9f52e971432d457dd709279f374a3d125f693a9718d111eb"
    },
    "Hero Billboard Chart Hall": {
     "file": "Hero Billboard Chart Hall.json",
     "name": "Hero Billboard Chart Hall",
-    "sha": "57d683b29dc54d92cf2135ac928385592bd1c219974cf0b394e3f8bfe35a95b0"
+    "sha": "1e95da5e008fcc2e34c27f94e4209b020b47117d2b3f787648e108cb9d216a47"
    },
    "Tokyo Broadcasting Center": {
     "file": "Tokyo Broadcasting Center.json",
     "name": "Tokyo Broadcasting Center",
-    "sha": "c8756b44f2a51890d09de5eef294b370f7d59e4e34c0d0e042e8cf44792c950e"
+    "sha": "8c75d4dd2f07307ee3634f11ab4a76749f738f701914b7dc0ea1e45cc534f07c"
    },
    "Tokyo Station": {
     "file": "Tokyo Station.json",
     "name": "Tokyo Station",
-    "sha": "2427828bc952f4b092f0ad833aa47c6ccd1ab1fa5fd4807e2e5e4796977ccd6d"
+    "sha": "9479b9a69ec6e50b56c4a3da2b30964ca45b8c2672896df7db4a7ba6415b4677"
    },
    "Hosu Downtown": {
     "file": "Hosu Downtown.json",
     "name": "Hosu Downtown",
-    "sha": "392fdd23d764423e24a7ca152a1fa739bd61ba3f0e326ba6a7485e832e006507"
+    "sha": "9c76a905ccadc9922881179a837254d25da0b2f7e3e55721641fd97f38966b56"
    },
    "Hosu Back Alleys": {
     "file": "Hosu Back Alleys.json",
     "name": "Hosu Back Alleys",
-    "sha": "cb14026af459937a34e01c83276457eb904d2ef8aa5cd9c61fd0f940bf59f77e"
+    "sha": "6bbf6059e4ce2b05305f09349ab0c89a8abfd7de78164d50bff1530821dbe433"
    },
    "Manual Hero Agency": {
     "file": "Manual Hero Agency.json",
     "name": "Manual Hero Agency",
-    "sha": "fd15464479625cf5b60c6abd92fae716adcd22e23959b73b64d486bca1d4e83d"
+    "sha": "a7ff58d8d4e53e5e94e802d054426e663aee57b0735de39cad298ee24f88965e"
    },
    "Hosu General Hospital": {
     "file": "Hosu General Hospital.json",
     "name": "Hosu General Hospital",
-    "sha": "cf6c0e6f713f077aa416ea906b6ee3923e0be70246f7dd1b4e60eb96dbe0bec9"
+    "sha": "e6746b6381d553458a8bef01f9d55a7a4e4d46d8f8a0682b994a0488a91d0d14"
    },
    "Gran Torino's Apartment": {
     "file": "Gran Torino's Apartment.json",
     "name": "Gran Torino's Apartment",
-    "sha": "2285c2dd50cf60d71e7a4c903cbb4f1ab7e967b4ee1ab181718b947dffd487e5"
+    "sha": "9c8e07cb73c2d6642a2bbe56cfed75cda2341367e8c77260d873c042686243d4"
    },
    "Kamino Ward": {
     "file": "Kamino Ward.json",
     "name": "Kamino Ward",
-    "sha": "00ee1494f8e3c4053ff546304f968675174af3fb81e83c99a1f1d043d9113674"
+    "sha": "65f4f33bce9b15a977a3a39a115c19d6de39cd93c17a42a116d2dd28b1597120"
    },
    "League Hideout Bar": {
     "file": "League Hideout Bar.json",
     "name": "League Hideout Bar",
-    "sha": "88f1569a502bf8d51e7b685a8426f79b35c9c902fa4545d1ada423b0c4e7a2a6"
+    "sha": "14576c76df9f7610fb7efe9cd4a37121888e8f3b0b21ecfd4a0da130d9056ce5"
    },
    "Nomu Warehouse": {
     "file": "Nomu Warehouse.json",
     "name": "Nomu Warehouse",
-    "sha": "57938f27fbd94ba93b875ee599c6e7f7345198c53f11bbe885ed59f772db320f"
+    "sha": "494c3b273acc72a467dea791201e768e0cbbcb783e6c6716e07bc0d7a39a8cef"
    },
    "Yokohama Harbor District": {
     "file": "Yokohama Harbor District.json",
     "name": "Yokohama Harbor District",
-    "sha": "3151b4ecb61e47564debcf4030d7b49d38c9a16222633e0d0c756db11f8178e4"
+    "sha": "c3690442e951f2eed2c368898d0b46b96a22ac3da058e99ad6d2a655166e9c97"
    },
    "Takoba Municipal Stadium": {
     "file": "Takoba Municipal Stadium.json",
     "name": "Takoba Municipal Stadium",
-    "sha": "61cc65bae76190fad7e70c6c02bcad632cd1b095039fe9806dfc6e3a51730965"
+    "sha": "84e0541585eba302bf5e426a1f153660446e460a088fa4b36a20b166d5027fdb"
    },
    "Deika City": {
     "file": "Deika City.json",
     "name": "Deika City",
-    "sha": "ee739a555511387edb221f30030f1bc534dbb1edf1f40c9ade47e32cc581de0f"
+    "sha": "4d457b67f6cb815fd9e939732732cea43d82614dfbe84674678cbe0f113b7041"
    },
    "Gunga Mountain Villa": {
     "file": "Gunga Mountain Villa.json",
     "name": "Gunga Mountain Villa",
-    "sha": "1fcd242579123b3bb36cc49895818bf775f531bf4a9e90e4815c15207dbc038a"
+    "sha": "15fdee46373d8668efd0ed1ea450cc07378dc5a2a10a66aadef83283a4f45dd3"
    },
    "Jaku City": {
     "file": "Jaku City.json",
     "name": "Jaku City",
-    "sha": "016c151446e9bc399b50030c7e19fc04c91655d02d934bb28cbc381cc7f3132b"
+    "sha": "a69cb57416b0b006271aa264c24922bda0870dabd39208d7819aaa72eee1e131"
    },
    "Jaku General Hospital": {
     "file": "Jaku General Hospital.json",
     "name": "Jaku General Hospital",
-    "sha": "630b1ba210396b15444dcc6e693e1608800db53873297985e6c481a17e5a2c14"
+    "sha": "1826dd4ebe16b27162e85a8704e46752206ad6fb8965637717a17da603f83e89"
    },
    "Wild Wild Pussycats Lodge": {
     "file": "Wild Wild Pussycats Lodge.json",
     "name": "Wild Wild Pussycats Lodge",
-    "sha": "06b5eff88cc6cb528bbf5253372b8598a70684fd8a89dc79bfd7befee7690821"
+    "sha": "6442ba11685082d42a3d8d0493db246866302ac43aa8eda03acc25f376547538"
    },
    "Beast's Forest": {
     "file": "Beast's Forest.json",
     "name": "Beast's Forest",
-    "sha": "ecfd3726efa15b0f031e51860843fbab74fc9520df356e050a97dd1e21d46eb4"
+    "sha": "201f0119118cc7f6de275f98c449dee4992a08bce4d2c80345db7d68ca902423"
    },
    "Kota's Secret Hideout": {
     "file": "Kota's Secret Hideout.json",
     "name": "Kota's Secret Hideout",
-    "sha": "07dd4f26a6889c7820c3e7cb443550cb84debb5784fc4dfa42e81031baefbf80"
+    "sha": "dc01cdde86b7be802bf8e9d504bfda747da12d9e4e5c43d515beb57b0840ca13"
    },
    "Osaka Downtown": {
     "file": "Osaka Downtown.json",
     "name": "Osaka Downtown",
-    "sha": "0ad660025d89212515976ed61c3debe23658910b37dff4e94d9e38e35ce29d6d"
+    "sha": "a710a36c84b5c65618e109d44e76c8b0f4d1b0dd1f749efb181ff0acc19884b9"
    },
    "Fat Gum Hero Agency": {
     "file": "Fat Gum Hero Agency.json",
     "name": "Fat Gum Hero Agency",
-    "sha": "c4f23481759dca1fb83af5125fb96aca9ca5a6987357fc6457c2014ebbfa2ee8"
+    "sha": "990978d71ccf2285d19f9aee97cc0ef5f895ee9331499f0839ca88bbbc06b224"
    },
    "Sir Nighteye Hero Agency": {
     "file": "Sir Nighteye Hero Agency.json",
     "name": "Sir Nighteye Hero Agency",
-    "sha": "b3555edda40e07b97300ef7ee695bd6751fef0b8dd5a09c32931a7d7e9f33aa7"
+    "sha": "36738f1ebc6b2c95ed710e51b17e4b0a03bf0eae9fc34dcd3ee4c43bf3b5c89a"
    },
    "Shie Hassaikai Compound": {
     "file": "Shie Hassaikai Compound.json",
     "name": "Shie Hassaikai Compound",
-    "sha": "81de50b5b020ac4503c4b06ca307f1bc130ab59ffd18069339003fd04c39b584"
+    "sha": "5932d54ba772897450bf616cf16eb22fd042754584580cdf106089638ec2d4ad"
    },
    "Fukuoka Downtown": {
     "file": "Fukuoka Downtown.json",
     "name": "Fukuoka Downtown",
-    "sha": "635d14cf688808e41cc19e97eafea7dd1b044249012be21db95040e52cb5eb5a"
+    "sha": "d02d87822ade43816431cad53a4fe28e2156b377e3e1e1a7811d30b0fd758f7c"
    },
    "Hawks Hero Agency": {
     "file": "Hawks Hero Agency.json",
     "name": "Hawks Hero Agency",
-    "sha": "a6f577420121bc2870e911f8690a79c33d2ef285743fb7cf154299497deb054c"
+    "sha": "96044eefd3126f65f3e5c02d783ab1d5b9bfb5a01e2f7b336cb8974dfefdd6e4"
    },
    "Hakata Station": {
     "file": "Hakata Station.json",
     "name": "Hakata Station",
-    "sha": "8e0652081d4b659c4b777a19d99b7a465a20964da9c9ce55c8914715dce2cab1"
+    "sha": "417b1b612effc352b13e07195021f3fc0d3419d55b18308a3622b8929ce7e0ad"
    },
    "Tartarus": {
     "file": "Tartarus.json",
     "name": "Tartarus",
-    "sha": "f5ca7596c25915a170d89657e22acc4f6a50631d14b05c32d839996a5ea9fe37"
+    "sha": "cede5910207a10d6f217259f73063f46a2066e4ff8c26cb3bbb830bb6152a099"
    },
    "Tartarus Transfer Port": {
     "file": "Tartarus Transfer Port.json",
     "name": "Tartarus Transfer Port",
-    "sha": "ce8b7c29f14127dc0def1ad70e3639880404ae4e4233789ea089f0e1288358d0"
+    "sha": "e3f05f9d8ddb5754d9fd897c4128f64368501e37be2bc6b110d1d60540a7d1eb"
    },
    "Shin-Osaka Station": {
     "file": "Shin-Osaka Station.json",
     "name": "Shin-Osaka Station",
-    "sha": "e204131fc874e67cdb9d107ba8cae3b9a3af50bbc3c2c57d2d8dfe68928eef88"
+    "sha": "d05a2e7bc0a164d205a945c5c664ea98c689349e7a7ff9f21434c0edeecc7ac1"
    },
    "Kyoto Station": {
     "file": "Kyoto Station.json",
@@ -7879,17 +7879,17 @@
    "Izuku Midoriya": {
     "file": "Izuku Midoriya.json",
     "name": "Izuku Midoriya",
-    "sha": "ac8d481a7421f13d6fa8b88e14878e9197da07fc597959fbda1d7cd33f7158cd"
+    "sha": "1a49cca24389373f44d804a5ffcbd308855735e1c1583304b1e1e42a1f9c135a"
    },
    "Izuku Midoriya (Sports Festival)": {
     "file": "Izuku Midoriya (Sports Festival).json",
     "name": "Izuku Midoriya (Sports Festival)",
-    "sha": "d8b36ab70460891d74e17153c6c1898ccccf4fa3a493f3d39c8b4970b058a41d"
+    "sha": "c757fe83f5185cd1346c23c32a591e6525f59a0c95f393a26817ae40f2c7f702"
    },
    "Ochaco Uraraka": {
     "file": "Ochaco Uraraka.json",
     "name": "Ochaco Uraraka",
-    "sha": "d39aa33d5a008515727eb3c83a95baa1bb4f71a33a0c2c4f3980c96914555447"
+    "sha": "c185654d23f7c62beedf6c024cdb5d7966b88feb7569104f1be8e2f0774723f0"
    },
    "Shota Aizawa": {
     "file": "Shota Aizawa.json",
@@ -7899,1317 +7899,1317 @@
    "All Might": {
     "file": "All Might.json",
     "name": "All Might",
-    "sha": "34ed03a8fbb603b988633f59f8afea0f20b212a309fd467f69d10aa8ac6e707c"
+    "sha": "3a5b86aa128cc3746713c6ba77406445e42a6da0121762921f9457f34eb6e9fa"
    },
    "Tomura Shigaraki": {
     "file": "Tomura Shigaraki.json",
     "name": "Tomura Shigaraki",
-    "sha": "4e9f4443bd6dee45fbbe5154bbe156b2d861466bc4299753f8c48f54dd979b34"
+    "sha": "29a15e1e7be68894eef4db886fe5399b1ae6a68ea2f25837bac8dcdcec025c41"
    },
    "Eri": {
     "file": "Eri.json",
     "name": "Eri",
-    "sha": "c6a3d29c8d21f8b04e2ab0f25a409c4133d330dc979a66cf627b25870bb27c28"
+    "sha": "240bbd5f07e0bc67a001cbf786a644d16f78fcbef8c83a196c0a8adf127b3ad4"
    },
    "Naomasa Tsukauchi": {
     "file": "Naomasa Tsukauchi.json",
     "name": "Naomasa Tsukauchi",
-    "sha": "321a6e08c8c6bf53693751814533cb50e94ec898bd4c7d7d3678606722f01aec"
+    "sha": "13ad47d4a715d51e1ea6bd0d06805655716086fc710bebd938d4ed4eae821487"
    },
    "Izuku Midoriya (Summer Training)": {
     "file": "Izuku Midoriya (Summer Training).json",
     "name": "Izuku Midoriya (Summer Training)",
-    "sha": "399f6496e67ad69d438100cd6c50be476a06d7a838d9478b9f947eda230b170a"
+    "sha": "dfe557ce5552e5b4689d6bfa848d5af37d3cd0dd38fd443acc9235c7e6104ee9"
    },
    "Izuku Midoriya (Provisional License)": {
     "file": "Izuku Midoriya (Provisional License).json",
     "name": "Izuku Midoriya (Provisional License)",
-    "sha": "56886546ebf94c9b3e083c79b3b2358cf09b7afe94254d966370962f154051c3"
+    "sha": "7f1cf42a990bf837e5454651fcaaa2c60acb30155c115edb56daeadbd6247b20"
    },
    "Ochaco Uraraka (Sports Festival)": {
     "file": "Ochaco Uraraka (Sports Festival).json",
     "name": "Ochaco Uraraka (Sports Festival)",
-    "sha": "e7eced046605bc35dccaa8c4d68bf6b0f840766c0c748ae7471fae4d97b4251d"
+    "sha": "05e4958bf34c00af0b419d8931d771612110ab764e96e05de0a4d222bbe7e14f"
    },
    "Ochaco Uraraka (Summer Training)": {
     "file": "Ochaco Uraraka (Summer Training).json",
     "name": "Ochaco Uraraka (Summer Training)",
-    "sha": "5628c85c7a3cc55c915a0d7035dca9c6f7a40de660108d00dded1a26bf6e6950"
+    "sha": "59ffbd09dd92f6bb688c58338b4496fbf9b3a0ba37eec68fab32a736076a688b"
    },
    "Ochaco Uraraka (Provisional License)": {
     "file": "Ochaco Uraraka (Provisional License).json",
     "name": "Ochaco Uraraka (Provisional License)",
-    "sha": "804abb35bd189e2ce2d9d95cacbb2b30ecc8463df729f0311d3140c3d8d3f170"
+    "sha": "fa61e2d595bc161ca6a993e48717b48b6674252272a58d7a436763a7a8bea07a"
    },
    "Katsuki Bakugo": {
     "file": "Katsuki Bakugo.json",
     "name": "Katsuki Bakugo",
-    "sha": "c1d0f173958e4193a1d3f93c546e238d2e7c0f86559ca5cc665f37dd126caff2"
+    "sha": "1e546051da0d85eee6fdc4eb1386bc456a578c4080815ed34f9dac0be7eb1153"
    },
    "Katsuki Bakugo (Sports Festival)": {
     "file": "Katsuki Bakugo (Sports Festival).json",
     "name": "Katsuki Bakugo (Sports Festival)",
-    "sha": "1bb625a6d2e99723e6fb50289567d2d15c02d058c88e6681cce65de90734ab3d"
+    "sha": "17644983ecacbaeca04e54655e34380fd9a40ee79dfdc67b8ce50227dd005880"
    },
    "Katsuki Bakugo (Summer Training)": {
     "file": "Katsuki Bakugo (Summer Training).json",
     "name": "Katsuki Bakugo (Summer Training)",
-    "sha": "9cd5daffef4370709274e7f871e02635711292144d95143e4511fa14791c603c"
+    "sha": "6d8b5097718de93a98894a980bf5b60cef952a354fb20b5bbd73b63748f90800"
    },
    "Katsuki Bakugo (Provisional License)": {
     "file": "Katsuki Bakugo (Provisional License).json",
     "name": "Katsuki Bakugo (Provisional License)",
-    "sha": "889a89ded03e179f56f6b83a5e5e6104a2a4209f718e4815bd1fd760accbb756"
+    "sha": "6ee6513be9dfaff3e4cf35ebf1936b48ab79562e7e14cb8642e5bf466615686f"
    },
    "Eijiro Kirishima": {
     "file": "Eijiro Kirishima.json",
     "name": "Eijiro Kirishima",
-    "sha": "4d490953725a998424f26637430810e2083e24f80083bce458d457c1778368ad"
+    "sha": "ea4259e5a254298512f833fb9b8b2b385d35478d6df92cdbab4a1e8e54e184ed"
    },
    "Eijiro Kirishima (Sports Festival)": {
     "file": "Eijiro Kirishima (Sports Festival).json",
     "name": "Eijiro Kirishima (Sports Festival)",
-    "sha": "d5f14e142721285b45d6c937baa10d0b0b5958878944cf9ba8483b7a1da7fddc"
+    "sha": "d95234c6d45545dbb9815117a1392ee6a9e7c8ec880b4e9e82bf1c0aef2b79c6"
    },
    "Eijiro Kirishima (Summer Training)": {
     "file": "Eijiro Kirishima (Summer Training).json",
     "name": "Eijiro Kirishima (Summer Training)",
-    "sha": "59ae3dace343b41f2c04255b6fd5e1a8ae4de6ee7d14db2884dc366ae7b23685"
+    "sha": "0c3457fbae32349b91e4c4e839004538584b84b84b91b2381225d412d76bb354"
    },
    "Eijiro Kirishima (Provisional License)": {
     "file": "Eijiro Kirishima (Provisional License).json",
     "name": "Eijiro Kirishima (Provisional License)",
-    "sha": "c45df654dcd39d4dd009f7262604984d09abba0ec8644e09fd0e541738b2cd5e"
+    "sha": "d33cb138c75e0b6b6e999adba571519a5cbc255e600cb7b8e85e353ee21b62b0"
    },
    "Shoto Todoroki": {
     "file": "Shoto Todoroki.json",
     "name": "Shoto Todoroki",
-    "sha": "cd901e9e1857654b8295d3b0388debc40f356f9f4c8107e01f77d22d98bbba2c"
+    "sha": "760f26652ef69746985f94ad278aa73fd66c83ed096e6f0d3fe64793a94df59b"
    },
    "Shoto Todoroki (Sports Festival)": {
     "file": "Shoto Todoroki (Sports Festival).json",
     "name": "Shoto Todoroki (Sports Festival)",
-    "sha": "67f3a5d5bd44d5030c848f3a214b14cd0bc918d80674f80b5acd116aec3cda56"
+    "sha": "3b79b2f64f0231b85f7a157ddf56be745534a2a4fb364a1f1923f3e4181f4ea2"
    },
    "Shoto Todoroki (Summer Training)": {
     "file": "Shoto Todoroki (Summer Training).json",
     "name": "Shoto Todoroki (Summer Training)",
-    "sha": "7ca6ef23465109c5313aab6f82b7af394c04c8345b6522782b8b2d937f4a6995"
+    "sha": "a6eaebb60fabd7d4fcbf069042c2b46a8cd88c96cd8734bba41ffcd74741cbb5"
    },
    "Shoto Todoroki (Provisional License)": {
     "file": "Shoto Todoroki (Provisional License).json",
     "name": "Shoto Todoroki (Provisional License)",
-    "sha": "d703db1111c3e6d0573bc01ee66b2e6b022da948e50b6817552553ad0fa0f4d5"
+    "sha": "01dd4a34155f3eb209c2b52c0e13f9aededafd3578dac0d8f71424d1e449fa54"
    },
    "Tenya Iida": {
     "file": "Tenya Iida.json",
     "name": "Tenya Iida",
-    "sha": "662f0a114fbda8a21427a4253e6fa89ee70b5fb9f1326a6b809c1a7eae3fefff"
+    "sha": "c11f8ec0213ed9dc02ad92a29451dfe4c742d67bb92381c1daab1aa63a6af8f3"
    },
    "Tenya Iida (Sports Festival)": {
     "file": "Tenya Iida (Sports Festival).json",
     "name": "Tenya Iida (Sports Festival)",
-    "sha": "acf3fc8cb41ebb1311172379985f7963d2b15070ad0d3c0914b9eb177a5fc302"
+    "sha": "3b4b9048e8445691bcf879f5de377e688c5446b8ef11a7a887ecc1f6fb846127"
    },
    "Tenya Iida (Summer Training)": {
     "file": "Tenya Iida (Summer Training).json",
     "name": "Tenya Iida (Summer Training)",
-    "sha": "f283dc197b25f05426464a436a8dd76df9e0e8a44dff481a5786e93a1abec077"
+    "sha": "987853e641594fe63e4a43b92599b1aaa35cebe6a7b7ab741731e078411eebd1"
    },
    "Tenya Iida (Provisional License)": {
     "file": "Tenya Iida (Provisional License).json",
     "name": "Tenya Iida (Provisional License)",
-    "sha": "bf1eaafec2908b12af7e4d56dd684b78170a98c6969dca4c39ff59ea6cb0c18a"
+    "sha": "e0f3633bb2aa013e76f35a4afdf2bc2773fac7dd23157cfbbe5f33404b4b6bd2"
    },
    "Momo Yaoyorozu": {
     "file": "Momo Yaoyorozu.json",
     "name": "Momo Yaoyorozu",
-    "sha": "6c7d5063c5e4da34079ca77328144f4c7107bf0b7093ff25f6ee225d158c850b"
+    "sha": "35b3d51194cf4f79753bcbe68bad0023739d00cc0945091824f2119cca1ca62c"
    },
    "Momo Yaoyorozu (Sports Festival)": {
     "file": "Momo Yaoyorozu (Sports Festival).json",
     "name": "Momo Yaoyorozu (Sports Festival)",
-    "sha": "1ad131b831aab72629188a7d11c23827feeedc38ea29d8fc24fbfa70def29bce"
+    "sha": "f1d22c862d654f952f8340f8a800516fc3d11ac2c70dde0ec8081d6bdd53078f"
    },
    "Momo Yaoyorozu (Summer Training)": {
     "file": "Momo Yaoyorozu (Summer Training).json",
     "name": "Momo Yaoyorozu (Summer Training)",
-    "sha": "1b402812d28f658c1c5b0e57d017f703811249ad095fca8e084c540ecad423e6"
+    "sha": "3eb1ebd5baa032cabf2ca991d8c7801cdfe812aafab9b2f5145327d76a335f69"
    },
    "Momo Yaoyorozu (Provisional License)": {
     "file": "Momo Yaoyorozu (Provisional License).json",
     "name": "Momo Yaoyorozu (Provisional License)",
-    "sha": "e2d70a1bd6a05c401a1acf13c5c4a0960b190026e94c6e2953e37c075024e2c6"
+    "sha": "5d78a8217e73ab8133bc73f76ed9dcabd09e2db8954a7194da7b5e2c6c21918f"
    },
    "Kyoka Jiro": {
     "file": "Kyoka Jiro.json",
     "name": "Kyoka Jiro",
-    "sha": "2a37903ee18c42cdde56f4fc16af6533874f7ef390c9c693632f561bea86367f"
+    "sha": "3eaf31b267bfed354058d17eb6e8b037fa18c9c31a17868ca07755366c9f4a20"
    },
    "Kyoka Jiro (Sports Festival)": {
     "file": "Kyoka Jiro (Sports Festival).json",
     "name": "Kyoka Jiro (Sports Festival)",
-    "sha": "d5cc3947ea71a5c9d29bafc78aadb42c129315ce4a360e9f8aec7dbe3c28e439"
+    "sha": "91b59b78a3c69844a2a01aebd7cc46df789e326d937775fe2f7404e78b36d93f"
    },
    "Kyoka Jiro (Summer Training)": {
     "file": "Kyoka Jiro (Summer Training).json",
     "name": "Kyoka Jiro (Summer Training)",
-    "sha": "92450db507803cb7c4f7228ba6253fec931605b1f02bd12d4985a87f7f8cf357"
+    "sha": "3adfb5692345f63a4ab7b7553b9be46262c91f1e248e94f36ebb05f972f30c0c"
    },
    "Kyoka Jiro (Provisional License)": {
     "file": "Kyoka Jiro (Provisional License).json",
     "name": "Kyoka Jiro (Provisional License)",
-    "sha": "26c6bb507b97055e2af3947b0b2e786860abee2ba368891686a86fdfae4ac9b1"
+    "sha": "3701bf2c0d4a771a7911b6c4befa247874b68ccb13c0d9f2318f3fe155bca848"
    },
    "Tsuyu Asui": {
     "file": "Tsuyu Asui.json",
     "name": "Tsuyu Asui",
-    "sha": "2e1cff9aa1754fbe6eef1664361d0e9e03fe321f4fc7efa98748260d05f3d8b3"
+    "sha": "4224725b75ae70a0e891b61093ca24d84e77f6c91aaf872233a8fce0c4422e4d"
    },
    "Tsuyu Asui (Sports Festival)": {
     "file": "Tsuyu Asui (Sports Festival).json",
     "name": "Tsuyu Asui (Sports Festival)",
-    "sha": "3fb95c7fa1799f6586c6a43b2a12e1c7cd35537678ec3c93ac65eba25ede7f21"
+    "sha": "67f8a6fcb64c11c101cbe43c4d373fe0b5f8cfb5410a7c98ae5478b93cbd09da"
    },
    "Tsuyu Asui (Summer Training)": {
     "file": "Tsuyu Asui (Summer Training).json",
     "name": "Tsuyu Asui (Summer Training)",
-    "sha": "4803fbe41f6f66ab4dee3f799134c1537c69f20410f8f0bd7605a8d5da4935b5"
+    "sha": "a341e22f532b88a00991e95c4ec2852c4c7b56e037c65dda7c14847fa7b0a138"
    },
    "Tsuyu Asui (Provisional License)": {
     "file": "Tsuyu Asui (Provisional License).json",
     "name": "Tsuyu Asui (Provisional License)",
-    "sha": "b613baaa5f220fd853a157376333e9435604e4ae560d2c00c09f76ce6ddb2f0c"
+    "sha": "b7b5f1ae7278457daf4cba11b487d0e9700b41550fb1635fcc83bfd73e742975"
    },
    "Fumikage Tokoyami": {
     "file": "Fumikage Tokoyami.json",
     "name": "Fumikage Tokoyami",
-    "sha": "06413dd4c827c4b14e81ecd67009e94a75c239cc512e4b2053a321e785d72127"
+    "sha": "dc1fe6a76b33d661b70669db13f0abe940e97f471bc379800d6c98956fb66c99"
    },
    "Fumikage Tokoyami (Sports Festival)": {
     "file": "Fumikage Tokoyami (Sports Festival).json",
     "name": "Fumikage Tokoyami (Sports Festival)",
-    "sha": "9fa4c40f3851a4f661649dabe5a68dab3d3292271fa3722033a58b8dbeaa7708"
+    "sha": "b9805fd8e2825012c79d1dadf591ef1b9084dcb80ce83ad57e079c51483d8599"
    },
    "Fumikage Tokoyami (Summer Training)": {
     "file": "Fumikage Tokoyami (Summer Training).json",
     "name": "Fumikage Tokoyami (Summer Training)",
-    "sha": "035165dec422a3dec9a601a89cf9fd8aaf0dc9986d2c156f0ece5f1ff335cce1"
+    "sha": "2cb959214bcd776a04e47ad5cbd79cf5e13fcffc644377ed7a70653bf01c24c1"
    },
    "Fumikage Tokoyami (Provisional License)": {
     "file": "Fumikage Tokoyami (Provisional License).json",
     "name": "Fumikage Tokoyami (Provisional License)",
-    "sha": "87d1052cdd1320a1d654f8c888281e593ae55fe0f7d62d7c6ca9d946535a3f70"
+    "sha": "73367e5c38af3265452932dcd3f640a1602b4648fa8c6dc36d9ee7c6077104d8"
    },
    "Denki Kaminari": {
     "file": "Denki Kaminari.json",
     "name": "Denki Kaminari",
-    "sha": "cc2244b72fb93a9be5d0898347ed48fdaaf32110a3ab657a18b06c21f28fdc6a"
+    "sha": "805a4e0a68744e7b59d5c8b0f404aa31e79eed4818c39c76a63bae46e07feb61"
    },
    "Denki Kaminari (Sports Festival)": {
     "file": "Denki Kaminari (Sports Festival).json",
     "name": "Denki Kaminari (Sports Festival)",
-    "sha": "065595cebb2ab4cba82b1dc6495e6a20b517e3cab08175400d81fdb498c43b07"
+    "sha": "cbc5b146c0be66739826588e52c726fd1b7c46fa3f57e0b1786be3a5130cf133"
    },
    "Denki Kaminari (Summer Training)": {
     "file": "Denki Kaminari (Summer Training).json",
     "name": "Denki Kaminari (Summer Training)",
-    "sha": "9b56f4dc21baf9b7ac7616ae91e03160dad978a67c10e77a96e5b32e7748e841"
+    "sha": "d70a3bc19beeaba5b6cbf4967f8400c82fae11d57699c9e2356492f3cde540b2"
    },
    "Denki Kaminari (Provisional License)": {
     "file": "Denki Kaminari (Provisional License).json",
     "name": "Denki Kaminari (Provisional License)",
-    "sha": "66904a34dc5990326ca5002ebfb80b4348cc5c44800dd2e828ee10f3d64b3148"
+    "sha": "b20f1e674e266e22a5fe04b283d39741e1f93805349be2d290a16a4912bb4bca"
    },
    "Hanta Sero": {
     "file": "Hanta Sero.json",
     "name": "Hanta Sero",
-    "sha": "fc9ada66b0a584eb4688e50455423066d0e7fda390bcb23dac0d430244d0512b"
+    "sha": "9ae83c1218b09c3972da70881c71eab6683d2beee67f52c7d44e72f239bda8d9"
    },
    "Hanta Sero (Sports Festival)": {
     "file": "Hanta Sero (Sports Festival).json",
     "name": "Hanta Sero (Sports Festival)",
-    "sha": "3efd5193cd3600a8ea234cbdd8d0432d7881603f885952cd77cbc3019ce2f365"
+    "sha": "a11e160771d663710ebf87546ca5aa4b5b8a04b381ed588c94d3417ab082c9f8"
    },
    "Hanta Sero (Summer Training)": {
     "file": "Hanta Sero (Summer Training).json",
     "name": "Hanta Sero (Summer Training)",
-    "sha": "abf7ecd05fa3ec657f3277bb1a04ca3910ce8306d3a25a1280e72628d22f889d"
+    "sha": "eb2177fef08afa565d4f9b0b35857c190bb3fd530e46342bb0ea9989f54deecd"
    },
    "Hanta Sero (Provisional License)": {
     "file": "Hanta Sero (Provisional License).json",
     "name": "Hanta Sero (Provisional License)",
-    "sha": "6a44ab7a29be2c9bf18690c8cafc099164d45c7ecb80299701a7f84e883d3001"
+    "sha": "c79ac8244b00a8a24ba67af30d17c7aad1369fc7c2bc66e006e1878025377217"
    },
    "Mina Ashido": {
     "file": "Mina Ashido.json",
     "name": "Mina Ashido",
-    "sha": "e4eef535c8ebefe08411187fc603c839813b29946e9416157981641ac5db3ed5"
+    "sha": "f6aa94afc6b81b96467d7239f569e28a711b6b8f6cb0627bed9e9e1e5ec31c64"
    },
    "Mina Ashido (Sports Festival)": {
     "file": "Mina Ashido (Sports Festival).json",
     "name": "Mina Ashido (Sports Festival)",
-    "sha": "86c68540ccb2cddcf41cfd5274951a0371f7534990e488d0fcb841f5abf96673"
+    "sha": "4714daf6eabbedcb505db387499e477a5c70ab3e77631c5289c79b0a2a9eaab3"
    },
    "Mina Ashido (Summer Training)": {
     "file": "Mina Ashido (Summer Training).json",
     "name": "Mina Ashido (Summer Training)",
-    "sha": "b817d207e3163f82cee4f9aa2df6126f201acc2617bd151b2022235795f67049"
+    "sha": "fb16b6ee05381d194afad01cea26a87d071718f5f6f9187fa3e4596606df5c30"
    },
    "Mina Ashido (Provisional License)": {
     "file": "Mina Ashido (Provisional License).json",
     "name": "Mina Ashido (Provisional License)",
-    "sha": "d77969cc018dc65f701dbfbd325bd8403eac8286b01b6dd695e2c7ea2950184e"
+    "sha": "8ac1b14ec399188e3dee4cd2e03d023e3597abfe0b3af90c00fc27cd76e5d19c"
    },
    "Toru Hagakure": {
     "file": "Toru Hagakure.json",
     "name": "Toru Hagakure",
-    "sha": "0d6c7e2fd892472ad4c57b660efc12d3dcefcba0b730883d23539bdc6464ea47"
+    "sha": "e0ed7f187c4ab60b9654a7f790a718c74a309fdc6eda6dd05cf76c7ef7d31f92"
    },
    "Toru Hagakure (Sports Festival)": {
     "file": "Toru Hagakure (Sports Festival).json",
     "name": "Toru Hagakure (Sports Festival)",
-    "sha": "95d8c08790d3e949f2b3112cf0f8f679a79291c5dcc2a59bc071484304d20139"
+    "sha": "734433f8736eb83d69fd7fec167171f8ae5fb9079ff3d7d184111fcca3328768"
    },
    "Toru Hagakure (Summer Training)": {
     "file": "Toru Hagakure (Summer Training).json",
     "name": "Toru Hagakure (Summer Training)",
-    "sha": "c8593abb993c488b340ab56aec40618e3a61e5cc7df983d7bd2b3a73b393d252"
+    "sha": "dfc2e2205a8f0274768a0cf44570f59bcb9fb3133b9bea7ed0a806320251d557"
    },
    "Toru Hagakure (Provisional License)": {
     "file": "Toru Hagakure (Provisional License).json",
     "name": "Toru Hagakure (Provisional License)",
-    "sha": "02bfd5c63c2c1e4ea0ac36e5f023a589e7dc457be826a20837b8bf620293e4b7"
+    "sha": "dcf9c4b3583e89c1fd8b5b149e86db08bdb84bd285d01d4a8d27be9f9f9d8d0e"
    },
    "Mezo Shoji": {
     "file": "Mezo Shoji.json",
     "name": "Mezo Shoji",
-    "sha": "466ee29638cd0951e871e399af6b6a8d3ab827f628edd5a284881d863c921e20"
+    "sha": "ffef65e38b18d30b556c314ad024da746d6ac67f78f5924061a5a35815cc0bcd"
    },
    "Mezo Shoji (Sports Festival)": {
     "file": "Mezo Shoji (Sports Festival).json",
     "name": "Mezo Shoji (Sports Festival)",
-    "sha": "576f60857ccb36743fa1bff8d9ddbaa6d3167a5cef19825485b3c48a71a29970"
+    "sha": "a0b93167b3eb570c39de2129649ce953748c1e47d3da4eefad7673aacd392e14"
    },
    "Mezo Shoji (Summer Training)": {
     "file": "Mezo Shoji (Summer Training).json",
     "name": "Mezo Shoji (Summer Training)",
-    "sha": "e26e21edaa5a31a6d133d04d5e677a18468966c33fdbb3f342c9be5fcabc65e1"
+    "sha": "688a5dd744d904e4cc86545a43ae7ed0fae2bda199290ad8c23f82c2be42af48"
    },
    "Mezo Shoji (Provisional License)": {
     "file": "Mezo Shoji (Provisional License).json",
     "name": "Mezo Shoji (Provisional License)",
-    "sha": "7c7f6ac326f29b0a6fbfd87633d5b21d8cdd0b8e15acb529a79329d8b2a5cd42"
+    "sha": "93b6100c3ec12f491c5b6d0d7be84c7d3d46488aef7ed9ab4aabe2c9546759b6"
    },
    "Koji Koda": {
     "file": "Koji Koda.json",
     "name": "Koji Koda",
-    "sha": "99a39cd555110786c82fd549c71154172712d71bc8dc938a5a05b899b06a1d1e"
+    "sha": "6a0a7e92b7300ea4848bd11541af498dc8e6c0a8b8355238e7cf814b942cd6ef"
    },
    "Koji Koda (Sports Festival)": {
     "file": "Koji Koda (Sports Festival).json",
     "name": "Koji Koda (Sports Festival)",
-    "sha": "d94b06b07eef58ad2529a0238b30cd1cc6571f60e3e4d7e824aab9ae9a0ca730"
+    "sha": "94f6465dca390aaf6a563733a5ee97324456b7cddf73c692ec271b40eb7e26cc"
    },
    "Koji Koda (Summer Training)": {
     "file": "Koji Koda (Summer Training).json",
     "name": "Koji Koda (Summer Training)",
-    "sha": "c52ff900059f1eac12ba514a6e0577cc0ecf167c61d1e736c15e927f2d7fab55"
+    "sha": "263fef04256974190e80b31376b098098d69eacfbbecb41621cc4024af342fc2"
    },
    "Koji Koda (Provisional License)": {
     "file": "Koji Koda (Provisional License).json",
     "name": "Koji Koda (Provisional License)",
-    "sha": "a032ea2d58e6fe685c05ae3d2857c8c4f96cafecfca1f159ddb98ecdfc01f312"
+    "sha": "8de301e4bd7fe5a2e7a1f2a0192f84d0f79d04d54ac50ce49dd2523cc4d19398"
    },
    "Mashirao Ojiro": {
     "file": "Mashirao Ojiro.json",
     "name": "Mashirao Ojiro",
-    "sha": "a2914e4591d363993d9fa916cf65ceed75c5a9895aa761481ac1bd3804965507"
+    "sha": "8755323dcb69c8f6c6924a0dcec29fd3153874652fe4eea3d0a3aff32a5df882"
    },
    "Mashirao Ojiro (Sports Festival)": {
     "file": "Mashirao Ojiro (Sports Festival).json",
     "name": "Mashirao Ojiro (Sports Festival)",
-    "sha": "65cf5158b3beb454da8c043aaf23d84b3dd4b2fbf4c89dd460b88d8234537453"
+    "sha": "63163d14252d923045da846203b17733c1e976eec181738aeef490555eafb6aa"
    },
    "Mashirao Ojiro (Summer Training)": {
     "file": "Mashirao Ojiro (Summer Training).json",
     "name": "Mashirao Ojiro (Summer Training)",
-    "sha": "565d6996bbf6bad12b5d1d13ec6647d73f44880767eb6f76345461872ecb9e5f"
+    "sha": "69cd225d1a3ba3b49f9bc23104d51781d47c937b1f25cb1f90238bb65e332371"
    },
    "Mashirao Ojiro (Provisional License)": {
     "file": "Mashirao Ojiro (Provisional License).json",
     "name": "Mashirao Ojiro (Provisional License)",
-    "sha": "41f8d4998b3ccf80e342b4a329d817d76a866e1c49385d4aeae9a1e7613eef83"
+    "sha": "77918402f6cc9d40c0826f50bb9c0ba2d44ba18798925a0351be6e9a56e11b66"
    },
    "Rikido Sato": {
     "file": "Rikido Sato.json",
     "name": "Rikido Sato",
-    "sha": "1c22bed4f1565a37519ea30af8ad8dabde5d1c8c3e96996d5d495124e66fdc99"
+    "sha": "2717995713ccc47e8149e6a8fd093376309b5f59f541ecf33596d419c5c4efcd"
    },
    "Rikido Sato (Sports Festival)": {
     "file": "Rikido Sato (Sports Festival).json",
     "name": "Rikido Sato (Sports Festival)",
-    "sha": "a2eabee6ae8338c651eeb4eac876118241b83f3a62138376050a87641541f91a"
+    "sha": "1641f39c78f72b8788657071022955fc3e02d05c5798748e84ef71f9e2b0865e"
    },
    "Rikido Sato (Summer Training)": {
     "file": "Rikido Sato (Summer Training).json",
     "name": "Rikido Sato (Summer Training)",
-    "sha": "a145a415100f0a6759535c8e7667af3835c5a8cc9e9c6aa7d8484b1ab0eaf45f"
+    "sha": "e74c7c1f1ab26f53cfda15b24c9c80db15f3a696cbb46ef34a403bfad6e35374"
    },
    "Rikido Sato (Provisional License)": {
     "file": "Rikido Sato (Provisional License).json",
     "name": "Rikido Sato (Provisional License)",
-    "sha": "b36bb1dccab5ad082e71d69224c524d1bf8163d277295b39bf2a327d7ff361e8"
+    "sha": "1721ee2275aa4056bbf5a700485f802384cb97824cf7de2454647ee7d1bde6c5"
    },
    "Yuga Aoyama": {
     "file": "Yuga Aoyama.json",
     "name": "Yuga Aoyama",
-    "sha": "382186efb10af6a7a2c2f65a8d8592960daf3fcdb48d476504eeb7f38fe6fabf"
+    "sha": "0dc3a1d975ee4325399d3b401746b7772c3d0604fd0ede8e9958c67c918c7738"
    },
    "Yuga Aoyama (Sports Festival)": {
     "file": "Yuga Aoyama (Sports Festival).json",
     "name": "Yuga Aoyama (Sports Festival)",
-    "sha": "5d481c3bb2b4dd8ad96ac676c5adf3a5d1fef80a754258ee0fbd97cc027e143c"
+    "sha": "592c9cd05fc4e10f592bc18ac6086940a836ce9fac2667336985e50fa1aab536"
    },
    "Yuga Aoyama (Summer Training)": {
     "file": "Yuga Aoyama (Summer Training).json",
     "name": "Yuga Aoyama (Summer Training)",
-    "sha": "3e820961b8a9d97a24ea57681b0858bbad70db1ed3652701a27b56a4b8b01baa"
+    "sha": "08ede8e0a405e8603464584970b42e813c8eaac0b0eca6066b57d9c46d18bb69"
    },
    "Yuga Aoyama (Provisional License)": {
     "file": "Yuga Aoyama (Provisional License).json",
     "name": "Yuga Aoyama (Provisional License)",
-    "sha": "9c18011784733edf3ba5d596255411641736b13680fb695fe6bb1956f1e25ac3"
+    "sha": "180a3d2da13ba57f5d315b23127fdb92510ff67ca7156d825004ecd02c51f643"
    },
    "Minoru Mineta": {
     "file": "Minoru Mineta.json",
     "name": "Minoru Mineta",
-    "sha": "7122dd0caa5698a4f78845657c5125a5e9abbf0d29adec9f30fb08f4980c8e38"
+    "sha": "22fc5a3439327327f00719e119485869e53ccc17a556ab090d4a7838f474df1b"
    },
    "Minoru Mineta (Sports Festival)": {
     "file": "Minoru Mineta (Sports Festival).json",
     "name": "Minoru Mineta (Sports Festival)",
-    "sha": "156af164709c9c9dbfd875629b829179c568c5c419ea8b48f8d3026753af76dd"
+    "sha": "968f8318bc7152360f644391f91a37b2311e6d5d20d979dc2467f68d1cfd98c0"
    },
    "Minoru Mineta (Summer Training)": {
     "file": "Minoru Mineta (Summer Training).json",
     "name": "Minoru Mineta (Summer Training)",
-    "sha": "93ec4f9b5be81e03f7ed2c90271dbc8403dc244c08f640e57b399930a6b3c0fc"
+    "sha": "07190841dffeac63d5f003b52895483d4c41ae57ca8220c050e8f49ac9fd45c3"
    },
    "Minoru Mineta (Provisional License)": {
     "file": "Minoru Mineta (Provisional License).json",
     "name": "Minoru Mineta (Provisional License)",
-    "sha": "97a94dfaf789eacb62eb8a0e34d6ed2f0ed1b24900eaebd06651c1abc02a505b"
+    "sha": "80e1bf756c0c39562bdc2d4a34b41338768087c4018bf1a3dfdf2077a21fef6e"
    },
    "Itsuka Kendo": {
     "file": "Itsuka Kendo.json",
     "name": "Itsuka Kendo",
-    "sha": "d88bec4ecf59908f1b5b11bf86bc26d8797ba212dc551ccbc60344188f6194ce"
+    "sha": "f5915d516e120892bedc553fd83ae37ee7ab1f302dd921b2dc4461df37e5aacf"
    },
    "Itsuka Kendo (Sports Festival)": {
     "file": "Itsuka Kendo (Sports Festival).json",
     "name": "Itsuka Kendo (Sports Festival)",
-    "sha": "59772a761d6e26be37b32267482f36d0ce2fe04a918fda0eb9afdaae97789431"
+    "sha": "29212efb54725ecb0d5f0198218b56623024dad4c38f05c85f0aff9294d41061"
    },
    "Itsuka Kendo (Summer Training)": {
     "file": "Itsuka Kendo (Summer Training).json",
     "name": "Itsuka Kendo (Summer Training)",
-    "sha": "ef8aa80504778a534ba913a4a6ec809275642eac4a61f72350a72bdde7c8419e"
+    "sha": "ce121d12aefb22df32490a43f84add2fc800ab0921d58e85f906e40398a92f8d"
    },
    "Itsuka Kendo (Provisional License)": {
     "file": "Itsuka Kendo (Provisional License).json",
     "name": "Itsuka Kendo (Provisional License)",
-    "sha": "66077b9c2dc3300c0b29de95b997c711e7bf2436759e4daddb8cee21fe6b9bde"
+    "sha": "03993136d0fd81e1c6a29178c90c2d99f4c37c474f81f78141d1f546682cb137"
    },
    "Neito Monoma": {
     "file": "Neito Monoma.json",
     "name": "Neito Monoma",
-    "sha": "18959b8ffcdae0d150bafd6e5a73197acb9700f8e3393949eb03ec6fe4ef4b2f"
+    "sha": "8ec7a5a7973e8af04943b133e393238130144b9e2e0223c371cbf1165b511786"
    },
    "Neito Monoma (Sports Festival)": {
     "file": "Neito Monoma (Sports Festival).json",
     "name": "Neito Monoma (Sports Festival)",
-    "sha": "b69589ee504b83efbbc66bed28b62653f9224c1f22f6e03ad92e48dbd64073df"
+    "sha": "9d813f4d40da217459acb1943bb37d85bf1e4e1799e6e1f2d1bdc01189a2f2f7"
    },
    "Neito Monoma (Summer Training)": {
     "file": "Neito Monoma (Summer Training).json",
     "name": "Neito Monoma (Summer Training)",
-    "sha": "c47c8dc9f10c1b6ab16dd96c79c7f153934c156f66229c52d60f953c75b5b5d7"
+    "sha": "1a03bbb4be650f3fde88c77cce26bf4159b0785c19339e9b6798ecff076a4f3b"
    },
    "Neito Monoma (Provisional License)": {
     "file": "Neito Monoma (Provisional License).json",
     "name": "Neito Monoma (Provisional License)",
-    "sha": "bbc01bfa4674f44a59187fde14ddea09d4f6c39fb957a8152adda678b139e59c"
+    "sha": "c4394e9917526236084db77bdc75afe483508118f490e8727bcbc55f6bffdc45"
    },
    "Tetsutetsu Tetsutetsu": {
     "file": "Tetsutetsu Tetsutetsu.json",
     "name": "Tetsutetsu Tetsutetsu",
-    "sha": "e66359e362d000e8cc898fd4875239b774b37db6366a7ecf50006afb5fb30de2"
+    "sha": "5f602285ecd8db180d3c7ed2c75acd817b594bdaa5d8b362627cbee290777f54"
    },
    "Tetsutetsu Tetsutetsu (Sports Festival)": {
     "file": "Tetsutetsu Tetsutetsu (Sports Festival).json",
     "name": "Tetsutetsu Tetsutetsu (Sports Festival)",
-    "sha": "9feb7ab0211428497f4f15add1cafdf0adb4d6db79d9a75a2aeef536e8b12a7c"
+    "sha": "990ab8319f06e0420421c4421bf47cd5f70924ca8e31f48ac6f3027312ab3a13"
    },
    "Tetsutetsu Tetsutetsu (Summer Training)": {
     "file": "Tetsutetsu Tetsutetsu (Summer Training).json",
     "name": "Tetsutetsu Tetsutetsu (Summer Training)",
-    "sha": "ba14b4d526d3ec5b48c393a6583aaf55cc77fe3bb88b37ca5163d6fa7a9b6d2f"
+    "sha": "1b729e994b561e6021f433c7d75e3d6ec4afadb64c38706bd87e75f55d87a54a"
    },
    "Tetsutetsu Tetsutetsu (Provisional License)": {
     "file": "Tetsutetsu Tetsutetsu (Provisional License).json",
     "name": "Tetsutetsu Tetsutetsu (Provisional License)",
-    "sha": "db5d8e564b3d8ad121e3e5ce69754c075dce75efb3b2ed4482f4a6eec13eeeab"
+    "sha": "81e38bb1150c2748653f4592ce8f8f2d2c1deb0e7f41683077de07c745444a2e"
    },
    "Ibara Shiozaki": {
     "file": "Ibara Shiozaki.json",
     "name": "Ibara Shiozaki",
-    "sha": "2fa0989acb6ab1fa7c57822d1557914675e7e38046d0f74b2d51e1a3cb527700"
+    "sha": "33848faa6eab4d36e2677c314bd9de02be9c1bfa11395edf803adbb517582177"
    },
    "Ibara Shiozaki (Sports Festival)": {
     "file": "Ibara Shiozaki (Sports Festival).json",
     "name": "Ibara Shiozaki (Sports Festival)",
-    "sha": "c56570471625b206c041475b5d443819dc737ac487fc11ef99670bc2f77e28e1"
+    "sha": "1b794faecfe93b943f1aee831ca89ccad02382e3a9553a0ee384c325503721c8"
    },
    "Ibara Shiozaki (Summer Training)": {
     "file": "Ibara Shiozaki (Summer Training).json",
     "name": "Ibara Shiozaki (Summer Training)",
-    "sha": "bbabb63b8fabc385e9d5a40e1fb9962e567ad7df0ec7a321945a70f9dafb5849"
+    "sha": "cd552e1eae27e5a153cea1961b1841f8995f6325b14b51805446697a21b69049"
    },
    "Ibara Shiozaki (Provisional License)": {
     "file": "Ibara Shiozaki (Provisional License).json",
     "name": "Ibara Shiozaki (Provisional License)",
-    "sha": "7ca052e1df958ce1d05c3f6d5a890d7bea9d73cc4b923583b895b848ffb6217c"
+    "sha": "058348b0c19a4d5d41d1cd2bad220c168053a9bd5eafaebd624c141e3514f041"
    },
    "Juzo Honenuki": {
     "file": "Juzo Honenuki.json",
     "name": "Juzo Honenuki",
-    "sha": "1716ab1523faad08b7e62dd98bb780f3c5cc55fffe66fc29c2f49b1c6de05cef"
+    "sha": "4409397ac83f12d57f01793de2782b476be226313578d2dce40f8dc2100c7161"
    },
    "Juzo Honenuki (Sports Festival)": {
     "file": "Juzo Honenuki (Sports Festival).json",
     "name": "Juzo Honenuki (Sports Festival)",
-    "sha": "413fd330e1e9a008675bbc6a01da1930b70cb7ceb362ccc7d49c66de9c24cbff"
+    "sha": "badf137bd4cb349fa2d35f18fcdf3b01b29fe1d3e27e90ecf96b92c8ca4685f9"
    },
    "Juzo Honenuki (Summer Training)": {
     "file": "Juzo Honenuki (Summer Training).json",
     "name": "Juzo Honenuki (Summer Training)",
-    "sha": "5e9e3351d92ea351ac36d4bd181d8b6b9cd64ad7b353ff443a94c2fc1462f751"
+    "sha": "0301f919ea6bfedf3bf24279f46c4bd8aa872e716eaa5f936b83977dc037acde"
    },
    "Juzo Honenuki (Provisional License)": {
     "file": "Juzo Honenuki (Provisional License).json",
     "name": "Juzo Honenuki (Provisional License)",
-    "sha": "93c3a06685e244171ad77eef7d18ec258c26bf53afe674a3d45a00dd59ea30bc"
+    "sha": "aaf68f61ab5981e46347a0889f3e1fc47d157bc8f0d6b5e3ce6932537dd7cfa5"
    },
    "Setsuna Tokage": {
     "file": "Setsuna Tokage.json",
     "name": "Setsuna Tokage",
-    "sha": "e8b5f87d1bfcab26f2f13053561ba1bf272279aa28c0bfe4924fc0218666055d"
+    "sha": "f4efe3f8453a64ea568f500239f4ddcb2a92ad448b43d11993de22f7afcd5411"
    },
    "Setsuna Tokage (Sports Festival)": {
     "file": "Setsuna Tokage (Sports Festival).json",
     "name": "Setsuna Tokage (Sports Festival)",
-    "sha": "990fc2a0180a3c176140cf89434bb091caec5068f53adb92b2b41b9e8bad24a2"
+    "sha": "9d13f4fd68b736bb17422551e8021f1c880245f9610f79922cf3991f4c51ff5f"
    },
    "Setsuna Tokage (Summer Training)": {
     "file": "Setsuna Tokage (Summer Training).json",
     "name": "Setsuna Tokage (Summer Training)",
-    "sha": "9a445d3523201fc779b8e16a44608dc2bc734ab777101dbfbc39b273e645e8e2"
+    "sha": "b4849c2ab1adcc07201d077fa105f9aa042b259768e790f4d946cff016434e78"
    },
    "Setsuna Tokage (Provisional License)": {
     "file": "Setsuna Tokage (Provisional License).json",
     "name": "Setsuna Tokage (Provisional License)",
-    "sha": "79abfcfea561caaa263d038edbb4c394644f97cf0b5463ef88c16ec53a25b147"
+    "sha": "c4e742f7fbf2857c03c08afcccec0571f396fc17abaabbc0031358659c40447f"
    },
    "Togaru Kamakiri": {
     "file": "Togaru Kamakiri.json",
     "name": "Togaru Kamakiri",
-    "sha": "40f648d20ace4e32c3279f4e9e65b859731742c1e805621df8cd16bd0dea9e7e"
+    "sha": "b27aae3e1fb5f845259949238c5bc871ab035a8ce61edf983328bb85ad2d991f"
    },
    "Togaru Kamakiri (Sports Festival)": {
     "file": "Togaru Kamakiri (Sports Festival).json",
     "name": "Togaru Kamakiri (Sports Festival)",
-    "sha": "dcb9d62e7ef1b95354e90f811461366881c017b27cb0f958263e51b0e12f6b57"
+    "sha": "5b34700229941021fb6ebc566c3229f9b04aeecd2f8bf7aedf5cdaac2b3da284"
    },
    "Togaru Kamakiri (Summer Training)": {
     "file": "Togaru Kamakiri (Summer Training).json",
     "name": "Togaru Kamakiri (Summer Training)",
-    "sha": "5328a4dca8792ae3baf99cd96e50ecf272493adc50ac5d98e8cb25af514bd80e"
+    "sha": "cbbb67d0cff31a87146af74b43ec20af0d5123512904a7286fb5e2787627316a"
    },
    "Togaru Kamakiri (Provisional License)": {
     "file": "Togaru Kamakiri (Provisional License).json",
     "name": "Togaru Kamakiri (Provisional License)",
-    "sha": "71944702126b4be330511860dbb879f1886674a5d02c0000654fd485a32f3e5b"
+    "sha": "6b1a82f85a5f3561c587192af39afa0929c7b31308d4651ac90bdd7937f90a9b"
    },
    "Hiryu Rin": {
     "file": "Hiryu Rin.json",
     "name": "Hiryu Rin",
-    "sha": "c7c4bfe8b336456560749d67ccff87036a6f822d666941ce59d4a368d92960c3"
+    "sha": "f90cdd0dd7cd62497c430b8c04faa49d311e0be4e065eabe3c818c3aeec3a646"
    },
    "Hiryu Rin (Sports Festival)": {
     "file": "Hiryu Rin (Sports Festival).json",
     "name": "Hiryu Rin (Sports Festival)",
-    "sha": "c67618207cff60ebb1a9a88be032c7fef78bb07c854b369ca5f2b1bf22aca6c0"
+    "sha": "852b19b5376cb002b22671ec5795755d314a23d7a9a6ad885d0214f79a6bbf1b"
    },
    "Hiryu Rin (Summer Training)": {
     "file": "Hiryu Rin (Summer Training).json",
     "name": "Hiryu Rin (Summer Training)",
-    "sha": "d84361cbbb460902a11bbe007920faf1a47908502feaa0d3a9990e230d68da0d"
+    "sha": "133f58a759b2d71277cfb23cd2d976b6725c97e278c45df5b6b1a234ede623fd"
    },
    "Hiryu Rin (Provisional License)": {
     "file": "Hiryu Rin (Provisional License).json",
     "name": "Hiryu Rin (Provisional License)",
-    "sha": "476e401273a52fe86a51d3f86eeb0610d4118c0b2d95e9b3c7c1a44644f04678"
+    "sha": "6db099fd94995153afd85658114b2548d623b307436c67edb23f9e54b4d0b64b"
    },
    "Pony Tsunotori": {
     "file": "Pony Tsunotori.json",
     "name": "Pony Tsunotori",
-    "sha": "ed4a6ebb20c86c8c223f7b6110e1b1b327f9552fbdf69c393964a36bb76ef4d5"
+    "sha": "4c47aa9cbcc0142aef024e3f96ef3ffc1d7e54395472c89a4eb481e3c5191a2b"
    },
    "Pony Tsunotori (Sports Festival)": {
     "file": "Pony Tsunotori (Sports Festival).json",
     "name": "Pony Tsunotori (Sports Festival)",
-    "sha": "9b5de03a95e571848ae860327800edaaabf76f831e46e37f9aab4341d4895914"
+    "sha": "e3ac4e503e3fc06d25bb8100bed3cd1b301e87c79838d41b3f73fc9d69bfd481"
    },
    "Pony Tsunotori (Summer Training)": {
     "file": "Pony Tsunotori (Summer Training).json",
     "name": "Pony Tsunotori (Summer Training)",
-    "sha": "fc275b6ee5c97383683db118786bc757de951ff97cce6925a535cd972839e98c"
+    "sha": "5f0d4f82a02a728788175340ae6c7a6355e7b98a001cc92c039e3538bce9d526"
    },
    "Pony Tsunotori (Provisional License)": {
     "file": "Pony Tsunotori (Provisional License).json",
     "name": "Pony Tsunotori (Provisional License)",
-    "sha": "cf6887b05e255ce3b66167082d22c4532dac6016c5d7a1a813384c7da895a220"
+    "sha": "2045b345144e0ffc6d03ee6e7111771bd87ea600798ddfdfe83d9e7e6aaff6f4"
    },
    "Jurota Shishida": {
     "file": "Jurota Shishida.json",
     "name": "Jurota Shishida",
-    "sha": "58e92104b3840b32d66fc279ef3c467c6820933a72328442a401572d25aef712"
+    "sha": "d7296438173d30cf175e40c5218a493eeabeba235f69915153a10ceeff096693"
    },
    "Jurota Shishida (Sports Festival)": {
     "file": "Jurota Shishida (Sports Festival).json",
     "name": "Jurota Shishida (Sports Festival)",
-    "sha": "b690a8a79a3e2829bba025b8d9d8b51814bef1f03175a32adb31ada3842315ab"
+    "sha": "c19e5d0a6e40a34adfeab0cc58761538dccf9079283e1419704e53c07ccee9fb"
    },
    "Jurota Shishida (Summer Training)": {
     "file": "Jurota Shishida (Summer Training).json",
     "name": "Jurota Shishida (Summer Training)",
-    "sha": "52548af8b75fec4642e3c2f895f011d7b8d949bba557e70457bcacdba57e0c8c"
+    "sha": "2ac1bdbe36e5da614cc10550243cdf84a1206ebd3c5bbc5a78f6446edc972464"
    },
    "Jurota Shishida (Provisional License)": {
     "file": "Jurota Shishida (Provisional License).json",
     "name": "Jurota Shishida (Provisional License)",
-    "sha": "4dd987feb477414911db1a15ef7b78f3eae1f67455a4e481fce96f0c375b758a"
+    "sha": "b9546a569aaee82bf795deecdef5443d8e318d983792e5bc7aa18295da14b9cf"
    },
    "Yosetsu Awase": {
     "file": "Yosetsu Awase.json",
     "name": "Yosetsu Awase",
-    "sha": "620ee82e1f7ba5ba93661ee950b9a96ee129be077d6528b44612277d3fae59c9"
+    "sha": "5c4a5527357afed86557b2327e1d89175b50b9246be03a80f1fc32e468aab206"
    },
    "Yosetsu Awase (Sports Festival)": {
     "file": "Yosetsu Awase (Sports Festival).json",
     "name": "Yosetsu Awase (Sports Festival)",
-    "sha": "b8697581d3584be4902128b25af6fce3d2a12090b1900c271dd958cc200271de"
+    "sha": "b2e2b5fb9a07adeaa80eab7e98e9a5ed871dec259ee1acf663810be78a7ba170"
    },
    "Yosetsu Awase (Summer Training)": {
     "file": "Yosetsu Awase (Summer Training).json",
     "name": "Yosetsu Awase (Summer Training)",
-    "sha": "e6820c38580d3caa7c054ed2457d0faff322ee167490d31f017f575e1e624fb9"
+    "sha": "af6b40909f439892bcc94bb95d73f762f191a96e0fe0819b956ae75ca39f107e"
    },
    "Yosetsu Awase (Provisional License)": {
     "file": "Yosetsu Awase (Provisional License).json",
     "name": "Yosetsu Awase (Provisional License)",
-    "sha": "f775193417d39fc003633b1dfbad184a2457fac622917f2df81a29b032994bdf"
+    "sha": "4abac60bf792e7bfac1ba564ef0e49837b5ed5403fbe27adc2cd7981124c1141"
    },
    "Sen Kaibara": {
     "file": "Sen Kaibara.json",
     "name": "Sen Kaibara",
-    "sha": "fc73e440c2e91c54bc69968b3170b1fc0a1139ef5616eefb58c77a5b4e8dbf42"
+    "sha": "6bcef94e5a7531b7880b033059f7ef076ce5ef80571fceee3666922ec5cac409"
    },
    "Sen Kaibara (Sports Festival)": {
     "file": "Sen Kaibara (Sports Festival).json",
     "name": "Sen Kaibara (Sports Festival)",
-    "sha": "ca94ba9a65fd4c8f1b47ccc06f9eafdd72427ffaec836795ee6a676ba98944b6"
+    "sha": "cd964b6315f30135d72d4a414d55a95cfab9899ce12c54d960fc58a4a1533150"
    },
    "Sen Kaibara (Summer Training)": {
     "file": "Sen Kaibara (Summer Training).json",
     "name": "Sen Kaibara (Summer Training)",
-    "sha": "9ad753fca32a7429523262f5e8e50370cf2d0e469f9331757e2547656102716e"
+    "sha": "b25708810146e8638748d1bf096d6e5334b87d86b29c302f57f783e74ed9ce93"
    },
    "Sen Kaibara (Provisional License)": {
     "file": "Sen Kaibara (Provisional License).json",
     "name": "Sen Kaibara (Provisional License)",
-    "sha": "e3db55f876df4eaf25531b66a162ba15f2fb153efe3896069f90b54a18987c51"
+    "sha": "5782313049148b66c8371ecd5a8956afede7b814f545f88bdc5f0398dc352e96"
    },
    "Shihai Kuroiro": {
     "file": "Shihai Kuroiro.json",
     "name": "Shihai Kuroiro",
-    "sha": "345e58d49a5b4fcfe3ed9bb13dcc5556dc14c9335acbb0b81f436e453c3c161f"
+    "sha": "3dbe96affa76937033c04b0123324e5b338f010569a469dbd806b5a400252c61"
    },
    "Shihai Kuroiro (Sports Festival)": {
     "file": "Shihai Kuroiro (Sports Festival).json",
     "name": "Shihai Kuroiro (Sports Festival)",
-    "sha": "418280a29a1600b4be08fb8ed4b0d09cc0c733df895c739691536d6763dc40e9"
+    "sha": "3fc07a3ef2295a2add1ae38190af38740b3dc7123d65b1cc3c65fbc3d084a193"
    },
    "Shihai Kuroiro (Summer Training)": {
     "file": "Shihai Kuroiro (Summer Training).json",
     "name": "Shihai Kuroiro (Summer Training)",
-    "sha": "4502e9d32087312cf6c84e08342f54505b7f58e0a4ca55dd02a9154dd260e16e"
+    "sha": "0c9afbfede5f29718644233b13d5c57d84d9da6ef0907e76c30cd408a1f46700"
    },
    "Shihai Kuroiro (Provisional License)": {
     "file": "Shihai Kuroiro (Provisional License).json",
     "name": "Shihai Kuroiro (Provisional License)",
-    "sha": "4e92117711bfa94787c20a0541282ac8b736be7dc7fed552a278bc3eac78a51a"
+    "sha": "4fcbaf4df3d6885ed00f53ebec4969ff854468073138770d55ae595a529ac10c"
    },
    "Kojiro Bondo": {
     "file": "Kojiro Bondo.json",
     "name": "Kojiro Bondo",
-    "sha": "e1b9b597e6a302037a8c78ea18ec24b535eea42a229ef2a581094036863faa61"
+    "sha": "c88697c1b50ce2e3273a6c9bd6108d449339efc3aaa1409e0a4073e0358b12d4"
    },
    "Kojiro Bondo (Sports Festival)": {
     "file": "Kojiro Bondo (Sports Festival).json",
     "name": "Kojiro Bondo (Sports Festival)",
-    "sha": "442fa3ec0eb9a38647d667050a4d25467747ba3436ad402afa8d131b975eb13d"
+    "sha": "2f3b9d0733f2c8f52343733d9ce2454f2036a8eb0b6cfcf3191bb285e3b14701"
    },
    "Kojiro Bondo (Summer Training)": {
     "file": "Kojiro Bondo (Summer Training).json",
     "name": "Kojiro Bondo (Summer Training)",
-    "sha": "82f0fec734e6b39d87387ea82e3ab2404ab52199dd4b25273bff846a2cbe5eb7"
+    "sha": "9afbd45047746b3b55410971770b8f1ecd6251d77b4f3e6f77a6d872d9edd14f"
    },
    "Kojiro Bondo (Provisional License)": {
     "file": "Kojiro Bondo (Provisional License).json",
     "name": "Kojiro Bondo (Provisional License)",
-    "sha": "027579ef441bdbf8a545d826212d667f0bbebef50e1d629134dbd3c65b8ebe4a"
+    "sha": "47a2eb49a904be952ee4e74c4f9799a48dac982c023aacc6595b78bd9924c116"
    },
    "Kinoko Komori": {
     "file": "Kinoko Komori.json",
     "name": "Kinoko Komori",
-    "sha": "9ef76026e315c12c184824185851a5f52a85886dc0107d0bbd044560f4b94685"
+    "sha": "05b7f8fcf3c20fc28bf5437a16c8d895f3f9807b93747906906da27739951a16"
    },
    "Kinoko Komori (Sports Festival)": {
     "file": "Kinoko Komori (Sports Festival).json",
     "name": "Kinoko Komori (Sports Festival)",
-    "sha": "d2ca60b0729f53ddfc4f35cd617f991c158e523e39d4e5f9e9b0ab3625296542"
+    "sha": "8335713c55d35517c759ffc90bebaac239043b41c624ac260b50227eec4b4c9a"
    },
    "Kinoko Komori (Summer Training)": {
     "file": "Kinoko Komori (Summer Training).json",
     "name": "Kinoko Komori (Summer Training)",
-    "sha": "4811614dcfc39838407fd3926a40d7859bcf2549c6e86dcaad05648e5ec4a325"
+    "sha": "d4f42c5d5a4dc20f73f3fa6ad100ed6f983e942e5c3f0c31ad6fad83dd5cb7af"
    },
    "Kinoko Komori (Provisional License)": {
     "file": "Kinoko Komori (Provisional License).json",
     "name": "Kinoko Komori (Provisional License)",
-    "sha": "77973ff760c0e7ef9a2b9099e7e176c14af0d1d32117730a1bb589ab499003ff"
+    "sha": "ab979de9417cb3c86837d954af08865ab1634cf91fea3620dbc8e5778221a6f0"
    },
    "Kosei Tsuburaba": {
     "file": "Kosei Tsuburaba.json",
     "name": "Kosei Tsuburaba",
-    "sha": "8cab2311aa794aaf90ce01a878e4e10e1ae25582ca66fd62c4d92f73f377ebb4"
+    "sha": "dbf49c09c0f264775237d947befd5e8b638abb19563bcfafe5e6f7b65d59891a"
    },
    "Kosei Tsuburaba (Sports Festival)": {
     "file": "Kosei Tsuburaba (Sports Festival).json",
     "name": "Kosei Tsuburaba (Sports Festival)",
-    "sha": "45df74a8de0bdd3c20b66e9e85d40ee6092fddff2a53625958a83a74abee3244"
+    "sha": "a6ed043654a35e331162e0aa7a3bcdd72c3ca48dd841bcbaaaaadb89ae96ca61"
    },
    "Kosei Tsuburaba (Summer Training)": {
     "file": "Kosei Tsuburaba (Summer Training).json",
     "name": "Kosei Tsuburaba (Summer Training)",
-    "sha": "98f69e337bb71438fd4ec6ef751bc985a3524616f645d5900e4ce615c333c108"
+    "sha": "3e99dff24fb23198ee572e91c70d2c45ca713f49c5f505978e09ce735418c97b"
    },
    "Kosei Tsuburaba (Provisional License)": {
     "file": "Kosei Tsuburaba (Provisional License).json",
     "name": "Kosei Tsuburaba (Provisional License)",
-    "sha": "c9e8755848e606268cbb32d30e316347f691b5ce6b4b9edd6c9c33f3419da5e2"
+    "sha": "f3a87e29e054edd9a75787a48f754554b3ac66c101ce5ab205f86939f6071ce9"
    },
    "Nirengeki Shoda": {
     "file": "Nirengeki Shoda.json",
     "name": "Nirengeki Shoda",
-    "sha": "64eda8bd9a1c79eb5f1fcab9dc10efd0ca4753aad121e82728008973117aaeaa"
+    "sha": "a375586d805a1748a03be66ebf45084ed59d46d7cbe587b5cce1529cbaea4e75"
    },
    "Nirengeki Shoda (Sports Festival)": {
     "file": "Nirengeki Shoda (Sports Festival).json",
     "name": "Nirengeki Shoda (Sports Festival)",
-    "sha": "410571e04e05f1dd5f6f55c4c320db2985edbef48103eb97d00796d1198bf7a0"
+    "sha": "bb4fc2ad483b22161a0d60a03c9237d73b14461ad5e1a067eadc9e24fd61f8c5"
    },
    "Nirengeki Shoda (Summer Training)": {
     "file": "Nirengeki Shoda (Summer Training).json",
     "name": "Nirengeki Shoda (Summer Training)",
-    "sha": "f930fa5c5dc01bc9c44c55612763d446640bba9ba70350fa03e138195927a077"
+    "sha": "14e5fe971375073af497e24b8042e5202d5ecf8cba54b2540ff0da9aa1303999"
    },
    "Nirengeki Shoda (Provisional License)": {
     "file": "Nirengeki Shoda (Provisional License).json",
     "name": "Nirengeki Shoda (Provisional License)",
-    "sha": "74927063c8f2abd1d39439003d370b316afffaad8384ead7bcadb9f93bcb97a3"
+    "sha": "befdef203d8876ac30d55d2331972aeec25ca1011db95fefb855b44528ad6ff2"
    },
    "Yui Kodai": {
     "file": "Yui Kodai.json",
     "name": "Yui Kodai",
-    "sha": "4fb474754ecc011d1005608f68133046cc6ec707414222390a35d8136f7a52c5"
+    "sha": "ea894ee9eea7ee6c8794720a5e00facb7da95a5f723aaf5906ae481e65dc84f0"
    },
    "Yui Kodai (Sports Festival)": {
     "file": "Yui Kodai (Sports Festival).json",
     "name": "Yui Kodai (Sports Festival)",
-    "sha": "947ba8ec43ae4be71924d53e5de8092ed3a24015fc64303b5ceec5e1f5de8739"
+    "sha": "70d46d47d41276adf577991df73e46084828663dbf43fd1828d6ec4b248b0e17"
    },
    "Yui Kodai (Summer Training)": {
     "file": "Yui Kodai (Summer Training).json",
     "name": "Yui Kodai (Summer Training)",
-    "sha": "587ea30eb1f45105fa0d85601878763e306e07568ee87677527281f3baab2b77"
+    "sha": "256e0bcf94ebe0c9ce9ed33513a8310f8079963b106127e0d664d723a060c22d"
    },
    "Yui Kodai (Provisional License)": {
     "file": "Yui Kodai (Provisional License).json",
     "name": "Yui Kodai (Provisional License)",
-    "sha": "160db62505443135b129d7298262affb4696e55f4ceb2cc1a728691ddfad3738"
+    "sha": "9266cc305376705f819dddc447fe68ad42b7db3c96be5786dc6b9d76d0256d7b"
    },
    "Reiko Yanagi": {
     "file": "Reiko Yanagi.json",
     "name": "Reiko Yanagi",
-    "sha": "1bf44e925a4cc06d6af1b9d4d5cd242adc3f8fcc5f459182e7fcf4a730cbf3a6"
+    "sha": "e349ea16bd1be9b31a47d604a0d548d553e21e147ffa6b72084637e0241f1d4e"
    },
    "Reiko Yanagi (Sports Festival)": {
     "file": "Reiko Yanagi (Sports Festival).json",
     "name": "Reiko Yanagi (Sports Festival)",
-    "sha": "41beacc0e56d4f5a11eb30234b69e28c702c4b5731a8ec65ea11915acb65603b"
+    "sha": "60873a4f914063e37678dfc44e789f6390e27586c31dc6c4df0add734bb2f96e"
    },
    "Reiko Yanagi (Summer Training)": {
     "file": "Reiko Yanagi (Summer Training).json",
     "name": "Reiko Yanagi (Summer Training)",
-    "sha": "817e48be921297c098be4522b12321ff599a66965c9a8d6d8676617d12fa42b1"
+    "sha": "932f895dd7d4b11ac2f27fb476b86b07188847d03323dd264e3688b11888e0f3"
    },
    "Reiko Yanagi (Provisional License)": {
     "file": "Reiko Yanagi (Provisional License).json",
     "name": "Reiko Yanagi (Provisional License)",
-    "sha": "ed675158a72b71712b05cc125fa779daee6b40d3179c93fc56ba924f1a72d15c"
+    "sha": "1e2f9a707b778a9ef80b5b0a8dfaf7dbfda8f2e7b87be50a167ce549f53a38fb"
    },
    "Manga Fukidashi": {
     "file": "Manga Fukidashi.json",
     "name": "Manga Fukidashi",
-    "sha": "3ef7d08274906f0493bf3c86d3adfcf6d3fc0be5a30ca447442f3cb2347fc8ea"
+    "sha": "c99dceb7824aec3a32dbc6cb8c434192c4d13594d2d74a5415d52b89509a1d72"
    },
    "Manga Fukidashi (Sports Festival)": {
     "file": "Manga Fukidashi (Sports Festival).json",
     "name": "Manga Fukidashi (Sports Festival)",
-    "sha": "c7291b98a78cfa5749611c066c335e8275fbe0c2b7c960281aba98fd350bac94"
+    "sha": "db4d3f2004ce123c2b5aaeca025db57187efb6ecba39e2eae65f9864036d2de1"
    },
    "Manga Fukidashi (Summer Training)": {
     "file": "Manga Fukidashi (Summer Training).json",
     "name": "Manga Fukidashi (Summer Training)",
-    "sha": "568caf4b989891e7b3ff9177dd43133064d7a27fa26ee1ed9b6952d9d33eecc9"
+    "sha": "b04aa688f8a06b77880ced0156be8d84fe4c3dae3a14bcc8da95f7427fee3a8d"
    },
    "Manga Fukidashi (Provisional License)": {
     "file": "Manga Fukidashi (Provisional License).json",
     "name": "Manga Fukidashi (Provisional License)",
-    "sha": "90727247d6c88c494540316b660b146f0816932ba855ea59c24fd64e255fc399"
+    "sha": "90f78065d4d82f205b255c7ee0be100631a77be4c894634bb2cfc92e9c875bdc"
    },
    "Hitoshi Shinso": {
     "file": "Hitoshi Shinso.json",
     "name": "Hitoshi Shinso",
-    "sha": "296c25cf05487be686756966b04260e3fefc906553972fddb63d17d844592e6a"
+    "sha": "6e83b5dddebc089684ecb01a5ed32bd8fca8756ee1a100e4cb46ecab40a360e1"
    },
    "Mei Hatsume": {
     "file": "Mei Hatsume.json",
     "name": "Mei Hatsume",
-    "sha": "89d91e0b6ea263d6e1184e0f9eb9e9e356fbbe6a9cb1ec818b9bc6dc0aed9470"
+    "sha": "9c5af55edfa06ad16e358b9bbe3a7230806692a206051fe5757c8fbb1a2f8862"
    },
    "Mirio Togata": {
     "file": "Mirio Togata.json",
     "name": "Mirio Togata",
-    "sha": "fd3ce2663524f76a954688de040e67f1bc303ab1041b793c74ee4cd8ec2730b7"
+    "sha": "967260c4968f643554ef46ebf06e9aec9a57180b862e74dfb5bdb5264f65a127"
    },
    "Tamaki Amajiki": {
     "file": "Tamaki Amajiki.json",
     "name": "Tamaki Amajiki",
-    "sha": "dc4199a2852bd653cf11e63ff023663730588a03a0f668d375e0e6e57f3ed308"
+    "sha": "bc4772b2a097ea2946773b1141abeda794725fa669b6aaa3ff167943555dbce9"
    },
    "Nejire Hado": {
     "file": "Nejire Hado.json",
     "name": "Nejire Hado",
-    "sha": "77c4d53ced67df578c80aecef827029f066b4aba6cf4da2156ade89b6d9be325"
+    "sha": "412c99aa05d1dc8c83e6f62053676815c2d7f6c219732ddcf61e3fb0d352966d"
    },
    "Principal Nezu": {
     "file": "Principal Nezu.json",
     "name": "Principal Nezu",
-    "sha": "63c32da86c0b9edef58911812572f9505bd87e22ad23fc93e38b561a79a13d63"
+    "sha": "215cab7f52502ac820f29d6eccce968487c10356c01faf0f941820c128e67028"
    },
    "Present Mic": {
     "file": "Present Mic.json",
     "name": "Present Mic",
-    "sha": "507678f4f898adda81b3f06bcc0ceebfec21bce65e4496c06cdfbcccf89d19de"
+    "sha": "07723e66c68af610e25aa1df1b71ea71e500e3af340454d4d02021cd801d1b8d"
    },
    "Nemuri Kayama": {
     "file": "Nemuri Kayama.json",
     "name": "Nemuri Kayama",
-    "sha": "d63a576f9b8b3ad0a0c6265b4075ac3067a563ab95bbb1edba0bb8cf2152d6ec"
+    "sha": "933211fbd295161ab91d46547e43268a1ef3b8a69f77c3035a5e1fcec87e66e9"
    },
    "Recovery Girl": {
     "file": "Recovery Girl.json",
     "name": "Recovery Girl",
-    "sha": "a178f170f26dbfdb3cd278e47bbed72b96e68feb4ce50df182185c177f35b899"
+    "sha": "0397696185bd990a45325a2a2dd8a0ee6fde606da91e04d24369c6211c7eb54b"
    },
    "Vlad King": {
     "file": "Vlad King.json",
     "name": "Vlad King",
-    "sha": "5d59541a1516f5fc903cdb9e2e2894214a9f85985024280d45b6e64b3d46e10d"
+    "sha": "9c5a4644adc404d523e043486f9b79b522608efdc3127902d8b4c1393f2944e7"
    },
    "Cementoss": {
     "file": "Cementoss.json",
     "name": "Cementoss",
-    "sha": "ed592a704485f161e18a948b0e167f521ce6befa3827ea4abf3e742253931d4b"
+    "sha": "dd87039a353349ace9bef26ccaff5fff561e7419fb55350923638e5f3ff6ae66"
    },
    "Thirteen": {
     "file": "Thirteen.json",
     "name": "Thirteen",
-    "sha": "f5db371fddc365a9d4da6f791a8e52da9e7a3888743c00a775ce69016194dc9c"
+    "sha": "53c52c4234fa6dbee5a0de15553902234ed95bbb7e37c93c61abce47f6f9c1b6"
    },
    "Power Loader": {
     "file": "Power Loader.json",
     "name": "Power Loader",
-    "sha": "a704442d14fdf8e88cb39203a2b967500f482d7a573e84fa4aba107b904e8f99"
+    "sha": "a74b32aa1c4d7097a940b09511a65133c3904bd9ae54196e579ff60348d0b97a"
    },
    "Ectoplasm": {
     "file": "Ectoplasm.json",
     "name": "Ectoplasm",
-    "sha": "2cb5c2fdbc6e13f736308d0c1ced582af2524955884baa27e8ee13a6ce5bbb9d"
+    "sha": "07237781d5b39b2e8c3d88a4b588aa2b3e70e2c988f693cf830a70f12aeec818"
    },
    "Snipe": {
     "file": "Snipe.json",
     "name": "Snipe",
-    "sha": "f7d1355fd1cbbdeedffedb8a752fe14c4fdbd2b97419e0304770094582483fe5"
+    "sha": "9e89112fff5c0e43b0d3fccd6bf69b821914655ed5c3a7ff9205897779de306c"
    },
    "Hound Dog": {
     "file": "Hound Dog.json",
     "name": "Hound Dog",
-    "sha": "7af6f9f36df03523ae5288913eaeacf2fd4acaf17f895930b3d8bb77eba6857c"
+    "sha": "db99e2561202a02d0a07f7ddcdb453542881c63cd8c3325c67b65682b96330b1"
    },
    "Lunch Rush": {
     "file": "Lunch Rush.json",
     "name": "Lunch Rush",
-    "sha": "319e2cbd90b15a009150b3eb53d86c19936ee8b32c91771574d9031f7747107a"
+    "sha": "63641b2f13bbb86ef9c30e569b469cde4f7ecb5fc0f7deb50bc8670bf7be3136"
    },
    "Endeavor": {
     "file": "Endeavor.json",
     "name": "Endeavor",
-    "sha": "e547686e0a7b211e1c12e0eabe954b17552023dd76231d5bb964ae8fdda829f3"
+    "sha": "a8af9c541c987a0ef637c918e2f684a7e7f18678dac612370c75cce888d2917f"
    },
    "Hawks": {
     "file": "Hawks.json",
     "name": "Hawks",
-    "sha": "af00e37f3cfba7ad9afee172eddceb1938ff21cce568360ab8c4da36e52d2e1d"
+    "sha": "3feded75c1181c4aae0525c2f24fa4c1098681999d47079da8dbc5ffec156b68"
    },
    "Best Jeanist": {
     "file": "Best Jeanist.json",
     "name": "Best Jeanist",
-    "sha": "d4e20d94d795317d8eb1315843807933a7ac20a5307da305860b5d0cfc23c386"
+    "sha": "e839be9e039040b2b262d196b6e037ca96f93cb854accfb7326e6969e9a0b821"
    },
    "Mirko": {
     "file": "Mirko.json",
     "name": "Mirko",
-    "sha": "b5cd2b0a127f8b6e90f75888b96a35cde9fab46aecc9b0df0af9731a443d5feb"
+    "sha": "657db14fcc53832ff52894617dec6cb3f13ff2971e98a7d5ddd824551116dab1"
    },
    "Edgeshot": {
     "file": "Edgeshot.json",
     "name": "Edgeshot",
-    "sha": "0f9a57578753fbd1f1c7f638c1c67357e25a32036c68f8785e1aec25e36c87ea"
+    "sha": "663647ec011cc850a85654400cc10f02ef1e7238db3f4d7e28dd85d0447dfc69"
    },
    "Ryukyu": {
     "file": "Ryukyu.json",
     "name": "Ryukyu",
-    "sha": "4de4acf4cc94253ae3fc64c0225fba2c6fa050f3a50acf93ee913d8faaa55508"
+    "sha": "2bf2f6e42c0a091e98ad6ef7f48aa7e13decb7b5b7408f31317d3544cb325433"
    },
    "Gran Torino": {
     "file": "Gran Torino.json",
     "name": "Gran Torino",
-    "sha": "7becdef9efbc630762beb0ea358ad402ede9f09337791dbe79dded530d3b1daa"
+    "sha": "c3b219e8da197d5e7c863aaee1c719b77273c862babda67358209ed60cff2084"
    },
    "Sir Nighteye": {
     "file": "Sir Nighteye.json",
     "name": "Sir Nighteye",
-    "sha": "70b0e075984f58959712e79e24cb436f715760b50b220df72bf05b651dd64512"
+    "sha": "2610d2ad981a4ccf2011a0baf066db67627acaaee14f152063964ec550e9154a"
    },
    "Fat Gum": {
     "file": "Fat Gum.json",
     "name": "Fat Gum",
-    "sha": "1d0063b60ed5ac2be37f7946a6ca35e013ce7138a3d337b37df0ea99dd73fb45"
+    "sha": "86c1411267b52c6830796911bf8fa00c8a278d2f2fdeb22938670db3b22b80e3"
    },
    "Kamui Woods": {
     "file": "Kamui Woods.json",
     "name": "Kamui Woods",
-    "sha": "921dfa678eb2bbb677863a34ddfe22cc91357b09a805658eaaea392312ec7b31"
+    "sha": "8406705b3468ede3de905071e1f32bc891283e2e7fb16390bfa12d913f3a161e"
    },
    "Mount Lady": {
     "file": "Mount Lady.json",
     "name": "Mount Lady",
-    "sha": "e077b9ee6c837674a7096f0ff0f9334b1f74d23e4569ff2544cc43589261bba4"
+    "sha": "038180bf9766d9645eed78fc22601216d90869abfcf317642d0b3972f71aabd1"
    },
    "Death Arms": {
     "file": "Death Arms.json",
     "name": "Death Arms",
-    "sha": "4683cef2b4ddf0c8cac97df363d8499a59a75ab0bbf8a40f197f1c87b2da1340"
+    "sha": "68070b56846218f32e6ddaa1f97fec91a1062e318c4c3919cf93f25c0fbf64bf"
    },
    "Backdraft": {
     "file": "Backdraft.json",
     "name": "Backdraft",
-    "sha": "43cba4914316c4e073d0ffb067129ee62f1cd1fe41e979243e266a11e56f1c0a"
+    "sha": "5d37e4e7d4e04924d31cc302c22a8aff2423947804ab0e7b6c9845877c3d0f4a"
    },
    "Gang Orca": {
     "file": "Gang Orca.json",
     "name": "Gang Orca",
-    "sha": "4b14d9bac51b3efb1b5804d0681090cc93368b4ff1c81907f740c6a6f3534e7a"
+    "sha": "7467176d203c628e3e1118530c12acba047d9363bab29c66a239b061eb0c00ed"
    },
    "Crust": {
     "file": "Crust.json",
     "name": "Crust",
-    "sha": "769ee9a494247b39f99d98b977a876c9d68057910f349b3b95ae18eb4682e6f7"
+    "sha": "5a46993651e7850c459abf097c186f5ef9beb46d62a1ed5aaf7ff6b26e4736b5"
    },
    "Manual": {
     "file": "Manual.json",
     "name": "Manual",
-    "sha": "c367e52887664375f61b381f5c68710ad868224dbd86f1f87d579a344ad0835d"
+    "sha": "405335033f1c9b43360f5337b854157bced2eb27e92a07a0fe2c4eed65677e2d"
    },
    "Native": {
     "file": "Native.json",
     "name": "Native",
-    "sha": "4ad1853fd9e11e6b344d64bb4457a82774012c2bca0e8cbaffdde083cf77bf5e"
+    "sha": "b377eb59f4f68f38bc03e55bb49c899a5334d556e0f408664ffe593553b241a2"
    },
    "Tensei Iida": {
     "file": "Tensei Iida.json",
     "name": "Tensei Iida",
-    "sha": "b39aec547eeb503c070903b09a5855ab4304e728545eceecbd060ab005b51438"
+    "sha": "54c941ef960e48ddfc7c5eca2a2235c636a8e0bb0c006449a288176bc51a172f"
    },
    "Ms. Joke": {
     "file": "Ms. Joke.json",
     "name": "Ms. Joke",
-    "sha": "e4f6614d9febd4c1fa3416cdfc4a514a6795d3b6bc26f134d3f9ddcb1e3d12f3"
+    "sha": "057fcc68eaec0dbf53431df6bfb6c727813ba1d4e078886a9a1436a66715816a"
    },
    "Mandalay": {
     "file": "Mandalay.json",
     "name": "Mandalay",
-    "sha": "541a4c30d51cd2b5876197e89e39729c3f3c40dee8fd99eb986f3e9d19aae03d"
+    "sha": "b5d54135968379aebad81307171cd8f1209aaa4466e5403735bf8eee3998f2d5"
    },
    "Pixie-Bob": {
     "file": "Pixie-Bob.json",
     "name": "Pixie-Bob",
-    "sha": "0ec001cc257fe6cb9989730bb629d931d698bb77f700cf6eac6f46a3439be22d"
+    "sha": "78b73ddbd2d3a62af9c915c7311443e6d0b3fd20439c43bbf390fcfe95421cca"
    },
    "Ragdoll": {
     "file": "Ragdoll.json",
     "name": "Ragdoll",
-    "sha": "221a3524cfc6ae0298eebf8cc6e4aa3584aa06e63fee4843a77cb9c3eab1b71d"
+    "sha": "375925bd19c57bb57d07b741a15f8ce5cc082050e2a8666e24616e9e4d61a27e"
    },
    "Tiger": {
     "file": "Tiger.json",
     "name": "Tiger",
-    "sha": "fa17c55c3ba1eb9c6efa8eb0576284975aa3200e895d867b24413b6886699c3c"
+    "sha": "a2ab3541ebdd5ae3372bf6135378fae2bb2d9ada40a7de725133ed87ca348455"
    },
    "Kota Izumi": {
     "file": "Kota Izumi.json",
     "name": "Kota Izumi",
-    "sha": "c4efdc9d68268a36ee83b925aac5c841cd666785254b7fbfd5eca8ab01ef9b25"
+    "sha": "f0754c81d25023fd3641ba75bd6d4d4973429e23b26b505302b37bd0448c32aa"
    },
    "Burnin": {
     "file": "Burnin.json",
     "name": "Burnin",
-    "sha": "2675d24b5507534ec3967294f28b55cf6cff36ea71d56d27ab3124de6ebfdad2"
+    "sha": "0fe66961ff65828899113b87ef27f82a9edbff46c8d19a1323fd5238ed70e8f4"
    },
    "Bubble Girl": {
     "file": "Bubble Girl.json",
     "name": "Bubble Girl",
-    "sha": "83158d538186f165c9988d8ffd577db36b29e70e4f89122b34c6537a82c5a9da"
+    "sha": "b622f3922623826bff042db19030b9460589ab08a94d5cf5414154a85850440f"
    },
    "Centipeder": {
     "file": "Centipeder.json",
     "name": "Centipeder",
-    "sha": "20755c2ebfef811a790f65c59a40ae2770c4798381eb7c15c7fc0a7ab9eea98c"
+    "sha": "e514ce9a81eff0145e74e173e7731245266ad0bbbc2d2af8e64d5aecae4902c5"
    },
    "Gunhead": {
     "file": "Gunhead.json",
     "name": "Gunhead",
-    "sha": "7d2a69d28acddacf163268bde956676167c98c8a4db7f1990cd4500937030784"
+    "sha": "f35c615ae9e18e83b3c9394bcd8df562de585e27c756437449bdc4c1f8562c27"
    },
    "Selkie": {
     "file": "Selkie.json",
     "name": "Selkie",
-    "sha": "d253b0ad576607e4498368f665de91237285689c4b8ce3051a9fc7e4f4a2623b"
+    "sha": "3beb40d8c114c207db5e712730d02538f3eea80a257bac828e1db3af98300091"
    },
    "Fourth Kind": {
     "file": "Fourth Kind.json",
     "name": "Fourth Kind",
-    "sha": "c99c27ba9b06db1fddcf00912879ca0ac6f501d09404693f0467acef91e22bc6"
+    "sha": "4a1927bef057e850c56e101881f411673601a7d075e1328631818cb441797a2f"
    },
    "Uwabami": {
     "file": "Uwabami.json",
     "name": "Uwabami",
-    "sha": "9743217c3a094588b3011a0aba890ad85ebdd1fa11793aee9eb54d42d98cf63f"
+    "sha": "d899f040d3dd2b52f4abe7b17b1edabef63d716563ee187b1a2a6171b1aebc67"
    },
    "Rock Lock": {
     "file": "Rock Lock.json",
     "name": "Rock Lock",
-    "sha": "758e6405979eae967beda9f82ce8d707d2d3b1802a1c8f3342aebf4b832e4cb5"
+    "sha": "a2bbbb9c43f2b07455cb500f2dd534fce5430814c7c11ca841043e737b9b10a4"
    },
    "Yoroi Musha": {
     "file": "Yoroi Musha.json",
     "name": "Yoroi Musha",
-    "sha": "7b6b0f3aa8abd8bedd91e2b79b477601ffcbee0ca3983160526a5871bbc3d747"
+    "sha": "39c74c9c11d088247293a24d1e4057e352710a04637c0b3c11a3c451faee6219"
    },
    "Sansa Tamakawa": {
     "file": "Sansa Tamakawa.json",
     "name": "Sansa Tamakawa",
-    "sha": "dc9c45a1cd92a02834bede65127ae3a71b60e32697f2b55e78d074a575e9b2d2"
+    "sha": "002d87bef890af0cafbc5a938f05ab3aac343906680a157698d4052702ea1555"
    },
    "Kenji Tsuragamae": {
     "file": "Kenji Tsuragamae.json",
     "name": "Kenji Tsuragamae",
-    "sha": "0a60b3a13a2de6b6e9eae327fb01da13eddd53d7c89d8f3ed33e9f99c0d0f96c"
+    "sha": "e54c0a1fe182790341261358c42d1c249cc63fd292f00f6f5194ec5cc8c63e4f"
    },
    "Commission President": {
     "file": "Commission President.json",
     "name": "Commission President",
-    "sha": "bc8fce71467b122b886498bd85b6930ea6439d6f245d1ac0a0d1627b64225e70"
+    "sha": "43468d8244c08f90c02644f6f4d8773b32e604de7e554a454802cab094dcdf06"
    },
    "Yokumiru Mera": {
     "file": "Yokumiru Mera.json",
     "name": "Yokumiru Mera",
-    "sha": "1018496cd053b97b29f98d0df7d00688eed5e06344499b32b5830c71579c643c"
+    "sha": "4d969cf821be0a3ef98646e52095cfa47c9930ca2f9171963d03b9cd985843fd"
    },
    "Inko Midoriya": {
     "file": "Inko Midoriya.json",
     "name": "Inko Midoriya",
-    "sha": "58a5ac60052ed07967d03d0ad4e35bd4b3ba21c04084ca8d63fe20f05267823d"
+    "sha": "b76a9e346b03d0f56095616550e7045ff2d9887ef969bf7d50637a46c2cd3d8a"
    },
    "Mitsuki Bakugo": {
     "file": "Mitsuki Bakugo.json",
     "name": "Mitsuki Bakugo",
-    "sha": "c06d36994bde039d6d5f1bf850c5e4aa3b1f4ed62ff53efb459d267365765568"
+    "sha": "59bf974a635ee56cb84aea07296f5dc42c38f246aa3210913ee21111bf7bd40c"
    },
    "Masaru Bakugo": {
     "file": "Masaru Bakugo.json",
     "name": "Masaru Bakugo",
-    "sha": "f3665ec3d6bcdc87ff64806c0921a54c059edd123b4d57505e35640f9a5c6dee"
+    "sha": "300c287224530d8bc06ffd59549573f0b5ec1552187d177560ee27ba3e62a429"
    },
    "Rei Todoroki": {
     "file": "Rei Todoroki.json",
     "name": "Rei Todoroki",
-    "sha": "5fbcdd29e0a44885af999a43964adc71fcc6c8961e931df276ae2360730b3936"
+    "sha": "fe817994c1ed061c4bf3d6a8ef227d81ba73e24c1f2a5c26a5fe1133a7417c03"
    },
    "Fuyumi Todoroki": {
     "file": "Fuyumi Todoroki.json",
     "name": "Fuyumi Todoroki",
-    "sha": "13357e58df0cd1ae8fca502c0bfcd54cfa7d6238edd732e9b09242f2cfafdd87"
+    "sha": "1e6a667916940c728b9c85e9ec7f3544469f4bed6ff54cb85f0e803fd9f5d444"
    },
    "Natsuo Todoroki": {
     "file": "Natsuo Todoroki.json",
     "name": "Natsuo Todoroki",
-    "sha": "76706723fff182763b4b1dc686d32491873659d5a6fb717632490d605b0ef932"
+    "sha": "04ae40e3831a24b1922969a7231214ad40dfa3a1079f40c0266376d310ee2495"
    },
    "Kurogiri": {
     "file": "Kurogiri.json",
     "name": "Kurogiri",
-    "sha": "289196ff406f0ba14553f4b70b4ca56543ca775625a2fd24826c86d375d3b804"
+    "sha": "feeb16028b2ed2e7a747c645b1aef37a948cead85e6b58c1aef22b3837026fd3"
    },
    "Dabi": {
     "file": "Dabi.json",
     "name": "Dabi",
-    "sha": "af680823972efeb341e774d7d2b4d6d1c43bcdc7ef8b01386d3a804a52702f9f"
+    "sha": "fa2193674f365b167649cf82ef400497f2afd3efbbdec8f093d16d4f390e4598"
    },
    "Himiko Toga": {
     "file": "Himiko Toga.json",
     "name": "Himiko Toga",
-    "sha": "b4bec6272f4a63ef32720c4dea6d0c5997587122387a1ce06bf5ee9ad0712206"
+    "sha": "db7e07bdb8dd926bcb92e38fda3dc0c69761a1563a16ce63456410079c6f7967"
    },
    "Twice": {
     "file": "Twice.json",
     "name": "Twice",
-    "sha": "5da44cb2d1775315e7d914a77963bd916cf9d731ea7b255f19520d2aeb355d34"
+    "sha": "f4a52f4c590aa184d654d18a32503a02b105132621179911febd3980cffca854"
    },
    "Mr. Compress": {
     "file": "Mr. Compress.json",
     "name": "Mr. Compress",
-    "sha": "c1bf80f61a4680e388679fff3502838701729f8a8b469ed999dd2a4433aaf5f8"
+    "sha": "e77060e1298e810cff2a669794dcf5673bc5921764f7ba5e5895d66581325b1a"
    },
    "Spinner": {
     "file": "Spinner.json",
     "name": "Spinner",
-    "sha": "2b7f762f72bcf6a4b6d05d74270e2594040100772a3b7596b39b60df0ecdc82b"
+    "sha": "7bd4ce4172d7c2916bc31beb4209899fcee91b4bf812ca1f91834de3aea3fe52"
    },
    "Magne": {
     "file": "Magne.json",
     "name": "Magne",
-    "sha": "3de610563fca917165f63862c235fa6e691b5f99b458b39b3a4ee43e3db33ddc"
+    "sha": "ade5baa3c4020c4bab0afe08dd09ba6c6c3a9b0bc12a66d80d09f22da221a56b"
    },
    "Muscular": {
     "file": "Muscular.json",
     "name": "Muscular",
-    "sha": "af6c7555718e8006d49447501f5afcdf511c70ecc1acd86daba02b3e7bc6eba3"
+    "sha": "794d5226f2fffd51e1dc18f3500506fd47762bf9e0b6f7831e91d22e6dfa91da"
    },
    "Moonfish": {
     "file": "Moonfish.json",
     "name": "Moonfish",
-    "sha": "ee291fc3903ad97aab437a648f5e10a37ac419cce22b8f88807a88659b8f1c4b"
+    "sha": "044d05498155e37d5fa095d98cf0be7175a21f5d7598a2d2bf8fe6a643cacd08"
    },
    "Mustard": {
     "file": "Mustard.json",
     "name": "Mustard",
-    "sha": "228d40b120b045508733b48a66f5a8b33d793a0de68b500e4610836281270890"
+    "sha": "e2a3cb51f0ef3efc3a1f9071084e125eda22113e75606f1edb7910b03e998980"
    },
    "Shigaraki's Sensei": {
     "file": "Shigaraki's Sensei.json",
     "name": "Shigaraki's Sensei",
-    "sha": "56b5022beae5b2dfff67afc0d07b8df4e583b5c1232198c70673847451f83ade"
+    "sha": "ec67d078af4b486e4b7c1316c206e275479073607e1a357ea2f261d51d6b7d9b"
    },
    "Kyudai Garaki": {
     "file": "Kyudai Garaki.json",
     "name": "Kyudai Garaki",
-    "sha": "9d1691a795c288a16517f1fac85a386bf744ffc8e0c67791be4e2daa0fe12980"
+    "sha": "5b7de1532ab9d552befac89da6a801f4c1f4d3528e846afaab36005b7a1e8a6b"
    },
    "Gigantomachia": {
     "file": "Gigantomachia.json",
     "name": "Gigantomachia",
-    "sha": "c14dfb6d2598b82d2381f29ca507aa1bf14ce6064cbb4b136322f600f578d460"
+    "sha": "c31c9849e93321b28add756c8e7a3e2a13a1e50031e208b83c2e6905b1e7998f"
    },
    "U.S.J. Nomu": {
     "file": "U.S.J. Nomu.json",
     "name": "U.S.J. Nomu",
-    "sha": "cd4dcb937be17e906a67e7ee6475cb151aa28f1272520ca602235ea39bd2d027"
+    "sha": "1e593f636d5758649b1cba41f6817826fa515e0ae45860c12dc0be968d94be2c"
    },
    "Hosu Winged Nomu": {
     "file": "Hosu Winged Nomu.json",
     "name": "Hosu Winged Nomu",
-    "sha": "28912caa30d3c22140823378c66b78b8a2b604f1f7e66daf0c1c1e28a9754342"
+    "sha": "24785ba1d9783da4e0698c6b483c68bdaea67d84b1d13d4d293d908f28f686c9"
    },
    "Hood": {
     "file": "Hood.json",
     "name": "Hood",
-    "sha": "84ee692155edbe9673ae78aac7e1321f5617b82af2409c64a6e1bbdb415e818a"
+    "sha": "eab9af6b42fe2569d5f720ec4b6a0bfb50e635e16ee3a23cd977becaf7f2399e"
    },
    "Giran": {
     "file": "Giran.json",
     "name": "Giran",
-    "sha": "243e843aee0f92c59cf38867b3474b6dc75ec878fcd38f22c2c6dc350a960f66"
+    "sha": "9807c8ac3973f806a9ad70f5984ca306621127846fbe015242c58c826f0c8b21"
    },
    "Stain": {
     "file": "Stain.json",
     "name": "Stain",
-    "sha": "e93ff258f5857ee4b60fa2c42e9deb2de62290a17024b98869760ea81aca3d76"
+    "sha": "b5e58348908ae84734b3bafc0dbfd03d208e37164912af15357f3fc5151fa0f8"
    },
    "Gentle Criminal": {
     "file": "Gentle Criminal.json",
     "name": "Gentle Criminal",
-    "sha": "837ea154a5c01bb8bbd4dc793f6f1291b95ae31a342f9b6475915ee63487130a"
+    "sha": "678aef10e1c0d3637baa8f1ff5df39a8d376a1ab38463b22fe56e67381195d8f"
    },
    "La Brava": {
     "file": "La Brava.json",
     "name": "La Brava",
-    "sha": "3f0098df034e6d407e86ac8b30f8c815f9e6fbf58387ed1a38f9e7ae63d60bb0"
+    "sha": "4457be879e8708dd40ef16e62d56b9586c8d64bae3c51f29b64fb285130e2052"
    },
    "Overhaul": {
     "file": "Overhaul.json",
     "name": "Overhaul",
-    "sha": "608283c669a4150d82e7d020aa6262c1954eed0578e03ab377a9a2e92cd1a922"
+    "sha": "1f1e360d7015d76de19b40ce262d0aa3c2714f648991ca00ebbbb1d44f5ea924"
    },
    "Chronostasis": {
     "file": "Chronostasis.json",
     "name": "Chronostasis",
-    "sha": "ba2c3dafdebf22e576c504ccaa4a677eff5327a6a801ac95ca3e0f57913f3899"
+    "sha": "4908178ddf9ca5ae7c4a4f25d8289b61c653935445e745bcf3ca884f742f2c0e"
    },
    "Mimic": {
     "file": "Mimic.json",
     "name": "Mimic",
-    "sha": "090d3d421f0c5d8d153198bcb303367b841379b70c80a3fafad93e4b37b384d3"
+    "sha": "3735401e6816e5c27e71ed672fabc184e9bc6144639420e7b567d2c60f2d6f30"
    },
    "Rappa": {
     "file": "Rappa.json",
     "name": "Rappa",
-    "sha": "97c907a9dfa77f5e4faeb5840d238d73478e8f5453ef688282e49649aac37e42"
+    "sha": "5a41dcf5631edb2b71b0f0c5822b8f7f4a1dbf1bcfbb6a849e9af8091cfb6081"
    },
    "Tengai": {
     "file": "Tengai.json",
     "name": "Tengai",
-    "sha": "b82353d38fde6e514d33f705c46ce3b9204f81b4f56449b52c5c90f06e099706"
+    "sha": "c35a62be1bd907dc94f62028ec59b89d2ae58fd1cbd4b256771270756b6d2d57"
    },
    "Shin Nemoto": {
     "file": "Shin Nemoto.json",
     "name": "Shin Nemoto",
-    "sha": "abbc978d5ef1b16fd92c4d4f913ce8ecdccb67f440c6e186f22c1af76a716b3d"
+    "sha": "6f981eaaab1642920202633b6dbe0c74e10a62f382792b71cdecd95f343853ec"
    },
    "Yu Hojo": {
     "file": "Yu Hojo.json",
     "name": "Yu Hojo",
-    "sha": "2cd6a4a0bcbffd55c8da809a1f23f8e2aa7359c597b3c42c8197009f6d66d0ef"
+    "sha": "220037819fb0a8d44f4a9a3b29b64375cb95f1296b0b8264c9aba0dcb1d6916d"
    },
    "Soramitsu Tabe": {
     "file": "Soramitsu Tabe.json",
     "name": "Soramitsu Tabe",
-    "sha": "458c39fbfe8e05cc2f3c2ea3ab993397f22b47688a62338af57d3fb30b760828"
+    "sha": "da89b595881a51d7414cce09b43a14966d07f60e47ed645608d1d8711e096cf2"
    },
    "Toya Setsuno": {
     "file": "Toya Setsuno.json",
     "name": "Toya Setsuno",
-    "sha": "7861b9b6783b77e8e2982b9f364c0b327b069708e03a45f025d412d4f644510d"
+    "sha": "2ce16b3761aae27a144ba847be6ee7a9d40c27be4c5bc12a201e8eeefab4d631"
    },
    "Deidoro Sakaki": {
     "file": "Deidoro Sakaki.json",
     "name": "Deidoro Sakaki",
-    "sha": "6276d4279fc0132dcf881d31bde60574b38fb21d650eb343962326accb1fc63c"
+    "sha": "8745e40bc4cbd2c55b23232caa4c9c22c86c95395fefd87e51a7e96af89f1033"
    },
    "Rikiya Katsukame": {
     "file": "Rikiya Katsukame.json",
     "name": "Rikiya Katsukame",
-    "sha": "d888923bc5204e5c240a3fb9f3fa8a3d591afdecbe9c316fe5a188e35667853e"
+    "sha": "8fbfa778a6d829eecb301b1407005a1d311404251749c0af6a5a96745a6ddce0"
    },
    "Rikiya Yotsubashi": {
     "file": "Rikiya Yotsubashi.json",
     "name": "Rikiya Yotsubashi",
-    "sha": "e9862ea8a3817e053ecb6eb15cd00bbae71f691a76661b2651cbf8973476d0c5"
+    "sha": "c1fb632bb860114dda44f48853f80fd8376f4f219b57e3f98e9ed58fbf82d162"
    },
    "Chitose Kizuki": {
     "file": "Chitose Kizuki.json",
     "name": "Chitose Kizuki",
-    "sha": "f2c78fef0eaf0e3dab709f02d66abce8fc53555ba6a35a352ac630dd38655dbc"
+    "sha": "f52114ce14bcd703ba2187048e98edbcf1b6a40ed0ccc7932d8e11d02ec5b1e1"
    },
    "Koku Hanabata": {
     "file": "Koku Hanabata.json",
     "name": "Koku Hanabata",
-    "sha": "e504723dc10612e01ca9dd72b0fb5de7633f695597fc11847883422d9eb858e9"
+    "sha": "19712014a62468841f6a41dd8046192d41f3462319ec60b68b1a749bbea76a31"
    },
    "Tomoyasu Chikazoku": {
     "file": "Tomoyasu Chikazoku.json",
     "name": "Tomoyasu Chikazoku",
-    "sha": "9a3d06a0119792d224d23673b21316a04a054e23eb54b93084b45373154180fc"
+    "sha": "d0b28cb2e227392e4017cd89891b038316071d841855fd11221fe16d37e65801"
    },
    "Geten": {
     "file": "Geten.json",
     "name": "Geten",
-    "sha": "449767ae0e66315de98f7d3747899f9f7017149632d86661d03cd1f7508d7c74"
+    "sha": "2aff381a81b9bd36f24c8b999dbd6267dde73ce5422e4596b4a15e14ecfd99de"
    },
    "Inasa Yoarashi": {
     "file": "Inasa Yoarashi.json",
     "name": "Inasa Yoarashi",
-    "sha": "91a52bb5ee52bfa6a8af732cbb3fb1fd5c74dc26a2f90652d2f95529a51dfca0"
+    "sha": "8f2c60ac102264e31a795733fc18abd3ef109919f95fc769538f804d700ce5d0"
    },
    "Seiji Shishikura": {
     "file": "Seiji Shishikura.json",
     "name": "Seiji Shishikura",
-    "sha": "0f35b5ac3ea58aa4fdd5d5d411c2e95f58cb851a4f072bf6e75de78b7b2eed62"
+    "sha": "802845a0b36ae201a0835de43eb24713191332ac25f252c658cc78db23e85761"
    },
    "Camie Utsushimi": {
     "file": "Camie Utsushimi.json",
     "name": "Camie Utsushimi",
-    "sha": "3bd52f8ea381a00b9ea5ff0058161a25518da2fa3ddfefe54923f08e88022602"
+    "sha": "3584a6e2d1ae32e475721d173a0de5b75bae49db9d63e94391f82661197655e9"
    },
    "Nagamasa Mora": {
     "file": "Nagamasa Mora.json",
     "name": "Nagamasa Mora",
-    "sha": "1cb77ad393dc1b27e03636c56f9195baf53190c21e53b0241deeb85eb915a315"
+    "sha": "5aa5a1710dd05da5eeb58745e4407684c1d68c9da35fc733dda46396f5853f2e"
    },
    "Yo Shindo": {
     "file": "Yo Shindo.json",
     "name": "Yo Shindo",
-    "sha": "69beae3cb098ae22ac7e995a72ed5e4476d7da3199473f583a027427010abdc8"
+    "sha": "4b71c8fd5f25d5b1643a093241f408f632bce9e86365d9a2629a6630b00da002"
    },
    "All Might (Retired)": {
     "file": "All Might (Retired).json",
     "name": "All Might (Retired)",
-    "sha": "d1356c2943ed114d923a35d01bbad5cc1be30e79589124b3c67889317cbf3f65"
+    "sha": "6301a01b014828c1ea8f373d69946cff6cdfeefceec5ba19eab4ed90937760d4"
    },
    "Star and Stripe": {
     "file": "Star and Stripe.json",
@@ -9349,7 +9349,7 @@
    "Toshinori Yagi": {
     "file": "Toshinori Yagi.json",
     "name": "Toshinori Yagi",
-    "sha": "21fd3694a2887dc592ca4dd8131745ee539cb66fa209ebc1320639cd6d50d9b5"
+    "sha": "1ecc491e3445a67ad1447ba7efb8f12b10de50fe816293e3c20fa7553955cff2"
    },
    "Dark Shadow": {
     "file": "Dark Shadow.json",
@@ -20059,47 +20059,47 @@
    "Portrait Swap: tenya_iida_hosu_injury": {
     "file": "Portrait Swap_ tenya_iida_hosu_injury.json",
     "name": "Portrait Swap: tenya_iida_hosu_injury",
-    "sha": "4e4ac6c87260cc059d52cafc14c55f10f6d7428af13ba189227257f516987b77"
+    "sha": "d86b075ba164438a89f2e8b2c4aebf3fda52d0bc0f05f5a041037ab4d392d8eb"
    },
    "Portrait Swap: tenya_iida_hosu_injury ends": {
     "file": "Portrait Swap_ tenya_iida_hosu_injury ends.json",
     "name": "Portrait Swap: tenya_iida_hosu_injury ends",
-    "sha": "e4dd82e72ff60cc1eaefd5d3d0ed5b5c0f3e60842d1040718cf4ad8a8bab0b9f"
+    "sha": "4bd06a58eaab5667ce1eac9a34dbf5cc2579d0c896619a8efa93703b8a3cad8c"
    },
    "Portrait Swap: tensei_iida_after_stain": {
     "file": "Portrait Swap_ tensei_iida_after_stain.json",
     "name": "Portrait Swap: tensei_iida_after_stain",
-    "sha": "9e1c15a8493d5159d9a4824eb50d13a3500a5b8d002a189b664fbc59cb5f529d"
+    "sha": "6988ffbd898b5441388e53e989bcd69434cf9e8fb1c4620737938b15426c6ad7"
    },
    "Portrait Swap: gran_torino_after_kamino": {
     "file": "Portrait Swap_ gran_torino_after_kamino.json",
     "name": "Portrait Swap: gran_torino_after_kamino",
-    "sha": "f6ae780fd5dbec82ea911ff40a10626e9dc924933f27ae91b4c5275f7b180310"
+    "sha": "cdbe506e84a0e6894c5d778b05f41cc3b5bef153923c0aef7d71d3eaddca5f08"
    },
    "Portrait Swap: gran_torino_after_kamino ends": {
     "file": "Portrait Swap_ gran_torino_after_kamino ends.json",
     "name": "Portrait Swap: gran_torino_after_kamino ends",
-    "sha": "57333e279f903bfe0f1eeff2168054772696e1b09917375ecc2b8a164f84040e"
+    "sha": "461daec4ad6a6c19e20f85eebbc5336d34e067030dfa229dc4737113c164c3e3"
    },
    "Portrait Swap: endeavor_scarred": {
     "file": "Portrait Swap_ endeavor_scarred.json",
     "name": "Portrait Swap: endeavor_scarred",
-    "sha": "9e43869d977c82ac7749a15cec4a71047eca8f8b984c035e6eef49c64db7fb4a"
+    "sha": "18516eb3b9d6398bf105407f465a7b2602ce3c0dcfb394402181d355b7ee9612"
    },
    "Portrait Swap: shota_aizawa_after_war": {
     "file": "Portrait Swap_ shota_aizawa_after_war.json",
     "name": "Portrait Swap: shota_aizawa_after_war",
-    "sha": "5ecf8f7069b7738cb9602bcc89d488b25ba9951dbb24f29e72223077bda6e6a9"
+    "sha": "2173c6323773bf864196fb310064685c679a3b4b0e44e9c5d50911002b721d2b"
    },
    "Portrait Swap: eri_smiling": {
     "file": "Portrait Swap_ eri_smiling.json",
     "name": "Portrait Swap: eri_smiling",
-    "sha": "6320387ef51f9bab84a8a265729003e9b1e01faf532f990466e7d7b1d271fc33"
+    "sha": "a0a01f4b50020bfa5ec5977b9838330fd4b2b4c59f1c80a7fe53020fabb7bd3a"
    },
    "Portrait Swap: shota_aizawa_bandaged_after_usj": {
     "file": "Portrait Swap_ shota_aizawa_bandaged_after_usj.json",
     "name": "Portrait Swap: shota_aizawa_bandaged_after_usj",
-    "sha": "92c994fbc309cde4b483b28d7121c627fb12aa872832d65d45757116a44e75fd"
+    "sha": "20cb1a4faf206d5a2e2efbff8200a278c11a9b11906194d99559b28272ef85d4"
    },
    "Portrait Swap: shota_aizawa_bandaged_after_usj ends": {
     "file": "Portrait Swap_ shota_aizawa_bandaged_after_usj ends.json",
@@ -20169,7 +20169,7 @@
    "Portrait Swap: mirio_togata_after_raid ends": {
     "file": "Portrait Swap_ mirio_togata_after_raid ends.json",
     "name": "Portrait Swap: mirio_togata_after_raid ends",
-    "sha": "ad1a4657cea8936ad68c7bc5dbc554d7eb15be9c6f9aac7e0689aa7c9dd49732"
+    "sha": "1f76c712ae04e6e869e9865ecab90953b57f3fd425699040c50f73cb4ea6de62"
    },
    "Portrait Swap: tamaki_amajiki_raid_injury": {
     "file": "Portrait Swap_ tamaki_amajiki_raid_injury.json",
@@ -20179,7 +20179,7 @@
    "Portrait Swap: tamaki_amajiki_raid_injury ends": {
     "file": "Portrait Swap_ tamaki_amajiki_raid_injury ends.json",
     "name": "Portrait Swap: tamaki_amajiki_raid_injury ends",
-    "sha": "4cfb929146455ba89a22e8622638f2759ce3180636ed529d584fc3230bc12fde"
+    "sha": "6dbdd8796a8633e465a797bc789a4d36b2f23ed85f26552310ff5ddc2e050272"
    },
    "Portrait Swap: izuku_midoriya_war_injury": {
     "file": "Portrait Swap_ izuku_midoriya_war_injury.json",
@@ -20284,7 +20284,7 @@
    "Portrait Swap: all_might_armored ends": {
     "file": "Portrait Swap_ all_might_armored ends.json",
     "name": "Portrait Swap: all_might_armored ends",
-    "sha": "ffc6f2edc7d38d87083be96370b3d667e73d05efdaccff3d64fe00ff0bf7d78d"
+    "sha": "07c6b0aa67ded14e75bd3294c21a168a2c47ec77bb52b3e774e5b12ebb495f71"
    },
    "Portrait Swap: endeavor_lost_arm": {
     "file": "Portrait Swap_ endeavor_lost_arm.json",
@@ -20314,7 +20314,7 @@
    "Portrait Swap: mount_lady_scar ends": {
     "file": "Portrait Swap_ mount_lady_scar ends.json",
     "name": "Portrait Swap: mount_lady_scar ends",
-    "sha": "08eeb694a88b930dc81e5d9756c7568a70cd1a66306c6bfda4a8c3d7b99a0aab"
+    "sha": "cb27ebe94c9513ebf8083bcba5c2180057535bca10c5358d65814bae3201a2a7"
    },
    "Portrait Swap: best_jeanist_return": {
     "file": "Portrait Swap_ best_jeanist_return.json",
@@ -21904,12 +21904,12 @@
    "Event Outfit: all_might_usj_shirt": {
     "file": "Event Outfit_ all_might_usj_shirt.json",
     "name": "Event Outfit: all_might_usj_shirt",
-    "sha": "4bccbff43e405cb7d0c88970fbcf0b27afb241ecdb6c01a3cd8ef0dfe4078461"
+    "sha": "86cff941c4e259ce0a36a30368dc3afbed63d47cc2f8a13018db6bdca3a548cf"
    },
    "Event Outfit: all_might_usj_shirt ends": {
     "file": "Event Outfit_ all_might_usj_shirt ends.json",
     "name": "Event Outfit: all_might_usj_shirt ends",
-    "sha": "3c0dd1043aa8fb9245a90705abe7af588cc28621c1293c5e349f7b04ceef61d6"
+    "sha": "d0bb979ba68fda16f61445e9f7a179070158ba0e616334a377c6c6563478977b"
    },
    "League: booth to the counter (any Path)": {
     "file": "League_ booth to the counter (any Path).json",
@@ -22469,12 +22469,12 @@
    "Place Light: U.A. 1": {
     "file": "Place Light_ U.A. 1.json",
     "name": "Place Light: U.A. 1",
-    "sha": "f9ced6bd5f8d91a6fd6fdde9a83450314703ce5d3dff9c76616c413d4d1291d4"
+    "sha": "1770d11631d29e30332f36a5aa8fca15fbeb1682c4f7eca19e50ff85c7b5fcdb"
    },
    "Place Light: U.A. 2": {
     "file": "Place Light_ U.A. 2.json",
     "name": "Place Light: U.A. 2",
-    "sha": "016afe540397d1adfd2cdea90b5bc7a4b74170560951d047fe8fc9b93f5a1c60"
+    "sha": "a3b3e5052ded482aa7486ce8f5d506e882361a14d0e41ff6572d471ec18b130a"
    },
    "Place Light: away 3": {
     "file": "Place Light_ away 3.json",
@@ -22509,7 +22509,7 @@
    "Place Light: away 9": {
     "file": "Place Light_ away 9.json",
     "name": "Place Light: away 9",
-    "sha": "9049f3ff12425c5564e532a383ce059660506562aac7cd11b8ff9a5a91c17a43"
+    "sha": "ba73aa145eebe3792e96b7e25bdcf80659260b71f99e07252dc34f5c29ec5b3e"
    },
    "Place Light: story note Kamino Ward": {
     "file": "Place Light_ story note Kamino Ward.json",
@@ -22779,17 +22779,17 @@
    "Pack: load 49": {
     "file": "Pack_ load 49.json",
     "name": "Pack: load 49",
-    "sha": "2bbd7d004095f660bcb555776359849e2132f71d015b27cd99642abbe9c42911"
+    "sha": "4661504f99d3c6c3a54462901c0fc6dadeeb940969d878f6837e51a362fce9e2"
    },
    "Pack: load 50": {
     "file": "Pack_ load 50.json",
     "name": "Pack: load 50",
-    "sha": "dcf75f0403b7ac7730814c3ec42b291b48f9776c15a3b8a49283dc2c50586906"
+    "sha": "89e496e710c74b0358650e6f4e5072734406bf636f021b3bcf8bb86b6c0d7945"
    },
    "Pack: load 51": {
     "file": "Pack_ load 51.json",
     "name": "Pack: load 51",
-    "sha": "8f3b9be4aab0dd9cb5012baf07d3bd67e57cd9b8894770c1446c7fac381a749c"
+    "sha": "a5f5354cc67cd2b4877ca9539c6aba8e55535e6e9a42cc366c846fd2ea792a69"
    },
    "Pack: load 52": {
     "file": "Pack_ load 52.json",
@@ -22894,17 +22894,17 @@
    "Pack: load 72": {
     "file": "Pack_ load 72.json",
     "name": "Pack: load 72",
-    "sha": "8fc8784b1a68990d8ef280d87babd0ee95b7b5b5c32a077a5726453907ff9fa8"
+    "sha": "eececd427f058e376723298021498626b678ae8fd20ea54b5b811b4cab64966f"
    },
    "Pack: load 73": {
     "file": "Pack_ load 73.json",
     "name": "Pack: load 73",
-    "sha": "f2ff55c46a83cb25429eda3197597a29b420a7cbe5a8f0f53f64c5c40210c7fd"
+    "sha": "b8c23a92c62998a332d3e5903f38502f9d69429b7c1703a050fe2cc2031dbb37"
    },
    "Pack: load 74": {
     "file": "Pack_ load 74.json",
     "name": "Pack: load 74",
-    "sha": "d20bd8e48a9be0f1766dd843359090ddfb50bb552408c8e2454910de2dcb7b2e"
+    "sha": "62517d0c292a6b666ef0349dc75fa463579d80aadb29eb71453ea105365c0e0c"
    },
    "Pack: load 75": {
     "file": "Pack_ load 75.json",

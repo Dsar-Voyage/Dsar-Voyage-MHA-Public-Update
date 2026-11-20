@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.20 — Night Owls & Special Moves (published 2026-11-20, draft 786)
+## 11.20 — Night Owls & Special Moves (published 2026-11-20, draft 789)
 
 Special Moves work again: Voyage now files learned moves under the first tier, so every learned move is a Special Move
 (+10, 2-turn cooldown; the `special` tier reads "Special Move ★"), Special Move Training creates

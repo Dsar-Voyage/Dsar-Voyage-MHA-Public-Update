@@ -27,18 +27,18 @@ copy into your own save; leave **meta** sections alone.
 | [itemTypes](sections/itemTypes.json) · [entries](entries/itemTypes/INDEX.md) | content | Every item: gear, costumes, food, documents, currency | 59,984 B | 87 | no |
 | [locationArchetypes](sections/locationArchetypes.json) · [entries](entries/locationArchetypes/INDEX.md) | content | Templates for generated locations | 3,622 B | 11 | no |
 | [locationSettings](sections/locationSettings.json) | settings | Location rules | 261 B |  | no |
-| [locations](sections/locations.json) · [entries](entries/locations/INDEX.md) | content | Every place, its areas, pictures and hidden info | 701,929 B | 62 | no |
+| [locations](sections/locations.json) · [entries](entries/locations/INDEX.md) | content | Every place, its areas, pictures and hidden info | 701,929 B | 62 | **yes** |
 | [mods](sections/mods.json) | meta | Installed mods | 60 B |  | no |
 | [nameFilterSettings](sections/nameFilterSettings.json) | settings | Name filter rules | 2,749 B |  | no |
 | [narratorStyle](sections/narratorStyle.json) | settings | Narrator voice | 1,978 B |  | no |
 | [npcTypes](sections/npcTypes.json) · [entries](entries/npcTypes/INDEX.md) | content | Types used for generated NPCs | 32,096 B | 15 | no |
-| [npcs](sections/npcs.json) · [entries](entries/npcs/INDEX.md) | content | Every character: profiles, stages, looks and hidden info | 1,302,308 B | 299 | no |
+| [npcs](sections/npcs.json) · [entries](entries/npcs/INDEX.md) | content | Every character: profiles, stages, looks and hidden info | 1,302,308 B | 299 | **yes** |
 | [otherSettings](sections/otherSettings.json) | settings | Miscellaneous numbers | 89 B |  | no |
 | [parties.arcs](sections/parties.arcs.json) | content | Long story arcs (inside Parties) | 3 B |  | no |
 | [parties.narrativeEvents](sections/parties.narrativeEvents.json) · [entries](entries/parties.narrativeEvents/INDEX.md) | content | Canon events and side events (inside Parties) | 524,314 B | 214 | no |
 | [parties.questTriggers](sections/parties.questTriggers.json) · [entries](entries/parties.questTriggers/INDEX.md) | content | Quest progress triggers (inside Parties) | 28,016 B | 54 | **yes** |
 | [parties.quests](sections/parties.quests.json) · [entries](entries/parties.quests/INDEX.md) | content | Every quest (inside Parties) | 90,321 B | 54 | **yes** |
-| [premadeCharacters](sections/premadeCharacters.json) | content | The premade player characters | 25,378 B |  | no |
+| [premadeCharacters](sections/premadeCharacters.json) | content | The premade player characters | 25,378 B |  | **yes** |
 | [progressionSettings](sections/progressionSettings.json) | settings | Levelling cadence | 1,467 B |  | no |
 | [randomNames](sections/randomNames.json) | content | Random name pools | 3,006 B |  | no |
 | [realms](sections/realms.json) | content | The realm (Japan) | 1,012 B |  | no |
