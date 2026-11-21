@@ -1,4 +1,4 @@
-# itemTypes: 87 entries (11.20)
+# itemTypes: 87 entries (11.21)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

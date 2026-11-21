@@ -16,6 +16,11 @@
         "type": "action-text",
         "operator": "regex",
         "value": "\\b([Bb](uy|ought)|[Pp]urch|[Gg](rab|et)|[Oo]rder|[Pp]ay)|^([Oo]ne|[Tt]wo|[Tt]hree|\\d+) "
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^(?!.*\\b([Ll]ook\\w* at|[Ee]xamin|[Ii]nspect|[Cc]heck\\w* (the|an?|its|their|my) )).*"
       }
     ],
     "effects": [],

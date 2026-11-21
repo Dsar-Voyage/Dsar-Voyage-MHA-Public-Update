@@ -6,6 +6,25 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.21 — First Day Fixes (published 2026-11-20, draft 796)
+
+First Day at U.A. opens on Day 2, Monday April 1, in the morning again (when the opening room was not reported on the
+first turn, the clock fell back to move-in evening), and the clock start writes its day and band so the next turn can't
+slip back to Day 1. The first-day scene in 1-A plays its canon beats: Bakugo sneers "Deku", Iida introduces himself to
+Izuku and admits he misjudged him, Uraraka arrives last behind Izuku. Looking at, checking or opening an item in a shop
+never buys it. A new ability needs a successful Special Move Training roll or the same new trick practiced on earlier
+turns (a one-off improvised move no longer becomes an ability). The narrator's teasing example no longer pairs Jiro and
+Denki. Place art points at the re-approved images.
+Full per-entry list: [`releases/11.21.changes.md`](releases/11.21.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | Changed `Clock: Start` (only matters for a new game), `Clock: Show Time`, the eight `Items: shop [...]` triggers (one new condition each). The `Place Light:` and `Pack: load` changes are image links and re-packed data loaders: optional. | **Running save:** copy `Clock: Show Time` and the `Items: shop [...]` entries into *parties → (your party) → triggers* ([UPDATE_GUIDE.md](UPDATE_GUIDE.md)) |
+| `aiInstructions` | `ItemGenerationAndUsage` (looking is not buying), `generateLearnedAbilities` (when to propose an ability), `generateStory` and `generateDialogue` (teasing line). | whole entries |
+| `storyStarts` | `First Day at U.A.` (new games only). | not needed for a running save |
+
+---
+
 ## 11.20 — Night Owls & Special Moves (published 2026-11-20, draft 789)
 
 Special Moves work again: Voyage now files learned moves under the first tier, so every learned move is a Special Move
