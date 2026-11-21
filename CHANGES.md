@@ -6,6 +6,18 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.21.1 — Earned Reactions (published 2026-11-20, draft 797)
+
+Reactions match the deed: ordinary acts (a nod, taking a seat, a decent drill) get ordinary reactions, never praise or
+awe; strangers in the first days are curious or wary; praise is rare and earned.
+Full per-entry list: [`releases/11.21.1.changes.md`](releases/11.21.1.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `aiInstructions` | `generateStory` (Character Behavior), `generateDialogue` (MHA Dialogue), `generateNPCIntents` (MHA Reading the Player). | whole entries |
+
+---
+
 ## 11.21 — First Day Fixes (published 2026-11-20, draft 796)
 
 First Day at U.A. opens on Day 2, Monday April 1, in the morning again (when the opening room was not reported on the

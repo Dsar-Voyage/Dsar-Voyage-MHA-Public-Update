@@ -1,13 +1,13 @@
-# Sections (11.21)
+# Sections (11.21.1)
 
 Every section of the world, as one file in [`sections/`](sections/). The big sections are also split
 into one file per entry in [`entries/`](entries/). **content** and **settings** sections are safe to
 copy into your own save; leave **meta** sections alone.
 
-| Section | Category | What it holds | Size | Entries | Changed in 11.21 |
+| Section | Category | What it holds | Size | Entries | Changed in 11.21.1 |
 |---|---|---|---|---|---|
 | [abilities](sections/abilities.json) · [entries](entries/abilities/INDEX.md) | content | Every Quirk technique and ability, with unlock levels and effects | 998,264 B | 1315 | no |
-| [aiInstructions](sections/aiInstructions.json) · [entries](entries/aiInstructions/INDEX.md) | settings | Narrator and engine instruction blocks (story, NPCs, encounters, starts) | 299,138 B | 18 | **yes** |
+| [aiInstructions](sections/aiInstructions.json) · [entries](entries/aiInstructions/INDEX.md) | settings | Narrator and engine instruction blocks (story, NPCs, encounters, starts) | 299,662 B | 18 | **yes** |
 | [attributeSettings](sections/attributeSettings.json) | settings | Attributes and their modifiers | 602 B |  | no |
 | [authorSeeds](sections/authorSeeds.json) | content | Writing-style seeds for the narrator | 1,353 B |  | no |
 | [characterArchetypes](sections/characterArchetypes.json) · [entries](entries/characterArchetypes/INDEX.md) | content | Templates for generated characters | 8,480 B | 22 | no |
@@ -49,7 +49,7 @@ copy into your own save; leave **meta** sections alone.
 | [skillSettings](sections/skillSettings.json) | settings | Skill rules | 641 B |  | no |
 | [skills](sections/skills.json) · [entries](entries/skills/INDEX.md) | content | Every skill | 23,361 B | 66 | no |
 | [storySettings](sections/storySettings.json) | settings | Story settings | 9,751 B |  | no |
-| [storyStarts](sections/storyStarts.json) · [entries](entries/storyStarts/INDEX.md) | content | Every story start | 124,860 B | 17 | **yes** |
+| [storyStarts](sections/storyStarts.json) · [entries](entries/storyStarts/INDEX.md) | content | Every story start | 124,860 B | 17 | no |
 | [successLevelSettings](sections/successLevelSettings.json) | settings | Success level narration | 3,258 B |  | no |
 | [tipSettings](sections/tipSettings.json) | settings | Loading tips | 2,029 B |  | no |
 | [traitCategories](sections/traitCategories.json) · [entries](entries/traitCategories/INDEX.md) | content | Trait categories (Paths, Quirk families, backgrounds ...) | 68,211 B | 18 | no |

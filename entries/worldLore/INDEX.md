@@ -1,4 +1,4 @@
-# worldLore: 93 entries (11.21)
+# worldLore: 93 entries (11.21.1)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
