@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.22 — New Quirks & Fixes (2026-11-23, draft 830)
+## 11.22 — New Quirks & Fixes (published 2026-11-23, draft 831)
 
 Seven new Quirk families (Chain, Ricochet, Smoke Body, Draconic and the fusions Blackflame, Sandstorm, Ironwood) with
 their techniques. Students get a monthly allowance on the 1st by Upbringing, plus a new Struggling Family upbringing.

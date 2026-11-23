@@ -54,6 +54,6 @@ copy into your own save; leave **meta** sections alone.
 | [tipSettings](sections/tipSettings.json) | settings | Loading tips | 2,029 B |  | no |
 | [traitCategories](sections/traitCategories.json) · [entries](entries/traitCategories/INDEX.md) | content | Trait categories (Paths, Quirk families, backgrounds ...) | 68,709 B | 18 | **yes** |
 | [traits](sections/traits.json) · [entries](entries/traits/INDEX.md) | content | Every trait: Paths, Quirks, backgrounds and their narrator rules | 1,435,783 B | 1160 | **yes** |
-| [triggerDefinitions](sections/triggerDefinitions.json) · [entries](entries/triggerDefinitions/INDEX.md) | content | Every trigger: the clock, skips, events, wardrobe, travel ... | 2,704,652 B | 990 | **yes** |
+| [triggerDefinitions](sections/triggerDefinitions.json) · [entries](entries/triggerDefinitions/INDEX.md) | content | Every trigger: the clock, skips, events, wardrobe, travel ... | 2,704,684 B | 990 | **yes** |
 | [worldLore](sections/worldLore.json) · [entries](entries/worldLore/INDEX.md) | content | World lore entries | 107,755 B | 93 | no |
 | [worldVoices](sections/worldVoices.json) · [entries](entries/worldVoices/INDEX.md) | settings | Voice assignments | 65,567 B | 147 | no |
