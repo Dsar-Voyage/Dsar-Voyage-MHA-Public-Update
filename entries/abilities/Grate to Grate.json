@@ -1,0 +1,24 @@
+{
+  "Grate to Grate": {
+    "name": "Grate to Grate",
+    "description": "A gray figure folds into an intake and stretches along a duct to peer through two grilles up to twelve meters away. Within two turns the cloud follows one open branch and re-forms there to guide rescuers. Its passage deals no toxic damage. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

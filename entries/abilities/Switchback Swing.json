@@ -1,0 +1,24 @@
+{
+  "Switchback Swing": {
+    "name": "Switchback Swing",
+    "description": "One chain peels off a rail as the other catches the next beam. The user swings around one corner and onto a landing within eight meters this turn, where a taut line brakes the landing against bludgeoning damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "Chain Quirk": {
+    "name": "Chain Quirk",
+    "description": "⛓️ Steel-blue links spill from your palms and forearms. Hook the last link over something solid and you can put your weight on it.\n\n🌱 At the start you can swing from a beam or flick a short loop across a sparring pad.\n📈 With training: paired cuffs, a stretcher sling, a handrail over a gap, and a four-chain catch for a collapsing walkway.\n⚠️ Two lines reach four meters each at first. Training brings that to four lines of twelve meters. Each bears one adult, provided its anchor holds.\n🔗 Common drawback pairing: Visible Tell. If chosen, the first link rattles before you cast.\n🎬 Similar canon Quirks: Hanta Sero (Tape), for the midair change of direction.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Mobility +10, Capture +5\n⚡ Starting techniques: Rafter Pendulum, Knuckle Rattle",
+    "traitNarrativeEffects": "Scale: Two solid chains, four meters each, from palms or forearms. Trained casts reach twelve meters on up to four lines. Limits: Links hook or loop around solid features. A smooth wall offers no purchase. One adult per line, including the user. Slack lets a captive slip out. Dismissed links vanish. Nothing past a chain's length can be hooked or reached (a 50-meter dash is out of reach): the user closes the distance first. Quirk Strain: light: Rafter Pendulum, Knuckle Rattle; moderate: Buckle Catch, Signal Chain, Switchback Swing; heavy: Silver Litter, Bell Rope Lash, Balcony Handrail, Twin Arrest, Portcullis Rattle; severe: Four Corners Catch. Type: Emitter. Law: Closing a public exit with chains can trap people inside. Look: Blue links flash silver as slack comes out.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rafter Pendulum",
+      "Knuckle Rattle"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

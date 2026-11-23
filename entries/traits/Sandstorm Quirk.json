@@ -1,0 +1,40 @@
+{
+  "Sandstorm Quirk": {
+    "name": "Sandstorm Quirk",
+    "description": "🌪️ Grit lifts at your heels and follows a sweep of your hands. A handful can screen a doorway. A sandpit gives you a whole playground.\n\n🧬 A Fusion Quirk of Earth and Wind: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you can push a ribbon of grit five meters or pack a low step from the sand underfoot.\n📈 With training: a scouring vortex, a dust devil that carries grit out of a rescue lane, and a translucent sand-glass wall.\n⚠️ You need loose mineral grains. Rain clumps them, crosswinds spoil your aim, and a bare steel floor gives you nothing to lift.\n🔗 Common drawback pairing: Visible Tell. If chosen, a little halo of dust circles your ankles before a cast.\n🎬 Similar canon Quirks: Pixie-Bob (Earth Flow) and Inasa Yoarashi (Whirlwind).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Pocket Sirocco, Footprint Step",
+    "traitNarrativeEffects": "Scale: Ground contact gathers nearby grains. A first gust drives them five meters, or packs one step beneath a foot. Training can shape a short lane. Limits: Bring grit to a bare floor. Wet sand packs but barely flies. Crosswinds spread a screen across both teams. Fixed rock and bedrock stay put. Quirk Strain: light: Pocket Sirocco, Footprint Step; moderate: Blindside Drift, Ballast Bench, Grit Pennant; heavy: Spiral Scour, Landing Bar, Pit Crew Devil, Slipface Rush, Bunker Bowl; severe: Dune Window. Fusion: Earth and Wind at about half solo reach and force. Together they sustain a scouring vortex, a grit-carrying dust devil, or a pressure-set sand-glass wall. Type: Emitter. Law: Blowing grit across traffic can cause a pileup. Look: Low spirals stripe the air in the colors of local sand.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Pocket Sirocco",
+      "Footprint Step"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

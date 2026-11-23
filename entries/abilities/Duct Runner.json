@@ -1,0 +1,24 @@
+{
+  "Duct Runner": {
+    "name": "Duct Runner",
+    "description": "A human outline streams into an open vent. Over two turns the whole cloud follows the draft up to ten meters to an open grille and gathers on the floor beyond. It leaves anyone sharing the air free of toxic damage. A filter bars the way. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

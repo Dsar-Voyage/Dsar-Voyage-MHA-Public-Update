@@ -1,0 +1,29 @@
+{
+  "Walking Hook": {
+    "name": "Walking Hook",
+    "description": "The user opens and closes individual links of one chain around successive overhead rungs within twelve meters. For three turns the chain carries a person in a low sling around corners and past obstructions, shifting the load to the next closed link before releasing the last. The rider stays level even where a swing would strike a wall. The user needs a free hand to guide the chain and the sling stops if the loose end cannot reach the next rung. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  }
+}

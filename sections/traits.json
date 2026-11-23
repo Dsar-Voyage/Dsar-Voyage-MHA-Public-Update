@@ -1156,7 +1156,7 @@
   },
   "Hero Family": {
     "name": "Hero Family",
-    "description": "🦸 You have a parent or close relative who is a pro hero, active or retired.\n\n🏠 You grew up with training drills and agency talk at dinner.\n⚠️ You have a hero name to live up to.\n\n📈 Grants: Power +1, Hero Industry +5, Conditioning +5",
+    "description": "🦸 You have a parent or close relative who is a pro hero, active or retired.\n\n🏠 You grew up with training drills and agency talk at dinner.\n⚠️ You have a hero name to live up to.\n\n📈 Grants: Power +1, Hero Industry +5, Conditioning +5\n💴 Student allowance: ¥30,000 a month",
     "traitNarrativeEffects": "A parent, grandparent, aunt, uncle or older sibling is a licensed pro hero, active or retired: an original character, never canon or canon-related, with a non-canon agency. Player-defined, or the narrator makes one: hero name, Quirk, modest rank far below the top of the Hero Billboard Chart JP, and how they get along. The character's Quirk is their own, linking them to no canon person. In play: the relative recurs, calls after dangerous news, gives useful or unwanted advice. The name opens doors (an internship offer, a pro willing to meet) and breeds resentment (rivals cry favoritism; reporters ask about the relative). Old enemies appear only if the story needs one. Paths: a hero student carries family hopes; a villain or vigilante is a looming scandal, and the relative must choose family or license. Quirkless: hope for a hero heir became pity, protectiveness or another plan, and they know it. Childhood: drills, kitchen-table first aid, missed birthdays.",
     "attributes": [
       {
@@ -1183,8 +1183,8 @@
   },
   "Ordinary Family": {
     "name": "Ordinary Family",
-    "description": "🏠 You come from working parents, maybe a sibling and a small home, with school, cram school and a club.\n\n🌱 Nobody in your family is a hero or a criminal.\n❤️ They love you without fully understanding your world.\n\n📈 Grants: Cooperativeness +1, Academics +5, Team Coordination +5",
-    "traitNarrativeEffects": "In play: the family is present, not a plot device: calls after villain-attack news, food parcels, questions about eating and sleep, worry over dorms, internships and injuries. Home is quiet and safe; the character can visit on breaks. Parents voice career opinions; the character, an adult, decides. Pressure: no hero-world connections, no family money, and people who could be hurt if a villain learns who they are; the narrator raises that danger only when the story has earned it, with warning and a chance to act. Paths: a villain or vigilante hides it from the family at first; every call home becomes a lie or a confession. Family: one or two parents with everyday jobs (office, nursing, factory, shop counter), maybe a sibling, an apartment or small house in a normal neighborhood; player-defined, else a plain, believable family with original names. Childhood: school, cram school, a club (training, teamwork), chores, hero news on TV; nothing handed to them, all earned.",
+    "description": "🏠 You come from working parents, maybe a sibling and a small home, with school, cram school and a club.\n\n🌱 Nobody in your family is a hero or a criminal.\n❤️ They love you without fully understanding your world.\n\n📈 Grants: Cooperativeness +1, Academics +5, Team Coordination +5\n💴 Student allowance: ¥20,000 a month",
+    "traitNarrativeEffects": "In play: the family is present, not a plot device: calls after villain-attack news, food parcels, questions about eating and sleep, worry over dorms, internships and injuries. Home is quiet and safe; the character can visit on breaks. Parents voice career opinions; the character, an adult, decides. Pressure: no hero-world connections, only a small allowance, and people who could be hurt if a villain learns who they are; the narrator raises that danger only when the story has earned it, with warning and a chance to act. Paths: a villain or vigilante hides it from the family at first; every call home becomes a lie or a confession. Family: one or two parents with everyday jobs (office, nursing, factory, shop counter), maybe a sibling, an apartment or small house in a normal neighborhood; player-defined, else a plain, believable family with original names. Childhood: school, cram school, a club (training, teamwork), chores, hero news on TV; nothing handed to them, all earned.",
     "attributes": [
       {
         "attribute": "cooperativeness",
@@ -1210,7 +1210,7 @@
   },
   "Police Family": {
     "name": "Police Family",
-    "description": "👮 You are the child of a police officer: at a neighborhood police box, in a detective squad or with the riot police.\n\n⚖️ You grew up with the law and the way detectives think.\n🦸 You also learned the police view of heroes.\n\n📈 Grants: Intelligence +1, Hero Law +5, Investigation +5",
+    "description": "👮 You are the child of a police officer: at a neighborhood police box, in a detective squad or with the riot police.\n\n⚖️ You grew up with the law and the way detectives think.\n🦸 You also learned the police view of heroes.\n\n📈 Grants: Intelligence +1, Hero Law +5, Investigation +5\n💴 Student allowance: ¥20,000 a month",
     "traitNarrativeEffects": "A parent is a police officer: original, never canon. The player may define them; else the narrator sets post (police-box officer, ward detective or riot police), personality and firm view of heroes that shaped the character. On duty, police never use Quirks as weapons: heroes do most Quirk-villain fighting; police arrest, investigate, detain, file paperwork. Officers may respect heroes or resent their credit and damage. In play: officers who know the parent know the character (favors, scrutiny); case files never leak, but home talk reveals police worries; using the parent's name to dodge trouble backfires on both. Paths: illegal Quirk use reaches the parent; a vigilante or villain path puts the parent between child and oath, a conflict the narrator plays honestly and never resolves for the player; a hero: respect from some officers, suspicion from those who say heroes steal cases. Childhood: nameless cases at dinner, missed holidays, curfews, a lie-spotting parent.",
     "attributes": [
       {
@@ -1237,8 +1237,8 @@
   },
   "Wealthy Family": {
     "name": "Wealthy Family",
-    "description": "💴 Your family has money: a company, property or an old name.\n\n🎓 You grew up with tutors, formal dinners and an allowance.\n⚠️ Expectations come with the money.\n\n📈 Grants: Intelligence +1, Etiquette +5, Business +5\n🎒 Starts with: ¥100,000",
-    "traitNarrativeEffects": "Wealthy family; the player may set the source (company, hospital group, property, support-gear maker, old money), else a large private company; original, never canon. Money: the starting yen is a one-time allowance; more comes only through the story (a conditional gift, a request, a favor owed), never as monthly income. It buys gear, travel, private clinics, good lawyers; never U.A. admission, grades, a hero license, rankings or loyalty, as the narrator shows. Pressure: inheritance, marriage and career expectations; classmates who think they bought their place; flatterers; reporters; villains eyeing a ransom. Scandal hurts the business, so the family fights a villain or vigilante path and can cut them off. Quirkless: the family paid every specialist and second opinion before accepting the diagnosis. Childhood: tutors, elite schools, business dinners, formal manners, household staff, a planned future; at ease at galas, quick to spot those who want something.",
+    "description": "💴 Your family has money: a company, property or an old name.\n\n🎓 You grew up with tutors, formal dinners and an allowance.\n⚠️ Expectations come with the money.\n\n📈 Grants: Intelligence +1, Etiquette +5, Business +5\n🎒 Starts with: ¥100,000\n💴 Student allowance: ¥80,000 a month",
+    "traitNarrativeEffects": "Wealthy family; the player may set the source (company, hospital group, property, support-gear maker, old money), else a large private company; original, never canon. Money: the starting yen plus a monthly allowance while a student; anything more comes only through the story (a conditional gift, a request, a favor owed). It buys gear, travel, private clinics, good lawyers; never U.A. admission, grades, a hero license, rankings or loyalty, as the narrator shows. Pressure: inheritance, marriage and career expectations; classmates who think they bought their place; flatterers; reporters; villains eyeing a ransom. Scandal hurts the business, so the family fights a villain or vigilante path and can cut them off. Quirkless: the family paid every specialist and second opinion before accepting the diagnosis. Childhood: tutors, elite schools, business dinners, formal manners, household staff, a planned future; at ease at galas, quick to spot those who want something.",
     "attributes": [
       {
         "attribute": "intelligence",
@@ -1269,7 +1269,7 @@
   },
   "Raised in a Care Home": {
     "name": "Raised in a Care Home",
-    "description": "🏡 You grew up in a children's home with a dozen other kids and staff who changed over the years.\n\n🍳 You cooked for a crowd and looked after the little ones.\n💪 You learned to stand on your own early.\n\n📈 Grants: Cooperativeness +1, Childcare +5, Cooking +5",
+    "description": "🏡 You grew up in a children's home with a dozen other kids and staff who changed over the years.\n\n🍳 You cooked for a crowd and looked after the little ones.\n💪 You learned to stand on your own early.\n\n📈 Grants: Cooperativeness +1, Childcare +5, Cooking +5\n💴 Student allowance: none",
     "traitNarrativeEffects": "Grew up in a children's care home; why is the player's to define, else left unstated for the player to raise. Left at eighteen like most residents; managing alone since. In play: the home is a real place to visit; the narrator may create original characters for its director, a favorite caregiver and a few children who look up to the character and follow their progress on the news. Gaps: renting or signing hospital forms needs a family guarantor they lack; no one sends money; holidays are quiet when classmates go home. Pressure and opportunity: some pity them, some expect trouble, and recruiters who target the lonely, villains included, look for this history. Classmates, a mentor or a team can become chosen family if the character lets them. Treat it with dignity, never as tragedy for its own sake. Childhood: shared rooms, chore charts, cooking for many, helping younger kids with homework and bad nights, caregivers who came and went, a few adults who kept in touch.",
     "attributes": [
       {
@@ -1296,7 +1296,7 @@
   },
   "Criminal Ties": {
     "name": "Criminal Ties",
-    "description": "🕵️ Someone close to you lives outside the law: a broker, a fence, a smuggler or an old gang family.\n\n🗣️ You know how that world talks and how to keep a straight face.\n⚠️ You hold numbers you should not have.\n\n📈 Grants: Speed +1, Streetwise +5, Deception +5\n🎒 Starts with: Burner phone",
+    "description": "🕵️ Someone close to you lives outside the law: a broker, a fence, a smuggler or an old gang family.\n\n🗣️ You know how that world talks and how to keep a straight face.\n⚠️ You hold numbers you should not have.\n\n📈 Grants: Speed +1, Streetwise +5, Deception +5\n🎒 Starts with: Burner phone\n💴 Student allowance: ¥20,000 a month",
     "traitNarrativeEffects": "Someone close (kin or family friend) works in crime: broker, fence, smuggler, loan shark, gambler, or an old yakuza family, now a designated villain group under police watch. Never canon. The player may define who and how close; else the narrator picks one contact, kept human: loyal their way, dangerous, often in trouble. The character is no criminal unless the player says so. In play: burner-phone numbers reach a broker, a no-questions doctor or a place to lie low; every favor is a debt due at a bad moment. Old associates may ask for a job, a lookout or silence. Pressure: police may know the family name; agencies and the Hero Public Safety Commission check backgrounds, and exposed ties bring hard questions. Heroes may want an informant; villains, a recruit or risk. Paths: a hero student's secret may surface at the worst time; a villain finds doors open, debts owed. Childhood: silence to police, leaving for business talk, knowing whose streets were whose.",
     "attributes": [
       {
@@ -1328,7 +1328,7 @@
   },
   "Grew Up Facing Prejudice": {
     "name": "Grew Up Facing Prejudice",
-    "description": "🛡️ You grew up with stares, insults and closed doors: as a heteromorph, as someone born Quirkless or with a Quirk people call villainous.\n\n🧱 You learned to hold your ground.\n👁️ You can tell kindness from pity.\n\n📈 Grants: Endurance +1, Willpower +5, Insight +5",
+    "description": "🛡️ You grew up with stares, insults and closed doors: as a heteromorph, as someone born Quirkless or with a Quirk people call villainous.\n\n🧱 You learned to hold your ground.\n👁️ You can tell kindness from pity.\n\n📈 Grants: Endurance +1, Willpower +5, Insight +5\n💴 Student allowance: ¥20,000 a month",
     "traitNarrativeEffects": "It depends on the character. Heteromorph (Mutant Type): stares, people crossing the street, refused service, landlords and other parents calling them dangerous, open hostility in some rural towns. Quirkless: pity, bullying, teachers and doctors urging them to give up heroics, a class joke from age four. Neither: a Quirk people called villainous or frightening. In play: most people in Musutafu and at U.A. are polite; some are not. The narrator shows it in small fitting moments (a double take, a clerk's hesitation, a reporter's angle, a hero assuming the worst) and shows people who do better. Willpower and Insight help read and withstand it, not end it. Pressure: villain and extremist recruiters seek this history, offering belonging and a target for anger; allies, mentors and others like them offer another way; the narrator surfaces both, the player decides. Childhood: safe places, a neutral face, whispers, the few who treated them as ordinary.",
     "attributes": [
       {
@@ -1355,7 +1355,7 @@
   },
   "Family Business": {
     "name": "Family Business",
-    "description": "🏮 Your family runs a small business: a shop, a restaurant or a workshop.\n\n🧾 You grew up behind the counter, serving customers and bargaining with suppliers.\n🛠️ You learned the work with your hands.\n\n📈 Grants: Technique +1, Hospitality +5, Negotiation +5",
+    "description": "🏮 Your family runs a small business: a shop, a restaurant or a workshop.\n\n🧾 You grew up behind the counter, serving customers and bargaining with suppliers.\n🛠️ You learned the work with your hands.\n\n📈 Grants: Technique +1, Hospitality +5, Negotiation +5\n💴 Student allowance: ¥20,000 a month",
     "traitNarrativeEffects": "Family runs a small business; player picks the kind (shop, restaurant or workshop) and place, default a small restaurant in an older Musutafu shopping arcade. Both are original characters. In play: a place to return to, work a shift, hear local news, bring classmates; regulars are ordinary people, sometimes a local pro or police officer. Risks: rent, chain stores, slow seasons, villain fights wrecking the street, who pays hero property damage, thugs selling protection. Pressure: help expected when short-staffed; the family may hope they take over. Shifts earn meals and goodwill, not wages; money is tight. A business crisis is a story opportunity the narrator may raise, with time to act. Paths: a hero who saves the street earns loyal neighbors; a villain or vigilante brings risk to the family's door. Childhood: after-school and weekend shifts, difficult customers, supplier bargaining, late closing; hands trained by knife work, repairs, wrapping, stocking.",
     "attributes": [
       {
@@ -5553,8 +5553,8 @@
   },
   "U.A. Hero Course (Class 1-A)": {
     "name": "U.A. Hero Course (Class 1-A)",
-    "description": "🦸 You are an extra student in U.A.'s Class 1-A, the most watched hero class in Japan, training for your hero license.\n\n🏫 Your homeroom teacher is Shota Aizawa (Eraser Head), who expels any student he judges to have no potential. You live in the Heights Alliance dorms from day one.\n⚖️ No license yet: Quirk use is legal only in supervised training and exams, on a pro's orders during workplace experience, or in self-defense.\n🤝 Twenty canon classmates, rival Class 1-B, the press, scouting agencies and villains who single 1-A out all keep an eye on you.\n⚠️ If you are Quirkless, you passed the entrance exam on skill and nerve and draw extra doubt.\n🔓 Learnable later: Villain's-Eye Plan, Goal-Line Gambit.\n\n📈 Grants: Power +1, Search and Rescue +10, Combat Tactics +10, First Aid +5\n⚡ Starting technique: Rescue Clutch\n🎒 Starts with: U.A. school uniform, U.A. gym uniform, U.A. student ID, Course textbooks, ¥10,000, School bag, Casual clothes",
-    "traitNarrativeEffects": "Legal status: adult first-year, U.A. Hero Course Class 1-A, an extra beside the 20 canon classmates (none replaced). No license: Quirk use only in supervised training and exams, on a pro's orders in workplace experience, or in self-defense; off campus, civilian law until the Provisional License Exam at summer's end. If the player is Quirkless, they passed on skill and nerve and draw doubt.\nAccess: campus, gyms, mock-city grounds, costume lockers, Recovery Girl's infirmary, Power Loader's Studio.\nObligations: classes, training, exams, Quirk rules; homeroom: Shota Aizawa (Eraser Head), whose stare erases Quirks and who expels anyone he judges to have no potential, with surprise tests; Heights Alliance dorms from day one (curfew, sign-outs).\nWho notices: teachers, classmates, rival 1-B (Vlad King's, out to beat 1-A), press and scouts, villains targeting 1-A.\nStanding pressures: All Might teaches them (his first teaching year); the Sports Festival is televised nationally.",
+    "description": "🦸 You are an extra student in U.A.'s Class 1-A, the most watched hero class in Japan, training for your hero license.\n\n🏫 Your homeroom teacher is Aizawa (Eraser Head), who expels any student he judges to have no potential. You live in the Heights Alliance dorms from day one.\n⚖️ No license yet: Quirk use is legal only in supervised training and exams, on a pro's orders during workplace experience, or in self-defense.\n🤝 Twenty canon classmates, rival Class 1-B, the press, scouting agencies and villains who single 1-A out all keep an eye on you.\n⚠️ If you are Quirkless, you passed the entrance exam on skill and nerve and draw extra doubt.\n🔓 Learnable later: Villain's-Eye Plan, Goal-Line Gambit.\n\n📈 Grants: Power +1, Search and Rescue +10, Combat Tactics +10, First Aid +5\n⚡ Starting technique: Rescue Clutch\n🎒 Starts with: U.A. school uniform, U.A. gym uniform, U.A. student ID, Course textbooks, ¥10,000, School bag, Casual clothes",
+    "traitNarrativeEffects": "Legal status: adult first-year, U.A. Hero Course Class 1-A, an extra beside the 20 canon classmates (none replaced). No license: Quirk use only in supervised training and exams, on a pro's orders in workplace experience, or in self-defense; off campus, civilian law until the Provisional License Exam at summer's end. If the player is Quirkless, they passed on skill and nerve and draw doubt.\nAccess: campus, gyms, mock-city grounds, costume lockers, Recovery Girl's infirmary, Power Loader's Studio.\nObligations: classes, training, exams, Quirk rules; homeroom: Aizawa (Eraser Head), whose stare erases Quirks and who expels anyone he judges to have no potential, with surprise tests; Heights Alliance dorms from day one (curfew, sign-outs).\nWho notices: teachers, classmates, rival 1-B (Vlad King's, out to beat 1-A), press and scouts, villains targeting 1-A.\nStanding pressures: All Might teaches them (his first teaching year); the Sports Festival is televised nationally.",
     "attributes": [
       {
         "attribute": "power",
@@ -5678,7 +5678,7 @@
   "U.A. General Studies": {
     "name": "U.A. General Studies",
     "description": "📚 You follow a full academic program at U.A. in Class 1-C, 1-D or 1-E, on the same campus as the future heroes.\n\n🎯 The Sports Festival is open to every course: a strong showing there can earn you a transfer into the Hero Course.\n⚖️ No license: Quirk use is legal only in supervised physical education and in self-defense.\n🤝 Many classmates failed the Hero Course exam, and some still want in, Hitoshi Shinso of 1-C most of all.\n🏫 Lectures, clubs and exams fill your week, and you live in the Heights Alliance dorms with a curfew.\n🔓 Learnable later: Replay Study, Breakout Showing.\n\n📈 Grants: Intelligence +1, Academics +10, Insight +10, Willpower +5\n⚡ Starting technique: Just Another Student\n🎒 Starts with: U.A. school uniform, U.A. gym uniform, U.A. student ID, Course textbooks, ¥10,000, School bag, Casual clothes",
-    "traitNarrativeEffects": "Legal status: adult first-year, General Studies, Class 1-C, 1-D or 1-E. No hero license: Quirk use legal only in supervised PE and self-defense.\nAccess: campus, lecture halls, library, cafeteria, clubs, gyms; Hero Course facilities only as visitor or spectator.\nObligations: full academic load, exams, clubs; Heights Alliance dorms from day one, curfew.\nSports Festival: open to all, broadcast nationwide; going far can earn a Hero Course transfer review; weak Hero Course students can be moved out. Shota Aizawa (Eraser Head) and other Hero Course teachers scout there.\nWho notices: General Studies teachers and classmates; the Hero Course mostly not until the Festival.\nStanding pressures: many classmates failed the Hero Course exam and resent its spotlight; some, Hitoshi Shinso of 1-C most of all, still mean to get in. Hero Course news arrives as rumor first.\nTypical week: lectures, a club, a job or family duties, hero news, solo training if aiming higher.",
+    "traitNarrativeEffects": "Legal status: adult first-year, General Studies, Class 1-C, 1-D or 1-E. No hero license: Quirk use legal only in supervised PE and self-defense.\nAccess: campus, lecture halls, library, cafeteria, clubs, gyms; Hero Course facilities only as visitor or spectator.\nObligations: full academic load, exams, clubs; Heights Alliance dorms from day one, curfew.\nSports Festival: open to all, broadcast nationwide; going far can earn a Hero Course transfer review; weak Hero Course students can be moved out. Aizawa (Eraser Head) and other Hero Course teachers scout there.\nWho notices: General Studies teachers and classmates; the Hero Course mostly not until the Festival.\nStanding pressures: many classmates failed the Hero Course exam and resent its spotlight; some, Hitoshi Shinso of 1-C most of all, still mean to get in. Hero Course news arrives as rumor first.\nTypical week: lectures, a club, a job or family duties, hero news, solo training if aiming higher.",
     "attributes": [
       {
         "attribute": "intelligence",
@@ -6216,7 +6216,7 @@
   "Emitter": {
     "name": "Emitter",
     "description": "✨ Your Quirk comes out of your body or acts on the world around you: flame, cold, electricity, force, light, sound, a substance or a pull.\n\n🌱 You look ordinary until you use it, and control is what makes you safe to stand near.\n⚠️ Eraser Head's Erasure switches your Quirk off while he looks at you.\n🎬 Similar canon Quirks: Katsuki Bakugo (Explosion), Ochaco Uraraka (Zero Gravity), Momo Yaoyorozu (Creation).\n\n📈 Grants: Technique +1, Quirk Control +5, Quirk Mobility +5, Quirk Analysis +5\n⚡ Starting technique: Special Move Training",
-    "traitNarrativeEffects": "Type: Emitter. Sends something out of the body or acts beyond it: energy, elements, force, substances, or an effect on what the user touches or sees.\nErasure: while Shota Aizawa (Eraser Head) looks at the user with his Quirk active (hair up, eyes red), the Quirk is off; what it already made or moved stays (ice, fire, a thrown object). It returns the instant his look breaks: a blink (more often the longer he holds it), smoke or a wall in the way, or he looks away. Other suppression: same, while it lasts.\nLaw: use in public or on a person without a hero license is illegal except self-defense or supervised (school, licensed work). Attacks are hard to hide; witnesses and police can usually trace a blast. Ordinary in a crowd; most know the Quirk only by registration and reputation.\nConflicts: one Quirk Type only; Quirkless overrides it; with No Quirk, bonuses only.\nLook: ordinary at rest; shows only in use, where it leaves the body (palms, mouth, eyes, skin) and lands.",
+    "traitNarrativeEffects": "Type: Emitter. Sends something out of the body or acts beyond it: energy, elements, force, substances, or an effect on what the user touches or sees.\nErasure: while Aizawa (Eraser Head) looks at the user with his Quirk active (hair up, eyes red), the Quirk is off; what it already made or moved stays (ice, fire, a thrown object). It returns the instant his look breaks: a blink (more often the longer he holds it), smoke or a wall in the way, or he looks away. Other suppression: same, while it lasts.\nLaw: use in public or on a person without a hero license is illegal except self-defense or supervised (school, licensed work). Attacks are hard to hide; witnesses and police can usually trace a blast. Ordinary in a crowd; most know the Quirk only by registration and reputation.\nConflicts: one Quirk Type only; Quirkless overrides it; with No Quirk, bonuses only.\nLook: ordinary at rest; shows only in use, where it leaves the body (palms, mouth, eyes, skin) and lands.",
     "attributes": [
       {
         "attribute": "technique",
@@ -6266,7 +6266,7 @@
   "Transformation": {
     "name": "Transformation",
     "description": "🔄 Your Quirk changes your own body while active: hardened skin, a bigger frame, blades, a beast form, a borrowed face, a surge of strength or speed.\n\n🌱 When the Quirk ends, you return to normal.\n⚠️ Eraser Head's Erasure forces you back to normal while he looks at you.\n🎬 Similar canon Quirks: Eijiro Kirishima (Hardening), Mount Lady (Gigantification), Rikido Sato (Sugar Rush).\n\n📈 Grants: Power +1, Quirk Stamina +5, Quirk Mobility +5, Quirk Analysis +5\n⚡ Starting technique: Special Move Training",
-    "traitNarrativeEffects": "The user's own body changes while active (skin, size, shape, mass, limbs, face or physical capacity), returning to base when it ends. At rest they look ordinary unless the family says otherwise. A change held through a long fight is sustained use. Size or shape changes tear normal clothes.\nErasure: while Shota Aizawa (Eraser Head) looks at the user, Quirk active, no change can start and an active one drops to base at once. What it already did stays done (broken wall, torn clothes); the user can change again the instant the look breaks (blink, smoke, cover, looking away). Other Quirk suppression works the same while it lasts.\nSociety and law: sudden changes in crowds cause alarm; big or frightening forms bring police. Without a hero license, use in public or on a person is illegal except in self-defense or under supervision (school, licensed work). Big-form damage goes on the user's record and bill.\nConflicts: one Quirk Type only; Quirkless overrides it.",
+    "traitNarrativeEffects": "The user's own body changes while active (skin, size, shape, mass, limbs, face or physical capacity), returning to base when it ends. At rest they look ordinary unless the family says otherwise. A change held through a long fight is sustained use. Size or shape changes tear normal clothes.\nErasure: while Aizawa (Eraser Head) looks at the user, Quirk active, no change can start and an active one drops to base at once. What it already did stays done (broken wall, torn clothes); the user can change again the instant the look breaks (blink, smoke, cover, looking away). Other Quirk suppression works the same while it lasts.\nSociety and law: sudden changes in crowds cause alarm; big or frightening forms bring police. Without a hero license, use in public or on a person is illegal except in self-defense or under supervision (school, licensed work). Big-form damage goes on the user's record and bill.\nConflicts: one Quirk Type only; Quirkless overrides it.",
     "attributes": [
       {
         "attribute": "power",
@@ -6316,7 +6316,7 @@
   "Mutant": {
     "name": "Mutant",
     "description": "🦎 Your Quirk is your body: permanent heteromorph features such as animal traits, gills, wings, scales, horns, extra limbs or unusual senses.\n\n🌱 Your features never switch off, and Eraser Head's Erasure cannot touch them.\n⚠️ People always see them, and some judge you for them.\n🎬 Similar canon Quirks: Tsuyu Asui (Frog), Mezo Shoji (Dupli-Arms), Hound Dog (Dog).\n\n📈 Grants: Endurance +1, Perception +5, Quirk Mobility +5, Quirk Analysis +5, Health +10\n⚡ Starting technique: Special Move Training",
-    "traitNarrativeEffects": "Built into the body: permanent features (animal traits, gills, wings, scales, horns, extra limbs, odd skin or senses), never off; always shown unless clothing hides them. Living with them costs no Quirk Strain; techniques pushing them do. Erasure: Shota Aizawa (Eraser Head) cannot erase Mutant features; he uses his capture weapon and close combat. Natural function (gripping tail, gills, flight, tough hide) works while he looks; anything sent from the body (flame, venom, sound blast) is Emitter and stops while his look holds. Law: having the features is legal; public use as a weapon or tool follows normal Quirk rules. Society: open prejudice (stares, seat-changing, refused rentals and jobs, slurs), worse in rural towns that call heteromorphs cursed; gear and clothes need custom work; villain recruiters court outcasts; some heroes and fans welcome them. Conflicts: one Quirk Type; Quirkless wins; No Quirk family: no Quirk or features, just bonuses.",
+    "traitNarrativeEffects": "Built into the body: permanent features (animal traits, gills, wings, scales, horns, extra limbs, odd skin or senses), never off; always shown unless clothing hides them. Living with them costs no Quirk Strain; techniques pushing them do. Erasure: Aizawa (Eraser Head) cannot erase Mutant features; he uses his capture weapon and close combat. Natural function (gripping tail, gills, flight, tough hide) works while he looks; anything sent from the body (flame, venom, sound blast) is Emitter and stops while his look holds. Law: having the features is legal; public use as a weapon or tool follows normal Quirk rules. Society: open prejudice (stares, seat-changing, refused rentals and jobs, slurs), worse in rural towns that call heteromorphs cursed; gear and clothes need custom work; villain recruiters court outcasts; some heroes and fans welcome them. Conflicts: one Quirk Type; Quirkless wins; No Quirk family: no Quirk or features, just bonuses.",
     "attributes": [
       {
         "attribute": "endurance",
@@ -6500,6 +6500,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -6513,6 +6515,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -6521,6 +6524,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -6535,7 +6539,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -6603,6 +6610,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -6616,6 +6625,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -6624,6 +6634,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -6638,7 +6649,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -6706,6 +6720,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -6719,6 +6735,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -6727,6 +6744,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -6741,7 +6759,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -6809,6 +6830,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -6822,6 +6845,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -6830,6 +6854,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -6844,7 +6869,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -6919,6 +6947,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -6932,6 +6962,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -6940,6 +6971,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -6954,7 +6986,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -7017,6 +7052,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -7030,6 +7067,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -7038,6 +7076,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -7052,7 +7091,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -7115,6 +7157,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -7128,6 +7172,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -7136,6 +7181,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -7150,7 +7196,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -7213,6 +7262,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -7226,6 +7277,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -7234,6 +7286,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -7248,7 +7301,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -7311,6 +7367,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -7324,6 +7382,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -7332,6 +7391,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -7346,7 +7406,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -7409,6 +7472,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -7422,6 +7487,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -7430,6 +7496,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -7444,7 +7511,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -7507,6 +7577,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -7520,6 +7592,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -7528,6 +7601,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -7542,7 +7616,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -7605,6 +7682,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -7618,6 +7697,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -7626,6 +7706,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -7640,7 +7721,10 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
@@ -20370,6 +20454,8 @@
       "Precognition Quirk",
       "Prognostication Quirk",
       "Encore Quirk",
+      "Chain Quirk",
+      "Ricochet Quirk",
       "Hardening Quirk",
       "Size Change Quirk",
       "Beast Form Quirk",
@@ -20383,6 +20469,7 @@
       "Density Quirk",
       "Adaptation Quirk",
       "Arm Cannon Quirk",
+      "Smoke Body Quirk",
       "Animal Heteromorph Quirk",
       "Wings Quirk",
       "Aquatic Quirk",
@@ -20391,6 +20478,7 @@
       "Invisibility Quirk",
       "Propulsion Quirk",
       "Regeneration Quirk",
+      "Draconic Quirk",
       "Custom Quirk",
       "Gelatinous Guardian Quirk",
       "Frostfire Quirk",
@@ -20405,11 +20493,310 @@
       "Echo Pulse Quirk",
       "Duskglass Quirk",
       "Eclipse Quirk",
-      "Slipstream Quirk"
+      "Slipstream Quirk",
+      "Blackflame Quirk",
+      "Sandstorm Quirk",
+      "Ironwood Quirk"
     ],
     "excludedBy": [
       "Quirkless"
     ],
+    "requirements": []
+  },
+  "Chain Quirk": {
+    "name": "Chain Quirk",
+    "description": "⛓️ Steel-blue links spill from your palms and forearms. Hook the last link over something solid and you can put your weight on it.\n\n🌱 At the start you can swing from a beam or flick a short loop across a sparring pad.\n📈 With training: paired cuffs, a stretcher sling, a handrail over a gap, and a four-chain catch for a collapsing walkway.\n⚠️ Two lines reach four meters each at first. Training brings that to four lines of twelve meters. Each bears one adult, provided its anchor holds.\n🔗 Common drawback pairing: Visible Tell. If chosen, the first link rattles before you cast.\n🎬 Similar canon Quirks: Hanta Sero (Tape), for the midair change of direction.\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Mobility +10, Capture +5\n⚡ Starting techniques: Rafter Pendulum, Knuckle Rattle",
+    "traitNarrativeEffects": "Scale: Two solid chains, four meters each, from palms or forearms. Trained casts reach twelve meters on up to four lines. Limits: Links hook or loop around solid features. A smooth wall offers no purchase. One adult per line, including the user. Slack lets a captive slip out. Dismissed links vanish. Nothing past a chain's length can be hooked or reached (a 50-meter dash is out of reach): the user closes the distance first. Quirk Strain: light: Rafter Pendulum, Knuckle Rattle; moderate: Buckle Catch, Signal Chain, Switchback Swing; heavy: Silver Litter, Bell Rope Lash, Balcony Handrail, Twin Arrest, Portcullis Rattle; severe: Four Corners Catch. Type: Emitter. Law: Closing a public exit with chains can trap people inside. Look: Blue links flash silver as slack comes out.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Capture",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rafter Pendulum",
+      "Knuckle Rattle"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Smoke Body Quirk": {
+    "name": "Smoke Body Quirk",
+    "description": "🌫️ Your body unravels into dense gray smoke. A fist can pass through a smoky shoulder while your solid hand still holds a door.\n\n🌱 At the start one limb can curl through a grille or billow across someone's view.\n📈 With training: a whole-body drift through vents, a moving screen for a rescue team, and a room-wide choice of where to re-form.\n⚠️ Wind scatters you. Solid parts can still be struck. In full smoke you cannot hit, hold, or carry anything, and every route needs an opening.\n🔗 Common drawback pairing: Time Limit. If chosen, your outline starts returning as your time in smoke runs out.\n🎬 Similar canon Quirks: Mirio Togata (Permeation) for evasive timing and En (Smokescreen) for cover.\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Control +10, Infiltration +5\n⚡ Starting techniques: Cinderless Sleeve, Cuff Cloud",
+    "traitNarrativeEffects": "Scale: One limb smokes at first. Training lets the whole body drift with local air along a continuous open route. Only the body and fitted Quirk suit change. Limits: Fans split the cloud and force it to gather downwind before re-forming. Solid parts stay exposed. Full smoke cannot carry, grasp or strike. Cannot climb still air or cross a seal. A smoke part turns solid again only on the user's next turn: it cannot grip, flip or carry anything before then. Quirk Strain: light: Cinderless Sleeve, Cuff Cloud; moderate: Hollow Shoulder, Underdoor Eddy, Curtain Call Drift; heavy: Duct Runner, Gray Switchback, Still Foot Feint, Procession Veil, Grate to Grate; severe: House of Smoke. Type: Transformation. Law: Drifting through a locked building's vents can count as trespass. Look: Gray whorls carry the outline of the last part to turn.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Infiltration",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Cinderless Sleeve",
+      "Cuff Cloud"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Ricochet Quirk": {
+    "name": "Ricochet Quirk",
+    "description": "🥏 A flick of your fingers sends a spinning disc of kinetic energy skipping off hard surfaces. You can hear each bank by its falling pitch.\n\n🌱 At the start you can tap a target across a room or skip one shot around the edge of cover.\n📈 With training: two-target banks, shots off moving backboards, and a crisscross net that stuns anyone who cuts through.\n⚠️ Every bank costs speed and force. Cloth, turf, and other soft surfaces swallow a disc. After release its course depends on what it hits.\n🔗 Common drawback pairing: Visible Tell. If chosen, a bright ring forms between your fingers before each shot.\n🎬 Similar canon Quirks: Snipe (Homing), for finding a shot around cover.\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Control +10, Marksmanship +5\n⚡ Starting techniques: Rim Tap, Chalkboard Bank",
+    "traitNarrativeEffects": "Scale: One palm-sized disc at first, up to eight meters of travel and one bank. Training reaches twenty meters of total travel per disc and three banks. Limits: Hard surfaces set the outgoing angle. Each bounce leaves less speed and force. Soft material swallows a disc, and a body ends its path. No steering after release. Quirk Strain: light: Rim Tap, Chalkboard Bank; moderate: Doorbell Double, Low Rail Skip, Moving Backboard; heavy: Balcony Buzzer, Paint the Key, Backboard Save, Triple Cushion Tag, Split Score; severe: Ringing Bounce Net. Type: Emitter. Law: The user answers for a stray disc after its last bank. Look: Bright rims leave a dotted trail and ring lower at each bounce.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rim Tap",
+      "Chalkboard Bank"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Draconic Quirk": {
+    "name": "Draconic Quirk",
+    "description": "🐉 Scales, horns, a muscular tail, and clawed hands are yours every day. Take a deep breath and the plates on your chest glow like a furnace door.\n\n🌱 At the start your scales can turn a glancing cut and one short exhale sends fire two meters.\n📈 With training: tail-assisted lifts, horn catches, a shield for a fallen teammate, and a charging turn behind a fan of flame.\n⚠️ After each flame breath, spend one full turn holding a fresh breath before firing again. Cold slows your joints. Your wingless body stays grounded.\n🔗 Common drawback pairing: Visible Tell. If chosen, your throat shines through your collar before you breathe fire.\n🎬 Similar canon Quirks: Ryukyu (Dragon) for the dragon physique and Mashirao Ojiro (Tail) for balance.\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Control +10, Blocking +5\n⚡ Starting techniques: Shingle Shrug, Kiln Puff\n🛡️ Resists: slashing",
+    "traitNarrativeEffects": "Scale: Permanent adult-sized dragon build. Claws grip ledges, scales turn glancing cuts, short chest-fed breath reaches two meters, four with training. Limits: Each flame use needs a full breath-hold turn before another. Cold stiffens joints. Scale seams yield and the horn spread needs clearance. No wings or flight. Quirk Strain: light: Shingle Shrug, Kiln Puff; moderate: Tailstand Lift, Crown Catch, Cliffside Clutch; heavy: Scale Awning, Turntable Tail, Furnace Ribbon, Vaultback Brace, Crestline Drive; severe: Redcrest Wheel. Type: Mutant. Law: Horns and claws are ordinary features. Breathing fire into a crowd risks an assault charge. Look: Overlapping scales lift above the sternum on the inhale.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Shingle Shrug",
+      "Kiln Puff"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "slashing"
+    ]
+  },
+  "Blackflame Quirk": {
+    "name": "Blackflame Quirk",
+    "description": "🕯️ A little shadow lives under your ribs. It likes to warm its hands in the black fire you cup between your palms.\n\n🧬 A Fusion Quirk of Fire and Living Shadow: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you can singe a target two meters away or ask your shadow to catch something just outside your reach.\n📈 With training: a fire fed along a cast shadow, a hiding place inside your own dark flame, and a blaze that drinks the light around it.\n⚠️ Rain smothers the fire. Floodlights shrink your companion and break its path. The black flame gives off heat and casts no light.\n🔗 Common drawback pairing: Emotional Swing. If chosen, your shadow acts out the mood you're trying to hide.\n🎬 Similar canon Quirks: Fumikage Tokoyami (Dark Shadow) and Endeavor (Hellflame).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Stealth +5\n⚡ Starting techniques: Wickless Flick, Sootpaw Catch",
+    "traitNarrativeEffects": "Scale: A short black jet and a speaking, cat-sized shadow companion each reach two meters at first. Advanced moves cover a doorway or part of a room. Limits: Water quenches fire. Bright direct light shrinks the companion. Fed fire needs continuous shade, and ordinary material it ignites burns normally. Quirk Strain: light: Wickless Flick, Sootpaw Catch; moderate: Backstage Whisper, Inkpot Simmer, Coal Kitten Pounce; heavy: Shade Wick, Quiet Hearth, Velvet Doorstop, Unlit Bellows, Matinee Understudy; severe: Last Lamp Out. Fusion: Fire and Living Shadow at about half solo range and force. Their shared flame can feed on a shadow, cloak its user, or swallow local light. Type: Emitter. Law: A burn in the dark still counts as the user's fire. Look: A sooty paw stirs the wavering outline of a lightless flame.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Wickless Flick",
+      "Sootpaw Catch"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Sandstorm Quirk": {
+    "name": "Sandstorm Quirk",
+    "description": "🌪️ Grit lifts at your heels and follows a sweep of your hands. A handful can screen a doorway. A sandpit gives you a whole playground.\n\n🧬 A Fusion Quirk of Earth and Wind: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you can push a ribbon of grit five meters or pack a low step from the sand underfoot.\n📈 With training: a scouring vortex, a dust devil that carries grit out of a rescue lane, and a translucent sand-glass wall.\n⚠️ You need loose mineral grains. Rain clumps them, crosswinds spoil your aim, and a bare steel floor gives you nothing to lift.\n🔗 Common drawback pairing: Visible Tell. If chosen, a little halo of dust circles your ankles before a cast.\n🎬 Similar canon Quirks: Pixie-Bob (Earth Flow) and Inasa Yoarashi (Whirlwind).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Search and Rescue +5\n⚡ Starting techniques: Pocket Sirocco, Footprint Step",
+    "traitNarrativeEffects": "Scale: Ground contact gathers nearby grains. A first gust drives them five meters, or packs one step beneath a foot. Training can shape a short lane. Limits: Bring grit to a bare floor. Wet sand packs but barely flies. Crosswinds spread a screen across both teams. Fixed rock and bedrock stay put. Quirk Strain: light: Pocket Sirocco, Footprint Step; moderate: Blindside Drift, Ballast Bench, Grit Pennant; heavy: Spiral Scour, Landing Bar, Pit Crew Devil, Slipface Rush, Bunker Bowl; severe: Dune Window. Fusion: Earth and Wind at about half solo reach and force. Together they sustain a scouring vortex, a grit-carrying dust devil, or a pressure-set sand-glass wall. Type: Emitter. Law: Blowing grit across traffic can cause a pileup. Look: Low spirals stripe the air in the colors of local sand.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Search and Rescue",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Pocket Sirocco",
+      "Footprint Step"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Ironwood Quirk": {
+    "name": "Ironwood Quirk",
+    "description": "🌳 Wood grows from your skin. Flex and the grain locks tight, turning a thin sheet of bark into armor that rings like a steel drum.\n\n🧬 A Fusion Quirk of Plant and Hardening: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you can shield one forearm with bark or hook a branch around something five meters away.\n📈 With training: root anchors, a braced spear, petrified thorns, and a living fortress that opens to let your team through.\n⚠️ Only wood still growing from you can harden. A rigid branch stops growing until you soften it. Roots need purchase, and fire can char the grain.\n🔗 Common drawback pairing: Time Limit. If chosen, pale growth rings tell you when your shell is about to soften.\n🎬 Similar canon Quirks: Kamui Woods (Arbor) and Eijiro Kirishima (Hardening).\n\n📈 Grants: Endurance +1, Quirk Control +10, Quirk Output +10, Blocking +5\n⚡ Starting techniques: Knockbark, Crookwood Reach",
+    "traitNarrativeEffects": "Scale: Body-grown shoots reach five meters at first. One patch of bark can harden at a time initially. More plates and longer branches need training. Limits: Hard wood cannot bend or grow. Cut growth loses its hardness. Roots need cracks or soil. Bark burns and plate seams give. Hardened wood cannot grow: to extend or reshape it the user softens it first (a beat), then hardens it again. Quirk Strain: light: Knockbark, Crookwood Reach; moderate: Doorjamb Roots, Rafter Cradle, Knothole Guard; heavy: Pike Ring, Orchard Jack, Petrified Brake, Forked Passage, Heartwood Reversal; severe: Keep of Rings. Fusion: Plant and Hardening at about half solo reach and coverage. Only attached growth makes ringing bark shields, petrified thorn brakes, and a gated living fortress. Type: Transformation. Law: Roots through a foundation make the grower liable for repairs. Look: Warm russet wood pales to iron-gray along the grain.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Knockbark",
+      "Crookwood Reach"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Struggling Family": {
+    "name": "Struggling Family",
+    "description": "💸 Money was always short at home: second-hand uniforms, a parent on double shifts, bills on the kitchen table.\n\n🧾 You learned to stretch every yen and to work for what you wanted.\n⚠️ No allowance comes from home, and some months home needs yours.\n\n📈 Grants: Endurance +1, Streetwise +5, Cooking +5\n🎒 No extra starting Yen: only your course's starting money\n💴 Student allowance: none",
+    "traitNarrativeEffects": "Struggling family; the player may set why (single parent, debt, illness, a closed business), else one parent working long shifts to keep a small rented apartment; original names, never canon. Money: no allowance; food, phone, clothes and weekends are paid from part-time work, prize money or help the story gives, and some months the family needs help with a bill. In play: a family that is proud and worried, a younger sibling who looks up to the character, calls that avoid the subject of money. Pressure: outings classmates can afford and they cannot, pride when help is offered, people offering easy money; the narrator raises them only when the story has earned it. Paths: a villain or vigilante path may start as money for home; a hero path means rent paid by a first agency salary one day. Childhood: second-hand clothes, cheap meals cooked at home, younger siblings to mind, a part-time job as soon as it was allowed.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      },
+      {
+        "skill": "Cooking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
     "requirements": []
   },
   "Gifted: Fire": {
@@ -22456,6 +22843,129 @@
       "Quirkless"
     ],
     "requirements": []
+  },
+  "Gifted: Chain": {
+    "name": "Gifted: Chain",
+    "description": "🧬 Chain, as an extra Quirk put into your body.\n\n🌱 At the start you can swing from a beam or flick a short loop across a sparring pad.\n📈 With training: paired cuffs, a stretcher sling, a handrail over a gap, and a four-chain catch for a collapsing walkway.\n⚠️ Two lines reach four meters each at first. Training brings that to four lines of twelve meters. Each bears one adult, provided its anchor holds.\n🔗 Common drawback pairing: Visible Tell. If chosen, the first link rattles before you cast.\n🎬 Similar canon Quirks: Hanta Sero (Tape), for the midair change of direction.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Chain family): Scale: Two solid chains, four meters each, from palms or forearms. Trained casts reach twelve meters on up to four lines. Limits: Links hook or loop around solid features. A smooth wall offers no purchase. One adult per line, including the user. Slack lets a captive slip out. Dismissed links vanish. Nothing past a chain's length can be hooked or reached (a 50-meter dash is out of reach): the user closes the distance first. Quirk Strain: light: Rafter Pendulum, Knuckle Rattle; moderate: Buckle Catch, Signal Chain, Switchback Swing; heavy: Silver Litter, Bell Rope Lash, Balcony Handrail, Twin Arrest, Portcullis Rattle; severe: Four Corners Catch. Type: Emitter. Law: Closing a public exit with chains can trap people inside. Look: Blue links flash silver as slack comes out.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Capture",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Gifted: Smoke Body": {
+    "name": "Gifted: Smoke Body",
+    "description": "🧬 Smoke Body, as an extra Quirk put into your body.\n\n🌱 At the start one limb can curl through a grille or billow across someone's view.\n📈 With training: a whole-body drift through vents, a moving screen for a rescue team, and a room-wide choice of where to re-form.\n⚠️ Wind scatters you. Solid parts can still be struck. In full smoke you cannot hit, hold, or carry anything, and every route needs an opening.\n🔗 Common drawback pairing: Time Limit. If chosen, your outline starts returning as your time in smoke runs out.\n🎬 Similar canon Quirks: Mirio Togata (Permeation) for evasive timing and En (Smokescreen) for cover.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Smoke Body family): Scale: One limb smokes at first. Training lets the whole body drift with local air along a continuous open route. Only the body and fitted Quirk suit change. Limits: Fans split the cloud and force it to gather downwind before re-forming. Solid parts stay exposed. Full smoke cannot carry, grasp or strike. Cannot climb still air or cross a seal. A smoke part turns solid again only on the user's next turn: it cannot grip, flip or carry anything before then. Quirk Strain: light: Cinderless Sleeve, Cuff Cloud; moderate: Hollow Shoulder, Underdoor Eddy, Curtain Call Drift; heavy: Duct Runner, Gray Switchback, Still Foot Feint, Procession Veil, Grate to Grate; severe: House of Smoke. Type: Transformation. Law: Drifting through a locked building's vents can count as trespass. Look: Gray whorls carry the outline of the last part to turn.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Infiltration",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Gifted: Ricochet": {
+    "name": "Gifted: Ricochet",
+    "description": "🧬 Ricochet, as an extra Quirk put into your body.\n\n🌱 At the start you can tap a target across a room or skip one shot around the edge of cover.\n📈 With training: two-target banks, shots off moving backboards, and a crisscross net that stuns anyone who cuts through.\n⚠️ Every bank costs speed and force. Cloth, turf, and other soft surfaces swallow a disc. After release its course depends on what it hits.\n🔗 Common drawback pairing: Visible Tell. If chosen, a bright ring forms between your fingers before each shot.\n🎬 Similar canon Quirks: Snipe (Homing), for finding a shot around cover.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Ricochet family): Scale: One palm-sized disc at first, up to eight meters of travel and one bank. Training reaches twenty meters of total travel per disc and three banks. Limits: Hard surfaces set the outgoing angle. Each bounce leaves less speed and force. Soft material swallows a disc, and a body ends its path. No steering after release. Quirk Strain: light: Rim Tap, Chalkboard Bank; moderate: Doorbell Double, Low Rail Skip, Moving Backboard; heavy: Balcony Buzzer, Paint the Key, Backboard Save, Triple Cushion Tag, Split Score; severe: Ringing Bounce Net. Type: Emitter. Law: The user answers for a stray disc after its last bank. Look: Bright rims leave a dotted trail and ring lower at each bounce.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Gifted: Draconic": {
+    "name": "Gifted: Draconic",
+    "description": "🧬 Draconic, as an extra Quirk put into your body.\n\n🌱 At the start your scales can turn a glancing cut and one short exhale sends fire two meters.\n📈 With training: tail-assisted lifts, horn catches, a shield for a fallen teammate, and a charging turn behind a fan of flame.\n⚠️ After each flame breath, spend one full turn holding a fresh breath before firing again. Cold slows your joints. Your wingless body stays grounded.\n🔗 Common drawback pairing: Visible Tell. If chosen, your throat shines through your collar before you breathe fire.\n🎬 Similar canon Quirks: Ryukyu (Dragon) for the dragon physique and Mashirao Ojiro (Tail) for balance.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Draconic family): Scale: Permanent adult-sized dragon build. Claws grip ledges, scales turn glancing cuts, short chest-fed breath reaches two meters, four with training. Limits: Each flame use needs a full breath-hold turn before another. Cold stiffens joints. Scale seams yield and the horn spread needs clearance. No wings or flight. Quirk Strain: light: Shingle Shrug, Kiln Puff; moderate: Tailstand Lift, Crown Catch, Cliffside Clutch; heavy: Scale Awning, Turntable Tail, Furnace Ribbon, Vaultback Brace, Crestline Drive; severe: Redcrest Wheel. Type: Mutant. Law: Horns and claws are ordinary features. Breathing fire into a crowd risks an assault charge. Look: Overlapping scales lift above the sternum on the inhale.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "slashing"
+    ]
   },
   "Single Quirk": {
     "name": "Single Quirk",

@@ -1,0 +1,20 @@
+{
+  "Crookwood Reach": {
+    "name": "Crookwood Reach",
+    "description": "A hooked shoot unrolls five meters from the user's wrist. This turn it can catch a bag by its strap or give one practice pad a tug for light bludgeoning damage. The growing tip stays springy. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  }
+}

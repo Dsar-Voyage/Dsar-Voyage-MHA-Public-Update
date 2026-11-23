@@ -1,0 +1,40 @@
+{
+  "Blackflame Quirk": {
+    "name": "Blackflame Quirk",
+    "description": "🕯️ A little shadow lives under your ribs. It likes to warm its hands in the black fire you cup between your palms.\n\n🧬 A Fusion Quirk of Fire and Living Shadow: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you can singe a target two meters away or ask your shadow to catch something just outside your reach.\n📈 With training: a fire fed along a cast shadow, a hiding place inside your own dark flame, and a blaze that drinks the light around it.\n⚠️ Rain smothers the fire. Floodlights shrink your companion and break its path. The black flame gives off heat and casts no light.\n🔗 Common drawback pairing: Emotional Swing. If chosen, your shadow acts out the mood you're trying to hide.\n🎬 Similar canon Quirks: Fumikage Tokoyami (Dark Shadow) and Endeavor (Hellflame).\n\n📈 Grants: Technique +1, Quirk Control +10, Quirk Output +10, Stealth +5\n⚡ Starting techniques: Wickless Flick, Sootpaw Catch",
+    "traitNarrativeEffects": "Scale: A short black jet and a speaking, cat-sized shadow companion each reach two meters at first. Advanced moves cover a doorway or part of a room. Limits: Water quenches fire. Bright direct light shrinks the companion. Fed fire needs continuous shade, and ordinary material it ignites burns normally. Quirk Strain: light: Wickless Flick, Sootpaw Catch; moderate: Backstage Whisper, Inkpot Simmer, Coal Kitten Pounce; heavy: Shade Wick, Quiet Hearth, Velvet Doorstop, Unlit Bellows, Matinee Understudy; severe: Last Lamp Out. Fusion: Fire and Living Shadow at about half solo range and force. Their shared flame can feed on a shadow, cloak its user, or swallow local light. Type: Emitter. Law: A burn in the dark still counts as the user's fire. Look: A sooty paw stirs the wavering outline of a lightless flame.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Stealth",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Wickless Flick",
+      "Sootpaw Catch"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

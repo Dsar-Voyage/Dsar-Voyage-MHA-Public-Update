@@ -1,0 +1,40 @@
+{
+  "Smoke Body Quirk": {
+    "name": "Smoke Body Quirk",
+    "description": "🌫️ Your body unravels into dense gray smoke. A fist can pass through a smoky shoulder while your solid hand still holds a door.\n\n🌱 At the start one limb can curl through a grille or billow across someone's view.\n📈 With training: a whole-body drift through vents, a moving screen for a rescue team, and a room-wide choice of where to re-form.\n⚠️ Wind scatters you. Solid parts can still be struck. In full smoke you cannot hit, hold, or carry anything, and every route needs an opening.\n🔗 Common drawback pairing: Time Limit. If chosen, your outline starts returning as your time in smoke runs out.\n🎬 Similar canon Quirks: Mirio Togata (Permeation) for evasive timing and En (Smokescreen) for cover.\n\n📈 Grants: Speed +1, Quirk Mobility +10, Quirk Control +10, Infiltration +5\n⚡ Starting techniques: Cinderless Sleeve, Cuff Cloud",
+    "traitNarrativeEffects": "Scale: One limb smokes at first. Training lets the whole body drift with local air along a continuous open route. Only the body and fitted Quirk suit change. Limits: Fans split the cloud and force it to gather downwind before re-forming. Solid parts stay exposed. Full smoke cannot carry, grasp or strike. Cannot climb still air or cross a seal. A smoke part turns solid again only on the user's next turn: it cannot grip, flip or carry anything before then. Quirk Strain: light: Cinderless Sleeve, Cuff Cloud; moderate: Hollow Shoulder, Underdoor Eddy, Curtain Call Drift; heavy: Duct Runner, Gray Switchback, Still Foot Feint, Procession Veil, Grate to Grate; severe: House of Smoke. Type: Transformation. Law: Drifting through a locked building's vents can count as trespass. Look: Gray whorls carry the outline of the last part to turn.",
+    "attributes": [
+      {
+        "attribute": "speed",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Mobility",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Infiltration",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Cinderless Sleeve",
+      "Cuff Cloud"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

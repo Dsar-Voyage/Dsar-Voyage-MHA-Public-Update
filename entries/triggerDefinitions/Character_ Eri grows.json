@@ -1,0 +1,16 @@
+{
+  "Character: Eri grows": {
+    "name": "Character: Eri grows",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const SC=check({type:'npc-in-scene',npc:'anySceneNPC'});if(!SC||typeof SC!=='object'||!SC['Eri']){skip=true;return;}const B=k=>storage['done_'+k]===true||check({type:'read-boolean',key:'done_'+k})===true;const n=B('school_festival')?\"Narrator only, Eri now: since the School Festival she smiles, and it stays. With people she trusts (Izuku, Mirio, Aizawa and anyone who has been kind to her) she smiles easily, laughs at small funny things, talks in short excited bursts, asks for candy apples and wants to see everything. Her record's \\\"Does not smile\\\" no longer applies. She is still shy with strangers and still says sorry sometimes, a little less each week.\":(B('shie_hassaikai_raid')?\"Narrator only, Eri now: she was rescued in the Shie Hassaikai raid and is safe with U.A. and the people who saved her. She is still quiet, polite and quick to say sorry, but no longer obedient out of fear: she asks small questions, holds Izuku's or Mirio's sleeve, and is slowly learning that her power can help. A real smile is rare and new to her, and it means a great deal when it comes.\":'');if(!n){skip=true;return;}effects.push({type:'story',instruction:n});})();"
+  }
+}

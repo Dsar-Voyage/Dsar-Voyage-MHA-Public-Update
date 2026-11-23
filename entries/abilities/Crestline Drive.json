@@ -1,0 +1,24 @@
+{
+  "Crestline Drive": {
+    "name": "Crestline Drive",
+    "description": "The user's tail traces a straight line in the dust as their shoulders drive one opponent back up to four meters this turn. The scale-plated shove deals heavy bludgeoning damage. Broken footing or a tight corner ends the drive. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

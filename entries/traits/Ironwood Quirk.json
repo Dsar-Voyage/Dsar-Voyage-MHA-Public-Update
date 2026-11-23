@@ -1,0 +1,40 @@
+{
+  "Ironwood Quirk": {
+    "name": "Ironwood Quirk",
+    "description": "🌳 Wood grows from your skin. Flex and the grain locks tight, turning a thin sheet of bark into armor that rings like a steel drum.\n\n🧬 A Fusion Quirk of Plant and Hardening: each side at about half a single Quirk's reach, plus moves only the fusion can do.\n🌱 At the start you can shield one forearm with bark or hook a branch around something five meters away.\n📈 With training: root anchors, a braced spear, petrified thorns, and a living fortress that opens to let your team through.\n⚠️ Only wood still growing from you can harden. A rigid branch stops growing until you soften it. Roots need purchase, and fire can char the grain.\n🔗 Common drawback pairing: Time Limit. If chosen, pale growth rings tell you when your shell is about to soften.\n🎬 Similar canon Quirks: Kamui Woods (Arbor) and Eijiro Kirishima (Hardening).\n\n📈 Grants: Endurance +1, Quirk Control +10, Quirk Output +10, Blocking +5\n⚡ Starting techniques: Knockbark, Crookwood Reach",
+    "traitNarrativeEffects": "Scale: Body-grown shoots reach five meters at first. One patch of bark can harden at a time initially. More plates and longer branches need training. Limits: Hard wood cannot bend or grow. Cut growth loses its hardness. Roots need cracks or soil. Bark burns and plate seams give. Hardened wood cannot grow: to extend or reshape it the user softens it first (a beat), then hardens it again. Quirk Strain: light: Knockbark, Crookwood Reach; moderate: Doorjamb Roots, Rafter Cradle, Knothole Guard; heavy: Pike Ring, Orchard Jack, Petrified Brake, Forked Passage, Heartwood Reversal; severe: Keep of Rings. Fusion: Plant and Hardening at about half solo reach and coverage. Only attached growth makes ringing bark shields, petrified thorn brakes, and a gated living fortress. Type: Transformation. Law: Roots through a foundation make the grower liable for repairs. Look: Warm russet wood pales to iron-gray along the grain.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Knockbark",
+      "Crookwood Reach"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Transformation"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

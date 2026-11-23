@@ -1,0 +1,24 @@
+{
+  "Paint the Key": {
+    "name": "Paint the Key",
+    "description": "Three discs flash into a marked patch of hard floor within ten meters, then spring up at different heights. One opponent crossing the patch this turn can take force damage and lose their footing. The lanes expire once the discs pass. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

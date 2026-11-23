@@ -1,0 +1,24 @@
+{
+  "Portcullis Rattle": {
+    "name": "Portcullis Rattle",
+    "description": "Four chains zigzag between railings in a doorway within twelve meters. For two turns the loose links yield under a rushing opponent and fold around them, stopping the first two across without bludgeoning damage. They can back out. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

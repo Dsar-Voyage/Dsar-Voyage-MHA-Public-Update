@@ -1,0 +1,20 @@
+{
+  "Sootpaw Catch": {
+    "name": "Sootpaw Catch",
+    "description": "A small shadow leans out of the user's chest and snatches one falling object within two meters this turn. Its paws cushion a mug or a set of keys against bludgeoning damage. Direct light makes it tuck its paws back in. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  }
+}

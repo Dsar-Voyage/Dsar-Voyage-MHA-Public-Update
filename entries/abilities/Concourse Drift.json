@@ -1,0 +1,25 @@
+{
+  "Concourse Drift": {
+    "name": "Concourse Drift",
+    "description": "The user turns to smoke and spreads along the draft through an entire station concourse, with a thin branch down each open passage. For five minutes the user can look out of any branch and gather the whole body at any one of its tips in a turn, even a block from the starting point. A shut fire door cuts off that route. An exhaust fan pulls the smoke downwind, and the user must gather there before taking solid form. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  }
+}

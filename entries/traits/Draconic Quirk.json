@@ -1,0 +1,43 @@
+{
+  "Draconic Quirk": {
+    "name": "Draconic Quirk",
+    "description": "🐉 Scales, horns, a muscular tail, and clawed hands are yours every day. Take a deep breath and the plates on your chest glow like a furnace door.\n\n🌱 At the start your scales can turn a glancing cut and one short exhale sends fire two meters.\n📈 With training: tail-assisted lifts, horn catches, a shield for a fallen teammate, and a charging turn behind a fan of flame.\n⚠️ After each flame breath, spend one full turn holding a fresh breath before firing again. Cold slows your joints. Your wingless body stays grounded.\n🔗 Common drawback pairing: Visible Tell. If chosen, your throat shines through your collar before you breathe fire.\n🎬 Similar canon Quirks: Ryukyu (Dragon) for the dragon physique and Mashirao Ojiro (Tail) for balance.\n\n📈 Grants: Power +1, Quirk Output +10, Quirk Control +10, Blocking +5\n⚡ Starting techniques: Shingle Shrug, Kiln Puff\n🛡️ Resists: slashing",
+    "traitNarrativeEffects": "Scale: Permanent adult-sized dragon build. Claws grip ledges, scales turn glancing cuts, short chest-fed breath reaches two meters, four with training. Limits: Each flame use needs a full breath-hold turn before another. Cold stiffens joints. Scale seams yield and the horn spread needs clearance. No wings or flight. Quirk Strain: light: Shingle Shrug, Kiln Puff; moderate: Tailstand Lift, Crown Catch, Cliffside Clutch; heavy: Scale Awning, Turntable Tail, Furnace Ribbon, Vaultback Brace, Crestline Drive; severe: Redcrest Wheel. Type: Mutant. Law: Horns and claws are ordinary features. Breathing fire into a crowd risks an assault charge. Look: Overlapping scales lift above the sternum on the inhale.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Shingle Shrug",
+      "Kiln Puff"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "slashing"
+    ]
+  }
+}

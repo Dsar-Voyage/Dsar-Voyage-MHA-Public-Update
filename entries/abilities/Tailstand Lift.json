@@ -1,0 +1,24 @@
+{
+  "Tailstand Lift": {
+    "name": "Tailstand Lift",
+    "description": "The tail plants behind the user's heels as they lift one end of a loaded cart within reach. For two turns a teammate can slide a trapped foot clear of bludgeoning damage beneath it. The other end stays on the floor. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Buckle Catch": {
+    "name": "Buckle Catch",
+    "description": "Two end links click through each other around one opponent's forearms within six meters. The loose cuffs limit their reach for two turns without dealing bludgeoning damage. Getting both hands slack lets them pull free. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

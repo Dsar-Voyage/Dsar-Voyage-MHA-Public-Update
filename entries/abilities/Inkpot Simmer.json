@@ -1,0 +1,24 @@
+{
+  "Inkpot Simmer": {
+    "name": "Inkpot Simmer",
+    "description": "A steady black flame curls under one palm-sized metal surface within reach for two turns. It deals fire damage to the chosen spot and can warm a seized fitting until a teammate can turn it. Rain puts the flame out. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

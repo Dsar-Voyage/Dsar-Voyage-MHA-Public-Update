@@ -1,0 +1,29 @@
+{
+  "Struggling Family": {
+    "name": "Struggling Family",
+    "description": "💸 Money was always short at home: second-hand uniforms, a parent on double shifts, bills on the kitchen table.\n\n🧾 You learned to stretch every yen and to work for what you wanted.\n⚠️ No allowance comes from home, and some months home needs yours.\n\n📈 Grants: Endurance +1, Streetwise +5, Cooking +5\n🎒 No extra starting Yen: only your course's starting money\n💴 Student allowance: none",
+    "traitNarrativeEffects": "Struggling family; the player may set why (single parent, debt, illness, a closed business), else one parent working long shifts to keep a small rented apartment; original names, never canon. Money: no allowance; food, phone, clothes and weekends are paid from part-time work, prize money or help the story gives, and some months the family needs help with a bill. In play: a family that is proud and worried, a younger sibling who looks up to the character, calls that avoid the subject of money. Pressure: outings classmates can afford and they cannot, pride when help is offered, people offering easy money; the narrator raises them only when the story has earned it. Paths: a villain or vigilante path may start as money for home; a hero path means rent paid by a first agency salary one day. Childhood: second-hand clothes, cheap meals cooked at home, younger siblings to mind, a part-time job as soon as it was allowed.",
+    "attributes": [
+      {
+        "attribute": "endurance",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Streetwise",
+        "modifier": 5
+      },
+      {
+        "skill": "Cooking",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": []
+  }
+}

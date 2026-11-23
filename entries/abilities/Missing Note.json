@@ -1,0 +1,29 @@
+{
+  "Missing Note": {
+    "name": "Missing Note",
+    "description": "The user sends a fan of slow discs around a blind corner in a tiled corridor and listens for the banks off the far wall. Each disc rings at a lower pitch on each bounce. Over two turns the user tests neighboring paths and marks the edges of a hidden obstruction within twenty meters by the notes it cuts short. The discs tap softly enough to leave a person unhurt. An open doorway and a padded surface both silence a disc, so the user needs to know the layout. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  }
+}

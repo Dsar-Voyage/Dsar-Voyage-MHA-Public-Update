@@ -1,0 +1,20 @@
+{
+  "Wickless Flick": {
+    "name": "Wickless Flick",
+    "description": "A thumb-sized black flame wavers above the user's palm, visible by the way its edge bends the background. Flicked up to two meters, it singes one target for light fire damage this turn without lighting the room. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  }
+}

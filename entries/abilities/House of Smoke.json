@@ -1,0 +1,29 @@
+{
+  "House of Smoke": {
+    "name": "House of Smoke",
+    "description": "Signature move. The user spreads thin across one room in full view, then thickens into opaque curtains between the exits for two turns. Teammates can cross unseen while the cloud drifts back together at one connected, open exit without toxic damage. A running exhaust fan draws the curtains toward it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  }
+}

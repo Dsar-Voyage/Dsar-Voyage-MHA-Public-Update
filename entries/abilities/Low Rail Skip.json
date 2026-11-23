@@ -1,0 +1,24 @@
+{
+  "Low Rail Skip": {
+    "name": "Low Rail Skip",
+    "description": "A disc skips off a low rail and drives under one raised shield within twelve meters of travel. It clips the target's shin pad for force damage this turn. Lowering the shield into the lane closes the gap. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

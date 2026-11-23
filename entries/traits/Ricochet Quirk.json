@@ -1,0 +1,40 @@
+{
+  "Ricochet Quirk": {
+    "name": "Ricochet Quirk",
+    "description": "🥏 A flick of your fingers sends a spinning disc of kinetic energy skipping off hard surfaces. You can hear each bank by its falling pitch.\n\n🌱 At the start you can tap a target across a room or skip one shot around the edge of cover.\n📈 With training: two-target banks, shots off moving backboards, and a crisscross net that stuns anyone who cuts through.\n⚠️ Every bank costs speed and force. Cloth, turf, and other soft surfaces swallow a disc. After release its course depends on what it hits.\n🔗 Common drawback pairing: Visible Tell. If chosen, a bright ring forms between your fingers before each shot.\n🎬 Similar canon Quirks: Snipe (Homing), for finding a shot around cover.\n\n📈 Grants: Technique +1, Quirk Output +10, Quirk Control +10, Marksmanship +5\n⚡ Starting techniques: Rim Tap, Chalkboard Bank",
+    "traitNarrativeEffects": "Scale: One palm-sized disc at first, up to eight meters of travel and one bank. Training reaches twenty meters of total travel per disc and three banks. Limits: Hard surfaces set the outgoing angle. Each bounce leaves less speed and force. Soft material swallows a disc, and a body ends its path. No steering after release. Quirk Strain: light: Rim Tap, Chalkboard Bank; moderate: Doorbell Double, Low Rail Skip, Moving Backboard; heavy: Balcony Buzzer, Paint the Key, Backboard Save, Triple Cushion Tag, Split Score; severe: Ringing Bounce Net. Type: Emitter. Law: The user answers for a stray disc after its last bank. Look: Bright rims leave a dotted trail and ring lower at each bounce.",
+    "attributes": [
+      {
+        "attribute": "technique",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 10
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 10
+      },
+      {
+        "skill": "Marksmanship",
+        "modifier": 5
+      }
+    ],
+    "resources": [],
+    "abilities": [
+      "Rim Tap",
+      "Chalkboard Bank"
+    ],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

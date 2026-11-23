@@ -1,4 +1,4 @@
-# traits: 1148 entries (11.21.1)
+# traits: 1160 entries (11.22)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -79,6 +79,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Black Eyes | `Black Eyes` | [Black Eyes.json](<Black Eyes.json>) |
 | Black Hair | `Black Hair` | [Black Hair.json](<Black Hair.json>) |
 | Black Skin | `Black Skin` | [Black Skin.json](<Black Skin.json>) |
+| Blackflame Quirk | `Blackflame Quirk` | [Blackflame Quirk.json](<Blackflame Quirk.json>) |
 | Blade and Baton | `Blade and Baton` | [Blade and Baton.json](<Blade and Baton.json>) |
 | Blonde Hair | `Blonde Hair` | [Blonde Hair.json](<Blonde Hair.json>) |
 | Blood Quirk | `Blood Quirk` | [Blood Quirk.json](<Blood Quirk.json>) |
@@ -126,6 +127,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Caramel Brown Hair | `Caramel Brown Hair` | [Caramel Brown Hair.json](<Caramel Brown Hair.json>) |
 | Cement Quirk | `Cement Quirk` | [Cement Quirk.json](<Cement Quirk.json>) |
 | Cerulean Eyes | `Cerulean Eyes` | [Cerulean Eyes.json](<Cerulean Eyes.json>) |
+| Chain Quirk | `Chain Quirk` | [Chain Quirk.json](<Chain Quirk.json>) |
 | Chalk White Skin | `Chalk White Skin` | [Chalk White Skin.json](<Chalk White Skin.json>) |
 | Challenge: Plus Ultra | `Challenge: Plus Ultra` | [Challenge_ Plus Ultra.json](<Challenge_ Plus Ultra.json>) |
 | Challenge: Plus Ultra (in a fight) | `Challenge: Plus Ultra (in a fight)` | [Challenge_ Plus Ultra (in a fight).json](<Challenge_ Plus Ultra (in a fight).json>) |
@@ -227,6 +229,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Dirty Blonde Hair | `Dirty Blonde Hair` | [Dirty Blonde Hair.json](<Dirty Blonde Hair.json>) |
 | Disintegration Quirk | `Disintegration Quirk` | [Disintegration Quirk.json](<Disintegration Quirk.json>) |
 | Dove Gray Hair | `Dove Gray Hair` | [Dove Gray Hair.json](<Dove Gray Hair.json>) |
+| Draconic Quirk | `Draconic Quirk` | [Draconic Quirk.json](<Draconic Quirk.json>) |
 | Drawback: Activation Condition | `Drawback: Activation Condition` | [Drawback_ Activation Condition.json](<Drawback_ Activation Condition.json>) |
 | Drawback: Bodily Toll | `Drawback: Bodily Toll` | [Drawback_ Bodily Toll.json](<Drawback_ Bodily Toll.json>) |
 | Drawback: Cognitive Fade | `Drawback: Cognitive Fade` | [Drawback_ Cognitive Fade.json](<Drawback_ Cognitive Fade.json>) |
@@ -398,11 +401,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Gifted: Beast Form | `Gifted: Beast Form` | [Gifted_ Beast Form.json](<Gifted_ Beast Form.json>) |
 | Gifted: Blood | `Gifted: Blood` | [Gifted_ Blood.json](<Gifted_ Blood.json>) |
 | Gifted: Body Blades | `Gifted: Body Blades` | [Gifted_ Body Blades.json](<Gifted_ Body Blades.json>) |
+| Gifted: Chain | `Gifted: Chain` | [Gifted_ Chain.json](<Gifted_ Chain.json>) |
 | Gifted: Compression | `Gifted: Compression` | [Gifted_ Compression.json](<Gifted_ Compression.json>) |
 | Gifted: Copy | `Gifted: Copy` | [Gifted_ Copy.json](<Gifted_ Copy.json>) |
 | Gifted: Creation | `Gifted: Creation` | [Gifted_ Creation.json](<Gifted_ Creation.json>) |
 | Gifted: Density | `Gifted: Density` | [Gifted_ Density.json](<Gifted_ Density.json>) |
 | Gifted: Disintegration | `Gifted: Disintegration` | [Gifted_ Disintegration.json](<Gifted_ Disintegration.json>) |
+| Gifted: Draconic | `Gifted: Draconic` | [Gifted_ Draconic.json](<Gifted_ Draconic.json>) |
 | Gifted: Duplication | `Gifted: Duplication` | [Gifted_ Duplication.json](<Gifted_ Duplication.json>) |
 | Gifted: Earth | `Gifted: Earth` | [Gifted_ Earth.json](<Gifted_ Earth.json>) |
 | Gifted: Elasticity | `Gifted: Elasticity` | [Gifted_ Elasticity.json](<Gifted_ Elasticity.json>) |
@@ -436,8 +441,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Gifted: Propulsion | `Gifted: Propulsion` | [Gifted_ Propulsion.json](<Gifted_ Propulsion.json>) |
 | Gifted: Psychometry | `Gifted: Psychometry` | [Gifted_ Psychometry.json](<Gifted_ Psychometry.json>) |
 | Gifted: Regeneration | `Gifted: Regeneration` | [Gifted_ Regeneration.json](<Gifted_ Regeneration.json>) |
+| Gifted: Ricochet | `Gifted: Ricochet` | [Gifted_ Ricochet.json](<Gifted_ Ricochet.json>) |
 | Gifted: Shadow Manipulation | `Gifted: Shadow Manipulation` | [Gifted_ Shadow Manipulation.json](<Gifted_ Shadow Manipulation.json>) |
 | Gifted: Size Change | `Gifted: Size Change` | [Gifted_ Size Change.json](<Gifted_ Size Change.json>) |
+| Gifted: Smoke Body | `Gifted: Smoke Body` | [Gifted_ Smoke Body.json](<Gifted_ Smoke Body.json>) |
 | Gifted: Sound | `Gifted: Sound` | [Gifted_ Sound.json](<Gifted_ Sound.json>) |
 | Gifted: Speed Boost | `Gifted: Speed Boost` | [Gifted_ Speed Boost.json](<Gifted_ Speed Boost.json>) |
 | Gifted: Strength Boost | `Gifted: Strength Boost` | [Gifted_ Strength Boost.json](<Gifted_ Strength Boost.json>) |
@@ -580,6 +587,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Iridescent Skin | `Iridescent Skin` | [Iridescent Skin.json](<Iridescent Skin.json>) |
 | Iron Constitution | `Iron Constitution` | [Iron Constitution.json](<Iron Constitution.json>) |
 | Iron Gray Skin | `Iron Gray Skin` | [Iron Gray Skin.json](<Iron Gray Skin.json>) |
+| Ironwood Quirk | `Ironwood Quirk` | [Ironwood Quirk.json](<Ironwood Quirk.json>) |
 | Jade Eyes | `Jade Eyes` | [Jade Eyes.json](<Jade Eyes.json>) |
 | Jade Green Hair | `Jade Green Hair` | [Jade Green Hair.json](<Jade Green Hair.json>) |
 | Jade Skin | `Jade Skin` | [Jade Skin.json](<Jade Skin.json>) |
@@ -908,6 +916,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Rescue Specialist | `Rescue Specialist` | [Rescue Specialist.json](<Rescue Specialist.json>) |
 | Reserved | `Reserved` | [Reserved.json](<Reserved.json>) |
 | Rich Brown Skin | `Rich Brown Skin` | [Rich Brown Skin.json](<Rich Brown Skin.json>) |
+| Ricochet Quirk | `Ricochet Quirk` | [Ricochet Quirk.json](<Ricochet Quirk.json>) |
 | Righteous | `Righteous` | [Righteous.json](<Righteous.json>) |
 | Rope Braid | `Rope Braid` | [Rope Braid.json](<Rope Braid.json>) |
 | Rose Eyes | `Rose Eyes` | [Rose Eyes.json](<Rose Eyes.json>) |
@@ -932,6 +941,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Salmon Skin | `Salmon Skin` | [Salmon Skin.json](<Salmon Skin.json>) |
 | Salt and Pepper Hair | `Salt and Pepper Hair` | [Salt and Pepper Hair.json](<Salt and Pepper Hair.json>) |
 | Sand Skin | `Sand Skin` | [Sand Skin.json](<Sand Skin.json>) |
+| Sandstorm Quirk | `Sandstorm Quirk` | [Sandstorm Quirk.json](<Sandstorm Quirk.json>) |
 | Sandy Blonde Hair | `Sandy Blonde Hair` | [Sandy Blonde Hair.json](<Sandy Blonde Hair.json>) |
 | Sapphire Blue Eyes | `Sapphire Blue Eyes` | [Sapphire Blue Eyes.json](<Sapphire Blue Eyes.json>) |
 | Sapphire Blue Hair | `Sapphire Blue Hair` | [Sapphire Blue Hair.json](<Sapphire Blue Hair.json>) |
@@ -979,6 +989,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Slicked-Back Hair | `Slicked-Back Hair` | [Slicked-Back Hair.json](<Slicked-Back Hair.json>) |
 | Slim Build | `Slim Build` | [Slim Build.json](<Slim Build.json>) |
 | Slipstream Quirk | `Slipstream Quirk` | [Slipstream Quirk.json](<Slipstream Quirk.json>) |
+| Smoke Body Quirk | `Smoke Body Quirk` | [Smoke Body Quirk.json](<Smoke Body Quirk.json>) |
 | Smoke Gray Eyes | `Smoke Gray Eyes` | [Smoke Gray Eyes.json](<Smoke Gray Eyes.json>) |
 | Smoke Gray Hair | `Smoke Gray Hair` | [Smoke Gray Hair.json](<Smoke Gray Hair.json>) |
 | Soft Black Hair | `Soft Black Hair` | [Soft Black Hair.json](<Soft Black Hair.json>) |
@@ -1006,6 +1017,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Street Smarts | `Street Smarts` | [Street Smarts.json](<Street Smarts.json>) |
 | Strength Boost Quirk | `Strength Boost Quirk` | [Strength Boost Quirk.json](<Strength Boost Quirk.json>) |
 | Strong Quirk | `Strong Quirk` | [Strong Quirk.json](<Strong Quirk.json>) |
+| Struggling Family | `Struggling Family` | [Struggling Family.json](<Struggling Family.json>) |
 | Stubborn | `Stubborn` | [Stubborn.json](<Stubborn.json>) |
 | Studied: Academics | `Studied: Academics` | [Studied_ Academics.json](<Studied_ Academics.json>) |
 | Studied: Acrobatics | `Studied: Acrobatics` | [Studied_ Acrobatics.json](<Studied_ Acrobatics.json>) |

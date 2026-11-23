@@ -1,0 +1,29 @@
+{
+  "Ringing Bounce Net": {
+    "name": "Ringing Bounce Net",
+    "description": "Signature move. Pairs of discs keep crossing between hard walls in a six-meter lane for two turns as the user renews the volley. A runner caught between two crossing banks takes force damage and is stunned for one turn. Each disc fades after three banks, and covering a wall with padding opens a gap. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  }
+}

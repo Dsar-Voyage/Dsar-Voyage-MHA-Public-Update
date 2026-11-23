@@ -6,6 +6,28 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.22 — New Quirks & Fixes (2026-11-23, draft 830)
+
+Seven new Quirk families (Chain, Ricochet, Smoke Body, Draconic and the fusions Blackflame, Sandstorm, Ironwood) with
+their techniques. Students get a monthly allowance on the 1st by Upbringing, plus a new Struggling Family upbringing.
+Civilians, sidekicks and pros have their own apartment ("I walk home"). Eri smiles after the School Festival. Private
+moments stay private, reports hold only the player's words, and asking someone to do something leaves it to them.
+Gym-uniform changes no longer empty the scene. The Quirk Assessment runs all eight of the player's events before the
+ranking. Write Your Own openings land at the right place and time. Backstory generation no longer trips the blocked-words
+filter; Quirk Strain only comes from Quirk use; looking at a menu never orders.
+Full per-entry list: [`releases/11.22.changes.md`](releases/11.22.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `abilities` | 91 new techniques for the seven new Quirks. | new entries |
+| `traits` / `traitCategories` | New Quirk families, Gifted variants and Struggling Family; Upbringing cards show the allowance; Drawback and course text. | whole entries |
+| `triggerDefinitions` | New: Character: Eri grows, Money: Student Allowance, Opening: place from narration, Travel: my home. Changed: Quirk Assessment beat, Clock: Show Time and Clock: Start, changing rooms, loaders. | whole entries |
+| `aiInstructions` | Story, action, opening, background, intents, items and learned-ability rules. | whole entries |
+| `locations` | Musutafu Station District gains the area Your Apartment. | whole entry |
+| `resourceSettings` | Quirk Strain rules. | whole section |
+
+---
+
 ## 11.21.1 — Earned Reactions (published 2026-11-20, draft 797)
 
 Reactions match the deed: ordinary acts (a nod, taking a seat, a decent drill) get ordinary reactions, never praise or

@@ -1,0 +1,24 @@
+{
+  "Vaultback Brace": {
+    "name": "Vaultback Brace",
+    "description": "The user sets their horns and scaled shoulders under a sagging doorway, tail planted on solid floor. For three turns they take the weight of one loose lintel, shielding people passing underneath from falling bludgeoning damage. Shifting the wall itself is beyond their strength. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

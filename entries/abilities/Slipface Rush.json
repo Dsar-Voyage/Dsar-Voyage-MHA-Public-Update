@@ -1,0 +1,24 @@
+{
+  "Slipface Rush": {
+    "name": "Slipface Rush",
+    "description": "The user releases the face of an existing sand bank within six meters. A knee-deep tongue of sand slides downhill up to four meters this turn, dealing bludgeoning damage and pushing targets in its narrow path toward the runout. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

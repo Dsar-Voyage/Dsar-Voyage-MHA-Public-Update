@@ -1,0 +1,24 @@
+{
+  "Twin Arrest": {
+    "name": "Twin Arrest",
+    "description": "Braced on a landing, the user drops two broad chain loops beneath two falling people within twelve meters. The links run out gently over one turn, catching one person per line against bludgeoning damage from the fall. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

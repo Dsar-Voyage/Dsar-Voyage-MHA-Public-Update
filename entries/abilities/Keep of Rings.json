@@ -1,0 +1,29 @@
+{
+  "Keep of Rings": {
+    "name": "Keep of Rings",
+    "description": "Signature move. Rooted in place, the user grows a ribbed shelter for four people within three meters. The bark turns iron-gray against slashing and piercing damage for three turns. The user can soften one rib to admit a stretcher, leaving that opening exposed until it hardens again. Pulling up the roots ends the shelter. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  }
+}

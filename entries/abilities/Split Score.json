@@ -1,0 +1,24 @@
+{
+  "Split Score": {
+    "name": "Split Score",
+    "description": "The user releases a pair of discs past opposite sides of a guard within eight meters. Each banks off a hard surface behind the guard. Both arrive back at the same shield this turn for heavy combined force damage if both lanes stay open. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Kiln Puff": {
+    "name": "Kiln Puff",
+    "description": "The user's chest plates glow, then a palm-wide puff rolls from their mouth to one target within two meters this turn. It deals light fire damage or lights a kiln taper. The next flame needs a full turn holding a fresh breath. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  }
+}

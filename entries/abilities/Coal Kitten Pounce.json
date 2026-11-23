@@ -1,0 +1,24 @@
+{
+  "Coal Kitten Pounce": {
+    "name": "Coal Kitten Pounce",
+    "description": "Two bright eyes rise on the user's shoulder. Their companion springs at a single target within three meters, batting the target's guard aside for bludgeoning damage this turn before it curls back against the user's chest. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

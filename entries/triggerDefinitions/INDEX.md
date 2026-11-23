@@ -1,4 +1,4 @@
-# triggerDefinitions: 986 entries (11.21.1)
+# triggerDefinitions: 990 entries (11.22)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -85,6 +85,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Care: food declined | `Care: food declined` | [Care_ food declined.json](<Care_ food declined.json>) |
 | Care: meal manners | `Care: meal manners` | [Care_ meal manners.json](<Care_ meal manners.json>) |
 | Care: three-day recovery cap | `Care: three-day recovery cap` | [Care_ three-day recovery cap.json](<Care_ three-day recovery cap.json>) |
+| Character: Eri grows | `Character: Eri grows` | [Character_ Eri grows.json](<Character_ Eri grows.json>) |
 | Clock: Advance Band | `Clock: Advance Band` | [Clock_ Advance Band.json](<Clock_ Advance Band.json>) |
 | Clock: Battle Trial release | `Clock: Battle Trial release` | [Clock_ Battle Trial release.json](<Clock_ Battle Trial release.json>) |
 | Clock: Calendar 1 | `Clock: Calendar 1` | [Clock_ Calendar 1.json](<Clock_ Calendar 1.json>) |
@@ -464,9 +465,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Mechanics: quirk awakening | `Mechanics: quirk awakening` | [Mechanics_ quirk awakening.json](<Mechanics_ quirk awakening.json>) |
 | Mechanics: Quirkless cleanup | `Mechanics: Quirkless cleanup` | [Mechanics_ Quirkless cleanup.json](<Mechanics_ Quirkless cleanup.json>) |
 | Mechanics: training safety net | `Mechanics: training safety net` | [Mechanics_ training safety net.json](<Mechanics_ training safety net.json>) |
+| Money: Student Allowance | `Money: Student Allowance` | [Money_ Student Allowance.json](<Money_ Student Allowance.json>) |
 | Note Dispatch: 1 | `Note Dispatch: 1` | [Note Dispatch_ 1.json](<Note Dispatch_ 1.json>) |
 | Note Dispatch: 2 | `Note Dispatch: 2` | [Note Dispatch_ 2.json](<Note Dispatch_ 2.json>) |
 | Note Dispatch: 3 | `Note Dispatch: 3` | [Note Dispatch_ 3.json](<Note Dispatch_ 3.json>) |
+| Opening: place from narration | `Opening: place from narration` | [Opening_ place from narration.json](<Opening_ place from narration.json>) |
 | Outcome Apply: dispatcher 1 | `Outcome Apply: dispatcher 1` | [Outcome Apply_ dispatcher 1.json](<Outcome Apply_ dispatcher 1.json>) |
 | Outcome Apply: dispatcher 2 | `Outcome Apply: dispatcher 2` | [Outcome Apply_ dispatcher 2.json](<Outcome Apply_ dispatcher 2.json>) |
 | Outcome Apply: dispatcher 3 | `Outcome Apply: dispatcher 3` | [Outcome Apply_ dispatcher 3.json](<Outcome Apply_ dispatcher 3.json>) |
@@ -958,6 +961,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Travel: far trip | `Travel: far trip` | [Travel_ far trip.json](<Travel_ far trip.json>) |
 | Travel: leave (elsewhere) | `Travel: leave (elsewhere)` | [Travel_ leave (elsewhere).json](<Travel_ leave (elsewhere).json>) |
 | Travel: leave (U.A.) | `Travel: leave (U.A.)` | [Travel_ leave (U.A.).json](<Travel_ leave (U.A.).json>) |
+| Travel: my home | `Travel: my home` | [Travel_ my home.json](<Travel_ my home.json>) |
 | Travel: my homeroom (General Studies) | `Travel: my homeroom (General Studies)` | [Travel_ my homeroom (General Studies).json](<Travel_ my homeroom (General Studies).json>) |
 | Travel: my homeroom (Management Course) | `Travel: my homeroom (Management Course)` | [Travel_ my homeroom (Management Course).json](<Travel_ my homeroom (Management Course).json>) |
 | Travel: my homeroom (Support Course) | `Travel: my homeroom (Support Course)` | [Travel_ my homeroom (Support Course).json](<Travel_ my homeroom (Support Course).json>) |

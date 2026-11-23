@@ -20917,6 +20917,1679 @@
     "bonus": 15,
     "cooldown": 4
   },
+  "Rafter Pendulum": {
+    "name": "Rafter Pendulum",
+    "description": "A blue chain hooks a beam within four meters and swings the user to a ledge within the same arc this turn. The links take the load at the bottom of the swing, sparing the user bludgeoning damage from a short drop. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  },
+  "Knuckle Rattle": {
+    "name": "Knuckle Rattle",
+    "description": "The user rolls a slack loop off one wrist. Its broad side smacks one target within four meters for light bludgeoning damage this turn, or rings a practice bell with a single bright note. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Buckle Catch": {
+    "name": "Buckle Catch",
+    "description": "Two end links click through each other around one opponent's forearms within six meters. The loose cuffs limit their reach for two turns without dealing bludgeoning damage. Getting both hands slack lets them pull free. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Signal Chain": {
+    "name": "Signal Chain",
+    "description": "The user runs a chain around a stair post to a teammate up to eight meters away. For two turns each can feel the other's tugs through smoke or a closed door left ajar for the line. The signal deals no bludgeoning damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Switchback Swing": {
+    "name": "Switchback Swing",
+    "description": "One chain peels off a rail as the other catches the next beam. The user swings around one corner and onto a landing within eight meters this turn, where a taut line brakes the landing against bludgeoning damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Silver Litter": {
+    "name": "Silver Litter",
+    "description": "Two chains loop under opposite ends of a stretcher within ten meters. For two turns the user lowers one passenger level past a broken stair, keeping the litter clear of bludgeoning damage against the steps. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Bell Rope Lash": {
+    "name": "Bell Rope Lash",
+    "description": "The user sends a traveling loop down a twelve-meter chain. Its weighted bend lands heavy bludgeoning damage on one target this turn. The user can aim low to sweep a practice barricade aside. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Balcony Handrail": {
+    "name": "Balcony Handrail",
+    "description": "Three chains loop around sound posts to make a footline and twin handrails across a gap up to ten meters wide. One person at a time can cross for three turns with a handhold against falling bludgeoning damage. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Twin Arrest": {
+    "name": "Twin Arrest",
+    "description": "Braced on a landing, the user drops two broad chain loops beneath two falling people within twelve meters. The links run out gently over one turn, catching one person per line against bludgeoning damage from the fall. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Portcullis Rattle": {
+    "name": "Portcullis Rattle",
+    "description": "Four chains zigzag between railings in a doorway within twelve meters. For two turns the loose links yield under a rushing opponent and fold around them, stopping the first two across without bludgeoning damage. They can back out. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Four Corners Catch": {
+    "name": "Four Corners Catch",
+    "description": "Signature move. Four chains catch the corner rails of a falling walkway section within twelve meters. From a solid footing the user levels the deck for three turns, preventing bludgeoning damage to its riders while they step off. The deck and riders together must weigh at most four adults. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  },
+  "Cinderless Sleeve": {
+    "name": "Cinderless Sleeve",
+    "description": "The user's forearm loosens into a gray spiral through an open grille within arm's reach. One turn later the fingers can solidify to feel for a latch on the far side. The smoky section lets a passing tap through without bludgeoning damage. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  },
+  "Cuff Cloud": {
+    "name": "Cuff Cloud",
+    "description": "Smoke billows from the shape of a raised sleeve and hangs between two faces at arm's length for one turn. It hides a hand signal from anyone on the other side and deals no toxic damage. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Hollow Shoulder": {
+    "name": "Hollow Shoulder",
+    "description": "One shoulder and the ribs beneath it unravel just as a sparring glove reaches them. For one turn the blow can pass through that patch without bludgeoning damage. The solid arm beneath it can keep hold of a rail. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Underdoor Eddy": {
+    "name": "Underdoor Eddy",
+    "description": "The user's heels are the last things to dissolve as a gray ribbon slips through a finger-wide door gap. They gather on clear floor up to three meters away this turn. The passing wisp deals no toxic damage to anyone beside the door. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Curtain Call Drift": {
+    "name": "Curtain Call Drift",
+    "description": "The user's upper body fans out like a gray theater curtain across a doorway, feet still planted at the jamb. For two turns the screen hides people crossing from either side and causes no toxic damage. A crosswind opens holes in it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Duct Runner": {
+    "name": "Duct Runner",
+    "description": "A human outline streams into an open vent. Over two turns the whole cloud follows the draft up to ten meters to an open grille and gathers on the floor beyond. It leaves anyone sharing the air free of toxic damage. A filter bars the way. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Gray Switchback": {
+    "name": "Gray Switchback",
+    "description": "The user spills down one open stair flight in a rolling bank, rounding the landing on the way. They re-form at the bottom this turn, avoiding bludgeoning damage from the descent. Loose gear stays upstairs. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Still Foot Feint": {
+    "name": "Still Foot Feint",
+    "description": "A solid boot squeaks on the mat while the user's torso swirls around a nearby opponent's guard. On re-forming within a single step this turn, the user can tap the exposed pad for bludgeoning damage. A sweep can still catch the planted foot. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Procession Veil": {
+    "name": "Procession Veil",
+    "description": "The user becomes a low bank of smoke that drifts alongside three evacuees walking with the draft across a six-meter hall. For two turns it masks their outlines from one side without toxic damage. A turn against the draft leaves the screen behind. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Grate to Grate": {
+    "name": "Grate to Grate",
+    "description": "A gray figure folds into an intake and stretches along a duct to peer through two grilles up to twelve meters away. Within two turns the cloud follows one open branch and re-forms there to guide rescuers. Its passage deals no toxic damage. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "House of Smoke": {
+    "name": "House of Smoke",
+    "description": "Signature move. The user spreads thin across one room in full view, then thickens into opaque curtains between the exits for two turns. Teammates can cross unseen while the cloud drifts back together at one connected, open exit without toxic damage. A running exhaust fan draws the curtains toward it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  },
+  "Rim Tap": {
+    "name": "Rim Tap",
+    "description": "A coin-bright disc skims eight meters from the user's fingers and taps one target for light force damage this turn. At practice speed it can flip a score paddle without knocking it off its stand. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  },
+  "Chalkboard Bank": {
+    "name": "Chalkboard Bank",
+    "description": "A small disc rings against a hard board and banks once into a target behind low cover this turn. The whole path fits within eight meters. The second leg delivers weaker force damage, and a hanging curtain ends the shot. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Doorbell Double": {
+    "name": "Doorbell Double",
+    "description": "The user flicks two small discs toward a hard wall. They split off at different angles and tap two targets within ten meters of travel apiece this turn for light force damage. In a rescue drill they can hit two release paddles together. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Low Rail Skip": {
+    "name": "Low Rail Skip",
+    "description": "A disc skips off a low rail and drives under one raised shield within twelve meters of travel. It clips the target's shin pad for force damage this turn. Lowering the shield into the lane closes the gap. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Moving Backboard": {
+    "name": "Moving Backboard",
+    "description": "The user signals a partner with a rigid shield, then banks a disc off its tilted face. The disc can tag one target around a corner for force damage this turn along a path of up to twelve meters. The shield angle must be set in time. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Balcony Buzzer": {
+    "name": "Balcony Buzzer",
+    "description": "The user launches a disc up to a balcony soffit and off the wall behind it. On its way down this turn, the softened second bank taps one switch or target for light force damage along a fifteen-meter path. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Paint the Key": {
+    "name": "Paint the Key",
+    "description": "Three discs flash into a marked patch of hard floor within ten meters, then spring up at different heights. One opponent crossing the patch this turn can take force damage and lose their footing. The lanes expire once the discs pass. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Backboard Save": {
+    "name": "Backboard Save",
+    "description": "A disc flashes off two hard walls and catches a falling score panel on its rim this turn. The last, weaker bank tips the panel flat onto a bench, sparing a teammate beneath it bludgeoning damage. Both walls and the catch must fit along a fifteen-meter path. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Triple Cushion Tag": {
+    "name": "Triple Cushion Tag",
+    "description": "Three descending notes track one disc around two screens and off the floor. The last bank tags an exposed heel or a practice sensor this turn for light force damage. All three banks must fit along a twenty-meter path. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Split Score": {
+    "name": "Split Score",
+    "description": "The user releases a pair of discs past opposite sides of a guard within eight meters. Each banks off a hard surface behind the guard. Both arrive back at the same shield this turn for heavy combined force damage if both lanes stay open. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Ringing Bounce Net": {
+    "name": "Ringing Bounce Net",
+    "description": "Signature move. Pairs of discs keep crossing between hard walls in a six-meter lane for two turns as the user renews the volley. A runner caught between two crossing banks takes force damage and is stunned for one turn. Each disc fades after three banks, and covering a wall with padding opens a gap. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  },
+  "Shingle Shrug": {
+    "name": "Shingle Shrug",
+    "description": "The user lifts one scaled shoulder so the overlapping plates slide together. For one turn they can turn aside slashing damage from a glancing hit within arm's reach. A cut into the seam beneath the arm can still land. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  },
+  "Kiln Puff": {
+    "name": "Kiln Puff",
+    "description": "The user's chest plates glow, then a palm-wide puff rolls from their mouth to one target within two meters this turn. It deals light fire damage or lights a kiln taper. The next flame needs a full turn holding a fresh breath. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Tailstand Lift": {
+    "name": "Tailstand Lift",
+    "description": "The tail plants behind the user's heels as they lift one end of a loaded cart within reach. For two turns a teammate can slide a trapped foot clear of bludgeoning damage beneath it. The other end stays on the floor. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Crown Catch": {
+    "name": "Crown Catch",
+    "description": "The user dips their horns under the rim of one opponent's shield at arm's length, then lifts it off line this turn. The broad horn bases push the guard back for bludgeoning damage, or catch a falling practice hoop on the curve. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Cliffside Clutch": {
+    "name": "Cliffside Clutch",
+    "description": "Claws catch exposed edges on a rough wall and the tail swings low for balance. The user moves up or down one story in two turns, using each hold to check a slip before it causes bludgeoning damage. Smooth panels offer no grip. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Scale Awning": {
+    "name": "Scale Awning",
+    "description": "The user crouches over a fallen person within arm's reach, turning the plates down their back into a pitched awning. For two turns loose glass slides to either side, shielding the person below from slashing damage. The flanks stay open. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Turntable Tail": {
+    "name": "Turntable Tail",
+    "description": "Pivoting on one foot, the user sweeps a heavy tail across a two-meter arc this turn. It deals bludgeoning damage to a target in the arc and shoves them sideways, or rolls a practice tire clear of a doorway. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Furnace Ribbon": {
+    "name": "Furnace Ribbon",
+    "description": "The seams across the user's chest glow in sequence as a narrow ribbon of flame travels along a frozen threshold within four meters. This turn it deals fire damage along the icy seam to free a stuck door. The next flame needs a full breath-hold turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Vaultback Brace": {
+    "name": "Vaultback Brace",
+    "description": "The user sets their horns and scaled shoulders under a sagging doorway, tail planted on solid floor. For three turns they take the weight of one loose lintel, shielding people passing underneath from falling bludgeoning damage. Shifting the wall itself is beyond their strength. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Crestline Drive": {
+    "name": "Crestline Drive",
+    "description": "The user's tail traces a straight line in the dust as their shoulders drive one opponent back up to four meters this turn. The scale-plated shove deals heavy bludgeoning damage. Broken footing or a tight corner ends the drive. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Redcrest Wheel": {
+    "name": "Redcrest Wheel",
+    "description": "Signature move. Chest scales flare as the user wheels around one planted heel. A low fan of breath sweeps a four-meter semicircle for fire damage this turn while the user's scaled back shelters one crouching ally on the opposite side. The fan leaves an open lane. Another flame needs a full breath-hold turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  },
+  "Wickless Flick": {
+    "name": "Wickless Flick",
+    "description": "A thumb-sized black flame wavers above the user's palm, visible by the way its edge bends the background. Flicked up to two meters, it singes one target for light fire damage this turn without lighting the room. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  },
+  "Sootpaw Catch": {
+    "name": "Sootpaw Catch",
+    "description": "A small shadow leans out of the user's chest and snatches one falling object within two meters this turn. Its paws cushion a mug or a set of keys against bludgeoning damage. Direct light makes it tuck its paws back in. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Backstage Whisper": {
+    "name": "Backstage Whisper",
+    "description": "The little shadow slides under a nearby chair and peeks around a screen within three meters. For two turns it can describe what it sees in a stage whisper. Its soft brush against a lookout's shoe deals no slashing damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Inkpot Simmer": {
+    "name": "Inkpot Simmer",
+    "description": "A steady black flame curls under one palm-sized metal surface within reach for two turns. It deals fire damage to the chosen spot and can warm a seized fitting until a teammate can turn it. Rain puts the flame out. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Coal Kitten Pounce": {
+    "name": "Coal Kitten Pounce",
+    "description": "Two bright eyes rise on the user's shoulder. Their companion springs at a single target within three meters, batting the target's guard aside for bludgeoning damage this turn before it curls back against the user's chest. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Shade Wick": {
+    "name": "Shade Wick",
+    "description": "The companion presses a paw to a cast shadow. Black fire races along that connected shade to one object up to five meters away and feeds there for two turns, dealing fire damage. A band of bright light cuts the wick. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Quiet Hearth": {
+    "name": "Quiet Hearth",
+    "description": "The user crouches inside a cloak of black flame while the companion folds its silhouette over the bright gaps. For two turns someone across the room sees only a patch of darkness. The outward-facing heat deals fire damage on contact, and movement or a floodlight parts the cloak. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Velvet Doorstop": {
+    "name": "Velvet Doorstop",
+    "description": "The shadow wedges its broad back beneath a swinging door within four meters. For two turns it holds the leaf away from a crawling evacuee, sparing them bludgeoning damage. A heavy security shutter outweighs the companion. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Unlit Bellows": {
+    "name": "Unlit Bellows",
+    "description": "The user cups both hands and fans a dense black jet across a doorway up to four meters away. It deals heavy fire damage to one barrier or foe this turn. The edges shimmer visibly, giving teammates a chance to clear the opening. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Matinee Understudy": {
+    "name": "Matinee Understudy",
+    "description": "The shadow stretches tall behind a folding screen within four meters and makes its own ears and paws dance across the top. For two turns it can draw a guard's eyes or beckon a lost child. A playful swat from the silhouette deals no slashing damage. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Last Lamp Out": {
+    "name": "Last Lamp Out",
+    "description": "Signature move. The companion bounds through the user's blaze and spreads it across a four-meter pool of shade. For two turns the black tongues drink nearby lamplight, hiding anyone inside from watchers outside. Flames clinging to a chosen object in the pool deal heavy fire damage. Direct sun or a floodlight cuts the pool apart. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  },
+  "Pocket Sirocco": {
+    "name": "Pocket Sirocco",
+    "description": "A hand sweep drives a narrow ribbon of loose grit up to five meters. One target in its path takes light slashing damage from the scouring grains this turn. The user can aim at a chalk mark to scrub it off a practice wall. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  },
+  "Footprint Step": {
+    "name": "Footprint Step",
+    "description": "Sand rises under one boot and packs into a knee-high step. For two turns one person can use it to climb a ledge within reach, reducing the risk of falling bludgeoning damage. The step needs a bucketful of sand at its base. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Blindside Drift": {
+    "name": "Blindside Drift",
+    "description": "A tan sheet of dust rolls across a doorway within five meters. For one turn people on both sides lose sight of each other. The suspended fine dust deals no slashing damage and falls early in rain. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Ballast Bench": {
+    "name": "Ballast Bench",
+    "description": "The user pats a patch of loose sand into a seat wide enough for two within three meters. It holds for three turns so a rescuer can set a passenger down clear of rolling debris and its bludgeoning damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Grit Pennant": {
+    "name": "Grit Pennant",
+    "description": "A ribbon of colored grit unfurls at shoulder height from the user's hand and streams five meters downwind. For two turns evacuees can see the way out through a dusty room. The slow ribbon deals no slashing damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Spiral Scour": {
+    "name": "Spiral Scour",
+    "description": "Twin streams of grit join in a tight vortex around one target within six meters. For two turns the sand circles back across the same spot for slashing damage, stripping a jammed wheel or wearing down a guard. A crosswind unthreads the spiral. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Landing Bar": {
+    "name": "Landing Bar",
+    "description": "A bank of sand rolls up and packs into a level platform across a two-meter washout within six meters. For three turns people can cross one at a time, clear of falling bludgeoning damage. The bank needs enough loose sand to fill the hollow. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Pit Crew Devil": {
+    "name": "Pit Crew Devil",
+    "description": "A waist-high dust devil walks a six-meter lane for two turns, peeling loose grit from around wheels or buried footing and piling it to one side. Its gritty outer edge deals slashing damage on contact. Fixed rubble stays put. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Slipface Rush": {
+    "name": "Slipface Rush",
+    "description": "The user releases the face of an existing sand bank within six meters. A knee-deep tongue of sand slides downhill up to four meters this turn, dealing bludgeoning damage and pushing targets in its narrow path toward the runout. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Bunker Bowl": {
+    "name": "Bunker Bowl",
+    "description": "A circle of grit sinks and builds a shoulder-high sand rim around two people within six meters. For three turns it catches low debris that would deal piercing damage, leaving a gap on one side for the pair to exit. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Dune Window": {
+    "name": "Dune Window",
+    "description": "Signature move. The user spins dry grains against each other and packs them into a translucent, glass-skinned wall across a four-meter opening within six meters. For three turns silhouettes stay visible while the wall turns aside piercing damage from flying debris. A heavy impact cracks it back into sand. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  },
+  "Knockbark": {
+    "name": "Knockbark",
+    "description": "A saucer of bark rises from one forearm and turns gray with a dry knock. For one turn it shields that patch from slashing damage at arm's reach. The elbow and hand remain free. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  },
+  "Crookwood Reach": {
+    "name": "Crookwood Reach",
+    "description": "A hooked shoot unrolls five meters from the user's wrist. This turn it can catch a bag by its strap or give one practice pad a tug for light bludgeoning damage. The growing tip stays springy. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  },
+  "Doorjamb Roots": {
+    "name": "Doorjamb Roots",
+    "description": "Roots fork from both heels into soil or floor cracks within one step. For two turns the user can hold position against a shove that would carry them into a wall for bludgeoning damage. A smooth slab gives the roots no hold. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Rafter Cradle": {
+    "name": "Rafter Cradle",
+    "description": "Two curved boughs grow from the user's forearms beneath one loose beam within three meters. For two turns they cradle its ends, shielding a person below from falling bludgeoning damage while a teammate sets a prop. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  },
+  "Knothole Guard": {
+    "name": "Knothole Guard",
+    "description": "A fan of bark grows from an elbow, leaving a sight hole before the grain turns iron-gray. For two turns it shields the user and a partner shoulder to shoulder from frontal piercing damage. Its width stays fixed until it softens. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Pike Ring": {
+    "name": "Pike Ring",
+    "description": "A single straight shoot grows from the palm to meet a target within six meters. The user braces its base against a hip and locks the grain for one turn. Its point deals piercing damage to one barrier or target. A sideways step takes a foe off its line. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  },
+  "Orchard Jack": {
+    "name": "Orchard Jack",
+    "description": "A thick limb swells from the user's forearm under the edge of a tipped cart within reach. Over two turns the growing wood raises one side by a handspan, taking its weight so a trapped boot can slide clear without bludgeoning damage. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Petrified Brake": {
+    "name": "Petrified Brake",
+    "description": "The user spreads two living branches across a three-meter ramp and grows backward-facing thorns along them. For two turns the thorns turn stone-gray and catch a rolling crate for piercing damage to its underside. The branches stay fixed until softened. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Forked Passage": {
+    "name": "Forked Passage",
+    "description": "Green branches fork from the user's back to part loose curtains of cable or brush across a five-meter passage. For three turns two teammates can follow single file, shielded from slashing damage by sharp ends. Releasing the branches lets the passage close. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Heartwood Reversal": {
+    "name": "Heartwood Reversal",
+    "description": "The user meets one close strike with an attached bark shield, then softens one edge and grows it around the opposing shield rim. A twist this turn shifts the rival's guard and deals bludgeoning damage with the broad face. The wood must soften before it can curl. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  },
+  "Keep of Rings": {
+    "name": "Keep of Rings",
+    "description": "Signature move. Rooted in place, the user grows a ribbed shelter for four people within three meters. The bark turns iron-gray against slashing and piercing damage for three turns. The user can soften one rib to admit a stretcher, leaving that opening exposed until it hardens again. Pulling up the roots ends the shelter. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  },
   "Sunfall Expanse": {
     "name": "Sunfall Expanse",
     "description": "The user releases flame in every direction at once and floods a whole city block, from the street to the rooftops, with a sheet of fire that burns for the rest of the scene. Every enemy inside takes heavy fire damage at the end of each of their turns until they leave the block, and steel, glass and asphalt there soften in the heat; held back, the flame only scorches and drives enemies out. The user cannot shape this fire around people, so allies and bystanders must be cleared from the block first. Strain: severe.",
@@ -23397,6 +25070,356 @@
       {
         "type": "trait",
         "variable": "Regeneration Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  },
+  "Balcony Descent": {
+    "name": "Balcony Descent",
+    "description": "The user casts up to twenty chains from their forearms, one to each occupied balcony on the face of a ten-story building. Each line hooks a sturdy rail and drops a loop for one rider to sit in. For the rest of the scene the user pays out the loops to street level and draws them back empty for the next riders. The user must keep both feet planted below, and a balcony with no secure rail gets no line. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  },
+  "Walking Hook": {
+    "name": "Walking Hook",
+    "description": "The user opens and closes individual links of one chain around successive overhead rungs within twelve meters. For three turns the chain carries a person in a low sling around corners and past obstructions, shifting the load to the next closed link before releasing the last. The rider stays level even where a swing would strike a wall. The user needs a free hand to guide the chain and the sling stops if the loose end cannot reach the next rung. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  },
+  "Concourse Drift": {
+    "name": "Concourse Drift",
+    "description": "The user turns to smoke and spreads along the draft through an entire station concourse, with a thin branch down each open passage. For five minutes the user can look out of any branch and gather the whole body at any one of its tips in a turn, even a block from the starting point. A shut fire door cuts off that route. An exhaust fan pulls the smoke downwind, and the user must gather there before taking solid form. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  },
+  "Divided Voice": {
+    "name": "Divided Voice",
+    "description": "The user stretches a continuous ribbon of their smoky body through an open duct between two rooms. For three turns the user keeps one ear solid beside a rescuer and their mouth solid beside a trapped person. The user repeats instructions aloud, then exchanges the positions of mouth and ear to carry the person's reply. The solid parts remain exposed to a hit, and a fan that parts the ribbon cuts the conversation short. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  },
+  "Grandstand Rounds": {
+    "name": "Grandstand Rounds",
+    "description": "The user sends a volley of discs along the concrete tiers of an entire stadium in one turn. Each disc can travel the length of the field and take up to eight banks to reach a different target behind cover. A direct hit deals heavy force damage. Each bank weakens the hit, and the first body or soft seat ends the shot. To hold back, the user sends slow discs against the hard rims of shields to tip them aside. Once released, even a stray disc stays on its course until impact. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  },
+  "Missing Note": {
+    "name": "Missing Note",
+    "description": "The user sends a fan of slow discs around a blind corner in a tiled corridor and listens for the banks off the far wall. Each disc rings at a lower pitch on each bounce. Over two turns the user tests neighboring paths and marks the edges of a hidden obstruction within twenty meters by the notes it cuts short. The discs tap softly enough to leave a person unhurt. An open doorway and a padded surface both silence a disc, so the user needs to know the layout. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Analysis",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  },
+  "Long Kiln": {
+    "name": "Long Kiln",
+    "description": "The user braces on both feet and tail and exhales a single column of flame down the length of a freight platform. The breath lasts one turn and deals massive fire damage to barriers and foes in its path. To hold back, the user narrows the column and burns a strip of bare paving ahead of a charge, leaving room on either side to retreat. The user's chest plates stay spread after the exhale, exposing their seams for the two full turns the user must hold a fresh breath before firing again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  },
+  "Chimney Scales": {
+    "name": "Chimney Scales",
+    "description": "The user presses their scaled back and tail against opposite walls of a narrow shaft. Rows of scales tilt and grip in turn, holding the user's weight on one set while the next slides up or down. For three turns the user can climb a story each turn with both hands free to carry one passenger, stopping anywhere along the shaft to let them off. The walls must be close enough to brace against, and cold that stiffens the tail stops the climb. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  },
+  "Arcade Eclipse": {
+    "name": "Arcade Eclipse",
+    "description": "The user sets black fire in the shadow beneath a row of connected awnings. The companion draws it along the undersides for a whole city block. For three minutes the flames swallow the shop light that would expose people passing underneath, hiding the crowd from watchers across the street. The user keeps the heat overhead and lets the fire die wherever an awning hangs within reach of a passerby. Rain quenches an exposed stretch, and a floodlight breaks the path for every awning beyond it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  },
+  "Borrowed Wick": {
+    "name": "Borrowed Wick",
+    "description": "The user gives their companion a palmful of black fire and sends it along connected shade to an ally across a room. For three turns it rides the ally's shoulder, drawing the flame over their outline as they move and folding the heat back into its paws wherever the ally touches someone. The ally can carry a child unseen through the shade without burning them. While the companion tends the cloak the user has no flame of their own, and stepping into direct light ends it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  },
+  "High Water Bank": {
+    "name": "High Water Bank",
+    "description": "The user plants both feet on a sandy riverbank and drives loose dry sand along the waterfront in low spirals. Over two turns the user packs a continuous bank as high as a bus along a city block, turning floodwater away from ground-floor doors for the rest of the scene. The user can leave a gap to drain the water onto empty ground. The bank needs sand from the full length of the shore, and any section overtopped by water washes out. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  },
+  "Glass Impression": {
+    "name": "Glass Impression",
+    "description": "The user kneels on dry ground and blows fine mineral grains into a recess within arm's reach until they fill every groove. The user spins and presses the outer layer into a thin glass shell and draws the loose grains back out. In one turn the user lifts a cast that shows by touch where a hidden fitting has bent or a catch has slipped. The cast lasts for the scene if handled gently. The fitting must stay still until the shell comes free or the glass breaks. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  },
+  "Gable Stair": {
+    "name": "Gable Stair",
+    "description": "The user roots both heels beside a building and grows two boughs up its face to the roof, branching at each floor to meet an open window. The boughs double back between floors, and crosspieces harden into steps wide enough for two people abreast. For the rest of the scene a crowd can descend past a blocked stairwell. The user must stay rooted in soil or cracked paving until the last person steps off. A severed section loses its hardness and sags under a rider. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  },
+  "Borrowed Knees": {
+    "name": "Borrowed Knees",
+    "description": "The user grows thin strips of wood from their palms down the outsides of a willing person's legs. For five minutes the user walks beside them, keeping the wood soft at each bending knee and locking the grain along the leg that bears weight. A person whose legs give way can stand, take steps and lower themselves into a seat. The user must keep both palms on the person's hips and match each step. Breaking contact cuts the strips free and they soften at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
         "amount": 1
       },
       {

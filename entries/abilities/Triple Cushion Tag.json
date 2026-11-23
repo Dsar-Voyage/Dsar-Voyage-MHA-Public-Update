@@ -1,0 +1,24 @@
+{
+  "Triple Cushion Tag": {
+    "name": "Triple Cushion Tag",
+    "description": "Three descending notes track one disc around two screens and off the floor. The last bank tags an exposed heel or a practice sensor this turn for light force damage. All three banks must fit along a twenty-meter path. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

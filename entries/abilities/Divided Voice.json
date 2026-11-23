@@ -1,0 +1,29 @@
+{
+  "Divided Voice": {
+    "name": "Divided Voice",
+    "description": "The user stretches a continuous ribbon of their smoky body through an open duct between two rooms. For three turns the user keeps one ear solid beside a rescuer and their mouth solid beside a trapped person. The user repeats instructions aloud, then exchanges the positions of mouth and ear to carry the person's reply. The solid parts remain exposed to a hit, and a fan that parts the ribbon cuts the conversation short. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  }
+}

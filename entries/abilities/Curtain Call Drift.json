@@ -1,0 +1,24 @@
+{
+  "Curtain Call Drift": {
+    "name": "Curtain Call Drift",
+    "description": "The user's upper body fans out like a gray theater curtain across a doorway, feet still planted at the jamb. For two turns the screen hides people crossing from either side and causes no toxic damage. A crosswind opens holes in it. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

@@ -1,13 +1,13 @@
-# Sections (11.21.1)
+# Sections (11.22)
 
 Every section of the world, as one file in [`sections/`](sections/). The big sections are also split
 into one file per entry in [`entries/`](entries/). **content** and **settings** sections are safe to
 copy into your own save; leave **meta** sections alone.
 
-| Section | Category | What it holds | Size | Entries | Changed in 11.21.1 |
+| Section | Category | What it holds | Size | Entries | Changed in 11.22 |
 |---|---|---|---|---|---|
-| [abilities](sections/abilities.json) · [entries](entries/abilities/INDEX.md) | content | Every Quirk technique and ability, with unlock levels and effects | 998,264 B | 1315 | no |
-| [aiInstructions](sections/aiInstructions.json) · [entries](entries/aiInstructions/INDEX.md) | settings | Narrator and engine instruction blocks (story, NPCs, encounters, starts) | 299,662 B | 18 | **yes** |
+| [abilities](sections/abilities.json) · [entries](entries/abilities/INDEX.md) | content | Every Quirk technique and ability, with unlock levels and effects | 1,062,161 B | 1406 | **yes** |
+| [aiInstructions](sections/aiInstructions.json) · [entries](entries/aiInstructions/INDEX.md) | settings | Narrator and engine instruction blocks (story, NPCs, encounters, starts) | 300,385 B | 18 | **yes** |
 | [attributeSettings](sections/attributeSettings.json) | settings | Attributes and their modifiers | 602 B |  | no |
 | [authorSeeds](sections/authorSeeds.json) | content | Writing-style seeds for the narrator | 1,353 B |  | no |
 | [characterArchetypes](sections/characterArchetypes.json) · [entries](entries/characterArchetypes/INDEX.md) | content | Templates for generated characters | 8,480 B | 22 | no |
@@ -27,7 +27,7 @@ copy into your own save; leave **meta** sections alone.
 | [itemTypes](sections/itemTypes.json) · [entries](entries/itemTypes/INDEX.md) | content | Every item: gear, costumes, food, documents, currency | 59,984 B | 87 | no |
 | [locationArchetypes](sections/locationArchetypes.json) · [entries](entries/locationArchetypes/INDEX.md) | content | Templates for generated locations | 3,622 B | 11 | no |
 | [locationSettings](sections/locationSettings.json) | settings | Location rules | 261 B |  | no |
-| [locations](sections/locations.json) · [entries](entries/locations/INDEX.md) | content | Every place, its areas, pictures and hidden info | 701,929 B | 62 | no |
+| [locations](sections/locations.json) · [entries](entries/locations/INDEX.md) | content | Every place, its areas, pictures and hidden info | 702,548 B | 62 | **yes** |
 | [mods](sections/mods.json) | meta | Installed mods | 60 B |  | no |
 | [nameFilterSettings](sections/nameFilterSettings.json) | settings | Name filter rules | 2,749 B |  | no |
 | [narratorStyle](sections/narratorStyle.json) | settings | Narrator voice | 1,978 B |  | no |
@@ -45,15 +45,15 @@ copy into your own save; leave **meta** sections alone.
 | [regionArchetypes](sections/regionArchetypes.json) · [entries](entries/regionArchetypes/INDEX.md) | content | Templates for generated regions | 8,506 B | 23 | no |
 | [regions](sections/regions.json) · [entries](entries/regions/INDEX.md) | content | Map regions | 457,859 B | 161 | no |
 | [relationshipStages](sections/relationshipStages.json) | settings | Relationship stages | 798 B |  | no |
-| [resourceSettings](sections/resourceSettings.json) | settings | Health, Stamina and Strain | 6,743 B |  | no |
+| [resourceSettings](sections/resourceSettings.json) | settings | Health, Stamina and Strain | 7,025 B |  | **yes** |
 | [skillSettings](sections/skillSettings.json) | settings | Skill rules | 641 B |  | no |
 | [skills](sections/skills.json) · [entries](entries/skills/INDEX.md) | content | Every skill | 23,361 B | 66 | no |
 | [storySettings](sections/storySettings.json) | settings | Story settings | 9,751 B |  | no |
 | [storyStarts](sections/storyStarts.json) · [entries](entries/storyStarts/INDEX.md) | content | Every story start | 124,860 B | 17 | no |
 | [successLevelSettings](sections/successLevelSettings.json) | settings | Success level narration | 3,258 B |  | no |
 | [tipSettings](sections/tipSettings.json) | settings | Loading tips | 2,029 B |  | no |
-| [traitCategories](sections/traitCategories.json) · [entries](entries/traitCategories/INDEX.md) | content | Trait categories (Paths, Quirk families, backgrounds ...) | 68,211 B | 18 | no |
-| [traits](sections/traits.json) · [entries](entries/traits/INDEX.md) | content | Every trait: Paths, Quirks, backgrounds and their narrator rules | 1,406,250 B | 1148 | no |
-| [triggerDefinitions](sections/triggerDefinitions.json) · [entries](entries/triggerDefinitions/INDEX.md) | content | Every trigger: the clock, skips, events, wardrobe, travel ... | 2,689,169 B | 986 | **yes** |
+| [traitCategories](sections/traitCategories.json) · [entries](entries/traitCategories/INDEX.md) | content | Trait categories (Paths, Quirk families, backgrounds ...) | 68,709 B | 18 | **yes** |
+| [traits](sections/traits.json) · [entries](entries/traits/INDEX.md) | content | Every trait: Paths, Quirks, backgrounds and their narrator rules | 1,435,783 B | 1160 | **yes** |
+| [triggerDefinitions](sections/triggerDefinitions.json) · [entries](entries/triggerDefinitions/INDEX.md) | content | Every trigger: the clock, skips, events, wardrobe, travel ... | 2,704,652 B | 990 | **yes** |
 | [worldLore](sections/worldLore.json) · [entries](entries/worldLore/INDEX.md) | content | World lore entries | 107,755 B | 93 | no |
 | [worldVoices](sections/worldVoices.json) · [entries](entries/worldVoices/INDEX.md) | settings | Voice assignments | 65,567 B | 147 | no |

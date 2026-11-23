@@ -1,0 +1,24 @@
+{
+  "Doorbell Double": {
+    "name": "Doorbell Double",
+    "description": "The user flicks two small discs toward a hard wall. They split off at different angles and tap two targets within ten meters of travel apiece this turn for light force damage. In a rescue drill they can hit two release paddles together. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

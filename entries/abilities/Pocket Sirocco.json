@@ -1,0 +1,20 @@
+{
+  "Pocket Sirocco": {
+    "name": "Pocket Sirocco",
+    "description": "A hand sweep drives a narrow ribbon of loose grit up to five meters. One target in its path takes light slashing damage from the scouring grains this turn. The user can aim at a chalk mark to scrub it off a practice wall. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  }
+}

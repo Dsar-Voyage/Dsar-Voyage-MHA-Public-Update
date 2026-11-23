@@ -1,0 +1,20 @@
+{
+  "Travel: my home": {
+    "name": "Travel: my home",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "\\b([Gg]o|[Hh]ead|[Ww]alk|[Rr]eturn)\\w*\\b[^.;!?]{0,30}\\b(home|[Mm]y (apartment|place))\\b"
+      },
+      {
+        "type": "party-area",
+        "operator": "notEquals",
+        "value": "Your Apartment"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const T=JSON.stringify(check({type:'player-traits'})||'');if(![\"Civilian Life\", \"Licensed Sidekick\", \"Licensed Pro Hero\"].some(p=>T.indexOf(p)>=0)){skip=true;return;}effects.push({type:'party-location',operator:'set',value:\"Musutafu Station District\"},{type:'party-area',operator:'set',value:\"Your Apartment\"},{type:'story',instruction:\"Narrator only: the player goes home to their own apartment near Musutafu Station (Musutafu Station District, Your Apartment): show the trip briefly and arrive there, alone unless someone came along.\"});log('home: Your Apartment');})();"
+  }
+}

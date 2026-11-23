@@ -1,0 +1,25 @@
+{
+  "Arcade Eclipse": {
+    "name": "Arcade Eclipse",
+    "description": "The user sets black fire in the shadow beneath a row of connected awnings. The companion draws it along the undersides for a whole city block. For three minutes the flames swallow the shop light that would expose people passing underneath, hiding the crowd from watchers across the street. The user keeps the heat overhead and lets the fire die wherever an awning hangs within reach of a passerby. Rain quenches an exposed stretch, and a floodlight breaks the path for every awning beyond it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  }
+}

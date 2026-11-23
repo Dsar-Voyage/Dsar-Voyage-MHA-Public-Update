@@ -1,0 +1,24 @@
+{
+  "Backstage Whisper": {
+    "name": "Backstage Whisper",
+    "description": "The little shadow slides under a nearby chair and peeks around a screen within three meters. For two turns it can describe what it sees in a stage whisper. Its soft brush against a lookout's shoe deals no slashing damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

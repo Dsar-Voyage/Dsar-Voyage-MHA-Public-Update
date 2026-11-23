@@ -1,0 +1,25 @@
+{
+  "Gable Stair": {
+    "name": "Gable Stair",
+    "description": "The user roots both heels beside a building and grows two boughs up its face to the roof, branching at each floor to meet an open window. The boughs double back between floors, and crosspieces harden into steps wide enough for two people abreast. For the rest of the scene a crowd can descend past a blocked stairwell. The user must stay rooted in soil or cracked paving until the last person steps off. A severed section loses its hardness and sags under a rider. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  }
+}

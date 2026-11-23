@@ -1,0 +1,24 @@
+{
+  "Bell Rope Lash": {
+    "name": "Bell Rope Lash",
+    "description": "The user sends a traveling loop down a twelve-meter chain. Its weighted bend lands heavy bludgeoning damage on one target this turn. The user can aim low to sweep a practice barricade aside. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

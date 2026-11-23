@@ -1,0 +1,20 @@
+{
+  "Cinderless Sleeve": {
+    "name": "Cinderless Sleeve",
+    "description": "The user's forearm loosens into a gray spiral through an open grille within arm's reach. One turn later the fingers can solidify to feel for a latch on the far side. The smoky section lets a passing tap through without bludgeoning damage. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  }
+}

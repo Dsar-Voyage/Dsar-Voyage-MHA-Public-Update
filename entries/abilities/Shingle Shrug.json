@@ -1,0 +1,20 @@
+{
+  "Shingle Shrug": {
+    "name": "Shingle Shrug",
+    "description": "The user lifts one scaled shoulder so the overlapping plates slide together. For one turn they can turn aside slashing damage from a glancing hit within arm's reach. A cut into the seam beneath the arm can still land. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  }
+}

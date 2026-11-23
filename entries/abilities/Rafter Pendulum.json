@@ -1,0 +1,20 @@
+{
+  "Rafter Pendulum": {
+    "name": "Rafter Pendulum",
+    "description": "A blue chain hooks a beam within four meters and swings the user to a ledge within the same arc this turn. The links take the load at the bottom of the swing, sparing the user bludgeoning damage from a short drop. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  }
+}

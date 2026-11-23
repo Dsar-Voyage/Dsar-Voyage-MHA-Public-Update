@@ -1,0 +1,24 @@
+{
+  "Landing Bar": {
+    "name": "Landing Bar",
+    "description": "A bank of sand rolls up and packs into a level platform across a two-meter washout within six meters. For three turns people can cross one at a time, clear of falling bludgeoning damage. The bank needs enough loose sand to fill the hollow. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

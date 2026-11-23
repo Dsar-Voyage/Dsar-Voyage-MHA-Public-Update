@@ -1,0 +1,24 @@
+{
+  "Heartwood Reversal": {
+    "name": "Heartwood Reversal",
+    "description": "The user meets one close strike with an attached bark shield, then softens one edge and grows it around the opposing shield rim. A twist this turn shifts the rival's guard and deals bludgeoning damage with the broad face. The wood must soften before it can curl. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

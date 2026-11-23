@@ -1,0 +1,24 @@
+{
+  "Furnace Ribbon": {
+    "name": "Furnace Ribbon",
+    "description": "The seams across the user's chest glow in sequence as a narrow ribbon of flame travels along a frozen threshold within four meters. This turn it deals fire damage along the icy seam to free a stuck door. The next flame needs a full breath-hold turn. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

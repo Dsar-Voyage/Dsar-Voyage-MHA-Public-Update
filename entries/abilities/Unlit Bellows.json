@@ -1,0 +1,24 @@
+{
+  "Unlit Bellows": {
+    "name": "Unlit Bellows",
+    "description": "The user cups both hands and fans a dense black jet across a doorway up to four meters away. It deals heavy fire damage to one barrier or foe this turn. The edges shimmer visibly, giving teammates a chance to clear the opening. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

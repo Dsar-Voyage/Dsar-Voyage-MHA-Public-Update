@@ -1,0 +1,24 @@
+{
+  "Doorjamb Roots": {
+    "name": "Doorjamb Roots",
+    "description": "Roots fork from both heels into soil or floor cracks within one step. For two turns the user can hold position against a shove that would carry them into a wall for bludgeoning damage. A smooth slab gives the roots no hold. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

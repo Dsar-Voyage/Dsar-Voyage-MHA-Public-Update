@@ -1,0 +1,29 @@
+{
+  "Redcrest Wheel": {
+    "name": "Redcrest Wheel",
+    "description": "Signature move. Chest scales flare as the user wheels around one planted heel. A low fan of breath sweeps a four-meter semicircle for fire damage this turn while the user's scaled back shelters one crouching ally on the opposite side. The fan leaves an open lane. Another flame needs a full breath-hold turn. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  }
+}

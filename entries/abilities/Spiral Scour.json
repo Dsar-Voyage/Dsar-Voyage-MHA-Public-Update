@@ -1,0 +1,24 @@
+{
+  "Spiral Scour": {
+    "name": "Spiral Scour",
+    "description": "Twin streams of grit join in a tight vortex around one target within six meters. For two turns the sand circles back across the same spot for slashing damage, stripping a jammed wheel or wearing down a guard. A crosswind unthreads the spiral. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

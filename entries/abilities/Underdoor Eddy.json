@@ -1,0 +1,24 @@
+{
+  "Underdoor Eddy": {
+    "name": "Underdoor Eddy",
+    "description": "The user's heels are the last things to dissolve as a gray ribbon slips through a finger-wide door gap. They gather on clear floor up to three meters away this turn. The passing wisp deals no toxic damage to anyone beside the door. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Cuff Cloud": {
+    "name": "Cuff Cloud",
+    "description": "Smoke billows from the shape of a raised sleeve and hangs between two faces at arm's length for one turn. It hides a hand signal from anyone on the other side and deals no toxic damage. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  }
+}

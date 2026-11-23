@@ -1,0 +1,20 @@
+{
+  "Rim Tap": {
+    "name": "Rim Tap",
+    "description": "A coin-bright disc skims eight meters from the user's fingers and taps one target for light force damage this turn. At practice speed it can flip a score paddle without knocking it off its stand. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  }
+}

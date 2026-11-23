@@ -1,4 +1,4 @@
-# abilities: 1315 entries (11.21.1)
+# abilities: 1406 entries (11.22)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -26,6 +26,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Anvil Embrace | `Anvil Embrace` | [Anvil Embrace.json](<Anvil Embrace.json>) |
 | Apex Pounce | `Apex Pounce` | [Apex Pounce.json](<Apex Pounce.json>) |
 | Arc Lattice | `Arc Lattice` | [Arc Lattice.json](<Arc Lattice.json>) |
+| Arcade Eclipse | `Arcade Eclipse` | [Arcade Eclipse.json](<Arcade Eclipse.json>) |
 | Arcing Catch | `Arcing Catch` | [Arcing Catch.json](<Arcing Catch.json>) |
 | Arm Bar Pin | `Arm Bar Pin` | [Arm Bar Pin.json](<Arm Bar Pin.json>) |
 | Army of One | `Army of One` | [Army of One.json](<Army of One.json>) |
@@ -38,9 +39,15 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Averted Accident | `Averted Accident` | [Averted Accident.json](<Averted Accident.json>) |
 | Back-Alley Ear | `Back-Alley Ear` | [Back-Alley Ear.json](<Back-Alley Ear.json>) |
 | Back-Door Shortcut | `Back-Door Shortcut` | [Back-Door Shortcut.json](<Back-Door Shortcut.json>) |
+| Backboard Save | `Backboard Save` | [Backboard Save.json](<Backboard Save.json>) |
+| Backstage Whisper | `Backstage Whisper` | [Backstage Whisper.json](<Backstage Whisper.json>) |
 | Backward Lift | `Backward Lift` | [Backward Lift.json](<Backward Lift.json>) |
 | Bait-and-Slip | `Bait-and-Slip` | [Bait-and-Slip.json](<Bait-and-Slip.json>) |
 | Balanced Flame Column | `Balanced Flame Column` | [Balanced Flame Column.json](<Balanced Flame Column.json>) |
+| Balcony Buzzer | `Balcony Buzzer` | [Balcony Buzzer.json](<Balcony Buzzer.json>) |
+| Balcony Descent | `Balcony Descent` | [Balcony Descent.json](<Balcony Descent.json>) |
+| Balcony Handrail | `Balcony Handrail` | [Balcony Handrail.json](<Balcony Handrail.json>) |
+| Ballast Bench | `Ballast Bench` | [Ballast Bench.json](<Ballast Bench.json>) |
 | Ballast Bracing | `Ballast Bracing` | [Ballast Bracing.json](<Ballast Bracing.json>) |
 | Ballast Palm | `Ballast Palm` | [Ballast Palm.json](<Ballast Palm.json>) |
 | Balm Tendril Snare | `Balm Tendril Snare` | [Balm Tendril Snare.json](<Balm Tendril Snare.json>) |
@@ -60,6 +67,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Bedside Diagnosis | `Bedside Diagnosis` | [Bedside Diagnosis.json](<Bedside Diagnosis.json>) |
 | Before the Sirens | `Before the Sirens` | [Before the Sirens.json](<Before the Sirens.json>) |
 | Behind the Mask | `Behind the Mask` | [Behind the Mask.json](<Behind the Mask.json>) |
+| Bell Rope Lash | `Bell Rope Lash` | [Bell Rope Lash.json](<Bell Rope Lash.json>) |
 | Bellow Wave | `Bellow Wave` | [Bellow Wave.json](<Bellow Wave.json>) |
 | Belly Beam | `Belly Beam` | [Belly Beam.json](<Belly Beam.json>) |
 | Between Beats | `Between Beats` | [Between Beats.json](<Between Beats.json>) |
@@ -73,6 +81,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Blaze Screen | `Blaze Screen` | [Blaze Screen.json](<Blaze Screen.json>) |
 | Blind Route Run | `Blind Route Run` | [Blind Route Run.json](<Blind Route Run.json>) |
 | Blind-Side Cover | `Blind-Side Cover` | [Blind-Side Cover.json](<Blind-Side Cover.json>) |
+| Blindside Drift | `Blindside Drift` | [Blindside Drift.json](<Blindside Drift.json>) |
 | Blindside Opener | `Blindside Opener` | [Blindside Opener.json](<Blindside Opener.json>) |
 | Blitz Evacuation | `Blitz Evacuation` | [Blitz Evacuation.json](<Blitz Evacuation.json>) |
 | Block-Wide Mirage | `Block-Wide Mirage` | [Block-Wide Mirage.json](<Block-Wide Mirage.json>) |
@@ -92,8 +101,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Bore Snap | `Bore Snap` | [Bore Snap.json](<Bore Snap.json>) |
 | Borrowed Command | `Borrowed Command` | [Borrowed Command.json](<Borrowed Command.json>) |
 | Borrowed Force Throw | `Borrowed Force Throw` | [Borrowed Force Throw.json](<Borrowed Force Throw.json>) |
+| Borrowed Knees | `Borrowed Knees` | [Borrowed Knees.json](<Borrowed Knees.json>) |
 | Borrowed Touch | `Borrowed Touch` | [Borrowed Touch.json](<Borrowed Touch.json>) |
 | Borrowed Trust | `Borrowed Trust` | [Borrowed Trust.json](<Borrowed Trust.json>) |
+| Borrowed Wick | `Borrowed Wick` | [Borrowed Wick.json](<Borrowed Wick.json>) |
 | Bounceback Sheet | `Bounceback Sheet` | [Bounceback Sheet.json](<Bounceback Sheet.json>) |
 | Boundless Guise | `Boundless Guise` | [Boundless Guise.json](<Boundless Guise.json>) |
 | Bowstring Boulevard | `Bowstring Boulevard` | [Bowstring Boulevard.json](<Bowstring Boulevard.json>) |
@@ -119,6 +130,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Broadcast Edict | `Broadcast Edict` | [Broadcast Edict.json](<Broadcast Edict.json>) |
 | Broadhand Guard | `Broadhand Guard` | [Broadhand Guard.json](<Broadhand Guard.json>) |
 | Broker's Number | `Broker's Number` | [Broker's Number.json](<Broker's Number.json>) |
+| Buckle Catch | `Buckle Catch` | [Buckle Catch.json](<Buckle Catch.json>) |
 | Budding Lookout | `Budding Lookout` | [Budding Lookout.json](<Budding Lookout.json>) |
 | Building Bearer | `Building Bearer` | [Building Bearer.json](<Building Bearer.json>) |
 | Building Concord | `Building Concord` | [Building Concord.json](<Building Concord.json>) |
@@ -128,6 +140,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Building Vine Enclosure | `Building Vine Enclosure` | [Building Vine Enclosure.json](<Building Vine Enclosure.json>) |
 | Bulwark Shield | `Bulwark Shield` | [Bulwark Shield.json](<Bulwark Shield.json>) |
 | Bunched Vine Lash | `Bunched Vine Lash` | [Bunched Vine Lash.json](<Bunched Vine Lash.json>) |
+| Bunker Bowl | `Bunker Bowl` | [Bunker Bowl.json](<Bunker Bowl.json>) |
 | Buoyant Tap | `Buoyant Tap` | [Buoyant Tap.json](<Buoyant Tap.json>) |
 | Burdened Beam Crossing | `Burdened Beam Crossing` | [Burdened Beam Crossing.json](<Burdened Beam Crossing.json>) |
 | Burn It Out | `Burn It Out` | [Burn It Out.json](<Burn It Out.json>) |
@@ -155,11 +168,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Cell Delivery | `Cell Delivery` | [Cell Delivery.json](<Cell Delivery.json>) |
 | Chain of Hands | `Chain of Hands` | [Chain of Hands.json](<Chain of Hands.json>) |
 | Chain Step Assault | `Chain Step Assault` | [Chain Step Assault.json](<Chain Step Assault.json>) |
+| Chalkboard Bank | `Chalkboard Bank` | [Chalkboard Bank.json](<Chalkboard Bank.json>) |
 | Channel Spark | `Channel Spark` | [Channel Spark.json](<Channel Spark.json>) |
 | Channel Swimmer Tow | `Channel Swimmer Tow` | [Channel Swimmer Tow.json](<Channel Swimmer Tow.json>) |
 | Charged Clamp | `Charged Clamp` | [Charged Clamp.json](<Charged Clamp.json>) |
 | Charged Gust | `Charged Gust` | [Charged Gust.json](<Charged Gust.json>) |
 | Chimney Draft | `Chimney Draft` | [Chimney Draft.json](<Chimney Draft.json>) |
+| Chimney Scales | `Chimney Scales` | [Chimney Scales.json](<Chimney Scales.json>) |
 | Choke Point Play | `Choke Point Play` | [Choke Point Play.json](<Choke Point Play.json>) |
 | Chosen Breath | `Chosen Breath` | [Chosen Breath.json](<Chosen Breath.json>) |
 | Chosen Ground | `Chosen Ground` | [Chosen Ground.json](<Chosen Ground.json>) |
@@ -167,6 +182,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Cinder Glaze | `Cinder Glaze` | [Cinder Glaze.json](<Cinder Glaze.json>) |
 | Cinder Lance | `Cinder Lance` | [Cinder Lance.json](<Cinder Lance.json>) |
 | Cinder Ridge | `Cinder Ridge` | [Cinder Ridge.json](<Cinder Ridge.json>) |
+| Cinderless Sleeve | `Cinderless Sleeve` | [Cinderless Sleeve.json](<Cinderless Sleeve.json>) |
 | Circling Body Rush | `Circling Body Rush` | [Circling Body Rush.json](<Circling Body Rush.json>) |
 | Circling Guard | `Circling Guard` | [Circling Guard.json](<Circling Guard.json>) |
 | Circuit Breaker | `Circuit Breaker` | [Circuit Breaker.json](<Circuit Breaker.json>) |
@@ -179,6 +195,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clear Cage | `Clear Cage` | [Clear Cage.json](<Clear Cage.json>) |
 | Clear Path Run | `Clear Path Run` | [Clear Path Run.json](<Clear Path Run.json>) |
 | Clear-Air Dash | `Clear-Air Dash` | [Clear-Air Dash.json](<Clear-Air Dash.json>) |
+| Cliffside Clutch | `Cliffside Clutch` | [Cliffside Clutch.json](<Cliffside Clutch.json>) |
 | Climbing Spurs | `Climbing Spurs` | [Climbing Spurs.json](<Climbing Spurs.json>) |
 | Close Jack Jab | `Close Jack Jab` | [Close Jack Jab.json](<Close Jack Jab.json>) |
 | Close Quarters Redirection | `Close Quarters Redirection` | [Close Quarters Redirection.json](<Close Quarters Redirection.json>) |
@@ -187,6 +204,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Closing Distance Fists | `Closing Distance Fists` | [Closing Distance Fists.json](<Closing Distance Fists.json>) |
 | Closing Vine Network | `Closing Vine Network` | [Closing Vine Network.json](<Closing Vine Network.json>) |
 | Clot Seal | `Clot Seal` | [Clot Seal.json](<Clot Seal.json>) |
+| Coal Kitten Pounce | `Coal Kitten Pounce` | [Coal Kitten Pounce.json](<Coal Kitten Pounce.json>) |
 | Coattail Leap | `Coattail Leap` | [Coattail Leap.json](<Coattail Leap.json>) |
 | Coaxed Lock | `Coaxed Lock` | [Coaxed Lock.json](<Coaxed Lock.json>) |
 | Coil Pulse | `Coil Pulse` | [Coil Pulse.json](<Coil Pulse.json>) |
@@ -204,6 +222,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Company Rhythm | `Company Rhythm` | [Company Rhythm.json](<Company Rhythm.json>) |
 | Complete Direction | `Complete Direction` | [Complete Direction.json](<Complete Direction.json>) |
 | Complete Enclosure | `Complete Enclosure` | [Complete Enclosure.json](<Complete Enclosure.json>) |
+| Concourse Drift | `Concourse Drift` | [Concourse Drift.json](<Concourse Drift.json>) |
 | Concrete Heel Bump | `Concrete Heel Bump` | [Concrete Heel Bump.json](<Concrete Heel Bump.json>) |
 | Conductive Grip Hold | `Conductive Grip Hold` | [Conductive Grip Hold.json](<Conductive Grip Hold.json>) |
 | Conduit Takeover | `Conduit Takeover` | [Conduit Takeover.json](<Conduit Takeover.json>) |
@@ -237,9 +256,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Creeping Barrage | `Creeping Barrage` | [Creeping Barrage.json](<Creeping Barrage.json>) |
 | Crescendo Sweep | `Crescendo Sweep` | [Crescendo Sweep.json](<Crescendo Sweep.json>) |
 | Crescent Draw | `Crescent Draw` | [Crescent Draw.json](<Crescent Draw.json>) |
+| Crestline Drive | `Crestline Drive` | [Crestline Drive.json](<Crestline Drive.json>) |
 | Crib and Lift | `Crib and Lift` | [Crib and Lift.json](<Crib and Lift.json>) |
 | Crimson Lifeline | `Crimson Lifeline` | [Crimson Lifeline.json](<Crimson Lifeline.json>) |
 | Critical Procedure | `Critical Procedure` | [Critical Procedure.json](<Critical Procedure.json>) |
+| Crookwood Reach | `Crookwood Reach` | [Crookwood Reach.json](<Crookwood Reach.json>) |
 | Crossbody Shadow Clash | `Crossbody Shadow Clash` | [Crossbody Shadow Clash.json](<Crossbody Shadow Clash.json>) |
 | Crossed Vectors | `Crossed Vectors` | [Crossed Vectors.json](<Crossed Vectors.json>) |
 | Crossfire Corridor | `Crossfire Corridor` | [Crossfire Corridor.json](<Crossfire Corridor.json>) |
@@ -250,14 +271,17 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Crossway Fall | `Crossway Fall` | [Crossway Fall.json](<Crossway Fall.json>) |
 | Crow Patrol | `Crow Patrol` | [Crow Patrol.json](<Crow Patrol.json>) |
 | Crowd Contact Lift | `Crowd Contact Lift` | [Crowd Contact Lift.json](<Crowd Contact Lift.json>) |
+| Crown Catch | `Crown Catch` | [Crown Catch.json](<Crown Catch.json>) |
 | Crucible Floor | `Crucible Floor` | [Crucible Floor.json](<Crucible Floor.json>) |
 | Crucible Palm | `Crucible Palm` | [Crucible Palm.json](<Crucible Palm.json>) |
 | Crumbling Palm | `Crumbling Palm` | [Crumbling Palm.json](<Crumbling Palm.json>) |
 | Crusher Claw | `Crusher Claw` | [Crusher Claw.json](<Crusher Claw.json>) |
 | Cryothermal Shock | `Cryothermal Shock` | [Cryothermal Shock.json](<Cryothermal Shock.json>) |
+| Cuff Cloud | `Cuff Cloud` | [Cuff Cloud.json](<Cuff Cloud.json>) |
 | Cupped Daylight | `Cupped Daylight` | [Cupped Daylight.json](<Cupped Daylight.json>) |
 | Cupped Hand Carry | `Cupped Hand Carry` | [Cupped Hand Carry.json](<Cupped Hand Carry.json>) |
 | Curtain Call | `Curtain Call` | [Curtain Call.json](<Curtain Call.json>) |
+| Curtain Call Drift | `Curtain Call Drift` | [Curtain Call Drift.json](<Curtain Call Drift.json>) |
 | Custody Bind | `Custody Bind` | [Custody Bind.json](<Custody Bind.json>) |
 | Cut-In Save | `Cut-In Save` | [Cut-In Save.json](<Cut-In Save.json>) |
 | Cutoff Glance | `Cutoff Glance` | [Cutoff Glance.json](<Cutoff Glance.json>) |
@@ -296,10 +320,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | District Line Rig | `District Line Rig` | [District Line Rig.json](<District Line Rig.json>) |
 | District Scatter | `District Scatter` | [District Scatter.json](<District Scatter.json>) |
 | Divided Feather Escort | `Divided Feather Escort` | [Divided Feather Escort.json](<Divided Feather Escort.json>) |
+| Divided Voice | `Divided Voice` | [Divided Voice.json](<Divided Voice.json>) |
 | Diving Gale Strike | `Diving Gale Strike` | [Diving Gale Strike.json](<Diving Gale Strike.json>) |
 | Dogpile Capture | `Dogpile Capture` | [Dogpile Capture.json](<Dogpile Capture.json>) |
 | Dogpile Drop | `Dogpile Drop` | [Dogpile Drop.json](<Dogpile Drop.json>) |
 | Door Latch Burn | `Door Latch Burn` | [Door Latch Burn.json](<Door Latch Burn.json>) |
+| Doorbell Double | `Doorbell Double` | [Doorbell Double.json](<Doorbell Double.json>) |
+| Doorjamb Roots | `Doorjamb Roots` | [Doorjamb Roots.json](<Doorjamb Roots.json>) |
 | Doorway Break | `Doorway Break` | [Doorway Break.json](<Doorway Break.json>) |
 | Doorway Cluster | `Doorway Cluster` | [Doorway Cluster.json](<Doorway Cluster.json>) |
 | Doorway Scan | `Doorway Scan` | [Doorway Scan.json](<Doorway Scan.json>) |
@@ -320,6 +347,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Drowse Fog | `Drowse Fog` | [Drowse Fog.json](<Drowse Fog.json>) |
 | Drumroll Barrage | `Drumroll Barrage` | [Drumroll Barrage.json](<Drumroll Barrage.json>) |
 | Drumskin Floor | `Drumskin Floor` | [Drumskin Floor.json](<Drumskin Floor.json>) |
+| Duct Runner | `Duct Runner` | [Duct Runner.json](<Duct Runner.json>) |
+| Dune Window | `Dune Window` | [Dune Window.json](<Dune Window.json>) |
 | Dusk Coat | `Dusk Coat` | [Dusk Coat.json](<Dusk Coat.json>) |
 | Dusk Halo | `Dusk Halo` | [Dusk Halo.json](<Dusk Halo.json>) |
 | Duskseam Bracing | `Duskseam Bracing` | [Duskseam Bracing.json](<Duskseam Bracing.json>) |
@@ -394,14 +423,17 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Fogbank Curtain | `Fogbank Curtain` | [Fogbank Curtain.json](<Fogbank Curtain.json>) |
 | Folded Concrete Stair | `Folded Concrete Stair` | [Folded Concrete Stair.json](<Folded Concrete Stair.json>) |
 | Footfall Read | `Footfall Read` | [Footfall Read.json](<Footfall Read.json>) |
+| Footprint Step | `Footprint Step` | [Footprint Step.json](<Footprint Step.json>) |
 | Foreseen Grab | `Foreseen Grab` | [Foreseen Grab.json](<Foreseen Grab.json>) |
 | Foreseen Throw | `Foreseen Throw` | [Foreseen Throw.json](<Foreseen Throw.json>) |
 | Forest Rising | `Forest Rising` | [Forest Rising.json](<Forest Rising.json>) |
 | Forewarned | `Forewarned` | [Forewarned.json](<Forewarned.json>) |
+| Forked Passage | `Forked Passage` | [Forked Passage.json](<Forked Passage.json>) |
 | Forked Vine Disarm | `Forked Vine Disarm` | [Forked Vine Disarm.json](<Forked Vine Disarm.json>) |
 | Forty Piece Sweep | `Forty Piece Sweep` | [Forty Piece Sweep.json](<Forty Piece Sweep.json>) |
 | Foundation Platform Lift | `Foundation Platform Lift` | [Foundation Platform Lift.json](<Foundation Platform Lift.json>) |
 | Foundry Rampart | `Foundry Rampart` | [Foundry Rampart.json](<Foundry Rampart.json>) |
+| Four Corners Catch | `Four Corners Catch` | [Four Corners Catch.json](<Four Corners Catch.json>) |
 | Fracture Tap | `Fracture Tap` | [Fracture Tap.json](<Fracture Tap.json>) |
 | Freefall Plunge | `Freefall Plunge` | [Freefall Plunge.json](<Freefall Plunge.json>) |
 | Freeing Cut | `Freeing Cut` | [Freeing Cut.json](<Freeing Cut.json>) |
@@ -432,7 +464,9 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Full Throttle Heel | `Full Throttle Heel` | [Full Throttle Heel.json](<Full Throttle Heel.json>) |
 | Furnace Endurance March | `Furnace Endurance March` | [Furnace Endurance March.json](<Furnace Endurance March.json>) |
 | Furnace Press | `Furnace Press` | [Furnace Press.json](<Furnace Press.json>) |
+| Furnace Ribbon | `Furnace Ribbon` | [Furnace Ribbon.json](<Furnace Ribbon.json>) |
 | Fused Shackle | `Fused Shackle` | [Fused Shackle.json](<Fused Shackle.json>) |
+| Gable Stair | `Gable Stair` | [Gable Stair.json](<Gable Stair.json>) |
 | Gap Run | `Gap Run` | [Gap Run.json](<Gap Run.json>) |
 | Garnet Cuffs | `Garnet Cuffs` | [Garnet Cuffs.json](<Garnet Cuffs.json>) |
 | Garnet Mantle | `Garnet Mantle` | [Garnet Mantle.json](<Garnet Mantle.json>) |
@@ -453,6 +487,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Glance Prognosis | `Glance Prognosis` | [Glance Prognosis.json](<Glance Prognosis.json>) |
 | Glancing Facet | `Glancing Facet` | [Glancing Facet.json](<Glancing Facet.json>) |
 | Glancing Turn | `Glancing Turn` | [Glancing Turn.json](<Glancing Turn.json>) |
+| Glass Impression | `Glass Impression` | [Glass Impression.json](<Glass Impression.json>) |
 | Glass Skeleton | `Glass Skeleton` | [Glass Skeleton.json](<Glass Skeleton.json>) |
 | Glass Stairway | `Glass Stairway` | [Glass Stairway.json](<Glass Stairway.json>) |
 | Glass Sun | `Glass Sun` | [Glass Sun.json](<Glass Sun.json>) |
@@ -474,13 +509,17 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Grand Lockstitch | `Grand Lockstitch` | [Grand Lockstitch.json](<Grand Lockstitch.json>) |
 | Grand Masterstroke | `Grand Masterstroke` | [Grand Masterstroke.json](<Grand Masterstroke.json>) |
 | Grand Shutdown | `Grand Shutdown` | [Grand Shutdown.json](<Grand Shutdown.json>) |
+| Grandstand Rounds | `Grandstand Rounds` | [Grandstand Rounds.json](<Grandstand Rounds.json>) |
 | Granite Grip | `Granite Grip` | [Granite Grip.json](<Granite Grip.json>) |
+| Grate to Grate | `Grate to Grate` | [Grate to Grate.json](<Grate to Grate.json>) |
 | Gravel Carousel | `Gravel Carousel` | [Gravel Carousel.json](<Gravel Carousel.json>) |
+| Gray Switchback | `Gray Switchback` | [Gray Switchback.json](<Gray Switchback.json>) |
 | Great Bell Toll | `Great Bell Toll` | [Great Bell Toll.json](<Great Bell Toll.json>) |
 | Great Wildcall | `Great Wildcall` | [Great Wildcall.json](<Great Wildcall.json>) |
 | Greater Echo | `Greater Echo` | [Greater Echo.json](<Greater Echo.json>) |
 | Greenwood Ram | `Greenwood Ram` | [Greenwood Ram.json](<Greenwood Ram.json>) |
 | Grid Dominion | `Grid Dominion` | [Grid Dominion.json](<Grid Dominion.json>) |
+| Grit Pennant | `Grit Pennant` | [Grit Pennant.json](<Grit Pennant.json>) |
 | Groan of Steel | `Groan of Steel` | [Groan of Steel.json](<Groan of Steel.json>) |
 | Ground to Grit | `Ground to Grit` | [Ground to Grit.json](<Ground to Grit.json>) |
 | Grounded Tail Vault | `Grounded Tail Vault` | [Grounded Tail Vault.json](<Grounded Tail Vault.json>) |
@@ -509,6 +548,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Hearth Command | `Hearth Command` | [Hearth Command.json](<Hearth Command.json>) |
 | Heartstart Spark | `Heartstart Spark` | [Heartstart Spark.json](<Heartstart Spark.json>) |
 | Heartstorm | `Heartstorm` | [Heartstorm.json](<Heartstorm.json>) |
+| Heartwood Reversal | `Heartwood Reversal` | [Heartwood Reversal.json](<Heartwood Reversal.json>) |
 | Heated Steel Counter | `Heated Steel Counter` | [Heated Steel Counter.json](<Heated Steel Counter.json>) |
 | Heated Weapon Release | `Heated Weapon Release` | [Heated Weapon Release.json](<Heated Weapon Release.json>) |
 | Heavy Hurl | `Heavy Hurl` | [Heavy Hurl.json](<Heavy Hurl.json>) |
@@ -518,6 +558,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Held Moment | `Held Moment` | [Held Moment.json](<Held Moment.json>) |
 | Hidden Tongue Escort | `Hidden Tongue Escort` | [Hidden Tongue Escort.json](<Hidden Tongue Escort.json>) |
 | High Ledge Rescue | `High Ledge Rescue` | [High Ledge Rescue.json](<High Ledge Rescue.json>) |
+| High Water Bank | `High Water Bank` | [High Water Bank.json](<High Water Bank.json>) |
 | Highrise Hammer | `Highrise Hammer` | [Highrise Hammer.json](<Highrise Hammer.json>) |
 | Hinge Breaker | `Hinge Breaker` | [Hinge Breaker.json](<Hinge Breaker.json>) |
 | Hired-Hand Command | `Hired-Hand Command` | [Hired-Hand Command.json](<Hired-Hand Command.json>) |
@@ -528,11 +569,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Hold the Pulse | `Hold the Pulse` | [Hold the Pulse.json](<Hold the Pulse.json>) |
 | Hollow Expanse | `Hollow Expanse` | [Hollow Expanse.json](<Hollow Expanse.json>) |
 | Hollow Guard | `Hollow Guard` | [Hollow Guard.json](<Hollow Guard.json>) |
+| Hollow Shoulder | `Hollow Shoulder` | [Hollow Shoulder.json](<Hollow Shoulder.json>) |
 | Homeward Selves | `Homeward Selves` | [Homeward Selves.json](<Homeward Selves.json>) |
 | Homing Snap | `Homing Snap` | [Homing Snap.json](<Homing Snap.json>) |
 | Horizon Stature | `Horizon Stature` | [Horizon Stature.json](<Horizon Stature.json>) |
 | Horned Charge | `Horned Charge` | [Horned Charge.json](<Horned Charge.json>) |
 | Hour Unmade | `Hour Unmade` | [Hour Unmade.json](<Hour Unmade.json>) |
+| House of Smoke | `House of Smoke` | [House of Smoke.json](<House of Smoke.json>) |
 | Howling Wall | `Howling Wall` | [Howling Wall.json](<Howling Wall.json>) |
 | Hundred Point Hold | `Hundred Point Hold` | [Hundred Point Hold.json](<Hundred Point Hold.json>) |
 | Hundred-Arm Haven | `Hundred-Arm Haven` | [Hundred-Arm Haven.json](<Hundred-Arm Haven.json>) |
@@ -552,6 +595,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Ink Screen | `Ink Screen` | [Ink Screen.json](<Ink Screen.json>) |
 | Inked Ladder | `Inked Ladder` | [Inked Ladder.json](<Inked Ladder.json>) |
 | Inked Pack | `Inked Pack` | [Inked Pack.json](<Inked Pack.json>) |
+| Inkpot Simmer | `Inkpot Simmer` | [Inkpot Simmer.json](<Inkpot Simmer.json>) |
 | Inside Reach | `Inside Reach` | [Inside Reach.json](<Inside Reach.json>) |
 | Intersection Cold Surge | `Intersection Cold Surge` | [Intersection Cold Surge.json](<Intersection Cold Surge.json>) |
 | Interwoven Rescue Lanes | `Interwoven Rescue Lanes` | [Interwoven Rescue Lanes.json](<Interwoven Rescue Lanes.json>) |
@@ -568,19 +612,26 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Just Another Student | `Just Another Student` | [Just Another Student.json](<Just Another Student.json>) |
 | Keel Breaker | `Keel Breaker` | [Keel Breaker.json](<Keel Breaker.json>) |
 | Keen Read | `Keen Read` | [Keen Read.json](<Keen Read.json>) |
+| Keep of Rings | `Keep of Rings` | [Keep of Rings.json](<Keep of Rings.json>) |
 | Kept Impression | `Kept Impression` | [Kept Impression.json](<Kept Impression.json>) |
 | Keyhole Window | `Keyhole Window` | [Keyhole Window.json](<Keyhole Window.json>) |
 | Keystone Brace | `Keystone Brace` | [Keystone Brace.json](<Keystone Brace.json>) |
 | Keystone Shoring | `Keystone Shoring` | [Keystone Shoring.json](<Keystone Shoring.json>) |
 | Kickback Leap | `Kickback Leap` | [Kickback Leap.json](<Kickback Leap.json>) |
+| Kiln Puff | `Kiln Puff` | [Kiln Puff.json](<Kiln Puff.json>) |
 | Kiln Vise | `Kiln Vise` | [Kiln Vise.json](<Kiln Vise.json>) |
 | Kindred Shatter | `Kindred Shatter` | [Kindred Shatter.json](<Kindred Shatter.json>) |
 | Kinetic Reckoning | `Kinetic Reckoning` | [Kinetic Reckoning.json](<Kinetic Reckoning.json>) |
 | Knit Shut | `Knit Shut` | [Knit Shut.json](<Knit Shut.json>) |
 | Knitting Grip | `Knitting Grip` | [Knitting Grip.json](<Knitting Grip.json>) |
 | Knock and Listen | `Knock and Listen` | [Knock and Listen.json](<Knock and Listen.json>) |
+| Knockbark | `Knockbark` | [Knockbark.json](<Knockbark.json>) |
+| Knothole Guard | `Knothole Guard` | [Knothole Guard.json](<Knothole Guard.json>) |
 | Knuckle Rap | `Knuckle Rap` | [Knuckle Rap.json](<Knuckle Rap.json>) |
+| Knuckle Rattle | `Knuckle Rattle` | [Knuckle Rattle.json](<Knuckle Rattle.json>) |
+| Landing Bar | `Landing Bar` | [Landing Bar.json](<Landing Bar.json>) |
 | Last Charge Stand | `Last Charge Stand` | [Last Charge Stand.json](<Last Charge Stand.json>) |
+| Last Lamp Out | `Last Lamp Out` | [Last Lamp Out.json](<Last Lamp Out.json>) |
 | Last One Out | `Last One Out` | [Last One Out.json](<Last One Out.json>) |
 | Last Piece Return | `Last Piece Return` | [Last Piece Return.json](<Last Piece Return.json>) |
 | Last-Second Hide | `Last-Second Hide` | [Last-Second Hide.json](<Last-Second Hide.json>) |
@@ -627,6 +678,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Long Dusk | `Long Dusk` | [Long Dusk.json](<Long Dusk.json>) |
 | Long Gear Pursuit | `Long Gear Pursuit` | [Long Gear Pursuit.json](<Long Gear Pursuit.json>) |
 | Long Hunt | `Long Hunt` | [Long Hunt.json](<Long Hunt.json>) |
+| Long Kiln | `Long Kiln` | [Long Kiln.json](<Long Kiln.json>) |
 | Long Line Rescue | `Long Line Rescue` | [Long Line Rescue.json](<Long Line Rescue.json>) |
 | Long Passage Run | `Long Passage Run` | [Long Passage Run.json](<Long Passage Run.json>) |
 | Long Quiet | `Long Quiet` | [Long Quiet.json](<Long Quiet.json>) |
@@ -639,6 +691,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Loose Thread | `Loose Thread` | [Loose Thread.json](<Loose Thread.json>) |
 | Low Bank Hop | `Low Bank Hop` | [Low Bank Hop.json](<Low Bank Hop.json>) |
 | Low Circle Sweep | `Low Circle Sweep` | [Low Circle Sweep.json](<Low Circle Sweep.json>) |
+| Low Rail Skip | `Low Rail Skip` | [Low Rail Skip.json](<Low Rail Skip.json>) |
 | Lowland Lull | `Lowland Lull` | [Lowland Lull.json](<Lowland Lull.json>) |
 | Lullaby Canister | `Lullaby Canister` | [Lullaby Canister.json](<Lullaby Canister.json>) |
 | Lurch Command | `Lurch Command` | [Lurch Command.json](<Lurch Command.json>) |
@@ -650,6 +703,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Many-Handed Bind | `Many-Handed Bind` | [Many-Handed Bind.json](<Many-Handed Bind.json>) |
 | Marker Chain Shock | `Marker Chain Shock` | [Marker Chain Shock.json](<Marker Chain Shock.json>) |
 | Masterwork Assembly | `Masterwork Assembly` | [Masterwork Assembly.json](<Masterwork Assembly.json>) |
+| Matinee Understudy | `Matinee Understudy` | [Matinee Understudy.json](<Matinee Understudy.json>) |
 | Maze of Doors | `Maze of Doors` | [Maze of Doors.json](<Maze of Doors.json>) |
 | Measured Battery | `Measured Battery` | [Measured Battery.json](<Measured Battery.json>) |
 | Measured Living Dressing | `Measured Living Dressing` | [Measured Living Dressing.json](<Measured Living Dressing.json>) |
@@ -679,6 +733,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Mirage Decoy | `Mirage Decoy` | [Mirage Decoy.json](<Mirage Decoy.json>) |
 | Mire Glob | `Mire Glob` | [Mire Glob.json](<Mire Glob.json>) |
 | Mirror Reversal | `Mirror Reversal` | [Mirror Reversal.json](<Mirror Reversal.json>) |
+| Missing Note | `Missing Note` | [Missing Note.json](<Missing Note.json>) |
 | Mixed Trait Guard | `Mixed Trait Guard` | [Mixed Trait Guard.json](<Mixed Trait Guard.json>) |
 | Moment of Collapse | `Moment of Collapse` | [Moment of Collapse.json](<Moment of Collapse.json>) |
 | Monarch Form | `Monarch Form` | [Monarch Form.json](<Monarch Form.json>) |
@@ -689,6 +744,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Moss Cocoon Vigil | `Moss Cocoon Vigil` | [Moss Cocoon Vigil.json](<Moss Cocoon Vigil.json>) |
 | Moss Poultice | `Moss Poultice` | [Moss Poultice.json](<Moss Poultice.json>) |
 | Mountain of Give | `Mountain of Give` | [Mountain of Give.json](<Mountain of Give.json>) |
+| Moving Backboard | `Moving Backboard` | [Moving Backboard.json](<Moving Backboard.json>) |
 | Murk Sight | `Murk Sight` | [Murk Sight.json](<Murk Sight.json>) |
 | Muted Color Watch | `Muted Color Watch` | [Muted Color Watch.json](<Muted Color Watch.json>) |
 | Name on the Door | `Name on the Door` | [Name on the Door.json](<Name on the Door.json>) |
@@ -727,6 +783,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Opening Measure | `Opening Measure` | [Opening Measure.json](<Opening Measure.json>) |
 | Opening Read | `Opening Read` | [Opening Read.json](<Opening Read.json>) |
 | Orbit Step | `Orbit Step` | [Orbit Step.json](<Orbit Step.json>) |
+| Orchard Jack | `Orchard Jack` | [Orchard Jack.json](<Orchard Jack.json>) |
 | Ordeal Surge | `Ordeal Surge` | [Ordeal Surge.json](<Ordeal Surge.json>) |
 | Out of Mind | `Out of Mind` | [Out of Mind.json](<Out of Mind.json>) |
 | Outsize Swat | `Outsize Swat` | [Outsize Swat.json](<Outsize Swat.json>) |
@@ -738,6 +795,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Owner's Trail | `Owner's Trail` | [Owner's Trail.json](<Owner's Trail.json>) |
 | Ozone Clasp | `Ozone Clasp` | [Ozone Clasp.json](<Ozone Clasp.json>) |
 | Pack Accord | `Pack Accord` | [Pack Accord.json](<Pack Accord.json>) |
+| Paint the Key | `Paint the Key` | [Paint the Key.json](<Paint the Key.json>) |
 | Paired Arm Pin | `Paired Arm Pin` | [Paired Arm Pin.json](<Paired Arm Pin.json>) |
 | Paired Feather Lift | `Paired Feather Lift` | [Paired Feather Lift.json](<Paired Feather Lift.json>) |
 | Palm Contact Spark | `Palm Contact Spark` | [Palm Contact Spark.json](<Palm Contact Spark.json>) |
@@ -770,9 +828,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Periscope Peek | `Periscope Peek` | [Periscope Peek.json](<Periscope Peek.json>) |
 | Permafrost Reach | `Permafrost Reach` | [Permafrost Reach.json](<Permafrost Reach.json>) |
 | Permafrost Redoubt | `Permafrost Redoubt` | [Permafrost Redoubt.json](<Permafrost Redoubt.json>) |
+| Petrified Brake | `Petrified Brake` | [Petrified Brake.json](<Petrified Brake.json>) |
 | Phantom Feint | `Phantom Feint` | [Phantom Feint.json](<Phantom Feint.json>) |
 | Pickpocket Encore | `Pickpocket Encore` | [Pickpocket Encore.json](<Pickpocket Encore.json>) |
 | Piercing Furnace Jet | `Piercing Furnace Jet` | [Piercing Furnace Jet.json](<Piercing Furnace Jet.json>) |
+| Pike Ring | `Pike Ring` | [Pike Ring.json](<Pike Ring.json>) |
 | Pillar of Arms | `Pillar of Arms` | [Pillar of Arms.json](<Pillar of Arms.json>) |
 | Pillar Stance | `Pillar Stance` | [Pillar Stance.json](<Pillar Stance.json>) |
 | Pin-Down Fire | `Pin-Down Fire` | [Pin-Down Fire.json](<Pin-Down Fire.json>) |
@@ -784,6 +844,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Pinpoint Ray | `Pinpoint Ray` | [Pinpoint Ray.json](<Pinpoint Ray.json>) |
 | Piston Kick | `Piston Kick` | [Piston Kick.json](<Piston Kick.json>) |
 | Piston Vault | `Piston Vault` | [Piston Vault.json](<Piston Vault.json>) |
+| Pit Crew Devil | `Pit Crew Devil` | [Pit Crew Devil.json](<Pit Crew Devil.json>) |
 | Pitch-Dark Accord | `Pitch-Dark Accord` | [Pitch-Dark Accord.json](<Pitch-Dark Accord.json>) |
 | Pivot Wheel | `Pivot Wheel` | [Pivot Wheel.json](<Pivot Wheel.json>) |
 | Placed Marker Arc | `Placed Marker Arc` | [Placed Marker Arc.json](<Placed Marker Arc.json>) |
@@ -793,15 +854,18 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Plug and Patch | `Plug and Patch` | [Plug and Patch.json](<Plug and Patch.json>) |
 | Plugside Listen | `Plugside Listen` | [Plugside Listen.json](<Plugside Listen.json>) |
 | Pocket Rig | `Pocket Rig` | [Pocket Rig.json](<Pocket Rig.json>) |
+| Pocket Sirocco | `Pocket Sirocco` | [Pocket Sirocco.json](<Pocket Sirocco.json>) |
 | Polar Cathedral | `Polar Cathedral` | [Polar Cathedral.json](<Polar Cathedral.json>) |
 | Polar Jolt | `Polar Jolt` | [Polar Jolt.json](<Polar Jolt.json>) |
 | Polar Lock | `Polar Lock` | [Polar Lock.json](<Polar Lock.json>) |
+| Portcullis Rattle | `Portcullis Rattle` | [Portcullis Rattle.json](<Portcullis Rattle.json>) |
 | Powered Leap | `Powered Leap` | [Powered Leap.json](<Powered Leap.json>) |
 | Practiced Alibi | `Practiced Alibi` | [Practiced Alibi.json](<Practiced Alibi.json>) |
 | Precinct Override | `Precinct Override` | [Precinct Override.json](<Precinct Override.json>) |
 | Press Line | `Press Line` | [Press Line.json](<Press Line.json>) |
 | Pressure Seal | `Pressure Seal` | [Pressure Seal.json](<Pressure Seal.json>) |
 | Prism Rain | `Prism Rain` | [Prism Rain.json](<Prism Rain.json>) |
+| Procession Veil | `Procession Veil` | [Procession Veil.json](<Procession Veil.json>) |
 | Pullback Band | `Pullback Band` | [Pullback Band.json](<Pullback Band.json>) |
 | Pulse in the Crowd | `Pulse in the Crowd` | [Pulse in the Crowd.json](<Pulse in the Crowd.json>) |
 | Pyramid Boost | `Pyramid Boost` | [Pyramid Boost.json](<Pyramid Boost.json>) |
@@ -811,6 +875,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Quenched Bind | `Quenched Bind` | [Quenched Bind.json](<Quenched Bind.json>) |
 | Quick-Change Fade | `Quick-Change Fade` | [Quick-Change Fade.json](<Quick-Change Fade.json>) |
 | Quiet Drop | `Quiet Drop` | [Quiet Drop.json](<Quiet Drop.json>) |
+| Quiet Hearth | `Quiet Hearth` | [Quiet Hearth.json](<Quiet Hearth.json>) |
 | Quiet Room Count | `Quiet Room Count` | [Quiet Room Count.json](<Quiet Room Count.json>) |
 | Quill Clothing Pin | `Quill Clothing Pin` | [Quill Clothing Pin.json](<Quill Clothing Pin.json>) |
 | Quill Signal Coordination | `Quill Signal Coordination` | [Quill Signal Coordination.json](<Quill Signal Coordination.json>) |
@@ -818,6 +883,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Quill Weapon Clamp | `Quill Weapon Clamp` | [Quill Weapon Clamp.json](<Quill Weapon Clamp.json>) |
 | Quirk-Fit Tuning | `Quirk-Fit Tuning` | [Quirk-Fit Tuning.json](<Quirk-Fit Tuning.json>) |
 | Radiant Straightaway | `Radiant Straightaway` | [Radiant Straightaway.json](<Radiant Straightaway.json>) |
+| Rafter Cradle | `Rafter Cradle` | [Rafter Cradle.json](<Rafter Cradle.json>) |
+| Rafter Pendulum | `Rafter Pendulum` | [Rafter Pendulum.json](<Rafter Pendulum.json>) |
 | Rail Glide | `Rail Glide` | [Rail Glide.json](<Rail Glide.json>) |
 | Raised Hackles | `Raised Hackles` | [Raised Hackles.json](<Raised Hackles.json>) |
 | Raking Paw | `Raking Paw` | [Raking Paw.json](<Raking Paw.json>) |
@@ -842,6 +909,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Red Rag | `Red Rag` | [Red Rag.json](<Red Rag.json>) |
 | Red String Method | `Red String Method` | [Red String Method.json](<Red String Method.json>) |
 | Red Wing Hop | `Red Wing Hop` | [Red Wing Hop.json](<Red Wing Hop.json>) |
+| Redcrest Wheel | `Redcrest Wheel` | [Redcrest Wheel.json](<Redcrest Wheel.json>) |
 | Redline Marathon | `Redline Marathon` | [Redline Marathon.json](<Redline Marathon.json>) |
 | Redline Overload | `Redline Overload` | [Redline Overload.json](<Redline Overload.json>) |
 | Redline Ram | `Redline Ram` | [Redline Ram.json](<Redline Ram.json>) |
@@ -871,11 +939,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Ricochet Rampage | `Ricochet Rampage` | [Ricochet Rampage.json](<Ricochet Rampage.json>) |
 | Ricochet Rush | `Ricochet Rush` | [Ricochet Rush.json](<Ricochet Rush.json>) |
 | Ridge Lock | `Ridge Lock` | [Ridge Lock.json](<Ridge Lock.json>) |
+| Rim Tap | `Rim Tap` | [Rim Tap.json](<Rim Tap.json>) |
 | Rime Ember Ward | `Rime Ember Ward` | [Rime Ember Ward.json](<Rime Ember Ward.json>) |
 | Rime Rush | `Rime Rush` | [Rime Rush.json](<Rime Rush.json>) |
 | Rime Shackle | `Rime Shackle` | [Rime Shackle.json](<Rime Shackle.json>) |
 | Rime Shell Guard | `Rime Shell Guard` | [Rime Shell Guard.json](<Rime Shell Guard.json>) |
 | Rime Wedge | `Rime Wedge` | [Rime Wedge.json](<Rime Wedge.json>) |
+| Ringing Bounce Net | `Ringing Bounce Net` | [Ringing Bounce Net.json](<Ringing Bounce Net.json>) |
 | Riptide Tow | `Riptide Tow` | [Riptide Tow.json](<Riptide Tow.json>) |
 | Rise and Plummet | `Rise and Plummet` | [Rise and Plummet.json](<Rise and Plummet.json>) |
 | Riverbed Walk | `Riverbed Walk` | [Riverbed Walk.json](<Riverbed Walk.json>) |
@@ -911,6 +981,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Sapping Bloom Touch | `Sapping Bloom Touch` | [Sapping Bloom Touch.json](<Sapping Bloom Touch.json>) |
 | Scaffold Scramble | `Scaffold Scramble` | [Scaffold Scramble.json](<Scaffold Scramble.json>) |
 | Scald Puff | `Scald Puff` | [Scald Puff.json](<Scald Puff.json>) |
+| Scale Awning | `Scale Awning` | [Scale Awning.json](<Scale Awning.json>) |
 | Scalp Spring | `Scalp Spring` | [Scalp Spring.json](<Scalp Spring.json>) |
 | Scar Memory | `Scar Memory` | [Scar Memory.json](<Scar Memory.json>) |
 | Scarlet Intercept Flight | `Scarlet Intercept Flight` | [Scarlet Intercept Flight.json](<Scarlet Intercept Flight.json>) |
@@ -946,6 +1017,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Setup Relay | `Setup Relay` | [Setup Relay.json](<Setup Relay.json>) |
 | Shade Catch | `Shade Catch` | [Shade Catch.json](<Shade Catch.json>) |
 | Shade Ribbon Tow | `Shade Ribbon Tow` | [Shade Ribbon Tow.json](<Shade Ribbon Tow.json>) |
+| Shade Wick | `Shade Wick` | [Shade Wick.json](<Shade Wick.json>) |
 | Shadow Hand Catch | `Shadow Hand Catch` | [Shadow Hand Catch.json](<Shadow Hand Catch.json>) |
 | Shadow Snare | `Shadow Snare` | [Shadow Snare.json](<Shadow Snare.json>) |
 | Shadow Step Haul | `Shadow Step Haul` | [Shadow Step Haul.json](<Shadow Step Haul.json>) |
@@ -969,6 +1041,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Shelter Shell | `Shelter Shell` | [Shelter Shell.json](<Shelter Shell.json>) |
 | Sheltered Carry | `Sheltered Carry` | [Sheltered Carry.json](<Sheltered Carry.json>) |
 | Shifted Center | `Shifted Center` | [Shifted Center.json](<Shifted Center.json>) |
+| Shingle Shrug | `Shingle Shrug` | [Shingle Shrug.json](<Shingle Shrug.json>) |
 | Short Range Flash | `Short Range Flash` | [Short Range Flash.json](<Short Range Flash.json>) |
 | Shoulder Breach | `Shoulder Breach` | [Shoulder Breach.json](<Shoulder Breach.json>) |
 | Shouldered Price | `Shouldered Price` | [Shouldered Price.json](<Shouldered Price.json>) |
@@ -980,10 +1053,12 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Sidelong Reach | `Sidelong Reach` | [Sidelong Reach.json](<Sidelong Reach.json>) |
 | Sidestep Riposte | `Sidestep Riposte` | [Sidestep Riposte.json](<Sidestep Riposte.json>) |
 | Sight-Line Survey | `Sight-Line Survey` | [Sight-Line Survey.json](<Sight-Line Survey.json>) |
+| Signal Chain | `Signal Chain` | [Signal Chain.json](<Signal Chain.json>) |
 | Signal Shell | `Signal Shell` | [Signal Shell.json](<Signal Shell.json>) |
 | Signal-Cut Raid | `Signal-Cut Raid` | [Signal-Cut Raid.json](<Signal-Cut Raid.json>) |
 | Silent Battalion | `Silent Battalion` | [Silent Battalion.json](<Silent Battalion.json>) |
 | Silent Thunder | `Silent Thunder` | [Silent Thunder.json](<Silent Thunder.json>) |
+| Silver Litter | `Silver Litter` | [Silver Litter.json](<Silver Litter.json>) |
 | Simmering Hall | `Simmering Hall` | [Simmering Hall.json](<Simmering Hall.json>) |
 | Sinker Grasp | `Sinker Grasp` | [Sinker Grasp.json](<Sinker Grasp.json>) |
 | Sinking Guard | `Sinking Guard` | [Sinking Guard.json](<Sinking Guard.json>) |
@@ -1012,6 +1087,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Slingshot Launch | `Slingshot Launch` | [Slingshot Launch.json](<Slingshot Launch.json>) |
 | Slip the Line | `Slip the Line` | [Slip the Line.json](<Slip the Line.json>) |
 | Slip the Shape | `Slip the Shape` | [Slip the Shape.json](<Slip the Shape.json>) |
+| Slipface Rush | `Slipface Rush` | [Slipface Rush.json](<Slipface Rush.json>) |
 | Slipstream Conduit | `Slipstream Conduit` | [Slipstream Conduit.json](<Slipstream Conduit.json>) |
 | Slipstream Dash | `Slipstream Dash` | [Slipstream Dash.json](<Slipstream Dash.json>) |
 | Slipstream Skyway | `Slipstream Skyway` | [Slipstream Skyway.json](<Slipstream Skyway.json>) |
@@ -1038,6 +1114,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Solstice Front | `Solstice Front` | [Solstice Front.json](<Solstice Front.json>) |
 | Sonar Sweep | `Sonar Sweep` | [Sonar Sweep.json](<Sonar Sweep.json>) |
 | Soothing Word | `Soothing Word` | [Soothing Word.json](<Soothing Word.json>) |
+| Sootpaw Catch | `Sootpaw Catch` | [Sootpaw Catch.json](<Sootpaw Catch.json>) |
 | Sovereign Call | `Sovereign Call` | [Sovereign Call.json](<Sovereign Call.json>) |
 | Spare Self | `Spare Self` | [Spare Self.json](<Spare Self.json>) |
 | Spark the Stampede | `Spark the Stampede` | [Spark the Stampede.json](<Spark the Stampede.json>) |
@@ -1045,8 +1122,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Special Move Training | `Special Move Training` | [Special Move Training.json](<Special Move Training.json>) |
 | Specter Drive | `Specter Drive` | [Specter Drive.json](<Specter Drive.json>) |
 | Spiral Palm | `Spiral Palm` | [Spiral Palm.json](<Spiral Palm.json>) |
+| Spiral Scour | `Spiral Scour` | [Spiral Scour.json](<Spiral Scour.json>) |
 | Split Body Screen | `Split Body Screen` | [Split Body Screen.json](<Split Body Screen.json>) |
 | Split Leash | `Split Leash` | [Split Leash.json](<Split Leash.json>) |
+| Split Score | `Split Score` | [Split Score.json](<Split Score.json>) |
 | Split the Story | `Split the Story` | [Split the Story.json](<Split the Story.json>) |
 | Splitting Image | `Splitting Image` | [Splitting Image.json](<Splitting Image.json>) |
 | Spoken Tether | `Spoken Tether` | [Spoken Tether.json](<Spoken Tether.json>) |
@@ -1090,6 +1169,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Sticky Intercept | `Sticky Intercept` | [Sticky Intercept.json](<Sticky Intercept.json>) |
 | Sticky Toss | `Sticky Toss` | [Sticky Toss.json](<Sticky Toss.json>) |
 | Sticky Wrist Wrap | `Sticky Wrist Wrap` | [Sticky Wrist Wrap.json](<Sticky Wrist Wrap.json>) |
+| Still Foot Feint | `Still Foot Feint` | [Still Foot Feint.json](<Still Foot Feint.json>) |
 | Still Point | `Still Point` | [Still Point.json](<Still Point.json>) |
 | Stilled Quarter | `Stilled Quarter` | [Stilled Quarter.json](<Stilled Quarter.json>) |
 | Stone Skin | `Stone Skin` | [Stone Skin.json](<Stone Skin.json>) |
@@ -1133,12 +1213,14 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Sweep and Count | `Sweep and Count` | [Sweep and Count.json](<Sweep and Count.json>) |
 | Sweeping Wave Guard | `Sweeping Wave Guard` | [Sweeping Wave Guard.json](<Sweeping Wave Guard.json>) |
 | Sweet Lift | `Sweet Lift` | [Sweet Lift.json](<Sweet Lift.json>) |
+| Switchback Swing | `Switchback Swing` | [Switchback Swing.json](<Switchback Swing.json>) |
 | Synapse Sprint | `Synapse Sprint` | [Synapse Sprint.json](<Synapse Sprint.json>) |
 | Tack Shot | `Tack Shot` | [Tack Shot.json](<Tack Shot.json>) |
 | Tail Counter Capture | `Tail Counter Capture` | [Tail Counter Capture.json](<Tail Counter Capture.json>) |
 | Tail Hammer | `Tail Hammer` | [Tail Hammer.json](<Tail Hammer.json>) |
 | Tail Mark | `Tail Mark` | [Tail Mark.json](<Tail Mark.json>) |
 | Tail Rescue Hook | `Tail Rescue Hook` | [Tail Rescue Hook.json](<Tail Rescue Hook.json>) |
+| Tailstand Lift | `Tailstand Lift` | [Tailstand Lift.json](<Tailstand Lift.json>) |
 | Tailwind Burst | `Tailwind Burst` | [Tailwind Burst.json](<Tailwind Burst.json>) |
 | Tailwind Takeoff | `Tailwind Takeoff` | [Tailwind Takeoff.json](<Tailwind Takeoff.json>) |
 | Tangent Shot | `Tangent Shot` | [Tangent Shot.json](<Tangent Shot.json>) |
@@ -1195,6 +1277,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Tremor Web | `Tremor Web` | [Tremor Web.json](<Tremor Web.json>) |
 | Triangle Rush | `Triangle Rush` | [Triangle Rush.json](<Triangle Rush.json>) |
 | Trigger Finger Read | `Trigger Finger Read` | [Trigger Finger Read.json](<Trigger Finger Read.json>) |
+| Triple Cushion Tag | `Triple Cushion Tag` | [Triple Cushion Tag.json](<Triple Cushion Tag.json>) |
 | True Counterfeit | `True Counterfeit` | [True Counterfeit.json](<True Counterfeit.json>) |
 | Trump Card | `Trump Card` | [Trump Card.json](<Trump Card.json>) |
 | Tufted Strike | `Tufted Strike` | [Tufted Strike.json](<Tufted Strike.json>) |
@@ -1204,7 +1287,9 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Turned Grip | `Turned Grip` | [Turned Grip.json](<Turned Grip.json>) |
 | Turning Ray | `Turning Ray` | [Turning Ray.json](<Turning Ray.json>) |
 | Turning Tail Drive | `Turning Tail Drive` | [Turning Tail Drive.json](<Turning Tail Drive.json>) |
+| Turntable Tail | `Turntable Tail` | [Turntable Tail.json](<Turntable Tail.json>) |
 | Twilight Cordon | `Twilight Cordon` | [Twilight Cordon.json](<Twilight Cordon.json>) |
+| Twin Arrest | `Twin Arrest` | [Twin Arrest.json](<Twin Arrest.json>) |
 | Twin Pulse Barrage | `Twin Pulse Barrage` | [Twin Pulse Barrage.json](<Twin Pulse Barrage.json>) |
 | Twin Reel Slam | `Twin Reel Slam` | [Twin Reel Slam.json](<Twin Reel Slam.json>) |
 | Twin Speaker Burst | `Twin Speaker Burst` | [Twin Speaker Burst.json](<Twin Speaker Burst.json>) |
@@ -1221,11 +1306,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Unbroken Tail Circuit | `Unbroken Tail Circuit` | [Unbroken Tail Circuit.json](<Unbroken Tail Circuit.json>) |
 | Unbroken Vigil | `Unbroken Vigil` | [Unbroken Vigil.json](<Unbroken Vigil.json>) |
 | Unburdening | `Unburdening` | [Unburdening.json](<Unburdening.json>) |
+| Underdoor Eddy | `Underdoor Eddy` | [Underdoor Eddy.json](<Underdoor Eddy.json>) |
 | Underfloor Circuit | `Underfloor Circuit` | [Underfloor Circuit.json](<Underfloor Circuit.json>) |
 | Undertow Transit | `Undertow Transit` | [Undertow Transit.json](<Undertow Transit.json>) |
 | Underwing Dome | `Underwing Dome` | [Underwing Dome.json](<Underwing Dome.json>) |
 | Unfolding Stairway | `Unfolding Stairway` | [Unfolding Stairway.json](<Unfolding Stairway.json>) |
 | Unison Blow | `Unison Blow` | [Unison Blow.json](<Unison Blow.json>) |
+| Unlit Bellows | `Unlit Bellows` | [Unlit Bellows.json](<Unlit Bellows.json>) |
 | Unmelting Seal | `Unmelting Seal` | [Unmelting Seal.json](<Unmelting Seal.json>) |
 | Unmoored Block | `Unmoored Block` | [Unmoored Block.json](<Unmoored Block.json>) |
 | Unraveled Dragnet | `Unraveled Dragnet` | [Unraveled Dragnet.json](<Unraveled Dragnet.json>) |
@@ -1243,6 +1330,8 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Vanishing Shift | `Vanishing Shift` | [Vanishing Shift.json](<Vanishing Shift.json>) |
 | Vapor Sear | `Vapor Sear` | [Vapor Sear.json](<Vapor Sear.json>) |
 | Vapordraft Clear | `Vapordraft Clear` | [Vapordraft Clear.json](<Vapordraft Clear.json>) |
+| Vaultback Brace | `Vaultback Brace` | [Vaultback Brace.json](<Vaultback Brace.json>) |
+| Velvet Doorstop | `Velvet Doorstop` | [Velvet Doorstop.json](<Velvet Doorstop.json>) |
 | Verdant Overrun | `Verdant Overrun` | [Verdant Overrun.json](<Verdant Overrun.json>) |
 | Vermilion Briar | `Vermilion Briar` | [Vermilion Briar.json](<Vermilion Briar.json>) |
 | Vertical Flame Release | `Vertical Flame Release` | [Vertical Flame Release.json](<Vertical Flame Release.json>) |
@@ -1263,6 +1352,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Waiting Trap | `Waiting Trap` | [Waiting Trap.json](<Waiting Trap.json>) |
 | Waking Word | `Waking Word` | [Waking Word.json](<Waking Word.json>) |
 | Walk the Scene | `Walk the Scene` | [Walk the Scene.json](<Walk the Scene.json>) |
+| Walking Hook | `Walking Hook` | [Walking Hook.json](<Walking Hook.json>) |
 | Wall Bound | `Wall Bound` | [Wall Bound.json](<Wall Bound.json>) |
 | Wall Ear | `Wall Ear` | [Wall Ear.json](<Wall Ear.json>) |
 | Wall of Dread | `Wall of Dread` | [Wall of Dread.json](<Wall of Dread.json>) |
@@ -1297,6 +1387,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Whole Street Spiral | `Whole Street Spiral` | [Whole Street Spiral.json](<Whole Street Spiral.json>) |
 | Whole Ward Census | `Whole Ward Census` | [Whole Ward Census.json](<Whole Ward Census.json>) |
 | Whole-Board Read | `Whole-Board Read` | [Whole-Board Read.json](<Whole-Board Read.json>) |
+| Wickless Flick | `Wickless Flick` | [Wickless Flick.json](<Wickless Flick.json>) |
 | Wide Area Watch | `Wide Area Watch` | [Wide Area Watch.json](<Wide Area Watch.json>) |
 | Wide Loop Scout | `Wide Loop Scout` | [Wide Loop Scout.json](<Wide Loop Scout.json>) |
 | Wide Night Guard | `Wide Night Guard` | [Wide Night Guard.json](<Wide Night Guard.json>) |

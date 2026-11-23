@@ -1,0 +1,29 @@
+{
+  "Glass Impression": {
+    "name": "Glass Impression",
+    "description": "The user kneels on dry ground and blows fine mineral grains into a recess within arm's reach until they fill every groove. The user spins and presses the outer layer into a thin glass shell and draws the loose grains back out. In one turn the user lifts a cast that shows by touch where a hidden fitting has bent or a catch has slipped. The cast lasts for the scene if handled gently. The fitting must stay still until the shell comes free or the glass breaks. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  }
+}

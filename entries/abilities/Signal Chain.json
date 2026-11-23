@@ -1,0 +1,24 @@
+{
+  "Signal Chain": {
+    "name": "Signal Chain",
+    "description": "The user runs a chain around a stair post to a teammate up to eight meters away. For two turns each can feel the other's tugs through smoke or a closed door left ajar for the line. The signal deals no bludgeoning damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

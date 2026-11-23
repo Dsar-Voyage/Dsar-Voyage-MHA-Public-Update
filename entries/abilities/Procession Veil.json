@@ -1,0 +1,24 @@
+{
+  "Procession Veil": {
+    "name": "Procession Veil",
+    "description": "The user becomes a low bank of smoke that drifts alongside three evacuees walking with the draft across a six-meter hall. For two turns it masks their outlines from one side without toxic damage. A turn against the draft leaves the screen behind. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Smoke Body Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

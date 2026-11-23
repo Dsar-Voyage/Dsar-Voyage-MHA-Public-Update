@@ -1,0 +1,24 @@
+{
+  "Quiet Hearth": {
+    "name": "Quiet Hearth",
+    "description": "The user crouches inside a cloak of black flame while the companion folds its silhouette over the bright gaps. For two turns someone across the room sees only a patch of darkness. The outward-facing heat deals fire damage on contact, and movement or a floodlight parts the cloak. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

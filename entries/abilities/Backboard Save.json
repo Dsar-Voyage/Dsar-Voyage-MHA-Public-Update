@@ -1,0 +1,24 @@
+{
+  "Backboard Save": {
+    "name": "Backboard Save",
+    "description": "A disc flashes off two hard walls and catches a falling score panel on its rim this turn. The last, weaker bank tips the panel flat onto a bench, sparing a teammate beneath it bludgeoning damage. Both walls and the catch must fit along a fifteen-meter path. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

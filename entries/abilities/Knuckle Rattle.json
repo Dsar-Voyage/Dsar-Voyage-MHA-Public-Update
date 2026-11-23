@@ -1,0 +1,20 @@
+{
+  "Knuckle Rattle": {
+    "name": "Knuckle Rattle",
+    "description": "The user rolls a slack loop off one wrist. Its broad side smacks one target within four meters for light bludgeoning damage this turn, or rings a practice bell with a single bright note. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 6,
+    "cooldown": 1
+  }
+}

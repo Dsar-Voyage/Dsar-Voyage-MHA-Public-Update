@@ -1,0 +1,24 @@
+{
+  "Shade Wick": {
+    "name": "Shade Wick",
+    "description": "The companion presses a paw to a cast shadow. Black fire races along that connected shade to one object up to five meters away and feeds there for two turns, dealing fire damage. A band of bright light cuts the wick. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

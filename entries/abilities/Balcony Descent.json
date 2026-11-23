@@ -1,0 +1,25 @@
+{
+  "Balcony Descent": {
+    "name": "Balcony Descent",
+    "description": "The user casts up to twenty chains from their forearms, one to each occupied balcony on the face of a ten-story building. Each line hooks a sturdy rail and drops a loop for one rider to sit in. For the rest of the scene the user pays out the loops to street level and draws them back empty for the next riders. The user must keep both feet planted below, and a balcony with no secure rail gets no line. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  }
+}

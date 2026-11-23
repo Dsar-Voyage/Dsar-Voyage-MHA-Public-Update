@@ -1,0 +1,29 @@
+{
+  "Last Lamp Out": {
+    "name": "Last Lamp Out",
+    "description": "Signature move. The companion bounds through the user's blaze and spreads it across a four-meter pool of shade. For two turns the black tongues drink nearby lamplight, hiding anyone inside from watchers outside. Flames clinging to a chosen object in the pool deal heavy fire damage. Direct sun or a floodlight cuts the pool apart. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  }
+}

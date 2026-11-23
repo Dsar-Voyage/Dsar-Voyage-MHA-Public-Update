@@ -1,0 +1,29 @@
+{
+  "Borrowed Wick": {
+    "name": "Borrowed Wick",
+    "description": "The user gives their companion a palmful of black fire and sends it along connected shade to an ally across a room. For three turns it rides the ally's shoulder, drawing the flame over their outline as they move and folding the heat back into its paws wherever the ally touches someone. The ally can carry a child unseen through the shade without burning them. While the companion tends the cloak the user has no flame of their own, and stepping into direct light ends it. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  }
+}

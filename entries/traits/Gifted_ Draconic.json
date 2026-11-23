@@ -1,0 +1,35 @@
+{
+  "Gifted: Draconic": {
+    "name": "Gifted: Draconic",
+    "description": "🧬 Draconic, as an extra Quirk put into your body.\n\n🌱 At the start your scales can turn a glancing cut and one short exhale sends fire two meters.\n📈 With training: tail-assisted lifts, horn catches, a shield for a fallen teammate, and a charging turn behind a fan of flame.\n⚠️ After each flame breath, spend one full turn holding a fresh breath before firing again. Cold slows your joints. Your wingless body stays grounded.\n🔗 Common drawback pairing: Visible Tell. If chosen, your throat shines through your collar before you breathe fire.\n🎬 Similar canon Quirks: Ryukyu (Dragon) for the dragon physique and Mashirao Ojiro (Tail) for balance.\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",
+    "traitNarrativeEffects": "Gifted extra Quirk (Draconic family): Scale: Permanent adult-sized dragon build. Claws grip ledges, scales turn glancing cuts, short chest-fed breath reaches two meters, four with training. Limits: Each flame use needs a full breath-hold turn before another. Cold stiffens joints. Scale seams yield and the horn spread needs clearance. No wings or flight. Quirk Strain: light: Shingle Shrug, Kiln Puff; moderate: Tailstand Lift, Crown Catch, Cliffside Clutch; heavy: Scale Awning, Turntable Tail, Furnace Ribbon, Vaultback Brace, Crestline Drive; severe: Redcrest Wheel. Type: Mutant. Law: Horns and claws are ordinary features. Breathing fire into a crowd risks an assault charge. Look: Overlapping scales lift above the sternum on the inhale.",
+    "attributes": [],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 5
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": 5
+      },
+      {
+        "skill": "Blocking",
+        "modifier": 2
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "All For One's Gift"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": [],
+    "resistances": [
+      "slashing"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Chimney Scales": {
+    "name": "Chimney Scales",
+    "description": "The user presses their scaled back and tail against opposite walls of a narrow shaft. Rows of scales tilt and grip in turn, holding the user's weight on one set while the next slides up or down. For three turns the user can climb a story each turn with both hands free to carry one passenger, stopping anywhere along the shaft to let them off. The walls must be close enough to brace against, and cold that stiffens the tail stops the climb. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Mobility",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  }
+}

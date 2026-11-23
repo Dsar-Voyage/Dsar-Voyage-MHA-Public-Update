@@ -1,0 +1,24 @@
+{
+  "Moving Backboard": {
+    "name": "Moving Backboard",
+    "description": "The user signals a partner with a rigid shield, then banks a disc off its tilted face. The disc can tag one target around a corner for force damage this turn along a path of up to twelve meters. The shield angle must be set in time. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 6
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

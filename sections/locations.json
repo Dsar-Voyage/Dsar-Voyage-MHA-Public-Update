@@ -2701,6 +2701,13 @@
             }
           }
         }
+      },
+      "Your Apartment": {
+        "description": "The player character's own small rented apartment on a quiet residential street a few minutes' walk from Musutafu Station: a narrow entry with shoes by the door, a six-mat main room with a low table and a folded futon, a kitchenette with a rice cooker and a kettle, a small bathroom and a balcony with a washing line. Rent is due on the first, the walls are thin, and the neighbors nod on the stairs. It is private: nobody comes in unless the player lets them.",
+        "paths": [
+          "Station Concourse",
+          "Convenience Store Corner"
+        ]
       }
     },
     "factions": [

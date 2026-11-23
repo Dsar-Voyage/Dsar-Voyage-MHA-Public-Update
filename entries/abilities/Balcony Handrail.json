@@ -1,0 +1,24 @@
+{
+  "Balcony Handrail": {
+    "name": "Balcony Handrail",
+    "description": "Three chains loop around sound posts to make a footline and twin handrails across a gap up to ten meters wide. One person at a time can cross for three turns with a handhold against falling bludgeoning damage. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

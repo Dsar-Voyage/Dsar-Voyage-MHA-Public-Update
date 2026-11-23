@@ -1,0 +1,29 @@
+{
+  "Borrowed Knees": {
+    "name": "Borrowed Knees",
+    "description": "The user grows thin strips of wood from their palms down the outsides of a willing person's legs. For five minutes the user walks beside them, keeping the wood soft at each bending knee and locking the grain along the leg that bears weight. A person whose legs give way can stand, take steps and lower themselves into a seat. The user must keep both palms on the person's hips and match each step. Breaking contact cuts the strips free and they soften at once. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 45
+      },
+      {
+        "type": "characterLevel",
+        "amount": 30
+      }
+    ],
+    "bonus": 18,
+    "cooldown": 6
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Bunker Bowl": {
+    "name": "Bunker Bowl",
+    "description": "A circle of grit sinks and builds a shoulder-high sand rim around two people within six meters. For three turns it catches low debris that would deal piercing damage, leaving a gap on one side for the pair to exit. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

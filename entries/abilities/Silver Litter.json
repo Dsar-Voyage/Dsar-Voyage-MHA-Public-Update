@@ -1,0 +1,24 @@
+{
+  "Silver Litter": {
+    "name": "Silver Litter",
+    "description": "Two chains loop under opposite ends of a stretcher within ten meters. For two turns the user lowers one passenger level past a broken stair, keeping the litter clear of bludgeoning damage against the steps. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 18
+      },
+      {
+        "type": "characterLevel",
+        "amount": 8
+      }
+    ],
+    "bonus": 10,
+    "cooldown": 2
+  }
+}

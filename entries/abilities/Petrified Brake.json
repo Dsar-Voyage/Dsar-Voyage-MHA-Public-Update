@@ -1,0 +1,24 @@
+{
+  "Petrified Brake": {
+    "name": "Petrified Brake",
+    "description": "The user spreads two living branches across a three-meter ramp and grows backward-facing thorns along them. For two turns the thorns turn stone-gray and catch a rolling crate for piercing damage to its underside. The branches stay fixed until softened. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

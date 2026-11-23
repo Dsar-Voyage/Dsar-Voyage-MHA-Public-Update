@@ -1,0 +1,24 @@
+{
+  "Ballast Bench": {
+    "name": "Ballast Bench",
+    "description": "The user pats a patch of loose sand into a seat wide enough for two within three meters. It holds for three turns so a rescuer can set a passenger down clear of rolling debris and its bludgeoning damage. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}

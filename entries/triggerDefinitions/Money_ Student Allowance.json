@@ -1,0 +1,16 @@
+{
+  "Money: Student Allowance": {
+    "name": "Money: Student Allowance",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const d=check({type:'read-number',key:'currentDay'})||0;if(d<1){skip=true;return;}const r0=(d+29),y=Math.floor(r0/365);let r=r0%365,i=0;const ML=[31,30,31,30,31,31,30,31,30,31,31,28];while(r>=ML[i]){r-=ML[i];i++;}const mo=y*12+i;if(typeof storage.alM!=='number'){storage.alM=r===0?mo-1:mo;}if(mo<=storage.alM){skip=true;return;}const n=mo-storage.alM;storage.alM=mo;const T=JSON.stringify(check({type:'player-traits'})||'');if(!/U[.]A[.] (Hero Course|General Studies|Support Course|Management Course)/.test(T))return;const A={\"Wealthy Family\": 80000, \"Hero Family\": 30000, \"Police Family\": 20000, \"Ordinary Family\": 20000, \"Family Business\": 20000, \"Grew Up Facing Prejudice\": 20000, \"Criminal Ties\": 20000};let a=0;for(const k in A)if(T.indexOf(k)>=0){a=A[k];break;}if(a>0){effects.push({type:'item-add',item:'Yen',quantity:a*n});log('student allowance '+a+' x'+n);}})();"
+  }
+}

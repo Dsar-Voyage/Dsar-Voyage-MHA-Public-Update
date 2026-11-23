@@ -1,0 +1,20 @@
+{
+  "Knockbark": {
+    "name": "Knockbark",
+    "description": "A saucer of bark rises from one forearm and turns gray with a dry knock. For one turn it shields that patch from slashing damage at arm's reach. The elbow and hand remain free. Strain: light.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 1
+      }
+    ],
+    "bonus": 5,
+    "cooldown": 0
+  }
+}

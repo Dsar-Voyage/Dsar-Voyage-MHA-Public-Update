@@ -1,0 +1,25 @@
+{
+  "Long Kiln": {
+    "name": "Long Kiln",
+    "description": "The user braces on both feet and tail and exhales a single column of flame down the length of a freight platform. The breath lasts one turn and deals massive fire damage to barriers and foes in its path. To hold back, the user narrows the column and burns a strip of bare paving ahead of a charge, leaving room on either side to retreat. The user's chest plates stay spread after the exhale, exposing their seams for the two full turns the user must hold a fresh breath before firing again. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Draconic Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  }
+}

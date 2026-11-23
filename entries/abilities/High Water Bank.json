@@ -1,0 +1,25 @@
+{
+  "High Water Bank": {
+    "name": "High Water Bank",
+    "description": "The user plants both feet on a sandy riverbank and drives loose dry sand along the waterfront in low spirals. Over two turns the user packs a continuous bank as high as a bus along a city block, turning floodwater away from ground-floor doors for the rest of the scene. The user can leave a gap to drain the water onto empty ground. The bank needs sand from the full length of the shore, and any section overtopped by water washes out. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "Forked Passage": {
+    "name": "Forked Passage",
+    "description": "Green branches fork from the user's back to part loose curtains of cable or brush across a five-meter passage. For three turns two teammates can follow single file, shielded from slashing damage by sharp ends. Releasing the branches lets the passage close. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ironwood Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 32
+      },
+      {
+        "type": "characterLevel",
+        "amount": 16
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

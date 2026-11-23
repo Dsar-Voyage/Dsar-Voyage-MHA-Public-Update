@@ -1,0 +1,24 @@
+{
+  "Pit Crew Devil": {
+    "name": "Pit Crew Devil",
+    "description": "A waist-high dust devil walks a six-meter lane for two turns, peeling loose grit from around wheels or buried footing and piling it to one side. Its gritty outer edge deals slashing damage on contact. Fixed rubble stays put. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

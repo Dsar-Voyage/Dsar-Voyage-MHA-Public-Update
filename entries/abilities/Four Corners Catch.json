@@ -1,0 +1,29 @@
+{
+  "Four Corners Catch": {
+    "name": "Four Corners Catch",
+    "description": "Signature move. Four chains catch the corner rails of a falling walkway section within twelve meters. From a solid footing the user levels the deck for three turns, preventing bludgeoning damage to its riders while they step off. The deck and riders together must weigh at most four adults. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Chain Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Breakthrough",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 10
+      },
+      {
+        "type": "characterLevel",
+        "amount": 20
+      }
+    ],
+    "bonus": 13,
+    "cooldown": 6
+  }
+}

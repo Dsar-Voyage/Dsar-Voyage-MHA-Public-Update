@@ -1,0 +1,25 @@
+{
+  "Grandstand Rounds": {
+    "name": "Grandstand Rounds",
+    "description": "The user sends a volley of discs along the concrete tiers of an entire stadium in one turn. Each disc can travel the length of the field and take up to eight banks to reach a different target behind cover. A direct hit deals heavy force damage. Each bank weakens the hit, and the first body or soft seat ends the shot. To hold back, the user sends slow discs against the hard rims of shields to tip them aside. Once released, even a stray disc stays on its course until impact. Strain: severe.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Ricochet Quirk",
+        "amount": 1
+      },
+      {
+        "type": "trait",
+        "variable": "Quirk Awakening",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Output",
+        "amount": 35
+      }
+    ],
+    "bonus": 14,
+    "cooldown": 4
+  }
+}

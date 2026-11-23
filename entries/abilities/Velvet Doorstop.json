@@ -1,0 +1,24 @@
+{
+  "Velvet Doorstop": {
+    "name": "Velvet Doorstop",
+    "description": "The shadow wedges its broad back beneath a swinging door within four meters. For two turns it holds the leaf away from a crawling evacuee, sparing them bludgeoning damage. A heavy security shutter outweighs the companion. Strain: heavy.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Blackflame Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 28
+      },
+      {
+        "type": "characterLevel",
+        "amount": 12
+      }
+    ],
+    "bonus": 12,
+    "cooldown": 3
+  }
+}

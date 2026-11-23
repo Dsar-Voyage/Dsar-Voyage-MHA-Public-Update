@@ -1,0 +1,24 @@
+{
+  "Blindside Drift": {
+    "name": "Blindside Drift",
+    "description": "A tan sheet of dust rolls across a doorway within five meters. For one turn people on both sides lose sight of each other. The suspended fine dust deals no slashing damage and falls early in rain. Strain: moderate.",
+    "requirements": [
+      {
+        "type": "trait",
+        "variable": "Sandstorm Quirk",
+        "amount": 1
+      },
+      {
+        "type": "skill",
+        "variable": "Quirk Control",
+        "amount": 12
+      },
+      {
+        "type": "characterLevel",
+        "amount": 4
+      }
+    ],
+    "bonus": 8,
+    "cooldown": 1
+  }
+}
