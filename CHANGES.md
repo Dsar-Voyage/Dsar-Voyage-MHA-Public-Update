@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.24 — Tougher Fights & Fixes (draft 856, not yet published)
+## 11.24 — Tougher Fights & Fixes (published 2026-11-24, draft 856)
 
 Every NPC has about 55-60% more health (30 per level + 300 base) and stamina starts at 150 plus 5 per Endurance point,
 grows 5 per level and recovers 8 per turn. Izuku's own One For All breaks are one minor injury at most and never mark
