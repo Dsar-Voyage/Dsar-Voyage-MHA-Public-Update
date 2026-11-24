@@ -6,6 +6,28 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.24 — Tougher Fights & Fixes (draft 856, not yet published)
+
+Every NPC has about 55-60% more health (30 per level + 300 base) and stamina starts at 150 plus 5 per Endurance point,
+grows 5 per level and recovers 8 per turn. Izuku's own One For All breaks are one minor injury at most and never mark
+him dead. Tiny Quirk uses (a candle, a spark, a glow) cost no Strain. Robots, drones and machines break at 0 health.
+Openings land in the right homeroom or course classroom; course classes hold their own students; the player's looks
+never show up on classmates. Loss of Control runs wild at the limit before it gives out. Classmates left on the
+Athletics Field go back to their school-uniform portraits. Skips to the camp, license exam or festivals move the
+calendar with the story. Only one Midnight. Gelatinous Guardian no longer fixes the player's parents.
+Full per-entry list: [`releases/11.24.changes.md`](releases/11.24.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `otherSettings` | NPC health per level and base. | whole section |
+| `resourceSettings` | Stamina (150, +5 per level, 8 per turn) and the Health / Quirk Strain rules (trivial uses, NPC backlash). | whole section |
+| `attributeSettings` | Endurance adds 5 stamina per point. | whole section |
+| `triggerDefinitions` | New: Clock: Skip unclear. Changed: Clock: Show Time, Combat: turning points, Opening: place from narration, Quirk: gives out at 100, Wardrobe groups 1-6, loaders. | whole entries |
+| `aiInstructions` | `generateActionInfo` (Strain costs), `generateNPCUpdates` (damage details), `generateNewNPC` (one Midnight). | whole entries |
+| `traits` | Gelatinous Guardian Quirk. | whole entry |
+
+---
+
 ## 11.22 — New Quirks & Fixes (published 2026-11-23, draft 831)
 
 Seven new Quirk families (Chain, Ricochet, Smoke Body, Draconic and the fusions Blackflame, Sandstorm, Ironwood) with

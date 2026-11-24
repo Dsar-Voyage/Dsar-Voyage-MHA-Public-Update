@@ -1,4 +1,4 @@
-# triggerDefinitions: 990 entries (11.22)
+# triggerDefinitions: 991 entries (11.24)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -101,6 +101,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Skip Band | `Clock: Skip Band` | [Clock_ Skip Band.json](<Clock_ Skip Band.json>) |
 | Clock: Skip Days | `Clock: Skip Days` | [Clock_ Skip Days.json](<Clock_ Skip Days.json>) |
 | Clock: Skip Held | `Clock: Skip Held` | [Clock_ Skip Held.json](<Clock_ Skip Held.json>) |
+| Clock: Skip unclear | `Clock: Skip unclear` | [Clock_ Skip unclear.json](<Clock_ Skip unclear.json>) |
 | Clock: Skip waits for class exercises | `Clock: Skip waits for class exercises` | [Clock_ Skip waits for class exercises.json](<Clock_ Skip waits for class exercises.json>) |
 | Clock: Sleep | `Clock: Sleep` | [Clock_ Sleep.json](<Clock_ Sleep.json>) |
 | Clock: Start | `Clock: Start` | [Clock_ Start.json](<Clock_ Start.json>) |

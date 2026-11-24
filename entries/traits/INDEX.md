@@ -1,4 +1,4 @@
-# traits: 1160 entries (11.22)
+# traits: 1160 entries (11.24)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

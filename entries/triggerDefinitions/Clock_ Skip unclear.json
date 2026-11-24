@@ -1,0 +1,27 @@
+{
+  "Clock: Skip unclear": {
+    "name": "Clock: Skip unclear",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-number",
+        "key": "currentDay",
+        "operator": "greaterThanOrEqual",
+        "value": 1
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Ss]kip|[Ll]ater|[Pp]ass|[Gg]oe?s? by|[Ww]ent by|[Ff]ast|[Jj]ump|[Ss]pen[dt]|[Ff]l(y|ies) by"
+      },
+      {
+        "type": "read-boolean",
+        "key": "skipBlock",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const tk=check({type:'game-tick'})||0;if(storage.skipTick===tk||storage.sS===tk){skip=true;return;}const A=check({type:'action-text'})||[];const t=String(Array.isArray(A)?(A[A.length-1]||''):A).toLowerCase();if(!/\\b(skip\\w*|jump\\w*|fast[- ]?forward)\\b[^.!?]{0,12}\\b(to|until|till|ahead)\\b/.test(t)){skip=true;return;}const d=check({type:'read-number',key:'currentDay'})||1;const DN=k=>check({type:'read-boolean',key:'done_'+k})===true;const AL=[[/\\b(summer|training|forest) (training )?camp\\b/,'forest_camp_arrival'],[/\\b(provisional )?licen[cs]e exam\\b/,'provisional_license_exam'],[/\\bsports festival\\b/,'sports_festival'],[/\\b(school|culture|cultural) festival\\b/,'school_festival']];let id=null;for(const a of AL)if(a[0].test(t)){id=a[1];break;}const EV=[];for(let i=1;storage['EVY'+i];i++)for(const x of storage['EVY'+i])EV.push(x);const X=id&&EV.find(x=>x[0]===id);const MO=[['March',31],['April',30],['May',31],['June',30],['July',31],['August',31],['September',30],['October',31],['November',30],['December',31],['January',31],['February',28]],WD=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];const DT=v=>{let r=(Math.max(1,v)+29)%365,i=0;while(r>=MO[i][1]){r-=MO[i][1];i++;}return WD[(Math.max(1,v)-1)%7]+', '+MO[i][0]+' '+(r+1);};if(X&&X[1]>d&&!DN(id)){const B=EV.filter(x=>x[1]>d&&x[1]<X[1]&&!DN(x[0])&&x[5]!==9).sort((a,b)=>a[1]-b[1])[0];const Y=B||X;const n=Y[1];storage.currentDay=n;storage.currentBandIndex=0;storage.skipTick=tk;storage.skipTo=n;effects.push({type:'write-number',key:'currentDay',operator:'set',value:n},{type:'write-number',key:'currentBandIndex',operator:'set',value:0},{type:'player-resource',resource:'Quirk Strain',operator:'set',value:0},{type:'player-resource',resource:'stamina',operator:'add',value:999},{type:'story',instruction:'Narrator only, first rule: '+(B?'the skip stops early, because '+String(B[4]).replace(/ at [^,]*$/,'')+' comes first: it is now '+DT(n)+', early morning, the day that event begins; do not skip past it, summarize the days between briefly and play that morning':'the skip goes to the start of '+String(X[4]).replace(/ at [^,]*$/,'')+': it is now '+DT(n)+', early morning; summarize the days between briefly and play that morning')+'.'});log('skip unclear: to '+Y[0]+' day '+n);return;}effects.push({type:'story',instruction:'Narrator only, first rule: the calendar could not read this skip, so NO time passes and no later date is named or shown; play on from the current moment and ask the player how many days to skip, or which date to skip to.'});log('skip unclear');})();"
+  }
+}
