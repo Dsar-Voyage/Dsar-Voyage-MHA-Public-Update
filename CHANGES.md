@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.25 — Voices & Limits (draft 870, not yet published)
+## 11.25 — Voices & Limits (published 2026-11-25, draft 870)
 
 The Quirk Strain limit grows with level: 100 at level 1, +10 per level, at most 300. Every Strain threshold is a share
 of the limit (Drawback from 60%, 50% Exceptional; active from 80%; gives out at the limit), a level-up no longer adds
