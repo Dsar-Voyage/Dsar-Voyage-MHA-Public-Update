@@ -1,4 +1,4 @@
-# triggerDefinitions: 991 entries (11.24)
+# triggerDefinitions: 992 entries (11.25)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -115,6 +115,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Combat: challenge in fights | `Combat: challenge in fights` | [Combat_ challenge in fights.json](<Combat_ challenge in fights.json>) |
 | Combat: fight director | `Combat: fight director` | [Combat_ fight director.json](<Combat_ fight director.json>) |
 | Combat: healing scales | `Combat: healing scales` | [Combat_ healing scales.json](<Combat_ healing scales.json>) |
+| Combat: knocked-out foes taken away | `Combat: knocked-out foes taken away` | [Combat_ knocked-out foes taken away.json](<Combat_ knocked-out foes taken away.json>) |
 | Combat: player badly hurt | `Combat: player badly hurt` | [Combat_ player badly hurt.json](<Combat_ player badly hurt.json>) |
 | Combat: Plus Ultra aftermath | `Combat: Plus Ultra aftermath` | [Combat_ Plus Ultra aftermath.json](<Combat_ Plus Ultra aftermath.json>) |
 | Combat: Plus Ultra surge | `Combat: Plus Ultra surge` | [Combat_ Plus Ultra surge.json](<Combat_ Plus Ultra surge.json>) |

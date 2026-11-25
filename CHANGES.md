@@ -6,6 +6,29 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.25 — Voices & Limits (draft 870, not yet published)
+
+The Quirk Strain limit grows with level: 100 at level 1, +10 per level, at most 300. Every Strain threshold is a share
+of the limit (Drawback from 60%, 50% Exceptional; active from 80%; gives out at the limit), a level-up no longer adds
+Strain, and a missed roll below the limit misfires instead of giving out. Knocked-out villains and unnamed foes stop
+the fight: restrained or questioned foes stay down in the player's hands, otherwise police or medics take them away
+(villain players: their own people). Every Class 1-A/1-B student, pro, teacher and 31 side characters have rewritten
+personalities (Wants/Fears, Early bond, Devoted bond, a speaking sample); all 16 story starts have new opening scenes
+(10 with condensed quest guidance to fit the 8,000-character limit). Authored NPCs no longer carry visualDescription
+(their portraits exist; looks stay in basicInfo). generateStory gains a Living Cast rule.
+Full per-entry list: [`releases/11.25.changes.md`](releases/11.25.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `npcs` | 255 rewritten personalities; visualDescription emptied on all 299 authored records (12 gain an Appearance line in basicInfo). | whole entries |
+| `storyStarts` | All 16 openings; quest guidance on 10. | whole entries |
+| `resourceSettings` | Quirk Strain grows 10 per level; Strain and health rules in shares of the limit. | whole section |
+| `traits` | Drawback texts in shares of the limit (17), All For One's Gift. | whole entries |
+| `triggerDefinitions` | New: Combat: knocked-out foes taken away. Changed: Combat: turning points, Quirk: gives out at 100, Clock: Show Time, loaders. | whole entries |
+| `aiInstructions` | Story (Living Cast), action, intents and item rules. | whole entries |
+
+---
+
 ## 11.24 — Tougher Fights & Fixes (published 2026-11-24, draft 856)
 
 Every NPC has about 55-60% more health (30 per level + 300 base) and stamina starts at 150 plus 5 per Endurance point,

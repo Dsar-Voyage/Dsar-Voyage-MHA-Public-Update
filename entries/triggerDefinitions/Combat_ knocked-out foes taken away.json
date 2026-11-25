@@ -1,0 +1,10 @@
+{
+  "Combat: knocked-out foes taken away": {
+    "name": "Combat: knocked-out foes taken away",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [],
+    "effects": [],
+    "script": "(function(){const T=storage.cbTP||{},tk=check({type:'game-tick'})||0,H=check({type:'npc-health',npc:'anySceneNPC'})||{},out=[],kept=[];const A=check({type:'action-text'}),at=String(Array.isArray(A)?(A[A.length-1]||''):(A||''));const KEEP=/\\b(restrain|cuff|tie (him|her|them)|bind|question|interrogate|carry (him|her|them)|drag (him|her|them)|hold (him|her|them)|keep (him|her|them)|take (him|her|them) (with|to))/i.test(at);const VIL=/League of Villains Recruit|Independent Villain/.test(JSON.stringify(check({type:'player-traits'})||''));for(const n of Object.keys(T)){const t=T[n];if(!t||typeof t.aw!=='number'||t.aw>=tk)continue;if(!(typeof H[n]==='number'&&H[n]>0))continue;const b=n.replace(/ \\([^)]*\\)$/,'');t.aw=1e9;if(KEEP){kept.push(b);continue;}effects.push({type:'npc-placement',npc:n,operation:'moveAway'});out.push(b);}if(!out.length&&!kept.length){skip=true;return;}storage.cbTP=T;const W=x=>x.join(' and ')+(x.length>1?' are':' is');if(out.length)effects.push({type:'story',instruction:'Narrator only: '+W(out)+' knocked out and now off the scene, never dead: '+(VIL?'their own people drag them off while the player gets clear':'police or medics take them away')+'; the fight with them is over.'});if(kept.length)effects.push({type:'story',instruction:'Narrator only: '+W(kept)+' knocked out and in the player character'+String.fromCharCode(39)+'s hands as the player asked: down for good, unable to fight, flee or use a Quirk; the fight with them is over.'});log('ko away '+out.join(', ')+(kept.length?' kept '+kept.join(', '):''));})();"
+  }
+}

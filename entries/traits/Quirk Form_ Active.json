@@ -8,7 +8,7 @@
     "excludedBy": [],
     "requirements": [],
     "name": "Quirk Form: Active",
-    "description": "🔄 Your transformation is active: your body hits and holds harder.\n\n📈 Striking +10, Blocking +10, Conditioning +10, Quirk Output +5\n⚠️ Fights only. Costs 4 Stamina a turn; drops when the fight ends, at 10 Stamina, at Quirk Strain 100, when you go down, or when you end it.",
+    "description": "🔄 Your transformation is active: your body hits and holds harder.\n\n📈 Striking +10, Blocking +10, Conditioning +10, Quirk Output +5\n⚠️ Fights only. Costs 4 Stamina a turn; drops when the fight ends, at 10 Stamina, at Quirk Strain 100%, when you go down, or when you end it.",
     "traitNarrativeEffects": "The character's transformation is active, exactly as their Quirk card describes: the body changed, hitting and holding harder, costing stamina every turn and showing its limits and Drawback. Erasure or exhaustion ends it.",
     "skills": [
       {
