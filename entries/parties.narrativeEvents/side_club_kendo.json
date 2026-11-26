@@ -1,0 +1,15 @@
+{
+  "side_club_kendo": {
+    "title": "Kendo: The Prefectural Tournament",
+    "beats": "Saturday morning in the Main Gymnasium at U.A. Academy, taped into three regulation courts for the prefectural inter-school kendo tournament. Teams from visiting schools across Shizuoka and Saitama sit in rows on the hardwood with bogu armor stacked beside them, while strict external referees check equipment and enforce the tournament's Quirk-free rule before every match.\n\nItsuka Kendo moves down the U.A. line tightening men ties and checking everyone's grip, steady and big-sisterly even while her own bracket approaches; she reminds the first-timers that without Quirks, footwork and a clean center line decide everything. Ectoplasm watches from the advisor's chair at the corner table, keeping two clones posted at the scoreboards to verify points and speaking in measured, resonant reminders about breathing through the strike. Mashirao Ojiro warms up with the newer members, showing how to keep balance when you are used to relying on a Quirk reflex.\n\nThe player can act in three moments: during the armor check and warm-up drills when Kendo asks who will take the vanguard slot against a heavy-hitting school from Saitama; in the middle of their own three-minute regulation match on the center floor when an opponent presses hard to break their guard; and between rounds at the bracket board when a nervous first-year teammate loses confidence before the deciding bout.\n\nDefault course, as pressure the player can change: the visiting Saitama vanguard overwhelms U.A.'s opening fighters with fast, orthodox men strikes, Ojiro has to fight defensively to force a draw, and U.A. drops out in the quarterfinals by a single point while Kendo takes the blame on herself.\n\nThe event is complete when the bracket concludes—whether through a clean ippon, a hard-fought draw, or an honest defeat—leaving the player with an earned quiet nod and a shared towel from Kendo as the club packs the shinai bags with a real tournament finally under its belt.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_kendo",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

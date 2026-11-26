@@ -1,0 +1,15 @@
+{
+  "side_club_swimming": {
+    "title": "Swimming: The Summer Relay",
+    "beats": "An afternoon after classes at the Indoor Pool at U.A. Academy, the week before summer break, with lane ropes strung tight for a dual meet against a visiting school from Yokohama. The air smells of warm chlorine and damp concrete, and the visiting coach sits alongside the referee to make sure every stroke and turn is completely Quirk-free.\n\nTsuyu Asui perches on the edge of the deck with a clipboard on her knees, ticking off the 400-meter medley relay order with her finger to her chin and telling everyone calmly, ribbit, that a steady stroke rate beats splashing at the first turn. Thirteen stands by the lifeguard chair in her space-suit coat with a whistle around her neck, giving gentle, safety-first reminders about hydration, slick tiles, and pacing yourself in deep water. Toru Hagakure cheers from the team bench with a stack of dry towels ready for the swimmers coming off the blocks.\n\nThe player can act in three moments: during warm-ups when Tsuyu asks who will swim which stroke in the medley relay after a first-year member cramps up during butterfly drills; on the starting wedge when the whistle blows and the visiting Yokohama swimmers surge ahead on the opening fifty meters; and at the final wall touch when the race comes down to an underwater dolphin kick and a clean hand plant.\n\nDefault course, as pressure the player can change: the rattled first-year rushes the breaststroke turn and nearly false-starts the exchange, leaving Tsuyu too far behind on the anchor freestyle leg to close the Yokohama lead before the wall.\n\nThe event is complete when the relay touches home and the deck officials post the official times, followed by Tsuyu handing the player a cold sports drink on the pool edge with a quiet, direct compliment on their form that makes the summer roster feel earned.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_swimming",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

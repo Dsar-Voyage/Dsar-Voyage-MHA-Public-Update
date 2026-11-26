@@ -1,0 +1,15 @@
+{
+  "Club: leave": {
+    "name": "Club: leave",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "[Cc]lub|[Bb]and|[Cc]hoir|[Tt]eam|[Kk]endo|[Vv]olleyball|[Bb]asketball|[Rr]obotics"
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const C=[[\"kendo\",\"Kendo\",\"kendo\",\"Melee Weapons\",\"Itsuka Kendo\",\"Ectoplasm\",[1,3,5],\"Main Gymnasium\",0],[\"lightmusic\",\"Light Music\",\"light music|\\\\bband (club|practice)|\\\\bthe band\\\\b\",\"Performance\",\"Kyoka Jiro\",\"Present Mic\",[2,4,6],\"Music Room\",0],[\"choir\",\"Choir\",\"\\\\bchoir|chorus\",\"Performance\",\"Ibara Shiozaki\",\"Nemuri Kayama\",[1,3],\"Music Room\",0],[\"robotics\",\"Robotics\",\"robotics\",\"Support Engineering\",\"Mei Hatsume\",\"Power Loader\",[2,4,5],\"Development Studio\",0],[\"cooking\",\"Cooking\",\"cooking club|cooking practice|cook(ing)? with the club\",\"Cooking\",\"Rikido Sato\",\"Lunch Rush\",[4],\"Other Course Common Kitchen\",0],[\"tea\",\"Tea Ceremony\",\"tea ceremony|tea club\",\"Etiquette\",\"Momo Yaoyorozu\",\"Cementoss\",[3],\"Library\",0],[\"manga\",\"Manga\",\"manga club|manga practice|manga meeting\",\"Visual Arts\",\"Manga Fukidashi\",\"Present Mic\",[2,5],\"Library\",0],[\"track\",\"Track and Field\",\"track and field|track club|track team|track practice\",\"Athletics\",\"Tenya Iida\",\"Vlad King\",[1,2,4,5],\"Athletics Field\",0],[\"swimming\",\"Swimming\",\"swim(ming)? (club|team|practice)\",\"Swimming\",\"Tsuyu Asui\",\"Thirteen\",[3],\"Indoor Pool\",1],[\"basketball\",\"Basketball\",\"basketball\",\"Team Coordination\",\"Tetsutetsu Tetsutetsu\",\"Vlad King\",[1,3,5],\"Main Gymnasium\",0],[\"volleyball\",\"Volleyball\",\"volleyball\",\"Team Coordination\",\"Nejire Hado\",\"Nemuri Kayama\",[2,4,6],\"Main Gymnasium\",0]].map(x=>({k:x[0],n:x[1],r:new RegExp(x[2]),s:x[3],l:x[4],a:x[5],d:x[6],p:x[7],m:x[8]}));const TR=JSON.stringify(check({type:'player-traits'})||'');const mine=C.filter(c=>TR.indexOf('Club: '+c.n)>=0);const A=check({type:'action-text'});const T=String(Array.isArray(A)?(A[A.length-1]||''):(A||'')).toLowerCase();if(!/\\b(quit\\w*|leav\\w*|drop\\w* out|resign\\w*)\\b[^.!?]{0,30}\\bclub\\b|\\bquit(ting)? (the )?(band|choir|team)\\b/.test(T)){skip=true;return;}let c=C.find(c=>c.r.test(T)&&mine.some(m=>m.k===c.k));if(!c&&mine.length===1)c=mine[0];if(!c){skip=true;return;}if(mine.length<=1)effects.push({type:'write-boolean',key:'clubMember',operator:'set',value:false});effects.push({type:'player-traits',operator:'remove',value:'Club: '+c.n,target:'satisfyingPlayers'},{type:'story',instruction:'Narrator only: the player character leaves the '+c.n+' club; '+c.l+' takes it in their own way, one line, no guilt trip.'});log('club leave '+c.k);})();"
+  }
+}

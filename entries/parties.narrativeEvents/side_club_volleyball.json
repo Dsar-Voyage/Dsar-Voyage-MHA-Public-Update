@@ -1,0 +1,15 @@
+{
+  "side_club_volleyball": {
+    "title": "Volleyball: The Rally",
+    "beats": "Late afternoon after classes in the Main Gymnasium at U.A. Academy, just as the basketball club clears the hardwood and the volleyball net goes up for a Quirk-free practice match against a visiting school from Kanagawa. The visiting players are already warming up their jump serves while external referees check the net height and confirm the strict no-Quirk rule.\n\nNejire Hado floats in spirit even with her Quirk completely off, stringing the net antenna while peppering the visiting captain with rapid, curious questions about their knee pads, their bus ride, and why their libero tapes only three fingers. Nemuri Kayama leans against the referee stand in her teacher's suit with a rolled clipboard like a riding crop, telling the club that grace, rhythm, and dramatic timing win rallies far better than brute force. Tetsutetsu Tetsutetsu lingers by the water coolers in his basketball jersey, loudly offering to move the scoreboards if it saves five minutes of the schedule fight.\n\nThe player can act in three moments: at the gym doors when the basketball game runs ten minutes late and the two clubs have to negotiate or rush the net setup; during serve-receive practice when Nejire gets distracted mid-rotation and leaves a seam open against the visiting team's heavy topspin server; and in a long third-set rally where a diving save near the bleachers keeps the ball alive.\n\nDefault course, as pressure the player can change: the rushed warm-up leaves U.A.'s back row out of sync, the Kanagawa server runs six straight points while Nejire is still asking how she spins her wrist, and the match ends in two quick sets before dusk.\n\nThe event is complete when match point hits the floor and the net is rolled away, ending with Nejire bouncing over to ask how the player read that last cross-court shot and locking them into the club's front-row rotation for the rest of the term.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_volleyball",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

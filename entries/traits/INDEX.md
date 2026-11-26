@@ -1,4 +1,4 @@
-# traits: 1160 entries (11.25)
+# traits: 1171 entries (11.25.1)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -153,6 +153,17 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Class Clown | `Class Clown` | [Class Clown.json](<Class Clown.json>) |
 | Clean Shaven | `Clean Shaven` | [Clean Shaven.json](<Clean Shaven.json>) |
 | Clean Technique | `Clean Technique` | [Clean Technique.json](<Clean Technique.json>) |
+| Club: Basketball | `Club: Basketball` | [Club_ Basketball.json](<Club_ Basketball.json>) |
+| Club: Choir | `Club: Choir` | [Club_ Choir.json](<Club_ Choir.json>) |
+| Club: Cooking | `Club: Cooking` | [Club_ Cooking.json](<Club_ Cooking.json>) |
+| Club: Kendo | `Club: Kendo` | [Club_ Kendo.json](<Club_ Kendo.json>) |
+| Club: Light Music | `Club: Light Music` | [Club_ Light Music.json](<Club_ Light Music.json>) |
+| Club: Manga | `Club: Manga` | [Club_ Manga.json](<Club_ Manga.json>) |
+| Club: Robotics | `Club: Robotics` | [Club_ Robotics.json](<Club_ Robotics.json>) |
+| Club: Swimming | `Club: Swimming` | [Club_ Swimming.json](<Club_ Swimming.json>) |
+| Club: Tea Ceremony | `Club: Tea Ceremony` | [Club_ Tea Ceremony.json](<Club_ Tea Ceremony.json>) |
+| Club: Track and Field | `Club: Track and Field` | [Club_ Track and Field.json](<Club_ Track and Field.json>) |
+| Club: Volleyball | `Club: Volleyball` | [Club_ Volleyball.json](<Club_ Volleyball.json>) |
 | Cobalt Blue Eyes | `Cobalt Blue Eyes` | [Cobalt Blue Eyes.json](<Cobalt Blue Eyes.json>) |
 | Cobalt Blue Hair | `Cobalt Blue Hair` | [Cobalt Blue Hair.json](<Cobalt Blue Hair.json>) |
 | Cobalt Skin | `Cobalt Skin` | [Cobalt Skin.json](<Cobalt Skin.json>) |

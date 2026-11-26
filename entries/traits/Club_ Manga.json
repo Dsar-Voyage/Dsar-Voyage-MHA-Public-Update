@@ -1,0 +1,20 @@
+{
+  "Club: Manga": {
+    "name": "Club: Manga",
+    "description": "✒️ You are a member of the U.A. Manga club.\n\n🗓️ It meets after classes on Tuesday, Friday, in the Library's quiet rooms.\n🤝 Manga Fukidashi runs it; Present Mic is the advisor.\n📈 Grants: Visual Arts +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Manga club, run by Manga Fukidashi with Present Mic as advisor; it meets after classes on Tuesday, Friday in the Library's quiet rooms. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Visual Arts",
+        "modifier": 5
+      }
+    ]
+  }
+}

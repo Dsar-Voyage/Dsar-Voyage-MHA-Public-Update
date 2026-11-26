@@ -20799,6 +20799,204 @@
     "excludedBy": [],
     "requirements": []
   },
+  "Club: Kendo": {
+    "name": "Club: Kendo",
+    "description": "🗡️ You are a member of the U.A. Kendo club.\n\n🗓️ It meets after classes on Monday, Wednesday, Friday, in the Main Gymnasium.\n🤝 Itsuka Kendo runs it; Ectoplasm is the advisor.\n📈 Grants: Melee Weapons +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Kendo club, run by Itsuka Kendo with Ectoplasm as advisor; it meets after classes on Monday, Wednesday, Friday in the Main Gymnasium. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Melee Weapons",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Light Music": {
+    "name": "Club: Light Music",
+    "description": "🎸 You are a member of the U.A. Light Music club.\n\n🗓️ It meets after classes on Tuesday, Thursday, Saturday, in the Music Room.\n🤝 Kyoka Jiro runs it; Present Mic is the advisor.\n📈 Grants: Performance +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Light Music club, run by Kyoka Jiro with Present Mic as advisor; it meets after classes on Tuesday, Thursday, Saturday in the Music Room. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Performance",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Choir": {
+    "name": "Club: Choir",
+    "description": "🎶 You are a member of the U.A. Choir club.\n\n🗓️ It meets after classes on Monday, Wednesday, in the Music Room.\n🤝 Ibara Shiozaki runs it; Nemuri Kayama is the advisor.\n📈 Grants: Performance +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Choir club, run by Ibara Shiozaki with Nemuri Kayama as advisor; it meets after classes on Monday, Wednesday in the Music Room. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Performance",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Robotics": {
+    "name": "Club: Robotics",
+    "description": "🤖 You are a member of the U.A. Robotics club.\n\n🗓️ It meets after classes on Tuesday, Thursday, Friday, in the Development Studio's club bench.\n🤝 Mei Hatsume runs it; Power Loader is the advisor.\n📈 Grants: Support Engineering +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Robotics club, run by Mei Hatsume with Power Loader as advisor; it meets after classes on Tuesday, Thursday, Friday in the Development Studio's club bench. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Support Engineering",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Cooking": {
+    "name": "Club: Cooking",
+    "description": "🍳 You are a member of the U.A. Cooking club.\n\n🗓️ It meets after classes on Thursday, in the Other Course Common Kitchen.\n🤝 Rikido Sato runs it; Lunch Rush is the advisor.\n📈 Grants: Cooking +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Cooking club, run by Rikido Sato with Lunch Rush as advisor; it meets after classes on Thursday in the Other Course Common Kitchen. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Tea Ceremony": {
+    "name": "Club: Tea Ceremony",
+    "description": "🍵 You are a member of the U.A. Tea Ceremony club.\n\n🗓️ It meets after classes on Wednesday, in the Library's quiet rooms.\n🤝 Momo Yaoyorozu runs it; Cementoss is the advisor.\n📈 Grants: Etiquette +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Tea Ceremony club, run by Momo Yaoyorozu with Cementoss as advisor; it meets after classes on Wednesday in the Library's quiet rooms. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Etiquette",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Manga": {
+    "name": "Club: Manga",
+    "description": "✒️ You are a member of the U.A. Manga club.\n\n🗓️ It meets after classes on Tuesday, Friday, in the Library's quiet rooms.\n🤝 Manga Fukidashi runs it; Present Mic is the advisor.\n📈 Grants: Visual Arts +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Manga club, run by Manga Fukidashi with Present Mic as advisor; it meets after classes on Tuesday, Friday in the Library's quiet rooms. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Visual Arts",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Track and Field": {
+    "name": "Club: Track and Field",
+    "description": "🏃 You are a member of the U.A. Track and Field club.\n\n🗓️ It meets after classes on Monday, Tuesday, Thursday, Friday, in the Athletics Field.\n🤝 Tenya Iida runs it; Vlad King is the advisor.\n📈 Grants: Athletics +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Track and Field club, run by Tenya Iida with Vlad King as advisor; it meets after classes on Monday, Tuesday, Thursday, Friday in the Athletics Field. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Athletics",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Swimming": {
+    "name": "Club: Swimming",
+    "description": "🏊 You are a member of the U.A. Swimming club.\n\n🗓️ It meets before homeroom on Wednesday, in the Indoor Pool.\n🤝 Tsuyu Asui runs it; Thirteen is the advisor.\n📈 Grants: Swimming +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Swimming club, run by Tsuyu Asui with Thirteen as advisor; it meets before homeroom on Wednesday in the Indoor Pool. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Swimming",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Basketball": {
+    "name": "Club: Basketball",
+    "description": "🏀 You are a member of the U.A. Basketball club.\n\n🗓️ It meets after classes on Monday, Wednesday, Friday, in the Main Gymnasium.\n🤝 Tetsutetsu Tetsutetsu runs it; Vlad King is the advisor.\n📈 Grants: Team Coordination +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Basketball club, run by Tetsutetsu Tetsutetsu with Vlad King as advisor; it meets after classes on Monday, Wednesday, Friday in the Main Gymnasium. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ]
+  },
+  "Club: Volleyball": {
+    "name": "Club: Volleyball",
+    "description": "🏐 You are a member of the U.A. Volleyball club.\n\n🗓️ It meets after classes on Tuesday, Thursday, Saturday, in the Main Gymnasium.\n🤝 Nejire Hado runs it; Nemuri Kayama is the advisor.\n📈 Grants: Team Coordination +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Volleyball club, run by Nejire Hado with Nemuri Kayama as advisor; it meets after classes on Tuesday, Thursday, Saturday in the Main Gymnasium. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Team Coordination",
+        "modifier": 5
+      }
+    ]
+  },
   "Gifted: Fire": {
     "name": "Gifted: Fire",
     "description": "🧬 Fire, as an extra Quirk put into your body.\n\n🌱 At the start you throw flame jets and bursts out to about five meters, raise a fire screen between you and danger, and give light and heat on demand.\n📈 With training: flame lances, signal flares, thrust leaps, fire lanes that stop a spreading blaze, steel-melting white heat, and flame shaped to spare a hostage.\n⚠️ Holding back is the real skill: every burn you cause is yours to answer for.\n🔗 Common drawback pairing: Overheating, as heat builds inside your own body.\n🎬 Similar canon Quirks: Endeavor (Hellflame), Dabi (Cremation).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",

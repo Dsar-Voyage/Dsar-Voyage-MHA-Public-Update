@@ -1,0 +1,20 @@
+{
+  "Club: Light Music": {
+    "name": "Club: Light Music",
+    "description": "🎸 You are a member of the U.A. Light Music club.\n\n🗓️ It meets after classes on Tuesday, Thursday, Saturday, in the Music Room.\n🤝 Kyoka Jiro runs it; Present Mic is the advisor.\n📈 Grants: Performance +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Light Music club, run by Kyoka Jiro with Present Mic as advisor; it meets after classes on Tuesday, Thursday, Saturday in the Music Room. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Performance",
+        "modifier": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Club: Kendo": {
+    "name": "Club: Kendo",
+    "description": "🗡️ You are a member of the U.A. Kendo club.\n\n🗓️ It meets after classes on Monday, Wednesday, Friday, in the Main Gymnasium.\n🤝 Itsuka Kendo runs it; Ectoplasm is the advisor.\n📈 Grants: Melee Weapons +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Kendo club, run by Itsuka Kendo with Ectoplasm as advisor; it meets after classes on Monday, Wednesday, Friday in the Main Gymnasium. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Melee Weapons",
+        "modifier": 5
+      }
+    ]
+  }
+}

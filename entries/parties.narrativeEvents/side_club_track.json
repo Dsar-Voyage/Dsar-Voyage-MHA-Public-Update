@@ -1,0 +1,15 @@
+{
+  "side_club_track": {
+    "title": "Track and Field: The Spring Meet",
+    "beats": "Saturday afternoon on the Athletics Field at U.A. Academy, chalked fresh for the spring inter-school track and field meet. Visiting schools from neighboring prefectures warm up along the infield grass while external officials verify that every heat and jump is run strictly Quirk-free, down to standard spikes and starting blocks.\n\nTenya Iida marshals the U.A. tent with a clipboard, three stopwatches on lanyards, and rigid arm chops, calling out warm-up windows to the minute and reminding everyone that keeping one's engine or Quirk dormant is a matter of athletic honor. Vlad King stands by the finish judges with a megaphone and a starter pistol on his belt, barking gruff, no-nonsense encouragement about driving through the tape instead of looking at the lane beside you. Izuku Midoriya sits near the hurdles taking rapid notes on stride length for a club member trying to run without Quirk propulsion.\n\nThe player can act in three moments: at the call table when Iida realizes a pulled hamstring has left a gap in both an individual heat and the anchor leg of the 4x100-meter relay; at the starting blocks against a trash-talking sprinter from a visiting Chiba high school who boasts that U.A. students cannot run without their Quirks; and during the baton exchange zone when the incoming runner stumbles under pressure.\n\nDefault course, as pressure the player can change: Iida over-schedules himself trying to cover the open leg and manage the meet timetable at once, botches the third baton pass in his stiffness, and watches the visiting Chiba team take the ribbon by half a stride.\n\nThe event is complete when the final relay crosses the finish line and the times are posted—whether U.A. takes the heat or learns a hard lesson on the cinders—ending with Iida solemnly recording the player's split in the club ledger and shaking their hand for upholding the team's pace.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_track",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

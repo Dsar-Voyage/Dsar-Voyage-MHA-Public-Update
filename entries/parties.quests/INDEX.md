@@ -1,4 +1,4 @@
-# parties.quests: 54 entries (11.25)
+# parties.quests: 54 entries (11.25.1)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

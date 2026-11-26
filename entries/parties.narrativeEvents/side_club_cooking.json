@@ -1,0 +1,15 @@
+{
+  "side_club_cooking": {
+    "title": "Cooking: The Bento Contest",
+    "beats": "An afternoon after classes in the Other Course Common Kitchen at U.A. Academy, where every stainless-steel station is set with lacquered boxes for the club's seasonal bento contest. Countertops are lined with rice cookers, rolled-egg pans, and baskets of the afternoon's mandatory theme ingredient: bitter summer gourd.\n\nRikido Sato moves from stove to stove in his apron, tasting broths and reminding members with an earnest grin that since this is club practice, safe culinary Quirks are fine as long as the technique holds up; a sugar tin sits by his own mixer from his pre-contest baking demonstration. Lunch Rush stands at the head island with his thumbs hooked in his belt, calling out timer marks and promising a thumbs-up only for a box that balances color, nutrition, and temperature when the lid comes off. Ochaco Uraraka watches from the prep counter, helping wash bowls in exchange for tasting the offcuts.\n\nThe player can act in three moments: at the ingredient basket when the theme is unveiled and they must choose how to cut the gourd's bitterness within the forty-minute clock; midway through cooking when a neighbor's pan scorches or their own centerpiece threatens to fall apart and has to be salvaged into a new dish; and at the tasting table when Lunch Rush opens the finished bento box.\n\nDefault course, as pressure the player can change: half the kitchen tries to mask the bitter gourd with heavy frying, a dropped sauce pot creates a bottleneck at the shared burners, and Sato's safe, textbook pork-and-gourd bento wins by default while the bolder dishes come out half-finished.\n\nThe event is complete when Lunch Rush samples every box and awards the golden ladle ribbon, ending with Sato swapping a piece of his fresh chiffon cake for a bite of the player's bento and writing their recipe into the club's permanent binder.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_cooking",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

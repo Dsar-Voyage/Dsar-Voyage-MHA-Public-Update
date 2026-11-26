@@ -1,0 +1,15 @@
+{
+  "side_club_choir": {
+    "title": "Choir: The Festival Chorus",
+    "beats": "Late afternoon after classes in the Music Room at U.A. Academy, as the choir gathers around the upright piano to rehearse its four-part choral piece for the School Festival while the light music club coils its last amplifier cables by the door. Sheet music folders and a penciled room-booking chart sit on the music stand beside a ticking metronome.\n\nIbara Shiozaki stands before the risers with her hands clasped over her sheet music and her vine hair braided neatly back, speaking in serene, earnest tones about how true harmony cannot be forced by pride and offering to yield ten minutes of rehearsal time if the band is still packing up. Nemuri Kayama sits beside the piano bench with a pitch pipe and a red pencil, reminding the singers that sacred serenity is lovely, but projection from the diaphragm and expressive dynamics are what reach the back row of a festival hall. Kyoka Jiro lingers by the cable crate, guilty about running five minutes over the shared schedule and listening critically to the room's acoustics.\n\nThe player can act in three moments: at the turnover of the room when the shared booking sheet sparks tension between impatient singers and the departing band; during sectional practice when the alto and tenor lines drift apart on an unaccompanied key change and Shiozaki looks for a steady voice to anchor the chord; and when Nemuri asks for a soloist or lead harmony to step forward on the final cadence.\n\nDefault course, as pressure the player can change: Shiozaki concedes too much of the hour out of gentle courtesy, the rushed rehearsal leaves the unaccompanied middle verse shaky and flat, and the choir settles for a simpler unison arrangement for the festival program.\n\nThe event is complete when all four vocal parts hold the final suspended chord in clear resonance across the Music Room, leaving Shiozaki to bow her head in quiet gratitude to the player and mark their part at the center of the festival risers.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_choir",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

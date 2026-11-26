@@ -1,4 +1,4 @@
-# parties.narrativeEvents: 214 entries (11.25)
+# parties.narrativeEvents: 225 entries (11.25.1)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -28,14 +28,17 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Back from Internships | `side_back_from_internships` | [side_back_from_internships.json](<side_back_from_internships.json>) |
 | Bakugo at the Gate | `side_bakugo_gate` | [side_bakugo_gate.json](<side_bakugo_gate.json>) |
 | Bakugo Joins the Talks | `side_ofa_three` | [side_ofa_three.json](<side_ofa_three.json>) |
+| Basketball: The Away Game | `side_club_basketball` | [side_club_basketball.json](<side_club_basketball.json>) |
 | Break the Wound Open | `deku_gives_up_one_for_all` | [deku_gives_up_one_for_all.json](<deku_gives_up_one_for_all.json>) |
 | Broke and Hunted | `v_league_broke` | [v_league_broke.json](<v_league_broke.json>) |
 | Build a Battlefield | `final_war_workshop` | [final_war_workshop.json](<final_war_workshop.json>) |
 | Can I Become a Hero? | `teacher_deku_and_dai` | [teacher_deku_and_dai.json](<teacher_deku_and_dai.json>) |
 | Careers Day | `gs_careers_day` | [gs_careers_day.json](<gs_careers_day.json>) |
 | Cheese at the Door | `side_aoyama_cheese` | [side_aoyama_cheese.json](<side_aoyama_cheese.json>) |
+| Choir: The Festival Chorus | `side_club_choir` | [side_club_choir.json](<side_club_choir.json>) |
 | Club Recruitment Week | `side_club_week` | [side_club_week.json](<side_club_week.json>) |
 | Control Your Heart | `deku_reaches_the_coffin` | [deku_reaches_the_coffin.json](<deku_reaches_the_coffin.json>) |
+| Cooking: The Bento Contest | `side_club_cooking` | [side_club_cooking.json](<side_club_cooking.json>) |
 | Copycats | `v_copycats` | [v_copycats.json](<v_copycats.json>) |
 | Costume Upgrade Rush | `sup_costume_rush` | [sup_costume_rush.json](<sup_costume_rush.json>) |
 | Crisis PR After Kamino | `man_crisis_pr` | [man_crisis_pr.json](<man_crisis_pr.json>) |
@@ -76,12 +79,15 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Joint Sparring Day | `b1_joint_sparring` | [b1_joint_sparring.json](<b1_joint_sparring.json>) |
 | Keep the Shelters Moving | `evacuation_routes_under_attack` | [evacuation_routes_under_attack.json](<evacuation_routes_under_attack.json>) |
 | Kendo's Study Session | `b1_kendo_study` | [b1_kendo_study.json](<b1_kendo_study.json>) |
+| Kendo: The Prefectural Tournament | `side_club_kendo` | [side_club_kendo.json](<side_club_kendo.json>) |
 | Kota's Secret Cliff | `side_kota_cliff` | [side_kota_cliff.json](<side_kota_cliff.json>) |
 | Kurogiri Captured | `kurogiri_captured` | [kurogiri_captured.json](<kurogiri_captured.json>) |
 | License Exam Lesson Plans | `fac_license_plans` | [fac_license_plans.json](<fac_license_plans.json>) |
 | License Exam Prep | `b1_license_prep` | [b1_license_prep.json](<b1_license_prep.json>) |
+| Light Music: The Club Stage | `side_club_lightmusic` | [side_club_lightmusic.json](<side_club_lightmusic.json>) |
 | Lunch with All Might | `side_all_might_lunch` | [side_all_might_lunch.json](<side_all_might_lunch.json>) |
 | Make Time for Each Other | `more_class_reunion` | [more_class_reunion.json](<more_class_reunion.json>) |
+| Manga: The Festival Booklet | `side_club_manga` | [side_club_manga.json](<side_club_manga.json>) |
 | Manhunt | `v_manhunt` | [v_manhunt.json](<v_manhunt.json>) |
 | Midoriya or Iida? | `side_like_midoriya` | [side_like_midoriya.json](<side_like_midoriya.json>) |
 | Monoma's Provocation | `b1_monoma_provocation` | [b1_monoma_provocation.json](<b1_monoma_provocation.json>) |
@@ -99,6 +105,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Reach Out Again | `deku_armor_return` | [deku_armor_return.json](<deku_armor_return.json>) |
 | Rent Day | `pro_rent_day` | [pro_rent_day.json](<pro_rent_day.json>) |
 | Rescue Training Day | `side_rescue_training` | [side_rescue_training.json](<side_rescue_training.json>) |
+| Robotics: Build Night | `side_club_robotics` | [side_club_robotics.json](<side_club_robotics.json>) |
 | Rooftop Rounds | `v_rooftop_rounds` | [v_rooftop_rounds.json](<v_rooftop_rounds.json>) |
 | Ryukyu Says Yes | `side_ryukyu` | [side_ryukyu.json](<side_ryukyu.json>) |
 | Scouting the Sports Festival | `pro_festival_scouting` | [pro_festival_scouting.json](<pro_festival_scouting.json>) |
@@ -107,8 +114,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Shoto Visits His Mother | `side_shoto_mother` | [side_shoto_mother.json](<side_shoto_mother.json>) |
 | Sir Nighteye's Farewell | `nighteye_farewell` | [nighteye_farewell.json](<nighteye_farewell.json>) |
 | Soba | `todoroki_final_visit` | [todoroki_final_visit.json](<todoroki_final_visit.json>) |
+| Swimming: The Summer Relay | `side_club_swimming` | [side_club_swimming.json](<side_club_swimming.json>) |
 | Take Our Hands | `deku_versus_class_a` | [deku_versus_class_a.json](<deku_versus_class_a.json>) |
 | Talk Show Appearance | `pro_talk_show` | [pro_talk_show.json](<pro_talk_show.json>) |
+| Tea Ceremony: The Autumn Gathering | `side_club_tea` | [side_club_tea.json](<side_club_tea.json>) |
 | The 1-B Shopping Trip | `b1_shopping_trip` | [b1_shopping_trip.json](<b1_shopping_trip.json>) |
 | The Academy Opens Again | `delayed_graduation_new_class` | [delayed_graduation_new_class.json](<delayed_graduation_new_class.json>) |
 | The Armored Car Job | `v_heist` | [v_heist.json](<v_heist.json>) |
@@ -200,10 +209,12 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Tokoyami's Winter Work-Study | `side_tokoyami_winter` | [side_tokoyami_winter.json](<side_tokoyami_winter.json>) |
 | Too Tired to Stand | `dictator_and_the_lost_hero` | [dictator_and_the_lost_hero.json](<dictator_and_the_lost_hero.json>) |
 | Toya Todoroki | `war_dabi` | [war_dabi.json](<war_dabi.json>) |
+| Track and Field: The Spring Meet | `side_club_track` | [side_club_track.json](<side_club_track.json>) |
 | Training of the Dead | `side_training_of_the_dead` | [side_training_of_the_dead.json](<side_training_of_the_dead.json>) |
 | Two Brothers' Fire | `kamino_phosphor` | [kamino_phosphor.json](<kamino_phosphor.json>) |
 | Unbreakable | `side_fat_gum_patrol` | [side_fat_gum_patrol.json](<side_fat_gum_patrol.json>) |
 | Valentine's Day | `side_valentines` | [side_valentines.json](<side_valentines.json>) |
+| Volleyball: The Rally | `side_club_volleyball` | [side_club_volleyball.json](<side_club_volleyball.json>) |
 | Walking Back with Iida and Uraraka | `side_walk_home_deku` | [side_walk_home_deku.json](<side_walk_home_deku.json>) |
 | What Did We Save? | `hospital_after_victory` | [hospital_after_victory.json](<hospital_after_victory.json>) |
 | What Remains of All Might | `stain_and_the_return_home` | [stain_and_the_return_home.json](<stain_and_the_return_home.json>) |

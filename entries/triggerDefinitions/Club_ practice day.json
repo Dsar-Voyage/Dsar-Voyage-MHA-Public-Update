@@ -1,0 +1,22 @@
+{
+  "Club: practice day": {
+    "name": "Club: practice day",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "read-boolean",
+        "key": "clubMember",
+        "operator": "equals",
+        "value": true
+      },
+      {
+        "type": "read-number",
+        "key": "currentBandIndex",
+        "operator": "lessThanOrEqual",
+        "value": 6
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const C=[[\"kendo\",\"Kendo\",\"kendo\",\"Melee Weapons\",\"Itsuka Kendo\",\"Ectoplasm\",[1,3,5],\"Main Gymnasium\",0],[\"lightmusic\",\"Light Music\",\"light music|\\\\bband (club|practice)|\\\\bthe band\\\\b\",\"Performance\",\"Kyoka Jiro\",\"Present Mic\",[2,4,6],\"Music Room\",0],[\"choir\",\"Choir\",\"\\\\bchoir|chorus\",\"Performance\",\"Ibara Shiozaki\",\"Nemuri Kayama\",[1,3],\"Music Room\",0],[\"robotics\",\"Robotics\",\"robotics\",\"Support Engineering\",\"Mei Hatsume\",\"Power Loader\",[2,4,5],\"Development Studio\",0],[\"cooking\",\"Cooking\",\"cooking club|cooking practice|cook(ing)? with the club\",\"Cooking\",\"Rikido Sato\",\"Lunch Rush\",[4],\"Other Course Common Kitchen\",0],[\"tea\",\"Tea Ceremony\",\"tea ceremony|tea club\",\"Etiquette\",\"Momo Yaoyorozu\",\"Cementoss\",[3],\"Library\",0],[\"manga\",\"Manga\",\"manga club|manga practice|manga meeting\",\"Visual Arts\",\"Manga Fukidashi\",\"Present Mic\",[2,5],\"Library\",0],[\"track\",\"Track and Field\",\"track and field|track club|track team|track practice\",\"Athletics\",\"Tenya Iida\",\"Vlad King\",[1,2,4,5],\"Athletics Field\",0],[\"swimming\",\"Swimming\",\"swim(ming)? (club|team|practice)\",\"Swimming\",\"Tsuyu Asui\",\"Thirteen\",[3],\"Indoor Pool\",1],[\"basketball\",\"Basketball\",\"basketball\",\"Team Coordination\",\"Tetsutetsu Tetsutetsu\",\"Vlad King\",[1,3,5],\"Main Gymnasium\",0],[\"volleyball\",\"Volleyball\",\"volleyball\",\"Team Coordination\",\"Nejire Hado\",\"Nemuri Kayama\",[2,4,6],\"Main Gymnasium\",0]].map(x=>({k:x[0],n:x[1],r:new RegExp(x[2]),s:x[3],l:x[4],a:x[5],d:x[6],p:x[7],m:x[8]}));const TR=JSON.stringify(check({type:'player-traits'})||'');const mine=C.filter(c=>TR.indexOf('Club: '+c.n)>=0);const A=check({type:'action-text'});const T=String(Array.isArray(A)?(A[A.length-1]||''):(A||'')).toLowerCase();if(!mine.length){skip=true;return;}const d=check({type:'read-number',key:'currentDay'})||1,b=check({type:'read-number',key:'currentBandIndex'})||0;const WD=[\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];const wd=(Math.max(1,d)-1)%7;const S=storage.clubDay||(storage.clubDay={});const out=[];for(const c of mine){if(c.d.indexOf(wd)<0)continue;const want=c.m?(b<=1):(b>=3&&b<=6);if(!want)continue;if(S[c.k]===d)continue;S[c.k]=d;out.push(c.n+' club practice is on'+(c.m?' before homeroom':' after classes')+' at '+c.p+' ('+c.l+')');}if(!out.length){skip=true;return;}storage.clubDay=S;effects.push({type:'story',instruction:'Narrator only: in one line this turn (a member in passing, a text, a flyer), let the player character know today '+out.join('; ')+'. Going is the player\\'s choice; never send them there.'});log('club day '+out.join(', '));})();"
+  }
+}

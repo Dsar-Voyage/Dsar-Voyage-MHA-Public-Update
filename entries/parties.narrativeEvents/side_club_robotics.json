@@ -1,0 +1,15 @@
+{
+  "side_club_robotics": {
+    "title": "Robotics: Build Night",
+    "beats": "Friday evening after classes in the Development Studio at U.A. Academy, stretching into an authorized build night before the regional student robotics competition. Soldering irons hiss along the workbenches, scrap aluminum and servo housings litter the floor, and a plywood test ring in the center of the room is scarred from test matches.\n\nMei Hatsume darts between benches with grease on her cheek and her zoom goggles clicking, trying to bolt a secondary hydraulic catapult onto the club's heavyweight sumo-bot and calling every prototype her precious baby. Power Loader sits at the master cutoff console with a mug of black coffee, laying down his non-negotiable rule in a tired rasp: no internal combustion, no live explosives, and nothing over the competition's twenty-kilogram weight limit leaves his studio. Denki Kaminari sits by the battery bank, carefully Trickle-charging cells when permitted and nursing scorched fingertips.\n\nThe player can act in three moments: at the drafting bench when Mei wants to replace the sumo-bot's stable drive train with an untested gyroscopic thruster two hours before inspection; during a live test run in the plywood ring when the main logic board starts smoking from burnt solder; and at Power Loader's scale when the finished entry comes in four hundred grams too heavy.\n\nDefault course, as pressure the player can change: Mei sneaks an over-volted capacitor into the chassis anyway, the sumo-bot flips itself through the plywood ring wall on activation and trips the studio breakers, and Power Loader grounds the flashy build in favor of last year's spare chassis.\n\nThe event is complete when a working bot passes Power Loader's safety and weight inspection before curfew, earning a rare gleam of genuine respect from Mei as she stencils a serial number onto the player's addition and packs the crate for Saturday's qualifiers.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_robotics",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

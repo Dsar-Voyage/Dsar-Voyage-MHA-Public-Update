@@ -1,0 +1,20 @@
+{
+  "Club: Robotics": {
+    "name": "Club: Robotics",
+    "description": "🤖 You are a member of the U.A. Robotics club.\n\n🗓️ It meets after classes on Tuesday, Thursday, Friday, in the Development Studio's club bench.\n🤝 Mei Hatsume runs it; Power Loader is the advisor.\n📈 Grants: Support Engineering +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Robotics club, run by Mei Hatsume with Power Loader as advisor; it meets after classes on Tuesday, Thursday, Friday in the Development Studio's club bench. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Support Engineering",
+        "modifier": 5
+      }
+    ]
+  }
+}

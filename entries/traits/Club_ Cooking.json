@@ -1,0 +1,20 @@
+{
+  "Club: Cooking": {
+    "name": "Club: Cooking",
+    "description": "🍳 You are a member of the U.A. Cooking club.\n\n🗓️ It meets after classes on Thursday, in the Other Course Common Kitchen.\n🤝 Rikido Sato runs it; Lunch Rush is the advisor.\n📈 Grants: Cooking +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Cooking club, run by Rikido Sato with Lunch Rush as advisor; it meets after classes on Thursday in the Other Course Common Kitchen. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Cooking",
+        "modifier": 5
+      }
+    ]
+  }
+}

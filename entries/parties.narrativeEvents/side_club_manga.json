@@ -1,0 +1,15 @@
+{
+  "side_club_manga": {
+    "title": "Manga: The Festival Booklet",
+    "beats": "An evening after classes in the Library at U.A. Academy, where the media corner's long tables are buried under Bristol board, screentone sheets, G-pens, and ruler guides as the manga club races to finish its anthology booklet for the School Festival print deadline. A photocopy machine in the corner hums nonstop while an alarm clock marks the final two hours before the print-shop courier arrives.\n\nManga Fukidashi leans over the light box with an ink-stained headband around his speech-bubble face, his head flashing crisp, silent [CRUNCH TIME!!] and [INK DRYING!] lettering so he will not materialize solid sound effects and smash the tables; his whispered voice cracks with director's urgency as he checks page margins. Present Mic drops by the advisor's chair between radio prep, whispering at eighty decibels about dynamic panel flow and sliding his own wildly stylized two-page guest comic across the table for someone to tone. Koji Koda sits neatly at the end of the row, erasing pencil lines and pasting screentone with steady hands.\n\nThe player can act in three moments: at the layout board when a four-page gap appears in the anthology and they must either draw a short strip, write a gag script, or ink backgrounds on Fukidashi's lead story; when Present Mic's guest pages turn out to be drawn in the wrong reading order and someone has to tell him or re-letter them; and at the copier when an ink bottle tips toward the master pages.\n\nDefault course, as pressure the player can change: the spilled ink ruins three finished spreads, Fukidashi panics and accidentally pops a solid [GAAAH!] bubble into the ceiling tiles, and the booklet goes to the printer eight pages short with a photocopied apology note.\n\nThe event is complete when the master manuscript is stapled, boxed, and handed to the courier before the library locks up, with Fukidashi's face turning into a glowing [THANK YOU!!] as he adds the player's name to the anthology masthead.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_manga",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "Club: Track and Field": {
+    "name": "Club: Track and Field",
+    "description": "🏃 You are a member of the U.A. Track and Field club.\n\n🗓️ It meets after classes on Monday, Tuesday, Thursday, Friday, in the Athletics Field.\n🤝 Tenya Iida runs it; Vlad King is the advisor.\n📈 Grants: Athletics +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Track and Field club, run by Tenya Iida with Vlad King as advisor; it meets after classes on Monday, Tuesday, Thursday, Friday in the Athletics Field. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Athletics",
+        "modifier": 5
+      }
+    ]
+  }
+}

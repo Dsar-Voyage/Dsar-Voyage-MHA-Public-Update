@@ -1,4 +1,4 @@
-# triggerDefinitions: 992 entries (11.25)
+# triggerDefinitions: 1013 entries (11.25.1)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -110,6 +110,10 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Clock: Time Line | `Clock: Time Line` | [Clock_ Time Line.json](<Clock_ Time Line.json>) |
 | Clock: Time Line Note | `Clock: Time Line Note` | [Clock_ Time Line Note.json](<Clock_ Time Line Note.json>) |
 | Clock: Your Own Start Date | `Clock: Your Own Start Date` | [Clock_ Your Own Start Date.json](<Clock_ Your Own Start Date.json>) |
+| Club: join | `Club: join` | [Club_ join.json](<Club_ join.json>) |
+| Club: leave | `Club: leave` | [Club_ leave.json](<Club_ leave.json>) |
+| Club: practice | `Club: practice` | [Club_ practice.json](<Club_ practice.json>) |
+| Club: practice day | `Club: practice day` | [Club_ practice day.json](<Club_ practice day.json>) |
 | Combat: animals stay dead | `Combat: animals stay dead` | [Combat_ animals stay dead.json](<Combat_ animals stay dead.json>) |
 | Combat: bout referee | `Combat: bout referee` | [Combat_ bout referee.json](<Combat_ bout referee.json>) |
 | Combat: challenge in fights | `Combat: challenge in fights` | [Combat_ challenge in fights.json](<Combat_ challenge in fights.json>) |
@@ -323,6 +327,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Follow: staff part 1 (before the story) | `Follow: staff part 1 (before the story)` | [Follow_ staff part 1 (before the story).json](<Follow_ staff part 1 (before the story).json>) |
 | Follow: staff part 2 (before the story) | `Follow: staff part 2 (before the story)` | [Follow_ staff part 2 (before the story).json](<Follow_ staff part 2 (before the story).json>) |
 | GC Tick | `GC Tick` | [GC Tick.json](<GC Tick.json>) |
+| Health: canon cast outside fights | `Health: canon cast outside fights` | [Health_ canon cast outside fights.json](<Health_ canon cast outside fights.json>) |
+| Health: Izuku Midoriya (Provisional License) outside fights | `Health: Izuku Midoriya (Provisional License) outside fights` | [Health_ Izuku Midoriya (Provisional License) outside fights.json](<Health_ Izuku Midoriya (Provisional License) outside fights.json>) |
+| Health: Izuku Midoriya (Sports Festival) outside fights | `Health: Izuku Midoriya (Sports Festival) outside fights` | [Health_ Izuku Midoriya (Sports Festival) outside fights.json](<Health_ Izuku Midoriya (Sports Festival) outside fights.json>) |
+| Health: Izuku Midoriya (Summer Training) outside fights | `Health: Izuku Midoriya (Summer Training) outside fights` | [Health_ Izuku Midoriya (Summer Training) outside fights.json](<Health_ Izuku Midoriya (Summer Training) outside fights.json>) |
+| Health: Izuku Midoriya outside fights | `Health: Izuku Midoriya outside fights` | [Health_ Izuku Midoriya outside fights.json](<Health_ Izuku Midoriya outside fights.json>) |
 | Heat: assault | `Heat: assault` | [Heat_ assault.json](<Heat_ assault.json>) |
 | Heat: cap | `Heat: cap` | [Heat_ cap.json](<Heat_ cap.json>) |
 | Heat: cooled | `Heat: cooled` | [Heat_ cooled.json](<Heat_ cooled.json>) |
@@ -815,6 +824,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Event: starts 4 | `Side Event: starts 4` | [Side Event_ starts 4.json](<Side Event_ starts 4.json>) |
 | Side Event: starts 5 | `Side Event: starts 5` | [Side Event_ starts 5.json](<Side Event_ starts 5.json>) |
 | Side Event: starts 6 | `Side Event: starts 6` | [Side Event_ starts 6.json](<Side Event_ starts 6.json>) |
+| Side Event: starts 7 | `Side Event: starts 7` | [Side Event_ starts 7.json](<Side Event_ starts 7.json>) |
 | Side Lapse: dispatcher 1 | `Side Lapse: dispatcher 1` | [Side Lapse_ dispatcher 1.json](<Side Lapse_ dispatcher 1.json>) |
 | Side Outfit: dispatcher 1 | `Side Outfit: dispatcher 1` | [Side Outfit_ dispatcher 1.json](<Side Outfit_ dispatcher 1.json>) |
 | Side Outfit: dispatcher 2 | `Side Outfit: dispatcher 2` | [Side Outfit_ dispatcher 2.json](<Side Outfit_ dispatcher 2.json>) |
@@ -834,10 +844,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: Back from Internships | `Side Resume: Back from Internships` | [Side Resume_ Back from Internships.json](<Side Resume_ Back from Internships.json>) |
 | Side Resume: Bakugo at the Gate | `Side Resume: Bakugo at the Gate` | [Side Resume_ Bakugo at the Gate.json](<Side Resume_ Bakugo at the Gate.json>) |
 | Side Resume: Bakugo Joins the Talks | `Side Resume: Bakugo Joins the Talks` | [Side Resume_ Bakugo Joins the Talks.json](<Side Resume_ Bakugo Joins the Talks.json>) |
+| Side Resume: Basketball: The Away Game | `Side Resume: Basketball: The Away Game` | [Side Resume_ Basketball_ The Away Game.json](<Side Resume_ Basketball_ The Away Game.json>) |
 | Side Resume: Broke and Hunted | `Side Resume: Broke and Hunted` | [Side Resume_ Broke and Hunted.json](<Side Resume_ Broke and Hunted.json>) |
 | Side Resume: Careers Day | `Side Resume: Careers Day` | [Side Resume_ Careers Day.json](<Side Resume_ Careers Day.json>) |
 | Side Resume: Cheese at the Door | `Side Resume: Cheese at the Door` | [Side Resume_ Cheese at the Door.json](<Side Resume_ Cheese at the Door.json>) |
+| Side Resume: Choir: The Festival Chorus | `Side Resume: Choir: The Festival Chorus` | [Side Resume_ Choir_ The Festival Chorus.json](<Side Resume_ Choir_ The Festival Chorus.json>) |
 | Side Resume: Club Recruitment Week | `Side Resume: Club Recruitment Week` | [Side Resume_ Club Recruitment Week.json](<Side Resume_ Club Recruitment Week.json>) |
+| Side Resume: Cooking: The Bento Contest | `Side Resume: Cooking: The Bento Contest` | [Side Resume_ Cooking_ The Bento Contest.json](<Side Resume_ Cooking_ The Bento Contest.json>) |
 | Side Resume: Copycats | `Side Resume: Copycats` | [Side Resume_ Copycats.json](<Side Resume_ Copycats.json>) |
 | Side Resume: Costume Upgrade Rush | `Side Resume: Costume Upgrade Rush` | [Side Resume_ Costume Upgrade Rush.json](<Side Resume_ Costume Upgrade Rush.json>) |
 | Side Resume: Crisis PR After Kamino | `Side Resume: Crisis PR After Kamino` | [Side Resume_ Crisis PR After Kamino.json](<Side Resume_ Crisis PR After Kamino.json>) |
@@ -866,10 +879,13 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: Is There a Traitor? | `Side Resume: Is There a Traitor?` | [Side Resume_ Is There a Traitor_.json](<Side Resume_ Is There a Traitor_.json>) |
 | Side Resume: Joint Sparring Day | `Side Resume: Joint Sparring Day` | [Side Resume_ Joint Sparring Day.json](<Side Resume_ Joint Sparring Day.json>) |
 | Side Resume: Kendo's Study Session | `Side Resume: Kendo's Study Session` | [Side Resume_ Kendo's Study Session.json](<Side Resume_ Kendo's Study Session.json>) |
+| Side Resume: Kendo: The Prefectural Tournament | `Side Resume: Kendo: The Prefectural Tournament` | [Side Resume_ Kendo_ The Prefectural Tournament.json](<Side Resume_ Kendo_ The Prefectural Tournament.json>) |
 | Side Resume: Kota's Secret Cliff | `Side Resume: Kota's Secret Cliff` | [Side Resume_ Kota's Secret Cliff.json](<Side Resume_ Kota's Secret Cliff.json>) |
 | Side Resume: License Exam Lesson Plans | `Side Resume: License Exam Lesson Plans` | [Side Resume_ License Exam Lesson Plans.json](<Side Resume_ License Exam Lesson Plans.json>) |
 | Side Resume: License Exam Prep | `Side Resume: License Exam Prep` | [Side Resume_ License Exam Prep.json](<Side Resume_ License Exam Prep.json>) |
+| Side Resume: Light Music: The Club Stage | `Side Resume: Light Music: The Club Stage` | [Side Resume_ Light Music_ The Club Stage.json](<Side Resume_ Light Music_ The Club Stage.json>) |
 | Side Resume: Lunch with All Might | `Side Resume: Lunch with All Might` | [Side Resume_ Lunch with All Might.json](<Side Resume_ Lunch with All Might.json>) |
+| Side Resume: Manga: The Festival Booklet | `Side Resume: Manga: The Festival Booklet` | [Side Resume_ Manga_ The Festival Booklet.json](<Side Resume_ Manga_ The Festival Booklet.json>) |
 | Side Resume: Manhunt | `Side Resume: Manhunt` | [Side Resume_ Manhunt.json](<Side Resume_ Manhunt.json>) |
 | Side Resume: Midoriya or Iida? | `Side Resume: Midoriya or Iida?` | [Side Resume_ Midoriya or Iida_.json](<Side Resume_ Midoriya or Iida_.json>) |
 | Side Resume: Monoma's Provocation | `Side Resume: Monoma's Provocation` | [Side Resume_ Monoma's Provocation.json](<Side Resume_ Monoma's Provocation.json>) |
@@ -883,12 +899,15 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: Quirk Boot Camp | `Side Resume: Quirk Boot Camp` | [Side Resume_ Quirk Boot Camp.json](<Side Resume_ Quirk Boot Camp.json>) |
 | Side Resume: Rent Day | `Side Resume: Rent Day` | [Side Resume_ Rent Day.json](<Side Resume_ Rent Day.json>) |
 | Side Resume: Rescue Training Day | `Side Resume: Rescue Training Day` | [Side Resume_ Rescue Training Day.json](<Side Resume_ Rescue Training Day.json>) |
+| Side Resume: Robotics: Build Night | `Side Resume: Robotics: Build Night` | [Side Resume_ Robotics_ Build Night.json](<Side Resume_ Robotics_ Build Night.json>) |
 | Side Resume: Rooftop Rounds | `Side Resume: Rooftop Rounds` | [Side Resume_ Rooftop Rounds.json](<Side Resume_ Rooftop Rounds.json>) |
 | Side Resume: Ryukyu Says Yes | `Side Resume: Ryukyu Says Yes` | [Side Resume_ Ryukyu Says Yes.json](<Side Resume_ Ryukyu Says Yes.json>) |
 | Side Resume: Scouting the Sports Festival | `Side Resume: Scouting the Sports Festival` | [Side Resume_ Scouting the Sports Festival.json](<Side Resume_ Scouting the Sports Festival.json>) |
 | Side Resume: Shinso's Night Training | `Side Resume: Shinso's Night Training` | [Side Resume_ Shinso's Night Training.json](<Side Resume_ Shinso's Night Training.json>) |
 | Side Resume: Shoto Visits His Mother | `Side Resume: Shoto Visits His Mother` | [Side Resume_ Shoto Visits His Mother.json](<Side Resume_ Shoto Visits His Mother.json>) |
+| Side Resume: Swimming: The Summer Relay | `Side Resume: Swimming: The Summer Relay` | [Side Resume_ Swimming_ The Summer Relay.json](<Side Resume_ Swimming_ The Summer Relay.json>) |
 | Side Resume: Talk Show Appearance | `Side Resume: Talk Show Appearance` | [Side Resume_ Talk Show Appearance.json](<Side Resume_ Talk Show Appearance.json>) |
+| Side Resume: Tea Ceremony: The Autumn Gathering | `Side Resume: Tea Ceremony: The Autumn Gathering` | [Side Resume_ Tea Ceremony_ The Autumn Gathering.json](<Side Resume_ Tea Ceremony_ The Autumn Gathering.json>) |
 | Side Resume: The 1-B Shopping Trip | `Side Resume: The 1-B Shopping Trip` | [Side Resume_ The 1-B Shopping Trip.json](<Side Resume_ The 1-B Shopping Trip.json>) |
 | Side Resume: The Armored Car Job | `Side Resume: The Armored Car Job` | [Side Resume_ The Armored Car Job.json](<Side Resume_ The Armored Car Job.json>) |
 | Side Resume: The Band | `Side Resume: The Band` | [Side Resume_ The Band.json](<Side Resume_ The Band.json>) |
@@ -930,9 +949,11 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Side Resume: Toga's Dress Rehearsal | `Side Resume: Toga's Dress Rehearsal` | [Side Resume_ Toga's Dress Rehearsal.json](<Side Resume_ Toga's Dress Rehearsal.json>) |
 | Side Resume: Tokoyami at Hawks's Agency | `Side Resume: Tokoyami at Hawks's Agency` | [Side Resume_ Tokoyami at Hawks's Agency.json](<Side Resume_ Tokoyami at Hawks's Agency.json>) |
 | Side Resume: Tokoyami's Winter Work-Study | `Side Resume: Tokoyami's Winter Work-Study` | [Side Resume_ Tokoyami's Winter Work-Study.json](<Side Resume_ Tokoyami's Winter Work-Study.json>) |
+| Side Resume: Track and Field: The Spring Meet | `Side Resume: Track and Field: The Spring Meet` | [Side Resume_ Track and Field_ The Spring Meet.json](<Side Resume_ Track and Field_ The Spring Meet.json>) |
 | Side Resume: Training of the Dead | `Side Resume: Training of the Dead` | [Side Resume_ Training of the Dead.json](<Side Resume_ Training of the Dead.json>) |
 | Side Resume: Unbreakable | `Side Resume: Unbreakable` | [Side Resume_ Unbreakable.json](<Side Resume_ Unbreakable.json>) |
 | Side Resume: Valentine's Day | `Side Resume: Valentine's Day` | [Side Resume_ Valentine's Day.json](<Side Resume_ Valentine's Day.json>) |
+| Side Resume: Volleyball: The Rally | `Side Resume: Volleyball: The Rally` | [Side Resume_ Volleyball_ The Rally.json](<Side Resume_ Volleyball_ The Rally.json>) |
 | Side Resume: Walking Back with Iida and Uraraka | `Side Resume: Walking Back with Iida and Uraraka` | [Side Resume_ Walking Back with Iida and Uraraka.json](<Side Resume_ Walking Back with Iida and Uraraka.json>) |
 | Side Resume: White Day | `Side Resume: White Day` | [Side Resume_ White Day.json](<Side Resume_ White Day.json>) |
 | Side Resume: Why Uraraka Wants to Be a Hero | `Side Resume: Why Uraraka Wants to Be a Hero` | [Side Resume_ Why Uraraka Wants to Be a Hero.json](<Side Resume_ Why Uraraka Wants to Be a Hero.json>) |

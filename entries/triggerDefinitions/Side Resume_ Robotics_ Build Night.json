@@ -1,0 +1,42 @@
+{
+  "Side Resume: Robotics: Build Night": {
+    "name": "Side Resume: Robotics: Build Night",
+    "recurring": false,
+    "conditions": [
+      {
+        "type": "narrative-event-status",
+        "eventId": "side_club_robotics",
+        "operator": "equals",
+        "value": "stopped"
+      },
+      {
+        "type": "read-boolean",
+        "key": "done_side_club_robotics",
+        "operator": "equals",
+        "value": false
+      },
+      {
+        "type": "read-boolean",
+        "key": "rs_side_club_robotics",
+        "operator": "equals",
+        "value": false
+      }
+    ],
+    "effects": [
+      {
+        "type": "narrative-event-start",
+        "eventId": "side_club_robotics"
+      },
+      {
+        "type": "write-boolean",
+        "key": "rs_side_club_robotics",
+        "operator": "set",
+        "value": true
+      },
+      {
+        "type": "story",
+        "instruction": "Narrator only: the side event \"Robotics: Build Night\" resumes now: this turn's scene is that event, with the party present (arriving if need be), at the time of day the Current time note gives. Its setting: Friday evening after classes in the Development Studio at U.A."
+      }
+    ]
+  }
+}

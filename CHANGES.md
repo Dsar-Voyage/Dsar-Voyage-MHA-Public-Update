@@ -6,6 +6,29 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.25.1 — Clubs! (draft 881, not yet published)
+
+U.A. clubs on the canon cast: 11 clubs (Kendo/Itsuka Kendo, Light Music/Kyoka Jiro, Choir/Ibara Shiozaki, Robotics/Mei
+Hatsume, Cooking/Rikido Sato, Tea Ceremony/Momo Yaoyorozu, Manga/Manga Fukidashi, Track and Field/Tenya Iida,
+Swimming/Tsuyu Asui, Basketball/Tetsutetsu Tetsutetsu, Volleyball/Nejire Hado), each with a club trait card (+5 to its
+skill), join and leave triggers (U.A. students, at most two clubs), a club-day reminder and practice that trains the
+skill (+1 every third practice day) and the bond with the lead; 11 member-only club side events. The Wardrobe releases
+a side-event outfit pause once that event is no longer active (portraits stuck in the wrong clothes). Canon students
+and pros outside a fight are never dropped below half health or marked dead. New scripts are gated so they only run
+with work.
+Full per-entry list: [`releases/11.25.1.changes.md`](releases/11.25.1.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `traits` | 11 new club cards ("Club: Kendo" ...). | new entries |
+| `worldLore` | New: U.A. Clubs. | new entry |
+| `narrativeEvents` (parties) | 11 new club side events. | new entries |
+| `triggerDefinitions` | New: Club: join / leave / practice day / practice, the health floor triggers, the club events' start/resume/lapse/cast triggers. Changed: Wardrobe groups 1-6 (stuck-outfit release), Training: progress shows, side-event dispatchers and loaders. | whole entries |
+
+**Stuck portraits in an old save:** copy the six `Wardrobe: group N` entries from `entries/triggerDefinitions/`.
+
+---
+
 ## 11.25 — Voices & Limits (published 2026-11-25, draft 870)
 
 The Quirk Strain limit grows with level: 100 at level 1, +10 per level, at most 300. Every Strain threshold is a share

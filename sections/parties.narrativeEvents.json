@@ -2798,5 +2798,148 @@
         "value": true
       }
     ]
+  },
+  "side_club_kendo": {
+    "title": "Kendo: The Prefectural Tournament",
+    "beats": "Saturday morning in the Main Gymnasium at U.A. Academy, taped into three regulation courts for the prefectural inter-school kendo tournament. Teams from visiting schools across Shizuoka and Saitama sit in rows on the hardwood with bogu armor stacked beside them, while strict external referees check equipment and enforce the tournament's Quirk-free rule before every match.\n\nItsuka Kendo moves down the U.A. line tightening men ties and checking everyone's grip, steady and big-sisterly even while her own bracket approaches; she reminds the first-timers that without Quirks, footwork and a clean center line decide everything. Ectoplasm watches from the advisor's chair at the corner table, keeping two clones posted at the scoreboards to verify points and speaking in measured, resonant reminders about breathing through the strike. Mashirao Ojiro warms up with the newer members, showing how to keep balance when you are used to relying on a Quirk reflex.\n\nThe player can act in three moments: during the armor check and warm-up drills when Kendo asks who will take the vanguard slot against a heavy-hitting school from Saitama; in the middle of their own three-minute regulation match on the center floor when an opponent presses hard to break their guard; and between rounds at the bracket board when a nervous first-year teammate loses confidence before the deciding bout.\n\nDefault course, as pressure the player can change: the visiting Saitama vanguard overwhelms U.A.'s opening fighters with fast, orthodox men strikes, Ojiro has to fight defensively to force a draw, and U.A. drops out in the quarterfinals by a single point while Kendo takes the blame on herself.\n\nThe event is complete when the bracket concludes—whether through a clean ippon, a hard-fought draw, or an honest defeat—leaving the player with an earned quiet nod and a shared towel from Kendo as the club packs the shinai bags with a real tournament finally under its belt.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_kendo",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_track": {
+    "title": "Track and Field: The Spring Meet",
+    "beats": "Saturday afternoon on the Athletics Field at U.A. Academy, chalked fresh for the spring inter-school track and field meet. Visiting schools from neighboring prefectures warm up along the infield grass while external officials verify that every heat and jump is run strictly Quirk-free, down to standard spikes and starting blocks.\n\nTenya Iida marshals the U.A. tent with a clipboard, three stopwatches on lanyards, and rigid arm chops, calling out warm-up windows to the minute and reminding everyone that keeping one's engine or Quirk dormant is a matter of athletic honor. Vlad King stands by the finish judges with a megaphone and a starter pistol on his belt, barking gruff, no-nonsense encouragement about driving through the tape instead of looking at the lane beside you. Izuku Midoriya sits near the hurdles taking rapid notes on stride length for a club member trying to run without Quirk propulsion.\n\nThe player can act in three moments: at the call table when Iida realizes a pulled hamstring has left a gap in both an individual heat and the anchor leg of the 4x100-meter relay; at the starting blocks against a trash-talking sprinter from a visiting Chiba high school who boasts that U.A. students cannot run without their Quirks; and during the baton exchange zone when the incoming runner stumbles under pressure.\n\nDefault course, as pressure the player can change: Iida over-schedules himself trying to cover the open leg and manage the meet timetable at once, botches the third baton pass in his stiffness, and watches the visiting Chiba team take the ribbon by half a stride.\n\nThe event is complete when the final relay crosses the finish line and the times are posted—whether U.A. takes the heat or learns a hard lesson on the cinders—ending with Iida solemnly recording the player's split in the club ledger and shaking their hand for upholding the team's pace.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_track",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_robotics": {
+    "title": "Robotics: Build Night",
+    "beats": "Friday evening after classes in the Development Studio at U.A. Academy, stretching into an authorized build night before the regional student robotics competition. Soldering irons hiss along the workbenches, scrap aluminum and servo housings litter the floor, and a plywood test ring in the center of the room is scarred from test matches.\n\nMei Hatsume darts between benches with grease on her cheek and her zoom goggles clicking, trying to bolt a secondary hydraulic catapult onto the club's heavyweight sumo-bot and calling every prototype her precious baby. Power Loader sits at the master cutoff console with a mug of black coffee, laying down his non-negotiable rule in a tired rasp: no internal combustion, no live explosives, and nothing over the competition's twenty-kilogram weight limit leaves his studio. Denki Kaminari sits by the battery bank, carefully Trickle-charging cells when permitted and nursing scorched fingertips.\n\nThe player can act in three moments: at the drafting bench when Mei wants to replace the sumo-bot's stable drive train with an untested gyroscopic thruster two hours before inspection; during a live test run in the plywood ring when the main logic board starts smoking from burnt solder; and at Power Loader's scale when the finished entry comes in four hundred grams too heavy.\n\nDefault course, as pressure the player can change: Mei sneaks an over-volted capacitor into the chassis anyway, the sumo-bot flips itself through the plywood ring wall on activation and trips the studio breakers, and Power Loader grounds the flashy build in favor of last year's spare chassis.\n\nThe event is complete when a working bot passes Power Loader's safety and weight inspection before curfew, earning a rare gleam of genuine respect from Mei as she stencils a serial number onto the player's addition and packs the crate for Saturday's qualifiers.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_robotics",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_swimming": {
+    "title": "Swimming: The Summer Relay",
+    "beats": "An afternoon after classes at the Indoor Pool at U.A. Academy, the week before summer break, with lane ropes strung tight for a dual meet against a visiting school from Yokohama. The air smells of warm chlorine and damp concrete, and the visiting coach sits alongside the referee to make sure every stroke and turn is completely Quirk-free.\n\nTsuyu Asui perches on the edge of the deck with a clipboard on her knees, ticking off the 400-meter medley relay order with her finger to her chin and telling everyone calmly, ribbit, that a steady stroke rate beats splashing at the first turn. Thirteen stands by the lifeguard chair in her space-suit coat with a whistle around her neck, giving gentle, safety-first reminders about hydration, slick tiles, and pacing yourself in deep water. Toru Hagakure cheers from the team bench with a stack of dry towels ready for the swimmers coming off the blocks.\n\nThe player can act in three moments: during warm-ups when Tsuyu asks who will swim which stroke in the medley relay after a first-year member cramps up during butterfly drills; on the starting wedge when the whistle blows and the visiting Yokohama swimmers surge ahead on the opening fifty meters; and at the final wall touch when the race comes down to an underwater dolphin kick and a clean hand plant.\n\nDefault course, as pressure the player can change: the rattled first-year rushes the breaststroke turn and nearly false-starts the exchange, leaving Tsuyu too far behind on the anchor freestyle leg to close the Yokohama lead before the wall.\n\nThe event is complete when the relay touches home and the deck officials post the official times, followed by Tsuyu handing the player a cold sports drink on the pool edge with a quiet, direct compliment on their form that makes the summer roster feel earned.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_swimming",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_cooking": {
+    "title": "Cooking: The Bento Contest",
+    "beats": "An afternoon after classes in the Other Course Common Kitchen at U.A. Academy, where every stainless-steel station is set with lacquered boxes for the club's seasonal bento contest. Countertops are lined with rice cookers, rolled-egg pans, and baskets of the afternoon's mandatory theme ingredient: bitter summer gourd.\n\nRikido Sato moves from stove to stove in his apron, tasting broths and reminding members with an earnest grin that since this is club practice, safe culinary Quirks are fine as long as the technique holds up; a sugar tin sits by his own mixer from his pre-contest baking demonstration. Lunch Rush stands at the head island with his thumbs hooked in his belt, calling out timer marks and promising a thumbs-up only for a box that balances color, nutrition, and temperature when the lid comes off. Ochaco Uraraka watches from the prep counter, helping wash bowls in exchange for tasting the offcuts.\n\nThe player can act in three moments: at the ingredient basket when the theme is unveiled and they must choose how to cut the gourd's bitterness within the forty-minute clock; midway through cooking when a neighbor's pan scorches or their own centerpiece threatens to fall apart and has to be salvaged into a new dish; and at the tasting table when Lunch Rush opens the finished bento box.\n\nDefault course, as pressure the player can change: half the kitchen tries to mask the bitter gourd with heavy frying, a dropped sauce pot creates a bottleneck at the shared burners, and Sato's safe, textbook pork-and-gourd bento wins by default while the bolder dishes come out half-finished.\n\nThe event is complete when Lunch Rush samples every box and awards the golden ladle ribbon, ending with Sato swapping a piece of his fresh chiffon cake for a bite of the player's bento and writing their recipe into the club's permanent binder.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_cooking",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_basketball": {
+    "title": "Basketball: The Away Game",
+    "beats": "An afternoon after classes in the Main Gymnasium at U.A. Academy, the scoreboard lit for a Quirk-free friendly basketball game against a visiting high school from Tokyo. Sneakers squeak on the polished maple court while two certified referees watch for any flash of hardening or unnatural physical enhancement, ready to blow an immediate technical foul.\n\nTetsutetsu Tetsutetsu slaps his own cheeks at the bench, shouting that pure hustle, box-outs, and guts do not need a Quirk to crush the boards, while Eijiro Kirishima matches him word for word from the baseline, hyping every defensive stop as peak manly teamwork. Vlad King stands beside the scorer's table with his arms crossed, growling at both of them to stop fouling on the perimeter and run the actual pick-and-roll they practiced. Outside the double doors, members of the volleyball club are already peering through the glass with net poles, waiting for the clock to hit five.\n\nThe player can act in three moments: during the first-half timeout when Vlad King demands someone settle the offense before Tetsutetsu and Kirishima foul out from sheer enthusiasm; in the final two minutes on the court when the visiting Tokyo point guard traps U.A. in a full-court press; and at the sidelines when the volleyball club knocks on the doors as the game threatens to go into overtime.\n\nDefault course, as pressure the player can change: Tetsutetsu picks up his fifth personal foul diving for a loose ball without his Quirk, the visiting team sinks two free throws as the gym booking expires, and Vlad King calls the game a two-point loss to clear the floor on time.\n\nThe event is complete when the final buzzer sounds and the teams shake hands at center court, leaving the player with a ringing shoulder slap from Tetsutetsu and Kirishima and a firm spot in the starting five before they help haul the hoops up for the next club.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_basketball",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_volleyball": {
+    "title": "Volleyball: The Rally",
+    "beats": "Late afternoon after classes in the Main Gymnasium at U.A. Academy, just as the basketball club clears the hardwood and the volleyball net goes up for a Quirk-free practice match against a visiting school from Kanagawa. The visiting players are already warming up their jump serves while external referees check the net height and confirm the strict no-Quirk rule.\n\nNejire Hado floats in spirit even with her Quirk completely off, stringing the net antenna while peppering the visiting captain with rapid, curious questions about their knee pads, their bus ride, and why their libero tapes only three fingers. Nemuri Kayama leans against the referee stand in her teacher's suit with a rolled clipboard like a riding crop, telling the club that grace, rhythm, and dramatic timing win rallies far better than brute force. Tetsutetsu Tetsutetsu lingers by the water coolers in his basketball jersey, loudly offering to move the scoreboards if it saves five minutes of the schedule fight.\n\nThe player can act in three moments: at the gym doors when the basketball game runs ten minutes late and the two clubs have to negotiate or rush the net setup; during serve-receive practice when Nejire gets distracted mid-rotation and leaves a seam open against the visiting team's heavy topspin server; and in a long third-set rally where a diving save near the bleachers keeps the ball alive.\n\nDefault course, as pressure the player can change: the rushed warm-up leaves U.A.'s back row out of sync, the Kanagawa server runs six straight points while Nejire is still asking how she spins her wrist, and the match ends in two quick sets before dusk.\n\nThe event is complete when match point hits the floor and the net is rolled away, ending with Nejire bouncing over to ask how the player read that last cross-court shot and locking them into the club's front-row rotation for the rest of the term.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_volleyball",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_tea": {
+    "title": "Tea Ceremony: The Autumn Gathering",
+    "beats": "An autumn afternoon after classes in the Library at U.A. Academy, where the tatami-floored quiet room at the back has been arranged with portable screens, a maple-branch scroll, and an iron kettle for the tea ceremony club's seasonal gathering. Faculty guests and a handful of upperclassmen sit on cushions by the paper windows while the kettle hums like wind in pines.\n\nMomo Yaoyorozu kneels by the preparation screen in a crisp practice kimono apron, reviewing the sequence of utensils with earnest delight; she has firmly sworn not to use her Creation Quirk to replace any forgotten piece, insisting that borrowed antique bowls deserve proper care. Cementoss sits at the guest of honor's mat with his broad stone hands folded neatly in his lap, offering calm, literary observations on the calligraphy scroll and keeping the room's atmosphere unhurried. Shoto Todoroki sits quietly near the rear cushion, attending at Momo's invitation and holding his teacup with careful two-handed focus.\n\nThe player can act in three moments: behind the preparation screen when a nervous first-year host realizes the carved bamboo tea scoop has cracked and freezes before entering; during the main serving when the player must whisk and present a bowl of thin matcha or seasonal sweets to Cementoss under quiet scrutiny; and when an unexpected question about the autumn scroll tests the host's composure.\n\nDefault course, as pressure the player can change: the flustered first-year spills warm rinse water onto the tatami mat, Momo tries to cover the mistake by rushing the second course herself, and the gathering finishes politely but stiffly without the unforced stillness the ceremony aims for.\n\nThe event is complete when the last bowls are rinsed and the guests bow out, leaving Momo beaming as she wraps the borrowed tea caddy with the player and entrusts them with the key to the club's utensil cabinet.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_tea",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_manga": {
+    "title": "Manga: The Festival Booklet",
+    "beats": "An evening after classes in the Library at U.A. Academy, where the media corner's long tables are buried under Bristol board, screentone sheets, G-pens, and ruler guides as the manga club races to finish its anthology booklet for the School Festival print deadline. A photocopy machine in the corner hums nonstop while an alarm clock marks the final two hours before the print-shop courier arrives.\n\nManga Fukidashi leans over the light box with an ink-stained headband around his speech-bubble face, his head flashing crisp, silent [CRUNCH TIME!!] and [INK DRYING!] lettering so he will not materialize solid sound effects and smash the tables; his whispered voice cracks with director's urgency as he checks page margins. Present Mic drops by the advisor's chair between radio prep, whispering at eighty decibels about dynamic panel flow and sliding his own wildly stylized two-page guest comic across the table for someone to tone. Koji Koda sits neatly at the end of the row, erasing pencil lines and pasting screentone with steady hands.\n\nThe player can act in three moments: at the layout board when a four-page gap appears in the anthology and they must either draw a short strip, write a gag script, or ink backgrounds on Fukidashi's lead story; when Present Mic's guest pages turn out to be drawn in the wrong reading order and someone has to tell him or re-letter them; and at the copier when an ink bottle tips toward the master pages.\n\nDefault course, as pressure the player can change: the spilled ink ruins three finished spreads, Fukidashi panics and accidentally pops a solid [GAAAH!] bubble into the ceiling tiles, and the booklet goes to the printer eight pages short with a photocopied apology note.\n\nThe event is complete when the master manuscript is stapled, boxed, and handed to the courier before the library locks up, with Fukidashi's face turning into a glowing [THANK YOU!!] as he adds the player's name to the anthology masthead.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_manga",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_lightmusic": {
+    "title": "Light Music: The Club Stage",
+    "beats": "An afternoon after classes in the Music Room at U.A. Academy, with amplifier cables taped across the floorboards as the light music club rehearses its fifteen-minute set for the School Festival's outdoor club stage—a smaller afternoon showcase completely separate from Class 1-A's main auditorium concert. Drum sticks, chord charts, and a wall clock shared with the choir frame the cramped rehearsal circle.\n\nKyoka Jiro stands with her bass strapped on, one earphone jack twirling nervously around her finger while the other plugs straight into a combo amp to check for ground hum; she keeps insisting she is not a natural bandleader even as her ear catches every sixteenth-note rush in the room. Present Mic sits backward on a piano stool in his leather jacket, tapping the beat on his knee and telling the club in his radio-DJ cadence that a slightly messy live hook with soul beats staring at your fretboard like an exam paper.\n\nThe player can act in three moments: during the soundcheck when Jiro asks them to lock in their part—on guitar, keys, vocals, or percussion—to fix a muddy transition into the chorus; midway through the run-through when a feedback squeal and a snapped string or missed cue threaten to derail the arrangement; and at five o'clock when the choir members arrive outside the door and Jiro hesitates over whether to cut their second song from the festival setlist.\n\nDefault course, as pressure the player can change: Jiro over-corrects every minor tempo slip until the newer members tense up, the rehearsal runs out of time before they ever play the bridge clean, and she trims the club's festival slot down to one safe instrumental cover.\n\nThe event is complete when the club plays the full two-song set straight through to a ringing final chord before yielding the room, earning a half-hidden smile and a spare pick from Jiro as she writes the player's cue into the master stage sheet.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_lightmusic",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  },
+  "side_club_choir": {
+    "title": "Choir: The Festival Chorus",
+    "beats": "Late afternoon after classes in the Music Room at U.A. Academy, as the choir gathers around the upright piano to rehearse its four-part choral piece for the School Festival while the light music club coils its last amplifier cables by the door. Sheet music folders and a penciled room-booking chart sit on the music stand beside a ticking metronome.\n\nIbara Shiozaki stands before the risers with her hands clasped over her sheet music and her vine hair braided neatly back, speaking in serene, earnest tones about how true harmony cannot be forced by pride and offering to yield ten minutes of rehearsal time if the band is still packing up. Nemuri Kayama sits beside the piano bench with a pitch pipe and a red pencil, reminding the singers that sacred serenity is lovely, but projection from the diaphragm and expressive dynamics are what reach the back row of a festival hall. Kyoka Jiro lingers by the cable crate, guilty about running five minutes over the shared schedule and listening critically to the room's acoustics.\n\nThe player can act in three moments: at the turnover of the room when the shared booking sheet sparks tension between impatient singers and the departing band; during sectional practice when the alto and tenor lines drift apart on an unaccompanied key change and Shiozaki looks for a steady voice to anchor the chord; and when Nemuri asks for a soloist or lead harmony to step forward on the final cadence.\n\nDefault course, as pressure the player can change: Shiozaki concedes too much of the hour out of gentle courtesy, the rushed rehearsal leaves the unaccompanied middle verse shaky and flat, and the choir settles for a simpler unison arrangement for the festival program.\n\nThe event is complete when all four vocal parts hold the final suspended chord in clear resonance across the Music Room, leaving Shiozaki to bow her head in quiet gratitude to the player and mark their part at the center of the festival risers.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_choir",
+        "operator": "set",
+        "value": true
+      }
+    ]
   }
 }

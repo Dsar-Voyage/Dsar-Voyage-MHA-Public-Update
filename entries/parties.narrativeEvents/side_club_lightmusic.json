@@ -1,0 +1,15 @@
+{
+  "side_club_lightmusic": {
+    "title": "Light Music: The Club Stage",
+    "beats": "An afternoon after classes in the Music Room at U.A. Academy, with amplifier cables taped across the floorboards as the light music club rehearses its fifteen-minute set for the School Festival's outdoor club stage—a smaller afternoon showcase completely separate from Class 1-A's main auditorium concert. Drum sticks, chord charts, and a wall clock shared with the choir frame the cramped rehearsal circle.\n\nKyoka Jiro stands with her bass strapped on, one earphone jack twirling nervously around her finger while the other plugs straight into a combo amp to check for ground hum; she keeps insisting she is not a natural bandleader even as her ear catches every sixteenth-note rush in the room. Present Mic sits backward on a piano stool in his leather jacket, tapping the beat on his knee and telling the club in his radio-DJ cadence that a slightly messy live hook with soul beats staring at your fretboard like an exam paper.\n\nThe player can act in three moments: during the soundcheck when Jiro asks them to lock in their part—on guitar, keys, vocals, or percussion—to fix a muddy transition into the chorus; midway through the run-through when a feedback squeal and a snapped string or missed cue threaten to derail the arrangement; and at five o'clock when the choir members arrive outside the door and Jiro hesitates over whether to cut their second song from the festival setlist.\n\nDefault course, as pressure the player can change: Jiro over-corrects every minor tempo slip until the newer members tense up, the rehearsal runs out of time before they ever play the bridge clean, and she trims the club's festival slot down to one safe instrumental cover.\n\nThe event is complete when the club plays the full two-song set straight through to a ringing final chord before yielding the room, earning a half-hidden smile and a spare pick from Jiro as she writes the player's cue into the master stage sheet.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_lightmusic",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "side_club_basketball": {
+    "title": "Basketball: The Away Game",
+    "beats": "An afternoon after classes in the Main Gymnasium at U.A. Academy, the scoreboard lit for a Quirk-free friendly basketball game against a visiting high school from Tokyo. Sneakers squeak on the polished maple court while two certified referees watch for any flash of hardening or unnatural physical enhancement, ready to blow an immediate technical foul.\n\nTetsutetsu Tetsutetsu slaps his own cheeks at the bench, shouting that pure hustle, box-outs, and guts do not need a Quirk to crush the boards, while Eijiro Kirishima matches him word for word from the baseline, hyping every defensive stop as peak manly teamwork. Vlad King stands beside the scorer's table with his arms crossed, growling at both of them to stop fouling on the perimeter and run the actual pick-and-roll they practiced. Outside the double doors, members of the volleyball club are already peering through the glass with net poles, waiting for the clock to hit five.\n\nThe player can act in three moments: during the first-half timeout when Vlad King demands someone settle the offense before Tetsutetsu and Kirishima foul out from sheer enthusiasm; in the final two minutes on the court when the visiting Tokyo point guard traps U.A. in a full-court press; and at the sidelines when the volleyball club knocks on the doors as the game threatens to go into overtime.\n\nDefault course, as pressure the player can change: Tetsutetsu picks up his fifth personal foul diving for a loose ball without his Quirk, the visiting team sinks two free throws as the gym booking expires, and Vlad King calls the game a two-point loss to clear the floor on time.\n\nThe event is complete when the final buzzer sounds and the teams shake hands at center court, leaving the player with a ringing shoulder slap from Tetsutetsu and Kirishima and a firm spot in the starting five before they help haul the hoops up for the next club.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_basketball",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

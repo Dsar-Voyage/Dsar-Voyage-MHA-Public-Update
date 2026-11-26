@@ -1,4 +1,4 @@
-# worldLore: 93 entries (11.25)
+# worldLore: 94 entries (11.25.1)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -81,6 +81,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Trigger | `Trigger` | [Trigger.json](<Trigger.json>) |
 | U.A. Academy | `U.A. Academy` | [U.A. Academy.json](<U.A. Academy.json>) |
 | U.A. Admissions | `U.A. Admissions` | [U.A. Admissions.json](<U.A. Admissions.json>) |
+| U.A. Clubs | `U.A. Clubs` | [U.A. Clubs.json](<U.A. Clubs.json>) |
 | U.A. Courses | `U.A. Courses` | [U.A. Courses.json](<U.A. Courses.json>) |
 | U.A. Faculty Life | `U.A. Faculty Life` | [U.A. Faculty Life.json](<U.A. Faculty Life.json>) |
 | U.A. Grounds and Facilities | `U.A. Grounds and Facilities` | [U.A. Grounds and Facilities.json](<U.A. Grounds and Facilities.json>) |

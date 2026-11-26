@@ -1,0 +1,20 @@
+{
+  "Club: Swimming": {
+    "name": "Club: Swimming",
+    "description": "🏊 You are a member of the U.A. Swimming club.\n\n🗓️ It meets before homeroom on Wednesday, in the Indoor Pool.\n🤝 Tsuyu Asui runs it; Thirteen is the advisor.\n📈 Grants: Swimming +5. Practice counts as training.\n\nSay \"I quit the club\" to leave it.",
+    "traitNarrativeEffects": "The character is a member of the U.A. Swimming club, run by Tsuyu Asui with Thirteen as advisor; it meets before homeroom on Wednesday in the Indoor Pool. The lead and members know they are a member (never ask them to sign up again). Going to practice is the player's choice each time; a missed practice is fine, a habit of missing gets one honest word from the lead. Club time is real time: an afternoon at the club is an afternoon not spent elsewhere.",
+    "attributes": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [],
+    "excludedBy": [],
+    "requirements": [],
+    "skills": [
+      {
+        "skill": "Swimming",
+        "modifier": 5
+      }
+    ]
+  }
+}

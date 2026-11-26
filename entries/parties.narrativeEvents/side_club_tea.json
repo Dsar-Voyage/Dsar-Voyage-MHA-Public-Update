@@ -1,0 +1,15 @@
+{
+  "side_club_tea": {
+    "title": "Tea Ceremony: The Autumn Gathering",
+    "beats": "An autumn afternoon after classes in the Library at U.A. Academy, where the tatami-floored quiet room at the back has been arranged with portable screens, a maple-branch scroll, and an iron kettle for the tea ceremony club's seasonal gathering. Faculty guests and a handful of upperclassmen sit on cushions by the paper windows while the kettle hums like wind in pines.\n\nMomo Yaoyorozu kneels by the preparation screen in a crisp practice kimono apron, reviewing the sequence of utensils with earnest delight; she has firmly sworn not to use her Creation Quirk to replace any forgotten piece, insisting that borrowed antique bowls deserve proper care. Cementoss sits at the guest of honor's mat with his broad stone hands folded neatly in his lap, offering calm, literary observations on the calligraphy scroll and keeping the room's atmosphere unhurried. Shoto Todoroki sits quietly near the rear cushion, attending at Momo's invitation and holding his teacup with careful two-handed focus.\n\nThe player can act in three moments: behind the preparation screen when a nervous first-year host realizes the carved bamboo tea scoop has cracked and freezes before entering; during the main serving when the player must whisk and present a bowl of thin matcha or seasonal sweets to Cementoss under quiet scrutiny; and when an unexpected question about the autumn scroll tests the host's composure.\n\nDefault course, as pressure the player can change: the flustered first-year spills warm rinse water onto the tatami mat, Momo tries to cover the mistake by rushing the second course herself, and the gathering finishes politely but stiffly without the unforced stillness the ceremony aims for.\n\nThe event is complete when the last bowls are rinsed and the guests bow out, leaving Momo beaming as she wraps the borrowed tea caddy with the player and entrusts them with the key to the club's utensil cabinet.\n\nThe player character plays their own part: when they step up for a match, a race, a game, a dish or a song, set it up and stop at the first moment that needs their choice; never play it out, score it or finish it for them.",
+    "targetTurns": 15,
+    "onCompleteEffects": [
+      {
+        "type": "write-boolean",
+        "key": "done_side_club_tea",
+        "operator": "set",
+        "value": true
+      }
+    ]
+  }
+}

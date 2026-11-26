@@ -1,0 +1,16 @@
+{
+  "Health: Izuku Midoriya (Sports Festival) outside fights": {
+    "name": "Health: Izuku Midoriya (Sports Festival) outside fights",
+    "recurring": true,
+    "conditions": [
+      {
+        "type": "npc-health-percent",
+        "npc": "Izuku Midoriya (Sports Festival)",
+        "operator": "lessThan",
+        "value": 50
+      }
+    ],
+    "effects": [],
+    "script": "(function(){const K=[\"Izuku Midoriya\",\"Ochaco Uraraka\",\"Katsuki Bakugo\",\"Eijiro Kirishima\",\"Shoto Todoroki\",\"Tenya Iida\",\"Momo Yaoyorozu\",\"Kyoka Jiro\",\"Tsuyu Asui\",\"Fumikage Tokoyami\",\"Denki Kaminari\",\"Hanta Sero\",\"Mina Ashido\",\"Toru Hagakure\",\"Mezo Shoji\",\"Koji Koda\",\"Mashirao Ojiro\",\"Rikido Sato\",\"Yuga Aoyama\",\"Minoru Mineta\",\"Itsuka Kendo\",\"Neito Monoma\",\"Tetsutetsu Tetsutetsu\",\"Ibara Shiozaki\",\"Juzo Honenuki\",\"Setsuna Tokage\",\"Togaru Kamakiri\",\"Hiryu Rin\",\"Pony Tsunotori\",\"Jurota Shishida\",\"Yosetsu Awase\",\"Sen Kaibara\",\"Shihai Kuroiro\",\"Kojiro Bondo\",\"Kinoko Komori\",\"Kosei Tsuburaba\",\"Nirengeki Shoda\",\"Yui Kodai\",\"Reiko Yanagi\",\"Manga Fukidashi\",\"Hitoshi Shinso\",\"Mei Hatsume\",\"Mirio Togata\",\"Tamaki Amajiki\",\"Nejire Hado\",\"Inasa Yoarashi\",\"Seiji Shishikura\",\"Camie Utsushimi\",\"Nagamasa Mora\",\"Yo Shindo\",\"Yuyu Haya\",\"Tatami Nakagame\",\"Dark Shadow\",\"Shota Aizawa\",\"All Might\",\"Naomasa Tsukauchi\",\"Principal Nezu\",\"Present Mic\",\"Nemuri Kayama\",\"Recovery Girl\",\"Vlad King\",\"Cementoss\",\"Thirteen\",\"Power Loader\",\"Ectoplasm\",\"Snipe\",\"Hound Dog\",\"Lunch Rush\",\"Endeavor\",\"Hawks\",\"Best Jeanist\",\"Mirko\",\"Edgeshot\",\"Ryukyu\",\"Gran Torino\",\"Sir Nighteye\",\"Fat Gum\",\"Kamui Woods\",\"Mount Lady\",\"Death Arms\",\"Backdraft\",\"Gang Orca\",\"Crust\",\"Manual\",\"Native\",\"Tensei Iida\",\"Ms. Joke\",\"Mandalay\",\"Pixie-Bob\",\"Ragdoll\",\"Tiger\",\"Burnin\",\"Bubble Girl\",\"Centipeder\",\"Gunhead\",\"Selkie\",\"Fourth Kind\",\"Uwabami\",\"Rock Lock\",\"Yoroi Musha\",\"Sansa Tamakawa\",\"Kenji Tsuragamae\",\"Commission President\",\"Yokumiru Mera\",\"Star and Stripe\",\"Wash\",\"Shishido\",\"Onima\",\"Kido\",\"Gori\",\"Sirius\",\"Ethan Drive\",\"Slidin' Go\",\"Toshinori Yagi\"];const cb=check({type:'npc-in-combat',npc:'anySceneNPC'}),fight=cb===true||(cb&&typeof cb==='object'&&Object.values(cb).some(v=>v===true));if(fight){skip=true;return;}const inS=check({type:'npc-in-scene',npc:'anySceneNPC'})||{};const base=n=>n.replace(/ \\([^)]*\\)$/,'');const C=new Set([\"Izuku Midoriya (Sports Festival)\"]);const M=storage.ndMax||(storage.ndMax={}),out=[];for(const n of C){const h=check({type:'npc-health',npc:n}),p=check({type:'npc-health-percent',npc:n});if(typeof h!=='number')continue;if(typeof p==='number'&&p>0&&h>0)M[n]=Math.max(M[n]||0,Math.round(h*100/p));const mx=M[n]||0;const half=mx?Math.round(mx/2):1;if(h<half){effects.push({type:'npc-health',npc:n,operator:'set',value:half});out.push(base(n));}}storage.ndMax=M;if(!out.length){skip=true;return;}effects.push({type:'story',instruction:'Narrator only: '+[...new Set(out)].join(' and ')+' is hurt but conscious and on their feet, never dead or dying: an injury outside a fight (their own Quirk, an accident) is one minor wound; Recovery Girl or the school nurse treats it.'});log('canon floor '+out.join(', '));})();"
+  }
+}
