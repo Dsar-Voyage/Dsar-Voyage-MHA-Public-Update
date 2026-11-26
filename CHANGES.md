@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.25.1 — Clubs! (draft 881, not yet published)
+## 11.25.1 — Clubs! (published 2026-11-25, draft 881)
 
 U.A. clubs on the canon cast: 11 clubs (Kendo/Itsuka Kendo, Light Music/Kyoka Jiro, Choir/Ibara Shiozaki, Robotics/Mei
 Hatsume, Cooking/Rikido Sato, Tea Ceremony/Momo Yaoyorozu, Manga/Manga Fukidashi, Track and Field/Tenya Iida,
