@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.27 — Unstable Quirks and Custom Drawbacks (draft 895, prepared 2026-11-27; not yet published)
+## 11.27 — Unstable Quirks and Custom Drawbacks (published 2026-11-27, draft 895)
 
 New Quirk Strength "Unstable Quirk" (Power +1, Quirk Output +15, Quirk Control -10; unrestrained uses overshoot, with a
 per-turn narrator note) and "Drawback: Custom" for Custom Quirks (the Quirk paragraph's "Drawback:" line is the cost,
