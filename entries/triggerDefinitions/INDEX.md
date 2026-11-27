@@ -1,4 +1,4 @@
-# triggerDefinitions: 1013 entries (11.25.1)
+# triggerDefinitions: 1015 entries (11.27)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -768,7 +768,9 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Quest Offer: dispatcher 4 | `Quest Offer: dispatcher 4` | [Quest Offer_ dispatcher 4.json](<Quest Offer_ dispatcher 4.json>) |
 | Quest Offer: dispatcher 5 | `Quest Offer: dispatcher 5` | [Quest Offer_ dispatcher 5.json](<Quest Offer_ dispatcher 5.json>) |
 | Quest Offer: dispatcher 6 | `Quest Offer: dispatcher 6` | [Quest Offer_ dispatcher 6.json](<Quest Offer_ dispatcher 6.json>) |
+| Quirk: Custom Drawback shown | `Quirk: Custom Drawback shown` | [Quirk_ Custom Drawback shown.json](<Quirk_ Custom Drawback shown.json>) |
 | Quirk: gives out at 100 | `Quirk: gives out at 100` | [Quirk_ gives out at 100.json](<Quirk_ gives out at 100.json>) |
+| Quirk: Unstable overshoot | `Quirk: Unstable overshoot` | [Quirk_ Unstable overshoot.json](<Quirk_ Unstable overshoot.json>) |
 | Record Guard: All Might | `Record Guard: All Might` | [Record Guard_ All Might.json](<Record Guard_ All Might.json>) |
 | Record Guard: students (after the story) | `Record Guard: students (after the story)` | [Record Guard_ students (after the story).json](<Record Guard_ students (after the story).json>) |
 | Record Guard: students (before the story) | `Record Guard: students (before the story)` | [Record Guard_ students (before the story).json](<Record Guard_ students (before the story).json>) |

@@ -1,4 +1,4 @@
-# encounterElements: 14 entries (11.25.1)
+# encounterElements: 14 entries (11.27)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 

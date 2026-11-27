@@ -20997,6 +20997,56 @@
       }
     ]
   },
+  "Unstable Quirk": {
+    "name": "Unstable Quirk",
+    "description": "🌋 Your Quirk is huge and it does not listen to you yet.\n\n💥 Far beyond the starting force and reach your Quirk's card describes.\n⚠️ Every real use overshoots or slips: more than you asked, wider than you aimed, unless you hold back on purpose.\n🎯 Fine, careful work is one step harder until you train control.\n📈 It settles as your Quirk Control rises.\n🔋 Quirk Strain per use is ordinary.\n\n📈 Grants: Power +1, Quirk Output +15, Quirk Control -10",
+    "traitNarrativeEffects": "Rules: the Quirk works far above its family's starting scale and the user cannot fully steer it. Every use beyond light that the player does not hold back comes out one step bigger or wider than asked, never exactly to size, with a small side effect: a cracked wall, a scorched sleeve, a classmate knocked off balance. A use the player holds back, aims small or slows is shown on the page and lands as asked, a little short. Precise or delicate work (aiming past an ally, a small controlled output, a rescue in close quarters) is one step harder. Usual Quirk Strain; the drawback shows at 60, turns active at 80, gives out at 100. It settles with training: as Quirk Control rises the overshoot shrinks, and from Quirk Control 30 only heavy uses still overshoot. Teachers and pros notice the raw power and the danger. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 15
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": -10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
+  "Drawback: Custom": {
+    "name": "Drawback: Custom",
+    "description": "✍️ Your Custom Quirk's own cost, in your words.\n\n📝 In the background box, end your Quirk paragraph with one line: \"Drawback: ...\" (what using it does to you: a body cost, a limit, or a change in how you act, like growing more theatrical with every spell).\n⚠️ It shows after every real use, and grows at Quirk Strain 60% and 80%; at 100% your Quirk stops.\n🎮 Custom Quirks only.",
+    "traitNarrativeEffects": "Rules: this Quirk's only drawback is the line starting \"Drawback:\" in the Quirk paragraph of the character's Background; use exactly what it says. Show it on the page after every use beyond light, never skipped: a small sign below Quirk Strain 60%, clear and getting in the way from 60%, active and hard to work around from 80%; at 100% the Quirk stops until Strain falls under 60%. A behavioral or personality cost (speech, mood, manner, beliefs) shows in the character's words and actions after each use: the narrator may voice that part of the PC's manner, but never their decisions. Other people react to it. If the paragraph has no Drawback line, use the cost the paragraph names. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Custom Quirk"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  },
   "Gifted: Fire": {
     "name": "Gifted: Fire",
     "description": "🧬 Fire, as an extra Quirk put into your body.\n\n🌱 At the start you throw flame jets and bursts out to about five meters, raise a fire screen between you and danger, and give light and heat on demand.\n📈 With training: flame lances, signal flares, thrust leaps, fire lanes that stop a spreading blaze, steel-melting white heat, and flame shaped to spare a hostage.\n⚠️ Holding back is the real skill: every burn you cause is yours to answer for.\n🔗 Common drawback pairing: Overheating, as heat builds inside your own body.\n🎬 Similar canon Quirks: Endeavor (Hellflame), Dabi (Cremation).\n\n⚠️ Less practiced than your main Quirk: no technique cards of its own; the story plays it from its rules.",

@@ -1,0 +1,35 @@
+{
+  "Unstable Quirk": {
+    "name": "Unstable Quirk",
+    "description": "🌋 Your Quirk is huge and it does not listen to you yet.\n\n💥 Far beyond the starting force and reach your Quirk's card describes.\n⚠️ Every real use overshoots or slips: more than you asked, wider than you aimed, unless you hold back on purpose.\n🎯 Fine, careful work is one step harder until you train control.\n📈 It settles as your Quirk Control rises.\n🔋 Quirk Strain per use is ordinary.\n\n📈 Grants: Power +1, Quirk Output +15, Quirk Control -10",
+    "traitNarrativeEffects": "Rules: the Quirk works far above its family's starting scale and the user cannot fully steer it. Every use beyond light that the player does not hold back comes out one step bigger or wider than asked, never exactly to size, with a small side effect: a cracked wall, a scorched sleeve, a classmate knocked off balance. A use the player holds back, aims small or slows is shown on the page and lands as asked, a little short. Precise or delicate work (aiming past an ally, a small controlled output, a rescue in close quarters) is one step harder. Usual Quirk Strain; the drawback shows at 60, turns active at 80, gives out at 100. It settles with training: as Quirk Control rises the overshoot shrinks, and from Quirk Control 30 only heavy uses still overshoot. Teachers and pros notice the raw power and the danger. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [
+      {
+        "attribute": "power",
+        "modifier": 1
+      }
+    ],
+    "skills": [
+      {
+        "skill": "Quirk Output",
+        "modifier": 15
+      },
+      {
+        "skill": "Quirk Control",
+        "modifier": -10
+      }
+    ],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Emitter",
+      "Transformation",
+      "Mutant"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

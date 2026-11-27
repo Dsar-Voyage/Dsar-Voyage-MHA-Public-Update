@@ -1,0 +1,19 @@
+{
+  "Drawback: Custom": {
+    "name": "Drawback: Custom",
+    "description": "✍️ Your Custom Quirk's own cost, in your words.\n\n📝 In the background box, end your Quirk paragraph with one line: \"Drawback: ...\" (what using it does to you: a body cost, a limit, or a change in how you act, like growing more theatrical with every spell).\n⚠️ It shows after every real use, and grows at Quirk Strain 60% and 80%; at 100% your Quirk stops.\n🎮 Custom Quirks only.",
+    "traitNarrativeEffects": "Rules: this Quirk's only drawback is the line starting \"Drawback:\" in the Quirk paragraph of the character's Background; use exactly what it says. Show it on the page after every use beyond light, never skipped: a small sign below Quirk Strain 60%, clear and getting in the way from 60%, active and hard to work around from 80%; at 100% the Quirk stops until Strain falls under 60%. A behavioral or personality cost (speech, mood, manner, beliefs) shows in the character's words and actions after each use: the narrator may voice that part of the PC's manner, but never their decisions. Other people react to it. If the paragraph has no Drawback line, use the cost the paragraph names. If the character chose Quirkless, this trait does not apply.",
+    "attributes": [],
+    "skills": [],
+    "resources": [],
+    "abilities": [],
+    "startingItems": [],
+    "unlockedBy": [
+      "Custom Quirk"
+    ],
+    "excludedBy": [
+      "Quirkless"
+    ],
+    "requirements": []
+  }
+}

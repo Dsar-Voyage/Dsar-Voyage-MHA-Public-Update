@@ -5,7 +5,7 @@
     "effects": [
       {
         "type": "story",
-        "instruction": "Narrator only: end this turn with one short line of its own giving the weekday, date and clock time, with a.m. or p.m. (a clock time, not a part of the day), that the scene has reached by the end of the turn, e.g. Saturday, April 6 — 2:10 p.m. Start from the Current time; move the clock only as far as the scene really goes (a talk or a meal takes minutes, a trip home and dinner takes hours). Past midnight the date stays the same until the player sleeps or dawn breaks at 5 a.m.: before 5 a.m. give the later hour on today's date, never the next date; from 5 a.m. on it is the next day."
+        "instruction": "Narrator only: end this turn with one short line of its own giving the weekday, date and clock time, with a.m. or p.m. (a clock time, not a part of the day), that the scene has reached by the end of the turn, e.g. Saturday, April 6 — 2:10 p.m. Start from the Current time; move the clock only as far as the scene really goes (a talk or a meal takes minutes, a trip home and dinner takes hours); a turn of talk moves the clock at least 3 to 10 minutes, never one. If nobody may act (a teacher orders silence, everyone waits), jump to the next beat: the bell, the end of the period, the next task. Past midnight the date stays the same until the player sleeps or dawn breaks at 5 a.m.: before 5 a.m. give the later hour on today's date, never the next date; from 5 a.m. on it is the next day."
       }
     ],
     "conditions": [

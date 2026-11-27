@@ -6,6 +6,30 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.27 — Unstable Quirks and Custom Drawbacks (draft 895, prepared 2026-11-27; not yet published)
+
+New Quirk Strength "Unstable Quirk" (Power +1, Quirk Output +15, Quirk Control -10; unrestrained uses overshoot, with a
+per-turn narrator note) and "Drawback: Custom" for Custom Quirks (the Quirk paragraph's "Drawback:" line is the cost,
+shown after every use). Knocked-out foes are taken away by police, medics or their own crew, or kept down when the
+player restrains them, also when the engine tags them "Dead". Talk turns move the clock a few minutes and an ordered
+silence jumps to the next beat. Mentioning a place in talk or plans no longer moves the party. Strangers learn the
+player's name, Quirk and limits only from an introduction, a file or what they saw; calming and sleep Quirks are
+registered Quirks, not crimes; a player is only called spent at low Stamina or high Strain; a rest order ends three
+in-game days after it was given.
+Full per-entry list: [`releases/11.27.changes.md`](releases/11.27.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `traits` | New: Unstable Quirk, Drawback: Custom. | new entries |
+| `traitCategories` | Quirk Strength and Quirk Drawback list the new options. | whole entries |
+| `aiInstructions` | generateStory Character Behavior (knowledge of the PC), generateActionInfo MHA Checks and Quirk Judgment (honest cost, mind-touching Quirks), summarization MHA Continuity Ledger (rest orders end). | whole entries |
+| `triggerDefinitions` | New: Quirk: Unstable overshoot, Quirk: Custom Drawback shown. Changed: Combat: knocked-out foes taken away, Clock: Time Line Note, Travel: resolve place, Mechanics: Quirkless cleanup, and the Pack/Event loaders. | whole entries |
+
+**Teleporting when you mention a place, in an old save:** copy `Travel: resolve place` from `entries/triggerDefinitions/`.
+**Class time stuck at one minute per turn:** copy `Clock: Time Line Note`.
+
+---
+
 ## 11.25.1 — Clubs! (published 2026-11-25, draft 881)
 
 U.A. clubs on the canon cast: 11 clubs (Kendo/Itsuka Kendo, Light Music/Kyoka Jiro, Choir/Ibara Shiozaki, Robotics/Mei

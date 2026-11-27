@@ -1,0 +1,25 @@
+{
+  "Quirk: Unstable overshoot": {
+    "name": "Quirk: Unstable overshoot",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Unstable Quirk"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "^(?!.*(old back|im small|areful|slow|tiny))(?=.*(uirk|last|jet|ire|lame|urst|unch|wave|beam))"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: if the player character uses their Unstable Quirk this turn beyond a light touch, it comes out one step bigger or wider than they asked, never exactly to size, with one small visible side effect (a scorch mark, a cracked tile, a gust that knocks something over). Show it on the page. A clean or better result means the goal is reached, not that the size was controlled: it still overshoots. Never have the PC throttle or hold back on their own; only the player decides that."
+      }
+    ]
+  }
+}

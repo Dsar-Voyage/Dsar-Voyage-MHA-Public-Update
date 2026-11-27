@@ -1,0 +1,25 @@
+{
+  "Quirk: Custom Drawback shown": {
+    "name": "Quirk: Custom Drawback shown",
+    "recurring": true,
+    "phase": "planning",
+    "conditions": [
+      {
+        "type": "player-traits",
+        "operator": "contains",
+        "value": "Drawback: Custom"
+      },
+      {
+        "type": "action-text",
+        "operator": "regex",
+        "value": "uirk|pell|cast|bolt|last|jet|ire|lame|urst|unch|wave|beam|ield|arrier|summon|power"
+      }
+    ],
+    "effects": [
+      {
+        "type": "story",
+        "instruction": "Narrator only: if the player character uses their Custom Quirk this turn beyond a light touch, show the cost from the \"Drawback:\" line of their Quirk paragraph on the page right after the use, a little stronger than last time, and let someone nearby react to it. Never skip it."
+      }
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-# traits: 1171 entries (11.25.1)
+# traits: 1173 entries (11.27)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -245,6 +245,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Drawback: Bodily Toll | `Drawback: Bodily Toll` | [Drawback_ Bodily Toll.json](<Drawback_ Bodily Toll.json>) |
 | Drawback: Cognitive Fade | `Drawback: Cognitive Fade` | [Drawback_ Cognitive Fade.json](<Drawback_ Cognitive Fade.json>) |
 | Drawback: Cooldown | `Drawback: Cooldown` | [Drawback_ Cooldown.json](<Drawback_ Cooldown.json>) |
+| Drawback: Custom | `Drawback: Custom` | [Drawback_ Custom.json](<Drawback_ Custom.json>) |
 | Drawback: Emotional Swing | `Drawback: Emotional Swing` | [Drawback_ Emotional Swing.json](<Drawback_ Emotional Swing.json>) |
 | Drawback: Finite Fuel | `Drawback: Finite Fuel` | [Drawback_ Finite Fuel.json](<Drawback_ Finite Fuel.json>) |
 | Drawback: Loss of Control | `Drawback: Loss of Control` | [Drawback_ Loss of Control.json](<Drawback_ Loss of Control.json>) |
@@ -1128,6 +1129,7 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Undercut | `Undercut` | [Undercut.json](<Undercut.json>) |
 | Undo Quirk | `Undo Quirk` | [Undo Quirk.json](<Undo Quirk.json>) |
 | Unhinged | `Unhinged` | [Unhinged.json](<Unhinged.json>) |
+| Unstable Quirk | `Unstable Quirk` | [Unstable Quirk.json](<Unstable Quirk.json>) |
 | Van Dyke Beard | `Van Dyke Beard` | [Van Dyke Beard.json](<Van Dyke Beard.json>) |
 | Vanilla Blonde Hair | `Vanilla Blonde Hair` | [Vanilla Blonde Hair.json](<Vanilla Blonde Hair.json>) |
 | Vector Lock Quirk | `Vector Lock Quirk` | [Vector Lock Quirk.json](<Vector Lock Quirk.json>) |
