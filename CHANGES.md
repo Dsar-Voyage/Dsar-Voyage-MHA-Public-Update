@@ -6,7 +6,7 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
-## 11.28 — Outfits Fixed (draft 901, prepared 2026-11-28; not yet published)
+## 11.28 — Outfits Fixed (published 2026-11-28, draft 901)
 
 The portrait wardrobe rebuilt: the six "Wardrobe: group N" triggers no longer skip people their own record says are
 dressed right (a stale record left people in the wrong clothes), write one record per person per pass (the engine
