@@ -6,6 +6,29 @@ save or remix (see the [README](README.md) for how). The machine-generated list 
 
 ---
 
+## 11.28 — Outfits Fixed (draft 901, prepared 2026-11-28; not yet published)
+
+The portrait wardrobe rebuilt: the six "Wardrobe: group N" triggers no longer skip people their own record says are
+dressed right (a stale record left people in the wrong clothes), write one record per person per pass (the engine
+keeps at most 10 effects per trigger; four stage records per student used to hit that cap after about two people, so
+most of a class never changed, e.g. gym icons all Move-In Night), and do a full pass on every move so people outside
+the scene are dressed for their own place. New after-the-story copies run once the story has moved the party, so
+outfits change on the arrival turn, and Campus Schedule copies run after a skip so everyone is placed first. Izuku's
+base and Sports Festival records are elite tier (a strong NPC died instantly at 0 HP from his own Quirk). Outfit
+traits no longer name wings, tails or extra arms (the narrator gave a player four arms).
+Full per-entry list: [`releases/11.28.changes.md`](releases/11.28.changes.md).
+
+| Section | What changed | Copy |
+|---|---|---|
+| `triggerDefinitions` | Changed: Wardrobe: group 1-6. New: Wardrobe: group 1-6 (after the story), Campus Schedule: 1A-1 / 1A-2 / 1B-1 / 1B-2 / faculty-1 / faculty-2 / campus (after a skip). | whole entries |
+| `npcs` | Izuku Midoriya, Izuku Midoriya (Sports Festival): tier elite. | the tier field only |
+| `traits` | The 20 "Outfit - ..." appearance traits: one line reworded. | whole entries |
+
+**Outfits stuck in an old save:** copy the 12 `Wardrobe: group N` entries (with and without "(after the story)") and
+the 7 `Campus Schedule: ... (after a skip)` entries from `entries/triggerDefinitions/`.
+
+---
+
 ## 11.27 — Unstable Quirks and Custom Drawbacks (published 2026-11-27, draft 895)
 
 New Quirk Strength "Unstable Quirk" (Power +1, Quirk Output +15, Quirk Control -10; unrestrained uses overshoot, with a

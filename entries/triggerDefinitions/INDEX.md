@@ -1,4 +1,4 @@
-# triggerDefinitions: 1015 entries (11.27)
+# triggerDefinitions: 1028 entries (11.28)
 
 Each file holds one entry as `{"key": value}`. Copy the value into the entry with the same key.
 
@@ -66,12 +66,19 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Bonds: a close friend comes by | `Bonds: a close friend comes by` | [Bonds_ a close friend comes by.json](<Bonds_ a close friend comes by.json>) |
 | Bonds: quest rewards stay small | `Bonds: quest rewards stay small` | [Bonds_ quest rewards stay small.json](<Bonds_ quest rewards stay small.json>) |
 | Campus Schedule: 1A-1 | `Campus Schedule: 1A-1` | [Campus Schedule_ 1A-1.json](<Campus Schedule_ 1A-1.json>) |
+| Campus Schedule: 1A-1 (after a skip) | `Campus Schedule: 1A-1 (after a skip)` | [Campus Schedule_ 1A-1 (after a skip).json](<Campus Schedule_ 1A-1 (after a skip).json>) |
 | Campus Schedule: 1A-2 | `Campus Schedule: 1A-2` | [Campus Schedule_ 1A-2.json](<Campus Schedule_ 1A-2.json>) |
+| Campus Schedule: 1A-2 (after a skip) | `Campus Schedule: 1A-2 (after a skip)` | [Campus Schedule_ 1A-2 (after a skip).json](<Campus Schedule_ 1A-2 (after a skip).json>) |
 | Campus Schedule: 1B-1 | `Campus Schedule: 1B-1` | [Campus Schedule_ 1B-1.json](<Campus Schedule_ 1B-1.json>) |
+| Campus Schedule: 1B-1 (after a skip) | `Campus Schedule: 1B-1 (after a skip)` | [Campus Schedule_ 1B-1 (after a skip).json](<Campus Schedule_ 1B-1 (after a skip).json>) |
 | Campus Schedule: 1B-2 | `Campus Schedule: 1B-2` | [Campus Schedule_ 1B-2.json](<Campus Schedule_ 1B-2.json>) |
+| Campus Schedule: 1B-2 (after a skip) | `Campus Schedule: 1B-2 (after a skip)` | [Campus Schedule_ 1B-2 (after a skip).json](<Campus Schedule_ 1B-2 (after a skip).json>) |
 | Campus Schedule: campus | `Campus Schedule: campus` | [Campus Schedule_ campus.json](<Campus Schedule_ campus.json>) |
+| Campus Schedule: campus (after a skip) | `Campus Schedule: campus (after a skip)` | [Campus Schedule_ campus (after a skip).json](<Campus Schedule_ campus (after a skip).json>) |
 | Campus Schedule: faculty-1 | `Campus Schedule: faculty-1` | [Campus Schedule_ faculty-1.json](<Campus Schedule_ faculty-1.json>) |
+| Campus Schedule: faculty-1 (after a skip) | `Campus Schedule: faculty-1 (after a skip)` | [Campus Schedule_ faculty-1 (after a skip).json](<Campus Schedule_ faculty-1 (after a skip).json>) |
 | Campus Schedule: faculty-2 | `Campus Schedule: faculty-2` | [Campus Schedule_ faculty-2.json](<Campus Schedule_ faculty-2.json>) |
+| Campus Schedule: faculty-2 (after a skip) | `Campus Schedule: faculty-2 (after a skip)` | [Campus Schedule_ faculty-2 (after a skip).json](<Campus Schedule_ faculty-2 (after a skip).json>) |
 | Campus: back after the war | `Campus: back after the war` | [Campus_ back after the war.json](<Campus_ back after the war.json>) |
 | Campus: off after graduation | `Campus: off after graduation` | [Campus_ off after graduation.json](<Campus_ off after graduation.json>) |
 | Campus: off for the war | `Campus: off for the war` | [Campus_ off for the war.json](<Campus_ off for the war.json>) |
@@ -1009,11 +1016,17 @@ Each file holds one entry as `{"key": value}`. Copy the value into the entry wit
 | Voice: player speech (unquoted) | `Voice: player speech (unquoted)` | [Voice_ player speech (unquoted).json](<Voice_ player speech (unquoted).json>) |
 | Voice: tic guard | `Voice: tic guard` | [Voice_ tic guard.json](<Voice_ tic guard.json>) |
 | Wardrobe: group 1 | `Wardrobe: group 1` | [Wardrobe_ group 1.json](<Wardrobe_ group 1.json>) |
+| Wardrobe: group 1 (after the story) | `Wardrobe: group 1 (after the story)` | [Wardrobe_ group 1 (after the story).json](<Wardrobe_ group 1 (after the story).json>) |
 | Wardrobe: group 2 | `Wardrobe: group 2` | [Wardrobe_ group 2.json](<Wardrobe_ group 2.json>) |
+| Wardrobe: group 2 (after the story) | `Wardrobe: group 2 (after the story)` | [Wardrobe_ group 2 (after the story).json](<Wardrobe_ group 2 (after the story).json>) |
 | Wardrobe: group 3 | `Wardrobe: group 3` | [Wardrobe_ group 3.json](<Wardrobe_ group 3.json>) |
+| Wardrobe: group 3 (after the story) | `Wardrobe: group 3 (after the story)` | [Wardrobe_ group 3 (after the story).json](<Wardrobe_ group 3 (after the story).json>) |
 | Wardrobe: group 4 | `Wardrobe: group 4` | [Wardrobe_ group 4.json](<Wardrobe_ group 4.json>) |
+| Wardrobe: group 4 (after the story) | `Wardrobe: group 4 (after the story)` | [Wardrobe_ group 4 (after the story).json](<Wardrobe_ group 4 (after the story).json>) |
 | Wardrobe: group 5 | `Wardrobe: group 5` | [Wardrobe_ group 5.json](<Wardrobe_ group 5.json>) |
+| Wardrobe: group 5 (after the story) | `Wardrobe: group 5 (after the story)` | [Wardrobe_ group 5 (after the story).json](<Wardrobe_ group 5 (after the story).json>) |
 | Wardrobe: group 6 | `Wardrobe: group 6` | [Wardrobe_ group 6.json](<Wardrobe_ group 6.json>) |
+| Wardrobe: group 6 (after the story) | `Wardrobe: group 6 (after the story)` | [Wardrobe_ group 6 (after the story).json](<Wardrobe_ group 6 (after the story).json>) |
 | World Move: League Regroups After Kamino | `World Move: League Regroups After Kamino` | [World Move_ League Regroups After Kamino.json](<World Move_ League Regroups After Kamino.json>) |
 | World Note: paranormal_liberation_war | `World Note: paranormal_liberation_war` | [World Note_ paranormal_liberation_war.json](<World Note_ paranormal_liberation_war.json>) |
 | World Note: shie_hassaikai_raid | `World Note: shie_hassaikai_raid` | [World Note_ shie_hassaikai_raid.json](<World Note_ shie_hassaikai_raid.json>) |

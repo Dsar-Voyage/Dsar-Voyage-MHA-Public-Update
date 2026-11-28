@@ -431,7 +431,7 @@
   "Outfit - U.A. School Uniform": {
     "name": "Outfit - U.A. School Uniform",
     "description": "👕 Outfit: U.A. School Uniform\nU.A.'s uniform: light gray blazer, red tie and dark green trousers or skirt.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: U.A.'s standard uniform. A light gray blazer with dark green edging along the collar and lapels, worn over a white collared shirt with a wide red necktie; dark green trousers or a dark green pleated skirt ending above the knee, whichever the character wears; dark leather loafers. Neat, pressed and slightly worn in. No lettering or badges. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: U.A.'s standard uniform. A light gray blazer with dark green edging along the collar and lapels, worn over a white collared shirt with a wide red necktie; dark green trousers or a dark green pleated skirt ending above the knee, whichever the character wears; dark leather loafers. Neat, pressed and slightly worn in. No lettering or badges. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -444,7 +444,7 @@
   "Outfit - U.A. Gym Uniform": {
     "name": "Outfit - U.A. Gym Uniform",
     "description": "👕 Outfit: U.A. Gym Uniform\nU.A.'s navy training tracksuit with broad white lines over the shoulders and legs.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: U.A.'s training tracksuit. A navy blue zip-up track jacket and matching track pants, with broad white lines running from the collar over the shoulders, down the sleeves and along the outer legs; the jacket is zipped to the collar or half open over a plain white T-shirt; white athletic sneakers. No printed lettering or logos. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: U.A.'s training tracksuit. A navy blue zip-up track jacket and matching track pants, with broad white lines running from the collar over the shoulders, down the sleeves and along the outer legs; the jacket is zipped to the collar or half open over a plain white T-shirt; white athletic sneakers. No printed lettering or logos. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -457,7 +457,7 @@
   "Outfit - Hero Costume: Sleek Bodysuit": {
     "name": "Outfit - Hero Costume: Sleek Bodysuit",
     "description": "👕 Outfit: Hero Costume: Sleek Bodysuit\nA close-fitting hero bodysuit with contrasting panel lines, gloves and boots.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A close-fitting hero bodysuit in a matte stretch-armor weave covers the body from neck to wrists and ankles, with contrasting panel lines tracing the shoulders, ribs and outer legs; short fitted gloves, low flexible boots and a slim belt with flat pouches. Athletic and non-revealing. Default colors: deep blue with white panel lines, replaced by the character's established costume colors when stated. No lettering. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A close-fitting hero bodysuit in a matte stretch-armor weave covers the body from neck to wrists and ankles, with contrasting panel lines tracing the shoulders, ribs and outer legs; short fitted gloves, low flexible boots and a slim belt with flat pouches. Athletic and non-revealing. Default colors: deep blue with white panel lines, replaced by the character's established costume colors when stated. No lettering. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -470,7 +470,7 @@
   "Outfit - Hero Costume: Armored": {
     "name": "Outfit - Hero Costume: Armored",
     "description": "👕 Outfit: Hero Costume: Armored\nA hero costume of segmented armor plates over a padded undersuit.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: Segmented armor plates over a padded black undersuit: a chest plate, layered shoulder guards, forearm bracers, thigh plates and shin guards over reinforced boots. The plates are matte with beveled edges and visible fastening straps. The head stays bare so the face is visible; a matching helmet appears only when the selected pose carries one. Default colors: steel-gray plates with dark red edge trim, replaced by the character's established costume colors when stated. No lettering. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: Segmented armor plates over a padded black undersuit: a chest plate, layered shoulder guards, forearm bracers, thigh plates and shin guards over reinforced boots. The plates are matte with beveled edges and visible fastening straps. The head stays bare so the face is visible; a matching helmet appears only when the selected pose carries one. Default colors: steel-gray plates with dark red edge trim, replaced by the character's established costume colors when stated. No lettering. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -483,7 +483,7 @@
   "Outfit - Hero Costume: Utility Combat": {
     "name": "Outfit - Hero Costume: Utility Combat",
     "description": "👕 Outfit: Hero Costume: Utility Combat\nA practical field costume with a load-bearing vest, pouches and combat boots.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A practical field costume: a fitted long-sleeve top under a load-bearing vest with flat pouches, a wide utility belt, cargo trousers with knee pads, tactical gloves and laced combat boots, every strap cinched tight. Default colors: charcoal with olive green panels, replaced by the character's established costume colors when stated. No lettering. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A practical field costume: a fitted long-sleeve top under a load-bearing vest with flat pouches, a wide utility belt, cargo trousers with knee pads, tactical gloves and laced combat boots, every strap cinched tight. Default colors: charcoal with olive green panels, replaced by the character's established costume colors when stated. No lettering. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -496,7 +496,7 @@
   "Outfit - Hero Costume: Rescue Specialist": {
     "name": "Outfit - Hero Costume: Rescue Specialist",
     "description": "👕 Outfit: Hero Costume: Rescue Specialist\nA high-visibility rescue costume with reflective bands and a chest harness.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A rescue hero's costume made to be seen through smoke and dust: a bright jacket and trousers with wide reflective silver bands across the chest, upper arms and shins, a chest harness with reinforced loops, elbow and knee pads, light work gloves and sturdy waterproof boots. Default colors: safety orange and silver, replaced by the character's established costume colors when stated. No lettering or medical symbols. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A rescue hero's costume made to be seen through smoke and dust: a bright jacket and trousers with wide reflective silver bands across the chest, upper arms and shins, a chest harness with reinforced loops, elbow and knee pads, light work gloves and sturdy waterproof boots. Default colors: safety orange and silver, replaced by the character's established costume colors when stated. No lettering or medical symbols. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -509,7 +509,7 @@
   "Outfit - Hero Costume: Idol Stage Style": {
     "name": "Outfit - Hero Costume: Idol Stage Style",
     "description": "👕 Outfit: Hero Costume: Idol Stage Style\nA bright, camera-ready hero costume with a short cape and stage trim.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A camera-ready hero costume styled for the stage: a fitted jacket with structured shoulders and a short flared cape at the back, a layered skirt or slim trousers with a satin sheen, whichever the character wears, white gloves and knee-high boots; ribbon trim and small star-shaped studs edge the jacket and cape. Bright, clean and non-revealing. Default colors: white with vivid pink panels and gold trim, replaced by the character's established costume colors when stated. No lettering. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A camera-ready hero costume styled for the stage: a fitted jacket with structured shoulders and a short flared cape at the back, a layered skirt or slim trousers with a satin sheen, whichever the character wears, white gloves and knee-high boots; ribbon trim and small star-shaped studs edge the jacket and cape. Bright, clean and non-revealing. Default colors: white with vivid pink panels and gold trim, replaced by the character's established costume colors when stated. No lettering. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -522,7 +522,7 @@
   "Outfit - Hero Costume: Traditional Japanese Style": {
     "name": "Outfit - Hero Costume: Traditional Japanese Style",
     "description": "👕 Outfit: Hero Costume: Traditional Japanese Style\nA hero costume built from a haori jacket, hakama-cut trousers and tabi boots.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A hero costume drawn from Japanese dress: a fitted cross-collar top closed left panel over right, a short haori jacket worn open over it, wide hakama-cut trousers gathered at the shins, a broad obi sash at the waist, padded forearm guards and split-toe tabi boots. Default colors: indigo and white with a vermilion sash, replaced by the character's established costume colors when stated. No lettering or crests. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A hero costume drawn from Japanese dress: a fitted cross-collar top closed left panel over right, a short haori jacket worn open over it, wide hakama-cut trousers gathered at the shins, a broad obi sash at the waist, padded forearm guards and split-toe tabi boots. Default colors: indigo and white with a vermilion sash, replaced by the character's established costume colors when stated. No lettering or crests. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -535,7 +535,7 @@
   "Outfit - Hero Costume: Heavy Support Gear": {
     "name": "Outfit - Hero Costume: Heavy Support Gear",
     "description": "👕 Outfit: Hero Costume: Heavy Support Gear\nA hero costume built around bulky gauntlets, a backpack frame and cables.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A padded flight-suit base under heavy support gear: oversized armored gauntlets, cables running from the forearms over the shoulders to a compact backpack frame with sealed canisters, a utility harness, reinforced knee guards, heavy boots and a visor raised on the forehead. Every piece looks engineered and maintained, scuffed at the edges. Default colors: matte gray with safety-yellow panels, replaced by the character's established costume colors when stated. No lettering. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A padded flight-suit base under heavy support gear: oversized armored gauntlets, cables running from the forearms over the shoulders to a compact backpack frame with sealed canisters, a utility harness, reinforced knee guards, heavy boots and a visor raised on the forehead. Every piece looks engineered and maintained, scuffed at the edges. Default colors: matte gray with safety-yellow panels, replaced by the character's established costume colors when stated. No lettering. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -548,7 +548,7 @@
   "Outfit - Villain Look: Long Dark Coat": {
     "name": "Outfit - Villain Look: Long Dark Coat",
     "description": "👕 Outfit: Villain Look: Long Dark Coat\nA long dark coat with a high collar over dark clothes, gloves and boots.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A long charcoal-black coat falling to mid-calf, high collar turned up, worn open over a dark fitted shirt and dark trousers; black leather gloves and heavy lace-up boots. Worn hems and a few stitched repairs. The face stays uncovered. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A long charcoal-black coat falling to mid-calf, high collar turned up, worn open over a dark fitted shirt and dark trousers; black leather gloves and heavy lace-up boots. Worn hems and a few stitched repairs. The face stays uncovered. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -561,7 +561,7 @@
   "Outfit - Villain Look: Street Hoodie and Mask": {
     "name": "Outfit - Villain Look: Street Hoodie and Mask",
     "description": "👕 Outfit: Villain Look: Street Hoodie and Mask\nAn oversized dark hoodie, hood up, with a cloth mask over the lower face.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: An oversized black hoodie with the hood up over the hair, a black cloth mask over the nose and mouth that leaves the eyes and brows visible, dark cargo pants and scuffed black sneakers. Faded at the seams, no prints or lettering. Horns or animal ears pass through slits in the hood. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: An oversized black hoodie with the hood up over the hair, a black cloth mask over the nose and mouth that leaves the eyes and brows visible, dark cargo pants and scuffed black sneakers. Faded at the seams, no prints or lettering. Horns or animal ears pass through slits in the hood. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -574,7 +574,7 @@
   "Outfit - Villain Look: Masked Suit": {
     "name": "Outfit - Villain Look: Masked Suit",
     "description": "👕 Outfit: Villain Look: Masked Suit\nA tailored dark suit with black gloves and a mask over the upper face.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A tailored black suit over a dark shirt with a thin dark tie, black leather gloves and polished black shoes. A smooth matte white mask covers the upper face from the forehead to the bridge of the nose, with clean eye openings; the mouth and jaw stay bare. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A tailored black suit over a dark shirt with a thin dark tie, black leather gloves and polished black shoes. A smooth matte white mask covers the upper face from the forehead to the bridge of the nose, with clean eye openings; the mouth and jaw stay bare. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -587,7 +587,7 @@
   "Outfit - Homemade Vigilante Costume": {
     "name": "Outfit - Homemade Vigilante Costume",
     "description": "👕 Outfit: Homemade Vigilante Costume\nA self-made costume of hoodie, strapped-on sports padding and a simple mask.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A self-made costume: a hooded sweatshirt over a strapped-on sports chest protector, elbow and knee pads, shin guards over track pants, a cloth domino mask, running shoes and fingerless gloves wrapped in athletic tape. Colors are mismatched, with visible hand stitching and tape repairs. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A self-made costume: a hooded sweatshirt over a strapped-on sports chest protector, elbow and knee pads, shin guards over track pants, a cloth domino mask, running shoes and fingerless gloves wrapped in athletic tape. Colors are mismatched, with visible hand stitching and tape repairs. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -600,7 +600,7 @@
   "Outfit - Business Suit": {
     "name": "Outfit - Business Suit",
     "description": "👕 Outfit: Business Suit\nA dark, well-fitted business suit for offices, agencies and press events.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A charcoal or navy single-breasted two-piece suit over a white shirt, with a plain tie or an open collar, and polished black leather shoes; trousers or a knee-length skirt, whichever the character wears. Pressed and fitted. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A charcoal or navy single-breasted two-piece suit over a white shirt, with a plain tie or an open collar, and polished black leather shoes; trousers or a knee-length skirt, whichever the character wears. Pressed and fitted. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -613,7 +613,7 @@
   "Outfit - Casual Streetwear": {
     "name": "Outfit - Casual Streetwear",
     "description": "👕 Outfit: Casual Streetwear\nEveryday city clothes: a plain T-shirt, light jacket, jeans and sneakers.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: Everyday city clothes: a loose plain T-shirt under an unzipped light bomber jacket, slim dark jeans and clean white sneakers. Muted colors, no prints or lettering. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: Everyday city clothes: a loose plain T-shirt under an unzipped light bomber jacket, slim dark jeans and clean white sneakers. Muted colors, no prints or lettering. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -626,7 +626,7 @@
   "Outfit - Cafe Work Uniform": {
     "name": "Outfit - Cafe Work Uniform",
     "description": "👕 Outfit: Cafe Work Uniform\nA cafe uniform: white shirt, dark apron and a blank name tag.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A cafe work uniform: a white collared shirt with the sleeves rolled to the elbows, a dark brown apron tied at the waist and falling to the knees, black trousers or a black skirt and plain black shoes. A small blank name tag sits on the chest. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A cafe work uniform: a white collared shirt with the sleeves rolled to the elbows, a dark brown apron tied at the waist and falling to the knees, black trousers or a black skirt and plain black shoes. A small blank name tag sits on the chest. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -639,7 +639,7 @@
   "Outfit - Summer Festival Yukata": {
     "name": "Outfit - Summer Festival Yukata",
     "description": "👕 Outfit: Summer Festival Yukata\nA light cotton yukata with an obi sash and wooden geta sandals.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A light cotton yukata wrapped left panel over right and tied with an obi sash, worn with wooden geta sandals. Either a wide obi tied in a bow at the back over a bright floral print, or a narrow obi knotted low at the hips over a plain or striped print, whichever suits the character's presentation. Default colors: indigo with white patterns. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A light cotton yukata wrapped left panel over right and tied with an obi sash, worn with wooden geta sandals. Either a wide obi tied in a bow at the back over a bright floral print, or a narrow obi knotted low at the hips over a plain or striped print, whichever suits the character's presentation. Default colors: indigo with white patterns. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -652,7 +652,7 @@
   "Outfit - Winter Coat and Scarf": {
     "name": "Outfit - Winter Coat and Scarf",
     "description": "👕 Outfit: Winter Coat and Scarf\nA long wool coat with a thick knit scarf, gloves and boots.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: A knee-length wool coat buttoned against the cold with the collar turned up, a thick knit scarf in a double loop around the neck, knit gloves, dark trousers or a skirt with dark tights, and ankle boots. Default colors: a camel coat with a deep red scarf. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: A knee-length wool coat buttoned against the cold with the collar turned up, a thick knit scarf in a double loop around the neck, knit gloves, dark trousers or a skirt with dark tights, and ankle boots. Default colors: a camel coat with a deep red scarf. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -665,7 +665,7 @@
   "Outfit - Workshop Coveralls": {
     "name": "Outfit - Workshop Coveralls",
     "description": "👕 Outfit: Workshop Coveralls\nHeavy work coveralls worn open to the waist with the sleeves tied.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: Heavy canvas coveralls unzipped to the waist with the sleeves knotted around the hips, over a fitted dark tank top; reinforced knee pads, many pockets and steel-toed boots. The fabric carries grease smudges and small scorch marks, with no lettering or logos. Default colors: faded orange coveralls over a black tank top. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: Heavy canvas coveralls unzipped to the waist with the sleeves knotted around the hips, over a fitted dark tank top; reinforced knee pads, many pockets and steel-toed boots. The fabric carries grease smudges and small scorch marks, with no lettering or logos. Default colors: faded orange coveralls over a black tank top. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
@@ -678,7 +678,7 @@
   "Outfit - Dorm Loungewear": {
     "name": "Outfit - Dorm Loungewear",
     "description": "👕 Outfit: Dorm Loungewear\nSoft clothes for a night in: an oversized hoodie, sweatpants and slippers.\n\n🖼️ Portrait only: changes how your character looks, never your Quirk or stats.",
-    "traitNarrativeEffects": "Portrait: Off-duty dorm clothes: a soft oversized hoodie or long-sleeve T-shirt, loose drawstring sweatpants and indoor slippers or thick socks. Relaxed and slightly rumpled, no prints or lettering. Default colors: heather gray with one soft pastel. Cut openings for any established wings, tail or extra arms.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
+    "traitNarrativeEffects": "Portrait: Off-duty dorm clothes: a soft oversized hoodie or long-sleeve T-shirt, loose drawstring sweatpants and indoor slippers or thick socks. Relaxed and slightly rumpled, no prints or lettering. Default colors: heather gray with one soft pastel. Openings only for body features the character's own traits list.\n\nPortrait only: inventory and equipped items stay as they are. Keep the character's actual adult age, body plan and any Mutant features; the garment adds no Quirk effect, gear function, rank, license or affiliation. Respect the selected crop.",
     "attributes": [],
     "skills": [],
     "resources": [],
